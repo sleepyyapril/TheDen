@@ -558,6 +558,9 @@ namespace Content.Server.Atmos.EntitySystems
                     // therefore there is no more gas in the tile, therefore the tile should be as cold as space!
                     otherTile.Air.Temperature = Atmospherics.TCMB;
                 }
+
+                InvalidateVisuals(otherTile.GridIndex, otherTile.GridIndices, visuals);
+                HandleDecompressionFloorRip(mapGrid, otherTile, otherTile.MonstermosInfo.CurrentTransferAmount);
             }
 
             if (GridImpulse && tileCount > 0)
@@ -613,9 +616,8 @@ namespace Content.Server.Atmos.EntitySystems
 
             UpdateAdjacentTiles(ent, tile);
             UpdateAdjacentTiles(ent, other);
-
-            InvalidateVisuals(ent, tile);
-            InvalidateVisuals(ent, other);
+            InvalidateVisuals(tile.GridIndex, tile.GridIndices, ent);
+            InvalidateVisuals(other.GridIndex, other.GridIndices, ent);
         }
 
         private void FinalizeEq(
@@ -651,9 +653,9 @@ namespace Content.Server.Atmos.EntitySystems
 
                 otherTile.MonstermosInfo[i.ToOppositeDir()] = 0;
                 Merge(otherTile.Air, tile.Air.Remove(amount));
-                InvalidateVisuals(ent, tile);
-                InvalidateVisuals(ent, otherTile);
-                ConsiderPressureDifference(ent, tile);
+                InvalidateVisuals(tile.GridIndex, tile.GridIndices, visuals);
+                InvalidateVisuals(otherTile.GridIndex, otherTile.GridIndices, visuals);
+                ConsiderPressureDifference(gridAtmosphere, tile, direction, amount);
             }
         }
 
