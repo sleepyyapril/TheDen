@@ -111,29 +111,57 @@ namespace Content.Shared.Interaction
         /// </summary>
         private void OnBoundInterfaceInteractAttempt(BoundUserInterfaceMessageAttempt ev)
         {
-            var user = ev.Actor;
+            _uiQuery.TryComp(ev.Target, out var uiComp);
+            if (!_actionBlockerSystem.CanInteract(ev.Actor, ev.Target))
+            {
+                // We permit ghosts to open uis unless explicitly blocked
+                if (ev.Message is not OpenBoundInterfaceMessage || !HasComp<GhostComponent>(ev.Actor) || uiComp?.BlockSpectators == true)
+                {
+                    ev.Cancel();
+                    return;
+                }
+            }
 
-            if (!_actionBlockerSystem.CanInteract(user, ev.Target))
+            var range = _ui.GetUiRange(ev.Target, ev.UiKey);
+
+            // As long as range>0, the UI frame updates should have auto-closed the UI if it is out of range.
+            DebugTools.Assert(range <= 0 || UiRangeCheck(ev.Actor, ev.Target, range));
+
+            if (range <= 0 && !IsAccessible(ev.Actor, ev.Target))
             {
                 ev.Cancel();
                 return;
             }
 
-            // Check if the bound entity is accessible. Note that we allow admins to ignore this restriction, so that
-            // they can fiddle with UI's that people can't normally interact with (e.g., placing things directly into
-            // other people's backpacks).
-            if (!_containerSystem.IsInSameOrParentContainer(user, ev.Target)
-                && !CanAccessViaStorage(user, ev.Target)
-                && !_adminManager.HasAdminFlag(user, AdminFlags.Admin))
+            if (uiComp == null)
+                return;
+
+            if (uiComp.SingleUser && uiComp.CurrentSingleUser != null && uiComp.CurrentSingleUser != ev.Actor)
             {
                 ev.Cancel();
                 return;
             }
 
-            if (!InRangeUnobstructed(user, ev.Target))
-            {
+            if (!uiComp.RequireHands)
+                return;
+
+            if (!_handsQuery.TryComp(ev.Actor, out var hands) || hands.Hands.Count == 0)
                 ev.Cancel();
-            }
+        }
+
+        private bool UiRangeCheck(Entity<TransformComponent?> user, Entity<TransformComponent?> target, float range)
+        {
+            if (!Resolve(target, ref target.Comp))
+                return false;
+
+            if (user.Owner == target.Owner)
+                return true;
+
+            // Fast check: if the user is the parent of the entity (e.g., holding it), we always assume that it is in range
+            if (target.Comp.ParentUid == user.Owner)
+                return true;
+
+            return InRangeAndAccessible(user, target, range) || _ignoreUiRangeQuery.HasComp(user);
         }
 
         /// <summary>
