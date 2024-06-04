@@ -29,7 +29,7 @@ public sealed partial class LoadMapRuleComponent : Component
     public ProtoId<GameMapPrototype>? GameMap;
 
     /// <summary>
-    /// A map to load.
+    /// A map path to load on a new map.
     /// </summary>
     [DataField]
     public ResPath? MapPath;
