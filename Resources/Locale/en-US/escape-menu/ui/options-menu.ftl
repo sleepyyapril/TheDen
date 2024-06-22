@@ -1,15 +1,18 @@
 ## General stuff
 
 ui-options-title = Game Options
+ui-options-tab-accessibility = Accessibility
 ui-options-tab-graphics = Graphics
 ui-options-tab-controls = Controls
 ui-options-tab-audio = Audio
 ui-options-tab-network = Network
 ui-options-tab-misc = General
 
-ui-options-apply = Apply
-ui-options-reset-all = Reset All
-ui-options-default = Default
+ui-options-apply = Save & apply
+ui-options-reset-all = Reset changed
+ui-options-default = Reset to defaults
+
+ui-options-value-percent = { TOSTRING($value, "P0") }
 
 # Misc/General menu
 
@@ -44,9 +47,14 @@ ui-options-announcer-disable-multiple-sounds = Disable Overlapping Announcer Sou
 ui-options-announcer-disable-multiple-sounds-tooltip = Some announcements will not sound right, this setting isn't recommended
 ui-options-admin-sounds = Play Admin Sounds
 ui-options-volume-label = Volume
-ui-options-volume-percent = { TOSTRING($volume, "P0") }
 
 ## Graphics menu
+
+ui-options-display-label = Display
+ui-options-quality-label = Quality
+ui-options-misc-label = Misc
+ui-options-interface-label = Interface
+
 
 ui-options-show-held-item = Show held item next to cursor
 ui-options-show-combat-mode-indicators = Show combat mode indicators with cursor
@@ -88,7 +96,8 @@ ui-options-hud-theme-retro = Retro
 ui-options-hud-theme-minimalist = Minimalist
 ui-options-hud-theme-ashen = Ashen
 ui-options-vp-stretch = Stretch viewport to fit game window
-ui-options-vp-scale = Fixed viewport scale: x{ $scale }
+ui-options-vp-scale = Fixed viewport scale:
+ui-options-vp-scale-value = x{ $scale }
 ui-options-vp-integer-scaling = Prefer integer scaling (might cause black bars/clipping)
 ui-options-vp-integer-scaling-tooltip = If this option is enabled, the viewport will be scaled using an integer value
                                         at specific resolutions. While this results in crisp textures, it also often
