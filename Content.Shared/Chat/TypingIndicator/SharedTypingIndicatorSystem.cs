@@ -25,14 +25,12 @@ public abstract class SharedTypingIndicatorSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<PlayerAttachedEvent>(OnPlayerAttached);
-        SubscribeLocalEvent<TypingIndicatorComponent, PlayerDetachedEvent>(OnPlayerDetached);
-
         SubscribeLocalEvent<TypingIndicatorClothingComponent, ClothingGotEquippedEvent>(OnGotEquipped);
         SubscribeLocalEvent<TypingIndicatorClothingComponent, ClothingGotUnequippedEvent>(OnGotUnequipped);
         SubscribeLocalEvent<TypingIndicatorClothingComponent, InventoryRelayedEvent<BeforeShowTypingIndicatorEvent>>(BeforeShow);
 
         SubscribeAllEvent<TypingChangedEvent>(OnTypingChanged);
+
     }
 
     private void OnPlayerAttached(PlayerAttachedEvent ev)
@@ -43,20 +41,27 @@ public abstract class SharedTypingIndicatorSystem : EntitySystem
         EnsureComp<AppearanceComponent>(ev.Entity);
     }
 
-
     private void OnPlayerDetached(EntityUid uid, TypingIndicatorComponent component, PlayerDetachedEvent args)
     {
         // player left entity body - hide typing indicator
-        SetTypingIndicatorState(uid, TypingIndicatorState.None);
+        SetTypingIndicatorEnabled(uid, false);
     }
 
     private void OnGotEquipped(Entity<TypingIndicatorClothingComponent> entity, ref ClothingGotEquippedEvent args)
     {
+        if (!TryComp<TypingIndicatorComponent>(args.Wearer, out var indicator))
+            return;
+
+        indicator.Prototype = entity.Comp.TypingIndicatorPrototype;
         entity.Comp.GotEquippedTime = _timing.CurTime;
     }
 
     private void OnGotUnequipped(Entity<TypingIndicatorClothingComponent> entity, ref ClothingGotUnequippedEvent args)
     {
+        if (!TryComp<TypingIndicatorComponent>(args.Wearer, out var indicator))
+            return;
+
+        indicator.Prototype = InitialIndicatorId;
         entity.Comp.GotEquippedTime = null;
     }
 
@@ -91,5 +96,33 @@ public abstract class SharedTypingIndicatorSystem : EntitySystem
             return;
 
         _appearance.SetData(uid, TypingIndicatorVisuals.State, state, appearance);
+    }
+
+    private void OnTypingChanged(TypingChangedEvent ev, EntitySessionEventArgs args)
+    {
+        var uid = args.SenderSession.AttachedEntity;
+        if (!Exists(uid))
+        {
+            Log.Warning($"Client {args.SenderSession} sent TypingChangedEvent without an attached entity.");
+            return;
+        }
+
+        // check if this entity can speak or emote
+        if (!_actionBlocker.CanEmote(uid.Value) && !_actionBlocker.CanSpeak(uid.Value))
+        {
+            // nah, make sure that typing indicator is disabled
+            SetTypingIndicatorEnabled(uid.Value, false);
+            return;
+        }
+
+        SetTypingIndicatorEnabled(uid.Value, ev.IsTyping);
+    }
+
+    private void SetTypingIndicatorEnabled(EntityUid uid, bool isEnabled, AppearanceComponent? appearance = null)
+    {
+        if (!Resolve(uid, ref appearance, false))
+            return;
+
+        _appearance.SetData(uid, TypingIndicatorVisuals.IsTyping, isEnabled, appearance);
     }
 }
