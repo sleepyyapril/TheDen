@@ -75,6 +75,7 @@
       - FoodBurgerSuper
       - FoodBurgerCrazy
       - FoodPizzaArnoldSlice
+      - FoodPizzaUraniumSlice
       - FoodPizzaCorncobSlice # Nyanotrasen - Corncob Pizza
       - FoodTacoRat
     rareChance: 0.05
