@@ -26,7 +26,7 @@ public sealed class SpaceVillainArcadeBoundUserInterface : BoundUserInterface
         base.Open();
 
         _menu = new SpaceVillainArcadeMenu(this);
-
+        _menu.OnPlayerAction += SendAction;
         _menu.OnClose += Close;
         _menu.OpenCentered();
     }
