@@ -879,6 +879,8 @@ public sealed partial class ChatSystem : SharedChatSystem
     {
         var language = languageOverride ?? _language.GetLanguage(source);
         var targetHasLanguage = TryComp<LanguageSpeakerComponent>(source, out var languageSpeakerComponent);
+        var ignoreLanguage = channel.IsExemptFromLanguages();
+
         // Floof
         if (!ignoreLanguage && language.SpeechOverride.RequireHands
             // Sign language requires at least two complexly-interacting hands
