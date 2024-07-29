@@ -174,6 +174,11 @@ namespace Content.Server.GameTicking
             }
 
             var status = ready ? PlayerGameStatus.ReadyToPlay : PlayerGameStatus.NotReadyToPlay;
+            if (_playerGameStatuses[player.UserId] == status)
+            {
+                return;
+            }
+
             _playerGameStatuses[player.UserId] = ready ? PlayerGameStatus.ReadyToPlay : PlayerGameStatus.NotReadyToPlay;
             RaiseNetworkEvent(GetStatusMsg(player), player.Channel);
             // update server info to reflect new ready count
