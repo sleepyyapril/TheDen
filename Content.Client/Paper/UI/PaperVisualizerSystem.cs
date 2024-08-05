@@ -8,11 +8,11 @@
 
 using Robust.Client.GameObjects;
 
-using static Content.Shared.Paper.SharedPaperComponent;
+using static Content.Shared.Paper.PaperComponent;
 
-namespace Content.Client.Paper;
+namespace Content.Client.Paper.UI;
 
-public sealed class PaperSystem : VisualizerSystem<PaperVisualsComponent>
+public sealed class PaperVisualizerSystem : VisualizerSystem<PaperVisualsComponent>
 {
     protected override void OnAppearanceChange(EntityUid uid, PaperVisualsComponent component, ref AppearanceChangeEvent args)
     {
