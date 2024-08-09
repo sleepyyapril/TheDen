@@ -113,4 +113,10 @@ public enum LogType
     /// </summary>
     Storage = 93,
     Consent = 12489, // random high number to avoid conflict when upstream adds new log types,
+    
+    /// <summary>
+    /// A player got hit by an explosion and was dealt damage.
+    /// </summary>
+    ExplosionHit = 94,
+
 }
