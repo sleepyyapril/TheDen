@@ -112,7 +112,7 @@
     - id: WeaponRifleAk
       prob: 0.0001
       orGroup: Weapons
-    - id: Throngler
+    - id: ToyThrongler
       prob: 0.0001
       orGroup: Weapons
     - id: WeaponLauncherPirateCannon
@@ -324,6 +324,9 @@
       orGroup: Plushies
     - id: PlushieAlice # TheDen
       prob: 0.01
+      orGroup: Plushies
+    - id: PlushieThrongler #hehe
+      prob: 0.0005
       orGroup: Plushies
     #useful
     - id: AmeJar
