@@ -318,3 +318,12 @@
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:Container {}
+
+- type: entity
+  id: ClothingNeckCloakBear
+  name: druid cloak
+  description: This cloak has a wild-looking shape on it.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/bear.rsi
+
