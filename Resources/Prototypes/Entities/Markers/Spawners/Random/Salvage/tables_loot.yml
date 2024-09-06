@@ -238,7 +238,7 @@
     - id: ClothingEyesGlassesMeson
     - id: ClothingBeltSalvageWebbing
     - id: SeismicCharge
-#    - id: MineralScanner
+    - id: MineralScanner
       weight: 0.5
     - id: WeaponCrusher
       weight: 0.5
@@ -251,9 +251,9 @@
   id: SalvageEquipmentLegendary
   table: !type:GroupSelector
     children:
-#    - id: AdvancedMineralScanner
-#    - id: BlueprintFulton
-#    - id: BlueprintSeismicCharge
+    - id: AdvancedMineralScanner
+    - id: BlueprintFulton
+    - id: BlueprintSeismicCharge
     - id: WeaponCrusherGlaive
     - id: ClothingOuterHardsuitSalvage
     - id: OmnizineChemistryBottle
