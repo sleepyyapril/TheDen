@@ -4,6 +4,7 @@
     AloeSeeds: 3
     AmbrosiaVulgarisSeeds: 3
     AppleSeeds: 5
+    AvocadoSeeds: 5 # Frontier
     BananaSeeds: 5
     BeeSeeds: 5 # Frontier
     BerrySeeds: 5
@@ -15,6 +16,8 @@
     CherrySeeds: 5
     ChiliSeeds: 5
     CornSeeds: 5
+    CottonSeeds: 5
+    CucumberSeeds: 5 # Frontier
     EggplantSeeds: 5
     EggySeeds: 5
     GalaxythistleSeeds: 3
