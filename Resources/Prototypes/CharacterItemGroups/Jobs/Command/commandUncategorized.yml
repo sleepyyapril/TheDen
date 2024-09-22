@@ -5,10 +5,23 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 # All Command
-#- type: characterItemGroup
-#  id: LoadoutCommandBackpacks
-#  maxItems: 1
-#  items:
+- type: characterItemGroup
+  id: LoadoutCommandBackpacks
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutCommandVeteranBackpack #Imp
+    - type: loadout
+      id: LoadoutCommandVeteranSatchel #Imp
+    - type: loadout
+      id: LoadoutCommandVeteranDuffel #Imp
+
+- type: characterItemGroup
+  id: LoadoutCommandTrinkets
+  maxItems: 3
+  items:
+    - type: loadout
+      id: DrinkCommandFlaskFull
 
 #- type: characterItemGroup
 #  id: LoadoutCommandBelt
