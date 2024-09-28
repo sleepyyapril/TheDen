@@ -393,7 +393,9 @@ public sealed partial class ExplosionSystem : EntitySystem
             queued.CanCreateVacuum,
             EntityManager,
             _mapManager,
-            visualEnt);
+            visualEnt,
+            queued.Cause,
+            _map);
     }
 
     private void CameraShake(float range, MapCoordinates epicenter, float totalIntensity)
