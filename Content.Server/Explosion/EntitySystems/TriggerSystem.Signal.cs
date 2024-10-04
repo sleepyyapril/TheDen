@@ -28,11 +28,9 @@ namespace Content.Server.Explosion.EntitySystems
 
             SubscribeLocalEvent<SignalOnTriggerComponent, ComponentInit>(SignalOnTriggerInit);
             SubscribeLocalEvent<SignalOnTriggerComponent, TriggerEvent>(HandleSignalOnTrigger);
-        }
-        
-        private void TriggerOnSignalInit(EntityUid uid, TriggerOnSignalComponent component, ComponentInit args)
-        {
-            _signalSystem.EnsureSinkPorts(uid, component.Port);
+
+            SubscribeLocalEvent<TimerStartOnSignalComponent,SignalReceivedEvent>(OnTimerSignalReceived);
+            SubscribeLocalEvent<TimerStartOnSignalComponent,ComponentInit>(OnTimerSignalInit);
         }
 
         private void OnSignalReceived(EntityUid uid, TriggerOnSignalComponent component, ref SignalReceivedEvent args)
@@ -53,6 +51,18 @@ namespace Content.Server.Explosion.EntitySystems
         {
             _signalSystem.InvokePort(uid, component.Port);
             args.Handled = true;
+        }
+
+        private void OnTimerSignalReceived(EntityUid uid, TimerStartOnSignalComponent component, ref SignalReceivedEvent args)
+        {
+            if (args.Port != component.Port)
+                return;
+
+            StartTimer(uid, args.Trigger);
+        }
+        private void OnTimerSignalInit(EntityUid uid, TimerStartOnSignalComponent component, ComponentInit args)
+        {
+            _signalSystem.EnsureSinkPorts(uid, component.Port);
         }
     }
 }
