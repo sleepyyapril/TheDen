@@ -19,8 +19,24 @@
             "directions": 4
         },
         {
+<<<<<<< HEAD:Resources/Textures/Clothing/Eyes/Glasses/etherealgoogles.rsi/meta.json
             "name": "inhand-right",
             "directions": 4
+=======
+            "name": "alpha-slice-filling"
+        },
+        {
+            "name": "tin"
+        },
+        {
+            "name": "applecrisp"
+        },
+        {
+            "name": "applecrisp-slice"
+        },
+        {
+            "name": "pearandcheese"
+>>>>>>> 0eee6c2b72 (Honey (#2282)):Resources/Textures/_NF/Objects/Consumable/Food/Baked/pie.rsi/meta.json
         }
     ]
 }

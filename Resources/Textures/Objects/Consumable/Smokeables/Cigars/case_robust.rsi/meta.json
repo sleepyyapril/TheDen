@@ -1,7 +1,11 @@
 ﻿{
   "version": 1,
   "license": "CC-BY-SA-3.0",
+<<<<<<< HEAD:Resources/Textures/Objects/Consumable/Smokeables/Cigars/case_robust.rsi/meta.json
   "copyright": "Taken from NSV13 https://github.com/BeeStation/NSV13",
+=======
+  "copyright": "Avocado toast by gentlebutter (Discord). Bagel and BagelPoppy were created by DrEnzyme,challah and apple_strudel made by GhostPrince, edited by Dusty Lens and RichardRahl123 (Github)",
+>>>>>>> 0eee6c2b72 (Honey (#2282)):Resources/Textures/_NF/Objects/Consumable/Food/Baked/bread.rsi/meta.json
   "size": {
     "x": 32,
     "y": 32
@@ -33,8 +37,24 @@
       "directions": 4
     },
     {
+<<<<<<< HEAD:Resources/Textures/Objects/Consumable/Smokeables/Cigars/case_robust.rsi/meta.json
       "name": "inhand-right",
       "directions": 4
+=======
+        "name": "challah"
+    },
+    {
+        "name": "challahslice"
+    },
+    {
+        "name": "apple_strudel_1"
+    },
+    {
+        "name": "apple_strudel_2"
+    },
+    {
+        "name": "apple_strudel_3"
+>>>>>>> 0eee6c2b72 (Honey (#2282)):Resources/Textures/_NF/Objects/Consumable/Food/Baked/bread.rsi/meta.json
     }
   ]
 }

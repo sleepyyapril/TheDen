@@ -96,4 +96,26 @@
   - type: Construction
     graph: Coffee
     node: dark roasted coffee
-    defaultTarget: null
+    defaultTarget: Null # Overwriting light target
+
+- type: entity
+  parent: [ReagentPacketBase, ItemHeftyBase]
+  id: ReagentContainerHoney
+  name: honey bottle
+  description: A big squeeze bottle of honey. Great for sweetening up your day!
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
+    state: honeybottle
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Honey
+          Quantity: 30
+  - type: Drink
+    solution: food
+    useSound:
+      path: /Audio/Items/eating_1.ogg
+

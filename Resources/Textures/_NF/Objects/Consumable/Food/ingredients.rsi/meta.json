@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Frontier - salt/papper/cocoa-chip/raisin-big by ghostprince & gentlebutter, honeybottle by gentlebutter",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "salt-big"
+    },
+	{
+      "name": "pepper-big"
+    },
+    {
+      "name": "cocoa-chip-big"
+    },
+	{
+      "name": "raisin-big"
+    },
+	{
+      "name": "honeybottle"
+    }
+
+  ]
+}
