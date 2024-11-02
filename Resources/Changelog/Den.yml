@@ -13,3 +13,10 @@ Entries:
   id: 2
   time: '2024-11-01T16:45:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1
+- author: flyingkarii
+  changes:
+    - type: Add
+      message: Added fun :D
+  id: 3
+  time: '2024-11-02T10:42:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2
