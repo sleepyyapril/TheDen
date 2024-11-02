@@ -19,7 +19,7 @@ GITHUB_TOKEN      = os.environ["GITHUB_TOKEN"]
 
 # https://discord.com/developers/docs/resources/webhook
 DISCORD_SPLIT_LIMIT = 2000
-DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
+DISCORD_WEBHOOK_URL = os.environ.get("CHANGELOG_WEBHOOK")
 
 CHANGELOG_FILE = os.environ.get("CHANGELOG_DIR")
 
