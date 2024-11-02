@@ -1,0 +1,8 @@
+Entries:
+- author: sleepyapril
+  changes:
+    - message: Changelog!
+      type: Add
+  id: 1
+  time: '2024-01-07T03:23:53.0000000+00:00'
+  url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23654
