@@ -7,7 +7,13 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement # DeltaV - Civilian dept time requirement
       department: Civilian
-      min: 14400 # Floofstation 4 hours
+      min: 28800 # The Den - 8 hours
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobChef
+      min: 7200 # The Den - 2 hour
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobBotanist
+      min: 7200 # The Den - 2 hour
   weight: 10 # DeltaV - Changed HoP weight from 20 to 10 due to them not being more important than other Heads
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"

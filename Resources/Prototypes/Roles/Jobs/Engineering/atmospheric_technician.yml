@@ -6,7 +6,7 @@
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Engineering
-    min: 3600 # Floofstation - 1 hour
+    min: 14400 # The Den - 8 hours
   antagAdvantage: 10 # DeltaV - Reduced TC: External Access + Fireaxe + Free Hardsuit
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"

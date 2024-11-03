@@ -4,9 +4,9 @@
   description: job-description-ce
   playTimeTracker: JobChiefEngineer
   requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Engineering
-      min: 14400 # Floofstation - 4 hour
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobAtmosphericTechnician
+      min: 28800 # The Den - 8 hour
 #    - !type:OverallPlaytimeRequirement
 #      time: 72000 # DeltaV - 20 hours
   weight: 10

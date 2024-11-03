@@ -3,6 +3,10 @@
   name: job-name-doctor
   description: job-description-doctor
   playTimeTracker: JobMedicalDoctor
+  requirements:
+  - !type:CharacterPlaytimeRequirement
+    tracker: JobMedicalIntern
+    min: 7200 # The Den - 2 hour
   startingGear: DoctorGear
   icon: "JobIconMedicalDoctor"
   supervisors: job-supervisors-cmo

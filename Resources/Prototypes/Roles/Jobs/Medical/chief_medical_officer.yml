@@ -7,9 +7,9 @@
   playTimeTracker: JobChiefMedicalOfficer
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Medical
-      min: 14400 # Floofstation - 4 hour
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobChemist
+      min: 28800 # The Den - 8 hour
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"

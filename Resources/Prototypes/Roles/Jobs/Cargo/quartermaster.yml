@@ -8,9 +8,9 @@
   #  - !type:RoleTimeRequirement #DeltaV
   #    role: JobCargoTechnician
   #    time: 21600 #6 hrs
-    - !type:CharacterDepartmentTimeRequirement
-      department: Logistics # DeltaV - Logistics Department replacing Cargo
-      min: 14400 #Floofstation 4 hour
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobSalvageSpecialist # DeltaV - Logistics Department replacing Cargo
+      min: 7200 # The Den - 2 hour
   weight: 10
   startingGear: QuartermasterGear
   icon: "JobIconQuarterMaster"
