@@ -20,3 +20,10 @@ Entries:
   id: 3
   time: '2024-11-02T10:42:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2
+- author: flyingkarii
+  changes:
+    - type: Remove
+      message: Removed xeno friends
+  id: 4
+  time: '2024-11-03T03:55:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/4
