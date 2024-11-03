@@ -5,7 +5,7 @@
   playTimeTracker: JobChemist
   requirements:
   - !type:CharacterPlaytimeRequirement
-    department: JobMedicalDoctor
+    tracker: JobMedicalDoctor
     min: 14400 # The Den - 4 hour
   startingGear: ChemistGear
   icon: "JobIconChemist"
