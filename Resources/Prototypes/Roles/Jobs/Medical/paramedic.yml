@@ -3,6 +3,10 @@
   name: job-name-paramedic
   description: job-description-paramedic
   playTimeTracker: JobParamedic
+  requirements:
+  - !type:CharacterPlaytimeRequirement
+    tracker: JobMedicalIntern
+    min: 7200 # The Den - 2 hour
   antagAdvantage: 2 # DeltaV - Reduced TC: External Access
   startingGear: ParamedicGear
   icon: "JobIconParamedic"

@@ -5,8 +5,8 @@
   playTimeTracker: JobWarden
   requirements:
     - !type:CharacterPlaytimeRequirement # DeltaV - JobSecurityOfficer time requirement. Make them experienced in proper officer work.
-      tracker: JobSecurityOfficer
-      min: 3600 # Floofstation - 1 hour
+      tracker: JobDetective
+      min: 7200 # Floofstation - 1 hour
   startingGear: WardenGear
   icon: "JobIconWarden"
   supervisors: job-supervisors-hos

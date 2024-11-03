@@ -3,6 +3,10 @@
   name: job-name-chemist
   description: job-description-chemist
   playTimeTracker: JobChemist
+  requirements:
+  - !type:CharacterPlaytimeRequirement
+    tracker: JobMedicalDoctor
+    min: 14400 # The Den - 4 hour
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo
