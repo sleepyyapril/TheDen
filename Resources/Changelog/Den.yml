@@ -27,3 +27,10 @@ Entries:
   id: 4
   time: '2024-11-03T03:55:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/4
+- author: flyingkarii
+  changes:
+    - type: Tweak
+      message: Updated playtimes
+  id: 5
+  time: '2024-11-03T03:58:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/5
