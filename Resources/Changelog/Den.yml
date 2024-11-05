@@ -57,3 +57,24 @@ Entries:
   id: 8
   time: '2024-11-05T06:43:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/8
+- author: sleepyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Kill random person objective now only requires you to have the target
+        die once, removing the need for round removal.
+    - type: Tweak
+      message: >-
+        Kill random command member objective is now the only objective that
+        requires you to kill someone permanently.
+    - type: Remove
+      message: >-
+        Objectives to steal the expeditions console board, salvage console
+        board, and handheld crew monitor have been removed.
+    - type: Remove
+      message: >-
+        Removed maroon as a part of the kill random person objective as you can
+        now simply wait for them to die on their own.
+  id: 9
+  time: '2024-11-05T23:08:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/11
