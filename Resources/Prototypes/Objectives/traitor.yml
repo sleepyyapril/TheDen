@@ -102,7 +102,7 @@
   noSpawn: true
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomPersonObjective
-  description: They only need to die once, do it however you'd like.
+  description: Ensure they learn what death feels like; it does not matter if they are revived.
   components:
   - type: Objective
     difficulty: 1.75
