@@ -34,3 +34,12 @@ Entries:
   id: 5
   time: '2024-11-03T03:58:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/5
+- author: sleepyapril
+  changes:
+    - type: Remove
+      message: Removed Gax
+    - type: Remove
+      message: Removed Rad
+  id: 6
+  time: '2024-11-05T03:33:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/6
