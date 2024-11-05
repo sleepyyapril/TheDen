@@ -43,3 +43,17 @@ Entries:
   id: 6
   time: '2024-11-05T03:33:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/6
+- author: flyingkarii
+  changes:
+    - type: Tweak
+      message: Changed Arena, Asterisk, and Core chemist areas (two hotplates + more)
+  id: 7
+  time: '2024-11-05T06:23:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/7
+- author: KyuPolaris
+  changes:
+    - type: Fix
+      message: Put actual prescription lenses in the prescription medhuds and sechuds
+  id: 8
+  time: '2024-11-05T06:43:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/8
