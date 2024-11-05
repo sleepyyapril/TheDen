@@ -5,7 +5,7 @@
   playTimeTracker: JobProsecutor
   requirements:
     - !type:DepartmentTimeRequirement
-      medical: Security
+      department: Security
       min: 7200 # 2 hours
   startingGear: ProsecutorGear
   icon: "JobIconProsecutor"
