@@ -55777,10 +55777,10 @@ entities:
     - type: Transform
       pos: 55.5,-42.5
       parent: 6747
-  - uid: 25326
+  - uid: 25583
     components:
     - type: Transform
-      pos: 9.5,-25.5
+      pos: 9.5,-26.5
       parent: 6747
 - proto: ChurchOrganInstrument
   entities:
@@ -71400,6 +71400,17 @@ entities:
     - type: Transform
       pos: -2.5337257,-27.544321
       parent: 6747
+- proto: ElectrolysisUnitMachineCircuitboard
+  entities:
+  - uid: 25326
+    components:
+    - type: Transform
+      parent: 26933
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: EmergencyLight
   entities:
   - uid: 3690
@@ -119060,8 +119071,11 @@ entities:
   - uid: 19806
     components:
     - type: Transform
-      pos: 9.50197,-25.527895
+      pos: 9.437541,-26.294256
       parent: 6747
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
   - uid: 23922
     components:
     - type: Transform
@@ -120564,9 +120578,10 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - 6438
-          - 6448
           - 5865
+          - 6448
+          - 25326
+          - 6438
         paper_label: !type:ContainerSlot
           showEnts: False
           occludes: True
@@ -121008,13 +121023,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -9.5,-87.5
-      parent: 6747
-- proto: ChemistryHotplate
-  entities:
-  - uid: 25583
-    components:
-    - type: Transform
-      pos: 9.5,-26.5
       parent: 6747
 - proto: MachineFrame
   entities:
@@ -155598,11 +155606,6 @@ entities:
     components:
     - type: Transform
       pos: -23.5,-50.5
-      parent: 6747
-  - uid: 27329
-    components:
-    - type: Transform
-      pos: 9.5,-25.5
       parent: 6747
 - proto: TableStone
   entities:
