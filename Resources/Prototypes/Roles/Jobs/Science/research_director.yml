@@ -7,7 +7,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Epistemics # DeltaV - Epistemics Department replacing Science
-      min: 14400 # Floofstation - 4 hour
+      min: 28800 # The Den - 8 hour
     - !type:CharacterLogicOrRequirement
       requirements:
         - !type:CharacterSpeciesRequirement

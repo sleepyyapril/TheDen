@@ -7,7 +7,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      min: 3600 # Floofstation - 1 hour
+      min: 360000 # Floofstation - 1 hour
   startingGear: SeniorOfficerGear
   icon: "JobIconSeniorOfficer"
   supervisors: job-supervisors-hos
