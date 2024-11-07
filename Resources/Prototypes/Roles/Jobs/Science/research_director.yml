@@ -5,6 +5,12 @@
   playTimeTracker: JobResearchDirector
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobChaplain
+      min: 14400 # The Den - 4 hour
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobForensicMantis
+      min: 14400 # The Den - 4 hour
     - !type:CharacterDepartmentTimeRequirement
       department: Epistemics # DeltaV - Epistemics Department replacing Science
       min: 28800 # The Den - 8 hour
