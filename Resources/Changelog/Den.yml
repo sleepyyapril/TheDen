@@ -128,3 +128,10 @@ Entries:
   id: 15
   time: '2024-11-07T17:15:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/18
+- author: kc the sheep
+  changes:
+    - type: Remove
+      message: Removed random sex toy spawns in Maint Lockers
+  id: 16
+  time: '2024-11-07T18:05:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/20
