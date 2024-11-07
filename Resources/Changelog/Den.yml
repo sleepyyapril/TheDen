@@ -94,3 +94,14 @@ Entries:
   id: 11
   time: '2024-11-07T04:17:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/14
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added a large oxygen gas miner to Shoukou
+    - type: Tweak
+      message: Changed the Shoukou nitrogen gas miner to a large gas miner.
+    - type: Tweak
+      message: Changed Shoukou chemistry to have two hotplates.
+  id: 12
+  time: '2024-11-07T16:37:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/16
