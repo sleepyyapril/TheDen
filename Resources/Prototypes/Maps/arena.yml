@@ -1,7 +1,7 @@
 - type: gameMap
   id: Arena
   mapName: 'Arena'
-  mapPath: /Maps/TheDen/arena.yml # Floofstation
+  mapPath: /Maps/TheDen/arena.yml # The Den
   minPlayers: 30
   maxPlayers: 80
   stations:
