@@ -121,3 +121,10 @@ Entries:
   id: 14
   time: '2024-11-07T16:58:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/17
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Changed Mystagogue playtime requirements.
+  id: 15
+  time: '2024-11-07T17:15:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/18
