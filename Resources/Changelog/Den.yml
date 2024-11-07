@@ -105,3 +105,12 @@ Entries:
   id: 12
   time: '2024-11-07T16:37:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/16
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Moved Edge's ChemDispenser next to the ChemMaster
+    - type: Remove
+      message: Removed pre-existing Edge atmos.
+  id: 13
+  time: '2024-11-07T16:37:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/15
