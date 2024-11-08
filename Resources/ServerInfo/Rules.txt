@@ -84,26 +84,24 @@ Slurs are also strictly prohibited.
 
 2.1 Do not use the Emote channel to bypass an inability to speak.
 
-2.2 Use of the emote channel to simulate character death rattles or other game mechanics is prohibited.
+2.2 Use the local-out-of-character (LOOC) and global out-of-character (OOC) channels properly. Don't speak of in-character matters in those channels unless you're asking questions related to ingame concepts
 
-2.3 Use the local-out-of-character (LOOC) and global out-of-character (OOC) channels properly. Don't speak of in-character matters in those channels unless you're asking questions related to ingame concepts
+2.3 Do not use in-character channels to bypass a lack of ability to use OOC/LOOC chats (e.g. "Huh, wonder where the captain went? OOC He probably left to get dinner lol").
 
-2.4 Do not use in-character channels to bypass a lack of ability to use OOC/LOOC chats (e.g. "Huh, wonder where the captain went? OOC He probably left to get dinner lol").
+2.4 Do not use any information gained by meta-communication (i.e. using external channels to communicate with other players in the same game) to your advantage.
 
-2.5 Do not use any information gained by meta-communication (i.e. using external channels to communicate with other players in the same game) to your advantage.
+2.5 Discussion about the current round is allowed on the Den's Discord server (albeit discouraged for the purpose of MRP). However, acting on information gained by this method is strictly forbidden.
 
-2.6 Discussion about the current round is allowed on the Den's Discord server (albeit discouraged for the purpose of MRP). However, acting on information gained by this method is strictly forbidden.
-
-2.7 You are allowed to have knowledge of past experiences and prior shifts, and players are allowed to have in-character relationships (friends, enemies, or otherwise).
+2.6 You are allowed to have knowledge of past experiences and prior shifts, and players are allowed to have in-character relationships (friends, enemies, or otherwise).
 This rules follows rule 0.
 
-2.8 Antagonists in previous rounds must not be treated differently due to their prior antagonist status. Notwithstanding, confession of crimes committed in a prior shift are still admissible in court.
+2.7 Antagonists in previous rounds must not be treated differently due to their prior antagonist status. Notwithstanding, confession of crimes committed in a prior shift are still admissible in court.
 
-2.9 For the sake of continuity, your character will never have permanently died in previous rounds (unless you wish to roleplay this concept out).
+2.8 For the sake of continuity, your character will never have permanently died in previous rounds (unless you wish to roleplay this concept out).
 
-2.10 Do NOT "antag roll." This is the act of joining rounds for the purpose of seeing if you have received an antagonist role, and leaving soon after if not.
+2.9 Do NOT "antag roll." This is the act of joining rounds for the purpose of seeing if you have received an antagonist role, and leaving soon after if not.
 
-2.11 Act like an actual person on a space station, and don’t use text speech or emoticons when speaking in character.
+2.10 Act like an actual person on a space station, and don’t use text speech or emoticons when speaking in character.
 
 [bold]3. Follow new-life rules:[/bold]
 
