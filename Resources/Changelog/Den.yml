@@ -149,3 +149,10 @@ Entries:
   id: 18
   time: '2024-11-08T05:23:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/21
+- author: squirrelanna
+  changes:
+    - type: Tweak
+      message: Reenabled item quick swapping for batteries and such.
+  id: 19
+  time: '2024-11-08T09:43:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/24
