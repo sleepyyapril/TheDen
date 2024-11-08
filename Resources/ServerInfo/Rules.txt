@@ -52,6 +52,7 @@ Slurs are also strictly prohibited.
 0.1 If you have a valid, logical, and well-roleplayed in-character reason for actions that break a server rule, you may be forgiven for your rulebreak IF the rule has "Follows rule 0" under it.
 0.2 As an example, you [bold]may[/bold] kill a person who killed your partner, so long as it is a one-attempt situation. 
 0.3 This rule applies only until after your first attempt in applying it. For example, if you fail to kill the person who killed your partner, you are to stop all attempts at playing out rule 0. 
+0.4 This rule [bold]requires[/bold] consent. If you fail to ask for consent from the other party or parties, the rules violations will be taken as they are.
 
 [bold]1. Follow the server expectations:[/bold]
 
