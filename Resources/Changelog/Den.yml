@@ -142,3 +142,10 @@ Entries:
   id: 17
   time: '2024-11-08T05:19:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/22
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Removed the Anomaly job
+  id: 18
+  time: '2024-11-08T05:23:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/21
