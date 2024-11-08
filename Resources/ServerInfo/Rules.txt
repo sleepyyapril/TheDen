@@ -1,9 +1,9 @@
 [bold][head=1][color=#b185ff]The Den's Server Rules[/color]
 Please ensure you're reading the most up-to-date version of the rules: https://denstation.net/rules
 
-WARNING: You MUST be at least 18 years of age to play on The Den.
+WARNING: You MUST be at least 19 years of age to play on The Den.
 
-Any user suspected of being under the age of 18 WILL be removed until they are of age.
+Any user suspected of being under the age of 19 WILL be removed until they are of age.
 
 Intentionally disconnecting, responding with hostility, or refusing to respond when an admin privately messages you in-game will be met with an appeal-only ban. Additionally, abusing the AHelp relay by flooding it with garbage, checking for admins before stating a problem (ex: "hello?", "any admins?"), using it as a chatroom, or sending messages of no substance will result in your removal.
 
