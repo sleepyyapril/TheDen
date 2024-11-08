@@ -417,7 +417,7 @@ namespace Content.Shared.CCVar
         ///     Whether item slots, such as power cell slots or AME fuel cell slots, should support quick swap if it is not otherwise specified in their YAML prototype.
         /// </summary>
         public static readonly CVarDef<bool> AllowSlotQuickSwap =
-            CVarDef.Create("game.slot_quick_swap", false, CVar.REPLICATED);
+            CVarDef.Create("game.slot_quick_swap", true, CVar.REPLICATED);
 
 #if EXCEPTION_TOLERANCE
         /// <summary>
@@ -2062,13 +2062,13 @@ namespace Content.Shared.CCVar
          */
 
         /// <summary>
-        /// Time that players have to wait before rules can be accepted.
+        ///     Time that players have to wait before rules can be accepted.
         /// </summary>
         public static readonly CVarDef<float> RulesWaitTime =
-            CVarDef.Create("rules.time", 60f, CVar.SERVER | CVar.REPLICATED);
+            CVarDef.Create("rules.time", 10f, CVar.SERVER | CVar.REPLICATED);
 
         /// <summary>
-        /// Don't show rules to localhost/loopback interface.
+        ///     Don't show rules to localhost/loopback interface.
         /// </summary>
         public static readonly CVarDef<bool> RulesExemptLocal =
             CVarDef.Create("rules.exempt_local", true, CVar.SERVERONLY);
@@ -2640,5 +2640,11 @@ namespace Content.Shared.CCVar
             CVarDef.Create("ghost.allow_same_character", false, CVar.SERVERONLY);
 
         #endregion
+
+        /// <summary>
+        /// Set to true to disable parallel processing in the pow3r solver.
+        /// </summary>
+        public static readonly CVarDef<bool> DebugPow3rDisableParallel =
+            CVarDef.Create("debug.pow3r_disable_parallel", true, CVar.SERVERONLY);
     }
 }

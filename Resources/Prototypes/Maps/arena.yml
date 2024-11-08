@@ -1,7 +1,7 @@
 - type: gameMap
   id: Arena
   mapName: 'Arena'
-  mapPath: /Maps/Floof/arena.yml # Floofstation
+  mapPath: /Maps/TheDen/arena.yml # The Den
   minPlayers: 30
   maxPlayers: 80
   stations:
@@ -18,9 +18,8 @@
         - type: StationJobs
           overflowJobs:
             - Passenger
-            #- Anomaly # Floofstation
+
           availableJobs:
-            Anomaly: [ 4, 4 ] # Floofstation
           #civilian
             Passenger: [ -1, -1 ]
             Librarian: [ 1, 1 ]

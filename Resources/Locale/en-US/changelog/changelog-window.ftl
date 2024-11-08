@@ -14,3 +14,4 @@ changelog-tab-title-Changelog = Einstein Engines
 changelog-tab-title-Admin = Einstein Engines Admin
 
 changelog-tab-title-Floof = Floof Station
+changelog-tab-title-Den = The Den's Logs

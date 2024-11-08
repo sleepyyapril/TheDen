@@ -14,12 +14,12 @@
     sprite: Objects/Specific/Medical/hypospray.rsi
     state: hypo
 
-- type: stealTargetGroup
-  id: HandheldCrewMonitor
-  name: handheld crew monitor
-  sprite:
-    sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
-    state: scanner
+# - type: stealTargetGroup
+#   id: HandheldCrewMonitor
+#   name: handheld crew monitor
+#   sprite:
+#     sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
+#     state: scanner
 
 - type: stealTargetGroup
   id: ClothingOuterHardsuitRd
@@ -237,12 +237,12 @@
     sprite: Objects/Devices/flatpack.rsi
     state: ame-part
 
-- type: stealTargetGroup
-  id: SalvageExpeditionsComputerCircuitboard
-  name: salvage expeditions computer board
-  sprite:
-    sprite: Objects/Misc/module.rsi
-    state: cpu_supply
+# - type: stealTargetGroup
+#   id: SalvageExpeditionsComputerCircuitboard
+#   name: salvage expeditions computer board
+#   sprite:
+#     sprite: Objects/Misc/module.rsi
+#     state: cpu_supply
 
 - type: stealTargetGroup
   id: CargoShuttleConsoleCircuitboard
@@ -251,12 +251,12 @@
     sprite: Objects/Misc/module.rsi
     state: cpuboard
 
-- type: stealTargetGroup
-  id: SalvageShuttleConsoleCircuitboard
-  name: salvage shuttle console board
-  sprite:
-    sprite: Objects/Misc/module.rsi
-    state: cpuboard
+# - type: stealTargetGroup
+#   id: SalvageShuttleConsoleCircuitboard
+#   name: salvage shuttle console board
+#   sprite:
+#     sprite: Objects/Misc/module.rsi
+#     state: cpuboard
 
 - type: stealTargetGroup
   id: ClothingEyesHudBeer

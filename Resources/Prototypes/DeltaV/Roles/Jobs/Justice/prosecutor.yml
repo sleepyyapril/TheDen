@@ -4,8 +4,9 @@
   description: job-description-prosecutor
   playTimeTracker: JobProsecutor
   requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 36000 # 10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Security
+      min: 7200 # 2 hours
   startingGear: ProsecutorGear
   icon: "JobIconProsecutor"
   supervisors: job-supervisors-cj

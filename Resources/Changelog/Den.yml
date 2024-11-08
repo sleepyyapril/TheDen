@@ -6,31 +6,153 @@ Entries:
   id: 1
   time: '2024-01-07T03:23:53.0000000+00:00'
   url: https://api.github.com/repos/space-wizards/space-station-14/pulls/23654
-- author: flyingkarii
+- author: sleepyapril
   changes:
     - type: Add
       message: Added fun :D
   id: 2
   time: '2024-11-01T16:45:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1
-- author: flyingkarii
+- author: sleepyapril
   changes:
     - type: Add
       message: Added fun :D
   id: 3
   time: '2024-11-02T10:42:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2
-- author: flyingkarii
+- author: sleepyapril
   changes:
     - type: Remove
       message: Removed xeno friends
   id: 4
   time: '2024-11-03T03:55:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/4
-- author: flyingkarii
+- author: sleepyapril
   changes:
     - type: Tweak
       message: Updated playtimes
   id: 5
   time: '2024-11-03T03:58:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/5
+- author: sleepyapril
+  changes:
+    - type: Remove
+      message: Removed Gax
+    - type: Remove
+      message: Removed Rad
+  id: 6
+  time: '2024-11-05T03:33:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/6
+- author: sleepyapril
+  changes:
+    - type: Tweak
+      message: Changed Arena, Asterisk, and Core chemist areas (two hotplates + more)
+  id: 7
+  time: '2024-11-05T06:23:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/7
+- author: KyuPolaris
+  changes:
+    - type: Fix
+      message: Put actual prescription lenses in the prescription medhuds and sechuds
+  id: 8
+  time: '2024-11-05T06:43:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/8
+- author: sleepyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Kill random person objective now only requires you to have the target
+        die once, removing the need for round removal.
+    - type: Tweak
+      message: >-
+        Kill random command member objective is now the only objective that
+        requires you to kill someone permanently.
+    - type: Remove
+      message: >-
+        Objectives to steal the expeditions console board, salvage console
+        board, and handheld crew monitor have been removed.
+    - type: Remove
+      message: >-
+        Removed maroon as a part of the kill random person objective as you can
+        now simply wait for them to die on their own.
+  id: 9
+  time: '2024-11-05T23:08:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/11
+- author: sleepyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Dragon rifts and nuke arming messages now use landmarks, such as "near
+        Vault."
+  id: 10
+  time: '2024-11-07T02:20:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/13
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed power flickers.
+  id: 11
+  time: '2024-11-07T04:17:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/14
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added a large oxygen gas miner to Shoukou
+    - type: Tweak
+      message: Changed the Shoukou nitrogen gas miner to a large gas miner.
+    - type: Tweak
+      message: Changed Shoukou chemistry to have two hotplates.
+  id: 12
+  time: '2024-11-07T16:37:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/16
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Moved Edge's ChemDispenser next to the ChemMaster
+    - type: Remove
+      message: Removed pre-existing Edge atmos.
+  id: 13
+  time: '2024-11-07T16:37:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/15
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Removed default captain hat
+  id: 14
+  time: '2024-11-07T16:58:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/17
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Changed Mystagogue playtime requirements.
+  id: 15
+  time: '2024-11-07T17:15:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/18
+- author: kc the sheep
+  changes:
+    - type: Remove
+      message: Removed random sex toy spawns in Maint Lockers
+  id: 16
+  time: '2024-11-07T18:05:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/20
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Several rules adjustments.
+  id: 17
+  time: '2024-11-08T05:19:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/22
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Removed the Anomaly job
+  id: 18
+  time: '2024-11-08T05:23:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/21
+- author: squirrelanna
+  changes:
+    - type: Tweak
+      message: Reenabled item quick swapping for batteries and such.
+  id: 19
+  time: '2024-11-08T09:43:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/24

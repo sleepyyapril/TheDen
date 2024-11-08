@@ -1,11 +1,24 @@
+using Content.Server.CriminalRecords.Systems;
+using Content.Server.GameTicking;
+using Content.Server.KillTracking;
 using Content.Server.Objectives.Components;
+using Content.Server.Players;
 using Content.Server.Shuttles.Systems;
+using Content.Server.Station.Systems;
+using Content.Server.StationRecords.Systems;
 using Content.Shared.CCVar;
+using Content.Shared.CriminalRecords;
+using Content.Shared.IdentityManagement;
 using Content.Shared.Mind;
 using Content.Shared.Objectives.Components;
 using Content.Shared.Roles.Jobs;
+using Content.Shared.Security;
+using Content.Shared.StationRecords;
+using Robust.Server.Player;
 using Robust.Shared.Configuration;
+using Robust.Shared.Player;
 using Robust.Shared.Random;
+using System.Linq;
 
 namespace Content.Server.Objectives.Systems;
 
@@ -21,6 +34,8 @@ public sealed class KillPersonConditionSystem : EntitySystem
     [Dependency] private readonly SharedMindSystem _mind = default!;
     [Dependency] private readonly TargetObjectiveSystem _target = default!;
 
+    private List<EntityUid> _wasKilled = new();
+
     public override void Initialize()
     {
         base.Initialize();
@@ -30,6 +45,8 @@ public sealed class KillPersonConditionSystem : EntitySystem
         SubscribeLocalEvent<PickRandomPersonComponent, ObjectiveAssignedEvent>(OnPersonAssigned);
 
         SubscribeLocalEvent<PickRandomHeadComponent, ObjectiveAssignedEvent>(OnHeadAssigned);
+
+        SubscribeLocalEvent<RoundEndedEvent>(OnRoundEnd);
     }
 
     private void OnGetProgress(EntityUid uid, KillPersonConditionComponent comp, ref ObjectiveGetProgressEvent args)
@@ -109,29 +126,26 @@ public sealed class KillPersonConditionSystem : EntitySystem
     {
         // deleted or gibbed or something, counts as dead
         if (!TryComp<MindComponent>(target, out var mind) || mind.OwnedEntity == null)
+        {
+            if (!requireDead && !_wasKilled.Contains(target)) _wasKilled.Add(target);
             return 1f;
+        }
 
         // dead is success
         if (_mind.IsCharacterDeadIc(mind))
+        {
+            if (!requireDead && !_wasKilled.Contains(target)) _wasKilled.Add(target);
+            return 1f;
+        }
+
+        // if the target was killed once and it isn't a head objective
+        if (_wasKilled.Contains(target))
             return 1f;
 
-        // if the target has to be dead dead then don't check evac stuff
-        if (requireDead)
-            return 0f;
-
-        // if evac is disabled then they really do have to be dead
-        if (!_config.GetCVar(CCVars.EmergencyShuttleEnabled))
-            return 0f;
-
-        // target is escaping so you fail
-        if (_emergencyShuttle.IsTargetEscaping(mind.OwnedEntity.Value))
-            return 0f;
-
-        // evac has left without the target, greentext since the target is afk in space with a full oxygen tank and coordinates off.
-        if (_emergencyShuttle.ShuttlesLeft)
-            return 1f;
-
-        // if evac is still here and target hasn't boarded, show 50% to give you an indicator that you are doing good
-        return _emergencyShuttle.EmergencyShuttleArrived ? 0.5f : 0f;
+        return 0f;
     }
+
+    // Clear the wasKilled list on round end
+    private void OnRoundEnd(RoundEndedEvent ev)
+        => _wasKilled.Clear();
 }

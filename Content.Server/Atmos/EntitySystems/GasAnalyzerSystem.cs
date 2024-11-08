@@ -67,6 +67,7 @@ namespace Content.Server.Atmos.EntitySystems
                 _popup.PopupEntity(Loc.GetString("gas-analyzer-component-player-cannot-reach-message"), args.User, args.User);
                 return;
             }
+
             ActivateAnalyzer(uid, component, args.User, args.Target);
             OpenUserInterface(uid, args.User, component);
             args.Handled = true;
@@ -93,7 +94,8 @@ namespace Content.Server.Atmos.EntitySystems
             else
                 component.LastPosition = null;
             component.Enabled = true;
-            Dirty(component);
+
+            Dirty(uid, component);
             UpdateAppearance(uid, component);
             EnsureComp<ActiveGasAnalyzerComponent>(uid);
             UpdateAnalyzer(uid, component);
