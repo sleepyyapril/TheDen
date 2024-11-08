@@ -18,9 +18,7 @@
         - type: StationJobs
           overflowJobs:
             - Passenger
-            #- Anomaly
           availableJobs:
-            Anomaly: [ 4, 4 ] # Floofstation
             # Service
             Bartender: [ 2, 3 ]
             Botanist: [ 2, 4]
