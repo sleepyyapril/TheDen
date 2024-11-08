@@ -85529,13 +85529,6 @@ entities:
     - type: Transform
       pos: -1.5,38.5
       parent: 2
-- proto: PortalShadowkinSpawner
-  entities:
-  - uid: 17431
-    components:
-    - type: Transform
-      pos: -58.5,31.5
-      parent: 2
 - proto: PosterBroken
   entities:
   - uid: 12796

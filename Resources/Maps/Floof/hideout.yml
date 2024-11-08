@@ -6390,13 +6390,6 @@ entities:
     - type: Transform
       pos: -10.365437,6.5959682
       parent: 2
-- proto: PortalShadowkinHub
-  entities:
-  - uid: 1000
-    components:
-    - type: Transform
-      pos: 0.5,0.5
-      parent: 2
 - proto: PottedPlantRandom
   entities:
   - uid: 1001

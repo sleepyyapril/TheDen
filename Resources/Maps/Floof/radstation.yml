@@ -112770,13 +112770,6 @@ entities:
     - type: Transform
       pos: 38.5,-48.5
       parent: 2
-- proto: PortalShadowkinSpawner
-  entities:
-  - uid: 23985
-    components:
-    - type: Transform
-      pos: -23.5,-13.5
-      parent: 2
 - proto: PosterContrabandClown
   entities:
   - uid: 16467

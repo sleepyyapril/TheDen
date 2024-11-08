@@ -92815,13 +92815,6 @@ entities:
     - type: Transform
       pos: -4.5,19.5
       parent: 2
-- proto: PortalShadowkinSpawner
-  entities:
-  - uid: 19625
-    components:
-    - type: Transform
-      pos: 43.5,65.5
-      parent: 2
 - proto: PosterContrabandBorgFancy
   entities:
   - uid: 13555

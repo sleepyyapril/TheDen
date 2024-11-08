@@ -125554,13 +125554,6 @@ entities:
     - type: Transform
       pos: -7.478744,40.5748
       parent: 2
-- proto: PortalShadowkinSpawner
-  entities:
-  - uid: 26548
-    components:
-    - type: Transform
-      pos: 60.5,-28.5
-      parent: 2
 - proto: PosterContrabandAtmosiaDeclarationIndependence
   entities:
   - uid: 18295

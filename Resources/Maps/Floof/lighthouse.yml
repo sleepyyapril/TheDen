@@ -92509,18 +92509,6 @@ entities:
     - type: Transform
       pos: 30.5,31.5
       parent: 2
-- proto: PortalShadowkinSpawner
-  entities:
-  - uid: 20855
-    components:
-    - type: Transform
-      pos: 20.5,-45.5
-      parent: 2
-  - uid: 20856
-    components:
-    - type: Transform
-      pos: 36.5,-5.5
-      parent: 2
 - proto: PosterBroken
   entities:
   - uid: 13605

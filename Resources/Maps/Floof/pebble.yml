@@ -52306,13 +52306,6 @@ entities:
     - type: Transform
       pos: 17.5,27.5
       parent: 2
-- proto: PortalShadowkinSpawner
-  entities:
-  - uid: 11032
-    components:
-    - type: Transform
-      pos: 26.5,-10.5
-      parent: 2
 - proto: PosterBroken
   entities:
   - uid: 7914

@@ -129908,18 +129908,6 @@ entities:
     - type: Transform
       pos: -45.5,-81.5
       parent: 2
-- proto: PortalShadowkinSpawner
-  entities:
-  - uid: 27827
-    components:
-    - type: Transform
-      pos: -55.5,19.5
-      parent: 2
-  - uid: 27828
-    components:
-    - type: Transform
-      pos: -25.5,-73.5
-      parent: 2
 - proto: PosterBroken
   entities:
   - uid: 19434
