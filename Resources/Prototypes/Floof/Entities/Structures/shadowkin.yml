@@ -1,19 +1,4 @@
 - type: entity
-  id: DarkTile
-  parent: BaseStructure
-  name: Dark
-  description: "It's a strange, impenetrable darkness."
-  components:
-  - type: Sprite
-    drawdepth: FloorTiles
-    sprite: Floof/Structures/dark.rsi
-    state: dark
-    shader: unshaded
-  - type: Physics
-    canCollide: false
-  - type: Fixtures
-
-- type: entity
   id: Phoronic
   parent: BaseStructure
   name: phoronic cascade
