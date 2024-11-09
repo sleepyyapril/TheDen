@@ -327,6 +327,38 @@ trait-description-ValyrianStandard =
     It is rarely spoken outside of the worlds of its native speakers, and has in modern times been supplanted by the 'Conlangs of the Sol Alliance.
     Its speakers are those who wish to uphold the traditions and beliefs of ancient peoples from before the colonial era.
 
+trait-name-Nekomimetic = Nekomimetic
+trait-description-Nekomimetic = To the casual observer, this language is an incomprehensible mess of broken Japanese. To the Felinids and Oni, it's somehow comprehensible.
+
+trait-name-Canilunzt = Canilunzt
+trait-description-Canilunzt = The guttural language spoken and utilized by the inhabitants of the Vazzend system,
+    composed of growls, barks, yaps, and heavy utilization of ears and tail movements. Vulpkanin speak this language with ease.
+
+trait-name-Bubblish = Bubblish
+trait-description-Bubblish = The language of Slimes. Being a mixture of bubbling noises and pops it's very difficult to speak for humans without the use of mechanical aids.
+
+trait-name-Mouse = Mouse
+trait-description-Mouse = Squeeek!
+
+trait-name-Rootspeak = Rootspeak
+trait-description-Rootspeak = The strange whistling-style language spoken by the Diona.
+
+trait-name-Moffic = Moffic
+trait-description-Moffic = The language of the mothpeople borders on complete unintelligibility.
+
+trait-name-Draconic = Sinta'Unathi
+trait-description-Draconic =
+    The common language of Moghes - composed of sibilant hisses and rattles. Spoken natively by Unathi.
+
+trait-name-RobotTalk = Robot Binary
+trait-description-RobotTalk = A language consisting of harsh binary chirps, whistles, hisses, and whines. Organic tongues cannot speak it without aid from special translators.
+
+trait-name-Marish = Marish
+trait-description-Marish = An Language that can be used to speak in Empathy, Sharing eachother emotions with only one word, Shadowkins speaks this language with ease, tho its is nearly impossible to replicate it or learn it.
+
+trait-name-Arachnic = Arachnic
+trait-description-Arachnic = The language of arachnids is composed of mostly clicks and hisses, it almost has a rhythmic character to it at times.
+
 trait-name-LowPotential = Low Psi-Potential
 trait-description-LowPotential =
     You possess an unusually weak connection to the noösphere, which makes it more difficult to obtain new psionic powers.

@@ -33,10 +33,6 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: TraitsLanguagesBasic
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Harpy
   languagesSpoken:
     - Tradeband
   languagesUnderstood:
@@ -67,18 +63,6 @@
     - Elyran
 
 - type: trait
-  id: ValyrianStandard
-  category: TraitsSpeechLanguages
-  points: 1
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesBasic
-  languagesSpoken:
-    - ValyrianStandard
-  languagesUnderstood:
-    - ValyrianStandard
-
-- type: trait
   id: Azaziba
   category: TraitsSpeechLanguages
   points: 1
@@ -92,3 +76,181 @@
     - Azaziba
   languagesUnderstood:
     - Azaziba
+
+- type: trait
+  id: ValyrianStandard
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Harpy
+  languagesSpoken:
+    - ValyrianStandard
+  languagesUnderstood:
+    - ValyrianStandard
+
+- type: trait
+  id: Nekomimetic
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Felinid
+        - Oni
+  languagesSpoken:
+    - Nekomimetic
+  languagesUnderstood:
+    - Nekomimetic
+
+- type: trait
+  id: Canilunzt
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Vulpkanin
+  languagesSpoken:
+    - Canilunzt
+  languagesUnderstood:
+    - Canilunzt
+
+- type: trait
+  id: Bubblish
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - SlimePerson
+  languagesSpoken:
+    - Bubblish
+  languagesUnderstood:
+    - Bubblish
+
+- type: trait
+  id: Rootspeak
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Diona
+  languagesSpoken:
+    - Rootspeak
+  languagesUnderstood:
+    - Rootspeak
+
+- type: trait
+  id: Moffic
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Moth
+  languagesSpoken:
+    - Moffic
+  languagesUnderstood:
+    - Moffic
+
+- type: trait
+  id: Draconic
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Reptilian
+  languagesSpoken:
+    - Draconic
+  languagesUnderstood:
+    - Draconic
+
+- type: trait
+  id: RobotTalk
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
+  languagesSpoken:
+    - RobotTalk
+  languagesUnderstood:
+    - RobotTalk
+
+- type: trait
+  id: Arachnic
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Arachnid
+        - Arachne
+  languagesSpoken:
+    - Arachnic
+  languagesUnderstood:
+    - Arachnic
+
+- type: trait
+  id: Marish
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Shadowkin
+  languagesSpoken:
+    - Marish
+  languagesUnderstood:
+    - Marish
+
+- type: trait
+  id: Mouse
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Rodentia
+  languagesSpoken:
+    - Mouse
+  languagesUnderstood:
+    - Mouse
