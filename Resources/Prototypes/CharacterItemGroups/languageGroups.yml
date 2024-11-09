@@ -13,9 +13,57 @@
     - type: trait
       id: Elyran
     - type: trait
+      id: Azaziba
+    - type: trait
       id: ValyrianStandard
     - type: trait
-      id: Azaziba
+      id: Nekomimetic
+    - type: trait
+      id: Canilunzt
+    - type: trait
+      id: Bubblish
+    - type: trait
+      id: Rootspeak
+    - type: trait
+      id: Moffic
+    - type: trait
+      id: Draconic
+    - type: trait
+      id: RobotTalk
+    - type: trait
+      id: Arachnic
+    - type: trait
+      id: Marish
+    - type: trait
+      id: Mouse
+
+
+- type: characterItemGroup
+  id: TraitsLanguagesRacial
+  maxItems: 1
+  items:
+    - type: trait
+      id: ValyrianStandard
+    - type: trait
+      id: Nekomimetic
+    - type: trait
+      id: Canilunzt
+    - type: trait
+      id: Bubblish
+    - type: trait
+      id: Rootspeak
+    - type: trait
+      id: Moffic
+    - type: trait
+      id: Draconic
+    - type: trait
+      id: RobotTalk
+    - type: trait
+      id: Arachnic
+    - type: trait
+      id: Marish
+    - type: trait
+      id: Mouse
 
 - type: characterItemGroup
   id: TraitsAccents
