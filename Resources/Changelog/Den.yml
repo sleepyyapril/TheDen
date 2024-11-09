@@ -156,3 +156,12 @@ Entries:
   id: 19
   time: '2024-11-08T09:43:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/24
+- author: KyuPolaris
+  changes:
+    - type: Fix
+      message: Fixed Valyrian Standard trait, no more free point
+    - type: Add
+      message: Added racial languages to traits menu for 2 points
+  id: 20
+  time: '2024-11-09T02:03:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/26
