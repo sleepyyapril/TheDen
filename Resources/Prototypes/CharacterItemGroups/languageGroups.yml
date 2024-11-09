@@ -14,7 +14,6 @@
       id: Elyran
     - type: trait
       id: Azaziba
-    - type: trait
 
 - type: characterItemGroup
   id: TraitsLanguagesRacial
