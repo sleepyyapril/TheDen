@@ -36,6 +36,7 @@
   - type: Construction
     graph: PrescriptionSecHud
     node: prescsechud
+  - type: VisionCorrection # Floof
   - type: Tag
     tags:
     - HudSecurity
