@@ -127,14 +127,14 @@ public sealed class KillPersonConditionSystem : EntitySystem
         // deleted or gibbed or something, counts as dead
         if (!TryComp<MindComponent>(target, out var mind) || mind.OwnedEntity == null)
         {
-            if (!requireDead && !_wasKilled.Contains(target)) _wasKilled.Add(target);
+            if (!_wasKilled.Contains(target)) _wasKilled.Add(target);
             return 1f;
         }
 
         // dead is success
         if (_mind.IsCharacterDeadIc(mind))
         {
-            if (!requireDead && !_wasKilled.Contains(target)) _wasKilled.Add(target);
+            if (!_wasKilled.Contains(target)) _wasKilled.Add(target);
             return 1f;
         }
 
