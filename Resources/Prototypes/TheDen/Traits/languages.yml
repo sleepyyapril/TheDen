@@ -1,20 +1,4 @@
 - type: trait
-  id: ValyrianStandard
-  category: TraitsSpeechLanguages
-  points: -2
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - Harpy
-  languagesSpoken:
-    - ValyrianStandard
-  languagesUnderstood:
-    - ValyrianStandard
-
-- type: trait
   id: Nekomimetic
   category: TraitsSpeechLanguages
   points: -2

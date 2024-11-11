@@ -79,16 +79,18 @@
 - type: trait
   id: ValyrianStandard
   category: TraitsSpeechLanguages
-  points: 1
+  points: -2
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesBasic
-  functions:
-    - !type:TraitModifyLanguages
-      languagesSpoken:
-        - ValyrianStandard
-      languagesUnderstood:
-        - ValyrianStandard
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Harpy
+  languagesSpoken:
+    - ValyrianStandard
+  languagesUnderstood:
+    - ValyrianStandard
 
 - type: trait
   id: Azaziba
