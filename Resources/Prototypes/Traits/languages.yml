@@ -87,10 +87,12 @@
       inverted: true
       species:
         - Harpy
-  languagesSpoken:
-    - ValyrianStandard
-  languagesUnderstood:
-    - ValyrianStandard
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - ValyrianStandard
+      languagesUnderstood:
+        - ValyrianStandard
 
 - type: trait
   id: Azaziba

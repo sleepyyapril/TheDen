@@ -10,10 +10,12 @@
       species:
         - Felinid
         - Oni
-  languagesSpoken:
-    - Nekomimetic
-  languagesUnderstood:
-    - Nekomimetic
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Nekomimetic
+      languagesUnderstood:
+        - Nekomimetic
 
 - type: trait
   id: Canilunzt
@@ -26,10 +28,12 @@
       inverted: true
       species:
         - Vulpkanin
-  languagesSpoken:
-    - Canilunzt
-  languagesUnderstood:
-    - Canilunzt
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Canilunzt
+      languagesUnderstood:
+        - Canilunzt
 
 - type: trait
   id: Bubblish
@@ -42,10 +46,12 @@
       inverted: true
       species:
         - SlimePerson
-  languagesSpoken:
-    - Bubblish
-  languagesUnderstood:
-    - Bubblish
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Bubblish
+      languagesUnderstood:
+        - Bubblish
 
 - type: trait
   id: Rootspeak
@@ -58,10 +64,12 @@
       inverted: true
       species:
         - Diona
-  languagesSpoken:
-    - Rootspeak
-  languagesUnderstood:
-    - Rootspeak
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Rootspeak
+      languagesUnderstood:
+        - Rootspeak
 
 - type: trait
   id: Moffic
@@ -74,10 +82,12 @@
       inverted: true
       species:
         - Moth
-  languagesSpoken:
-    - Moffic
-  languagesUnderstood:
-    - Moffic
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Moffic
+      languagesUnderstood:
+        - Moffic
 
 - type: trait
   id: Draconic
@@ -90,10 +100,12 @@
       inverted: true
       species:
         - Reptilian
-  languagesSpoken:
-    - Draconic
-  languagesUnderstood:
-    - Draconic
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Draconic
+      languagesUnderstood:
+        - Draconic
 
 - type: trait
   id: RobotTalk
@@ -106,10 +118,12 @@
       inverted: true
       species:
         - IPC
-  languagesSpoken:
-    - RobotTalk
-  languagesUnderstood:
-    - RobotTalk
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - RobotTalk
+      languagesUnderstood:
+        - RobotTalk
 
 - type: trait
   id: Arachnic
@@ -123,10 +137,12 @@
       species:
         - Arachnid
         - Arachne
-  languagesSpoken:
-    - Arachnic
-  languagesUnderstood:
-    - Arachnic
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Arachnic
+      languagesUnderstood:
+        - Arachnic
 
 - type: trait
   id: Marish
@@ -139,10 +155,12 @@
       inverted: true
       species:
         - Shadowkin
-  languagesSpoken:
-    - Marish
-  languagesUnderstood:
-    - Marish
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Marish
+      languagesUnderstood:
+        - Marish
 
 - type: trait
   id: Mouse
@@ -155,7 +173,9 @@
       inverted: true
       species:
         - Rodentia
-  languagesSpoken:
-    - Mouse
-  languagesUnderstood:
-    - Mouse
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Mouse
+      languagesUnderstood:
+        - Mouse
