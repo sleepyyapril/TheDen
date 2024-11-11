@@ -291,9 +291,7 @@ public sealed partial class TraitAddSolutionContainer : TraitFunction
             if (!hasSolution)
                 return;
 
-            newSolution.Temperature = solution.Temperature;
-            newSolution.MaxVolume = solution.MaxVolume;
-            newSolution.Contents = solution.Contents;
+            newSolution!.AddSolution(solution.Solution, null);
         }
     }
 }
