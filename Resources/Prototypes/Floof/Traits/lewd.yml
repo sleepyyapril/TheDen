@@ -7,16 +7,29 @@
       jobs:
         - Borg
         - MedicalBorg
-  components:
-    - type: CumProducer
-      solutionname: "penis"
-    - type: SolutionContainerManager
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: CumProducer
+          solutionname: penis
+    - !type:TraitAddSolutionContainer
       solutions:
         penis:
           maxVol: 25
           reagents:
           - ReagentId: Cum
             Quantity: 25
+
+#   components:
+#     - type: CumProducer
+#       solutionname: "penis"
+#     - type: SolutionContainerManager
+#       solutions:
+#         penis:
+#           maxVol: 25
+#           reagents:
+#           - ReagentId: Cum
+#             Quantity: 25
 
 - type: trait
   id: MilkProducer
@@ -27,16 +40,29 @@
       jobs:
         - Borg
         - MedicalBorg
-  components:
-    - type: MilkProducer
-      solutionname: "breasts"
-    - type: SolutionContainerManager
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: MilkProducer
+          solutionname: breasts
+    - !type:TraitAddSolutionContainer
       solutions:
         breasts:
           maxVol: 50
           reagents:
           - ReagentId: Milk
             Quantity: 50
+
+#   components:
+#     - type: MilkProducer
+#       solutionname: "breasts"
+#     - type: SolutionContainerManager
+#       solutions:
+#         breasts:
+#           maxVol: 50
+#           reagents:
+#           - ReagentId: Milk
+#             Quantity: 50
 
 - type: trait
   id: SquirtProducer
@@ -47,13 +73,26 @@
       jobs:
         - Borg
         - MedicalBorg
-  components:
-    - type: SquirtProducer
-      solutionname: "vagina"
-    - type: SolutionContainerManager
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: SquirtProducer
+          solutionname: vagina
+    - !type:TraitAddSolutionContainer
       solutions:
         vagina:
           maxVol: 25
           reagents:
           - ReagentId: NaturalLubricant
             Quantity: 25
+
+#   components:
+#     - type: SquirtProducer
+#       solutionname: "vagina"
+#     - type: SolutionContainerManager
+#       solutions:
+#         vagina:
+#           maxVol: 25
+#           reagents:
+#           - ReagentId: NaturalLubricant
+#             Quantity: 25
