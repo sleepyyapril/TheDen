@@ -1,12 +1,24 @@
-# - type: trait
-#   id: CumProducer
-#   category: Physical
-#   requirements:
-#     - !type:CharacterJobRequirement
-#       inverted: true
-#       jobs:
-#         - Borg
-#         - MedicalBorg
+- type: trait
+  id: CumProducer
+  category: Physical
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Borg
+        - MedicalBorg
+  functions:
+    - !type:TraitAddComponent
+      - type: CumProducer
+        solutionname: "penis"
+    - !type:TraitAddSolutionContainer
+      solutions:
+          penis:
+            maxVol: 25
+            reagents:
+            - ReagentId: Cum
+              Quantity: 25
+
 #   components:
 #     - type: CumProducer
 #       solutionname: "penis"
@@ -18,15 +30,28 @@
 #           - ReagentId: Cum
 #             Quantity: 25
 
-# - type: trait
-#   id: MilkProducer
-#   category: Physical
-#   requirements:
-#     - !type:CharacterJobRequirement
-#       inverted: true
-#       jobs:
-#         - Borg
-#         - MedicalBorg
+- type: trait
+  id: MilkProducer
+  category: Physical
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Borg
+        - MedicalBorg
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: MilkProducer
+          solutionname: "breasts"
+    - !type:TraitAddSolutionContainer
+      solutions:
+        breasts:
+          maxVol: 50
+          reagents:
+          - ReagentId: Milk
+            Quantity: 50
+
 #   components:
 #     - type: MilkProducer
 #       solutionname: "breasts"
@@ -38,15 +63,28 @@
 #           - ReagentId: Milk
 #             Quantity: 50
 
-# - type: trait
-#   id: SquirtProducer
-#   category: Physical
-#   requirements:
-#     - !type:CharacterJobRequirement
-#       inverted: true
-#       jobs:
-#         - Borg
-#         - MedicalBorg
+- type: trait
+  id: SquirtProducer
+  category: Physical
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Borg
+        - MedicalBorg
+  functions:
+    - !type: TraitAddComponent:
+      components:
+        - type: SquirtProducer
+          solutionname: "vagina"
+    - !type:TraitAddSolutionContainer:
+      solutions:
+        vagina:
+          maxVol: 25
+          reagents:
+          - ReagentId: NaturalLubricant
+            Quantity: 25
+
 #   components:
 #     - type: SquirtProducer
 #       solutionname: "vagina"

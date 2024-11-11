@@ -10,6 +10,13 @@ using Content.Shared.Psionics;
 using Content.Server.Language;
 using Content.Shared.Mood;
 using Content.Server.NPC.Systems;
+using Content.Shared.Chemistry.Components;
+using Content.Shared.Chemistry.EntitySystems;
+using Content.Shared.Chemistry.Components.SolutionManager;
+using Robust.Shared.GameObjects;
+using Robust.Shared.Containers;
+using Content.Server.Chemistry.Containers.EntitySystems;
+using Content.Shared.FixedPoint;
 
 namespace Content.Server.Traits;
 
@@ -261,5 +268,32 @@ public sealed partial class TraitVVEdit : TraitFunction
         var vvm = IoCManager.Resolve<IViewVariablesManager>();
         foreach (var (path, value) in VVEdit)
             vvm.WritePath(path, value);
+    }
+}
+
+[UsedImplicitly]
+public sealed partial class TraitAddSolutionContainer : TraitFunction
+{
+    [DataField, AlwaysPushInheritance]
+    public Dictionary<string, SolutionComponent> Solutions { get; private set; } = new();
+
+    public override void OnPlayerSpawn(EntityUid uid,
+        IComponentFactory factory,
+        IEntityManager entityManager,
+        ISerializationManager serializationManager)
+    {
+        var solutionContainer = entityManager.System<SharedSolutionContainerSystem>();
+
+        foreach (var (containerKey, solution) in Solutions)
+        {
+            var hasSolution = solutionContainer.EnsureSolution(uid, containerKey, out Solution? newSolution);
+
+            if (!hasSolution)
+                return;
+
+            newSolution.Temperature = solution.Temperature;
+            newSolution.MaxVolume = solution.MaxVolume;
+            newSolution.Contents = solution.Contents;
+        }
     }
 }
