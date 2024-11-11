@@ -16,15 +16,17 @@
       inverted: true
       traits:
       - HollowFangs
-  components:
-    - type: Vampirism
-      succDelay: 3
-      specialDigestible: # Vampires cannot eat food chat is that real
-        tags:
-        - IceCream
-        - Pill
-        - Crayon
-        - Paper
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: Vampirism
+          succDelay: 3
+          specialDigestible: # Vampires cannot eat food chat is that real
+            tags:
+            - IceCream
+            - Pill
+            - Crayon
+            - Paper
 
 - type: trait
   id: HollowFangs
