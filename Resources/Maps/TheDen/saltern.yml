@@ -80271,10 +80271,5 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 59.909473,-5.528083
-<<<<<<< HEAD:Resources/Maps/Floof/saltern.yml
-      parent: 2
-...
-=======
       parent: 31
 ...
->>>>>>> 3dd8de305bdb5f61fb8a3ec9b8119517839406c6:Resources/Maps/TheDen/saltern.yml
