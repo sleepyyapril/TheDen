@@ -172,3 +172,10 @@ Entries:
   id: 21
   time: '2024-11-10T19:07:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/29
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added new medical clothes.
+  id: 22
+  time: '2024-11-10T23:47:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/31
