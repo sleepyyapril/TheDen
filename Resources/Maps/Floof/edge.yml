@@ -82319,14 +82319,6 @@ entities:
     - type: Transform
       pos: -18.5,13.5
       parent: 2
-- proto: PortalShadowkinSpawner
-  entities:
-  - uid: 17932
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -37.5,-23.5
-      parent: 2
 - proto: PositronicBrain
   entities:
   - uid: 12500

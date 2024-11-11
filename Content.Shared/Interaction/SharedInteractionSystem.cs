@@ -1003,8 +1003,10 @@ namespace Content.Shared.Interaction
             bool checkUseDelay = true,
             bool checkAccess = true)
         {
-            _delayQuery.TryComp(used, out var delayComponent);
-            if (checkUseDelay && delayComponent != null && _useDelay.IsDelayed((used, delayComponent)))
+            UseDelayComponent? delayComponent = null;
+            if (checkUseDelay
+                && TryComp(used, out delayComponent)
+                && _useDelay.IsDelayed((used, delayComponent)))
                 return false;
 
             if (checkCanInteract && !_actionBlockerSystem.CanInteract(user, used))
@@ -1015,11 +1017,11 @@ namespace Content.Shared.Interaction
 
             // Check if interacted entity is in the same container, the direct child, or direct parent of the user.
             // This is bypassed IF the interaction happened through an item slot (e.g., backpack UI)
-            if (checkAccess && !IsAccessible(user, used))
+            if (checkAccess && !_containerSystem.IsInSameOrParentContainer(user, used) && !CanAccessViaStorage(user, used))
                 return false;
 
             // Does the user have hands?
-            if (!_handsQuery.HasComp(user))
+            if (!HasComp<HandsComponent>(user))
                 return false;
 
             var activateMsg = new ActivateInWorldEvent(user, used);
@@ -1029,9 +1031,7 @@ namespace Content.Shared.Interaction
 
             DoContactInteraction(user, used, activateMsg);
             // Still need to call this even without checkUseDelay in case this gets relayed from Activate.
-            if (delayComponent != null)
-                _useDelay.TryResetDelay(used, component: delayComponent);
-
+            _useDelay.TryResetDelay(used, component: delayComponent);
             if (!activateMsg.WasLogged)
                 _adminLogger.Add(LogType.InteractActivate, LogImpact.Low, $"{ToPrettyString(user):user} activated {ToPrettyString(used):used}");
             return true;

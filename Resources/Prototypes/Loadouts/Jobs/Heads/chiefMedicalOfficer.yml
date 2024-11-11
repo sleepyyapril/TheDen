@@ -66,3 +66,36 @@
         - ChiefMedicalOfficer
   items:
     - ClothingShoesBootsWinterChiefMedicalOfficer
+
+- type: loadout
+  id: LoadoutClothingUniformJumpsuitCMOTurtle
+  category: JobsCommand
+  cost: 0
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefMedicalOfficer
+  items:
+    - ClothingUniformJumpsuitCMOTurtle
+
+- type: loadout
+  id: LoadoutClothingUniformJumpskirtCMOTurtle
+  category: JobsCommand
+  cost: 0
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefMedicalOfficer
+  items:
+    - ClothingUniformJumpskirtCMOTurtle
+
+- type: loadout
+  id: LoadoutClothingHeadMirror
+  category: JobsCommand
+  cost: 0
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - ChiefMedicalOfficer
+  items:
+    - ClothingHeadMirror
