@@ -74,11 +74,11 @@
       traits:
       - Lethargy
       - Vigor
-    functions:
-      - !type:TraitAddComponent
-        components:
-          - type: StaminaCritModifier
-            critThresholdModifier: -50
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: StaminaCritModifier
+          critThresholdModifier: -50
 
 - type: trait
   id: Lightweight
