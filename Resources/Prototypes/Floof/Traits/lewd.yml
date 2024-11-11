@@ -9,15 +9,16 @@
         - MedicalBorg
   functions:
     - !type:TraitAddComponent
-      - type: CumProducer
-        solutionname: "penis"
+      components:
+        - type: CumProducer
+          solutionname: penis
     - !type:TraitAddSolutionContainer
       solutions:
-          penis:
-            maxVol: 25
-            reagents:
-            - ReagentId: Cum
-              Quantity: 25
+        penis:
+          maxVol: 25
+          reagents:
+          - ReagentId: Cum
+            Quantity: 25
 
 #   components:
 #     - type: CumProducer
@@ -43,7 +44,7 @@
     - !type:TraitAddComponent
       components:
         - type: MilkProducer
-          solutionname: "breasts"
+          solutionname: breasts
     - !type:TraitAddSolutionContainer
       solutions:
         breasts:
@@ -73,11 +74,11 @@
         - Borg
         - MedicalBorg
   functions:
-    - !type: TraitAddComponent:
+    - !type:TraitAddComponent
       components:
         - type: SquirtProducer
-          solutionname: "vagina"
-    - !type:TraitAddSolutionContainer:
+          solutionname: vagina
+    - !type:TraitAddSolutionContainer
       solutions:
         vagina:
           maxVol: 25
