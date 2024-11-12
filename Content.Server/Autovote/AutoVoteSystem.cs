@@ -48,7 +48,6 @@ public sealed class AutoVoteSystem : EntitySystem
         if (_playerManager.PlayerCount == 0)
         {
             _shouldVoteNextJoin = true;
-            _ticker.SetGamePreset("irregular-extended", false);
             return;
         }
 
