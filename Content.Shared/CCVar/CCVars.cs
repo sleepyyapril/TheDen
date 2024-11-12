@@ -2646,5 +2646,17 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> DebugPow3rDisableParallel =
             CVarDef.Create("debug.pow3r_disable_parallel", true, CVar.SERVERONLY);
+
+        // THE DEN
+        // CVARS
+
+        public static readonly CVarDef<bool> AutoVoteEnabled =
+            CVarDef.Create("vote.autovote_enabled", true, CVar.SERVERONLY);
+        
+        public static readonly CVarDef<bool> MapAutoVoteEnabled =
+            CVarDef.Create("vote.map_autovote_enabled", true, CVar.SERVERONLY);
+        
+        public static readonly CVarDef<bool> PresetAutoVoteEnabled =
+            CVarDef.Create("vote.preset_autovote_enabled", true, CVar.SERVERONLY);
     }
 }
