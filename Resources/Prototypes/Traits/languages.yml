@@ -79,10 +79,14 @@
 - type: trait
   id: ValyrianStandard
   category: TraitsSpeechLanguages
-  points: 1
+  points: -2
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesBasic
+      group: TraitsLanguagesRacial
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Harpy
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
