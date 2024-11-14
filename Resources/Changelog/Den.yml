@@ -179,3 +179,16 @@ Entries:
   id: 22
   time: '2024-11-10T23:47:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/31
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added fun :D
+    - type: Tweak
+      message: Tweaked fun
+    - type: Fix
+      message: Fixed fun!
+    - type: Remove
+      message: Removed fun :(
+  id: 23
+  time: '2024-11-14T22:02:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/45
