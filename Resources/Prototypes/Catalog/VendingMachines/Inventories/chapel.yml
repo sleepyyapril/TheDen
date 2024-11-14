@@ -33,21 +33,7 @@
     UrnMortuary: 4
     Censer: 2
     ClothingNeckCrucifix: 3
-    ClothingUniformJumpsuitChaplain: 2
-    ClothingUniformJumpskirtChaplain: 2
-    ClothingUniformJumpsuitMonasticRobeDark: 1
-    ClothingUniformJumpsuitMonasticRobeLight: 1
     ClothingNeckStoleChaplain: 1
-    ClothingOuterHoodieChaplain: 1
-    ClothingOuterHoodieBlack: 1
-    ClothingHeadHatHoodNunHood: 1
-    ClothingOuterNunRobe: 1
-    ClothingHeadHatFez: 1
-    ClothingHeadHatPlaguedoctor: 1
-    ClothingHeadHatWitch: 1
-    ClothingHeadHatWitch1: 1
-    ClothingOuterPlagueSuit: 1
-    ClothingMaskPlague: 1
     ClothingHandsChaplainWarmers: 1 # Floofstation
     ClothingUnderSocksChaplain: 1 # Floofstation
     ClothingUniformChaplainThong: 1 # Floofstation
