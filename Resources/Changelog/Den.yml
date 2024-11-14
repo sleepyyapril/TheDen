@@ -179,16 +179,3 @@ Entries:
   id: 22
   time: '2024-11-10T23:47:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/31
-- author: sleepyyapril
-  changes:
-    - type: Add
-      message: Several new clothing options have been added!
-    - type: Tweak
-      message: Renamed Epistemics jobs.
-    - type: Tweak
-      message: Changed Saltern back to old saltern.
-    - type: Remove
-      message: Reverted language in chat change.
-  id: 23
-  time: '2024-11-14T22:02:13.0000000+00:00'
-  url: https://github.com/TheDenSS14/TheDen/pull/45
