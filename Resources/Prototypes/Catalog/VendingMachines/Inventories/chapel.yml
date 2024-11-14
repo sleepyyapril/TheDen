@@ -19,8 +19,6 @@
     ClothingHeadsetService: 4
     RubberStampChaplain: 3
     Bible: 3
-    UrnMortuary: 4
-    Censer: 2
     ClothingNeckCrucifix: 3
     ClothingNeckStoleChaplain: 1
     ClothingHandsChaplainWarmers: 1 # Floofstation
@@ -32,7 +30,6 @@
     BoxCandleSmall: 2
     Urn: 5
   emaggedInventory:
-    WoodenStake: 6
     ClothingOuterArmorCult: 1
     ClothingHeadHelmetCult: 1
     ClothingOuterRobesCult: 3
