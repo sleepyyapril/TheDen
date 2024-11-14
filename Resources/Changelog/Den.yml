@@ -182,13 +182,13 @@ Entries:
 - author: sleepyyapril
   changes:
     - type: Add
-      message: Added fun :D
+      message: Several new clothing options have been added!
     - type: Tweak
-      message: Tweaked fun
-    - type: Fix
-      message: Fixed fun!
+      message: Renamed Epistemics jobs.
+    - type: Tweak
+      message: Changed Saltern back to old saltern.
     - type: Remove
-      message: Removed fun :(
+      message: Reverted language in chat change.
   id: 23
   time: '2024-11-14T22:02:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/45
