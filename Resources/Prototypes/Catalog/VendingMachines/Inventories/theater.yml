@@ -120,9 +120,6 @@
     ClothingMaskClown: 2
     ClothingShoesClown: 2
     ClothingUniformJumpsuitClown: 2
-    ClothingOuterWinterClown: 2
-    ClothingOuterClownPriest: 1
-    ClothingShoesBootsWinterClown: 2  #Delta V: Add departmental winter boots
     RubberStampClown: 1
     ClothingBackpackMime: 2
     ClothingBackpackSatchelMime: 2
@@ -130,13 +127,9 @@
     ClothingBackpackMessengerMime: 2
     ClothingHeadHatMimesoft: 2
     ClothingMaskMime: 2
-    ClothingMaskSadMime: 1
-    ClothingMaskScaredMime: 1
     ClothingUniformJumpsuitMime: 2
     ClothingUniformJumpskirtMime: 2
-    ClothingOuterWinterMime: 2
     ClothingBeltSuspenders: 2
-    ClothingShoesBootsWinterMime: 2  #Delta V: Add departmental winter boots
     RubberStampMime: 1
   contrabandInventory: # Frontier - Hidden inventory
     ClothingHeadHatMimesoftFlipped: 1
