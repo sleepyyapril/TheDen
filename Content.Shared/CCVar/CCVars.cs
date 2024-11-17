@@ -2668,6 +2668,15 @@ namespace Content.Shared.CCVar
 
         /// Automatically starts a gamemode vote when returning to the lobby.
         /// Requires auto voting to be enabled.  
+        // THE DEN
+        // CVARS
+
+        public static readonly CVarDef<bool> AutoVoteEnabled =
+            CVarDef.Create("vote.autovote_enabled", true, CVar.SERVERONLY);
+        
+        public static readonly CVarDef<bool> MapAutoVoteEnabled =
+            CVarDef.Create("vote.map_autovote_enabled", true, CVar.SERVERONLY);
+        
         public static readonly CVarDef<bool> PresetAutoVoteEnabled =
             CVarDef.Create("vote.preset_autovote_enabled", true, CVar.SERVERONLY);
     }
