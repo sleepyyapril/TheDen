@@ -54528,6 +54528,12 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -17.5,-19.5
       parent: 2
+  - uid: 11049
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -11.5,15.5
+      parent: 2
 - proto: PoweredSmallLightEmpty
   entities:
   - uid: 8203
