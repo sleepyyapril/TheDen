@@ -62,7 +62,6 @@
     - BaseStationRecords
     - BaseStationArrivals
     - BaseStationGateway
-    - BaseStationShuttlesSalvageOnly
     - BaseStationCentcomm
     - BaseStationEvacuation
     - BaseStationAlertLevels
