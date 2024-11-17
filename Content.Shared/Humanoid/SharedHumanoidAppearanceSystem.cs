@@ -440,7 +440,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         humanoid.LastProfileLoaded = profile; // DeltaV - let paradox anomaly be cloned
 
-        Dirty(humanoid);
+        Dirty(uid, humanoid);
         RaiseLocalEvent(uid, new ProfileLoadFinishedEvent());
     }
 
