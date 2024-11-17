@@ -30,7 +30,6 @@ namespace Content.Shared.Damage
         private EntityQuery<AppearanceComponent> _appearanceQuery;
         private EntityQuery<DamageableComponent> _damageableQuery;
         private EntityQuery<MindContainerComponent> _mindContainerQuery;
-        private EntityQuery<TargetingComponent> _targetingQuery;
         public override void Initialize()
         {
             SubscribeLocalEvent<DamageableComponent, ComponentInit>(DamageableInit);
