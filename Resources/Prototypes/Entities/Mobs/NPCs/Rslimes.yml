@@ -229,7 +229,7 @@
     earliestStart: 20
     reoccurrenceDelay: 12
     minimumPlayers: 30
-    weight: 6  Really weak compared to other critters
+    weight: 6 # Really weak compared to other critters
     duration: 60
   - type: VentCrittersRule
     entries:
