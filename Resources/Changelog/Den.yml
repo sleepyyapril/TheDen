@@ -194,3 +194,12 @@ Entries:
   id: 23
   time: '2024-11-14T22:14:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/46
+- author: blazlovich
+  changes:
+    - type: Add
+      message: >-
+        Added Long bow hair, Elegant dress, Striped Dress, Western dress, and
+        Turtleneck dress!
+  id: 24
+  time: '2024-11-17T11:38:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/49
