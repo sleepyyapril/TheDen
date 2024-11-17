@@ -185,39 +185,39 @@
         state: alive
         color: "#5C6274"
 
-  - type: entity
-    id: ReagentSlimechlorinetriflouride
-    parent: ReagentSlime
-    suffix: chlorinetriflouride
-    components:
-    - type: Bloodstream
-      bloodReagent: ChlorineTrifluoride
-    - type: PointLight
-      color: "#FFC8C8"
-    - type: Sprite
-      drawdepth: Mobs
-      sprite: Mobs/Aliens/elemental.rsi
-      layers:
-        - map: [ "enum.DamageStateVisualLayers.Base" ]
-          state: alive
-          color: "#FFC8C8"
+- type: entity
+  id: ReagentSlimechlorinetriflouride
+  parent: ReagentSlime
+  suffix: chlorinetriflouride
+  components:
+  - type: Bloodstream
+    bloodReagent: ChlorineTrifluoride
+  - type: PointLight
+    color: "#FFC8C8"
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Aliens/elemental.rsi
+    layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: alive
+        color: "#FFC8C8"
 
-  - type: entity
-    id: ReagentSlimePotassium
-    parent: ReagentSlime
-    suffix: Potassium
-    components:
-    - type: Bloodstream
-      bloodReagent: Potassium
-    - type: PointLight
-      color: "#c6c8cc"
-    - type: Sprite
-      drawdepth: Mobs
-      sprite: Mobs/Aliens/elemental.rsi
-      layers:
-        - map: [ "enum.DamageStateVisualLayers.Base" ]
-          state: alive
-          color: "#c6c8cc"
+- type: entity
+  id: ReagentSlimePotassium
+  parent: ReagentSlime
+  suffix: Potassium
+  components:
+  - type: Bloodstream
+    bloodReagent: Potassium
+  - type: PointLight
+    color: "#c6c8cc"
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Aliens/elemental.rsi
+    layers:
+      - map: [ "enum.DamageStateVisualLayers.Base" ]
+        state: alive
+        color: "#c6c8cc"
 
 - type: entity
   id: reagentslimeVents
