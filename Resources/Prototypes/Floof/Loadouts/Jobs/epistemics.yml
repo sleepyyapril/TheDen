@@ -1,7 +1,7 @@
 # General epistemics
 - type: loadout
   id: LoadoutClothingHandsEpiWarmers
-  category: JobsScience
+  category: JobsEpistemicsAAUncategorized
   cost: 2
   exclusive: true
   items:
@@ -16,7 +16,7 @@
 
 - type: loadout
   id: LoadoutClothingUnderSocksEpi
-  category: JobsScience
+  category: JobsEpistemicsAAUncategorized
   cost: 2
   exclusive: true
   items:
@@ -36,7 +36,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformEpiThong
-  category: JobsScience
+  category: JobsEpistemicsAAUncategorized
   cost: 2
   exclusive: true
   items:
@@ -51,7 +51,7 @@
 
 - type: loadout
   id: LoadoutScienceNeckCollar
-  category: JobsScience
+  category: JobsEpistemicsAAUncategorized
   cost: 1
   requirements:
   - !type:CharacterJobRequirement
@@ -66,7 +66,7 @@
 # Psionic mantis
 - type: loadout
   id: LoadoutClothingHandsMantisEpiWarmers
-  category: JobsScience
+  category: JobsEpistemicsPsionicMantis
   cost: 1
   exclusive: true
   items:
@@ -78,7 +78,7 @@
 
 - type: loadout
   id: LoadoutClothingUnderSocksMantisEpi
-  category: JobsScience
+  category: JobsEpistemicsPsionicMantis
   cost: 1
   exclusive: true
   items:
@@ -96,7 +96,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformMantisEpiThong
-  category: JobsScience
+  category: JobsEpistemicsPsionicMantis
   cost: 1
   exclusive: true
   items:
@@ -109,7 +109,7 @@
 # Chaplain
 - type: loadout
   id: LoadoutClothingHandChaplainWarmers
-  category: JobsScience
+  category: JobsEpistemicsChaplain
   cost: 2
   exclusive: true
   items:
@@ -121,7 +121,7 @@
 
 - type: loadout
   id: LoadoutClothingUnderSocksChaplain
-  category: JobsScience
+  category: JobsEpistemicsChaplain
   cost: 2
   exclusive: true
   items:
@@ -138,7 +138,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformChaplainThong
-  category: JobsScience
+  category: JobsEpistemicsChaplain
   cost: 2
   exclusive: true
   items:
@@ -150,7 +150,7 @@
 
 - type: loadout
   id: LoadoutClothingChaplainEpiMantle
-  category: JobsScience
+  category: JobsEpistemicsChaplain
   cost: 1
   exclusive: true
   items:
