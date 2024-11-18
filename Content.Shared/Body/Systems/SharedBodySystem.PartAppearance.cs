@@ -28,6 +28,7 @@ public partial class SharedBodySystem
     {
         if (!TryComp(uid, out BodyPartComponent? part)
             || part.ToHumanoidLayers() is not { } relevantLayer)
+
             return;
 
         if (part.OriginalBody == null
@@ -170,7 +171,7 @@ public partial class SharedBodySystem
             _humanoid.SetBaseLayerColor(target, component.Type, component.Color, true, bodyAppearance);
 
         _humanoid.SetLayerVisibility(target, component.Type, true, true, bodyAppearance);
-        
+
         foreach (var (visualLayer, markingList) in component.Markings)
         {
             _humanoid.SetLayerVisibility(target, visualLayer, true, true, bodyAppearance);

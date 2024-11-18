@@ -657,7 +657,7 @@
     barkType: chicken # Duh
     barkMultiplier: 0.7
   - type: SurgeryTarget
-  - type: UserInterface 
+  - type: UserInterface
     interfaces:
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
@@ -918,7 +918,7 @@
   - type: RandomBark
     barkType: crab
   - type: SurgeryTarget
-  - type: UserInterface 
+  - type: UserInterface
     interfaces:
       enum.SurgeryUIKey.Key:
         type: SurgeryBui

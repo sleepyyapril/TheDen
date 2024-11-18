@@ -16,6 +16,7 @@
       - right arm
       - left arm
       - right leg
+      - left leg
       - head
       organs:
         heart: OrganShadowkinHeart
