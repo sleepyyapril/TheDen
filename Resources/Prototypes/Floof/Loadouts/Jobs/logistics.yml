@@ -1,7 +1,7 @@
 # General logistics
 - type: loadout
   id: LoadoutClothingHandsLogisWarmers
-  category: JobsCargo
+  category: JobsLogisticsCargoTechnician
   cost: 2
   exclusive: true
   items:

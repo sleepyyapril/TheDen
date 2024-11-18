@@ -308,7 +308,7 @@
 
 - type: loadout
   id: LoadoutClothingUnderSocksStripedWhite
-  category: JobsServiceUncategorized
+  category: JobsServiceMime
   cost: 2
   exclusive: true
   items:
