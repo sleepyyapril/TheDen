@@ -1,7 +1,7 @@
 #General Service
 - type: loadout
   id: LoadoutClothingHandsServiceWarmers
-  category: JobsServiceUncategorized
+  category: JobsServiceAUncategorized
   cost: 2
   exclusive: true
   items:
@@ -18,7 +18,7 @@
 
 - type: loadout
   id: LoadoutClothingUnderSocksService
-  category: JobsServiceUncategorized
+  category: JobsServiceAUncategorized
   cost: 2
   exclusive: true
   items:
@@ -40,7 +40,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformServiceThong
-  category: JobsServiceUncategorized
+  category: JobsServiceAUncategorized
   cost: 2
   exclusive: true
   items:
@@ -57,7 +57,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformServiceUni
-  category: JobsServiceUncategorized
+  category: JobsServiceAUncategorized
   cost: 2
   exclusive: true
   items:
@@ -141,7 +141,7 @@
 #Chef
 - type: loadout
   id: LoadoutClothingHandsChefWarmers
-  category: JobsServiceUncategorized
+  category: JobsServiceChef
   cost: 1
   exclusive: true
   items:
@@ -153,7 +153,7 @@
 
 - type: loadout
   id: LoadoutClothingUnderSocksChef
-  category: JobsServiceUncategorized
+  category: JobsServiceChef
   cost: 1
   exclusive: true
   items:
@@ -170,7 +170,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformChefThong
-  category: JobsServiceUncategorized
+  category: JobsServiceChef
   cost: 1
   exclusive: true
   items:
@@ -183,7 +183,7 @@
 #Musician
 - type: loadout
   id: LoadoutClothingHandsMusicianWarmers
-  category: JobsServiceUncategorized
+  category: JobsServiceMusician
   cost: 2
   exclusive: true
   items:
@@ -195,7 +195,7 @@
 
 - type: loadout
   id: LoadoutClothingUnderSocksMusician
-  category: JobsServiceUncategorized
+  category: JobsServiceMusician
   cost: 2
   exclusive: true
   items:
@@ -212,7 +212,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformMusicianThong
-  category: JobsServiceUncategorized
+  category: JobsServiceMusician
   cost: 2
   exclusive: true
   items:
@@ -224,7 +224,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformMusicKingBlack
-  category: JobsServiceUncategorized
+  category: JobsServiceMusician
   cost: 2
   exclusive: true
   items:
@@ -236,7 +236,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformMusicKing
-  category: JobsServiceUncategorized
+  category: JobsServiceMusician
   cost: 2
   exclusive: true
   items:
@@ -249,7 +249,7 @@
 #Janitorial
 - type: loadout
   id: LoadoutClothingHandsJanitorWarmers
-  category: JobsServiceUncategorized
+  category: JobsServiceJanitor
   cost: 2
   exclusive: true
   items:
@@ -261,7 +261,7 @@
 
 - type: loadout
   id: LoadoutClothingUnderSocksJanitor
-  category: JobsServiceUncategorized
+  category: JobsServiceJanitor
   cost: 2
   exclusive: true
   items:
@@ -278,7 +278,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformJanitorThong
-  category: JobsServiceUncategorized
+  category: JobsServiceJanitor
   cost: 2
   exclusive: true
   items:
@@ -296,7 +296,7 @@
 
 - type: loadout
   id: LoadoutClothingHandsStripeWhiteWarmers
-  category: JobsServiceUncategorized
+  category: JobsServiceMime
   cost: 2
   exclusive: true
   items:
@@ -325,7 +325,7 @@
 
 - type: loadout
   id: LoadoutClothingUniformStripedThongWhite
-  category: JobsServiceUncategorized
+  category: JobsServiceMime
   cost: 2
   exclusive: true
   items:
