@@ -80,7 +80,6 @@ public sealed class ConsentUiController : UIController, IOnStateChanged<Gameplay
         _window.OnClose += () => {
             if (ConsentButton is not null)
                 ConsentButton.Pressed = false;
-            _window.UpdateUi(); // Discard unsaved changes
         };
     }
 
