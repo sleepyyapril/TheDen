@@ -18,6 +18,8 @@ public sealed partial class ConsentWindow : FancyWindow
     [Dependency] private readonly IClientConsentManager _consentManager = default!;
     [Dependency] private readonly IConfigurationManager _configManager = default!;
 
+    private ButtonGroup Example1Buttons;
+
     public ConsentWindow()
     {
         RobustXamlLoader.Load(this);
@@ -28,8 +30,18 @@ public sealed partial class ConsentWindow : FancyWindow
             _consentManager.UpdateConsent(GetSettings());
         };
 
+        _consentManager.OnServerDataLoaded += UpdateUi;
+        if (_consentManager.HasLoaded)
+            UpdateUi();
+
         ConsentFreetext.Placeholder = new Rope.Leaf(Loc.GetString("consent-window-freetext-placeholder"));
         ConsentFreetext.OnTextChanged += _ => UnsavedChanges();
+
+        Example1Buttons = new ButtonGroup();
+        ConsentToggleExample1On.Group = Example1Buttons;
+        ConsentToggleExample1On.OnToggled += _ => UnsavedChanges();
+        ConsentToggleExample1Off.Group = Example1Buttons;
+        ConsentToggleExample1Off.OnToggled += _ => UnsavedChanges();
     }
 
     private PlayerConsentSettings GetSettings()
@@ -37,11 +49,10 @@ public sealed partial class ConsentWindow : FancyWindow
         var text = Rope.Collapse(ConsentFreetext.TextRope);
         var toggles = new Dictionary<ProtoId<ConsentTogglePrototype>, string>();
 
-        /**
         if (Example1Buttons.Pressed == ConsentToggleExample1On)
         {
             toggles["Example1"] = "on";
-        }**/
+        }
 
         return new(text, toggles);
     }
@@ -63,5 +74,28 @@ public sealed partial class ConsentWindow : FancyWindow
         // If everything is valid, enable save button and inform user they need to save.
         SaveLabel.Text = Loc.GetString("consent-window-unsaved-changes");
         SaveConsentSettings.Disabled = false;
+    }
+
+    public void UpdateUi()
+    {
+        var consent = _consentManager.GetConsent();
+
+        ConsentToggleExample1Off.Pressed = true;
+
+        ConsentFreetext.TextRope = new Rope.Leaf(consent.Freetext);
+        foreach (var toggle in consent.Toggles)
+        {
+            if (toggle.Key == "Example1" && toggle.Value == "on")
+            {
+                ConsentToggleExample1On.Pressed = true;
+            }
+            else
+            {
+                throw new InvalidOperationException("Invalid consent toggle");
+            }
+        }
+
+        SaveConsentSettings.Disabled = true;
+        SaveLabel.Text = "";
     }
 }
