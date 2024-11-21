@@ -40,7 +40,7 @@ public sealed class AnomalySpawnRule : StationEventSystem<AnomalySpawnRuleCompon
 
         var grid = StationSystem.GetLargestGrid(stationData);
 
-        if (!TryComp<TransformComponent>(out var transformComponent))
+        if (!TryComp<TransformComponent>(grid, out var transformComponent))
             return;
 
         if (!transformComponent.ParentUid.IsValid())
