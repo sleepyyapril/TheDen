@@ -34,12 +34,4 @@ public sealed class SpaceVillainArcadeBoundUserInterface : BoundUserInterface
         if (message is SpaceVillainArcadeDataUpdateMessage msg)
             _menu?.UpdateInfo(msg);
     }
-
-    protected override void Dispose(bool disposing)
-    {
-        base.Dispose(disposing);
-
-        if (disposing)
-            _menu?.Dispose();
-    }
 }
