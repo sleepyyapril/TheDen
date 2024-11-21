@@ -258,3 +258,40 @@ Entries:
   id: 29
   time: '2024-11-21T06:33:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/60
+- author: Juniper
+  changes:
+    - type: Add
+      message: '[Asterisk] Added Vendomat to Epi'
+    - type: Add
+      message: '[Core] Added Vendomat to Epi'
+    - type: Add
+      message: '[Pebble] Added Vendomat to Epi'
+    - type: Add
+      message: '[Asterisk] Added plasma to Chem at roundstart'
+    - type: Add
+      message: '[Edge] Added centrifuge and electrolysis machine boards to Chem locker'
+    - type: Add
+      message: '[Edge] Added a cozy room for recreation'
+    - type: Add
+      message: '[Lighthouse] Added Autolathe to epi'
+    - type: Add
+      message: '[Lighthouse] Added sink and drain to Chem'
+    - type: Add
+      message: '[Pebble] Added sink and drain to Chem'
+    - type: Remove
+      message: '[Lighthouse] Removed Atmospherics piping'
+    - type: Remove
+      message: '[Pebble] Removed Atmospherics piping'
+    - type: Remove
+      message: '[Asterisk] Removed darkness tiles'
+    - type: Remove
+      message: '[Core] Removed darkness tiles'
+    - type: Remove
+      message: '[Edge] Removed darkness tiles'
+    - type: Remove
+      message: '[Lighthouse] Removed darkness tiles'
+    - type: Remove
+      message: '[Pebble] Removed darkness tiles'
+  id: 30
+  time: '2024-11-21T18:16:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/61
