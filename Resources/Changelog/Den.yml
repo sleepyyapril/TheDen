@@ -234,3 +234,10 @@ Entries:
   id: 27
   time: '2024-11-21T00:05:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/58
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Tweaked ChemVend jug count to 8.
+  id: 28
+  time: '2024-11-21T00:06:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/52
