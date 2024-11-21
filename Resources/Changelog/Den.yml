@@ -227,3 +227,10 @@ Entries:
   id: 26
   time: '2024-11-20T21:34:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/56
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Tweaked Senior positions to be playable.
+  id: 27
+  time: '2024-11-21T00:05:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/58
