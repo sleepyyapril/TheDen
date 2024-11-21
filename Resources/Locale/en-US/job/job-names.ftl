@@ -7,7 +7,7 @@ job-name-brigmedic = Corpsman
 job-name-borg = Cyborg
 job-name-scientist = Scientist
 job-name-senior-engineer = Senior Engineer
-job-name-senior-officer Senior Officer
+job-name-senior-officer = Senior Officer
 job-name-senior-physician = Senior Physician
 job-name-senior-researcher = Senior Researcher
 job-name-research-assistant = Research Assistant
