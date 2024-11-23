@@ -58,9 +58,6 @@ public sealed class ElectrocutionHUDVisualizerSystem : VisualizerSystem<Electroc
             if (!AppearanceSystem.TryGetData<bool>(uid, ElectrifiedVisuals.IsElectrified, out var electrified, appearanceComp))
                 continue;
 
-            if (!spriteComp.LayerExists(ElectrifiedLayers.HUD))
-                continue;
-
             if (electrified)
                 spriteComp.LayerSetVisible(ElectrifiedLayers.HUD, true);
             else
