@@ -370,7 +370,7 @@ Entries:
     - type: Fix
       message: Fixed voice masks.
     - type: Fix
-      message: 'Fixed Nanotrasen Block Game:tm:'
+      message: Fixed Nanotrasen Block Game
   id: 33
   time: '2024-11-24T01:37:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/59
