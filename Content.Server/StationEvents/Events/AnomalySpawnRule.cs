@@ -3,6 +3,7 @@ using Content.Server.Announcements.Systems;
 using Content.Server.Station.Components;
 using Content.Server.StationEvents.Components;
 ﻿using Content.Shared.GameTicking.Components;
+using Robust.Shared.GameObjects.Components;
 using Robust.Shared.Player;
 
 namespace Content.Server.StationEvents.Events;
@@ -38,6 +39,12 @@ public sealed class AnomalySpawnRule : StationEventSystem<AnomalySpawnRuleCompon
             return;
 
         var grid = StationSystem.GetLargestGrid(stationData);
+
+        if (!TryComp<TransformComponent>(grid, out var transformComponent))
+            return;
+
+        if (!transformComponent.ParentUid.IsValid())
+            return;
 
         if (grid is null)
             return;

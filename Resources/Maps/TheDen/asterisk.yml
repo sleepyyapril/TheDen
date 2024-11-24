@@ -2469,7 +2469,8 @@ entities:
           5,-7:
             0: 65535
           5,-6:
-            0: 65535
+            0: 49151
+            4: 16384
           5,-5:
             0: 65535
           6,-7:
@@ -5097,7 +5098,7 @@ entities:
       pos: 39.5,10.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -575.4312
+      secondsUntilStateChange: -916.047
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -5460,7 +5461,7 @@ entities:
       pos: -45.5,6.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -1494.4608
+      secondsUntilStateChange: -1835.0765
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -23894,6 +23895,17 @@ entities:
     - type: Transform
       pos: -7.5,-35.5
       parent: 2
+- proto: CentrifugeMachineCircuitboard
+  entities:
+  - uid: 11185
+    components:
+    - type: Transform
+      parent: 7630
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: Chair
   entities:
   - uid: 3840
@@ -26520,36 +26532,6 @@ entities:
     components:
     - type: Transform
       pos: 39.5,-32.5
-      parent: 2
-  - uid: 11185
-    components:
-    - type: Transform
-      pos: -49.5,21.5
-      parent: 2
-  - uid: 11186
-    components:
-    - type: Transform
-      pos: -49.5,22.5
-      parent: 2
-  - uid: 11187
-    components:
-    - type: Transform
-      pos: -49.5,23.5
-      parent: 2
-  - uid: 11188
-    components:
-    - type: Transform
-      pos: -48.5,23.5
-      parent: 2
-  - uid: 11189
-    components:
-    - type: Transform
-      pos: -48.5,22.5
-      parent: 2
-  - uid: 11190
-    components:
-    - type: Transform
-      pos: -48.5,21.5
       parent: 2
   - uid: 11191
     components:
@@ -49698,6 +49680,35 @@ entities:
     - type: Transform
       pos: 22.5,-20.5
       parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 11185
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerChiefEngineerFilled
   entities:
   - uid: 7631
@@ -61696,6 +61707,13 @@ entities:
     components:
     - type: Transform
       pos: 0.5,-25.5
+      parent: 2
+- proto: VendingMachineVendomat
+  entities:
+  - uid: 11186
+    components:
+    - type: Transform
+      pos: -21.5,-22.5
       parent: 2
 - proto: VendingMachineWallMedical
   entities:
