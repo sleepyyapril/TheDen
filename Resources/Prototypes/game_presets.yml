@@ -14,7 +14,7 @@
   id: SurvivalHellshift
   alias:
     - hellshift
-  showInVote: true
+  showInVote: false
   name: hellshift-title
   description: hellshift-description
   rules:
@@ -25,7 +25,7 @@
 - type: gamePreset
   id: SurvivalIrregular
   alias: [irregular]
-  showInVote: true
+  showInVote: false
   name: irregular-title
   description: irregular-description
   rules:
@@ -75,7 +75,7 @@
   - greenshift
   - shittersafarideluxeedition
   name: greenshift-title
-  showInVote: false #4boring4vote
+  showInVote: true #4boring4vote
   description: greenshift-description
   rules:
   - BasicRoundstartVariation
@@ -153,7 +153,7 @@
     - nukeops
   name: nukeops-title
   description: nukeops-description
-  showInVote: false
+  showInVote: true
   rules:
     - Nukeops
     - SubGamemodesRule
