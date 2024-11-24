@@ -365,3 +365,12 @@ Entries:
   id: 32
   time: '2024-11-24T01:07:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/64
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed voice masks.
+    - type: Fix
+      message: 'Fixed Nanotrasen Block Game:tm:'
+  id: 33
+  time: '2024-11-24T01:37:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/59
