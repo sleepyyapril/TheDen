@@ -293,6 +293,9 @@
       - EnergyScalpel
       - EnergyCautery
       - AdvancedRetractor
+      - EnergyScalpel
+      - EnergyCautery
+      - AdvancedRetractor
       - Implanter
       - PillCanister
       - ChemistryEmptyBottle01
@@ -613,6 +616,7 @@
     - BorgModuleService
     - BorgModuleTreatment
     - BorgModuleSurgery
+    - BorgModuleSurgery
     - BorgModuleCleaning
     - CyborgEndoskeleton
     - LeftArmBorg
@@ -669,6 +673,12 @@
     - BorgModuleDiagnosis
     - BorgModuleDefibrillator
     - BorgModuleAdvancedTreatment
+    - BorgModuleAdvancedSurgery
+    - JawsOfLifeLeftArm
+    - JawsOfLifeRightArm
+    - SpeedLeftLeg
+    - SpeedRightLeg
+    - BasicCyberneticEyes
     - BorgModuleAdvancedSurgery
     - JawsOfLifeLeftArm
     - JawsOfLifeRightArm
@@ -916,6 +926,8 @@
       - MagazineBoxSpecialIncendiary
       - MagazineBoxSpecialUranium
       - MagazineBoxSpecialMindbreaker
+      - SecurityCyberneticEyes
+      - MedicalCyberneticEyes
       - SecurityCyberneticEyes
       - MedicalCyberneticEyes
   - type: MaterialStorage
