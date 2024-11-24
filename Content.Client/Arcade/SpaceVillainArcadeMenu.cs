@@ -1,121 +1,76 @@
-﻿using System.Numerics;
-using Content.Client.Arcade.UI;
-using Content.Shared.Arcade;
-using Robust.Client.UserInterface.Controls;
-using Robust.Client.UserInterface.CustomControls;
+﻿using Content.Shared.Arcade;
+using Robust.Client.GameObjects;
 
-namespace Content.Client.Arcade
+namespace Content.Client.Arcade.UI;
+
+public sealed class BlockGameBoundUserInterface : BoundUserInterface
 {
-    public sealed class SpaceVillainArcadeMenu : DefaultWindow
+    private BlockGameMenu? _menu;
+
+    public BlockGameBoundUserInterface(EntityUid owner, Enum uiKey) : base(owner, uiKey)
     {
-        public SpaceVillainArcadeBoundUserInterface Owner { get; set; }
+    }
 
-        private readonly Label _enemyNameLabel;
-        private readonly Label _playerInfoLabel;
-        private readonly Label _enemyInfoLabel;
-        private readonly Label _playerActionLabel;
-        private readonly Label _enemyActionLabel;
+    protected override void Open()
+    {
+        base.Open();
 
-        private readonly Button[] _gameButtons = new Button[3]; //used to disable/enable all game buttons
-        public SpaceVillainArcadeMenu(SpaceVillainArcadeBoundUserInterface owner)
+        _menu = new BlockGameMenu(this);
+        _menu.OnClose += Close;
+        _menu.OpenCentered();
+    }
+
+    protected override void ReceiveMessage(BoundUserInterfaceMessage message)
+    {
+        switch (message)
         {
-            MinSize = SetSize = new Vector2(300, 225);
-            Title = Loc.GetString("spacevillain-menu-title");
-            Owner = owner;
-
-            var grid = new GridContainer { Columns = 1 };
-
-            var infoGrid = new GridContainer { Columns = 3 };
-            infoGrid.AddChild(new Label { Text = Loc.GetString("spacevillain-menu-label-player"), Align = Label.AlignMode.Center });
-            infoGrid.AddChild(new Label { Text = "|", Align = Label.AlignMode.Center });
-            _enemyNameLabel = new Label { Align = Label.AlignMode.Center };
-            infoGrid.AddChild(_enemyNameLabel);
-
-            _playerInfoLabel = new Label { Align = Label.AlignMode.Center };
-            infoGrid.AddChild(_playerInfoLabel);
-            infoGrid.AddChild(new Label { Text = "|", Align = Label.AlignMode.Center });
-            _enemyInfoLabel = new Label { Align = Label.AlignMode.Center };
-            infoGrid.AddChild(_enemyInfoLabel);
-            var centerContainer = new CenterContainer();
-            centerContainer.AddChild(infoGrid);
-            grid.AddChild(centerContainer);
-
-            _playerActionLabel = new Label { Align = Label.AlignMode.Center };
-            grid.AddChild(_playerActionLabel);
-
-            _enemyActionLabel = new Label { Align = Label.AlignMode.Center };
-            grid.AddChild(_enemyActionLabel);
-
-            var buttonGrid = new GridContainer { Columns = 3 };
-            _gameButtons[0] = new ActionButton(Owner, SharedSpaceVillainArcadeComponent.PlayerAction.Attack)
-            {
-                Text = Loc.GetString("spacevillain-menu-button-attack")
-            };
-            buttonGrid.AddChild(_gameButtons[0]);
-
-            _gameButtons[1] = new ActionButton(Owner, SharedSpaceVillainArcadeComponent.PlayerAction.Heal)
-            {
-                Text = Loc.GetString("spacevillain-menu-button-heal")
-            };
-            buttonGrid.AddChild(_gameButtons[1]);
-
-            _gameButtons[2] = new ActionButton(Owner, SharedSpaceVillainArcadeComponent.PlayerAction.Recharge)
-            {
-                Text = Loc.GetString("spacevillain-menu-button-recharge")
-            };
-            buttonGrid.AddChild(_gameButtons[2]);
-
-            centerContainer = new CenterContainer();
-            centerContainer.AddChild(buttonGrid);
-            grid.AddChild(centerContainer);
-
-            var newGame = new ActionButton(Owner, SharedSpaceVillainArcadeComponent.PlayerAction.NewGame)
-            {
-                Text = Loc.GetString("spacevillain-menu-button-new-game")
-            };
-            grid.AddChild(newGame);
-
-            Contents.AddChild(grid);
+            case BlockGameMessages.BlockGameVisualUpdateMessage updateMessage:
+                switch (updateMessage.GameVisualType)
+                {
+                    case BlockGameMessages.BlockGameVisualType.GameField:
+                        _menu?.UpdateBlocks(updateMessage.Blocks);
+                        break;
+                    case BlockGameMessages.BlockGameVisualType.HoldBlock:
+                        _menu?.UpdateHeldBlock(updateMessage.Blocks);
+                        break;
+                    case BlockGameMessages.BlockGameVisualType.NextBlock:
+                        _menu?.UpdateNextBlock(updateMessage.Blocks);
+                        break;
+                }
+                break;
+            case BlockGameMessages.BlockGameScoreUpdateMessage scoreUpdate:
+                _menu?.UpdatePoints(scoreUpdate.Points);
+                break;
+            case BlockGameMessages.BlockGameUserStatusMessage userMessage:
+                _menu?.SetUsability(userMessage.IsPlayer);
+                break;
+            case BlockGameMessages.BlockGameSetScreenMessage statusMessage:
+                if (statusMessage.IsStarted) _menu?.SetStarted();
+                _menu?.SetScreen(statusMessage.Screen);
+                if (statusMessage is BlockGameMessages.BlockGameGameOverScreenMessage gameOverScreenMessage)
+                    _menu?.SetGameoverInfo(gameOverScreenMessage.FinalScore, gameOverScreenMessage.LocalPlacement, gameOverScreenMessage.GlobalPlacement);
+                break;
+            case BlockGameMessages.BlockGameHighScoreUpdateMessage highScoreUpdateMessage:
+                _menu?.UpdateHighscores(highScoreUpdateMessage.LocalHighscores,
+                    highScoreUpdateMessage.GlobalHighscores);
+                break;
+            case BlockGameMessages.BlockGameLevelUpdateMessage levelUpdateMessage:
+                _menu?.UpdateLevel(levelUpdateMessage.Level);
+                break;
         }
+    }
 
-        private void UpdateMetadata(SharedSpaceVillainArcadeComponent.SpaceVillainArcadeMetaDataUpdateMessage message)
-        {
-            Title = message.GameTitle;
-            _enemyNameLabel.Text = message.EnemyName;
+    public void SendAction(BlockGamePlayerAction action)
+    {
+        SendMessage(new BlockGameMessages.BlockGamePlayerActionMessage(action));
+    }
 
-            foreach (var gameButton in _gameButtons)
-            {
-                gameButton.Disabled = message.ButtonsDisabled;
-            }
-        }
+    protected override void Dispose(bool disposing)
+    {
+        base.Dispose(disposing);
+        if (!disposing)
+            return;
 
-        public void UpdateInfo(SharedSpaceVillainArcadeComponent.SpaceVillainArcadeDataUpdateMessage message)
-        {
-            if (message is SharedSpaceVillainArcadeComponent.SpaceVillainArcadeMetaDataUpdateMessage metaMessage)
-                UpdateMetadata(metaMessage);
-
-            _playerInfoLabel.Text = $"HP: {message.PlayerHP} MP: {message.PlayerMP}";
-            _enemyInfoLabel.Text = $"HP: {message.EnemyHP} MP: {message.EnemyMP}";
-            _playerActionLabel.Text = message.PlayerActionMessage;
-            _enemyActionLabel.Text = message.EnemyActionMessage;
-        }
-
-        private sealed class ActionButton : Button
-        {
-            private readonly SpaceVillainArcadeBoundUserInterface _owner;
-            private readonly SharedSpaceVillainArcadeComponent.PlayerAction _playerAction;
-
-            public ActionButton(SpaceVillainArcadeBoundUserInterface owner, SharedSpaceVillainArcadeComponent.PlayerAction playerAction)
-            {
-                _owner = owner;
-                _playerAction = playerAction;
-                OnPressed += Clicked;
-            }
-
-            private void Clicked(ButtonEventArgs e)
-            {
-                _owner.SendAction(_playerAction);
-            }
-        }
+        _menu?.Dispose();
     }
 }

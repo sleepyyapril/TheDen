@@ -25,13 +25,23 @@ public sealed class SpaceVillainArcadeBoundUserInterface : BoundUserInterface
     {
         base.Open();
 
-        _menu = this.CreateWindow<SpaceVillainArcadeMenu>();
-        _menu.OnPlayerAction += SendAction;
+        _menu = new SpaceVillainArcadeMenu(this);
+
+        _menu.OnClose += Close;
+        _menu.OpenCentered();
     }
 
     protected override void ReceiveMessage(BoundUserInterfaceMessage message)
     {
         if (message is SpaceVillainArcadeDataUpdateMessage msg)
             _menu?.UpdateInfo(msg);
+    }
+
+    protected override void Dispose(bool disposing)
+    {
+        base.Dispose(disposing);
+
+        if (disposing)
+            _menu?.Dispose();
     }
 }

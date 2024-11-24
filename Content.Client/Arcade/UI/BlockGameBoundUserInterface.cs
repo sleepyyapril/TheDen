@@ -15,8 +15,9 @@ public sealed class BlockGameBoundUserInterface : BoundUserInterface
     {
         base.Open();
 
-        _menu = this.CreateWindow<BlockGameMenu>();
-        _menu.OnAction += SendAction;
+        _menu = new BlockGameMenu(this);
+        _menu.OnClose += Close;
+        _menu.OpenCentered();
     }
 
     protected override void ReceiveMessage(BoundUserInterfaceMessage message)
