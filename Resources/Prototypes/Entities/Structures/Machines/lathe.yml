@@ -290,6 +290,9 @@
       - CryostasisBeaker
       - SyringeCryostasis
       - Syringe
+      - EnergyScalpel
+      - EnergyCautery
+      - AdvancedRetractor
       - Implanter
       - PillCanister
       - ChemistryEmptyBottle01
@@ -609,6 +612,7 @@
     - BorgModuleConstruction
     - BorgModuleService
     - BorgModuleTreatment
+    - BorgModuleSurgery
     - BorgModuleCleaning
     - CyborgEndoskeleton
     - LeftArmBorg
@@ -665,6 +669,12 @@
     - BorgModuleDiagnosis
     - BorgModuleDefibrillator
     - BorgModuleAdvancedTreatment
+    - BorgModuleAdvancedSurgery
+    - JawsOfLifeLeftArm
+    - JawsOfLifeRightArm
+    - SpeedLeftLeg
+    - SpeedRightLeg
+    - BasicCyberneticEyes
     - RipleyHarness
     - RipleyLArm
     - RipleyRArm
@@ -906,6 +916,8 @@
       - MagazineBoxSpecialIncendiary
       - MagazineBoxSpecialUranium
       - MagazineBoxSpecialMindbreaker
+      - SecurityCyberneticEyes
+      - MedicalCyberneticEyes
   - type: MaterialStorage
     whitelist:
       tags:
@@ -1036,6 +1048,11 @@
       - ClothingEyesHudMedical # Nyano
       - ChemicalPayload # Nyano
       - SyringeCryostasis
+      - EnergyScalpel
+      - EnergyCautery
+      - AdvancedRetractor
+      - OmnimedTool
+      - MedicalCyberneticEyes
       - HypoMini # Floof
   - type: Machine
     board: MedicalTechFabCircuitboard
