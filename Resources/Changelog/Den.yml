@@ -356,3 +356,12 @@ Entries:
   id: 31
   time: '2024-11-24T00:46:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/63
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked IPCs to not be able to take the Singer trait due to a bug where
+        they can't use it anyway.
+  id: 32
+  time: '2024-11-24T01:07:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/64
