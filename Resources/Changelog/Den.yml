@@ -374,3 +374,10 @@ Entries:
   id: 33
   time: '2024-11-24T01:37:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/59
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Tweaked mime masks to be for everyone in the items tab.
+  id: 34
+  time: '2024-11-25T13:26:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/66
