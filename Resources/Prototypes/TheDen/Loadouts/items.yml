@@ -1,7 +1,7 @@
 # Mask
 - type: loadout
   id: LoadoutServiceMimeMaskSad
-  category: JobsServiceMime
+  category: Items
   cost: 0
   exclusive: true
   customColorTint: true
@@ -14,7 +14,7 @@
 
 - type: loadout
   id: LoadoutServiceMimeMaskScared
-  category: JobsServiceMime
+  category: Items
   cost: 0
   exclusive: true
   customColorTint: true
@@ -27,7 +27,7 @@
 
 - type: loadout
   id: LoadoutServiceMimeMaskSexy
-  category: JobsServiceMime
+  category: Items
   cost: 0
   exclusive: true
   customColorTint: true
