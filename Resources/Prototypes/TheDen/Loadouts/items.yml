@@ -41,7 +41,7 @@
 # Oni masks
 
 - type: loadout
-  id: LoadoutOniMaskRed
+  id: LoadoutItemOniMaskRed
   category: Items
   cost: 0
   canBeHeirloom: true
@@ -52,7 +52,7 @@
     - ClothingMaskOniRed
 
 - type: loadout
-  id: LoadoutOniMaskBlue
+  id: LoadoutItemOniMaskBlue
   category: Items
   cost: 0
   canBeHeirloom: true
