@@ -1,4 +1,4 @@
-# Mask
+# Mime masks
 - type: loadout
   id: LoadoutServiceMimeMaskSad
   category: Items
@@ -37,3 +37,37 @@
       group: LoadoutMimeMask
   items:
     - ClothingMaskSexyMime
+
+# Oni masks
+
+- type: loadout
+  id: LoadoutItemOniMaskRed
+  category: Items
+  cost: 0
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGroupOniMask
+  items:
+    - ClothingMaskOniRed
+
+- type: loadout
+  id: LoadoutItemOniMaskBlue
+  category: Items
+  cost: 0
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGroupOniMask
+  items:
+    - ClothingMaskOniBlue
+
+# Other
+
+- type: loadout
+  id: LoadoutNetworkConfigurator
+  category: Items
+  cost: 0
+  exclusive: true
+  items:
+    - NetworkConfigurator
