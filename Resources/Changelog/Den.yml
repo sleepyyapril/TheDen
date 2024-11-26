@@ -381,3 +381,12 @@ Entries:
   id: 34
   time: '2024-11-25T13:26:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/66
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added oni masks and the double dildo to loadouts.
+    - type: Tweak
+      message: Tweaked Marish description.
+  id: 35
+  time: '2024-11-26T13:30:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/67
