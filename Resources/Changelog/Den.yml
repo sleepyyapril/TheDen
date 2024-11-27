@@ -401,3 +401,12 @@ Entries:
   id: 36
   time: '2024-11-27T05:14:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/68
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked Marish so it now requires that you have the Latent Psychic
+        trait.
+  id: 37
+  time: '2024-11-27T05:37:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/69
