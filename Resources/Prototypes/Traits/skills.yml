@@ -173,7 +173,6 @@
       inverted: true
       species:
         - Harpy
-        - IPC # because for some reason, fuck IPCs in relation to UI? TODO: fix this
   functions:
     - !type:TraitAddComponent
       components:
