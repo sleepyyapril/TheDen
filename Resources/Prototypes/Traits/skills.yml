@@ -167,13 +167,12 @@
 - type: trait
   id: Singer
   category: Auditory
-  points: -2
+  points: 0
   requirements:
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
         - Harpy
-        - IPC # because for some reason, fuck IPCs in relation to UI? TODO: fix this
   functions:
     - !type:TraitAddComponent
       components:
