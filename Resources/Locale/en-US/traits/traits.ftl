@@ -384,7 +384,7 @@ trait-name-RobotTalk = Robot Binary
 trait-description-RobotTalk = A language consisting of harsh binary chirps, whistles, hisses, and whines. Organic tongues cannot speak it without aid from special translators.
 
 trait-name-Marish = Marish
-trait-description-Marish = An Language that can be used to speak in Empathy, Sharing eachother emotions with only one word, Shadowkins speaks this language with ease, tho its is nearly impossible to replicate it or learn it.
+trait-description-Marish = A language consisting of pure emotion, learnable only by those with psionic capability.
 
 trait-name-Arachnic = Arachnic
 trait-description-Arachnic = The language of arachnids is composed of mostly clicks and hisses, it almost has a rhythmic character to it at times.
