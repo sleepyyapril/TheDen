@@ -410,3 +410,10 @@ Entries:
   id: 37
   time: '2024-11-27T05:37:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/69
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed the inventory issue relating to having an opened inventory.
+  id: 38
+  time: '2024-11-29T11:36:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/72
