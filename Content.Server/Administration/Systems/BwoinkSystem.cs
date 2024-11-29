@@ -693,7 +693,9 @@ namespace Content.Server.Administration.Systems
             {
                 bwoinkText = $"[color=purple]{adminPrefix}{senderName}[/color]";
             }
-            else if (fromWebhook || senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp)) // Frontier: anything sent via webhooks are from an admin.
+            else if (fromWebhook) 
+                bwoinkText = $"[color=#7289da]{senderName}[/color]";
+            else if (senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp)) // Frontier: anything sent via webhooks are from an admin.
             {
                 bwoinkText = $"[color=red]{adminPrefix}{senderName}[/color]";
             }
