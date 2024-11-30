@@ -426,3 +426,10 @@ Entries:
   id: 39
   time: '2024-11-30T02:26:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/74
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: IPCs can now interact with things again
+  id: 40
+  time: '2024-11-30T03:36:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/75
