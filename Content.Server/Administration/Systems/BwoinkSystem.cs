@@ -669,26 +669,6 @@ namespace Content.Server.Administration.Systems
             if (_rateLimit.CountAction(eventArgs.SenderSession, RateLimitKey) != RateLimitStatus.Allowed)
                 return;
 
-            OnBwoinkInternal(message, eventArgs.SenderSession.UserId, senderAdmin, eventArgs.SenderSession.Name, eventArgs.SenderSession.Channel, false, true, false);
-        }
-
-        /// <summary>
-        /// Sends a bwoink. Common to both internal messages (sent via the ahelp or admin interface) and webhook messages (sent through the webhook, e.g. via Discord)
-        /// </summary>
-        /// <param name="message">The message being sent.</param>
-        /// <param name="senderId">The network GUID of the person sending the message.</param>
-        /// <param name="senderAdmin">The admin privileges of the person sending the message.</param>
-        /// <param name="senderName">The name of the person sending the message.</param>
-        /// <param name="senderChannel">The channel to send a message to, e.g. in case of failure to send</param>
-        /// <param name="sendWebhook">If true, message should be sent off through the webhook if possible</param>
-        /// <param name="fromWebhook">Message originated from a webhook (e.g. Discord)</param>
-        private void OnBwoinkInternal(BwoinkTextMessage message, NetUserId senderId, AdminData? senderAdmin, string senderName, INetChannel? senderChannel, bool userOnly, bool sendWebhook, bool fromWebhook)
-        {
-            _activeConversations[message.UserId] = DateTime.Now;
-
-            if (_rateLimit.CountAction(eventArgs.SenderSession, RateLimitKey) != RateLimitStatus.Allowed)
-                return;
-
             var bwoinkParams = new BwoinkParams(message,
                 eventArgs.SenderSession.UserId,
                 senderAdmin,
