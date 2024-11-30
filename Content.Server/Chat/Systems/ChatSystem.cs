@@ -935,7 +935,8 @@ public sealed partial class ChatSystem : SharedChatSystem
             ("verb", Loc.GetString(verbId)),
             ("fontType", language.SpeechOverride.FontId ?? speech.FontId),
             ("fontSize", language.SpeechOverride.FontSize ?? speech.FontSize),
-            ("message", message));
+            ("message", message),
+            ("language", languageDisplay));
     }
 
     /// <summary>
