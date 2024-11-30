@@ -180,7 +180,8 @@ public sealed class RadioSystem : EntitySystem
             ("verb", Loc.GetString(_random.Pick(speech.SpeechVerbStrings))),
             ("channel", $"\\[{channel.LocalizedName}\\]"),
             ("name", name),
-            ("message", message));
+            ("message", message),
+            ("language", languageDisplay)););
     }
 
     /// <inheritdoc cref="TelecomServerComponent"/>
