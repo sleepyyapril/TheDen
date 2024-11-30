@@ -2481,7 +2481,7 @@ namespace Content.Shared.CCVar
         ///    Whether glimmer is enabled.
         /// </summary>
         public static readonly CVarDef<bool> GlimmerEnabled =
-            CVarDef.Create("glimmer.enabled", true, CVar.REPLICATED);
+            CVarDef.Create("glimmer.enabled", false, CVar.REPLICATED);
 
         /// <summary>
         ///     Passive glimmer drain per second.
