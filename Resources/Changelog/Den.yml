@@ -456,3 +456,10 @@ Entries:
   id: 41
   time: '2024-11-30T04:42:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/76
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Removed glimmer.
+  id: 42
+  time: '2024-11-30T10:48:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/77
