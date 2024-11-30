@@ -6,6 +6,7 @@
   components:
     - type: ContentEye
     - type: CameraRecoil
+    - type: ComplexInteraction
     - type: Reactive
       groups:
         Flammable: [Touch]
