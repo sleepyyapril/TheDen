@@ -181,7 +181,7 @@ public sealed class RadioSystem : EntitySystem
             ("channel", $"\\[{channel.LocalizedName}\\]"),
             ("name", name),
             ("message", message),
-            ("language", languageDisplay)););
+            ("language", languageDisplay));
     }
 
     /// <inheritdoc cref="TelecomServerComponent"/>
