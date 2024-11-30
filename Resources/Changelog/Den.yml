@@ -433,3 +433,26 @@ Entries:
   id: 40
   time: '2024-11-30T03:36:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/75
+- author: Juniper
+  changes:
+    - type: Add
+      message: '[Saltern] added a second hotplate to chemistry'
+    - type: Add
+      message: '[Saltern] added a duffel bag of surgical tools to surgery'
+    - type: Add
+      message: '[Saltern] added plasma to chemistry'
+    - type: Add
+      message: '[Saltern] added a VendoMat to epi'
+    - type: Add
+      message: '[Saltern] added a dock for the Pathfinder at salv '
+    - type: Add
+      message: '[Saltern] added steel for constructing atmospherics'
+    - type: Tweak
+      message: '[Saltern] Tweaked position of waste vent pipe'
+    - type: Tweak
+      message: '[Saltern] Moved the electrolysis board from a machine to the chem locker'
+    - type: Remove
+      message: '[Saltern] Removed atmospherics piping'
+  id: 41
+  time: '2024-11-30T04:42:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/76
