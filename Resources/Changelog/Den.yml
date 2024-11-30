@@ -417,3 +417,12 @@ Entries:
   id: 38
   time: '2024-11-29T11:36:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/72
+- author: Juniper
+  changes:
+    - type: Fix
+      message: >-
+        [Asterisk] Fixed wiring in engineering at roundstart. (no more powerless
+        bridge and grav)
+  id: 39
+  time: '2024-11-30T02:26:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/74
