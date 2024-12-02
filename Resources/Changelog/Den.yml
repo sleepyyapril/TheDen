@@ -478,3 +478,10 @@ Entries:
   id: 43
   time: '2024-12-01T05:59:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/82
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: The Grimble plush has been added.
+  id: 44
+  time: '2024-12-02T00:53:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/83
