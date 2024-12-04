@@ -1097,10 +1097,6 @@ namespace Content.Shared.Interaction
             if (checkAccess && !_containerSystem.IsInSameOrParentContainer(user, used) && !CanAccessViaStorage(user, used))
                 return false;
 
-            // Does the user have hands?
-            if (!HasComp<HandsComponent>(user))
-                return false;
-
             complexInteractions ??= SupportsComplexInteractions(user);
             var activateMsg = new ActivateInWorldEvent(user, used, complexInteractions.Value);
             RaiseLocalEvent(used, activateMsg, true);
