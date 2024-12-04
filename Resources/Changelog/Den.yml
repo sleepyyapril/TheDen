@@ -513,3 +513,12 @@ Entries:
   id: 46
   time: '2024-12-04T18:09:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/89
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added Nanotrasen Representative
+    - type: Add
+      message: Added Blueshield Officer
+  id: 47
+  time: '2024-12-04T18:29:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/86
