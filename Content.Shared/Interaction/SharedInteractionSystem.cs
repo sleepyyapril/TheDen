@@ -1002,10 +1002,10 @@ namespace Content.Shared.Interaction
         ///     Used when clicking on an entity resulted in no other interaction. Used for low-priority interactions.
         /// </summary>
         public void InteractDoAfter(
-            EntityUid user, 
-            EntityUid used, 
-            EntityUid? target, 
-            EntityCoordinates clickLocation, 
+            EntityUid user,
+            EntityUid used,
+            EntityUid? target,
+            EntityCoordinates clickLocation,
             bool canReach,
             bool checkDeletion = false
         )
