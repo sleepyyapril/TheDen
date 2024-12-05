@@ -403,7 +403,6 @@
     Telecrystal: 40
   categories:
   - UplinkMisc
-  - UplinkMisc
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -424,7 +423,6 @@
     Telecrystal: 6
   categories:
   - UplinkMisc
-  - UplinkMisc
   saleLimit: 1
 
 - type: listing
@@ -435,7 +433,6 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkMisc
   - UplinkMisc
   saleLimit: 1
 
@@ -448,7 +445,6 @@
     Telecrystal: 4
   categories:
   - UplinkMisc
-  - UplinkMisc
   saleLimit: 1
 
 - type: listing
@@ -459,7 +455,6 @@
   cost:
     Telecrystal: 4
   categories:
-  - UplinkMisc
   - UplinkMisc
   saleLimit: 1
 
@@ -472,7 +467,6 @@
     Telecrystal: 12
   categories:
   - UplinkMisc
-  - UplinkMisc
   saleLimit: 1
 
 - type: listing
@@ -484,7 +478,6 @@
     Telecrystal: 2
   categories:
   - UplinkMisc
-  - UplinkMisc
 
 - type: listing
   id: UplinkMedsBundle
@@ -494,7 +487,6 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkMisc
   - UplinkMisc
   conditions:
     - !type:StoreWhitelistCondition
