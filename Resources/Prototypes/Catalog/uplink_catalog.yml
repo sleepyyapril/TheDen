@@ -510,7 +510,6 @@
     Telecrystal: 3
   categories:
   - UplinkUtility
-  - UplinkUtility
 
 - type: listing
   id: UplinkStealthBox
@@ -520,7 +519,6 @@
   cost:
     Telecrystal: 5
   categories:
-  - UplinkUtility
   - UplinkUtility
 
 - type: listing
@@ -532,7 +530,6 @@
     Telecrystal: 7
   categories:
   - UplinkUtility
-  - UplinkUtility
 
 - type: listing
   id: UplinkCyberpen
@@ -542,7 +539,6 @@
   cost:
     Telecrystal: 1
   categories:
-  - UplinkUtility
   - UplinkUtility
 
 - type: listing
@@ -554,7 +550,6 @@
     Telecrystal: 1
   categories:
   - UplinkUtility
-  - UplinkUtility
 
 - type: listing
   id: UplinkUltrabrightLantern
@@ -565,7 +560,6 @@
     Telecrystal: 2
   categories:
   - UplinkUtility
-  - UplinkUtility
 
 - type: listing
   id: UplinkBribe
@@ -575,7 +569,6 @@
   cost:
     Telecrystal: 4
   categories:
-    - UplinkUtility
     - UplinkUtility
 
 # - type: listing
