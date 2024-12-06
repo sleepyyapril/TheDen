@@ -1020,10 +1020,7 @@ namespace Content.Shared.Interaction
             RaiseLocalEvent(used, afterInteractEvent);
             DoContactInteraction(user, used, afterInteractEvent);
             if (canReach)
-            {
                 DoContactInteraction(user, target, afterInteractEvent);
-                DoContactInteraction(used, target, afterInteractEvent);
-            }
 
             if (afterInteractEvent.Handled)
                 return;
@@ -1036,10 +1033,7 @@ namespace Content.Shared.Interaction
 
             DoContactInteraction(user, used, afterInteractUsingEvent);
             if (canReach)
-            {
                 DoContactInteraction(user, target, afterInteractUsingEvent);
-                DoContactInteraction(used, target, afterInteractUsingEvent);
-            }
         }
 
         #region ActivateItemInWorld
