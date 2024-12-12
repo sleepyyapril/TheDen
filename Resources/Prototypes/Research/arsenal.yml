@@ -12,6 +12,15 @@
   recipeUnlocks:
   - WeaponProtoKineticAccelerator
   - ShuttleGunKineticCircuitboard
+  - WeaponLaserCarbine
+  - WeaponEnergyGun
+  - WeaponEnergyGunMini
+  - WeaponLaserSvalinn
+  - WeaponEnergyGunPistol
+  - WeaponDisablerSMG
+  - Truncheon
+  #- WeaponPistolMk58 #todo: Add a bunch of basic ballistic guns to the list and make lathe recipes for them.
+  - MechEquipmentKineticAccelerator # Goobstation
   # These are roundstart but not replenishable for salvage
 
 - type: technology
@@ -55,6 +64,19 @@
   - WeaponLaserCarbine
 
 - type: technology
+  id: WeaponizedLaserManipulation
+  name: research-technology-weaponized-laser-manipulation
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+  - WeaponLaserCarbine
+  - WeaponMechCombatFiredartLaser # Goobstation
+
+- type: technology
   id: NonlethalAmmunition
   name: research-technology-nonlethal-ammunition
   icon:
@@ -89,6 +111,7 @@
   - MagazineBoxPistolRubber # Frontier
   - MagazineBoxRifleRubber # Frontier
   - SpeedLoaderRifleHeavyRubber
+  - WeaponMechCombatDisabler # Goobstation
 
 - type: technology
   id: UraniumMunitions
@@ -195,6 +218,11 @@
   - ShuttleGunSvalinnMachineGunCircuitboard
   - ShuttleGunPerforatorCircuitboard
   - ShuttleGunFriendshipCircuitboard
+  - WeaponXrayCannon
+  - WeaponLaserCannon
+  - WeaponGunLaserCarbineAutomatic
+  - WeaponLaserCannon
+  - WeaponMechCombatSolarisLaser # Goobstation
   technologyPrerequisites:
   - SalvageWeapons
 
@@ -238,5 +266,8 @@
   - GrenadeEMP
   - PowerCageHigh
   - ShuttleGunDusterCircuitboard
-  technologyPrerequisites:
   - BasicShuttleArmament
+  - WeaponMechCombatImmolationGun # Goobstation
+  #- EnergySword # TODO: Add a bunch of stupidly exotic energy weapons to act as a reaaaaaally nice incentive for research to consider this.
+                 # Make the energy sword for instance include bananium and bluespace in its recipe. :)
+  softCapContribution: 1.5
