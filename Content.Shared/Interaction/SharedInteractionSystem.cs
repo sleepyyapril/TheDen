@@ -1322,7 +1322,6 @@ namespace Content.Shared.Interaction
             if (uidB == null || args?.Handled == false)
                 return;
 
-            // we don't need a debug assert, just return
             if (uidA == uidB.Value)
                 return;
 
