@@ -649,7 +649,8 @@
       - !type:DumpCanisterBehavior
   - type: Lock
     locked: true
-    
+
+ #/tg/ gases
 - type: entity
   parent: GasCanister
   id: BZCanister
@@ -945,6 +946,7 @@
   - type: Sprite
     state: frezon-1
 
+ #/tg/ gases
 - type: entity
   parent: GasCanisterBrokenBase
   id: BZCanisterBroken
