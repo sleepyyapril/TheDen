@@ -16,9 +16,9 @@ public sealed partial class StationCentcommComponent : Component
     public float ShuttleIndex;
 
     [DataField]
-    public List<ResPath> Map = new()
+    public List<ResPath> Maps = new()
     {
-        new("/Maps/CentralCommand/main.yml"),
+        //new("/Maps/CentralCommand/main.yml"),
         new("/Maps/CentralCommand/harmony.yml")
     };
 
