@@ -543,3 +543,10 @@ Entries:
   id: 50
   time: '2024-12-07T01:23:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/94
+- author: SleepyScarecrow
+  changes:
+    - type: Add
+      message: Added Feathered Cap
+  id: 51
+  time: '2024-12-20T20:57:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/101
