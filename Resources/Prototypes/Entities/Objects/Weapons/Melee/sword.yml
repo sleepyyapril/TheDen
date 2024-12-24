@@ -1,15 +1,32 @@
 - type: entity
-  name: captain's sabre
   parent: BaseItem
+  id: BaseSword
+  abstract: true
+  components:
+  - type: Sharp
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Utensil
+    types:
+      - Knife
+  - type: Tool
+    qualities:
+    - Slicing
+
+- type: entity
+  name: captain's sabre
+  parent: BaseSword
   id: CaptainSabre
   description: A ceremonial weapon belonging to the captain of the station.
   components:
   - type: Sharp
   - type: Sprite
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
-    state: icon
   - type: MeleeWeapon
-    wideAnimationRotation: -135
     attackRate: .8
     range: 1.75
     soundHit:
@@ -39,7 +56,6 @@
     minReflectProb: 0.1
     spread: 90
   - type: Item
-    size: Normal
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
   - type: Tag
     tags:
@@ -237,8 +253,8 @@
   - type: DisarmMalus
 
 - type: entity
-  name: The Throngler
-  parent: BaseItem
+  name: Throngler
+  parent: BaseSword
   id: Throngler
   description: Why would someone make this?
   components:
@@ -271,3 +287,6 @@
       size: Ginormous
       sprite: Objects/Weapons/Melee/Throngler-in-hand.rsi
     - type: DisarmMalus
+    - type: Grammar
+      attributes:
+        proper: true

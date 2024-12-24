@@ -154,6 +154,13 @@
   - type: BodyPart
     onAdd:
     - type: NoSlip
+    - type: StepTriggerImmune
+      whitelist:
+        types:
+          - Shard
+          - Landmine
+          - Mousetrap
+          - SlipEntity
 
 - type: entity
   parent: RightLegCybernetic
@@ -167,3 +174,10 @@
   - type: BodyPart
     onAdd:
     - type: NoSlip
+    - type: StepTriggerImmune
+      whitelist:
+        types:
+          - Shard
+          - Landmine
+          - Mousetrap
+          - SlipEntity

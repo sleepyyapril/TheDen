@@ -70,9 +70,9 @@
         - PlushieSlips
         - PlushieJester
         - PlushieVega
-        - PlushieMort
         - PlushieGrim
         - PlushieAlice
+        - PlushieMort
       chance: 0.5
       offset: 0.2
 

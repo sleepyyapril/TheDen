@@ -166,9 +166,12 @@ public abstract partial class SharedSurgerySystem
         if (!_inventory.TryGetSlotEntity(args.User, "gloves", out var _)
         || !_inventory.TryGetSlotEntity(args.User, "mask", out var _))
         {
-            var sepsis = new DamageSpecifier(_prototypes.Index<DamageTypePrototype>("Poison"), 5);
-            var ev = new SurgeryStepDamageEvent(args.User, args.Body, args.Part, args.Surgery, sepsis, 0.5f);
-            RaiseLocalEvent(args.Body, ref ev);
+            if (!HasComp<SanitizedComponent>(args.User))
+            {
+                var sepsis = new DamageSpecifier(_prototypes.Index<DamageTypePrototype>("Poison"), 5);
+                var ev = new SurgeryStepDamageEvent(args.User, args.Body, args.Part, args.Surgery, sepsis, 0.5f);
+                RaiseLocalEvent(args.Body, ref ev);
+            }
         }
     }
 
@@ -430,7 +433,6 @@ public abstract partial class SharedSurgerySystem
                     : removedComp.Part.ToString().ToLower();
                 _body.TryCreatePartSlot(args.Part, slotName, partComp.PartType, out var _);
                 _body.AttachPart(args.Part, slotName, tool);
-                _body.ChangeSlotState((tool, partComp), false);
                 EnsureComp<BodyPartReattachedComponent>(tool);
                 var ev = new BodyPartAttachedEvent((tool, partComp));
                 RaiseLocalEvent(args.Body, ref ev);
