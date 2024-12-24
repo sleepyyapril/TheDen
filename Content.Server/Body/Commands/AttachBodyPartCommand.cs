@@ -99,7 +99,7 @@ namespace Content.Server.Body.Commands
             }
 
             // Shitmed Change Start
-            var slotId = "";
+            var slotId = string.Empty;
             var symmetry = part.Symmetry;
 
             if (part.Symmetry != BodyPartSymmetry.None)
