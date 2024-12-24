@@ -658,7 +658,7 @@
   components:
   - type: Sprite
     layers:
-    - state: yellow
+    - state: purple
   - type: GasCanister
     gasMixture:
       volume: 1000
@@ -707,7 +707,7 @@
   components:
   - type: Sprite
     layers:
-    - state: yellow
+    - state: healium
   - type: GasCanister
     gasMixture:
       volume: 1000
@@ -757,7 +757,7 @@
   components:
   - type: Sprite
     layers:
-    - state: yellow
+    - state: brown
   - type: GasCanister
     gasMixture:
       volume: 1000
@@ -953,7 +953,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    state: yellow-1
+    state: purple-1
 
 - type: entity
   parent: GasCanisterBrokenBase
@@ -961,7 +961,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    state: yellow-1
+    state: healium-1
 
 - type: entity
   parent: GasCanisterBrokenBase
@@ -969,4 +969,4 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    state: yellow-1
+    state: brown-1
