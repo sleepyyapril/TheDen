@@ -564,3 +564,48 @@ Entries:
   id: 53
   time: '2024-12-24T13:44:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/105
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added the Autodoc Mk. XIV with the Automated Surgery tier 2 civ tech.
+        AUTOMATED ORGAN HARVESTING!!!
+    - type: Fix
+      message: Fixed touching light bulbs damaging your torso instead of your hands
+    - type: Fix
+      message: >-
+        Fixed clumsy clowns damaging their torsos instead of their head when
+        hitting a table.
+    - type: Fix
+      message: Fixed borgs being unable to wear hats
+    - type: Fix
+      message: Fixed diona nymphs imploding as soon as they appear (lol)
+    - type: Fix
+      message: Fixed slime stomachs being unable to metabolize chemicals.
+    - type: Fix
+      message: >-
+        Fixed part damage code not caring about whether or not damage should
+        ignore resistances.
+    - type: Fix
+      message: Fixed monkeys not having hands.
+    - type: Fix
+      message: Fixed some simple mobs being unable to equip apparel or gear.
+    - type: Fix
+      message: Fixed mannequins not working.
+    - type: Fix
+      message: Fixed hands being added out of order on surgical reattachment.
+    - type: Fix
+      message: >-
+        Fixed fire gibbing not removing your organs properly, in turn allowing
+        you to continue living as a nugget.
+    - type: Tweak
+      message: You can now hear people doing surgeries.
+    - type: Tweak
+      message: Added a circuit board and crafting recipe for Operating Tables.
+    - type: Add
+      message: >-
+        Shitmed updates have been added, but my tests canceled without warning
+        so I have no idea if it's messed up or not. Good luck.
+  id: 54
+  time: '2024-12-24T19:26:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/93
