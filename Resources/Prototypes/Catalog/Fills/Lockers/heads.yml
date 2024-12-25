@@ -57,6 +57,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: ClothingOuterCoatCapTrench # TheDen
       - id: ClothingOuterArmorCaptainCarapace
       - id: ClothingLongcoatCap # Floofstation
       - id: NukeDisk
