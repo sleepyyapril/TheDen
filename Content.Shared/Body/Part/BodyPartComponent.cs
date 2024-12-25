@@ -23,7 +23,8 @@ public sealed partial class BodyPartComponent : Component, ISurgeryToolComponent
     [DataField, AutoNetworkedField]
     public EntityUid? Body;
 
-    // Shitmed Change Start
+    [DataField, AutoNetworkedField]
+    public EntityUid? OriginalBody;
 
     [DataField, AutoNetworkedField]
     public BodyPartSlot? ParentSlot;
@@ -55,9 +56,6 @@ public sealed partial class BodyPartComponent : Component, ISurgeryToolComponent
 
     [DataField, AlwaysPushInheritance]
     public float Speed { get; set; } = 1f;
-
-    [DataField, AlwaysPushInheritance]
-    public string SlotId = "";
 
     [DataField, AutoNetworkedField]
     public bool? Used { get; set; } = null;

@@ -133,11 +133,7 @@ namespace Content.Server.Body.Commands
             if (attachAt == default)
                 attachAt = bodySystem.GetBodyChildren(entity, body).First();
 
-            // Shitmed Change Start
-            var symmetry = part.Symmetry;
-            var slotId = $"{symmetry.ToString().ToLower()} {part.GetHashCode().ToString()}";
-            bodySystem.SetSlotId(ref part, part.GetHashCode().ToString());
-            // Shitmed Change End
+            var slotId = part.GetHashCode().ToString();
 
             if (!bodySystem.TryCreatePartSlotAndAttach(attachAt.Id, slotId, hand, BodyPartType.Hand, attachAt.Component, part))
             {

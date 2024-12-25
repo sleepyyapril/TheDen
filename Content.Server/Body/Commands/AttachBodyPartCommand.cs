@@ -98,20 +98,13 @@ namespace Content.Server.Body.Commands
                 return;
             }
 
-            // Shitmed Change Start
-            var slotId = string.Empty;
-            var symmetry = part.Symmetry;
+            var slotId = $"AttachBodyPartVerb-{partUid}";
 
-            if (part.Symmetry != BodyPartSymmetry.None)
-                slotId = $"{symmetry.ToString().ToLower()} {part.GetHashCode().ToString()}";
-            else
-                slotId = $"{part.GetHashCode().ToString()}";
-
-            bodySystem.SetSlotId(ref part, part.GetHashCode().ToString());
-            // Shitmed Change End
             // ReSharper disable once ConditionIsAlwaysTrueOrFalseAccordingToNullableAPIContract
             if (body.RootContainer.ContainedEntity != null)
+            {
                 bodySystem.AttachPartToRoot(bodyId, partUid.Value, body, part);
+            }
             else
             {
                 var (rootPartId, rootPart) = bodySystem.GetRootPartOrNull(bodyId, body)!.Value;

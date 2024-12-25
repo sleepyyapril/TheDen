@@ -38,6 +38,7 @@
   id: LoadoutServiceBartenderShotgunDoubleBarreledRubber
   category: JobsServiceBartender
   cost: 0
+  exclusive: true
   canBeHeirloom: true
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -52,6 +53,7 @@
   id: LoadoutServiceBartenderMosinRubber
   category: JobsServiceBartender
   cost: 0
+  exclusive: true
   canBeHeirloom: true
   requirements:
     - !type:CharacterItemGroupRequirement

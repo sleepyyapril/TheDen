@@ -1,6 +1,5 @@
 using Content.Shared.Body.Systems;
 using Content.Shared.Mobs;
-using Content.Shared.Body.Part;
 using Content.Shared.Targeting;
 using Content.Shared.Targeting.Events;
 

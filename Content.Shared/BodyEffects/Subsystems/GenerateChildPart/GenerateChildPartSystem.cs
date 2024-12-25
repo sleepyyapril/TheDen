@@ -47,6 +47,8 @@ public sealed class GenerateChildPartSystem : EntitySystem
             component.ChildPart = childPart;
             Dirty(childPart, childPartComp);
         }
+
+        _bodySystem.ChangeSlotState((uid, partComp), false);
     }
 
     private void DeletePart(EntityUid uid, GenerateChildPartComponent component)
@@ -54,7 +56,7 @@ public sealed class GenerateChildPartSystem : EntitySystem
         if (!TryComp(uid, out BodyPartComponent? partComp))
             return;
 
-        _bodySystem.DropSlotContents((uid, partComp));
+        _bodySystem.ChangeSlotState((uid, partComp), true);
         var ev = new BodyPartDroppedEvent((uid, partComp));
         RaiseLocalEvent(uid, ref ev);
         QueueDel(uid);

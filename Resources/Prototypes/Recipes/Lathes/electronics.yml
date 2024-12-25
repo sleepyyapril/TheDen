@@ -993,12 +993,3 @@
   materials:
     Steel: 100
     Glass: 500
-
-- type: latheRecipe
-  id: OperatingTableCircuitboard
-  result: OperatingTableCircuitboard
-  completetime: 4
-  materials:
-    Steel: 100
-    Glass: 500
-    Gold: 100

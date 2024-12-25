@@ -42,8 +42,8 @@
   components:
   - type: BodyPart
     children:
-      left foot:
-        id: "left foot"
+      right foot:
+        id: "right foot"
         type: Foot
 
 - type: entity

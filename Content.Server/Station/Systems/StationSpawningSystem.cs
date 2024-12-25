@@ -181,7 +181,7 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
         }
 
         var gearEquippedEv = new StartingGearEquippedEvent(entity.Value);
-        RaiseLocalEvent(entity.Value, ref gearEquippedEv);
+        RaiseLocalEvent(entity.Value, ref gearEquippedEv, true);
 
         if (profile != null)
         {

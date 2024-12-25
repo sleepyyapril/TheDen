@@ -84,11 +84,11 @@
       left foot:
         id: "left foot"
         type: Foot
-  - type: MovementBodyPart
   - type: Tag
     tags:
     - Trash
     - BorgLeg
+  - type: MovementBodyPart
 
 - type: entity
   id: BaseBorgLegRight
@@ -104,11 +104,11 @@
       right foot:
         id: "right foot"
         type: Foot
-  - type: MovementBodyPart
   - type: Tag
     tags:
     - Trash
     - BorgLeg
+  - type: MovementBodyPart
 
 - type: entity
   id: BaseBorgHead

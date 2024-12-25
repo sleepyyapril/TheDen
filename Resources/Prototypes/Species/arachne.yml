@@ -23,7 +23,7 @@
       points: 1
       required: false
     HeadSide:
-      points: 3
+      points: 2
       required: false
     Tail:
       points: 1
