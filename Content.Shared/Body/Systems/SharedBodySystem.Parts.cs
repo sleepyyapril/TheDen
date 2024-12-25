@@ -32,8 +32,6 @@ public partial class SharedBodySystem
         SubscribeLocalEvent<BodyPartComponent, EntRemovedFromContainerMessage>(OnBodyPartRemoved);
         SubscribeLocalEvent<BodyPartComponent, AmputateAttemptEvent>(OnAmputateAttempt);
         SubscribeLocalEvent<BodyPartComponent, BodyPartEnableChangedEvent>(OnPartEnableChanged);
-
-        _sawmill = _logManager.GetSawmill("body");
     }
 
     private void OnMapInit(Entity<BodyPartComponent> ent, ref MapInitEvent args)
@@ -63,19 +61,15 @@ public partial class SharedBodySystem
     }
     private void OnBodyPartInserted(Entity<BodyPartComponent> ent, ref EntInsertedIntoContainerMessage args)
     {
-        _sawmill.Info("OnBodyPartInserted");
         // Body part inserted into another body part.
         var insertedUid = args.Entity;
         var slotId = args.Container.ID;
-
-        _sawmill.Info($"slot {slotId} on entity {insertedUid}");
 
         if (ent.Comp.Body is null)
             return;
 
         if (TryComp(insertedUid, out BodyPartComponent? part))
         {
-            _sawmill.Info("made it to slot check");
             AddPart(ent.Comp.Body.Value, (insertedUid, part), slotId);
             RecursiveBodyUpdate((insertedUid, part), ent.Comp.Body.Value);
         }
