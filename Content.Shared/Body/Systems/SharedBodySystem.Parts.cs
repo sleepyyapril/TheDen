@@ -22,6 +22,9 @@ public partial class SharedBodySystem
 {
     [Dependency] private readonly RandomHelperSystem _randomHelper = default!; // Shitmed Change
     [Dependency] private readonly InventorySystem _inventorySystem = default!; // Shitmed Change
+    [Dependency] private readonly ILogManager _logManager = default!;
+
+    private ISawmill _sawmill = default!;
 
     private void InitializeParts()
     {
@@ -36,6 +39,8 @@ public partial class SharedBodySystem
         SubscribeLocalEvent<BodyPartComponent, ComponentRemove>(OnBodyPartRemove);
         SubscribeLocalEvent<BodyPartComponent, AmputateAttemptEvent>(OnAmputateAttempt);
         SubscribeLocalEvent<BodyPartComponent, BodyPartEnableChangedEvent>(OnPartEnableChanged);
+
+        _sawmill = _logManager.GetSawmill("body");
     }
 
     private void OnMapInit(Entity<BodyPartComponent> ent, ref MapInitEvent args)
@@ -217,15 +222,22 @@ public partial class SharedBodySystem
     // Shitmed Change End
     private void OnBodyPartInserted(Entity<BodyPartComponent> ent, ref EntInsertedIntoContainerMessage args)
     {
+        _sawmill.Info("OnBodyPartInserted");
         // Body part inserted into another body part.
         var insertedUid = args.Entity;
         var slotId = args.Container.ID;
 
+        _sawmill.Info($"slot {slotId} on entity {insertedUid}");
+
         if (ent.Comp.Body is null)
             return;
 
+        _sawmill.Info("passed body check");
+        _sawmill.Info(slotId);
+
         if (TryComp(insertedUid, out BodyPartComponent? part) && slotId.Contains(PartSlotContainerIdPrefix + GetSlotFromBodyPart(part))) // Shitmed Change
         {
+            _sawmill.Info("made it to slot check");
             AddPart(ent.Comp.Body.Value, (insertedUid, part), slotId);
             RecursiveBodyUpdate((insertedUid, part), ent.Comp.Body.Value);
             CheckBodyPart((insertedUid, part), GetTargetBodyPart(part), false); // Shitmed Change
@@ -233,6 +245,7 @@ public partial class SharedBodySystem
 
         if (TryComp(insertedUid, out OrganComponent? organ) && slotId.Contains(OrganSlotContainerIdPrefix + organ.SlotId)) // Shitmed Change
         {
+            _sawmill.Info("made it to organ check");
             AddOrgan((insertedUid, organ), ent.Comp.Body.Value, ent);
         }
     }
