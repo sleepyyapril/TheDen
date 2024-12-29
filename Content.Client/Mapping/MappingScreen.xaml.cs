@@ -11,6 +11,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.CustomControls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
+using Serilog;
 using static Robust.Client.UserInterface.Controls.BaseButton;
 
 namespace Content.Client.Mapping;
@@ -41,6 +42,8 @@ public sealed partial class MappingScreen : InGameScreen
     {
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
+
+        var layersUIController = UserInterfaceManager.GetUIController<MappingLayersUIController>();
 
         AutoscaleMaxResolution = new Vector2i(1080, 770);
 
@@ -96,6 +99,27 @@ public sealed partial class MappingScreen : InGameScreen
 
         Pick.Texture.TexturePath = "/Textures/Interface/eyedropper.svg.png";
         Delete.Texture.TexturePath = "/Textures/Interface/eraser.svg.png";
+        Flip.Texture.TexturePath = "/Textures/Interface/VerbIcons/rotate_cw.svg.192dpi.png";
+        Flip.OnPressed += args => FlipSides();
+        Layers.Texture.TexturePath = "/Textures/Interface/hamburger.svg.192dpi.png";
+        Layers.OnPressed += args =>
+        {
+            layersUIController.ToggleWindow();
+        };
+    }
+
+    public void FlipSides()
+    {
+        ScreenContainer.Flip();
+
+        if (SpawnContainer.GetPositionInParent() == 0)
+        {
+            Flip.Texture.TexturePath = "/Textures/Interface/VerbIcons/rotate_cw.svg.192dpi.png";
+        }
+        else
+        {
+            Flip.Texture.TexturePath = "/Textures/Interface/VerbIcons/rotate_ccw.svg.192dpi.png";
+        }
     }
 
     private void OnDecalColorPicked(Color color)
@@ -193,5 +217,6 @@ public sealed partial class MappingScreen : InGameScreen
         Move.Pressed = Move == except;
         Pick.Pressed = Pick == except;
         Delete.Pressed = Delete == except;
+        Layers.Pressed = Layers == except;
     }
 }

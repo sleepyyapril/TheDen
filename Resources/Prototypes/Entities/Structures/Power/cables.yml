@@ -30,6 +30,9 @@
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
+  - type: Tag
+    tags:
+      - Cable
   - type: SubFloorHide
   - type: CollideOnAnchor
   - type: Appearance
@@ -188,3 +191,12 @@
         acts: [ "Destruction" ]
   - type: CableVisualizer
     statePrefix: lvcable_
+
+- type: entity
+  id: CableApcExtensionUncuttable
+  parent: CableApcExtension
+  suffix: uncuttable
+  components:
+  - type: Cable
+    cuttingQuality: null
+

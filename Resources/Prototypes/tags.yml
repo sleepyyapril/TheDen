@@ -269,6 +269,9 @@
   id: BypassInteractionRangeChecks
 
 - type: Tag
+  id: Cable
+
+- type: Tag
   id: CableCoil
 
 - type: Tag
@@ -533,6 +536,12 @@
 
 - type: Tag
   id: DiscreteHealthAnalyzer #So construction recipes don't eat medical PDAs
+
+- type: Tag
+  id: Disposal
+
+- type: Tag
+  id: DNASolutionScannable
 
 - type: Tag
   id: DockArrivals
@@ -1419,20 +1428,5 @@
 - type: Tag
   id: WriteIgnoreStamps
 
-- type: Tag
-  id: FelinidEmotes
+# ALPHABETICAL
 
-- type: Tag
-  id: HarpyEmotes
-
-- type: Tag
-  id: VulpEmotes
-
-- type: Tag
-  id: ShadowkinEmotes
-
-- type: Tag
-  id: SiliconEmotes
-
-- type: Tag
-  id: UnathiEmotes
