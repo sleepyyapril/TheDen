@@ -604,8 +604,7 @@
   cost:
     Telecrystal: 40
   categories:
-  - UplinkMisc
-  - UplinkMisc
+  - UplinkChemicals
   conditions:
   - !type:StoreWhitelistCondition
     whitelist:
@@ -692,8 +691,7 @@
   cost:
     Telecrystal: 2
   categories:
-  - UplinkMisc
-  - UplinkMisc
+  - UplinkChemicals
 
 - type: listing
   id: UplinkMedsBundle
@@ -706,8 +704,7 @@
   cost:
     Telecrystal: 20
   categories:
-  - UplinkMisc
-  - UplinkMisc
+  - UplinkChemicals
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:

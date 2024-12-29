@@ -706,3 +706,13 @@
       seedId: cherry
     - type: Sprite
       sprite: Objects/Specific/Hydroponics/cherry.rsi
+
+- type: entity
+  parent: SeedBase
+  name: packet of blue pumpkin seeds
+  id: BluePumpkinSeeds
+  components:
+    - type: Seed
+      seedId: bluePumpkin
+    - type: Sprite
+      sprite: Floof/Objects/Specific/Hydroponics/blue_pumpkin.rsi
