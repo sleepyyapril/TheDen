@@ -132,25 +132,25 @@
     - 21.824779 # oxygen
     - 82.10312 # nitrogen
 
-- type: salvageAirMod
-  id: Sleepy
-  cost: 1
-  desc: Dangerous atmosphere
-  gases:
-    - 21.824779 # oxygen
-    - 72.10312 # nitrogen
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 10 # nitrous oxide
-  biomes:
-    - Caves
-    #- LowDesert
-    - Snow
-    - Grasslands
-    - Lava
+#- type: salvageAirMod
+#  id: Sleepy
+#  cost: 1
+#  desc: Dangerous atmosphere
+#  gases:
+#    - 21.824779 # oxygen
+#    - 72.10312 # nitrogen
+#    - 0
+#    - 0
+#    - 0
+#    - 0
+#    - 0
+#    - 10 # nitrous oxide
+#  biomes:
+#    - Caves
+#    #- LowDesert
+#    - Snow
+#    - Grasslands
+#    - Lava
 
 - type: salvageAirMod
   id: Poisoned

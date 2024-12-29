@@ -1,6 +1,9 @@
 using Content.Shared.DoAfter;
+using Content.Shared.StatusIcon;
 using Robust.Shared.Serialization;
 using Robust.Shared.GameStates;
+using Robust.Shared.Prototypes;
+
 
 namespace Content.Shared.Floofstation.Hypno;
 
@@ -15,10 +18,10 @@ public sealed partial class PsionicHypnoComponent : Component
     public DoAfterId? DoAfter;
 
     [DataField]
-    public string MasterIcon = "HypnoMaster";
+    public ProtoId<FactionIconPrototype> MasterIcon = "HypnoMaster";
 
     [DataField]
-    public string SubjectIcon = "HypnoSubject";
+    public ProtoId<FactionIconPrototype> SubjectIcon = "HypnoSubject";
 }
 
 [Serializable, NetSerializable]
