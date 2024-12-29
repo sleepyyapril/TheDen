@@ -38,7 +38,7 @@
   weights:
     EscapeShuttleObjective: 1
     DieObjective: 0.05
-    HijackShuttleObjective: 0.02
+    #HijackShuttleObjective: 0.02
 
 - type: weightedRandom
   id: TraitorObjectiveGroupSocial
