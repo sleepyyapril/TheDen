@@ -616,3 +616,10 @@ Entries:
   id: 55
   time: '2024-12-25T11:04:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/107
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: New Jackets and Bombers have been added to loadout
+  id: 56
+  time: '2024-12-29T00:02:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/109
