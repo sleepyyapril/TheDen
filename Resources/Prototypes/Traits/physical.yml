@@ -539,7 +539,6 @@
     - !type:TraitReplaceComponent
       components:
         - type: Flashable # Effectively, removes any flash-vulnerability species traits.
-        - type: EyeProtection
 
 
 - type: trait
