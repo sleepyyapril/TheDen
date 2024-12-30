@@ -38,10 +38,6 @@
     - type: loadout
       id: LoadoutHeadPoppy
     - type: loadout
-      id: LoadoutHeadHatBluesoft
-    - type: loadout
-      id: LoadoutHeadHatBluesoftFlipped
-    - type: loadout
       id: LoadoutHeadHatCorpsoft
     - type: loadout
       id: LoadoutHeadHatCorpsoftFlipped
@@ -87,6 +83,8 @@
       id: LoadoutHeadBandRed
     - type: loadout
       id: LoadoutHeadBandSkull
+    - type: loadout
+      id: LoadoutHeadBandMerc
     - type: loadout
       id: LoadoutHeadBandBrown
     - type: loadout
