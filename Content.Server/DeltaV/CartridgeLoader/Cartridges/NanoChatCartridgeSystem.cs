@@ -27,7 +27,7 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
     [Dependency] private readonly SharedNanoChatSystem _nanoChat = default!;
     [Dependency] private readonly StationSystem _station = default!;
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
-    
+
     // Messages in notifications get cut off after this point
     // no point in storing it on the comp
     private const int NotificationMaxLength = 64;
@@ -385,11 +385,6 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
 
 
         if (_nanoChat.GetCurrentChat((recipient, recipient.Comp)) != senderNumber)
-            HandleUnreadNotification(recipient, message);
-
-        if (
-            _nanoChat.GetCurrentChat((recipient, recipient.Comp)) == senderNumber
-            && !_ui.IsUiOpen(recipient.Owner, PdaUiKey.Key))
             HandleUnreadNotification(recipient, message);
 
         var msgEv = new NanoChatMessageReceivedEvent(recipient);
