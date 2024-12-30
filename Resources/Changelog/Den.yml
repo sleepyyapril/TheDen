@@ -654,3 +654,12 @@ Entries:
   id: 57
   time: '2024-12-30T21:27:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/112
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: >-
+        Fixed NanoChat not notifying you if you had someone selected but your
+        PDA was closed.
+  id: 58
+  time: '2024-12-30T22:54:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/113
