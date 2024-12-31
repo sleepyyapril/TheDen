@@ -663,3 +663,10 @@ Entries:
   id: 58
   time: '2024-12-30T22:54:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/113
+- author: cynical24
+  changes:
+    - type: Fix
+      message: can now interact with carried entities!
+  id: 59
+  time: '2024-12-31T20:47:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/114
