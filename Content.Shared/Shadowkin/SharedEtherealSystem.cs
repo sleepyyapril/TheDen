@@ -16,6 +16,8 @@ using Content.Shared.Abilities.Psionics;
 using Content.Shared.Tag;
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
+using Content.Shared.Standing;
+
 
 namespace Content.Shared.Shadowkin;
 
@@ -27,6 +29,7 @@ public abstract class SharedEtherealSystem : EntitySystem
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly TagSystem _tag = default!;
     [Dependency] private readonly StaminaSystem _stamina = default!;
+    [Dependency] private readonly StandingStateSystem _standingState = default!;
 
     public override void Initialize()
     {
@@ -56,9 +59,9 @@ public abstract class SharedEtherealSystem : EntitySystem
         if (!TryComp<FixturesComponent>(uid, out var fixtures))
             return;
 
-        if (TryComp<StandingStateComponent>(uid, out var standingstate))
+        if (TryComp<StandingStateComponent>(uid, out var standingState))
         {
-            _standingStateSystem.Stand(uid, standingstate);
+            _standingState.Stand(uid, standingState);
         }
 
         var fixture = fixtures.Fixtures.First();

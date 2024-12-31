@@ -146,7 +146,7 @@ public sealed class ShadowkinSystem : EntitySystem
     // FloofStation Edit
     private void OnMobStateChanged(EntityUid uid, ShadowkinComponent component, MobStateChangedEvent args)
     {
-        if (HasComp<MindbrokenComponent>(uid) || HasComp<ShadowkinCuffComponent>(uid))
+        if (HasComp<MindbrokenComponent>(uid))
             return;
 
         if (args.NewMobState == MobState.Critical || args.NewMobState == MobState.Dead)
