@@ -1212,6 +1212,14 @@
     accentVColor: "#447987"
   - type: Icon
     state: pda-medical
+  - type: CartridgeLoader # Nyanotrasen - Glimmer Monitor
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - GlimmerMonitorCartridge
+      - MedTekCartridge
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
