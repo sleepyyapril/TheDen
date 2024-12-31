@@ -383,6 +383,9 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
 
         _nanoChat.AddMessage((recipient, recipient.Comp), senderNumber.Value, message with { DeliveryFailed = false });
 
+        if (_nanoChat.GetCurrentChat((recipient, recipient.Comp)) == senderNumber
+            && !_ui.IsUiOpen(recipient.Owner, PdaUiKey.Key))
+            HandleUnreadNotification(recipient, message);
 
         if (_nanoChat.GetCurrentChat((recipient, recipient.Comp)) != senderNumber)
             HandleUnreadNotification(recipient, message);
