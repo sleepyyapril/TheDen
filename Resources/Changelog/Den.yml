@@ -670,3 +670,10 @@ Entries:
   id: 59
   time: '2024-12-31T20:47:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/114
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added an armored trenchcoat for the Captain. Enjoy your swag!
+  id: 60
+  time: '2024-12-31T20:48:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/108
