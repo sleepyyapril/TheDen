@@ -19,6 +19,9 @@ using Robust.Shared.Prototypes;
 using Content.Shared.Mobs;
 using Content.Shared.Damage;
 using Content.Shared.Interaction.Events;
+using Content.Shared.NPC.Components;
+using Content.Shared.NPC.Systems;
+
 using Content.Shared.Alert;
 using Content.Shared.Rounding;
 using Content.Shared.Psionics;
