@@ -226,10 +226,9 @@
       canReroll: false
       mindbreakingFeedback: shadowkin-blackeye
       manaGain: 0.25
-      mana: 150
-      maxMana: 250
+      mana: 100
+      maxMana: 200
       noMana: shadowkin-tired
-      removable: false
     - type: InnatePsionicPowers
       powersToAdd:
         - ShadowkinPowers
