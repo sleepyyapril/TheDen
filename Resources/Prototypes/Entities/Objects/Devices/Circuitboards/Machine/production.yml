@@ -1727,7 +1727,3 @@
       materialRequirements:
         Steel: 5
         Cable: 1
-    - type: ReverseEngineering # Nyano
-      difficulty: 2
-      recipes:
-      - TraversalDistorterMachineCircuitboard

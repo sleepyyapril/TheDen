@@ -221,7 +221,6 @@
     - type: Speech
       allowedEmotes: ['Mars', 'Wurble']
     - type: Shadowkin
-      blackeyeSpawn: true
     - type: Psionic
       canReroll: false
       mindbreakingFeedback: shadowkin-blackeye
