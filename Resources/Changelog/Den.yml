@@ -684,3 +684,14 @@ Entries:
   id: 61
   time: '2025-01-01T16:15:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/116
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Captain's Combat Gas Mask, for those more fond of close
+        encounters.
+    - type: Tweak
+      message: Added the Captain's Trenchcoat to the other captain locker variants.
+  id: 62
+  time: '2025-01-01T16:16:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/117
