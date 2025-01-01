@@ -34,7 +34,7 @@
     - ClothingHeadHatFedoraBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadFedoraBrown
@@ -49,7 +49,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadFedoraGrey
@@ -60,7 +60,7 @@
     - ClothingHeadHatFedoraGrey
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadFedoraChoc
@@ -75,7 +75,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadFedoraWhite
@@ -124,7 +124,7 @@
     - ClothingHeadHatCowboyBrown
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatCowboyBlack
@@ -135,7 +135,7 @@
     - ClothingHeadHatCowboyBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatCowboyGrey
@@ -146,7 +146,7 @@
     - ClothingHeadHatCowboyGrey
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatCowboyRed
@@ -157,7 +157,7 @@
     - ClothingHeadHatCowboyRed
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatCowboyWhite
@@ -232,7 +232,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatBluesoftFlipped
@@ -247,7 +247,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatCorpsoft
@@ -284,7 +284,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatGreensoftFlipped
@@ -299,7 +299,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatGreysoft
@@ -310,7 +310,7 @@
     - ClothingHeadHatGreysoft
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatGreysoftFlipped
@@ -321,7 +321,7 @@
     - ClothingHeadHatGreysoftFlipped
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatMimesoft
@@ -360,7 +360,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatOrangesoftFlipped
@@ -375,7 +375,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatPurplesoft
@@ -390,7 +390,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatPurplesoftFlipped
@@ -405,7 +405,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatRedsoft
@@ -416,7 +416,7 @@
     - ClothingHeadHatRedsoft
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatRedsoftFlipped
@@ -427,7 +427,7 @@
     - ClothingHeadHatRedsoftFlipped
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatYellowsoft
@@ -442,7 +442,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHatYellowsoftFlipped
@@ -457,7 +457,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 # Headbands
 - type: loadout
@@ -469,7 +469,7 @@
     - ClothingHeadBandBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadBandBlue
@@ -484,7 +484,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadBandGold
@@ -499,7 +499,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadBandGreen
@@ -514,7 +514,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadBandGrey
@@ -529,7 +529,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadBandRed
@@ -567,7 +567,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadBandBrown
@@ -582,7 +582,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadFishCap
@@ -673,7 +673,7 @@
     - ClothingHeadHatBeret
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadBeretFrench
@@ -700,7 +700,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadCowboyBlack
@@ -711,7 +711,7 @@
     - ClothingHeadHatCowboyBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadCowboyWhite
@@ -723,7 +723,7 @@
     - ClothingHeadHatCowboyWhite
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadCowboyGrey
@@ -734,7 +734,7 @@
     - ClothingHeadHatCowboyGrey
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadCowboyRed
@@ -745,7 +745,7 @@
     - ClothingHeadHatCowboyRed
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutHead2
+      group: LoadoutHead
 
 - type: loadout
   id: LoadoutHeadHijabColorable

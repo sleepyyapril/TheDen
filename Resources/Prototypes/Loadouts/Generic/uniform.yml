@@ -26,7 +26,7 @@
     - ClothingUniformJumpsuitColorBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -45,7 +45,7 @@
     - ClothingUniformJumpskirtColorBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -64,7 +64,7 @@
     - ClothingUniformJumpsuitColorBlue
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Medical
@@ -83,7 +83,7 @@
     - ClothingUniformJumpskirtColorBlue
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Medical
@@ -102,7 +102,7 @@
     - ClothingUniformJumpsuitColorGreen
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -120,7 +120,7 @@
     - ClothingUniformJumpskirtColorGreen
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -138,7 +138,7 @@
     - ClothingUniformJumpsuitColorOrange
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -156,7 +156,7 @@
     - ClothingUniformJumpskirtColorOrange
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -174,7 +174,7 @@
     - ClothingUniformJumpsuitColorPink
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -192,7 +192,7 @@
     - ClothingUniformJumpskirtColorPink
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -210,7 +210,7 @@
     - ClothingUniformJumpsuitColorRed
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -229,7 +229,7 @@
     - ClothingUniformJumpskirtColorRed
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -290,7 +290,7 @@
     - ClothingUniformJumpsuitColorYellow
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -309,7 +309,7 @@
     - ClothingUniformJumpskirtColorYellow
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -328,7 +328,7 @@
     - ClothingUniformJumpsuitColorDarkBlue
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -346,7 +346,7 @@
     - ClothingUniformJumpskirtColorDarkBlue
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -364,7 +364,7 @@
     - ClothingUniformJumpsuitColorTeal
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -382,7 +382,7 @@
     - ClothingUniformJumpskirtColorTeal
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -400,7 +400,7 @@
     - ClothingUniformJumpsuitColorPurple
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -419,7 +419,7 @@
     - ClothingUniformJumpskirtColorPurple
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -438,7 +438,7 @@
     - ClothingUniformJumpsuitColorDarkGreen
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -456,7 +456,7 @@
     - ClothingUniformJumpskirtColorDarkGreen
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -474,7 +474,7 @@
     - ClothingUniformJumpsuitColorLightBrown
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -492,7 +492,7 @@
     - ClothingUniformJumpskirtColorLightBrown
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -510,7 +510,7 @@
     - ClothingUniformJumpsuitColorBrown
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -528,7 +528,7 @@
     - ClothingUniformJumpskirtColorBrown
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -546,7 +546,7 @@
     - ClothingUniformJumpsuitColorMaroon
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
@@ -564,7 +564,7 @@
     - ClothingUniformJumpskirtColorMaroon
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutUniformsCivilian2
+      group: LoadoutUniformsCivilian
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian

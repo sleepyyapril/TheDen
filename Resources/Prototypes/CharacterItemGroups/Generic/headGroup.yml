@@ -38,10 +38,6 @@
     - type: loadout
       id: LoadoutHeadPoppy
     - type: loadout
-      id: LoadoutHeadHatBluesoft
-    - type: loadout
-      id: LoadoutHeadHatBluesoftFlipped
-    - type: loadout
       id: LoadoutHeadHatCorpsoft
     - type: loadout
       id: LoadoutHeadHatCorpsoftFlipped

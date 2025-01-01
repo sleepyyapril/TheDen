@@ -139,7 +139,7 @@ namespace Content.Server.Carrying
 
             args.ItemUid = virtItem.BlockingEntity;
 
-            args.ThrowStrength *= _contests.MassContest(uid, virtItem.BlockingEntity, false, 2f)
+            args.ThrowSpeed *= _contests.MassContest(uid, virtItem.BlockingEntity, false, 2f)
                             * _contests.StaminaContest(uid, virtItem.BlockingEntity);
         }
 
@@ -162,11 +162,17 @@ namespace Content.Server.Carrying
         /// </summary>
         private void OnInteractionAttempt(EntityUid uid, BeingCarriedComponent component, InteractionAttemptEvent args)
         {
-            if (args.Target == null)
+            // Floofstation - function body reviewed
+            Predicate<TransformComponent> isChildOfCarrier = null!; // C# doesn't have local functions eugh
+            isChildOfCarrier = (childXForm) => childXForm.ParentUid == component.Carrier
+                             || (childXForm.ParentUid is { Valid: true } parent && isChildOfCarrier(Transform(parent)));
+
+            if (args.Target == null // Allow self-interacts
+                || isChildOfCarrier(Transform(args.Target.Value))) // Allow interacting with everything on the carriee
                 return;
 
+            // Also check if the interacted-with entity is on the carrier and cancel the event if not
             var targetParent = Transform(args.Target.Value).ParentUid;
-
             if (args.Target.Value != component.Carrier && targetParent != component.Carrier && targetParent != uid)
                 args.Cancel();
         }
@@ -201,8 +207,9 @@ namespace Content.Server.Carrying
 
         private void OnInteractedWith(EntityUid uid, BeingCarriedComponent component, GettingInteractedWithAttemptEvent args)
         {
-            if (args.Uid != component.Carrier)
-                args.Cancel();
+            // Floofstation - why.
+            // if (args.Uid != component.Carrier)
+            //     args.Cancel();
         }
 
         private void OnPullAttempt(EntityUid uid, BeingCarriedComponent component, PullAttemptEvent args)
@@ -250,8 +257,7 @@ namespace Content.Server.Carrying
             var ev = new CarryDoAfterEvent();
             var args = new DoAfterArgs(EntityManager, carrier, length, ev, carried, target: carried)
             {
-                BreakOnTargetMove = true,
-                BreakOnUserMove = true,
+                BreakOnMove = true,
                 NeedHand = true
             };
 

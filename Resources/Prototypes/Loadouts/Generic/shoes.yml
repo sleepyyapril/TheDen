@@ -6,7 +6,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesColorBlack
 
@@ -17,7 +17,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesColorBlue
 
@@ -28,7 +28,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesColorBrown
 
@@ -39,7 +39,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesColorGreen
 
@@ -50,7 +50,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesColorOrange
 
@@ -61,7 +61,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesColorPurple
 
@@ -72,7 +72,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesColorRed
 
@@ -95,7 +95,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesColorYellow
 
@@ -134,6 +134,17 @@
     - ClothingShoesBootsWork
 
 - type: loadout
+  id: LoadoutShoesBootsJackFake
+  category: Shoes
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutShoes
+  items:
+    - ClothingShoesBootsJackFake
+
+- type: loadout
   id: LoadoutShoesBootsLaceup
   category: Shoes
   cost: 1
@@ -163,7 +174,7 @@
   canBeHeirloom: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesBootsCowboyBrown
 
@@ -175,7 +186,7 @@
   canBeHeirloom: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutShoes2
+      group: LoadoutShoes
   items:
     - ClothingShoesBootsCowboyBlack
 

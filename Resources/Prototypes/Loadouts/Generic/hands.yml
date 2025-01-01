@@ -7,7 +7,7 @@
     - ClothingHandsGlovesColorPurple
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves2
+      group: LoadoutGloves
 
 - type: loadout
   id: LoadoutHandsColorRed
@@ -18,7 +18,7 @@
     - ClothingHandsGlovesColorRed
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves2
+      group: LoadoutGloves
 
 - type: loadout
   id: LoadoutHandsColorBlack
@@ -29,7 +29,7 @@
     - ClothingHandsGlovesColorBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves2
+      group: LoadoutGloves
 
 - type: loadout
   id: LoadoutHandsColorBlue
@@ -40,7 +40,7 @@
     - ClothingHandsGlovesColorBlue
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves2
+      group: LoadoutGloves
 
 - type: loadout
   id: LoadoutHandsColorBrown
@@ -51,7 +51,7 @@
     - ClothingHandsGlovesColorBrown
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves2
+      group: LoadoutGloves
 
 - type: loadout
   id: LoadoutHandsColorGray
@@ -62,7 +62,7 @@
     - ClothingHandsGlovesColorGray
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves2
+      group: LoadoutGloves
 
 - type: loadout
   id: LoadoutHandsColorGreen
@@ -73,7 +73,7 @@
     - ClothingHandsGlovesColorGreen
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves2
+      group: LoadoutGloves
 
 - type: loadout
   id: LoadoutHandsColorLightBrown
@@ -84,7 +84,7 @@
     - ClothingHandsGlovesColorLightBrown
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves2
+      group: LoadoutGloves
 
 - type: loadout
   id: LoadoutHandsColorOrange
@@ -95,7 +95,7 @@
     - ClothingHandsGlovesColorOrange
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutGloves2
+      group: LoadoutGloves
 
 - type: loadout
   id: LoadoutHandsColorWhite

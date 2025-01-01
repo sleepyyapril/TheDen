@@ -42,7 +42,7 @@
     - ClothingMaskBandBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMasks2
+      group: LoadoutMasks
 
 - type: loadout
   id: LoadoutMaskBandBlue
@@ -57,7 +57,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMasks2
+      group: LoadoutMasks
 
 - type: loadout
   id: LoadoutMaskBandGold
@@ -72,7 +72,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMasks2
+      group: LoadoutMasks
 
 - type: loadout
   id: LoadoutMaskBandGreen
@@ -87,7 +87,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMasks2
+      group: LoadoutMasks
 
 - type: loadout
   id: LoadoutMaskBandGrey
@@ -102,7 +102,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMasks2
+      group: LoadoutMasks
 
 - type: loadout
   id: LoadoutMaskBandRed
@@ -140,7 +140,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMasks2
+      group: LoadoutMasks
 
 - type: loadout
   id: LoadoutMaskBandBrown
@@ -155,7 +155,7 @@
        departments:
          - Security
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMasks2
+      group: LoadoutMasks
 
 # Gaiters
 - type: loadout
@@ -167,7 +167,7 @@
     - ClothingMaskNeckGaiter
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutMasks2
+      group: LoadoutMasks
 
 - type: loadout
   id: LoadoutMaskNeckGaiterRed

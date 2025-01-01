@@ -157,7 +157,7 @@
     - ClothingNeckTieRed
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
 
 - type: loadout
   id: LoadoutNeckTieWhite
@@ -182,7 +182,7 @@
     - ClothingNeckTieBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
 
 - type: loadout
   id: LoadoutNeckTieBlue
@@ -194,7 +194,7 @@
     - ClothingNeckTieBlue
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
 
 - type: loadout
   id: LoadoutNeckTieGreen
@@ -206,7 +206,7 @@
     - ClothingNeckTieGreen
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
 
 #Pride Accessories
 - type: loadout
@@ -318,7 +318,7 @@
     - BedsheetBlack
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
     - !type:CharacterDepartmentRequirement
        departments:
          - Civilian
@@ -336,7 +336,7 @@
     - BedsheetBlue
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
     - !type:CharacterDepartmentRequirement
        departments:
          - Civilian
@@ -354,7 +354,7 @@
     - BedsheetBrown
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
     - !type:CharacterDepartmentRequirement
        departments:
          - Civilian
@@ -391,7 +391,7 @@
     - BedsheetGreen
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
     - !type:CharacterDepartmentRequirement
        departments:
          - Civilian
@@ -409,7 +409,7 @@
     - BedsheetGrey
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
     - !type:CharacterDepartmentRequirement
        departments:
          - Civilian
@@ -427,7 +427,7 @@
     - BedsheetOrange
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
     - !type:CharacterDepartmentRequirement
        departments:
          - Civilian
@@ -446,7 +446,7 @@
     - BedsheetPurple
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
     - !type:CharacterDepartmentRequirement
        departments:
          - Civilian
@@ -483,7 +483,7 @@
     - BedsheetRed
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
     - !type:CharacterDepartmentRequirement
        departments:
          - Civilian
@@ -521,7 +521,7 @@
     - BedsheetYellow
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutNeck2
+      group: LoadoutNeck
     - !type:CharacterDepartmentRequirement
        departments:
          - Civilian

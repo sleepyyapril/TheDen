@@ -22,6 +22,7 @@
       - id: SpaceCashLuckyBill # DeltaV - LO steal objective, see Resources/Prototypes/DeltaV/Entities/Objects/Misc/first_bill.yml
       - id: BoxPDACargo # Delta-V
       - id: QuartermasterIDCard # Delta-V
+      - id: AstroNavCartridge
       - id: ClothingLongcoatLO # Floofstation
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
@@ -57,6 +58,7 @@
   components:
   - type: StorageFill
     contents:
+      - id: ClothingOuterCoatCapTrench # TheDen
       - id: ClothingOuterArmorCaptainCarapace
       - id: ClothingLongcoatCap # Floofstation
       - id: NukeDisk
@@ -196,13 +198,13 @@
       - id: RubberStampCMO
       - id: RubberStampPsychologist # DeltaV
       - id: MedicalTechFabCircuitboard
-      - id: MedicalBiofabMachineBoard
       - id: BoxEncryptionKeyMedical
       - id: BoxPDAMedical # Delta-V
       - id: ClothingBeltMilitaryWebbingCMO # DeltaV - add webbing for CMO. ON THIS STATION, IT'S DRIP OR [die], CAPTAIN!
       - id: CMOIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: MedicalBiofabMachineBoard # Shitmed Change
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -223,12 +225,13 @@
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard
       - id: BoxEncryptionKeyMedical
-      - id: MedicalBiofabMachineBoard
       - id: BoxPDAMedical # Delta-V
       - id: ClothingBeltMilitaryWebbingCMO # DeltaV - add webbing for CMO. ON THIS STATION, IT'S DRIP OR [die], CAPTAIN!
       - id: CMOIDCard # Delta-V
+      - id: MedTekCartridge # Delta-v
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: MedicalBiofabMachineBoard # Shitmed Change
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
@@ -302,7 +305,6 @@
       - id: JetpackSecurityFilled
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
-      - id: BookSecretDocuments
       - id: BoxPDASecurity # Delta-V
       - id: HoSIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
@@ -331,7 +333,6 @@
       - id: SecurityTechFabCircuitboard
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
-      - id: BookSecretDocuments
       - id: BoxPDASecurity # Delta-V
       - id: HoSIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!

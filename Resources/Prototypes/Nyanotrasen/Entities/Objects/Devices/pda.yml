@@ -38,6 +38,8 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - CrimeAssistCartridge
+      - SecWatchCartridge
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -72,6 +74,7 @@
     - NotekeeperCartridge
     - NewsReaderCartridge
     - MailMetricsCartridge
+    - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -118,3 +121,4 @@
      - NotekeeperCartridge
      - NewsReaderCartridge
      - GlimmerMonitorCartridge
+     - NanoChatCartridge
