@@ -704,3 +704,10 @@ Entries:
   id: 63
   time: '2025-01-03T21:18:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/118
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Specific languages now how proper coloring.
+  id: 64
+  time: '2025-01-03T22:45:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/119
