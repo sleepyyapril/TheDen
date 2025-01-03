@@ -221,6 +221,13 @@
     - type: Speech
       allowedEmotes: ['Mars', 'Wurble']
     - type: Shadowkin
+    - type: Respirator
+      damage:
+       types:
+        Asphyxiation: 1.0
+      damageRecovery:
+        types:
+          Asphyxiation: -1.0
     - type: Psionic
       canReroll: false
       mindbreakingFeedback: shadowkin-blackeye
