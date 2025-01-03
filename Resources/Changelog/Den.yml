@@ -695,3 +695,12 @@ Entries:
   id: 62
   time: '2025-01-01T16:16:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/117
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Decreased chances of being cloned into shrimp in a metempsychosis
+        machine, as shrimple as that.
+  id: 63
+  time: '2025-01-03T21:18:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/118
