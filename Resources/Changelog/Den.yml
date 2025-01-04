@@ -718,3 +718,12 @@ Entries:
   id: 65
   time: '2025-01-03T23:21:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/120
+- author: Azzy
+  changes:
+    - type: Fix
+      message: >-
+        Fixed they/them pronouns being displayed for it/its characters in the
+        character preview.
+  id: 66
+  time: '2025-01-04T03:54:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/123
