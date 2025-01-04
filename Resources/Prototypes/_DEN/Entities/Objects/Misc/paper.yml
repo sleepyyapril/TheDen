@@ -18,9 +18,9 @@
     sprite: _DEN/Objects/Misc/bureaucracy.rsi
     state: pen_hos
   - type: DamageOtherOnHit
-  damage:
-    types:
-      Piercing: 8
+    damage:
+      types:
+        Piercing: 8
 
 - type: entity
   name: lo's fountain pen
