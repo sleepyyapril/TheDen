@@ -461,6 +461,7 @@
     - BZ
     - Healium
     - Nitrium
+    - Pluoxium
 
 - type: artifactEffect
   id: EffectBlink
