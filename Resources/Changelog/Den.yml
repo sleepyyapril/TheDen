@@ -751,3 +751,10 @@ Entries:
   id: 69
   time: '2025-01-05T20:57:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/132
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added the Argenti, the Gestio, the Novalite C1, and the SVT.
+  id: 70
+  time: '2025-01-05T20:59:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/128
