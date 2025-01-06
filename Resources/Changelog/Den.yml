@@ -758,3 +758,13 @@ Entries:
   id: 70
   time: '2025-01-05T20:59:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/128
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a revolver, three rifles, and a harpoon into the salvage points
+        vend, the guns do not come loaded for workplace gun safety. Have a fun
+        time hunting your white whale!
+  id: 71
+  time: '2025-01-06T03:47:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/133
