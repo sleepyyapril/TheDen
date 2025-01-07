@@ -781,3 +781,16 @@ Entries:
   id: 72
   time: '2025-01-07T03:31:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/135
+- author: Mike32oz
+  changes:
+    - type: Add
+      message: Added an air alarm and sensor additional tools.
+    - type: Tweak
+      message: Tweaked cargo shuttle blast doors
+    - type: Fix
+      message: Fixed cargo shuttle Air/Waste distro
+    - type: Remove
+      message: Removed tippy the clown (my nemesis) airtight plastic flap
+  id: 73
+  time: '2025-01-07T04:22:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/134
