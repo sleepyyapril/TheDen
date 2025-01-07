@@ -794,3 +794,26 @@ Entries:
   id: 73
   time: '2025-01-07T04:22:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/134
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: 'Changed the Warden suit''s capabilities. (Original author: Stop-Signs)'
+    - type: Add
+      message: Repeater, Argenti, and 45 magnum rubber box to Bartender's loadout.
+    - type: Add
+      message: 'Red cloak to loadout (Port from Floof PR #390)'
+    - type: Add
+      message: 'Witch Robes to loadout (Port from Floof PR #390)'
+    - type: Add
+      message: 'Sawed-off PKA (Port from Floof PR #390)'
+    - type: Add
+      message: 'More end-round sounds. (Port from Floof PR #390)'
+    - type: Add
+      message: The ChemMaster now has 20, 75, and 80 unit options available.
+    - type: Tweak
+      message: Made the ChemMaster wider.
+    - type: Fix
+      message: Ported Frontier fix to mag visuals on specific guns.
+  id: 74
+  time: '2025-01-07T04:25:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/136
