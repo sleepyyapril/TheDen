@@ -768,3 +768,16 @@ Entries:
   id: 71
   time: '2025-01-06T03:47:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/133
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added security issued Argentis with lethal and non-lethal options into
+        the security loadout. Rootin' tootin' cowboy shootin'!
+    - type: Add
+      message: >-
+        Added recipes for the magazines for the salvage rifles into the ammo
+        fabricator.
+  id: 72
+  time: '2025-01-07T03:31:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/135
