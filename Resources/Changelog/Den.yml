@@ -817,3 +817,12 @@ Entries:
   id: 74
   time: '2025-01-07T04:25:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/136
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Chief Engineer Turtlenecks into the loadout. Build that burn
+        chamber in style!
+  id: 75
+  time: '2025-01-08T07:30:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/137
