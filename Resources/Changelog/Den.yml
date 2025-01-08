@@ -826,3 +826,25 @@ Entries:
   id: 75
   time: '2025-01-08T07:30:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/137
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        Improved the footprints system to properly adhere to energy & mass
+        conservation principles.
+    - type: Fix
+      message: Fixed leash length settings and added popups to them.
+    - type: Fix
+      message: Fixed lying down near a table allowing to bypass barriers.
+    - type: Fix
+      message: Deep fryer and music band UIs should now work correctly.
+    - type: Fix
+      message: Fixed lingering color effects from stamina and damage.
+    - type: Fix
+      message: >-
+        Minor fixes: made table frames climbable, made ashtrays work correctly,
+        made welders require being lit in order to weld glass. See the PR
+        https://github.com/Fansana/floofstation1/pull/452 for more details.
+  id: 76
+  time: '2025-01-08T08:32:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/139
