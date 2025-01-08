@@ -9,6 +9,7 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Server.FootPrint;
 
+// Floof: this system has been effectively rewritten. DO NOT MERGE UPSTREAM CHANGES.
 public sealed class PuddleFootPrintsSystem : EntitySystem
 {
     [Dependency] private readonly IPrototypeManager _protoMan = default!;
