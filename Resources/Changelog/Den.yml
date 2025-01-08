@@ -848,3 +848,10 @@ Entries:
   id: 76
   time: '2025-01-08T08:32:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/139
+- author: Memeji Dankiri
+  changes:
+    - type: Add
+      message: Added cosmetic metal shackles
+  id: 77
+  time: '2025-01-08T08:45:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/140
