@@ -855,3 +855,12 @@ Entries:
   id: 77
   time: '2025-01-08T08:45:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/140
+- author: juniwoofs
+  changes:
+    - type: Tweak
+      message: Allowed Lizardfolk to select hair options at character customization
+    - type: Remove
+      message: Removed the lizard baldness epidemic
+  id: 78
+  time: '2025-01-09T03:01:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/141
