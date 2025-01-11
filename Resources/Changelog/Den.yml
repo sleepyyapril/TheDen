@@ -878,3 +878,16 @@ Entries:
   id: 80
   time: '2025-01-11T06:17:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/142
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Heavyweight trait, increases your character's weight by 1/3 of
+        the original weight. For the heftier folks we love!
+    - type: Fix
+      message: >-
+        Fixed Lightweight trait so it functions as intended. May you space with
+        grace.
+  id: 81
+  time: '2025-01-11T06:18:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/144
