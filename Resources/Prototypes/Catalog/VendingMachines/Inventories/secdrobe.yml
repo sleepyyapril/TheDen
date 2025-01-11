@@ -48,6 +48,7 @@
 ##    ClothingOuterArmorBasic: 2 # DeltaV - moved body armour from SecDrobe to SecTech
 ##    ClothingOuterArmorBasicSlim: 2
     ClothingNeckScarfStripedRed: 3
+    ClothingNeckCWPSec: 6 # DeltaV - add cold weather ponchos
     ClothingEyesBlindfold: 1
     ClothingNeckCollarSec: 1 # Floofstation - Collar addition
     ClothingHandsSecurityWarmers: 2 # Floofstation
