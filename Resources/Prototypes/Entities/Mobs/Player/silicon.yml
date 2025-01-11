@@ -297,6 +297,22 @@
     tags:
     - HideContextMenu
     - StationAi
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - SolCommon
+    - Tradeband
+    - Freespeak
+    - Elyran
+    - RobotTalk
+    understands:
+    - TauCetiBasic
+    - SolCommon
+    - Tradeband
+    - Freespeak
+    - Elyran
+    - RobotTalk
+    - Sign # It's intentional that they don't "Speak" sign language.
 
 # Hologram projection that the AI's eye tracks.
 - type: entity
