@@ -891,3 +891,12 @@ Entries:
   id: 81
   time: '2025-01-11T06:18:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/144
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Ported uniforms and uniform colors for the Logistics department from
+        Cosmatic Drift.
+  id: 82
+  time: '2025-01-11T06:19:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/147
