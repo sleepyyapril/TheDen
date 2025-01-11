@@ -900,3 +900,12 @@ Entries:
   id: 82
   time: '2025-01-11T06:19:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/147
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added Station AI
+    - type: Add
+      message: Station AI was added to Saltern, RadStation, and Gax Station.
+  id: 83
+  time: '2025-01-11T18:24:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/148
