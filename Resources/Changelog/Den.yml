@@ -931,3 +931,10 @@ Entries:
   id: 85
   time: '2025-01-12T07:37:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/151
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Now using EE maps
+  id: 86
+  time: '2025-01-12T07:53:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/152

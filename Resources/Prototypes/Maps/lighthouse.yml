@@ -1,7 +1,7 @@
 - type: gameMap
   id: Lighthouse
   mapName: Lighthouse
-  mapPath: /Maps/TheDen/lighthouse.yml # Floofstation
+  mapPath: /Maps/lighthouse.yml
   minPlayers: 15
   maxPlayers: 55
   stations:
