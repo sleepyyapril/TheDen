@@ -916,3 +916,18 @@ Entries:
   id: 84
   time: '2025-01-12T07:26:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/149
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Blueshield Officer is now playable.
+    - type: Add
+      message: Nanotrasen Representative is now playable.
+    - type: Add
+      message: Administrative Assistant is now playable.
+    - type: Add
+      message: Station AI is now playable.
+    - type: Tweak
+      message: Put all of the above on every map.
+  id: 85
+  time: '2025-01-12T07:37:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/151
