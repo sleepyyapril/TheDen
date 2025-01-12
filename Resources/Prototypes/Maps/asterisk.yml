@@ -1,7 +1,7 @@
 - type: gameMap
   id: Asterisk
   mapName: 'Asterisk'
-  mapPath: /Maps/TheDen/asterisk.yml # The Den
+  mapPath: /Maps/asterisk.yml
   minPlayers: 0
   maxPlayers: 60
   stations:

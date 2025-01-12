@@ -1,7 +1,7 @@
 - type: gameMap
   id: TheHive
   mapName: 'The Hive'
-  mapPath: /Maps/Floof/hive.yml # Floofstation
+  mapPath: /Maps/hive.yml
   minPlayers: 30
   #maxPlayers: 80 Temporary maybe
   stations:

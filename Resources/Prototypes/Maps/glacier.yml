@@ -1,7 +1,7 @@
 - type: gameMap
   id: Glacier
   mapName: Glacier
-  mapPath: /Maps/Floof/glacier.yml # Floofstation
+  mapPath: /Maps/glacier.yml
   minPlayers: 15
   maxPlayers: 70
   stations:
