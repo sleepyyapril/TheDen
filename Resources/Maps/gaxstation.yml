@@ -96043,6 +96043,13 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
+- proto: MaterialSilo
+  entities:
+  - uid: 20260
+    components:
+    - type: Transform
+      pos: 31.5,-14.5
+      parent: 2
 - proto: MechEquipmentGrabber
   entities:
   - uid: 12860
@@ -110221,6 +110228,23 @@ entities:
     - type: Transform
       pos: 13.5,26.5
       parent: 2
+- proto: SpawnPointAdminAssistant
+  entities:
+  - uid: 20421
+    components:
+    - type: Transform
+      pos: 85.5,35.5
+      parent: 2
+  - uid: 20422
+    components:
+    - type: Transform
+      pos: 85.5,34.5
+      parent: 2
+  - uid: 20423
+    components:
+    - type: Transform
+      pos: 85.5,33.5
+      parent: 2
 - proto: SpawnPointAtmos
   entities:
   - uid: 14771
@@ -110249,6 +110273,13 @@ entities:
     components:
     - type: Transform
       pos: 61.5,43.5
+      parent: 2
+- proto: SpawnPointBlueshieldOfficer
+  entities:
+  - uid: 20352
+    components:
+    - type: Transform
+      pos: 86.5,34.5
       parent: 2
 - proto: SpawnPointBorg
   entities:
@@ -110598,6 +110629,13 @@ entities:
     components:
     - type: Transform
       pos: 39.5,40.5
+      parent: 2
+- proto: SpawnPointNanotrasenRepresentative
+  entities:
+  - uid: 20420
+    components:
+    - type: Transform
+      pos: 86.5,33.5
       parent: 2
 - proto: SpawnPointParamedic
   entities:
@@ -114991,11 +115029,6 @@ entities:
         - Middle: Off
 - proto: UnfinishedMachineFrame
   entities:
-  - uid: 20260
-    components:
-    - type: Transform
-      pos: 31.5,-14.5
-      parent: 2
   - uid: 20261
     components:
     - type: Transform
@@ -130138,7 +130171,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -87228.59
+      secondsUntilStateChange: -87350.95
       state: Opening
   - uid: 18112
     components:
