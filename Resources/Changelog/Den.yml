@@ -909,3 +909,10 @@ Entries:
   id: 83
   time: '2025-01-11T18:24:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/148
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Tweaked Weight Traits to be mutually exclusive.
+  id: 84
+  time: '2025-01-12T07:26:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/149
