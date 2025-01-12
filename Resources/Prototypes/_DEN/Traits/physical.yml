@@ -12,6 +12,10 @@
     inverted: true
     species:
     - Oni
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - Lightweight
   functions:
     - !type:TraitAddComponent
       components:
