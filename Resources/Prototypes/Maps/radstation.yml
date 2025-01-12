@@ -1,7 +1,7 @@
 - type: gameMap
   id: Rad
   mapName: 'RadStation'
-  mapPath: /Maps/Floof/radstation.yml # Floofstation
+  mapPath: /Maps/radstation.yml
   minPlayers: 35
   stations:
     RadStation:

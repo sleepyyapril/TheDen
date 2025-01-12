@@ -1,7 +1,7 @@
 - type: gameMap
   id: Shoukou
   mapName: 'Shōkō'
-  mapPath: /Maps/TheDen/shoukou.yml # FloofStation
+  mapPath: /Maps/shoukou.yml # FloofStation
   minPlayers: 0
   maxPlayers: 60
   stations:

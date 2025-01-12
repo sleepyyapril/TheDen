@@ -1,7 +1,7 @@
 - type: gameMap
   id: Tortuga
   mapName: 'Tortuga'
-  mapPath: /Maps/Floof/tortuga.yml # FloofStation
+  mapPath: /Maps/tortuga.yml
   minPlayers: 50
   stations:
     Tortuga:
