@@ -18,7 +18,6 @@ namespace Content.Client.Chat.UI
     {
         [Dependency] private readonly IEyeManager _eyeManager = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
-        [Dependency] private readonly TransformSystem _transformSystem = default!;
         [Dependency] protected readonly IConfigurationManager ConfigManager = default!;
 
         private readonly SharedTransformSystem _transformSystem = default!;
