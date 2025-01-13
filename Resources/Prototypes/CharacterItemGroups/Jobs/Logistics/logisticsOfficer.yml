@@ -61,6 +61,8 @@
   items:
     - type: loadout
       id: LoadoutCommandQMOuterCoatCargoForeman
+    - type: loadout
+      id: LoadoutLogisticsOfficeOuter
 
 - type: characterItemGroup
   id: LoadoutLogisticsOfficerShoes
