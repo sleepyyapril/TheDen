@@ -971,3 +971,16 @@ Entries:
   id: 87
   time: '2025-01-13T06:14:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/153
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added plenty of new fashion choices.
+    - type: Fix
+      message: >-
+        Fixed FTL breaking arrivals and nearby walls/doors instead of the ones
+        it should break.
+    - type: Fix
+      message: Fixed heirlooms spamming a flicker of a negative mood.
+  id: 88
+  time: '2025-01-14T09:54:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/154
