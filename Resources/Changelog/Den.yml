@@ -1003,3 +1003,18 @@ Entries:
   id: 89
   time: '2025-01-15T00:31:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/155
+- author: EE Contributors
+  changes:
+    - type: Add
+      message: Added holopads to Meta Station (by Mike32oz)
+    - type: Add
+      message: Added the TEG to Gax
+    - type: Fix
+      message: Fixed duplicate labels on things like pills and pill canisters.
+    - type: Fix
+      message: Fixed the ear-deafening audio bug on systems that don't have AVX.
+    - type: Fix
+      message: Fixed night vision.
+  id: 90
+  time: '2025-01-15T20:44:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/156
