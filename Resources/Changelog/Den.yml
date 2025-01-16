@@ -1025,3 +1025,25 @@ Entries:
   id: 91
   time: '2025-01-15T22:18:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/157
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added cyborg and Station AI name customization.
+  id: 92
+  time: '2025-01-16T00:19:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/158
+- author: Mike32oz
+  changes:
+    - type: Add
+      message: >-
+        Job slots NanotrasenRepresentative, BlueshieldOfficer, Administrator
+        Assistant, Roboticist, MedicalBorg.
+    - type: Add
+      message: Senior Officer, Physician, Engineer, Researcher, engineer.
+    - type: Tweak
+      message: Cryo Medical, CE Room.
+    - type: Remove
+      message: 'Tippy The Clown (my nemesis) '
+  id: 93
+  time: '2025-01-16T00:21:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/130
