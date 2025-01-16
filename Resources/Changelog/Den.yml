@@ -1025,3 +1025,10 @@ Entries:
   id: 91
   time: '2025-01-15T22:18:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/157
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added cyborg and Station AI name customization.
+  id: 92
+  time: '2025-01-16T00:19:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/158
