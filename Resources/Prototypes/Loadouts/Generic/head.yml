@@ -190,6 +190,7 @@
   exclusive: true
   customColorTint: true
   canBeHeirloom: true
+  guideEntry: PsionicInsulation
   items:
     - ClothingHeadTinfoil
   requirements:
