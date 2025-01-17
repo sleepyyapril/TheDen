@@ -1088,3 +1088,33 @@ Entries:
   id: 94
   time: '2025-01-17T01:37:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/159
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added handheld radio frequencies, accessible by pressing your "Use Item"
+        key while holding one. (by sleepyyapril)
+    - type: Add
+      message: Re-enabled free glimmer probe event.
+    - type: Add
+      message: >-
+        Glimmer has been substantially reworked. Please read the new Psionics
+        Guidebook for more information. In short: "500 is the new normal
+        glimmer. Stop panicking if Sophia says the glimmer is 500. Call code
+        white if it gets to 750 and stays above that level." (by TCJ)
+    - type: Add
+      message: >-
+        The much-requested Psionics Guidebook has returned, now with all new
+        up-to-date information. (by TCJ)
+    - type: Remove
+      message: >-
+        Removed "GLIMMERLOOSE". It's no longer possible for glimmer to start a
+        chain of events that ends the round if epistemics isn't destroyed. You
+        can ALWAYS recover from high glimmer now. (by TCJ)
+    - type: Tweak
+      message: >-
+        All glimmer events have had their thresholds tweaked to reflect the fact
+        that 500 is the new "Normal" amount of glimmer. (by TCJ)
+  id: 95
+  time: '2025-01-17T04:08:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/160
