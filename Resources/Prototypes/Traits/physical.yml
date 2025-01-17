@@ -479,7 +479,6 @@
           traits:
             - NaturalWeaponRemoval
             - MartialArtist
-            - Gladiator
   functions:
     - !type:TraitModifyUnarmed
       flatDamageIncrease:
