@@ -1129,3 +1129,14 @@ Entries:
   id: 96
   time: '2025-01-17T18:49:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/162
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked Rat King AI to be Passive to prevent unwanted hostile AI on
+        player disconnect or ghost.
+    - type: Fix
+      message: Fixed Talons and Claws to be exclusive from Striking Calluses.
+  id: 97
+  time: '2025-01-17T18:49:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/161
