@@ -1118,3 +1118,14 @@ Entries:
   id: 95
   time: '2025-01-17T04:08:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/160
+- author: Mike32oz
+  changes:
+    - type: Add
+      message: Pebble, Station anchor.
+    - type: Add
+      message: 'Pebble, Station AI with AI upload Law boards. '
+    - type: Tweak
+      message: Cable management, Cryo late join spawner
+  id: 96
+  time: '2025-01-17T18:49:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/162
