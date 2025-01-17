@@ -464,6 +464,20 @@
         - !type:CharacterJobRequirement
           jobs:
             - Boxer
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterSpeciesRequirement
+          inverted: true
+          species:
+            - Arachne
+            - Harpy
+            - Felinid
+            - Reptilian
+            - Shadowkin
+            - Rodentia
+        - !type:CharacterTraitRequirement
+          traits:
+            - NaturalWeaponRemoval
             - MartialArtist
             - Gladiator
   functions:
