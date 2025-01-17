@@ -560,7 +560,7 @@ public sealed class ChatUIController : UIController
             CanSendChannels |= ChatSelectChannel.Dead;
         }
 
-        if (_admin.HasFlag(AdminFlags.Admin) && _ghost is { IsGhost: true })
+        if (_admin.HasFlag(AdminFlags.Pii) && _ghost is { IsGhost: true })
         {
             FilterableChannels |= ChatChannel.Subtle;
         }
