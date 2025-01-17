@@ -1047,3 +1047,44 @@ Entries:
   id: 93
   time: '2025-01-16T00:21:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/130
+- author: EE contributors
+  changes:
+    - type: Add
+      message: >-
+        Added a popup for when the UI cannot be open due to the maintenance
+        panel being closed. (ported by sleepyyapril)
+    - type: Fix
+      message: Fixed Ripley control panel. (ported by sleepyyapril)
+    - type: Fix
+      message: Fixed Ripley giving battery instead of taking. (ported by sleepyyapril)
+    - type: Fix
+      message: Hopefully fixed wire light not appearing. (ported by sleepyyapril)
+    - type: Fix
+      message: Fixed crayons not placing the decal you want. (ported by sleepyyapril)
+    - type: Fix
+      message: >-
+        Fixed bloodred boots not acting as a jetpack or magboots. (ported by
+        sleepyyapril)
+    - type: Fix
+      message: Fixed voicemask chameleon menu. (ported by sleepyyapril)
+    - type: Fix
+      message: Fixed spawnpoint issues. (hopefully) (ported by sleepyyapril)
+    - type: Fix
+      message: Big security glasses now provide flash immunity and a security
+    - type: Fix
+      message: Arachne can now stand up after lying down. (by Skubman)
+    - type: Fix
+      message: >-
+        Fixed ghosts being able to see subtle, now only admins with PII
+        permission (headmins+) can. (by sleepyyapril)
+    - type: Tweak
+      message: >-
+        The crayons menu now has letters and numbers always next to each other,
+        sorted. (ported by sleepyyapril)
+    - type: Tweak
+      message: >-
+        Crayon UI has been improved, including a search feature. (ported by
+        sleepyyapril)
+  id: 94
+  time: '2025-01-17T01:37:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/159
