@@ -29,16 +29,16 @@
     rules: ghost-role-information-listeningop-rules
     requirements: # Worth considering these numbers for the goal of making sure someone willing to MRP takes this.
     - !type:CharacterOverallTimeRequirement
-      min: 54000 # 15 hours
-    - !type:DepartmentTimeRequirement
+      min: 259200 # 72 hours
+    - !type:CharacterDepartmentTimeRequirement
       department: Security
-      time: 14400 # 4 hours
-    - !type:DepartmentTimeRequirement
+      min: 40000 # 11.1 hours
+    - !type:CharacterDepartmentTimeRequirement
       department: Civilian
-      time: 14400 # 4 hours
-    - !type:DepartmentTimeRequirement
+      min: 40000 # 11.1 hours
+    - !type:CharacterDepartmentTimeRequirement
       department: Command
-      time: 14400 # 4 hours
+      min: 40000 # 11.1 hours
   - type: GhostRoleMobSpawner
     prototype: MobHumanSyndicateListener
   - type: Sprite

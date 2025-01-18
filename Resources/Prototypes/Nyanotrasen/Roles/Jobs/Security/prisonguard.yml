@@ -5,8 +5,8 @@
   playTimeTracker: JobPrisonGuard
   requirements:
     - !type:CharacterOverallTimeRequirement
-      min: 7200 # 2hr floof
-    - !type:DepartmentTimeRequirement
+      min: 18000
+    - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 7200 # 2hr floof
   startingGear: PrisonGuardGear
