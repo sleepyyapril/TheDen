@@ -5,8 +5,8 @@
   playTimeTracker: JobForensicMantis
   requirements:
     - !type:CharacterOverallTimeRequirement
-      min: 3600 # 1hr floof
-    - !type:DepartmentTimeRequirement
+      min: 18000
+    - !type:CharacterDepartmentTimeRequirement
       department: Epistemics # DeltaV - Epistemics Department replacing Science
       min: 3600
     - !type:CharacterLogicOrRequirement
