@@ -1192,3 +1192,12 @@ Entries:
   id: 99
   time: '2025-01-18T04:56:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/165
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Tweaked Hypnotic Gaze to be applicable by the Mantis.
+    - type: Tweak
+      message: Tweaked Hypnotic Gaze to require 0 points.
+  id: 100
+  time: '2025-01-18T11:26:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/166
