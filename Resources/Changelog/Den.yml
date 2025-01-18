@@ -1201,3 +1201,12 @@ Entries:
   id: 100
   time: '2025-01-18T11:26:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/166
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added more things to the Cargo Lottery Crate. Please spend Logistics
+        Funds responsibly!
+  id: 101
+  time: '2025-01-18T11:28:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/164
