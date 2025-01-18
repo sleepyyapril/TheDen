@@ -1140,3 +1140,55 @@ Entries:
   id: 97
   time: '2025-01-17T18:49:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/161
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added the Subtle OOC channel, replacing the alternate radio prefix
+        (``.``)
+    - type: Tweak
+      message: >-
+        Tweaked the color of the subtle messages, removed the "subtly" prefix
+        from your messages.
+  id: 98
+  time: '2025-01-18T01:57:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/163
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed IPCs being unable to cryo.
+    - type: Fix
+      message: Fixed full glimmer float being displayed to chat by Sophia.
+    - type: Fix
+      message: The mining drill now has a fast fire rate and extra range again.
+    - type: Fix
+      message: >-
+        The pickaxe and the mining drill can now be used as throwing weapons
+        again.
+    - type: Fix
+      message: >-
+        Fixed a bug where selecting weapons with a fast attack rate took a few
+        seconds before you could attack with them.
+    - type: Fix
+      message: Fixed the Goliath attacking too fast.
+    - type: Tweak
+      message: >-
+        The power attack stamina cost of mining drills has been reduced to 0.7
+        stamina.
+    - type: Tweak
+      message: Re-adjusted the damage of the pickaxe.
+    - type: Add
+      message: Added Magistrate role.
+    - type: Add
+      message: Added Dignitary Department.
+    - type: Add
+      message: Added winter coats for NTR and Magistrate on Glacier Spawn.
+    - type: Tweak
+      message: Moved Blueshield Officer and Nanotrasen Representative to
+    - type: Fix
+      message: Fixed the category groups identifier for BSO and NTR in Loadouts.
+    - type: Fix
+      message: Fixed Chief Justice tag in ID Card Computer.
+  id: 99
+  time: '2025-01-18T04:56:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/165
