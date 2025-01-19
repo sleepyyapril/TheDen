@@ -4,7 +4,7 @@
 # Child entites also have PhoneInstrumentUpstream parent: PhoneInstrumentSyndicate, BananaPhoneInstrument
 - type: entity
   id: PhoneInstrument
-  parent: [BaseItem, BaseCommandContraband]
+  parent: BaseItem
   name: red phone
   suffix: harmony intercom
   description: Should anything ever go wrong...
