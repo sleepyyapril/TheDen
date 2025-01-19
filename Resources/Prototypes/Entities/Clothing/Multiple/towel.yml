@@ -33,7 +33,6 @@
     delay: 1
   - type: Fiber
     fiberColor: fibers-white
-  - type: DnaSubstanceTrace
   - type: Item
     size: Small
 
