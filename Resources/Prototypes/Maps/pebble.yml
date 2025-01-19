@@ -1,7 +1,7 @@
 - type: gameMap
   id: Pebble
   mapName: 'Pebble'
-  mapPath: /Maps/pebble.yml
+  mapPath: /Maps/TheDen/pebble.yml
   minPlayers: 0
   maxPlayers: 30
   stations:
@@ -23,7 +23,6 @@
             Captain: [ 1, 1 ]
             BlueshieldOfficer: [ 1, 1]
             NanotrasenRepresentative: [ 1, 1 ]
-            Magistrate: [ 1, 1 ]
             AdministrativeAssistant: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 1, 2 ]
