@@ -112,7 +112,7 @@
     - id: WeaponRifleAk
       prob: 0.0001
       orGroup: Weapons
-    - id: ToyThrongler
+    - id: ThronglerToy
       prob: 0.0001
       orGroup: Weapons
     - id: WeaponLauncherPirateCannon

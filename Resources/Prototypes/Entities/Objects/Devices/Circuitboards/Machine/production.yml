@@ -833,13 +833,11 @@
     state: power_mod
   - type: MachineBoard
     prototype: SMESAdvancedEmpty
-    stackRequirements:
+    requirements:
       Capacitor: 2
+      PowerCell: 4
+    materialRequirements:
       CableHV: 20
-    componentRequirements:
-      PowerCell:
-        amount: 4
-        defaultPrototype: PowerCellMedium
 
 - type: entity
   id: CellRechargerCircuitboard
