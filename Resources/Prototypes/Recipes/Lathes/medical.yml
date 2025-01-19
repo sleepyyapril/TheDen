@@ -262,3 +262,14 @@
     Silver: 100
     Gold: 100
     Plasma: 200
+
+- type: latheRecipe
+  id: HypoMini
+  result: HypoMini
+  completetime: 2
+  materials:
+    Steel: 700
+    Glass: 800
+    Silver: 100
+    Gold: 100
+    Plasma: 200
