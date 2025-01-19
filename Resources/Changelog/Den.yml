@@ -1232,3 +1232,10 @@ Entries:
   id: 103
   time: '2025-01-19T10:22:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/171
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added second member of Cuddle Command, the CMO!
+  id: 104
+  time: '2025-01-19T10:24:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/170
