@@ -928,6 +928,9 @@
       - SpeedLoaderMagnumRubber
       - SpeedLoaderMagnumIncendiary
       - SpeedLoaderMagnumUranium
+      - SpeedLoaderRifleHeavyRubber
+      - SpeedLoaderRifleHeavyIncendiary
+      - SpeedLoaderRifleHeavyUranium
       - TelescopicShield
       - TimerTrigger
       - Truncheon
