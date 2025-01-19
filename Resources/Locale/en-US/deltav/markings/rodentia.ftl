@@ -13,8 +13,8 @@ marking-RodentiaHeadRound-round = Pattern
 ## ears
 
 marking-RodentiaHeadTopEarDefault = Ear - Default
-marking-RodentiaHeadTopEarMouse-mouse = Outer ear
-marking-RodentiaHeadTopEarMouse-mouse_overlay = Inner ear
+marking-RodentiaHeadTopEarDefault-mouse = Outer ear
+marking-RodentiaHeadTopEarDefault-mouse_overlay = Inner ear
 
 marking-RodentiaHeadTopEarBat = Ears - Bat
 marking-RodentiaHeadTopEarBat-bat = Outer ear
