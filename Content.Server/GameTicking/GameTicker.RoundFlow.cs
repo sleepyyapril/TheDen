@@ -657,7 +657,10 @@ namespace Content.Server.GameTicking
                     ("id", RoundId),
                     ("map", mapName),
                     ("preset", preset),
-                    ("players", _playerManager.PlayerCount));
+                    ("players", _playerManager.PlayerCount),
+                    ("characters", PlayersJoinedRoundNormally))
+                    .Replace("\"", string.Empty);
+
 
                 var payload = new WebhookPayload { Content = content };
 
