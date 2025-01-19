@@ -2128,7 +2128,6 @@
       params:
         variation: 0.05
 
-
 - type: entity
   parent: BasePlushie
   id: PlushieTabi
