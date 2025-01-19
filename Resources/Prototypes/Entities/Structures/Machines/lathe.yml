@@ -1097,8 +1097,8 @@
     - BoneGel # Shitmed Change
     - HandheldGPSBasic # Floof - port to EE
     - HandheldStationMap # Floof - port to EE
-    - HypoMini
     dynamicRecipes:
+    - HypoMini
     - ChemicalPayload
     - CryostasisBeaker
     - BluespaceBeaker
