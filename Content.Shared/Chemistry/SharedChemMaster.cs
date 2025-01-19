@@ -184,7 +184,6 @@ namespace Content.Shared.Chemistry
         public readonly uint PillDosageLimit;
 
         public readonly bool UpdateLabel;
-        public readonly int SortMethod;
 
         public readonly int SortMethod;
         public readonly int TransferringAmount;
