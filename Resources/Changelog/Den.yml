@@ -1239,3 +1239,10 @@ Entries:
   id: 104
   time: '2025-01-19T10:24:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/170
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added a Trooper Uniform and Hat for Security use.
+  id: 105
+  time: '2025-01-19T10:24:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/168
