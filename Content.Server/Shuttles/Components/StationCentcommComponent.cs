@@ -18,8 +18,8 @@ public sealed partial class StationCentcommComponent : Component
     [DataField]
     public List<ResPath> Map = new()
     {
-        new("/Maps/centcomm.yml"),
-        new("/Maps/_Harmony/centcomm.yml")
+        new("/Maps/CentralCommand/main.yml"),
+        new("/Maps/CentralCommand/harmony.yml")
     };
 
     /// <summary>
