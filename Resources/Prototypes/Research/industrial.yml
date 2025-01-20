@@ -240,6 +240,7 @@
   - ClothingBackpackSatchelHolding
   - ClothingBackpackDuffelHolding
   - MaterialSiloCircuitboard
+  softCapContribution: 1.5
 
 - type: technology
   id: PortableFission
@@ -254,3 +255,4 @@
   - PowerCellMicroreactor
   technologyPrerequisites:
   - AdvancedPowercells
+  softCapContribution: 1.5
