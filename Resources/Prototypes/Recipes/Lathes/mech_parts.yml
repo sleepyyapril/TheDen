@@ -173,14 +173,5 @@
 - type: latheRecipe
   id: VimHarness
   result: VimHarness
-  category: Mech
-  completetime: 5
-
-- type: latheRecipe
-  id: MechEquipmentHorn
-  result: MechEquipmentHorn
   category: MechEquipment
-  completetime: 10
-  materials:
-    Steel: 500
-    Bananium: 200
+  completetime: 5
