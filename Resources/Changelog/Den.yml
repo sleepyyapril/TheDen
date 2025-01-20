@@ -1277,3 +1277,26 @@ Entries:
   id: 108
   time: '2025-01-20T01:25:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/173
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added a new central command map that is randomly picked alongside the
+        old one (thank you to Spanky from Harmony)
+    - type: Add
+      message: Added Advanced SMES for mappers.
+    - type: Add
+      message: >-
+        Added the atmospheric network monitor for seeing what the temperature,
+        moles, and pressure is on every pipe everywhere through a computer.
+    - type: Add
+      message: Nukie med bundle now contains a compact defibrillator.
+    - type: Add
+      message: More mapping stuff.
+    - type: Add
+      message: Added the throngler plushie.
+    - type: Remove
+      message: Removed the Throngler as a possible loot spawn for gamble crates.
+  id: 109
+  time: '2025-01-20T02:36:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/175
