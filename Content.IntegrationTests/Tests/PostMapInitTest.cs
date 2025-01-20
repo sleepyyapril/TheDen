@@ -30,7 +30,7 @@ namespace Content.IntegrationTests.Tests
         private static readonly string[] NoSpawnMaps =
         {
             "CentCommMain",
-            "CentCommHarmony"
+            "CentCommHarmony",
             "Dart",
             "NukieOutpost"
         };
