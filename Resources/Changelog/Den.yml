@@ -1355,3 +1355,12 @@ Entries:
   id: 112
   time: '2025-01-21T00:13:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/180
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Re-added sounds to Tabi plushie
+    - type: Tweak
+      message: Tweaked timing on plushie usage and attack rate
+  id: 113
+  time: '2025-01-21T01:58:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/179
