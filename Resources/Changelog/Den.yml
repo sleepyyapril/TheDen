@@ -1364,3 +1364,12 @@ Entries:
   id: 113
   time: '2025-01-21T01:58:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/179
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed name customization not changing with different characters.
+    - type: Fix
+      message: Fixed the save button being always clickable.
+  id: 114
+  time: '2025-01-21T08:26:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/181
