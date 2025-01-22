@@ -2,10 +2,10 @@
   id: Baikal
   mapName: 'Baikal'
   mapPath: /Maps/TheDen/baikal.yml # The Den
-  minPlayers: 30
+  minPlayers: 20
   maxPlayers: 80
   stations:
-    Arena:
+    Baikal:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
