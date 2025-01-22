@@ -1401,3 +1401,10 @@ Entries:
   id: 116
   time: '2025-01-22T02:01:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/182
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added the base mime mask to loadouts to accompany the others
+  id: 117
+  time: '2025-01-22T02:01:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/183
