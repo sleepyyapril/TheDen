@@ -16,8 +16,6 @@
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/Shuttles/emergency.yml
         - type: StationJobs
-          overflowJobs:
-            - Passenger
           availableJobs:
             #service
             Captain: [ 1, 1 ]
@@ -29,40 +27,41 @@
             Bartender: [ 2, 2 ]
             Botanist: [ 2, 3 ]
             Chef: [ 2, 2 ]
-            Janitor: [ 2, 3 ]
+            Janitor: [ 1, 3 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 2, 3 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
-            SeniorEngineer: [ 2, 2 ]
-            AtmosphericTechnician: [ 2, 2 ]
-            StationEngineer: [ 4, 4 ]
-            TechnicalAssistant: [ 2, 2 ]
+            SeniorEngineer: [ 1, 1 ]
+            AtmosphericTechnician: [ 3, 3 ]
+            StationEngineer: [ 5, 7 ]
+            TechnicalAssistant: [ 3, 6 ]
             #medical
             ChiefMedicalOfficer: [ 1, 1 ]
-            SeniorPhysician: [ 2, 2 ]
-            Chemist: [ 2, 2 ]
-            MedicalDoctor: [ 4, 4 ]
-            MedicalIntern: [ 3, 3 ]
-            Paramedic: [ 2, 2 ]
+            SeniorPhysician: [ 1, 1 ]
+            Chemist: [ 3, 3 ]
+            MedicalDoctor: [ 5, 5 ]
+            MedicalIntern: [ 3, 6 ]
+            Paramedic: [ 1, 3 ]
             #science
             ResearchDirector: [ 1, 1 ]
-            Scientist: [ 4, 4 ]
-            ResearchAssistant: [ 2, 2 ]
+            Scientist: [ 5, 7 ]
+            ResearchAssistant: [ 3, 6 ]
             Chaplain: [ 1, 1 ]
-            Roboticist: [ 2, 2 ]
+            Roboticist: [ 1, 2 ]
             ForensicMantis: [ 1, 1 ]
-            SeniorResearcher: [ 2, 2 ]
+            SeniorResearcher: [ 1, 1 ]
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
-            SecurityOfficer: [ 4, 4 ]
+            SecurityOfficer: [ 5, 7 ]
             Detective: [ 1, 1 ]
-            SecurityCadet: [ 3, 3 ]
+            SecurityCadet: [ 3, 6 ]
             Lawyer: [ 2, 2 ]
             Brigmedic: [ 1, 1 ]
-            Prisoner: [ 3, 3 ]
-            SeniorOfficer: [ 2, 2 ]
+            Prisoner: [ 1, 2 ]
+            PrisonGuard: [ 1, 1 ]
+            SeniorOfficer: [ 1, 1 ]
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 3 ]
@@ -72,7 +71,7 @@
             Passenger: [ -1, -1 ]
             Clown: [ 1, 1 ]
             Mime: [ 1, 1 ]
-            Musician: [ 2, 2 ]
+            Musician: [ 1, 2 ]
             Reporter: [ 2, 2 ]
             #silicon
             Borg: [ 2, 2 ]
