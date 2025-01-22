@@ -1408,3 +1408,12 @@ Entries:
   id: 117
   time: '2025-01-22T02:01:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/183
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: >-
+        Added spider steppy to spiders and Arachne (celebrate all 2 arachne
+        players!)
+  id: 118
+  time: '2025-01-22T07:22:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/186
