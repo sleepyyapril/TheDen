@@ -6042,6 +6042,8 @@ entities:
         chunkSize: 4
     - type: GasTileOverlay
     - type: RadiationGridResistance
+    - type: BecomesStation
+      id: Baikal
 - proto: ActionToggleInternals
   entities:
   - uid: 384
@@ -6720,7 +6722,7 @@ entities:
       pos: 62.5,-43.5
       parent: 13
     - type: Door
-      secondsUntilStateChange: -4462.546
+      secondsUntilStateChange: -4563.578
       state: Opening
     - type: DeviceLinkSink
       links:
@@ -6787,7 +6789,7 @@ entities:
       pos: 92.5,3.5
       parent: 13
     - type: Door
-      secondsUntilStateChange: -127366.41
+      secondsUntilStateChange: -127467.44
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6915,7 +6917,7 @@ entities:
       pos: 153.5,-29.5
       parent: 13
     - type: Door
-      secondsUntilStateChange: -30492.695
+      secondsUntilStateChange: -30593.729
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -7834,7 +7836,7 @@ entities:
       pos: 49.5,0.5
       parent: 13
     - type: Door
-      secondsUntilStateChange: -125320.7
+      secondsUntilStateChange: -125421.734
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8049,7 +8051,7 @@ entities:
       pos: 125.5,4.5
       parent: 13
     - type: Door
-      secondsUntilStateChange: -28238.164
+      secondsUntilStateChange: -28339.197
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8077,7 +8079,7 @@ entities:
       pos: 125.5,-6.5
       parent: 13
     - type: Door
-      secondsUntilStateChange: -51652.895
+      secondsUntilStateChange: -51753.926
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -8727,7 +8729,7 @@ entities:
       pos: 33.5,-30.5
       parent: 13
     - type: Door
-      secondsUntilStateChange: -205773.94
+      secondsUntilStateChange: -205874.97
       state: Opening
     - type: DeviceLinkSink
       links:
@@ -8754,7 +8756,7 @@ entities:
       pos: 33.5,-29.5
       parent: 13
     - type: Door
-      secondsUntilStateChange: -205774.2
+      secondsUntilStateChange: -205875.23
       state: Opening
     - type: DeviceLinkSink
       links:
@@ -52468,7 +52470,7 @@ entities:
       pos: 9.5,-33.5
       parent: 13
     - type: Door
-      secondsUntilStateChange: -233647.48
+      secondsUntilStateChange: -233748.52
       state: Opening
   - uid: 2484
     components:
@@ -153701,7 +153703,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -90976.05
+      secondsUntilStateChange: -91077.08
       state: Opening
   - uid: 15839
     components:
