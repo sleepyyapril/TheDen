@@ -68,7 +68,8 @@ namespace Content.IntegrationTests.Tests
             "Gax",
             "Rad",
             "Europa",
-            "Meta"
+            "Meta",
+            "Baikal"
         };
 
         /// <summary>
