@@ -1417,3 +1417,10 @@ Entries:
   id: 118
   time: '2025-01-22T07:22:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/186
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Baikal Station (FOR TEST PURPOSES ONLY)
+  id: 119
+  time: '2025-01-22T08:12:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/185
