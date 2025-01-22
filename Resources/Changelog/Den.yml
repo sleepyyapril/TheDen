@@ -1380,3 +1380,24 @@ Entries:
   id: 115
   time: '2025-01-22T01:16:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/184
+- author: EE contributors
+  changes:
+    - type: Add
+      message: Added Psionics Registry Computer. Now you can record Psionics
+    - type: Add
+      message: Added epi-glasses and epi-HUD to see Psionics Users icons.
+    - type: Add
+      message: Added PsiWatch. Now you can see the Psionics Records data on your
+    - type: Add
+      message: Added Vox as a roundstart species.
+    - type: Fix
+      message: Fixed Chaplain not having any programs in their PDA on spawn.
+    - type: Fix
+      message: Fixed the Supermatter engine math so that it actually respects
+    - type: Tweak
+      message: Tweaked puddles and footsteps to be able to see them in context
+    - type: Remove
+      message: Remove mana.
+  id: 116
+  time: '2025-01-22T02:01:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/182
