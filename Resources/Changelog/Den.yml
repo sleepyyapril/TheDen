@@ -1424,3 +1424,13 @@ Entries:
   id: 119
   time: '2025-01-22T08:12:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/185
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Soul-Shatter, a unique double barrel shotgun issued to
+        Mantises intended for use in Code White scenarios against hostile
+        psionics. 
+  id: 120
+  time: '2025-01-22T23:19:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/187
