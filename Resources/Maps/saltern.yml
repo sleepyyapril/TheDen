@@ -66984,13 +66984,6 @@ entities:
     - type: Transform
       pos: -29.5,-6.5
       parent: 31
-- proto: SpawnPointPrisoner
-  entities:
-  - uid: 11412
-    components:
-    - type: Transform
-      pos: -17.5,9.5
-      parent: 31
 - proto: SpawnPointQuartermaster
   entities:
   - uid: 6852
