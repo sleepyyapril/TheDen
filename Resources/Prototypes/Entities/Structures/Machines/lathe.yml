@@ -1353,7 +1353,7 @@
 
 - type: entity
   id: ServiceTechFab
-  parent: BaseLatheLube
+  parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
   name: service techfab
   description: A specialized techfab used for printing various quality-of-life tools.
   components:
