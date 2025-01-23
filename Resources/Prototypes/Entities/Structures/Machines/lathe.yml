@@ -579,6 +579,14 @@
     - AutodocCircuitboard # Shitmed Change
     - OperatingTableCircuitboard # Shitmed Change
     - MaterialSiloCircuitboard
+    - GygaxCentralElectronics
+    - GygaxPeripheralsElectronics
+    - GygaxTargetingElectronics
+    - DurandCentralElectronics
+    - DurandPeripheralsElectronics
+    - DurandTargetingElectronics
+    - ClarkeCentralElectronics
+    - ClarkePeripheralsElectronics
     - SMESAdvancedMachineCircuitboard
     - GygaxCentralElectronics
     - GygaxPeripheralsElectronics
@@ -1345,7 +1353,7 @@
 
 - type: entity
   id: ServiceTechFab
-  parent: BaseLatheLube
+  parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
   name: service techfab
   description: A specialized techfab used for printing various quality-of-life tools.
   components:
