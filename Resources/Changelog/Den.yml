@@ -1434,3 +1434,10 @@ Entries:
   id: 120
   time: '2025-01-22T23:19:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/187
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: 'Sharks are now more ferocious (from Deathnerd on Wizden #31142)'
+  id: 121
+  time: '2025-01-23T00:11:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/188
