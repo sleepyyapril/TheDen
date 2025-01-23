@@ -200,7 +200,7 @@
 
 - type: latheRecipe
   id: MechEquipmentDrillDiamond
-  result: WeaponMechMelleDrillDiamond
+  result: WeaponMechMeleeDrillDiamond
   category: MechEquipment
   completetime: 10
   materials:
