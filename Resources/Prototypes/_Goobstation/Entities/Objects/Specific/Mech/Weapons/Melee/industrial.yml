@@ -12,6 +12,7 @@
     - Pickaxe
     - IndustrialMech
   - type: MeleeWeapon
+    canWideSwing: false
     autoAttack: true
     angle: 0
     wideAnimationRotation: -90
@@ -38,12 +39,13 @@
     - Pickaxe
     - IndustrialMech
   - type: MeleeWeapon
+    canWideSwing: false
     autoAttack: true
     angle: 0
     wideAnimationRotation: -90
     soundHit:
       path: "/Audio/Items/drill_hit.ogg"
-    attackRate: .75
+    attackRate: 4
     damage:
       groups:
         Brute: 18

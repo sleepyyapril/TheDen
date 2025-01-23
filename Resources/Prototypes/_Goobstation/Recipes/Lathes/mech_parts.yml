@@ -191,7 +191,7 @@
 # Equipment
 - type: latheRecipe
   id: MechEquipmentDrill
-  result: WeaponMechMelleDrill
+  result: WeaponMechMeleeDrill
   category: MechEquipment
   completetime: 10
   materials:
