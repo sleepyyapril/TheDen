@@ -1448,3 +1448,50 @@ Entries:
   id: 122
   time: '2025-01-24T00:40:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/191
+- author: 'juniwoofs and Mike32oz '
+  changes:
+    - type: Add
+      message: Added the Prideomat (being gay is now legal!)
+    - type: Add
+      message: Added a reagent grinder to chem! (have fun blending things!)
+    - type: Add
+      message: Added a drain to disposals (now you wont have the infinite slop puddle)
+    - type: Add
+      message: Added a seed vendor to perma (finally, food for the poor)
+    - type: Add
+      message: >-
+        Added a lot of stuff to maints (a few rooms, loots, and water/fuel
+        tanks)
+    - type: Add
+      message: Added the gas miners the new mapping tools took from us (no longer 1984)
+    - type: Add
+      message: Added a few things of loot to the outside of the station
+    - type: Add
+      message: Added curtains to perma (you have a lil privacy now)
+    - type: Tweak
+      message: >-
+        Tweaked the cargo shuttle dock to make it a little easier to dock the
+        shuttle
+    - type: Tweak
+      message: Tweaked epi's front door (better placed now, trust me)
+    - type: Tweak
+      message: >-
+        Tweaked engi's air alarms! (no more dying when the air is spicy thanks
+        mike!)
+    - type: Tweak
+      message: Made engi generally better (thanks also mike!)
+    - type: Fix
+      message: >-
+        Fixed Captain locker being empty (now you can have your fancy tools and
+        dont have to share the two sticks and a rock with the whole platoon)
+    - type: Fix
+      message: >-
+        Fixed the boxing room floors giving you xray vision. (the concrete may
+        have been bought from less reputable sources...)
+    - type: Remove
+      message: >-
+        Removed cameras in the perma dorm rooms (sex is legal again for the
+        incarcerated)
+  id: 123
+  time: '2025-01-24T07:04:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/193
