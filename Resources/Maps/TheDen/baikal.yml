@@ -9118,11 +9118,6 @@ entities:
       pos: 140.5,-63.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 14478
   - uid: 24552
@@ -9131,11 +9126,6 @@ entities:
       pos: 158.5,-30.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
   - uid: 24559
@@ -9144,11 +9134,6 @@ entities:
       pos: 163.5,-19.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
   - uid: 24560
@@ -9157,11 +9142,6 @@ entities:
       pos: 160.5,-14.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
       - 24569
@@ -9171,11 +9151,6 @@ entities:
       pos: 174.5,-36.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24571
@@ -9184,11 +9159,6 @@ entities:
       pos: 181.5,-35.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24572
@@ -9197,11 +9167,6 @@ entities:
       pos: 170.5,-40.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24573
@@ -9210,11 +9175,6 @@ entities:
       pos: 164.5,-40.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24574
@@ -9223,11 +9183,6 @@ entities:
       pos: 164.5,-28.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24575
@@ -9236,11 +9191,6 @@ entities:
       pos: 167.5,-29.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24582
@@ -9249,11 +9199,6 @@ entities:
       pos: 149.5,-11.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24583
@@ -9262,11 +9207,6 @@ entities:
       pos: 149.5,-8.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24584
@@ -9275,11 +9215,6 @@ entities:
       pos: 141.5,-4.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24585
@@ -9288,11 +9223,6 @@ entities:
       pos: 141.5,-7.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24586
@@ -9301,11 +9231,6 @@ entities:
       pos: 141.5,-1.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24587
@@ -9314,11 +9239,6 @@ entities:
       pos: 149.5,-3.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24588
@@ -9327,11 +9247,6 @@ entities:
       pos: 153.5,-3.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24605
@@ -9341,11 +9256,6 @@ entities:
       pos: 143.5,-17.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24606
@@ -9355,11 +9265,6 @@ entities:
       pos: 139.5,-16.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24608
@@ -9369,11 +9274,6 @@ entities:
       pos: 148.5,-18.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24609
@@ -9383,11 +9283,6 @@ entities:
       pos: 153.5,-27.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24610
@@ -9397,11 +9292,6 @@ entities:
       pos: 148.5,-22.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24611
@@ -9411,11 +9301,6 @@ entities:
       pos: 141.5,-25.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24612
@@ -9425,11 +9310,6 @@ entities:
       pos: 144.5,-25.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24618
@@ -9439,25 +9319,10 @@ entities:
       pos: 147.5,-30.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
-      deviceLists:
-      - 24589
-  - uid: 24619
-    components:
-    - type: Transform
       rot: -1.5707963267948966 rad
       pos: 140.5,-32.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24622
@@ -9467,25 +9332,10 @@ entities:
       pos: 141.5,-40.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
-      deviceLists:
-      - 14566
-  - uid: 24623
-    components:
-    - type: Transform
       rot: -1.5707963267948966 rad
       pos: 146.5,-45.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 14566
   - uid: 24624
@@ -9495,11 +9345,6 @@ entities:
       pos: 154.5,-42.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 14566
   - uid: 24625
@@ -9509,11 +9354,6 @@ entities:
       pos: 142.5,-54.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 14566
   - uid: 24628
@@ -9522,11 +9362,6 @@ entities:
       pos: 148.5,-55.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 14479
   - uid: 24630
@@ -9535,11 +9370,6 @@ entities:
       pos: 127.5,-0.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24631
@@ -9548,11 +9378,6 @@ entities:
       pos: 136.5,-2.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24632
@@ -9561,11 +9386,6 @@ entities:
       pos: 132.5,-6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24643
@@ -9574,11 +9394,6 @@ entities:
       pos: 130.5,2.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24644
@@ -9587,11 +9402,6 @@ entities:
       pos: 123.5,-2.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24657
@@ -9601,11 +9411,6 @@ entities:
       pos: 129.5,-16.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24658
@@ -9615,11 +9420,6 @@ entities:
       pos: 122.5,-16.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24659
@@ -9629,11 +9429,6 @@ entities:
       pos: 125.5,-11.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24660
@@ -9643,11 +9438,6 @@ entities:
       pos: 118.5,-14.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
       - 24718
@@ -9657,11 +9447,6 @@ entities:
       pos: 130.5,13.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24671
@@ -9670,11 +9455,6 @@ entities:
       pos: 131.5,10.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24672
@@ -9683,11 +9463,6 @@ entities:
       pos: 132.5,6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24673
@@ -9696,11 +9471,6 @@ entities:
       pos: 122.5,6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
       - 24707
@@ -9725,11 +9495,6 @@ entities:
       pos: 121.5,0.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24697
@@ -9738,11 +9503,6 @@ entities:
       pos: 120.5,3.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24698
@@ -9751,11 +9511,6 @@ entities:
       pos: 114.5,3.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24704
@@ -9764,11 +9519,6 @@ entities:
       pos: 122.5,14.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24705
@@ -9777,11 +9527,6 @@ entities:
       pos: 108.5,0.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24706
@@ -9790,11 +9535,6 @@ entities:
       pos: 105.5,3.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24719
@@ -9803,11 +9543,6 @@ entities:
       pos: 108.5,-5.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24720
@@ -9816,11 +9551,6 @@ entities:
       pos: 109.5,-11.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24721
@@ -9829,11 +9559,6 @@ entities:
       pos: 108.5,-14.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24722
@@ -9842,11 +9567,6 @@ entities:
       pos: 112.5,-14.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24738
@@ -9862,11 +9582,6 @@ entities:
       pos: 89.5,5.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24740
@@ -9876,11 +9591,6 @@ entities:
       pos: 94.5,13.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24741
@@ -9890,11 +9600,6 @@ entities:
       pos: 99.5,6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24743
@@ -9904,11 +9609,6 @@ entities:
       pos: 101.5,3.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24745
@@ -9917,11 +9617,6 @@ entities:
       pos: 82.5,14.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
 - proto: AltarHeaven
@@ -61659,11 +61354,6 @@ entities:
       pos: 162.5,-21.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
   - uid: 11920
@@ -61672,11 +61362,6 @@ entities:
       pos: 101.5,7.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
       - 24744
@@ -61686,11 +61371,6 @@ entities:
       pos: 162.5,-22.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
   - uid: 24550
@@ -61699,11 +61379,6 @@ entities:
       pos: 162.5,-32.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
   - uid: 24551
@@ -61712,11 +61387,6 @@ entities:
       pos: 162.5,-31.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
   - uid: 24553
@@ -61725,11 +61395,6 @@ entities:
       pos: 158.5,-12.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24554
@@ -61738,11 +61403,6 @@ entities:
       pos: 158.5,-11.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24555
@@ -61751,11 +61411,6 @@ entities:
       pos: 158.5,-10.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24556
@@ -61764,11 +61419,6 @@ entities:
       pos: 159.5,-17.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
   - uid: 24557
@@ -61777,11 +61427,6 @@ entities:
       pos: 160.5,-17.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
   - uid: 24558
@@ -61790,11 +61435,6 @@ entities:
       pos: 161.5,-17.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24549
   - uid: 24561
@@ -61803,11 +61443,6 @@ entities:
       pos: 166.5,-28.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24562
@@ -61816,11 +61451,6 @@ entities:
       pos: 166.5,-27.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24563
@@ -61829,11 +61459,6 @@ entities:
       pos: 166.5,-26.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24564
@@ -61842,11 +61467,6 @@ entities:
       pos: 164.5,-33.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24565
@@ -61855,11 +61475,6 @@ entities:
       pos: 164.5,-37.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24566
@@ -61868,11 +61483,6 @@ entities:
       pos: 179.5,-35.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24568
@@ -61881,11 +61491,6 @@ entities:
       pos: 166.5,-40.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24567
   - uid: 24576
@@ -61894,11 +61499,6 @@ entities:
       pos: 147.5,-9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24577
@@ -61907,11 +61507,6 @@ entities:
       pos: 148.5,-9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24578
@@ -61920,11 +61515,6 @@ entities:
       pos: 147.5,-13.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
       - 24589
@@ -61934,11 +61524,6 @@ entities:
       pos: 142.5,-10.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24580
@@ -61947,11 +61532,6 @@ entities:
       pos: 142.5,-11.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24581
@@ -61960,11 +61540,6 @@ entities:
       pos: 142.5,-12.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24590
@@ -61974,11 +61549,6 @@ entities:
       pos: 142.5,-15.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24591
@@ -61988,11 +61558,6 @@ entities:
       pos: 142.5,-16.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24592
@@ -62002,11 +61567,6 @@ entities:
       pos: 142.5,-18.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24593
@@ -62016,11 +61576,6 @@ entities:
       pos: 146.5,-18.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24594
@@ -62030,11 +61585,6 @@ entities:
       pos: 146.5,-19.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24595
@@ -62044,11 +61594,6 @@ entities:
       pos: 144.5,-21.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24596
@@ -62058,11 +61603,6 @@ entities:
       pos: 145.5,-21.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24597
@@ -62072,11 +61612,6 @@ entities:
       pos: 144.5,-29.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24598
@@ -62086,11 +61621,6 @@ entities:
       pos: 145.5,-29.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24599
@@ -62100,11 +61630,6 @@ entities:
       pos: 146.5,-27.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24600
@@ -62114,11 +61639,6 @@ entities:
       pos: 143.5,-25.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24601
@@ -62134,11 +61654,6 @@ entities:
       pos: 153.5,-20.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24603
@@ -62148,11 +61663,6 @@ entities:
       pos: 141.5,-29.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24604
@@ -62162,11 +61672,6 @@ entities:
       pos: 153.5,-29.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24607
@@ -62176,11 +61681,6 @@ entities:
       pos: 136.5,-15.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24613
@@ -62190,11 +61690,6 @@ entities:
       pos: 142.5,-30.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24614
@@ -62204,11 +61699,6 @@ entities:
       pos: 142.5,-31.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24615
@@ -62218,11 +61708,6 @@ entities:
       pos: 144.5,-32.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24616
@@ -62232,11 +61717,6 @@ entities:
       pos: 152.5,-32.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24617
@@ -62246,11 +61726,6 @@ entities:
       pos: 139.5,-33.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
   - uid: 24620
@@ -62260,11 +61735,6 @@ entities:
       pos: 140.5,-37.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
       - 14566
@@ -62275,11 +61745,6 @@ entities:
       pos: 141.5,-37.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24589
       - 14566
@@ -62290,11 +61755,6 @@ entities:
       pos: 143.5,-41.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 14566
   - uid: 24627
@@ -62304,11 +61764,6 @@ entities:
       pos: 143.5,-40.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 14566
   - uid: 24633
@@ -62317,11 +61772,6 @@ entities:
       pos: 126.5,-2.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24634
@@ -62330,11 +61780,6 @@ entities:
       pos: 126.5,-3.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24635
@@ -62343,11 +61788,6 @@ entities:
       pos: 133.5,-9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24636
@@ -62356,11 +61796,6 @@ entities:
       pos: 123.5,-6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
       - 24649
@@ -62370,11 +61805,6 @@ entities:
       pos: 124.5,-6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
       - 24649
@@ -62384,11 +61814,6 @@ entities:
       pos: 125.5,-6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
       - 24649
@@ -62398,11 +61823,6 @@ entities:
       pos: 126.5,2.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24640
@@ -62411,11 +61831,6 @@ entities:
       pos: 123.5,4.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24641
@@ -62424,11 +61839,6 @@ entities:
       pos: 124.5,4.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24642
@@ -62437,11 +61847,6 @@ entities:
       pos: 125.5,4.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24645
@@ -62450,11 +61855,6 @@ entities:
       pos: 132.5,-10.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24646
@@ -62463,11 +61863,6 @@ entities:
       pos: 132.5,-11.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24647
@@ -62476,11 +61871,6 @@ entities:
       pos: 132.5,-12.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24648
@@ -62489,11 +61879,6 @@ entities:
       pos: 132.5,-13.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24650
@@ -62503,11 +61888,6 @@ entities:
       pos: 120.5,-13.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
       - 24718
@@ -62518,11 +61898,6 @@ entities:
       pos: 120.5,-12.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
       - 24718
@@ -62533,11 +61908,6 @@ entities:
       pos: 120.5,-11.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
       - 24718
@@ -62548,11 +61918,6 @@ entities:
       pos: 120.5,-10.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
       - 24718
@@ -62563,11 +61928,6 @@ entities:
       pos: 116.5,-12.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
       - 24718
@@ -62578,11 +61938,6 @@ entities:
       pos: 116.5,-11.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
       - 24718
@@ -62593,11 +61948,6 @@ entities:
       pos: 116.5,-10.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
       - 24718
@@ -62608,11 +61958,6 @@ entities:
       pos: 116.5,-15.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
       - 24718
@@ -62623,11 +61968,6 @@ entities:
       pos: 122.5,-8.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24663
@@ -62637,11 +61977,6 @@ entities:
       pos: 124.5,-15.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24664
@@ -62651,11 +61986,6 @@ entities:
       pos: 127.5,-15.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24649
   - uid: 24665
@@ -62665,11 +61995,6 @@ entities:
       pos: 127.5,7.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24666
@@ -62679,11 +62004,6 @@ entities:
       pos: 127.5,6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24667
@@ -62693,11 +62013,6 @@ entities:
       pos: 127.5,5.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24668
@@ -62707,11 +62022,6 @@ entities:
       pos: 129.5,8.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24669
@@ -62721,11 +62031,6 @@ entities:
       pos: 131.5,12.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24629
   - uid: 24674
@@ -62734,11 +62039,6 @@ entities:
       pos: 121.5,9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24675
@@ -62747,11 +62047,6 @@ entities:
       pos: 122.5,9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24676
@@ -62760,11 +62055,6 @@ entities:
       pos: 123.5,9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24677
@@ -62773,11 +62063,6 @@ entities:
       pos: 117.5,7.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24678
@@ -62786,11 +62071,6 @@ entities:
       pos: 117.5,6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24679
@@ -62799,11 +62079,6 @@ entities:
       pos: 117.5,5.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24680
@@ -62812,11 +62087,6 @@ entities:
       pos: 101.5,6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
       - 24744
@@ -62826,11 +62096,6 @@ entities:
       pos: 101.5,5.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
       - 24744
@@ -62840,11 +62105,6 @@ entities:
       pos: 111.5,4.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24684
@@ -62853,11 +62113,6 @@ entities:
       pos: 111.5,8.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24685
@@ -62876,11 +62131,6 @@ entities:
       pos: 115.5,4.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24688
@@ -62889,11 +62139,6 @@ entities:
       pos: 117.5,3.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24689
@@ -62902,11 +62147,6 @@ entities:
       pos: 106.5,4.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24690
@@ -62915,11 +62155,6 @@ entities:
       pos: 107.5,1.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24691
@@ -62928,11 +62163,6 @@ entities:
       pos: 107.5,8.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24692
@@ -62941,11 +62171,6 @@ entities:
       pos: 103.5,10.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
       - 24744
@@ -62955,11 +62180,6 @@ entities:
       pos: 120.5,1.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24699
@@ -62968,11 +62188,6 @@ entities:
       pos: 118.5,9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24700
@@ -62981,11 +62196,6 @@ entities:
       pos: 119.5,9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24701
@@ -62994,11 +62204,6 @@ entities:
       pos: 125.5,9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24702
@@ -63007,11 +62212,6 @@ entities:
       pos: 126.5,9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24703
@@ -63020,11 +62220,6 @@ entities:
       pos: 122.5,12.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24707
   - uid: 24708
@@ -63033,11 +62228,6 @@ entities:
       pos: 101.5,-10.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24709
@@ -63046,11 +62236,6 @@ entities:
       pos: 101.5,-11.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24710
@@ -63059,11 +62244,6 @@ entities:
       pos: 101.5,-12.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24711
@@ -63072,11 +62252,6 @@ entities:
       pos: 103.5,-13.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24712
@@ -63085,11 +62260,6 @@ entities:
       pos: 107.5,-13.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24713
@@ -63098,11 +62268,6 @@ entities:
       pos: 111.5,-13.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24714
@@ -63111,11 +62276,6 @@ entities:
       pos: 110.5,-9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24715
@@ -63124,11 +62284,6 @@ entities:
       pos: 111.5,-9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24716
@@ -63137,11 +62292,6 @@ entities:
       pos: 115.5,-9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24718
   - uid: 24717
@@ -63150,11 +62300,6 @@ entities:
       pos: 139.5,-9.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24569
   - uid: 24723
@@ -63178,11 +62323,6 @@ entities:
       pos: 93.5,8.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24727
@@ -63191,11 +62331,6 @@ entities:
       pos: 94.5,8.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24728
@@ -63204,11 +62339,6 @@ entities:
       pos: 95.5,8.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24729
@@ -63217,11 +62347,6 @@ entities:
       pos: 96.5,7.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24730
@@ -63230,11 +62355,6 @@ entities:
       pos: 96.5,6.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24731
@@ -63243,11 +62363,6 @@ entities:
       pos: 96.5,5.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24732
@@ -63271,11 +62386,6 @@ entities:
       pos: 92.5,3.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24736
@@ -63297,11 +62407,6 @@ entities:
       pos: 100.5,4.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
   - uid: 24746
@@ -63310,11 +62415,6 @@ entities:
       pos: 86.5,14.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 24744
 - proto: Fireplace
@@ -97549,11 +96649,6 @@ entities:
       pos: 140.5,-22.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 14307
@@ -97563,11 +96658,6 @@ entities:
       pos: 149.5,-33.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 14310
@@ -97577,11 +96667,6 @@ entities:
       pos: 145.5,-36.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 14324
@@ -97599,11 +96684,6 @@ entities:
       pos: 138.5,-32.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 14375
@@ -97612,11 +96692,6 @@ entities:
       pos: 153.5,-18.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 14386
@@ -97634,11 +96709,6 @@ entities:
       pos: 140.5,-16.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 14563
@@ -99240,11 +98310,6 @@ entities:
       pos: 144.5,-16.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 21617
@@ -99254,11 +98319,6 @@ entities:
       pos: 152.5,-30.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 21619
@@ -99268,11 +98328,6 @@ entities:
       pos: 149.5,-28.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 21652
@@ -99477,11 +98532,6 @@ entities:
       pos: 140.5,-17.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 14130
@@ -99499,11 +98549,6 @@ entities:
       pos: 149.5,-34.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 14303
@@ -99513,11 +98558,6 @@ entities:
       pos: 143.5,-34.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 14304
@@ -99526,11 +98566,6 @@ entities:
       pos: 141.5,-25.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 14305
@@ -99555,11 +98590,6 @@ entities:
       pos: 138.5,-31.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 14374
@@ -99569,11 +98599,6 @@ entities:
       pos: 150.5,-18.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 14477
@@ -99583,11 +98608,6 @@ entities:
       pos: 139.5,-62.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
       deviceLists:
       - 14478
   - uid: 14565
@@ -101150,11 +100170,6 @@ entities:
       pos: 143.5,-16.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 21616
@@ -101164,11 +100179,6 @@ entities:
       pos: 153.5,-31.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 21618
@@ -101178,11 +100188,6 @@ entities:
       pos: 148.5,-28.5
       parent: 13
     - type: DeviceNetwork
-<<<<<<< HEAD
-=======
-      configurators:
-      - invalid
->>>>>>> c8a1ca171f95353693f427f6638f3d511b6bf550
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 21654
