@@ -43,6 +43,7 @@
             MedicalDoctor: [ 3, 3 ]
             MedicalIntern: [ 2, 2 ]
             Paramedic: [ 2, 2 ]
+            Psychologist: [ 1, 1 ]
             #science
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 3, 4 ]
@@ -54,7 +55,7 @@
             #security
             HeadOfSecurity: [ 1, 1 ]
             Warden: [ 1, 1 ]
-            SecurityOfficer: [ 5, 5 ]
+            SecurityOfficer: [ 4, 4 ]
             Detective: [ 1, 1 ]
             SecurityCadet: [ 3, 3 ]
             Lawyer: [ 2, 2 ]
