@@ -1417,3 +1417,27 @@ Entries:
   id: 118
   time: '2025-01-22T07:22:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/186
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Baikal Station (FOR TEST PURPOSES ONLY)
+  id: 119
+  time: '2025-01-22T08:12:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/185
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Soul-Shatter, a unique double barrel shotgun issued to
+        Mantises intended for use in Code White scenarios against hostile
+        psionics. 
+  id: 120
+  time: '2025-01-22T23:19:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/187
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: 'Sharks are now more ferocious (from Deathnerd on Wizden #31142)'
+  id: 121
+  time: '2025-01-23T00:11:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/188
