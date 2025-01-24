@@ -1441,3 +1441,10 @@ Entries:
   id: 121
   time: '2025-01-23T00:11:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/188
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added Psych Role to Baikal
+  id: 122
+  time: '2025-01-24T00:40:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/191
