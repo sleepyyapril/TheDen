@@ -59,6 +59,6 @@ public sealed partial class NanoChatCardComponent : Component
     
     ///     Whether the card's number should be listed in NanoChat's lookup
     /// </summary>
-    [DataField, Access(typeof(SharedPdaSystem), Friend = AccessPermissions.ReadWrite)]
+    [DataField]
     public bool ListNumber = true;
 }

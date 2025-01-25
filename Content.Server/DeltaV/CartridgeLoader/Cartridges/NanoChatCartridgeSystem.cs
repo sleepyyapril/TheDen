@@ -51,13 +51,19 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
     // Reset current chat when PDA closes.
     private void OnPdaClosed(EntityUid uid, PdaComponent component, BoundUIClosedEvent args)
     {
-        var exists = GetCardEntity(uid, out var cardEntity);
+        if (!TryComp<CartridgeComponent>(ent, out var cartridge) ||
+            cartridge.LoaderUid is not { } pda ||
+            !TryComp<CartridgeLoaderComponent>(pda, out var loader) ||
+            !GetCardEntity(pda, out var card))
+        {
+            return;
+        }
 
         if (!exists)
             return;
 
         _nanoChat.SetCurrentChat(
-            (cardEntity.Owner, (NanoChatCardComponent?) cardEntity.Comp),
+            (card.Owner, (NanoChatCardComponent?) card.Comp),
             null
         );
     }
@@ -125,6 +131,9 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
                 break;
             case NanoChatUiMessageType.SendMessage:
                 HandleSendMessage(ent, card, msg);
+                break;
+            case NanoChatUiMessageType.ToggleListNumber:
+                HandleToggleListNumber(card);
                 break;
         }
 
@@ -285,6 +294,12 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
     {
         _nanoChat.SetNotificationsMuted((card, card.Comp), !_nanoChat.GetNotificationsMuted((card, card.Comp)));
         UpdateUIForCard(card);
+    }
+
+    private void HandleToggleListNumber(Entity<NanoChatCardComponent> card)
+    {
+        _nanoChat.SetListNumber((card, card.Comp), !_nanoChat.GetListNumber((card, card.Comp)));
+        UpdateUIForAllCards();
     }
 
     /// <summary>
@@ -536,6 +551,22 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
     }
 
     /// <summary>
+    ///     Updates the UI for all PDAs containing a NanoChat cartridge.
+    /// </summary>
+    private void UpdateUIForAllCards()
+    {
+        // Find any PDA containing this card and update its UI
+        var query = EntityQueryEnumerator<NanoChatCartridgeComponent, CartridgeComponent>();
+        while (query.MoveNext(out var uid, out var comp, out var cartridge))
+        {
+            if (cartridge.LoaderUid == null)
+                continue;
+
+            UpdateUI((uid, comp), cartridge.LoaderUid.Value);
+        }
+    }
+
+    /// <summary>
     ///     Gets the <see cref="NanoChatRecipient" /> for a given NanoChat number.
     /// </summary>
     private NanoChatRecipient? GetCardInfo(uint number)
@@ -606,6 +637,7 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
         uint ownNumber = 0;
         var maxRecipients = 50;
         var notificationsMuted = false;
+        var listNumber = false;
 
         if (ent.Comp.Card != null && TryComp<NanoChatCardComponent>(ent.Comp.Card, out var card))
         {
@@ -615,6 +647,7 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
             ownNumber = card.Number ?? 0;
             maxRecipients = card.MaxRecipients;
             notificationsMuted = card.NotificationsMuted;
+            listNumber = card.ListNumber;
         }
 
         var state = new NanoChatUiState(recipients,
@@ -623,7 +656,8 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
             currentChat,
             ownNumber,
             maxRecipients,
-            notificationsMuted);
+            notificationsMuted,
+            listNumber);
         _cartridge.UpdateCartridgeUiState(loader, state);
     }
 }
