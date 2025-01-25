@@ -140,6 +140,11 @@ public sealed partial class ConsentWindow : FancyWindow
         _entries.Add(state);
     }
 
+    private void PopulatePermissions()
+    {
+
+    }
+
     private void ButtonOnPress(Button currentButton, Button otherbutton)
     {
         currentButton.Pressed = true;
@@ -160,6 +165,8 @@ public sealed partial class ConsentWindow : FancyWindow
         var consentprototypelist = _protoManager.EnumeratePrototypes<ConsentTogglePrototype>();
         foreach (var prototype in consentprototypelist)
             AddConsentEntry(prototype);
+
+        PopulatePermissions();
 
         SaveConsentSettings.Disabled = true;
         SaveLabel.Text = "";

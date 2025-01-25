@@ -427,6 +427,24 @@ namespace Content.Server.Database
         public int PreferenceId { get; set; }
         public Preference Preference { get; set; } = null!;
     }
+
+    public class ConsentPermissionsEntry
+    {
+        public int Id { get; set; }
+        public Guid UserId { get; set; }
+        public int ProfileId { get; set; }
+
+        public List<ConsentTarget> ConsentTargets { get; set; } = new();
+    }
+
+    public class ConsentTarget
+    {
+        public Guid TargetId { get; set; }
+        public int TargetProfileId { get; set; }
+        public string TargetConsent { get; set; } = string.Empty;
+        public bool TargetHasConsent { get; set; }
+    }
+
     public class ConsentSettings
     {
         public int Id { get; set; }
