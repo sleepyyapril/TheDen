@@ -56,6 +56,11 @@ namespace Content.Client.PDA
                 SendMessage(new PdaShowMusicMessage());
             };
 
+            _menu.ListNanoChatNumberButton.OnPressed += _ =>
+            {
+                SendMessage(new PdaNanoChatListNumberMessage());
+            };
+
             _menu.AccessRingtoneButton.OnPressed += _ =>
             {
                 SendMessage(new PdaShowRingtoneMessage());
