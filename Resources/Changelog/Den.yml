@@ -1511,3 +1511,10 @@ Entries:
   id: 125
   time: '2025-01-25T03:55:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/195
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Moved Den-specific audio files into their own folders.
+  id: 126
+  time: '2025-01-25T06:37:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/197
