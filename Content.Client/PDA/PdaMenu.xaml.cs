@@ -189,6 +189,7 @@ namespace Content.Client.PDA
             EjectPenButton.IsActive = state.HasPen;
             EjectPaiButton.IsActive = state.HasPai;
             ActivateMusicButton.Visible = state.CanPlayMusic;
+            ListNanoChatNumberButton.Visible = state.HasNanoChatCard;
             ShowUplinkButton.Visible = state.HasUplink;
             LockUplinkButton.Visible = state.HasUplink;
         }

@@ -452,7 +452,6 @@
       - MailMetricsCartridge # DeltaV - MailMetrics courier tracker
       - StockTradingCartridge # DeltaV - StockTrading
       - NanoChatCartridge # DeltaV
-      - NanoChatLookupCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -900,7 +899,6 @@
       - GlimmerMonitorCartridge
       - NanoChatCartridge
       - PsiWatchCartridge
-      - NanoChatLookupCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -1044,7 +1042,6 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
-      - NanoChatLookupCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -1073,7 +1070,6 @@
       - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
       - LogProbeCartridge
       - NanoChatCartridge # DeltaV
-      - NanoChatLookupCartridge # DeltaV
 
 - type: entity
   parent: CentcomPDA
@@ -1098,7 +1094,6 @@
       - StockTradingCartridge # Delta-V
       - NanoChatCartridge # DeltaV
       - PsiWatchCartridge
-      - NanoChatLookupCartridge # DeltaV
 
 - type: entity
   parent: CentcomPDA
@@ -1107,7 +1102,6 @@
   components:
   - type: Pda
     id: CentcomIDCardSyndie
-      - NanoChatLookupCartridge # DeltaV
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -1186,7 +1180,6 @@
     preinstalled:
       - NotekeeperCartridge
       - NanoChatCartridge # DeltaV
-      - NanoChatLookupCartridge # DeltaV
     cartridgeSlot:
       priority: -1
       name: Cartridge
@@ -1224,7 +1217,6 @@
       - LogProbeCartridge
       - NanoChatCartridge # DeltaV
       - MedTekCartridge
-      - NanoChatLookupCartridge # DeltaV
 
 - type: entity
   parent: ERTLeaderPDA
