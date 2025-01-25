@@ -1482,7 +1482,10 @@ namespace Content.Client.Lobby.UI
             if (Profile == null)
                 return;
 
-            StationAINameEdit.Text = Profile.StationAiName ?? string.Empty;
+            var newName = Profile.StationAiName ?? string.Empty;
+
+            if (newName != StationAINameEdit.Text)
+                StationAINameEdit.Text = newName;
 
             if (StationAINameEdit.Text != string.Empty)
                 return;
@@ -1497,7 +1500,10 @@ namespace Content.Client.Lobby.UI
             if (Profile == null)
                 return;
 
-            CyborgNameEdit.Text = Profile.CyborgName ?? string.Empty;
+            var newName = Profile.CyborgName ?? string.Empty;
+            
+            if (newName != CyborgNameEdit.Text)
+                CyborgNameEdit.Text = newName;
 
             if (CyborgNameEdit.Text != string.Empty)
                 return;
