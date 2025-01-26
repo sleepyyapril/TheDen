@@ -9,6 +9,7 @@
     icon: DeltaV/Interface/Actions/mouthStorageOpen.png
     event: !type:OpenStorageImplantEvent
 
+- type: entity
   id: ActionChitzite
   name: Cough Up Chitzite
   description: Purge the excess radiation build-up from your body by expelling it as a mass of toxic material.
