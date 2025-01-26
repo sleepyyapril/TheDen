@@ -18,6 +18,7 @@
     Slash: 1.15
     Piercing: 1.15
 
+- type: damageModifierSet
   id: Chitinid
   coefficients:
     Blunt: 1.15
