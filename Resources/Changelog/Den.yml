@@ -1577,3 +1577,10 @@ Entries:
   id: 129
   time: '2025-01-26T04:50:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/202
+- author: KyuPolaris
+  changes:
+    - type: Tweak
+      message: Copyright law
+  id: 130
+  time: '2025-01-26T05:20:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/203
