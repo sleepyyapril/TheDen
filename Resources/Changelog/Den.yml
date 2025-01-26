@@ -1570,3 +1570,10 @@ Entries:
   id: 128
   time: '2025-01-26T04:06:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/200
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Harpies have gained the ability to hoot
+  id: 129
+  time: '2025-01-26T04:50:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/202
