@@ -246,17 +246,5 @@
       collection: MaleCoughs
     Yawn:
       collection: MaleYawn
-    Snore:
-      collection: Snores
-    Honk:
-      collection: BikeHorn
-    Sigh:
-      collection: MaleSigh
-    Crying:
-      collection: MaleCry
-    Whistle:
-      collection: Whistles
-    Weh:
-      collection: Weh
-    Squeak: 
-      path: /Audio/Animals/mouse_squeak.ogg
+    Hiss:
+      path: /Audio/Animals/snake_hiss.ogg
