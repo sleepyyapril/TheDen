@@ -1584,3 +1584,20 @@ Entries:
   id: 130
   time: '2025-01-26T05:20:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/203
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fix ChemMaster losing your time added because of a silly goose move.
+    - type: Fix
+      message: >-
+        Fixes the bug where Chitinids lose their light with an anom (Game
+        limitations lets them only have one light at a time but the light
+        returns after losing the anom)
+    - type: Fix
+      message: >-
+        Tweaked Chitinid resistance to be a bit more tanky for the cost of
+        weaker to elemental things like shock and harder to heal due to
+        inability to be injected
+  id: 131
+  time: '2025-01-26T05:52:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/204
