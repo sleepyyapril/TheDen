@@ -1608,3 +1608,40 @@ Entries:
   id: 132
   time: '2025-01-26T18:27:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/205
+- author: EE contributors
+  changes:
+    - type: Add
+      message: Shadowkins can now be roundstart species again
+    - type: Add
+      message: 'Shadowkins now have lungs, yippee! '
+    - type: Add
+      message: Shadowkins now have organs with funny little descriptions
+    - type: Add
+      message: Shadowkins now have a brand new and expanded list of names
+    - type: Add
+      message: Shadowkins now have roundstart innate telepathy ability rather
+    - type: Tweak
+      message: Shadowkins take more damage from heat, slash, and piercing
+    - type: Tweak
+      message: Shadowkins are much more like their SS13 counterparters
+    - type: Tweak
+      message: Shadowkins now have much better lore in their guidebook entry
+    - type: Tweak
+      message: Shadowkins now have a more fleshed out language (to outside
+    - type: Tweak
+      message: Shadowkins now can be mystagogue, mantis, chaplain, and
+    - type: Tweak
+      message: Shadowkins must now have blackeye trait to play prisoner
+    - type: Tweak
+      message: Shadowkins no longer have blackeye trait by default
+    - type: Tweak
+      message: Shadowkins now take asphyxiation damage, albeit at half the
+    - type: Tweak
+      message: Shadowkins now have a more pronounced snout.
+    - type: Remove
+      message: Removed DarkSwap from Shadowkin roundstart
+    - type: Fix
+      message: Fixed the demons of Gehenna possessing the ChemMaster
+  id: 133
+  time: '2025-01-26T18:28:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/207
