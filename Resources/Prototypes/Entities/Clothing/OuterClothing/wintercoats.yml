@@ -45,7 +45,7 @@
     slot: head
   - type: ContainerContainer
     containers:
-      toggleable-clothing: !type:ContainerSlot {}
+      toggleable-clothing: !type:Container {}
       storagebase: !type:Container
         ents: []
 
@@ -98,20 +98,9 @@
   name: logistics winter coat # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
-    sprite: _CD/Clothing/OuterClothing/WinterCoats/coat.rsi # CD drip 2
-    layers:
-    - state: CARGO-icon
-  - type: Item
-    inhandVisuals:
-      left:
-      - state: CARGO-inhand-left
-      right:
-      - state: CARGO-inhand-right
+    sprite: Clothing/OuterClothing/WinterCoats/coatcargo.rsi
   - type: Clothing
-    sprite: _CD/Clothing/OuterClothing/WinterCoats/coat.rsi # CD drip 2
-    clothingVisuals:
-      outerClothing:
-      - state: CARGO-equipped-OUTERCLOTHING
+    sprite: Clothing/OuterClothing/WinterCoats/coatcargo.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterCargo
 
