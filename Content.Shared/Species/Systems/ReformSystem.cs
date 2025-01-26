@@ -119,6 +119,7 @@ public sealed partial class ReformSystem : EntitySystem
         childAppearance.CustomSpecieName = appearance.CustomSpecieName;
         childAppearance.LastProfileLoaded = appearance.LastProfileLoaded;
         childAppearance.CustomBaseLayers = appearance.CustomBaseLayers;
+        childAppearance.HideLayersOnEquip = appearance.HideLayersOnEquip;
         Dirty(uid, childAppearance);
 
         // This transfers the mind to the new entity
