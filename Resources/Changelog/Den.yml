@@ -1601,3 +1601,10 @@ Entries:
   id: 131
   time: '2025-01-26T05:52:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/204
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added ability for Arachne to produce silk
+  id: 132
+  time: '2025-01-26T18:27:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/205
