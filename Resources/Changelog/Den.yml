@@ -1645,3 +1645,12 @@ Entries:
   id: 133
   time: '2025-01-26T18:28:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/207
+- author: Rosycup
+  changes:
+    - type: Remove
+      message: >-
+        Removed Station Destruction nodes from artifacts and the Singularity
+        Beacon from the traitor uplink.
+  id: 134
+  time: '2025-01-27T10:55:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/208
