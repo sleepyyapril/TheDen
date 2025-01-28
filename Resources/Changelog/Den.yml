@@ -1685,3 +1685,13 @@ Entries:
   id: 135
   time: '2025-01-28T02:42:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/209
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Blueshield Officer's Rescue Axe, both a personal weapon and a
+        tool used for emergencies issued to Blueshields as part of their
+        equipment.
+  id: 136
+  time: '2025-01-28T10:51:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/210
