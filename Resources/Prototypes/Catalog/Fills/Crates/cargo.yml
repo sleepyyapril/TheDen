@@ -165,6 +165,8 @@
       orGroup: Weapons
     - id: WeaponBaguette
       prob: 0.01
+    - id: WeaponRifleFoam
+      prob: 0.03
       orGroup: Weapons
     #clothing
     - id: ClothingUniformJumpsuitFamilyGuy
@@ -443,4 +445,13 @@
       orGroup: NotUseful
     - id: WeakKudzu
       prob: 0.01
+      orGroup: NotUseful
+    - id: MagazineFoamBox
+      prob: 0.001
+      orGroup: NotUseful
+    - id: BoxDonkSoftBox
+      prob: 0.008
+      orGroup: NotUseful
+    - id: GrenadeFoamDart
+      prob: 0.001
       orGroup: NotUseful
