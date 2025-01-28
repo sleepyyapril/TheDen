@@ -89,7 +89,7 @@ public sealed partial class NanoChatUiFragment : BoxContainer
         LookupButton.OnPressed += _ => ToggleView();
         LookupView.OnStartChat += contact =>
         {
-            if (OnMessageSent is { } handler)
+            if (ActionSendUiMessage is { } handler)
             {
                 handler(NanoChatUiMessageType.NewChat, contact.Number, contact.Name, contact.JobTitle);
                 SelectChat(contact.Number);
@@ -100,7 +100,7 @@ public sealed partial class NanoChatUiFragment : BoxContainer
         {
             _listNumber = !_listNumber;
             UpdateListNumber();
-            OnMessageSent?.Invoke(NanoChatUiMessageType.ToggleListNumber, null, null, null);
+            ActionSendUiMessage?.Invoke(NanoChatUiMessageType.ToggleListNumber, null, null, null);
         };
 
         SendButton.OnPressed += _ => SendMessage();
