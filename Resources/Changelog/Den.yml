@@ -1654,3 +1654,34 @@ Entries:
   id: 134
   time: '2025-01-27T10:55:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/208
+- author: EE contributors
+  changes:
+    - type: Add
+      message: Blueshield Officer now has CPR as a roundstart trait.
+    - type: Fix
+      message: Other species can pick Cataloguer, Psionic Mantis, and Mystagogue
+    - type: Tweak
+      message: All plasma tanks of all kinds now have the correct output
+    - type: Tweak
+      message: Plasmamen can no longer select the Temperature Tolerance trait
+    - type: Fix
+      message: Reduced the price of mechs on the uplink.
+    - type: Fix
+      message: Thief game rule now properly selects more than one thief.
+    - type: Remove
+      message: Remove the Raise Glimmer To 500 traitor objective.
+    - type: Add
+      message: >-
+        Added the AAC tablet to loadouts for 2 loadout points. Mimes can break
+        their vow by using it.
+    - type: Add
+      message: Ghost Bar! When you die, you can now go to the Ghost Bar to chill
+    - type: Add
+      message: Foam Force rifle to cargo lottery! (by IProduceWidgets)
+    - type: Add
+      message: 'Re-enabled the Kill objective for traitors. '
+    - type: Tweak
+      message: Reduced the chances of traitors getting the "Teach a Lesson"
+  id: 135
+  time: '2025-01-28T02:42:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/209

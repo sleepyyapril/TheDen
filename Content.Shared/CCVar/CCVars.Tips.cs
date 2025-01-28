@@ -8,7 +8,7 @@ public sealed partial class CCVars
     ///     Whether tips being shown is enabled at all.
     /// </summary>
     public static readonly CVarDef<bool> TipsEnabled =
-        CVarDef.Create("tips.enabled", true);
+        CVarDef.Create("tips.enabled", false);
 
     /// <summary>
     ///     The dataset prototype to use when selecting a random tip.
@@ -36,5 +36,5 @@ public sealed partial class CCVars
     ///     The chance for Tippy to replace a normal tip message.
     /// </summary>
     public static readonly CVarDef<float> TipsTippyChance =
-        CVarDef.Create("tips.tippy_chance", 0.01f);
+        CVarDef.Create("tips.tippy_chance", 0f);
 }

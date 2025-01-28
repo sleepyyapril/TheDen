@@ -125,6 +125,20 @@
 
 - type: entity
   parent: BasePDA
+  id: BaseSecurityPDA
+  abstract: true
+  components:
+  - type: CartridgeLoader
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - CrimeAssistCartridge # DeltaV
+    - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+    - NanoChatCartridge # DeltaV
+
+- type: entity
+  parent: BasePDA
   id: BaseMedicalPDA
   abstract: true
   components:
@@ -210,6 +224,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
+      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -377,6 +392,7 @@
       - GlimmerMonitorCartridge
       - NanoChatCartridge # DeltaV
       - PsiWatchCartridge
+      - NanoChatLookupCartridge
 
 - type: entity
   name: logistics officer PDA # DeltaV - Logistics Department replacing Cargo
@@ -406,6 +422,7 @@
       - MailMetricsCartridge
       - NanoChatCartridge
       - StockTradingCartridge # DeltaV - StockTrading
+      - NanoChatLookupCartridge
 
 - type: entity
   name: LO special PDA unit # DeltaV - Logistics Department replacing Cargo
@@ -478,7 +495,7 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - AstroNavCartridge
-      - NanoChatCartridge
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -521,6 +538,7 @@
       - GlimmerMonitorCartridge
       - NanoChatCartridge
       - PsiWatchCartridge
+      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -549,6 +567,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
+      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -849,6 +868,7 @@
       - GlimmerMonitorCartridge
       - NanoChatCartridge # DeltaV
       - PsiWatchCartridge
+      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -975,6 +995,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
+      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -998,6 +1019,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
+      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -1080,6 +1102,9 @@
   components:
   - type: Pda
     id: CentcomIDCardSyndie
+  - type: Tag #  Ignore Chameleon tags
+    tags:
+    - DoorBumpOpener
 
 - type: entity
   parent: CentcomPDA
@@ -1496,6 +1521,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
+      - NanoChatLookupCartridge
 
 - type: entity
   parent: SyndiPDA
@@ -1534,6 +1560,7 @@
       - NotekeeperCartridge
       - MedTekCartridge
       - NanoChatCartridge
+      - NanoChatLookupCartridge
     cartridgeSlot:
       priority: -1
       name: Cartridge
