@@ -51,15 +51,10 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
     // Reset current chat when PDA closes.
     private void OnPdaClosed(EntityUid uid, PdaComponent component, BoundUIClosedEvent args)
     {
-        if (!TryComp<CartridgeComponent>(ent, out var cartridge) ||
+        if (!TryComp<CartridgeComponent>(uid, out var cartridge) ||
             cartridge.LoaderUid is not { } pda ||
             !TryComp<CartridgeLoaderComponent>(pda, out var loader) ||
             !GetCardEntity(pda, out var card))
-        {
-            return;
-        }
-
-        if (!exists)
             return;
 
         _nanoChat.SetCurrentChat(
