@@ -1211,6 +1211,7 @@
     - BoneGel # Shitmed Change
     - HandheldGPSBasic # Floof - port to EE
     - HandheldStationMap # Floof - port to EE
+    - AACTablet # DeltaV
     dynamicRecipes:
     - HypoMini
     - ChemicalPayload

@@ -80,3 +80,5 @@
       id: RussianAccent
     - type: trait
       id: MobsterAccent
+    - type: trait
+      id: SkeletonAccent
