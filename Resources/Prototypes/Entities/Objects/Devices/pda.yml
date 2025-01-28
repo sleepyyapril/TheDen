@@ -224,7 +224,6 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
-      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -392,7 +391,6 @@
       - GlimmerMonitorCartridge
       - NanoChatCartridge # DeltaV
       - PsiWatchCartridge
-      - NanoChatLookupCartridge
 
 - type: entity
   name: logistics officer PDA # DeltaV - Logistics Department replacing Cargo
@@ -422,7 +420,6 @@
       - MailMetricsCartridge
       - NanoChatCartridge
       - StockTradingCartridge # DeltaV - StockTrading
-      - NanoChatLookupCartridge
 
 - type: entity
   name: LO special PDA unit # DeltaV - Logistics Department replacing Cargo
@@ -538,7 +535,6 @@
       - GlimmerMonitorCartridge
       - NanoChatCartridge
       - PsiWatchCartridge
-      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -567,7 +563,6 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
-      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -868,7 +863,6 @@
       - GlimmerMonitorCartridge
       - NanoChatCartridge # DeltaV
       - PsiWatchCartridge
-      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -995,7 +989,6 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
-      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -1019,7 +1012,6 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
-      - NanoChatLookupCartridge
 
 - type: entity
   parent: BasePDA
@@ -1521,7 +1513,6 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - NanoChatCartridge
-      - NanoChatLookupCartridge
 
 - type: entity
   parent: SyndiPDA
@@ -1560,7 +1551,6 @@
       - NotekeeperCartridge
       - MedTekCartridge
       - NanoChatCartridge
-      - NanoChatLookupCartridge
     cartridgeSlot:
       priority: -1
       name: Cartridge
