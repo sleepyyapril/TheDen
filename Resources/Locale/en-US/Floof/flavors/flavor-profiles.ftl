@@ -69,7 +69,6 @@ flavor-complex-jenntonic = sweet with a hidden bite
 flavor-complex-hallelujah = a moment of peace
 flavor-complex-blue-pumpkin = like a mouthful of pool water
 flavor-base-strange = strange
-flavor-complex-cherry = like cherries
 flavor-complex-walnut = like walnuts
 flavor-complex-despair = despair
 flavor-complex-eggnog = eggnog
