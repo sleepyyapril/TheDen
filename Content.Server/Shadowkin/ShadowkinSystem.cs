@@ -59,7 +59,6 @@ public sealed class ShadowkinSystem : EntitySystem
             return;
 
         component.OldEyeColor = humanoid.EyeColor;
-        humanoid.EyeColor = component.BlackEyeColor;
         Dirty(uid, humanoid);
     }
 

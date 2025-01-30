@@ -51,13 +51,14 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
     // Reset current chat when PDA closes.
     private void OnPdaClosed(EntityUid uid, PdaComponent component, BoundUIClosedEvent args)
     {
-        var exists = GetCardEntity(uid, out var cardEntity);
-
-        if (!exists)
+        if (!TryComp<CartridgeComponent>(uid, out var cartridge) ||
+            cartridge.LoaderUid is not { } pda ||
+            !TryComp<CartridgeLoaderComponent>(pda, out var loader) ||
+            !GetCardEntity(pda, out var card))
             return;
 
         _nanoChat.SetCurrentChat(
-            (cardEntity.Owner, (NanoChatCardComponent?) cardEntity.Comp),
+            (card.Owner, (NanoChatCardComponent?) card.Comp),
             null
         );
     }
@@ -125,6 +126,9 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
                 break;
             case NanoChatUiMessageType.SendMessage:
                 HandleSendMessage(ent, card, msg);
+                break;
+            case NanoChatUiMessageType.ToggleListNumber:
+                HandleToggleListNumber(card);
                 break;
         }
 
@@ -285,6 +289,12 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
     {
         _nanoChat.SetNotificationsMuted((card, card.Comp), !_nanoChat.GetNotificationsMuted((card, card.Comp)));
         UpdateUIForCard(card);
+    }
+
+    private void HandleToggleListNumber(Entity<NanoChatCardComponent> card)
+    {
+        _nanoChat.SetListNumber((card, card.Comp), !_nanoChat.GetListNumber((card, card.Comp)));
+        UpdateUIForAllCards();
     }
 
     /// <summary>
@@ -536,6 +546,20 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
     }
 
     /// <summary>
+    ///     Updates the UI for all PDAs containing a NanoChat cartridge.
+    /// </summary>
+    private void UpdateUIForAllCards()
+    {
+        // Find any PDA containing this card and update its UI
+        var query = EntityQueryEnumerator<NanoChatCartridgeComponent, CartridgeComponent>();
+        while (query.MoveNext(out var uid, out var comp, out var cartridge))
+        {
+            if (cartridge.LoaderUid is { } loader)
+                UpdateUI((uid, comp), loader);
+        }
+    }
+
+    /// <summary>
     ///     Gets the <see cref="NanoChatRecipient" /> for a given NanoChat number.
     /// </summary>
     private NanoChatRecipient? GetCardInfo(uint number)
@@ -578,8 +602,27 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
 
     private void UpdateUI(Entity<NanoChatCartridgeComponent> ent, EntityUid loader)
     {
+        List<NanoChatRecipient>? contacts;
         if (_station.GetOwningStation(loader) is { } station)
+        {
             ent.Comp.Station = station;
+
+            contacts = [];
+
+            var query = AllEntityQuery<NanoChatCardComponent, IdCardComponent>();
+            while (query.MoveNext(out var entityId, out var nanoChatCard, out var idCardComponent))
+            {
+                if (nanoChatCard.ListNumber && nanoChatCard.Number is uint nanoChatNumber && idCardComponent.FullName is string fullName && _station.GetOwningStation(entityId) == station)
+                {
+                    contacts.Add(new NanoChatRecipient(nanoChatNumber, fullName));
+                }
+            }
+            contacts.Sort((contactA, contactB) => string.CompareOrdinal(contactA.Name, contactB.Name));
+        }
+        else
+        {
+            contacts = null;
+        }
 
         var recipients = new Dictionary<uint, NanoChatRecipient>();
         var messages = new Dictionary<uint, List<NanoChatMessage>>();
@@ -587,6 +630,7 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
         uint ownNumber = 0;
         var maxRecipients = 50;
         var notificationsMuted = false;
+        var listNumber = false;
 
         if (ent.Comp.Card != null && TryComp<NanoChatCardComponent>(ent.Comp.Card, out var card))
         {
@@ -596,14 +640,17 @@ public sealed class NanoChatCartridgeSystem : EntitySystem
             ownNumber = card.Number ?? 0;
             maxRecipients = card.MaxRecipients;
             notificationsMuted = card.NotificationsMuted;
+            listNumber = card.ListNumber;
         }
 
         var state = new NanoChatUiState(recipients,
             messages,
+            contacts,
             currentChat,
             ownNumber,
             maxRecipients,
-            notificationsMuted);
+            notificationsMuted,
+            listNumber);
         _cartridge.UpdateCartridgeUiState(loader, state);
     }
 }

@@ -690,6 +690,20 @@ namespace Content.Client.Lobby.UI
             SpriteView.SetEntity(PreviewDummy);
         }
 
+        /// Reloads the dummy entity's clothes for preview
+        private void ReloadClothes()
+        {
+            if (Profile == null)
+                return;
+
+            _controller.RemoveDummyClothes(PreviewDummy);
+            var job = _controller.GetPreferredJob(Profile);
+            if (ShowClothes.Pressed)
+                _controller.GiveDummyJobClothes(PreviewDummy, job, Profile);
+            if (ShowLoadouts.Pressed)
+                _controller.GiveDummyLoadout(PreviewDummy, job, Profile);
+        }
+
         /// Resets the profile to the defaults
         public void ResetToDefault()
         {
@@ -1164,6 +1178,20 @@ namespace Content.Client.Lobby.UI
                     Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
                     break;
                 }
+                case HumanoidSkinColor.AnimalFur: // Einstein Engines - Tajaran
+                    {
+                        if (!RgbSkinColorContainer.Visible)
+                        {
+                            Skin.Visible = false;
+                            RgbSkinColorContainer.Visible = true;
+                        }
+
+                        var color = SkinColor.ClosestAnimalFurColor(_rgbSkinColorSelector.Color);
+
+                        Markings.CurrentSkinColor = color;
+                        Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
+                        break;
+                }
             }
 
             SetDirty();
@@ -1265,6 +1293,7 @@ namespace Content.Client.Lobby.UI
             UpdateSpeciesGuidebookIcon();
             IsDirty = true;
             ReloadProfilePreview();
+            ReloadClothes(); // Species may have job-specific gear, reload the clothes
         }
 
         private void SetName(string newName)
@@ -1429,6 +1458,18 @@ namespace Content.Client.Lobby.UI
 
                     break;
                 }
+                case HumanoidSkinColor.AnimalFur: // Einstein Engines - Tajaran
+                    {
+                        if (!RgbSkinColorContainer.Visible)
+                        {
+                            Skin.Visible = false;
+                            RgbSkinColorContainer.Visible = true;
+                        }
+
+                        _rgbSkinColorSelector.Color = SkinColor.ClosestAnimalFurColor(Profile.Appearance.SkinColor);
+
+                        break;
+                }
             }
         }
 
@@ -1482,7 +1523,10 @@ namespace Content.Client.Lobby.UI
             if (Profile == null)
                 return;
 
-            StationAINameEdit.Text = Profile.StationAiName ?? string.Empty;
+            var newName = Profile.StationAiName ?? string.Empty;
+
+            if (newName != StationAINameEdit.Text)
+                StationAINameEdit.Text = newName;
 
             if (StationAINameEdit.Text != string.Empty)
                 return;
@@ -1497,7 +1541,10 @@ namespace Content.Client.Lobby.UI
             if (Profile == null)
                 return;
 
-            CyborgNameEdit.Text = Profile.CyborgName ?? string.Empty;
+            var newName = Profile.CyborgName ?? string.Empty;
+            
+            if (newName != CyborgNameEdit.Text)
+                CyborgNameEdit.Text = newName;
 
             if (CyborgNameEdit.Text != string.Empty)
                 return;

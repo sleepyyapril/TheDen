@@ -92698,7 +92698,7 @@ entities:
     - type: Transform
       pos: 22.5,44.5
       parent: 2
-- proto: PlushieTrystan
+- proto: PlushieDignifiedVulp
   entities:
   - uid: 13534
     components:
