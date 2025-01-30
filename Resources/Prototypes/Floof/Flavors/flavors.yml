@@ -354,11 +354,6 @@
   description: flavor-base-strange
 
 - type: flavor
-  id: cherry
-  flavorType: Complex
-  description: flavor-complex-cherry
-
-- type: flavor
   id: walnut
   flavorType: Complex
   description: flavor-complex-walnut
