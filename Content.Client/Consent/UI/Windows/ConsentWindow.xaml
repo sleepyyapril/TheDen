@@ -41,7 +41,7 @@
                 </ScrollContainer>
             </BoxContainer>
             <BoxContainer Name="Permissions" Orientation="Vertical" HorizontalExpand="True" Margin="5">
-                <Label Text="{Loc consent-window-toggles-label}" />
+                <Label Text="{Loc consent-window-permissions-label}" />
                 <ScrollContainer HorizontalExpand="True" VerticalExpand="True" HScrollEnabled="False" VScrollEnabled="True" MinHeight="50">
                     <BoxContainer Name="PermissionsList" Access="Public" HorizontalExpand="True" SeparationOverride="2" Orientation="Vertical">
                         <!-- The rest here is generated programmatically -->

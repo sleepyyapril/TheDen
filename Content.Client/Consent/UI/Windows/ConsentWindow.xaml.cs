@@ -44,6 +44,8 @@ public sealed partial class ConsentWindow : FancyWindow
 
         ConsentFreetext.Placeholder = new Rope.Leaf(Loc.GetString("consent-window-freetext-placeholder"));
         ConsentFreetext.OnTextChanged += _ => UnsavedChanges();
+
+        PopulatePermissions();
     }
 
     protected override void Dispose(bool disposing)
@@ -91,7 +93,6 @@ public sealed partial class ConsentWindow : FancyWindow
     private void AddConsentEntry(ConsentTogglePrototype prototype)
     {
         var state = new EntryState { Consent = prototype };
-
         var container = new BoxContainer { Orientation = BoxContainer.LayoutOrientation.Vertical };
 
         var header = new BoxContainer
@@ -153,10 +154,6 @@ public sealed partial class ConsentWindow : FancyWindow
 
     private void PopulatePermissions()
     {
-        if (_consentPermissions is null)
-            return;
-
-
         var permissions = new List<ConsentOption>();
 
         foreach (var proto in _protoManager.EnumeratePrototypes<ConsentTogglePrototype>())
@@ -168,7 +165,8 @@ public sealed partial class ConsentWindow : FancyWindow
             permissions.Add(option);
         }
 
-        BuildFakeUserInfo(permissions);
+        var control = BuildFakeUserInfo(permissions);
+        Permissions.AddChild(control);
 
         // foreach (var permissions in _consentPermissions.Value.SpecifiedConsents)
         // {
@@ -176,7 +174,7 @@ public sealed partial class ConsentWindow : FancyWindow
         // }
     }
 
-    private void BuildFakeUserInfo(List<ConsentOption> permissions)
+    private Control BuildFakeUserInfo(List<ConsentOption> permissions)
     {
         var collapsible = new Collapsible();
         var header = new CollapsibleHeading();
@@ -192,18 +190,25 @@ public sealed partial class ConsentWindow : FancyWindow
         collapsible.BodyVisible = false;
         collapsible.AddChild(header);
         collapsible.AddChild(body);
+
+        return collapsible;
     }
 
     private Control FakeGetUserConsents(List<ConsentOption> consents)
     {
-        var container = new BoxContainer { Orientation = BoxContainer.LayoutOrientation.Horizontal, VerticalExpand = true };
+        var container = new BoxContainer
+        {
+            Orientation = BoxContainer.LayoutOrientation.Horizontal,
+            VerticalExpand = true,
+            MinSize = new(0, 20)
+        };
 
         foreach (var consentOption in consents)
         {
             var consentContainer = new BoxContainer
             {
                 Orientation = BoxContainer.LayoutOrientation.Horizontal,
-                VerticalExpand = true,
+                HorizontalExpand = true,
                 MinSize = new(0, 20)
             };
 
@@ -321,7 +326,6 @@ public sealed partial class ConsentWindow : FancyWindow
             AddConsentEntry(prototype);
 
         _consentPermissions = consent.Permissions;
-        PopulatePermissions();
 
         SaveConsentSettings.Disabled = true;
         SaveLabel.Text = "";
