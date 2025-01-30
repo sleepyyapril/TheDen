@@ -1085,7 +1085,7 @@
 
 - type: entity
   parent: PlushieVulp
-  id: PlushieTrystan
+  id: PlushieDignifiedVulp
   name: office vulp plushie
   description: The ones who yeeps!
   components:
