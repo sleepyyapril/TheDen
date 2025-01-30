@@ -61865,7 +61865,7 @@ entities:
     - type: Transform
       pos: -31.43523,11.323455
       parent: 2
-- proto: PlushieTrystan
+- proto: PlushieDignifiedVulp
   entities:
   - uid: 9274
     components:
