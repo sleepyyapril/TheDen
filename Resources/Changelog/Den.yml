@@ -1695,3 +1695,12 @@ Entries:
   id: 136
   time: '2025-01-28T10:51:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/210
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked nicotine addictions to degrade into a weaker mood debuff with
+        time spent not smoking. May your recovery be full of progress.
+  id: 137
+  time: '2025-01-31T06:32:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/213
