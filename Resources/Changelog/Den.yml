@@ -1704,3 +1704,20 @@ Entries:
   id: 137
   time: '2025-01-31T06:32:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/213
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: >-
+        Added firelocks to baikal station (no more depressurizing the entire
+        station and popping everyone's heads
+    - type: Add
+      message: Added a few more fun rooms for people to find and explore!
+    - type: Add
+      message: Added some general fluff around the station! (trash mostly LOL)
+    - type: Tweak
+      message: >-
+        Tweaked epi's arti chambers, naming the buttons, and adding a way to
+        suck out gasses! (gotta rescue the CO2 can from the xeno lab now :3)
+  id: 138
+  time: '2025-01-31T09:54:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/214
