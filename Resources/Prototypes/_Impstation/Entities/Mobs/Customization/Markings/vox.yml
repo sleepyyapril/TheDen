@@ -319,6 +319,7 @@
   bodyPart: Underwear
   markingCategory: Underwear
   speciesRestriction: [ Vox ]
+  followSkinColor: false
   coloring:
     default:
       type:
@@ -335,6 +336,7 @@
   bodyPart: Underwear
   markingCategory: Underwear
   speciesRestriction: [ Vox ]
+  followSkinColor: false
   coloring:
     default:
       type:
@@ -349,6 +351,7 @@
   bodyPart: Underwear
   markingCategory: Underwear
   speciesRestriction: [ Vox ]
+  followSkinColor: false
   coloring:
     default:
       type:
@@ -367,6 +370,7 @@
   bodyPart: Underwear
   markingCategory: Underwear
   speciesRestriction: [ Vox ]
+  followSkinColor: false
   coloring:
     default:
       type:

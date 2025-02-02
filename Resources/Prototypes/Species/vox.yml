@@ -10,6 +10,10 @@
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
+## hey this is carousel
+## in service of vox being somewhat in line with impstation species design standards
+## i have rearranged the furniture in here quite severely
+
 - type: species
   id: Vox
   name: species-name-vox
@@ -61,8 +65,11 @@
       points: 1
       required: false
     Head:
-      points: 1
-      required: true
+      points: 2
+      required: false #imp
+    HeadSide: #imp
+      points: 2
+      required: false
     Snout:
       points: 1
       required: true
@@ -113,8 +120,8 @@
       required: false
     Tail:
       points: 1
-      required: true
-      defaultMarkings: [ VoxTail ]
+      required: false #imp
+      #defaultMarkings: [ VoxTail ]
 
 - type: humanoidBaseSprite
   id: MobVoxEyes
