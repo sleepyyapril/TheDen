@@ -1741,3 +1741,12 @@ Entries:
   id: 140
   time: '2025-02-01T20:11:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/218
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked tool belts to take more tools and mantis belts to be able to fit
+        certain epistemics tools.
+  id: 141
+  time: '2025-02-02T13:38:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/220
