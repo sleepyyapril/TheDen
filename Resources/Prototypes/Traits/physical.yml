@@ -511,8 +511,6 @@
           traits:
             - NaturalWeaponRemoval
             - MartialArtist
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitModifyUnarmed
       flatDamageIncrease:
@@ -535,8 +533,6 @@
         - Arachne
         - Shadowkin
         - IPC
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -556,8 +552,6 @@
       jobs:
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
         - Gladiator
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -583,8 +577,6 @@
       inverted: true
       species:
         - IPC
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions: # TODO: Code Platelet factories as an actual obtainable implant, and replace this with TraitAddImplant
     - !type:TraitReplaceComponent
       components:
@@ -610,8 +602,6 @@
       inverted: true
       jobs:
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddArmor
       damageModifierSets:
@@ -637,8 +627,6 @@
         - Photophobia
         - Blindness
         - Nearsighted
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitPushDescription
       descriptionExtensions:
@@ -662,8 +650,6 @@
     - !type:CharacterTraitRequirement
       traits:
         - CyberEyes
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -690,8 +676,6 @@
       inverted: true
       traits:
         - CyberEyesOmni
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -716,8 +700,6 @@
       traits:
         - CyberEyesDiagnostic
         - CyberEyesOmni
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -745,8 +727,6 @@
       traits:
         - CyberEyesMedical
         - CyberEyesOmni
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -776,8 +756,6 @@
         - CyberEyesMedical
         - CyberEyesDiagnostic
         - CyberEyesSecurity
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -853,8 +831,6 @@
     - !type:CharacterTraitRequirement
       traits:
         - CyberEyes
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -872,8 +848,6 @@
     - !type:CharacterTraitRequirement
       traits:
         - CyberEyes
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
