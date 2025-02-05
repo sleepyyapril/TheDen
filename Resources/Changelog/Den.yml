@@ -1847,3 +1847,12 @@ Entries:
   id: 144
   time: '2025-02-05T12:23:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/225
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added the Human Hybrid species, a human that accepts an RGB skintone!
+    - type: Add
+      message: Adds the Goblin accent, a watered-down Irish.
+  id: 145
+  time: '2025-02-05T17:13:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/227
