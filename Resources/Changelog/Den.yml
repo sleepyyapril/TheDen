@@ -1766,3 +1766,84 @@ Entries:
   id: 143
   time: '2025-02-04T05:43:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/224
+- author: Several Contributors
+  changes:
+    - type: Add
+      message: Added Lone Digger by Caravan Palace to the jukebox! (by MilonPL)
+    - type: Add
+      message: Added Deck The Halls by Kevin Macleod to the jukebox! (by
+    - type: Tweak
+      message: Now medical belts have a slot for medkits. (by Radezolid)
+    - type: Add
+      message: Added a way for muskets, flintlocks, and musket cartridges (NOT
+    - type: Add
+      message: Added Vulpkanin-specific sprites to a lot of helmets and masks.
+    - type: Add
+      message: Security dogs (such as Laika) now have Vulpkanin vocal emotes.
+    - type: Add
+      message: Split the Emag into the Cryptographic Sequencer and the Airlock
+    - type: Add
+      message: Added Corpsman Glasses, no more getting flashed as Corpsman! Also
+    - type: Add
+      message: Harpies can now mimic harps! (by TheOneWhoIsManyFrame)
+    - type: Tweak
+      message: Cats will now play with mouse toys. (by Deltanedas)
+    - type: Add
+      message: Added a black turtleneck, available in Loadouts! (by Aikakakah)
+    - type: Add
+      message: Added the Binary Translator Key to the uplink costing 1 TC and
+    - type: Add
+      message: Spesos now have a new pretty look transferred from the Frontier
+    - type: Add
+      message: The home-run bat has been re-added to the traitor uplink.
+    - type: Add
+      message: Added the CrystalThistle, mutated from the Galaxythistle that
+    - type: Add
+      message: Added a Ghost Pepper! A friendly looking Pepper that's so Spicy,
+    - type: Add
+      message: Added a Cosmic Revenant! A spooky mutation of the Ghost pepper
+    - type: Add
+      message: Added blue and purple tomato soup, made using Blue Tomatoes. (by
+    - type: Add
+      message: 'Added new drinks: the double ice cream (by dge21) and Dr. Gibb'
+    - type: Add
+      message: Some drink reactions now require shaking with the shaker or
+    - type: Add
+      message: Added "Selene" wing customization option for moths (by
+    - type: Add
+      message: Added the tiger tail sprite for Felinids, Humans and Tajarans.
+    - type: Add
+      message: NanoTrasen has established business relations with HydroCo! You
+    - type: Tweak
+      message: Bar and kitchen shelves no longer restrict the items that can
+    - type: Tweak
+      message: Bookshelves can now fit any kind of item, not just books. (by
+    - type: Add
+      message: New magic crayons have appeared in the sector, artists rejoice!
+    - type: Add
+      message: Added more Blueshield Officer clothing options (by ShirouAjisai)
+    - type: Fix
+      message: Plasmamen will no longer be slowed down near-permanently after
+    - type: Tweak
+      message: Slightly lowered the temperature threshold in which Plasmamen
+    - type: Add
+      message: Clothing now supports having multiple species-specific layers,
+    - type: Add
+      message: New "Unpainted" engineering hardsuit, and "Unpainted" Shanlin
+    - type: Add
+      message: 'Unpainted variant of the "Shiwei" tacsuit(AKA: Elite suit). This'
+    - type: Fix
+      message: Fixed an issue where Glimmer can reach infinite values under
+    - type: Add
+      message: >-
+        Hardsuits now have sounds made when the wearer moves! (by TCJ and
+        MajorMoth)
+    - type: Fix
+      message: Fixed several bugs with EmitSoundOnMove. It no longer plays the
+    - type: Add
+      message: Hardsuits and Tacsuits are now separated into Light, Medium, and
+    - type: Fix
+      message: Fixed holopads being unable to be right clicked on.
+  id: 144
+  time: '2025-02-05T12:23:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/225
