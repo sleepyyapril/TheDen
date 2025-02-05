@@ -55,7 +55,7 @@
   completetime: 120
   materials:
      Plasteel: 5000
-     WebSilk: 3000
+     Durathread: 3000
      ReinforcedGlass: 1500
      Plastic: 1000
      Uranium: 400
@@ -69,7 +69,7 @@
   completetime: 180
   materials:
      Plasteel: 8000
-     WebSilk: 3000
+     Durathread: 3000
      ReinforcedGlass: 1500
      Plastic: 1500
      Uranium: 800
@@ -83,7 +83,7 @@
   completetime: 120
   materials:
      Plasteel: 10000
-     WebSilk: 3000
+     Durathread: 3000
      ReinforcedPlasmaGlass: 1500
      Plastic: 1500
      Uranium: 1000
@@ -99,7 +99,7 @@
   materials: # GOOD LUCK.
      Plasteel: 30000
      ReinforcedPlasmaGlass: 4500
-     WebSilk: 3500
+     Durathread: 3500
      Plastic: 3000
      Uranium: 1500
      Gold: 1500
