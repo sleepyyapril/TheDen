@@ -1856,3 +1856,12 @@ Entries:
   id: 145
   time: '2025-02-05T17:13:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/227
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a black rubber gas mask that completely hides your features, for
+        some spicier scenes.
+  id: 146
+  time: '2025-02-06T06:33:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/228
