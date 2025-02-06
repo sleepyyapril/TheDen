@@ -19,15 +19,11 @@ public abstract partial class SwitchableOverlayComponent : BaseOverlayComponent
     [DataField]
     public bool IsEquipment;
 
-
     [DataField]
-    public float PulseTime = 0;
+    public float PulseTime;
 
     [ViewVariables(VVAccess.ReadOnly)]
-    public TimeSpan PulseAccumulator = TimeSpan.Zero;
-
-    [ViewVariables(VVAccess.ReadOnly)]
-    public TimeSpan PulseEndTime = TimeSpan.Zero;
+    public float PulseAccumulator;
 
     [DataField]
     public virtual SoundSpecifier? ActivateSound { get; set; } =

@@ -216,6 +216,7 @@
     - RootSpeakTranslator
     - BasicGalaticCommonTranslatorImplanter
     - MofficTranslator
+    - N14MaterialCircuitry
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - BoxLethalshot
@@ -297,6 +298,7 @@
     - LargeBeaker
     - Dropper
     - ClothingEyesGlassesChemical
+    - N14MaterialCircuitry
     dynamicRecipes:
     - PowerDrill
     - MiningDrill
@@ -498,6 +500,7 @@
     - ReagentGrinderIndustrialMachineCircuitboard
     - StasisBedMachineCircuitboard
     - CryoPodMachineCircuitboard
+    - N14MaterialCircuitry
     dynamicRecipes:
     - ThermomachineFreezerMachineCircuitBoard
     - HellfireFreezerMachineCircuitBoard
@@ -953,6 +956,7 @@
       - TelescopicShield
       - HoloprojectorSecurity
       - BolaEnergy
+      - ClothingHeadHelmetBasic
     dynamicRecipes:
       - Truncheon
       - BoxBeanbag
@@ -1077,6 +1081,9 @@
       - WeaponMechCombatDisabler
       - WeaponMechCombatFlashbangLauncher
       - WeaponMechCombatMissileRack8
+      - EnergySword
+      - EnergySwordDouble
+      - EnergyCutlass
   - type: MaterialStorage
     whitelist:
       tags:
@@ -1774,6 +1781,10 @@
     - IngotGold1
     - IngotSilver1
     - MaterialBananium1
+    - N14IngotLead1
+    - N14IngotCopper1
+    - N14IngotAluminium1
+    - IngotTungsten1
   - type: MaterialStorageMagnetPickup # Delta V - Summary: Adds magnet pull from Frontier
     magnetEnabled: True
     range: 0.30 # Delta V - End Magnet Pull
