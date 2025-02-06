@@ -54,10 +54,10 @@ public abstract class SwitchableOverlaySystem<TComp, TEvent> : EntitySystem
                 continue;
 
             // The accumulator is for visually rendering the pulse strength decaying.
-            comp.PulseAccumulator += comp.PulseEndTime - _timing.CurTime;
+            comp.PulseAccumulator += frameTime;
 
             // This line is for the actual check that shuts off the pulse when its time is up.
-            if (_timing.CurTime < comp.PulseEndTime)
+            if (comp.PulseAccumulator < comp.PulseTime)
                 continue;
 
             Toggle(uid, comp, false, false);
