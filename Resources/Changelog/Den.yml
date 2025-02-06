@@ -1865,3 +1865,22 @@ Entries:
   id: 146
   time: '2025-02-06T06:33:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/228
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Chloral hydrate now sleeps people beyond 25u.
+    - type: Tweak
+      message: >-
+        Made chloral hydrate last much longer to function as an alternate
+        nitrous oxide.
+    - type: Tweak
+      message: >-
+        Made the recipe for chloral hydrate produce 3 instead of 1, making it a
+        lot more viable for surgery.
+    - type: Tweak
+      message: >-
+        Hypopen's use delay was changed from 0.5s to 1s to encourage more RP
+        meaningful methods of completing objectives.
+  id: 147
+  time: '2025-02-06T18:23:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/229
