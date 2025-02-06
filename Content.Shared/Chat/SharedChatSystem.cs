@@ -106,7 +106,7 @@ public abstract class SharedChatSystem : EntitySystem
         if (input.Length <= 2)
             return;
 
-        if (!(input.StartsWith(RadioChannelPrefix) || input.StartsWith(RadioChannelAltPrefix)))
+        if (!(input.StartsWith(RadioChannelPrefix)))
             return;
 
         if (!_keyCodes.TryGetValue(input[1], out _))
