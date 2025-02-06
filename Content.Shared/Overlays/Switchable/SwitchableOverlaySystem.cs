@@ -50,7 +50,7 @@ public abstract class SwitchableOverlaySystem<TComp, TEvent> : EntitySystem
 
         while (query.MoveNext(out var uid, out var comp))
         {
-            if (comp.PulseTime <= 0)
+            if (comp.PulseTime <= 0f || comp.PulseAccumulator >= comp.PulseTime)
                 continue;
 
             // The accumulator is for visually rendering the pulse strength decaying.
@@ -103,8 +103,6 @@ public abstract class SwitchableOverlaySystem<TComp, TEvent> : EntitySystem
             return;
 
         component.IsActive = state.IsActive;
-        if (component.PulseTime != 0)
-            component.PulseEndTime = _timing.CurTime + TimeSpan.FromSeconds(component.PulseTime);
 
         RaiseSwitchableOverlayToggledEvent(uid,
             component.IsEquipment ? Transform(uid).ParentUid : uid,
@@ -127,7 +125,7 @@ public abstract class SwitchableOverlaySystem<TComp, TEvent> : EntitySystem
 
     private void OnInit(EntityUid uid, TComp component, ComponentInit args)
     {
-        component.PulseAccumulator = TimeSpan.FromSeconds(component.PulseTime);
+        component.PulseAccumulator = component.PulseTime;
     }
 
     private void OnMapInit(EntityUid uid, TComp component, MapInitEvent args)
@@ -153,9 +151,9 @@ public abstract class SwitchableOverlaySystem<TComp, TEvent> : EntitySystem
                 false);
         }
 
-        if (component.PulseTime > 0)
+        if (component.PulseTime > 0f)
         {
-            component.PulseAccumulator = activate ? TimeSpan.Zero : TimeSpan.FromSeconds(component.PulseTime);
+            component.PulseAccumulator = activate ? 0f : component.PulseTime;
             return;
         }
 
