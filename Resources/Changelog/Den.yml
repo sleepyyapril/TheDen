@@ -1899,3 +1899,15 @@ Entries:
   id: 148
   time: '2025-02-06T19:54:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/230
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: >-
+        From the fires of hell and the depths of Tartarus itself, an old foe
+        bares its fangs once more. A light once thought to be the saving grace
+        of a people, until now having seen nothing but dust upon its frame.
+        Introducing... the Nanotrasen Block Game and Space Villain Arcade games,
+        fixed once more.
+  id: 149
+  time: '2025-02-06T20:43:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/231
