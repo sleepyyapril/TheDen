@@ -20,6 +20,11 @@
   chatTriggers:
   - spin
   - spins
+  - chases tail
+  - chases their tail
+  - chases her tail
+  - chases his tail
+  - chases its tail
   event: !type:AnimationSpinEmoteEvent
 
 - type: emote
