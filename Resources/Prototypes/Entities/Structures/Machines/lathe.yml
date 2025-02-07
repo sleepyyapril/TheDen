@@ -1226,19 +1226,11 @@
   - type: Lathe
     idleState: icon
     runningState: building
-    staticRecipes:
-    - MonkeyCube
-    - KoboldCube
-    - CowCube
-    - GoatCube
-    - MothroachCube
-    - MouseCube
-    - CockroachCube
+    staticPacks:
+    - FriendlyCubesStatic
   - type: EmagLatheRecipes
-    emagStaticRecipes:
-    - AbominationCube
-    - SpaceCarpCube
-    - SpaceTickCube
+    emagStaticPacks:
+    - HostileCubesStatic
 
 - type: entity
   id: SecurityTechFab
@@ -2340,28 +2332,9 @@
     reagentOutputSlotId: beaker_slot
     idleState: icon
     runningState: building
-    staticRecipes:
-    - BioGenMilk
-    - BioGenMilkSoy
-    - BioGenEthanol
-    - BioGenCream
-    - BioGenBlackpepper
-    - BioGenEnzyme
-    - BioGenFlour
-    - BioGenSugar
-    - BioGenMonkeyCube
-    - BioGenKoboldCube
-    - BioGenMaterialCloth1
-    - BioGenMaterialCardboard1
-    - BioGenPaper
-    - BioGenPaperRolling1
-    - BioGenCandle
-    - BioGenPlantBGone
-    - BioGenWeedKiller
-    - BioGenPestKiller
-    - BioGenLeft4Zed
-    - BioGenEZNutrient
-    - BioGenRobustHarvest
+    staticPacks:
+    - BioGenIngredientsStatic
+    - BioGenMaterialsStatic
 
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
@@ -2463,9 +2436,8 @@
   - type: Lathe
     idleState: base_machine
     runningState: base_machine_processing
-    staticRecipes:
-    - MaterialSheetMeat
-    - SheetPaper
+    staticPacks:
+    - SheetifierStatic
 
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]

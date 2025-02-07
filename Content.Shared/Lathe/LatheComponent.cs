@@ -11,6 +11,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using Content.Shared.Construction.Prototypes;
+using Content.Shared.Lathe.Prototypes;
 using Content.Shared.Research.Prototypes;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
@@ -22,16 +23,16 @@ namespace Content.Shared.Lathe
     public sealed partial class LatheComponent : Component
     {
         /// <summary>
-        /// All of the recipes that the lathe has by default
+        /// All of the recipe packs that the lathe has by default
         /// </summary>
         [DataField]
-        public List<ProtoId<LatheRecipePrototype>> StaticRecipes = new();
+        public List<ProtoId<LatheRecipePackPrototype>> StaticPacks = new();
 
         /// <summary>
-        /// All of the recipes that the lathe is capable of researching
+        /// All of the recipe packs that the lathe is capable of researching
         /// </summary>
         [DataField]
-        public List<ProtoId<LatheRecipePrototype>> DynamicRecipes = new();
+        public List<ProtoId<LatheRecipePackPrototype>> DynamicPacks = new();
 
         /// <summary>
         /// The lathe's construction queue
