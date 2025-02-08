@@ -1911,3 +1911,16 @@ Entries:
   id: 149
   time: '2025-02-06T20:43:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/231
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Northway Map rotation pool.
+    - type: Tweak
+      message: Northway For EE.
+    - type: Remove
+      message: >-
+        The pirates plundered her FTL drive, and Northway's wings may be
+        clipped, but she is still flyable.
+  id: 150
+  time: '2025-02-08T13:12:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/234
