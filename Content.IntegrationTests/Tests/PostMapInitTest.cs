@@ -71,6 +71,7 @@ namespace Content.IntegrationTests.Tests
             "Meta",
             "Box",
             "Baikal",
+            "Lambda",
             "Bagel",
             "Northway"
         };
