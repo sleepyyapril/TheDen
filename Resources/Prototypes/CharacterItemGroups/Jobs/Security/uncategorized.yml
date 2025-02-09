@@ -66,6 +66,10 @@
       id: LoadoutSpeedLoaderRifleHeavyRubber
     - type: loadout
       id: LoadoutSpeedLoaderRifleHeavyRubberSpare
+    - type: loadout
+      id: LoadoutMagazineMagnumMagnumLeverRifle
+    - type: loadout
+      id: LoadoutMagazineMagnumMagnumLeverRifleSpare
 
 - type: characterItemGroup
   maxItems: 1
