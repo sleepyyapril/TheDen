@@ -1947,3 +1947,12 @@ Entries:
   id: 153
   time: '2025-02-09T04:13:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/238
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added a toggle for the mood visual effects, for the ones with sensitive
+        eyes.
+  id: 154
+  time: '2025-02-09T04:58:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/239
