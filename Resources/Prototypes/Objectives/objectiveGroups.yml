@@ -33,7 +33,7 @@
   weights:
     KillRandomPersonObjective: 1
     TeachLessonRandomPersonObjective: 0.25
-    KillRandomHeadObjective: 0.25
+#    KillRandomHeadObjective: 0.25
 
 - type: weightedRandom
   id: TraitorObjectiveGroupState
