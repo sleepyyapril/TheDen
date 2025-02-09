@@ -1940,3 +1940,10 @@ Entries:
   id: 152
   time: '2025-02-09T04:11:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/237
+- author: KyuPolaris
+  changes:
+    - type: Fix
+      message: Latent Psionic no longer effected by machine over mind
+  id: 153
+  time: '2025-02-09T04:13:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/238
