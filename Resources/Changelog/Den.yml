@@ -1956,3 +1956,16 @@ Entries:
   id: 154
   time: '2025-02-09T04:58:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/239
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked handheld drills to take less stamina on wideswing, Exosuit
+        Drills are faster now as well.
+    - type: Fix
+      message: Fixed Shadowkins being unable to take powers on traits.
+    - type: Remove
+      message: Removed the Research Digiboard due to being non-functional.
+  id: 155
+  time: '2025-02-09T14:57:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/240
