@@ -343,6 +343,7 @@
     - VoiceTrigger
     - Igniter
     - HandHeldMassScanner
+    - PowerCellMicrortg
     - PowerCellMicroreactor
     - PowerCellHigh
     - WeaponPistolCHIMP
