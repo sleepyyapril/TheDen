@@ -1931,3 +1931,12 @@ Entries:
   id: 151
   time: '2025-02-09T02:09:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/236
+- author: Fox
+  changes:
+    - type: Add
+      message: Added CJ And Clerk To Pebble
+    - type: Tweak
+      message: Made adjustments and tweaks to pebble
+  id: 152
+  time: '2025-02-09T04:11:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/237
