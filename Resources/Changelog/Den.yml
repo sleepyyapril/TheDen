@@ -1995,3 +1995,13 @@ Entries:
   id: 157
   time: '2025-02-10T18:38:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/242
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Consent toggle added for Mind Swap. While this does mean you can no
+        longer use it for antag purposes, no one did that anyway and it's a
+        trait now.
+  id: 158
+  time: '2025-02-10T19:26:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/243
