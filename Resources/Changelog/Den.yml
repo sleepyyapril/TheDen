@@ -1981,17 +1981,17 @@ Entries:
     - type: Add
       message: >-
         Holofans now make noise! They also start to let off a modulated warning
-        signal 15 seconds before they run out. ⏰ 
+        signal 15 seconds before they run out.
     - type: Add
       message: >-
         Existing gloves, masks and neckwear added to the corpsman loadout. No
-        more drip trips to med/chem! 😷 
+        more drip trips to med/chem!
     - type: Add
       message: >-
         Mind swap ability added to psi traits, costing 6 points. Be careful when
-        more than two people are involved. 🧠 
+        more than two people are involved.
     - type: Tweak
-      message: 'Xenoglossy cost lowered. [10 -> 7] Go yap to some scugs! 👽 '
+      message: 'Xenoglossy cost lowered. Go yap to some scugs!'
   id: 157
   time: '2025-02-10T18:38:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/242
@@ -2000,7 +2000,7 @@ Entries:
     - type: Add
       message: >-
         Consent toggle added for Mind Swap. While this does mean you can no
-        longer use it for antag purposes, no one did that anyway and it's a
+        longer use it for antag purposes, no one did that anyway and it is a
         trait now.
   id: 158
   time: '2025-02-10T19:26:10.0000000+00:00'
