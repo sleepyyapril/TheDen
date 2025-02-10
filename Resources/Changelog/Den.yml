@@ -1969,3 +1969,10 @@ Entries:
   id: 155
   time: '2025-02-09T14:57:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/240
+- author: Fox
+  changes:
+    - type: Tweak
+      message: Shoko has been adjusted slightly. Hope you like more dorms!
+  id: 156
+  time: '2025-02-10T00:02:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/241
