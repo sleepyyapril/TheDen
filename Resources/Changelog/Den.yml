@@ -2014,3 +2014,10 @@ Entries:
   id: 159
   time: '2025-02-11T08:16:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/244
+- author: therealDLondon
+  changes:
+    - type: Add
+      message: Ports the DeltaV version of Asterisk, its back in space bitches!
+  id: 160
+  time: '2025-02-11T09:43:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/245
