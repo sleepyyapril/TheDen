@@ -64,7 +64,8 @@ public sealed class FollowerSystem : EntitySystem
 
         SubscribeLocalEvent<FollowerComponent, GotEquippedHandEvent>(OnGotEquippedHand);
         SubscribeLocalEvent<FollowedComponent, EntityTerminatingEvent>(OnFollowedTerminating);
-        SubscribeLocalEvent<BeforeSerializationEvent>(OnBeforeSave);
+        SubscribeLocalEvent<FollowedComponent, PolymorphedEvent>(OnFollowedPolymorphed);
+        SubscribeLocalEvent<BeforeSaveEvent>(OnBeforeSave);
     }
 
     private void OnFollowedAttempt(Entity<FollowedComponent> ent, ref ComponentGetStateAttemptEvent args)
