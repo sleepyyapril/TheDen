@@ -2021,3 +2021,14 @@ Entries:
   id: 160
   time: '2025-02-11T09:43:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/245
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a latex catsuit (and a shiny variant) into the uniform loadouts
+        selection. Make a fashion statement!
+    - type: Tweak
+      message: Mindswap trait cost lowered from 6 points to 3.
+  id: 161
+  time: '2025-02-11T15:50:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/248
