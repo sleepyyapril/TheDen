@@ -1991,7 +1991,7 @@ Entries:
         Mind swap ability added to psi traits, costing 6 points. Be careful when
         more than two people are involved.
     - type: Tweak
-      message: 'Xenoglossy cost lowered. Go yap to some scugs!'
+      message: Xenoglossy cost lowered. Go yap to some scugs!
   id: 157
   time: '2025-02-10T18:38:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/242
@@ -2005,3 +2005,12 @@ Entries:
   id: 158
   time: '2025-02-10T19:26:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/243
+- author: Fox
+  changes:
+    - type: Tweak
+      message: Silly girl forgot shoko's Mat Silo, its there now
+    - type: Tweak
+      message: Shoko's arrivals shuttle should now dock properly
+  id: 159
+  time: '2025-02-11T08:16:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/244
