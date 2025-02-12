@@ -2061,3 +2061,10 @@ Entries:
   id: 164
   time: '2025-02-12T18:38:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/251
+- author: Forzii
+  changes:
+    - type: Tweak
+      message: Logistics can now buy plushie crates
+  id: 165
+  time: '2025-02-12T18:38:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/252
