@@ -61,8 +61,6 @@ public sealed class WaggingSystem : EntitySystem
             || actionData.Toggled != wagging.Wagging)
             return false;
 
-        Log.Info($"{wagging.Wagging}");
-
         wagging.Wagging = !wagging.Wagging;
         _actions.SetToggled(wagging.ActionEntity, wagging.Wagging);
 
