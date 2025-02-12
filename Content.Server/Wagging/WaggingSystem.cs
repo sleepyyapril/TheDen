@@ -54,13 +54,9 @@ public sealed class WaggingSystem : EntitySystem
 
     public bool TryToggleWagging(EntityUid uid, WaggingComponent? wagging = null, HumanoidAppearanceComponent? humanoid = null)
     {
-        if (!Resolve(uid, ref wagging, ref humanoid))
-            return false;
-
-        if (!humanoid.MarkingSet.Markings.TryGetValue(MarkingCategories.Tail, out var markings))
-            return false;
-
-        if (markings.Count == 0)
+        if (!Resolve(uid, ref wagging, ref humanoid)
+            || !humanoid.MarkingSet.Markings.TryGetValue(MarkingCategories.Tail, out var markings)
+            || markings.Count == 0)
             return false;
 
         wagging.Wagging = !wagging.Wagging;
@@ -68,6 +64,8 @@ public sealed class WaggingSystem : EntitySystem
         if (_actions.TryGetActionData(wagging.ActionEntity, out var actionData)
             && actionData.Enabled != wagging.Wagging)
             _actions.SetToggled(wagging.ActionEntity, wagging.Wagging);
+        else
+            return false;
 
         for (var idx = 0; idx < markings.Count; idx++) // Animate all possible tails
         {
