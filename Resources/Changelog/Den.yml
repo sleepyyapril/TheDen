@@ -2048,3 +2048,16 @@ Entries:
   id: 163
   time: '2025-02-12T16:24:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/253
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Lobby tracks "The Station," "Get It Done," and "Unknown Theory," by
+        A-Guy have been added.
+    - type: Add
+      message: >-
+        Nanotrasen has partnered with a couple extra brands to provide you with
+        more cigarette varieties! Happy smoking! (by KittenColony)
+  id: 164
+  time: '2025-02-12T18:38:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/251
