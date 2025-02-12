@@ -65,7 +65,9 @@ public sealed class WaggingSystem : EntitySystem
 
         wagging.Wagging = !wagging.Wagging;
 
-        _actions.SetToggled(wagging.ActionEntity, wagging.Wagging);
+        if (_actions.TryGetActionData(wagging.ActionEntity, out var actionData)
+            && actionData.Enabled != wagging.Wagging)
+            _actions.SetToggled(wagging.ActionEntity, wagging.Wagging);
 
         for (var idx = 0; idx < markings.Count; idx++) // Animate all possible tails
         {
