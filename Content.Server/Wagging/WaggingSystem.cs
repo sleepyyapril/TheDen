@@ -56,16 +56,15 @@ public sealed class WaggingSystem : EntitySystem
     {
         if (!Resolve(uid, ref wagging, ref humanoid)
             || !humanoid.MarkingSet.Markings.TryGetValue(MarkingCategories.Tail, out var markings)
-            || markings.Count == 0)
+            || markings.Count == 0
+            || !_actions.TryGetActionData(wagging.ActionEntity, out var actionData)
+            || actionData.Toggled != wagging.Wagging)
             return false;
+
+        Log.Info($"{wagging.Wagging}");
 
         wagging.Wagging = !wagging.Wagging;
-
-        if (_actions.TryGetActionData(wagging.ActionEntity, out var actionData)
-            && actionData.Enabled != wagging.Wagging)
-            _actions.SetToggled(wagging.ActionEntity, wagging.Wagging);
-        else
-            return false;
+        _actions.SetToggled(wagging.ActionEntity, wagging.Wagging);
 
         for (var idx = 0; idx < markings.Count; idx++) // Animate all possible tails
         {
