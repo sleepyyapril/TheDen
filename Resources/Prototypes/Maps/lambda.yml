@@ -3,7 +3,6 @@
   mapName: 'Lambda'
   mapPath: /Maps/lambda.yml
   minPlayers: 30
-  fallback: true
   stations:
     Lambda:
       stationProto: StandardNanotrasenStation

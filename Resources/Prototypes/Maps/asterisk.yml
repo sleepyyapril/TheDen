@@ -4,6 +4,7 @@
   mapPath: /Maps/TheDen/asterisk.yml
   minPlayers: 0
   maxPlayers: 60
+  fallback: true
   stations:
     Asterisk:
       stationProto: StandardNanotrasenStation

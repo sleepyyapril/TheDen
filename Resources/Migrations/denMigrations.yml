@@ -16,3 +16,4 @@ RifleSafeSpawner: null
 ShotgunSafeSpawner: null
 SpawnMobSecLaikaOrShiva: null
 SuitStorageSecDeltaV: null
+SpawnPointCourier: SpawnPointMailCarrier
