@@ -2068,3 +2068,12 @@ Entries:
   id: 165
   time: '2025-02-12T18:38:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/252
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added underwear markings for Most of the species. Comfy underwear for
+        everyone!
+  id: 166
+  time: '2025-02-13T07:31:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/256
