@@ -2077,3 +2077,12 @@ Entries:
   id: 166
   time: '2025-02-13T07:31:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/256
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Many things such as weapons, windows and food now have new interactions,
+        expect a lot of saliva on various objects from now on...
+  id: 167
+  time: '2025-02-13T07:31:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/255
