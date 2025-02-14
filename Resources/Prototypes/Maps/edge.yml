@@ -1,7 +1,7 @@
 - type: gameMap
   id: Edge
   mapName: 'Edge'
-  mapPath: /Maps/edge.yml
+  mapPath: /Maps/TheDen/edge.yml
   minPlayers: 5
   maxPlayers: 80
   stations:

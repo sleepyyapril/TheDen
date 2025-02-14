@@ -1,7 +1,7 @@
 - type: gameMap
   id: Northway
   mapName: 'Northway'
-  mapPath: /Maps/northway.yml
+  mapPath: /Maps/TheDen/northway.yml
   minPlayers: 0
   maxPlayers: 25
   stations:

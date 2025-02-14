@@ -1,7 +1,7 @@
 - type: gameMap
   id: Lambda
   mapName: 'Lambda'
-  mapPath: /Maps/lambda.yml
+  mapPath: /Maps/TheDen/lambda.yml
   minPlayers: 30
   stations:
     Lambda:
