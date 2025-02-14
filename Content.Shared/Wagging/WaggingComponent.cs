@@ -8,7 +8,7 @@ namespace Content.Shared.Wagging;
 /// <summary>
 /// An emoting wag for markings.
 /// </summary>
-[RegisterComponent, NetworkedComponent]
+[RegisterComponent, AutoGenerateComponentState, NetworkedComponent]
 public sealed partial class WaggingComponent : Component
 {
     [DataField]
