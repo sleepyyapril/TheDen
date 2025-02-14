@@ -25,6 +25,6 @@ public sealed partial class WaggingComponent : Component
     /// <summary>
     /// Is the entity currently wagging.
     /// </summary>
-    [DataField]
+    [DataField, AutoNetworkedField]
     public bool Wagging = false;
 }
