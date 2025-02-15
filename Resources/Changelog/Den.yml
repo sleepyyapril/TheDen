@@ -2086,3 +2086,12 @@ Entries:
   id: 167
   time: '2025-02-13T07:31:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/255
+- author: Rosycup
+  changes:
+    - type: Add
+      message: 'Added a clicker item. '
+    - type: Add
+      message: Added a colorable catsuit variant in the loadouts.
+  id: 168
+  time: '2025-02-15T02:14:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/259
