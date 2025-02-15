@@ -2048,3 +2048,50 @@ Entries:
   id: 163
   time: '2025-02-12T16:24:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/253
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Lobby tracks "The Station," "Get It Done," and "Unknown Theory," by
+        A-Guy have been added.
+    - type: Add
+      message: >-
+        Nanotrasen has partnered with a couple extra brands to provide you with
+        more cigarette varieties! Happy smoking! (by KittenColony)
+  id: 164
+  time: '2025-02-12T18:38:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/251
+- author: Forzii
+  changes:
+    - type: Tweak
+      message: Logistics can now buy plushie crates
+  id: 165
+  time: '2025-02-12T18:38:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/252
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added underwear markings for Most of the species. Comfy underwear for
+        everyone!
+  id: 166
+  time: '2025-02-13T07:31:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/256
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Many things such as weapons, windows and food now have new interactions,
+        expect a lot of saliva on various objects from now on...
+  id: 167
+  time: '2025-02-13T07:31:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/255
+- author: Rosycup
+  changes:
+    - type: Add
+      message: 'Added a clicker item. '
+    - type: Add
+      message: Added a colorable catsuit variant in the loadouts.
+  id: 168
+  time: '2025-02-15T02:14:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/259
