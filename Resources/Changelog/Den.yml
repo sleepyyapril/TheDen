@@ -2095,3 +2095,54 @@ Entries:
   id: 168
   time: '2025-02-15T02:14:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/259
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Station AI no longer hears all channels (by dootythefrooty)
+    - type: Tweak
+      message: Station AI can now speak on the Prison channel (by dootythefrooty)
+    - type: Add
+      message: >-
+        New chemical added named Sedin. It restores seeds on plants 20% of the
+        time with other adverse effects included.
+    - type: Add
+      message: Arachne are immune to slipping
+    - type: Tweak
+      message: >-
+        Stations SMES now store 120MW of power, up from 8MW. They should
+        actually do what they are intended to do now.
+    - type: Fix
+      message: Fixed Harpies missing 8 different emotes.
+    - type: Fix
+      message: >-
+        Thrown objects will no longer collide with entities that are laying
+        down(voluntarily or otherwise). This includes objects thrown by space
+        wind, which will now fly over you once you've been critted by floor
+        tiles.
+    - type: Add
+      message: >-
+        Added some glowing light effects to the Atmos, Engineer, and Chief
+        Engineer hardsuits.
+    - type: Add
+      message: >-
+        Station AI can now helpfully assist by configuring the station'sAtmos
+        system, in order to provide crew with breathable oxygen, and definitely
+        not anything malicious. You can also now ask the AI to assist with the
+        station's power by having it turn the supermatter on or off for safe
+        operation.
+    - type: Add
+      message: >-
+        The Mystagogue's locker now starts with an AI Upload circuitboard, as
+        well as 4 basic AI lawset chips in their locker.
+    - type: Tweak
+      message: >-
+        Tweaked ore rates for lava planets so that they give more than "Two
+        sheets of silver per 2000 sheets of iron". Ores other than Iron, Gold,
+        and Tungsten are still scarce, just not quite that scarce.
+    - type: Tweak
+      message: StationAI is now affected by ion storm (for real now)
+    - type: Tweak
+      message: Added the "Telecrystal Rebalance" from Goob.
+  id: 169
+  time: '2025-02-15T14:25:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/254
