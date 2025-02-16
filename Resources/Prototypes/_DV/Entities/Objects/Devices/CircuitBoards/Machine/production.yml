@@ -5,7 +5,8 @@
   components:
   - type: MachineBoard
     prototype: AdvancedMicrowave
-    stackRequirements:
+    requirements:
       Capacitor: 2
+    materialRequirements:
       Glass: 4
       Cable: 5
