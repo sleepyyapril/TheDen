@@ -2146,3 +2146,10 @@ Entries:
   id: 169
   time: '2025-02-15T14:25:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/254
+- author: Fox
+  changes:
+    - type: Fix
+      message: Fixed various elements of Asterisk and Pebble.
+  id: 170
+  time: '2025-02-16T08:18:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/263
