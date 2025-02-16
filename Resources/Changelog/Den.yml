@@ -2190,3 +2190,22 @@ Entries:
   id: 172
   time: '2025-02-16T14:28:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/264
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: '"is" phrase added to the AAC tablet.'
+    - type: Add
+      message: >-
+        New cybersun/nanotrasen branded clothes added to engineering, CE, and
+        paramedic loadouts.
+    - type: Tweak
+      message: >-
+        Hazard jumpsuit is no longer a Station Engineer job exclusive loadout
+        item.
+    - type: Tweak
+      message: >-
+        Xenoglossy is now mutually exclusive with foreigner traits as per player
+        requests.
+  id: 173
+  time: '2025-02-16T17:44:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/265
