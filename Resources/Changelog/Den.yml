@@ -2153,3 +2153,25 @@ Entries:
   id: 170
   time: '2025-02-16T08:18:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/263
+- author: EE Contributors
+  changes:
+    - type: Add
+      message: >-
+        Gave BSO access to a filled combat medkit, a portafib, and a handheld
+        crew monitor
+    - type: Add
+      message: >-
+        A trait for IPCs, which is essentially a platelet factories, at the same
+        trait cost, etc, as the normal platelet factories, and bionic legs,
+        which are just speed legs roundstart.
+    - type: Add
+      message: >-
+        Added disposable syringes! These cheaper, quicker-to-produce syringes
+        let Chemists pick dosages while preparing medicine so that doctors can
+        inject without worrying about volume, but the syringes cannot be used
+        more than once.
+    - type: Add
+      message: High Cap Battery as a loadout item for IPCs
+  id: 171
+  time: '2025-02-16T12:57:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/261
