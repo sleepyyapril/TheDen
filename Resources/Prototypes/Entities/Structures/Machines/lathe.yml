@@ -543,6 +543,12 @@
     - CryoPodMachineCircuitboard
     - N14MaterialCircuitry
     - CutterMachineCircuitboard
+    - SalvageMagnetMachineCircuitboard
+    - BorgChargerCircuitboard
+    - ShipyardComputerCircuitboard
+    - ServiceTechFabCircuitboard #imp addition
+    - SupermatterComputerCircuitboard # imp
+    - ImpCoffeeMachineCircuitboard #imp
     dynamicRecipes:
     - ThermomachineFreezerMachineCircuitBoard
     - DroneElectronics
