@@ -2219,3 +2219,16 @@ Entries:
   id: 174
   time: '2025-02-18T22:51:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/269
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Traitors now get correct TC amount.
+    - type: Fix
+      message: Surplus bundles now have the correct TC cost.
+    - type: Add
+      message: Corpsman can take portable crew monitor now.
+    - type: Fix
+      message: NanoChat now scrolls to the bottom whenever you open a new chat.
+  id: 175
+  time: '2025-02-18T22:52:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/267
