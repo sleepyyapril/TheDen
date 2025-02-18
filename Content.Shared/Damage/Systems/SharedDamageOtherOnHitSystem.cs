@@ -211,7 +211,7 @@ namespace Content.Shared.Damage.Systems
             if (!Resolve(uid, ref component, false))
                 return new DamageSpecifier();
 
-            var ev = new GetThrowingDamageEvent(uid, component.Damage, new(), target, user);
+            var ev = new GetThrowingDamageEvent(uid, _damageable.ApplyUniversalAllModifiers(component.Damage * _damageable.UniversalThrownDamageModifier), new(), target, user);
             RaiseLocalEvent(uid, ref ev);
 
             if (component.ContestArgs is not null && user is EntityUid userUid)

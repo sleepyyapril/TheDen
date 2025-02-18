@@ -90,6 +90,8 @@ public sealed class MeleeWeaponSystem : SharedMeleeWeaponSystem
         if (damageSpec.Empty)
             return;
 
+        damageSpec = Damageable.ApplyUniversalAllModifiers(damageSpec);
+
         if (!component.DisableClick)
             _damageExamine.AddDamageExamine(args.Message, damageSpec, Loc.GetString("damage-melee"));
 
