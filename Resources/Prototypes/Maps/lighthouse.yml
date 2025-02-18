@@ -6,7 +6,7 @@
   maxPlayers: 55
   stations:
     Lighthouse:
-      stationProto: StandardNanotrasenStation
+      stationProto: StandardNanotrasenStationNoATS
       components:
       - type: StationEmergencyShuttle
         emergencyShuttlePath: /Maps/Shuttles/DeltaV/NTES_BC20.yml
