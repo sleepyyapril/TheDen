@@ -2209,3 +2209,13 @@ Entries:
   id: 173
   time: '2025-02-16T17:44:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/265
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Magistrate, Blueshield Officer, and Nanotrasen Representatives now have
+        fake All Access. They do not have access to offices, but have access to
+        most general departments.
+  id: 174
+  time: '2025-02-18T22:51:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/269
