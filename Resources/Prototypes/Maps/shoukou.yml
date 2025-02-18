@@ -18,9 +18,7 @@
         - type: StationJobs
           overflowJobs:
             - Passenger
-
           availableJobs:
-
           #Service
             Passenger: [ -1, -1 ]
             ServiceWorker: [ 1, 2 ]
