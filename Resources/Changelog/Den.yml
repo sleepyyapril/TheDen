@@ -2232,3 +2232,10 @@ Entries:
   id: 175
   time: '2025-02-18T22:52:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/267
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Removed mind over machine restrictions on the latest IPC traits.
+  id: 176
+  time: '2025-02-19T10:27:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/270
