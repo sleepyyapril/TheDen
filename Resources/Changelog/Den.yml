@@ -2232,3 +2232,32 @@ Entries:
   id: 175
   time: '2025-02-18T22:52:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/267
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Removed mind over machine restrictions on the latest IPC traits.
+  id: 176
+  time: '2025-02-19T10:27:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/270
+- author: Fox
+  changes:
+    - type: Add
+      message: Ported the DeltaV version of Edge Station!
+    - type: Tweak
+      message: Adds extra dorms and stuff to Edge
+    - type: Remove
+      message: Removes all Edging jokes from the playerbases minds
+  id: 177
+  time: '2025-02-19T21:49:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/271
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a Ballistic Mask to the security loadout, Added a hoodless variant
+        of the rubber gas mask.
+    - type: Tweak
+      message: Tweaked a lot of coats to be logically warmer.
+  id: 178
+  time: '2025-02-20T06:40:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/272
