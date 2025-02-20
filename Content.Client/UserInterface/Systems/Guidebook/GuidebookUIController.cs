@@ -174,7 +174,7 @@ public sealed class GuidebookUIController : UIController, IOnStateEntered<LobbyS
 
         if (selected == null)
         {
-            if (lastEntry != null && _lastEntry is { } lastEntry && guides.ContainsKey(lastEntry))
+            if (_lastEntry is { } lastEntry && lastEntry != null && guides.ContainsKey(lastEntry))
             {
                 selected = _lastEntry;
             }
