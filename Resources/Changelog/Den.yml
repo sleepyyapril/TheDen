@@ -2261,3 +2261,28 @@ Entries:
   id: 178
   time: '2025-02-20T06:40:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/272
+- author: EE Contributors
+  changes:
+    - type: Tweak
+      message: Made Muted give sign language
+    - type: Tweak
+      message: >-
+        Blacklisted muted characters from taking sign language (because it gives
+        them it)
+    - type: Fix
+      message: Blacklisted muted characters from taking Singer or Lyrebird
+    - type: Fix
+      message: Fixed the singulo leaping out of containment.
+    - type: Tweak
+      message: Humans now have a larger variety of ears
+    - type: Add
+      message: Added "Blueshield primary weapon" loadout group. The primary
+    - type: Add
+      message: >-
+        Added handgun manufacturing to Arsenal research. Most firearms made this
+        way require Aluminium mined from planets to manufacture.
+    - type: Tweak
+      message: The Emag is now one item again.
+  id: 179
+  time: '2025-02-21T15:15:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/274
