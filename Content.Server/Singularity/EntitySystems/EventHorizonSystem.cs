@@ -14,6 +14,7 @@ using Robust.Shared.Map.Components;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Timing;
 using Content.Shared.Abilities.Psionics;
+using Robust.Server.GameObjects;
 using Robust.Shared.Physics.Components; //Nyano - Summary: for the telegnostic projection.
 
 namespace Content.Server.Singularity.EntitySystems;
@@ -32,6 +33,7 @@ public sealed class EventHorizonSystem : SharedEventHorizonSystem
     [Dependency] private readonly SharedContainerSystem _containerSystem = default!;
     [Dependency] private readonly SharedTransformSystem _xformSystem = default!;
     [Dependency] private readonly TagSystem _tagSystem = default!;
+    [Dependency] private readonly PhysicsSystem _physics = default!;
     #endregion Dependencies
 
     private EntityQuery<PhysicsComponent> _physicsQuery;
