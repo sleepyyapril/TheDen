@@ -1,9 +1,10 @@
 - type: gameMap
   id: Asterisk
   mapName: 'Asterisk'
-  mapPath: /Maps/asterisk.yml
+  mapPath: /Maps/TheDen/asterisk.yml
   minPlayers: 0
   maxPlayers: 60
+  fallback: true
   stations:
     Asterisk:
       stationProto: StandardNanotrasenStation
@@ -24,7 +25,7 @@
           availableJobs:
           #service
             Captain: [ 1, 1 ]
-            BlueshieldOfficer: [ 1, 1]
+            BlueshieldOfficer: [ 1, 1 ]
             NanotrasenRepresentative: [ 1, 1 ]
             Magistrate: [ 1, 1 ]
             AdministrativeAssistant: [ 1, 1 ]

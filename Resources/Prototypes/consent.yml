@@ -3,3 +3,6 @@
 
 - type: consentToggle
   id: ParadoxAnomaly
+
+- type: consentToggle
+  id: MindSwap

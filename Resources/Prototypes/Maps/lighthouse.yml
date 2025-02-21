@@ -1,12 +1,12 @@
 - type: gameMap
   id: Lighthouse
   mapName: Lighthouse
-  mapPath: /Maps/lighthouse.yml
+  mapPath: /Maps/TheDen/lighthouse.yml
   minPlayers: 15
   maxPlayers: 55
   stations:
     Lighthouse:
-      stationProto: StandardNanotrasenStation
+      stationProto: StandardNanotrasenStationNoATS
       components:
       - type: StationEmergencyShuttle
         emergencyShuttlePath: /Maps/Shuttles/DeltaV/NTES_BC20.yml

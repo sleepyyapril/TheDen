@@ -23,7 +23,11 @@ consent-example1 = Example Consent Toggle
 consent-example1-desc = This is just here as an example for how to add consent toggles.
 
 consent-Hypno-name = Hypnosis
-consent-Hypno-desc = Allow yourself to be hypnotized?
+consent-Hypno-desc = Do you want to allow yourself to be hypnotized?
 
 consent-ParadoxAnomaly-name = Paradox Anomaly
-consent-ParadoxAnomaly-desc = Allow yourself to be used as a paradox anomaly?
+consent-ParadoxAnomaly-desc = Do you want to allow yourself to be a target for paradox anomalies?
+
+consent-MindSwap-name = Mind Swap
+consent-MindSwap-desc = Do you want to allow the 'Mind Swap' power to work on you?
+consent-MindSwap-no-consent = { CAPITALIZE(POSS-ADJ($target)) } mind rejects your advances.

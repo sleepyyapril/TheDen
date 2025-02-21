@@ -43,6 +43,11 @@
     sprite: Objects/Weapons/Melee/pickaxe.rsi
     storedRotation: -45
   - type: UseDelay
+  - type: InteractionVerbs
+    allowedVerbs:
+    - HugObject
+    - KissObject
+    - LickObject
 
 - type: entity
   name: mining drill
@@ -66,7 +71,7 @@
       path: "/Audio/Items/drill_hit.ogg"
     attackRate: 0.25
     range: 1.5
-    heavyStaminaCost: 0.7
+    heavyStaminaCost: 0.4
     damage:
       groups:
         Brute: 3
@@ -81,6 +86,11 @@
         Structural: 15
   - type: ThrowingAngle
     angle: 270
+  - type: InteractionVerbs
+    allowedVerbs:
+    - HugObject
+    - KissObject
+    - LickObject
 
 - type: entity
   name: diamond tipped mining drill
@@ -97,7 +107,7 @@
     wideAnimationRotation: -90
     soundHit:
       path: "/Audio/Items/drill_hit.ogg"
-    heavyStaminaCost: 0.55 # More efficient so less stamina needed to use
+    heavyStaminaCost: 0.2 # More efficient so less stamina needed to use
     damage:
       groups:
         Brute: 6
@@ -123,6 +133,11 @@
     color: "#ffeead"
     enabled: false
     radius: 4
+  - type: InteractionVerbs
+    allowedVerbs:
+    - HugObject
+    - KissObject
+    - LickObject
 
 - type: entity
   parent: BaseWeaponCrusher
