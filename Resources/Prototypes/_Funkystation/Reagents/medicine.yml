@@ -9,7 +9,7 @@
   color: "#a69ff4"
   metabolisms:
     Medicine:
-      metabolismRate: 0.2
+      metabolismRate: 0.6
       effects:
       - !type:HealthChange
         damage:
@@ -39,7 +39,7 @@
   color: "#634aef"
   metabolisms:
     Medicine:
-      metabolismRate: 0.2
+      metabolismRate: 0.6
       effects:
       - !type:HealthChange
         conditions:
@@ -72,7 +72,7 @@
   color: "#e6e600"
   metabolisms:
     Medicine:
-      metabolismRate: 0.2
+      metabolismRate: 0.6
       effects:
       - !type:HealthChange
         conditions:
@@ -119,7 +119,7 @@
   color: "#36274f"
   metabolisms:
     Medicine:
-      metabolismRate: 0.2
+      metabolismRate: 0.6
       effects:
       - !type:HealthChange
         damage:
@@ -152,7 +152,7 @@
   color: "#3a0c28"
   metabolisms:
     Medicine:
-      metabolismRate: 0.4
+      metabolismRate: 0.8
       effects:
       - !type:HealthChange
         damage:
@@ -191,7 +191,7 @@
   color: "#e8d199"
   metabolisms:
     Medicine:
-      metabolismRate: 0.2
+      metabolismRate: 0.6
       effects:
       - !type:HealthChange
         damage:
@@ -219,7 +219,7 @@
   color: "#e8e699"
   metabolisms:
     Medicine:
-      metabolismRate: 0.2
+      metabolismRate: 0.6
       effects:
       - !type:HealthChange
         conditions:
@@ -253,7 +253,7 @@
   color: "#f9e0e9"
   metabolisms:
     Medicine:
-      metabolismRate: 0.2
+      metabolismRate: 0.6
       effects:
       - !type:HealthChange
         conditions:
@@ -293,7 +293,7 @@
   color: "#99ffff"
   metabolisms:
     Medicine:
-      metabolismRate: 0.2
+      metabolismRate: 0.6
       effects:
       - !type:HealthChange
         conditions:
@@ -438,7 +438,7 @@
   color: "#c8317a"
   metabolisms:
     Medicine:
-      metabolismRate: 0.2
+      metabolismRate: 0.6
       effects:
       - !type:HealthChange
         damage: # still less than healium as a gas but a good liquid chem
