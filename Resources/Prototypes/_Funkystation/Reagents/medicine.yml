@@ -300,15 +300,15 @@
           - !type:TotalDamage
             min: 30
         damage:
-          groups:
-            Airloss: -8
+          types:
+            Asphyxiation: -8 # Only heals asphyx, use convermol
       - !type:HealthChange
         conditions:
           - !type:TotalDamage
             max: 30
         damage:
-           groups:
-            Airloss: -0.8
+           types:
+            Asphyxiation: -0.8
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -316,7 +316,7 @@
         damage:
           groups: # ODing heals airloss but causes damage
             Airloss: -8
-            Genetic: 0.4
+            Genetic: 0.8
 
 - type: reagent
   id: Convermol
@@ -333,7 +333,7 @@
       - !type:HealthChange
         damage:
           types:
-            Asphyxiation: -10 
+            Asphyxiation: -12
             Blunt: 4 # After organ damage gets added, add lung damage and reduce to 2.
       - !type:Jitter
 
