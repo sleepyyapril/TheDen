@@ -36,7 +36,7 @@
     Granibitulari:
       amount: 1
   products:
-    Negacordrazine: 1
+    Negacordrazine: 2
 
 - type: reaction
   id: StabilisedStimulants
@@ -50,7 +50,7 @@
     Coffee:
       amount: 1
   products:
-    StabilisedStimulants: 1
+    StabilisedStimulants: 3
 
 - type: reaction
   id: Revivopine
@@ -64,7 +64,7 @@
     Epinephrine:
       amount: 1
   products:
-    Revivopine: 1
+    Revivopine: 3
 
 - type: reaction
   id: ExoticBarozine
@@ -78,7 +78,7 @@
     SalicylicAcid:
       amount: 1
   products:
-    Barozine: 1
+    Barozine: 3
 
 - type: reaction
   id: VestineOmnizine
@@ -104,7 +104,7 @@
     Cognizine:
      amount: 1
   products:
-    Ichor: 1
+    Ichor: 2
 
 - type: reaction
   id: Corgium
@@ -118,7 +118,7 @@
     Blood:
       amount: 1
   products:
-    Corgium: 1
+    Corgium: 3
 
 - type: reaction
   id: CreateCorgiPuppy
