@@ -10,7 +10,7 @@
     UnstableMutagen:
       amount: 1
   products:
-    ExoticReagent: 1
+    ExoticReagent: 2
 
 - type: reaction
   id: Stasicillin
@@ -24,7 +24,7 @@
     Saline:
       amount: 1
   products:
-    Stasicillin: 1
+    Stasicillin: 3
 
 - type: reaction
   id: Negacordrazine
