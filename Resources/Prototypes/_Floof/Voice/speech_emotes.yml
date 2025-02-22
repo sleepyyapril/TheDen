@@ -26,6 +26,7 @@
   id: Yip
   name: chat-emote-name-yip
   category: Vocal
+  icon: _Impstation/Interface/Emotes/hiss.png
   whitelist:
     tags:
     - VulpEmotes
