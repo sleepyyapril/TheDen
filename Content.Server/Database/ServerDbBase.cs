@@ -1169,6 +1169,9 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
             {
                 foreach (var option in permission.Value)
                 {
+                    if (option.IsConsenting == Consenting.Default)
+                        continue;
+
                     var target = new ConsentTarget();
                     target.TargetConsent = option.ConsentToggleId;
                     target.TargetHasConsent = option.HasConsent;
@@ -1217,7 +1220,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
                 var option = new ConsentOption();
                 option.ConsentToggleId = target.TargetConsent;
-                option.HasConsent = target.TargetHasConsent;
+                option.SetConsent(target.TargetHasConsent);
 
                 targets[target.TargetId].Add(option);
             }

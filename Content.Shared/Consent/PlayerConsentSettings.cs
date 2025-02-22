@@ -73,5 +73,31 @@ public struct ConsentPermissions
 public struct ConsentOption
 {
     public string ConsentToggleId;
-    public bool HasConsent;
+    public Consenting IsConsenting;
+
+    public bool HasConsent => IsConsenting == Consenting.Allow;
+
+    public void SetConsent(bool? value)
+    {
+        switch (value)
+        {
+            case true:
+                IsConsenting = Consenting.Allow;
+                break;
+            case false:
+                IsConsenting = Consenting.Reject;
+                break;
+            default:
+                IsConsenting = Consenting.Default;
+                break;
+        }
+    }
+}
+
+[Serializable, NetSerializable]
+public enum Consenting
+{
+    Allow,
+    Reject,
+    Default
 }

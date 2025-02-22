@@ -11,8 +11,12 @@ consent-window-freetext-placeholder = Put your ERP info here, such as:
     Likes and dislikes
 consent-window-toggles-label = Mechanics toggles
 consent-window-permissions-label = Permissions
+consent-window-players-label = Permissions
 consent-window-unsaved-changes = You have unsaved changes
 consent-window-char-limit-warning = Character limit exceeded ({$length} / {$maxLength})
+
+consent-window-add-label = Add
+consent-window-remove-label = Remove
 
 # Verb
 consent-examine-verb = Consent Info

@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Numerics;
 using Content.Client.UserInterface.Controls;
 using Content.Shared.CCVar;
@@ -65,7 +66,7 @@ public sealed partial class ConsentWindow : FancyWindow
         foreach (var entry in _entries)
         {
             if (entry.Button != null && entry.Button.Pressed)
-                toggles[entry.Consent.ID] = entry.Consent.DefaultValue ? "on" : "off";
+                toggles[entry.Consent.ID] = "on";
         }
 
         return new(text, toggles, permissions);
@@ -90,7 +91,7 @@ public sealed partial class ConsentWindow : FancyWindow
         SaveConsentSettings.Disabled = false;
     }
 
-    private void AddConsentEntry(ConsentTogglePrototype prototype)
+    private void AddConsentEntry(ConsentTogglePrototype prototype, PlayerConsentSettings settings)
     {
         var state = new EntryState { Consent = prototype };
         var container = new BoxContainer { Orientation = BoxContainer.LayoutOrientation.Vertical };
@@ -98,7 +99,7 @@ public sealed partial class ConsentWindow : FancyWindow
         var header = new BoxContainer
         {
             Orientation = BoxContainer.LayoutOrientation.Horizontal,
-            Margin = new Thickness(5f, 5f)
+            Margin = new(5f, 5f)
         };
 
         var name = new Label
@@ -126,7 +127,6 @@ public sealed partial class ConsentWindow : FancyWindow
             {
                 buttonOn.Pressed = true;
                 buttonOff.Pressed = false;
-                continue;
             }
         }
 
@@ -160,13 +160,13 @@ public sealed partial class ConsentWindow : FancyWindow
         {
             var option = new ConsentOption();
             option.ConsentToggleId = proto.ID;
-            option.HasConsent = proto.DefaultValue;
+            option.SetConsent(null);
 
             permissions.Add(option);
         }
 
         var control = BuildFakeUserInfo(permissions);
-        Permissions.AddChild(control);
+        PermissionsList.AddChild(control);
 
         // foreach (var permissions in _consentPermissions.Value.SpecifiedConsents)
         // {
@@ -181,11 +181,27 @@ public sealed partial class ConsentWindow : FancyWindow
         var removeButton = new Button { Text = "Remove" };
         // header.Title = data?.UserName;
         header.Title = "Meow";
-        header.AddChild(removeButton);
 
-        var body = new CollapsibleBody();
         var consents = FakeGetUserConsents(permissions);
-        body.AddChild(consents);
+        var body = new CollapsibleBody();
+
+        var bodyContainer = new BoxContainer()
+        {
+            Orientation = BoxContainer.LayoutOrientation.Vertical,
+            HorizontalExpand = true,
+            VerticalExpand = true,
+            SeparationOverride = 2,
+            Margin = new(0f, 5f),
+            Children = { consents, removeButton }
+        };
+        var bodyScrollContainer = new ScrollContainer()
+        {
+            HorizontalExpand = true,
+            Children = { bodyContainer },
+            MinHeight = 150f
+        };
+
+        body.AddChild(bodyScrollContainer);
 
         collapsible.BodyVisible = false;
         collapsible.AddChild(header);
@@ -194,14 +210,18 @@ public sealed partial class ConsentWindow : FancyWindow
         return collapsible;
     }
 
-    private Control FakeGetUserConsents(List<ConsentOption> consents)
+    private Control FakeGetUserConsents(List<ConsentOption> playerConsentsList)
     {
+        var playerConsents = playerConsentsList.ToDictionary(x => x.ConsentToggleId, x => x);
         var container = new BoxContainer
         {
-            Orientation = BoxContainer.LayoutOrientation.Horizontal,
+            Orientation = BoxContainer.LayoutOrientation.Vertical,
+            HorizontalExpand = true,
             VerticalExpand = true,
             MinSize = new(0, 20)
         };
+
+        var consents = _protoManager.EnumeratePrototypes<ConsentTogglePrototype>();
 
         foreach (var consentOption in consents)
         {
@@ -209,89 +229,36 @@ public sealed partial class ConsentWindow : FancyWindow
             {
                 Orientation = BoxContainer.LayoutOrientation.Horizontal,
                 HorizontalExpand = true,
+                VerticalExpand = false,
                 MinSize = new(0, 20)
             };
 
-            var consentName = Loc.GetString($"consent-{consentOption.ConsentToggleId}-name");
+            var useConsent = playerConsents.TryGetValue(consentOption.ID, out var consent) && consent.IsConsenting != Consenting.Default;
+
+            var consentName = Loc.GetString($"consent-{consentOption.ID}-name");
             var name = new Label { Text = consentName, MinSize = new(0, 20) };
             var control = new Control { HorizontalExpand = true, MinSize = new(0, 20) };
 
-            var buttonOff = new Button { Text = "Off", MinSize = new(0, 20) };
+            var buttonOff = new Button { Text = "Allow", MinSize = new(0, 20) };
             buttonOff.StyleClasses.Add("OpenRight");
-            buttonOff.Pressed = consentOption.HasConsent == false;
+            buttonOff.Pressed = useConsent && consent.HasConsent;
 
-            var buttonOn = new Button { Text = "On", MinSize = new(0, 20) };
+            var buttonDefault = new Button { Text = "Use Default", MinSize = new(0, 20) };
+            buttonDefault.StyleClasses.Add("OpenBoth");
+            buttonDefault.Pressed = !useConsent;
+
+            var buttonOn = new Button { Text = "Reject", MinSize = new(0, 20) };
             buttonOn.StyleClasses.Add("OpenLeft");
-            buttonOn.Pressed = consentOption.HasConsent;
+            buttonOn.Pressed = useConsent && !consent.HasConsent;
 
-            buttonOff.OnPressed += _ => ButtonOnPress(buttonOff, buttonOn);
-            buttonOn.OnPressed += _ => ButtonOnPress(buttonOn, buttonOff);
+            buttonOff.OnPressed += _ => ButtonOnPress(buttonOff, buttonOn, buttonDefault);
+            buttonDefault.OnPressed += _ => ButtonOnPress(buttonDefault, buttonOn, buttonOff);
+            buttonOn.OnPressed += _ => ButtonOnPress(buttonOn, buttonOff, buttonDefault);
 
             consentContainer.AddChild(name);
             consentContainer.AddChild(control);
             consentContainer.AddChild(buttonOff);
-            consentContainer.AddChild(buttonOn);
-
-            container.AddChild(consentContainer);
-        }
-
-        return container;
-    }
-
-    private void BuildUserInfo(KeyValuePair<Guid, List<ConsentOption>> permissions)
-    {
-        var foundName = _playerManager.TryGetPlayerData((NetUserId) permissions.Key, out var data);
-
-        // if (!foundName)
-        //     return;
-
-        var collapsible = new Collapsible();
-        var header = new CollapsibleHeading();
-        var removeButton = new Button { Text = "Remove" };
-        // header.Title = data?.UserName;
-        header.Title = "Meow";
-        header.AddChild(removeButton);
-
-        var body = new CollapsibleBody();
-        var consents = GetUserConsents(permissions);
-        body.AddChild(consents);
-
-        collapsible.BodyVisible = false;
-        collapsible.AddChild(header);
-        collapsible.AddChild(body);
-    }
-
-    private Control GetUserConsents(KeyValuePair<Guid, List<ConsentOption>> permissions)
-    {
-        var container = new BoxContainer { Orientation = BoxContainer.LayoutOrientation.Horizontal, VerticalExpand = true };
-
-        foreach (var consentOption in permissions.Value)
-        {
-            var consentContainer = new BoxContainer
-            {
-                Orientation = BoxContainer.LayoutOrientation.Horizontal,
-                VerticalExpand = true,
-                MinSize = new(0, 20)
-            };
-
-            var consentName = Loc.GetString($"consent-{consentOption.ConsentToggleId}-name");
-            var name = new Label { Text = consentName, MinSize = new(0, 20) };
-            var control = new Control { HorizontalExpand = true, MinSize = new(0, 20) };
-
-            var buttonOff = new Button { Text = "Off", MinSize = new(0, 20) };
-            buttonOff.StyleClasses.Add("OpenRight");
-            buttonOff.Pressed = consentOption.HasConsent == false;
-
-            var buttonOn = new Button { Text = "On", MinSize = new(0, 20) };
-            buttonOn.StyleClasses.Add("OpenLeft");
-            buttonOn.Pressed = consentOption.HasConsent;
-
-            buttonOff.OnPressed += _ => PermissionButtonOnPress(buttonOff, buttonOn, permissions.Key, consentOption);
-            buttonOn.OnPressed += _ => PermissionButtonOnPress(buttonOn, buttonOff, permissions.Key, consentOption);
-
-            consentContainer.AddChild(name);
-            consentContainer.AddChild(control);
-            consentContainer.AddChild(buttonOff);
+            consentContainer.AddChild(buttonDefault);
             consentContainer.AddChild(buttonOn);
 
             container.AddChild(consentContainer);
@@ -303,13 +270,16 @@ public sealed partial class ConsentWindow : FancyWindow
     private void PermissionButtonOnPress(Button button, Button otherButton, Guid playerId, ConsentOption option)
     {
         OnConsentPermissionChanged?.Invoke(playerId, option.ConsentToggleId, option.HasConsent);
-        ButtonOnPress(button, otherButton);
+        ButtonOnPress(button, otherButton, otherButton);
     }
 
-    private void ButtonOnPress(Button currentButton, Button otherButton)
+    private void ButtonOnPress(Button currentButton, params Button[] disable)
     {
         currentButton.Pressed = true;
-        otherButton.Pressed = false;
+
+        foreach (var button in disable)
+            button.Pressed = false;
+
         UnsavedChanges();
     }
 
@@ -323,7 +293,7 @@ public sealed partial class ConsentWindow : FancyWindow
 
         var consentprototypelist = _protoManager.EnumeratePrototypes<ConsentTogglePrototype>();
         foreach (var prototype in consentprototypelist)
-            AddConsentEntry(prototype);
+            AddConsentEntry(prototype, consent);
 
         _consentPermissions = consent.Permissions;
 
