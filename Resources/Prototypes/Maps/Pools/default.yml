@@ -3,17 +3,17 @@
   maps:
   - Arena
   - Asterisk
-  - Core
+ # - Core - 02/22/24
   - Edge
   - Glacier
-  - Hammurabi
+ # - Hammurabi - 02/22/24
   - Lighthouse
   - Pebble
 #  - Saltern - commented pending rework
   - Shoukou
 #  - Submarine
   - Tortuga
-  - TheHive
+#  - TheHive - 02/22/24
 #  - Gax - im so sorry this wasn't commented out
 #  - Rad - im so sorry this wasn't commented out
 #  - Meta

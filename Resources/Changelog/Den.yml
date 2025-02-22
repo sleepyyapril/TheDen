@@ -2286,3 +2286,35 @@ Entries:
   id: 179
   time: '2025-02-21T15:15:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/274
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Subtle and whisper can only be heard by players in-round. Ghosts, admin
+        or otherwise, will no longer hear either.
+  id: 180
+  time: '2025-02-22T18:50:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/279
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Artifacts price multiplier has been upped from 0.05 to 0.1, generating
+        at minimum an extra 450 spesos, hopefully increasing the
+        Epistemics-Logistics teamwork a little more.
+    - type: Tweak
+      message: >-
+        The artifact bounty sell price has jumped from 2500 to 5500, in an
+        attempt to make epistemics more willing to cooperate with logistics on
+        this bounty.
+    - type: Tweak
+      message: >-
+        Artifacts now provide an extra 1000 research points, from 6500 points
+        per node to 7500.
+    - type: Tweak
+      message: Anomalies now generate at minimum 40 points per second, instead of 10
+    - type: Tweak
+      message: Anomalies also generate at maximum 150 points per second instead of 70.
+  id: 181
+  time: '2025-02-22T18:51:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/278
