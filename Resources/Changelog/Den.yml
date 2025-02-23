@@ -2338,3 +2338,14 @@ Entries:
   id: 182
   time: '2025-02-22T22:43:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/280
+- author: april and Fox
+  changes:
+    - type: Tweak
+      message: >-
+        Glacier has been updated to a newer version, bringing back the
+        atmosphere and removing the ground.
+    - type: Add
+      message: Biogenerators have been added and currently only exist on Glacier!
+  id: 183
+  time: '2025-02-23T11:52:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/277
