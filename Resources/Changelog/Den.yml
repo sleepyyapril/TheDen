@@ -2358,3 +2358,36 @@ Entries:
   id: 184
   time: '2025-02-23T21:02:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/283
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        added purple galoshes (hue shifted galoshes) and put both galosh(?)
+        types in the jani loadout
+    - type: Add
+      message: the spray painter has new color options based on gasses
+    - type: Add
+      message: LO got a new beret
+    - type: Add
+      message: combat gloves added to warden loadout and removed from locker fill
+    - type: Add
+      message: martial black belt added to the generic belts category
+    - type: Add
+      message: lollipop added to the generic items category
+    - type: Tweak
+      message: >-
+        made IPC sec/omni eye modules available to all dignitaries (now matches
+        cyber eyes)
+    - type: Tweak
+      message: >-
+        corpsman combat kits are now guaranteed to be inside of corpsman lockers
+        for those maps that don't have them mapped in
+    - type: Fix
+      message: >-
+        roboticist and botanist loadouts have been fixed, they now have their
+        duffels and such
+    - type: Fix
+      message: fixed mobster accent name and desc
+  id: 185
+  time: '2025-02-23T23:37:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/284
