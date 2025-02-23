@@ -646,7 +646,8 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         foreach (var (session, data) in GetRecipients(source, WhisperClearRange))
         {
-            if (session.AttachedEntity is not { Valid: true } listener)
+            if (session.AttachedEntity is not { Valid: true } listener
+                || session.AttachedEntity.HasValue && HasComp<GhostComponent>(session.AttachedEntity.Value))
                 continue;
 
             if (MessageRangeCheck(session, data, range) == MessageRangeCheckResult.Disallowed)
