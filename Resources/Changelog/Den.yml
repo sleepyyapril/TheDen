@@ -2318,3 +2318,23 @@ Entries:
   id: 181
   time: '2025-02-22T18:51:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/278
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: >-
+        Added Ultra Heavyweight, Ultra Lightweight, Zero-G Training and Zero-G
+        Averse traits from a suggestion from community member Nerb. (more to
+        come, maybe)
+    - type: Tweak
+      message: >-
+        Allowed Command and Dignitary members of staff to have the Cyber-Eye
+        Premium Suite
+    - type: Tweak
+      message: >-
+        Tweaked the values of Platelet Factories and Nanobots to match. (Values
+        may change in the future given feedback)
+    - type: Tweak
+      message: Rodentia can no longer take Voracious trait, as they have it by default.
+  id: 182
+  time: '2025-02-22T22:43:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/280
