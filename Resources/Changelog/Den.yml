@@ -2391,3 +2391,12 @@ Entries:
   id: 185
   time: '2025-02-23T23:37:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/284
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a greatsword to the Warden and Blueshield Officer loadouts. CLANG
+        CLANG
+  id: 186
+  time: '2025-02-24T11:53:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/285
