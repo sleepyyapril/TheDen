@@ -435,17 +435,12 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitEngineeringWhite
+  # imp edits #
+  - type: SupermatterImmune
   - type: ClothingGrantComponent
     component:
     - type: SupermatterImmune
-  - type: StaminaDamageResistance
-    coefficient: 0.65 # 35%
-  - type: GuideHelp
-    guides: [ HephaestusIndustries ]
-  - type: TemperatureProtection
-    coefficient: 0.001
-  - type: FireProtection
-    reduction: 1
+  # end imp edits #
 
 #Chief Medical Officer's Hardsuit
 - type: entity
