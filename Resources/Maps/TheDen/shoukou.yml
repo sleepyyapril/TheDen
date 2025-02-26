@@ -37114,7 +37114,7 @@ entities:
       pos: -36.5,-22.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -80541.02
+      secondsUntilStateChange: -80274.39
       state: Closing
   - uid: 5912
     components:
@@ -72278,18 +72278,6 @@ entities:
     components:
     - type: Transform
       pos: -28.5,-34.5
-      parent: 2
-- proto: SpawnPointAdminAssistant
-  entities:
-  - uid: 13797
-    components:
-    - type: Transform
-      pos: 53.5,-36.5
-      parent: 2
-  - uid: 13798
-    components:
-    - type: Transform
-      pos: 51.5,-36.5
       parent: 2
 - proto: SpawnPointAtmos
   entities:
