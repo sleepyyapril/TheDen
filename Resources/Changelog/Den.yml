@@ -2400,3 +2400,10 @@ Entries:
   id: 186
   time: '2025-02-24T11:53:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/285
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: A whole bunch of melee tweaks, view the PR for complete details.
+  id: 187
+  time: '2025-02-26T05:00:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/289
