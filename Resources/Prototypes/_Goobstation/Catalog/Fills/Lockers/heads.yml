@@ -37,13 +37,20 @@
     - id: FlashlightSeclite
     - id: ClothingBeltSecurityFilled
     - id: ClothingBlueshieldArmourVest
-    - id: ClothingEyesGlassesMedSec
-    - id: ClothingHandsGlovesCombat
+   # - id: ClothingEyesGlassesMedSec - NO MORE MEDSEC NTR. DEATH TO YOU
+   # - id: ClothingHandsGlovesCombat
     - id: ClothingOuterHardsuitBlueshield
     - id: OxygenTankFilled
     - id: NitrogenTankFilled
     - id: PinpointerNuclear
     - id: RubberStampBlueshield
+    - id: MagazineBoxShotgunHighCaliber # Yeah these aren't gonna fit in a box.
+    - id: MagazineBoxShotgunHighCaliberFlash
+    - id: MagazineBoxShotgunHighCaliberEnsnaring
+    - id: MagazineBoxShotgunHighCaliberEMP
+    - id: WeaponLeverChester # I AM JOHN POWER CREEP
+    - id: MagazineShotgunLeverRifleEmpty
+    - id: MagazineShotgunLeverRifleEmpty
 
 - type: entity
   id: LockerMagistrateFilled

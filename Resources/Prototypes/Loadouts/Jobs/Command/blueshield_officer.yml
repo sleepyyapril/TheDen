@@ -145,7 +145,7 @@
     - WeaponLeverChester
 
 - type: loadout
-  id: LoadoutMagazineMagnumMagnumLeverRifle
+  id: LoadoutMagazineShotgunLeverRifle
   category: JobsCommandBlueshieldOfficer
   cost: 2
   exclusive: true
@@ -159,10 +159,10 @@
       jobs:
         - BlueshieldOfficer
   items:
-    - MagazineMagnumLeverRifle
+    - MagazineShotgunLeverRifle
 
 - type: loadout
-  id: LoadoutMagazineMagnumMagnumLeverRifleSpare
+  id: LoadoutMagazineShotgunLeverRifleSpare
   category: JobsCommandBlueshieldOfficer
   cost: 4
   exclusive: true
@@ -176,7 +176,7 @@
       jobs:
         - BlueshieldOfficer
   items:
-    - MagazineMagnumLeverRifle
+    - MagazineShotgunLeverRifle
 
 - type: loadout
   id: LoadoutBSORifleBRDIR25

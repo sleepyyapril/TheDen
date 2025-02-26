@@ -13,5 +13,5 @@
     contents:
     - id: MagazineBoxMagnum
       amount: 2
-    - id: MagazineBoxMagnumFlash
+    #- id: MagazineBoxMagnumFlash
     # - id: MagazineBoxMagnumEMP
