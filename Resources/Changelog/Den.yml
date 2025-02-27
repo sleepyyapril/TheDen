@@ -2436,3 +2436,15 @@ Entries:
   id: 190
   time: '2025-02-27T13:40:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/287
+- author: Monotheonist
+  changes:
+    - type: Tweak
+      message: >-
+        Shoukou has now been updated to a variant of its Delta-V version. It has
+        retained its cozy rooms from the previous version. Science was moved, we
+        now have a library, go have fun.
+    - type: Add
+      message: Added Pluey.
+  id: 191
+  time: '2025-02-27T23:07:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/291
