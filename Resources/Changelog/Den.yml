@@ -2427,3 +2427,12 @@ Entries:
   id: 189
   time: '2025-02-27T04:08:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/292
+- author: Fox
+  changes:
+    - type: Tweak
+      message: >-
+        Glacier II has been updated with holopads and more, have fun in the
+        dorms you filthy animals
+  id: 190
+  time: '2025-02-27T13:40:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/287
