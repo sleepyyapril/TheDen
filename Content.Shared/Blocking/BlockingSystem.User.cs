@@ -77,15 +77,19 @@ public sealed partial class BlockingSystem
 
         var blockFraction = blocking.IsBlocking ? blocking.ActiveBlockFraction : blocking.PassiveBlockFraction;
         blockFraction = Math.Clamp(blockFraction, 0, 1);
-        _damageable.TryChangeDamage(component.BlockingItem, blockFraction * args.OriginalDamage);
+        if (!args.IsVirtual) //#IMP Don't damage shield if we are just seeing what damage COULD be blocked
+            _damageable.TryChangeDamage(component.BlockingItem, blockFraction * args.OriginalDamage);
 
         var modify = new DamageModifierSet();
         foreach (var key in dmgComp.Damage.DamageDict.Keys)
             modify.Coefficients.TryAdd(key, 1 - blockFraction);
 
         args.Damage = DamageSpecifier.ApplyModifierSet(args.Damage, modify);
-        if (blocking.IsBlocking && !args.Damage.Equals(args.OriginalDamage))
+
+        if (blocking.IsBlocking && !args.Damage.Equals(args.OriginalDamage) && !args.IsVirtual) //#IMP => IsVirtual
+        {
             _audio.PlayPvs(blocking.BlockSound, uid);
+        }
     }
 
     private void OnDamageModified(EntityUid uid, BlockingComponent component, DamageModifyEvent args)
