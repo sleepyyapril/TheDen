@@ -5,7 +5,7 @@ using Robust.Shared.Random;
 using Content.Server.Radiation.Components;
 using System.Linq;
 
-namespace Content.Server.Radiation.Systems;
+namespace Content.Server._Impstation.Radiation.Systems;
 
 public sealed class RadiationNoticingSystem : EntitySystem
 {
@@ -31,22 +31,26 @@ public sealed class RadiationNoticingSystem : EntitySystem
         //TODO: Expand system with other effects: visual spots, vomiting blood?, blurry vision?
     }
 
-    private void SendRadiationPopup(EntityUid uid){
+    private void SendRadiationPopup(EntityUid uid)
+    {
         List<string> msgArr = [
                 "radiation-noticing-message-0",
                 "radiation-noticing-message-1",
                 "radiation-noticing-message-2",
-                "radiation-noticing-message-3"
+                "radiation-noticing-message-3",
+                "radiation-noticing-message-4",
+                "radiation-noticing-message-5",
+                "radiation-noticing-message-6",
+                "radiation-noticing-message-7"
             ];
 
-            // Todo: detect possessing specific types of organs/blood/etc and conditionally add related messages to the list
+        // Todo: detect possessing specific types of organs/blood/etc and conditionally add related messages to the list
 
-            // pick a random message
-            var msgId = _random.Pick(msgArr);
-            var msg = Loc.GetString(msgId);
+        // pick a random message
+        var msgId = _random.Pick(msgArr);
+        var msg = Loc.GetString(msgId);
 
-            // show it as a popup
-            _popupSystem.PopupEntity(msg, uid, uid);
+        // show it as a popup
+        _popupSystem.PopupEntity(msg, uid, uid);
     }
-
 }
