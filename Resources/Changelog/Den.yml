@@ -2448,3 +2448,10 @@ Entries:
   id: 191
   time: '2025-02-27T23:07:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/291
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added colorable shorts and the expensive coat to the loadout.
+  id: 192
+  time: '2025-02-28T07:13:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/293
