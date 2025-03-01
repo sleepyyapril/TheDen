@@ -2478,3 +2478,12 @@ Entries:
   id: 195
   time: '2025-03-01T03:39:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/296
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Fixed bandanas on the head preventing the character from eating.
+    - type: Fix
+      message: Bandanas on face should now obscure the wearer.
+  id: 196
+  time: '2025-03-01T04:13:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/294
