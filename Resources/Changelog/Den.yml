@@ -2487,3 +2487,12 @@ Entries:
   id: 196
   time: '2025-03-01T04:13:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/294
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the telescopic shield not properly displaying when it was
+        deployed.
+  id: 197
+  time: '2025-03-01T05:24:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/298
