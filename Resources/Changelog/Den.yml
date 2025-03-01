@@ -2503,3 +2503,12 @@ Entries:
   id: 198
   time: '2025-03-01T09:09:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/299
+- author: KekaniCreates
+  changes:
+    - type: Tweak
+      message: >-
+        Further tweaked layering to appropriately display magboots in front of
+        hardsuits, while also making coats display in front of masks.
+  id: 199
+  time: '2025-03-01T09:10:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/300
