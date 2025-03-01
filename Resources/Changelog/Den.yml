@@ -2469,3 +2469,12 @@ Entries:
   id: 194
   time: '2025-03-01T03:25:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/297
+- author: Monotheonist
+  changes:
+    - type: Tweak
+      message: >-
+        Fixed a number of issues with Shoukou (station maps, metem, and lack of
+        osha certification.)
+  id: 195
+  time: '2025-03-01T03:39:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/296
