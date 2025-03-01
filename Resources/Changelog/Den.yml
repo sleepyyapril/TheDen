@@ -2496,3 +2496,10 @@ Entries:
   id: 197
   time: '2025-03-01T05:24:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/298
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Masks should no longer layer over the hair.
+  id: 198
+  time: '2025-03-01T09:09:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/299
