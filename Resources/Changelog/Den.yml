@@ -2455,3 +2455,10 @@ Entries:
   id: 192
   time: '2025-02-28T07:13:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/293
+- author: Icepicked
+  changes:
+    - type: Add
+      message: Added Progress Cape from Funky-Station to Pride-O-Mat
+  id: 193
+  time: '2025-03-01T03:11:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/295
