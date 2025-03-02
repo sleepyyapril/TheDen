@@ -2512,3 +2512,10 @@ Entries:
   id: 199
   time: '2025-03-01T09:10:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/300
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: Nipple markings for compatible races.
+  id: 200
+  time: '2025-03-02T08:00:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/302
