@@ -2556,3 +2556,12 @@ Entries:
   id: 205
   time: '2025-03-04T04:28:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/307
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Various critters and beasts have now been sighted lurking in the
+        ventilation shafts.
+  id: 206
+  time: '2025-03-04T04:29:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/308
