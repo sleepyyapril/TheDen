@@ -2542,3 +2542,10 @@ Entries:
   id: 203
   time: '2025-03-03T05:27:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/305
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Gave the BSO and HoS BRDIs a fancy paintjob.
+  id: 204
+  time: '2025-03-04T02:35:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/306
