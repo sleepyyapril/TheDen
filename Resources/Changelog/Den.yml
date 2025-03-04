@@ -2549,3 +2549,10 @@ Entries:
   id: 204
   time: '2025-03-04T02:35:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/306
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Some gun tweaks, view PR for complete details.
+  id: 205
+  time: '2025-03-04T04:28:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/307
