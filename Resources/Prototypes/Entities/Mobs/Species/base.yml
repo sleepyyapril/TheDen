@@ -43,9 +43,9 @@
     - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
     - map: [ "enum.HumanoidVisualLayers.Tail" ]
     - map: [ "enum.HumanoidVisualLayers.Wings" ]
+    - map: [ "mask" ]
     - map: [ "head" ]
     - map: [ "pocket1" ]
-    - map: [ "mask" ]
     - map: [ "pocket2" ]
     - map: ["enum.HumanoidVisualLayers.Handcuffs"]
       color: "#ffffff"
@@ -390,8 +390,8 @@
     - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
     - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
     - map: [ "enum.HumanoidVisualLayers.Tail" ]
-    - map: [ "head" ]
     - map: [ "mask" ]
+    - map: [ "head" ]
     - map: [ "pocket1" ]
     - map: [ "pocket2" ]
   - type: Appearance
