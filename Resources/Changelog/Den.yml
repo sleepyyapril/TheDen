@@ -2578,3 +2578,10 @@ Entries:
   id: 207
   time: '2025-03-05T01:19:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/309
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Roingus has been added to pet store
+  id: 208
+  time: '2025-03-05T09:36:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/310
