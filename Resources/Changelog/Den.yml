@@ -2565,3 +2565,16 @@ Entries:
   id: 206
   time: '2025-03-04T04:29:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/308
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Glimmer Wisps have returned.
+    - type: Tweak
+      message: >-
+        Luminous Entities now count as a psionic creature, to match with the
+        rest of the anomalous entities.
+    - type: Tweak
+      message: Gave certain reagent slimes bottom surgery, good for them.
+  id: 207
+  time: '2025-03-05T01:19:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/309
