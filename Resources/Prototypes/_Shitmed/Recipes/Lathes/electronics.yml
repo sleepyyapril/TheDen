@@ -5,21 +5,16 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
   id: AutodocCircuitboard
   result: AutodocCircuitboard
-  category: Circuitry
-  completetime: 4
-  materials:
-     Steel: 100
-     Glass: 500
-     Gold: 100
 
-# - type: latheRecipe
-#   id: OperatingTableCircuitboard
-#   result: OperatingTableCircuitboard
-#   category: Circuitry
-#   completetime: 4
-#   materials:
-#      Steel: 100
-#      Glass: 500
-#      Gold: 100
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: OperatingTableCircuitboard
+  result: OperatingTableCircuitboard
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: OperatingTableAdvancedCircuitboard
+  result: OperatingTableAdvancedCircuitboard
