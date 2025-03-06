@@ -26,7 +26,6 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Utility;
 using Robust.Client.UserInterface.RichText;
-using Content.Client.UserInterface.RichText;
 using Robust.Shared.Input;
 
 namespace Content.Client.Paper.UI
@@ -64,7 +63,8 @@ namespace Content.Client.Paper.UI
             typeof(ItalicTag),
             typeof(LogoTag),
             typeof(SyndieLogoTag),
-            typeof(MonoTag)
+            typeof(MonoTag),
+            typeof(CCLogoTag)
         };
 
         public event Action<string>? OnSaved;
