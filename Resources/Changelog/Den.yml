@@ -2596,3 +2596,14 @@ Entries:
   id: 209
   time: '2025-03-06T04:45:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/311
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Crusher price in the mining points shop increased following its buff.
+    - type: Tweak
+      message: Prisoners' pacifism implants have been turned off, please do behave.
+    - type: Remove
+      message: Immovable Rods redirected from sector.
+  id: 210
+  time: '2025-03-06T04:45:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/312
