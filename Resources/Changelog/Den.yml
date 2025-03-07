@@ -2635,3 +2635,10 @@ Entries:
   id: 214
   time: '2025-03-07T19:03:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/318
+- author: Fox
+  changes:
+    - type: Tweak
+      message: Arena has been adjusted a little, theres like 8 dorms rooms now.
+  id: 215
+  time: '2025-03-07T19:03:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/319
