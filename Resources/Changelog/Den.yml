@@ -2614,3 +2614,10 @@ Entries:
   id: 211
   time: '2025-03-06T05:35:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/313
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Fixed the layering on pubic hair.
+  id: 212
+  time: '2025-03-07T01:36:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/315
