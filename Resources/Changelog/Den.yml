@@ -2642,3 +2642,12 @@ Entries:
   id: 215
   time: '2025-03-07T19:03:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/319
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Allowed IPCs to take some of the plant markings from dionas and some of
+        the new tails.
+  id: 216
+  time: '2025-03-08T02:30:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/320
