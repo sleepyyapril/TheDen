@@ -2651,3 +2651,13 @@ Entries:
   id: 216
   time: '2025-03-08T02:30:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/320
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: >-
+        Removed the age requirement from all loadouts. Characters are very much
+        still required to be adults, mentally or otherwise, but forcing it
+        mechanically is silly.
+  id: 217
+  time: '2025-03-09T18:59:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/324
