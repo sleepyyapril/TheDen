@@ -2686,3 +2686,10 @@ Entries:
   id: 220
   time: '2025-03-10T04:07:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/328
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Burgers, Cigarettes, and Hamsters in Custom Burgers.
+  id: 221
+  time: '2025-03-10T08:16:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/330
