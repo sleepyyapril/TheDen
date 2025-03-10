@@ -2677,3 +2677,12 @@ Entries:
   id: 219
   time: '2025-03-10T00:17:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/327
+- author: Rosycup
+  changes:
+    - type: Fix
+      message: Boxers and Gladiators can take Striking Calluses as intended.
+    - type: Fix
+      message: Artifact medical reaction now has a proper hint.
+  id: 220
+  time: '2025-03-10T04:07:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/328
