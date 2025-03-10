@@ -1,19 +1,13 @@
 using System.Diagnostics.CodeAnalysis;
-using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
 using Content.Server.Power.Components;
 using Content.Server.Emp;
 using Content.Shared.Administration;
-using Content.Shared.Database;
 using Content.Shared.Examine;
 using Content.Shared.Hands.Components;
-using Content.Shared.Power;
 using Content.Shared.Power.Components;
 using Content.Shared.Power.EntitySystems;
 using Content.Shared.Verbs;
-using Robust.Server.Audio;
-using Robust.Server.GameObjects;
-using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Utility;
 using Content.Shared.Emp;
@@ -24,7 +18,6 @@ namespace Content.Server.Power.EntitySystems
 {
     public sealed class PowerReceiverSystem : SharedPowerReceiverSystem
     {
-        [Dependency] private readonly IAdminLogManager _adminLogger = default!;
         [Dependency] private readonly IAdminManager _adminManager = default!;
         [Dependency] private readonly AppearanceSystem _appearance = default!;
         [Dependency] private readonly AudioSystem _audio = default!;
@@ -69,7 +62,10 @@ namespace Content.Server.Power.EntitySystems
                 Text = Loc.GetString("verb-debug-toggle-need-power"),
                 Category = VerbCategory.Debug,
                 Icon = new SpriteSpecifier.Texture(new ("/Textures/Interface/VerbIcons/smite.svg.192dpi.png")), // "smite" is a lightning bolt
-                Act = () => component.NeedsPower = !component.NeedsPower
+                Act = () =>
+                {
+                    SetNeedsPower(uid, !component.NeedsPower, component);
+                }
             });
         }
 
@@ -152,7 +148,9 @@ namespace Content.Server.Power.EntitySystems
         {
             args.State = new ApcPowerReceiverComponentState
             {
-                Powered = component.Powered
+                Powered = component.Powered,
+                NeedsPower = component.NeedsPower,
+                PowerDisabled = component.PowerDisabled,
             };
         }
 
