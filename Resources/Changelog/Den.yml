@@ -2693,3 +2693,10 @@ Entries:
   id: 221
   time: '2025-03-10T08:16:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/330
+- author: Fox
+  changes:
+    - type: Tweak
+      message: Tortuga has been updated! All Den Maps in rotation are up to standard!
+  id: 222
+  time: '2025-03-10T08:47:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/329
