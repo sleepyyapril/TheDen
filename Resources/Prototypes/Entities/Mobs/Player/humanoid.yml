@@ -66,6 +66,8 @@
     - Monkey # Shitmed Change
     - Kobold # Shitmed Change
   components:
+    - type: GrantImplant
+      implants: [ MindShieldImplant, FreedomImplant, BluespaceLifelineImplant, RadioImplantCentcomm ] # Goobstation
     - type: GhostRole
       name: ghost-role-information-Death-Squad-name
       description: ghost-role-information-Death-Squad-description

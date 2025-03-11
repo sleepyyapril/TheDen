@@ -1118,14 +1118,26 @@
   - type: TemperatureProtection
     coefficient: 0.001
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0.05
+  - type: FireProtection
+    reduction: 0.8
+  - type: StaminaDamageResistance # Goobstation - Start
+    coefficient: 0
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.1
+  - type: ClothingModifyStunTime
+    modifier: 0.1
+  # - type: ModifyStandingUpTime
+  #   multiplier: 0.1
   - type: Armor
     modifiers:
       coefficients:
         Blunt: 0.1 #best armor in the game
         Slash: 0.1
-        Piercing: 0.1
+        Piercing: 0.05 # This is just to fuck over syringes
         Heat: 0.1
+        Cold: 0.1
+        Cellular: 0.1
         Radiation: 0.1
         Caustic: 0.1
   - type: ClothingSpeedModifier
@@ -1134,8 +1146,8 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitDeathsquad
-  - type: StaminaDamageResistance
-    coefficient: 0.1 # 90%
+  # - type: ModifyDelayedKnockdown # Goobstation - End
+  #   cancel: true
 
 #CBURN Hardsuit
 - type: entity
