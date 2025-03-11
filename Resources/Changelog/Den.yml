@@ -2707,3 +2707,12 @@ Entries:
   id: 223
   time: '2025-03-10T18:36:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/211
+- author: Sushiburger
+  changes:
+    - type: Tweak
+      message: >-
+        HumanHybrid tag added to Lizard Neck Floof, Fin Top, Crest Top, and
+        cyberlimbs.
+  id: 224
+  time: '2025-03-11T00:45:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/331
