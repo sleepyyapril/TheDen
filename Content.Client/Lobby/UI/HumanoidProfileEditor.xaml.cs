@@ -40,6 +40,11 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
+// Begin CD - Character Records
+using System.Globalization;
+using Content.Client._CD.Records.UI;
+using Content.Shared._CD.Records;
+// End CD - Character Records
 
 namespace Content.Client.Lobby.UI
 {
@@ -99,6 +104,12 @@ namespace Content.Client.Lobby.UI
         private bool _customizeBorgName;
 
         public event Action<HumanoidCharacterProfile, int>? OnProfileChanged;
+
+        // Begin CD - Station Records
+        private float _defaultHeight = 1f;
+
+        private readonly RecordEditorGui _recordsTab;
+        // End CD - Station Records
 
         [ValidatePrototypeId<GuideEntryPrototype>]
         private const string DefaultSpeciesGuidebook = "Species";
@@ -547,6 +558,16 @@ namespace Content.Client.Lobby.UI
 
             #endregion Markings
 
+            // Begin CD - Character Records
+            #region CosmaticRecords
+
+            _recordsTab = new RecordEditorGui(UpdateProfileRecords);
+            TabContainer.AddChild(_recordsTab);
+            TabContainer.SetTabTitle(TabContainer.ChildCount - 1, Loc.GetString("humanoid-profile-editor-cd-records-tab"));
+
+            #endregion CosmaticRecords
+            // End CD - Character Records
+
             RefreshFlavorText();
 
             #region Dummy
@@ -907,6 +928,11 @@ namespace Content.Client.Lobby.UI
             UpdateHeightWidthSliders();
             UpdateWeight();
             UpdateCharacterRequired();
+
+            // Begin CD - Character Records
+            UpdateHeightControls();
+            _recordsTab.Update(profile);
+            // End CD - Character Records
 
             RefreshAntags();
             RefreshJobs();
@@ -1272,6 +1298,16 @@ namespace Content.Client.Lobby.UI
             }
         }
 
+        // Start CD - Character Records
+        private void UpdateProfileRecords(PlayerProvidedCharacterRecords records)
+        {
+            if (Profile is null)
+                return;
+            Profile = Profile.WithCDCharacterRecords(records);
+            IsDirty = true;
+        }
+        // End CD - Character Records
+
         private void OnFlavorTextChange(string content)
         {
             if (Profile is null)
@@ -1541,6 +1577,15 @@ namespace Content.Client.Lobby.UI
             Profile = Profile?.WithCustomSpeciesName(customname);
             IsDirty = true;
         }
+
+        // Begin CD - Character Records
+        private void SetProfileHeight(float height)
+        {
+            Profile = Profile?.WithHeight(height);
+            SetDirty();
+            ReloadProfilePreview();
+        }
+        // End CD - Character Records
 
         private void SetSpawnPriority(SpawnPriorityPreference newSpawnPriority)
         {
@@ -2015,6 +2060,8 @@ namespace Content.Client.Lobby.UI
             var name = HumanoidCharacterProfile.GetName(Profile.Species, Profile.Gender);
             SetName(name);
             UpdateNameEdit();
+
+            _recordsTab.Update(Profile); // CD - Character Records
         }
 
         private async void ImportProfile()

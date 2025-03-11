@@ -15,6 +15,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
+using Content.Shared._CD.Records; // CD - Character Records
 
 namespace Content.Shared.Preferences;
 
@@ -215,7 +216,8 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             other.PreferenceUnavailable,
             new HashSet<string>(other.AntagPreferences),
             new HashSet<string>(other.TraitPreferences),
-            new HashSet<LoadoutPreference>(other.LoadoutPreferences))
+            new HashSet<LoadoutPreference>(other.LoadoutPreferences)),
+            other.CDCharacterRecords
     {
     }
 
@@ -424,6 +426,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             && LoadoutPreferences.SequenceEqual(other.LoadoutPreferences)
             && Appearance.MemberwiseEquals(other.Appearance)
             && FlavorText == other.FlavorText;
+            && CDCharacterRecords.MemberwiseEquals(other.CDCharacterRecords)
     }
 
     public void EnsureValid(ICommonSession session, IDependencyCollection collection)
@@ -528,6 +531,17 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             SpawnPriorityPreference.Cryosleep => SpawnPriorityPreference.Cryosleep,
             _ => SpawnPriorityPreference.None // Invalid enum values.
         };
+
+        // Begin CD - Character Records
+        if (CDCharacterRecords == null)
+        {
+            CDCharacterRecords = PlayerProvidedCharacterRecords.DefaultRecords();
+        }
+        else
+        {
+            CDCharacterRecords!.EnsureValid();
+        }
+        // End CD - Character Records
 
         var priorities = new Dictionary<string, JobPriority>(JobPriorities
             .Where(p => prototypeManager.TryIndex<JobPrototype>(p.Key, out var job) && job.SetPreference && p.Value switch
