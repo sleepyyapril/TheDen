@@ -2716,3 +2716,12 @@ Entries:
   id: 224
   time: '2025-03-11T00:45:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/331
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added new lamb horns kemonomimi marking, baa.
+    - type: Fix
+      message: Fixed wagging being available to everyone.
+  id: 225
+  time: '2025-03-12T04:12:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/333
