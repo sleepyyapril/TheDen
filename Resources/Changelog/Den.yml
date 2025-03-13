@@ -2775,3 +2775,10 @@ Entries:
   id: 231
   time: '2025-03-13T05:02:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/341
+- author: KekaniCreates
+  changes:
+    - type: Remove
+      message: Removed bounties associated with the VASH update.
+  id: 232
+  time: '2025-03-13T10:25:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/342
