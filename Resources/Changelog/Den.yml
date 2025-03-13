@@ -2761,3 +2761,10 @@ Entries:
   id: 229
   time: '2025-03-13T01:31:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/340
+- author: SolsticeOfTheWinter
+  changes:
+    - type: Add
+      message: More warcrimes for BSO to commit. Also known as a Greatshield and Mace
+  id: 230
+  time: '2025-03-13T01:32:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/339
