@@ -2734,3 +2734,16 @@ Entries:
   id: 226
   time: '2025-03-13T00:54:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/337
+- author: Tirochora
+  changes:
+    - type: Add
+      message: >-
+        new skinColoration that allows a species to use both RGB/HSV and human
+        skin tone sliders, available as a toggle.
+    - type: Tweak
+      message: Humans should now be able to use anything that Human Hybrids can
+    - type: Remove
+      message: the cat ears and cat tail have been removed
+  id: 227
+  time: '2025-03-13T00:54:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/336
