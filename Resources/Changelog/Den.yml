@@ -2768,3 +2768,10 @@ Entries:
   id: 230
   time: '2025-03-13T01:32:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/339
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: pubic hair. Should be fixed for Tajaran, Rodentia, and Vulpkanin.
+  id: 231
+  time: '2025-03-13T05:02:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/341
