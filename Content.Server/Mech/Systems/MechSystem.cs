@@ -171,6 +171,11 @@ public sealed partial class MechSystem : SharedMechSystem
 
     private void OnRemoveEquipmentMessage(EntityUid uid, MechComponent component, MechEquipmentRemoveMessage args)
     {
+        // Frontier: mechs with fixed equipment
+        if (!component.CanRemoveEquipment)
+            return;
+        // End Frontier: mechs with fixed equipment
+
         var equip = GetEntity(args.Equipment);
 
         if (!Exists(equip) || Deleted(equip))
@@ -256,6 +261,17 @@ public sealed partial class MechSystem : SharedMechSystem
             _popup.PopupEntity(Loc.GetString("mech-no-enter", ("item", uid)), args.User);
             return;
         }
+
+        // Frontier - Make AI Attack mechs based on user.
+        if (TryComp<MobStateComponent>(args.User, out var _))
+            EnsureComp<MobStateComponent>(uid);
+        if (TryComp<NpcFactionMemberComponent>(args.User, out var faction))
+        {
+            var factionMech = EnsureComp<NpcFactionMemberComponent>(uid);
+            if (faction.Factions != null)
+                factionMech.Factions = faction.Factions;
+        }
+        // End Frontier
 
         TryInsert(uid, args.Args.User, component);
         _actionBlocker.UpdateCanMove(uid);
