@@ -2804,3 +2804,14 @@ Entries:
   id: 234
   time: '2025-03-15T02:32:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/345
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added the space asshole coat to the loadouts for a big price.
+    - type: Add
+      message: Added gauze markings for IPCs.
+    - type: Tweak
+      message: Swapped riot bullet shield sprites with new ones.
+  id: 235
+  time: '2025-03-15T02:32:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/344
