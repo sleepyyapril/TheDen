@@ -2824,3 +2824,12 @@ Entries:
   id: 236
   time: '2025-03-15T05:58:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/348
+- author: Sushiburger
+  changes:
+    - type: Tweak
+      message: >-
+        Added Human tag to rodentia snouts, ears, vulp body and leg hair
+        markings for more furry customization.
+  id: 237
+  time: '2025-03-15T08:33:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/347
