@@ -2833,3 +2833,15 @@ Entries:
   id: 237
   time: '2025-03-15T08:33:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/347
+- author: Monotheonist
+  changes:
+    - type: Fix
+      message: >-
+        Tweaked all of Shoukou's docks so that arrivals only goes to evac and
+        arrivals in theory. Also, makes sure the salami lid of the Pathfinder
+        fits, in theory.
+    - type: Remove
+      message: Removed Pluey.
+  id: 238
+  time: '2025-03-15T13:10:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/349
