@@ -2782,3 +2782,16 @@ Entries:
   id: 232
   time: '2025-03-13T10:25:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/342
+- author: KekaniCreates
+  changes:
+    - type: Remove
+      message: VASHVend and VASHVend restock boxes, related images, and localizations
+    - type: Remove
+      message: Medfab crafting recipes for all VASH related items.
+    - type: Tweak
+      message: >-
+        Renamed the VASH category to Hygiene, as well as the Sex & VASHbox to
+        "Lewd Box" and "Hygiene Box" accordingly.
+  id: 233
+  time: '2025-03-15T00:32:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/343
