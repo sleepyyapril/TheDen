@@ -8,9 +8,6 @@
         "y": 32
     },
     "states": [
-        {
-            "name": "meatball-cooked"
-        },
 	    {
             "name": "honeyglazedham"
         },

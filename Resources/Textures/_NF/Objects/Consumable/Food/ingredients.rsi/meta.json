@@ -7,18 +7,6 @@
     "y": 32
   },
   "states": [
-    {
-      "name": "salt-big"
-    },
-	{
-      "name": "pepper-big"
-    },
-    {
-      "name": "cocoa-chip-big"
-    },
-	{
-      "name": "raisin-big"
-    },
 	{
       "name": "honeybottle"
     }

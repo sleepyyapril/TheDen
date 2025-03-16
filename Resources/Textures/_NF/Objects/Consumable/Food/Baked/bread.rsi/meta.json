@@ -20,6 +20,15 @@
         "name": "cucumbersandwich"
     },
     {
+        "name": "challah"
+    },
+    {
+        "name": "challahslice"
+    },
+    {
+        "name": "pearmuffin"
+    },
+    {
       "name": "inhand-right",
       "directions": 4
     },

@@ -20,7 +20,7 @@
     - Pie
 
 - type: entity
-  name: honey apple streusel pie
+  name: applecrisp pie
   parent: FoodPieBase
   id: FoodPieAppleHoney
   description: A pie full of honey-laced apples baked under a crumbly oat streusel topping.
