@@ -37,24 +37,8 @@
       "directions": 4
     },
     {
-<<<<<<< HEAD:Resources/Textures/Objects/Consumable/Smokeables/Cigars/case_robust.rsi/meta.json
       "name": "inhand-right",
       "directions": 4
-=======
-        "name": "challah"
-    },
-    {
-        "name": "challahslice"
-    },
-    {
-        "name": "apple_strudel_1"
-    },
-    {
-        "name": "apple_strudel_2"
-    },
-    {
-        "name": "apple_strudel_3"
->>>>>>> 0eee6c2b72 (Honey (#2282)):Resources/Textures/_NF/Objects/Consumable/Food/Baked/bread.rsi/meta.json
     }
   ]
 }
