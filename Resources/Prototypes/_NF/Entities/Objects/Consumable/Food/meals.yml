@@ -70,7 +70,7 @@
       food:
         maxVol: 25
         reagents:
-        - ReagentId: Bicaridine
+        - ReagentId: SalicylicAcid
           Quantity: 5
         - ReagentId: Nutriment
           Quantity: 5
