@@ -103,19 +103,6 @@
 #Other
 
 - type: microwaveMealRecipe
-  id: RecipeDragonOmelette
-  name: dragon omelette recipe
-  result: FoodMealDragonOmelette
-  time: 15
-  solids:
-    FoodButter: 1
-  reagents:
-    Ichor: 12
-    Egg: 12
-    TableSalt: 5
-    Blackpepper: 5
-
-- type: microwaveMealRecipe
   id: RecipeRaisins
   name: raisins recipe
   result: ReagentContainerRaisin # A little bit cursed, spawning a bag
