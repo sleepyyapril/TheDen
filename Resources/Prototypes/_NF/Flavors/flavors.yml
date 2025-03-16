@@ -32,8 +32,3 @@
   id: cucumber
   flavorType: Complex
   description: flavor-complex-cucumber
-
-- type: flavor
-  id: pear
-  flavorType: Complex
-  description: flavor-complex-pear
