@@ -213,15 +213,3 @@
   reagents:
     Honey: 10
     Oats: 10
-
-- type: microwaveMealRecipe
-  id: RecipeAppleStrudelBite
-  name: apple strudel bite
-  result: FoodBakedAppleStrudelBite
-  time: 5
-  solids:
-    FoodCroissantRaw: 1
-    FoodApple: 1
-    FoodButterSlice: 1
-  reagents:
-    Honey: 5
