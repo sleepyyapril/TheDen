@@ -1,28 +1,3 @@
-#Burgers
-
-- type: microwaveMealRecipe
-  id: RecipeClurgerBurger
-  name: clurger recipe
-  result: FoodBurgerClurger
-  time: 10
-  solids:
-    FoodBreadBun: 1
-    ClothingHeadMailCarrier: 1
-    FoodMeatCat: 1
-  recipeType:
-  - Oven
-
-- type: microwaveMealRecipe
-  id: RecipeRosyMothRoachburger
-  name: rosy mothroachburger recipe
-  result: FoodBurgerRosyMothRoach
-  time: 10
-  solids:
-    FoodBreadBun: 1
-    MobRosyMothroach: 1
-  recipeType:
-  - Oven
-
 #Breads & Sandwiches
 
 - type: microwaveMealRecipe
@@ -33,8 +8,6 @@
   solids:
     FoodBreadPlainSlice: 1
     FoodAvocadoSlice: 1
-  recipeType:
-  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBreakfastBagel
@@ -46,8 +19,6 @@
     FoodEgg: 2
     FoodAvocadoSlice: 1
     FoodCheeseSlice: 1
-  recipeType:
-  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeBreakfastBagelPoppy
@@ -59,8 +30,6 @@
     FoodEgg: 2
     FoodAvocadoSlice: 1
     FoodCheeseSlice: 1
-  recipeType:
-  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeCucumberSandwich
@@ -73,8 +42,6 @@
     FoodChevreSlice: 1
   reagents:
     Mayo: 5
-  recipeType:
-  - Assembler
 
 # Sushi
 
@@ -90,8 +57,6 @@
   reagents:
     Rice: 15
     Water: 10
-  recipeType:
-  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeCarpSushi
@@ -105,8 +70,6 @@
   reagents:
     Rice: 15
     Water: 10
-  recipeType:
-  - Assembler
 
 # Salad
 
@@ -122,8 +85,6 @@
     FoodCucumber: 1
     FoodTomato: 1
     FoodChevreSlice: 1
-  recipeType:
-  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipeAvocadoSalad
@@ -138,8 +99,6 @@
     FoodCucumber: 1
     FoodAvocado: 1
     FoodTomato: 1
-  recipeType:
-  - Assembler
 
 #Other
 
@@ -155,9 +114,6 @@
     Egg: 12
     TableSalt: 5
     Blackpepper: 5
-  recipeType:
-  - Oven
-  - Microwave
 
 - type: microwaveMealRecipe
   id: RecipeRaisins
@@ -166,9 +122,6 @@
   time: 30
   solids:
     FoodGrape: 5
-  recipeType:
-  - Oven
-  - Microwave
 
 - type: microwaveMealRecipe
   id: RecipePickle
@@ -179,8 +132,6 @@
     FoodCucumber: 1
   reagents:
     Saline: 10
-  recipeType:
-  - Microwave
 
 - type: microwaveMealRecipe
   id: RecipePoachedPears
@@ -193,8 +144,6 @@
     FoodOrange: 2
   reagents:
     Wine: 10
-  recipeType:
-  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipePearsBelleHelene
@@ -208,8 +157,6 @@
     FoodLemon: 1
   reagents:
     Cream: 5
-  recipeType:
-  - Assembler
 
 - type: microwaveMealRecipe
   id: RecipePearMuffin
@@ -223,8 +170,6 @@
     Flour: 5
     Oats: 5
     Sugar: 5
-  recipeType:
-  - Oven
 
 - type: microwaveMealRecipe
   id: RecipePearCheeseTart
@@ -236,8 +181,6 @@
     FoodDoughPie: 1
     FoodPear: 2
     FoodChevre: 1
-  recipeType:
-  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeHoneyBun
@@ -248,8 +191,6 @@
     FoodBreadBun: 1
   reagents:
     Honey: 5
-  recipeType:
-  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeHoneyChallah
@@ -261,8 +202,6 @@
     PoppySeeds: 1
   reagents:
     Honey: 10
-  recipeType:
-  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeGlazedHam
@@ -274,8 +213,6 @@
   reagents:
     Honey: 10
     TableSalt: 5
-  recipeType:
-  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeAppleHoneyDutchBaby
@@ -289,8 +226,6 @@
   reagents:
     Honey: 10
     Oats: 10
-  recipeType:
-  - Oven
 
 - type: microwaveMealRecipe
   id: RecipeAppleStrudelBite
@@ -303,5 +238,3 @@
     FoodButterSlice: 1
   reagents:
     Honey: 5
-  recipeType:
-  - Oven

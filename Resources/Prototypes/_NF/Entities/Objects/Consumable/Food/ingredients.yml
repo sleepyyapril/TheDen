@@ -16,22 +16,6 @@
           Quantity: 50
 
 - type: entity
-  parent: ReagentPacketBase
-  id: ReagentContainerChocolate
-  name: cocoa powder bag
-  description: A big bag of cocoa powder. Good for cooking!
-  components:
-  - type: Sprite
-    sprite: _NF/Objects/Consumable/Food/ingredients.rsi
-    state: cocoa-chip-big
-  - type: SolutionContainerManager
-    solutions:
-      food:
-        reagents:
-        - ReagentId: CocoaPowder
-          Quantity: 50
-
-- type: entity
   name: raw coffee beans
   parent: FoodProduceBase
   id: FoodCoffeeBeansRaw
