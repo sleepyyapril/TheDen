@@ -30,8 +30,6 @@
   sprites:
     Head: MobShadowkinHead
     Snout: MobShadowkinAnyMarkingFollowSkin
-    Underwear: MobHumanoidAnyMarking
-    Undershirt: MobHumanoidAnyMarking
     HeadTop: MobShadowkinAnyMarkingFollowSkin
     HeadSide: MobShadowkinAnyMarkingFollowSkin
     Tail: MobShadowkinAnyMarkingFollowSkin
