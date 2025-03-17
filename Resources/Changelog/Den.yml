@@ -2905,3 +2905,10 @@ Entries:
   id: 244
   time: '2025-03-17T04:47:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/356
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added the honey stomach organ for chitinids
+  id: 245
+  time: '2025-03-17T10:33:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/358
