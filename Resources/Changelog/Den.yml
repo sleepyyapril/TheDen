@@ -2885,3 +2885,14 @@ Entries:
   id: 242
   time: '2025-03-17T04:45:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/335
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Fitness Shakers Shakeable now.
+    - type: Fix
+      message: >-
+        Fixed certain species not having the option to write down a custom
+        species name.
+  id: 243
+  time: '2025-03-17T04:46:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/354
