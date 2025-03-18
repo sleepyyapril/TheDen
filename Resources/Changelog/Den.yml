@@ -2972,3 +2972,12 @@ Entries:
   id: 251
   time: '2025-03-18T04:04:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/360
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the screws being stripped on the Engineering Holoprojector. Now
+        you can take the battery out!
+  id: 252
+  time: '2025-03-18T04:09:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/372
