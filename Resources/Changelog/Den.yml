@@ -2930,3 +2930,12 @@ Entries:
   id: 247
   time: '2025-03-18T03:42:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/363
+- author: KekaniCreates
+  changes:
+    - type: Tweak
+      message: Renamed the "medsechud" to "BSO glasses".
+    - type: Fix
+      message: Corpsman Glasses now properly display health bars.
+  id: 248
+  time: '2025-03-18T03:42:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/365
