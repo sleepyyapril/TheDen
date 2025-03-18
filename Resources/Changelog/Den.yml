@@ -2912,3 +2912,12 @@ Entries:
   id: 245
   time: '2025-03-17T10:33:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/358
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added Water Vapor canisters to the cargo catalog.
+    - type: Add
+      message: New Ammonia and Tritium canister sprites.
+  id: 246
+  time: '2025-03-18T03:42:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/362
