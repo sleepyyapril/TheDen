@@ -2939,3 +2939,12 @@ Entries:
   id: 248
   time: '2025-03-18T03:42:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/365
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: >-
+        Fixed a bug where you could put literally anything into a printed gun in
+        the magazine slot.
+  id: 249
+  time: '2025-03-18T03:52:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/368
