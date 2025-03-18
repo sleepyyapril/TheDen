@@ -2981,3 +2981,10 @@ Entries:
   id: 252
   time: '2025-03-18T04:09:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/372
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Senior Researcher PDA should have the correct programs, now.
+  id: 253
+  time: '2025-03-18T04:10:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/367
