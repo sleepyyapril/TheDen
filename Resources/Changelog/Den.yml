@@ -2988,3 +2988,12 @@ Entries:
   id: 253
   time: '2025-03-18T04:10:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/367
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Clothing, Seeds, and Pride Vends restocks had their prices increased
+        according to their contents' value.
+  id: 254
+  time: '2025-03-18T04:30:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/373
