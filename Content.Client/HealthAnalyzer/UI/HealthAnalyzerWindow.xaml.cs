@@ -2,6 +2,7 @@ using System.Linq;
 using System.Numerics;
 using Content.Shared.Atmos;
 using Content.Client.UserInterface.Controls;
+using Content.Shared._DV.MedicalRecords; // DeltaV - Medical Records
 using Content.Shared._Shitmed.Targeting; // Shitmed
 using Content.Shared.Damage;
 using Content.Shared.Damage.Prototypes;
@@ -42,6 +43,14 @@ namespace Content.Client.HealthAnalyzer.UI
         private EntityUid? _target;
         // Shitmed Change End
 
+        // Begin DeltaV - Medical Records
+        private readonly ButtonGroup _triageStatusGroup = new();
+        private readonly Dictionary<TriageStatus, Button> _triageControls = new();
+
+        public event Action<TriageStatus>? OnTriageStatusChanged;
+        public event Action? OnClaimPatient;
+        // End DeltaV - Medical Records
+
         public HealthAnalyzerWindow()
         {
             RobustXamlLoader.Load(this);
@@ -74,6 +83,26 @@ namespace Content.Client.HealthAnalyzer.UI
             }
             ReturnButton.OnPressed += _ => ResetBodyPart();
             // Shitmed Change End
+
+            // Begin DeltaV - Medical Records
+            foreach (var item in Enum.GetValues<TriageStatus>())
+            {
+                var btn = new Button();
+                var ftlKey = item.ToString();
+                btn.Group = _triageStatusGroup;
+                btn.Text = Loc.GetString($"health-analyzer-window-triage-status-{ftlKey}");
+                btn.ToolTip = Loc.GetString($"health-analyzer-window-triage-status-{ftlKey}.ToolTip");
+                btn.OnPressed += _ => OnTriageStatusChanged?.Invoke(item);
+                btn.AddStyleClass("ButtonSquare");
+                StatusBox.AddChild(btn);
+                _triageControls[item] = btn;
+            }
+            StatusBox.Children.First().AddStyleClass("OpenRight");
+            StatusBox.Children.First().RemoveStyleClass("ButtonSquare");
+            StatusBox.Children.Last().AddStyleClass("OpenLeft");
+            StatusBox.Children.Last().RemoveStyleClass("ButtonSquare");
+            ClaimButton.OnPressed += _ => OnClaimPatient?.Invoke();
+            // End DeltaV - Medical Records
         }
 
         // Shitmed Change Start
@@ -211,6 +240,16 @@ namespace Content.Client.HealthAnalyzer.UI
             IReadOnlyDictionary<string, FixedPoint2> damagePerType = damageable.Damage.DamageDict;
 
             DrawDiagnosticGroups(damageSortedGroups, damagePerType);
+
+            // Begin DeltaV - Medical Records
+            if (msg.MedicalRecord is not {} records)
+            {
+                TriageControls.Visible = false;
+                return;
+            }
+
+            _triageControls[records.Status].Pressed = true;
+            // End DeltaV - Medical Records
         }
         // Shitmed Change End
         private static string GetStatus(MobState mobState)
