@@ -2921,3 +2921,12 @@ Entries:
   id: 246
   time: '2025-03-18T03:42:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/362
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Shogun's Armoured Dogi, an armor piece choice for the Captain
+        available in the loadout.
+  id: 247
+  time: '2025-03-18T03:42:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/363
