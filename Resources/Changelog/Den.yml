@@ -2845,3 +2845,70 @@ Entries:
   id: 238
   time: '2025-03-15T13:10:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/349
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added earless Goat and Lamb horn markings.
+  id: 239
+  time: '2025-03-16T02:54:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/352
+- author: Various Frontier and Wizden Contributors
+  changes:
+    - type: Add
+      message: Pears and Pear related foods
+    - type: Add
+      message: Avocados and related foods
+    - type: Add
+      message: Cucumbers and their related foods
+    - type: Add
+      message: Honey and their related foods
+    - type: Add
+      message: >-
+        Uranium Pizza, it's hot, it's crunchy, it's spicy, but most of all, IT'S
+        FRESH OUT THE OVEN.
+    - type: Add
+      message: 'Other various food items (including but not limited too: Bagels)'
+  id: 240
+  time: '2025-03-16T03:37:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/351
+- author: ElusiveCoin
+  changes:
+    - type: Add
+      message: Cozy little beanies for your head!
+  id: 241
+  time: '2025-03-16T07:10:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/353
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Shark friends have arrived from Delta-V!
+  id: 242
+  time: '2025-03-17T04:45:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/335
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Fitness Shakers Shakeable now.
+    - type: Fix
+      message: >-
+        Fixed certain species not having the option to write down a custom
+        species name.
+  id: 243
+  time: '2025-03-17T04:46:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/354
+- author: trashalice
+  changes:
+    - type: Add
+      message: >-
+        Corpsmen Summer Uniform, now you won't die to space summer in your
+        stuffy uniform!
+  id: 244
+  time: '2025-03-17T04:47:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/356
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added the honey stomach organ for chitinids
+  id: 245
+  time: '2025-03-17T10:33:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/358
