@@ -2955,3 +2955,20 @@ Entries:
   id: 250
   time: '2025-03-18T03:58:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/370
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: Added the ability to fold ALL of the cargo tech jumpsuits.
+    - type: Add
+      message: >-
+        Added VASH items to the nanomed and nanomed plus, as well as to the med
+        techfab.
+    - type: Tweak
+      message: Sexual trait descriptions are a little more clear.
+    - type: Remove
+      message: >-
+        Removed the ability to fold the corpsman outfit until texture problem is
+        fixed.
+  id: 251
+  time: '2025-03-18T04:04:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/360
