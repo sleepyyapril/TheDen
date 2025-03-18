@@ -2948,3 +2948,10 @@ Entries:
   id: 249
   time: '2025-03-18T03:52:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/368
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Changed the localizations for Gekker and Yip
+  id: 250
+  time: '2025-03-18T03:58:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/370
