@@ -3011,3 +3011,10 @@ Entries:
   id: 256
   time: '2025-03-18T17:03:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/374
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Feroxi can now speak in their own tongue!
+  id: 257
+  time: '2025-03-18T17:27:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/361
