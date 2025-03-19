@@ -3032,3 +3032,12 @@ Entries:
   id: 259
   time: '2025-03-19T03:59:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/378
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the RootSpeak trait to work correctly. You're not the Lorax, but
+        you can speak to the trees!
+  id: 260
+  time: '2025-03-19T03:59:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/376
