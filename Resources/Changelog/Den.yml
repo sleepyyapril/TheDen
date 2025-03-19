@@ -3025,3 +3025,10 @@ Entries:
   id: 258
   time: '2025-03-19T03:58:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/379
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Localization issues on the HoS loadouts.
+  id: 259
+  time: '2025-03-19T03:59:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/378
