@@ -3018,3 +3018,10 @@ Entries:
   id: 257
   time: '2025-03-18T17:27:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/361
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: BSO can now enter the Corpsman office.
+  id: 258
+  time: '2025-03-19T03:58:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/379
