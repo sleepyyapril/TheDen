@@ -3041,3 +3041,10 @@ Entries:
   id: 260
   time: '2025-03-19T03:59:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/376
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Loadouts have been reorganized please make sure you update yours!
+  id: 261
+  time: '2025-03-19T04:00:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/375
