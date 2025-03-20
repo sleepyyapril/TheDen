@@ -81,6 +81,8 @@
     - Trash
     - BorgArm
     - BorgLArm
+  - type: Item
+    heldPrefix: borg-arm
 
 - type: entity
   id: BaseBorgRightArm
@@ -105,6 +107,8 @@
     - Trash
     - BorgArm
     - BorgRArm
+  - type: Item
+    heldPrefix: borg-arm
 
 - type: entity
   id: BaseBorgLegLeft
@@ -130,6 +134,8 @@
     - BorgLeg
     - BorgLLeg
   - type: MovementBodyPart
+  - type: Item
+    heldPrefix: borg-leg
 
 - type: entity
   id: BaseBorgLegRight
@@ -155,6 +161,8 @@
     - BorgLeg
     - BorgRLeg
   - type: MovementBodyPart
+  - type: Item
+    heldPrefix: borg-leg
 
 - type: entity
   id: BaseLightHeadBorg
@@ -173,6 +181,8 @@
     tags:
     - Trash
     - BorgHead
+  - type: Item
+    heldPrefix: borg-head
 
 - type: entity
   id: BaseBorgTorso
@@ -191,3 +201,5 @@
     tags:
     - Trash
     - BorgTorso
+  - type: Item
+    heldPrefix: borg-chest
