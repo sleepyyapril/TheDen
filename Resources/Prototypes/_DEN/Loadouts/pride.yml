@@ -88,17 +88,6 @@
     group: LoadoutNeck
 
 - type: loadout
-  id: LoadoutNeckLesbianPin
-  category: Neck
-  cost: 1
-  exclusive: true
-  items:
-  - ClothingNeckLesbianPin
-  requirements:
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutNeck
-
-- type: loadout
   id: LoadoutNeckTransPin
   category: Neck
   cost: 1
