@@ -3066,3 +3066,10 @@ Entries:
   id: 263
   time: '2025-03-20T04:30:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/382
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Mopped up Space Lube no longer has residue in the water.
+  id: 264
+  time: '2025-03-20T04:31:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/380
