@@ -13,6 +13,13 @@
     - ClothMade
     - WhitelistChameleon
 
+- type: latheRecipe
+  id: ClothingHeadHatBeanieBlackAbsurd
+  result: ClothingHeadHatBeanieBlackAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanieBlackWithPinAbsurd
@@ -27,6 +34,13 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+- type: latheRecipe
+  id: ClothingHeadHatBeanieBlackWithPinAbsurd
+  result: ClothingHeadHatBeanieBlackWithPinAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
 
 - type: entity
   parent: ClothingHeadBase
@@ -43,6 +57,14 @@
     - ClothMade
     - WhitelistChameleon
 
+- type: latheRecipe
+  id: ClothingHeadHatBeanieBlueAbsurd
+  result: ClothingHeadHatBeanieBlueAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
+
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanieGoldAbsurd
@@ -57,6 +79,13 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+- type: latheRecipe
+  id: ClothingHeadHatBeanieGoldAbsurd
+  result: ClothingHeadHatBeanieGoldAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
 
 - type: entity
   parent: ClothingHeadBase
@@ -73,6 +102,14 @@
     - ClothMade
     - WhitelistChameleon
 
+- type: latheRecipe
+  id: ClothingHeadHatBeanieGreenAbsurd
+  result: ClothingHeadHatBeanieGreenAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
+
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanieKhakiAbsurd
@@ -87,6 +124,13 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+- type: latheRecipe
+  id: ClothingHeadHatBeanieKhakiAbsurd
+  result: ClothingHeadHatBeanieKhakiAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
 
 - type: entity
   parent: ClothingHeadBase
@@ -103,6 +147,13 @@
     - ClothMade
     - WhitelistChameleon
 
+- type: latheRecipe
+  id: ClothingHeadHatBeanieKhakiWithPinAbsurd
+  result: ClothingHeadHatBeanieKhakiWithPinAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanieNavyBlueAbsurd
@@ -117,6 +168,13 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+- type: latheRecipe
+  id: ClothingHeadHatBeanieNavyBlueAbsurd
+  result: ClothingHeadHatBeanieNavyBlueAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
 
 - type: entity
   parent: ClothingHeadBase
@@ -133,6 +191,13 @@
     - ClothMade
     - WhitelistChameleon
 
+- type: latheRecipe
+  id: ClothingHeadHatBeanieNavyBlueWithPinAbsurd
+  result: ClothingHeadHatBeanieNavyBlueWithPinAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeaniePurpleAbsurd
@@ -147,6 +212,13 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+- type: latheRecipe
+  id: ClothingHeadHatBeaniePurpleAbsurd
+  result: ClothingHeadHatBeaniePurpleAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
 
 - type: entity
   parent: ClothingHeadBase
@@ -163,6 +235,13 @@
     - ClothMade
     - WhitelistChameleon
 
+- type: latheRecipe
+  id: ClothingHeadHatBeanieWhiteAbsurd
+  result: ClothingHeadHatBeanieWhiteAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeanieYellowAbsurd
@@ -177,3 +256,33 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+- type: latheRecipe
+  id: ClothingHeadHatBeanieYellowAbsurd
+  result: ClothingHeadHatBeanieYellowAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
+
+# Red Beanie - Kekani (Hi, Coin!)
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeanieRedAbsurd
+  name: red beanie
+  description: A red beanie, a skater and cargo tech's favorite headwear.
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Head/Hats/beaniesabsurd/red.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Head/Hats/beaniesabsurd/red.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+
+- type: latheRecipe
+  id: ClothingHeadHatBeanieRedAbsurd
+  result: ClothingHeadHatBeanieRedAbsurd
+  completetime: 4
+  materials:
+    Cloth: 200
