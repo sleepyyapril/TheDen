@@ -3091,3 +3091,10 @@ Entries:
   id: 266
   time: '2025-03-21T03:15:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/385
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: Red Beanies, and crafting recipes for them! Woo-hoo!
+  id: 267
+  time: '2025-03-21T03:15:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/384
