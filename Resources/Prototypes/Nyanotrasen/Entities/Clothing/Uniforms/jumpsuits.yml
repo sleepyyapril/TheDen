@@ -147,7 +147,7 @@
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/explorer.rsi
 
 - type: entity
-  parent: ClothingOuterStorageBase
+  parent: [ ClothingOuterStorageBase, ClothingUniformFoldableBase ]
   id: ClothingOuterExplorerCoat
   name: explorer's labcoat
   description: Looks like it's seen its fair share of dusty trails.

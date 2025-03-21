@@ -384,7 +384,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/scientist.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtRoboticist
   name: roboticist jumpskirt
   description: It's a slimming black with reinforced seams; great for industrial work.
