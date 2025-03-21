@@ -3105,3 +3105,18 @@ Entries:
   id: 268
   time: '2025-03-21T04:38:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/389
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Decreased sell prices of bees, the Great Beepression.
+    - type: Fix
+      message: >-
+        Fixed the localization for the Furred Left Hand marking and Tail Wag
+        trait.
+    - type: Tweak
+      message: >-
+        Paper and Cookie Fortunes added to Chameleon Projector blacklist
+        following invisibility bug.
+  id: 269
+  time: '2025-03-21T04:40:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/388
