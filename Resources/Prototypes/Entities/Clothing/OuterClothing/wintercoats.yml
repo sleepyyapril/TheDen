@@ -382,7 +382,7 @@
 
 
 - type: entity
-  parent: ClothingOuterWinterCoatToggleable
+  parent: [ ClothingOuterWinterCoatToggleable, ClothingUniformFoldableBase ]
   id: ClothingOuterWinterRD
   name: mystagogue's winter coat # DeltaV - Epistemics Department replacing Science
   components:
@@ -414,7 +414,7 @@
 
 
 - type: entity
-  parent: ClothingOuterWinterCoatToggleable
+  parent: [ ClothingOuterWinterCoatToggleable, ClothingUniformFoldableBase ]
   id: ClothingOuterWinterSci
   name: epistemics winter coat # DeltaV - Epistemics Department replacing Science
   components:
