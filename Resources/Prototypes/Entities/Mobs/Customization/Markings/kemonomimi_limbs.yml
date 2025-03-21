@@ -53,7 +53,7 @@
     state: furred_r_foot
 
 - type: marking
-  id: FurArms
+  id: FurredLeftHand
   bodyPart: LHand
   markingCategory: LeftHand
   speciesRestriction: [Human, HumanHybrid]

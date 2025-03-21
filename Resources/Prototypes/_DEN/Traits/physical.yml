@@ -134,7 +134,7 @@
           weightlessAcceleration: 0.35
 
 - type: trait
-  id: Tail Wag
+  id: TailWag
   category: Physical
   points: 0
   requirements:
