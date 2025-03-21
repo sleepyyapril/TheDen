@@ -3120,3 +3120,12 @@ Entries:
   id: 269
   time: '2025-03-21T04:40:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/388
+- author: Impstation
+  changes:
+    - type: Add
+      message: From the IMP sector, over a hundred new hair styles and markings!
+    - type: Tweak
+      message: Vox and Slimes have received a minor visual refresh.
+  id: 270
+  time: '2025-03-21T05:49:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/386
