@@ -179,4 +179,6 @@
       id: LoadoutHeadHatBeanieWhiteAbsurd
     - type: loadout
       id: LoadoutHeadHatBeanieYellowAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieRedAbsurd
 

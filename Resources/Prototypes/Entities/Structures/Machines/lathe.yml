@@ -1774,6 +1774,20 @@
       - ClothingHandsJanitorWarmers
       - ClothingUnderSocksJanitor
       - ClothingUniformJanitorThong
+      # DEN - AbsurdBeanies
+      - ClothingHeadHatBeanieBlackAbsurd
+      - ClothingHeadHatBeanieBlackWithPinAbsurd
+      - ClothingHeadHatBeanieBlueAbsurd
+      - ClothingHeadHatBeanieGoldAbsurd
+      - ClothingHeadHatBeanieGreenAbsurd
+      - ClothingHeadHatBeanieKhakiAbsurd
+      - ClothingHeadHatBeanieKhakiWithPinAbsurd
+      - ClothingHeadHatBeanieNavyBlueAbsurd
+      - ClothingHeadHatBeanieNavyBlueWithPinAbsurd
+      - ClothingHeadHatBeaniePurpleAbsurd
+      - ClothingHeadHatBeanieWhiteAbsurd
+      - ClothingHeadHatBeanieYellowAbsurd
+      - ClothingHeadHatBeanieRedAbsurd
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - ClothingHeadHatCentcomcap
