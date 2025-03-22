@@ -3129,3 +3129,12 @@ Entries:
   id: 270
   time: '2025-03-21T05:49:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/386
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Honey Mustard, eating a burger wit' no honey mustard.
+    - type: Tweak
+      message: Tweaked recipes to have honey in them
+  id: 271
+  time: '2025-03-22T08:36:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/390
