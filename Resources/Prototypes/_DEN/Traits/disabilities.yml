@@ -1,0 +1,22 @@
+- type: trait
+  id: FastMetabolism
+  category: Mental
+  points: 2
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Borg
+        - MedicalBorg
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
+        - Chitinid
+        - Rodentia
+        - Tajaran
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+      - type: Hunger
+        baseDecayRate: 0.0467
