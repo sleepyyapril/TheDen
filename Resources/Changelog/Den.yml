@@ -3151,3 +3151,10 @@ Entries:
   id: 272
   time: '2025-03-23T04:40:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/392
+- author: KekaniCreates
+  changes:
+    - type: Tweak
+      message: Renamed "Flamenco" dress to more a more accurate "Oaxaqueño" dress.
+  id: 273
+  time: '2025-03-23T04:42:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/391
