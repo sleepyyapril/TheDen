@@ -18,5 +18,5 @@
   functions:
     - !type:TraitReplaceComponent
       components:
-      - type: Hunger
-        baseDecayRate: 0.0467
+        - type: Hunger
+          baseDecayRate: 0.0467
