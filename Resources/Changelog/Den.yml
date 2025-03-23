@@ -3158,3 +3158,12 @@ Entries:
   id: 273
   time: '2025-03-23T04:42:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/391
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a Fast Metabolism trait that causes your hunger to deplete 33%
+        faster.
+  id: 274
+  time: '2025-03-23T05:25:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/394
