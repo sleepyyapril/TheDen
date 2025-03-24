@@ -3183,3 +3183,10 @@ Entries:
   id: 276
   time: '2025-03-24T05:45:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/396
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added lasagne. I hate mondays.
+  id: 277
+  time: '2025-03-24T08:49:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/397
