@@ -3167,3 +3167,10 @@ Entries:
   id: 274
   time: '2025-03-23T05:25:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/394
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Robotics Labocoat/Gloves made exclusive to Roboticist
+  id: 275
+  time: '2025-03-24T03:12:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/395
