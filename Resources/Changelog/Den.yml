@@ -3174,3 +3174,12 @@ Entries:
   id: 275
   time: '2025-03-24T03:12:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/395
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: >-
+        Added the ability to fold most Logistics-department jumpsuits, save for
+        the Foreman's Jacket and the Gorka.
+  id: 276
+  time: '2025-03-24T05:45:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/396
