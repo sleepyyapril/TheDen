@@ -159,34 +159,11 @@ namespace Content.Shared.Atmos
             [Gas.Plasma] = Loc.GetString("gas-plasma-abbreviation"),
             [Gas.Tritium] = Loc.GetString("gas-tritium-abbreviation"),
             [Gas.WaterVapor] = Loc.GetString("gas-water-vapor-abbreviation"),
-        };
-
-
-        /// <summary>
-        ///     Funkystation - Dictionary of names for <see cref="Gas"/>
-        /// </summary>
-        public static Dictionary<Gas, string> GasNames = new Dictionary<Gas, string>()
-        {
-            [Gas.Ammonia] = Loc.GetString("gases-ammonia"),
-            [Gas.CarbonDioxide] = Loc.GetString("gases-co2"),
-            [Gas.Frezon] = Loc.GetString("gases-frezon"),
-            [Gas.Nitrogen] = Loc.GetString("gases-nitrogen"),
-            [Gas.NitrousOxide] = Loc.GetString("gases-n2o"),
-            [Gas.Oxygen] = Loc.GetString("gases-oxygen"),
-            [Gas.Plasma] = Loc.GetString("gases-plasma"),
-            [Gas.Tritium] = Loc.GetString("gases-tritium"),
-            [Gas.WaterVapor] = Loc.GetString("gases-water-vapor"),
-            [Gas.BZ] = Loc.GetString("gases-bz"),
-            [Gas.Healium] = Loc.GetString("gases-healium"),
-            [Gas.Nitrium] = Loc.GetString("gases-nitrium"),
-            [Gas.Pluoxium] = Loc.GetString("gases-pluoxium"),
-            [Gas.Hydrogen] = Loc.GetString("gases-hydrogen"),
-            [Gas.HyperNoblium] = Loc.GetString("gases-hyper-noblium"),
-            [Gas.ProtoNitrate] = Loc.GetString("gases-proto-nitrate"),
-            [Gas.Zauker] = Loc.GetString("gases-zauker"),
-            [Gas.Halon] = Loc.GetString("gases-halon"),
-            [Gas.Helium] = Loc.GetString("gases-helium"),
-            [Gas.AntiNoblium] = Loc.GetString("gases-anti-noblium"),
+            [Gas.BZ] = Loc.GetString("gas-bz-abbreviation"),
+            [Gas.Healium] = Loc.GetString("gas-healium-abbreviation"),
+            [Gas.Nitrium] = Loc.GetString("gas-nitrium-abbreviation"),
+            [Gas.Pluoxium] = Loc.GetString("gas-pluoxium-abbreviation"),
+            [Gas.Hydrogen] = Loc.GetString("gas-hydrogen-abbreviation"),
         };
 
         #region Excited Groups
@@ -216,7 +193,7 @@ namespace Content.Shared.Atmos
         /// <summary>
         ///     Total number of gases. Increase this if you want to add more!
         /// </summary>
-        public const int TotalNumberOfGases = 13; // Assmos - /tg/ gases
+        public const int TotalNumberOfGases = 14; // Assmos - /tg/ gases
 
         /// <summary>
         ///     This is the actual length of the gases arrays in mixtures.
@@ -320,6 +297,19 @@ namespace Content.Shared.Atmos
         public const float NitriumDecompositionEnergy = 30e3f; // Assmos - /tg/ gases
 
         /// <summary>
+        ///     The amount of energy 1 mol of Pluoxium forming releases.
+        /// </summary>
+        public const float PluoxiumProductionEnergy = 250; // Assmos - /tg/ gases
+
+        /// <summary>
+        ///     The amount of energy 1 mol of Pluoxium forming releases.
+        /// </summary>
+        public const float MinimumHydrogenOxyburnEnergy = 143000f; // Assmos - /tg/ gases
+
+        public const float HydrogenBurnOxyFactor = 100f; // Assmos - /tg/ gases
+        public const float HydrogenBurnH2Factor = 10f; // Assmos - /tg/ gases
+
+        /// <summary>
         ///     Determines at what pressure the ultra-high pressure red icon is displayed.
         /// </summary>
         public const float HazardHighPressure = 550f;
@@ -409,5 +399,6 @@ namespace Content.Shared.Atmos
         Healium = 10, // Assmos - /tg/ gases
         Nitrium = 11, // Assmos - /tg/ gases
         Pluoxium = 12, // Assmos - /tg/ gases
+        Hydrogen = 13, // Assmos - /tg/ gases
     }
 }

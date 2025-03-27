@@ -548,6 +548,10 @@
     - CryoPodMachineCircuitboard
     - N14MaterialCircuitry
     - CutterMachineCircuitboard
+    - SalvageMagnetMachineCircuitboard
+    - OperatingTableCircuitboard # Shitmed Change
+    - BorgChargerCircuitboard
+    - ElectrolyzerMachineBoard # Assmos - /tg/ gases
     dynamicRecipes:
     - ThermomachineFreezerMachineCircuitBoard
     - DroneElectronics

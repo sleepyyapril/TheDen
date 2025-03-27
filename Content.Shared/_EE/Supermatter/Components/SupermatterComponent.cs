@@ -455,7 +455,89 @@ public sealed partial class GasFact
         TransmitModifier = transmitModifier;
         HeatPenalty = heatPenalty;
         PowerMixRatio = powerMixRatio;
+        HeatResistance = heatResistance;
     }
+}
+
+[Serializable, NetSerializable]
+public static class SupermatterGasData
+{
+    public static readonly Dictionary<Gas, SupermatterGasFact> GasData = new()
+    {
+        { Gas.Oxygen,        new(1.5f, 1f,    1f,  1f) },
+        { Gas.Nitrogen,      new(0f,   -1.5f, -1f, 1f) },
+        { Gas.CarbonDioxide, new(0f,   0.1f,  1f,  1f) },
+        { Gas.Plasma,        new(4f,   15f,   1f,  1f) },
+        { Gas.Tritium,       new(30f,  10f,   1f,  1f) },
+        { Gas.WaterVapor,    new(2f,   12f,   1f,  1f) },
+        { Gas.Ammonia,       new(0f,   1f,    1f , 1f) },
+        { Gas.NitrousOxide,  new(0f,   -5f,   -1f, 6f) },
+        { Gas.Frezon,        new(3f,   -10f,  -1f, 1f) },
+        { Gas.BZ,            new(0f,   5f,    1f,  1f) }, // Assmos - /tg/ gases
+        { Gas.Healium,       new(2.4f, 4f,    1f,  1f) }, // Assmos - /tg/ gases
+        { Gas.Pluoxium,      new(0f,   -2.5f, -1f, 1f) }, // Assmos - /tg/ gases
+        { Gas.Nitrium,       new(30f,  10f,   1f,  1f) }, // Assmos - /tg/ gases
+        { Gas.Hydrogen,      new(20f,  10f,   1f,  1f) }, // Assmos - /tg/ gases
+    };
+
+    public static float CalculateGasMixModifier(GasMixture mix, Func<SupermatterGasFact, float> getModifier)
+    {
+        var modifier = 0f;
+
+        foreach (var gasId in Enum.GetValues<Gas>())
+            modifier += mix.GetMoles(gasId) * getModifier(GasData.GetValueOrDefault(gasId));
+
+        return modifier;
+    }
+
+    public static float GetTransmitModifiers(GasMixture mix)
+    {
+        return CalculateGasMixModifier(mix, data => data.TransmitModifier);
+    }
+
+    public static float GetHeatPenalties(GasMixture mix)
+    {
+        return CalculateGasMixModifier(mix, data => data.HeatPenalty);
+    }
+
+    public static float GetPowerMixRatios(GasMixture mix)
+    {
+        return CalculateGasMixModifier(mix, data => data.PowerMixRatio);
+    }
+
+    public static float GetHeatResistances(GasMixture mix)
+    {
+        return CalculateGasMixModifier(mix, data => data.HeatResistance);
+    }
+}
+
+[Serializable, NetSerializable]
+public enum SupermatterStatusType : sbyte
+{
+    Error = -1,
+    Inactive = 0,
+    Normal = 1,
+    Caution = 2,
+    Warning = 3,
+    Danger = 4,
+    Emergency = 5,
+    Delaminating = 6
+}
+
+[Serializable, NetSerializable]
+public enum SupermatterCrystalState : byte
+{
+    Normal,
+    Glow,
+    GlowEmergency,
+    GlowDelam
+}
+
+[Serializable, NetSerializable]
+public enum SupermatterVisuals : byte
+{
+    Crystal,
+    Psy
 }
 
 [Serializable, NetSerializable]

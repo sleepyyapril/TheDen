@@ -40,7 +40,7 @@ public sealed partial class PluoxiumProductionReaction : IGasReactionEffect
         mixture.AdjustMoles(Gas.Oxygen, -oxyRemoved);
         mixture.AdjustMoles(Gas.Tritium, -tritRemoved);
         mixture.AdjustMoles(Gas.Pluoxium, pluoxProduced);
-        mixture.AdjustMoles(Gas.WaterVapor, hydroProduced);
+        mixture.AdjustMoles(Gas.Hydrogen, hydroProduced);
 
         var energyReleased = producedAmount * Atmospherics.PluoxiumProductionEnergy;
         var heatCap = atmosphereSystem.GetHeatCapacity(mixture, true);
