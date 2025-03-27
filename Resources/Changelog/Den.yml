@@ -3190,3 +3190,12 @@ Entries:
   id: 277
   time: '2025-03-24T08:49:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/397
+- author: Rosycup
+  changes:
+    - type: Fix
+      message: >-
+        Fixed some of the localization on certain loadout categories to display
+        the proper name of the item group.
+  id: 278
+  time: '2025-03-27T06:03:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/398
