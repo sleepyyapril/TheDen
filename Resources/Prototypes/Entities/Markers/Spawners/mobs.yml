@@ -807,6 +807,11 @@
       - MobSpawnCrabIron
       - MobSpawnCrabQuartz
       - MobSpawnCrabSilver
+      - MobSpawnBananiumCrab
+      - MobSpawnCoalCrab
+      - MobSpawnGoldCrab
+      - MobSpawnPlasmaCrab
+      - MobSpawnSaltCrab
 
 - type: entity
   name: luminous person spawner
