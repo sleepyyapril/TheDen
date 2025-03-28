@@ -3199,3 +3199,12 @@ Entries:
   id: 278
   time: '2025-03-27T06:03:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/398
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Ported Bananium, Plasma, Coal, Gold, and Salt variants of Ore Crabs and
+        Rock Anomalies, as well as Ore Golems from Frontier.
+  id: 279
+  time: '2025-03-28T08:59:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/399
