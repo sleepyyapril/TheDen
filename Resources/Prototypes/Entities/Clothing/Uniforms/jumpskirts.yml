@@ -34,7 +34,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/captain.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtCargo
   name: cargo tech jumpskirt
   description: A sturdy jumpskirt, issued to members of the Logistics department. # DeltaV - Logistics Department replacing Cargo
@@ -340,7 +340,7 @@
     - Skirt # Delta-V - Skirt Tag so Harpies can wear it.
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtQM
   name: logistics officer's jumpskirt # DeltaV - Logistics Department replacing Cargo
   description: 'What can brown do for you?'
@@ -351,7 +351,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/qm.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtQMTurtleneck
   name: logistics officer's turtleneck # DeltaV - Logistics Department replacing Cargo
   description: A sharp turtleneck made for the hardy work environment of supply.
@@ -362,7 +362,7 @@
       sprite: _CD/Clothing/Uniforms/Jumpskirt/qmturtleskirt.rsi # CD drip 2
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtResearchDirector
   name: mystagogue's turtleneck # DeltaV - Epistemics Department replacing Science
   description: It's a turtleneck worn by those with the know-how to achieve the position of Mystagogue. Its fabric provides minor protection from biological contaminants. # DeltaV - Epistemics Department replacing Science
@@ -373,7 +373,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/rnd.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtScientist
   name: scientist jumpskirt
   description: It's made of a special fiber that increases perceived intelligence and decreases personal ethics. It has markings that denote the wearer as a scientist.
@@ -384,7 +384,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/scientist.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtRoboticist
   name: roboticist jumpskirt
   description: It's a slimming black with reinforced seams; great for industrial work.
@@ -1062,8 +1062,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtDressFlamenco
-  name: flamenco dress
-  description: A Mexican flamenco dress.
+  name: Oaxaqueño dress
+  description: A Mexican Oaxaqueño dress.
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/flamenco.rsi

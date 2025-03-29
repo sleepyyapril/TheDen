@@ -177,3 +177,19 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+# Red Beanie - Kekani (Hi, Coin!)
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeanieRedAbsurd
+  name: red beanie
+  description: A red beanie, a skater and cargo tech's favorite headwear.
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Head/Hats/beaniesabsurd/red.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Head/Hats/beaniesabsurd/red.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

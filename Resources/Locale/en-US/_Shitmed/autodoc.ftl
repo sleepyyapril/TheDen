@@ -7,47 +7,48 @@ autodoc-program-step-store-item = store item
 autodoc-program-step-set-label = set label: '{$label}'
 autodoc-program-step-wait = wait {$length} seconds
 
-autodoc-program-completed = PROGRAM COMPLETED
+autodoc-program-completed = Program Completed!
 autodoc-error = ERROR: {$error}
-autodoc-fatal-error = FATAL ERROR: {$error}
-autodoc-waiting = PROGRAM WAITING
+autodoc-fatal-error = Fatal Error: {$error}
+autodoc-waiting = Program waiting...
 
-autodoc-error-missing-patient = MISSING PATIENT
-autodoc-error-body-part = BODY PART NOT DETECTED
-autodoc-error-surgery-impossible = SELECTED SURGERY IMPOSSIBLE
-autodoc-error-item-unavailable = ITEM UNAVAILABLE
-autodoc-error-surgery-failed = SURGERY FAILED
-autodoc-error-hand-full = ITEM MANIPULATOR FULL
-autodoc-error-storage-full = ITEM TRAYS FULL
-autodoc-error-patient-unsedated = PATIENT REQUIRES SEDATION
+autodoc-error-missing-patient = Missing patient!
+autodoc-error-body-part = Body part not detected!
+autodoc-error-surgery-impossible = Selected surgery impossible!
+autodoc-error-item-unavailable = Item Unavailable.
+autodoc-error-surgery-failed = Surgery Failed.
+autodoc-error-hand-full = Item Manipulator Full!
+autodoc-error-storage-full = Item Trays Full!
+autodoc-error-patient-unsedated = Patient requires sedation!
 
 # These intentionally have russian alongside them for ostranauts-like aesthetic.
 # If you are a russian fork, these don't need translating :)
 # Если вы являетесь русскоязычным форком, то они не нуждаются в переводе :)
-autodoc-title = AUTODOC АВТОДОК MK.XIV
-autodoc-create-program = NEW PROGRAM НОВОЕ РАСПИСАНИЕ
-autodoc-program-title = PROGRAM TITLE ТИТУЛ РАСПИСАНИЯ
+# _DEN -- Removed russian per owner's request.
+autodoc-title = AutoDoc MK.XIV
+autodoc-create-program = New Program
+autodoc-program-title = Program Title
 autodoc-program-title-placeholder = Program {$number}
-autodoc-abort-program = ABORT PROGRAM АБОРТ РАСПИСАНИЯ
+autodoc-abort-program = Abort Program
 
-autodoc-view-program-title = VIEW PROGRAM ПРОСМОТРИ
-autodoc-safety-enabled = SAFETY ON БЕЗОПАСНО НА
-autodoc-safety-disabled = SAFETY OFF В БЕЗОПАСНОСТИ
-autodoc-remove-program = REMOVE PROGRAM УДАЛИТЕ
-autodoc-add-step = ADD STEP ДОБАВЬ ШАГ
-autodoc-remove-step = REMOVE STEP УДАЛИ ШАГ
-autodoc-start-program = START PROGRAM НАЧНИ РАСПИСАНИЕ
+autodoc-view-program-title = View Program
+autodoc-safety-enabled = Safety ON.
+autodoc-safety-disabled = Safety OFF!
+autodoc-remove-program = Remove Program
+autodoc-add-step = Add Step
+autodoc-remove-step = Remove Step
+autodoc-start-program = Start program
 
-autodoc-add-step-surgery = PERFORM SURGERY РАЗЫГРАЙ ОПЕРАЦИЮ
-autodoc-add-step-grab-item = GRAB ITEM ВОЗЬМИ ОБЪЕКТ
+autodoc-add-step-surgery = Perform Surgery
+autodoc-add-step-grab-item = Grab ITEM
 autodoc-add-step-grab-item-prompt = Item name
 autodoc-add-step-grab-item-placeholder = dwarf heart
-autodoc-add-step-grab-organ = GRAB ORGAN ВОЗЬМИ ОРГАН
-autodoc-add-step-grab-part = GRAB BODY PART ВОЗЬМИ ЧАСТЬ ТЕЛА
-autodoc-add-step-store-item = STORE ITEM МАГАЗИН ОБЪЕКТ
-autodoc-add-step-set-label = SET LABEL НАНЕСИТЕ ЯРЛЫК
+autodoc-add-step-grab-organ = Grab ORGAN
+autodoc-add-step-grab-part = Grab BODY PART
+autodoc-add-step-store-item = Store ITEM
+autodoc-add-step-set-label = Set Label
 autodoc-add-step-set-label-prompt = Label
-autodoc-add-step-wait = WAIT ЖДАТЬ
+autodoc-add-step-wait = Wait
 autodoc-add-step-wait-prompt = Seconds to wait
 
 autodoc-body-part-Other = Other
@@ -64,4 +65,4 @@ autodoc-body-symmetry-None = None
 autodoc-body-symmetry-Left = Left
 autodoc-body-symmetry-Right = Right
 
-autodoc-submit = Submit
+autodoc-submit = SUBMIT!

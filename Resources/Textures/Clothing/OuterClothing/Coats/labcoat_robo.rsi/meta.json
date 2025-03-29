@@ -36,6 +36,10 @@
     {
       "name": "open-inhand-right",
       "directions": 4
+    },
+    {
+      "name": "folded-equipped-OUTERCLOTHING",
+      "directions": 4
     }
   ]
 }

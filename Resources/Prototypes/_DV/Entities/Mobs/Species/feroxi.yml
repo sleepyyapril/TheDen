@@ -22,6 +22,11 @@
     speechSounds: Tenor
     speechVerb: Feroxi
     allowedEmotes: [ "Gnash" ]
+  - type: Vocal
+    sounds:
+      Male: MaleFeroxi
+      Female: FemaleFeroxi
+      Unsexed: MaleFeroxi
   - type: Sprite
     netsync: false
     noRot: true
@@ -92,6 +97,13 @@
     hydratedMetabolizer: Feroxi
     dehydratedMetabolizer: FeroxiDehydrated
     dehydrationThreshold: 150
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Nehina
+    understands:
+    - TauCetiBasic
+    - Nehina
 
 - type: entity
   parent: MobHumanDummy

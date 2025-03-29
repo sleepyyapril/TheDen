@@ -2912,3 +2912,299 @@ Entries:
   id: 245
   time: '2025-03-17T10:33:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/358
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added Water Vapor canisters to the cargo catalog.
+    - type: Add
+      message: New Ammonia and Tritium canister sprites.
+  id: 246
+  time: '2025-03-18T03:42:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/362
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Shogun's Armoured Dogi, an armor piece choice for the Captain
+        available in the loadout.
+  id: 247
+  time: '2025-03-18T03:42:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/363
+- author: KekaniCreates
+  changes:
+    - type: Tweak
+      message: Renamed the "medsechud" to "BSO glasses".
+    - type: Fix
+      message: Corpsman Glasses now properly display health bars.
+  id: 248
+  time: '2025-03-18T03:42:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/365
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: >-
+        Fixed a bug where you could put literally anything into a printed gun in
+        the magazine slot.
+  id: 249
+  time: '2025-03-18T03:52:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/368
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Changed the localizations for Gekker and Yip
+  id: 250
+  time: '2025-03-18T03:58:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/370
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: Added the ability to fold ALL of the cargo tech jumpsuits.
+    - type: Add
+      message: >-
+        Added VASH items to the nanomed and nanomed plus, as well as to the med
+        techfab.
+    - type: Tweak
+      message: Sexual trait descriptions are a little more clear.
+    - type: Remove
+      message: >-
+        Removed the ability to fold the corpsman outfit until texture problem is
+        fixed.
+  id: 251
+  time: '2025-03-18T04:04:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/360
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the screws being stripped on the Engineering Holoprojector. Now
+        you can take the battery out!
+  id: 252
+  time: '2025-03-18T04:09:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/372
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Senior Researcher PDA should have the correct programs, now.
+  id: 253
+  time: '2025-03-18T04:10:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/367
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Clothing, Seeds, and Pride Vends restocks had their prices increased
+        according to their contents' value.
+  id: 254
+  time: '2025-03-18T04:30:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/373
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tail Wagging feature changed into an optional trait to prevent clutter.
+        Prior wagging mechanics still apply.
+  id: 255
+  time: '2025-03-18T06:50:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/371
+- author: Maezel
+  changes: []
+  id: 256
+  time: '2025-03-18T17:03:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/374
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Feroxi can now speak in their own tongue!
+  id: 257
+  time: '2025-03-18T17:27:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/361
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: BSO can now enter the Corpsman office.
+  id: 258
+  time: '2025-03-19T03:58:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/379
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Localization issues on the HoS loadouts.
+  id: 259
+  time: '2025-03-19T03:59:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/378
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the RootSpeak trait to work correctly. You're not the Lorax, but
+        you can speak to the trees!
+  id: 260
+  time: '2025-03-19T03:59:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/376
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Loadouts have been reorganized please make sure you update yours!
+  id: 261
+  time: '2025-03-19T04:00:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/375
+- author: Fox
+  changes:
+    - type: Fix
+      message: Fixed Arena's atmospherics setup
+    - type: Fix
+      message: Replaced missing wires on Arena
+  id: 262
+  time: '2025-03-19T17:17:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/381
+- author: trashalice
+  changes:
+    - type: Add
+      message: HoSamurai armour
+    - type: Remove
+      message: shape shifting master of darkness
+  id: 263
+  time: '2025-03-20T04:30:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/382
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: Mopped up Space Lube no longer has residue in the water.
+  id: 264
+  time: '2025-03-20T04:31:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/380
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Gave Blueshield Lockers a pinpointer.
+    - type: Tweak
+      message: Blueshield Axe moved to loadouts.
+    - type: Tweak
+      message: Dragon Meat available for custom burgers and tacos.
+  id: 265
+  time: '2025-03-20T04:40:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/383
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: Added some pride stuff to the Loadouts!
+  id: 266
+  time: '2025-03-21T03:15:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/385
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: Red Beanies, and crafting recipes for them! Woo-hoo!
+  id: 267
+  time: '2025-03-21T03:15:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/384
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: Added foldability to most obtainable Science outfits (and coats!)
+  id: 268
+  time: '2025-03-21T04:38:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/389
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Decreased sell prices of bees, the Great Beepression.
+    - type: Fix
+      message: >-
+        Fixed the localization for the Furred Left Hand marking and Tail Wag
+        trait.
+    - type: Tweak
+      message: >-
+        Paper and Cookie Fortunes added to Chameleon Projector blacklist
+        following invisibility bug.
+  id: 269
+  time: '2025-03-21T04:40:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/388
+- author: Impstation
+  changes:
+    - type: Add
+      message: From the IMP sector, over a hundred new hair styles and markings!
+    - type: Tweak
+      message: Vox and Slimes have received a minor visual refresh.
+  id: 270
+  time: '2025-03-21T05:49:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/386
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Honey Mustard, eating a burger wit' no honey mustard.
+    - type: Tweak
+      message: Tweaked recipes to have honey in them
+  id: 271
+  time: '2025-03-22T08:36:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/390
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Added fun :D
+    - type: Tweak
+      message: Tweaked fun
+    - type: Fix
+      message: Fixed fun!
+    - type: Remove
+      message: Removed fun :(
+  id: 272
+  time: '2025-03-23T04:40:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/392
+- author: KekaniCreates
+  changes:
+    - type: Tweak
+      message: Renamed "Flamenco" dress to more a more accurate "Oaxaqueño" dress.
+  id: 273
+  time: '2025-03-23T04:42:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/391
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a Fast Metabolism trait that causes your hunger to deplete 33%
+        faster.
+  id: 274
+  time: '2025-03-23T05:25:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/394
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Robotics Labocoat/Gloves made exclusive to Roboticist
+  id: 275
+  time: '2025-03-24T03:12:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/395
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: >-
+        Added the ability to fold most Logistics-department jumpsuits, save for
+        the Foreman's Jacket and the Gorka.
+  id: 276
+  time: '2025-03-24T05:45:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/396
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added lasagne. I hate mondays.
+  id: 277
+  time: '2025-03-24T08:49:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/397
+- author: Rosycup
+  changes:
+    - type: Fix
+      message: >-
+        Fixed some of the localization on certain loadout categories to display
+        the proper name of the item group.
+  id: 278
+  time: '2025-03-27T06:03:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/398
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Ported Bananium, Plasma, Coal, Gold, and Salt variants of Ore Crabs and
+        Rock Anomalies, as well as Ore Golems from Frontier.
+  id: 279
+  time: '2025-03-28T08:59:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/399

@@ -429,3 +429,5 @@
       id: LoadoutUniformEnvirosuitEnviroslacksMNK
     - type: loadout
       id: LoadoutUniformEnvirosuitEnviroslacksMNKAlt
+    - type: loadout
+      id: LoadoutUniformColorRainbow

@@ -126,7 +126,7 @@
   - type: Bloodstream
     bloodMaxVolume: 0.1
   - type: MobPrice
-    price: 50
+    price: 10
   - type: NPCRetaliation
   - type: FactionException
   - type: NpcFactionMember

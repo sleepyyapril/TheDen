@@ -41,8 +41,9 @@ character-item-group-LoadoutCommandBackpacks = Command Backpacks
 character-item-group-LoadoutCommandBelt = Command Belt
 character-item-group-LoadoutCommandEars = Command Ears
 character-item-group-LoadoutCommandEquipment = Command Equipment
+character-item-group-LoadoutSelfDefense = Command Self Defense Gear
 character-item-group-LoadoutCommandEyes = Command Eyewear
-character-item-group-LoadoutCommandloves = Command Gloves
+character-item-group-LoadoutCommandGloves = Command Gloves
 character-item-group-LoadoutCommandHead = Command Headgear
 character-item-group-LoadoutCommandId = Command Id
 character-item-group-LoadoutCommandNeck = Command Neckwear
@@ -98,7 +99,10 @@ character-item-group-LoadoutMagistrateUniforms = Magistrate Uniforms
 # Dignitary - Nanotrasen Representative
 character-item-group-LoadoutNanorepBackpacks = Nanotrasen Representative Backpacks
 character-item-group-LoadoutNanorepUniforms = Nanotrasen Representative Uniforms
-character-item-group-LoadoutNanotrasenRepresentativeWeapon = Nanotrasen Representative Weapons
+
+# Dignitary - Nanotrasen Representative
+character-item-group-LoadoutAdminAssistantUniforms= Administrative Assistant Uniforms
+character-item-group-LoadoutAdminAssistantGloves= Administrative Assistant Gloves
 
 # Engineering
 character-item-group-LoadoutEngineeringBackpacks = Engineering Backpacks
@@ -587,7 +591,7 @@ character-item-group-LoadoutHeadOfSecurityBackpacks = Head Of Security Backpacks
 character-item-group-LoadoutHeadOfSecurityBelt = Head Of Security Belt
 character-item-group-LoadoutHeadOfSecurityEars = Head Of Security Ears
 character-item-group-LoadoutHeadOfSecurityEquipment = Head Of Security Equipment
-character-item-group-LoadoutHeadOfSecurityWeapons = Head of Security's Antique Weapon Collection
+character-item-group-LoadoutHeadOfSecurityWeapon = Head of Security's Antique Weapon Collection
 character-item-group-LoadoutHeadOfSecurityEyes = Head Of Security Eyewear
 character-item-group-LoadoutHeadOfSecurityGloves = Head Of Security Gloves
 character-item-group-LoadoutHeadOfSecurityHead = Head Of Security Headgear
