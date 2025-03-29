@@ -141,7 +141,7 @@ public sealed class WeatherSystem : SharedWeatherSystem
 
         foreach (var (proto, weather) in component.Weather)
         {
-            End existing one
+            // End existing one
             if (!state.Weather.TryGetValue(proto, out var stateData))
             {
                 EndWeather(uid, component, proto);
