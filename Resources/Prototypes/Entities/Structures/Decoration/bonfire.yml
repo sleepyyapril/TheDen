@@ -4,9 +4,7 @@
   name: Bonfire
   description: What can be better then late evening under the sky with guitar and friends.
   components:
-  - type: Construction
-    graph: Bonfire
-    node: BonfireLit
+  components:
   - type: Sprite
     noRot: true
     sprite: Structures/Decoration/bonfire.rsi
