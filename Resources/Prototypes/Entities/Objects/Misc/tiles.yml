@@ -18,6 +18,7 @@
     soundHit:
       collection: MetalThud
   - type: Stack
+    stackType: FloorTileSteel
     count: 1
   - type: Tag
     tags:
