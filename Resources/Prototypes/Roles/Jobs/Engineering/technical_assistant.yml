@@ -14,11 +14,6 @@
   - Maintenance
   - Engineering
   - External
-  requirements:
-    - !type:CharacterEmployerRequirement
-      inverted: true
-      employers:
-      - Unemployed
 
 - type: startingGear
   id: TechnicalAssistantGear

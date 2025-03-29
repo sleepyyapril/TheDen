@@ -21,16 +21,8 @@ marking-ReptilianDrawingSun = Sun Drawing
 marking-ReptilianDrawingWarpaint = Warpaint Drawing
 marking-ReptilianLineEyes = Stripe Eyes
 
-marking-TailAxolotl = Axolotl Tail
 marking-TailDatashark = Data Shark Tail
-marking-TailEasternDragon = Eastern Dragon Tail
-marking-TailFish = Fish Tail
-marking-TailMaw = Maw Tail
 marking-TailShark = Shark Tail
-marking-TailSnake = Snake Tail
-
-marking-SnoutEasternDW = Nose 1
-marking-SnoutEasternDNW = Nose 2
 
 marking-EarsSylveon = Sylveon Ears
 marking-EarsResomi = Resomi Ears

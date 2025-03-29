@@ -28,11 +28,6 @@
     charges: 6
   - !type:ModifyEnvirohelmSpecial
     powerCell: PowerCellHigh
-  requirements:
-    - !type:CharacterEmployerRequirement
-      inverted: true
-      employers:
-      - Unemployed
 
 - type: startingGear
   id: PrisonGuardGear
