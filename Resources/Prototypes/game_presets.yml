@@ -81,10 +81,9 @@
   - greenshift
   - shittersafarideluxeedition
   name: greenshift-title
-  showInVote: true #4boring4vote
+  showInVote: true
   description: greenshift-description
   rules:
-  - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change
 
 - type: gamePreset
@@ -204,6 +203,23 @@
   showInVote: false
   rules:
   - Zombie
+  - BasicStationEventScheduler
+  - BasicRoundstartVariation
+  - LavalandStormScheduler # Lavaland Change
+
+- type: gamePreset
+  id: Changeling
+  alias:
+  - Changeling
+  - Changelings
+  - Ling
+  - Lings
+  name: changeling-gamemode-title
+  description: changeling-gamemode-description
+  showInVote: false
+  rules:
+  - Changeling
+  - SubGamemodesRule
   - BasicStationEventScheduler
   - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change

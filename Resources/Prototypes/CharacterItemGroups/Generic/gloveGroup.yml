@@ -39,3 +39,5 @@
       id: LoadoutHandsGlovesEnviroglovesEvening
     - type: loadout
       id: LoadoutHandsClothWrap
+    - type: loadout
+      id: ClothingHandsTacticalMaidGlovesLoadout

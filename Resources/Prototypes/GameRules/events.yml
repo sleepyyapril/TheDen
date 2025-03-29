@@ -262,7 +262,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 15
-    weight: 6
+    weight: 3
     duration: 50
   - type: VentCrittersRule
     entries:
@@ -304,7 +304,7 @@
   - type: StationEvent
     startAnnouncement: true
     startDelay: 10
-    weight: 6
+    weight: 3
     duration: 50
   - type: VentCrittersRule
     entries:
@@ -320,7 +320,7 @@
   - type: StationEvent
     startAnnouncement: true
     startDelay: 10
-    weight: 6
+    weight: 3
     duration: 50
   - type: VentCrittersRule
     entries:
@@ -338,7 +338,7 @@
   - type: StationEvent
     startAnnouncement: true
     earliestStart: 15
-    weight: 6
+    weight: 3
     duration: 50
     minimumPlayers: 30
   - type: VentCrittersRule
@@ -432,7 +432,7 @@
     startDelay: 10
     earliestStart: 20
     minimumPlayers: 15
-    weight: 5
+    weight: 3
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -453,7 +453,7 @@
     startDelay: 10
     earliestStart: 20
     minimumPlayers: 15
-    weight: 5
+    weight: 3
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -640,7 +640,7 @@
   id: IonStorm
   components:
   - type: StationEvent
-    weight: 8
+    weight: 10
     reoccurrenceDelay: 20
     duration: 1
   - type: IonStormRule
