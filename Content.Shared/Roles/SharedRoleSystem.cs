@@ -549,7 +549,11 @@ public abstract class SharedRoleSystem : EntitySystem
         {
             if (!TryComp<MindRoleComponent>(role, out var roleComp))
             {
-                Log.Error($"Mind Role Entity {ToPrettyString(role)} does not have a MindRoleComponent, despite being listed as a role belonging to {ToPrettyString(mind)}|");
+                var antag = roleComp?.AntagPrototype;
+                var job = roleComp?.JobPrototype;
+                var hasEither = antag != null && job != null;
+
+                Log.Error($"Mind Role Entity {ToPrettyString(role)} {(hasEither ? (antag != null ? antag.ToString() : job.ToString()) : "meow")} does not have a MindRoleComponent, despite being listed as a role belonging to {ToPrettyString(mind)}|");
                 continue;
             }
 
