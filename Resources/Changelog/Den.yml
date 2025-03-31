@@ -3208,3 +3208,13 @@ Entries:
   id: 279
   time: '2025-03-28T08:59:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/399
+- author: EE Contributors
+  changes:
+    - type: Add
+      message: >-
+        Ported EE changes up to March 30th, including but not limited to
+        lavaland, changelings (disabled for now), vehicles, and a whole lot
+        more.
+  id: 280
+  time: '2025-03-31T13:01:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/323
