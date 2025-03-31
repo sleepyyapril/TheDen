@@ -305,6 +305,7 @@
   - ClothingBackpackHolding
   - ClothingBackpackSatchelHolding
   - ClothingBackpackDuffelHolding
+  - ClothingBackpackMessengerHolding # Frontier
   - MaterialSiloCircuitboard
   softCapContribution: 1.5
 

@@ -20,6 +20,7 @@
     ClothingBackpackScience: 3
     ClothingBackpackSatchelScience: 3
     ClothingBackpackDuffelScience: 3
+    ClothingBackpackMessengerScience: 3 # Frontier
     ClothingUniformJumpsuitScientist: 3
     ClothingUniformJumpskirtScientist: 3
     ClothingUniformJumpsuitScientistFormal: 3
@@ -36,3 +37,5 @@
     ClothingUniformEpiThong: 1 # Floofstation
     ClothingHeadTinfoil: 2 # Nyanotrasen - Tinfoil hats for Epistemics
     ClothingShoesBootsWinterSci: 2
+  contrabandInventory:
+    ToyFigurineResearchDirector: 1

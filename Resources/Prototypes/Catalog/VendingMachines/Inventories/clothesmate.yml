@@ -49,7 +49,9 @@
     ClothingBackpackDuffel: 2
     ClothingBackpackSatchel: 2
     ClothingBackpackSatchelLeather: 2
-    ClothingRandomSpawner: 6
+    ClothingBackpackMessenger: 5 # Frontier
+    ClothingRandomSpawner: 8
+    ClothingHeadHatBeret: 4
     ClothingHeadBandBlack: 2
     ClothingHeadHatGreyFlatcap: 2
     ClothingUniformJumpsuitColorGrey: 2

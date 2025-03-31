@@ -32,6 +32,7 @@
     ClothingBackpackParamedic: 2
     ClothingBackpackDuffelParamed: 2
     ClothingBackpackSatchelParamed: 2
+    ClothingBackpackMessengerMedical: 4 # Frontier
     ClothingUniformJumpsuitMedicalDoctor: 4
     ClothingUniformJumpskirtMedicalDoctor: 4
     ClothingHeadHatBeretMedic: 4
@@ -46,7 +47,7 @@
     UniformScrubsColorGreen: 4
     UniformScrubsColorBlue: 4
     UniformScrubsColorPurple: 4
-    ClothingHeadHatSurgcapGreen: 4 
+    ClothingHeadHatSurgcapGreen: 4
     ClothingHeadHatSurgcapBlue: 4
     ClothingHeadHatSurgcapPurple: 4
     ClothingShoesBootsWinterMed: 2
