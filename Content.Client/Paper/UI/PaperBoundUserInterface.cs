@@ -22,6 +22,7 @@ public sealed class PaperBoundUserInterface : BoundUserInterface
 
         _window = this.CreateWindow<PaperWindow>();
         _window.OnSaved += InputOnTextEntered;
+        _window.InitEditor();
 
         if (EntMan.TryGetComponent<PaperVisualsComponent>(Owner, out var visuals))
         {

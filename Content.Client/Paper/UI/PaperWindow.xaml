@@ -8,6 +8,7 @@
             <TextureButton Name="CloseButton" StyleClasses="windowCloseButton"/>
         </PanelContainer>
         <PanelContainer Name="PaperBackground" StyleClasses="PaperDefaultBorder" VerticalExpand="True" HorizontalExpand="True">
+            <GridContainer Name="PaperEditTools" Columns="12" Access="Public" HorizontalExpand="True" VerticalExpand="True" Visible="False"/>
             <ScrollContainer Name="ScrollingContents" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" HorizontalExpand="True" VerticalExpand="True" HScrollEnabled="False">
                 <PanelContainer Name="PaperContent" VerticalExpand="True" HorizontalExpand="True" MaxWidth="600">
                     <BoxContainer Orientation="Vertical" VerticalAlignment="Stretch">
