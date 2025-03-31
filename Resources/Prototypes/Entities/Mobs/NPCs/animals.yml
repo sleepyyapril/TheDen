@@ -2863,6 +2863,7 @@
   - type: RandomBark
     barkType: fox
     barkMultiplier: 0.5 # Talkative <3
+  - type: ScentTracker
 
 - type: entity
   name: corgi
@@ -2934,6 +2935,7 @@
   - type: RandomBark
     barkType: dog
   - type: LeashAnchor # Floofstation
+  - type: ScentTracker
 
 - type: entity
   name: corrupted corgi

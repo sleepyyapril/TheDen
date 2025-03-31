@@ -14039,3 +14039,48 @@ Entries:
   id: 7061
   time: '2025-03-29T07:15:36.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2109
+- author: Timfa2112
+  changes:
+    - type: Add
+      message: >-
+        Moved Nationality, Employer, and Lifepath to a new Background tab. They
+        now also show descriptions for the chosen selections.
+  id: 7062
+  time: '2025-03-29T17:49:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2113
+- author: BramvanZijp
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked IPC's damage resistances to no longer take double heat damage,
+        and slightly reduce their shock weakness.
+  id: 7063
+  time: '2025-03-30T02:22:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2110
+- author: EctoplasmIsGood
+  changes:
+    - type: Tweak
+      message: >-
+        Station AI gets a variant of Asimov that doesn't state they have to obey
+        themselves
+  id: 7064
+  time: '2025-03-30T02:30:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2118
+- author: PsychoLogik
+  changes:
+    - type: Tweak
+      message: Dogs and Foxes can now track scents (Cerberus included)
+  id: 7065
+  time: '2025-03-30T21:02:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2116
+- author: Tirochora
+  changes:
+    - type: Tweak
+      message: sunglasses with flash protection are more expensive in the loadouts
+    - type: Tweak
+      message: >-
+        sunglasses are either "default" or "shielded" rather than "cheap" or
+        "standard." the description has also been changed to reflect this
+  id: 7066
+  time: '2025-03-30T21:15:42.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2121
