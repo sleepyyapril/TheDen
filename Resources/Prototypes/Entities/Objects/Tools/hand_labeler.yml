@@ -25,6 +25,9 @@
           - Item
         tags:
           - Structure
+          - Airlock
+          - AirlockGlass
+          - HighSecDoor
     - type: Tag
       tags:
       - HandLabeler # DeltaV - fish labeler
