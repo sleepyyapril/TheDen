@@ -45,6 +45,7 @@
   name: job-name-paramedic
   description: job-description-paramedic
   playTimeTracker: JobParamedic
+  # antagAdvantage: 4 # DeltaV - Reduced TC: External Access, JoL # TheDen - Commenting this out in case we want it for rebalance
   requirements:
   - !type:CharacterPlaytimeRequirement
     tracker: JobMedicalIntern
