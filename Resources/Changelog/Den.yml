@@ -3235,3 +3235,38 @@ Entries:
   id: 281
   time: '2025-04-01T03:08:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/402
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added Toys and Instruments subsections to Items Category
+    - type: Add
+      message: Added new toys and instruments to loadouts
+    - type: Tweak
+      message: Moved Mime masks to Mask section
+    - type: Tweak
+      message: Moved Suspenders to Belt section
+    - type: Tweak
+      message: Moved Oni Masks to Mask section
+    - type: Tweak
+      message: Moved Golden ring to Hands section
+    - type: Tweak
+      message: >-
+        Moved plushies, toys, and musical instruments into their respective
+        categories
+    - type: Tweak
+      message: >-
+        Changed how survival box restrictions work (should now get the box you
+        need if multiple selected)
+    - type: Tweak
+      message: Modified restrictions on Medkits
+    - type: Remove
+      message: Removed exclusive tag on masks
+    - type: Remove
+      message: >-
+        Removed limitations on plushies in loadout (still cost 1 point each, but
+        go nuts)
+    - type: Add
+      message: Added the Throngler into loadouts
+  id: 282
+  time: '2025-04-01T08:15:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/406
