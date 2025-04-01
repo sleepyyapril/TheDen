@@ -3287,3 +3287,12 @@ Entries:
   id: 283
   time: '2025-04-01T10:08:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/405
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: >-
+        You can no longer purchase the changeling infection implanter, pending
+        rework.
+  id: 284
+  time: '2025-04-01T15:28:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/407
