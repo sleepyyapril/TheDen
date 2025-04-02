@@ -3323,3 +3323,12 @@ Entries:
   id: 287
   time: '2025-04-02T06:14:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/412
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: >-
+        more loadout tweaks, moving items that are meant to be job specific into
+        the correct place, make sure you check your loadouts!
+  id: 288
+  time: '2025-04-02T22:48:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/404
