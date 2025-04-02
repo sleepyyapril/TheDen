@@ -3314,3 +3314,12 @@ Entries:
   id: 286
   time: '2025-04-02T03:49:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/409
+- author: trashalice
+  changes:
+    - type: Add
+      message: AKM to bso loadouts for 6 points
+    - type: Add
+      message: 'memories of The War:tm:'
+  id: 287
+  time: '2025-04-02T06:14:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/412
