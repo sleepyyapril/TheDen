@@ -3332,3 +3332,12 @@ Entries:
   id: 288
   time: '2025-04-02T22:48:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/404
+- author: ElusiveCoin
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked both Zero G Traits to be exclusive with the Wheelchair trait, No
+        more free legs.
+  id: 289
+  time: '2025-04-03T04:38:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/415
