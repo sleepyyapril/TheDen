@@ -3341,3 +3341,22 @@ Entries:
   id: 289
   time: '2025-04-03T04:38:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/415
+- author: Rosycup
+  changes:
+    - type: Fix
+      message: >-
+        Fixed missing material localizations for circuitry and uranium glass
+        variants.
+    - type: Fix
+      message: Fixed typo in the exosuit fabricator drop down categories.
+    - type: Tweak
+      message: >-
+        Added info in the Ripley MK-II harness description on the initial parts
+        required to be inserted to begin further construction.
+    - type: Tweak
+      message: >-
+        Removed mind over machine restriction on the new Healing Word trait from
+        upstream.
+  id: 290
+  time: '2025-04-03T05:53:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/417
