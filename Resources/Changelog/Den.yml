@@ -3287,3 +3287,76 @@ Entries:
   id: 283
   time: '2025-04-01T10:08:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/405
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: >-
+        You can no longer purchase the changeling infection implanter, pending
+        rework.
+  id: 284
+  time: '2025-04-01T15:28:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/407
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Changed Psychomantic language font to the one Binary uses (temporarily)
+    - type: Tweak
+      message: >-
+        Re-add changelings so things don't break, but still disabled.
+        (hopefully.)
+  id: 285
+  time: '2025-04-01T23:12:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/408
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: CANID! Heavily gene tailored humans to have dog/fox-like features.
+  id: 286
+  time: '2025-04-02T03:49:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/409
+- author: trashalice
+  changes:
+    - type: Add
+      message: AKM to bso loadouts for 6 points
+    - type: Add
+      message: 'memories of The War:tm:'
+  id: 287
+  time: '2025-04-02T06:14:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/412
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: >-
+        more loadout tweaks, moving items that are meant to be job specific into
+        the correct place, make sure you check your loadouts!
+  id: 288
+  time: '2025-04-02T22:48:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/404
+- author: ElusiveCoin
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked both Zero G Traits to be exclusive with the Wheelchair trait, No
+        more free legs.
+  id: 289
+  time: '2025-04-03T04:38:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/415
+- author: Rosycup
+  changes:
+    - type: Fix
+      message: >-
+        Fixed missing material localizations for circuitry and uranium glass
+        variants.
+    - type: Fix
+      message: Fixed typo in the exosuit fabricator drop down categories.
+    - type: Tweak
+      message: >-
+        Added info in the Ripley MK-II harness description on the initial parts
+        required to be inserted to begin further construction.
+    - type: Tweak
+      message: >-
+        Removed mind over machine restriction on the new Healing Word trait from
+        upstream.
+  id: 290
+  time: '2025-04-03T05:53:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/417
