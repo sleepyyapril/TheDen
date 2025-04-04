@@ -3378,3 +3378,12 @@ Entries:
   id: 292
   time: '2025-04-04T05:48:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/422
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Tweaked kinetic machete swing animation
+    - type: Fix
+      message: Fixed localizations for part targeting.
+  id: 293
+  time: '2025-04-04T06:13:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/426
