@@ -3425,3 +3425,10 @@ Entries:
   id: 295
   time: '2025-04-05T16:46:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/428
+- author: Fox
+  changes:
+    - type: Add
+      message: Added Lavaland shuttle to most maps
+  id: 296
+  time: '2025-04-05T17:54:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/430
