@@ -3432,3 +3432,18 @@ Entries:
   id: 296
   time: '2025-04-05T17:54:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/430
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: >-
+        Added the ability to moo. Only for races that can take the "Cow Spots on
+        Chest" marking and harpies.
+    - type: Add
+      message: Code foundation for more Oni or Human only emotes.
+    - type: Tweak
+      message: >-
+        Removed racial restrictions on weight related traits. Go make that 6kg
+        heavy harpy or quarter ton Oni girl!
+  id: 297
+  time: '2025-04-05T23:16:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/432
