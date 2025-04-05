@@ -7,7 +7,7 @@ namespace Content.Client._DV.Options.UI;
 /// Implementation of a CVar option that simply corresponds with a string <see cref="OptionColorSlider"/>.
 /// </summary>
 /// <seealso cref="OptionsTabControlRow"/>
-public sealed class OptionColorSliderCVar : BaseOptionCVar<string>
+public sealed class OptionColorSliderCVar :  <string>
 {
     private readonly OptionColorSlider _slider;
 
