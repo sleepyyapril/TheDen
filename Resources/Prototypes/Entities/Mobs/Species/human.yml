@@ -34,6 +34,7 @@
     - HumanEmotes
     - CanPilot
     - FootstepSound
+    - DoorBumpOpener
 
 - type: entity
   parent: BaseSpeciesDummy
