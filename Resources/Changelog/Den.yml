@@ -3476,3 +3476,10 @@ Entries:
   id: 300
   time: '2025-04-06T02:29:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/429
+- author: KyuPolaris
+  changes:
+    - type: Fix
+      message: Fixed Sinta'Azaziba being buggy on selection in trait menu
+  id: 301
+  time: '2025-04-06T05:29:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/435
