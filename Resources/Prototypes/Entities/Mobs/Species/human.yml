@@ -32,6 +32,8 @@
   - type: Tag
     tags:
     - HumanEmotes
+    - CanPilot
+    - FootstepSound
 
 - type: entity
   parent: BaseSpeciesDummy
