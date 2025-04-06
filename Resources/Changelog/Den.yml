@@ -3447,3 +3447,14 @@ Entries:
   id: 297
   time: '2025-04-05T23:16:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/432
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: Expanded dorms on Asterisk
+    - type: Tweak
+      message: Made various QOL improvements to Asterisk
+    - type: Remove
+      message: Removed whimsy >:(
+  id: 298
+  time: '2025-04-06T00:38:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/431
