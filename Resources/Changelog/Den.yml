@@ -3483,3 +3483,12 @@ Entries:
   id: 301
   time: '2025-04-06T05:29:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/435
+- author: skyr0cket01
+  changes:
+    - type: Add
+      message: >-
+        Dionae can be noisy now! Added the chirp emote and associated sound for
+        Diona, along with screaming and laughing sounds for Nymphs!
+  id: 302
+  time: '2025-04-06T23:45:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/437
