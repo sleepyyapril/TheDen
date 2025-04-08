@@ -3492,3 +3492,14 @@ Entries:
   id: 302
   time: '2025-04-06T23:45:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/437
+- author: GreggTheFather
+  changes:
+    - type: Tweak
+      message: Asterisk QoL
+    - type: Fix
+      message: Mining Shuttle Not Spawning.
+    - type: Remove
+      message: even more Whimsy, joy is next
+  id: 303
+  time: '2025-04-08T02:19:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/440
