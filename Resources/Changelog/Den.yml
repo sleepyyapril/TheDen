@@ -3521,3 +3521,10 @@ Entries:
   id: 305
   time: '2025-04-08T06:48:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/442
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Rat Kings' grabby hands can interact with things now.
+  id: 306
+  time: '2025-04-08T09:53:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/443
