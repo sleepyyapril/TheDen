@@ -3503,3 +3503,10 @@ Entries:
   id: 303
   time: '2025-04-08T02:19:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/440
+- author: KekaniCreates
+  changes:
+    - type: Tweak
+      message: Localization of the Document Printer is now more clear.
+  id: 304
+  time: '2025-04-08T03:11:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/425
