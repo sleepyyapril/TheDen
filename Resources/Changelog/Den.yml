@@ -3545,3 +3545,12 @@ Entries:
   id: 308
   time: '2025-04-09T05:34:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/449
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added some head and chest markings for lizards, as well as a large snake
+        tail marking that animates when wagging.
+  id: 309
+  time: '2025-04-09T06:13:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/448
