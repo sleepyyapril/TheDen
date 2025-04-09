@@ -3538,3 +3538,10 @@ Entries:
   id: 307
   time: '2025-04-08T17:10:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/439
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Humans now have access to Feroxi's shark tails
+  id: 308
+  time: '2025-04-09T05:34:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/449
