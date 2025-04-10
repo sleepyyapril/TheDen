@@ -3563,3 +3563,10 @@ Entries:
   id: 310
   time: '2025-04-10T05:33:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/451
+- author: Fox
+  changes:
+    - type: Tweak
+      message: Adds a bunch of QOL stuff to glacier. The sauna is USABLE now!
+  id: 311
+  time: '2025-04-10T06:06:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/450
