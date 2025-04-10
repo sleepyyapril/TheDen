@@ -3554,3 +3554,12 @@ Entries:
   id: 309
   time: '2025-04-09T06:13:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/448
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added a wallmounted trans flag for mapping.
+    - type: Add
+      message: Added a trans table flag obtainable in the pride vend.
+  id: 310
+  time: '2025-04-10T05:33:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/451
