@@ -1911,4 +1911,20 @@
         Steel: 5
         Glass: 5
         
+        
+# Assmos - Bluespace Gas
+- type: entity
+  id: BluespaceGasSenderMachineBoard
+  parent: BaseMachineCircuitboard
+  name: bluespace gas sender machine board
+  description: A machine printed circuit board for a bluespace gas sender.
+  components:
+    - type: MachineBoard
+      prototype: BluespaceSender
+      requirements:
+        Capacitor: 4
+        Manipulator: 4
+        MatterBin: 2
+      materialRequirements:
+        Steel: 5
 # Assmos Change End

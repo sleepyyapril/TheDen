@@ -744,6 +744,7 @@
     - SalvageMagnetMachineCircuitboard
     - BorgChargerCircuitboard
     - ElectrolyzerMachineCircuitboard # Assmos - /tg/ gases
+    - BluespaceGasSenderMachineBoard # Assmos - Bluespace Gas
     dynamicRecipes:
     - ThermomachineFreezerMachineCircuitBoard
     - DroneElectronics
