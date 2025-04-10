@@ -3570,3 +3570,10 @@ Entries:
   id: 311
   time: '2025-04-10T06:06:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/450
+- author: Erol509
+  changes:
+    - type: Add
+      message: 'Added big fluffy leopard tail, exclusive for Tajarans. '
+  id: 312
+  time: '2025-04-10T12:26:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/444
