@@ -3602,3 +3602,10 @@ Entries:
   id: 315
   time: '2025-04-11T02:09:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/456
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added the Tile Cutter, a machine that produces decorative tiles.
+  id: 316
+  time: '2025-04-12T06:12:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/452
