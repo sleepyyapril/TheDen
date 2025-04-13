@@ -127,6 +127,7 @@
         prob: 0.3
       - id: ServiceTechFabCircuitboard # Floof - port to ee if possible
       - id: PrinterDocFlatpack  # Corvax-Printer
+      - id: CargoRequestServiceComputerCircuitboard
 
 - type: entity
   id: LockerChiefEngineerFilledHardsuit
@@ -159,6 +160,7 @@
         prob: 0.3
       - id: EngineeringTechFabCircuitboard # Floofstation - port to ee if possible
       - id: PrinterDocFlatpack  # Corvax-Printer
+      - id: CargoRequestEngineeringComputerCircuitboard
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -188,6 +190,7 @@
         prob: 0.3
       - id: EngineeringTechFabCircuitboard # Floofstation - port to ee if possible
       - id: PrinterDocFlatpack  # Corvax-Printer
+      - id: CargoRequestEngineeringComputerCircuitboard
 
 - type: entity
   id: LockerChiefMedicalOfficerFilledHardsuit
@@ -219,6 +222,7 @@
         prob: 0.3
       - id: MedicalBiofabMachineBoard # Shitmed Change
       - id: PrinterDocFlatpack  # Corvax-Printer
+      - id: CargoRequestMedicalComputerCircuitboard
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -247,6 +251,7 @@
         prob: 0.3
       - id: MedicalBiofabMachineBoard # Shitmed Change
       - id: PrinterDocFlatpack  # Corvax-Printer
+      - id: CargoRequestMedicalComputerCircuitboard
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
@@ -279,6 +284,7 @@
       - id: CrewsimovCircuitBoard
       - id: AntimovCircuitBoard
       - id: PrinterDocFlatpack  # Corvax-Printer
+      - id: CargoRequestScienceComputerCircuitboard
 
 - type: entity
   id: LockerResearchDirectorFilled
@@ -310,6 +316,7 @@
       - id: CrewsimovCircuitBoard
       - id: AntimovCircuitBoard
       - id: PrinterDocFlatpack  # Corvax-Printer
+      - id: CargoRequestScienceComputerCircuitboard
 
 - type: entity
   id: LockerHeadOfSecurityFilledHardsuit
@@ -341,6 +348,7 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: PrinterDocFlatpack  # Corvax-Printer
+      - id: CargoRequestSecurityComputerCircuitboard
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -370,6 +378,7 @@
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
       - id: PrinterDocFlatpack  # Corvax-Printer
+      - id: CargoRequestSecurityComputerCircuitboard
 
 - type: entity
   id: LockerFreezerVaultFilled
