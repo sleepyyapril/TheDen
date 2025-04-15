@@ -35,22 +35,13 @@ public sealed class AtmosResinDespawnSystem : EntitySystem
         GasMixture newMix = new();
 
         if (mix is null) return;
-        mix.AdjustMoles(Gas.CarbonDioxide, -mix.GetMoles(Gas.CarbonDioxide));
-        mix.AdjustMoles(Gas.Plasma, -mix.GetMoles(Gas.Plasma));
-        mix.AdjustMoles(Gas.Tritium, -mix.GetMoles(Gas.Tritium));
-        mix.AdjustMoles(Gas.Ammonia, -mix.GetMoles(Gas.Ammonia));
-        mix.AdjustMoles(Gas.NitrousOxide, -mix.GetMoles(Gas.NitrousOxide));
-        mix.AdjustMoles(Gas.Frezon, -mix.GetMoles(Gas.Frezon));
-        mix.AdjustMoles(Gas.BZ, -mix.GetMoles(Gas.BZ));
-        mix.AdjustMoles(Gas.Healium, -mix.GetMoles(Gas.Healium));
-        mix.AdjustMoles(Gas.Nitrium, -mix.GetMoles(Gas.Nitrium));
-        mix.AdjustMoles(Gas.Hydrogen, -mix.GetMoles(Gas.Hydrogen));
-        mix.AdjustMoles(Gas.HyperNoblium, -mix.GetMoles(Gas.HyperNoblium));
-        mix.AdjustMoles(Gas.ProtoNitrate, -mix.GetMoles(Gas.ProtoNitrate));
-        mix.AdjustMoles(Gas.Zauker, -mix.GetMoles(Gas.Zauker));
-        mix.AdjustMoles(Gas.Halon, -mix.GetMoles(Gas.Halon));
-        mix.AdjustMoles(Gas.Helium, -mix.GetMoles(Gas.Helium));
-        mix.AdjustMoles(Gas.AntiNoblium, -mix.GetMoles(Gas.AntiNoblium));
+        newMix.AdjustMoles(0, mix.GetMoles(0));
+        newMix.AdjustMoles(1, mix.GetMoles(1));
+
+        mix.Remove(mix.TotalMoles);
+
+        _atmo.Merge(mix, newMix);
+
         mix.Temperature = Atmospherics.T20C;
         _gasOverlaySystem.UpdateSessions();
     }
