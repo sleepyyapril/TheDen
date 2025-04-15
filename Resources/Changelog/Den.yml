@@ -3644,3 +3644,12 @@ Entries:
   id: 319
   time: '2025-04-15T01:56:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/460
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked the trait flavor text for Waveform Misalignment and the examine
+        text for it.
+  id: 320
+  time: '2025-04-15T02:31:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/461
