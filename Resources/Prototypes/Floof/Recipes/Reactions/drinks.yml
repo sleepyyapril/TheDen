@@ -52,7 +52,6 @@
   products:
     BandE: 3
 
-#- type: reaction
 #  id: BethanysCumLust
 #  reactants:
 #    Cum:
@@ -282,7 +281,7 @@
     Tea:
       amount: 3
   products:
-    GoldbloomSpecial: 5
+    GoldbloomSpecial: 6
 
 - type: reaction
   id: GrandNavy
