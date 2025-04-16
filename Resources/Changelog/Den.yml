@@ -3653,3 +3653,14 @@ Entries:
   id: 320
   time: '2025-04-15T02:31:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/461
+- author: SleepyScarecrow
+  changes:
+    - type: Tweak
+      message: Tweaked Ethanol of Cocktails
+    - type: Tweak
+      message: Tweaked Libidozenithizine recipe to be less expensive
+    - type: Tweak
+      message: Tweaked Aphrodisiacs OD, Metabolism, and Message Rates
+  id: 321
+  time: '2025-04-16T11:06:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/447
