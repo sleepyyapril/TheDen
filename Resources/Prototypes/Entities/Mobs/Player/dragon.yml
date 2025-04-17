@@ -211,6 +211,11 @@
     Heat: 0.35
   flatReductions:
     Heat: 9
+  - type: RandomMetadata
+    nameSegments:
+    - NamesDragon
+    - NamesDragonTitle
+    nameFormat: name-format-dragon
 
 - type: entity
   parent: BaseMobDragon
