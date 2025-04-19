@@ -3686,3 +3686,10 @@ Entries:
   id: 323
   time: '2025-04-19T01:22:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/463
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: marking for humans and canids to recolour their torso easier!
+  id: 324
+  time: '2025-04-19T10:13:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/466
