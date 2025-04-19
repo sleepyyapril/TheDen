@@ -743,7 +743,7 @@
     - CutterMachineCircuitboard
     - SalvageMagnetMachineCircuitboard
     - BorgChargerCircuitboard
-    - ElectrolyzerMachineBoard # Assmos - /tg/ gases
+    - ElectrolyzerMachineCircuitboard # Assmos - /tg/ gases
     dynamicRecipes:
     - ThermomachineFreezerMachineCircuitBoard
     - DroneElectronics
@@ -848,6 +848,7 @@
     - AdvancedMicrowaveMachineCircuitBoard
     - HolopadMachineCircuitboard
     - CrystallizerMachineCircuitboard # Assmos - Crystallizer
+    - ElectrolyzerMachineCircuitboard # Assmos - /tg/ gases
   - type: EmagLatheRecipes
     emagDynamicRecipes:
     - ShuttleGunDusterCircuitboard

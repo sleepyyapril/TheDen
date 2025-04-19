@@ -1247,18 +1247,7 @@
   materials:
     Steel: 100
     Glass: 500
-  
-# Assmos - Bluespace Gas
-- type: latheRecipe
-  parent: BaseCircuitboardRecipe
-  id: BluespaceGasSenderMachineBoard
-  result: BluespaceGasSenderMachineBoard
-  category: Circuitry
-  completetime: 5
-  materials:
-    Steel: 100
-    Glass: 500
-  
+
 # Assmos - Crystallizer
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
