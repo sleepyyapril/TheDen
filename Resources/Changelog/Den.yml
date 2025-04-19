@@ -3664,3 +3664,16 @@ Entries:
   id: 321
   time: '2025-04-16T11:06:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/447
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added rubber stamp and fountain pen for Blueshield Officer.
+    - type: Add
+      message: Ported the Administrative Assistant Locker for mapping.
+    - type: Tweak
+      message: Tweaked BSO and Admin Assistant headsets to the over-ear variants.
+    - type: Tweak
+      message: Gave a new sprite for the Admin Assistant ID symbol.
+  id: 322
+  time: '2025-04-19T01:19:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/464
