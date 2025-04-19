@@ -3677,3 +3677,12 @@ Entries:
   id: 322
   time: '2025-04-19T01:19:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/464
+- author: SleepyScarecrow
+  changes:
+    - type: Add
+      message: Cherry Picked AAC Search Bar
+    - type: Fix
+      message: Fixed penlights
+  id: 323
+  time: '2025-04-19T01:22:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/463
