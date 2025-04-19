@@ -4,7 +4,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using Content.Server.Administration.Logs;
-using Content.Server.DeviceNetwork;
 using Content.Server.DeviceNetwork.Systems;
 using Content.Server.Radio.EntitySystems;
 using Content.Shared.Lock;
@@ -15,7 +14,7 @@ using Content.Shared.Robotics.Components;
 using Content.Shared.Robotics.Systems;
 using Robust.Server.GameObjects;
 using Robust.Shared.Timing;
-using System.Diagnostics.CodeAnalysis;
+using Content.Shared.DeviceNetwork.Events;
 
 namespace Content.Server.Research.Systems;
 

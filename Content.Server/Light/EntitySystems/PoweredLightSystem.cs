@@ -63,6 +63,8 @@ using Content.Shared.Damage.Components;
 using Content.Shared.Database;
 using Content.Shared.Inventory;
 using Content.Shared.Popups;
+using Content.Shared.DeviceNetwork;
+using Content.Shared.DeviceNetwork.Events;
 using Content.Shared.Power;
 using Robust.Shared.Audio;
 using Robust.Shared.Player;

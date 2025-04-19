@@ -28,6 +28,8 @@ using Content.Server.DeviceNetwork.Systems;
 using Content.Server.Power.Components; // TheDen
 using Content.Server.Power.EntitySystems; // DeltaV
 using Content.Server.PowerCell;
+using Content.Shared.DeviceNetwork;
+using Content.Shared.DeviceNetwork.Events;
 using Content.Shared.Medical.CrewMonitoring;
 using Content.Shared.Medical.SuitSensor;
 using Content.Shared.Pinpointer;
