@@ -745,8 +745,8 @@
     - BorgChargerCircuitboard
     - ElectrolyzerMachineCircuitboard # Assmos - /tg/ gases
     - BluespaceGasSenderMachineBoard # Assmos - Bluespace Gas
+    - ThermomachineFreezerMachineCircuitBoard # Assmos - Moved to staticRecipes from dynamicRecipes
     dynamicRecipes:
-    - ThermomachineFreezerMachineCircuitBoard
     - DroneElectronics
     - HellfireFreezerMachineCircuitBoard
     - PortableScrubberMachineCircuitBoard
@@ -848,6 +848,9 @@
     - DiskBurnerMachineCircuitboard # Arcadis - Modular Computer System
     - AdvancedMicrowaveMachineCircuitBoard
     - HolopadMachineCircuitboard
+    - BluespaceGasSenderMachineBoard # Assmos - Bluespace Gas
+    - ThermomachineUpgradedFreezerMachineCircuitBoard # Assmos
+    - ThermomachineAdvancedFreezerMachineCircuitBoard # Assmos
     - CrystallizerMachineCircuitboard # Assmos - Crystallizer
     - ElectrolyzerMachineCircuitboard # Assmos - /tg/ gases
   - type: EmagLatheRecipes
