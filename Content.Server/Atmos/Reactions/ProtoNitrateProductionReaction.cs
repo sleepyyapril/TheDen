@@ -1,9 +1,10 @@
+using Content.Server.Atmos;
 using Content.Server.Atmos.EntitySystems;
 using Content.Shared.Atmos;
 using Content.Shared.Atmos.Reactions;
 using JetBrains.Annotations;
 
-namespace Content.Server.Atmos.Reactions;
+namespace Content.Server._Funkystation.Atmos.Reactions;
 
 [UsedImplicitly]
 public sealed partial class ProtoNitrateProductionReaction : IGasReactionEffect
@@ -24,7 +25,7 @@ public sealed partial class ProtoNitrateProductionReaction : IGasReactionEffect
 
         mixture.AdjustMoles(Gas.Hydrogen, -heatEfficiency * 2f);
         mixture.AdjustMoles(Gas.Pluoxium, -heatEfficiency * 0.2f);
-        mixture.AdjustMoles(Gas.ProtoNitrate, heatEfficiency * 0.2f);
+        mixture.AdjustMoles(Gas.ProtoNitrate, heatEfficiency * 2.2f);
 
         var energyReleased = heatEfficiency * Atmospherics.ProtoNitrateProductionEnergy;
 
