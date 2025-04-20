@@ -3704,3 +3704,10 @@ Entries:
   id: 325
   time: '2025-04-19T10:36:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/465
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: More tails for Oni's
+  id: 326
+  time: '2025-04-20T02:07:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/470
