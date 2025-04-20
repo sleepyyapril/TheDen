@@ -78,3 +78,5 @@ cargo-funding-alloc-console-label-save-fail = [bold]Revenue Divisions Invalid![/
     [1] +
     *[-1] -
 }{$val}%)[/color]
+
+cargo-telepad-delay-upgrade = Teleport delay

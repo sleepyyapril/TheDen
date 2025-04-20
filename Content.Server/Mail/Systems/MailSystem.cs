@@ -40,6 +40,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading;
 using Content.Server.Mail.Components;
+using Content.Shared.Cargo.Components;
 using Content.Shared.Chat;
 using Content.Shared.Mail;
 using Timer = Robust.Shared.Timing.Timer;
@@ -235,10 +236,11 @@ namespace Content.Server.Mail.Systems
             var query = EntityQueryEnumerator<StationBankAccountComponent>();
             while (query.MoveNext(out var station, out var account))
             {
-                if (_stationSystem.GetOwningStation(uid) != station)
+                if (_stationSystem.GetOwningStation(uid) != station
+                || !TryComp<StationBankAccountComponent>(station, out var bankAccount))
                     continue;
 
-                _cargoSystem.UpdateBankAccount(station, account, component.Bounty);
+                _cargoSystem.UpdateBankAccount(station, component.Bounty, bankAccount.RevenueDistribution);
             }
         }
 
@@ -292,10 +294,11 @@ namespace Content.Server.Mail.Systems
             var query = EntityQueryEnumerator<StationBankAccountComponent>();
             while (query.MoveNext(out var station, out var account))
             {
-                if (_stationSystem.GetOwningStation(uid) != station)
+                if (_stationSystem.GetOwningStation(uid) != station ||
+                    !TryComp<StationBankAccountComponent>(station, out var bankAccount))
                     continue;
 
-                _cargoSystem.UpdateBankAccount(station, account, component.Penalty);
+                _cargoSystem.UpdateBankAccount(station, -component.Penalty, bankAccount.RevenueDistribution);
                 return;
             }
         }

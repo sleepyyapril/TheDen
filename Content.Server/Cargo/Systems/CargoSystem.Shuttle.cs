@@ -7,6 +7,8 @@ using Content.Shared.Cargo.Events;
 using Content.Shared.Cargo.Prototypes;
 using JetBrains.Annotations;
 using Robust.Shared.Audio;
+using Robust.Shared.Configuration;
+using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server.Cargo.Systems;
@@ -17,7 +19,6 @@ public sealed partial class CargoSystem
      * Handles cargo shuttle / trade mechanics.
      */
     [Dependency] private readonly IConfigurationManager _confMan = default!;
-    public MapId? CargoMap { get; private set; }
 
     private static readonly SoundPathSpecifier ApproveSound = new("/Audio/Effects/Cargo/ping.ogg");
 

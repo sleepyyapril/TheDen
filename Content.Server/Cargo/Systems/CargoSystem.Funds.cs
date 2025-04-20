@@ -1,6 +1,7 @@
 using System.Linq;
 using Content.Shared.Cargo.Components;
 using Content.Shared.Database;
+using Content.Shared.Emag.Components;
 using Content.Shared.Emag.Systems;
 using Content.Shared.IdentityManagement;
 using Content.Shared.UserInterface;
@@ -52,7 +53,7 @@ public sealed partial class CargoSystem
             var stackPrototype = _protoMan.Index(ent.Comp.CashType);
             _stack.Spawn(args.Amount, stackPrototype, Transform(ent).Coordinates);
 
-            if (!_emag.CheckFlag(ent, EmagType.Interaction))
+            if (!HasComp<EmaggedComponent>(ent))
             {
                 var msg = Loc.GetString("cargo-console-fund-withdraw-broadcast",
                     ("name", tryGetIdentityShortInfoEvent.Title ?? Loc.GetString("cargo-console-fund-transfer-user-unknown")),
@@ -67,7 +68,7 @@ public sealed partial class CargoSystem
             var otherAccount = _protoMan.Index(args.Account.Value);
             UpdateBankAccount((station, bank), args.Amount, CreateAccountDistribution(args.Account.Value, bank));
 
-            if (!_emag.CheckFlag(ent, EmagType.Interaction))
+            if (!HasComp<EmaggedComponent>(ent))
             {
                 var msg = Loc.GetString("cargo-console-fund-transfer-broadcast",
                     ("name", tryGetIdentityShortInfoEvent.Title ?? Loc.GetString("cargo-console-fund-transfer-user-unknown")),

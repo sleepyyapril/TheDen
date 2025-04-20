@@ -10,6 +10,7 @@ using Content.Shared.Cargo.Events;
 using Content.Shared.Cargo.Prototypes;
 using Content.Shared.Database;
 using Content.Shared.Emag.Components;
+using Content.Shared.Emag.Systems;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
 using Content.Shared.Labels.Components;
@@ -36,7 +37,6 @@ namespace Content.Server.Cargo.Systems
             SubscribeLocalEvent<CargoOrderConsoleComponent, BoundUIOpenedEvent>(OnOrderUIOpened);
             SubscribeLocalEvent<CargoOrderConsoleComponent, ComponentInit>(OnInit);
             SubscribeLocalEvent<CargoOrderConsoleComponent, InteractUsingEvent>(OnInteractUsing);
-            SubscribeLocalEvent<CargoOrderConsoleComponent, GotEmaggedEvent>(OnEmagged);
         }
 
         private void OnInteractUsing(EntityUid uid, CargoOrderConsoleComponent component, ref InteractUsingEvent args)
@@ -63,17 +63,6 @@ namespace Content.Server.Cargo.Systems
         {
             var station = _station.GetOwningStation(uid);
             UpdateOrderState(uid, station);
-        }
-
-        private void OnEmagged(Entity<CargoOrderConsoleComponent> ent, ref GotEmaggedEvent args)
-        {
-            if (!_emag.CompareFlag(args.Type, EmagType.Interaction))
-                return;
-
-            if (_emag.CheckFlag(ent, EmagType.Interaction))
-                return;
-
-            args.Handled = true;
         }
 
         private void UpdateConsole()
@@ -508,7 +497,7 @@ namespace Content.Server.Cargo.Systems
                 _metaSystem.SetEntityName(printed, val);
 
                 var accountProto = _protoMan.Index(account);
-                _paperSystem.SetContent((printed, paper),
+                _paperSystem.SetContent(printed,
                     Loc.GetString(
                         "cargo-console-paper-print-text",
                         ("orderNumber", order.OrderId),
