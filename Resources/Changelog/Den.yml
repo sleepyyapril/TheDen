@@ -3734,3 +3734,10 @@ Entries:
   id: 329
   time: '2025-04-21T09:39:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/472
+- author: Erol509
+  changes:
+    - type: Add
+      message: 'Added new large 32x48px Bunny Ears '
+  id: 330
+  time: '2025-04-21T09:40:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/467
