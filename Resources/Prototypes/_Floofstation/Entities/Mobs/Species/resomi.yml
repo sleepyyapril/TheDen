@@ -33,7 +33,9 @@
       thermalRegulationTemperatureThreshold: 25
     - type: Perishable
     - type: FireVisuals
-      alternateState: Standing
+      sprite: _FloofStation/Mobs/Effects/onfire.rsi
+      normalState: Resomi_minor_burning
+      alternateState: Resomi_burning
     - type: OfferItem
     - type: LayingDown
     - type: BloodstreamAffectedByMass
@@ -170,7 +172,7 @@
       sounds:
         Male: MaleAvali
         Female: FemaleAvali
-        Unsexed: FemaleAvali
+        Unsexed: MaleAvali
     - type: Flashable
       eyeDamageChance: 0.3
       eyeDamage: 1
@@ -185,10 +187,8 @@
     - type: LanguageKnowledge
       speaks:
         - TauCetiBasic
-        - Schechi
       understands:
         - TauCetiBasic
-        - Schechi
     - type: Tag
       tags:
       - CanPilot
@@ -213,6 +213,11 @@
           layer:
             sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: jumpsuit
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
         eyes:
           layer:
             sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
@@ -231,6 +236,78 @@
               layerKey: dummy
               parameterTexture: displacementMap
               parameterUV: displacementUV
+        head:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: head
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        back:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: back
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        ears:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: ears
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        shoes:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: shoes
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        neck:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: neck
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        mask:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: mask
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        suitstorage:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: suitStorage
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        belt:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: belt
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
 
 - type: entity
   save: false
@@ -241,6 +318,109 @@
   components:
     - type: HumanoidAppearance
       species: Resomi
+    - type: Inventory
+      speciesId: resomi
+      templateId: digitigrade
+      displacements:
+        jumpsuit:
+          layer:
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
+            state: jumpsuit
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        eyes:
+          layer:
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
+            state: eyes
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        gloves:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: hands
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        head:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: head
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        back:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: back
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        ears:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: ears
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        shoes:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: shoes
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        neck:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: neck
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        mask:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: mask
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        suitstorage:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: suitStorage
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        belt:
+          layer:
+            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            state: belt
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
     - type: Sprite
       netsync: false
       noRot: true
