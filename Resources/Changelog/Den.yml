@@ -3727,3 +3727,10 @@ Entries:
   id: 328
   time: '2025-04-21T09:20:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/474
+- author: GreggTheFather
+  changes:
+    - type: Tweak
+      message: Asterisk QoL Update
+  id: 329
+  time: '2025-04-21T09:39:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/472
