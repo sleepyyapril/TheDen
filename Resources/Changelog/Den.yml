@@ -3718,3 +3718,12 @@ Entries:
   id: 327
   time: '2025-04-21T09:19:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/473
+- author: BlitzTheSquishy
+  changes:
+    - type: Fix
+      message: >-
+        Fixes up the missing sprite when furred hands are facing the other way,
+        and sex locks the furred torso
+  id: 328
+  time: '2025-04-21T09:20:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/474
