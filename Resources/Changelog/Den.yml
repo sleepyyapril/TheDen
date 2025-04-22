@@ -3748,3 +3748,10 @@ Entries:
   id: 331
   time: '2025-04-21T11:18:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/468
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added copper, aluminium, and lead material crates to the cargo store.
+  id: 332
+  time: '2025-04-22T01:07:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/475
