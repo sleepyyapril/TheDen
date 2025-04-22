@@ -3762,3 +3762,10 @@ Entries:
   id: 333
   time: '2025-04-22T01:08:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/476
+- author: Fox
+  changes:
+    - type: Remove
+      message: Bodies will no longer ash when exposed to extreme heat. Toasty.
+  id: 334
+  time: '2025-04-22T08:10:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/479
