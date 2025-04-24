@@ -74,6 +74,8 @@
   - BlueshieldOfficer # Goobstation - Add BSO Access
   - NanotrasenRepresentative # Goobstation - Add NTR Access
   - Magistrate # Goobstation - Add Magistrate Access
+  - GenpopEnter
+  - GenpopLeave
 
 - type: accessGroup
   id: BasicAllAccess
@@ -104,6 +106,8 @@
   - Library # DeltaV - Add Library access
   - Justice # DeltaV - Add Justice dept access
   - Robotics # DeltaV: Robotics access
+  - GenpopEnter
+  - GenpopLeave
 
 - type: accessGroup
   id: General
