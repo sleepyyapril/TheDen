@@ -1,6 +1,6 @@
 - type: body
   id: Resomi
-  name: "Resomi"
+  name: "resomi"
   root: torso
   slots:
     head:
