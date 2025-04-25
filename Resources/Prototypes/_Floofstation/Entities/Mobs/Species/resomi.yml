@@ -221,7 +221,7 @@
     #        parameterUV: displacementUV
     - type: Inventory
       speciesId: resomi
-      templateId: digitigrade
+#      templateId: digitigrade
       displacements:
         jumpsuit:
           layer:
@@ -280,7 +280,7 @@
         shoes:
           layer:
             sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
-            state: shoes
+            state: feet
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
               layerKey: dummy
@@ -343,7 +343,7 @@
       species: Resomi
     - type: Inventory
       speciesId: resomi
-      templateId: digitigrade
+#      templateId: digitigrade
       displacements:
         jumpsuit:
           layer:
@@ -402,7 +402,7 @@
         shoes:
           layer:
             sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
-            state: shoes
+            state: feet
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
               layerKey: dummy
