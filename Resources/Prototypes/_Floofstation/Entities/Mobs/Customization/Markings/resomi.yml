@@ -79,3 +79,72 @@
   sprites:
   - sprite: _FloofStation/Mobs/Customization/resomi_parts.rsi
     state: fluff_head_up
+
+
+# Head Markings
+- type: marking
+  id: ResomiWendigoFaceOnly
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/head_markings.rsi
+    state: Wendigo-paint
+
+- type: marking
+  id: ResomiWendigoFaceManed
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/head_markings.rsi
+    state: Wendigo-paint
+  - sprite: _FloofStation/Mobs/Customization/head_markings.rsi
+    state: Wendigo-paint-mane
+
+- type: marking
+  id: ResomiEars
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/head_markings.rsi
+    state: fluff_ears
+
+# Leg Markings
+
+- type: marking
+  id: ResomiCyLegR
+  bodyPart: RLeg
+  markingCategory: RightLeg
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/leg_markings.rsi
+    state: cyberkinetic-leg-r
+
+- type: marking
+  id: ResomiCyLegL
+  bodyPart: LLeg
+  markingCategory: LeftLeg
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/leg_markings.rsi
+    state: cyberkinetic-leg-l
+
+- type: marking
+  id: ResomiCyFootR
+  bodyPart: RFoot
+  markingCategory: RightFoot
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/leg_markings.rsi
+    state: cyberkinetic-foot-r
+
+- type: marking
+  id: ResomiCyFootL
+  bodyPart: LFoot
+  markingCategory: LeftFoot
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/leg_markings.rsi
+    state: cyberkinetic-foot-l

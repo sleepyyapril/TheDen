@@ -159,3 +159,59 @@
   sprites:
     - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
       state: ResomiLong
+
+# Few Additions here - Chlymerine
+
+- type: marking
+  id: HairResomiRebel
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiRebel
+
+- type: marking
+  id: HairResomiRebelExtended
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiRebelExtended
+
+- type: marking
+  id: HairResomiLoyal
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiLoyal
+
+- type: marking
+  id: HairResomiLoyalMale
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiLoyalMale
+
+- type: marking
+  id: HairResomiCosmorunner
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiCosmorunner
+
+- type: marking
+  id: HairResomiPlumage
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiPlumage
