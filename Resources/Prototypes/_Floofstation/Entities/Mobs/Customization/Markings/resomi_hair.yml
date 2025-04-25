@@ -160,6 +160,7 @@
     - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
       state: ResomiLong
 
+# Few Additions here - Chlymerine
 
 - type: marking
   id: HairResomiRebel
@@ -205,3 +206,12 @@
   sprites:
   - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
     state: ResomiCosmorunner
+
+- type: marking
+  id: HairResomiPlumage
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiPlumage
