@@ -42,6 +42,18 @@
         {
             "name": "fluff_head_up",
             "directions": 4
+        },
+        {
+            "name": "Wendigo-paint",
+            "directions": 4
+        },
+        {
+            "name": "Wendigo-onlypaint",
+            "directions": 4
+        },
+        {
+            "name": "Wendigo-paint-mane",
+            "directions": 4
         }
     ]
 }

@@ -40,6 +40,14 @@
             "directions": 4
         },
         {
+            "name": "ResomiLoyal",
+            "directions": 4
+        },
+        {
+            "name": "ResomiLoyalMale",
+            "directions": 4
+        },
+        {
             "name": "ResomiLongway",
             "directions": 4
         },
@@ -80,11 +88,15 @@
             "directions": 4
         },
         {
-            "name": "ResomiUpright",
+            "name": "ResomiLong",
             "directions": 4
         },
         {
-            "name": "ResomiLong",
+            "name": "ResomiRebel",
+            "directions": 4
+        },
+        {
+            "name": "ResomiRebelExtended",
             "directions": 4
         }
     ]

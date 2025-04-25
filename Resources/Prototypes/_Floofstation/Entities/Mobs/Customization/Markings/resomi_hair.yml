@@ -17,15 +17,6 @@
       state: ResomiBurstShort
 
 - type: marking
-  id: HairResomiCosmorunner
-  bodyPart: Hair
-  markingCategory: Hair
-  speciesRestriction: [Resomi]
-  sprites:
-  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
-    state: ResomiCosmorunner
-
-- type: marking
   id: HairResomiDefault
   bodyPart: Hair
   markingCategory: Hair
@@ -205,3 +196,12 @@
   sprites:
   - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
     state: ResomiLoyalMale
+
+- type: marking
+  id: HairResomiCosmorunner
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiCosmorunner
