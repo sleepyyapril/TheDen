@@ -79,3 +79,34 @@
   sprites:
   - sprite: _FloofStation/Mobs/Customization/resomi_parts.rsi
     state: fluff_head_up
+
+- type: marking
+  id: ResomiWendigoFaceOnly
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_parts.rsi
+    state: Wendigo-paint
+
+- type: marking
+  id: ResomiWendigoFaceManed
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_parts.rsi
+    state: Wendigo-paint-mane
+  - sprite: _FloofStation/Mobs/Customization/resomi_parts.rsi
+    state: Wendigo-paint
+
+- type: marking
+  id: ResomiWendigoFaceManed
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_parts.rsi
+    state: Wendigo-paint-mane
+  - sprite: _FloofStation/Mobs/Customization/resomi_parts.rsi
+    state: Wendigo-paint
