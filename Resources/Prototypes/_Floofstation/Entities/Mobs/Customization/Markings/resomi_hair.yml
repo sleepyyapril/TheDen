@@ -215,3 +215,21 @@
   sprites:
   - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
     state: ResomiPlumage
+
+- type: marking
+  id: HairResomiPlumageLong
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiPlumageLong
+
+- type: marking
+  id: HairResomiGenericallyUnique
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/resomi_hair.rsi
+    state: ResomiGenericallyUnique

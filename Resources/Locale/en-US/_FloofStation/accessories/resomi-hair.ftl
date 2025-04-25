@@ -21,3 +21,6 @@ marking-HairResomiRebel = Resomi Rebel
 marking-HairResomiRebelExtended = Resomi Rebel with Extension
 marking-HairResomiLoyal = Resomi Loyal
 marking-HairResomiLoyalMale = Resomi Loyal (Male)
+marking-HairResomiPlumage = Resomi Plumage (Short)
+marking-HairResomiPlumageLong = Resomi Plumage (Long)
+marking-HairResomiGenericallyUnique = Resomi Uniquely Generic
