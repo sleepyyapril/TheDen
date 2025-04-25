@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "version": 1,
   "license": "CC-BY-SA-3.0",
   "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/c838ba21dae97db345e0113f99596decd1d66039. Vox state made by Flareguy for Space Station 14. Modified and splited into shaded-unshaded states by kosticia.",
@@ -30,6 +31,10 @@
       "directions": 4
     },
     {
+          "name": "equipped-OUTERCLOTHING-resomi",
+          "directions": 4
+    },
+    {
       "name": "inhand-left",
       "directions": 4
     },
@@ -37,5 +42,6 @@
       "name": "inhand-right",
       "directions": 4
     }
-  ]
+  ],
+>>>>>>> 1d635c7e02 (OuterWear DONE)
 }

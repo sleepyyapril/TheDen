@@ -208,6 +208,17 @@
             !type:DamageTypeTrigger
             damageType: Blunt
             damage: 300
+    # This dont work, not sure what the proper way to do this is
+    #- type: Hands
+    #  handDisplacement:
+    #    layer:
+    #      sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
+    #      state: inHand
+    #      copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+    #        layerKey: dummy
+    #        parameterTexture: displacementMap
+    #        parameterUV: displacementUV
     - type: Inventory
       speciesId: resomi
       templateId: digitigrade
@@ -306,6 +317,15 @@
           layer:
             sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
             state: belt
+            copyToShaderParameters:
+              # Value required, provide a dummy. Gets overridden when applied.
+              layerKey: dummy
+              parameterTexture: displacementMap
+              parameterUV: displacementUV
+        handDisplacement:
+          layer:
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
+            state: inHand
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
               layerKey: dummy
