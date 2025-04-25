@@ -16,6 +16,10 @@
             "directions": 4
         },
         {
+            "name": "ResomiCosmorunner",
+            "directions": 4
+        },
+        {
             "name": "ResomiDefault",
             "directions": 4
         },
@@ -69,6 +73,10 @@
         },
         {
             "name": "ResomiTwies",
+            "directions": 4
+        },
+        {
+            "name": "ResomiUpright",
             "directions": 4
         },
         {
