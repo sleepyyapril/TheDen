@@ -92,6 +92,10 @@
             "directions": 4
         },
         {
+            "name": "ResomiPlumageLong",
+            "directions": 4
+        },
+        {
             "name": "ResomiLoyal",
             "directions": 4
         },
@@ -101,6 +105,10 @@
         },
         {
             "name": "ResomiLoyalMale",
+            "directions": 4
+        },
+        {
+            "name": "ResomiGenericallyUnique",
             "directions": 4
         }
     ]
