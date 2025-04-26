@@ -1388,7 +1388,7 @@
   id: NoConsoleSound
 
 - type: Tag
-  id: NoPaint
+  id: NoRecharge # Assmos - Crystallizer
 
 - type: Tag
   id: NozzleBackTank

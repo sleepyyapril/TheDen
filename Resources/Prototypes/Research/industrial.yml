@@ -205,7 +205,10 @@
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
   - HolofanProjector
-  - HandHeldAtmosMonitor
+  - CrystallizerMachineCircuitboard
+  - ElectrolyzerMachineCircuitboard # Assmos - /tg/ gases
+  technologyPrerequisites:
+  - AtmosphericTech
 
 - type: technology
   id: AdvancedToolsTechnology
