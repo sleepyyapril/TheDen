@@ -2484,6 +2484,9 @@
     tags:
     - ClothMade
     - CottonBoll
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: CottonBol
 
 - type: entity # Floofstation
   name: pomegranate
@@ -2583,6 +2586,9 @@
     - CottonBoll
   - type: Extractable
     grindableSolutionName: food
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PyrottonBol
 
 - type: entity
   name: cherry
