@@ -3805,3 +3805,14 @@ Entries:
   id: 338
   time: '2025-04-28T10:49:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/488
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added more whimsey
+    - type: Fix
+      message: Fixed tortuga's arti piping
+    - type: Remove
+      message: Removed three hundred rats
+  id: 339
+  time: '2025-04-28T12:52:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/485
