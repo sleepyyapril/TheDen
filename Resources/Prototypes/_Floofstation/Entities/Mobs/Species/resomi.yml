@@ -46,7 +46,7 @@
     - type: HumanoidAppearance
       species: Resomi
     - type: Icon
-      sprite: _Floofstation/Mobs/Species/Resomi/parts.rsi
+      sprite: "_Floofstation/Mobs/Species/Resomi/parts.rsi"
       state: full
     - type: Body
       prototype: Resomi
@@ -221,7 +221,7 @@
     #        parameterUV: displacementUV
     - type: Inventory
       speciesId: resomi
-#      templateId: digitigrade
+    # templateId: digitigrade
       displacements:
         jumpsuit:
           layer:
