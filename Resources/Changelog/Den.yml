@@ -3836,3 +3836,14 @@ Entries:
   id: 341
   time: '2025-04-29T07:25:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/492
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: >-
+        Rodentian, a language based off of mouse specific to Rodentians (they
+        can no longer shittalk Hamlet)
+    - type: Tweak
+      message: Psychomantic now uses the OpenDyslexic font to increase readability
+  id: 342
+  time: '2025-04-29T08:38:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/494
