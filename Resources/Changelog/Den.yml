@@ -3816,3 +3816,10 @@ Entries:
   id: 339
   time: '2025-04-28T12:52:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/485
+- author: SleepyScarecrow
+  changes:
+    - type: Fix
+      message: Fixed footprints
+  id: 340
+  time: '2025-04-29T03:09:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/482
