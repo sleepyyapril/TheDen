@@ -3823,3 +3823,16 @@ Entries:
   id: 340
   time: '2025-04-29T03:09:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/482
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added a medical hud variant styled after the visor sunglasses.
+    - type: Add
+      message: Added the walking cane to the loadout.
+    - type: Tweak
+      message: Tweaked Butlertron's cash reward to be around the 1k-2k spesos range.
+    - type: Tweak
+      message: Moths should be able to consume pills now.
+  id: 341
+  time: '2025-04-29T07:25:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/492
