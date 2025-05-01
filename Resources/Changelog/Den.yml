@@ -3893,3 +3893,12 @@ Entries:
   id: 348
   time: '2025-05-01T06:01:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/500
+- author: Rosycup
+  changes:
+    - type: Remove
+      message: >-
+        Removed lewd drinks from the possible random drink spawns. Health and
+        Safety recalls upon thee.
+  id: 349
+  time: '2025-05-01T06:01:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/501
