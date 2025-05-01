@@ -3872,3 +3872,10 @@ Entries:
   id: 345
   time: '2025-05-01T05:22:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/497
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Readded flash resistant cybereyes
+  id: 346
+  time: '2025-05-01T05:23:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/498
