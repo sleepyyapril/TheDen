@@ -3856,3 +3856,12 @@ Entries:
   id: 343
   time: '2025-04-30T02:10:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/489
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: >-
+        Vet cone! Need to make sure those kitties and doggies dont scratch their
+        wounds!
+  id: 344
+  time: '2025-05-01T05:21:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/495
