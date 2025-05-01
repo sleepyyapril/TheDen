@@ -3902,3 +3902,20 @@ Entries:
   id: 349
   time: '2025-05-01T06:01:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/501
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Buffed Swat gear to be a bit more proportional to its expensive status
+        and to compete with other riot gear better, check the PR for the values.
+    - type: Tweak
+      message: >-
+        Tweaked HoS' Samurai Armor to have a smaller movement decrease and
+        explosion resistance.
+    - type: Tweak
+      message: >-
+        Terminus and the RPG equippable on back and suit storage slots, RPG
+        requires wielding to fire. You must use both hands to end a life.
+  id: 350
+  time: '2025-05-01T08:42:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/496
