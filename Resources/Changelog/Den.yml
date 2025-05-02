@@ -3933,3 +3933,12 @@ Entries:
   id: 352
   time: '2025-05-02T08:35:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/504
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added Cowbell collar to loadout
+    - type: Tweak
+      message: Tweaked the volume of the cowbell down a little
+  id: 353
+  time: '2025-05-02T09:53:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/505
