@@ -3919,3 +3919,10 @@ Entries:
   id: 350
   time: '2025-05-01T08:42:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/496
+- author: KyuPolaris
+  changes:
+    - type: Tweak
+      message: Tweaked Psychomatic fontsize down to 10px from 12px
+  id: 351
+  time: '2025-05-02T01:27:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/502
