@@ -3926,3 +3926,10 @@ Entries:
   id: 351
   time: '2025-05-02T01:27:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/502
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added cowbell collar
+  id: 352
+  time: '2025-05-02T08:35:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/504
