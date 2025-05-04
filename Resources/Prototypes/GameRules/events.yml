@@ -276,9 +276,9 @@
       prob: 0.001
     - id: MobRoingus
       prob: 0.01
-    specialEntries:
-    - id: SpawnPointGhostRatKing
-      prob: 0.001
+#    specialEntries:
+#    - id: SpawnPointGhostRatKing
+#      prob: 0.001
 
 - type: entity
   id: RoingusMigration
