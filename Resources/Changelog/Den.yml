@@ -3942,3 +3942,14 @@ Entries:
   id: 353
   time: '2025-05-02T09:53:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/505
+- author: Forzii
+  changes:
+    - type: Fix
+      message: >-
+        Chitinid, Rodentia, and those with Fast Metabolism now get hungry at the
+        intended rate. You poor, hungry souls.
+    - type: Fix
+      message: Diona now get thirsty at the intended rate. They are not cacti.
+  id: 354
+  time: '2025-05-05T06:21:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/508
