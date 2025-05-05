@@ -3953,3 +3953,18 @@ Entries:
   id: 354
   time: '2025-05-05T06:21:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/508
+- author: Rosycup
+  changes:
+    - type: Add
+      message: Added an ID card icon for Blueshield Officers.
+    - type: Add
+      message: Added missing rules for Shiva, Space Dragon, and Rift Carps.
+    - type: Tweak
+      message: Tweaked Shadowkin Plushies to Wurble on use.
+    - type: Tweak
+      message: >-
+        Tweaked Probers to do their electric bursts at 700 glimmer instead of
+        650.
+  id: 355
+  time: '2025-05-05T07:25:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/509
