@@ -424,51 +424,59 @@
     - VehicleWheelchairFolded # Goobstation
   - type: EmagLatheRecipes
     emagStaticRecipes:
-      - BoxLethalshot
-      - BoxShotgunSlug
-      - CombatKnife
-      - MagazineBoxLightRifle
-      - MagazineBoxMagnum
-      - MagazineBoxPistol
-      - MagazineBoxRifle
-      - MagazineLightRifle
-      - MagazineLightRifleEmpty
-      - MagazinePistol
-      - MagazinePistolEmpty
-      - MagazinePistolSubMachineGun
-      - MagazinePistolSubMachineGunEmpty
-      - MagazinePistolSubMachineGunTopMounted
-      - MagazinePistolSubMachineGunTopMountedEmpty
-      - MagazineRifle
-      - MagazineRifleEmpty
-      - MagazineShotgun
-      - MagazineShotgunEmpty
-      - MagazineShotgunSlug
-      - RiotShield
-      - SpeedLoaderMagnum
-      - SpeedLoaderMagnumEmpty
-      - GrenadeFlashBang # Goobstation
-      - BolaEnergy # Goobstation
-      - MagazinePistolCaselessRifle # Goobstation
-      - MagazineBoxCaselessRifle # Goobstation
-      - MagazineMagnumEmpty # Goobstation
-      - MagazineMagnum # Goobstation
-      - MagazineShotgunLeverRifleEmpty # Goobstation
-      - MagazineShotgunLeverRifle # Goobstation
-      - MagazineBoxShotgunHighCaliber # Goobstation
-      - MagazineBoxShotgunSlugHighCaliber # Goobstation
-      - MagazineBoxShotgunIncendiaryHighCaliber # Goobstation
-      - MagazineBoxShotgunUraniumHighCaliber # Goobstation
-      - MagazineBoxShotgunBeanbagHighCaliber # Goobstation
-      - MagazineBoxShotgunPracticeHighCaliber # Goobstation
-  - type: ContainerContainer
-    containers:
-      machine_board: !type:Container
-      machine_parts: !type:Container
-      blueprint: !type:Container
-  - type: EmptyOnMachineDeconstruct
-    containers:
-    - blueprint
+    - BoxLethalshot
+    - BoxShotgunFlare
+    - BoxShotgunSlug
+    - MagazineBoxLightRifle
+    - MagazineBoxMagnum
+    - MagazineBoxPistol
+    - MagazineBoxRifle
+    - MagazineLightRifle
+    - MagazineLightRifleEmpty
+    - MagazinePistol
+    - MagazinePistolEmpty
+    - MagazinePistolSubMachineGun
+    - MagazinePistolSubMachineGunEmpty
+    - MagazinePistolSubMachineGunTopMounted
+    - MagazinePistolSubMachineGunTopMountedEmpty
+    - MagazineRifle
+    - MagazineRifleEmpty
+    - MagazineShotgun
+    - MagazineShotgunEmpty
+    - MagazineShotgunSlug
+    - RiotShield
+    - SpeedLoaderMagnum
+    - SpeedLoaderMagnumEmpty
+    - GrenadeFlashBang # Goobstation
+    # .35 Caseless Pistol
+    - MagazinePistolCaselessRiflePractice # EE
+    - MagazinePistolCaselessRifle # EE
+    - MagazinePistolCaselessRifleRubber # EE
+    # .35 Caseless (Civilian) Rifle
+    - MagazineCaselessRifleShortPractice # EE
+    - MagazineCaselessRifleShort # EE
+    - MagazineCaselessRifleShortRubber # EE
+    # .35 Caseless (Military) Rifle
+    - MagazineCaselessRiflePractice # EE
+    - MagazineCaselessRifle # EE
+    - MagazineCaselessRifleRubber # EE
+    # .35 Caseless (Box Mag) Rifle
+    - MagazineBoxCaselessRiflePractice # EE
+    - MagazineBoxCaselessRifle # EE
+    - MagazineBoxCaselessRifleRubber # EE
+    - BolaEnergy # Goobstation
+    - MagazinePistolCaselessRifle # Goobstation
+    - MagazineBoxCaselessRifle # Goobstation
+    - MagazineMagnumEmpty # Goobstation
+    - MagazineMagnum # Goobstation
+    - MagazineShotgunLeverRifleEmpty # Goobstation
+    - MagazineShotgunLeverRifle # Goobstation
+    - MagazineBoxShotgunHighCaliber # Goobstation
+    - MagazineBoxShotgunSlugHighCaliber # Goobstation
+    - MagazineBoxShotgunIncendiaryHighCaliber # Goobstation
+    - MagazineBoxShotgunUraniumHighCaliber # Goobstation
+    - MagazineBoxShotgunBeanbagHighCaliber # Goobstation
+    - MagazineBoxShotgunPracticeHighCaliber # Goobstation
 
 - type: entity
   id: AutolatheHyperConvection
@@ -1203,7 +1211,29 @@
       - WeaponLaserCarbinePractice
       - Zipties
       - GrenadeFlashBang # Goobstation
-      - BolaEnergy # Goobstation
+      - ShockCollar
+      # DeltaV - .38 special ammo - Add various .38 special ammo to security techfab
+      - MagazineBoxSpecial
+      - MagazineBoxSpecialPractice
+      - SpeedLoaderSpecial
+      - MagazinePistolSpecial
+      - HandheldGPSBasic
+      - HandheldStationMap
+      - MagazineNovaliteC1Empty
+      - MagazineNovaliteC1
+      - MagazineLightRifleLowCapacityEmpty
+      - MagazineLightRifleLowCapacity
+      - SpeedLoaderRifleHeavy
+      - SpeedLoaderRifleHeavyEmpty
+      - WeaponRifleNovaliteC1
+      - WeaponRifleGestio
+      - ClothingEyesGlassesSecurity
+      - TelescopicShield
+      - HoloprojectorSecurity
+      - BolaEnergy
+      - ClothingHeadHelmetBasic
+      - MagazineShotgunBeanbag
+      - ShellTranquilizer
       - MagazineMagnumEmpty # Goobstation
       - MagazineMagnum # Goobstation
       - MagazineShotgunLeverRifle # Goobstation
@@ -1211,7 +1241,6 @@
       - MagazineBoxShotgunHighCaliber # Goobstation
       - MagazineBoxShotgunSlugHighCaliber # Goobstation
       - MagazineBoxShotgunPracticeHighCaliber # Goobstation
-    dynamicRecipes:
       - BoxBeanbag
       - CartridgePistolRubber
       - CartridgeMagnumRubber
@@ -1247,6 +1276,7 @@
       - CrossbowBolt # Frontier
       - CrossbowBoltBroadhead # Frontier
       - ClothingBeltQuiverCrossbow # Frontier
+    dynamicRecipes:
       - Truncheon
       - Terminus
       - CrossbowModern # Frontier
@@ -1446,6 +1476,26 @@
         - ShellTranquilizer
         - SpeedLoaderMagnum
         - SpeedLoaderMagnumEmpty
+        - SpeedLoaderRifleHeavy
+        - SpeedLoaderRifleHeavyEmpty
+        - CartridgeSpecial
+        - MagazineBoxSpecial
+        # .35 Caseless Pistol
+        - MagazinePistolCaselessRiflePractice # EE
+        - MagazinePistolCaselessRifle # EE
+        - MagazinePistolCaselessRifleRubber # EE
+        # .35 Caseless (Civilian) Rifle
+        - MagazineCaselessRifleShortPractice # EE
+        - MagazineCaselessRifleShort # EE
+        - MagazineCaselessRifleShortRubber # EE
+        # .35 Caseless (Military) Rifle
+        - MagazineCaselessRiflePractice # EE
+        - MagazineCaselessRifle # EE
+        - MagazineCaselessRifleRubber # EE
+        # .35 Caseless (Box Mag) Rifle
+        - MagazineBoxCaselessRiflePractice # EE
+        - MagazineBoxCaselessRifle # EE
+        - MagazineBoxCaselessRifleRubber # EE
         - MagazineMagnumEmpty # Goobstation
         - MagazineMagnum # Goobstation
         - MagazineBoxShotgunHighCaliber # Goobstation

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity
-  parent: ERTLeaderPDA
+  parent: BaseMedicalPDA
   id: BlueshieldPDA
   name: Blueshield Officer PDA
   description: The silver shield of the Blueshield is engraved on the front.
