@@ -3975,3 +3975,30 @@ Entries:
   id: 356
   time: '2025-05-06T03:34:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/510
+- author: EE Contributors
+  changes:
+    - type: Add
+      message: >-
+        I know this is a fix PR, but I ported Smuggler Satchel, watches, and
+        rings
+    - type: Fix
+      message: Hopefully fixed server performance
+    - type: Fix
+      message: Plenty of psionic and glimmer fixes
+    - type: Fix
+      message: >-
+        The job menu doesn't magically switch to the old style when editing
+        other parts of your character anymore
+    - type: Fix
+      message: >-
+        You can no longer lie to yourself and select more markings than the
+        point limit allows
+    - type: Fix
+      message: Fixed some odd behavior with the marking editor's Customize button
+    - type: Tweak
+      message: >-
+        Many melee weapons have been buffed to fit the new system, try out your
+        local melees today!
+  id: 357
+  time: '2025-05-06T11:45:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/512
