@@ -46,7 +46,7 @@
     - type: HumanoidAppearance
       species: Resomi
     - type: Icon
-      sprite: "_Floofstation/Mobs/Species/Resomi/parts.rsi"
+      sprite: "_FloofStation/Mobs/Species/Resomi/parts.rsi"
       state: full
     - type: Body
       prototype: Resomi
@@ -208,17 +208,17 @@
             !type:DamageTypeTrigger
             damageType: Blunt
             damage: 300
-    # This dont work, not sure what the proper way to do this is
-    #- type: Hands
-    #  handDisplacement:
-    #    layer:
-    #      sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
-    #      state: inHand
-    #      copyToShaderParameters:
-            # Value required, provide a dummy. Gets overridden when applied.
-    #        layerKey: dummy
-    #        parameterTexture: displacementMap
-    #        parameterUV: displacementUV
+    # This doesn't work, not sure what the proper way to do this is
+    - type: Hands
+      handDisplacement:
+        layer:
+          sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
+          state: inHand
+          copyToShaderParameters:
+#             Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
     - type: Inventory
       speciesId: resomi
     # templateId: digitigrade
@@ -243,7 +243,7 @@
               parameterUV: displacementUV
         gloves:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: hands
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -252,7 +252,7 @@
               parameterUV: displacementUV
         head:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: head
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -261,7 +261,7 @@
               parameterUV: displacementUV
         back:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: back
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -270,7 +270,7 @@
               parameterUV: displacementUV
         ears:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: ears
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -279,7 +279,7 @@
               parameterUV: displacementUV
         shoes:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: feet
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -288,7 +288,7 @@
               parameterUV: displacementUV
         neck:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: neck
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -297,7 +297,7 @@
               parameterUV: displacementUV
         mask:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: mask
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -306,7 +306,7 @@
               parameterUV: displacementUV
         suitstorage:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: suitStorage
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -315,22 +315,22 @@
               parameterUV: displacementUV
         belt:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: belt
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
               layerKey: dummy
               parameterTexture: displacementMap
               parameterUV: displacementUV
-        handDisplacement:
-          layer:
-            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
-            state: inHand
-            copyToShaderParameters:
-              # Value required, provide a dummy. Gets overridden when applied.
-              layerKey: dummy
-              parameterTexture: displacementMap
-              parameterUV: displacementUV
+#        handDisplacement:
+#          layer:
+#            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
+#            state: inHand
+#            copyToShaderParameters:
+#              # Value required, provide a dummy. Gets overridden when applied.
+#              layerKey: dummy
+#              parameterTexture: displacementMap
+#              parameterUV: displacementUV
 
 - type: entity
   save: false
@@ -365,7 +365,7 @@
               parameterUV: displacementUV
         gloves:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: hands
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -374,7 +374,7 @@
               parameterUV: displacementUV
         head:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: head
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -383,7 +383,7 @@
               parameterUV: displacementUV
         back:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: back
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -392,7 +392,7 @@
               parameterUV: displacementUV
         ears:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: ears
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -401,7 +401,7 @@
               parameterUV: displacementUV
         shoes:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: feet
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -410,7 +410,7 @@
               parameterUV: displacementUV
         neck:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: neck
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -419,7 +419,7 @@
               parameterUV: displacementUV
         mask:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: mask
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -428,7 +428,7 @@
               parameterUV: displacementUV
         suitstorage:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: suitStorage
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -437,7 +437,7 @@
               parameterUV: displacementUV
         belt:
           layer:
-            sprite: "_Floofstation/Mobs/Species/Resomi/displacement.rsi"
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
             state: belt
             copyToShaderParameters:
               # Value required, provide a dummy. Gets overridden when applied.
@@ -456,10 +456,10 @@
         - map: ["enum.HumanoidVisualLayers.Eyes"]
           shader: unshaded
         - map: ["enum.HumanoidVisualLayers.Face"]
-        - map: ["enum.HumanoidVisualLayers.RArm"]
-        - map: ["enum.HumanoidVisualLayers.LArm"]
         - map: ["enum.HumanoidVisualLayers.RLeg"]
         - map: ["enum.HumanoidVisualLayers.LLeg"]
+        - map: [ "enum.HumanoidVisualLayers.RArm" ]
+        - map: [ "enum.HumanoidVisualLayers.LArm" ]
 #     - shader: StencilClear
 #      sprite: Mobs/Species/Human/parts.rsi
 #      state: l_leg
