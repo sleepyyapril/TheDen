@@ -26,7 +26,7 @@ internal sealed class MassMindSwapRule : StationEventSystem<MassMindSwapRuleComp
     [Dependency] private readonly MindSwapPowerSystem _mindSwap = default!;
     [Dependency] private readonly ConsentSystem _consent = default!;
 
-    private static readonly ProtoId<ConsentTogglePrototype> MindSwapConsent = "MindSwap";
+    private static readonly ProtoId<ConsentTogglePrototype> MassMindSwapConsent = "MassMindSwap";
 
     protected override void Started(EntityUid uid, MassMindSwapRuleComponent component, GameRuleComponent gameRule, GameRuleStartedEvent args)
     {
@@ -38,7 +38,7 @@ internal sealed class MassMindSwapRule : StationEventSystem<MassMindSwapRuleComp
         var query = EntityQueryEnumerator<PsionicComponent, MobStateComponent>();
         while (query.MoveNext(out var psion, out _, out _))
         {
-            if (_mobStateSystem.IsAlive(psion) && !HasComp<PsionicInsulationComponent>(psion) && _consent.HasConsent(psion, MindSwapConsent))
+            if (_mobStateSystem.IsAlive(psion) && !HasComp<PsionicInsulationComponent>(psion) && _consent.HasConsent(psion, MassMindSwapConsent))
             {
                 psionicPool.Add(psion);
 
