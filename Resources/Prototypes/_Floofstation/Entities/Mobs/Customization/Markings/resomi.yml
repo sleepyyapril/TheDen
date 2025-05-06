@@ -1,3 +1,5 @@
+## Basic Resomi
+
 - type: marking
   id: ResomiTail
   bodyPart: Chest
@@ -88,7 +90,7 @@
   markingCategory: Head
   speciesRestriction: [Resomi]
   sprites:
-  - sprite: _FloofStation/Mobs/Customization/head_markings.rsi
+  - sprite: _FloofStation/Mobs/Customization/Resomi/head_markings.rsi
     state: Wendigo-paint
 
 - type: marking
@@ -97,9 +99,9 @@
   markingCategory: Head
   speciesRestriction: [Resomi]
   sprites:
-  - sprite: _FloofStation/Mobs/Customization/head_markings.rsi
+  - sprite: _FloofStation/Mobs/Customization/Resomi/head_markings.rsi
     state: Wendigo-paint
-  - sprite: _FloofStation/Mobs/Customization/head_markings.rsi
+  - sprite: _FloofStation/Mobs/Customization/Resomi/head_markings.rsi
     state: Wendigo-paint-mane
 
 - type: marking
@@ -108,8 +110,46 @@
   markingCategory: Head
   speciesRestriction: [Resomi]
   sprites:
-  - sprite: _FloofStation/Mobs/Customization/head_markings.rsi
+  - sprite: _FloofStation/Mobs/Customization/Resomi/head_markings.rsi
     state: fluff_ears
+
+# Arm Markings
+
+- type: marking
+  id: ResomiCyArmL
+  bodyPart: LArm
+  markingCategory: LeftArm
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/Resomi/arm_markings.rsi
+    state: cyberkinetic-arm-l
+
+- type: marking
+  id: ResomiCyArmR
+  bodyPart: RArm
+  markingCategory: RightArm
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/Resomi/arm_markings.rsi
+    state: cyberkinetic-arm-r
+
+- type: marking
+  id: ResomiCyHandR
+  bodyPart: RHand
+  markingCategory: RightHand
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/Resomi/arm_markings.rsi
+    state: cyberkinetic-hand-r
+
+- type: marking
+  id: ResomiCyHandL
+  bodyPart: LHand
+  markingCategory: LeftHand
+  speciesRestriction: [Resomi]
+  sprites:
+  - sprite: _FloofStation/Mobs/Customization/Resomi/arm_markings.rsi
+    state: cyberkinetic-hand-l
 
 # Leg Markings
 
@@ -119,7 +159,7 @@
   markingCategory: RightLeg
   speciesRestriction: [Resomi]
   sprites:
-  - sprite: _FloofStation/Mobs/Customization/leg_markings.rsi
+  - sprite: _FloofStation/Mobs/Customization/Resomi/leg_markings.rsi
     state: cyberkinetic-leg-r
 
 - type: marking
@@ -128,7 +168,7 @@
   markingCategory: LeftLeg
   speciesRestriction: [Resomi]
   sprites:
-  - sprite: _FloofStation/Mobs/Customization/leg_markings.rsi
+  - sprite: _FloofStation/Mobs/Customization/Resomi/leg_markings.rsi
     state: cyberkinetic-leg-l
 
 - type: marking
@@ -137,7 +177,7 @@
   markingCategory: RightFoot
   speciesRestriction: [Resomi]
   sprites:
-  - sprite: _FloofStation/Mobs/Customization/leg_markings.rsi
+  - sprite: _FloofStation/Mobs/Customization/Resomi/leg_markings.rsi
     state: cyberkinetic-foot-r
 
 - type: marking
@@ -146,5 +186,5 @@
   markingCategory: LeftFoot
   speciesRestriction: [Resomi]
   sprites:
-  - sprite: _FloofStation/Mobs/Customization/leg_markings.rsi
+  - sprite: _FloofStation/Mobs/Customization/Resomi/leg_markings.rsi
     state: cyberkinetic-foot-l
