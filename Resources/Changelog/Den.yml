@@ -4011,3 +4011,13 @@ Entries:
   id: 358
   time: '2025-05-08T00:21:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/514
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Paramedic Magboots, a pair of magboots made for paramedics
+        that are slightly faster than the basic ones. Go find them in the suit
+        lockers!
+  id: 359
+  time: '2025-05-08T08:09:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/515
