@@ -4002,3 +4002,12 @@ Entries:
   id: 357
   time: '2025-05-06T11:45:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/512
+- author: Hederadaii
+  changes:
+    - type: Add
+      message: >-
+        Added rose, jasmine and a rose and jasmine bouquet (not grow- or
+        craft-able yet)
+  id: 358
+  time: '2025-05-08T00:21:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/514
