@@ -4028,3 +4028,10 @@ Entries:
   id: 360
   time: '2025-05-08T17:45:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/516
+- author: ZigTag
+  changes:
+    - type: Add
+      message: Ported chat highlighting from DeltaV
+  id: 361
+  time: '2025-05-08T22:26:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/506
