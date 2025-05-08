@@ -4021,3 +4021,10 @@ Entries:
   id: 359
   time: '2025-05-08T08:09:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/515
+- author: Forzii
+  changes:
+    - type: Fix
+      message: Rodentia are now aware that underwear belongs under their jumpsuit.
+  id: 360
+  time: '2025-05-08T17:45:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/516
