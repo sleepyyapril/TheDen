@@ -211,14 +211,18 @@
     # This doesn't work, not sure what the proper way to do this is
     - type: Hands
       handDisplacement:
-        layer:
-          sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
-          state: inHand
-          copyToShaderParameters:
-#             Value required, provide a dummy. Gets overridden when applied.
-            layerKey: dummy
-            parameterTexture: displacementMap
-            parameterUV: displacementUV
+        sizeMaps:
+          32:
+            sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
+            state: inHand
+#        layer:
+#          sprite: "_FloofStation/Mobs/Species/Resomi/displacement.rsi"
+#          state: inHand
+#          copyToShaderParameters:
+##             Value required, provide a dummy. Gets overridden when applied.
+#            layerKey: dummy
+#            parameterTexture: displacementMap
+#            parameterUV: displacementUV
     - type: Inventory
       speciesId: resomi
     # templateId: digitigrade
