@@ -472,7 +472,8 @@ namespace Content.Shared.Movement.Systems
             if (_inventory.TryGetSlotEntity(uid, "shoes", out var shoes) &&
                 TryComp<NaturalFootstepSoundsComponent>(shoes, out var _))
             {
-                return false;
+                sound = moverModifier.FootstepSoundCollection;
+                return true;
             }
 
             if (TryComp<FootstepModifierComponent>(shoes, out var modifier))
