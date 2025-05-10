@@ -4044,3 +4044,10 @@ Entries:
   id: 362
   time: '2025-05-10T00:43:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/518
+- author: Hederadaii
+  changes:
+    - type: Tweak
+      message: Made the Golden Ring able to be colour-customisable.
+  id: 363
+  time: '2025-05-10T04:02:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/519
