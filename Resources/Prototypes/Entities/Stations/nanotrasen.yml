@@ -44,7 +44,7 @@
     - BaseStationNanotrasen
     - BaseRandomStation
     - BaseStationMail # Nyano component, required for station mail to function
-    - BaseStationCaptainState # DeltaV
+    - BaseStationAutomaticSpareId # DeltaV
     - BaseStationStockMarket # DeltaV
   categories: [ HideSpawnMenu ]
   components:
