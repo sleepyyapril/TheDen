@@ -67,6 +67,7 @@
   # Begin Goobstation Additions
   - UpgradeKitAutomation
   - RoboticArmCircuitboard
+  - ConstructorCircuitboard
   - StorageBinCircuitboard
   - InteractorCircuitboard
   # End Goobstation Additions
