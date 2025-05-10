@@ -1,6 +1,7 @@
 - type: entity
   parent: BaseGameRule
   id: Changeling
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: ChangelingRule
   - type: GameRule
@@ -11,7 +12,7 @@
     - EscapeIdentityObjective
     - ChangelingSurviveObjective
   - type: AntagSelection
-    selectionTime: PrePlayerSpawn
+    selectionTime: PostPlayerSpawn
     agentName: changeling-roundend-name
     definitions:
     - prefRoles: [ Changeling ]
