@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2022 Javier Guardia Fernández <DrSmugleaf@users.noreply.github.com>
+﻿// SPDX-FileCopyrightText: 2022 Javier Guardia Fernández <DrSmugleaf@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2022 Kara <lunarautomaton6@gmail.com>
 // SPDX-FileCopyrightText: 2022 Moony <moonheart08@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2022 github-actions <github-actions@users.noreply.github.com>
@@ -14,6 +14,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Numerics;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.ResourceManagement;
@@ -46,7 +47,7 @@ public sealed class EntityPainter
         _errorImage = Image.Load<Rgba32>(_resManager.ContentFileRead("/Textures/error.rsi/error.png"));
     }
 
-    public void Run(Image canvas, List<EntityData> entities)
+    public void Run(Image canvas, List<EntityData> entities, Vector2 customOffset = default)
     {
         var stopwatch = new Stopwatch();
         stopwatch.Start();
@@ -57,13 +58,13 @@ public sealed class EntityPainter
 
         foreach (var entity in entities)
         {
-            Run(canvas, entity, xformSystem);
+            Run(canvas, entity, xformSystem, customOffset);;
         }
 
         Console.WriteLine($"{nameof(EntityPainter)} painted {entities.Count} entities in {(int) stopwatch.Elapsed.TotalMilliseconds} ms");
     }
 
-    public void Run(Image canvas, EntityData entity, SharedTransformSystem xformSystem)
+    public void Run(Image canvas, EntityData entity, SharedTransformSystem xformSystem, Vector2 customOffset = default)
     {
         if (!entity.Sprite.Visible || entity.Sprite.ContainerOccluded)
         {
@@ -116,7 +117,7 @@ public sealed class EntityPainter
                 var frames = stateCount / entity.Sprite.GetLayerDirectionCount(layer);
                 var target = direction * frames;
                 var targetY = target / statesX;
-                var targetX = target % statesY;
+                var targetX = target % statesX;
                 return (targetX * rsi.Size.X, targetY * rsi.Size.Y, rsi.Size.X, rsi.Size.Y);
             }
 
@@ -137,19 +138,28 @@ public sealed class EntityPainter
 
             image.Mutate(o => o.Crop(rect));
 
+            var spriteRotation = 0f;
+            if (!entity.Sprite.NoRotation && !entity.Sprite.SnapCardinals && entity.Sprite.GetLayerDirectionCount(layer) == 1)
+            {
+                spriteRotation = (float) worldRotation.Degrees;
+            }
+
             var colorMix = entity.Sprite.Color * layer.Color;
             var imageColor = Color.FromRgba(colorMix.RByte, colorMix.GByte, colorMix.BByte, colorMix.AByte);
             var coloredImage = new Image<Rgba32>(image.Width, image.Height);
             coloredImage.Mutate(o => o.BackgroundColor(imageColor));
 
             var (imgX, imgY) = rsi?.Size ?? (EyeManager.PixelsPerMeter, EyeManager.PixelsPerMeter);
+            var offsetX = (int) (entity.Sprite.Offset.X + customOffset.X) * EyeManager.PixelsPerMeter;
+            var offsetY = (int) (entity.Sprite.Offset.Y + customOffset.X) * EyeManager.PixelsPerMeter;
             image.Mutate(o => o
                 .DrawImage(coloredImage, PixelColorBlendingMode.Multiply, PixelAlphaCompositionMode.SrcAtop, 1)
                 .Resize(imgX, imgY)
-                .Flip(FlipMode.Vertical));
+                .Flip(FlipMode.Vertical)
+                .Rotate(spriteRotation));
 
-            var pointX = (int) entity.X - imgX / 2 + EyeManager.PixelsPerMeter / 2;
-            var pointY = (int) entity.Y - imgY / 2 + EyeManager.PixelsPerMeter / 2;
+            var pointX = (int) entity.X + offsetX - imgX / 2;
+            var pointY = (int) entity.Y + offsetY - imgY / 2;
             canvas.Mutate(o => o.DrawImage(image, new Point(pointX, pointY), 1));
         }
     }
