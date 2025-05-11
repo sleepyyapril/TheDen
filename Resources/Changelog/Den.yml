@@ -4058,3 +4058,12 @@ Entries:
   id: 364
   time: '2025-05-10T06:44:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/520
+- author: leonardo-dabepis
+  changes:
+    - type: Remove
+      message: >-
+        no more moodlet text spam when you smoke cigarettes finally thank fuck
+        jesus christ
+  id: 365
+  time: '2025-05-11T02:05:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/521
