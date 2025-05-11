@@ -4067,3 +4067,12 @@ Entries:
   id: 365
   time: '2025-05-11T02:05:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/521
+- author: leonardo-dabepis
+  changes:
+    - type: Tweak
+      message: >-
+        Slightly modified absinthe flavor. It tastes like... *sniff*... hmm...
+        like green.
+  id: 366
+  time: '2025-05-11T02:05:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/522
