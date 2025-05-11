@@ -4076,3 +4076,16 @@ Entries:
   id: 366
   time: '2025-05-11T02:05:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/522
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked the crusher axe to have its lifesteal and increased damage on
+        wield back.
+    - type: Tweak
+      message: >-
+        Tweaked both the crusher axe and glaive to its old speed values, and
+        removed the pressure and wield requirements.
+  id: 367
+  time: '2025-05-11T04:01:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/524
