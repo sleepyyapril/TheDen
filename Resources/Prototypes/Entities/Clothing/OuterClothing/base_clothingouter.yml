@@ -209,7 +209,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
+    # HidesHarpyWings #Floof change, caused vulp tails to be hidden in hardsuits(with singer trait only) #DeltaV: Used by harpies to help render their hardsuit sprites
     - AllowLamiaHardsuit
     - FullBodyOuter
     - PlasmamanSafe
@@ -354,8 +354,7 @@
   - type: Tag
     tags:
     - AllowLamiaHardsuit #DeltaV: Used by Lamia to render snek hardsuits
-    - HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites
-    - PlasmamanSafe
+    # HidesHarpyWings #DeltaV: Used by harpies to help render their hardsuit sprites (this caused vulp tails to be hidden in hardsuits)
   - type: Clothing
     equipDelay: 1.25 # Softsuits are easier to put on and off
     unequipDelay: 1

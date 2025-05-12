@@ -70,7 +70,8 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-    - HidesHarpyWings
+    - FullBodyOuter
+    # HidesHarpyWings #Floof change, caused vulp tails to be hidden in hardsuits(with singer trait only)
   - type: ClothingRequiredStepTriggerImmune
     slots: WITHOUT_POCKET
 
@@ -129,7 +130,7 @@
   - type: Tag
     tags:
       - WhitelistChameleon
-      - HidesHarpyWings
+    # HidesHarpyWings #Floof change, caused vulp tails to be hidden in hardsuits(with singer trait only)
 
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
@@ -164,7 +165,7 @@
     - type: Tag
       tags:
         - WhitelistChameleon
-        - HidesHarpyWings
+        # HidesHarpyWings #Floof change, caused vulp tails to be hidden in hardsuits(with singer trait only)
 
 - type: entity
   parent: [ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing]
@@ -193,7 +194,7 @@
   - type: Tag
     tags:
       - WhitelistChameleon
-      - HidesHarpyWings
+      # HidesHarpyWings #Floof change, caused vulp tails to be hidden in hardsuits(with singer trait only)
 
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseToggleClothing]

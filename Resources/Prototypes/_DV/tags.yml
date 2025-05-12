@@ -53,7 +53,7 @@
   id: HandLabeler
 
 - type: Tag
-  id: HidesHarpyWings
+  id: HidesHarpyWings # was Removed from the clothing. Floof change
 
 - type: Tag
   id: MagazinePistolSpecial # For the .38 special ammo and pistol

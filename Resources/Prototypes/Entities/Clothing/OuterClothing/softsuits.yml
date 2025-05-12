@@ -34,7 +34,7 @@
     - MonkeyWearable
     - WhitelistChameleon
     - AllowLamiaHardsuit
-    - HidesHarpyWings
+    # HidesHarpyWings #Floof change, caused vulp tails to be hidden in hardsuits(with singer trait only)
 
 #Syndicate EVA
 - type: entity
@@ -53,7 +53,7 @@
     - MonkeyWearable
     - WhitelistChameleon
     - AllowLamiaHardsuit
-    - HidesHarpyWings
+    # HidesHarpyWings  Floof Change
 
 #Emergency EVA
 - type: entity
@@ -96,7 +96,7 @@
     - MonkeyWearable
     - WhitelistChameleon
     - AllowLamiaHardsuit
-    - HidesHarpyWings
+    # HidesHarpyWings  Floof Change
 
 #NTSRA Voidsuit / Ancient Voidsuit
 - type: entity
