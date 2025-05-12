@@ -7,6 +7,8 @@
 
 using Content.Goobstation.Common.DoAfter;
 using Content.Goobstation.Shared.Factory.Filters;
+using Content.Shared._Goobstation.Factory;
+using Content.Shared._Goobstation.Factory.Filters;
 using Content.Shared.DeviceLinking;
 using Content.Shared.DoAfter;
 using Content.Shared.Examine;

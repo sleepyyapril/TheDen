@@ -4,6 +4,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
 using Content.Server.Atmos.Piping.Unary.Components;
+using Content.Server.DeviceLinking.Events;
 using Content.Shared.Atmos.Piping.Binary.Components;
 using Content.Shared.DeviceLinking;
 using Content.Shared.DeviceLinking.Events;

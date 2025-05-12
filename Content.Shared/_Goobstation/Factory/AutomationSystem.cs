@@ -4,7 +4,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-using Content._Goobstation.Shared.Factory.Slots;
+using Content.Shared._Goobstation.Factory.Slots;
 using Content.Shared.Prototypes;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Systems;
