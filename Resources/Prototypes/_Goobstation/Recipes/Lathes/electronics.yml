@@ -37,3 +37,19 @@
   parent: BaseSilverCircuitboardRecipe
   id: DurandTargetingElectronics
   result: DurandTargetingElectronics
+
+- type: latheRecipe
+  parent: BaseGoldCircuitboardRecipe
+  id: RoboticArmCircuitboard
+  icon:
+    sprite: Objects/Misc/module.rsi
+    state: engineering
+  result: RoboticArmCircuitboard
+
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: StorageBinCircuitboard
+  icon:
+    sprite: Objects/Misc/module.rsi
+    state: generic
+  result: StorageBinCircuitboard

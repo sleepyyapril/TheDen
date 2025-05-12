@@ -173,39 +173,9 @@ namespace Content.Server.Power.EntitySystems
             return !_recQuery.Resolve(uid, ref receiver, false) || receiver.Powered;
         }
 
-        /// <summary>
-        /// Turn this machine on or off.
-        /// Returns true if we turned it on, false if we turned it off.
-        /// </summary>
-        public bool TogglePower(EntityUid uid, bool playSwitchSound = true, ApcPowerReceiverComponent? receiver = null, EntityUid? user = null)
+        public override void SetLoad(SharedApcPowerReceiverComponent comp, float load) // Goobstation - override shared method
         {
-            if (!_recQuery.Resolve(uid, ref receiver, false))
-                return true;
-
-            // it'll save a lot of confusion if 'always powered' means 'always powered'
-            if (!receiver.NeedsPower)
-            {
-                receiver.PowerDisabled = false;
-                return true;
-            }
-
-            receiver.PowerDisabled = !receiver.PowerDisabled;
-
-            if (user != null)
-                _adminLogger.Add(LogType.Action, LogImpact.Low, $"{ToPrettyString(user.Value):player} hit power button on {ToPrettyString(uid)}, it's now {(!receiver.PowerDisabled ? "on" : "off")}");
-
-            if (playSwitchSound)
-            {
-                _audio.PlayPvs(new SoundPathSpecifier("/Audio/Machines/machine_switch.ogg"), uid,
-                    AudioParams.Default.WithVolume(-2f));
-            }
-
-            return !receiver.PowerDisabled; // i.e. PowerEnabled
-        }
-
-        public void SetLoad(ApcPowerReceiverComponent comp, float load)
-        {
-            comp.Load = load;
+            ((ApcPowerReceiverComponent) comp).Load = load; // Goobstation
         }
 
         public override bool ResolveApc(EntityUid entity, [NotNullWhen(true)] ref SharedApcPowerReceiverComponent? component)
