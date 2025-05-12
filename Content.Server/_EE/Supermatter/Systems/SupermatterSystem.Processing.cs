@@ -12,6 +12,7 @@ using Content.Server.Singularity.Components;
 using Content.Server.Sound.Components;
 using Content.Shared._EE.CCVars;
 using Content.Shared._EE.Supermatter.Components;
+using Content.Shared._Impstation.Thaven.Components;
 using Content.Shared.Atmos;
 using Content.Shared.Audio;
 using Content.Shared.Chat;
@@ -680,10 +681,42 @@ public sealed partial class SupermatterSystem
         // Play the reality distortion sound for every player on the map
         _audio.PlayGlobal(sm.DistortSound, mapFilter, true);
 
-        // Add hallucinations to every player on the map
-        // TODO: change this from paracusia to actual hallucinations whenever those are real
+        // Give effects to every mob on the map, except those in EntityStorage (lockers, etc)
         var mobLookup = new HashSet<Entity<MobStateComponent>>();
         _entityLookup.GetEntitiesOnMap<MobStateComponent>(mapId, mobLookup);
+        mobLookup.RemoveWhere(x => HasComp<InsideEntityStorageComponent>(x));
+
+        // Scramble the thaven shared mood
+        _moods.NewSharedMoods();
+
+        // Add post-delamination event scheduler
+        var gamerule = _gameTicker.AddGameRule(sm.DelamGamerulePrototype);
+        _gameTicker.StartGameRule(gamerule);
+
+        var effects = _proto.Index(sm.DelamEffectsPrototype).Components;
+
+        foreach (var mob in mobLookup)
+        {
+            // Scramble laws for silicons, then ignore other effects
+            if (TryComp<SiliconLawBoundComponent>(mob, out var law))
+            {
+                var target = EnsureComp<IonStormTargetComponent>(mob); // they hit the fucking ai
+                var oldChance = target.Chance;
+                target.Chance = 1f;
+                _ionStorm.IonStormTarget((mob.Owner, law, target));
+                target.Chance = oldChance; // hacky fucking code. whatever. don't look at me
+
+                continue;
+            }
+
+            // Scramble thaven moods
+            if (TryComp<ThavenMoodsComponent>(mob, out var moods))
+                _moods.RefreshMoods((mob, moods));
+
+            // Add effects to all mobs
+            // TODO: change paracusia to actual hallucinations whenever those are real
+            EntityManager.AddComponents(mob, effects, false);
+        }
 
         switch (sm.PreferredDelamType)
         {

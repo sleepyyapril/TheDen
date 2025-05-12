@@ -38,6 +38,7 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
     [Dependency] private readonly UserInterfaceSystem _bui = default!;
     [Dependency] private readonly IChatManager _chatManager = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
+    [Dependency] private readonly EmagSystem _emag = default!;
 
     public IReadOnlyList<ThavenMood> SharedMoods => _sharedMoods.AsReadOnly();
     private readonly List<ThavenMood> _sharedMoods = new();
@@ -320,7 +321,7 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
             TryAddMood(ent, mood, true, false);
 
         // Wildcard moods
-        if (HasComp<EmaggedComponent>(ent))
+        if (_emag.CheckFlag(ent, EmagType.Interaction))
             AddWildcardMood(ent, false);
     }
 

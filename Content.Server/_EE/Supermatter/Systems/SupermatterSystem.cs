@@ -1,11 +1,4 @@
-// SPDX-FileCopyrightText: 2024 sleepyyapril <flyingkarii@gmail.com>
-// SPDX-FileCopyrightText: 2025 Solaris <60526456+SolarisBirb@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 VMSolidus <evilexecutive@gmail.com>
-// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
-
-using Content.Server.AlertLevel;
+using Content.Server._Impstation.Thaven;
 using Content.Server.Administration.Logs;
 using Content.Server.Atmos.EntitySystems;
 using Content.Server.Atmos.Piping.Components;
@@ -14,9 +7,11 @@ using Content.Server.Chat.Systems;
 using Content.Server.DoAfter;
 using Content.Server.Examine;
 using Content.Server.Explosion.EntitySystems;
+using Content.Server.GameTicking;
 using Content.Server.Lightning;
 using Content.Server.Popups;
 using Content.Server.Radio.EntitySystems;
+using Content.Server.Silicons.Laws;
 using Content.Server.Singularity.Components;
 using Content.Server.Singularity.EntitySystems;
 using Content.Server.Traits.Assorted;
@@ -42,6 +37,7 @@ using Robust.Shared.Physics;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Player;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Content.Shared.DeviceLinking;
@@ -57,12 +53,15 @@ public sealed partial class SupermatterSystem : EntitySystem
     [Dependency] private readonly EntityLookupSystem _entityLookup = default!;
     [Dependency] private readonly ExamineSystem _examine = default!;
     [Dependency] private readonly ExplosionSystem _explosion = default!;
+    [Dependency] private readonly GameTicker _gameTicker = default!;
     [Dependency] private readonly GravityWellSystem _gravityWell = default!;
+    [Dependency] private readonly IonStormSystem _ionStorm = default!;
     [Dependency] private readonly LightningSystem _lightning = default!;
     [Dependency] private readonly ParacusiaSystem _paracusia = default!;
     [Dependency] private readonly PointLightSystem _light = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
     [Dependency] private readonly RadioSystem _radio = default!;
+    [Dependency] private readonly ThavenMoodsSystem _moods = default!;
     [Dependency] private readonly SharedAmbientSoundSystem _ambient = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
@@ -72,6 +71,7 @@ public sealed partial class SupermatterSystem : EntitySystem
     [Dependency] private readonly IChatManager _chatManager = default!;
     [Dependency] private readonly IConfigurationManager _config = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
+    [Dependency] private readonly IPrototypeManager _proto = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
 
     public override void Initialize()
