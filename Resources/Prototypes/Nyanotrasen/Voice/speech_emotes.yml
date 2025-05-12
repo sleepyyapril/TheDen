@@ -59,6 +59,7 @@
     tags:
     - FelinidEmotes
     - HarpyEmotes
+    - KitsuneEmotes
   blacklist:
     components:
     - BorgChassis

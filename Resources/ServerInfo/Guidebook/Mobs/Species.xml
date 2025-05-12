@@ -25,8 +25,18 @@
 
   # Delta-V specific species
   <Box>
+<<<<<<< HEAD
     <GuideEntityEmbed Entity="MobRodentia" Caption="Rodentia"/>
     <GuideEntityEmbed Entity="MobFeroxi" Caption="Feroxi"/>
+=======
+  <GuideEntityEmbed Entity="MobRodentia" Caption="Rodentia"/>
+  <GuideEntityEmbed Entity="MobVulpkanin" Caption="Vulpkanin"/>
+  <GuideEntityEmbed Entity="MobFelinid" Caption="Felinid"/>
+  <GuideEntityEmbed Entity="MobHarpy" Caption="Harpy"/>
+  <GuideEntityEmbed Entity="MobOni" Caption="Oni"/>
+  <GuideEntityEmbed Entity="MobFeroxi" Caption="Feroxi"/>
+  <GuideEntityEmbed Entity="MobKitsune" Caption="Kitsune"/>
+>>>>>>> c789afd350 (Project Yokai (DeltaV's Kitsune Species Port) (#937))
   </Box>
 
   # The Den specific species

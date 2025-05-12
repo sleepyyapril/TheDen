@@ -5,6 +5,7 @@
   - MobDamageable
   - MobPolymorphable
   - MobCombat
+  - StripableInventoryBase
   id: BaseMobSpecies
   abstract: true
   components:
@@ -197,7 +198,6 @@
     - NanoTrasen
   - type: CreamPied
   - type: Stripping
-  - type: Strippable
   - type: UserInterface
     interfaces:
       enum.HumanoidMarkingModifierKey.Key:
@@ -346,6 +346,7 @@
 - type: entity
   save: false
   id: BaseSpeciesDummy
+  parent: InventoryBase
   abstract: true
   components:
   - type: Hands
