@@ -1421,7 +1421,9 @@
       - PortableGeneratorPacmanMachineCircuitboard
       - PortableGeneratorSuperPacmanMachineCircuitboard
       - RoboticArmCircuitboard
+      - ConstructorCircuitboard
       - StorageBinCircuitboard
+      - InteractorCircuitboard
       - LatheUpgradeKitHyper
       - LatheUpgradeKitCryo
       - UpgradeKitAutomation
