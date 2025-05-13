@@ -4119,3 +4119,10 @@ Entries:
   id: 371
   time: '2025-05-13T05:17:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/527
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: 'Removed the range limitation on detail examine. '
+  id: 372
+  time: '2025-05-13T21:49:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/530
