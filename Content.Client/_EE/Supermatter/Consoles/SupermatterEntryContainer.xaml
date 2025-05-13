@@ -232,30 +232,13 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
                     </BoxContainer>
                 </BoxContainer>
 
-                <!--  Absorbed moles display  -->
-                <BoxContainer Margin="0,1" Orientation="Horizontal">
-                    <Label
-                        HorizontalAlignment="Left"
-                        HorizontalExpand="True"
-                        Name="MolesLabel"
-                        Text="{Loc 'supermatter-console-window-label-power'}" />
-                    <BoxContainer
-                        Orientation="Horizontal"
-                        SetHeight="24"
-                        SetWidth="180">
-                        <PanelContainer
-                            HorizontalExpand="True"
-                            Margin="0,0,4,0"
-                            Name="MolesBarBorder">
-                            <ProgressBar
-                                Margin="1"
-                                MaxValue="100"
-                                MinValue="0"
-                                Name="MolesBar">
-                                <Label
-                                    HorizontalAlignment="Right"
-                                    Margin="0,0,4,0"
-                                    Name="MolesBarLabel" />
+                <!-- Absorbed moles display -->
+                <BoxContainer Orientation="Horizontal" Margin="0 1">
+                    <Label Name="MolesLabel" Text="{Loc 'supermatter-console-window-label-moles'}" HorizontalExpand="True" HorizontalAlignment="Left" />
+                    <BoxContainer SetWidth="180" SetHeight="24" Orientation="Horizontal">
+                        <PanelContainer Name="MolesBarBorder" HorizontalExpand="True" Margin="0">
+                            <ProgressBar Name="MolesBar" MinValue="0" MaxValue="50" Margin="1">
+                                <Label Name="MolesBarLabel" HorizontalAlignment="Right" Margin="0 0 4 0" />
                             </ProgressBar>
                         </PanelContainer>
                     </BoxContainer>
