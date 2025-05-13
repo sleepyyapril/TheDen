@@ -4133,3 +4133,10 @@ Entries:
   id: 373
   time: '2025-05-13T21:54:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/529
+- author: leonardo-dabepis
+  changes:
+    - type: Fix
+      message: Le funi Magritte paintings should spawn now
+  id: 374
+  time: '2025-05-13T21:54:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/531
