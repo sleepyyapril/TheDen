@@ -4126,3 +4126,10 @@ Entries:
   id: 372
   time: '2025-05-13T21:49:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/530
+- author: KyuPolaris
+  changes:
+    - type: Tweak
+      message: 4no Raisins now contain raisins in them (for recipe purposes)
+  id: 373
+  time: '2025-05-13T21:54:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/529
