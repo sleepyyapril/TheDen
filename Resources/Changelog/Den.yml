@@ -4110,3 +4110,12 @@ Entries:
   id: 370
   time: '2025-05-13T01:45:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/526
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added jaunters to the salvage specialist loadout, as well a slightly
+        more pricey spare.
+  id: 371
+  time: '2025-05-13T05:17:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/527
