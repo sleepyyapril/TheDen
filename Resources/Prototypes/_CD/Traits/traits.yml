@@ -1,6 +1,13 @@
 ﻿- type: trait
   id: Synthetic
-  name: trait-synth-name
-  description: trait-synth-desc
-  components:
-    - type: Synth
+  category: Physical
+  points: -1 # Can detect ion storms
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: Synth
