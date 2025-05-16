@@ -4151,3 +4151,12 @@ Entries:
   id: 375
   time: '2025-05-16T03:30:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/490
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        IPCs have a visor-like face option and a "screen covering" to hide their
+        face.
+  id: 376
+  time: '2025-05-16T16:20:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/534
