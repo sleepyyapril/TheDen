@@ -4160,3 +4160,12 @@ Entries:
   id: 376
   time: '2025-05-16T16:20:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/534
+- author: GreggTheFather
+  changes:
+    - type: Tweak
+      message: Gave roundstart Asterisk Chemistry Plasma
+    - type: Fix
+      message: Fixed Shoko's Mining Shuttle Dock spawn
+  id: 377
+  time: '2025-05-16T20:41:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/513
