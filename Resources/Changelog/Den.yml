@@ -4203,3 +4203,10 @@ Entries:
   id: 380
   time: '2025-05-17T04:49:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/539
+- author: Wheels
+  changes:
+    - type: Fix
+      message: Rechargers now correctly display charge level
+  id: 381
+  time: '2025-05-17T15:15:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/545
