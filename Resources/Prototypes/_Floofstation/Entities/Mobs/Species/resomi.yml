@@ -46,7 +46,7 @@
     - type: HumanoidAppearance
       species: Resomi
     - type: Icon
-      sprite: "_Floofstation/Mobs/Species/Resomi/parts.rsi"
+      sprite: "_FloofStation/Mobs/Species/Resomi/parts.rsi"
       state: full
     - type: Body
       prototype: Resomi
