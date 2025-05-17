@@ -4194,3 +4194,12 @@ Entries:
   id: 379
   time: '2025-05-17T03:23:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/533
+- author: Wheels
+  changes:
+    - type: Add
+      message: Added rolled corpsman jumpskirt
+    - type: Fix
+      message: Rolling corpsman jumpsuit sleeves now doesn't make you naked
+  id: 380
+  time: '2025-05-17T04:49:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/539
