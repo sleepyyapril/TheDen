@@ -4169,3 +4169,16 @@ Entries:
   id: 377
   time: '2025-05-16T20:41:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/513
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a sawn off shotgun loaded with non-lethals and a beanbag magazine
+        to the security loadouts. Please practice gun safety and self-restraint.
+    - type: Tweak
+      message: >-
+        Tweaked shotgun shell boxes sprites to the ones from Frontier once
+        again.
+  id: 378
+  time: '2025-05-17T03:22:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/532
