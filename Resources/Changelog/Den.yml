@@ -4182,3 +4182,15 @@ Entries:
   id: 378
   time: '2025-05-17T03:22:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/532
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the magmantle, a cloak that functions as slower magboots.
+        Available in the species loadout for species that lack feet slots in
+        certain departments or jobs.
+    - type: Tweak
+      message: Tweaked Hi-Vis jackets to glow in the dark.
+  id: 379
+  time: '2025-05-17T03:23:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/533
