@@ -4237,3 +4237,10 @@ Entries:
   id: 384
   time: '2025-05-18T11:11:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/544
+- author: KyuPolaris
+  changes:
+    - type: Remove
+      message: Removed ability for ovinia to have AnimalFriend and NaturalWeaponRemoval
+  id: 385
+  time: '2025-05-18T11:40:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/551
