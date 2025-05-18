@@ -1,16 +1,6 @@
-﻿- type: trait
-  id: Synthetic
-  # Begin TheDen Changes
-  category: Physical
-  points: -1 # Can detect ion storms, poison blood
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - IPC
-  functions:
-    - !type:TraitAddComponent
-      components:
-        - type: Synth
-          alertChance: 1
-  # End TheDen Changes
+﻿#- type: trait # TheDen - use our trait system
+#  id: Synthetic
+#  name: trait-synth-name
+#  description: trait-synth-desc
+#  components:
+#    - type: Synth

@@ -36,3 +36,6 @@ trait-description-FastMetabolism = You naturally have a faster metabolism, burni
 
 trait-name-Alaseta = Alaseta
 trait-description-Alaseta = A horrifying mix of Sol Common and Canilunzt, the language is loosely remembles the structure Sol Common with alot more yapping, snarling, and growling.
+
+trait-name-Synthetic = Synthetic
+trait-description-Synthetic = You are a biomechanical construct, who bleeds coolant and is notified of ongoing Ion Storms.

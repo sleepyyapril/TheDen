@@ -19,7 +19,7 @@
         conditions:
         - !type:Temperature
           min: 253.15
-        amount: -10000
+        amount: -20000
   footstepSound:
     collection: FootstepBlood
     params:
