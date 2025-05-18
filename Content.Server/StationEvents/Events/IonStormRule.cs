@@ -77,7 +77,7 @@ public sealed class IonStormRule : StationEventSystem<IonStormRuleComponent>
         var synthQuery = EntityQueryEnumerator<SynthComponent>();
         while (synthQuery.MoveNext(out var ent, out var synthComp))
         {
-            if (RobustRandom.Prob(synthComp.AlertChance))
+            if (!RobustRandom.Prob(synthComp.AlertChance)) // TheDen - Negate so AlertChance is accurate
                 continue;
 
             if (!TryComp<ActorComponent>(ent, out var actor))

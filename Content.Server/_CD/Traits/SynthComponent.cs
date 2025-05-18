@@ -7,8 +7,8 @@ namespace Content.Server._CD.Traits;
 public sealed partial class SynthComponent : Component
 {
     /// <summary>
-    /// The chance that the synth isn't alerted of an ion storm
+    /// The chance that the synth is alerted of an ion storm
     /// </summary>
     [DataField]
-    public float AlertChance = 0.3f;
+    public float AlertChance = 0.7f; // TheDen - 0.7, was 0.3
 }

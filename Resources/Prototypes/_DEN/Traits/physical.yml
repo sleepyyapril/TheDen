@@ -133,3 +133,4 @@
     - !type:TraitAddComponent
       components:
         - type: Wagging
+
