@@ -2,7 +2,7 @@
   id: SynthBlood
   name: reagent-name-synth-blood
   group: Biological
-  desc: reagent-desc-synth-blood
+  desc: reagent-desc-synth-blood-theden
   flavor: metallic
   color: "#00b8f5"
   recognizable: true

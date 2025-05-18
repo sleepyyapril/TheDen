@@ -1,4 +1,3 @@
-using Content.Server._CD.Traits;
 using System.Linq;
 using Content.Server.Silicons.Laws;
 using Content.Server.Station.Components;
@@ -15,6 +14,7 @@ using Content.Shared.Silicons.Laws.Components;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 // Used in CD's System
+using Content.Server._CD.Traits;
 using Content.Server.Chat.Managers;
 using Content.Shared.Chat;
 using Robust.Shared.Player;

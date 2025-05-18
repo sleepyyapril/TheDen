@@ -147,4 +147,3 @@
     - !type:TraitAddComponent
       components:
         - type: Synth
-          alertChance: 1
