@@ -4226,3 +4226,14 @@ Entries:
   id: 383
   time: '2025-05-18T02:07:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/548
+- author: Wheels
+  changes:
+    - type: Tweak
+      message: Kinetic machete swing now looks better
+    - type: Fix
+      message: >-
+        Shadowkin no longer lose their telepathy upon picking role with innate
+        telepathy
+  id: 384
+  time: '2025-05-18T11:11:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/544
