@@ -4345,3 +4345,10 @@ Entries:
   id: 396
   time: '2025-05-19T16:21:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/565
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Epistemics can no longer go in debt.
+  id: 397
+  time: '2025-05-19T20:11:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/567
