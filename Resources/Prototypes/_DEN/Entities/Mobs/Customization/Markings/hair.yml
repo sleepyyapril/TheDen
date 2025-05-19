@@ -3,7 +3,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: _DEN\Mobs\Customization\Hair\haircepha.rsi
+    - sprite: _DEN/Mobs/Customization/Hair/haircepha.rsi
       state: longsmoothie
 
 - type: marking
@@ -11,7 +11,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: _DEN\Mobs\Customization\Hair\haircepha.rsi
+    - sprite: _DEN/Mobs/Customization/Hair/haircepha.rsi
       state: shortbob
 
 - type: marking
@@ -19,7 +19,7 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: _DEN\Mobs\Customization\Hair\haircepha.rsi
+    - sprite: _DEN/Mobs/Customization/Hair/haircepha.rsi
       state: shortside
 
 - type: marking
@@ -27,5 +27,5 @@
   bodyPart: Hair
   markingCategory: Hair
   sprites:
-    - sprite: _DEN\Mobs\Customization\Hair\haircepha.rsi
+    - sprite: _DEN/Mobs/Customization/Hair/haircepha.rsi
       state: twintailsberly
