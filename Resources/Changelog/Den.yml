@@ -4260,3 +4260,12 @@ Entries:
   id: 387
   time: '2025-05-19T01:41:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/552
+- author: Wheels
+  changes:
+    - type: Fix
+      message: Restored Mail unit UI
+    - type: Tweak
+      message: Mailing unit clears target on send
+  id: 388
+  time: '2025-05-19T02:14:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/554
