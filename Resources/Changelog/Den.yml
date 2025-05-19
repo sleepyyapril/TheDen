@@ -4269,3 +4269,12 @@ Entries:
   id: 388
   time: '2025-05-19T02:14:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/554
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Added the Emergency Comfort Deployment Unit (a.k.a. a pillow) craftable
+        with two cloth in the construction menu
+  id: 389
+  time: '2025-05-19T02:15:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/558
