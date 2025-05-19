@@ -4278,3 +4278,14 @@ Entries:
   id: 389
   time: '2025-05-19T02:15:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/558
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Drugs with effect and withdrawal moodlets should hopefully no longer
+        spam you with moodlet messages.
+    - type: Fix
+      message: Restores nicotine's ability to give you a positive moodlet.
+  id: 390
+  time: '2025-05-19T02:15:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/550
