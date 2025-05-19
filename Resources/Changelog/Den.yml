@@ -4315,3 +4315,12 @@ Entries:
   id: 392
   time: '2025-05-19T11:30:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/562
+- author: KyuPolaris
+  changes:
+    - type: Tweak
+      message: >-
+        Added rgb skintone slider to Harpy and Arachne (humanoid skintone slider
+        still available, like humans)
+  id: 393
+  time: '2025-05-19T11:32:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/563
