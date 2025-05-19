@@ -4251,3 +4251,12 @@ Entries:
   id: 386
   time: '2025-05-18T18:05:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/540
+- author: Camdot
+  changes:
+    - type: Tweak
+      message: >-
+        Uses the storage's existing savedlocations to storage the item's
+        position when it is taken out, and thus retrieved when reinserted. 
+  id: 387
+  time: '2025-05-19T01:41:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/552
