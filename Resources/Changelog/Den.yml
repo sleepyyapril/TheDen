@@ -4302,3 +4302,16 @@ Entries:
   id: 391
   time: '2025-05-19T09:17:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/559
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added Egg Layer trait for 1 cost, now you can make egg!
+    - type: Tweak
+      message: >-
+        Removed species restriction on Honey Stomach trait, made it cost 1 to
+        match egg layer.
+    - type: Add
+      message: Added the Ovinia natural language to the trait list for the typical cost
+  id: 392
+  time: '2025-05-19T11:30:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/562
