@@ -5,8 +5,6 @@ namespace Content.Shared.Examine
 {
     public abstract partial class ExamineSystemShared : EntitySystem
     {
-        [Dependency] private readonly IComponentFactory _componentFactory = default!;
-
         public const string DefaultIconTexture = "/Textures/Interface/examine-star.png";
 
         public override void Initialize()
@@ -52,7 +50,7 @@ namespace Content.Shared.Examine
         {
             foreach (var comp in components)
             {
-                if (!_componentFactory.TryGetRegistration(comp, out var componentRegistration))
+                if (!Factory.TryGetRegistration(comp, out var componentRegistration))
                     continue;
 
                 if (!HasComp(uid, componentRegistration.Type))
@@ -114,7 +112,7 @@ namespace Content.Shared.Examine
             if (TryComp<GroupExamineComponent>(verbsEvent.Target, out var groupExamine))
             {
                 // Make sure we have the component name as a string
-                var componentName = _componentFactory.GetComponentName(component.GetType());
+                var componentName = Factory.GetComponentName(component.GetType());
 
                 foreach (var examineGroup in groupExamine.Group)
                 {

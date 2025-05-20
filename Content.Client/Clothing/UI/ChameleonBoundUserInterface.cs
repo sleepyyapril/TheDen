@@ -9,6 +9,7 @@ namespace Content.Client.Clothing.UI;
 [UsedImplicitly]
 public sealed class ChameleonBoundUserInterface : BoundUserInterface
 {
+    [Dependency] private readonly IPrototypeManager _proto = default!;
     private readonly ChameleonClothingSystem _chameleon;
 
     [ViewVariables]
@@ -34,7 +35,24 @@ public sealed class ChameleonBoundUserInterface : BoundUserInterface
             return;
 
         var targets = _chameleon.GetValidTargets(st.Slot);
-        _menu?.UpdateState(targets, st.SelectedId);
+        if (st.RequiredTag != null)
+        {
+            var newTargets = new List<string>();
+            foreach (var target in targets)
+            {
+                if (string.IsNullOrEmpty(target) || !_proto.TryIndex(target, out EntityPrototype? proto))
+                    continue;
+
+                if (!proto.TryGetComponent(out TagComponent? tag, EntMan.ComponentFactory) || !_tag.HasTag(tag, st.RequiredTag))
+                    continue;
+
+                newTargets.Add(target);
+            }
+            _menu?.UpdateState(newTargets, st.SelectedId);
+        } else
+        {
+            _menu?.UpdateState(targets, st.SelectedId);
+        }
     }
 
     private void OnIdSelected(string selectedId)

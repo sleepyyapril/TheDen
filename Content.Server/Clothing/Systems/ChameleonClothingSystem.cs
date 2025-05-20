@@ -96,7 +96,7 @@ public sealed class ChameleonClothingSystem : SharedChameleonClothingSystem
 
     private void UpdateIdentityBlocker(EntityUid uid, ChameleonClothingComponent component, EntityPrototype proto)
     {
-        if (proto.HasComponent<IdentityBlockerComponent>(_factory))
+        if (proto.HasComponent<IdentityBlockerComponent>(Factory))
             EnsureComp<IdentityBlockerComponent>(uid);
         else
             RemComp<IdentityBlockerComponent>(uid);

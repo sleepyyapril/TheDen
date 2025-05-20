@@ -36,6 +36,7 @@ namespace Content.Server.Shuttles.Systems;
 public sealed partial class ShuttleSystem : SharedShuttleSystem
 {
     [Dependency] private readonly IComponentFactory _factory = default!;
+    [Dependency] private readonly IAdminLogManager _logger = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
