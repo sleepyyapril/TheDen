@@ -4366,3 +4366,10 @@ Entries:
   id: 399
   time: '2025-05-20T06:15:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/568
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Missing translators for Nehina, Caprine, Alaseta and Rodentian
+  id: 400
+  time: '2025-05-20T06:16:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/569
