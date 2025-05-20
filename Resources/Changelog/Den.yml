@@ -4359,3 +4359,10 @@ Entries:
   id: 398
   time: '2025-05-20T06:14:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/570
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Egg Layer trait made inert and not usable for cooking
+  id: 399
+  time: '2025-05-20T06:15:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/568
