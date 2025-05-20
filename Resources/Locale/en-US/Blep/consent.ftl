@@ -42,5 +42,5 @@ consent-MassMindSwap-desc = Should a mass mind swap from glimmer work on you?
 consent-ChangelingTarget-name = Changeling Target
 consent-ChangelingTarget-desc = Should your body be allowed to be stolen by changelings?
 
-consent-AntagObjective-name = Antagonist Objective
-consent-AntagObjective-desc = Would you want to become the direct objective of an antagonist? (kill objectives)
+consent-KillObjective-name = Kill Objective
+consent-KillObjective-desc = Do you want to become the objective of an antagonist's kill objective?
