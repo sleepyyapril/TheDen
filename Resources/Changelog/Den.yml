@@ -4352,3 +4352,10 @@ Entries:
   id: 397
   time: '2025-05-19T20:11:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/567
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: minor loadout tweaks for command roles, check loadouts in case
+  id: 398
+  time: '2025-05-20T06:14:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/570
