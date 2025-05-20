@@ -23,8 +23,9 @@
   accessGroups:
   - BasicAllAccess
   access:
-  - CentralCommand
   - BlueshieldOfficer
+  - CentralCommand
+  - Corpsman
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -46,7 +47,7 @@
     jumpsuit: ClothingUniformJumpsuitBlueshieldOfficer
     shoes: ClothingShoesBootsCombatFilled
     eyes: ClothingEyesGlassesMedSec
-    ears: ClothingHeadsetCentCom
+    ears: ClothingHeadsetAltCentCom
     gloves: ClothingHandsGlovesCombat
     id: BlueshieldPDA
     pocket1: UniqueBlueshieldOfficerLockerTeleporter

@@ -382,6 +382,10 @@
       reagents:
       - ReagentId: Ichor
         Quantity: 10
+  - type: FoodSequenceElement
+    entries:
+      Taco: Dragon
+      Burger: DragonBurger
 
 - type: entity
   name: raw rat meat
@@ -1121,6 +1125,7 @@
   parent: FoodMeatBase
   id: FoodMeatMeatballCooked
   description: A cooked meatball. Perfect to add to other dishes... except fruity ones.
+  suffix: Cooked # TheDen
   components:
   - type: Tag
     tags:
@@ -1673,3 +1678,24 @@
     entries:
       Burger: XenoCutlet
       Taco: XenoCutlet
+
+- type: entity
+  name: sausage
+  parent: FoodMeatBase
+  id: FoodMeatSausage
+  description: Truly an example of making the best out of the wurst. #no I am not sorry for that pun.
+  components:
+  - type: Tag
+    tags:
+    - Cooked
+    - Meat
+  - type: Sprite
+    state: sausage
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 5
+        - ReagentId: Protein
+          Quantity: 5

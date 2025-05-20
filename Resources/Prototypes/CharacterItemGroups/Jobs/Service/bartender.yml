@@ -87,6 +87,8 @@
       id: LoadoutServiceOuterBartenderIdris
     - type: loadout
       id: LoadoutServiceOuterBartenderOrion
+    - type: loadout # DEN
+      id: LoadoutServiceOuterBartenderApron
 
 #- type: characterItemGroup
 #  id: LoadoutBartenderShoes
@@ -104,3 +106,9 @@
       id: LoadoutServiceJumpsuitBartenderIdris
     - type: loadout
       id: LoadoutServiceJumpsuitBartenderOrion
+    - type: loadout
+      id: LoadoutServiceBartenderUniformSuit
+    - type: loadout
+      id: LoadoutServiceBartenderUniformSkirt
+    - type: loadout
+      id: LoadoutServiceUniformJumpsuitBartenderGrey

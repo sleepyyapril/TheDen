@@ -28,6 +28,7 @@
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleBig
   name: ammunition box (.20 rifle)
+  suffix: Big # TheDen
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -48,6 +49,7 @@
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleBigRubber
   name: ammunition box (.20 rifle rubber)
+  suffix: Big # TheDen
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -139,3 +141,16 @@
       map: ["enum.GunVisualLayers.Mag"]
     - state: uranium
 
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: MagazineBoxRifleShrapnel
+  name: ammunition box (.20 rifle shrapnel)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleShrapnel
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

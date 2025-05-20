@@ -28,6 +28,7 @@
   - ExosuitFabricatorMachineCircuitboard
   - BorgModuleArtifact
   - BorgModuleAnomaly
+  - DroneElectronics
 
 - type: technology
   id: BasicElectronics
@@ -181,4 +182,8 @@
   - AnimalTranslator
   - MofficTranslatorImplanter
   - ArachnicTranslatorImplanter
+  - NehinaTranslatorImplanter
+  - RodentianTranslatorImplanter
+  - AlasetaTranslatorImplanter
+  - CaprineTranslatorImplanter
   softCapContribution: 1.5

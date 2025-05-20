@@ -1,10 +1,12 @@
 chat-language-Universal-name = Universal
+chat-language-Psychomantic-name = Psychomantic
 chat-language-Bubblish-name = Bubblish
 chat-language-RootSpeak-name = Rootspeak
 chat-language-Nekomimetic-name = Neko
 chat-language-Draconic-name = Sinta'Unathi
 chat-language-Azaziba-name = Sinta'Azaziba
 chat-language-SolCommon-name = Sol Common
+chat-language-NovuNederic-name = Novu-Nederic
 chat-language-TauCetiBasic-name = Basic
 chat-language-Tradeband-name = Tradeband
 chat-language-Freespeak-name = Freespeak
@@ -19,6 +21,8 @@ chat-language-Marish-name = Marish
 chat-language-ScugSign-name = Scug Sign
 chat-language-Arachnic-name = Arachnic
 chat-language-Chittin-name = Chittin
+chat-language-Nehina-name = Nēhina
+chat-language-Rodentian-name = Rodentian
 
 # Animal Languages
 

@@ -7,7 +7,7 @@
     - ClothingEyesEyepatch
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes2
+      group: LoadoutEyes # TheDen
 
 - type: loadout
   id: LoadoutEyesEyepatchColor
@@ -42,7 +42,7 @@
     - ClothingEyesGlasses
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes2
+      group: LoadoutEyes # TheDen
 
 - type: loadout
   id: LoadoutEyesGlassesJamjar
@@ -54,7 +54,7 @@
     - ClothingEyesGlassesJamjar
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes2
+      group: LoadoutEyes # TheDen
 
 - type: loadout
   id: LoadoutEyesGlasses3D
@@ -112,7 +112,7 @@
     - ClothingEyesGlassesJensen
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes2
+      group: LoadoutEyes # TheDen
 
 - type: loadout
   id: LoadoutEyesBlindfold
@@ -122,7 +122,7 @@
     - ClothingEyesBlindfold
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes2
+      group: LoadoutEyes # TheDen
 
 - type: loadout
   id: LoadoutEyesBlindfoldColor
@@ -144,7 +144,7 @@
     - ClothingEyesGlassesCheapSunglasses
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes2
+      group: LoadoutEyes # TheDen
 
 - type: loadout
   id: LoadoutEyesGlassesCheapSunglassesAviator
@@ -183,18 +183,18 @@
 - type: loadout
   id: LoadoutItemSunglasses
   category: Eyes
-  cost: 3
+  cost: 7
   exclusive: true
   items:
     - ClothingEyesGlassesSunglasses
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes2
+      group: LoadoutEyes # TheDen
 
 - type: loadout
   id: LoadoutEyesGlassesSunglassesAviator
   category: Eyes
-  cost: 3
+  cost: 7
   exclusive: true
   customColorTint: true
   items:
@@ -206,7 +206,7 @@
 - type: loadout
   id: LoadoutEyesGlassesSunglassesBig
   category: Eyes
-  cost: 3
+  cost: 7
   exclusive: true
   items:
     - ClothingEyesGlassesSunglassesBig
@@ -217,7 +217,7 @@
 - type: loadout
   id: LoadoutEyesGlassesSunglassesVisor
   category: Eyes
-  cost: 3
+  cost: 7
   exclusive: true
   items:
     - ClothingEyesGlassesSunglassesVisor
@@ -234,7 +234,7 @@
     - ClothingEyesBlindfoldFake
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutEyes2
+      group: LoadoutEyes # TheDen
 
 - type: loadout
   id: LoadoutEyesBlindfoldFakeColor

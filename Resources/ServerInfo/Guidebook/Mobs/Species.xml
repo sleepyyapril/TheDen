@@ -25,6 +25,12 @@
   # Delta-V specific species
   <Box>
     <GuideEntityEmbed Entity="MobRodentia" Caption="Rodentia"/>
+    <GuideEntityEmbed Entity="MobFeroxi" Caption="Feroxi"/>
   </Box>
-  
+
+  # The Den specific species
+  <Box>
+    <GuideEntityEmbed Entity="MobCanid" Caption="Canid"/>
+    <GuideEntityEmbed Entity="MobOvinia" Caption="Ovinia"/>
+  </Box>
 </Document>

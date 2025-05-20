@@ -281,6 +281,24 @@
       Plasma: 5
 
 - type: entity
+  id: BiogeneratorMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: biogenerator machine board
+  description: A machine printed circuit board for a biogenerator.
+  components:
+  - type: Sprite
+    state: service
+  - type: MachineBoard
+    prototype: Biogenerator
+    requirements:
+      MatterBin: 2
+    tagRequirements:
+      GlassBeaker:
+        Amount: 1
+        DefaultPrototype: Beaker
+        ExamineName: Glass Beaker
+
+- type: entity
   id: UniformPrinterMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: uniform printer machine board
@@ -1761,3 +1779,30 @@
         Steel: 5
         Gold: 5
         Bluespace: 5
+
+- type: entity
+  id: BookPressMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: book press machine board
+  description: A machine printed circuit board for a book press
+  components:
+    - type: MachineBoard
+      prototype: BookPress
+      requirements:
+        MatterBin: 1
+        Manipulator: 2
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: CutterMachineCircuitboard
+  name: cutter machine board
+  description: A machine printed circuit board for a tile cutter
+  components:
+  - type: MachineBoard
+    prototype: CutterMachine
+    requirements:
+      Capacitor: 1
+      Manipulator: 1
+    materialRequirements:
+      Cable: 1
+      Steel: 2

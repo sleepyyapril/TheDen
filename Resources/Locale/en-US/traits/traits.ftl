@@ -92,6 +92,9 @@ trait-description-FrenchAccent = You speak with a French accent.
 trait-name-ItalianAccent = Italian accent
 trait-description-ItalianAccent = You speak with a Italian accent.
 
+trait-name-MobsterAccent = Mobster accent
+trait-description-MobsterAccent = Fugeddaboutit! Yous talk numhallly, capiche?
+
 trait-name-SpanishAccent = Spanish accent
 trait-description-SpanishAccent = You speak with a Spanish accent.
 
@@ -231,6 +234,12 @@ trait-description-SolCommon =
     With its roots in Mandarin Chinese - Common evolved as the official language of the Sol Alliance - with officials working to tie it together with a common tongue.
     It's spoken by state officials - taught in schools - and spoken by those who either feel a sense of national pride in the Alliance or otherwise fell sway to the culture.
 
+trait-name-NovuNederic = Novu-Nederic
+trait-description-NovuNederic =
+    Once the language of seafarers and merchants, now the voice of spacers, terraformers, and pioneers.
+    Spoken in the New-Netherlands, this direct and pragmatic trade language carries the sharp consonants and clipped vowels of its old-world roots.
+    Built on centuries of seafaring, land reclamation, and commerce, it thrives among those who shape entire worlds — just as their ancestors shaped the land from the sea.
+
 trait-name-Tradeband = Tradeband
 trait-description-Tradeband =
     Descended from latin and romance languages of old Earth - Tradeband remains the main tongue of the upper class of humanity.
@@ -286,17 +295,22 @@ trait-description-LightStep =
 trait-name-Swashbuckler = Swashbuckler
 trait-description-Swashbuckler =
     You are an expert in swordsmanship, wielding swords, knives, and other blades with unrivaled finesse.
-    Your melee Slash bonus is increased to 35%, but your melee Blunt bonus is reduced to 20%.
+    Your melee Slash bonus is increased to 35%, but your melee Blunt bonus is reduced to 25%.
 
 trait-name-Spearmaster = Spearmaster
 trait-description-Spearmaster =
     You have an outstanding proficiency with spears, wielding them as an extension of your body.
-    Your melee Piercing bonus is increased to 35%, but your melee Blunt bonus is reduced to 20%.
+    Your melee Piercing bonus is increased to 35%, but your melee Blunt bonus is reduced to 25%.
 
 trait-name-WeaponsGeneralist = Weapons Generalist
 trait-description-WeaponsGeneralist =
     You are a jack of all trades with melee weapons, enabling you to be versatile with your weapon arsenal.
-    Your melee damage bonus for all Brute damage types (Blunt, Slash, Piercing) becomes 25%.
+    Your melee damage bonus for all Brute damage types (Blunt, Slash, Piercing) becomes 30%.
+
+trait-name-Mystic = Mystic
+trait-description-Mystic =
+    You are trained in Mysticism instead of melee combat, reducing your melee capabilities but drastically increasing your psionic potential.
+    Your melee damage bonus for all Brute damage types (Blunt, Slash, Piercing) becomes 10%, but your Potentia gain is drastically increased.
 
 trait-name-Singer = Singer
 trait-description-Singer = You are naturally capable of singing simple melodies with your voice.
@@ -309,8 +323,7 @@ trait-description-LatentPsychic =
 
 trait-name-PsionicInsulation = χ Waveform Misalignment
 trait-description-PsionicInsulation =
-    You are a flesh automaton animated by neurotransmitters. Within your skull lies a
-    1.5kg sack of meat pretending at sentience. By modern epistemiological theory, you aren't even a sophont.
+    Whether through implants or by way of innate psionic insulation, your consciousness is isolated from the noosphere.
     The good news is that you are immune to most positive and negative effects of psychic powers.
     There may be other consequences to this malady.
 
@@ -383,7 +396,7 @@ trait-description-StrikingCalluses =
     Striking Calluses consist of bony dermal deposits grafted into a user's hands, either inside the palm
     for "Tiger Style" fighting, or just below the knuckles for those who favor traditional boxing.
     Owners of prosthetic or bionic limbs would instead have a hard plastic shell over their knuckles.
-    These enhancements increase your unarmed strike damage by 1 point base, but do not confer
+    These enhancements increase your unarmed strike damage by 2 point base, but do not confer
     any benefits to any form of armed melee.
 
 trait-name-Spinarette = Bionic Spinarette
@@ -391,8 +404,7 @@ trait-description-Spinarette =
     This vatgrown organ-- trademarked and patented by the Cybersun Corporation, is marketed as a highly
     utilitarian enhancement, and sold in clinics all across known space. It consists of a nodule that is traditionally
     implanted right below the wrist, which absorbs bodily lipids to convert into all natural silk. A small opening
-    in the palm allows the user to 'spin' this thread. Users of this enhancement typically require twice as much food
-    as a standard Sol Human, owing to the high metabolic cost of artificial Sericulture.
+    in the palm allows the user to 'spin' this thread.
 
 trait-name-AddictionNicotine = Nicotine Addiction
 trait-description-AddictionNicotine =
@@ -443,6 +455,12 @@ trait-description-Marish = A language consisting of pure emotion, learnable only
 trait-name-Arachnic = Arachnic
 trait-description-Arachnic = The language of arachnids is composed of mostly clicks and hisses, it almost has a rhythmic character to it at times.
 
+trait-name-Nehina = Nēhina
+trait-description-Nehina =  A language spoken by the Feroxi, well adapted to speaking under the waters of ocean planets.
+
+trait-name-Rodentian = Rodentian
+trait-description-Rodentian =  A language mostly consisting of squeaks spoken by Rodentia if all shapes and sizes.
+
 trait-name-LowPotential = Low Psi-Potential
 trait-description-LowPotential =
     You possess an unusually weak connection to the noösphere, which makes it more difficult to obtain new psionic powers.
@@ -490,7 +508,7 @@ trait-description-PlateletFactories =
 trait-name-DermalArmor = Dermal Armor
 trait-description-DermalArmor =
     Your skin has been replaced with a flexible, yet sturdy, hard-polymer shell wrapped in a layer of synthetic flesh.
-    This augmentation provides an innate 10% resistance to physical damage.
+    This augmentation provides 1.5 points of flat reduction from all physical damage, while making the user take 25% more shock damage.
 
 trait-name-CyberEyes = Upgradable Cyber-Eyes
 trait-description-CyberEyes =
@@ -500,7 +518,7 @@ trait-description-CyberEyes =
 
 trait-name-FlareShielding = Cyber-Eyes: Eye Damage Resistance
 trait-description-FlareShielding =
-    Your cybereyes have been fitted with a photochromic lense that automatically darkens in response to intense stimuli.
+    Your cybereyes have been fitted with a photochromic lens that automatically darkens in response to intense stimuli.
     This provides immunity from most bright flashes of light, such as those from welding arcs.
 
 trait-name-CyberEyesSecurity = Cyber-Eyes: SecHud Module
@@ -510,11 +528,11 @@ trait-description-CyberEyesSecurity =
 
 trait-name-CyberEyesMedical = Cyber-Eyes: MedHud Module
 trait-description-CyberEyesMedical =
-    Your Cyber-Eyes have been upgraded to include a built-in Medical Hud, allowing you to track the relative health condition of biological organisms.
+    Your Cyber-Eyes have been upgraded to include a built-in Medical Hud, and a Chemical Analysis Hud, allowing you to track the relative health condition of biological organisms, and discern the chemicals in any solution.
 
 trait-name-CyberEyesDiagnostic = Cyber-Eyes: Diagnostics Module
 trait-description-CyberEyesDiagnostic =
-    Your Cyber-Eyes have been upgraded to include a built-in Diagnostic Hud, allowing you to track the condition of synthetic entities.
+    Your Cyber-Eyes have been upgraded to include a built-in Diagnostic Hud and flare shielding, allowing you to track the condition of synthetic entities, and providing eye protection against welding arcs.
 
 trait-name-CyberEyesOmni = Cyber-Eyes: Premium Suite Module
 trait-description-CyberEyesOmni =
@@ -533,6 +551,11 @@ trait-description-MetapsionicPower =
     You are able to intuitively sense the activation of psionic abilities, as well as send out a 'scanning' pulse
     to detect whether or not psions are nearby. This ability has a wide area of effect, and cannot precisely
     scan individual entities. Still, it is better than being blind.
+
+trait-name-HealingWordPower = Healing Word
+trait-description-HealingWordPower =
+    Your Mentalic abilities includes the power to heal the wounded.
+    This power, commonly known as "Healing Word", allows the user to heal themselves or others with their mind.
 
 trait-name-XenoglossyPower = Xenoglossy
 trait-description-XenoglossyPower =
@@ -566,13 +589,13 @@ trait-description-BrittleBoneDisease =
     Also known as "brittle bone disease", people with this genetic disorder have bones that are easily broken,
     often simply by moving. This trait reduces your threshold for critical injury by 50 points.
 
-trait-name-LightAmplification = CyberEyes Module: Light Amplification
+trait-name-LightAmplification = Cyber-Eyes: Light Amplification Module
 trait-description-LightAmplification =
-    Your CyberEyes have been enhanced with a light amplifier module, enabling the user to toggle between standard sight and "Night Vision" mode.
+    Your Cyber-Eyes have been enhanced with a light amplifier module, enabling the user to toggle between standard sight and "Night Vision" mode.
 
-trait-name-ThermographicVision = CyberEyes Module: Thermographic Scanner
+trait-name-ThermographicVision = Cyber-Eyes: Thermographic Scanner Module
 trait-description-ThermographicVision =
-    Your CyberEyes have been enhanced with a Thermographic Scanner. When enabled, it captures a snapshot of the user's surroundings, while highlighting all
+    Your Cyber-Eyes have been enhanced with a Thermographic Scanner. When enabled, it captures a snapshot of the user's surroundings, while highlighting all
     biological life forms. It can even detect individuals through the walls of a station.
 
 trait-name-ShadowkinBlackeye = Blackeye
@@ -588,16 +611,15 @@ trait-name-NaniteAutoRepairBots = Nanite Auto-Repair Bots
 trait-description-NaniteAutoRepairBots =
     Your chassis has been outfitted with Nanite Repair Drones. Whenever your sensors detect that you've recieved structural damage, the NRDs will activate to bring you back to operational standards.
 
-trait-name-BionicLeg = Bionic Leg
+trait-name-BionicLeg = Bionic Legs
 trait-description-BionicLeg =
     One or more of your limbs have been replaced with an expensive, state of the art bionic. It could be either one made of highly realistic synthflesh,
     or a more obvious metal limb. This limb provides enhanced speed to it's user, allowing you to run away from situations faster or get to a place faster.
 
 trait-name-FlareShieldingModule = I.P.C Eye Module: Flare Shielding
 trait-description-FlareShieldingModule =
-    Your cybereyes have been fitted with a photochromic lense that automatically darkens in response to intense stimuli.
-    This provides immunity from most bright flashes of light, such as those from welding arcs, exclusive to IPCs because it only needs the module
-    skipping the eye insertion process.
+   Your eyes have been fitted with a photochromic lens that automatically darkens in response to intense stimuli.
+   This provides immunity from most bright flashes of light, such as those from welding arcs.
 
 trait-name-SecurityEyesModule = I.P.C Eye Module: Sechud
 trait-description-SecurityEyesModule =
@@ -605,11 +627,11 @@ trait-description-SecurityEyesModule =
 
 trait-name-MedicalEyesModule = I.P.C Eye Module: Medical
 trait-description-MedicalEyesModule =
-    Your eyes have been upgraded to include a built-in Medical Hud, allowing you to track the relative health condition of biological organisms.
+    Your eyes have been upgraded to include a built-in Medical Hud, and a Chemical Analysis Hud, allowing you to track the relative health condition of biological organisms, and discern the chemicals in any solution.
 
 trait-name-DiagnosticEyesModule = I.P.C Eye Module: Diagnostics
 trait-description-DiagnosticEyesModule =
-    You possess a built-in Diagnostic Hud, allowing you to track the condition of synthetic entities.
+    Your eyes have been upgraded to include a built-in Diagnostic Hud and flare shielding, allowing you to track the condition of synthetic entities, and providing eye protection against welding arcs.
 
 trait-name-OmniEyesModule = I.P.C Eye Module: Premium Model
 trait-description-OmniEyesModule =
@@ -625,3 +647,39 @@ trait-name-ThermographicVisionModule = I.P.C Eye Module: Thermographic Scanner
 trait-description-ThermographicVisionModule =
     Your vision has been enhanced with a Thermographic Scanner. When enabled, it captures a snapshot of the user's surroundings, while highlighting all
     biological life forms. It can even detect individuals through the walls of a station.
+
+trait-name-Vampirism = Vampirism
+trait-description-Vampirism =
+    Your body has evolved to be able to suck blood from beings that contain it and metabolize it into useful compounds.
+    You cannot eat normal food, but drinking blood satiates your hunger and thirst, and also improves your health.
+
+trait-name-MothFlight = True Flight
+trait-description-MothFlight =
+    Unlike other mothpeople, your body is light enough and your wings are strong enough to be able to fly under normal gravity.
+    Flight is faster than running; however, it is strenuous and quickly drains your stamina.
+
+trait-name-Featherweight = Featherweight
+trait-description-Featherweight =
+    Your body is unusually lightweight for your species.
+    This trait reduces the density of your body by 50%.
+
+trait-name-Bulky = Bulky
+trait-description-Bulky =
+    Your body is unusually heavy for your species.
+    This trait increases the density of your body by 55.
+
+trait-name-Weakling = Weakling
+trait-description-Weakling =
+    Due to genetics, injury, or inactivity, your body is weaker than most.
+    This trait doubles the movement speed penalty when dragging something.
+
+trait-name-Bodybuilder = Bodybuilder
+trait-description-Bodybuilder =
+    Through extensive training or body modification, you have achieved the pinnacle of physique.
+    This trait halves the movement speed penalty when dragging something.
+
+trait-name-EggLaying = Egg Layer
+trait-description-EggLaying = You have an organ capable of laying eggs at the cost of internal nutrition.
+
+trait-name-Caprine = Caprine
+trait-description-Caprine = A language spoken by the Ovinia, the language is composed of many loose bleating and baahing noises strung together to create words.

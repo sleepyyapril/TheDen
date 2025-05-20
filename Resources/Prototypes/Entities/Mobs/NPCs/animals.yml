@@ -108,7 +108,7 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      10: Dead
+      5: Dead # Goob edit
   - type: Stamina
     critThreshold: 10
   - type: DamageStateVisuals
@@ -126,7 +126,7 @@
   - type: Bloodstream
     bloodMaxVolume: 0.1
   - type: MobPrice
-    price: 50
+    price: 10
   - type: NPCRetaliation
   - type: FactionException
   - type: NpcFactionMember
@@ -181,6 +181,7 @@
   parent: SimpleMobBase
   id: MobChicken
   description: Comes before an egg, and IS a dinosaur!
+  suffix: Black # TheDen
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -266,6 +267,7 @@
 - type: entity
   parent: MobChicken
   id: MobChicken1
+  suffix: Brown # TheDen
   components:
   - type: Sprite
     layers:
@@ -291,6 +293,7 @@
 - type: entity
   parent: MobChicken
   id: MobChicken2
+  suffix: White # TheDen
   components:
   - type: Sprite
     layers:
@@ -406,6 +409,7 @@
       behaviors:
       - !type:GibBehavior
         gibContents: Skip
+        recursive: false
   - type: NonSpreaderZombie
   - type: LanguageKnowledge
     speaks: [Hissing]
@@ -414,6 +418,7 @@
 - type: entity
   parent: MobCockroach
   id: MobCockroachPet
+  suffix: Pet # TheDen
   components:
   - type: HTN
     rootTask:
@@ -472,6 +477,9 @@
     allowMovement: true
     name: ghost-role-information-mothroach-name
     description: ghost-role-information-mothroach-description
+    rules: ghost-role-information-freeagent-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
   - type: Fixtures
     fixtures:
       fix1:
@@ -602,6 +610,7 @@
 - type: entity
   parent: MobMothroach
   id: MobMothroachPet
+  suffix: Pet # TheDen
   components:
   - type: HTN
     rootTask:
@@ -1161,6 +1170,8 @@
     rootTask:
       task: SimpleHostileCompound
   - type: LeashAnchor # Floofstation
+  - type: Fauna # Lavaland Change
+
 
 - type: entity
   name: kangaroo
@@ -1475,6 +1486,10 @@
     makeSentient: true
     name: ghost-role-information-monkey-name
     description: ghost-role-information-monkey-description
+    rules: ghost-role-information-syndicate-reinforcement-rules
+    mindRoles:
+    # This is for syndicate monkeys that randomly gain sentience, thus have no summoner to team with
+    - MindRoleGhostRoleSoloAntagonist
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
@@ -1644,6 +1659,7 @@
   parent: SimpleMobBase
   id: MobMouse
   description: Squeak!
+  suffix: White # TheDen
   components:
   - type: Body
     prototype: Mouse
@@ -1653,6 +1669,9 @@
     allowMovement: true
     name: ghost-role-information-mouse-name
     description: ghost-role-information-mouse-description
+    rules: ghost-role-information-freeagent-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
   - type: GhostTakeoverAvailable
   - type: Speech
     speechSounds: Squeak
@@ -1821,6 +1840,7 @@
 - type: entity
   parent: MobMouse
   id: MobMousePet
+  suffix: Pet # TheDen
   components:
   - type: HTN
     rootTask:
@@ -1863,6 +1883,7 @@
 - type: entity
   parent: MobMouse
   id: MobMouse1
+  suffix: Brown # TheDen
   components:
   - type: Sprite
     layers:
@@ -1892,6 +1913,7 @@
 - type: entity
   parent: MobMouse
   id: MobMouse2
+  suffix: Grey # TheDen
   components:
   - type: Sprite
     layers:
@@ -2414,9 +2436,9 @@
     solution: melee
   - type: LanguageKnowledge
     speaks:
-    - Xeno
+    - Arachnic
     understands:
-    - Xeno
+    - Arachnic
   - type: FootstepModifier # Spider multi-step noise // TheDen
     footstepSoundCollection:
       collection: FootstepSpider
@@ -2482,6 +2504,7 @@
     interfaces:
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
+  - type: Fauna # Lavaland Change
 
 - type: entity
   parent: MobSpiderBase
@@ -2490,7 +2513,7 @@
   components:
   - type: NpcFactionMember
     factions:
-      - Xeno
+      - SimpleHostile
   - type: InputMover
   - type: MobMover
   - type: HTN
@@ -2501,6 +2524,8 @@
     name: ghost-role-information-giant-spider-name
     description: ghost-role-information-giant-spider-description
     rules: ghost-role-information-giant-spider-rules
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
     raffle:
       settings: short
   - type: GhostTakeoverAvailable
@@ -2547,6 +2572,7 @@
   - MobGiantSpider
   - MobSpiderAngryBase
   id: MobGiantSpiderAngry
+  suffix: Angry # TheDen
 
 - type: entity
   name: clown spider
@@ -2847,6 +2873,7 @@
   - type: RandomBark
     barkType: fox
     barkMultiplier: 0.5 # Talkative <3
+  - type: ScentTracker
 
 - type: entity
   name: corgi
@@ -2918,6 +2945,7 @@
   - type: RandomBark
     barkType: dog
   - type: LeashAnchor # Floofstation
+  - type: ScentTracker
 
 - type: entity
   name: corrupted corgi
@@ -3132,6 +3160,8 @@
     allowMovement: true
     description: ghost-role-information-SyndiCat-description
     rules: ghost-role-information-SyndiCat-rules
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
@@ -3554,10 +3584,15 @@
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
   - type: LeashAnchor # Floofstation
+  - type: FoodSequenceElement
+    entries:
+      Taco: HamsterTaco
+      Burger: HamsterBurger
 
 - type: entity
   parent: MobHamster
   id: MobHamsterPet
+  suffix: Pet # TheDen
   components:
   - type: HTN
     rootTask:
@@ -3714,6 +3749,13 @@
       gender: epicene
   - type: Speech
     speechVerb: Plant
+    speechSounds: Alto
+    allowedEmotes: ['Chirp']
+  - type: Vocal
+    sounds:
+      Male: UnisexDiona
+      Female: UnisexDiona
+      Unsexed: UnisexDiona
   - type: Tag
     tags:
     - DoorBumpOpener

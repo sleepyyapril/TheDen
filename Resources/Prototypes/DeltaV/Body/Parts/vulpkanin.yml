@@ -40,26 +40,27 @@
       behaviors:
       - !type:GibPartBehavior { }
     - trigger:
-        !type:DamageTypeTrigger
-        damageType: Heat
-        damage: 200
-      behaviors:
-      - !type:SpawnEntitiesBehavior
-        spawnInContainer: true
-        spawn:
-          Ash:
-            min: 1
-            max: 1
-      - !type:BurnBodyBehavior { }
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MeatLaserImpact
+#        !type:DamageTypeTrigger
+#        damageType: Heat
+#        damage: 200
+#      behaviors:
+#      - !type:SpawnEntitiesBehavior
+#        spawnInContainer: true
+#        spawn:
+#          Ash:
+#            min: 1
+#            max: 1
+#      - !type:BurnBodyBehavior { }
+#      - !type:PlaySoundBehavior
+#        sound:
+#          collection: MeatLaserImpact
     # Shitmed Change End
 
 - type: entity
   id: TorsoVulpkanin
   name: "vulpkanin torso"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -91,26 +92,28 @@
       behaviors:
       - !type:GibPartBehavior { }
     - trigger:
-        !type:DamageTypeTrigger
-        damageType: Heat
-        damage: 400
-      behaviors:
-      - !type:SpawnEntitiesBehavior
-        spawnInContainer: true
-        spawn:
-          Ash:
-            min: 1
-            max: 1
-      - !type:BurnBodyBehavior { }
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MeatLaserImpact
+#    - trigger:
+#        !type:DamageTypeTrigger
+#        damageType: Heat
+#        damage: 400
+#      behaviors:
+#      - !type:SpawnEntitiesBehavior
+#        spawnInContainer: true
+#        spawn:
+#          Ash:
+#            min: 1
+#            max: 1
+#      - !type:BurnBodyBehavior { }
+#      - !type:PlaySoundBehavior
+#        sound:
+#          collection: MeatLaserImpact
   # Shitmed Change End
 
 - type: entity
   id: HeadVulpkanin
   name: "vulpkanin head"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -135,6 +138,7 @@
   id: LeftArmVulpkanin
   name: "left vulpkanin arm"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -152,6 +156,7 @@
   id: RightArmVulpkanin
   name: "right vulpkanin arm"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -169,6 +174,7 @@
   id: LeftHandVulpkanin
   name: "left vulpkanin hand"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -186,6 +192,7 @@
   id: RightHandVulpkanin
   name: "right vulpkanin hand"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -203,6 +210,7 @@
   id: LeftLegVulpkanin
   name: "left vulpkanin leg"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -221,6 +229,7 @@
   id: RightLegVulpkanin
   name: "right vulpkanin leg"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -239,6 +248,7 @@
   id: LeftFootVulpkanin
   name: "left vulpkanin foot"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -256,6 +266,7 @@
   id: RightFootVulpkanin
   name: "right vulpkanin foot"
   parent: PartVulpkanin
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false

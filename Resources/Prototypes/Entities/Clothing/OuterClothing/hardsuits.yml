@@ -76,6 +76,7 @@
   id: ClothingOuterHardsuitEngineeringUnpainted
   name: engineering hardsuit
   description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+  suffix: Unpainted # TheDen
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering-base.rsi
@@ -289,6 +290,7 @@
         Slash: 0.6
         Piercing: 0.6
         Caustic: 0.7
+        Heat: 0.7 # Goobstation
   - type: ClothingSpeedModifier
     walkModifier: 0.75
     sprintModifier: 0.75
@@ -318,6 +320,7 @@
         Blunt: 0.8
         Slash: 0.8
         Piercing: 0.7
+        Heat: 0.7 # Goobstation
   - type: ClothingSpeedModifier
     walkModifier: 0.65
     sprintModifier: 0.65
@@ -350,6 +353,7 @@
         Slash: 0.6
         Piercing: 0.6
         Caustic: 0.7
+        Heat: 0.7 # Goobstation
   - type: ClothingSpeedModifier
     walkModifier: 0.7
     sprintModifier: 0.7
@@ -542,6 +546,7 @@
         Piercing: 0.5
         Radiation: 0.5
         Caustic: 0.6
+        Heat: 0.6 # Goobstation
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
@@ -591,6 +596,7 @@
   id: ClothingOuterHardsuitShanlinUnpainted
   name: Cybersun tacsuit
   description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+  suffix: Unpainted # TheDen
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate-base.rsi
@@ -672,6 +678,7 @@
   id: ClothingOuterHardsuitShiweiUnpainted
   name: Cybersun tacsuit
   description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+  suffix: Unpainted # TheDen
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate-elite-base.rsi

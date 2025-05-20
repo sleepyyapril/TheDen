@@ -142,7 +142,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/ce_turtle.rsi
 
 - type: entity
-  parent: [ClothingUniformBase,ClothingUniformFoldableBase]
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitChaplain
   name: chaplain's jumpsuit
   description: It's a black jumpsuit, often worn by religious folk.
@@ -323,6 +323,7 @@
 - type: entity
   parent: ClothingUniformJumpsuitJester
   id: ClothingUniformJumpsuitJesterAlt
+  suffix: Variant # TheDen
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/jester2.rsi
@@ -599,7 +600,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/paramedic.rsi
 
 - type: entity
-  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
+  parent: [ClothingUniformBase, ClothingUniformRollableBase] # Restored Rollability
   id: ClothingUniformJumpsuitBrigmedic
   name: corpsman jumpsuit # DeltaV - rename brigmedic to corpsman
   description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
@@ -660,7 +661,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/qm.rsi
 
 - type: entity
-  parent: ClothingUniformBase
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpsuitQMTurtleneck
   name: logistics officer's turtleneck # DeltaV - Logistics Department replacing Cargo
   description: A sharp turtleneck made for the hardy work environment of supply.
@@ -671,7 +672,7 @@
       sprite: _CD/Clothing/Uniforms/Jumpsuit/qmturtle.rsi # CD drip 2
 
 - type: entity
-  parent: ClothingUniformBase
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpsuitQMFormal
   # DeltaV - Logistics Department - Replace Quartermaster with Logistics Officer
   name: logistics officer's formal suit
@@ -684,7 +685,7 @@
       sprite: Clothing/Uniforms/Jumpsuit/qmformal.rsi
 
 - type: entity
-  parent: ClothingUniformBase
+  parent: [ ClothingUniformBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpsuitResearchDirector
   name: mystagogue's turtleneck # DeltaV - Epistemics Department replacing Science
   description: It's a turtleneck worn by those with the know-how to achieve the position of Mystagogue. Its fabric provides minor protection from biological contaminants. # DeltaV - Epistemics Department replacing Science
@@ -1099,6 +1100,7 @@
     sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
+  - type: Unremoveable
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]

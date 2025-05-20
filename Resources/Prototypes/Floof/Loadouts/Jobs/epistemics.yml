@@ -7,12 +7,9 @@
   items:
   - ClothingHandsEpiWarmers
   requirements:
-  - !type:CharacterJobRequirement
-    jobs:
-    - Scientist
-    - ResearchAssistant
-    - ResearchDirector
-    - ForensicMantis
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Epistemics
 
 - type: loadout
   id: LoadoutClothingUnderSocksEpi
@@ -22,17 +19,14 @@
   items:
   - ClothingUnderSocksEpi
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
-  - !type:CharacterJobRequirement
-    jobs:
-    - Scientist
-    - ResearchAssistant
-    - ResearchDirector
-    - ForensicMantis
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Epistemics
 
 - type: loadout
   id: LoadoutClothingUniformEpiThong
@@ -42,23 +36,18 @@
   items:
   - ClothingUniformEpiThong
   requirements:
-  - !type:CharacterJobRequirement
-    jobs:
-    - Scientist
-    - ResearchAssistant
-    - ResearchDirector
-    - ForensicMantis
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Epistemics
 
 - type: loadout
   id: LoadoutScienceNeckCollar
   category: JobsEpistemicsAAUncategorized
   cost: 1
   requirements:
-  - !type:CharacterJobRequirement
-    jobs:
-    - Scientist
-    - ResearchAssistant
-    - ResearchDirector
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Epistemics
   items:
   - ClothingNeckCollarEpi
 
@@ -84,11 +73,11 @@
   items:
   - ClothingUnderSocksMantisEpi
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
   - !type:CharacterJobRequirement
     jobs:
     - ForensicMantis
@@ -127,11 +116,11 @@
   items:
   - ClothingUnderSocksChaplain
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
   - !type:CharacterJobRequirement
     jobs:
     - Chaplain

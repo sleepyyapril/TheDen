@@ -3,6 +3,10 @@ ghost-role-component-default-rules = All normal rules apply unless an administra
                                      You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
                                      You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
                                      You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
+ghost-role-information-freeagent-rules = You are a [color=yellow][bold]Free Agent[/bold][/color]. You are free to act as either an antagonist or a non-antagonist.
+                                         You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
+                                         You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
+                                         You are absolutely [color=red]NOT[/color] allowed to remember, say, the name, appearance, etc. of your previous character.
 
 ghost-role-information-mouse-name = Mouse
 ghost-role-information-mouse-description = A hungry and mischievous mouse.
@@ -53,7 +57,7 @@ ghost-role-information-xeno-rules = You are an antagonist, smack, slash, and wac
 ghost-role-information-friendlyxeno-name = Xeno Subject
 ghost-role-information-friendlyxeno-description = You are a friendly xeno, co-operate with the crew and protect the station!
 ghost-role-information-friendlyxeno-rules = You are a friendly xeno.
-                                    Your objective is to cooperate with any sophonts and not bring harm to the crew. 
+                                    Your objective is to cooperate with any sophonts and not bring harm to the crew.
                                     Do your best to be helpful and don't give anyone a reason to fear you.
 
 ghost-role-information-revenant-name = Revenant
@@ -110,6 +114,9 @@ ghost-role-information-taxibot-description = Drive the station crew to their des
 ghost-role-information-supplybot-name = SupplyBot
 ghost-role-information-supplybot-description = Deliver goods around the station.
 
+ghost-role-information-minebot-name = Minebot
+ghost-role-information-minebot-description = Assist the miners with their work.
+
 ghost-role-information-space-bear-name = Space bear
 ghost-role-information-space-bear-description = Your tummy rumbles, and these people look really yummy... What a feast!
 
@@ -157,7 +164,9 @@ ghost-role-information-ifrit-wizard-name = Ifrit (Wizard Summon)
 ghost-role-information-ifrit-wizard-description = Listen to your owner. Don't tank damage. Punch people hard.
 
 ghost-role-information-space-dragon-name = Space dragon
+ghost-role-information-space-dragon-rules = You are a [color={role-type-team-antagonist-color}][bold]{role-type-team-antagonist-name}[/bold][/color] with all your summoned carp.
 ghost-role-information-space-dragon-description = Call in 3 carp rifts and take over this quadrant! You have only 5 minutes in between each rift before you will disappear.
+ghost-role-information-space-dragon-summoned-carp-rules = You are a [color={role-type-team-antagonist-color}][bold]{role-type-team-antagonist-name}[/bold][/color] with your dragon and its allies.
 ghost-role-information-space-dragon-dungeon-description = Defend the expedition dungeon with your fishy comrades!
 
 ghost-role-information-cluwne-name = Cluwne

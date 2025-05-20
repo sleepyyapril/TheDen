@@ -899,7 +899,7 @@
   parent: VendingMachine
   id: VendingMachineMedical
   name: NanoMed Plus
-  description: It's a medical drug dispenser. Natural chemicals only!
+  description: It's a medical drug dispenser. Natural chemicals only! (And wheelchairs, why not) # Goobstation
   components:
   - type: VendingMachine
     pack: NanoMedPlusInventory
@@ -1573,6 +1573,14 @@
   - type: GuideHelp
     guides:
     - Salvage
+  - type: MiningVendor # Lavaland Change
+    kits:
+    - MiningCrusher
+    - MiningExtraction
+    #- MiningResonator
+    #- MiningSurvival
+    #- MiningDrone
+    - MiningConscription
 
 - type: entity
   parent: VendingMachine
@@ -2330,7 +2338,7 @@
     brokenState: broken
     normalState: normal
     denyState: deny
-    ejectDelay: 2
+    ejectDelay: 0.5
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/chemvend.rsi
     layers:
@@ -2358,7 +2366,7 @@
     brokenState: broken
     normalState: normal
     denyState: deny
-    ejectDelay: 2
+    ejectDelay: 0.5
   - type: AccessReader
     access: [["SyndicateAgent"]]
 

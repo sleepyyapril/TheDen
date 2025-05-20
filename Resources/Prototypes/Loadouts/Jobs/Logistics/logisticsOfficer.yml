@@ -16,6 +16,7 @@
   id: LoadoutCommandQMHeadSoft
   category: JobsLogisticsLogisticsOfficer
   cost: 0
+  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutLogisticsOfficerHead
@@ -24,6 +25,20 @@
         - Quartermaster
   items:
     - ClothingHeadHatQMsoft
+
+- type: loadout
+  id: LoadoutCommandClothingHeadHatBeretQM
+  category: JobsLogisticsLogisticsOfficer
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsOfficerHead
+    - !type:CharacterJobRequirement
+      jobs:
+        - Quartermaster
+  items:
+    - ClothingHeadHatBeretQM
 
 # Id
 - type: loadout
@@ -65,6 +80,7 @@
   id: LoadoutQMWinterCoat
   category: JobsLogisticsLogisticsOfficer
   cost: 0
+  exclusive: true
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutLogisticsOfficerOuter

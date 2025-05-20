@@ -7,13 +7,9 @@
   items:
   - ClothingHandsSecurityWarmers
   requirements:
-  - !type:CharacterJobRequirement
-    jobs:
-    - SecurityOfficer
-    - SecurityCadet
-    - Warden
-    - Detective
-    - HeadOfSecurity
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Security
 
 - type: loadout
   id: LoadoutClothingUnderSocksSecurity
@@ -23,18 +19,14 @@
   items:
   - ClothingUnderSocksSecurity
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
-  - !type:CharacterJobRequirement
-    jobs:
-    - SecurityOfficer
-    - SecurityCadet
-    - Warden
-    - Detective
-    - HeadOfSecurity
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Security
 
 - type: loadout
   id: LoadoutClothingUniformSecurityThong
@@ -44,24 +36,18 @@
   items:
   - ClothingUniformSecurityThong
   requirements:
-  - !type:CharacterJobRequirement
-    jobs:
-    - SecurityOfficer
-    - SecurityCadet
-    - Warden
-    - Detective
-    - HeadOfSecurity
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Security
 
 - type: loadout
   id: LoadoutSecurityNeckCollar
   category: JobsSecurityAUncategorized
   cost: 1
   requirements:
-  - !type:CharacterJobRequirement
-    jobs:
-    - SecurityOfficer
-    - Warden
-    - HeadOfSecurity
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Security
   items:
   - ClothingNeckCollarSec
 
@@ -86,11 +72,11 @@
   items:
   - ClothingUnderSocksDetective
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
   - !type:CharacterJobRequirement
     jobs:
     - Detective

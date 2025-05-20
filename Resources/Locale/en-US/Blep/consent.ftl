@@ -33,5 +33,14 @@ consent-ParadoxAnomaly-name = Paradox Anomaly
 consent-ParadoxAnomaly-desc = Do you want to allow yourself to be a target for paradox anomalies?
 
 consent-MindSwap-name = Mind Swap
-consent-MindSwap-desc = Do you want to allow the 'Mind Swap' power to work on you?
+consent-MindSwap-desc = Should mind swap work on you?
 consent-MindSwap-no-consent = { CAPITALIZE(POSS-ADJ($target)) } mind rejects your advances.
+
+consent-MassMindSwap-name = Mass Mind Swap
+consent-MassMindSwap-desc = Should a mass mind swap from glimmer work on you?
+
+consent-ChangelingTarget-name = Changeling Target
+consent-ChangelingTarget-desc = Should your body be allowed to be stolen by changelings?
+
+consent-AntagObjective-name = Antagonist Objective
+consent-AntagObjective-desc = Would you want to become the direct objective of an antagonist? (kill objectives)

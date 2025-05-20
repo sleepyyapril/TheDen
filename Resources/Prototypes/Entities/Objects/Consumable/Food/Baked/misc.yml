@@ -74,6 +74,10 @@
   components:
   - type: Sprite
     state: bun-honey
+  - type: FlavorProfile # Frontier
+    flavors: # Frontier
+      - honey # Frontier
+      - bread # Frontier
 
 - type: entity
   name: hotcross bun
@@ -101,6 +105,9 @@
           Quantity: 6
         - ReagentId: Vitamin
           Quantity: 2
+  - type: Tag
+    tags:
+    - Meat
 
 # Cookies
 

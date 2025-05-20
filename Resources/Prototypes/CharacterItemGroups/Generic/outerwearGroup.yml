@@ -163,3 +163,14 @@
       id: LoadoutOuterVestColorable
     - type: loadout
       id: LoadoutOuterVestThick
+    - type: loadout
+      id: LoadoutOuterCoatSpaceAsshole
+    - type: loadout
+      id: ClothingOuterSuitWitchRobes
+    - type: loadout
+      id: ClothingOuterCoatExpensive
+    # TheDen - Below
+    - type: loadout
+      id: LoadoutClothingOuterShackles
+    - type: loadout
+      id: LoadoutClothingOuterApronChef

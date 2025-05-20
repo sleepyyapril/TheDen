@@ -147,6 +147,25 @@
     staminaCost: 9.5
 
 - type: entity
+  name: Bulldog
+  parent: [WeaponShotgunBulldog]
+  id: WeaponShotgunBulldogEmpty
+  description: It's a magazine-fed shotgun designed for close quarters combat. Uses .50 shotgun shells.
+  suffix: Empty # TheDen
+  components:
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: null
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineShotgun
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+
+- type: entity
   name: antique Bulldog
   parent: WeaponShotgunBulldog
   id: WeaponShotgunBulldogHoS
@@ -249,6 +268,8 @@
     tags:
     - WeaponShotgunKammerer
   - type: Wieldable
+  - type: Gun
+    shotgunSpreadMultiplier: 0.5
 
 - type: entity
   name: sawn-off shotgun
@@ -266,6 +287,8 @@
   - type: Gun
     fireRate: 4
     fireOnDropChance: 0.5
+    shotgunSpreadMultiplier: 3
+    damageModifier: 1.5
   - type: BallisticAmmoProvider
     capacity: 2
   - type: Construction
@@ -293,6 +316,23 @@
     graph: ShotgunSawn
     node: shotgunsawn
     deconstructionTarget: null
+
+- type: entity
+  name: sawn-off shotgun
+  parent: WeaponShotgunSawn
+  id: WeaponShotgunSawnSecurity
+  description: Groovy! Uses .50 shotgun shells. Preloaded with non-lethals.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+  suffix: Security # TheDen
+  components:
+  - type: BallisticAmmoProvider
+    proto: ShellShotgunBeanbag
+  - type: Construction
+    graph: ShotgunSawn
+    node: shotgunsawn
+    deconstructionTarget: null
+  - type: GuideHelp
+    guides: [ SecurityWeapons ]
 
 - type: entity
   name: handmade pistol

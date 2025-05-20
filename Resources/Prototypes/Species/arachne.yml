@@ -7,7 +7,7 @@
   defaultSkinTone: "#c0967f"
   markingLimits: MobArachneMarkingLimits
   dollPrototype: MobArachneDummy
-  skinColoration: HumanToned
+  skinColoration: HumanAnimal
   minAge: 18
   youngAge: 20
   oldAge: 70
@@ -30,22 +30,28 @@
       points: 1
       required: false
     Chest:
+      points: 6
+      required: false
+    Genitals:
       points: 1
+      required: false
+    Nipples:
+      points: 2
       required: false
     Undershirt:
       points: 1
       required: false
     RightArm:
-      points: 2
+      points: 6
       required: false
     RightHand:
-      points: 3
+      points: 6
       required: false
     LeftArm:
-      points: 2
+      points: 6
       required: false
     LeftHand:
-      points: 3
+      points: 6
       required: false
 
 

@@ -6,3 +6,12 @@
 
 - type: consentToggle
   id: MindSwap
+
+- type: consentToggle
+  id: MassMindSwap
+
+- type: consentToggle
+  id: ChangelingTarget
+
+- type: consentToggle
+  id: KillObjective

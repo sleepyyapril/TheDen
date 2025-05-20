@@ -56,11 +56,16 @@
     - type: loadout
       id: LoadoutServiceWinterCoatJanitor
 #
-#- type: characterItemGroup
-#  id: LoadoutJanitorShoes
-#  maxItems: 1
-#  items:
-#
+- type: characterItemGroup
+  id: LoadoutJanitorShoes
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutClothingShoesGaloshes
+    - type: loadout
+      id: LoadoutClothingShoesPurpleGaloshes
+
+# The Den - Maid outfits for janitors too
 - type: characterItemGroup
   id: LoadoutJanitorUniforms
   maxItems: 1
@@ -71,3 +76,13 @@
       id: LoadoutServiceJumpsuitJanitorIdris
     - type: loadout
       id: LoadoutServiceJumpsuitJanitorOrion
+    - type: loadout
+      id: LoadoutServiceJumpsuitJanitor
+    - type: loadout
+      id: LoadoutServiceJumpskirtJanitor
+    - type: loadout
+      id: LoadoutServiceUniformJumpskirtTacticalMaid
+    - type: loadout
+      id: LoadoutServiceUniformJumpskirtJanimaid
+    - type: loadout
+      id: LoadoutServiceUniformJumpskirtJanimaidmini

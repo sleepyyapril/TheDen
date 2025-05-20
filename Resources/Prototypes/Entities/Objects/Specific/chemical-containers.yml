@@ -38,8 +38,8 @@
       interfaces:
         enum.TransferAmountUiKey.Key:
           type: TransferAmountBoundUserInterface
-   # - type: Drink
-   #   solution: beaker
+    - type: Drink
+      solution: beaker
     - type: Spillable
       solution: beaker
     - type: Appearance
@@ -417,4 +417,32 @@
         beaker:
           reagents:
             - ReagentId: WeldingFuel
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  id: JugNutriment
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Label
+      currentLabel: reagent-name-nutriment
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Nutriment
+              Quantity: 200
+
+- type: entity
+  parent: Jug
+  id: JugWater
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Label
+      currentLabel: reagent-name-water
+    - type: SolutionContainerManager
+      solutions:
+        beaker:
+          reagents:
+            - ReagentId: Water
               Quantity: 200

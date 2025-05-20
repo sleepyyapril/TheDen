@@ -82,6 +82,8 @@
       collection: Mars
     Wurble:
       collection: Wurble
+    CowMoo:
+      collection: CowMoos
 
 - type: emoteSounds
   id: MaleVulpkanin
@@ -191,7 +193,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Animals/mouse_squeak.ogg
+      collection: RodentiaScreams # Floof
     Laugh:
       collection: MaleLaugh
     Sneeze:
@@ -221,7 +223,7 @@
     variation: 0.125
   sounds:
     Scream:
-      path: /Audio/Animals/mouse_squeak.ogg
+      collection: RodentiaScreams # Floof
     Laugh:
       collection: FemaleLaugh
     Sneeze:

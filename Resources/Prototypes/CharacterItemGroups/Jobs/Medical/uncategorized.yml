@@ -49,6 +49,8 @@
       id: LoadoutMedicalEyesEyepatchHudMedical
     - type: loadout
       id: LoadoutMedicalEyesHudMedicalPrescription
+    - type: loadout
+      id: LoadoutMedicalEyesGlassesMedicalVisor
 
 - type: characterItemGroup
   id: LoadoutMedicalGloves
@@ -105,10 +107,10 @@
   items:
     - type: loadout
       id: LoadoutMedicalOuterWinterCoat
-    - type: loadout
-      id: LoadoutMedicalOuterLabcoat
-    - type: loadout
-      id: LoadoutMedicalOuterCybersunWindbreaker
+#    - type: loadout - TheDen
+#      id: LoadoutMedicalOuterLabcoat
+#    - type: loadout
+#      id: LoadoutMedicalOuterCybersunWindbreaker
 
 #- type: characterItemGroup
 #  id: LoadoutMedicalShoes

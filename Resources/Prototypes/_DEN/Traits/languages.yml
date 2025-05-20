@@ -3,8 +3,6 @@
   category: TraitsSpeechLanguages
   points: -2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -22,8 +20,6 @@
   category: TraitsSpeechLanguages
   points: -2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -40,8 +36,6 @@
   category: TraitsSpeechLanguages
   points: -2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -58,8 +52,6 @@
   category: TraitsSpeechLanguages
   points: -2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -67,17 +59,15 @@
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
-        - Rootspeak
+        - RootSpeak
       languagesUnderstood:
-        - Rootspeak
+        - RootSpeak
 
 - type: trait
   id: Moffic
   category: TraitsSpeechLanguages
   points: -2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -94,8 +84,6 @@
   category: TraitsSpeechLanguages
   points: -2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -112,8 +100,6 @@
   category: TraitsSpeechLanguages
   points: -2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -130,8 +116,6 @@
   category: TraitsSpeechLanguages
   points: -2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -152,8 +136,6 @@
     - !type:CharacterTraitRequirement
           traits:
             - LatentPsychic
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -166,12 +148,10 @@
         - Marish
 
 - type: trait
-  id: Mouse
+  id: Rodentian
   category: TraitsSpeechLanguages
   points: -2
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: TraitsLanguagesRacial
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -179,6 +159,39 @@
   functions:
     - !type:TraitModifyLanguages
       languagesSpoken:
-        - Mouse
+        - Rodentian
       languagesUnderstood:
-        - Mouse
+        - Rodentian
+
+- type: trait
+  id: Nehina
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Feroxi
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Nehina
+      languagesUnderstood:
+        - Nehina
+
+- type: trait
+  id: Alaseta
+  category: TraitsSpeechLanguages
+  points: -2
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+      - Canid
+  functions:
+    - !type:TraitModifyLanguages
+      languagesSpoken:
+        - Alaseta
+      languagesUnderstood:
+        - Alaseta
+

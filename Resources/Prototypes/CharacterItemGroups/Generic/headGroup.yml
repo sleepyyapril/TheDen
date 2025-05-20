@@ -155,3 +155,66 @@
       id: LoadoutHeadHatBeanieGreen
     - type: loadout
       id: LoadoutHeadHatMountie
+    - type: loadout
+      id: LoadoutBeanieBlackAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieBlackWithPinAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieBlueAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieGoldAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieGreenAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieKhakiAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieKhakiWithPinAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieNavyBlueAbsurd
+    - type: loadout
+      id: LoadoutHeadHatNavyBlueWithPinAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeaniePurpleAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieWhiteAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieYellowAbsurd
+    - type: loadout
+      id: LoadoutHeadHatBeanieRedAbsurd
+    - type: loadout
+      id: ClothingHeadHatTacticalMaidHeadband
+    - type: loadout
+      id: ClothingHeadHatWitch1
+    # TheDen - Below
+    - type: loadout
+      id: LoadoutHeadHatAnimalCat
+    - type: loadout
+      id: LoadoutHeadHatAnimalCatBrown
+    - type: loadout
+      id: LoadoutHeadAnimalCatBlack
+    - type: loadout
+      id: LoadoutHeadAnimalHeadslime
+    - type: loadout
+      id: LoadoutHeadHatAnimalMonkey
+    - type: loadout
+      id: LoadoutHeadHatPlaguedoctor
+    - type: loadout
+      id: LoadoutHeadHatUshanka
+    - type: loadout
+      id: LoadoutHeadHatWitch
+    - type: loadout
+      id: LoadoutHeadHatTrucker
+    - type: loadout
+      id: LoadoutHeadPaperSack
+    - type: loadout
+      id: LoadoutHeadHatFlowerWreath
+    - type: loadout
+      id: LoadoutHeadHatSquid
+    - type: loadout
+      id: LoadoutHeadHatRedRacoon
+    - type: loadout
+      id: LoadoutHeadHatDogEarsCosmetic
+    - type: loadout
+      id: LoadoutHeadHatCatEarsCosmetic
+    - type: loadout
+      id: LoadoutHeadHatXmasCrown

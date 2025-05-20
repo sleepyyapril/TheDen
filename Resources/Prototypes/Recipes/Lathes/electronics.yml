@@ -115,6 +115,16 @@
     Gold: 100
 
 - type: latheRecipe
+  id: DroneElectronics
+  result: DroneElectronics
+  category: Circuitry
+  completetime: 2
+  materials:
+    Steel: 1000
+    Plastic: 1000
+    Gold: 500
+
+- type: latheRecipe
   id: DoorElectronics
   result: DoorElectronics
   category: Circuitry
@@ -313,6 +323,15 @@
      Glass: 500
 
 - type: latheRecipe
+  id: BookPressMachineCircuitboard
+  result: BookPressMachineCircuitboard
+  category: Circuitry
+  completetime: 4
+  materials:
+     Steel: 100
+     Glass: 500
+
+- type: latheRecipe
   id: ProtolatheMachineCircuitboard
   result: ProtolatheMachineCircuitboard
   category: Circuitry
@@ -378,6 +397,15 @@
   materials:
      Steel: 100
      Glass: 500
+
+- type: latheRecipe
+  id: BiogeneratorMachineCircuitboard
+  result: BiogeneratorMachineCircuitboard
+  category: Circuitry
+  completetime: 4
+  materials:
+    Steel: 100
+    Glass: 500
 
 - type: latheRecipe
   id: VaccinatorMachineCircuitboard
@@ -1079,3 +1107,52 @@
     Steel: 100
     Glass: 500
     Gold: 100
+
+- type: latheRecipe
+  id: WeaponEnergyTurretAIMachineCircuitboard
+  result: WeaponEnergyTurretAIMachineCircuitboard
+  category: Circuitry
+  completetime: 5
+  materials:
+    Steel: 100
+    Glass: 500
+    Gold: 100
+
+- type: latheRecipe
+  id: WeaponEnergyTurretStationMachineCircuitboard
+  result: WeaponEnergyTurretStationMachineCircuitboard
+  category: Circuitry
+  completetime: 5
+  materials:
+    Steel: 100
+    Glass: 500
+    Gold: 100
+
+- type: latheRecipe
+  id: WeaponEnergyTurretAIControlPanelElectronics
+  result: WeaponEnergyTurretAIControlPanelElectronics
+  category: Circuitry
+  completetime: 5
+  materials:
+    Steel: 100
+    Glass: 500
+    Gold: 100
+
+- type: latheRecipe
+  id: WeaponEnergyTurretStationControlPanelElectronics
+  result: WeaponEnergyTurretStationControlPanelElectronics
+  category: Circuitry
+  completetime: 5
+  materials:
+    Steel: 100
+    Glass: 500
+    Gold: 100
+
+- type: latheRecipe
+  id: CutterMachineCircuitboard
+  result: CutterMachineCircuitboard
+  category: Circuitry
+  completetime: 5
+  materials:
+    Steel: 100
+    Glass: 500

@@ -21,8 +21,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponPulsePistolHoS
 
@@ -37,8 +35,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponSubMachineGunWt550HoS
 
@@ -67,8 +63,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponSubMachineGunC20rHoS
 
@@ -83,8 +77,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponShotgunBulldogHoS
 
@@ -113,15 +105,13 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponEnergyGunMultiphase
 
 - type: loadout
   id: LoadoutCommandHoSBRDIR25
   category: JobsSecurityHeadOfSecurity
-  cost: 0
+  cost: 7 # Cracked
   canBeHeirloom: true
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -129,8 +119,6 @@
     - !type:CharacterJobRequirement
       jobs:
         - HeadOfSecurity
-    - !type:CharacterAgeRequirement
-      min: 21
   items:
     - WeaponSubMachineGunBRDIR25HoS
 
@@ -143,6 +131,7 @@
   id: LoadoutCommandHOSHatBeret
   category: JobsSecurityHeadOfSecurity
   cost: 0
+  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHeadOfSecurityHead
@@ -156,6 +145,7 @@
   id: LoadoutCommandHOSHatHoshat
   category: JobsSecurityHeadOfSecurity
   cost: 0
+  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHeadOfSecurityHead
@@ -219,6 +209,7 @@
   id: LoadoutCommandHOSOuterWinterUnarmored
   category: JobsSecurityHeadOfSecurity
   cost: 0
+  exclusive: true
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutHeadOfSecurityOuter
@@ -232,6 +223,7 @@
   id: LoadoutCommandHOSOuterWinter
   category: JobsSecurityHeadOfSecurity
   cost: 0
+  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHeadOfSecurityOuter
@@ -245,6 +237,7 @@
   id: LoadoutCommandHOSOuterTrench
   category: JobsSecurityHeadOfSecurity
   cost: 0
+  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutHeadOfSecurityOuter
@@ -253,6 +246,20 @@
         - HeadOfSecurity
   items:
     - ClothingOuterCoatHoSTrench
+
+- type: loadout
+  id: LoadoutCommandHOSOuterArmorHosSamurai
+  category: JobsSecurityHeadOfSecurity
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityOuter
+    - !type:CharacterJobRequirement
+      jobs:
+        - HeadOfSecurity
+  items:
+    - ClothingOuterArmorHosSamurai
 
 # Shoes
 - type: loadout

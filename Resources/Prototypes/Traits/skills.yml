@@ -125,6 +125,7 @@
       species:
         - Vulpkanin
         - IPC
+        - Rodentia
 
 - type: trait
   id: ParkourTraining
@@ -137,6 +138,7 @@
         - Sluggish
         - SnailPaced
         - BadKnees
+        - WheelchairBound
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -178,6 +180,10 @@
       inverted: true
       species:
         - Harpy
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Muted
   functions:
     - !type:TraitAddComponent
       components:
@@ -192,6 +198,10 @@
     - !type:CharacterSpeciesRequirement
       species:
         - Harpy
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Muted
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -244,7 +254,11 @@
     - !type:TraitAddComponent
       components:
         - type: PsionicInsulation
-        - type: Mindbroken
+    - !type:TraitPushDescription
+      descriptionExtensions:
+        - description: examine-psionic-insulation-message
+          fontSize: 12
+          requireDetailRange: true
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -352,3 +366,8 @@
     - !type:TraitModifyFactions
       addFactions:
         - AnimalFriend
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Ovinia

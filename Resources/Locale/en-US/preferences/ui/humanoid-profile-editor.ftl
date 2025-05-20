@@ -2,6 +2,7 @@ humanoid-profile-editor-randomize-everything-button = Randomize everything
 humanoid-profile-editor-name-label = Name:
 humanoid-profile-editor-name-random-button = Randomize
 humanoid-profile-editor-appearance-tab = Appearance
+humanoid-profile-editor-background-tab = Background
 humanoid-profile-editor-clothing = Preview job equipment:
 humanoid-profile-editor-loadouts = Preview loadout items:
 humanoid-profile-editor-clothing-show = Show
@@ -41,6 +42,7 @@ humanoid-profile-editor-preference-backpack = Backpack
 humanoid-profile-editor-preference-satchel = Satchel
 humanoid-profile-editor-preference-duffelbag = Duffelbag
 humanoid-profile-editor-guidebook-button-tooltip = Click for more info
+humanoid-profile-editor-skin-toggle = Humanoid Skin Tones
 
 # Spawn priority
 humanoid-profile-editor-preference-spawn-priority-none = None

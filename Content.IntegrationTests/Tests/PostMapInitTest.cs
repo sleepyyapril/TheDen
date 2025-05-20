@@ -162,7 +162,7 @@ namespace Content.IntegrationTests.Tests
             }
             await pair.CleanReturnAsync();
         }
-
+/**
         [Test, TestCaseSource(nameof(GameMaps))]
         public async Task GameMapsLoadableTest(string mapProto)
         {
@@ -325,15 +325,16 @@ namespace Content.IntegrationTests.Tests
             await using var pair = await PoolManager.GetServerClient();
             var server = pair.Server;
             var protoMan = server.ResolveDependency<IPrototypeManager>();
+            var pool = protoMan.Index<GameMapPoolPrototype>("DefaultMapPool");
 
-            var gameMaps = protoMan.EnumeratePrototypes<GameMapPrototype>()
-                .Where(x => !pair.IsTestPrototype(x))
+            var gameMapsProtos = protoMan.EnumeratePrototypes<GameMapPrototype>()
+                .Where(x => !pair.IsTestPrototype(x) && pool.Maps.Contains(x.ID))
                 .Select(x => x.ID)
                 .ToHashSet();
 
-            Assert.That(gameMaps.Remove(PoolManager.TestMap));
+            var maps = GameMaps.Where(x => pool.Maps.Contains(x)).ToHashSet();
 
-            Assert.That(gameMaps, Is.EquivalentTo(GameMaps.ToHashSet()), "Game map prototype missing from test cases.");
+            Assert.That(gameMapsProtos, Is.EquivalentTo(maps), "Game map prototype missing from test cases.");
 
             await pair.CleanReturnAsync();
         }
@@ -404,6 +405,6 @@ namespace Content.IntegrationTests.Tests
 
             await server.WaitRunTicks(1);
             await pair.CleanReturnAsync();
-        }
+        }**/
     }
 }

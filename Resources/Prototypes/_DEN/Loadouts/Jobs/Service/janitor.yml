@@ -1,0 +1,69 @@
+- type: loadout
+  id: LoadoutServiceJumpsuitJanitor
+  category: JobsServiceJanitor
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Janitor
+  items:
+    - ClothingUniformJumpsuitJanitor
+
+- type: loadout
+  id: LoadoutServiceJumpskirtJanitor
+  category: JobsServiceJanitor
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Janitor
+  items:
+    - ClothingUniformJumpskirtJanitor
+
+- type: loadout
+  id: LoadoutServiceUniformJumpskirtTacticalMaid
+  category: JobsServiceJanitor
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingUniformJumpskirtTacticalMaid
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Janitor
+
+- type: loadout
+  id: LoadoutServiceUniformJumpskirtJanimaid
+  category: JobsServiceJanitor
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingUniformJumpskirtJanimaid
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Janitor
+
+- type: loadout
+  id: LoadoutServiceUniformJumpskirtJanimaidmini
+  category: JobsServiceJanitor
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingUniformJumpskirtJanimaidmini
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - Janitor

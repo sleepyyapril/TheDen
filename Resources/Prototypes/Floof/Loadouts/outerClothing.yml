@@ -30,13 +30,17 @@
 
 - type: loadout
   id: LoadoutClothingOuterRoboOveralls
-  category: Outer
+  category: JobsEpistemicsGolemancer # The Den - Literally the roboticist overalls
   cost: 0
   items:
     - ClothingOuterRoboOveralls
+  # The Den - Why was this free to wear?
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutOuter
+      group: LoadoutGolemancerOuter
+    - !type:CharacterJobRequirement
+      jobs:
+        - Roboticist
 
 - type: loadout
   id: LoadoutClothingOuterPlainOveralls
@@ -88,15 +92,16 @@
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuter
 
-- type: loadout
-  id: LoadoutClothingOuterSuitWitchRobes
-  category: Outer
-  cost: 1
-  items:
-    - ClothingOuterSuitWitchRobes
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutOuter2
+# TheDen - loadout deduplication EE versions prefered over floof
+#- type: loadout
+#  id: LoadoutClothingOuterSuitWitchRobes
+#  category: Outer
+#  cost: 1
+#  items:
+#    - ClothingOuterSuitWitchRobes
+#  requirements:
+#    - !type:CharacterItemGroupRequirement
+#      group: LoadoutOuter2
 
 - type: loadout
   id: LoadoutClothingOuterShackles
@@ -106,4 +111,4 @@
     -  ClothingOuterShackles
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutOuter2
+      group: LoadoutOuter # TheDen

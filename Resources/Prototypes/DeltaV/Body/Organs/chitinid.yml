@@ -1,8 +1,9 @@
 - type: entity
   id: OrganChitinidStomach
-  parent: OrganHumanStomach
+  parent: OrganAnimalStomach
   name: stomach
   description: "Gross. This is hard to stomach."
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Organ # Shitmed Change
     slotId: stomach # Shitmed Change
@@ -27,7 +28,7 @@
   - type: Metabolizer
     # mm yummy
     maxReagents: 3
-    metabolizerTypes: [Human]
+    metabolizerTypes: [Animal]
     groups:
     - id: Food
     - id: Drink

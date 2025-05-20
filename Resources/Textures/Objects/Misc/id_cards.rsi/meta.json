@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from https://github.com/tgstation/tgstation // Icon Edit by FoxxoTrystan",
+    "copyright": "Taken from https://github.com/tgstation/tgstation // Icon Edit by FoxxoTrystan. adminassistant and blueshieldofficer by Rosycup (GitHub)",
     "size": {
         "x": 32,
         "y": 32
@@ -162,6 +162,12 @@
         },
         {
             "name": "martialartist"
+        },
+        {
+            "name": "adminassistant"
+        },
+        {
+            "name": "blueshieldofficer"
         },
         {
             "name": "gold-inhand-left",

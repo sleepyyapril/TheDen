@@ -59,6 +59,9 @@
   id: Beer
 
 - type: Tag
+  id: Beetroot
+
+- type: Tag
   id: BikeHorn
 
 - type: Tag
@@ -113,6 +116,24 @@
   id: BorgHead
 
 - type: Tag
+  id: BorgLArm
+
+- type: Tag
+  id: BorgLLeg
+
+- type: Tag
+  id: BorgRArm
+
+- type: Tag
+  id: BorgRLeg
+
+- type: Tag
+  id: BorgTorso
+
+- type: Tag
+  id: BorgLeg
+
+- type: Tag
   id: BorgJanitorHead
 
 - type: Tag
@@ -123,9 +144,6 @@
 
 - type: Tag
   id: BorgJanitorTorso
-
-- type: Tag
-  id: BorgLeg
 
 - type: Tag
   id: BorgMedicalHead
@@ -188,6 +206,9 @@
   id: BorgModuleSyndicateAssault
 
 - type: Tag
+  id: Bot
+
+- type: Tag
   id: BorgServiceHead
 
 - type: Tag
@@ -219,6 +240,12 @@
 
 - type: Tag
   id: BoxCardboard
+
+- type: Tag
+  id: MaterialCardboard
+
+- type: Tag
+  id: MaterialPaper
 
 - type: Tag
   id: BoxHug
@@ -359,6 +386,9 @@
   id: CartridgeHeavyRifle
 
 - type: Tag
+  id: CartridgeMinigun
+
+- type: Tag
   id: CartridgeLightRifle
 
 - type: Tag
@@ -446,6 +476,9 @@
 
 - type: Tag
   id: CoordinatesDisk
+
+#- type: Tag #VASH - Deemed too invasive. Kept for reference.
+#  id: Condom
 
 - type: Tag
   id: Corn
@@ -831,6 +864,9 @@
 - type: Tag
   id: IntercomElectronics
 
+- type: Tag # Goobstation
+  id: JanicartKeys
+
 - type: Tag
   id: JawsOfLife
 
@@ -857,6 +893,9 @@
 
 - type: Tag
   id: Lemon
+
+#- type: Tag #VASH - Deemed too invasive. Kept for reference.
+#  id: Liner
 
 - type: Tag
   id: Lime
@@ -895,6 +934,9 @@
 
 - type: Tag
   id: MagazineHeavyRifleBox
+
+- type: Tag
+  id: MagazineBoxRifleMinigun
 
 - type: Tag
   id: MagazineLightRifle
@@ -1020,10 +1062,16 @@
   id: Oneirophage
 
 - type: Tag
+  id: Oni
+
+- type: Tag
   id: Ore
 
 - type: Tag
   id: Packet
+
+#- type: Tag #VASH - Deemed too invasive. Kept for reference.
+#  id: Pad
 
 - type: Tag
   id: Paper
@@ -1047,10 +1095,16 @@
   id: PetWearable
 
 - type: Tag
+  id: HardHat
+
+- type: Tag
   id: MonkeyWearable
 
 - type: Tag
   id: Pickaxe
+
+- type: Tag
+  id: ItemPickaxe
 
 - type: Tag
   id: Pie
@@ -1080,6 +1134,9 @@
   id: PlantSampleTaker
 
 - type: Tag
+  id: HydroponicsToolClippers
+
+- type: Tag
   id: PlasmaGlassShard
 
 - type: Tag
@@ -1096,6 +1153,9 @@
 
 - type: Tag
   id: SiliconMob
+
+- type: Tag
+  id: WeldbotFixableStructure
 
 - type: Tag
   id: PlushieSharkBlue
@@ -1136,6 +1196,10 @@
 - type: Tag
   id: QuantumSpinInverter
 
+# for the Damp Rag. From VASH, but doesn't necessarily require it.
+- type: Tag
+  id: Rag
+
 - type: Tag
   id: Radio
 
@@ -1154,6 +1218,9 @@
 
 - type: Tag
   id: RifleStock
+
+- type: Tag
+  id: Ring
 
 - type: Tag
   id: RipleyCentralControlModule
@@ -1181,6 +1248,9 @@
 
 - type: Tag
   id: RollingPin
+
+- type: Tag
+  id: RPD
 
 - type: Tag
   id: SaltShaker
@@ -1317,6 +1387,9 @@
 - type: Tag
   id: Taser
 
+#- type: Tag #VASH - Deemed too invasive. Kept for reference.
+#  id: Tampon
+
 - type: Tag
   id: TabletopBoard
 
@@ -1357,6 +1430,12 @@
   id: Truncheon
 
 - type: Tag
+  id: TurretCompatibleWeapon # Used in the construction of sentry turrets
+
+- type: Tag
+  id: TurretControlElectronics # Used in the construction of sentry turret control panels
+
+- type: Tag
   id: Unimplantable
 
 - type: Tag
@@ -1367,6 +1446,9 @@
 
 - type: Tag
   id: Vegetable
+
+- type: Tag # Goobstation
+  id: VehicleKey
 
 - type: Tag
   id: VimPilot
@@ -1458,7 +1540,13 @@
   id: HarpyEmotes
 
 - type: Tag
+  id: HumanEmotes
+
+- type: Tag
   id: VulpEmotes
+
+- type: Tag
+  id: OniEmotes
 
 - type: Tag
   id: ShadowkinEmotes

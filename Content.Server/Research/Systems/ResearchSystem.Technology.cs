@@ -78,16 +78,16 @@ public sealed partial class ResearchSystem
             || prototype.Cost * clientDatabase.SoftCapMultiplier > researchServer.Points)
             return false;
 
+        AddTechnology(serverEnt.Value, prototype);
+        TrySetMainDiscipline(prototype, serverEnt.Value);
+        ModifyServerPoints(serverEnt.Value, -(int) (prototype.Cost * clientDatabase.SoftCapMultiplier));
+        UpdateTechnologyCards(serverEnt.Value);
+
         if (prototype.Tier >= disciplinePrototype.LockoutTier)
         {
             clientDatabase.SoftCapMultiplier *= prototype.SoftCapContribution;
             researchServer.CurrentSoftCapMultiplier *= prototype.SoftCapContribution;
         }
-
-        AddTechnology(serverEnt.Value, prototype);
-        TrySetMainDiscipline(prototype, serverEnt.Value);
-        ModifyServerPoints(serverEnt.Value, -(int) (prototype.Cost * clientDatabase.SoftCapMultiplier));
-        UpdateTechnologyCards(serverEnt.Value);
 
         _adminLog.Add(LogType.Action, LogImpact.Medium,
             $"{ToPrettyString(user):player} unlocked {prototype.ID} (discipline: {prototype.Discipline}, tier: {prototype.Tier}) at {ToPrettyString(client)}, for server {ToPrettyString(serverEnt.Value)}.");
@@ -132,7 +132,7 @@ public sealed partial class ResearchSystem
         }
         Dirty(uid, component);
 
-        var ev = new TechnologyDatabaseModifiedEvent();
+        var ev = new TechnologyDatabaseModifiedEvent(technology.RecipeUnlocks); // Goobstation - Lathe message on recipes update
         RaiseLocalEvent(uid, ref ev);
     }
 

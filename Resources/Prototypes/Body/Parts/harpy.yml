@@ -37,27 +37,28 @@
         damage: 150
       behaviors:
       - !type:GibPartBehavior { }
-    - trigger:
-        !type:DamageTypeTrigger
-        damageType: Heat
-        damage: 200
-      behaviors:
-      - !type:SpawnEntitiesBehavior
-        spawnInContainer: true
-        spawn:
-          Ash:
-            min: 1
-            max: 1
-      - !type:BurnBodyBehavior { }
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MeatLaserImpact
+#    - trigger:
+#        !type:DamageTypeTrigger
+#        damageType: Heat
+#        damage: 200
+#      behaviors:
+#      - !type:SpawnEntitiesBehavior
+#        spawnInContainer: true
+#        spawn:
+#          Ash:
+#            min: 1
+#            max: 1
+#      - !type:BurnBodyBehavior { }
+#      - !type:PlaySoundBehavior
+#        sound:
+#          collection: MeatLaserImpact
   # Shitmed Change End
 
 - type: entity
   id: TorsoHarpy
   name: "harpy torso"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -88,27 +89,28 @@
         damage: 400
       behaviors:
       - !type:GibPartBehavior { }
-    - trigger:
-        !type:DamageTypeTrigger
-        damageType: Heat
-        damage: 400
-      behaviors:
-      - !type:SpawnEntitiesBehavior
-        spawnInContainer: true
-        spawn:
-          Ash:
-            min: 1
-            max: 1
-      - !type:BurnBodyBehavior { }
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MeatLaserImpact
+#    - trigger:
+#        !type:DamageTypeTrigger
+#        damageType: Heat
+#        damage: 400
+#      behaviors:
+#      - !type:SpawnEntitiesBehavior
+#        spawnInContainer: true
+#        spawn:
+#          Ash:
+#            min: 1
+#            max: 1
+#      - !type:BurnBodyBehavior { }
+#      - !type:PlaySoundBehavior
+#        sound:
+#          collection: MeatLaserImpact
   # Shitmed Change End
 
 - type: entity
   id: HeadHarpy
   name: "harpy head"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -133,6 +135,7 @@
   id: LeftArmHarpy
   name: "left harpy arm"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -150,6 +153,7 @@
   id: RightArmHarpy
   name: "right harpy arm"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -164,6 +168,7 @@
     toolName: "a right arm" # Shitmed Change
     onAdd:
     - type: Flight
+      speedModifier: 1.25
       isLayerAnimated: true
       layer: "/Textures/Mobs/Customization/Harpy/harpy_wings.rsi"
       animationKey: "Flap"
@@ -172,6 +177,7 @@
   id: LeftHandHarpy
   name: "left harpy hand"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -189,6 +195,7 @@
   id: RightHandHarpy
   name: "right harpy hand"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -206,6 +213,7 @@
   id: LeftLegHarpy
   name: "left harpy leg"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -224,6 +232,7 @@
   id: RightLegHarpy
   name: "right harpy leg"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -242,6 +251,7 @@
   id: LeftFootHarpy
   name: "left harpy foot"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false
@@ -259,6 +269,7 @@
   id: RightFootHarpy
   name: "right harpy foot"
   parent: PartHarpy
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: Sprite
     netsync: false

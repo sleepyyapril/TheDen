@@ -74,12 +74,12 @@
 # Eyes
 - type: loadout
   id: LoadoutClothingEyesGlassesCorpsman
-  category: JobsSecurityAUncategorized
+  category: JobsSecurityCorpsman
   cost: 2
   exclusive: true
   requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEyes
+#    - !type:CharacterItemGroupRequirement - TheDen - For easier 1 character all jobs cahracters
+#      group: LoadoutSecurityEyes
     - !type:CharacterJobRequirement
       jobs:
         - Brigmedic
@@ -237,3 +237,16 @@
 # Shoes
 
 # Uniforms
+- type: loadout
+  id: LoadoutUniformJumpsuitCorpsmanSummer
+  category: JobsSecurityCorpsman
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCorpsmanUniform
+    - !type:CharacterJobRequirement
+      jobs:
+        - Brigmedic
+  items:
+    - ClothingUniformJumpsuitCorpsmanSummer

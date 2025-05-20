@@ -37,6 +37,7 @@ loadout-name-LoadoutItemBoxSurvivalSecurity = survival box (security)
 loadout-name-LoadoutItemBoxSurvivalBrigmedic = survival box (corpsman)
 loadout-name-LoadoutItemBoxSurvivalMedical = survival box (medical)
 loadout-name-LoadoutItemBoxHug = box of hugs (clown)
+loadout-name-LoadoutItemBoxMime = survival box (mime)
 
 loadout-name-LoadoutItemLighter = lighter (colorable)
 loadout-name-LoadoutItemLighterCheap = cheap lighter (colorable)
@@ -44,8 +45,10 @@ loadout-name-LoadoutItemLighterFlippo = flippo lighter (colorable)
 loadout-name-LoadoutItemDrinkShinyFlask = shiny flask (colorable)
 loadout-name-LoadoutItemDrinkLithiumFlask = lithium flask (colorable)
 loadout-name-LoadoutItemDrinkVacuumFlask = vacuum flask (colorable)
+loadout-name-LoadoutItemShadowkinPlush = shadowkin plushie
 
 loadout-name-LoadoutItemPetMouse = pet mouse (colorable)
 loadout-name-LoadoutItemPetHamster = pet hamster (colorable)
 loadout-name-LoadoutItemPetMothroach = pet mothroach (colorable)
 loadout-name-LoadoutItemPetCockroach = pet cockroach (colorable)
+loadout-name-LoadoutItemPetRoingus = pet roingus (colorable)

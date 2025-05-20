@@ -32,39 +32,42 @@
 
 # Shotgun Shells
 - type: entity
+  name: shell box (beanbag)
   parent: AmmoProviderShotgunShell
   id: BoxBeanbag
-  name: shell box (beanbag)
+  description: A dispenser box full of beanbag shots, designed for riot shotguns.
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunBeanbag
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: beanbag
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: beanbag
 
 - type: entity
   name: shell box (lethal)
   parent: AmmoProviderShotgunShell
   id: BoxLethalshot
+  description: A dispenser box full of lethal pellet shots, designed for riot shotguns.
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgun
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: lethal
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: lethal
 
 - type: entity
   name: shell box (slug)
   parent: AmmoProviderShotgunShell
   id: BoxShotgunSlug
+  description: A dispenser box full of slugs, designed for riot shotguns.
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunSlug
@@ -74,46 +77,49 @@
       zeroVisible: false
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-alt-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: slug
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-alt-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: slug
 
 - type: entity
   name: shell box (flare)
   parent: AmmoProviderShotgunShell
   id: BoxShotgunFlare
+  description: A dispenser box full of flare cartridges, designed for riot shotguns.
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunFlare
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: flare
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: flare
 
 - type: entity
   name: shell box (incendiary)
   parent: AmmoProviderShotgunShell
   id: BoxShotgunIncendiary
+  description: A dispenser box full of incendiary cartridges, designed for riot shotguns.
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunIncendiary
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: incendiary
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: incendiary
 
 - type: entity
   name: shell box (uranium)
   parent: AmmoProviderShotgunShell
   id: BoxShotgunUranium
+  description: A dispenser box full of uranium cartridges, designed for riot shotguns.
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunUranium
@@ -123,38 +129,88 @@
       zeroVisible: false
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-alt-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: uranium
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-alt-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: uranium
 
 - type: entity
   name: shell box (practice)
   parent: AmmoProviderShotgunShell
   id: BoxShotgunPractice
+  description: A dispenser box full of practice cartridges, designed for riot shotguns.
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunPractice
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: practice
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: practice
 
 - type: entity
   name: shell box (tranquilizer)
   parent: AmmoProviderShotgunShell
   id: BoxShellTranquilizer
+  description: A dispenser box full of tranquilizer cartridges, designed for riot shotguns.
   components:
     - type: BallisticAmmoProvider
       proto: ShellTranquilizer
     - type: Sprite
       layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-1
-        map: ["enum.GunVisualLayers.Mag"]
-      - state: tranquilizer
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: tranquilizer
+
+- type: entity
+  name: "shellbox (Birdshot)"
+  parent: AmmoProviderShotgunShell
+  id: BoxShotgunBirdshot
+  description: A dispenser box full of .50 birdshot. Used for centuries by colonists to hunt small game on alien worlds.
+  components:
+    - type: BallisticAmmoProvider
+      proto: ShellShotgunBirdshot
+    - type: Sprite
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: lethal
+
+- type: entity
+  name: "shell box (00-Buckshot)"
+  parent: AmmoProviderShotgunShell
+  id: BoxShotgun00Buckshot
+  description: A dispenser box full of .50 "Double-Aught" buckshot. Used for centuries by colonists to hunt mid-sized game. The knowledge of what a "Buck" means has been lost to time.
+  components:
+    - type: BallisticAmmoProvider
+      proto: ShellShotgun00Buckshot
+    - type: Sprite
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: lethal
+
+- type: entity
+  name: "shell box (0000-Buckshot)"
+  parent: AmmoProviderShotgunShell
+  id: BoxShotgun0000Buckshot
+  description: A dispenser box full of .50 "Quad-Aught" buckshot. Used for centuries by colonists to hunt alien megafauna. It'll rip through a hardsuit just as easily as thick hides.
+  components:
+    - type: BallisticAmmoProvider
+      proto: ShellShotgun0000Buckshot
+    - type: Sprite
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-1
+          map: ["enum.GunVisualLayers.Mag"]
+        - state: lethal

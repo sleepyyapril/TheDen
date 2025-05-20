@@ -70,6 +70,8 @@
       id: LoadoutMagazineMagnumMagnumLeverRifle
     - type: loadout
       id: LoadoutMagazineMagnumMagnumLeverRifleSpare
+    - type: loadout
+      id: LoadoutMagazineShotgunBeanbag
 
 - type: characterItemGroup
   maxItems: 1
@@ -136,9 +138,7 @@
     - type: loadout
       id: LoadoutSecurityPistolEnergyRevolver
     - type: loadout
-      id: LoadoutBSOEnergyRevolver
-    - type: loadout
-      id: LoadoutBSORifleChester
+      id: LoadoutSecurityShotgunSawn
 
 - type: characterItemGroup
   id: LoadoutSecurityEyes
@@ -182,8 +182,6 @@
       id: LoadoutSecurityHeadHelmetInsulated
     - type: loadout
       id: LoadoutSecurityHeadHelmetCombat
-    - type: loadout
-      id: LoadoutSecurityHeadHatSeniorTrooper
 
 #- type: characterItemGroup
 #  id: LoadoutSecurityId
@@ -249,8 +247,10 @@
     - type: loadout
       id: LoadoutUniformJumpsuitSecSummer
     - type: loadout
-      id: LoadoutSecurityUniformJumpsuitSeniorTrooper
-    - type: loadout
       id: LoadoutSecurityUniformEnvirosuitBlue
     - type: loadout
       id: LoadoutSecurityUniformEnvirosuitGrey
+    - type: loadout
+      id: LoadoutSecurityUniformJumpsuit
+    - type: loadout
+      id: LoadoutSecurityUniformJumpskirt

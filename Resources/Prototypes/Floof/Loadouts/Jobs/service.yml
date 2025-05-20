@@ -7,14 +7,15 @@
   items:
   - ClothingHandsServiceWarmers
   requirements:
-  - !type:CharacterJobRequirement
-    jobs:
-    - Bartender
-    - Botanist
-    - Reporter
-    - Musician
-    - Chef
-    - ServiceWorker
+  - !type:CharacterLogicAndRequirement
+    requirements:
+    - !type:CharacterDepartmentRequirement
+      departments:
+      - Civilian
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - Passenger
 
 - type: loadout
   id: LoadoutClothingUnderSocksService
@@ -24,19 +25,20 @@
   items:
   - ClothingUnderSocksService
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
-  - !type:CharacterJobRequirement
-    jobs:
-    - Bartender
-    - Botanist
-    - Reporter
-    - Musician
-    - Chef
-    - ServiceWorker
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
+  - !type:CharacterLogicAndRequirement
+    requirements:
+    - !type:CharacterDepartmentRequirement
+      departments:
+      - Civilian
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - Passenger
 
 - type: loadout
   id: LoadoutClothingUniformServiceThong
@@ -46,14 +48,15 @@
   items:
   - ClothingUniformServiceThong
   requirements:
-  - !type:CharacterJobRequirement
-    jobs:
-    - Bartender
-    - Botanist
-    - Reporter
-    - Musician
-    - Chef
-    - ServiceWorker
+  - !type:CharacterLogicAndRequirement
+    requirements:
+    - !type:CharacterDepartmentRequirement
+      departments:
+      - Civilian
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - Passenger
 
 - type: loadout
   id: LoadoutClothingUniformServiceUni
@@ -63,14 +66,15 @@
   items:
   - ClothingUniformServiceUni
   requirements:
-  - !type:CharacterJobRequirement
-    jobs:
-    - Bartender
-    - Botanist
-    - Reporter
-    - Musician
-    - Chef
-    - ServiceWorker
+  - !type:CharacterLogicAndRequirement
+    requirements:
+    - !type:CharacterDepartmentRequirement
+      departments:
+      - Civilian
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - Passenger
 
 #Bartender
 - type: loadout
@@ -93,11 +97,11 @@
   items:
   - ClothingUnderSocksBartender
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
   - !type:CharacterJobRequirement
     jobs:
     - Bartender
@@ -159,11 +163,11 @@
   items:
   - ClothingUnderSocksChef
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
   - !type:CharacterJobRequirement
     jobs:
     - Chef
@@ -201,11 +205,11 @@
   items:
   - ClothingUnderSocksMusician
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
   - !type:CharacterJobRequirement
     jobs:
     - Musician
@@ -267,11 +271,11 @@
   items:
   - ClothingUnderSocksJanitor
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
   - !type:CharacterJobRequirement
     jobs:
     - Janitor
@@ -290,7 +294,7 @@
 
 - type: loadout
   id: LoadoutClothingNeckCloakJanitor
-  category: JobsServiceAUncategorized
+  category: JobsServiceJanitor
   cost: 2
   exclusive: true
   requirements:
@@ -329,11 +333,11 @@
   items:
   - ClothingUnderSocksStripedWhite
   requirements:
-  - !type:CharacterSpeciesRequirement
-    inverted: true
-    species:
-    - Diona
-    - Harpy
+#  - !type:CharacterSpeciesRequirement - TheDen
+#    inverted: true
+#    species:
+#    - Diona
+#    - Harpy
   - !type:CharacterJobRequirement
     jobs:
     - Mime

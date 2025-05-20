@@ -50,9 +50,8 @@ public sealed partial class CultRuneApocalypseComponent : Component
     [DataField]
     public Dictionary<EntProtoId, int> PossibleEvents = new()
     {
-        ["ImmovableRodSpawn"] = 3,
         ["MimicVendorRule"] = 2,
-        ["RatKingSpawn"] = 2,
+//        ["RatKingSpawn"] = 2,
         ["MeteorSwarm"] = 2,
         ["SpiderSpawn"] = 3, // more spiders
         ["AnomalySpawn"] = 4,

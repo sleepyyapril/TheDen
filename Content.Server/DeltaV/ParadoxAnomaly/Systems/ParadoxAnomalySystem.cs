@@ -19,6 +19,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using System.Diagnostics.CodeAnalysis;
 using Content.Server.Consent;
+using Content.Shared.Consent;
 
 
 namespace Content.Server.DeltaV.ParadoxAnomaly.Systems;
@@ -43,6 +44,8 @@ public sealed class ParadoxAnomalySystem : EntitySystem
     [Dependency] private readonly StationSpawningSystem _stationSpawning = default!;
     [Dependency] private readonly LoadoutSystem _loadout = default!;
 
+    private ProtoId<ConsentTogglePrototype> _paradoxAnomalyConsent = "NoClone";
+
     public override void Initialize()
     {
         base.Initialize();
@@ -52,11 +55,9 @@ public sealed class ParadoxAnomalySystem : EntitySystem
 
     private void OnTakeGhostRole(Entity<ParadoxAnomalySpawnerComponent> ent, ref TakeGhostRoleEvent args)
     {
-        Log.Info($"Using paradox anomaly spawner {ent}");
         if (!TrySpawnParadoxAnomaly(ent.Comp.Rule, out var twin))
             return;
 
-        Log.Info($"Created paradox anomaly {ToPrettyString(twin):twin}");
         var role = Comp<GhostRoleComponent>(ent);
         _ghostRole.GhostRoleInternalCreateMindAndTransfer(args.Player, ent, twin.Value, role);
         _ghostRole.UnregisterGhostRole((ent.Owner, role));
@@ -80,7 +81,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
             if (!_proto.TryIndex<SpeciesPrototype>(humanoid.Species, out var species))
                 continue;
 
-            if (_mind.GetMind(uid, mindContainer) is not {} mindId || !HasComp<JobComponent>(mindId))
+            if (_mind.GetMind(uid, mindContainer) is not {} mindId || !HasComp<JobRoleComponent>(mindId))
                 continue;
 
             if (_role.MindIsAntagonist(mindId))
@@ -105,7 +106,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
             return null;
 
         var (uid, mindId, species, profile) = _random.Pick(candidates);
-        var jobId = Comp<JobComponent>(mindId).Prototype;
+        var jobId = Comp<JobRoleComponent>(mindId).Prototype;
         var job = _proto.Index<JobPrototype>(jobId!);
 
         // Find a suitable spawn point.

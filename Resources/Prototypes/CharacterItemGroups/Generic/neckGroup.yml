@@ -46,26 +46,6 @@
     - type: loadout
       id: LoadoutNeckTieRibbon
     - type: loadout
-      id: LoadoutItemsPrideLGBTPin
-    - type: loadout
-      id: LoadoutItemsPrideAromanticPin
-    - type: loadout
-      id: LoadoutItemsPrideAsexualPin
-    - type: loadout
-      id: LoadoutItemsPrideBisexualPin
-    - type: loadout
-      id: LoadoutItemsPrideGayPin
-    - type: loadout
-      id: LoadoutItemsPrideIntersexPin
-    - type: loadout
-      id: LoadoutItemsPrideLesbianPin
-    - type: loadout
-      id: LoadoutItemsPrideNonBinaryPin
-    - type: loadout
-      id: LoadoutItemsPridePansexualPin
-    - type: loadout
-      id: LoadoutItemsPrideTransPin
-    - type: loadout
       id: LoadoutNeckBedsheetBlack
     - type: loadout
       id: LoadoutNeckBedsheetBlue
@@ -131,3 +111,85 @@
       id: LoadoutNeckNecklacePendantSilver
     - type: loadout
       id: LoadoutNeckNecklacePendantSilverLarge
+    # Pride Pins
+    - type: loadout
+      id: LoadoutNeckLGBTPin
+    - type: loadout
+      id: LoadoutNeckAromanticPin
+    - type: loadout
+      id: LoadoutNeckAsexualPin
+    - type: loadout
+      id: LoadoutNeckBisexualPin
+    - type: loadout
+      id: LoadoutNeckGayPin
+    - type: loadout
+      id: LoadoutNeckIntersexPin
+    - type: loadout
+      id: LoadoutNeckLesbianPin
+    - type: loadout
+      id: LoadoutNeckNonBinaryPin
+    - type: loadout
+      id: LoadoutNeckPansexualPin
+    - type: loadout
+      id: LoadoutNeckTransPin
+    # Pride Cloaks
+    - type: loadout
+      id: LoadoutNeckCloakProgressPride
+    - type: loadout
+      id: LoadoutNeckCloakTrans
+    - type: loadout
+      id: LoadoutNeckCloakAro
+    - type: loadout
+      id: LoadoutNeckCloakAce
+    - type: loadout
+      id: LoadoutNeckCloakCloakBi
+    - type: loadout
+      id: LoadoutNeckCloakIntersex
+    - type: loadout
+      id: LoadoutNeckCloakEnby
+    - type: loadout
+      id: LoadoutNeckCloakPan
+    - type: loadout
+      id: LoadoutNeckCloakGay
+    - type: loadout
+      id: LoadoutNeckCloakLesbian
+    # Pride Scarves
+    - type: loadout
+      id: LoadoutNeckScarfStripedAce
+    - type: loadout
+      id: LoadoutNeckScarfStripedAro
+    - type: loadout
+      id: LoadoutNeckScarfStripedBiSexual
+    - type: loadout
+      id: LoadoutNeckScarfStripedGay
+    - type: loadout
+      id: LoadoutNeckScarfStripedInter
+    - type: loadout
+      id: LoadoutNeckScarfStripedLesbian
+    - type: loadout
+      id: LoadoutNeckScarfStripedPan
+    - type: loadout
+      id: LoadoutNeckScarfStripedNonBinary
+    - type: loadout
+      id: LoadoutNeckScarfStripedRainbow
+    - type: loadout
+      id: LoadoutNeckScarfStripedTrans
+    - type: loadout
+      id: LoadoutNeckScarfStripedLesbianLong
+    - type: loadout
+      id: LoadoutBedsheetRainbow
+    - type: loadout
+      id: LoadoutNeckVetCone
+    # TheDen - Below
+    - type: loadout
+      id: LoadoutNeckCowBellCollar
+    - type: loadout
+      id: LoadoutNeckCloakMoth
+    - type: loadout
+      id: LoadoutItemsNeckBlueCollar
+    - type: loadout
+      id: LoadoutItemsNeckBlackCollar
+    - type: loadout
+      id: LoadoutItemsNeckPinkCollar
+    - type: loadout
+      id: LoadoutItemsNeckSyndieCollar

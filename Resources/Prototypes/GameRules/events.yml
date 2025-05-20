@@ -117,12 +117,28 @@
   components:
   - type: StationEvent
     weight: 6.5
-    duration: 1
-    earliestStart: 120 # Floof
-    reoccurrenceDelay: 60
-    minimumPlayers: 40 # Floof
-  - type: RandomSpawnRule
-    prototype: SpawnPointGhostDragon
+    earliestStart: 40
+    reoccurrenceDelay: 40
+    minimumPlayers: 30
+    duration: null
+  - type: SpaceSpawnRule
+    spawnDistance: 0
+  - type: AntagSpawner
+    prototype: MobDragon
+  - type: DragonRule
+  - type: AntagObjectives
+    objectives:
+    - CarpRiftsObjective
+    - DragonSurviveObjective
+  - type: AntagSelection
+    agentName: dragon-round-end-agent-name
+    definitions:
+    - spawnerPrototype: SpawnPointGhostDragon
+      min: 1
+      max: 1
+      pickPlayer: false
+      mindRoles:
+      - MindRoleDragon
 
 - type: entity
   parent: BaseGameRule
@@ -169,9 +185,8 @@
         nameSegments:
         - names_ninja_title
         - names_ninja
-      mindComponents:
-      - type: NinjaRole
-        prototype: SpaceNinja
+      mindRoles:
+      - MindRoleNinja
 
 - type: entity
   parent: BaseGameRule
@@ -247,7 +262,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 15
-    weight: 6
+    weight: 3
     duration: 50
   - type: VentCrittersRule
     entries:
@@ -259,9 +274,27 @@
       prob: 0.02
     - id: MobMouseCancer
       prob: 0.001
-    specialEntries:
-    - id: SpawnPointGhostRatKing
-      prob: 0.001
+    - id: MobRoingus
+      prob: 0.01
+#    specialEntries:
+#    - id: SpawnPointGhostRatKing
+#      prob: 0.001
+
+- type: entity
+  id: RoingusMigration
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    startAnnouncement: true
+    startDelay: 10
+    earliestStart: 15
+    weight: 6
+    duration: 50
+  - type: VentCrittersRule
+    entries:
+    - id: MobRoingus
+      prob: 0.02
 
 - type: entity
   id: CockroachMigration
@@ -271,7 +304,7 @@
   - type: StationEvent
     startAnnouncement: true
     startDelay: 10
-    weight: 6
+    weight: 3
     duration: 50
   - type: VentCrittersRule
     entries:
@@ -283,11 +316,12 @@
 - type: entity
   id: SnailMigrationLowPop
   parent: BaseGameRule
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: StationEvent
     startAnnouncement: true
     startDelay: 10
-    weight: 6
+    weight: 3
     duration: 50
   - type: VentCrittersRule
     entries:
@@ -301,11 +335,12 @@
 - type: entity
   id: SnailMigration
   parent: BaseStationEventShortDelay
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
   components:
   - type: StationEvent
     startAnnouncement: true
     earliestStart: 15
-    weight: 6
+    weight: 3
     duration: 50
     minimumPlayers: 30
   - type: VentCrittersRule
@@ -399,7 +434,7 @@
     startDelay: 10
     earliestStart: 20
     minimumPlayers: 15
-    weight: 5
+    weight: 3
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -420,7 +455,7 @@
     startDelay: 10
     earliestStart: 20
     minimumPlayers: 15
-    weight: 5
+    weight: 3
     duration: 60
   - type: VentCrittersRule
     entries:
@@ -484,9 +519,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    earliestStart: 50
-    minimumPlayers: 30
-    weight: 2
+    earliestStart: 90
+    minimumPlayers: 40
+    weight: 1 # Zombies was happening basically every single survival round, so now it's super rare
     duration: 1
   - type: ZombieRule
   - type: AntagSelection
@@ -508,9 +543,9 @@
         maxInitialInfectedGrace: 450
       - type: ZombifyOnDeath
       - type: IncurableZombie
-      mindComponents:
-      - type: InitialInfectedRole
-        prototype: InitialInfected
+      - type: InitialInfected
+      mindRoles:
+      - MindRoleInitialInfected
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -543,9 +578,8 @@
       - type: NpcFactionMember
         factions:
         - Syndicate
-      mindComponents:
-      - type: NukeopsRole
-        prototype: Nukeops
+      mindRoles:
+      - MindRoleNukeops
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -569,9 +603,8 @@
       blacklist:
         components:
         - AntagImmune
-      mindComponents:
-      - type: TraitorRole
-        prototype: TraitorSleeper
+      mindRoles:
+      - MindRoleTraitorSleeper
 
 - type: entity
   id: MassHallucinations
@@ -590,18 +623,18 @@
     sounds:
       collection: Paracusia
 
-- type: entity
-  id: ImmovableRodSpawn
-  parent: BaseGameRule
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: StationEvent
-    startAnnouncement: false
-    weight: 2
-    duration: 1
-    earliestStart: 45
-    minimumPlayers: 20
-  - type: ImmovableRodRule
+# - type: entity
+#   id: ImmovableRodSpawn
+#   parent: BaseGameRule
+#   categories: [ HideSpawnMenu ]
+#   components:
+#   - type: StationEvent
+#     startAnnouncement: false
+#     weight: 2
+#     duration: 1
+#     earliestStart: 45
+#     minimumPlayers: 20
+#   - type: ImmovableRodRule
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -609,7 +642,7 @@
   id: IonStorm
   components:
   - type: StationEvent
-    weight: 8
+    weight: 10
     reoccurrenceDelay: 20
     duration: 1
   - type: IonStormRule
@@ -637,3 +670,16 @@
 #       maxOccurrences: 1
 #       weight: 3
 #     - type: AirlockVirusRule
+
+- type: entity
+  parent: BaseGameRule
+  id: SmugglerStashVariationPass
+  components:
+  - type: StationEvent
+    earliestStart: 0
+    duration: 1
+    minimumPlayers: 1
+    maxOccurrences: 2
+    weight: 10
+  - type: RandomSpawnRule
+    prototype: RandomSatchelSpawner

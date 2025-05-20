@@ -49,6 +49,8 @@
     price: 800
   - type: ResearchClient
   - type: TechnologyDatabase
+  - type: Speech # Goobstation - Lathe message on recipes update
+    speechSounds: Lathe
 
 # a lathe that can be sped up with space lube / slowed down with glue
 - type: entity
@@ -170,6 +172,7 @@
     - FoodBowlBig
     - FoodPlateTin
     - FoodKebabSkewer
+    - IceCreamBowl
     - SprayBottle
     - MopItem
     - Holoprojector
@@ -200,6 +203,7 @@
     - CellRechargerCircuitboard
     - BorgChargerCircuitboard
     - WeaponCapacitorRechargerCircuitboard
+    - HydroponicsTrayMachineCircuitboard
     - HandheldStationMap
     - ClothingHeadHatWelding
     - ShockCollar # FloofStation
@@ -215,10 +219,12 @@
     - NekomimeticTranslator
     - DraconicTranslator
     - SolCommonTranslator
+    - NovuNedericTranslator
     - RootSpeakTranslator
     - BasicGalaticCommonTranslatorImplanter
     - MofficTranslator
     - N14MaterialCircuitry
+    - VehicleWheelchairFolded # Goobstation
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - BoxLethalshot
@@ -244,6 +250,7 @@
     - RiotShield
     - SpeedLoaderMagnum
     - SpeedLoaderMagnumEmpty
+    - GrenadeFlashBang # Goobstation
     # .35 Caseless Pistol
     - MagazinePistolCaselessRiflePractice # EE
     - MagazinePistolCaselessRifle # EE
@@ -378,6 +385,7 @@
     - SyringeBluespace
     - WeaponForceGun
     - WeaponLaserSvalinn
+    - WeaponCivilianDisabler
     - WeaponProtoKineticAccelerator
     - WeaponTetherGun
     - WeaponGrapplingGun
@@ -389,6 +397,9 @@
     - CoreSilver # Nyanotrasen - Silver Golem core
     - OreBagOfHolding
     - DeviceQuantumSpinInverter
+    - PKAUpgradeDamage # Lavaland Change
+    - PKAUpgradeRange # Lavaland Change
+    - PKAUpgradeFireRate # Lavaland Change
     - XenoTranslator
     - AdvancedGalaticCommonTranslatorImplanter
     - BubblishTranslatorImplanter
@@ -399,17 +410,23 @@
     - RootSpeakTranslatorImplanter
     - AnimalTranslator
     - MofficTranslatorImplanter
+    - NehinaTranslatorImplanter
+    - RodentianTranslatorImplanter
+    - AlasetaTranslatorImplanter
+    - CaprineTranslatorImplanter
     - ClothingEyesNightVisionGoggles
     - ClothingEyesNightVisionDiagnosticGoggles
     - ClothingEyesThermalVisionGoggles
     - RCDAmmo #DeltaV
     - RCD #EE
+    - RPD
     # Shitmed Change
     - EnergyScalpel
     - EnergyCautery
     - AdvancedRetractor
     - ArachnicTranslatorImplanter # Floofstation
     - ArachnicTranslator # Floofstation
+    - VehicleWheelchairFolded # Goobstation
   - type: EmagLatheRecipes
     emagDynamicRecipes:
     - BoxBeanbag
@@ -493,7 +510,9 @@
     staticRecipes:
     - ProtolatheMachineCircuitboard
     - AutolatheMachineCircuitboard
+    - BookPressMachineCircuitboard
     - CircuitImprinterMachineCircuitboard
+    - BiogeneratorMachineCircuitboard
     - OreProcessorMachineCircuitboard
     - MaterialReclaimerMachineCircuitboard
     - ElectrolysisUnitMachineCircuitboard
@@ -502,6 +521,7 @@
     - ChemMasterMachineCircuitboard
     - CondenserMachineCircuitBoard
     - HotplateMachineCircuitboard
+    - PrinterDocMachineCircuitboard  # Corvax-Printer
     - UniformPrinterMachineCircuitboard
     - FloorGreenCircuit
     - FloorBlueCircuit
@@ -514,13 +534,14 @@
     - SpaceHeaterMachineCircuitBoard
     - StationAnchorCircuitboard
     - SeedExtractorMachineCircuitboard
-    - HydroponicsTrayMachineCircuitboard
     - ReagentGrinderIndustrialMachineCircuitboard
     - StasisBedMachineCircuitboard
     - CryoPodMachineCircuitboard
     - N14MaterialCircuitry
+    - CutterMachineCircuitboard
     dynamicRecipes:
     - ThermomachineFreezerMachineCircuitBoard
+    - DroneElectronics
     - HellfireFreezerMachineCircuitBoard
     - PortableScrubberMachineCircuitBoard
     - CloningPodMachineCircuitboard
@@ -598,7 +619,7 @@
     - SalvageExpeditionsComputerCircuitboard
     - JukeboxCircuitBoard
     - AutodocCircuitboard # Shitmed Change
-    - OperatingTableCircuitboard # Shitmed Change
+#    - OperatingTableCircuitboard # Shitmed Change
     - MaterialSiloCircuitboard
     - GygaxCentralElectronics
     - GygaxPeripheralsElectronics
@@ -731,6 +752,7 @@
     - BorgModuleAdvancedTool
     - BorgModuleGPS
     - BorgModuleRCD
+    - BorgModuleRPD
     - BorgModuleJetpack
     - BorgModulePka
     - BorgModuleArtifact
@@ -842,16 +864,20 @@
     layers:
     - state: icon
       map: ["enum.LatheVisualLayers.IsRunning"]
+      color: "#ffaa99"
     - state: unlit
       shader: unshaded
       map: ["enum.PowerDeviceVisualLayers.Powered"]
+      color: "#ffaaaa"
     - state: inserting
       map: ["enum.MaterialStorageVisualLayers.Inserting"]
+      color: "#ffaaaa"
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
     board: BiofabricatorMachineCircuitboard
   - type: MaterialStorage
+    ignoreColor: true
     whitelist:
       tags:
       - Sheet
@@ -969,6 +995,7 @@
       - WeaponFlareGunSecurity
       - WeaponLaserCarbinePractice
       - Zipties
+      - GrenadeFlashBang # Goobstation
       - ShockCollar
       # DeltaV - .38 special ammo - Add various .38 special ammo to security techfab
       - MagazineBoxSpecial
@@ -1016,8 +1043,12 @@
       - MagazineBoxPistolRubber # Frontier
       - MagazineBoxRifleRubber # Frontier
       - SpeedLoaderRifleHeavyRubber
+      - BoxShotgunBirdshot
+      - BoxShotgun00Buckshot
+      - BoxShotgun0000Buckshot
     dynamicRecipes:
       - Truncheon
+      - Terminus
       - BoxShotgunIncendiary
       - BoxShotgunUranium
       - EncryptionKeySyndie
@@ -1121,10 +1152,36 @@
       - WeaponMechCombatFlashbangLauncher
       - WeaponMechCombatMissileRack8
       - EnergySword
-      - EnergySwordDouble
       - EnergyCutlass
+      - WeaponEnergyTurretAIMachineCircuitboard
+      - WeaponEnergyTurretStationMachineCircuitboard
+      - WeaponEnergyTurretAIControlPanelElectronics
+      - WeaponEnergyTurretStationControlPanelElectronics
       - WeaponSubMachineGunFPA90
       - WeaponSubMachineGunBRDIR25
+      - WeaponPistolMk58
+      - WeaponPistolN1984
+      - WeaponPistolViper
+      - WeaponPistolCobra
+      - MagazineRifleShrapnel
+      - MagazinePistolShrapnel
+      - MagazinePistolSubMachineGunShrapnel
+      - MagazineMagnumShrapnel
+      - MagazineLightRifleShrapnel
+      - MagazineCaselessRifleShrapnel
+      - MagazineCaselessRifleIncendiary
+      - MagazineCaselessRifleUranium
+      - MagazineBoxPistolShrapnel
+      - MagazineBoxMagnumShrapnel
+      - MagazineBoxLightRifleShrapnel
+      - MagazineBoxRifleShrapnel
+      - MagazineBoxCaselessRifleShrapnel
+      - MagazineBoxCaselessRifleIncendiary
+      - MagazineBoxCaselessRifleUranium
+  - type: EmagLatheRecipes
+    emagDynamicRecipes:
+      - EnergySwordDouble
+      - WeaponPistolCobra
   - type: MaterialStorage
     whitelist:
       tags:
@@ -1278,6 +1335,13 @@
     - HandheldGPSBasic # Floof - port to EE
     - HandheldStationMap # Floof - port to EE
     - AACTablet # DeltaV
+    - tampon # VASH
+    - pad # VASH
+    - liner # VASH
+    - CondomWrapped # VASH
+    - VehicleWheelchairFolded # Goobstation - Vehicles
+    - BaseChemistryEmptyVial
+    - ClothingNeckVetCone # TheDen
     dynamicRecipes:
     - HypoMini
     - ChemicalPayload
@@ -1762,6 +1826,47 @@
       - ClothingHandsJanitorWarmers
       - ClothingUnderSocksJanitor
       - ClothingUniformJanitorThong
+      # DEN - AbsurdBeanies
+      - ClothingHeadHatBeanieBlackAbsurd
+      - ClothingHeadHatBeanieBlackWithPinAbsurd
+      - ClothingHeadHatBeanieBlueAbsurd
+      - ClothingHeadHatBeanieGoldAbsurd
+      - ClothingHeadHatBeanieGreenAbsurd
+      - ClothingHeadHatBeanieKhakiAbsurd
+      - ClothingHeadHatBeanieKhakiWithPinAbsurd
+      - ClothingHeadHatBeanieNavyBlueAbsurd
+      - ClothingHeadHatBeanieNavyBlueWithPinAbsurd
+      - ClothingHeadHatBeaniePurpleAbsurd
+      - ClothingHeadHatBeanieWhiteAbsurd
+      - ClothingHeadHatBeanieYellowAbsurd
+      - ClothingHeadHatBeanieRedAbsurd
+      # TheDen - Towels
+      - TowelColorWhite
+      - TowelColorPurple
+      - TowelColorRed
+      - TowelColorBlue
+      - TowelColorDarkBlue
+      - TowelColorLightBlue
+      - TowelColorTeal
+      - TowelColorBrown
+      - TowelColorLightBrown
+      - TowelColorGray
+      - TowelColorGreen
+      - TowelColorDarkGreen
+      - TowelColorGold
+      - TowelColorOrange
+      - TowelColorBlack
+      - TowelColorPink
+      - TowelColorYellow
+      - TowelColorMaroon
+      - TowelColorSilver
+      - TowelColorMime
+      - TowelColorNT
+      # TheDen - Aprons
+      - ClothingWaistApron
+      - ClothingWaistApronCheckered
+      - ClothingWaistApronStripesHorizontal
+      - ClothingWaistApronStripesVertical
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - ClothingHeadHatCentcomcap
@@ -1786,6 +1891,9 @@
     - ClothingOuterWinterCentcom
     - ClothingOuterWinterSyndie
     - ClothingOuterWinterSyndieCap
+    # TheDen - Towels
+    - TowelColorCentcom
+    - TowelColorSyndicate
   - type: MaterialStorage
     whitelist:
       tags:
@@ -1796,6 +1904,68 @@
       - ClothMade
       - Gauze
       - Metal
+
+- type: entity
+  id: Biogenerator
+  parent: BaseLathe
+  name: biogenerator
+  description: Converts plants into biomass, which can be used to construct useful items.
+  components:
+  - type: Sprite
+    sprite: Structures/Machines/biofabricator.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: inserting
+      map: ["enum.MaterialStorageVisualLayers.Inserting"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: BiogeneratorMachineCircuitboard
+  - type: MaterialStorage
+  - type: ProduceMaterialExtractor
+  - type: ItemSlots
+    slots:
+      beaker_slot:
+        name: lathe-component-output-slot-beaker-name
+        whitelist:
+          components:
+          - FitsInDispenser
+  - type: ContainerContainer
+    containers:
+      machine_board: !type:Container
+      machine_parts: !type:Container
+      beaker_slot: !type:ContainerSlot
+  - type: Lathe
+    reagentOutputSlotId: beaker_slot
+    idleState: icon
+    runningState: building
+    staticRecipes:
+    - BioGenMilk
+    - BioGenMilkSoy
+    - BioGenEthanol
+    - BioGenCream
+    - BioGenBlackpepper
+    - BioGenEnzyme
+    - BioGenFlour
+    - BioGenSugar
+    - BioGenMonkeyCube
+    - BioGenKoboldCube
+    - BioGenMaterialCloth1
+    - BioGenMaterialCardboard1
+    - BioGenPaper
+    - BioGenPaperRolling1
+    - BioGenCandle
+    - BioGenPlantBGone
+    - BioGenWeedKiller
+    - BioGenPestKiller
+    - BioGenLeft4Zed
+    - BioGenEZNutrient
+    - BioGenRobustHarvest
 
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
@@ -2040,3 +2210,101 @@
     whitelist:
       tags:
         - PrizeTicket
+
+- type: entity
+  parent: BaseLathe
+  id: CutterMachine
+  name: cutter machine
+  description: This is a cutter. It cuts. Add variety to your station floor with eye-pleasing patterns! Don't stick your fingers in.
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: Structures/Machines/cuttermachine.rsi
+    snapCardinals: true
+    layers:
+    - state: icon
+      map: ["enum.LatheVisualLayers.IsRunning"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Machine
+    board: CutterMachineCircuitboard
+  - type: Lathe
+    producingSound: /Audio/Machines/cutter.ogg
+    idleState: icon
+    runningState: building
+    staticRecipes:
+      - FloorTileItemDark
+      - FloorTileItemDarkDiagonalMini
+      - FloorTileItemDarkDiagonal
+      - FloorTileItemDarkHerringbone
+      - FloorTileItemDarkMini
+      - FloorTileItemDarkMono
+      - FloorTileItemDarkPavement
+      - FloorTileItemDarkPavementVertical
+      - FloorTileItemDarkOffset
+      - FloorTileItemSteelCheckerDark
+      - FloorTileItemSteel
+      - FloorTileItemSteelOffset
+      - FloorTileItemSteelDiagonalMini
+      - FloorTileItemSteelDiagonal
+      - FloorTileItemSteelHerringbone
+      - FloorTileItemSteelMini
+      - FloorTileItemSteelMono
+      - FloorTileItemSteelPavement
+      - FloorTileItemSteelPavementVertical
+      - FloorTileItemWhite
+      - FloorTileItemWhiteOffset
+      - FloorTileItemWhiteDiagonalMini
+      - FloorTileItemWhiteDiagonal
+      - FloorTileItemWhiteHerringbone
+      - FloorTileItemWhiteMini
+      - FloorTileItemWhiteMono
+      - FloorTileItemWhitePavement
+      - FloorTileItemWhitePavementVertical
+      - FloorTileItemSteelCheckerLight
+      - FloorTileItemGratingMaint
+      - FloorTileItemTechmaint
+      - FloorTileItemSteelMaint
+      - FloorTileItemWood
+      - FloorTileItemWoodLarge
+      - FloorTileItemWoodPattern
+      - FloorTileItemConcrete
+      - FloorTileItemConcreteMono
+      - FloorTileItemConcreteSmooth
+      - FloorTileItemGrayConcrete
+      - FloorTileItemGrayConcreteMono
+      - FloorTileItemGrayConcreteSmooth
+      - FloorTileItemOldConcrete
+      - FloorTileItemOldConcreteMono
+      - FloorTileItemOldConcreteSmooth
+      - FloorTileItemGCircuit
+      - FloorTileItemBCircuit
+      - FloorTileItemRCircuit
+      - FloorTileItemFreezer
+      - FloorTileItemShowroom
+      - FloorTileItemHydro
+      - FloorTileItemBar
+      - FloorTileItemClown
+      - FloorTileItemMime
+      - FloorTileItemKitchen
+      - FloorTileItemLaundry
+      - FloorTileItemBoxing
+      - FloorTileItemGym
+      - FloorTileItemCarpetClown
+      - FloorTileItemEighties
+      - FloorTileItemArcadeBlue
+      - FloorTileItemArcadeBlue2
+      - FloorTileItemArcadeRed
+  - type: MaterialStorage
+    whitelist:
+      tags:
+        - Sheet
+        - Metal
+        - Wooden
+        - RawMaterial
+        - Plastic
+        - Ingot

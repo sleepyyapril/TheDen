@@ -12,9 +12,9 @@
       types:
         Blunt: 11
     bluntStaminaDamageFactor: 2.0
-    heavyRateModifier: 0.5
+    heavyRateModifier: 1.5
     heavyDamageBaseModifier: 1.75
-    heavyStaminaCost: 15
+    heavyStaminaCost: 2.5
     angle: 120
     soundHit:
       collection: ExplosionSmall
@@ -29,6 +29,12 @@
     size: Large
   - type: Tool
     speedModifier: 0.5 # it's very heavy, it rolls slower than a wooden bat
+  - type: Clothing
+    sprite: Objects/Weapons/Melee/home_run_bat.rsi
+    quickEquip: false
+    slots:
+    - back
+    - suitStorage
   - type: UseDelay
     delay: 2
   - type: PhysicalComposition

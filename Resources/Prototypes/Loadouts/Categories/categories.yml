@@ -25,6 +25,20 @@
 - type: loadoutCategory
   id: Items
   root: true
+  subCategories:
+    - GeneralItems
+    - GeneralToys
+    - GeneralInstruments
+    - GeneralTowels
+
+- type: loadoutCategory
+  id: GeneralItems
+
+- type: loadoutCategory
+  id: GeneralToys
+
+- type: loadoutCategory
+  id: GeneralInstruments
 
 - type: loadoutCategory
   id: Jobs
@@ -38,13 +52,14 @@
     - JobsMedical
     - JobsSecurity
     - JobsService
+    - JobsZMisc
 
 - type: loadoutCategory
   id: JobsAUncategorized
 
 # Command
 # Only Captain and HoP, Department Specific roles are under their respective Departments.
-# If we ever added Centcomm or Blueshield, that would go here.
+# If we ever add Centcomm, that would go here.
 - type: loadoutCategory
   id: JobsCommand
   subCategories:
@@ -290,6 +305,19 @@
 
 - type: loadoutCategory
   id: JobsServiceReporter
+
+  # Misc
+- type: loadoutCategory
+  id: JobsZMisc # this breaks convention a bit but the oddballs should be after everything else
+  subCategories: # this can also be for unique/station-specific jobs like boxer/gladiator
+    - JobsZMiscAUncategorized
+    - JobsZMiscPrisoner
+
+- type: loadoutCategory
+  id: JobsZMiscAUncategorized
+
+- type: loadoutCategory
+  id: JobsZMiscPrisoner
 
 # Now Leaving: Jobs Category
 

@@ -39,6 +39,7 @@
   - ResearchDirector
   - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
   - Chapel # DeltaV - Chaplain is in Epistemics
+  - Robotics # DeltaV - Robotics access
   - External # DeltaV - AI satellite access
   - Cryogenics
   special: # Nyanotrasen - Mystagogue can use the Bible
@@ -72,7 +73,7 @@
     back: ClothingBackpackResearchDirectorFilled
     shoes: ClothingShoesColorBrown
     id: RnDPDA
-    ears: ClothingHeadsetRD
+    ears: ClothingHeadsetAltScience # Goobstation
     pocket1: BookPsionicsGuidebook
     pocket2: BibleMystagogue
   innerClothingSkirt: ClothingUniformJumpskirtResearchDirector

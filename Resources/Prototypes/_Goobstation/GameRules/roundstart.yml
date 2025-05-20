@@ -1,0 +1,24 @@
+- type: entity
+  parent: BaseGameRule
+  id: Changeling
+  categories: [ HideSpawnMenu ] # TheDen - Removes from spawn menu
+  components:
+  - type: ChangelingRule
+  - type: GameRule
+    minPlayers: 150
+  - type: AntagObjectives
+    objectives:
+    - ChangelingStealDNAObjective
+    - EscapeIdentityObjective
+    - ChangelingSurviveObjective
+  - type: AntagSelection
+    selectionTime: PostPlayerSpawn
+    agentName: changeling-roundend-name
+    definitions:
+    - prefRoles: [ Changeling ]
+      min: 0
+      max: 0
+      playerRatio: 12
+      lateJoinAdditional: true
+      mindRoles:
+      - MindRoleChangeling

@@ -18,6 +18,8 @@
       - InsideEntityStorage # no clark kent going in phone booth and becoming superman
       - MindContainer # no
       - Pda # PDAs currently make you invisible /!\
+      - Paper
+      - FoodCookieFortune
     polymorph:
       entity: ChameleonDisguise
 

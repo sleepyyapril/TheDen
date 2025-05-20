@@ -15,6 +15,7 @@
   id: ClothingShoesBootsWorkColor
   name: workboots
   description: Lace-up work boots for the especially blue-collar. In a variety of colors!
+  suffix: Colour # TheDen
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/workboots_color.rsi
@@ -33,12 +34,15 @@
     sprite: Clothing/Shoes/Boots/jackboots.rsi
   - type: ClothingSlowOnDamageModifier
     modifier: 0.8
+  - type: ClothingModifyStunTime # Goobstation
+    modifier: 0.8
 
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesBootsJackFake
   name: jackboots
   description: Civilian-grade replica of Nanotrasen Security combat boots. Looks the part but lacks the performance—ideal for the heated situations.
+  suffix: Fake # TheDen
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/jackboots.rsi
@@ -55,6 +59,8 @@
     sprite: Clothing/Shoes/Boots/jackboots_color.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/jackboots_color.rsi
+  - type: ClothingModifyStunTime # Goobstation
+    modifier: 0.8
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -89,7 +95,9 @@
     sprite: Clothing/Shoes/Boots/combatboots.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/combatboots.rsi
-  - type: ClothingSlowOnDamageModifier
+  - type: ClothingSlowOnDamageModifier # Goobstation
+    modifier: 0.5
+  - type: ClothingModifyStunTime # Goobstation
     modifier: 0.8
 
 - type: entity
@@ -125,8 +133,10 @@
     sprite: Clothing/Shoes/Boots/mercboots.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/mercboots.rsi
-  - type: ClothingSlowOnDamageModifier
-    modifier: 0.6
+  - type: ClothingSlowOnDamageModifier # Goobstation
+    modifier: 0.5
+  - type: ClothingModifyStunTime # Goobstation
+    modifier: 0.8
 
 - type: entity
   parent: ClothingShoesBaseButcherable

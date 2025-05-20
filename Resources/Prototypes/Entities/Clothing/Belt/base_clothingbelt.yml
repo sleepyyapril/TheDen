@@ -64,7 +64,7 @@
   - type: BallisticAmmoProvider
     mayTransfer: true
   - type: Item
-    size: Ginormous
+    size: Large
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container
