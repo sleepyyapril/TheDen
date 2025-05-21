@@ -4419,3 +4419,10 @@ Entries:
   id: 404
   time: '2025-05-21T12:07:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/574
+- author: Camdot
+  changes:
+    - type: Fix
+      message: 'Paradox target selection should now work. '
+  id: 405
+  time: '2025-05-21T17:56:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/575
