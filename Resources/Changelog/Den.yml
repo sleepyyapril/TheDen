@@ -4451,3 +4451,12 @@ Entries:
   id: 408
   time: '2025-05-22T05:26:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/573
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Voteable gamemodes now include base modes, such as Traitor, Nukies,
+        Zombies, and AllAtOnce (all three)
+  id: 409
+  time: '2025-05-22T06:22:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/578
