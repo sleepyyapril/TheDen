@@ -4426,3 +4426,10 @@ Entries:
   id: 405
   time: '2025-05-21T17:56:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/575
+- author: Camdot
+  changes:
+    - type: Fix
+      message: 'Clothes no longer vanish with NVB / in Inventory. '
+  id: 406
+  time: '2025-05-22T05:08:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/576
