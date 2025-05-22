@@ -4474,3 +4474,10 @@ Entries:
   id: 411
   time: '2025-05-22T18:08:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/582
+- author: Camdot
+  changes:
+    - type: Fix
+      message: AI eye shader fixed.
+  id: 412
+  time: '2025-05-22T18:19:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/583
