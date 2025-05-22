@@ -4433,3 +4433,12 @@ Entries:
   id: 406
   time: '2025-05-22T05:08:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/576
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Ported a juggernaut suit resprite from Delta-V that changes the helmets
+        to be less of a dome and have more species variants.
+  id: 407
+  time: '2025-05-22T05:10:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/577
