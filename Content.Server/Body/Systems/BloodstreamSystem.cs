@@ -37,9 +37,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using Content.Server.Body.Components;
-using Content.Server.Body.Events;
-using Content.Server.Chemistry.Containers.EntitySystems;
-using Content.Server.EntityEffects.Effects;
+using Content.Shared.EntityEffects.Effects;
 using Content.Server.Fluids.EntitySystems;
 using Content.Server.Forensics;
 using Content.Server.Popups;
