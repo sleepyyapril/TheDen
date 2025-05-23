@@ -15,7 +15,6 @@ using Robust.Shared.GameObjects;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Prototypes;
-using Content.Shared.Station.Components;
 using Robust.Shared.EntitySerialization;
 using Robust.Shared.EntitySerialization.Systems;
 using Robust.Shared.IoC;
@@ -514,6 +513,6 @@ namespace Content.IntegrationTests.Tests
 
             await server.WaitRunTicks(1);
             await pair.CleanReturnAsync();
-        }**/
+        }
     }
 }

@@ -36,6 +36,8 @@ using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using Content.Server.Announcements.Systems;
+using Robust.Shared.Map;
+
 
 namespace Content.Server.Shuttles.Systems;
 
@@ -432,19 +434,14 @@ public sealed partial class EmergencyShuttleSystem : EntitySystem
         }
 
         var mapPath = _random.Pick(component.Maps).ToString();
-        AddSingleCentcomm(station, component, mapPath);
+        AddSingleCentcomm(station, component, new(mapPath));
     }
 
-    private void AddSingleCentcomm(EntityUid station, StationCentcommComponent component, string mapPath)
+    private void AddSingleCentcomm(EntityUid station, StationCentcommComponent component, ResPath mapPath)
     {
-        if (string.IsNullOrEmpty(mapPath))
-        {
-            Log.Warning("No CentComm map found, skipping setup.");
-            return;
-        }
-
         var map = _mapSystem.CreateMap(out var mapId);
-        if (!_loader.TryLoadGrid(mapId, component.Map, out var grid))
+
+        if (!_loader.TryLoadGrid(mapId, mapPath, out var grid))
         {
             Log.Error($"Failed to set up centcomm grid!");
             return;

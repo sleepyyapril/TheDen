@@ -1,9 +1,14 @@
+using System.Numerics;
 using Content.Server.Shuttles.Components;
 using Content.Server.Station.Components;
 using Content.Server.Station.Events;
 using Content.Shared.Cargo.Components;
 using Content.Shared.CCVar;
+using Content.Shared.Random.Helpers;
 using Content.Shared.Shuttles.Components;
+using Robust.Shared.Collections;
+using Robust.Shared.Map;
+using Robust.Shared.Map.Components;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 
@@ -76,42 +81,6 @@ public sealed partial class ShuttleSystem
         }
 
         _mapSystem.DeleteMap(mapId);
-    }
-
-    private bool TryDungeonSpawn(Entity<MapGridComponent?> targetGrid, DungeonSpawnGroup group, out EntityUid spawned)
-    {
-        spawned = EntityUid.Invalid;
-
-        if (!_gridQuery.Resolve(targetGrid.Owner, ref targetGrid.Comp))
-        {
-            return false;
-        }
-
-        var dungeonProtoId = _random.Pick(group.Protos);
-
-        if (!_protoManager.TryIndex(dungeonProtoId, out var dungeonProto))
-        {
-            return false;
-        }
-
-        var targetPhysics = _physicsQuery.Comp(targetGrid);
-        var spawnCoords = new EntityCoordinates(targetGrid, targetPhysics.LocalCenter);
-
-        if (group.MinimumDistance > 0f)
-        {
-            var distancePadding = MathF.Max(targetGrid.Comp.LocalAABB.Width, targetGrid.Comp.LocalAABB.Height);
-            spawnCoords = spawnCoords.Offset(_random.NextVector2(distancePadding + group.MinimumDistance, distancePadding + group.MaximumDistance));
-        }
-
-        _mapSystem.CreateMap(out var mapId);
-
-        var spawnedGrid = _mapManager.CreateGridEntity(mapId);
-
-        _transform.SetMapCoordinates(spawnedGrid, new MapCoordinates(Vector2.Zero, mapId));
-        _dungeon.GenerateDungeon(dungeonProto, spawnedGrid.Owner, spawnedGrid.Comp, Vector2i.Zero, _random.Next(), spawnCoords);
-
-        spawned = spawnedGrid.Owner;
-        return true;
     }
 
     private bool TryGridSpawn(EntityUid targetGrid, EntityUid stationUid, MapId mapId, GridSpawnGroup group, out EntityUid spawned)
@@ -198,11 +167,11 @@ public sealed partial class ShuttleSystem
                 var path = paths[^1];
                 paths.RemoveAt(paths.Count - 1);
 
-                if (_loader.TryLoad(mapId, path.ToString(), out var ent) && ent.Count == 1)
+                if (_loader.TryLoadGrid(mapId, path, out var ent))
                 {
-                    if (TryComp<ShuttleComponent>(ent[0], out var shuttle))
+                    if (TryComp<ShuttleComponent>(ent.Value, out var shuttle))
                     {
-                        TryFTLProximity(ent[0], targetGrid.Value);
+                        TryFTLProximity(ent.Value, targetGrid.Value);
                     }
                     else
                     {
@@ -211,31 +180,31 @@ public sealed partial class ShuttleSystem
 
                     if (group.Hide)
                     {
-                        var iffComp = EnsureComp<IFFComponent>(ent[0]);
+                        var iffComp = EnsureComp<IFFComponent>(ent.Value);
                         iffComp.Flags |= IFFFlags.HideLabel;
-                        Dirty(ent[0], iffComp);
+                        Dirty(ent.Value, iffComp);
                     }
 
                     if (group.StationGrid)
                     {
-                        _station.AddGridToStation(uid, ent[0]);
+                        _station.AddGridToStation(uid, ent.Value);
                     }
 
                     if (group.NameGrid)
                     {
                         var name = path.FilenameWithoutExtension;
-                        _metadata.SetEntityName(ent[0], name);
+                        _metadata.SetEntityName(ent.Value, name);
                     }
 
                     foreach (var compReg in group.AddComponents.Values)
                     {
                         var compType = compReg.Component.GetType();
 
-                        if (HasComp(ent[0], compType))
+                        if (HasComp(ent.Value, compType))
                             continue;
 
                         var comp = _factory.GetComponent(compType);
-                        AddComp(ent[0], comp, true);
+                        AddComp(ent.Value, comp, true);
                     }
                 }
                 else
