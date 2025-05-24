@@ -4481,3 +4481,10 @@ Entries:
   id: 412
   time: '2025-05-22T18:19:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/583
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Fixed the "bunny ears" marking to reappear for slimepeople and IPCs.
+  id: 413
+  time: '2025-05-23T23:12:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/580
