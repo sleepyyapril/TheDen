@@ -46,14 +46,14 @@ using Content.Server.Connection;
 using Content.Server.JoinQueue;
 using Content.Server.Database;
 using Content.Server.Discord;
-using Content.Server.DiscordAuth;
+using Content.Server.Discord.DiscordLink;
+using Content.Server.Discord.WebhookMessages;
 using Content.Server.EUI;
 using Content.Server.GhostKick;
 using Content.Server.Info;
 using Content.Server.Mapping;
 using Content.Server.Maps;
 using Content.Server.Players.JobWhitelist;
-using Content.Server.MoMMI;
 using Content.Server.NodeContainer.NodeGroups;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Server.Players.RateLimiting;
@@ -78,7 +78,6 @@ namespace Content.Server.IoC
             IoCManager.Register<IChatManager, ChatManager>();
             IoCManager.Register<ISharedChatManager, ChatManager>();
             IoCManager.Register<IChatSanitizationManager, ChatSanitizationManager>();
-            IoCManager.Register<IMoMMILink, MoMMILink>();
             IoCManager.Register<IServerConsentManager, ServerConsentManager>();
             IoCManager.Register<IServerPreferencesManager, ServerPreferencesManager>();
             IoCManager.Register<IServerDbManager, ServerDbManager>();
@@ -114,6 +113,13 @@ namespace Content.Server.IoC
             IoCManager.Register<PlayerRateLimitManager>();
             IoCManager.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             IoCManager.Register<MappingManager>();
+            IoCManager.Register<IWatchlistWebhookManager, WatchlistWebhookManager>();
+            IoCManager.Register<ConnectionManager>();
+            IoCManager.Register<MultiServerKickManager>();
+            IoCManager.Register<CVarControlManager>();
+
+            IoCManager.Register<DiscordLink>();
+            IoCManager.Register<DiscordChatLink>();
         }
     }
 }
