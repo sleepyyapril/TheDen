@@ -964,8 +964,6 @@
 #        acts: ["Destruction"]
 #    destroySound:
 #      path: /Audio/Effects/metalbreak.ogg
-  - type: Reflect
-    reflectProb: 1
   - type: Construction
     graph: Girder
     node: shuttleWall
