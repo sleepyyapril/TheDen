@@ -133,17 +133,3 @@
     - !type:TraitAddComponent
       components:
         - type: Wagging
-
-- type: trait # Based on Cosmatic Drift's Synth trait
-  id: Synthetic
-  category: Physical
-  points: -2 # Can detect ion storms, poison blood
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      inverted: true
-      species:
-        - IPC
-  functions:
-    - !type:TraitAddComponent
-      components:
-        - type: Synth
