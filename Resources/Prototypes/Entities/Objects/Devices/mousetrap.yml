@@ -57,6 +57,9 @@
           mask:
             - ItemMask
     - type: Rotatable
+    - type: Tag # DEN - Sanitation Station
+      tags:
+        - Mousetrap
 
 - type: entity
   name: mousetrap
