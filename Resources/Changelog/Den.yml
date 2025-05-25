@@ -4514,3 +4514,12 @@ Entries:
   id: 415
   time: '2025-05-25T02:32:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/589
+- author: TheOneTrueWolfio
+  changes:
+    - type: Add
+      message: >-
+        Added Resomi (prototypes & textures, too many to list; new markings/hair
+        courtesy of Chlymerine) 
+  id: 416
+  time: '2025-05-25T14:07:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/484
