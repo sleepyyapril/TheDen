@@ -1,3 +1,4 @@
+using Content.Server._DEN.Research.Components;
 using Content.Shared.Database;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
@@ -78,6 +79,7 @@ public sealed partial class ResearchSystem
             || prototype.Cost * clientDatabase.SoftCapMultiplier > researchServer.Points)
             return false;
 
+        var station = _station.GetOwningStation(client);
         var oldSoftCap = clientDatabase.SoftCapMultiplier;
 
         if (prototype.Tier >= disciplinePrototype.LockoutTier)
@@ -85,6 +87,12 @@ public sealed partial class ResearchSystem
             clientDatabase.SoftCapMultiplier *= prototype.SoftCapContribution;
             researchServer.CurrentSoftCapMultiplier *= prototype.SoftCapContribution;
         }
+
+        if (station != null
+            && Exists(station)
+            && station != EntityUid.Invalid
+            && TryComp<StationResearchRecordComponent>(station, out var record))
+            record.SoftCapMultiplier = clientDatabase.SoftCapMultiplier;
 
         AddTechnology(serverEnt.Value, prototype);
         TrySetMainDiscipline(prototype, serverEnt.Value);
