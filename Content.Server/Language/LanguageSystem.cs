@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Shared.Abilities.Psionics;
+using Content.Shared.Ghost;
 using Content.Shared.Language;
 using Content.Shared.Language.Components;
 using Content.Shared.Language.Events;
@@ -81,11 +82,11 @@ public sealed partial class LanguageSystem : SharedLanguageSystem
 
         var canRegularlyUnderstand = Resolve(ent, ref ent.Comp, logMissing: false)
             && ent.Comp.UnderstoodLanguages.Contains(language);
-        
+
         if (TryComp<UniversalLanguageSpeakerComponent>(ent, out var uni)
             && uni.Enabled)
         {
-            if (target != null && HasComp<PsionicInsulationComponent>(target))
+            if (target != null && HasComp<PsionicInsulationComponent>(target) && !HasComp<GhostComponent>(ent))
                 return canRegularlyUnderstand;
 
             _sawmill.Info("not insulated");
