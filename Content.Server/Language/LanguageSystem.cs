@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Server.Ghost;
+using Content.Shared.Abilities.Psionics;
 using Content.Shared.Language;
 using Content.Shared.Language.Components;
 using Content.Shared.Language.Events;
@@ -12,6 +13,10 @@ namespace Content.Server.Language;
 public sealed partial class LanguageSystem : SharedLanguageSystem
 {
     [Dependency] private readonly GhostSystem _ghostSystem = default!;
+    [Dependency] private ILogManager _logManager = default!;
+
+    private ISawmill _sawmill = default!;
+
     public override void Initialize()
     {
         base.Initialize();
@@ -33,6 +38,7 @@ public sealed partial class LanguageSystem : SharedLanguageSystem
             ent.Comp.CurrentLanguage = ent.Comp.SpokenLanguages.FirstOrDefault(UniversalPrototype);
 
         UpdateEntityLanguages(ent!);
+        _sawmill = _logManager.GetSawmill("language");
     }
 
     private void OnGetLanguageState(Entity<LanguageSpeakerComponent> entity, ref ComponentGetState args)
@@ -69,12 +75,26 @@ public sealed partial class LanguageSystem : SharedLanguageSystem
 
     #region public api
 
-    public bool CanUnderstand(Entity<LanguageSpeakerComponent?> ent, ProtoId<LanguagePrototype> language)
+    public bool CanUnderstand(Entity<LanguageSpeakerComponent?> ent, ProtoId<LanguagePrototype> language, Entity<LanguageSpeakerComponent?>? target = null)
     {
-        if (language == PsychomanticPrototype || language == UniversalPrototype || TryComp<UniversalLanguageSpeakerComponent>(ent, out var uni) && uni.Enabled)
+        if (language == PsychomanticPrototype
+            || language == UniversalPrototype)
             return true;
 
-        return Resolve(ent, ref ent.Comp, logMissing: false) && ent.Comp.UnderstoodLanguages.Contains(language);
+        var canRegularlyUnderstand = Resolve(ent, ref ent.Comp, logMissing: false)
+            && ent.Comp.UnderstoodLanguages.Contains(language);
+        
+        if (TryComp<UniversalLanguageSpeakerComponent>(ent, out var uni)
+            && uni.Enabled)
+        {
+            if (target != null && HasComp<PsionicInsulationComponent>(target))
+                return canRegularlyUnderstand;
+
+            _sawmill.Info("not insulated");
+            return true;
+        }
+
+        return canRegularlyUnderstand;
     }
 
     public bool CanSpeak(Entity<LanguageSpeakerComponent?> ent, ProtoId<LanguagePrototype> language)

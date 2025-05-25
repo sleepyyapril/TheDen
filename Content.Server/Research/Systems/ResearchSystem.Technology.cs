@@ -20,6 +20,7 @@ public sealed partial class ResearchSystem
         primaryDb.SupportedDisciplines = otherDb.SupportedDisciplines;
         primaryDb.UnlockedTechnologies = otherDb.UnlockedTechnologies;
         primaryDb.UnlockedRecipes = otherDb.UnlockedRecipes;
+        primaryDb.SoftCapMultiplier = otherDb.SoftCapMultiplier;
 
         Dirty(primaryUid, primaryDb);
 
