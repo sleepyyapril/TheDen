@@ -4523,3 +4523,16 @@ Entries:
   id: 416
   time: '2025-05-25T14:07:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/484
+- author: GreggTheFather
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked Arena, adding AI Sat, NT Rep and BSO Office, Reworked Arti
+        Chambers
+    - type: Fix
+      message: Fixed Asterisk Roundstart Chem Plasma, now in the Reagent Grinder
+    - type: Remove
+      message: Removed Admin Assist Locker Migration Null
+  id: 417
+  time: '2025-05-25T20:21:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/560
