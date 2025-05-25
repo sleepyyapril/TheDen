@@ -4536,3 +4536,12 @@ Entries:
   id: 417
   time: '2025-05-25T20:21:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/560
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: The research console now handles tier 3 multiplier as expected.
+    - type: Fix
+      message: Fixed a critical bug involving the research console.
+  id: 418
+  time: '2025-05-25T20:26:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/592
