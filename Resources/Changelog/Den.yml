@@ -4499,3 +4499,18 @@ Entries:
   id: 414
   time: '2025-05-24T18:56:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/579
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: Removed glue from the prescription hud recipes.
+    - type: Tweak
+      message: >-
+        Tweaked handheld radios (both basic and security ones) to be craftable
+        in their respective techfabs.
+    - type: Tweak
+      message: >-
+        Updated the security handheld radio icons to be consistent with the
+        basic handhelds.
+  id: 415
+  time: '2025-05-25T02:32:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/589
