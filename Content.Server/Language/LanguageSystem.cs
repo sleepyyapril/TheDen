@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Server.Ghost;
 using Content.Shared.Language;
 using Content.Shared.Language.Components;
 using Content.Shared.Language.Events;
@@ -10,6 +11,7 @@ namespace Content.Server.Language;
 
 public sealed partial class LanguageSystem : SharedLanguageSystem
 {
+    [Dependency] private readonly GhostSystem _ghostSystem = default!;
     public override void Initialize()
     {
         base.Initialize();
