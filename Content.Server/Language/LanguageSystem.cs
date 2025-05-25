@@ -1,6 +1,6 @@
 using System.Linq;
-using Content.Server.Ghost;
 using Content.Shared.Abilities.Psionics;
+using Content.Shared.Ghost;
 using Content.Shared.Language;
 using Content.Shared.Language.Components;
 using Content.Shared.Language.Events;
@@ -12,7 +12,6 @@ namespace Content.Server.Language;
 
 public sealed partial class LanguageSystem : SharedLanguageSystem
 {
-    [Dependency] private readonly GhostSystem _ghostSystem = default!;
     [Dependency] private ILogManager _logManager = default!;
 
     private ISawmill _sawmill = default!;
@@ -83,11 +82,11 @@ public sealed partial class LanguageSystem : SharedLanguageSystem
 
         var canRegularlyUnderstand = Resolve(ent, ref ent.Comp, logMissing: false)
             && ent.Comp.UnderstoodLanguages.Contains(language);
-        
+
         if (TryComp<UniversalLanguageSpeakerComponent>(ent, out var uni)
             && uni.Enabled)
         {
-            if (target != null && HasComp<PsionicInsulationComponent>(target))
+            if (target != null && HasComp<PsionicInsulationComponent>(target) && !HasComp<GhostComponent>(ent))
                 return canRegularlyUnderstand;
 
             _sawmill.Info("not insulated");
