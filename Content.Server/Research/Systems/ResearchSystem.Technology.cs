@@ -84,16 +84,12 @@ public sealed partial class ResearchSystem
         {
             clientDatabase.SoftCapMultiplier *= prototype.SoftCapContribution;
             researchServer.CurrentSoftCapMultiplier *= prototype.SoftCapContribution;
-
-            _sawmill.Info($"{clientDatabase.SoftCapMultiplier}");
         }
 
         AddTechnology(serverEnt.Value, prototype);
         TrySetMainDiscipline(prototype, serverEnt.Value);
         ModifyServerPoints(serverEnt.Value, -(int) (prototype.Cost * oldSoftCap));
         UpdateTechnologyCards(serverEnt.Value);
-
-        _sawmill.Info($"{clientDatabase.SoftCapMultiplier}");
 
         _adminLog.Add(
             LogType.Action,
@@ -132,7 +128,6 @@ public sealed partial class ResearchSystem
         }
 
         component.UnlockedTechnologies.Add(technology.ID);
-
         foreach (var unlock in technology.RecipeUnlocks)
         {
             if (component.UnlockedRecipes.Contains(unlock))
@@ -140,7 +135,6 @@ public sealed partial class ResearchSystem
 
             component.UnlockedRecipes.Add(unlock);
         }
-
         Dirty(uid, component);
 
         var ev = new TechnologyDatabaseModifiedEvent(technology.RecipeUnlocks); // Goobstation - Lathe message on recipes update
