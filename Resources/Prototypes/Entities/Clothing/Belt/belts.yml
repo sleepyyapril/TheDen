@@ -224,10 +224,10 @@
     whitelist:
       tags:
         - Wrench
-        - Screwdriver #DEN - Sanitation Station v| Janitors are meant to restock vendors.
-        - Crowbar
+        - Screwdriver 
+        - Crowbar 
         - Mousetrap 
-        - Rag #DEN - Sanitation Station ^
+        - Rag 
         - Bottle
         - Spray
         - Soap

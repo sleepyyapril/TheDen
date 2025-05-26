@@ -2,7 +2,7 @@
   name: trash bag
   id: TrashBag
   parent: BaseStorageItem
-  description: A plastic garbage bag. Stores another man's treasure. #DEN - Sanitation Station
+  description: A plastic garbage bag. Stores another man's treasure. 
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/trashbag.rsi
@@ -38,37 +38,40 @@
     sprite: Objects/Specific/Janitorial/trashbag.rsi
   - type: Item
     size: Normal
-  - type: MagnetPickup #DEN - Sanitation Station
+  - type: MagnetPickup 
     range: 1
 
 - type: entity
-  name: blue trash bag #DEN - Sanitation Station
+  name: trash bag 
   id: TrashBagBlue
   parent: TrashBag
   suffix: Blue # TheDen
-  description: A mundane, blue garbage bag. Stores one or more men's trash. #DEN - Sanitation Station 
+  description: A mundane, blue garbage bag. Stores one or more men's trash. 
   components:
   - type: Sprite
+    sprite: Objects/Specific/Janitorial/bluetrashbag.rsi
     layers:
-      - state: blue-icon-0
+      - state: icon-0
         map: ["enum.StorageFillLayers.Fill"]
   - type: Item
     heldPrefix: blue
+  - type: Clothing
+    slots: [belt]
+    sprite: Objects/Specific/Janitorial/bluetrashbag.rsi
   - type: StorageFillVisualizer
-    fillBaseName: blue-icon
 
 - type: entity
   name: spell of all-consuming cleanliness
   id: BagOfSummoningGarbage
   parent: TrashBagBlue
-  description: A mystical blue sack that swallows waste whole. Looks smaller on the outside. #DEN - Sanitation Station
+  description: A mystical blue sack that swallows waste whole. Looks smaller on the outside. 
   components:
   - type: Storage
-    maxItemSize: Normal #DEN - Sanitation Station | Couldn't fit in *any* containers before because of this.
+    maxItemSize: Normal 
     grid:
     - 0,0,19,9
     quickInsert: true
     areaInsert: true
     areaInsertRadius: 5
-  - type: MagnetPickup #DEN - Sanitation Station
+  - type: MagnetPickup 
     range: 3

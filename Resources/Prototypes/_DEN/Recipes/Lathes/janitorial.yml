@@ -1,4 +1,4 @@
-- type: latheRecipe #DEN - Sanitation Station
+- type: latheRecipe 
   id: TrashBagBluespace
   result: TrashBagBluespace
   completetime: 5

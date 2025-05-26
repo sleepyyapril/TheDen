@@ -1,8 +1,8 @@
 - type: entity
-  name: trash bag of holding
+  name: bag of holding trash
   id: TrashBagBluespace
   parent: TrashBag
-  description: A development in janitorial technology allowing for rapid and repetitive collection of trash to be nearly effortless, featuring bluespace! Best not to put anything sharp in it... #DEN - Sanitation Station 
+  description: A development in janitorial technology allowing for rapid and repetitive collection of trash to be nearly effortless, featuring bluespace! Best not to put anything sharp in it...
   components:
   - type: Storage
     maxItemSize: Normal
@@ -14,13 +14,13 @@
   - type: MagnetPickup 
     range: 2
   - type: Sprite
-    sprite: _DEN\Objects\Specific\Janitorial\trashbag.rsi
+    sprite: _DEN/Objects/Specific/Janitorial/trashbag.rsi
     layers:
       - state: icon-0
         map: ["enum.StorageFillLayers.Fill"]
   - type: Clothing
     slots: [belt]
-    sprite: _DEN\Objects\Specific\Janitorial\trashbag.rsi
+    sprite: _DEN/Objects/Specific/Janitorial/trashbag.rsi
   - type: Item
     size: Huge
   - type: StorageFillVisualizer
