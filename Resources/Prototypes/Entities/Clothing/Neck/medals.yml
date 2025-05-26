@@ -46,6 +46,10 @@
       enum.CrewMedalUiKey.Key:
         type: CrewMedalBoundUserInterface
     # Corvax-Next-CrewMedals-End
+  - type: WearerGetsExamineText # imp
+    thing: obvious-thing-medal
+    examineText: obvious-x-medal-nothing
+    pocketEvident: true
 
 - type: entity
   parent: ClothingNeckMedalBase

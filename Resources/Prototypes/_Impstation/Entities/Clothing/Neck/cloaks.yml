@@ -1,0 +1,19 @@
+- type: entity
+  id: BaseObviousCloak
+  abstract: true
+  components:
+  - type: WearerGetsExamineText
+    examineText: obvious-desc-colors
+    thing: obvious-thing-cloak
+    warnExamine: false # for funny jokes!
+
+- type: entity
+  parent: [ ClothingNeckBase, BaseObviousCloak ]
+  id: ClothingNeckCloakBear
+  name: druid cloak
+  description: This cloak has a wild-looking shape on it.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/bear.rsi
+  - type: WearerGetsExamineText
+    thingType: obvious-type-pride-bear
