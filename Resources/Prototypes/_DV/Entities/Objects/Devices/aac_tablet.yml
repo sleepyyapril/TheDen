@@ -41,6 +41,7 @@
   - type: Speech
     speechSounds: Alto
   - type: AACTablet
+    phraseGroup: BasicPhrases
   - type: VoiceMask
 
 - type: entity
