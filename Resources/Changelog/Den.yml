@@ -4601,3 +4601,10 @@ Entries:
   id: 422
   time: '2025-05-27T05:53:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/596
+- author: MajorMoth
+  changes:
+    - type: Fix
+      message: Added the Rickenbacker to musician loadouts (was missing)
+  id: 423
+  time: '2025-05-27T06:03:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/598
