@@ -59,7 +59,7 @@
       department: Security
       min: 10800 # 3 hours
     - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
+      group: LoadoutSecurityWeapons
     - !type:CharacterLogicOrRequirement
       requirements:
       - !type:CharacterDepartmentRequirement
