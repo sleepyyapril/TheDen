@@ -490,9 +490,6 @@
     node: radiator
   - type: AtmosMonitoringConsoleDevice
     navMapBlip: Thermoregulator
-  - type: GuideHelp
-    guides:
-    - Radiators
 
 - type: entity
   parent: HeatExchanger
