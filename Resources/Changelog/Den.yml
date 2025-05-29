@@ -4684,3 +4684,16 @@ Entries:
   id: 431
   time: '2025-05-29T18:25:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/599
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added new game presets: High Danger and Low Danger. Secret, but you can
+        guess what you're getting into.
+    - type: Fix
+      message: Secret will no longer select game presets it can't run.
+    - type: Remove
+      message: 'Removed All At Once, Nuke Ops, and Zombies from votable pool '
+  id: 432
+  time: '2025-05-29T21:22:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/604
