@@ -4670,3 +4670,10 @@ Entries:
   id: 429
   time: '2025-05-29T14:27:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/608
+- author: foxcurl
+  changes:
+    - type: Add
+      message: 'Ported the Synthetic trait from Cosmatic Drift. '
+  id: 430
+  time: '2025-05-29T16:42:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/557
