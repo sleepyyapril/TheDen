@@ -4663,3 +4663,10 @@ Entries:
   id: 428
   time: '2025-05-29T08:54:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/607
+- author: Camdot
+  changes:
+    - type: Tweak
+      message: Loadout icons bigger
+  id: 429
+  time: '2025-05-29T14:27:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/608
