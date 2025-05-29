@@ -4677,3 +4677,10 @@ Entries:
   id: 430
   time: '2025-05-29T16:42:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/557
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported fishing.
+  id: 431
+  time: '2025-05-29T18:25:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/599
