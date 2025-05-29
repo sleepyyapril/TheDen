@@ -4710,3 +4710,10 @@ Entries:
   id: 433
   time: '2025-05-29T21:30:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/605
+- author: Camdot
+  changes:
+    - type: Add
+      message: 'Ready-up manifest in lobby. '
+  id: 434
+  time: '2025-05-29T22:42:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/609
