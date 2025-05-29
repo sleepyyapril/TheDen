@@ -4653,3 +4653,13 @@ Entries:
   id: 427
   time: '2025-05-29T07:10:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/606
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added the Plasteel Arming Swords from Frontier (Credits to MagnusCrowe),
+        available in the cargo catalog, security loadouts, and the salvage
+        points shop.
+  id: 428
+  time: '2025-05-29T08:54:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/607
