@@ -4642,3 +4642,14 @@ Entries:
   id: 426
   time: '2025-05-29T07:07:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/566
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Thieves are now RP antags, preset objectives replaced with a freeform
+        objective, as well as their pacifism implant removed.
+    - type: Tweak
+      message: Replaced the C4s in the thief toolset with breaching charges.
+  id: 427
+  time: '2025-05-29T07:10:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/606
