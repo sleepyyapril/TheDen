@@ -4735,3 +4735,10 @@ Entries:
   id: 436
   time: '2025-05-30T19:07:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/618
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: Chemists now have Hydroponics in their extended access list.
+  id: 437
+  time: '2025-05-30T19:11:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/616
