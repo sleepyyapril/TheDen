@@ -4767,3 +4767,12 @@ Entries:
   id: 440
   time: '2025-05-31T09:39:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/621
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: >-
+        Removed Revenants as there is no current way for them to fit in with the
+        direction of The Den as they stand. Looking into replacements.
+  id: 441
+  time: '2025-05-31T09:39:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/619
