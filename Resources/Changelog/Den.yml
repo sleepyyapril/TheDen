@@ -4760,3 +4760,10 @@ Entries:
   id: 439
   time: '2025-05-31T09:38:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/622
+- author: Rosycup
+  changes:
+    - type: Remove
+      message: Disabled the Ion damage type as well as all sources of it.
+  id: 440
+  time: '2025-05-31T09:39:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/621
