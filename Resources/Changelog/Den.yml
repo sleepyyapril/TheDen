@@ -4751,3 +4751,12 @@ Entries:
   id: 438
   time: '2025-05-31T01:41:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/617
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Eight different alien-themed markings: four pairs of eyes, three sets of
+        antennae, and a head overlay. Gneep gnorp
+  id: 439
+  time: '2025-05-31T09:38:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/622
