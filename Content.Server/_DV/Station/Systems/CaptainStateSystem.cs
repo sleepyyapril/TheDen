@@ -1,18 +1,18 @@
 using Content.Server.Chat.Systems;
-using Content.Server.DeltaV.Cabinet;
-using Content.Server.DeltaV.Station.Components;
-using Content.Server.DeltaV.Station.Events;
+using Content.Server.DV_.Cabinet;
+using Content.Server.DV_.Station.Components;
+using Content.Server.DV_.Station.Events;
 using Content.Server.GameTicking;
 using Content.Server.Station.Components;
 using Content.Shared.Access.Components;
 using Content.Shared.Access;
-using Content.Shared.DeltaV.CCVars;
+using Content.Shared.DV_.CCVars;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using System.Linq;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace Content.Server.DeltaV.Station.Systems;
+namespace Content.Server.DV_.Station.Systems;
 
 public sealed class CaptainStateSystem : EntitySystem
 {

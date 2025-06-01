@@ -1,4 +1,4 @@
-﻿namespace Content.Client.DeltaV.Biscuit;
+﻿namespace Content.Client.DV_.Biscuit;
 
 [RegisterComponent]
 public sealed partial class BiscuitVisualsComponent : Component

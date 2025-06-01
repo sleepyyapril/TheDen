@@ -1,6 +1,6 @@
 using Robust.Shared.GameStates;
 
-namespace Content.Shared.DeltaV.Salvage.Components;
+namespace Content.Shared.DV_.Salvage.Components;
 
 /// <summary>
 /// Adds points to <see cref="MiningPointsComponent"/> when making a recipe that has miningPoints set.

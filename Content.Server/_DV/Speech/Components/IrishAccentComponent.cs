@@ -1,6 +1,6 @@
-using Content.Server.DeltaV.Speech.EntitySystems;
+using Content.Server.DV_.Speech.EntitySystems;
 
-namespace Content.Server.DeltaV.Speech.Components;
+namespace Content.Server.DV_.Speech.Components;
 
 // Takes the ES and assigns the system and component to each other
 [RegisterComponent]

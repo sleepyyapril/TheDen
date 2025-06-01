@@ -1,6 +1,6 @@
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.DeltaV.VendingMachines;
+namespace Content.Shared.DV_.VendingMachines;
 
 [Serializable, NetSerializable]
 public sealed class ShopVendorPurchaseMessage(int index) : BoundUserInterfaceMessage

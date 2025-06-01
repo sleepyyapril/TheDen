@@ -2,7 +2,7 @@ using Content.Shared.Roles;
 using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.DeltaV.Station.Events;
+namespace Content.Server.DV_.Station.Events;
 
 /// <summary>
 /// Raised on a station when a after a players jobs are removed from the PlayerJobs

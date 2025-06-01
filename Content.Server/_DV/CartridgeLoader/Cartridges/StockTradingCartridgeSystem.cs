@@ -1,14 +1,14 @@
 using System.Linq;
 using Content.Server.Cargo.Components;
-using Content.Server.DeltaV.Cargo.Components;
-using Content.Server.DeltaV.Cargo.Systems;
+using Content.Server.DV_.Cargo.Components;
+using Content.Server.DV_.Cargo.Systems;
 using Content.Server.Station.Systems;
 using Content.Server.CartridgeLoader;
 using Content.Shared.Cargo.Components;
 using Content.Shared.CartridgeLoader;
 using Content.Shared.CartridgeLoader.Cartridges;
 
-namespace Content.Server.DeltaV.CartridgeLoader.Cartridges;
+namespace Content.Server.DV_.CartridgeLoader.Cartridges;
 
 public sealed class StockTradingCartridgeSystem : EntitySystem
 {

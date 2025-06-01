@@ -1,4 +1,4 @@
-﻿namespace Content.Shared.DeltaV.Hologram;
+﻿namespace Content.Shared.DV_.Hologram;
 
 public abstract class SharedHologramSystem : EntitySystem
 {

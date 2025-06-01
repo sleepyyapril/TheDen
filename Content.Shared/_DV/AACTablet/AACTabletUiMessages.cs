@@ -1,8 +1,8 @@
-using Content.Shared.DeltaV.QuickPhrase;
+using Content.Shared.DV_.QuickPhrase;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.DeltaV.AACTablet;
+namespace Content.Shared.DV_.AACTablet;
 
 [Serializable, NetSerializable]
 public enum AACTabletKey : byte

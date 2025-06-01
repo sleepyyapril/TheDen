@@ -1,5 +1,5 @@
-using Content.Shared.DeltaV.NanoChat;
+using Content.Shared.DV_.NanoChat;
 
-namespace Content.Client.DeltaV.NanoChat;
+namespace Content.Client.DV_.NanoChat;
 
 public sealed class NanoChatSystem : SharedNanoChatSystem;

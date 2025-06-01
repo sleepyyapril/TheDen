@@ -6,7 +6,7 @@ using Content.Server.Store.Components;
 using Content.Server.Store.Systems;
 using Content.Shared.CombatMode;
 using Content.Shared.CombatMode.Pacification;
-using Content.Shared.DeltaV.CCVars;
+using Content.Shared.DV_.CCVars;
 using Content.Shared.Explosion.Components;
 using Content.Shared.FixedPoint;
 using Content.Shared.Flash.Components;
@@ -14,7 +14,7 @@ using Content.Shared.Store.Components;
 using Robust.Server.Player;
 using Robust.Shared.Configuration;
 
-namespace Content.Server.DeltaV.RoundEnd;
+namespace Content.Server.DV_.RoundEnd;
 
 public sealed class PacifiedRoundEnd : EntitySystem
 {

@@ -4,12 +4,12 @@ using Content.Shared.Chat;
 using Content.Server.VoiceMask;
 using Content.Server.Speech.Components;
 using Content.Shared.Chat;
-using Content.Shared.DeltaV.AACTablet;
+using Content.Shared.DV_.AACTablet;
 using Content.Shared.IdentityManagement;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
-namespace Content.Server.DeltaV.AACTablet;
+namespace Content.Server.DV_.AACTablet;
 
 public sealed class AACTabletSystem : EntitySystem
 {
@@ -41,7 +41,7 @@ public sealed class AACTabletSystem : EntitySystem
         {
             if (_prototype.TryIndex(phraseProto, out var phrase))
             {
-                // removed capitalization 
+                // removed capitalization
                 _localisedPhrases.Add(Loc.GetString(phrase.Text));
             }
         }

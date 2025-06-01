@@ -1,11 +1,11 @@
 ﻿using Content.Shared.Actions.Events;
-using Content.Shared.DeltaV.Hologram;
+using Content.Shared.DV_.Hologram;
 using Content.Shared.Examine;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Popups;
 using Robust.Shared.Player;
 
-namespace Content.Server.DeltaV.Hologram;
+namespace Content.Server.DV_.Hologram;
 
 public sealed class HologramSystem : SharedHologramSystem
 {

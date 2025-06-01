@@ -8,15 +8,15 @@ using Content.Server.Station.Systems;
 using Content.Shared.Access.Components;
 using Content.Shared.CartridgeLoader;
 using Content.Shared.Database;
-using Content.Shared.DeltaV.CartridgeLoader.Cartridges;
-using Content.Shared.DeltaV.NanoChat;
+using Content.Shared.DV_.CartridgeLoader.Cartridges;
+using Content.Shared.DV_.NanoChat;
 using Content.Shared.PDA;
 using Content.Shared.Radio.Components;
 using Robust.Server.GameObjects;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
-namespace Content.Server.DeltaV.CartridgeLoader.Cartridges;
+namespace Content.Server.DV_.CartridgeLoader.Cartridges;
 
 public sealed class NanoChatCartridgeSystem : EntitySystem
 {

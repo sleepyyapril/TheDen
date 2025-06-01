@@ -1,6 +1,6 @@
 using Robust.Shared.Configuration;
 
-namespace Content.Shared.DeltaV.CCVars;
+namespace Content.Shared.DV_.CCVars;
 
 /// <summary>
 /// DeltaV specific cvars.

@@ -1,6 +1,6 @@
 using Robust.Shared.Prototypes;
 
-namespace Content.Shared.DeltaV.CartridgeLoader.Cartridges;
+namespace Content.Shared.DV_.CartridgeLoader.Cartridges;
 
 [Prototype("crimeAssistPage")]
 public sealed partial class CrimeAssistPage : IPrototype

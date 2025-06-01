@@ -1,7 +1,7 @@
-using Content.Shared.DeltaV.VendingMachines;
+using Content.Shared.DV_.VendingMachines;
 using Robust.Client.UserInterface;
 
-namespace Content.Client.DeltaV.VendingMachines.UI;
+namespace Content.Client.DV_.VendingMachines.UI;
 
 public sealed class ShopVendorBoundUserInterface : BoundUserInterface
 {

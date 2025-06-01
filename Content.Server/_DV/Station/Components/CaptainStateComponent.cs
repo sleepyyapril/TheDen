@@ -1,9 +1,9 @@
-using Content.Server.DeltaV.Station.Systems;
+using Content.Server.DV_.Station.Systems;
 using Content.Server.Station.Systems;
 using Content.Shared.Access;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.DeltaV.Station.Components;
+namespace Content.Server.DV_.Station.Components;
 
 /// <summary>
 /// Denotes a station has no captain and holds data for automatic ACO systems

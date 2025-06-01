@@ -1,10 +1,10 @@
-using Content.Shared.DeltaV.CartridgeLoader.Cartridges;
+using Content.Shared.DV_.CartridgeLoader.Cartridges;
 using Content.Shared.Examine;
 using Content.Shared.PDA;
 using Robust.Shared.Timing;
 
 
-namespace Content.Shared.DeltaV.NanoChat;
+namespace Content.Shared.DV_.NanoChat;
 
 /// <summary>
 ///     Base system for NanoChat functionality shared between client and server.

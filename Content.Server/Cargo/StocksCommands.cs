@@ -1,11 +1,11 @@
 using Content.Server.Administration;
-using Content.Server.DeltaV.Cargo.Components;
-using Content.Server.DeltaV.Cargo.Systems;
+using Content.Server.DV_.Cargo.Components;
+using Content.Server.DV_.Cargo.Systems;
 using Content.Shared.Administration;
 using Content.Shared.CartridgeLoader.Cartridges;
 using Robust.Shared.Console;
 
-namespace Content.Server.DeltaV.Cargo;
+namespace Content.Server.DV_.Cargo;
 
 [AdminCommand(AdminFlags.Fun)]
 public sealed class ChangeStocksPriceCommand : IConsoleCommand

@@ -1,9 +1,9 @@
-using Content.Shared.DeltaV.CartridgeLoader.Cartridges;
+using Content.Shared.DV_.CartridgeLoader.Cartridges;
 using Content.Shared.PDA;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
-namespace Content.Shared.DeltaV.NanoChat;
+namespace Content.Shared.DV_.NanoChat;
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedNanoChatSystem))]
 [AutoGenerateComponentPause, AutoGenerateComponentState]
@@ -56,7 +56,7 @@ public sealed partial class NanoChatCardComponent : Component
     /// </summary>
     [DataField]
     public EntityUid? PdaUid = null;
-    
+
     ///     Whether the card's number should be listed in NanoChat's lookup
     /// </summary>
     [DataField]
