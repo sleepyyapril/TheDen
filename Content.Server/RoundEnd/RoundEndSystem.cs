@@ -473,9 +473,6 @@ namespace Content.Server.RoundEnd
     [ByRefEvent]
     public record struct CanCallOrRecallEvent(EntityUid Station, bool Cancelled = false);
 
-    [ByRefEvent]
-    public record struct ShuttleAutoCallAttemptedEvent;
-
     public enum RoundEndBehavior : byte
     {
         /// <summary>
