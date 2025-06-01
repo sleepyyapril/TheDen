@@ -4811,3 +4811,10 @@ Entries:
   id: 444
   time: '2025-06-01T02:13:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/623
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed NanoChat Lookup.
+  id: 445
+  time: '2025-06-01T03:08:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/629
