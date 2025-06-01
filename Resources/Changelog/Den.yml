@@ -4783,3 +4783,16 @@ Entries:
   id: 442
   time: '2025-05-31T19:28:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/625
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Round extension votes are now handled through an OOC vote, before the
+        initial shuttle call is made.
+    - type: Add
+      message: >-
+        Rounds will no longer last 6 hours and are now capped at 5, unless an
+        admin intervenes beforehand.
+  id: 443
+  time: '2025-06-01T02:11:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/626
