@@ -4796,3 +4796,18 @@ Entries:
   id: 443
   time: '2025-06-01T02:11:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/626
+- author: mart33no
+  changes:
+    - type: Add
+      message: Handheld Atmospherics Monitor
+    - type: Add
+      message: Handheld Power Monitor
+    - type: Tweak
+      message: >-
+        Added both into research upgrades (Power Monitor into Advanced Tools,
+        Atmospherics Monitor into Advanced Atmospherics)
+    - type: Tweak
+      message: Added both into the Advanced Tools module for borgs
+  id: 444
+  time: '2025-06-01T02:13:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/623
