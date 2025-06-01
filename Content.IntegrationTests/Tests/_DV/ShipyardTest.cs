@@ -5,7 +5,7 @@ using Content.Shared.Shipyard.Prototypes;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Prototypes;
 
-namespace Content.IntegrationTests.Tests.DV_;
+namespace Content.IntegrationTests.Tests._DV;
 
 [TestFixture]
 [TestOf(typeof(ShipyardSystem))]

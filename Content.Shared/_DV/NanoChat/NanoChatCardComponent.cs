@@ -1,9 +1,9 @@
-using Content.Shared.DV_.CartridgeLoader.Cartridges;
+using Content.Shared._DV.CartridgeLoader.Cartridges;
 using Content.Shared.PDA;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
-namespace Content.Shared.DV_.NanoChat;
+namespace Content.Shared._DV.NanoChat;
 
 [RegisterComponent, NetworkedComponent, Access(typeof(SharedNanoChatSystem))]
 [AutoGenerateComponentPause, AutoGenerateComponentState]

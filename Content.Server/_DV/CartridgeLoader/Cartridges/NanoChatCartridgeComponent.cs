@@ -1,7 +1,7 @@
 using Content.Shared.Radio;
 using Robust.Shared.Prototypes;
 
-namespace Content.Server.DV_.CartridgeLoader.Cartridges;
+namespace Content.Server._DV.CartridgeLoader.Cartridges;
 
 [RegisterComponent, Access(typeof(NanoChatCartridgeSystem))]
 public sealed partial class NanoChatCartridgeComponent : Component

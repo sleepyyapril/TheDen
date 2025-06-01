@@ -1,9 +1,9 @@
-using Content.Shared.DV_.VendingMachines;
+using Content.Shared._DV.VendingMachines;
 using Content.Shared.VendingMachines;
 using Robust.Client.Animations;
 using Robust.Client.GameObjects;
 
-namespace Content.Client.DV_.VendingMachines;
+namespace Content.Client._DV.VendingMachines;
 
 public sealed class ShopVendorSystem : SharedShopVendorSystem
 {

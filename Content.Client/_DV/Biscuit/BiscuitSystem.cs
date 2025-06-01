@@ -1,7 +1,7 @@
-﻿using Content.Shared.DV_.Biscuit;
+﻿using Content.Shared._DV.Biscuit;
 using Robust.Client.GameObjects;
 
-namespace Content.Client.DV_.Biscuit;
+namespace Content.Client._DV.Biscuit;
 
 public sealed class BiscuitSystem : VisualizerSystem<BiscuitVisualsComponent>
 {

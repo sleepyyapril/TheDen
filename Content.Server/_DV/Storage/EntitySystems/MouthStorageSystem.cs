@@ -1,11 +1,11 @@
 using Content.Server.Nutrition;
 using Content.Server.Speech;
 using Content.Server.Speech.EntitySystems;
-using Content.Shared.DV_.Storage.Components;
-using Content.Shared.DV_.Storage.EntitySystems;
+using Content.Shared._DV.Storage.Components;
+using Content.Shared._DV.Storage.EntitySystems;
 using Content.Shared.Storage;
 
-namespace Content.Server.DV_.Storage.EntitySystems;
+namespace Content.Server._DV.Storage.EntitySystems;
 
 public sealed class MouthStorageSystem : SharedMouthStorageSystem
 {

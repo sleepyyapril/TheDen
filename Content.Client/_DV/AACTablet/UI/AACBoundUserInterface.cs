@@ -1,9 +1,9 @@
-using Content.Shared.DV_.AACTablet;
-using Content.Shared.DV_.QuickPhrase;
+using Content.Shared._DV.AACTablet;
+using Content.Shared._DV.QuickPhrase;
 using Robust.Client.UserInterface;
 using Robust.Shared.Prototypes;
 
-namespace Content.Client.DV_.AACTablet.UI;
+namespace Content.Client._DV.AACTablet.UI;
 
 public sealed class AACBoundUserInterface : BoundUserInterface
 {

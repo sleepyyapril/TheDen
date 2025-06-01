@@ -1,12 +1,12 @@
 using System.Numerics;
-using Content.Server.DV_.Cargo.Systems;
-using Content.Server.DV_.CartridgeLoader.Cartridges;
+using Content.Server._DV.Cargo.Systems;
+using Content.Server._DV.CartridgeLoader.Cartridges;
 using Content.Shared.CartridgeLoader.Cartridges;
 using Robust.Shared.Audio;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 using Robust.Shared.Timing;
 
-namespace Content.Server.DV_.Cargo.Components;
+namespace Content.Server._DV.Cargo.Components;
 
 [RegisterComponent, AutoGenerateComponentPause]
 [Access(typeof(StockMarketSystem), typeof(StockTradingCartridgeSystem))]

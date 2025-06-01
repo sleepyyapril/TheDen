@@ -4,12 +4,12 @@ using Content.Shared.Chat;
 using Content.Server.VoiceMask;
 using Content.Server.Speech.Components;
 using Content.Shared.Chat;
-using Content.Shared.DV_.AACTablet;
+using Content.Shared._DV.AACTablet;
 using Content.Shared.IdentityManagement;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
-namespace Content.Server.DV_.AACTablet;
+namespace Content.Server._DV.AACTablet;
 
 public sealed class AACTabletSystem : EntitySystem
 {

@@ -2,7 +2,7 @@ using Content.Shared.Inventory.Events;
 using Content.Shared.Tag;
 using Content.Shared.Humanoid;
 
-namespace Content.Shared.DV_.Harpy;
+namespace Content.Shared._DV.Harpy;
 
 public sealed class HarpyVisualsSystem : EntitySystem
 {

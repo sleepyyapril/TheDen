@@ -1,6 +1,6 @@
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.DV_.Harpy.Components
+namespace Content.Shared._DV.Harpy.Components
 {
     [Serializable, NetSerializable]
     public enum HarpyVisualLayers

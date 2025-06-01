@@ -1,9 +1,9 @@
 using Content.Shared.Access.Systems;
-using Content.Shared.DV_.Salvage.Components;
+using Content.Shared._DV.Salvage.Components;
 using Content.Shared.Lathe;
 using Robust.Shared.Audio.Systems;
 
-namespace Content.Shared.DV_.Salvage.Systems;
+namespace Content.Shared._DV.Salvage.Systems;
 
 public sealed class MiningPointsSystem : EntitySystem
 {

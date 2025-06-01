@@ -1,6 +1,6 @@
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
-namespace Content.Server.DV_.AACTablet;
+namespace Content.Server._DV.AACTablet;
 
 [RegisterComponent, AutoGenerateComponentPause]
 public sealed partial class AACTabletComponent : Component

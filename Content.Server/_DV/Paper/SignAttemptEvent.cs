@@ -1,4 +1,4 @@
-namespace Content.Server.DV_.Paper;
+namespace Content.Server._DV.Paper;
 
 /// <summary>
 /// 	Raised on the pen when trying to sign a paper.

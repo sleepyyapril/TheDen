@@ -16,7 +16,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 
 // This literally only exists because haha felinid oni
-namespace Content.Server.DV_.Administration.Commands;
+namespace Content.Server._DV.Administration.Commands;
 
 [AdminCommand(AdminFlags.Admin)]
 public sealed class LoadCharacter : IConsoleCommand

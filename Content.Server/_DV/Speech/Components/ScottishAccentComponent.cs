@@ -1,6 +1,6 @@
-using Content.Server.DV_.Speech.EntitySystems;
+using Content.Server._DV.Speech.EntitySystems;
 
-namespace Content.Server.DV_.Speech.Components;
+namespace Content.Server._DV.Speech.Components;
 
 [RegisterComponent]
 [Access(typeof(ScottishAccentSystem))]

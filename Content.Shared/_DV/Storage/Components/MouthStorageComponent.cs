@@ -1,10 +1,10 @@
-using Content.Shared.DV_.Storage.EntitySystems;
+using Content.Shared._DV.Storage.EntitySystems;
 using Content.Shared.FixedPoint;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 
-namespace Content.Shared.DV_.Storage.Components;
+namespace Content.Shared._DV.Storage.Components;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 [Access(typeof(SharedMouthStorageSystem))]

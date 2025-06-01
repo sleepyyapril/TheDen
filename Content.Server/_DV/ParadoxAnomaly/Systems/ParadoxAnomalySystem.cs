@@ -1,5 +1,5 @@
 using Content.Server.Clothing.Systems;
-using Content.Server.DV_.ParadoxAnomaly.Components;
+using Content.Server._DV.ParadoxAnomaly.Components;
 using Content.Server.DetailExaminable;
 using Content.Server.GenericAntag;
 using Content.Server.Ghost.Roles;
@@ -23,7 +23,7 @@ using Content.Server.Roles.Jobs;
 using Content.Shared.Consent;
 
 
-namespace Content.Server.DV_.ParadoxAnomaly.Systems;
+namespace Content.Server._DV.ParadoxAnomaly.Systems;
 
 /// <summary>
 /// 90% of the work is done by exterminator since its a reskin.

@@ -1,8 +1,8 @@
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
-using Content.Server.DV_.Weapons.Ranged.Systems;
+using Content.Server._DV.Weapons.Ranged.Systems;
 
-namespace Content.Server.DV_.Weapons.Ranged.Components;
+namespace Content.Server._DV.Weapons.Ranged.Components;
 
 /// <summary>
 /// Allows for energy gun to switch between three modes. This also changes the sprite accordingly.

@@ -1,11 +1,11 @@
 ﻿using Content.Shared.Containers.ItemSlots;
-using Content.Shared.DV_.Biscuit;
+using Content.Shared._DV.Biscuit;
 using Content.Shared.Verbs;
 using Robust.Server.Audio;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 
-namespace Content.Server.DV_.Biscuit;
+namespace Content.Server._DV.Biscuit;
 
 public sealed class BiscuitSystem : EntitySystem
 {
