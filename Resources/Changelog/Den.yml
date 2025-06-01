@@ -4831,3 +4831,10 @@ Entries:
   id: 446
   time: '2025-06-01T03:32:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/613
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Rubber Hammer no longer has a chance to do 1000 damage
+  id: 447
+  time: '2025-06-01T06:28:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/631
