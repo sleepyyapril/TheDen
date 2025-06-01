@@ -1,6 +1,8 @@
 using System.Threading;
+using Content.Server.GameTicking.Events;
 using Content.Server.Voting;
 using Content.Shared.CCVar;
+using Content.Shared.GameTicking;
 using Robust.Shared.Player;
 using Timer = Robust.Shared.Timing.Timer;
 
@@ -10,20 +12,40 @@ namespace Content.Server.RoundEnd;
 
 public sealed partial class RoundEndSystem
 {
+    private CancellationTokenSource? _timerCancellation;
+
     private void InitializeDen()
     {
-        InitializeTimer();
-
         SubscribeLocalEvent<CanCallOrRecallEvent>(CheckIfCanCallOrRecall);
         SubscribeLocalEvent<ShuttleAutoCallAttemptedEvent>(OnShuttleAutoCallAttempted);
+        SubscribeLocalEvent<RoundStartingEvent>(OnRoundStartingEvent);
+    }
+
+    private void OnRoundStartingEvent(RoundStartingEvent ev) => InitializeHardEndTimer();
+
+    private void ResetHardEndTimer()
+    {
+        if (_timerCancellation != null)
+        {
+            _timerCancellation.Cancel();
+            _timerCancellation = null;
+        }
     }
 
     private TimeSpan WarnAt() => RoundHardEnd - RoundHardEndWarningTime;
 
-    private void InitializeTimer()
+    private void InitializeHardEndTimer()
     {
-        Timer.Spawn(WarnAt(), SendWarningAnnouncement);
-        Timer.Spawn(RoundHardEnd, UpdateRoundEnd);
+        if (_timerCancellation != null)
+        {
+            _timerCancellation.Cancel();
+            _timerCancellation = null;
+        }
+
+        _timerCancellation = new();
+
+        Timer.Spawn(WarnAt(), SendWarningAnnouncement, _timerCancellation.Token);
+        Timer.Spawn(RoundHardEnd, UpdateRoundEnd, _timerCancellation.Token);
     }
 
     private void CheckIfCanCallOrRecall(ref CanCallOrRecallEvent ev)

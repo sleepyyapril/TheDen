@@ -111,6 +111,8 @@ namespace Content.Server.RoundEnd
                 _cooldownTokenSource = null;
             }
 
+            ResetHardEndTimer();
+
             LastCountdownStart = null;
             ExpectedCountdownEnd = null;
             SetAutoCallTime();
