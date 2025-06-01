@@ -4852,3 +4852,14 @@ Entries:
   id: 448
   time: '2025-06-01T08:09:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/633
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed hard end not functioning as expected beyond a round restart.
+    - type: Fix
+      message: >-
+        Fixed round extension votes not functioning as expected beyond a round
+        restart.
+  id: 449
+  time: '2025-06-01T16:11:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/635

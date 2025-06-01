@@ -17,7 +17,6 @@ public sealed partial class RoundEndSystem
     private void InitializeDen()
     {
         SubscribeLocalEvent<CanCallOrRecallEvent>(CheckIfCanCallOrRecall);
-        SubscribeLocalEvent<ShuttleAutoCallAttemptedEvent>(OnShuttleAutoCallAttempted);
         SubscribeLocalEvent<RoundStartingEvent>(OnRoundStartingEvent);
     }
 
@@ -71,7 +70,7 @@ public sealed partial class RoundEndSystem
     /// <summary>
     /// Send recall vote.
     /// </summary>
-    private void OnShuttleAutoCallAttempted(ref ShuttleAutoCallAttemptedEvent ev)
+    private void CreateAutoCallVote()
     {
         if (!CanCallOrRecallIgnoringCooldown())
             return;
