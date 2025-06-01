@@ -4818,3 +4818,16 @@ Entries:
   id: 445
   time: '2025-06-01T03:08:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/629
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added a katana sheath fit for a single katana, available in the salvage
+        specialist loadout for veterans in the workplace.
+    - type: Tweak
+      message: >-
+        Tweaked some stats for the crushers and kinetic weapons with overall
+        improvements, view PR for details.
+  id: 446
+  time: '2025-06-01T03:32:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/613
