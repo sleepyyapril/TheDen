@@ -11,7 +11,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseParadoxAnomalyObjective
   id: ParadoxAnomalyObjective
-  description: This universe doesn't have room for both of us.
+  description: You have been given a new lease on life, explore this unknown universe as you please.
   components:
   - type: Objective
     icon:
@@ -19,16 +19,3 @@
       state: icon
   - type: TargetObjective
     title: objective-paradox-anomaly-kill-title
-
-- type: entity
-  categories: [ HideSpawnMenu ]
-  parent: [BaseParadoxAnomalyObjective, BaseLivingObjective]
-  id: ParadoxAnomalyEscapeObjective
-  name: Escape to centcom alive and unrestrained.
-  description: This is your universe now.
-  components:
-  - type: Objective
-    icon:
-      sprite: Structures/Furniture/chairs.rsi
-      state: shuttle
-  - type: EscapeShuttleCondition
