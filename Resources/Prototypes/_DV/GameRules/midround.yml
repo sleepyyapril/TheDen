@@ -5,5 +5,4 @@
   components:
   - type: GenericAntagRule
     agentName: paradox-anomaly-round-end-agent-name
-    objectives:
-    - ParadoxAnomalyObjective
+    objectives: []
