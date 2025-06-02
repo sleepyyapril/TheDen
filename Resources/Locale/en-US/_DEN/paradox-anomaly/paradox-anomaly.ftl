@@ -1,0 +1,1 @@
+examine-paradox-anomaly-message = {CAPITALIZE(POSS-ADJ($entity))} feels off.

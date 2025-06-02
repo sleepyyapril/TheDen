@@ -21,6 +21,7 @@ using System.Diagnostics.CodeAnalysis;
 using Content.Server.Consent;
 using Content.Server.Roles.Jobs;
 using Content.Shared.Consent;
+using Content.Shared.Traits.Assorted.Components;
 
 
 namespace Content.Server._DV.ParadoxAnomaly.Systems;
@@ -47,6 +48,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
     [Dependency] private readonly JobSystem _jobSystem = default!;
 
     private ProtoId<ConsentTogglePrototype> _paradoxAnomalyConsent = "NoClone";
+    private readonly string _paradoxAnomalyExamine = "examine-paradox-anomaly-message";
 
     public override void Initialize()
     {
@@ -149,11 +151,28 @@ public sealed class ParadoxAnomalySystem : EntitySystem
         _humanoid.LoadProfile(spawned, profile);
         _metaData.SetEntityName(spawned, Name(uid));
 
+        var detailCopy = EnsureComp<DetailExaminableComponent>(spawned);
+        var spawnedDescExtension = EnsureComp<ExtendDescriptionComponent>(spawned);
+
         if (TryComp<DetailExaminableComponent>(uid, out var detail))
         {
-            var detailCopy = EnsureComp<DetailExaminableComponent>(spawned);
             detailCopy.Content = detail.Content;
         }
+
+        if (TryComp<ExtendDescriptionComponent>(uid, out var descExtension))
+        {
+            spawnedDescExtension.DescriptionList = descExtension.DescriptionList;
+        }
+
+        var examineMessage = Loc.GetString(_paradoxAnomalyExamine);
+        var descriptionExt = new DescriptionExtension
+        {
+            RequireDetailRange = true,
+            FontSize = 12,
+            Description = examineMessage
+        };
+
+        spawnedDescExtension.DescriptionList.Add(descriptionExt);
 
         if (job.StartingGear != null && _proto.TryIndex<StartingGearPrototype>(job.StartingGear, out var gear))
         {
