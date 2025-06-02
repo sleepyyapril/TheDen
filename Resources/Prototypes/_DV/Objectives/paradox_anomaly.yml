@@ -10,7 +10,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: BaseParadoxAnomalyObjective
-  id: ParadoxAnomalyKillObjective
+  id: ParadoxAnomalyObjective
   description: This universe doesn't have room for both of us.
   components:
   - type: Objective
@@ -19,22 +19,6 @@
       state: icon
   - type: TargetObjective
     title: objective-paradox-anomaly-kill-title
-  - type: KillPersonCondition
-    requireDead: true
-
-- type: entity
-  categories: [ HideSpawnMenu ]
-  parent: BaseParadoxAnomalyObjective
-  id: ParadoxAnomalyFriendObjective
-  description: Perhaps there is room, as friends.
-  components:
-  - type: Objective
-    icon:
-      sprite: Objects/Misc/bureaucracy.rsi
-      state: folder-white
-  - type: TargetObjective
-    title: objective-paradox-anomaly-friend-title
-  - type: KeepAliveCondition
 
 - type: entity
   categories: [ HideSpawnMenu ]
