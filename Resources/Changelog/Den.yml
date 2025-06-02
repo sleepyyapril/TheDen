@@ -4902,3 +4902,10 @@ Entries:
   id: 454
   time: '2025-06-02T11:33:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/640
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed round hard end and warning stuff... again...
+  id: 455
+  time: '2025-06-02T20:59:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/644
