@@ -48,7 +48,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
     [Dependency] private readonly JobSystem _jobSystem = default!;
 
     private ProtoId<ConsentTogglePrototype> _paradoxAnomalyConsent = "NoClone";
-    private readonly string _paradoxAnomalyExamine = "examine-paradox-anomaly-message";
+    private const string ParadoxAnomalyExamine = "examine-paradox-anomaly-message";
 
     public override void Initialize()
     {
@@ -164,7 +164,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
             spawnedDescExtension.DescriptionList = descExtension.DescriptionList;
         }
 
-        var examineMessage = Loc.GetString(_paradoxAnomalyExamine);
+        var examineMessage = Loc.GetString(ParadoxAnomalyExamine, ("entity", spawned));
         var descriptionExt = new DescriptionExtension
         {
             RequireDetailRange = true,

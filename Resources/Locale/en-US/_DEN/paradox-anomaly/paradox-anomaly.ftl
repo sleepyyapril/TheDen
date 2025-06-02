@@ -1,1 +1,1 @@
-examine-paradox-anomaly-message = {CAPITALIZE(POSS-ADJ($entity))} feels off.
+examine-paradox-anomaly-message = [color=purple]{CAPITALIZE(SUBJECT($entity))} feel off.[/color]
