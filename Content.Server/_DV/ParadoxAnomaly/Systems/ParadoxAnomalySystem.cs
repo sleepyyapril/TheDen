@@ -20,6 +20,7 @@ using Robust.Shared.Random;
 using System.Diagnostics.CodeAnalysis;
 using Content.Server.Consent;
 using Content.Server.Roles.Jobs;
+using Content.Server.StationEvents.Events;
 using Content.Shared.Consent;
 using Content.Shared.Traits.Assorted.Components;
 
@@ -38,7 +39,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _proto = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly MetaDataSystem _metaData = default!;
-    [Dependency] private readonly PsionicsSystem _psionics = default!;
+    [Dependency] private readonly ILogManager _logManager = default!;
     [Dependency] private readonly SharedHumanoidAppearanceSystem _humanoid = default!;
     [Dependency] private readonly SharedMindSystem _mind = default!;
     [Dependency] private readonly SharedRoleSystem _role = default!;
@@ -47,14 +48,36 @@ public sealed class ParadoxAnomalySystem : EntitySystem
     [Dependency] private readonly LoadoutSystem _loadout = default!;
     [Dependency] private readonly JobSystem _jobSystem = default!;
 
-    private ProtoId<ConsentTogglePrototype> _paradoxAnomalyConsent = "NoClone";
     private const string ParadoxAnomalyExamine = "examine-paradox-anomaly-message";
+
+    private ISawmill _sawmill = default!;
+    private readonly ProtoId<ConsentTogglePrototype> _paradoxAnomalyConsent = "NoClone";
+    private readonly EntProtoId _paradoxAnomalySpawnerId = "SpawnPointGhostParadoxAnomaly";
+
 
     public override void Initialize()
     {
         base.Initialize();
 
+        SubscribeLocalEvent<BeforeMidRoundAntagSpawnEvent>(OnAttemptMidRoundAntagSpawn);
         SubscribeLocalEvent<ParadoxAnomalySpawnerComponent, TakeGhostRoleEvent>(OnTakeGhostRole);
+
+        _sawmill = _logManager.GetSawmill("paradox-anomaly");
+    }
+
+    private void OnAttemptMidRoundAntagSpawn(ref BeforeMidRoundAntagSpawnEvent ev)
+    {
+        var isParadoxAnomaly = ev.MidRoundAntagRule.Comp.Spawner == _paradoxAnomalySpawnerId;
+
+        if (!isParadoxAnomaly)
+            return; // code below will be decently intensive
+
+        var canParadoxAnomalySpawn = CanParadoxAnomalySpawn();
+
+        ev.Cancelled = isParadoxAnomaly && canParadoxAnomalySpawn;
+
+        if (ev.Cancelled)
+            _sawmill.Warning("Paradox anomaly spawn cancelled because no valid candidates were found.");
     }
 
     private void OnTakeGhostRole(Entity<ParadoxAnomalySpawnerComponent> ent, ref TakeGhostRoleEvent args)
@@ -68,6 +91,40 @@ public sealed class ParadoxAnomalySystem : EntitySystem
 
         args.TookRole = true;
         QueueDel(ent);
+    }
+
+    public bool CanParadoxAnomalySpawn()
+    {
+        // Get a list of potential candidates
+        var candidates = new List<(EntityUid, EntityUid, SpeciesPrototype, HumanoidCharacterProfile)>();
+        var query = EntityQueryEnumerator<MindContainerComponent, HumanoidAppearanceComponent>();
+
+        while (query.MoveNext(out var uid, out var mindContainer, out var humanoid))
+        {
+            if (humanoid.LastProfileLoaded is not {} profile)
+                continue;
+
+            if (!_proto.TryIndex<SpeciesPrototype>(humanoid.Species, out var species))
+                continue;
+
+            if (_mind.GetMind(uid, mindContainer) is not {} mindId)
+                continue;
+
+            if (!_jobSystem.MindTryGetJob(mindId, out var job))
+                continue;
+
+            if (_role.MindIsAntagonist(mindId))
+                continue;
+
+            if (_consent.HasConsent(uid, _paradoxAnomalyConsent))
+                continue;
+
+            // TODO: when metempsychosis real skip whoever has Karma
+
+            candidates.Add((uid, mindId, species, profile));
+        }
+
+        return candidates.Count > 0;
     }
 
     private bool TrySpawnParadoxAnomaly(string rule, [NotNullWhen(true)] out EntityUid? twin)
