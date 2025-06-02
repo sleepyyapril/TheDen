@@ -74,7 +74,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
 
         var canParadoxAnomalySpawn = CanParadoxAnomalySpawn();
 
-        ev.Cancelled = isParadoxAnomaly && canParadoxAnomalySpawn;
+        ev.Cancelled = isParadoxAnomaly && !canParadoxAnomalySpawn;
 
         if (ev.Cancelled)
             _sawmill.Warning("Paradox anomaly spawn cancelled because no valid candidates were found.");
@@ -104,7 +104,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
             if (humanoid.LastProfileLoaded is not {} profile)
                 continue;
 
-            if (!_proto.TryIndex<SpeciesPrototype>(humanoid.Species, out var species))
+            if (!_proto.TryIndex(humanoid.Species, out var species))
                 continue;
 
             if (_mind.GetMind(uid, mindContainer) is not {} mindId)
@@ -124,7 +124,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
             candidates.Add((uid, mindId, species, profile));
         }
 
-        return candidates.Count > 0;
+        return candidates.Count != 0;
     }
 
     private bool TrySpawnParadoxAnomaly(string rule, [NotNullWhen(true)] out EntityUid? twin)
