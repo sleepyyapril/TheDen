@@ -4990,3 +4990,10 @@ Entries:
   id: 463
   time: '2025-06-03T04:20:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/642
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Feroxi names list finally ported
+  id: 464
+  time: '2025-06-03T05:22:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/595
