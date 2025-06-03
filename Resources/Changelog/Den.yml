@@ -4945,3 +4945,10 @@ Entries:
   id: 458
   time: '2025-06-03T00:16:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/646
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: Fixed Various Baikal issues
+  id: 459
+  time: '2025-06-03T04:15:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/654
