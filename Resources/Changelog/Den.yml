@@ -4909,3 +4909,10 @@ Entries:
   id: 455
   time: '2025-06-02T20:59:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/644
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added new commands selfdamage and roundinfo.
+  id: 456
+  time: '2025-06-03T00:16:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/645
