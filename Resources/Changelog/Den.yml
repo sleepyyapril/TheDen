@@ -4952,3 +4952,12 @@ Entries:
   id: 459
   time: '2025-06-03T04:15:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/654
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        All Physical traits are now divided into four subcategories: Feats,
+        Disabilities, Biological, and Augmentations.
+  id: 460
+  time: '2025-06-03T04:17:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/641
