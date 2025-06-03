@@ -4997,3 +4997,12 @@ Entries:
   id: 464
   time: '2025-06-03T05:22:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/595
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: Added various QOL changes for Asterisk and Tortuga
+    - type: Fix
+      message: Fixed some Baikal APCs
+  id: 465
+  time: '2025-06-03T12:36:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/655
