@@ -4979,3 +4979,14 @@ Entries:
   id: 462
   time: '2025-06-03T04:18:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/651
+- author: portfiend
+  changes:
+    - type: Add
+      message: New "fishing" guidebook entry. Now you can learn to fish too!
+    - type: Tweak
+      message: >-
+        Mildly reorganized the guidebook - moved some articles into relevant
+        categories, reordered some article lists.
+  id: 463
+  time: '2025-06-03T04:20:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/642
