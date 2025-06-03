@@ -10,7 +10,7 @@ ghost-role-information-listeningop-rules =	You are a Syndicate Operative tasked 
 ghost-role-information-paradox-anomaly-name = Paradox Anomaly
 ghost-role-information-paradox-anomaly-description = Explore this unknown universe.
 ghost-role-information-paradox-anomaly-rules = Consider yourself a non-antagonist, but you have more leeway on rule 0 to further round roleplay. 
-                                               Your goal is simply to explore the universe and have interactions with your other self.
+                                               Your goal is simply to explore the universe and have interactions with or without your other self.
                                                Coordination with your other self in OOC is highly encouraged.
                                                Anything done in coordination with your other self is fair game, as long as it doesn't involve the whole station.
 
