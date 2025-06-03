@@ -4916,3 +4916,10 @@ Entries:
   id: 456
   time: '2025-06-03T00:16:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/645
+- author: TheOneTrueWolfio
+  changes:
+    - type: Add
+      message: Added handheld wireless cameras
+  id: 457
+  time: '2025-06-03T00:16:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/624
