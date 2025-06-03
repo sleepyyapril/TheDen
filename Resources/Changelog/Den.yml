@@ -4961,3 +4961,10 @@ Entries:
   id: 460
   time: '2025-06-03T04:17:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/641
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: .30 rifle does more damage than .20 rifle now
+  id: 461
+  time: '2025-06-03T04:18:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/653
