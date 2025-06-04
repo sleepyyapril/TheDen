@@ -32,6 +32,7 @@ public sealed class CharacterUIController : UIController, IOnStateEntered<Gamepl
     [Dependency] private readonly ILogManager _logMan = default!;
     [Dependency] private readonly IPlayerManager _player = default!;
     [Dependency] private readonly CustomObjectiveSummaryUIController _objective = default!; // DeltaV
+    [Dependency] private readonly IPrototypeManager _prototype = default!;
 
     [UISystemDependency] private readonly CharacterInfoSystem _characterInfo = default!;
     [UISystemDependency] private readonly SpriteSystem _sprite = default!;
@@ -221,7 +222,7 @@ public sealed class CharacterUIController : UIController, IOnStateEntered<Gamepl
 
         var roleText = Loc.GetString("role-type-crew-aligned-name");
         var color = Color.White;
-        if (_prototypeManager.TryIndex(mind.RoleType, out var proto))
+        if (_prototype.TryIndex(mind.RoleType, out var proto))
         {
             roleText = Loc.GetString(proto.Name);
             color = proto.Color;
