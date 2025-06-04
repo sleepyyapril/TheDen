@@ -5048,3 +5048,12 @@ Entries:
   id: 470
   time: '2025-06-04T15:23:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/665
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Ported user actions box in chat from Goob, togglable under General at
+        the bottom.
+  id: 471
+  time: '2025-06-04T16:57:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/664
