@@ -5064,3 +5064,16 @@ Entries:
   id: 472
   time: '2025-06-04T17:24:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/620
+- author: ZigTag
+  changes:
+    - type: Add
+      message: synthliz from Iris and Alt Zenghu from Monkestation (SS13 Ports)
+    - type: Add
+      message: IPCs with snouts will get vulpkanin helmets.
+    - type: Tweak
+      message: enabled wagging tails on IPC
+    - type: Tweak
+      message: whitelist snouts from vulps, rodentia, and feroxi
+  id: 473
+  time: '2025-06-04T17:25:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/656
