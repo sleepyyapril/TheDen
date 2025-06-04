@@ -5016,3 +5016,10 @@ Entries:
   id: 466
   time: '2025-06-04T02:42:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/658
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Space Law guidebook has been removed, please use the wiki!
+  id: 467
+  time: '2025-06-04T02:54:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/657
