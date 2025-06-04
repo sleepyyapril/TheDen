@@ -5077,3 +5077,16 @@ Entries:
   id: 473
   time: '2025-06-04T17:25:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/656
+- author: TheOneTrueWolfio
+  changes:
+    - type: Add
+      message: 'Added Resomi/Avali laugh from RMC-14 '
+    - type: Tweak
+      message: Zero-G training & temp tolerance for Resomi
+    - type: Tweak
+      message: Changed bloodloss healing on Resomi
+    - type: Fix
+      message: Fixed the ability to select traits already applied to Resomi by default
+  id: 474
+  time: '2025-06-04T21:44:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/666
