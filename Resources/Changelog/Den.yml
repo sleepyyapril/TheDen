@@ -5032,3 +5032,10 @@ Entries:
   id: 468
   time: '2025-06-04T03:54:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/661
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Re-added the vote sound to all votes, including round extensions.
+  id: 469
+  time: '2025-06-04T04:09:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/662
