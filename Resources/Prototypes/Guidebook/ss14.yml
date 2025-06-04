@@ -5,14 +5,12 @@
   children:
   - Controls
   - Jobs
-  - Survival
+  - Mechanics
   - Chemicals
   - Antagonists
   - Species
-  - Writing
-  - Glossary
   - LoadoutInfo
-  - Psionics
+  - Glossary
 
 - type: guideEntry
   id: Writing
