@@ -5006,3 +5006,13 @@ Entries:
   id: 465
   time: '2025-06-03T12:36:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/655
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Greentext is now replaced by pinktext. Do your objectives, do something
+        entirely different, or don't do anything, in whatever way fits best to
+        your character.
+  id: 466
+  time: '2025-06-04T02:42:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/658
