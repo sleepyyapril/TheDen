@@ -1,4 +1,6 @@
 custom-objective-button-text = Write objective summary
+custom-objective-text-reminder = You may ask for different objectives 
+                                 in AHelp or create your own harmless objectives.   
 
 # UI
 custom-objective-window-title = Custom objective summary

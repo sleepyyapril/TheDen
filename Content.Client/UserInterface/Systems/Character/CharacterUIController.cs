@@ -173,6 +173,10 @@ public sealed class CharacterUIController : UIController, IOnStateEntered<Gamepl
         // Begin DeltaV Additions - Custom objective summary
         if (objectives.Count > 0)
         {
+            var text = new RichTextLabel()
+            {
+                Text = Loc.GetString("custom-objective-text-reminder")
+            };
             var button = new Button
             {
                 Text = Loc.GetString("custom-objective-button-text"),
@@ -180,6 +184,7 @@ public sealed class CharacterUIController : UIController, IOnStateEntered<Gamepl
             };
             button.OnPressed += _ => _objective.OpenWindow();
 
+            _window.Objectives.AddChild(text);
             _window.Objectives.AddChild(button);
         }
         // End DeltaV Additions
