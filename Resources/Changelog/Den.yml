@@ -5039,3 +5039,12 @@ Entries:
   id: 469
   time: '2025-06-04T04:09:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/662
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        You can now adjust others' suit sensors if they are incapacitated.
+        (cuffed, crit, etc.) 
+  id: 470
+  time: '2025-06-04T15:23:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/665
