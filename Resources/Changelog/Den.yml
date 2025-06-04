@@ -5023,3 +5023,12 @@ Entries:
   id: 467
   time: '2025-06-04T02:54:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/657
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Hunger and thirst decay values have been slowed significantly, leading
+        to getting the negative effects much less frequently.
+  id: 468
+  time: '2025-06-04T03:54:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/661
