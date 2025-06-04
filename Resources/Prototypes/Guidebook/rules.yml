@@ -3,11 +3,11 @@
   name: guide-entry-rules
   text: "/ServerInfo/Guidebook/ServerRules/DefaultRuleset.xml"
 
-# - type: guideEntry
-#   id: SpaceLaw
-#   name: guide-entry-rules-space-law
-#   priority: 1
-#   text: "/ServerInfo/Guidebook/ServerRules/SpaceLaw/SpaceLaw.xml"
+- type: guideEntry
+  id: SpaceLaw
+  name: guide-entry-rules-space-law
+  priority: 1
+  text: "/ServerInfo/Guidebook/ServerRules/SpaceLaw/SpaceLaw.xml"
 #   children:
 #   - SpaceLawControlledSubstances
 #   - SpaceLawRestrictedGear

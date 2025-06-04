@@ -1,10 +1,10 @@
-- type: guideEntry
-  id: SettingLore
-  name: guide-entry-setting-lore
-  text: "/ServerInfo/Guidebook/Lore/SettingLore.xml"
-  children:
-    - Corporations
-    - Nations
+# - type: guideEntry
+#   id: SettingLore
+#   name: guide-entry-setting-lore
+#   text: "/ServerInfo/Guidebook/Lore/SettingLore.xml"
+#   children:
+#     - Corporations
+#     - Nations
 
 # Corporations
 - type: guideEntry
