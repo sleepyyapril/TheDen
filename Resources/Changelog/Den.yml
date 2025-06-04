@@ -5057,3 +5057,10 @@ Entries:
   id: 471
   time: '2025-06-04T16:57:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/664
+- author: ZigTag
+  changes:
+    - type: Add
+      message: cherrypicked holofans from delta
+  id: 472
+  time: '2025-06-04T17:24:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/620
