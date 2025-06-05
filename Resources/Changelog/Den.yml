@@ -5108,3 +5108,13 @@ Entries:
   id: 476
   time: '2025-06-05T02:16:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/670
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Chat color/tag sanitization was removed for subtles, subtle OOCs, and
+        whispers. Abuse this and have issues with staff, so please keep font
+        size to a minimum.
+  id: 477
+  time: '2025-06-05T02:37:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/669
