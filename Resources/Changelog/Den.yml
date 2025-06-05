@@ -5152,3 +5152,14 @@ Entries:
   id: 480
   time: '2025-06-05T15:24:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/676
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: Drozd's fire rate
+    - type: Tweak
+      message: C20r's accuracy (slightly)
+    - type: Tweak
+      message: FPA-90 has a mag when bought now
+  id: 481
+  time: '2025-06-05T23:28:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/682
