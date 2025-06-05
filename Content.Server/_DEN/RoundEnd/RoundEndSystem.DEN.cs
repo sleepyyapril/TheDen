@@ -96,14 +96,14 @@ public sealed partial class RoundEndSystem
         int time;
         string units;
 
-        if (warnAt.TotalSeconds < 60)
+        if (RoundHardEndWarningTime.TotalSeconds < 60)
         {
-            time = warnAt.Seconds;
+            time = RoundHardEndWarningTime.Seconds;
             units = "eta-units-seconds";
         }
         else
         {
-            time = warnAt.Minutes;
+            time = RoundHardEndWarningTime.Minutes;
             units = "eta-units-minutes";
         }
 
