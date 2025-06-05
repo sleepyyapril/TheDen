@@ -5131,3 +5131,12 @@ Entries:
   id: 478
   time: '2025-06-05T04:54:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/671
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added aphrodisiac pill bottles in the loadouts for a price, use
+        responsibly.
+  id: 479
+  time: '2025-06-05T10:06:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/673
