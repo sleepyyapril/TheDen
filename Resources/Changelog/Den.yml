@@ -5118,3 +5118,16 @@ Entries:
   id: 477
   time: '2025-06-05T02:37:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/669
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Hardsuit helmet names now fit their hardsuits
+    - type: Tweak
+      message: BSO tacsuit renamed to "Aegis" tacsuit
+    - type: Tweak
+      message: Chaplain ERT Hardsuit renamed to "Elymas" hardsuit
+    - type: Tweak
+      message: '"Xíngtiān" tacsuit fits the formatting of other hardsuits now'
+  id: 478
+  time: '2025-06-05T04:54:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/671
