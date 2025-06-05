@@ -5140,3 +5140,15 @@ Entries:
   id: 479
   time: '2025-06-05T10:06:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/673
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added two new commands, subtledetailed and medetailed. You can change
+        the color of your subtles and emotes with these commands and also remove
+        the restriction of having a name in front of your subtles and emotes.
+    - type: Fix
+      message: Fixed subtle colors.
+  id: 480
+  time: '2025-06-05T15:24:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/676
