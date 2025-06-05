@@ -61,6 +61,9 @@ public sealed partial class RoundEndSystem
     /// </summary>
     private void CreateAutoCallVote()
     {
+        if (RoundHardEnd - _gameTicker.RoundDuration() < TimeSpan.FromMinutes(30))
+            return;
+
         var alone = _playerManager.PlayerCount == 1;
         var options = new VoteOptions
         {
