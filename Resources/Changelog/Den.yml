@@ -5099,3 +5099,12 @@ Entries:
   id: 475
   time: '2025-06-05T00:22:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/668
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        A space between your name and your message will no longer appear in
+        subtles and emotes if you begin the message with \'s
+  id: 476
+  time: '2025-06-05T02:16:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/670
