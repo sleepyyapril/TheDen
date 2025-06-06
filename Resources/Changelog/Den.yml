@@ -5182,3 +5182,10 @@ Entries:
   id: 483
   time: '2025-06-06T11:07:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/685
+- author: Blahaj-the-Shonk
+  changes:
+    - type: Tweak
+      message: Replaced resomi paramed hardsuit sprite
+  id: 484
+  time: '2025-06-06T12:56:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/667
