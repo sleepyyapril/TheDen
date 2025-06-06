@@ -5163,3 +5163,13 @@ Entries:
   id: 481
   time: '2025-06-05T23:28:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/682
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added a command to a set a timer for any length of time that does the
+        vote ping sound effect when completed. The only caveat is that the timer
+        does not last through rounds.
+  id: 482
+  time: '2025-06-06T11:06:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/686
