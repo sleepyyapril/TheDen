@@ -5173,3 +5173,12 @@ Entries:
   id: 482
   time: '2025-06-06T11:06:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/686
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: >-
+        Security no longer has most loadout weapons, except for the Head of
+        Security.
+  id: 483
+  time: '2025-06-06T11:07:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/685
