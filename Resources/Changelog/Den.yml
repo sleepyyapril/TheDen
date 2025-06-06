@@ -5189,3 +5189,10 @@ Entries:
   id: 484
   time: '2025-06-06T12:56:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/667
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Subtles, subtle OOC, and whispers can no longer be heard through walls.
+  id: 485
+  time: '2025-06-06T20:49:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/687
