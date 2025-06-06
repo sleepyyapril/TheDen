@@ -41,8 +41,6 @@
   items:
     - type: loadout
       id: LoadoutSecurityDisabler
-    - type: loadout
-      id: LoadoutSecurityEquipmentTruncheon
 
 - type: characterItemGroup
   id: LoadoutSecurityEyes
