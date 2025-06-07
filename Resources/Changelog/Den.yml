@@ -5293,3 +5293,10 @@ Entries:
   id: 494
   time: '2025-06-07T19:27:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/692
+- author: Fox
+  changes:
+    - type: Fix
+      message: Makes Barrier able to be played on, OOPS!
+  id: 495
+  time: '2025-06-07T19:39:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/694
