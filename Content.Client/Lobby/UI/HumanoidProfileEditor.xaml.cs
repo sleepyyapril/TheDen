@@ -1831,13 +1831,13 @@ namespace Content.Client.Lobby.UI
 
             var species = _species.Find(x => x.ID == Profile?.Species) ?? _species.First();
 
-            HeightSlider.MinValue = species.MinHeight;
-            HeightSlider.MaxValue = species.MaxHeight;
-            HeightSlider.SetValueWithoutEvent(Profile?.Height ?? species.DefaultHeight);
-
             WidthSlider.MinValue = species.MinWidth;
             WidthSlider.MaxValue = species.MaxWidth;
             WidthSlider.SetValueWithoutEvent(Profile?.Width ?? species.DefaultWidth);
+
+            HeightSlider.MinValue = species.MinHeight;
+            HeightSlider.MaxValue = species.MaxHeight;
+            HeightSlider.SetValueWithoutEvent(Profile?.Height ?? species.DefaultHeight);
 
             _sawmill.Info($"Before Width: {Profile?.Height ?? species.DefaultHeight}");
             _sawmill.Info($"Before Width: {Profile?.Width ?? species.DefaultWidth}");
@@ -1884,13 +1884,14 @@ namespace Content.Client.Lobby.UI
             _sawmill.Info($"After Width: {Profile?.Height ?? species.DefaultHeight}");
             _sawmill.Info($"After Width: {Profile?.Width ?? species.DefaultWidth}");
 
-            HeightSlider.Value = heightValue;
-            WidthSlider.Value = widthValue;
+            HeightSlider.SetValueWithoutEvent(heightValue);
+            WidthSlider.SetValueWithoutEvent(widthValue);
 
             _sawmill.Info($"After Width 2: {Profile?.Height ?? species.DefaultHeight}");
             _sawmill.Info($"After Width 2: {Profile?.Width ?? species.DefaultWidth}");
 
-            Profile?.Height = heightValue;
+            SetProfileHeight(heightValue);
+            SetProfileWidth(widthValue);
 
             _sawmill.Info($"After Width 3: {Profile?.Height ?? species.DefaultHeight}");
             _sawmill.Info($"After Width 3: {Profile?.Width ?? species.DefaultWidth}");
@@ -2715,10 +2716,11 @@ namespace Content.Client.Lobby.UI
                 _loadoutPreferences.Add(selector);
                 selector.PreferenceChanged += preference =>
                 {
-                    // Make sure they have enough loadout points
-                    var selected = preference.Selected
-                        ? CheckPoints(-selector.Loadout.Cost, preference.Selected)
-                        : CheckPoints(selector.Loadout.Cost, preference.Selected);
+                    // Floofstation edit - allow deselecting loadouts at any time + don't check the cost to select a loadout if it's already selected.
+                    var wasSelected = Profile?.LoadoutPreferences
+                        .FirstOrDefault(it => it.LoadoutName == selector.Loadout.ID)
+                        ?.Selected ?? false;
+                    var selected = preference.Selected && (wasSelected || CheckPoints(-selector.Loadout.Cost, true));
 
                     // Update Preferences
                     Profile = Profile?.WithLoadoutPreference(
@@ -2737,7 +2739,7 @@ namespace Content.Client.Lobby.UI
             bool CheckPoints(int points, bool preference)
             {
                 var temp = LoadoutPointsBar.Value + points;
-                return preference ? !(temp < 0) : temp < 0;
+                return preference ? temp >= 0 : temp < 0; // Floofstation - fixed semantics
             }
         }
 

@@ -622,6 +622,8 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         hashCode.Add((int) SpawnPriority);
         hashCode.Add((int) PreferenceUnavailable);
         hashCode.Add(Customspeciename);
+        hashCode.Add(Height);
+        hashCode.Add(Width);
         return hashCode.ToHashCode();
     }
 
