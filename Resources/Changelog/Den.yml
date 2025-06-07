@@ -5196,3 +5196,10 @@ Entries:
   id: 485
   time: '2025-06-06T20:49:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/687
+- author: mart33no
+  changes:
+    - type: Fix
+      message: Camera Monitor and Wireless Camera Monitor on the Listening Outpost
+  id: 486
+  time: '2025-06-07T01:01:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/683
