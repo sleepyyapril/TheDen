@@ -5219,3 +5219,12 @@ Entries:
   id: 488
   time: '2025-06-07T17:07:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/690
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: Added Intellicards to RD Lockers without Hardsuits
+    - type: Fix
+      message: Fixed minor things on Baikal
+  id: 489
+  time: '2025-06-07T17:18:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/672
