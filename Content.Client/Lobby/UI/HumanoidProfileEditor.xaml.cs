@@ -57,6 +57,7 @@ namespace Content.Client.Lobby.UI
         private readonly CharacterRequirementsSystem _characterRequirementsSystem;
         private readonly LobbyUIController _controller;
         private readonly IRobustRandom _random;
+        private readonly ILogManager _logManager;
 
         private FlavorText.FlavorText? _flavorText;
         private BoxContainer _ccustomspecienamecontainerEdit => CCustomSpecieName;
@@ -67,6 +68,8 @@ namespace Content.Client.Lobby.UI
         public event Action? Save;
         private bool _exporting;
         private bool _isDirty;
+
+        private ISawmill _sawmill;
 
         /// The character slot for the current profile
         public int? CharacterSlot;
@@ -120,7 +123,8 @@ namespace Content.Client.Lobby.UI
             IPrototypeManager prototypeManager,
             JobRequirementsManager requirements,
             MarkingManager markings,
-            IRobustRandom random
+            IRobustRandom random,
+            ILogManager logManager
             )
         {
             RobustXamlLoader.Load(this);
@@ -133,9 +137,12 @@ namespace Content.Client.Lobby.UI
             _preferencesManager = preferencesManager;
             _requirements = requirements;
             _random = random;
+            _logManager = logManager;
 
             _characterRequirementsSystem = _entManager.System<CharacterRequirementsSystem>();
             _controller = UserInterfaceManager.GetUIController<LobbyUIController>();
+
+            _sawmill = _logManager.GetSawmill("humanoidprofileeditor");
 
             ImportButton.OnPressed += args => { ImportProfile(); };
             ExportButton.OnPressed += args => { ExportProfile(); };
@@ -1550,7 +1557,9 @@ namespace Content.Client.Lobby.UI
 
         private void SetProfileHeight(float height)
         {
+            _sawmill.Info($"1 {Profile?.Height}");
             Profile = Profile?.WithHeight(height);
+            _sawmill.Info($"2 {Profile?.Height}");
             IsDirty = true;
             ReloadProfilePreview();
         }
@@ -1830,6 +1839,9 @@ namespace Content.Client.Lobby.UI
             WidthSlider.MaxValue = species.MaxWidth;
             WidthSlider.SetValueWithoutEvent(Profile?.Width ?? species.DefaultWidth);
 
+            _sawmill.Info($"Before Width: {Profile?.Height ?? species.DefaultHeight}");
+            _sawmill.Info($"Before Width: {Profile?.Width ?? species.DefaultWidth}");
+
             var height = MathF.Round(species.AverageHeight * HeightSlider.Value);
             HeightLabel.Text = Loc.GetString("humanoid-profile-editor-height-label", ("height", (int) height));
 
@@ -1869,11 +1881,19 @@ namespace Content.Client.Lobby.UI
             heightValue = Math.Clamp(heightValue, species.MinHeight, species.MaxHeight);
             widthValue = Math.Clamp(widthValue, species.MinWidth, species.MaxWidth);
 
+            _sawmill.Info($"After Width: {Profile?.Height ?? species.DefaultHeight}");
+            _sawmill.Info($"After Width: {Profile?.Width ?? species.DefaultWidth}");
+
             HeightSlider.Value = heightValue;
             WidthSlider.Value = widthValue;
 
-            SetProfileHeight(heightValue);
-            SetProfileWidth(widthValue);
+            _sawmill.Info($"After Width 2: {Profile?.Height ?? species.DefaultHeight}");
+            _sawmill.Info($"After Width 2: {Profile?.Width ?? species.DefaultWidth}");
+
+            Profile?.Height = heightValue;
+
+            _sawmill.Info($"After Width 3: {Profile?.Height ?? species.DefaultHeight}");
+            _sawmill.Info($"After Width 3: {Profile?.Width ?? species.DefaultWidth}");
 
             var height = MathF.Round(species.AverageHeight * HeightSlider.Value);
             HeightLabel.Text = Loc.GetString("humanoid-profile-editor-height-label", ("height", (int) height));
