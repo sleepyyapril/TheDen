@@ -5248,3 +5248,12 @@ Entries:
   id: 491
   time: '2025-06-07T17:22:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/691
+- author: Rosycup
+  changes:
+    - type: Fix
+      message: >-
+        The items in the pointless category of the traitor uplink have been
+        returned.
+  id: 492
+  time: '2025-06-07T19:17:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/674
