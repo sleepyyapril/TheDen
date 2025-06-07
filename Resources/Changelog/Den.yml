@@ -5257,3 +5257,26 @@ Entries:
   id: 492
   time: '2025-06-07T19:17:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/674
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: Baghatur MK.II movement speed penalty decreased
+    - type: Tweak
+      message: Sulde MK.II movement speed penalty decreased
+    - type: Tweak
+      message: Sukunabikuna movement speed penalty decreased
+    - type: Tweak
+      message: Tianming movement speed penalty increased and cost increased
+    - type: Tweak
+      message: >-
+        Guan Yu movement speed adjusted, cost increased and radiation armor
+        value decreased
+    - type: Tweak
+      message: Shiwei movement speed penalty increased
+    - type: Tweak
+      message: Egui movement speed penalty decreased
+    - type: Tweak
+      message: Xingtian movement speed penalty adjusted and decreased
+  id: 493
+  time: '2025-06-07T19:23:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/681
