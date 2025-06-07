@@ -5280,3 +5280,16 @@ Entries:
   id: 493
   time: '2025-06-07T19:23:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/681
+- author: kaminukurumi
+  changes:
+    - type: Add
+      message: Added cheesedreamer markings for vulps... but no ᵐᵉʳᵖ ⁽ʸᵉᵗ!⁾
+    - type: Add
+      message: A couple of vulpkanin markings and an unathi marking.
+    - type: Tweak
+      message: >-
+        Wings now able to be attached (decoratively) to Unathi. (NT forbids
+        their use for flight, HOWEVER.)
+  id: 494
+  time: '2025-06-07T19:27:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/692
