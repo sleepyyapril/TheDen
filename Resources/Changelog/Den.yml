@@ -5203,3 +5203,10 @@ Entries:
   id: 486
   time: '2025-06-07T01:01:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/683
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: The Wag is Back.
+  id: 487
+  time: '2025-06-07T02:21:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/689
