@@ -5239,3 +5239,12 @@ Entries:
   id: 490
   time: '2025-06-07T17:20:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/693
+- author: Fox
+  changes:
+    - type: Add
+      message: Added Barrier Hospital, a station hyper-focused on Medical.
+    - type: Tweak
+      message: Increased odds of Foxmin having a heart attack by 12%
+  id: 491
+  time: '2025-06-07T17:22:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/691
