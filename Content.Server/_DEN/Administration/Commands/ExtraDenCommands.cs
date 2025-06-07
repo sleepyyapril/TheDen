@@ -10,6 +10,7 @@ using Robust.Shared.Console;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server._DEN.Administration.Commands
+{
     [AnyCommand]
     sealed class RoundInfoCommand : IConsoleCommand
     {
