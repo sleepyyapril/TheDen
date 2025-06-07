@@ -5228,3 +5228,14 @@ Entries:
   id: 489
   time: '2025-06-07T17:18:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/672
+- author: Monotheonist
+  changes:
+    - type: Tweak
+      message: Gave Shoukou some new maints rooms.
+    - type: Fix
+      message: Fixed chair migration problems (On Shoukou.)
+    - type: Remove
+      message: 'Removed Gregg''s whimsy >:(((( '
+  id: 490
+  time: '2025-06-07T17:20:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/693
