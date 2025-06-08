@@ -5465,3 +5465,10 @@ Entries:
   id: 512
   time: '2025-06-08T21:22:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/724
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: The spectral locator will now ignore aghosts.
+  id: 513
+  time: '2025-06-08T21:56:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/725
