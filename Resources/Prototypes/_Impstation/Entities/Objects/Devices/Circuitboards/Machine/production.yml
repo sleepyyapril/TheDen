@@ -1,14 +1,15 @@
-# - type: entity
-#   id: MiniGyroscopeMachineCircuitboard
-#   parent: BaseMachineCircuitboard
-#   name: mini gyroscope machine board
-#   components:
-#   - type: MachineBoard
-#     prototype: MiniGyroscope
-#     stackRequirements:
-#       Manipulator: 1
-#       Capacitor: 1
-#       Glass: 2
+- type: entity
+  id: MiniGyroscopeMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: mini gyroscope machine board
+  components:
+  - type: MachineBoard
+    prototype: MiniGyroscope
+    requirements:
+      Manipulator: 1
+      Capacitor: 1
+    materialRequirements: 
+      Glass: 2
 
 # - type: entity
 #   id: ServiceTechFabCircuitboard
@@ -40,7 +41,7 @@
       state: service
     - type: MachineBoard
       prototype: ImpCoffeeMachineEmpty
-      stackRequirements:
+      materialRequirements:
         Steel: 5
       tagRequirements:
           GlassBeaker:
