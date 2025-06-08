@@ -5321,3 +5321,16 @@ Entries:
   id: 498
   time: '2025-06-08T02:12:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/699
+- author: mart33no
+  changes:
+    - type: Add
+      message: Handheld Atmos Monitor  >  Atmos Tech + Chief Engineer loadouts
+    - type: Add
+      message: Handheld Power Monitor  >  All Engineering loadouts
+    - type: Add
+      message: Infinite Candle Box  >  Chaplain loadout
+    - type: Add
+      message: Antique Terminus  >  Head of Security loadout
+  id: 499
+  time: '2025-06-08T02:29:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/680
