@@ -5356,3 +5356,10 @@ Entries:
   id: 501
   time: '2025-06-08T04:27:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/697
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Pronouns in bio (blue hair not included)
+  id: 502
+  time: '2025-06-08T05:07:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/705
