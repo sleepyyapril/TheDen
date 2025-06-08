@@ -105,10 +105,6 @@ namespace Content.Client.Lobby.UI
 
         public event Action<HumanoidCharacterProfile, int>? OnProfileChanged;
 
-        // Begin CD - Station Records
-        private readonly RecordEditorGui _recordsTab;
-        // End CD - Station Records
-
         [ValidatePrototypeId<GuideEntryPrototype>]
         private const string DefaultSpeciesGuidebook = "Species";
 
@@ -559,9 +555,9 @@ namespace Content.Client.Lobby.UI
             // Begin CD - Character Records
             #region CosmaticRecords
 
-            _recordsTab = new RecordEditorGui(UpdateProfileRecords);
-            _recordsTab.Orphan();
-            CTabContainer.AddTab(_recordsTab, Loc.GetString("humanoid-profile-editor-cd-records-tab"));
+            RecordsTab.Orphan();
+            Records.SetRecordUpdateFunction(UpdateProfileRecords);
+            CTabContainer.AddTab(RecordsTab, Loc.GetString("humanoid-profile-editor-cd-records-tab"));
 
             #endregion CosmaticRecords
             // End CD - Character Records
@@ -928,7 +924,7 @@ namespace Content.Client.Lobby.UI
             UpdateCharacterRequired();
 
             // Begin CD - Character Records
-            _recordsTab.Update(profile);
+            Records.Update(profile);
             // End CD - Character Records
 
             RefreshAntags();
@@ -2049,7 +2045,7 @@ namespace Content.Client.Lobby.UI
             SetName(name);
             UpdateNameEdit();
 
-            _recordsTab.Update(Profile); // CD - Character Records
+            Records.Update(Profile); // CD - Character Records
         }
 
         private async void ImportProfile()
