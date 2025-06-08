@@ -5432,3 +5432,10 @@ Entries:
   id: 509
   time: '2025-06-08T17:15:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/715
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ports the Cosmatic Drift Records tab
+  id: 510
+  time: '2025-06-08T20:58:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/723
