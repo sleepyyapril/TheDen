@@ -546,7 +546,6 @@
     - SalvageMagnetMachineCircuitboard
     - BorgChargerCircuitboard
     - ShipyardComputerCircuitboard
-    - ServiceTechFabCircuitboard #imp addition
     - SupermatterComputerCircuitboard # imp
     - ImpCoffeeMachineCircuitboard #imp
     dynamicRecipes:
