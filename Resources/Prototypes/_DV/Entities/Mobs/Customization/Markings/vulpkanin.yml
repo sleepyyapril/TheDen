@@ -71,7 +71,7 @@
   id: VulpEarFennec
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Vulpkanin, Human, SlimePerson, IPC, Canid, Kitsune # The Den - Add Canid
+  speciesRestriction: [Vulpkanin, Human, SlimePerson, IPC, Canid, Kitsune] # The Den - Add Canid
   sprites:
     - sprite: _DV/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fennec
