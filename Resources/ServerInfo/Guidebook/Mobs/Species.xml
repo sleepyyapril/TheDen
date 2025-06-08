@@ -9,12 +9,12 @@
   <GuideEntityEmbed Entity="MobHuman" Caption="Human"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="MobMoth" Caption="Moth Person"/>
-  <GuideEntityEmbed Entity="MobOni" Caption="Oni"/>
-  <GuideEntityEmbed Entity="MobReptilian" Caption="Reptilian"/>
-  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Slime Person"/>
-  <GuideEntityEmbed Entity="MobShadowkinDummy" Caption="Shadowkin"/>
-  <GuideEntityEmbed Entity="MobChitinid" Caption="Chitinid"/>
+    <GuideEntityEmbed Entity="MobMoth" Caption="Moth Person"/>
+    <GuideEntityEmbed Entity="MobOni" Caption="Oni"/>
+    <GuideEntityEmbed Entity="MobReptilian" Caption="Reptilian"/>
+    <GuideEntityEmbed Entity="MobSlimePerson" Caption="Slime Person"/>
+    <GuideEntityEmbed Entity="MobShadowkinDummy" Caption="Shadowkin"/>
+    <GuideEntityEmbed Entity="MobChitinid" Caption="Chitinid"/>
     <GuideEntityEmbed Entity="MobResomi" Caption="Resomi"/>
   </Box>
 
@@ -27,12 +27,10 @@
   <Box>
     <GuideEntityEmbed Entity="MobRodentia" Caption="Rodentia"/>
     <GuideEntityEmbed Entity="MobFeroxi" Caption="Feroxi"/>
-    <GuideEntityEmbed Entity="MobRodentia" Caption="Rodentia"/>
     <GuideEntityEmbed Entity="MobVulpkanin" Caption="Vulpkanin"/>
     <GuideEntityEmbed Entity="MobFelinid" Caption="Felinid"/>
     <GuideEntityEmbed Entity="MobHarpy" Caption="Harpy"/>
     <GuideEntityEmbed Entity="MobOni" Caption="Oni"/>
-    <GuideEntityEmbed Entity="MobFeroxi" Caption="Feroxi"/>
     <GuideEntityEmbed Entity="MobKitsune" Caption="Kitsune"/>
   </Box>
 
