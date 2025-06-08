@@ -24,8 +24,6 @@ chat-language-Chittin-name = Chittin
 chat-language-Nehina-name = Nēhina
 chat-language-Rodentian-name = Rodentian
 chat-language-Kagebun-name = Kagebun
-# Floof
-chat-language-Sign-name = Sign language
 
 # Animal Languages
 
