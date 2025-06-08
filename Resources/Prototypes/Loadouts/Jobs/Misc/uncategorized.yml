@@ -8,7 +8,7 @@
 # Equipment
 - type: loadout
   id: LoadoutMiscCQCManual
-  category: JobsMiscAUncategorized
+  category: JobsZMiscAUncategorized
   cost: 4
   requirements:
     - !type:CharacterLogicOrRequirement
