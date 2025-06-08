@@ -57,7 +57,6 @@
     understands:
       - TauCetiBasic
       - Kagebun
-    naturalLanguage: Kagebun # Floof - M3739 - #937 - Shadow Sentence
   - type: Tag
     tags:
       - CanPilot

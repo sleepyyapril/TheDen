@@ -108,7 +108,7 @@
   group: Toxins
   desc: reagent-name-unholy-water
   physicalDesc: reagent-physical-desc-menacing
-  flavor: UnholyWater
+  flavor: unknown
   color: "#1614143d"
   metabolisms:
     Medicine:
