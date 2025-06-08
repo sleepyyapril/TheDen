@@ -5425,3 +5425,10 @@ Entries:
   id: 508
   time: '2025-06-08T07:11:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/688
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Removed belt noises.
+  id: 509
+  time: '2025-06-08T17:15:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/715
