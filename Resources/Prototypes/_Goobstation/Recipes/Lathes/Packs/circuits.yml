@@ -4,8 +4,8 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 ## Dynamic
-- type: latheRecipePack
-  id: EngineeringBoardsGoob
-  recipes:
-  - RoboticArmCircuitboard
-  - StorageBinCircuitboard
+# - type: latheRecipePack
+#   id: EngineeringBoardsGoob
+#   recipes:
+#   - RoboticArmCircuitboard
+#   - StorageBinCircuitboard
