@@ -5408,3 +5408,13 @@ Entries:
   id: 506
   time: '2025-06-08T07:06:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/714
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added soretizone, agonolexyne, stubantazine, equilibrazine, tranquinase,
+        calmafluxine, blissifylovene, neurozenium, and serenitol as new psych
+        chems.
+  id: 507
+  time: '2025-06-08T07:08:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/708
