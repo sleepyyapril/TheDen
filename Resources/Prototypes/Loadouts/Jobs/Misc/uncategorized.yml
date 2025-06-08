@@ -17,6 +17,8 @@
         jobs:
           - Boxer
           - MartialArtist
+  items:
+    - NTCQCManual
 
 # Eyes
 
