@@ -16,9 +16,9 @@
     prototype: RoboticArm
     requirements:
       Manipulator: 4
-      Cable: 5
     materialRequirements: 
       Steel: 6
+      Cable: 5
     tagRequirements:
       BorgArm:
         Amount: 2
@@ -32,7 +32,8 @@
   components:
   - type: MachineBoard
     prototype: StorageBin
-    stackRequirements:
+    requirements:
       MatterBin: 2
       Manipulator: 2
+    materialRequirements:
       Steel: 1
