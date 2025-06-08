@@ -14,14 +14,15 @@
     state: engineering
   - type: MachineBoard
     prototype: RoboticArm
-    stackRequirements:
+    requirements:
       Manipulator: 4
-      Steel: 6
       Cable: 5
+    materialRequirements: 
+      Steel: 6
     tagRequirements:
       BorgArm:
-        amount: 2
-        defaultPrototype: LeftArmBorg
+        Amount: 2
+        DefaultPrototype: LeftArmBorg
 
 - type: entity
   parent: BaseMachineCircuitboard
