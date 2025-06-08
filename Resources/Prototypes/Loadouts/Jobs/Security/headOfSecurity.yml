@@ -3,6 +3,20 @@
 
 # Belt
 
+- type: loadout
+  id: LoadoutCommandHoSJudoBelt
+  category: JobsSecurityHeadOfSecurity
+  cost: 6
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityBelt
+    - !type:CharacterJobRequirement
+      jobs:
+        - HeadOfSecurity
+  items:
+    - ClothingBeltCorporateJudo
+
 # Ears
 
 # Equipment

@@ -4,11 +4,13 @@
 #  maxItems: 1
 #  items:
 #
-#- type: characterItemGroup
-#  id: LoadoutHeadOfSecurityBelt
-#  maxItems: 1
-#  items:
-#
+- type: characterItemGroup
+  id: LoadoutHeadOfSecurityBelt
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutCommandHoSJudoBelt
+
 #- type: characterItemGroup
 #  id: LoadoutHeadOfSecurityEars
 #  maxItems: 1

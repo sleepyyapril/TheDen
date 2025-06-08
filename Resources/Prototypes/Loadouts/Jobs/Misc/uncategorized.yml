@@ -6,6 +6,17 @@
 # Ears
 
 # Equipment
+- type: loadout
+  id: LoadoutMiscCQCManual
+  category: JobsMiscAUncategorized
+  cost: 4
+  requirements:
+    - !type:CharacterLogicOrRequirement
+      requirements:
+      - !type:CharacterJobRequirement
+        jobs:
+          - Boxer
+          - MartialArtist
 
 # Eyes
 
