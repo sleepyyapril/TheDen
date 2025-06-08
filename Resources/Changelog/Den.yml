@@ -5450,3 +5450,18 @@ Entries:
   id: 511
   time: '2025-06-08T21:03:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/710
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: Removed the Handheld Power Monitor from All Engineering loadouts
+    - type: Tweak
+      message: >-
+        Removed the Handheld Atmos Monitor from the Atmospheric Technician
+        loadout
+    - type: Tweak
+      message: >-
+        Added the Handheld Power Monitor to the Chief Engineer's loadout (CE now
+        has both)
+  id: 512
+  time: '2025-06-08T21:22:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/724
