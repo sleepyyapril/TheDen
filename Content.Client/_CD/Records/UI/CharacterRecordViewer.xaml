@@ -49,16 +49,6 @@
                                 <Control HorizontalExpand="True" />
                                 <Label Name="RecordContainerSpecies" Align="Right" />
                             </BoxContainer>
-                            <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
-                                <Label Text="{Loc 'humanoid-profile-editor-cd-records-height'}"/>
-                                <Control HorizontalExpand="True" />
-                                <Label Name="RecordContainerHeight" Align="Right" />
-                            </BoxContainer>
-                            <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
-                                <Label Text="{Loc 'humanoid-profile-editor-cd-records-weight'}"/>
-                                <Control HorizontalExpand="True" />
-                                <Label Name="RecordContainerWeight" Align="Right"/>
-                            </BoxContainer>
                             <records:RecordLongItemDisplay Name="RecordContainerContactName" Title="{Loc 'humanoid-profile-editor-cd-records-contact-name'}"/>
                         </BoxContainer>
                         <!-- Employment -->
