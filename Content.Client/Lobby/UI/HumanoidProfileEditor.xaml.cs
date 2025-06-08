@@ -106,8 +106,6 @@ namespace Content.Client.Lobby.UI
         public event Action<HumanoidCharacterProfile, int>? OnProfileChanged;
 
         // Begin CD - Station Records
-        private float _defaultHeight = 1f;
-
         private readonly RecordEditorGui _recordsTab;
         // End CD - Station Records
 
@@ -562,6 +560,7 @@ namespace Content.Client.Lobby.UI
             #region CosmaticRecords
 
             _recordsTab = new RecordEditorGui(UpdateProfileRecords);
+            _recordsTab.Orphan();
             CTabContainer.AddTab(_recordsTab, Loc.GetString("humanoid-profile-editor-cd-records-tab"));
 
             #endregion CosmaticRecords
