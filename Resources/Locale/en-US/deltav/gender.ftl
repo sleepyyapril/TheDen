@@ -1,6 +1,6 @@
 gender-display = ({$gender ->
-    [male] He / Him
-    [female] She / Her
-    [neuter] It / It
-    *[other] They / Them
+    [male] he/him
+    [female] she/her
+    [neuter] it/it
+    *[other] they/them
 })
