@@ -5418,3 +5418,10 @@ Entries:
   id: 507
   time: '2025-06-08T07:08:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/708
+- author: Blahaj-the-Shonk
+  changes:
+    - type: Add
+      message: Keybinds for pockets and suit
+  id: 508
+  time: '2025-06-08T07:11:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/688
