@@ -8,9 +8,9 @@ public abstract partial class SharedApcPowerReceiverComponent : Component
     [ViewVariables]
     public bool Powered;
 
-    [ViewVariables]
+    [ViewVariables(VVAccess.ReadWrite)]
     public virtual bool NeedsPower { get; set; }
 
-    [ViewVariables]
+    [ViewVariables(VVAccess.ReadWrite)]
     public virtual bool PowerDisabled { get; set; }
 }
