@@ -40,6 +40,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading;
 using Content.Server.Mail.Components;
+using Content.Shared.Cargo.Components;
 using Content.Shared.Chat;
 using Content.Shared.Mail;
 using Timer = Robust.Shared.Timing.Timer;
@@ -238,7 +239,12 @@ namespace Content.Server.Mail.Systems
                 if (_stationSystem.GetOwningStation(uid) != station)
                     continue;
 
-                _cargoSystem.UpdateBankAccount(station, account, component.Bounty);
+                var distribution = _cargoSystem.CreateAccountDistribution(
+                    account.PrimaryAccount,
+                    account,
+                    account.PrimaryCut);
+
+                _cargoSystem.UpdateBankAccount(station, component.Bounty, distribution);
             }
         }
 
@@ -295,7 +301,12 @@ namespace Content.Server.Mail.Systems
                 if (_stationSystem.GetOwningStation(uid) != station)
                     continue;
 
-                _cargoSystem.UpdateBankAccount(station, account, component.Penalty);
+                var distribution = _cargoSystem.CreateAccountDistribution(
+                    account.PrimaryAccount,
+                    account,
+                    account.PrimaryCut);
+
+                _cargoSystem.UpdateBankAccount(station, component.Penalty, distribution);
                 return;
             }
         }

@@ -6,6 +6,7 @@ using Content.Server._DV.Cargo.Components;
 using Content.Server._DV.CartridgeLoader.Cartridges;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
+using Content.Shared.Cargo.Components;
 using Content.Shared.CartridgeLoader;
 using Content.Shared.CartridgeLoader.Cartridges;
 using Content.Shared.Database;
@@ -147,10 +148,12 @@ public sealed class StockMarketSystem : EntitySystem
         if (!stockMarket.StockOwnership.TryGetValue(companyIndex, out var currentOwned))
             currentOwned = 0;
 
+        var balance = bank.Accounts[bank.PrimaryAccount];
+
         if (amount > 0)
         {
             // Buying: see if we can afford it
-            if (bank.Balance < totalValue)
+            if (balance < totalValue)
                 return false;
         }
         else
@@ -168,7 +171,8 @@ public sealed class StockMarketSystem : EntitySystem
             stockMarket.StockOwnership.Remove(companyIndex);
 
         // Update the bank account (take away for buying and give for selling)
-        _cargo.UpdateBankAccount(station, bank, -totalValue);
+        var distribution = _cargo.CreateAccountDistribution(bank.PrimaryAccount, bank, bank.PrimaryCut);
+        _cargo.UpdateBankAccount(station, -totalValue, distribution);
 
         // Log the transaction
         var verb = amount > 0 ? "bought" : "sold";

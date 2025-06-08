@@ -85,7 +85,7 @@ public sealed class StockTradingCartridgeSystem : EntitySystem
         var state = new StockTradingUiState(
             entries: stockMarket.Companies,
             ownedStocks: stockMarket.StockOwnership,
-            balance: bankAccount.Balance
+            balance: bankAccount.Accounts[bankAccount.PrimaryAccount]
         );
 
         _cartridgeLoader.UpdateCartridgeUiState(loader, state);
