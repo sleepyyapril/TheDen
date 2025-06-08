@@ -69,7 +69,7 @@
   description: uplink-sleeping-carp-desc
   productEntity: SleepingCarpScroll
   cost:
-    Telecrystal: 70
+    Telecrystal: 140
   categories:
   - UplinkWeaponry
   conditions:
