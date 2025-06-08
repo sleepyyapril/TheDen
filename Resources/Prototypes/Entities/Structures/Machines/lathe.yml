@@ -543,6 +543,11 @@
     - CryoPodMachineCircuitboard
     - N14MaterialCircuitry
     - CutterMachineCircuitboard
+    - SalvageMagnetMachineCircuitboard
+    - BorgChargerCircuitboard
+    - ShipyardComputerCircuitboard
+    - SupermatterComputerCircuitboard # imp
+    - ImpCoffeeMachineCircuitboard #imp
     dynamicRecipes:
     - ThermomachineFreezerMachineCircuitBoard
     - DroneElectronics
@@ -597,6 +602,7 @@
     - EmitterCircuitboard
     - ThrusterMachineCircuitboard
     - GyroscopeMachineCircuitboard
+    - MiniGyroscopeMachineCircuitboard
     - MiniGravityGeneratorCircuitboard
     - ShuttleGunKineticCircuitboard
     - GasRecyclerMachineCircuitboard
@@ -1444,6 +1450,7 @@
       - RadarConsoleCircuitboard
       - ThrusterMachineCircuitboard
       - GyroscopeMachineCircuitboard
+      - MiniGyroscopeMachineCircuitboard
       - MiniGravityGeneratorCircuitboard
       - ShuttleGunKineticCircuitboard
   - type: MaterialStorage
@@ -1492,6 +1499,7 @@
     - RadarConsoleCircuitboard
     - ThrusterMachineCircuitboard
     - GyroscopeMachineCircuitboard
+    - MiniGyroscopeMachineCircuitboard
     - MiniGravityGeneratorCircuitboard
     - ShuttleGunKineticCircuitboard
     # Machines and computers
