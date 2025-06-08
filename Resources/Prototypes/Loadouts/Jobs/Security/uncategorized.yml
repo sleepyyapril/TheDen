@@ -128,48 +128,6 @@
     - Flash
 
 - type: loadout
-  id: LoadoutMagazinePistol
-  category: JobsSecurityAUncategorized
-  cost: 0
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterLogicOrRequirement
-      requirements:
-      - !type:CharacterDepartmentRequirement
-        departments:
-          - Security
-      - !type:CharacterJobRequirement
-        jobs:
-          - BlueshieldOfficer
-  items:
-    - MagazinePistol
-
-- type: loadout
-  id: LoadoutMagazinePistolSpare
-  category: JobsSecurityAUncategorized
-  cost: 2
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterLogicOrRequirement
-      requirements:
-      - !type:CharacterDepartmentRequirement
-        departments:
-          - Security
-      - !type:CharacterJobRequirement
-        jobs:
-          - BlueshieldOfficer
-  items:
-    - MagazinePistol
-
-- type: loadout
   id: LoadoutMagazinePistolRubber
   category: JobsSecurityAUncategorized
   cost: 0
@@ -204,50 +162,6 @@
           - BlueshieldOfficer
   items:
     - MagazinePistolRubber
-
-- type: loadout
-  id: LoadoutSpeedLoaderMagnum
-  category: JobsSecurityAUncategorized
-  cost: 2
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterLogicOrRequirement
-      requirements:
-      - !type:CharacterDepartmentRequirement
-        departments:
-          - Security
-      - !type:CharacterJobRequirement
-        jobs:
-          - BlueshieldOfficer
-  items:
-    - SpeedLoaderMagnum
-
-- type: loadout
-  id: LoadoutSpeedLoaderMagnumSpare
-  category: JobsSecurityAUncategorized
-  cost: 4
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterLogicOrRequirement
-      requirements:
-      - !type:CharacterDepartmentRequirement
-        departments:
-          - Security
-      - !type:CharacterJobRequirement
-        jobs:
-          - BlueshieldOfficer
-  items:
-    - SpeedLoaderMagnum
 
 - type: loadout
   id: LoadoutSpeedLoaderMagnumRubber
@@ -288,28 +202,6 @@
     - SpeedLoaderMagnumRubber
 
 - type: loadout
-  id: LoadoutMagazineMagnum
-  category: JobsSecurityAUncategorized
-  cost: 4
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterLogicOrRequirement
-      requirements:
-      - !type:CharacterDepartmentRequirement
-        departments:
-          - Security
-      - !type:CharacterJobRequirement
-        jobs:
-          - BlueshieldOfficer
-  items:
-    - MagazineMagnum
-
-- type: loadout
   id: LoadoutMagazineMagnumRubber
   category: JobsSecurityAUncategorized
   cost: 4
@@ -332,28 +224,6 @@
     - MagazineMagnumRubber
 
 - type: loadout
-  id: LoadoutMagazineMagnumSpare
-  category: JobsSecurityAUncategorized
-  cost: 4
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterLogicOrRequirement
-      requirements:
-      - !type:CharacterDepartmentRequirement
-        departments:
-          - Security
-      - !type:CharacterJobRequirement
-        jobs:
-          - BlueshieldOfficer
-  items:
-    - MagazineMagnum
-
-- type: loadout
   id: LoadoutMagazineMagnumRubberSpare
   category: JobsSecurityAUncategorized
   cost: 4
@@ -374,50 +244,6 @@
           - BlueshieldOfficer
   items:
     - MagazineMagnumRubber
-
-- type: loadout
-  id: LoadoutSpeedLoaderRifleHeavy
-  category: JobsSecurityAUncategorized
-  cost: 2
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterLogicOrRequirement
-      requirements:
-      - !type:CharacterDepartmentRequirement
-        departments:
-          - Security
-      - !type:CharacterJobRequirement
-        jobs:
-          - BlueshieldOfficer
-  items:
-    - SpeedLoaderRifleHeavy
-
-- type: loadout
-  id: LoadoutSpeedLoaderRifleHeavySpare
-  category: JobsSecurityAUncategorized
-  cost: 4
-  exclusive: true
-  requirements:
-    - !type:CharacterDepartmentTimeRequirement
-      department: Security
-      min: 3600 # 1 hours
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutSecurityEquipment
-    - !type:CharacterLogicOrRequirement
-      requirements:
-      - !type:CharacterDepartmentRequirement
-        departments:
-          - Security
-      - !type:CharacterJobRequirement
-        jobs:
-          - BlueshieldOfficer
-  items:
-    - SpeedLoaderRifleHeavy
 
 - type: loadout
   id: LoadoutSpeedLoaderRifleHeavyRubber

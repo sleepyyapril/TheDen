@@ -35,39 +35,23 @@
     - type: loadout
       id: LoadoutSecurityFlash
     - type: loadout
-      id: LoadoutMagazinePistol
-    - type: loadout
-      id: LoadoutMagazinePistolSpare
-    - type: loadout
       id: LoadoutMagazinePistolRubber
     - type: loadout
       id: LoadoutMagazinePistolRubberSpare
-    - type: loadout
-      id: LoadoutSpeedLoaderMagnum
-    - type: loadout
-      id: LoadoutSpeedLoaderMagnumSpare
     - type: loadout
       id: LoadoutSpeedLoaderMagnumRubber
     - type: loadout
       id: LoadoutSpeedLoaderMagnumRubberSpare
     - type: loadout
-      id: LoadoutMagazineMagnum
-    - type: loadout
       id: LoadoutMagazineMagnumRubber
     - type: loadout
-      id: LoadoutMagazineMagnumSpare
-    - type: loadout
       id: LoadoutMagazineMagnumRubberSpare
-    - type: loadout
-      id: LoadoutSpeedLoaderRifleHeavy
-    - type: loadout
-      id: LoadoutSpeedLoaderRifleHeavySpare
     - type: loadout
       id: LoadoutSpeedLoaderRifleHeavyRubber
     - type: loadout
       id: LoadoutSpeedLoaderRifleHeavyRubberSpare
     - type: loadout
-      id: LoadoutMagazineMagnumMagnumLeverRifle
+      id: LoadoutMagazineMagnumMagnumLeverRifle 
     - type: loadout
       id: LoadoutMagazineMagnumMagnumLeverRifleSpare
     - type: loadout
