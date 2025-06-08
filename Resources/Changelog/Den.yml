@@ -5399,3 +5399,12 @@ Entries:
   id: 505
   time: '2025-06-08T06:59:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/709
+- author: TJohnson
+  changes:
+    - type: Add
+      message: >-
+        .38 special moon clips to Security loadouts. Revolver enthusiasts
+        rejoice!
+  id: 506
+  time: '2025-06-08T07:06:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/714
