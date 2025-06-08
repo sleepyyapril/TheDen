@@ -132,6 +132,11 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     public PreferenceUnavailableMode PreferenceUnavailable { get; private set; } =
         PreferenceUnavailableMode.SpawnAsOverflow;
 
+    // Start CD - Character records
+    [DataField("cosmaticDriftCharacterRecords")]
+    public PlayerProvidedCharacterRecords? CDCharacterRecords;
+    // End CD - Character records
+
     public HumanoidCharacterProfile(
         string name,
         string flavortext,
@@ -158,7 +163,8 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         PreferenceUnavailableMode preferenceUnavailable,
         HashSet<string> antagPreferences,
         HashSet<string> traitPreferences,
-        HashSet<LoadoutPreference> loadoutPreferences)
+        HashSet<LoadoutPreference> loadoutPreferences,
+        PlayerProvidedCharacterRecords? cdCharacterRecords)
     {
         Name = name;
         FlavorText = flavortext;
@@ -186,6 +192,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         _antagPreferences = antagPreferences;
         _traitPreferences = traitPreferences;
         _loadoutPreferences = loadoutPreferences;
+        CDCharacterRecords = cdCharacterRecords;
     }
 
     /// <summary>Copy constructor</summary>
@@ -216,8 +223,8 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             other.PreferenceUnavailable,
             new HashSet<string>(other.AntagPreferences),
             new HashSet<string>(other.TraitPreferences),
-            new HashSet<LoadoutPreference>(other.LoadoutPreferences)),
-            other.CDCharacterRecords
+            new HashSet<LoadoutPreference>(other.LoadoutPreferences),
+            other.CDCharacterRecords)
     {
     }
 
@@ -368,6 +375,13 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         return new(this) { _antagPreferences = list };
     }
 
+    // Begin CD - Character Records
+    public HumanoidCharacterProfile WithCDCharacterRecords(PlayerProvidedCharacterRecords records)
+    {
+        return new HumanoidCharacterProfile(this) { CDCharacterRecords = records };
+    }
+    // End CD - Character Records
+
     public HumanoidCharacterProfile WithTraitPreference(string traitId, bool pref)
     {
         var list = new HashSet<string>(_traitPreferences);
@@ -425,8 +439,9 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             && _traitPreferences.SequenceEqual(other._traitPreferences)
             && LoadoutPreferences.SequenceEqual(other.LoadoutPreferences)
             && Appearance.MemberwiseEquals(other.Appearance)
-            && FlavorText == other.FlavorText;
-            && CDCharacterRecords.MemberwiseEquals(other.CDCharacterRecords)
+            && FlavorText == other.FlavorText
+            && CDCharacterRecords != null && other.CDCharacterRecords != null &&
+                CDCharacterRecords.MemberwiseEquals(other.CDCharacterRecords);
     }
 
     public void EnsureValid(ICommonSession session, IDependencyCollection collection)

@@ -562,8 +562,7 @@ namespace Content.Client.Lobby.UI
             #region CosmaticRecords
 
             _recordsTab = new RecordEditorGui(UpdateProfileRecords);
-            TabContainer.AddChild(_recordsTab);
-            TabContainer.SetTabTitle(TabContainer.ChildCount - 1, Loc.GetString("humanoid-profile-editor-cd-records-tab"));
+            CTabContainer.AddTab(_recordsTab, Loc.GetString("humanoid-profile-editor-cd-records-tab"));
 
             #endregion CosmaticRecords
             // End CD - Character Records
@@ -930,7 +929,6 @@ namespace Content.Client.Lobby.UI
             UpdateCharacterRequired();
 
             // Begin CD - Character Records
-            UpdateHeightControls();
             _recordsTab.Update(profile);
             // End CD - Character Records
 
@@ -1578,15 +1576,6 @@ namespace Content.Client.Lobby.UI
             IsDirty = true;
         }
 
-        // Begin CD - Character Records
-        private void SetProfileHeight(float height)
-        {
-            Profile = Profile?.WithHeight(height);
-            SetDirty();
-            ReloadProfilePreview();
-        }
-        // End CD - Character Records
-
         private void SetSpawnPriority(SpawnPriorityPreference newSpawnPriority)
         {
             Profile = Profile?.WithSpawnPriorityPreference(newSpawnPriority);
@@ -1596,14 +1585,14 @@ namespace Content.Client.Lobby.UI
         private void SetProfileHeight(float height)
         {
             Profile = Profile?.WithHeight(height);
-            IsDirty = true;
+            SetDirty();
             ReloadProfilePreview();
         }
 
         private void SetProfileWidth(float width)
         {
             Profile = Profile?.WithWidth(width);
-            IsDirty = true;
+            SetDirty();
             ReloadProfilePreview();
         }
 

@@ -6,8 +6,10 @@ using System.Runtime.CompilerServices;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
+using Content.Server._CD.Records;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
+using Content.Shared._CD.Records;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Clothing.Loadouts.Systems;
 using Content.Shared.Consent;
@@ -24,8 +26,6 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using Content.Shared.Roles;
 using Robust.Shared.Prototypes;
-using Content.Server._CD.Records; // CD - Character Records
-using Content.Shared._CD.Records; // CD - Character Records
 
 namespace Content.Server.Database
 {
@@ -53,12 +53,12 @@ namespace Content.Server.Database
                 .Include(p => p.Profiles).ThenInclude(h => h.Jobs)
                 .Include(p => p.Profiles).ThenInclude(h => h.Antags)
                 .Include(p => p.Profiles).ThenInclude(h => h.Traits)
-                .Include(p => p.Profiles).ThenInclude(h => h.Loadouts)
                 // Begin CD - Character Records
                 .Include(p => p.Profiles)
-                    .ThenInclude(h => h.CDProfile)
-                    .ThenInclude(cd => cd != null ? cd.CharacterRecordEntries : null)
+                .ThenInclude(h => h.CDProfile)
+                .ThenInclude(cd => cd != null ? cd.CharacterRecordEntries : null)
                 // End CD - Character Records
+                .Include(p => p.Profiles).ThenInclude(h => h.Loadouts)
                 .AsSingleQuery()
                 .SingleOrDefaultAsync(p => p.UserId == userId.UserId, cancel);
 
@@ -102,14 +102,14 @@ namespace Content.Server.Database
             }
 
             var oldProfile = db.DbContext.Profile
-                .Include(p => p.CDProfile) // CD - Character Records
-                    .ThenInclude(cd => cd != null ? cd.CharacterRecordEntries : null)
                 .Include(p => p.Preference)
                 .Where(p => p.Preference.UserId == userId.UserId)
                 .Include(p => p.Jobs)
                 .Include(p => p.Antags)
                 .Include(p => p.Traits)
                 .Include(p => p.Loadouts)
+                .Include(p => p.CDProfile) // CD - Character Records
+                .ThenInclude(cd => cd != null ? cd.CharacterRecordEntries : null)
                 .AsSplitQuery()
                 .SingleOrDefault(h => h.Slot == slot);
 
@@ -237,29 +237,6 @@ namespace Content.Server.Database
                 ? RecordsSerialization.Deserialize(profile.CDProfile.CharacterRecords, profile.CDProfile.CharacterRecordEntries)
                 : PlayerProvidedCharacterRecords.DefaultRecords();
             // End CD - Character Records
-            var loadouts = new Dictionary<string, RoleLoadout>();
-
-            foreach (var role in profile.Loadouts)
-            {
-                var loadout = new RoleLoadout(role.RoleName)
-                {
-                    EntityName = role.EntityName,
-                };
-
-                foreach (var group in role.Groups)
-                {
-                    var groupLoadouts = loadout.SelectedLoadouts.GetOrNew(group.GroupName);
-                    foreach (var profLoadout in group.Loadouts)
-                    {
-                        groupLoadouts.Add(new Loadout()
-                        {
-                            Prototype = profLoadout.LoadoutName,
-                        });
-                    }
-                }
-
-                loadouts[role.RoleName] = loadout;
-            }
 
             return new HumanoidCharacterProfile(
                 profile.CharacterName,
@@ -360,21 +337,21 @@ namespace Content.Server.Database
                         .Select(t => new Trait { TraitName = t })
             );
 
+            profile.Loadouts.Clear();
+            profile.Loadouts.AddRange(humanoid.LoadoutPreferences
+                .Select(l => new Loadout(l.LoadoutName, l.CustomName, l.CustomDescription, l.CustomColorTint, l.CustomHeirloom)));
+
             // Begin CD - Character Records
-            profile.CDProfile ??= new CDModel.CDProfile();
-            profile.CDProfile.Height = humanoid.Height;
+            profile.CDProfile ??= new();
             // There are JsonIgnore annotations to ensure that entries are not stored as JSON.
             profile.CDProfile.CharacterRecords = JsonSerializer.SerializeToDocument(humanoid.CDCharacterRecords ?? PlayerProvidedCharacterRecords.DefaultRecords());
+
             if (humanoid.CDCharacterRecords != null)
             {
                 profile.CDProfile.CharacterRecordEntries.Clear();
                 profile.CDProfile.CharacterRecordEntries.AddRange(RecordsSerialization.GetEntries(humanoid.CDCharacterRecords));
             }
             // End CD - Character Records
-
-            profile.Loadouts.Clear();
-            profile.Loadouts.AddRange(humanoid.LoadoutPreferences
-                .Select(l => new Loadout(l.LoadoutName, l.CustomName, l.CustomDescription, l.CustomColorTint, l.CustomHeirloom)));
 
             return profile;
         }
