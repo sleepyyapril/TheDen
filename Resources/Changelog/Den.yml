@@ -5334,3 +5334,18 @@ Entries:
   id: 499
   time: '2025-06-08T02:29:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/680
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Readded the Security Weapons as nonlethals, probably pending buffs.
+    - type: Tweak
+      message: Increased Traitor spawn TC to 175 from 115.
+    - type: Tweak
+      message: >-
+        Increased price of Grenade Launcher, and the L6 Saw, Super Surplus
+        bundles alongside the Holy Hand Grenade to match the above.
+    - type: Tweak
+      message: Wooden Viper is now nonlethal.
+  id: 500
+  time: '2025-06-08T03:26:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/703
