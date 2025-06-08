@@ -5374,3 +5374,21 @@ Entries:
   id: 503
   time: '2025-06-08T05:08:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/695
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Added a filter, such that you can search people on the crew console by
+        name or job.
+    - type: Fix
+      message: >-
+        Suit sensors will no longer duplicate on the crew console when you have
+        multiple "sources" of sensors. See PR for details.
+    - type: Remove
+      message: >-
+        Removed the check for incapacitation on changing another person's
+        coords. You're now free to come up to people and force their coords on.
+        (or off, you rascal) 
+  id: 504
+  time: '2025-06-08T06:58:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/704
