@@ -45,5 +45,5 @@
         Steel: 5
       tagRequirements:
           GlassBeaker:
-            amount: 1
-            defaultPrototype: Beaker
+            Amount: 1
+            DefaultPrototype: Beaker
