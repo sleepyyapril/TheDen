@@ -5300,3 +5300,10 @@ Entries:
   id: 495
   time: '2025-06-07T19:39:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/694
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added the Pathfinder to the shipyard
+  id: 496
+  time: '2025-06-08T02:10:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/698
