@@ -5349,3 +5349,10 @@ Entries:
   id: 500
   time: '2025-06-08T03:26:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/703
+- author: Fox
+  changes:
+    - type: Fix
+      message: Fixed various minor issues with Barrier Hospital
+  id: 501
+  time: '2025-06-08T04:27:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/697
