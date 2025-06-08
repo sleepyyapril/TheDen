@@ -181,9 +181,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledShotgun
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 60
+    Telecrystal: 90
   cost:
-    Telecrystal: 100
+    Telecrystal: 140
   categories:
   - UplinkWeaponry
 
@@ -195,9 +195,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 100
+    Telecrystal: 140
   cost:
-    Telecrystal: 125
+    Telecrystal: 190
   categories:
   - UplinkWeaponry
 
@@ -209,9 +209,9 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledLMG
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 120
+    Telecrystal: 180
   cost:
-    Telecrystal: 150
+    Telecrystal: 225
   categories:
   - UplinkWeaponry
 
@@ -1261,7 +1261,7 @@
   description: uplink-super-surplus-bundle-desc
   productEntity: CrateSyndicateSuperSurplusBundle
   cost:
-    Telecrystal: 200
+    Telecrystal: 300
   categories:
   - UplinkDisruption
   conditions:
@@ -1993,9 +1993,9 @@
   productEntity: HolyHandGrenade
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 70
+    Telecrystal: 105
   cost:
-    Telecrystal: 100
+    Telecrystal: 150
   categories:
   - UplinkJob
   conditions:
