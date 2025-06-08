@@ -12,6 +12,8 @@ using Robust.Shared.GameStates;
 using Robust.Shared.Utility;
 using Content.Shared.Emp;
 using Content.Shared.Interaction;
+using Robust.Server.Audio;
+using Robust.Server.GameObjects;
 
 
 namespace Content.Server.Power.EntitySystems
@@ -19,8 +21,6 @@ namespace Content.Server.Power.EntitySystems
     public sealed class PowerReceiverSystem : SharedPowerReceiverSystem
     {
         [Dependency] private readonly IAdminManager _adminManager = default!;
-        [Dependency] private readonly AppearanceSystem _appearance = default!;
-        [Dependency] private readonly AudioSystem _audio = default!;
         [Dependency] private readonly SharedInteractionSystem _interaction = default!;
         private EntityQuery<ApcPowerReceiverComponent> _recQuery;
         private EntityQuery<ApcPowerProviderComponent> _provQuery;
