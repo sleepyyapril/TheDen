@@ -5439,3 +5439,14 @@ Entries:
   id: 510
   time: '2025-06-08T20:58:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/723
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added a coffee machine and cups.
+    - type: Add
+      message: >-
+        Added the supermatter, shipyard, mini gyroscope, and other boards to the
+        lathe
+  id: 511
+  time: '2025-06-08T21:03:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/710
