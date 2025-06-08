@@ -43,6 +43,16 @@
     - type: loadout
       id: LoadoutSpeedLoaderMagnumRubberSpare
     - type: loadout
+      id: LoadoutSpeedLoaderSpecial
+    - type: loadout
+      id: LoadoutSpeedLoaderSpecialSpare
+    - type: loadout
+      id: LoadoutSpeedLoaderSpecialRubber
+    - type: loadout
+      id: LoadoutSpeedLoaderSpecialRubberSpare
+    - type: loadout
+      id: LoadoutMagazineMagnum
+    - type: loadout
       id: LoadoutMagazineMagnumRubber
     - type: loadout
       id: LoadoutMagazineMagnumRubberSpare
@@ -64,41 +74,33 @@
     - type: loadout
       id: LoadoutSecurityDisabler
     - type: loadout
-      id: LoadoutSecurityMk58
-    - type: loadout
       id: LoadoutSecurityMk58NonLethal
-    - type: loadout
-      id: LoadoutSecurityRevolver
     - type: loadout
       id: LoadoutSecurityRevolverNonLethal
     - type: loadout
-      id: LoadoutSecurityRevolverDeckard
-    - type: loadout
       id: LoadoutSecurityRevolverDeckardNonLethal
     - type: loadout
-      id: LoadoutSecurityPistolViperWood
+      id: LoadoutSecurityPistolN1984NonLethal
+    - type: loadout
+      id: LoadoutSecurityPistolViperNonLethal
+    - type: loadout
+      id: LoadoutSecurityPistolViperWoodNonlethal
     - type: loadout
       id: LoadoutSecurityEquipmentTruncheon
     - type: loadout
-      id: LoadoutSecurityPistolPollock
-    - type: loadout
       id: LoadoutSecurityPistolPollockNonlethal
-    - type: loadout
-      id: LoadoutSecurityRevolverSnub
     - type: loadout
       id: LoadoutSecurityRevolverSnubNonlethal
     - type: loadout
-      id: LoadoutSecurityRevolverK38Master
-    - type: loadout
       id: LoadoutSecurityRevolverK38MasterNonlethal
-    - type: loadout
-      id: LoadoutSecurityRevolverFitz
     - type: loadout
       id: LoadoutSecurityRevolverFitzNonlethal
     - type: loadout
-      id: LoadoutSecurityArgenti
+      id: LoadoutSecurityRevolverPythonNonlethal
     - type: loadout
       id: LoadoutSecurityArgentiNonLethal
+    - type: loadout
+      id: LoadoutSecurityShotgunSawn
     - type: loadout
       id: LoadoutSecurityPlasteelArmingSword
 
