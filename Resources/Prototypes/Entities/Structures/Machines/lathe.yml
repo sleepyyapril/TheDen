@@ -602,6 +602,7 @@
     - EmitterCircuitboard
     - ThrusterMachineCircuitboard
     - GyroscopeMachineCircuitboard
+    - MiniGyroscopeMachineCircuitboard
     - MiniGravityGeneratorCircuitboard
     - ShuttleGunKineticCircuitboard
     - GasRecyclerMachineCircuitboard
@@ -1443,6 +1444,7 @@
       - RadarConsoleCircuitboard
       - ThrusterMachineCircuitboard
       - GyroscopeMachineCircuitboard
+      - MiniGyroscopeMachineCircuitboard
       - MiniGravityGeneratorCircuitboard
       - ShuttleGunKineticCircuitboard
   - type: MaterialStorage
@@ -1491,6 +1493,7 @@
     - RadarConsoleCircuitboard
     - ThrusterMachineCircuitboard
     - GyroscopeMachineCircuitboard
+    - MiniGyroscopeMachineCircuitboard
     - MiniGravityGeneratorCircuitboard
     - ShuttleGunKineticCircuitboard
     # Machines and computers
