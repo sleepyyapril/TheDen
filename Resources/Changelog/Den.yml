@@ -5490,3 +5490,12 @@ Entries:
   id: 515
   time: '2025-06-09T03:16:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/726
+- author: Fox
+  changes:
+    - type: Add
+      message: Added the Illegal Gorilla Room to Barrier
+    - type: Tweak
+      message: Made Barrier 8% more interesting and 4% safer
+  id: 516
+  time: '2025-06-09T03:50:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/730
