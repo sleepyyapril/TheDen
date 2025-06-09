@@ -5551,3 +5551,10 @@ Entries:
   id: 522
   time: '2025-06-09T16:21:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/735
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: IPCs now use significantly less power when standing still
+  id: 523
+  time: '2025-06-09T16:21:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/696
