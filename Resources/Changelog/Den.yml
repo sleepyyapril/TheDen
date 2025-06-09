@@ -5544,3 +5544,10 @@ Entries:
   id: 521
   time: '2025-06-09T16:13:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/734
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported the Collapsible Ghost Roles menu.
+  id: 522
+  time: '2025-06-09T16:21:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/735
