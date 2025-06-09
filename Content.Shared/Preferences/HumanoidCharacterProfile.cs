@@ -378,7 +378,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     // Begin CD - Character Records
     public HumanoidCharacterProfile WithCDCharacterRecords(PlayerProvidedCharacterRecords records)
     {
-        return new HumanoidCharacterProfile(this) { CDCharacterRecords = records };
+        return new (this) { CDCharacterRecords = records };
     }
     // End CD - Character Records
 

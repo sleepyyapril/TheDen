@@ -103,6 +103,8 @@ namespace Content.Client.Lobby.UI
         private bool _customizeStationAiName;
         private bool _customizeBorgName;
 
+        private RecordEditorGui _records;
+
         public event Action<HumanoidCharacterProfile, int>? OnProfileChanged;
 
         [ValidatePrototypeId<GuideEntryPrototype>]
@@ -555,9 +557,8 @@ namespace Content.Client.Lobby.UI
             // Begin CD - Character Records
             #region CosmaticRecords
 
-            RecordsTab.Orphan();
-            Records.SetRecordUpdateFunction(UpdateProfileRecords);
-            CTabContainer.AddTab(RecordsTab, Loc.GetString("humanoid-profile-editor-cd-records-tab"));
+            _records = new();
+            CTabContainer.AddTab(_records, Loc.GetString("humanoid-profile-editor-cd-records-tab"));
 
             #endregion CosmaticRecords
             // End CD - Character Records
@@ -924,7 +925,7 @@ namespace Content.Client.Lobby.UI
             UpdateCharacterRequired();
 
             // Begin CD - Character Records
-            Records.Update(profile);
+            _records.Update(Profile);
             // End CD - Character Records
 
             RefreshAntags();
@@ -2045,7 +2046,7 @@ namespace Content.Client.Lobby.UI
             SetName(name);
             UpdateNameEdit();
 
-            Records.Update(Profile); // CD - Character Records
+            _records.Update(Profile); // CD - Character Records
         }
 
         private async void ImportProfile()

@@ -45,9 +45,6 @@
         <Control MinHeight="10" />
         <!-- TabContainer -->
         <ui:NeoTabContainer Name="CTabContainer" VerticalExpand="True" HScrollEnabled="False" VScrollEnabled="False">
-            <BoxContainer Name="RecordsTab" HorizontalExpand="True" VerticalExpand="True" Orientation="Vertical">
-                <cd:RecordEditorGui Name="Records" HorizontalExpand="True" VerticalExpand="True" Visible="True"/>
-            </BoxContainer>
             <BoxContainer Name="Appearance" HorizontalExpand="True" Orientation="Vertical">
                 <!-- appearanceList -->
                 <ScrollContainer HorizontalExpand="True" HScrollEnabled="True" VerticalExpand="True" VScrollEnabled="True">

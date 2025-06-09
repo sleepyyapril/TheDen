@@ -102,14 +102,14 @@ namespace Content.Server.Database
             }
 
             var oldProfile = db.DbContext.Profile
+                .Include(p => p.CDProfile) // CD: Store CD info
+                    .ThenInclude(cd => cd != null ? cd.CharacterRecordEntries : null)
                 .Include(p => p.Preference)
                 .Where(p => p.Preference.UserId == userId.UserId)
                 .Include(p => p.Jobs)
                 .Include(p => p.Antags)
                 .Include(p => p.Traits)
                 .Include(p => p.Loadouts)
-                .Include(p => p.CDProfile) // CD - Character Records
-                .ThenInclude(cd => cd != null ? cd.CharacterRecordEntries : null)
                 .AsSplitQuery()
                 .SingleOrDefault(h => h.Slot == slot);
 
