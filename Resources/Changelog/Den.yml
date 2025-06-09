@@ -5517,3 +5517,10 @@ Entries:
   id: 518
   time: '2025-06-09T06:15:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/675
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: ported Umami's ramen dishes from Frontier
+  id: 519
+  time: '2025-06-09T07:16:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/733
