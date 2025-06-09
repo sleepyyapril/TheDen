@@ -5524,3 +5524,10 @@ Entries:
   id: 519
   time: '2025-06-09T07:16:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/733
+- author: Fox
+  changes:
+    - type: Fix
+      message: Fixed Barrier's funny Epistemics window
+  id: 520
+  time: '2025-06-09T16:12:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/736
