@@ -5531,3 +5531,16 @@ Entries:
   id: 520
   time: '2025-06-09T16:12:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/736
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Height/width/weight labels in character creator now show both metric and
+        US customary (feet / inches / pounds) measurements.
+    - type: Tweak
+      message: >-
+        Rearranged the layout of the height/width sliders in the character
+        creator for a smoother experience. 
+  id: 521
+  time: '2025-06-09T16:13:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/734
