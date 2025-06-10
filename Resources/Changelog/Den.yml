@@ -5644,3 +5644,12 @@ Entries:
   id: 529
   time: '2025-06-10T17:13:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/742
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Various uplink items have been upped in price due to the recent TC
+        changes.
+  id: 530
+  time: '2025-06-10T18:05:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/744
