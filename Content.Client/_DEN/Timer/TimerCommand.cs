@@ -7,7 +7,7 @@ using Robust.Shared.Console;
 
 namespace Content.Client._DEN.Timer;
 
-[UsedImplicitly]
+[AnyCommand]
 internal sealed class TimerCommand : LocalizedCommands
 {
     [Dependency] private readonly IEntitySystemManager _sysManager = default!;
