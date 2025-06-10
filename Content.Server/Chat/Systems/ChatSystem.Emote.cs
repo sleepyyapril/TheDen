@@ -31,7 +31,8 @@ public partial class ChatSystem
 
         _sawmill.Info($"{_emotesMultiplier}");
 
-        _emotesMultiplier = ev.EmotesVolumeMultiplier / 100f * 3f;
+        _emotesMultiplier = ev.EmotesVolumeMultiplier / 100f;
+        _emotesMultiplier *= 3f;
     }
 
     protected override void OnPrototypeReload(PrototypesReloadedEventArgs obj)
@@ -176,7 +177,7 @@ public partial class ChatSystem
 
         // if general params for all sounds set - use them
         var param = proto.GeneralParams ?? sound.Params;
-        param.
+        param.Volume *= _emotesMultiplier;
         _audio.PlayPvs(sound, uid, param);
         return true;
     }
