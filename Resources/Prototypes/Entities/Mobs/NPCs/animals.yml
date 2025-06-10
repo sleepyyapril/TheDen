@@ -1784,6 +1784,7 @@
         - UncookedAnimalProteins
         amount: 0.01
   - type: Butcherable
+    gibBody: false # Floofstation
     spawned:
     - id: FoodMeatRat
       amount: 1
@@ -2024,6 +2025,7 @@
       Dead:
         Base: dead
   - type: Butcherable
+    gibBody: false # Floofstation
     spawned:
     - id: FoodMeatLizard
       amount: 1
@@ -2081,6 +2083,7 @@
       Dead:
         Base: dead
   - type: Butcherable
+    gibBody: false # Floofstation
     spawned:
     - id: FoodMeat
       amount: 1
@@ -2135,6 +2138,7 @@
       Dead:
         Base: dead
   - type: Butcherable
+    gibBody: false # Floofstation
     spawned:
     - id: FoodMeat
       amount: 1
