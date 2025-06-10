@@ -9,7 +9,7 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/_DV/NTES_Vertex.yml
+          emergencyShuttlePath: /Maps/Shuttles/TheDen/NTES_Caledonia.yml
         - type: StationNameSetup
           mapNameTemplate: '{0} Barrier Hospital {1}'
           nameGenerator:
@@ -33,6 +33,7 @@
             Musician: [ 1, 1 ]
             Janitor: [ 1, 2 ]
             Mime: [ 1, 1 ]
+            StationAi: [ 1, 1 ]
           #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 2, 2 ]
@@ -71,3 +72,4 @@
             CargoTechnician: [ 2, 4 ]
           #civilian
             Passenger: [ -1, -1 ]
+
