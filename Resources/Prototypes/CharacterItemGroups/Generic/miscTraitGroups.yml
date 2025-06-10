@@ -7,8 +7,6 @@
     - type: loadout
       id: FelinidSounds
     - type: loadout
-      id: HarpySounds
-    - type: loadout
       id: OniSounds
     - type: loadout
       id: ShadowkinSounds
