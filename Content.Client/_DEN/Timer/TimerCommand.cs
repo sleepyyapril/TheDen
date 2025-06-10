@@ -1,5 +1,6 @@
 using Content.Client.Atmos.EntitySystems;
 using Content.Shared._DEN.Timestring;
+using Content.Shared.Administration;
 using Content.Shared.Atmos;
 using Content.Shared.GameTicking;
 using JetBrains.Annotations;
