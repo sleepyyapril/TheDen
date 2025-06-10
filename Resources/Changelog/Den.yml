@@ -5611,3 +5611,12 @@ Entries:
   id: 526
   time: '2025-06-10T03:24:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/739
+- author: mart33no
+  changes:
+    - type: Add
+      message: New emotes for Reptilians (Trill, Hiss)
+    - type: Add
+      message: New emote for Vulpkanins (Yip)
+  id: 527
+  time: '2025-06-10T07:13:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/717
