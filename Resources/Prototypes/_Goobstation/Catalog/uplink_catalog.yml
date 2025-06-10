@@ -147,19 +147,19 @@
 
 # Wearables
 
-- type: listing
-  id: UplinkHardsuitCybersunStealth
-  name: uplink-hardsuit-cybersun-stealth-name
-  description: uplink-hardsuit-cybersun-stealth-desc
-  icon: { sprite: /Textures/_Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateStealthHardsuitBundle
-  discountCategory: rareDiscounts
-  discountDownTo:
-    Telecrystal: 75
-  cost:
-    Telecrystal: 100
-  categories:
-  - UplinkWearables
+#- type: listing
+#  id: UplinkHardsuitCybersunStealth
+#  name: uplink-hardsuit-cybersun-stealth-name
+#  description: uplink-hardsuit-cybersun-stealth-desc
+#  icon: { sprite: /Textures/_Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi, state: icon }
+#  productEntity: ClothingBackpackDuffelSyndicateStealthHardsuitBundle
+#  discountCategory: rareDiscounts
+#  discountDownTo:
+#    Telecrystal: 75
+#  cost:
+#    Telecrystal: 100
+#  categories:
+#  - UplinkWearables
 
 - type: listing
   id: UplinkClothingDreadnought
