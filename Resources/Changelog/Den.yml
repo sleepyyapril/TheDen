@@ -5300,3 +5300,305 @@ Entries:
   id: 495
   time: '2025-06-07T19:39:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/694
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added the Pathfinder to the shipyard
+  id: 496
+  time: '2025-06-08T02:10:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/698
+- author: KyuPolaris
+  changes:
+    - type: Tweak
+      message: Tweaked dropper into botanical belt whitelist
+  id: 497
+  time: '2025-06-08T02:11:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/700
+- author: KyuPolaris
+  changes:
+    - type: Tweak
+      message: Tweaked Golden Apple Streusel Tart to require Golden Apples now
+  id: 498
+  time: '2025-06-08T02:12:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/699
+- author: mart33no
+  changes:
+    - type: Add
+      message: Handheld Atmos Monitor  >  Atmos Tech + Chief Engineer loadouts
+    - type: Add
+      message: Handheld Power Monitor  >  All Engineering loadouts
+    - type: Add
+      message: Infinite Candle Box  >  Chaplain loadout
+    - type: Add
+      message: Antique Terminus  >  Head of Security loadout
+  id: 499
+  time: '2025-06-08T02:29:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/680
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Readded the Security Weapons as nonlethals, probably pending buffs.
+    - type: Tweak
+      message: Increased Traitor spawn TC to 175 from 115.
+    - type: Tweak
+      message: >-
+        Increased price of Grenade Launcher, and the L6 Saw, Super Surplus
+        bundles alongside the Holy Hand Grenade to match the above.
+    - type: Tweak
+      message: Wooden Viper is now nonlethal.
+  id: 500
+  time: '2025-06-08T03:26:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/703
+- author: Fox
+  changes:
+    - type: Fix
+      message: Fixed various minor issues with Barrier Hospital
+  id: 501
+  time: '2025-06-08T04:27:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/697
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Pronouns in bio (blue hair not included)
+  id: 502
+  time: '2025-06-08T05:07:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/705
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed whisper being uncolorable.
+    - type: Fix
+      message: >-
+        Whisper muffled can now be heard through walls, but whispers still can't
+        be.
+  id: 503
+  time: '2025-06-08T05:08:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/695
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Added a filter, such that you can search people on the crew console by
+        name or job.
+    - type: Fix
+      message: >-
+        Suit sensors will no longer duplicate on the crew console when you have
+        multiple "sources" of sensors. See PR for details.
+    - type: Remove
+      message: >-
+        Removed the check for incapacitation on changing another person's
+        coords. You're now free to come up to people and force their coords on.
+        (or off, you rascal) 
+  id: 504
+  time: '2025-06-08T06:58:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/704
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added the ERT, BSO, and CC modsuits
+  id: 505
+  time: '2025-06-08T06:59:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/709
+- author: TJohnson
+  changes:
+    - type: Add
+      message: >-
+        .38 special moon clips to Security loadouts. Revolver enthusiasts
+        rejoice!
+  id: 506
+  time: '2025-06-08T07:06:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/714
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added soretizone, agonolexyne, stubantazine, equilibrazine, tranquinase,
+        calmafluxine, blissifylovene, neurozenium, and serenitol as new psych
+        chems.
+  id: 507
+  time: '2025-06-08T07:08:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/708
+- author: Blahaj-the-Shonk
+  changes:
+    - type: Add
+      message: Keybinds for pockets and suit
+  id: 508
+  time: '2025-06-08T07:11:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/688
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Removed belt noises.
+  id: 509
+  time: '2025-06-08T17:15:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/715
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ports the Cosmatic Drift Records tab
+  id: 510
+  time: '2025-06-08T20:58:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/723
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added a coffee machine and cups.
+    - type: Add
+      message: >-
+        Added the supermatter, shipyard, mini gyroscope, and other boards to the
+        lathe
+  id: 511
+  time: '2025-06-08T21:03:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/710
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: Removed the Handheld Power Monitor from All Engineering loadouts
+    - type: Tweak
+      message: >-
+        Removed the Handheld Atmos Monitor from the Atmospheric Technician
+        loadout
+    - type: Tweak
+      message: >-
+        Added the Handheld Power Monitor to the Chief Engineer's loadout (CE now
+        has both)
+  id: 512
+  time: '2025-06-08T21:22:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/724
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: The spectral locator will now ignore aghosts.
+  id: 513
+  time: '2025-06-08T21:56:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/725
+- author: GreggTheFather
+  changes:
+    - type: Tweak
+      message: Tweaked several Baikal APC placements
+    - type: Fix
+      message: Fixed minor Baikal QoL issues
+  id: 514
+  time: '2025-06-09T02:26:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/727
+- author: Fox
+  changes:
+    - type: Add
+      message: >-
+        Added custom emergency shuttle to Barrier Hospital. Wee-woo wee-woo
+        wee-woo
+  id: 515
+  time: '2025-06-09T03:16:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/726
+- author: Fox
+  changes:
+    - type: Add
+      message: Added the Illegal Gorilla Room to Barrier
+    - type: Tweak
+      message: Made Barrier 8% more interesting and 4% safer
+  id: 516
+  time: '2025-06-09T03:50:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/730
+- author: A-z-z-y
+  changes:
+    - type: Add
+      message: 'Added filk songs to the jukebox :cat: '
+  id: 517
+  time: '2025-06-09T04:20:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/729
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Departmental communication consoles - think of them as baby comms
+        consoles (consoles need to be mapped in)
+    - type: Add
+      message: Silvia the snake from dV, a CMO pet (spawner needs to be mapped in)
+  id: 518
+  time: '2025-06-09T06:15:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/675
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: ported Umami's ramen dishes from Frontier
+  id: 519
+  time: '2025-06-09T07:16:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/733
+- author: Fox
+  changes:
+    - type: Fix
+      message: Fixed Barrier's funny Epistemics window
+  id: 520
+  time: '2025-06-09T16:12:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/736
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Height/width/weight labels in character creator now show both metric and
+        US customary (feet / inches / pounds) measurements.
+    - type: Tweak
+      message: >-
+        Rearranged the layout of the height/width sliders in the character
+        creator for a smoother experience. 
+  id: 521
+  time: '2025-06-09T16:13:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/734
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported the Collapsible Ghost Roles menu.
+  id: 522
+  time: '2025-06-09T16:21:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/735
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: IPCs now use significantly less power when standing still
+  id: 523
+  time: '2025-06-09T16:21:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/696
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        New "Detritivore" trait allows you to consume decay reagents
+        (Gastrotoxin and Mold) and raw meat safely, and restore hunger while
+        you're at it!
+    - type: Add
+      message: Both Rodentia and mice have the "Detritivore" trait innately.
+    - type: Tweak
+      message: >-
+        Edible small animal corpses (e.g. mice) will become poisonous (decay
+        into Gastrotoxin) and less nutritious over time after they start
+        rotting. If it's "bloated", it might as well have no nutritional
+        value...
+    - type: Tweak
+      message: >-
+        When butchering a corpse, any perishable byproducts will inherit its
+        freshness with a little bit of leeway. So if you butcher a corpse
+        seconds before it rots, you will have an extra full minute before the
+        meat products actually spoil... but only if the corpse is unrotted!
+    - type: Tweak
+      message: >-
+        Corpses now lose freshness on meat spikes in unrefrigerated areas. Not
+        that you're building them in unrefrigerated areas, right...? You can
+        also see corpse freshness upon examining the meat spike.
+    - type: Tweak
+      message: >-
+        Gastrotoxin now shows a "you feel sick after eating that" text popup
+        when consumed.
+    - type: Remove
+      message: >-
+        Removed a redundant line from the Rodentia guidebook entry, because
+        Rodentia don't sneak here.
+  id: 524
+  time: '2025-06-10T00:36:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/684
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Plant analyzer now properly shows environment information.
+  id: 525
+  time: '2025-06-10T01:54:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/738
