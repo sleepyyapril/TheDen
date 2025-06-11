@@ -5680,3 +5680,10 @@ Entries:
   id: 533
   time: '2025-06-11T03:00:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/731
+- author: Fox
+  changes:
+    - type: Remove
+      message: Removed Pirate Radio's surplus crates.
+  id: 534
+  time: '2025-06-11T03:27:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/748
