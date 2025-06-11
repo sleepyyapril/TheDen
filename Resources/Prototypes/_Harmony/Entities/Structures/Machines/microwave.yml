@@ -33,7 +33,7 @@
   - type: DamageExaminable
 
 - type: entity
-  parent: [SyndicateMicrowaveUpstream, KitchenMicrowaveUpstream, BaseSyndicateContraband]
+  parent: SyndicateMicrowaveUpstream, KitchenMicrowaveUpstream
   id: SyndicateMicrowave
   suffix: Harmony
   components:
