@@ -5707,3 +5707,10 @@ Entries:
   id: 536
   time: '2025-06-11T07:06:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/749
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: Large Snake Tail Sprite Fix
+  id: 537
+  time: '2025-06-11T13:12:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/741
