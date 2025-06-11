@@ -5662,3 +5662,14 @@ Entries:
   id: 531
   time: '2025-06-10T19:03:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/745
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Localization fixes for a few markings and the emote sound trait group.
+    - type: Fix
+      message: You can now only choose one species emote sound trait.
+    - type: Tweak
+      message: Moved emote sound traits to the Speech trait category.
+  id: 532
+  time: '2025-06-11T02:12:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/747
