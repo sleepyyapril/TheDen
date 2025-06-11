@@ -5673,3 +5673,37 @@ Entries:
   id: 532
   time: '2025-06-11T02:12:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/747
+- author: SleepyScarecrow
+  changes:
+    - type: Tweak
+      message: Removed religious references on the pipe organ
+  id: 533
+  time: '2025-06-11T03:00:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/731
+- author: Fox
+  changes:
+    - type: Remove
+      message: Removed Pirate Radio's surplus crates.
+  id: 534
+  time: '2025-06-11T03:27:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/748
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Technology disks now include the technology they are associated with in
+        name.
+    - type: Fix
+      message: The crew monitor will work by default now.
+    - type: Fix
+      message: The crew monitor updates at consistent rates again.
+  id: 535
+  time: '2025-06-11T06:24:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/754
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported the Harmoy Michaelwave.
+  id: 536
+  time: '2025-06-11T07:06:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/749
