@@ -40,6 +40,7 @@ public sealed partial class ConsentWindow : FancyWindow
         };
 
         _consentManager.OnServerDataLoaded += UpdateUi;
+
         if (_consentManager.HasLoaded)
             UpdateUi();
 
@@ -82,7 +83,6 @@ public sealed partial class ConsentWindow : FancyWindow
         {
             SaveLabel.Text = Loc.GetString("consent-window-char-limit-warning", ("length", length), ("maxLength", maxLength));
             SaveConsentSettings.Disabled = true;
-
             return;
         }
 
@@ -136,7 +136,7 @@ public sealed partial class ConsentWindow : FancyWindow
 
         container.AddChild(header);
 
-        var desc = new Label
+        var desc = new RichTextLabel
         {
             Text = Loc.GetString($"consent-{prototype.ID}-desc"),
         };
@@ -166,7 +166,11 @@ public sealed partial class ConsentWindow : FancyWindow
         }
 
         var control = BuildFakeUserInfo(permissions);
-        PermissionsList.AddChild(control);
+        PermissionsList.PopulateList();
+        PermissionsList.OnSelectionChanged += _ =>
+        {
+            InfoContainer.AddChild(control);
+        };
 
         // foreach (var permissions in _consentPermissions.Value.SpecifiedConsents)
         // {
@@ -176,38 +180,12 @@ public sealed partial class ConsentWindow : FancyWindow
 
     private Control BuildFakeUserInfo(List<ConsentOption> permissions)
     {
-        var collapsible = new Collapsible();
-        var header = new CollapsibleHeading();
-        var removeButton = new Button { Text = "Remove" };
-        // header.Title = data?.UserName;
-        header.Title = "Meow";
-
-        var consents = FakeGetUserConsents(permissions);
-        var body = new CollapsibleBody();
-
-        var bodyContainer = new BoxContainer()
+        var label = new Label()
         {
-            Orientation = BoxContainer.LayoutOrientation.Vertical,
-            HorizontalExpand = true,
-            VerticalExpand = true,
-            SeparationOverride = 2,
-            Margin = new(0f, 5f),
-            Children = { consents, removeButton }
-        };
-        var bodyScrollContainer = new ScrollContainer()
-        {
-            HorizontalExpand = true,
-            Children = { bodyContainer },
-            MinHeight = 150f
+            Text = "meow"
         };
 
-        body.AddChild(bodyScrollContainer);
-
-        collapsible.BodyVisible = false;
-        collapsible.AddChild(header);
-        collapsible.AddChild(body);
-
-        return collapsible;
+        return label;
     }
 
     private Control FakeGetUserConsents(List<ConsentOption> playerConsentsList)
@@ -243,7 +221,7 @@ public sealed partial class ConsentWindow : FancyWindow
             buttonOff.StyleClasses.Add("OpenRight");
             buttonOff.Pressed = useConsent && consent.HasConsent;
 
-            var buttonDefault = new Button { Text = "Use Default", MinSize = new(0, 20) };
+            var buttonDefault = new Button { Text = "Inherit", MinSize = new(0, 20) };
             buttonDefault.StyleClasses.Add("OpenBoth");
             buttonDefault.Pressed = !useConsent;
 
@@ -291,8 +269,8 @@ public sealed partial class ConsentWindow : FancyWindow
         ConsentList.RemoveAllChildren();
         _entries.Clear();
 
-        var consentprototypelist = _protoManager.EnumeratePrototypes<ConsentTogglePrototype>();
-        foreach (var prototype in consentprototypelist)
+        var consentPrototypelist = _protoManager.EnumeratePrototypes<ConsentTogglePrototype>();
+        foreach (var prototype in consentPrototypelist)
             AddConsentEntry(prototype, consent);
 
         _consentPermissions = consent.Permissions;
