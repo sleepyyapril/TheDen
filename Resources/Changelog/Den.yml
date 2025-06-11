@@ -5721,3 +5721,10 @@ Entries:
   id: 538
   time: '2025-06-11T13:40:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/757
+- author: Fox
+  changes:
+    - type: Remove
+      message: Pebble station has been taken offline pending major reconstruction
+  id: 539
+  time: '2025-06-11T15:24:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/759
