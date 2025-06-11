@@ -19,7 +19,9 @@
     tags:
     - VulpEmotes
     - HarpyEmotes
+    - UnathiEmotes
   chatMessages: [ yips ]
   chatTriggers:
   - yip
   - yips
+  - yipped

@@ -5602,3 +5602,74 @@ Entries:
   id: 525
   time: '2025-06-10T01:54:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/738
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Adds the ability to pick one other race to add to your race sounds with.
+    - type: Tweak
+      message: Glimmer wisp can no longer RR.
+  id: 526
+  time: '2025-06-10T03:24:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/739
+- author: mart33no
+  changes:
+    - type: Add
+      message: New emotes for Reptilians (Trill, Hiss)
+    - type: Add
+      message: New emote for Vulpkanins (Yip)
+  id: 527
+  time: '2025-06-10T07:13:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/717
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added Crossbows! The Modern variant is available in arsenal research and
+        can be fabricated at the security techfab once researched along with its
+        bolts, The Improvised variant is craftable in the construction menus as
+        well as improvised glass shard bolts and wooden stakes.
+  id: 528
+  time: '2025-06-10T09:22:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/718
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Race Sounds no longer give you points. Silly april.
+    - type: Fix
+      message: Fixed Race Sounds not having a localization.
+    - type: Remove
+      message: >-
+        Remove Harpy Sounds as a trait, pending separation from EVERY RACE SOUND
+        IN THE GAME.
+  id: 529
+  time: '2025-06-10T17:13:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/742
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Various uplink items have been upped in price due to the recent TC
+        changes.
+  id: 530
+  time: '2025-06-10T18:05:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/744
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Only nukies get a stealth suit
+    - type: Tweak
+      message: 'Stealth suit price changed from 100 to 80 TC. '
+  id: 531
+  time: '2025-06-10T19:03:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/745
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Localization fixes for a few markings and the emote sound trait group.
+    - type: Fix
+      message: You can now only choose one species emote sound trait.
+    - type: Tweak
+      message: Moved emote sound traits to the Speech trait category.
+  id: 532
+  time: '2025-06-11T02:12:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/747
