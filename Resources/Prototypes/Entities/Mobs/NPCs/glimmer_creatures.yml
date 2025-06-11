@@ -5,7 +5,7 @@
   description: A strange pest from a world beyond the noosphere.
   components:
   - type: Sprite
-    sprite: DeltaV/Mobs/Ghosts/glimmermite.rsi
+    sprite: _DV/Mobs/Ghosts/glimmermite.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: mite
@@ -31,7 +31,7 @@
   - type: AmbientSound
     range: 6
     volume: -3
-    sound: /Audio/DeltaV/Glimmer_Creatures/mite.ogg
+    sound: /Audio/_DV/Glimmer_Creatures/mite.ogg
   - type: AmbientOnPowered
 
 - type: entity
@@ -86,7 +86,7 @@
   - type: LifeDrainer
     damage:
       types:
-        Asphyxiation: 200
+        Asphyxiation: 5
     whitelist:
       components:
       - Psionic
@@ -124,7 +124,7 @@
   - type: DamageOnDispel
     damage:
       types:
-        Heat: 100
+        Heat: 20
   - type: SlowOnDamage
     speedModifierThresholds:
       10: 0.8

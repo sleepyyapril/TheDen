@@ -78,6 +78,20 @@ namespace Content.Server.Database
                 .HasIndex(c => new { c.Id, c.TargetId } )
                 .IsUnique();
 
+            // Begin CD - CD Character Data
+            modelBuilder.Entity<CDModel.CDProfile>()
+                .HasOne(p => p.Profile)
+                .WithOne(p => p.CDProfile)
+                .HasForeignKey<CDModel.CDProfile>(p => p.ProfileId)
+                .IsRequired();
+
+            modelBuilder.Entity<CDModel.CharacterRecordEntry>()
+                .HasOne(e => e.CDProfile)
+                .WithMany(e => e.CharacterRecordEntries)
+                .HasForeignKey(e => e.CDProfileId)
+                .IsRequired();
+            // End CD - CD Character Data
+
             modelBuilder.Entity<Antag>()
                 .HasIndex(p => new { HumanoidProfileId = p.ProfileId, p.AntagName })
                 .IsUnique();
@@ -440,6 +454,8 @@ namespace Content.Server.Database
 
         public int PreferenceId { get; set; }
         public Preference Preference { get; set; } = null!;
+
+        public CDModel.CDProfile? CDProfile { get; set; } // CD - Character Records
     }
 
     public class ConsentPermissionsEntry
@@ -605,6 +621,16 @@ namespace Content.Server.Database
     {
         [Key] public Guid UserId { get; set; }
         public string? Title { get; set; }
+
+        /// <summary>
+        /// If true, the admin is voluntarily deadminned. They can re-admin at any time.
+        /// </summary>
+        public bool Deadminned { get; set; }
+
+        /// <summary>
+        /// If true, the admin is suspended by an admin with <c>PERMISSIONS</c>. They will not have in-game permissions.
+        /// </summary>
+        public bool Suspended { get; set; }
 
         public int? AdminRankId { get; set; }
         public AdminRank? AdminRank { get; set; }

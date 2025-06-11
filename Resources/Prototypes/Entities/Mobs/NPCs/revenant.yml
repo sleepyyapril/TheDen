@@ -8,13 +8,14 @@
   components:
   - type: Input
     context: "ghost"
+  - type: Spectral
   - type: MovementSpeedModifier
     baseWalkSpeed: 6
     baseSprintSpeed: 6
   - type: Sprite
     noRot: true
     drawdepth: Ghosts
-    sprite: DeltaV/Mobs/Ghosts/revenant.rsi # DeltaV - Custom revenant sprite
+    sprite: _DV/Mobs/Ghosts/revenant.rsi # DeltaV - Custom revenant sprite
     layers:
     - state: active
   - type: Reactive # Nyanotrasen - Holy Water affects Revenants
@@ -91,11 +92,10 @@
     - StolenEssence
   - type: RandomMetadata
     nameSegments:
-    - The
-    - RevenantType
-    - of
-    - RevenantAdjective
-    - RevenantTheme
+    - NamesRevenantType
+    - NamesRevenantAdjective
+    - NamesRevenantTheme
+    nameFormat: name-format-revenant
   - type: Speech
     speechVerb: Ghost
   - type: Psionic
