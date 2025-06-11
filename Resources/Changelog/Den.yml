@@ -5714,3 +5714,10 @@ Entries:
   id: 537
   time: '2025-06-11T13:12:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/741
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fix IPC race sound trait not working.
+  id: 538
+  time: '2025-06-11T13:40:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/757
