@@ -5792,3 +5792,10 @@ Entries:
   id: 546
   time: '2025-06-12T22:23:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/781
+- author: Blahaj-the-Shonk
+  changes:
+    - type: Fix
+      message: Combat medipen empty texture
+  id: 547
+  time: '2025-06-12T22:26:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/780
