@@ -23,7 +23,6 @@ AirlockMaintMailLocked: null
 AirlockMaintParamedicLocked: null
 ComputerShuttleMining: null
 GameMasterCircuitBoard: null
-PoweredDimSmallLight: null
 ScrapAirlock1: null
 ScrapCloset: null
 ScrapFireExtinguisher: null
@@ -97,7 +96,7 @@ ChurchOrganInstrument: PipeOrganInstrument
 
 # June 12th, 2025 - v260.0.2 engine update
 ClothingOuterHardsuitSyndicateDurathread: null
-PoweredDimSmallLight: null
+PoweredDimSmallLight: PoweredSmallLight
 VendingMachineBoozeSyndicate: null
 PosterLegitGoobFaded: null
 ClothingOuterWinterColorBlue: null

@@ -22,7 +22,7 @@ public sealed class MapMigrationSystem : EntitySystem
 #pragma warning restore CS0414
     [Dependency] private readonly IResourceManager _resMan = default!;
 
-    private const string MigrationFile = "/migration.yml";
+    private const string MigrationsFolder = "/Migrations";
 
     public override void Initialize()
     {
@@ -30,7 +30,7 @@ public sealed class MapMigrationSystem : EntitySystem
         SubscribeLocalEvent<BeforeEntityReadEvent>(OnBeforeReadEvent);
 
 #if DEBUG
-        if (!TryReadFile(out var mappings))
+        if (!TryReadFolder(out var mappings))
             return;
 
         // Verify that all of the entries map to valid entity prototypes.
@@ -43,10 +43,41 @@ public sealed class MapMigrationSystem : EntitySystem
 #endif
     }
 
-    private bool TryReadFile([NotNullWhen(true)] out MappingDataNode? mappings)
+    private bool TryReadFolder([NotNullWhen(true)] out MappingDataNode? mappings)
+    {
+        var migrationFolderPath = new ResPath(MigrationsFolder);
+        var mappingsFinal = new MappingDataNode();
+
+        foreach (var filePath in _resMan.ContentFindFiles(migrationFolderPath))
+        {
+            var result = TryReadFile(filePath, out var mappingsResult);
+
+            if (!result || mappingsResult == null)
+                continue;
+
+            foreach (var (key, value) in mappingsResult)
+            {
+                if (mappingsFinal.ContainsKey(key))
+                    continue;
+
+                mappingsFinal.TryAdd(key, value);
+            }
+        }
+
+        if (mappingsFinal.Count == 0)
+        {
+            mappings = null;
+            return false;
+        }
+
+        mappings = mappingsFinal;
+        return true;
+    }
+
+    private bool TryReadFile(ResPath path, [NotNullWhen(true)] out MappingDataNode? mappings)
     {
         mappings = null;
-        var path = new ResPath(MigrationFile);
+
         if (!_resMan.TryContentFileRead(path, out var stream))
             return false;
 
@@ -62,7 +93,7 @@ public sealed class MapMigrationSystem : EntitySystem
 
     private void OnBeforeReadEvent(BeforeEntityReadEvent ev)
     {
-        if (!TryReadFile(out var mappings))
+        if (!TryReadFolder(out var mappings))
             return;
 
         foreach (var (key, value) in mappings)
