@@ -5728,3 +5728,14 @@ Entries:
   id: 539
   time: '2025-06-11T15:24:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/759
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: Added Sophia to Tortuga, Glimmer may be more easily monitored.
+    - type: Tweak
+      message: Tweaked the Tortuga Chapel, attempting to make it multi-denominational.
+    - type: Remove
+      message: Removed cameras from certain Offices and Bedrooms on Baikal
+  id: 540
+  time: '2025-06-12T00:37:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/761
