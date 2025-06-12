@@ -5739,3 +5739,10 @@ Entries:
   id: 540
   time: '2025-06-12T00:37:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/761
+- author: Blahaj-the-Shonk
+  changes:
+    - type: Fix
+      message: Nukeop reinforcement localization
+  id: 541
+  time: '2025-06-12T00:41:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/762
