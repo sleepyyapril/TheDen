@@ -42,6 +42,7 @@ namespace Content.Server.Destructible
         [Dependency] public readonly PuddleSystem PuddleSystem = default!;
         [Dependency] public readonly SharedContainerSystem ContainerSystem = default!;
         [Dependency] public readonly IPrototypeManager PrototypeManager = default!;
+        [Dependency] public readonly IComponentFactory ComponentFactory = default!;
         [Dependency] public readonly IAdminLogManager AdminLogger = default!;
         [Dependency] private readonly ThrowingSystem _throwing = default!;
         [Dependency] private readonly SharedProjectileSystem _projectile = default!;

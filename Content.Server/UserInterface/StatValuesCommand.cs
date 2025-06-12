@@ -18,6 +18,7 @@ namespace Content.Server.UserInterface;
 public sealed class StatValuesCommand : IConsoleCommand
 {
     [Dependency] private readonly EuiManager _eui = default!;
+    [Dependency] private readonly IComponentFactory _factory = default!;
     [Dependency] private readonly IEntityManager _entManager = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;
 
@@ -169,7 +170,7 @@ public sealed class StatValuesCommand : IConsoleCommand
     private StatValuesEuiMessage GetMelee()
     {
         var values = new List<string[]>();
-        var meleeName = _entManager.ComponentFactory.GetComponentName<MeleeWeaponComponent>();
+        var meleeName = _factory.GetComponentName(typeof(MeleeWeaponComponent));
 
         foreach (var proto in _proto.EnumeratePrototypes<EntityPrototype>())
         {
@@ -242,46 +243,6 @@ public sealed class StatValuesCommand : IConsoleCommand
                 Loc.GetString("stat-lathe-id"),
                 Loc.GetString("stat-lathe-cost"),
                 Loc.GetString("stat-lathe-sell"),
-            },
-            Values = values,
-        };
-
-        return state;
-    }
-
-    private StatValuesEuiMessage GetDrawRateMessage()
-    {
-        var values = new List<string[]>();
-        var powerName = _entManager.ComponentFactory.GetComponentName<ApcPowerReceiverComponent>();
-
-        foreach (var proto in _proto.EnumeratePrototypes<EntityPrototype>())
-        {
-            if (proto.Abstract ||
-                !proto.Components.TryGetValue(powerName,
-                    out var powerConsumer))
-            {
-                continue;
-            }
-
-            var comp = (ApcPowerReceiverComponent) powerConsumer.Component;
-
-            if (comp.Load == 0)
-                continue;
-
-            values.Add(new[]
-            {
-                proto.ID,
-                comp.Load.ToString(CultureInfo.InvariantCulture),
-            });
-        }
-
-        var state = new StatValuesEuiMessage
-        {
-            Title = Loc.GetString("stat-drawrate-values"),
-            Headers = new List<string>
-            {
-                Loc.GetString("stat-drawrate-id"),
-                Loc.GetString("stat-drawrate-rate"),
             },
             Values = values,
         };

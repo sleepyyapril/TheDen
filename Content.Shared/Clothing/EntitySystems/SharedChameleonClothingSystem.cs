@@ -10,6 +10,7 @@ namespace Content.Shared.Clothing.EntitySystems;
 
 public abstract class SharedChameleonClothingSystem : EntitySystem
 {
+    [Dependency] private readonly IComponentFactory _factory = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;
     [Dependency] private readonly ClothingSystem _clothingSystem = default!;
     [Dependency] private readonly MetaDataSystem _metaData = default!;
@@ -56,7 +57,7 @@ public abstract class SharedChameleonClothingSystem : EntitySystem
 
         // item sprite logic
         if (TryComp(uid, out ItemComponent? item) &&
-            proto.TryGetComponent(out ItemComponent? otherItem, Factory))
+            proto.TryGetComponent(out ItemComponent? otherItem, _factory))
         {
             _itemSystem.CopyVisuals(uid, otherItem, item);
         }

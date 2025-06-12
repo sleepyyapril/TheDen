@@ -218,7 +218,7 @@ public sealed partial class PolymorphSystem : EntitySystem
         // Ensure the resulting entity is sentient (why? this sucks)
         MakeSentientCommand.MakeSentient(child, EntityManager);
 
-        var polymorphedComp = Factory.GetComponent<PolymorphedEntityComponent>();
+        var polymorphedComp = _compFact.GetComponent<PolymorphedEntityComponent>();
         polymorphedComp.Parent = uid;
         polymorphedComp.Configuration = configuration;
         AddComp(child, polymorphedComp);
