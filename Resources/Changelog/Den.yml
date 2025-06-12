@@ -5759,3 +5759,10 @@ Entries:
   id: 542
   time: '2025-06-12T09:57:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/763
+- author: portfiend
+  changes:
+    - type: Add
+      message: Added a bunch of bird beak markings for humanoid species (e.g. harpies).
+  id: 543
+  time: '2025-06-12T09:58:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/758
