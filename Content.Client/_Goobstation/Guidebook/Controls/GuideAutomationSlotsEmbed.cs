@@ -9,6 +9,8 @@ using Content.Goobstation.Shared.Factory;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using System.Diagnostics.CodeAnalysis;
+using Content.Shared._Goobstation.Factory;
+
 
 namespace Content.Goobstation.Client.Guidebook.Controls;
 

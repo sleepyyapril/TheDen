@@ -20,6 +20,7 @@ using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
 using Robust.Shared.Map;
 using Robust.Shared.Player;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
 namespace Content.Server.Construction
@@ -359,7 +360,7 @@ namespace Content.Server.Construction
             if (!_actionBlocker.CanInteract(user, null))
                 return false;
 
-            if (HasComp<MindContainerComponent>(user) 
+            if (HasComp<MindContainerComponent>(user)
                 && !HasComp<HandsComponent>(user)) // goobstation - don't require hands for constructor
                 return false;
 
@@ -439,7 +440,7 @@ namespace Content.Server.Construction
             ICommonSession? senderSession = null)
         {
             // </Goobstation>
-            if (!PrototypeManager.TryIndex(prototypeName, out ConstructionPrototype? constructionPrototype))
+            if (!_prototypeManager.TryIndex(prototypeName, out ConstructionPrototype? constructionPrototype))
             {
                 Log.Error($"Tried to start construction of invalid recipe '{prototypeName}'!");
                 RaiseNetworkEvent(new AckStructureConstructionMessage(ack), user);

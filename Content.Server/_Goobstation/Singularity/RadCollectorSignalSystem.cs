@@ -5,6 +5,7 @@
 
 using Content.Goobstation.Shared.Factory;
 using Content.Server.DeviceLinking.Systems;
+using Content.Shared._Goobstation.Factory;
 using Content.Shared.DeviceLinking;
 using Content.Shared.Singularity.Components;
 using Robust.Shared.Prototypes;
