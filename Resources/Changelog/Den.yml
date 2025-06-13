@@ -5857,3 +5857,14 @@ Entries:
   id: 553
   time: '2025-06-13T06:39:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/764
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added factorio like automation, including upgrade kits and robotic arms
+        found in the engineering techfab. 
+    - type: Tweak
+      message: Mime PDAs are now silent.
+  id: 554
+  time: '2025-06-13T10:27:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/720
