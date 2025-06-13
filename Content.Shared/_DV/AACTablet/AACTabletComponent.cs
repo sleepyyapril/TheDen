@@ -18,6 +18,6 @@ public sealed partial class AACTabletComponent : Component
     /// <summary>
     /// Imp. Which group of phrases the AAC tablet has access to.
     /// </summary>
-    [DataField(required: true)]
-    public ProtoId<QuickPhraseGroupPrototype> PhraseGroup;
+    [DataField]
+    public ProtoId<QuickPhraseGroupPrototype>? PhraseGroup;
 }
