@@ -5868,3 +5868,24 @@ Entries:
   id: 554
   time: '2025-06-13T10:27:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/720
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        The entire "species" section of the guidebook has been drastically
+        reorganized. It is now alphabetized. 
+    - type: Tweak
+      message: >-
+        Species guidebook articles have been rewritten to put gameplay traits
+        front and center. 
+    - type: Add
+      message: Species lore has been moved to sub-documents.
+    - type: Add
+      message: >-
+        New guidebook entries for species that were missing them: Vox, Arachne,
+        Felinid, Vulpkanin.
+    - type: Add
+      message: Species now list their native language on their guidebook article.
+  id: 555
+  time: '2025-06-13T10:51:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/752
