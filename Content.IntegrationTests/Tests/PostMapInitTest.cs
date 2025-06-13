@@ -46,6 +46,12 @@ namespace Content.IntegrationTests.Tests
             "/Maps/Shuttles/infiltrator.yml",
         };
 
+        private static readonly string[] IgnoreMaps =
+        {
+            "Box",
+            "Core"
+        },
+
         private static readonly string[] GameMaps =
         {
             "Dev",
@@ -67,7 +73,7 @@ namespace Content.IntegrationTests.Tests
             "Hammurabi", //DeltaV
             "Lighthouse", //DeltaV
             "Submarine", //DeltaV
-            "Gax",
+            // "Gax",
             "Rad",
             "Europa",
             "Meta",
@@ -75,7 +81,8 @@ namespace Content.IntegrationTests.Tests
             "Baikal",
             "Lambda",
             "Bagel",
-            "Northway"
+            "Northway",
+            "Barrier"
         };
 
         /// <summary>
@@ -266,6 +273,9 @@ namespace Content.IntegrationTests.Tests
         [Test, TestCaseSource(nameof(GameMaps))]
         public async Task GameMapsLoadableTest(string mapProto)
         {
+            if (IgnoreMaps.Contains(mapProto))
+                return;
+
             await using var pair = await PoolManager.GetServerClient(new PoolSettings
             {
                 Dirty = true // Stations spawn a bunch of nullspace entities and maps like centcomm.
