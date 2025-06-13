@@ -1,75 +1,75 @@
-- type: quickPhraseGroup
-  id: ReplicatorPhrases
-  prototypes:
-# Safety
-    - SafetyInDangerPhrase
-    - SafetyInjuredPhrase
-    - SafetyEscapePhrase
-    - SafetyHazardousPhrase
-    - SafetyNotPhrase
-    - SafetyYouArePhrase
-    - SafetyIAmPhrase
-# Species
-    - ReplicatorOrganicPhrase
-    - ReplicatorSiliconPhrase
-# Actions
-    - ShowMePhrase
-    - HelpPhrase
-    - AttackPhrase
-    - BreakPhrase
-    - RunPhrase
-# Tools
-    - WrenchPhrase
-    - CrowbarPhrase
-    - ScrewdriverPhrase
-    - WirecutterPhrase
-    - WeldingToolPhrase
-    - MultitoolPhrase
-# Laws
-    - ReplicatorLaw1Phrase
-    - ReplicatorLaw2Phrase
-    - ReplicatorLaw3Phrase
-# Directions
-    - LocationNearPhrase
-    - LocationFarPhrase
-    - LocationInsidePhrase
-    - LocationOutsidePhrase
-    - LocationNorthPhrase
-    - LocationEastPhrase
-    - LocationSouthPhrase
-    - LocationWestPhrase
-    - LocationNorthEastPhrase
-    - LocationSouthEastPhrase
-    - LocationSouthWestPhrase
-    - LocationNorthWestPhrase
-# Pronouns
-    - ItPhrase
-    - WePhrase
-    - WeArePhrase
-# Hostiles
-    - HostileLifeformPhrase
-    - HostileEntityPhrase
-    - HostileWeaponPhrase
-# Manners
-    - YesPhrase
-    - NoPhrase
-# Commands
-    - GoAwayPhrase
-    - GoToPhrase
-    - DoNotPhrase
-    - ThisPhrase
-    - TakePhrase
-    - LeavePhrase
-    - StopPhrase
-    - WaitPhrase
-# Questions
-    - WherePhrase
-    - WhoPhrase
-    - WhatPhrase
-    - WhyPhrase
-    - HowPhrase
-    - WhenPhrase
-    - WhichPhrase
+# - type: quickPhraseGroup
+#   id: ReplicatorPhrases
+#   prototypes:
+# # Safety
+#     - SafetyInDangerPhrase
+#     - SafetyInjuredPhrase
+#     - SafetyEscapePhrase
+#     - SafetyHazardousPhrase
+#     - SafetyNotPhrase
+#     - SafetyYouArePhrase
+#     - SafetyIAmPhrase
+# # Species
+#     - ReplicatorOrganicPhrase
+#     - ReplicatorSiliconPhrase
+# # Actions
+#     - ShowMePhrase
+#     - HelpPhrase
+#     - AttackPhrase
+#     - BreakPhrase
+#     - RunPhrase
+# # Tools
+#     - WrenchPhrase
+#     - CrowbarPhrase
+#     - ScrewdriverPhrase
+#     - WirecutterPhrase
+#     - WeldingToolPhrase
+#     - MultitoolPhrase
+# # Laws
+#     - ReplicatorLaw1Phrase
+#     - ReplicatorLaw2Phrase
+#     - ReplicatorLaw3Phrase
+# # Directions
+#     - LocationNearPhrase
+#     - LocationFarPhrase
+#     - LocationInsidePhrase
+#     - LocationOutsidePhrase
+#     - LocationNorthPhrase
+#     - LocationEastPhrase
+#     - LocationSouthPhrase
+#     - LocationWestPhrase
+#     - LocationNorthEastPhrase
+#     - LocationSouthEastPhrase
+#     - LocationSouthWestPhrase
+#     - LocationNorthWestPhrase
+# # Pronouns
+#     - ItPhrase
+#     - WePhrase
+#     - WeArePhrase
+# # Hostiles
+#     - HostileLifeformPhrase
+#     - HostileEntityPhrase
+#     - HostileWeaponPhrase
+# # Manners
+#     - YesPhrase
+#     - NoPhrase
+# # Commands
+#     - GoAwayPhrase
+#     - GoToPhrase
+#     - DoNotPhrase
+#     - ThisPhrase
+#     - TakePhrase
+#     - LeavePhrase
+#     - StopPhrase
+#     - WaitPhrase
+# # Questions
+#     - WherePhrase
+#     - WhoPhrase
+#     - WhatPhrase
+#     - WhyPhrase
+#     - HowPhrase
+#     - WhenPhrase
+#     - WhichPhrase
 
 # Species
 - type: quickPhrase
