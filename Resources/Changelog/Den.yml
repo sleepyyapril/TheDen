@@ -5828,3 +5828,10 @@ Entries:
   id: 550
   time: '2025-06-13T04:30:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/783
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Kitsune, finally, its real, they made them real chat
+  id: 551
+  time: '2025-06-13T06:34:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/712
