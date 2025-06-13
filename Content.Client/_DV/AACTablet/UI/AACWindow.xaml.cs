@@ -42,10 +42,11 @@ public sealed partial class AACWindow : FancyWindow
             return;
 
         List<QuickPhrasePrototype> protosAsList = [];
-        var phraseProtos = _prototype.Index(comp.PhraseGroup).Prototypes;
-        foreach (var protoId in phraseProtos)
+        var phraseProtos = _prototype.EnumeratePrototypes<QuickPhrasePrototype>().ToList();
+        
+        foreach (var prototype in phraseProtos)
         {
-            protosAsList.Add(_prototype.Index(protoId));
+            protosAsList.Add(prototype);
         }
 
         _phrases = protosAsList;
