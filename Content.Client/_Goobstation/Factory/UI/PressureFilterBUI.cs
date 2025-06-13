@@ -5,7 +5,7 @@
 using Content.Goobstation.Shared.Factory.Filters;
 using Robust.Client.UserInterface;
 
-namespace Content.Goobstation.Client.Factory.UI;
+namespace Content.Client._Goobstation.Factory.UI;
 
 public sealed class PressureFilterBUI : BoundUserInterface
 {
