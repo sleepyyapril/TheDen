@@ -5799,3 +5799,14 @@ Entries:
   id: 547
   time: '2025-06-12T22:26:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/780
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Anomalies have a higher minimum point gain, but a lower growth
+        multiplier and maximum point gain.
+    - type: Tweak
+      message: Oracle now has a higher chance to give more research points.
+  id: 548
+  time: '2025-06-13T01:08:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/777
