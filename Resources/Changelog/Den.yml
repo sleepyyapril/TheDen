@@ -5835,3 +5835,18 @@ Entries:
   id: 551
   time: '2025-06-13T06:34:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/712
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Courtesy of beck-thompson, Moomoobeef, and yuitop over at Wizard's Den,
+        you can now store items inside of plushies by cutting them open with a
+        knife.
+    - type: Tweak
+      message: >-
+        Ported refactors for "Secret stash" system (used for potted plants,
+        toilets, and now plushies) from Wizard's Den, so ours should work
+        relatively identically to that now?
+  id: 552
+  time: '2025-06-13T06:35:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/760
