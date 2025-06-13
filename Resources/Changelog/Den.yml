@@ -5902,3 +5902,20 @@ Entries:
   id: 556
   time: '2025-06-13T10:55:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/765
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Automation now supports faxes, rad collectors, and gas canisters! Use an
+        automation kit on them to get started.
+    - type: Add
+      message: >-
+        Ported the constructor and the interactor, the lifeblood of any
+        automation system!
+    - type: Add
+      message: Added a guidebook for automation
+    - type: Add
+      message: Ported Wizard's Den's construction menu grid view and favorites
+  id: 557
+  time: '2025-06-13T19:31:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/789
