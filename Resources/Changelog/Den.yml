@@ -5850,3 +5850,10 @@ Entries:
   id: 552
   time: '2025-06-13T06:35:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/760
+- author: WhiteHusky
+  changes:
+    - type: Fix
+      message: Saving item locations are working again
+  id: 553
+  time: '2025-06-13T06:39:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/764
