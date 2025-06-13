@@ -162929,7 +162929,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25238
     components:
@@ -163305,7 +163305,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25177
     components:
@@ -163367,7 +163367,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25184
     components:
@@ -163678,7 +163678,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25100
     components:
@@ -163693,7 +163693,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25101
     components:
@@ -163716,7 +163716,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25103
     components:
@@ -163762,7 +163762,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25108
     components:
@@ -163784,7 +163784,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25110
     components:
@@ -163831,7 +163831,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25114
     components:
@@ -163845,7 +163845,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25117
     components:
@@ -165111,7 +165111,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25257
     components:
@@ -165199,7 +165199,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25281
     components:
@@ -165266,7 +165266,7 @@ entities:
     - type: UserInterface
       actors:
         enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
+          type: SurveillanceCameraSetupBoundUi
     - type: ActiveUserInterface
   - uid: 25085
     components:
