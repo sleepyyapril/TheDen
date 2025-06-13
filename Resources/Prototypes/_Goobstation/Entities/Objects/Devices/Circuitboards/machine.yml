@@ -22,6 +22,7 @@
     tagRequirements:
       BorgArm:
         Amount: 2
+        ExamineName: "Borg Arm"
         DefaultPrototype: LeftArmBorg
 
 - type: entity
