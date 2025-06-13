@@ -1,3 +1,4 @@
+guide-entry-automation = Automation
 guide-entry-mechanics = Mechanics
 guide-entry-fishing = Fishing
 
