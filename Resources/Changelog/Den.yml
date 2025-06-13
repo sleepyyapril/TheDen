@@ -5889,3 +5889,16 @@ Entries:
   id: 555
   time: '2025-06-13T10:51:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/752
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: >-
+        Moved a bunch of things around in the corpsman's inventory fills.
+        Hopefully no more dropping half your stuff on the ground when joining.
+    - type: Tweak
+      message: >-
+        Reduced the sheer amount of medicine the corpsman gets roundstart. See
+        PR for details.
+  id: 556
+  time: '2025-06-13T10:55:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/765
