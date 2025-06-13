@@ -257,6 +257,7 @@
     readyToUpgradeMessage: replicator-upgrade-t2
   - type: Puller
     needsHands: false
+    applySpeedModifier: false
   - type: MovementSpeedModifier
     baseWalkSpeed: 2 # same as slime
     baseSprintSpeed: 4.2
