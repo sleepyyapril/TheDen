@@ -74,7 +74,7 @@
     state: engineering
   - type: MachineBoard
     prototype: Interactor
-    requirements::
+    requirements:
       Manipulator: 4
     materialRequirements: 
       Plastic: 4
