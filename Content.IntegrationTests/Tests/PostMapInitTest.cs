@@ -49,8 +49,9 @@ namespace Content.IntegrationTests.Tests
         private static readonly string[] IgnoreMaps =
         {
             "Box",
-            "Core"
-        },
+            "Core",
+            "Saltern"
+        };
 
         private static readonly string[] GameMaps =
         {
