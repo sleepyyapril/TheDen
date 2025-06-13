@@ -5,6 +5,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using Content.Shared._Goobstation.Factory.Slots;
 using Content.Shared.Hands.Components;
 using Content.Shared.Hands.EntitySystems;
 
