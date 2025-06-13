@@ -5810,3 +5810,12 @@ Entries:
   id: 548
   time: '2025-06-13T01:08:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/777
+- author: TheOneTrueWolfio
+  changes:
+    - type: Add
+      message: 'Resomi Emotes (Hornk & Coo) '
+    - type: Add
+      message: 'Resomi Sounds (Cry, sigh sneeze) '
+  id: 549
+  time: '2025-06-13T03:40:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/743
