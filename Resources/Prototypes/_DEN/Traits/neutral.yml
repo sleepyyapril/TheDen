@@ -12,7 +12,7 @@
   
 - type: trait
   id: SharpInflection
-  category: SpeechTraits
+  category: TraitsSpeechAccents
   points: -1
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -24,7 +24,7 @@
   
 - type: trait
   id: Monotonous
-  category: SpeechTraits
+  category: TraitsSpeechAccents
   points: -1
   requirements:
     - !type:CharacterItemGroupRequirement

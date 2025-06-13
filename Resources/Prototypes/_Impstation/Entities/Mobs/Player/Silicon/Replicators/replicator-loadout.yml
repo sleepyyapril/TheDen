@@ -179,7 +179,6 @@
   description: Communication.
   components:
   - type: AACTablet
-    phraseGroup: ReplicatorPhrases
   - type: VoiceMask
   - type: Speech
     speechVerb: Robotic
