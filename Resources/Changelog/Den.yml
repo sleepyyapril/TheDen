@@ -5425,3 +5425,435 @@ Entries:
   id: 508
   time: '2025-06-08T07:11:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/688
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Removed belt noises.
+  id: 509
+  time: '2025-06-08T17:15:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/715
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ports the Cosmatic Drift Records tab
+  id: 510
+  time: '2025-06-08T20:58:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/723
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added a coffee machine and cups.
+    - type: Add
+      message: >-
+        Added the supermatter, shipyard, mini gyroscope, and other boards to the
+        lathe
+  id: 511
+  time: '2025-06-08T21:03:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/710
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: Removed the Handheld Power Monitor from All Engineering loadouts
+    - type: Tweak
+      message: >-
+        Removed the Handheld Atmos Monitor from the Atmospheric Technician
+        loadout
+    - type: Tweak
+      message: >-
+        Added the Handheld Power Monitor to the Chief Engineer's loadout (CE now
+        has both)
+  id: 512
+  time: '2025-06-08T21:22:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/724
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: The spectral locator will now ignore aghosts.
+  id: 513
+  time: '2025-06-08T21:56:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/725
+- author: GreggTheFather
+  changes:
+    - type: Tweak
+      message: Tweaked several Baikal APC placements
+    - type: Fix
+      message: Fixed minor Baikal QoL issues
+  id: 514
+  time: '2025-06-09T02:26:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/727
+- author: Fox
+  changes:
+    - type: Add
+      message: >-
+        Added custom emergency shuttle to Barrier Hospital. Wee-woo wee-woo
+        wee-woo
+  id: 515
+  time: '2025-06-09T03:16:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/726
+- author: Fox
+  changes:
+    - type: Add
+      message: Added the Illegal Gorilla Room to Barrier
+    - type: Tweak
+      message: Made Barrier 8% more interesting and 4% safer
+  id: 516
+  time: '2025-06-09T03:50:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/730
+- author: A-z-z-y
+  changes:
+    - type: Add
+      message: 'Added filk songs to the jukebox :cat: '
+  id: 517
+  time: '2025-06-09T04:20:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/729
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Departmental communication consoles - think of them as baby comms
+        consoles (consoles need to be mapped in)
+    - type: Add
+      message: Silvia the snake from dV, a CMO pet (spawner needs to be mapped in)
+  id: 518
+  time: '2025-06-09T06:15:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/675
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: ported Umami's ramen dishes from Frontier
+  id: 519
+  time: '2025-06-09T07:16:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/733
+- author: Fox
+  changes:
+    - type: Fix
+      message: Fixed Barrier's funny Epistemics window
+  id: 520
+  time: '2025-06-09T16:12:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/736
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Height/width/weight labels in character creator now show both metric and
+        US customary (feet / inches / pounds) measurements.
+    - type: Tweak
+      message: >-
+        Rearranged the layout of the height/width sliders in the character
+        creator for a smoother experience. 
+  id: 521
+  time: '2025-06-09T16:13:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/734
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported the Collapsible Ghost Roles menu.
+  id: 522
+  time: '2025-06-09T16:21:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/735
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: IPCs now use significantly less power when standing still
+  id: 523
+  time: '2025-06-09T16:21:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/696
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        New "Detritivore" trait allows you to consume decay reagents
+        (Gastrotoxin and Mold) and raw meat safely, and restore hunger while
+        you're at it!
+    - type: Add
+      message: Both Rodentia and mice have the "Detritivore" trait innately.
+    - type: Tweak
+      message: >-
+        Edible small animal corpses (e.g. mice) will become poisonous (decay
+        into Gastrotoxin) and less nutritious over time after they start
+        rotting. If it's "bloated", it might as well have no nutritional
+        value...
+    - type: Tweak
+      message: >-
+        When butchering a corpse, any perishable byproducts will inherit its
+        freshness with a little bit of leeway. So if you butcher a corpse
+        seconds before it rots, you will have an extra full minute before the
+        meat products actually spoil... but only if the corpse is unrotted!
+    - type: Tweak
+      message: >-
+        Corpses now lose freshness on meat spikes in unrefrigerated areas. Not
+        that you're building them in unrefrigerated areas, right...? You can
+        also see corpse freshness upon examining the meat spike.
+    - type: Tweak
+      message: >-
+        Gastrotoxin now shows a "you feel sick after eating that" text popup
+        when consumed.
+    - type: Remove
+      message: >-
+        Removed a redundant line from the Rodentia guidebook entry, because
+        Rodentia don't sneak here.
+  id: 524
+  time: '2025-06-10T00:36:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/684
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Plant analyzer now properly shows environment information.
+  id: 525
+  time: '2025-06-10T01:54:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/738
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Adds the ability to pick one other race to add to your race sounds with.
+    - type: Tweak
+      message: Glimmer wisp can no longer RR.
+  id: 526
+  time: '2025-06-10T03:24:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/739
+- author: mart33no
+  changes:
+    - type: Add
+      message: New emotes for Reptilians (Trill, Hiss)
+    - type: Add
+      message: New emote for Vulpkanins (Yip)
+  id: 527
+  time: '2025-06-10T07:13:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/717
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Added Crossbows! The Modern variant is available in arsenal research and
+        can be fabricated at the security techfab once researched along with its
+        bolts, The Improvised variant is craftable in the construction menus as
+        well as improvised glass shard bolts and wooden stakes.
+  id: 528
+  time: '2025-06-10T09:22:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/718
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Race Sounds no longer give you points. Silly april.
+    - type: Fix
+      message: Fixed Race Sounds not having a localization.
+    - type: Remove
+      message: >-
+        Remove Harpy Sounds as a trait, pending separation from EVERY RACE SOUND
+        IN THE GAME.
+  id: 529
+  time: '2025-06-10T17:13:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/742
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Various uplink items have been upped in price due to the recent TC
+        changes.
+  id: 530
+  time: '2025-06-10T18:05:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/744
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Only nukies get a stealth suit
+    - type: Tweak
+      message: 'Stealth suit price changed from 100 to 80 TC. '
+  id: 531
+  time: '2025-06-10T19:03:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/745
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Localization fixes for a few markings and the emote sound trait group.
+    - type: Fix
+      message: You can now only choose one species emote sound trait.
+    - type: Tweak
+      message: Moved emote sound traits to the Speech trait category.
+  id: 532
+  time: '2025-06-11T02:12:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/747
+- author: SleepyScarecrow
+  changes:
+    - type: Tweak
+      message: Removed religious references on the pipe organ
+  id: 533
+  time: '2025-06-11T03:00:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/731
+- author: Fox
+  changes:
+    - type: Remove
+      message: Removed Pirate Radio's surplus crates.
+  id: 534
+  time: '2025-06-11T03:27:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/748
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Technology disks now include the technology they are associated with in
+        name.
+    - type: Fix
+      message: The crew monitor will work by default now.
+    - type: Fix
+      message: The crew monitor updates at consistent rates again.
+  id: 535
+  time: '2025-06-11T06:24:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/754
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported the Harmoy Michaelwave.
+  id: 536
+  time: '2025-06-11T07:06:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/749
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: Large Snake Tail Sprite Fix
+  id: 537
+  time: '2025-06-11T13:12:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/741
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fix IPC race sound trait not working.
+  id: 538
+  time: '2025-06-11T13:40:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/757
+- author: Fox
+  changes:
+    - type: Remove
+      message: Pebble station has been taken offline pending major reconstruction
+  id: 539
+  time: '2025-06-11T15:24:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/759
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: Added Sophia to Tortuga, Glimmer may be more easily monitored.
+    - type: Tweak
+      message: Tweaked the Tortuga Chapel, attempting to make it multi-denominational.
+    - type: Remove
+      message: Removed cameras from certain Offices and Bedrooms on Baikal
+  id: 540
+  time: '2025-06-12T00:37:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/761
+- author: Blahaj-the-Shonk
+  changes:
+    - type: Fix
+      message: Nukeop reinforcement localization
+  id: 541
+  time: '2025-06-12T00:41:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/762
+- author: Hederadaii
+  changes:
+    - type: Add
+      message: >-
+        Added tulips, lavender, orchids and pink and white roses (have fun, love
+        birds ✨) - still not growable.
+    - type: Tweak
+      message: >-
+        Changed the sizes of roses and jasmine (in addition to the new flowers)
+        so that they are insanely huge.
+  id: 542
+  time: '2025-06-12T09:57:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/763
+- author: portfiend
+  changes:
+    - type: Add
+      message: Added a bunch of bird beak markings for humanoid species (e.g. harpies).
+  id: 543
+  time: '2025-06-12T09:58:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/758
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Flashbangs no longer stun you if you have a
+        FlashSoundSuppressionComponent (such as over the ear headsets or
+        hardsuit helmets)
+    - type: Tweak
+      message: You can no longer use the radio while cuffed.
+  id: 544
+  time: '2025-06-12T19:33:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/779
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Fixed "Vulpkanin Points Hands" side view sprite.
+  id: 545
+  time: '2025-06-12T22:22:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/767
+- author: SleepyScarecrow
+  changes:
+    - type: Fix
+      message: Removed the empty adrenaline status effect from a few chems
+  id: 546
+  time: '2025-06-12T22:23:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/781
+- author: Blahaj-the-Shonk
+  changes:
+    - type: Fix
+      message: Combat medipen empty texture
+  id: 547
+  time: '2025-06-12T22:26:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/780
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Anomalies have a higher minimum point gain, but a lower growth
+        multiplier and maximum point gain.
+    - type: Tweak
+      message: Oracle now has a higher chance to give more research points.
+  id: 548
+  time: '2025-06-13T01:08:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/777
+- author: TheOneTrueWolfio
+  changes:
+    - type: Add
+      message: 'Resomi Emotes (Hornk & Coo) '
+    - type: Add
+      message: 'Resomi Sounds (Cry, sigh sneeze) '
+  id: 549
+  time: '2025-06-13T03:40:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/743
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Hunger and thirst rates adjusted again. Expect to visit the kitchen or
+        bar at least once per hour.
+  id: 550
+  time: '2025-06-13T04:30:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/783
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Kitsune, finally, its real, they made them real chat
+  id: 551
+  time: '2025-06-13T06:34:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/712
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Courtesy of beck-thompson, Moomoobeef, and yuitop over at Wizard's Den,
+        you can now store items inside of plushies by cutting them open with a
+        knife.
+    - type: Tweak
+      message: >-
+        Ported refactors for "Secret stash" system (used for potted plants,
+        toilets, and now plushies) from Wizard's Den, so ours should work
+        relatively identically to that now?
+  id: 552
+  time: '2025-06-13T06:35:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/760
+- author: WhiteHusky
+  changes:
+    - type: Fix
+      message: Saving item locations are working again
+  id: 553
+  time: '2025-06-13T06:39:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/764
