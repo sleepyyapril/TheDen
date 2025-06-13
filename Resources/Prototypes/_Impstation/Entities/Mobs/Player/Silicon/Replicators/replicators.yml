@@ -65,7 +65,13 @@
     channels:
     - Binary
   - type: Actions
-  - type: ProtectedFromStepTriggers
+  - type: StepTriggerImmune # TODO: port ProtectedFromStepTrigger
+    whitelist:
+      types:
+        - Shard
+        - Landmine
+        - Mousetrap
+        - SlipEntity
   - type: InputMover
   - type: MobMover
   - type: ContentEye
