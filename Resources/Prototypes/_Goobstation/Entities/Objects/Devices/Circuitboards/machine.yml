@@ -38,15 +38,17 @@
     state: engineering
   - type: MachineBoard
     prototype: Constructor
-    stackRequirements:
+    requirements:
       Manipulator: 3
       MatterBin: 2
+    materialRequirements: 
       Steel: 10
       Cable: 5
     tagRequirements:
       BorgArm:
-        amount: 4
-        defaultPrototype: LeftArmBorg
+        Amount: 4
+        ExamineName: "Borg Arm"
+        DefaultPrototype: LeftArmBorg
 
 - type: entity
   parent: BaseMachineCircuitboard
@@ -72,11 +74,13 @@
     state: engineering
   - type: MachineBoard
     prototype: Interactor
-    stackRequirements:
+    requirements::
       Manipulator: 4
+    materialRequirements: 
       Plastic: 4
       Cable: 5
     tagRequirements:
       BorgArm:
-        amount: 1
-        defaultPrototype: LeftArmBorg
+        Amount: 1
+        ExamineName: "Borg Arm"
+        DefaultPrototype: LeftArmBorg
