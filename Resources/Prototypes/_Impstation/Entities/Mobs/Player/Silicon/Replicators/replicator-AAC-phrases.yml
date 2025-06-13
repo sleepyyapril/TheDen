@@ -100,11 +100,6 @@
 
 # Pronouns
 - type: quickPhrase
-  id: WePhrase
-  parent: BaseNounsPhrase
-  text: phrase-we
-
-- type: quickPhrase
   id: WeArePhrase
   parent: BaseNounsPhrase
   text: phrase-we-are

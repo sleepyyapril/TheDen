@@ -87,6 +87,7 @@
   - type: Speech
     speechSounds: AAC_tablet_SAS_collection
   - type: AACTablet
+    phraseGroup: BasicPhrases
   - type: VoiceMask
 
 # add the tapedeck version later

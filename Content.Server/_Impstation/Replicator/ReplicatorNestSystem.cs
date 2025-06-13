@@ -29,6 +29,8 @@ using Robust.Shared.Containers;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using System.Linq;
+using Content.Server.Objectives.Components.Targets;
+
 
 namespace Content.Server._Impstation.Replicator;
 

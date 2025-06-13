@@ -8,7 +8,7 @@
   components:
   - type: Unremoveable
   - type: Sprite
-    sprite: _Imp/Drone/dronesatchel.rsi
+    sprite: _Impstation/Drone/dronesatchel.rsi
 
 - type: entity
   parent: trayScanner
