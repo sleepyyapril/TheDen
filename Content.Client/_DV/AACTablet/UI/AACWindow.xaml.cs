@@ -43,7 +43,7 @@ public sealed partial class AACWindow : FancyWindow
 
         List<QuickPhrasePrototype> protosAsList = [];
         var phraseProtos = _prototype.EnumeratePrototypes<QuickPhrasePrototype>().ToList();
-        
+
         foreach (var prototype in phraseProtos)
         {
             protosAsList.Add(prototype);
