@@ -6017,3 +6017,10 @@ Entries:
   id: 567
   time: '2025-06-14T20:31:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/659
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: 'Re-added the wooden viper to security loadouts. '
+  id: 568
+  time: '2025-06-14T22:48:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/798
