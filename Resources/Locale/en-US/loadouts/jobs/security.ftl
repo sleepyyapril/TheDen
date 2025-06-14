@@ -38,7 +38,8 @@ loadout-name-LoadoutSecurityRevolverPythonNonlethal = Python (non-lethal)
 loadout-name-LoadoutSecurityPistolEnergyRevolver = EG-4 Energy Revolver
 loadout-name-LoadoutSecurityArgenti = Argenti (lethal)
 loadout-name-LoadoutSecurityArgentiNonLethal = Argenti (non-lethal)
+loadout-name-LoadoutSecurityWeaponLaserSvalinn = Svalinn Laser Pistol
 
 # Duty Melee
 loadout-name-LoadoutSecurityEquipmentTruncheon = Truncheon
-loadout-name-LoadoutSecurityEquipmentEnergySword = Energy Sword
+loadout-name-LoadoutSecurityEquipmentEnergySword = Energy Cutlass
