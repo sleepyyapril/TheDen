@@ -5919,3 +5919,10 @@ Entries:
   id: 557
   time: '2025-06-13T19:31:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/789
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: Added AI Job Slots and AI Turrets to Tortuga and Asterisk
+  id: 558
+  time: '2025-06-14T09:16:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/788
