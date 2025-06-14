@@ -5926,3 +5926,24 @@ Entries:
   id: 558
   time: '2025-06-14T09:16:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/788
+- author: Various Floof Contributions
+  changes:
+    - type: Fix
+      message: Cloning should now properly replicate the original body's appearance.
+    - type: Fix
+      message: Female kitsune should now no longer laugh like a man when in fox form.
+    - type: Fix
+      message: >-
+        Kitsune foxfire will now emit light, regardless of how dark the color
+        is.
+    - type: Fix
+      message: Kitsune should now no longer weigh as much as a feather.
+    - type: Fix
+      message: Kitsune can now be healed by topicals.
+    - type: Fix
+      message: Kitsune can no longer place infinite foxfires.
+    - type: Fix
+      message: You will now see the proper message when a kitsune shifts into fox form.
+  id: 559
+  time: '2025-06-14T13:42:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/792
