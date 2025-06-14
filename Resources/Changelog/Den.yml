@@ -5857,3 +5857,93 @@ Entries:
   id: 553
   time: '2025-06-13T06:39:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/764
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added factorio like automation, including upgrade kits and robotic arms
+        found in the engineering techfab. 
+    - type: Tweak
+      message: Mime PDAs are now silent.
+  id: 554
+  time: '2025-06-13T10:27:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/720
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        The entire "species" section of the guidebook has been drastically
+        reorganized. It is now alphabetized. 
+    - type: Tweak
+      message: >-
+        Species guidebook articles have been rewritten to put gameplay traits
+        front and center. 
+    - type: Add
+      message: Species lore has been moved to sub-documents.
+    - type: Add
+      message: >-
+        New guidebook entries for species that were missing them: Vox, Arachne,
+        Felinid, Vulpkanin.
+    - type: Add
+      message: Species now list their native language on their guidebook article.
+  id: 555
+  time: '2025-06-13T10:51:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/752
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: >-
+        Moved a bunch of things around in the corpsman's inventory fills.
+        Hopefully no more dropping half your stuff on the ground when joining.
+    - type: Tweak
+      message: >-
+        Reduced the sheer amount of medicine the corpsman gets roundstart. See
+        PR for details.
+  id: 556
+  time: '2025-06-13T10:55:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/765
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Automation now supports faxes, rad collectors, and gas canisters! Use an
+        automation kit on them to get started.
+    - type: Add
+      message: >-
+        Ported the constructor and the interactor, the lifeblood of any
+        automation system!
+    - type: Add
+      message: Added a guidebook for automation
+    - type: Add
+      message: Ported Wizard's Den's construction menu grid view and favorites
+  id: 557
+  time: '2025-06-13T19:31:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/789
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: Added AI Job Slots and AI Turrets to Tortuga and Asterisk
+  id: 558
+  time: '2025-06-14T09:16:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/788
+- author: Various Floof Contributions
+  changes:
+    - type: Fix
+      message: Cloning should now properly replicate the original body's appearance.
+    - type: Fix
+      message: Female kitsune should now no longer laugh like a man when in fox form.
+    - type: Fix
+      message: >-
+        Kitsune foxfire will now emit light, regardless of how dark the color
+        is.
+    - type: Fix
+      message: Kitsune should now no longer weigh as much as a feather.
+    - type: Fix
+      message: Kitsune can now be healed by topicals.
+    - type: Fix
+      message: Kitsune can no longer place infinite foxfires.
+    - type: Fix
+      message: You will now see the proper message when a kitsune shifts into fox form.
+  id: 559
+  time: '2025-06-14T13:42:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/792
