@@ -6006,3 +6006,14 @@ Entries:
   id: 566
   time: '2025-06-14T16:56:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/791
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported bended radiators
+    - type: Tweak
+      message: >-
+        Engine has updated from v246.0.0 to v260.2.0. This should result in some
+        fixes, but may break other things. Please report problems.
+  id: 567
+  time: '2025-06-14T20:31:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/659
