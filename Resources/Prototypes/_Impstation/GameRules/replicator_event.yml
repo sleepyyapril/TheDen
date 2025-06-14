@@ -13,3 +13,4 @@
     maxOccurrences: 1
   - type: RandomSpawnRule
     prototype: SpawnPointGhostReplicatorQueen
+    stationExclusive: true
