@@ -189,6 +189,9 @@
     - ActionReplicatorUpgrade2Alt
   - type: CombatMode
   - type: Puller
+    softGrabSpeedModifier: 1
+    hardGrabSpeedModifier: 1
+    chokeGrabSpeedModifier: 1
     needsHands: false
     applySpeedModifier: false
   - type: StaminaDamageOnHit
@@ -256,11 +259,6 @@
     - ActionReplicatorUpgrade3
     readyToUpgradeMessage: replicator-upgrade-t2
   - type: Puller
-    walkSpeedModifier: 1
-    sprintSpeedModifier: 1
-    softGrabSpeedModifier: 1
-    hardGrabSpeedModifier: 1
-    chokeGrabSpeedModifier: 1
     needsHands: false
     applySpeedModifier: false
   - type: MovementSpeedModifier
