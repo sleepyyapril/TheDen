@@ -5981,3 +5981,10 @@ Entries:
   id: 563
   time: '2025-06-14T16:43:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/751
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Nerfed the Microwave into the ground.
+  id: 564
+  time: '2025-06-14T16:44:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/796
