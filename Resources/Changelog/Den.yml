@@ -5988,3 +5988,12 @@ Entries:
   id: 564
   time: '2025-06-14T16:44:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/796
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        You can now speak while cuffed again, until I add an exception
+        specifically for IPCs and other borgs.
+  id: 565
+  time: '2025-06-14T16:55:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/797
