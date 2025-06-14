@@ -5997,3 +5997,12 @@ Entries:
   id: 565
   time: '2025-06-14T16:55:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/797
+- author: Rosycup
+  changes:
+    - type: Add
+      message: >-
+        Gumballs and lollipops dispensed by medical borgs now come in different
+        flavors.
+  id: 566
+  time: '2025-06-14T16:56:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/791
