@@ -5947,3 +5947,10 @@ Entries:
   id: 559
   time: '2025-06-14T13:42:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/792
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: The AI had their default laws set to NT Agressive.
+  id: 560
+  time: '2025-06-14T14:25:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/794
