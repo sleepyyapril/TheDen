@@ -5974,3 +5974,10 @@ Entries:
   id: 562
   time: '2025-06-14T16:39:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/782
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: added underwear and the ability to remove it
+  id: 563
+  time: '2025-06-14T16:43:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/751
