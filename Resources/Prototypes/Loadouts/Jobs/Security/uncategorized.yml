@@ -644,7 +644,7 @@
     - WeaponPistolN1984SecurityNonLethal
 
 - type: loadout
-  id: LoadoutSecurityEnergyCutlass
+  id: LoadoutSecurityEquipmentEnergySword
   category: JobsSecurityAUncategorized
   cost: 3
   canBeHeirloom: true

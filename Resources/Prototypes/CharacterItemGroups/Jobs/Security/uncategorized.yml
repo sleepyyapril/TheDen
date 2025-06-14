@@ -104,7 +104,7 @@
     - type: loadout
       id: LoadoutSecurityWeaponLaserSvalinn
     - type: loadout
-      id: LoadoutSecurityEnergyCutlass
+      id: LoadoutSecurityEquipmentEnergySword
     - type: loadout
       id: LoadoutSecurityPistolPollockNonlethal
     - type: loadout
