@@ -5961,3 +5961,16 @@ Entries:
   id: 561
   time: '2025-06-14T15:27:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/793
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Ported Imp Station's Replicators, a new midround antag.
+    - type: Add
+      message: >-
+        Ported Wizard's Den's damaged silicon accent, corrupting borg speech
+        when they are damaged.
+    - type: Add
+      message: Ported a couple more accents
+  id: 562
+  time: '2025-06-14T16:39:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/782
