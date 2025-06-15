@@ -265,7 +265,7 @@
     reoccurrenceDelay: 12
     minimumPlayers: 10
     weight: 6 # Really weak compared to other critters
-    duration: 60
+    duration: 30
   - type: VentCrittersRule
     table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       children:
@@ -296,6 +296,7 @@
     startAnnouncement: true
     reoccurrenceDelay: 12
     minimumPlayers: 1
+    duration: 30
   - type: VentCrittersRule
     table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       children:
