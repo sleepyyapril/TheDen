@@ -61,7 +61,7 @@
   - type: Familiar
   - type: Dispellable
   - type: Damageable
-    damageContainer: CorporealSpirit
+    damageContainer: ManifestedSpirit # Floof - M3739 - #937 - CorporealSpirit container superseded by ManifestedSpirit
     damageModifierSet: CorporealSpirit
   - type: PassiveDamage # Slight passive regen. Assuming one damage type, comes out to about 4 damage a minute.
     allowedStates:
@@ -89,7 +89,7 @@
   - type: Hands
   - type: ZombieImmune # No zombie servant
   - type: RandomMetadata
-    nameSegments: [names_golem]
+    nameSegments: [NamesGolem]
   - type: Psionic
     removable: false
     roller: false
