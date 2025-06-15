@@ -17781,6 +17781,8 @@ entities:
       pos: 20.5,-7.5
       parent: 1
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 22078
 - proto: AirTankFilled
@@ -78014,6 +78016,8 @@ entities:
       pos: 19.5,-5.5
       parent: 1
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 22078
   - uid: 9255
@@ -115282,6 +115286,8 @@ entities:
       pos: 16.5,-8.5
       parent: 1
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 22078
     - type: AtmosPipeColor
@@ -117536,6 +117542,8 @@ entities:
       pos: 19.5,-8.5
       parent: 1
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 22078
     - type: AtmosPipeColor

@@ -15387,6 +15387,8 @@ entities:
       pos: 27.5,-61.5
       parent: 6747
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 843
   - uid: 5046
@@ -109535,6 +109537,8 @@ entities:
       pos: 29.5,-61.5
       parent: 6747
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 843
     - type: AtmosPipeColor
@@ -111448,6 +111452,8 @@ entities:
       pos: 30.5,-61.5
       parent: 6747
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 843
     - type: AtmosPipeColor

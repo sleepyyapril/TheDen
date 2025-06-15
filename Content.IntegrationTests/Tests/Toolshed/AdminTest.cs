@@ -6,7 +6,6 @@ using Robust.Shared.Toolshed;
 namespace Content.IntegrationTests.Tests.Toolshed;
 
 [TestFixture]
-[Ignore("Broken in 160.x for unknown reasons")]
 public sealed class AdminTest : ToolshedTest
 {
     [Test]

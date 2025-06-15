@@ -175,13 +175,13 @@ public partial class ChatBox : UIWidget
     {
         var formatted = new FormattedMessage(4);
         formatted.PushColor(color);
-        formatted.AddMarkupPermissive(message);
+        formatted.AddMarkup(message);
         formatted.Pop();
         if (repeat != 0)
         {
             int displayRepeat = repeat + 1;
             int sizeIncrease = Math.Min(displayRepeat / 6, 5);
-            formatted.AddMarkupPermissive(_loc.GetString("chat-system-repeated-message-counter",
+            formatted.AddMarkup(_loc.GetString("chat-system-repeated-message-counter",
                                 ("count", displayRepeat),
                                 ("size", 8 + sizeIncrease)
                                 ));

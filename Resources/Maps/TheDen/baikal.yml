@@ -14603,6 +14603,8 @@ entities:
       pos: 74.5,-52.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 26522
   - uid: 26476
@@ -15871,6 +15873,8 @@ entities:
       pos: 120.5,-61.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29083
   - uid: 28995
@@ -15896,6 +15900,8 @@ entities:
       pos: 120.5,-65.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29083
 - proto: AltarConvertMaint
@@ -78231,6 +78237,8 @@ entities:
       pos: 74.5,-47.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 26522
       - 26477
@@ -78240,6 +78248,8 @@ entities:
       pos: 75.5,-47.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 26522
       - 26477
@@ -81780,6 +81790,8 @@ entities:
       pos: 118.5,-60.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29083
       - 27319
@@ -118936,6 +118948,8 @@ entities:
       pos: 63.5,-53.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 26522
     - type: AtmosPipeColor
@@ -120349,6 +120363,8 @@ entities:
       pos: 119.5,-65.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29083
     - type: AtmosPipeColor
@@ -120360,6 +120376,8 @@ entities:
       pos: 121.5,-61.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29083
     - type: AtmosPipeColor
@@ -120434,6 +120452,8 @@ entities:
       pos: 62.5,-53.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 26522
     - type: AtmosPipeColor
@@ -123187,6 +123207,8 @@ entities:
       pos: 121.5,-60.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29083
     - type: AtmosPipeColor
@@ -123198,6 +123220,8 @@ entities:
       pos: 119.5,-64.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29083
     - type: AtmosPipeColor
@@ -187030,6 +187054,8 @@ entities:
       pos: 104.5,-66.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29069
   - uid: 28291
@@ -187038,6 +187064,8 @@ entities:
       pos: 104.5,-58.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29069
   - uid: 28292
@@ -187046,6 +187074,8 @@ entities:
       pos: 96.5,-58.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29069
   - uid: 28960
@@ -187054,6 +187084,8 @@ entities:
       pos: 96.5,-66.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29069
   - uid: 29070
@@ -187062,6 +187094,8 @@ entities:
       pos: 107.5,-62.5
       parent: 13
     - type: DeviceNetwork
+      configurators:
+      - invalid
       deviceLists:
       - 29069
 - proto: WeaponEnergyTurretAIControlPanel
