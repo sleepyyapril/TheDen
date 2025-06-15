@@ -562,7 +562,7 @@
   parent: BaseGameRule
   categories: [ HideSpawnMenu ]
   components:
-  - type: StationEvent
+  - type: StationEventt
     startAnnouncement: true
     earliestStart: 30 # funkystation delay
     minimumPlayers: 30 # DeltaV - was 20
