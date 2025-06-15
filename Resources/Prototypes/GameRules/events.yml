@@ -383,7 +383,6 @@
     weight: 3
     duration: 50
   - type: VentCrittersRule
-    table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       children:
       - id: MobCockroach
         weight: 0.7
@@ -561,16 +560,14 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    startAnnouncement: station-event-vent-creatures-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
+    startAnnouncement: true
     earliestStart: 30 # funkystation delay
     minimumPlayers: 30 # DeltaV - was 20
     weight: 1 # DeltaV - was 1.5
     duration: 30 # DeltaV: was 60, used as a delay now
   - type: VentCrittersRule
     playerRatio: 35 # DeltaV: Clown spiders are very robust
-    table: # DeltaV: EntityTable instead of spawn entries
+    table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       id: MobClownSpider
 
 #- type: entity
