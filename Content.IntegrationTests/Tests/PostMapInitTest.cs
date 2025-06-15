@@ -103,8 +103,19 @@ namespace Content.IntegrationTests.Tests
         {
             "Dev",
             "TestTeg",
-            "CentCommMain",
-            "CentCommHarmony",
+            "TestHFR", // Funky - HFR
+            "Fland",
+            "Meta",
+            "Packed",
+            "Cluster", // Goobstation - Readds Cluster
+            "Omega",
+            "Bagel",
+            "CentComm",
+            "Box",
+            "Europa", // Goobstation - Readds Europa
+            "Atlas", // Goobstation - Readds Atlas
+            "Core",
+            "Marathon",
             "MeteorArena",
             "NukieOutpost",
             "Core",
