@@ -57,6 +57,7 @@ namespace Content.IntegrationTests.Tests
         {
             "Dev",
             "TestTeg",
+            "TestHFR", // Funky - HFR
             "CentCommMain",
             "CentCommHarmony",
             "MeteorArena",
