@@ -6040,3 +6040,16 @@ Entries:
   id: 570
   time: '2025-06-15T07:30:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/787
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added the Yap emote from Floof (credit to Memeji)
+    - type: Tweak
+      message: Added kitsune to the whitelist for a bunch of markings
+    - type: Fix
+      message: Gave Kitsune yip emote (as originally intended)
+    - type: Tweak
+      message: Removed restriction on some hairs
+  id: 571
+  time: '2025-06-15T23:30:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/806
