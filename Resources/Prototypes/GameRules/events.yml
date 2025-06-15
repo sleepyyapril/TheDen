@@ -569,6 +569,7 @@
     duration: 30 # DeltaV: was 60, used as a delay now
   - type: VentCrittersRule
     playerRatio: 35 # DeltaV: Clown spiders are very robust
+  - type: VentCrittersRule
     table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       id: MobClownSpider
 
