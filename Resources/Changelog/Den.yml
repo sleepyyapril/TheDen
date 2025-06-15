@@ -6033,3 +6033,10 @@ Entries:
   id: 569
   time: '2025-06-15T04:27:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/801
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added a new and improved listening post to replace the old one!
+  id: 570
+  time: '2025-06-15T07:30:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/787
