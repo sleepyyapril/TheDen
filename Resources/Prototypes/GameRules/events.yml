@@ -554,7 +554,8 @@
     duration: 30 # DeltaV: was 60, used as a delay now
   - type: VentCrittersRule
     table: # DeltaV: EntityTable instead of spawn entries
-      id: MobGiantSpiderAngry
+      children:
+      - id: MobGiantSpiderAngry
 
 - type: entity
   id: SpiderClownSpawn
@@ -571,7 +572,8 @@
     playerRatio: 35 # DeltaV: Clown spiders are very robust
   - type: VentCrittersRule
     table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
-      id: MobClownSpider
+      children:
+       - id: MobClownSpider
 
 #- type: entity
 #  id: ZombieOutbreak
