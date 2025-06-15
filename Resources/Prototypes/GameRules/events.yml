@@ -383,6 +383,7 @@
     weight: 3
     duration: 50
   - type: VentCrittersRule
+    table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       children:
       - id: MobCockroach
         weight: 0.7
