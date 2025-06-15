@@ -6024,3 +6024,12 @@ Entries:
   id: 568
   time: '2025-06-14T22:48:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/798
+- author: juniwoofs
+  changes:
+    - type: Remove
+      message: >-
+        Removed the Guan-Yu, Shanlin, and Sheiwei tacsuits from the cargo
+        catalogue.
+  id: 569
+  time: '2025-06-15T04:27:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/801
