@@ -48,7 +48,8 @@ public sealed class VentCrittersRule : StationEventSystem<VentCrittersRuleCompon
             return;
 
         var nearest = beacon?.Comp?.Text!;
-        Comp<StationEventComponent>(uid).StartAnnouncement = Loc.GetString("station-event-vent-creatures-start-announcement-deltav", ("location", nearest));
+        // Our announcement system is a boolean, instead of taking a localisation string.
+        Comp<StationEventComponent>(uid).StartAnnouncement = true; // Loc.GetString("station-event-vent-creatures-start-announcement-deltav", ("location", nearest));
 
         base.Added(uid, comp, gameRule, args);
     }

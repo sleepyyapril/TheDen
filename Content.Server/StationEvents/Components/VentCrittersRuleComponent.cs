@@ -34,17 +34,17 @@ public sealed partial class VentCrittersRuleComponent : Component
     /// DeltaV: Base minimum number of critters to spawn.
     /// </summary>
     [DataField]
-    public int Min = 2;
+    public int Min = 4;
 
     /// <summary>
     /// DeltaV: Base maximum number of critters to spawn.
     /// </summary>
     [DataField]
-    public int Max = 3;
+    public int Max = 5;
 
     /// <summary>
     /// DeltaV: Min and max get multiplied by the player count then divided by this.
     /// </summary>
     [DataField]
-    public int PlayerRatio = 25;
+    public int PlayerRatio = 20;
 }
