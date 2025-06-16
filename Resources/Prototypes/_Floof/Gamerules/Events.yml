@@ -77,7 +77,7 @@
     reoccurrenceDelay: 12
     minimumPlayers: 20
     weight: 6 # Really weak compared to other critters
-    duraiton: 30
+    duration: 30
   - type: VentCrittersRule
     table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       children:
