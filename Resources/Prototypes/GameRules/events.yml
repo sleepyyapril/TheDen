@@ -527,9 +527,7 @@
   parent: BaseStationEventShortDelay
   components:
   - type: StationEvent
-    startAnnouncement: station-event-vent-creatures-start-announcement
-    startAudio:
-      path: /Audio/Announcements/aliens.ogg
+    startAnnouncement: true
     earliestStart: 20
     minimumPlayers: 15
     weight: 5
