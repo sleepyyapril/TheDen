@@ -6077,3 +6077,12 @@ Entries:
   id: 574
   time: '2025-06-16T01:57:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/811
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Updated the Denu to allow you to remove the asterisks currently required
+        by the formatter.
+  id: 575
+  time: '2025-06-16T18:06:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/813
