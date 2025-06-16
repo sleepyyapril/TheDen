@@ -493,7 +493,7 @@
     weight: 5
     duration: 30 # DeltaV: was 60, used as a delay now
   - type: VentCrittersRule
-    table: # DeltaV: EntityTable instead of spawn entries
+    table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
       children:
       - id: MobGiantSpiderAngry
 
