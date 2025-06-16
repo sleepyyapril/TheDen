@@ -48,7 +48,7 @@ public abstract partial class EntityTableSelector
         if (!CheckConditions(entMan, proto, ctx))
             yield break;
 
-        var rolls = Rolls.Get(rand);
+        var rolls = Rolls.Get(rand, entMan, proto);
         for (var i = 0; i < rolls; i++)
         {
             if (!rand.Prob(Prob))
