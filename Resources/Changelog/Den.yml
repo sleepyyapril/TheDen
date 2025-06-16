@@ -6086,3 +6086,14 @@ Entries:
   id: 575
   time: '2025-06-16T18:06:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/813
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: updated to robust version 260.2
+    - type: Add
+      message: AA to glacier
+    - type: Fix
+      message: glacier roboticist slots now show
+  id: 576
+  time: '2025-06-16T19:03:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/807
