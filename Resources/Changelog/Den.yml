@@ -6070,3 +6070,10 @@ Entries:
   id: 573
   time: '2025-06-16T01:57:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/810
+- author: Camdot
+  changes:
+    - type: Fix
+      message: 'Fixed lavaland weather over-rendering '
+  id: 574
+  time: '2025-06-16T01:57:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/811
