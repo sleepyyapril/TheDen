@@ -1,13 +1,3 @@
-- type: entity
-  id: LockerQuarterMasterFilled
-  suffix: Filled
-  parent: LockerQuarterMaster
-  components:
-  - type: EntityTableContainerFill
-    containers:
-      entity_storage: !type:NestedSelector
-        tableId: LockerFillQuarterMaster
-
 # No laser table
 - type: entityTable
   id: LockerFillCaptainNoLaser
