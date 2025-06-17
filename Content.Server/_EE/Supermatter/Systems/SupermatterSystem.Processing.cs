@@ -677,26 +677,6 @@ public sealed partial class SupermatterSystem
         var mobLookup = new HashSet<Entity<MobStateComponent>>();
         _entityLookup.GetEntitiesOnMap<MobStateComponent>(mapId, mobLookup);
 
-        // These values match the paracusia disability, since we can't double up on paracusia
-        var paracusiaSounds = new SoundCollectionSpecifier("Paracusia");
-        var paracusiaMinTime = 0.1f;
-        var paracusiaMaxTime = 300f;
-        var paracusiaDistance = 7f;
-
-        foreach (var mob in mobLookup)
-        {
-            // Ignore silicons
-            if (HasComp<SiliconLawBoundComponent>(uid))
-                continue;
-
-            if (!EnsureComp<ParacusiaComponent>(mob, out var paracusia))
-            {
-                _paracusia.SetSounds(mob, paracusiaSounds, paracusia);
-                _paracusia.SetTime(mob, paracusiaMinTime, paracusiaMaxTime, paracusia);
-                _paracusia.SetDistance(mob, paracusiaDistance, paracusia);
-            }
-        }
-
         switch (sm.PreferredDelamType)
         {
             case DelamType.Cascade:
