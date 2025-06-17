@@ -25,7 +25,6 @@
   - type: Tag
     tags:
     - Nozzle
-    
   - type: Spray
     transferAmount: 15
     pushbackAmount: 60
@@ -42,8 +41,6 @@
       tags:
       - NozzleBackTank
       - AtmosBackTank
-
-  - type: PacifismAllowedGun
   - type: Gun
     fireRate: 1
     selectedMode: SemiAuto
