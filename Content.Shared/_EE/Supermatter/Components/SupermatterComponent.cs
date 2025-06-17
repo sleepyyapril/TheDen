@@ -395,6 +395,9 @@ public sealed partial class SupermatterComponent : Component
         { Gas.Frezon,        0f },
         { Gas.Ammonia,       0f },
         { Gas.NitrousOxide,  0f },
+        { Gas.BZ,            0f }, // Assmos - /tg/ gases
+        { Gas.Healium,       0f }, // Assmos - /tg/ gases
+        { Gas.Pluoxium,      0f },
     };
 
     /// <summary>
@@ -403,15 +406,18 @@ public sealed partial class SupermatterComponent : Component
     //TODO: Replace this with serializable GasFact array something
     public readonly Dictionary<Gas, (float TransmitModifier, float HeatPenalty, float PowerMixRatio)> GasDataFields = new()
     {
-        { Gas.Oxygen,        (1.5f, 1f,    1f)  },
-        { Gas.Nitrogen,      (0f,   -1.5f, -1f) },
-        { Gas.CarbonDioxide, (0f,   0.1f,  1f)  },
-        { Gas.Plasma,        (4f,   15f,   1f)  },
-        { Gas.Tritium,       (30f,  10f,   1f)  },
-        { Gas.WaterVapor,    (2f,   12f,   1f)  },
-        { Gas.Frezon,        (3f,   -10f,  -1f) },
-        { Gas.Ammonia,       (0f,   .5f,   1f)  },
-        { Gas.NitrousOxide,  (0f,   -5f,   -1f) },
+        { Gas.Oxygen,        (1.5f, 1f,    1f)   },
+        { Gas.Nitrogen,      (0f,   -1.5f, -1f)  },
+        { Gas.CarbonDioxide, (0f,   0.1f,  1f)   },
+        { Gas.Plasma,        (4f,   15f,   1f)   },
+        { Gas.Tritium,       (30f,  10f,   1f)   },
+        { Gas.WaterVapor,    (2f,   12f,   1f)   },
+        { Gas.Frezon,        (3f,   -10f,  -1f)  },
+        { Gas.Ammonia,       (0f,   .5f,   1f)   },
+        { Gas.NitrousOxide,  (0f,   -5f,   -1f)  },
+        { Gas.BZ,            (0f,   5f,   1f)    },
+        { Gas.Healium,       (2.4f,   4f,   1f)  },
+        { Gas.Pluoxium,      (0f,   -2.5f,   -1f)},
     };
 
     #endregion
