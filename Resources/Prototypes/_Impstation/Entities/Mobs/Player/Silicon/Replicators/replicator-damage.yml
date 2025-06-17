@@ -29,7 +29,7 @@
     Slash: 0.2
     Piercing: 0.2
     Shock: 1.2
-    Heat: 0.25
+    Heat: 0.35
     Structural: 0.3
   flatReductions:
     Structural: 10
