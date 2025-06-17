@@ -6097,3 +6097,12 @@ Entries:
   id: 576
   time: '2025-06-16T19:03:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/807
+- author: mart33no
+  changes:
+    - type: Add
+      message: Added war.
+    - type: Tweak
+      message: Changed the requirement for nukies to declare war to 3 operatives from 4
+  id: 577
+  time: '2025-06-17T02:22:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/814
