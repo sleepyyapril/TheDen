@@ -293,11 +293,6 @@ namespace Content.Shared.Atmos
         public const float NitriumProductionEnergy = -100e3f; // Assmos - /tg/ gases
 
         /// <summary>
-        ///     The amount of energy 1 mol of Pluoxium forming releases.
-        /// </summary>
-        public const float PluoxiumProductionEnergy = 250; // Assmos - /tg/ gases
-
-        /// <summary>
         ///     The amount of energy 1 mol of Nitrium decomposing into nitrogen and water vapor releases.
         /// </summary>
         public const float NitriumDecompositionEnergy = 30e3f; // Assmos - /tg/ gases
