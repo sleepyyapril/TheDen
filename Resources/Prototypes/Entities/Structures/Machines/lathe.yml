@@ -319,6 +319,7 @@
       - ClothMade
       - Gauze
       - Metal
+      - Diamond
   - type: Lathe
     idleState: icon
     runningState: building
@@ -857,6 +858,7 @@
       - ClothMade
       - Gauze
       - Metal
+      - Diamond
   - type: GuideHelp
     guides:
     - Robotics
@@ -1214,6 +1216,7 @@
       - ClothMade
       - Gauze
       - Metal
+      - Diamond
 
 - type: entity
   id: AmmoTechFab
