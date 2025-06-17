@@ -6113,3 +6113,10 @@ Entries:
   id: 578
   time: '2025-06-17T04:38:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/816
+- author: juniwoofs
+  changes:
+    - type: Remove
+      message: Removed CC stamp from the new LPO
+  id: 579
+  time: '2025-06-17T04:38:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/812
