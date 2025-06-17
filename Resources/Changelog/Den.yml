@@ -6106,3 +6106,10 @@ Entries:
   id: 577
   time: '2025-06-17T02:22:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/814
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Replicators are now weaker to lasers.
+  id: 578
+  time: '2025-06-17T04:38:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/816
