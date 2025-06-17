@@ -6146,3 +6146,10 @@ Entries:
   id: 581
   time: '2025-06-17T20:34:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/802
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed the admin test arena
+  id: 582
+  time: '2025-06-17T20:35:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/820
