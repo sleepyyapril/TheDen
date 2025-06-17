@@ -95,7 +95,7 @@
       500: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      200: 0.85
+      300: 0.85
       400: 0.65
   # disable taking damage from fire, since its a fire breathing dragon
   - type: Flammable
@@ -152,14 +152,26 @@
     deactivateSound: null
   - type: Puller
     needsHands: false
+  - type: Damageable
+    damageModifierSet: Dragon
   - type: PassiveDamage # Around 19 damage a minute healed - don't let it heal.
     allowedStates:
     - Alive
     damage:
       types:
-        Heat: -0.32
+        Heat: -0.83
       groups:
-        Brute: -0.32
+        Brute: -0.83
+
+- type: damageModifierSet
+  id: Dragon
+  coefficients:
+    Blunt: 0.7
+    Slash: 0.7
+    Piercing: 1.1
+    Heat: 0.35
+  flatReductions:
+    Heat: 9
 
 - type: entity
   parent: BaseMobDragon
