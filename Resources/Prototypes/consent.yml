@@ -12,3 +12,6 @@
 
 - type: consentToggle
   id: ChangelingTarget
+
+- type: consentToggle
+  id: NoDragonDevour

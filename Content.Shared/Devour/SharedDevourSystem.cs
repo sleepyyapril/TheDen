@@ -1,4 +1,6 @@
+using Content.Shared._DEN.Devourable;
 using Content.Shared.Actions;
+using Content.Shared.Consent;
 using Content.Shared.Devour.Components;
 using Content.Shared.DoAfter;
 using Content.Shared.Mobs;
@@ -20,6 +22,7 @@ public abstract class SharedDevourSystem : EntitySystem
     [Dependency] private readonly SharedActionsSystem _actionsSystem = default!;
     [Dependency] protected readonly SharedContainerSystem ContainerSystem = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
+    [Dependency] private readonly SharedConsentSystem _consentSystem = default!;
 
     public override void Initialize()
     {
@@ -56,6 +59,12 @@ public abstract class SharedDevourSystem : EntitySystem
             {
                 case MobState.Critical:
                 case MobState.Dead:
+                    if (TryComp<DevourableComponent>(target, out var devourable) && !devourable.IsDevourable)
+                    {
+                        devourable.AttemptedDevouring = true;
+                        _popupSystem.PopupClient(Loc.GetString("devour-action-popup-message-fail-no-consent"), uid, uid);
+                        return;
+                    }
 
                     _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, uid, component.DevourTime, new DevourDoAfterEvent(), uid, target: target, used: uid)
                     {
