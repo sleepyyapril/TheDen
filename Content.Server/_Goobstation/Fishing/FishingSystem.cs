@@ -12,6 +12,7 @@ using Robust.Shared.Physics;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
+using Content.Shared.EntityTable;
 
 namespace Content.Server._Goobstation.Fishing;
 
@@ -55,8 +56,9 @@ public sealed class FishingSystem : SharedFishingSystem
         // Anchor fishing float on an entity
         Anchor(ent, attachedEnt);
 
+        var ctx = new EntityTableContext();
         // Currently we don't support multiple loots from this
-        var fish = spotComp.FishList.GetSpawns(_random.GetRandom(), EntityManager, _proto).First();
+        var fish = spotComp.FishList.GetSpawns(_random.GetRandom(), EntityManager, _proto, ctx).First();
 
         // Get fish difficulty
         _proto.Index(fish).TryGetComponent(out FishComponent? fishComp, _compFactory);
