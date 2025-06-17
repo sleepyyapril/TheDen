@@ -62,7 +62,7 @@
       - AtmosBackTank
 
 - type: entity
-  parent: [ BaseCivilianContraband, SmokeGrenade ]
+  parent: SmokeGrenade
   categories: [ HideSpawnMenu ]
   id: AtmosResin
   name: atmos resin
