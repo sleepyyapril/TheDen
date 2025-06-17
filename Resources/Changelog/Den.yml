@@ -6120,3 +6120,20 @@ Entries:
   id: 579
   time: '2025-06-17T04:38:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/812
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Shifts with a lot of danger will be accompanied by one shift with a
+        lesser chance of threats, Low Danger, the mode, and Irregular Extended
+        do imply a factor of randomness to things, but admins are to allow a lot
+        less when they are picked.
+    - type: Fix
+      message: >-
+        Modes that cannot run will no longer be picked for High Danger and
+        others. No more picking nukies when under 20 players.
+    - type: Fix
+      message: Selfdamage and timer are now usable by all.
+  id: 580
+  time: '2025-06-17T11:18:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/817
