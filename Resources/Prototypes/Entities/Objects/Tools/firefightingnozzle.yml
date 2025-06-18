@@ -48,7 +48,7 @@
     - SemiAuto
     - FullAuto
     soundGunshot:
-      path: /Audio/Effects/thunk.ogg
+      path: /Audio/Effects/firefighting_nozzle.ogg
     soundEmpty:
       path: /Audio/Items/hiss.ogg
     clumsyProof: true
