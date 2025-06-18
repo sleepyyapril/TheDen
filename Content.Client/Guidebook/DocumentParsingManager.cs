@@ -68,6 +68,7 @@ public sealed partial class DocumentParsingManager
     {
         try
         {
+            Logger.Info(text);
             foreach (var child in ControlParser.ParseOrThrow(text))
             {
                 control.AddChild(child);
