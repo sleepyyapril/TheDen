@@ -6235,3 +6235,27 @@ Entries:
   id: 589
   time: '2025-06-18T19:03:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/824
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Ported lots of new atmos gases, which were themselves ports of /tg/
+        gases, see PR for details. Guides on making these need to be written up
+        so get to work atmos dwellers!
+    - type: Add
+      message: >-
+        Ported a new firefighting backpack water tank, found in atmos locker
+        fills - it's specialized firefighting gear. Changes functionality
+        depending on intent/mode. Can be used to clear out toxic gases in its
+        secondary mode.
+    - type: Add
+      message: >-
+        Ported insulated atmos gloves - they are resprited insulated gloves.
+        Extra drip is always good. 
+    - type: Tweak
+      message: >-
+        Ported a bunch of mechanical/technical changes to the SM, along with
+        gorgeous new assets.
+  id: 590
+  time: '2025-06-18T19:57:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/819
