@@ -6174,3 +6174,23 @@ Entries:
   id: 583
   time: '2025-06-17T21:16:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/805
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        The dragon now uses consent for its devour, but still gains the buff if
+        they cannot 'nom someone.
+    - type: Tweak
+      message: >-
+        The dragon is now more of a direct, confrontational threat than anything
+        else. They do not bleed, they regenerate 50 health a minute out of 500,
+        and they get slowed at higher damage levels.
+    - type: Tweak
+      message: The dragon will no longer rot the people it holds.
+    - type: Tweak
+      message: >-
+        A dragon will no longer die if they do not make a rift, but they will be
+        weaker. This is mainly to encourage roleplay.
+  id: 584
+  time: '2025-06-18T01:40:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/823
