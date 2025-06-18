@@ -530,7 +530,7 @@ def main():
     # Validate license
     license_label = args.pr_license.lower()
 
-    original_config = LICENSE_CONFIG
+    original_config = LICENSE_CONFIG.copy()
 
     # TODO: support any amount of licenses
     for license in original_config:
