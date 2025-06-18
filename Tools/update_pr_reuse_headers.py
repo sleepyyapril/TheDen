@@ -528,6 +528,7 @@ def main():
     # Validate license
     license_label = args.pr_license.lower()
 
+    # TODO: support any amount of licenses
     for license in LICENSE_CONFIG:
         for target_license in LICENSE_CONFIG:
             if target_license == license:
