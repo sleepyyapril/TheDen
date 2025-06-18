@@ -196,7 +196,6 @@
       - id: ClothingHandsGlovesColorYellow
       - id: ClothingMaskGas
       - id: trayScanner
-      - id: ClothingShoesBootsMag
       - id: RCD
       - id: RCDAmmo
       - id: LunchboxEngineeringFilledRandom # Delta-V Lunchboxes!
