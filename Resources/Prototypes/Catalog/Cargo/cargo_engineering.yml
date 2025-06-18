@@ -184,5 +184,14 @@
     state: icon
   product: CrateEngineeringFirefighterBackpackTank
   cost: 1000
+
+- type: cargoProduct #TheDen
+  id: EngineeringCrateSurplus
+  icon:
+    sprite: Structures/Storage/Crates/engicrate_secure.rsi
+    state: icon
+  product: CrateEngiSurplus
+  cost: 6000
+
   category: cargoproduct-category-name-engineering
   group: market
