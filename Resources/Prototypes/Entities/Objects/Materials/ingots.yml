@@ -211,3 +211,4 @@
   - type: Sprite
     state: tungsten_1
   - type: Stack
+    count: 1

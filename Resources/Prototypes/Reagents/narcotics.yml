@@ -508,6 +508,21 @@
         type: Add
         time: 5
         refresh: false
+      - !type:ChemAddMoodlet # Floof - Add mood-system addiction
+        moodPrototype: HappinessBenefit
+        guidebookShowEffectName: true
+        probability: 0.1 # 77% addictive at 10u, 34% at 5u
+        conditions:
+        - !type:ReagentThreshold
+          min: 3.5
+      - !type:ChemAddMoodlet
+        moodPrototype: HappinessNeutral
+        guidebookShowEffectName: true
+        conditions:
+        - !type:MoodEffect
+          effectId: HappinessWithdrawal
+        - !type:ReagentThreshold
+          min: 3.5
 
 - type: reagent # Assmos - /tg/ gases
   id: NitrosylPlasmide

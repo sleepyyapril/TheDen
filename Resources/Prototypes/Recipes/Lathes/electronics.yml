@@ -1155,14 +1155,29 @@
 - type: latheRecipe
   id: CutterMachineCircuitboard
   result: CutterMachineCircuitboard
+  category: Circuitry
+  completetime: 5
+  materials:
+    Steel: 100
+    Glass: 500
 
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
   id: HolopadMachineCircuitboard
   result: HolopadMachineCircuitboard
+  category: Circuitry
+  completetime: 5
+  materials:
+    Steel: 100
+    Glass: 500
 
 # Assmos - /tg/ gases
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
   id: ElectrolyzerMachineBoard
   result: ElectrolyzerMachineBoard
+  category: Circuitry
+  completetime: 5
+  materials:
+    Steel: 100
+    Glass: 500
