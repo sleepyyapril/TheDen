@@ -6208,3 +6208,30 @@ Entries:
   id: 586
   time: '2025-06-18T14:53:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/831
+- author: lunarcomets
+  changes:
+    - type: Add
+      message: >-
+        AI customization has been ported from WizDen. AIs are now allowed to
+        change their AI screens and hologram with select sprites!
+  id: 587
+  time: '2025-06-18T18:51:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/827
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Added a "randomize body" button to the character creator, which will
+        randomize your character's appearance and nothing else.
+  id: 588
+  time: '2025-06-18T18:54:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/830
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Expeditions can be performed on player built shuttles
+    - type: Tweak
+      message: Salvage magnet works on player built shuttles
+  id: 589
+  time: '2025-06-18T19:03:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/824
