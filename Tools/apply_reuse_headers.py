@@ -477,12 +477,6 @@ def process_file(file_path_tuple):
             determined_license_id = LICENSE_AFTER
         else:
             determined_license_id = LICENSE_AFTER if last_commit_timestamp > cutoff_ts else LICENSE_BEFORE
-        
-        if mit_count == 0:
-            determined_license_id = "AGPLv3-or-later"
-        
-        if agpl_count == 0:
-            determined_license_id = "MIT"
 
         # Determine what to do based on existing header
         if existing_license:
