@@ -27,7 +27,12 @@ public sealed class DevourSystem : SharedDevourSystem
 
         if (component.FoodPreference == FoodPreference.All ||
             (component.FoodPreference == FoodPreference.Humanoid && HasComp<HumanoidAppearanceComponent>(args.Args.Target)))
+        {
             _damageable.TryChangeDamage(uid, component.HealDamage, true, false, damageable);
+
+            if (component.ShouldStoreDevoured && args.Args.Target is not null && args.AllowDevouring)
+                ContainerSystem.Insert(args.Args.Target.Value, component.Stomach);
+        }
         //TODO: Figure out a better way of removing structures via devour that still entails standing still and waiting for a DoAfter. Somehow.
         //If it's not human, it must be a structure
         else if (args.Args.Target != null)

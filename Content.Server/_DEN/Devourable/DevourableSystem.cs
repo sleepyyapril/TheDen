@@ -53,8 +53,8 @@ public sealed class DevourableSystem : EntitySystem
             if (component.LastUpdateTime + component.UpdateInterval > _gameTiming.CurTime)
                 continue;
 
-            UpdateConsent((uid, component));
             component.LastUpdateTime = _gameTiming.CurTime;
+            UpdateConsent((uid, component));
             Dirty(uid, component);
         }
     }
