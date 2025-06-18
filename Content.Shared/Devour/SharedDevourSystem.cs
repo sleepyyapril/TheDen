@@ -24,9 +24,6 @@ public abstract class SharedDevourSystem : EntitySystem
     [Dependency] protected readonly SharedContainerSystem ContainerSystem = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
     [Dependency] private readonly DamageableSystem _damageableSystem = default!;
-    [Dependency] private readonly ILogManager _logManager = default!;
-
-    private ISawmill _sawmill = default!;
 
     public override void Initialize()
     {
@@ -34,8 +31,6 @@ public abstract class SharedDevourSystem : EntitySystem
 
         SubscribeLocalEvent<DevourerComponent, MapInitEvent>(OnInit);
         SubscribeLocalEvent<DevourerComponent, DevourActionEvent>(OnDevourAction);
-
-        _sawmill = _logManager.GetSawmill("devour");
     }
 
     protected void OnInit(EntityUid uid, DevourerComponent component, MapInitEvent args)
