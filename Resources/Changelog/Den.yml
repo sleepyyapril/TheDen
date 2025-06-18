@@ -6217,3 +6217,12 @@ Entries:
   id: 587
   time: '2025-06-18T18:51:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/827
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Added a "randomize body" button to the character creator, which will
+        randomize your character's appearance and nothing else.
+  id: 588
+  time: '2025-06-18T18:54:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/830
