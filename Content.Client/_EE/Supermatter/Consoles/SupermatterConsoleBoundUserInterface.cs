@@ -2,17 +2,13 @@ using Content.Shared._EE.Supermatter.Components;
 
 namespace Content.Client._EE.Supermatter.Consoles;
 
-public sealed class SupermatterConsoleBoundUserInterface : BoundUserInterface
+public sealed class SupermatterConsoleBoundUserInterface(EntityUid owner, Enum uiKey) : BoundUserInterface(owner, uiKey)
 {
     [ViewVariables]
     private SupermatterConsoleWindow? _menu;
 
-    public SupermatterConsoleBoundUserInterface(EntityUid owner, Enum uiKey) : base(owner, uiKey) { }
-
     protected override void Open()
     {
-        base.Open();
-
         _menu = new SupermatterConsoleWindow(this, Owner);
         _menu.OpenCentered();
         _menu.OnClose += Close;
@@ -37,6 +33,6 @@ public sealed class SupermatterConsoleBoundUserInterface : BoundUserInterface
         if (!disposing)
             return;
 
-        _menu?.Dispose();
+        _menu?.Parent?.RemoveChild(_menu);
     }
 }

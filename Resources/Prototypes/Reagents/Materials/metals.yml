@@ -40,6 +40,13 @@
   price: 0.28 # 1-1 mix of plasma and steel.
 
 - type: material
+  id: MetalHydrogen
+  stackEntity: MetalHydrogen1
+  name: materials-metal-hydrogen
+  icon: { sprite: Objects/Materials/ingots.rsi, state: hydrogen }
+  price: 1.00 # $100 for 1 unit
+
+- type: material
   id: Tungsten
   stackEntity: IngotTungsten1
   name: materials-tungsten

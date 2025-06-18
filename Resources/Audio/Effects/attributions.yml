@@ -251,3 +251,8 @@
   license: "CC-BY-SA-4.0"
   copyright: "From battle for wesnoth"
   source: "https://github.com/wesnoth/wesnoth"
+
+- files: ["firefighting_nozzle.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Fresound 118950, 186950, 790280 composited and edited together by MajorMoth"
+  source: "https://freesound.org/"
