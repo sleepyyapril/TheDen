@@ -146,9 +146,9 @@ public sealed class LightningSystem : SharedLightningSystem
     /// <param name="hitCoordsChance">Chance for lightning to strike random coordinates instead of an entity.</param>
     public void ShootRandomLightnings(MapCoordinates coordinates, float range, int boltCount, string lightningPrototype = "Lightning", int arcDepth = 0, bool triggerLightningEvents = true, float hitCoordsChance = 0f, EntityUid? user = null)
     {
-        //TODO: add support to different priority target tablem for different lightning types
-        //TODO: Remove Hardcode LightningTargetComponent (this should be a parameter of the SharedLightningComponent)
-        //TODO: This is still pretty bad for perf but better than before and at least it doesn't re-allocate
+        //To Do: add support to different priority target tablem for different lightning types
+        //To Do: Remove Hardcode LightningTargetComponent (this should be a parameter of the SharedLightningComponent)
+        //To Do: This is still pretty bad for perf but better than before and at least it doesn't re-allocate
         // several hashsets every time
 
         var targets = _lookup.GetEntitiesInRange<LightningTargetComponent>(coordinates, range).ToList();

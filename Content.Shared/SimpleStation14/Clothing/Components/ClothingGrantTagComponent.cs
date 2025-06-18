@@ -3,7 +3,7 @@
 //
 // SPDX-License-Identifier: MIT
 
-namespace Content.Shared.SimpleStation14.Clothing;
+namespace Content.Shared._Goobstation.Clothing;
 
 [RegisterComponent]
 public sealed partial class ClothingGrantTagComponent : Component

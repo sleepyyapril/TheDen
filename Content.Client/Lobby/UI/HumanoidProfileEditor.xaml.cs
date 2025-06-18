@@ -232,6 +232,7 @@ namespace Content.Client.Lobby.UI
             NameEdit.OnTextChanged += args => { SetName(args.Text); };
             NameRandomize.OnPressed += _ => RandomizeName();
             RandomizeEverything.OnPressed += _ => { RandomizeProfile(); };
+            RandomizeBodyButton.OnPressed += _ => { RandomizeBody(); };
             WarningLabel.SetMarkup($"[color=red]{Loc.GetString("humanoid-profile-editor-naming-rules-warning")}[/color]");
 
             #endregion Name
@@ -2121,6 +2122,18 @@ namespace Content.Client.Lobby.UI
         private void SetPreviewRotation(Direction direction)
         {
             SpriteView.OverrideDirection = (Direction) ((int) direction % 4 * 2);
+        }
+
+        private void RandomizeBody()
+        {
+            if (Profile == null)
+            {
+                return;
+            }
+
+            Profile = HumanoidCharacterProfile.RandomBody(Profile);
+            SetProfile(Profile, CharacterSlot);
+            SetDirty();
         }
 
         private void RandomizeName()

@@ -26,6 +26,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 humanoid-profile-editor-randomize-everything-button = Randomize everything
+humanoid-profile-editor-randomize-body-button = Randomize body
 humanoid-profile-editor-name-label = Name:
 humanoid-profile-editor-name-random-button = Randomize
 humanoid-profile-editor-appearance-tab = Appearance

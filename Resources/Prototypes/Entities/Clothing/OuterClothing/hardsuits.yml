@@ -495,9 +495,12 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitEngineeringWhite
+  # imp edits #
+  - type: SupermatterImmune
   - type: ClothingGrantComponent
     component:
     - type: SupermatterImmune
+  # end imp edits #
   - type: StaminaDamageResistance
     coefficient: 0.65 # 35%
   - type: GuideHelp
