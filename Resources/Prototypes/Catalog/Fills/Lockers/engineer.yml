@@ -143,7 +143,6 @@
       - id: AccessConfigurator
       - id: ClothingHandsGlovesAtmosInsulated # Goobstation - insulated atmos gloves
       - id: ClothingBackpackFirefighterTank # Assmos - Firefighter nozzle
-      - id: FirefighterNozzle # Assmos - Firefighter nozzle
 
 - type: entity
   id: LockerAtmosphericsFilled
@@ -168,7 +167,6 @@
       - id: AccessConfigurator
       - id: ClothingHandsGlovesAtmosInsulated # Goobstation - insulated atmos gloves
       - id: ClothingBackpackFirefighterTank # Assmos - Firefighter nozzle
-      - id: FirefighterNozzle # Assmos - Firefighter nozzle
 
 - type: entity
   id: LockerEngineerFilledHardsuit
