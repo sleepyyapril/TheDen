@@ -1809,16 +1809,17 @@
 
 # Assmos - /tg/ gases
 - type: entity
-  id: ElectrolyzerMachineBoard
   parent: BaseMachineCircuitboard
+  id: ElectrolyzerMachineBoard
   name: electrolyzer machine board
   description: A machine printed circuit board for an electrolyzer.
   components:
     - type: MachineBoard
       prototype: Electrolyzer
-      stackRequirements:
-        Steel: 5
+      requirements:
         Capacitor: 4
+      materialRequirements:
         CableHV: 5
+        Steel: 5
         Plasteel: 2
 # Assmos Change End
