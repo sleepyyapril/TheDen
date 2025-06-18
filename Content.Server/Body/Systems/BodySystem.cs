@@ -25,7 +25,7 @@
 // SPDX-FileCopyrightText: 2024 deathride58 <deathride58@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2024 gluesniffler <linebarrelerenthusiast@gmail.com>
-// SPDX-FileCopyrightText: 2024 sleepyyapril <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>
+// SPDX-FileCopyrightText: 2024 sleepyyapril <***>
 // SPDX-FileCopyrightText: 2025 Falcon <falcon@zigtag.dev>
 // SPDX-FileCopyrightText: 2025 M3739 <47579354+M3739@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 VMSolidus <evilexecutive@gmail.com>
