@@ -18,7 +18,7 @@ import time
 # --- Configuration ---
 CUTOFF_COMMIT_HASH = "8270907bdc509a3fb5ecfecde8cc14e5845ede36"
 LICENSE_BEFORE = "MIT"
-LICENSE_AFTER = "AGPL-3.0-or-later"
+LICENSE_AFTER = "AGPL-3.0-or-later AND MIT"
 FILE_PATTERNS = ["*.cs", "*.js", "*.ts", "*.jsx", "*.tsx", "*.c", "*.cpp", "*.cc", "*.h", "*.hpp",
                 "*.java", "*.scala", "*.kt", "*.swift", "*.go", "*.rs", "*.dart", "*.groovy", "*.php",
                 "*.yaml", "*.yml", "*.ftl", "*.py", "*.rb", "*.pl", "*.pm", "*.sh", "*.bash", "*.zsh",
