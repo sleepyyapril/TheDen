@@ -7,6 +7,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+using Content.Shared._DEN.Devourable;
 using Content.Shared.Examine;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Mobs;
@@ -144,6 +145,9 @@ public abstract class SharedRottingSystem : EntitySystem
 
         // only dead things or inanimate objects can rot
         if (TryComp<MobStateComponent>(uid, out var mobState) && !_mobState.IsDead(uid, mobState))
+            return false;
+
+        if (TryComp<DevourableComponent>(uid, out var devourable) && devourable.AttemptedDevouring)
             return false;
 
         if (_container.TryGetOuterContainer(uid, Transform(uid), out var container) &&

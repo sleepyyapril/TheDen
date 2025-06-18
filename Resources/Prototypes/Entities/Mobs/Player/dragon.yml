@@ -45,6 +45,7 @@
   - type: Body # Shitmed
     prototype: SpaceDragon
   - type: Bloodstream
+    maxBleedAmount: 0
     bloodMaxVolume: 650
   - type: GhostRole
     allowMovement: true
@@ -130,8 +131,8 @@
       500: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
-      250: 0.7
-      400: 0.5
+      300: 0.85
+      400: 0.65
   # disable taking damage from fire, since its a fire breathing dragon
   - type: Flammable
     damage:
@@ -164,11 +165,15 @@
       types:
         Piercing: 15
         Slash: 15
+  - type: AntiRottingContainer
   - type: Devourer
     foodPreference: Humanoid
     shouldStoreDevoured: true
-    chemical: Ichor
-    healRate: 15.0
+    healDamage:
+      types:
+        Heat: -35
+      groups:
+        Brute: -35
     whitelist:
       components:
       - MobState
@@ -186,6 +191,26 @@
     deactivateSound: null
   - type: Puller
     needsHands: false
+  - type: Damageable
+    damageModifierSet: Dragon
+  - type: PassiveDamage # Around 19 damage a minute healed - don't let it heal.
+    allowedStates:
+    - Alive
+    damage:
+      types:
+        Heat: -0.34
+      groups:
+        Brute: -0.34
+
+- type: damageModifierSet
+  id: Dragon
+  coefficients:
+    Blunt: 0.7
+    Slash: 0.7
+    Piercing: 1.1
+    Heat: 0.35
+  flatReductions:
+    Heat: 9
 
 - type: entity
   parent: BaseMobDragon

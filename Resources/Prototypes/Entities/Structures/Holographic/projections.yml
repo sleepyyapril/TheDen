@@ -73,15 +73,15 @@
   - type: Airtight
     noAirWhenFullyAirBlocked: false
   - type: Holofan # DeltaV - for whitelisting
-  - type: SpamEmitSound
-    enabled: false
-    minInterval: 3.2
-    maxInterval: 3.3
-    sound:
-      path: /Audio/_DEN/holofan_sound_looped.ogg
-      params:
-        maxDistance: 5
-        volume: 2
+#  - type: SpamEmitSound
+#    enabled: false
+#    minInterval: 3.2
+#    maxInterval: 3.3
+#    sound:
+#      path: /Audio/_DEN/holofan_sound_looped.ogg
+#      params:
+#        maxDistance: 5
+#        volume: 2
 
 - type: entity
   id: HolosignSecurity
