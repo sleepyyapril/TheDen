@@ -17,7 +17,7 @@ import time
 
 # --- Configuration ---
 CUTOFF_COMMIT_HASH = "8270907bdc509a3fb5ecfecde8cc14e5845ede36"
-LICENSE_BEFORE = "MIT"
+LICENSE_BEFORE = "MIT AND AGPL-3.0-or-later"
 LICENSE_AFTER = "AGPL-3.0-or-later AND MIT"
 FILE_PATTERNS = ["*.cs", "*.js", "*.ts", "*.jsx", "*.tsx", "*.c", "*.cpp", "*.cc", "*.h", "*.hpp",
                 "*.java", "*.scala", "*.kt", "*.swift", "*.go", "*.rs", "*.dart", "*.groovy", "*.php",
@@ -334,7 +334,7 @@ def create_header(authors, license_id, comment_style):
                 if not author.startswith("Unknown <"):
                     lines.append(f"{prefix} SPDX-FileCopyrightText: {year} {author}")
         else:
-            lines.append(f"{prefix} SPDX-FileCopyrightText: Contributors to the DoobStation14 project")
+            lines.append(f"{prefix} SPDX-FileCopyrightText: Contributors to The Den project")
 
         # Add separator
         lines.append(f"{prefix}")
@@ -352,7 +352,7 @@ def create_header(authors, license_id, comment_style):
                 if not author.startswith("Unknown <"):
                     lines.append(f"SPDX-FileCopyrightText: {year} {author}")
         else:
-            lines.append(f"SPDX-FileCopyrightText: Contributors to the DoobStation14 project")
+            lines.append(f"SPDX-FileCopyrightText: Contributors to The Den project")
 
         # Add separator
         lines.append("")
@@ -477,6 +477,12 @@ def process_file(file_path_tuple):
             determined_license_id = LICENSE_AFTER
         else:
             determined_license_id = LICENSE_AFTER if last_commit_timestamp > cutoff_ts else LICENSE_BEFORE
+        
+        if mit_count == 0:
+            determined_license_id = "AGPLv3-or-later"
+        
+        if agpl_count == 0:
+            determined_license_id = "MIT"
 
         # Determine what to do based on existing header
         if existing_license:
