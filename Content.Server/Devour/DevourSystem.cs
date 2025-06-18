@@ -33,7 +33,8 @@ public sealed class DevourSystem : SharedDevourSystem
         else if (args.Args.Target != null)
             QueueDel(args.Args.Target.Value);
 
-        _audioSystem.PlayPvs(component.SoundDevour, uid);
+        if (args.AllowDevouring)
+            _audioSystem.PlayPvs(component.SoundDevour, uid);
     }
 
     private void OnGibContents(EntityUid uid, DevourerComponent component, ref BeingGibbedEvent args)

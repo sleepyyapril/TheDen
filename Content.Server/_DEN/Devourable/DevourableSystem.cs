@@ -2,8 +2,10 @@ using Content.Server.Consent;
 using Content.Shared._DEN.Devourable;
 using Content.Shared.Consent;
 using Content.Shared.GameTicking;
+using Content.Shared.Mind;
 using Content.Shared.Mobs;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Timing;
 
 
 namespace Content.Server._DEN.Devourable;
@@ -15,10 +17,9 @@ namespace Content.Server._DEN.Devourable;
 public sealed class DevourableSystem : EntitySystem
 {
     [Dependency] private readonly ConsentSystem _consentSystem = default!;
+    [Dependency] private readonly IGameTiming _gameTiming = default!;
 
     private readonly ProtoId<ConsentTogglePrototype> _noDragonDevour = "NoDragonDevour";
-
-    private EntityQueryEnumerator<DevourableComponent> _queryEnumerator;
 
     public override void Initialize()
     {
@@ -30,7 +31,7 @@ public sealed class DevourableSystem : EntitySystem
 
     private void OnMobStateChanged(Entity<DevourableComponent> ent, ref MobStateChangedEvent args)
     {
-        if (args.NewMobState == MobState.Alive)
+        if (args.NewMobState == MobState.Alive && ent.Comp.AttemptedDevouring)
         {
             ent.Comp.AttemptedDevouring = false;
             Dirty(ent);
@@ -45,14 +46,26 @@ public sealed class DevourableSystem : EntitySystem
 
     public override void Update(float frameTime)
     {
-        while (_queryEnumerator.MoveNext(out var uid, out var component))
+        var query = EntityQueryEnumerator<DevourableComponent>();
+
+        while (query.MoveNext(out var uid, out var component))
+        {
+            if (component.LastUpdateTime + component.UpdateInterval > _gameTiming.CurTime)
+                continue;
+
             UpdateConsent((uid, component));
+            component.LastUpdateTime = _gameTiming.CurTime;
+            Dirty(uid, component);
+        }
     }
 
     private void UpdateConsent(Entity<DevourableComponent> ent)
     {
         // we're checking if they have it on (no devour)
         var dragonDevour = !_consentSystem.HasConsent(ent.Owner, _noDragonDevour);
+
+        if (!TryComp<MindComponent>(ent, out var mindComponent) || mindComponent.UserId is not { })
+            return;
 
         if (ent.Comp.IsDevourable != dragonDevour)
         {
