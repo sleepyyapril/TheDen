@@ -68,7 +68,6 @@ public sealed partial class DocumentParsingManager
     {
         try
         {
-            Logger.Info(text);
             foreach (var child in ControlParser.ParseOrThrow(text))
             {
                 control.AddChild(child);
@@ -77,7 +76,7 @@ public sealed partial class DocumentParsingManager
         catch (Exception e)
         {
             if (log)
-                Logger.Error($"Encountered error while generating markup controls: {e}");
+                Logger.Error($"Encountered error while generating markup controls: {text} {e}");
             return false;
         }
 
