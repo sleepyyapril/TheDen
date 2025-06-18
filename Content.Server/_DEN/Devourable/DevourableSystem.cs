@@ -62,15 +62,12 @@ public sealed class DevourableSystem : EntitySystem
     private void UpdateConsent(Entity<DevourableComponent> ent)
     {
         // we're checking if they have it on (no devour)
-        var dragonDevour = !_consentSystem.HasConsent(ent.Owner, _noDragonDevour);
-
         if (!TryComp<MindComponent>(ent, out var mindComponent) || mindComponent.UserId is not { })
             return;
 
-        if (ent.Comp.IsDevourable != dragonDevour)
-        {
-            ent.Comp.IsDevourable = dragonDevour;
-            Dirty(ent);
-        }
+        var dragonDevour = !_consentSystem.HasConsent(ent.Owner, _noDragonDevour);
+
+        ent.Comp.IsDevourable = dragonDevour;
+        Dirty(ent);
     }
 }
