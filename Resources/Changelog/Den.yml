@@ -6120,3 +6120,91 @@ Entries:
   id: 579
   time: '2025-06-17T04:38:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/812
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Shifts with a lot of danger will be accompanied by one shift with a
+        lesser chance of threats, Low Danger, the mode, and Irregular Extended
+        do imply a factor of randomness to things, but admins are to allow a lot
+        less when they are picked.
+    - type: Fix
+      message: >-
+        Modes that cannot run will no longer be picked for High Danger and
+        others. No more picking nukies when under 20 players.
+    - type: Fix
+      message: Selfdamage and timer are now usable by all.
+  id: 580
+  time: '2025-06-17T11:18:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/817
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: >-
+        Reworked vent critters event. Critters now all spawn from one vent in
+        higher numbers.
+  id: 581
+  time: '2025-06-17T20:34:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/802
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed the admin test arena
+  id: 582
+  time: '2025-06-17T20:35:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/820
+- author: Rosycup
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked Krav Maga's leg sweep to have a 5 second use delay instead of 3
+        and to do a knockdown instead of a complete paralysis.
+    - type: Tweak
+      message: >-
+        Diamonds should now only be able to be inserted into the respective
+        lathes that use them, security techfab and exosuit fabricator.
+    - type: Tweak
+      message: Stamina cost for heavy swings on Greatsword lowered from 30 to 20.
+    - type: Fix
+      message: >-
+        Fixed the heavy swing speed for katanas and claymores to be more
+        sensible.
+    - type: Fix
+      message: Fixed IPCs not being able to set poses.
+  id: 583
+  time: '2025-06-17T21:16:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/805
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        The dragon now uses consent for its devour, but still gains the buff if
+        they cannot 'nom someone.
+    - type: Tweak
+      message: >-
+        The dragon is now more of a direct, confrontational threat than anything
+        else. They do not bleed, they regenerate 50 health a minute out of 500,
+        and they get slowed at higher damage levels.
+    - type: Tweak
+      message: The dragon will no longer rot the people it holds.
+    - type: Tweak
+      message: >-
+        A dragon will no longer die if they do not make a rift, but they will be
+        weaker. This is mainly to encourage roleplay.
+  id: 584
+  time: '2025-06-18T01:40:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/823
+- author: ZigTag
+  changes:
+    - type: Remove
+      message: holofan sounds
+  id: 585
+  time: '2025-06-18T04:53:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/825
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Rodentia names now localize properly.
+  id: 586
+  time: '2025-06-18T14:53:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/831
