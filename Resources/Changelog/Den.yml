@@ -6201,3 +6201,10 @@ Entries:
   id: 585
   time: '2025-06-18T04:53:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/825
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Rodentia names now localize properly.
+  id: 586
+  time: '2025-06-18T14:53:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/831
