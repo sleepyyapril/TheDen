@@ -1,4 +1,9 @@
-﻿using Content.Shared._EE.Supermatter.Components;
+// SPDX-FileCopyrightText: 2025 VMSolidus <evilexecutive@gmail.com>
+// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
+using Content.Shared._EE.Supermatter.Components;
 using Content.Shared.Atmos;
 using Robust.Shared.Configuration;
 
