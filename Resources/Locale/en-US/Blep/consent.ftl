@@ -36,3 +36,6 @@ consent-MassMindSwap-desc = Should a mass mind swap from glimmer work on you?
 
 consent-ChangelingTarget-name = Changeling Target
 consent-ChangelingTarget-desc = Should your body be allowed to be stolen by changelings?
+
+consent-NoDragonDevour-name = No Dragon Devour
+consent-NoDragonDevour-desc = With this on, you will no longer be able to be devoured by dragons. Your body will still not progress in rot until found.
