@@ -1805,6 +1805,7 @@
       Manipulator: 1
     materialRequirements:
       Cable: 1
+      Steel: 2
 
 # Shitmed Change Start
 - type: entity
