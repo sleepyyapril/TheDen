@@ -6,9 +6,12 @@ SPDX-FileCopyrightText: 2022 AJCM-git <60196617+AJCM-git@users.noreply.github.co
 SPDX-FileCopyrightText: 2022 Kara <lunarautomaton6@gmail.com>
 SPDX-FileCopyrightText: 2023 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
 SPDX-FileCopyrightText: 2023 Kevin Zheng <kevinz5000@gmail.com>
+SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT <77995199+DEATHB4DEFEAT@users.noreply.github.com>
 SPDX-FileCopyrightText: 2024 Vasilis <vasilis@pikachu.systems>
 SPDX-FileCopyrightText: 2024 lzk <124214523+lzk228@users.noreply.github.com>
 SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+SPDX-FileCopyrightText: 2025 sleepyyapril <flyingkarii@gmail.com>
 
 SPDX-License-Identifier: AGPL-3.0-or-later
 -->

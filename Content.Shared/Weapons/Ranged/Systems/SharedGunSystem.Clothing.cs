@@ -1,3 +1,14 @@
+// SPDX-FileCopyrightText: 2023 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2023 TaralGit <76408146+TaralGit@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2023 and_a <and_a@DESKTOP-RJENGIR>
+// SPDX-FileCopyrightText: 2023 themias <89101928+themias@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2024 Plykiya <58439124+Plykiya@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2024 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 using System.Diagnostics.CodeAnalysis;
 using Content.Shared.Inventory;
 using Content.Shared.Weapons.Ranged.Components;
