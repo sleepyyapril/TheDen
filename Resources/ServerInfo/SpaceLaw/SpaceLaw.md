@@ -8,4 +8,6 @@ SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.
 SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 -->
 
-Find our space law at wiki.denstation.net.
+<Document>
+    Find our space law at wiki.denstation.net.
+</Document>
