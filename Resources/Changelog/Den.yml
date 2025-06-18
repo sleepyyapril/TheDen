@@ -6194,3 +6194,10 @@ Entries:
   id: 584
   time: '2025-06-18T01:40:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/823
+- author: ZigTag
+  changes:
+    - type: Remove
+      message: holofan sounds
+  id: 585
+  time: '2025-06-18T04:53:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/825
