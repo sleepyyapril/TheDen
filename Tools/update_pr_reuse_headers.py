@@ -111,6 +111,9 @@ COMMENT_STYLES = {
 REPO_PATH = "."
 
 tokens = ["github_pat_", "ghp_", "gho_"]
+remove_emails = [
+    {"target": "jakbroe", "replace_with": "180479595+juniwoofs@users.noreply.github.com"}
+]
 
 def is_token_basic(text):
     for token in tokens:
@@ -219,6 +222,10 @@ def get_authors_from_git(file_path, cwd=REPO_PATH, pr_base_sha=None, pr_head_sha
             email_cmd = ["git", "config", "user.email"]
             user_name = run_git_command(name_cmd, cwd=cwd, check=False)
             user_email = run_git_command(email_cmd, cwd=cwd, check=False)
+
+            for potential_email in remove_emails:
+                if user_email.startswith(potential_email):
+                    user_email = "REDACTED"
 
             # Use current year
             current_year = datetime.now(timezone.utc).year
@@ -460,6 +467,12 @@ def process_file(file_path, default_license_id, pr_base_sha=None, pr_head_sha=No
         email_cmd = ["git", "config", "user.email"]
         user_name = run_git_command(name_cmd, check=False)
         user_email = run_git_command(email_cmd, check=False)
+
+        for potential_email in remove_emails:
+            replace_with = remove_emails[potential_email]
+
+            if user_email.startswith(potential_email):
+                user_email = replace_with
 
         if user_name and user_email and user_name.strip() != "Unknown":
             # Use current year
