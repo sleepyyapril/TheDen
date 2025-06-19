@@ -1,5 +1,4 @@
 // SPDX-FileCopyrightText: 2024 Thomas <87614336+Aeshus@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 TheDen-Bot <thelargetrucksyndicate@gmail.com>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
