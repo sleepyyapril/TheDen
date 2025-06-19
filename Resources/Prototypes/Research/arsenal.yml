@@ -89,35 +89,10 @@
   - MagazineBoxMagnumIncendiary
   - MagazineBoxLightRifleIncendiary
   - MagazineBoxRifleIncendiary
-
-- type: technology
-  id: WeaponizedLaserManipulation
-  name: research-technology-weaponized-laser-manipulation
-  icon:
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
-    state: icon
-  discipline: Arsenal
-  tier: 1
-  cost: 7500
-  recipeUnlocks:
-  - WeaponLaserCarbine
-  - WeaponMechCombatFiredartLaser # Goobstation
-
-- type: technology
-  id: NonlethalAmmunition
-  name: research-technology-nonlethal-ammunition
-  icon:
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
-    state: beanbag
-  discipline: Arsenal
-  tier: 1
-  cost: 5000
-  recipeUnlocks:
-  - MagazineShotgunBeanbag
-  - BoxBeanbag
-  - MagazineBoxShotgunBeanbagHighCaliber # Goobstation
-  - WeaponDisabler
-  - WeaponMechCombatDisabler # Goobstation
+  - MagazineBoxCaselessRifleIncendiary
+  - CartridgeSpecialIncendiary
+  - MagazineBoxSpecialIncendiary
+  - CrossbowBoltIncendiary
 
 - type: technology
   id: UraniumMunitions
