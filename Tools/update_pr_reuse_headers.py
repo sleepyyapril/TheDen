@@ -124,7 +124,7 @@ def is_token(name):
     email = name[email_pos:]
     real_name = name[:email_pos - 2]
 
-    return is_token_basic(email) == True or is_token_basic(real_name) == True or real_name == "TheDen-Bot" # lmao
+    return is_token_basic(email) == True or is_token_basic(real_name) == True or real_name.startswith("TheDen") # lmao
 
 def run_git_command(command, cwd=REPO_PATH, check=True):
     """Runs a git command and returns its output."""
