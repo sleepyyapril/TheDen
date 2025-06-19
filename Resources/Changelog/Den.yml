@@ -6276,3 +6276,10 @@ Entries:
   id: 592
   time: '2025-06-19T04:33:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/844
+- author: ZigTag
+  changes:
+    - type: Add
+      message: nukie plushie to loadout
+  id: 593
+  time: '2025-06-19T04:34:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/841
