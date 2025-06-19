@@ -223,11 +223,11 @@ def get_authors_from_git(file_path, cwd=REPO_PATH, pr_base_sha=None, pr_head_sha
             user_name = run_git_command(name_cmd, cwd=cwd, check=False)
             user_email = run_git_command(email_cmd, cwd=cwd, check=False)
 
-            for potential_email in remove_emails:
-                replace_with = remove_emails[potential_email]
+            for key in remove_emails:
+                data = remove_emails[key]
 
-                if user_email.startswith(potential_email):
-                    user_email = replace_with
+                if user_email.startswith(data["target"]):
+                    user_email = data["replace_with"]
 
             # Use current year
             current_year = datetime.now(timezone.utc).year
@@ -470,11 +470,11 @@ def process_file(file_path, default_license_id, pr_base_sha=None, pr_head_sha=No
         user_name = run_git_command(name_cmd, check=False)
         user_email = run_git_command(email_cmd, check=False)
 
-        for potential_email in remove_emails:
-            replace_with = remove_emails[potential_email]
+        for key in remove_emails:
+            data = remove_emails[key]
 
-            if user_email.startswith(potential_email):
-                user_email = replace_with
+            if user_email.startswith(data["target"]):
+                user_email = data["replace_with"]
 
         if user_name and user_email and user_name.strip() != "Unknown":
             # Use current year
