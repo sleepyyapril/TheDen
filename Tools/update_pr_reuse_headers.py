@@ -130,10 +130,11 @@ def sanitize_one(text):
     return False, replace_with
 
 # im sorry
-def sanitize(name):
+def sanitize(name: str):
     email_pos = name.find("<")
     email = name[email_pos + 1:]
-    real_name = name[:email_pos - 2]
+    real_name = name[0:email_pos - 2]
+    print(name)
 
     is_token_email, new_email = sanitize_one(email)
     is_token_name, new_name = sanitize_one(real_name)
