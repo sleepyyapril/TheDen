@@ -224,8 +224,10 @@ def get_authors_from_git(file_path, cwd=REPO_PATH, pr_base_sha=None, pr_head_sha
             user_email = run_git_command(email_cmd, cwd=cwd, check=False)
 
             for potential_email in remove_emails:
+                replace_with = remove_emails[potential_email]
+
                 if user_email.startswith(potential_email):
-                    user_email = "REDACTED"
+                    user_email = replace_with
 
             # Use current year
             current_year = datetime.now(timezone.utc).year
