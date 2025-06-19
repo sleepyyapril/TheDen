@@ -71,7 +71,7 @@ jobs:
 
     - name: Publish version
       run: Tools/publish_github_artifact.py
-      shell: python
+      shell: python {0}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
@@ -89,7 +89,7 @@ jobs:
 
     - name: Publish changelog (RSS)
       run: Tools/actions_changelog_rss.py
-      shell: python
+      shell: python {0}
       env:
         CHANGELOG_RSS_KEY: ${{ secrets.CHANGELOG_RSS_KEY }}
 
