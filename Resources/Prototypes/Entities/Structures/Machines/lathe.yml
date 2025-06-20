@@ -2412,6 +2412,7 @@
       - PlushieRodentia
       - PlushieFeroxi
       - PlushieChitinid
+      - PlushieOvinia
       - PlushieGrey
       - PlushieRedFox
       - PlushiePurpleFox
@@ -2433,6 +2434,13 @@
       - PlushieCatTabby
       - PlushieCatTuxedo
       - PlushieCatWhite
+      - PlushieTeddyBear
+      - PlushieTeddyBearRecolorableRandom
+      - SqueakySmileyGuy
+      - SqueakySmileyGuyRandom
+      - SqueakySmileyBall
+      - PlushieAlienGerm
+      - PlushieAlienGermMini
       - ToyAi
       - ToyIan
       - BalloonNT
