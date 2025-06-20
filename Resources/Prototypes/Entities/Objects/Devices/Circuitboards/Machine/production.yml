@@ -1902,11 +1902,12 @@
   components:
     - type: MachineBoard
       prototype: Crystallizer
-      stackRequirements:
-        Steel: 5
-        Glass: 5
+      requirements:
         Capacitor: 2
         Manipulator: 4
         MatterBin: 4
+      materialRequirements:
+        Steel: 5
+        Glass: 5
         
 # Assmos Change End
