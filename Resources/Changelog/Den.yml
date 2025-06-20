@@ -6318,3 +6318,12 @@ Entries:
   id: 597
   time: '2025-06-20T11:13:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/846
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: >-
+        Poppy the Safety Possom can now be mapped into engineering! Space OSHA
+        rejoice!
+  id: 598
+  time: '2025-06-20T15:40:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/860
