@@ -137,7 +137,7 @@
 - type: marking
   id: ProtogenEyes
   bodyPart: Eyes
-  markingCategory: Eyes
+  markingCategory: Face
   speciesRestriction: [IPC]
   sprites:
   - sprite: _DV/Mobs/Customization/SynthLizIPC/head_markings.rsi
