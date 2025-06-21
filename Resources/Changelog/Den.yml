@@ -6343,3 +6343,14 @@ Entries:
   id: 600
   time: '2025-06-21T19:32:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/855
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Loadouts have been majorly refactored on the backend. You shouldn't be
+        able to tell the difference, though - you might notice that they
+        load/work faster. Please report any new loadout-related bugs ASAP
+        because this change was a little bit gargantuan.
+  id: 601
+  time: '2025-06-21T19:41:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/856
