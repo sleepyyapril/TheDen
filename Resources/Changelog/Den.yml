@@ -6354,3 +6354,18 @@ Entries:
   id: 601
   time: '2025-06-21T19:41:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/856
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: >-
+        lots of loadout tweaks, please I beg, ensure your check your loadouts to
+        make sure you have everything you need
+    - type: Add
+      message: virology and genetics uniforms to medical loadouts
+    - type: Add
+      message: added courier bag options in loadouts
+    - type: Add
+      message: added missing winter coat/boot options
+  id: 602
+  time: '2025-06-21T19:52:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/866
