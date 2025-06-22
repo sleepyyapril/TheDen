@@ -6453,3 +6453,10 @@ Entries:
   id: 607
   time: '2025-06-22T02:57:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/850
+- author: Fox
+  changes:
+    - type: Fix
+      message: (GRAVEL) Various fixes and additions
+  id: 608
+  time: '2025-06-22T03:22:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/875
