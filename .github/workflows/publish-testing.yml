@@ -44,7 +44,7 @@ jobs:
       run: dotnet run --project Content.Packaging client --no-wipe-release
 
     - name: Publish version
-      run: python3 Tools/publish_multi_request.py --fork-id theden
+      run: python3 Tools/publish_multi_request_new.py --fork-id theden
       env:
         PUBLISH_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         GITHUB_REPOSITORY: ${{ vars.GITHUB_REPOSITORY }}
