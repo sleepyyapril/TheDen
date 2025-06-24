@@ -12,7 +12,6 @@
   components:
   - type: StorageFill
     contents:
-    - id: MagazineBoxMagnum
+    - id: ShellShotgunHighCaliber
       amount: 2
-    #- id: MagazineBoxMagnumFlash
-    # - id: MagazineBoxMagnumEMP
+    - id: ShellShotgunSlugHighCaliber

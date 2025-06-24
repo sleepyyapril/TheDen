@@ -39,7 +39,7 @@
     - id: OxygenTankFilled
     - id: NitrogenTankFilled
     - id: ClothingBlueshieldArmourVest
-    - id: ClothingHeadHelmetSwat
+    - id: ClothingHeadHelmetBasic
     - id: ClothingEyesGlassesMedSec
     - id: ClothingHandsGlovesCombat
     - id: ClothingOuterHardsuitBlueshield

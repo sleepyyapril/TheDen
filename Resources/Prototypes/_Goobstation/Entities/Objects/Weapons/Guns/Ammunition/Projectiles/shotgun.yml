@@ -177,7 +177,7 @@
     damage:
       types:
         Piercing: 12
-        Ion: 20
+        Shock: 10
 
 - type: entity
   id: BulletSlugFlash
