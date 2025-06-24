@@ -6489,3 +6489,12 @@ Entries:
   id: 611
   time: '2025-06-23T22:57:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/888
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Added an HFR crate to the cargo catalog for 50 thousand spesos, it no
+        longer needs to be mapped in.
+  id: 612
+  time: '2025-06-24T02:38:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/890
