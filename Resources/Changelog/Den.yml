@@ -6498,3 +6498,12 @@ Entries:
   id: 612
   time: '2025-06-24T02:38:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/890
+- author: Monotheonist
+  changes:
+    - type: Fix
+      message: >-
+        (ARENA) Rescued all bartenders, prison guards, and chefs from the hell
+        dimension.
+  id: 613
+  time: '2025-06-24T05:35:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/892
