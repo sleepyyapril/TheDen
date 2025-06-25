@@ -250,28 +250,6 @@
   items:
     - MedkitCombatFilled
 
-- type: loadout
-  id: LoadoutBSOPortafib
-  category: JobsCommandBlueshieldOfficer
-  cost: 2
-  requirements:
-    - !type:CharacterJobRequirement
-      jobs:
-        - BlueshieldOfficer
-  items:
-    - Portafib
-
-- type: loadout
-  id: LoadoutBSOCrewMonitor
-  category: JobsCommandBlueshieldOfficer
-  cost: 2 # BSO's main job is to keep command safe, they should be able to monitor their status & location without that costing too many points.
-  requirements:
-    - !type:CharacterJobRequirement
-      jobs:
-        - BlueshieldOfficer
-  items:
-    - HandheldCrewMonitor
-
 # - type: loadout
 #   id: LoadoutBSOCQCManual
 #   category: JobsCommandBlueshieldOfficer
