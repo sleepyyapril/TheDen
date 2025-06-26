@@ -6543,3 +6543,14 @@ Entries:
   id: 617
   time: '2025-06-25T21:02:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/899
+- author: NatusExVacuo
+  changes:
+    - type: Fix
+      message: >-
+        Coder socks now appear under jumpsuits, jumpskirts, basically any
+        clothes
+    - type: Add
+      message: All the under socks are now butcherable (into one cloth)
+  id: 618
+  time: '2025-06-26T01:21:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/883
