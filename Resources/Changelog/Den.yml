@@ -6582,3 +6582,14 @@ Entries:
   id: 622
   time: '2025-06-27T08:31:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/912
+- author: MajorMoth
+  changes:
+    - type: Remove
+      message: >-
+        Removed consent-breaking reagents from spawning in through artifacts,
+        random pills, vent clogs, and reagent slimes. Please report any other
+        mechanics that might've been missed if you see them. Anomalies did not
+        need changing as they did not have any NSFW reagents in them.
+  id: 623
+  time: '2025-06-27T08:33:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/909
