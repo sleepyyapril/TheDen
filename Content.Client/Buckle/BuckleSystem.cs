@@ -36,7 +36,6 @@ internal sealed class BuckleSystem : SharedBuckleSystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<BuckleComponent, AppearanceChangeEvent>(OnAppearanceChange);
         SubscribeLocalEvent<StrapComponent, MoveEvent>(OnStrapMoveEvent);
         SubscribeLocalEvent<BuckleComponent, BuckledEvent>(OnBuckledEvent);
         SubscribeLocalEvent<BuckleComponent, UnbuckledEvent>(OnUnbuckledEvent);
@@ -130,18 +129,6 @@ internal sealed class BuckleSystem : SharedBuckleSystem
                 buckle.OriginalDrawDepth = null;
             }
         }
-    }
-
-    private void OnAppearanceChange(EntityUid uid, BuckleComponent component, ref AppearanceChangeEvent args)
-    {
-        if (!TryComp<RotationVisualsComponent>(uid, out var rotVisuals)
-            || !Appearance.TryGetData<bool>(uid, BuckleVisuals.Buckled, out var buckled, args.Component)
-            || !buckled || args.Sprite == null)
-            return;
-
-        // Animate strapping yourself to something at a given angle
-        // TODO: Dump this when buckle is better
-        _rotationVisualizerSystem.AnimateSpriteRotation(uid, args.Sprite, rotVisuals.HorizontalRotation, 0.125f);
     }
 
     // Floof section - method for getting the direction of an entity perceived by the local player
