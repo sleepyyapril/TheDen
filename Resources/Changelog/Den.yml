@@ -6607,3 +6607,10 @@ Entries:
   id: 625
   time: '2025-06-27T08:38:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/911
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: 'Redesigned the Solarian Navy Dropship. '
+  id: 626
+  time: '2025-06-27T21:37:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/917
