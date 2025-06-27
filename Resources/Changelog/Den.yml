@@ -6575,3 +6575,10 @@ Entries:
   id: 621
   time: '2025-06-27T08:29:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/915
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Job highlighting is now supported on all Den jobs!
+  id: 622
+  time: '2025-06-27T08:31:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/912
