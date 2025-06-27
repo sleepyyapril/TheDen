@@ -6593,3 +6593,10 @@ Entries:
   id: 623
   time: '2025-06-27T08:33:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/909
+- author: Hederadaii
+  changes:
+    - type: Add
+      message: Added the drink 'Blood Moon'
+  id: 624
+  time: '2025-06-27T08:37:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/907
