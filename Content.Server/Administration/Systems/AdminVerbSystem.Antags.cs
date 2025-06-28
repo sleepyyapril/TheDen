@@ -27,6 +27,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+using Content.Server._Goobstation.Devil.GameTicking.Rules;
 using Content.Server.Administration.Commands;
 using Content.Server.Antag;
 using Content.Server.GameTicking.Rules.Components;
@@ -188,6 +189,21 @@ public sealed partial class AdminVerbSystem
         // };
         // if (!HasComp<SiliconComponent>(args.Target))
         //     args.Verbs.Add(ling);
+
+        // Goobstation - Devil
+        Verb devilAntag = new()
+        {
+            Text = Loc.GetString("admin-verb-text-make-devil"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new("_Goobstation/Actions/devil.rsi"), "summon-contract"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<DevilRuleComponent>(targetPlayer, "Devil");
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-devil"),
+        };
+        args.Verbs.Add(devilAntag);
 
         Verb cultist = new()
         {
