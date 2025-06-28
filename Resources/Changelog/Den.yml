@@ -6721,3 +6721,14 @@ Entries:
   id: 634
   time: '2025-06-28T13:19:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/880
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked the minibomb and exploding pen. Minbomb now deals much more
+        damage without gibbing and can be linked to a remote. The exploding pen
+        has different damage proportions and cannot link to a remote anymore.
+        See PR for details. 
+  id: 635
+  time: '2025-06-28T13:21:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/881
