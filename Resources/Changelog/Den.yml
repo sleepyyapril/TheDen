@@ -6687,3 +6687,12 @@ Entries:
   id: 631
   time: '2025-06-28T10:53:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/910
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        You can now have an admin add a SpeciesRestrictionExemptComponent to
+        allow your height and width be changed to anything.
+  id: 632
+  time: '2025-06-28T11:23:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/919
