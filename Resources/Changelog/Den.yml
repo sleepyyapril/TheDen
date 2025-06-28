@@ -6696,3 +6696,13 @@ Entries:
   id: 632
   time: '2025-06-28T11:23:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/919
+- author: BlitzTheSquishy
+  changes:
+    - type: Remove
+      message: >-
+        Central Command realized that having two spare captain IDs on station
+        was a security risk and thus has removed one from the Captains locker.
+        It also saves a bit of money too.
+  id: 633
+  time: '2025-06-28T13:17:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/893
