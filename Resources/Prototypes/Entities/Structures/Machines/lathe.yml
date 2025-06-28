@@ -1582,7 +1582,14 @@
     - CondomWrapped # VASH
     - VehicleWheelchairFolded # Goobstation - Vehicles
     - BaseChemistryEmptyVial
-    - ClothingNeckVetCone # TheDen
+    - WalkingCane # IMP
+    # DEN start
+    - ClothingNeckVetCone
+    - CaneAnatomical
+    - CaneFoldable
+    - CaneQuad
+    - WhiteCane # not sure why this isnt in here
+    # DEN end
     dynamicRecipes:
     - HypoMini
     - ChemicalPayload
