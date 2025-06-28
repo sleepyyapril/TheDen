@@ -6614,3 +6614,27 @@ Entries:
   id: 626
   time: '2025-06-27T21:37:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/917
+- author: MajorMoth
+  changes:
+    - type: Fix
+      message: Fixed some drink cartons not fitting in drink dispensers.
+    - type: Fix
+      message: >-
+        Changed the names of the Science and Cargo communication consoles to be
+        Epistemics and Logistics.
+    - type: Fix
+      message: >-
+        Fixed PowerCellSystem.Draw.cs so that things no longer draw 1/60th of
+        the power they were intended to. This will affect things like portable
+        monitors, anomaly locators, etc. 
+    - type: Fix
+      message: Fixed speed boots not actually requiring a power cell to function.
+    - type: Tweak
+      message: Significantly increased the power draw of speed boots. (4 -> 24)
+    - type: Tweak
+      message: >-
+        Moved all AAC tablet phrases relating to replicators to their own group,
+        pending a way to whitelist/blacklist phrases.
+  id: 627
+  time: '2025-06-28T09:21:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/897
