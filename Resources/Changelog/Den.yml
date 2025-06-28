@@ -6732,3 +6732,10 @@ Entries:
   id: 635
   time: '2025-06-28T13:21:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/881
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Made the Disabler not take your duty weapon slot for security.
+  id: 636
+  time: '2025-06-28T13:23:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/898
