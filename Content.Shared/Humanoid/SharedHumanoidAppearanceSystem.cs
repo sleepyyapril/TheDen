@@ -422,13 +422,14 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
             return;
 
         var species = _proto.Index(humanoid.Species);
-        humanoid.Height = Math.Clamp(scale.Y, species.MinHeight, species.MaxHeight);
-        humanoid.Width = Math.Clamp(scale.X, species.MinWidth, species.MaxWidth);
 
-        if (HasComp<SpeciesRestrictionExemptComponent>(uid))
+        humanoid.Height = scale.Y;
+        humanoid.Width = scale.X;
+
+        if (!HasComp<SpeciesRestrictionExemptComponent>(uid))
         {
-            humanoid.Height = scale.Y;
-            humanoid.Width = scale.X;
+            humanoid.Height = Math.Clamp(scale.Y, species.MinHeight, species.MaxHeight);
+            humanoid.Width = Math.Clamp(scale.X, species.MinWidth, species.MaxWidth);
         }
 
         if (sync)
