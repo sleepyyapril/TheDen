@@ -30,6 +30,7 @@
 using System.IO;
 using System.Linq;
 using System.Numerics;
+using Content.Shared._DEN.Species;
 using Content.Shared._EE.Contractors.Prototypes;
 using Content.Shared.Decals;
 using Content.Shared.Examine;
@@ -423,6 +424,12 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         var species = _proto.Index(humanoid.Species);
         humanoid.Height = Math.Clamp(scale.Y, species.MinHeight, species.MaxHeight);
         humanoid.Width = Math.Clamp(scale.X, species.MinWidth, species.MaxWidth);
+
+        if (HasComp<SpeciesRestrictionExemptComponent>(uid))
+        {
+            humanoid.Height = scale.Y;
+            humanoid.Width = scale.X;
+        }
 
         if (sync)
             Dirty(uid, humanoid);
