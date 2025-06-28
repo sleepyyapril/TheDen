@@ -6706,3 +6706,18 @@ Entries:
   id: 633
   time: '2025-06-28T13:17:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/893
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Chef no longer starts with the Italian moustache or chef apron - it has
+        been moved to their loadouts.
+    - type: Tweak
+      message: >-
+        Bartender no longer starts with top hat and vest by default - it has
+        been added to their loadouts.
+    - type: Add
+      message: Chefs can also now select the chef's freezer coat in their loadout.
+  id: 634
+  time: '2025-06-28T13:19:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/880
