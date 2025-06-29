@@ -6772,3 +6772,10 @@ Entries:
   id: 640
   time: '2025-06-29T20:30:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/885
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: Pride scarves now have temperature insulation, like other scarves.
+  id: 641
+  time: '2025-06-29T20:35:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/922
