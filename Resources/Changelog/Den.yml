@@ -6786,3 +6786,13 @@ Entries:
   id: 642
   time: '2025-06-29T20:36:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/929
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Many clothes have been re-added as wearable, such as epistemics getting
+        roboticist clothes. This is to allow you to customize yourself as you
+        please.
+  id: 643
+  time: '2025-06-29T21:55:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/932
