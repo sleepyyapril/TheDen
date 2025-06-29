@@ -6779,3 +6779,10 @@ Entries:
   id: 641
   time: '2025-06-29T20:35:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/922
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added 3/4 accepted lobby art submissions! check them out in game!
+  id: 642
+  time: '2025-06-29T20:36:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/929
