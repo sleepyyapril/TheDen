@@ -320,7 +320,7 @@ namespace Content.Server.Carrying
                 || HasComp<ItemComponent>(carrier)
                 || TryComp<PhysicsComponent>(carrier, out var carrierPhysics)
                 && TryComp<PhysicsComponent>(toCarry, out var toCarryPhysics)
-                && carrierPhysics.Mass < toCarryPhysics.Mass * 2f)
+                && carrierPhysics.Mass * 2f < toCarryPhysics.Mass)
                 return false;
 
             Carry(carrier, toCarry);

@@ -125,11 +125,15 @@ public abstract partial class SharedPseudoItemSystem : EntitySystem
     protected virtual void OnGettingPickedUpAttempt(EntityUid uid, PseudoItemComponent component,
         GettingPickedUpAttemptEvent args)
     {
-        if (args.User == args.Item)
-            return;
-
-        Transform(uid).AttachToGridOrMap();
         args.Cancel();
+        // Floof - this is a terrible idea. This triggers every time ANY system checks if a pseudo-item can be picked up.
+        // WHY DID YOU DO THAT, NYANOTRASEN???
+
+        // if (args.User == args.Item)
+        //     return;
+
+        // Transform(uid).AttachToGridOrMap();
+        // args.Cancel();
     }
 
     private void OnDropAttempt(EntityUid uid, PseudoItemComponent component, DropAttemptEvent args)
