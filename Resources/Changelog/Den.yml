@@ -6796,3 +6796,12 @@ Entries:
   id: 643
   time: '2025-06-29T21:55:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/932
+- author: juniwoofs
+  changes:
+    - type: Remove
+      message: >-
+        Derotatedsusstation, robotics, supermatter, doomed, and ssxiv as lobby
+        screens
+  id: 644
+  time: '2025-06-30T00:17:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/933
