@@ -25,15 +25,15 @@
 
     - to: pressurepumpAlt1
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: pressurepumpAlt2
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: volumepump
       steps:
@@ -43,15 +43,15 @@
 
     - to: volumepumpAlt1
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: volumepumpAlt2
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: passivegate
       steps:
@@ -61,15 +61,15 @@
 
     - to: passivegateAlt1
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: passivegateAlt2
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: valve
       steps:
@@ -79,15 +79,15 @@
 
     - to: valveAlt1
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: valveAlt2
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: signalvalve
       steps:
@@ -97,15 +97,15 @@
 
     - to: signalvalveAlt1
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: signalvalveAlt2
       steps:
-        - material: Steel
-          amount: 2
-          doAfter: 1
+      - material: Steel
+        amount: 2
+        doAfter: 1
 
     - to: port
       steps:
@@ -150,34 +150,34 @@
   - node: pressurepumpAlt1
     entity: GasPressurePumpAlt1
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+          prototype: SheetSteel1
+          amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: pressurepumpAlt2
     entity: GasPressurePumpAlt2
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: volumepump
     entity: GasVolumePump
@@ -198,34 +198,34 @@
   - node: volumepumpAlt1
     entity: GasVolumePumpAlt1
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: volumepumpAlt2
     entity: GasVolumePumpAlt2
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: passivegate
     entity: GasPassiveGate
@@ -246,34 +246,34 @@
   - node: passivegateAlt1
     entity: GasPassiveGateAlt1
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: passivegateAlt2
     entity: GasPassiveGateAlt2
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: valve
     entity: GasValve
@@ -294,34 +294,34 @@
   - node: valveAlt1
     entity: GasValveAlt1
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: valveAlt2
     entity: GasValveAlt2
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: signalvalve
     entity: SignalControlledValve
@@ -342,34 +342,34 @@
   - node: signalvalveAlt1
     entity: SignalControlledValveAlt1
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: signalvalveAlt2
     entity: SignalControlledValveAlt2
     edges:
-      - to: start
-        conditions:
-          - !type:EntityAnchored
-            anchored: false
-        completed:
-          - !type:SpawnPrototype
-            prototype: SheetSteel1
-            amount: 2
-          - !type:DeleteEntity
-        steps:
-          - tool: Welding
-            doAfter: 1
+    - to: start
+      conditions:
+      - !type:EntityAnchored
+        anchored: false
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 1
 
   - node: port
     entity: GasPort
