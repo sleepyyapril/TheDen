@@ -6848,3 +6848,47 @@ Entries:
   id: 647
   time: '2025-06-30T22:52:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/878
+- author: Floof Station and WizDen Contributors
+  changes:
+    - type: Add
+      message: >-
+        You can now transfer carried and pulled entities via item offering
+        (default keybind is F, as always).
+    - type: Add
+      message: >-
+        The drum kit is now available as a musician loadout option and can be
+        ordered from cargo. Rock on! 🤘
+    - type: Add
+      message: A new instrument style, "Kweh" has been added to the microphone.
+    - type: Fix
+      message: >-
+        Foxes can no longer use sign language, as their teeny tiny little paws
+        are incapable of complex interaction.
+    - type: Fix
+      message: >-
+        Sign language now requires two empty hands. You're going to have to put
+        that woman down.
+    - type: Fix
+      message: >-
+        When several pseudo-items (small people) are inside one container (e.g.
+        a bluespace duffel), they can no longer accidentally kick each other out
+        using the right click menu.
+    - type: Tweak
+      message: The microphone can now be played without holding it.
+    - type: Tweak
+      message: >-
+        Guitars (except the Rickenbacker) can now be worn in your suit storage
+        slot.
+    - type: Tweak
+      message: The super synthesizer has a new sprite to communicate that it is super.
+    - type: Fix
+      message: >-
+        Resolved a longstanding issue where buckled characters would get all
+        floppy after sleeping or being knocked down.
+    - type: Fix
+      message: >-
+        Hands no longer become blocked when the person you're carrying
+        polymorphs.
+  id: 648
+  time: '2025-07-01T01:15:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/946
