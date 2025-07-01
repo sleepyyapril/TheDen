@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Server._DV.ParadoxAnomaly.Systems;
+using Content.Server.Administration;
 using Content.Server.GameTicking;
 using Content.Shared.Administration;
 using Robust.Server.Player;
@@ -8,7 +9,7 @@ using Robust.Shared.Console;
 
 namespace Content.Server._DEN.Administration.Commands;
 
-[AnyCommand]
+[AdminCommand(AdminFlags.Admin)]
 sealed class CreateParadoxAnomalyCommand : IConsoleCommand
 {
     [Dependency] private readonly IEntityManager _entManager = default!;
