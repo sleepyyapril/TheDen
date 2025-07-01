@@ -6932,3 +6932,12 @@ Entries:
   id: 652
   time: '2025-07-01T01:45:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/947
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        You may now ask an admin to create a paradox anomaly of you! Ensure your
+        consent is on!
+  id: 653
+  time: '2025-07-01T04:57:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/951
