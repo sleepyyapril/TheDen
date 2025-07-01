@@ -103,6 +103,7 @@ using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Dynamics.Joints;
 using Content.Server.Effects;
 using Content.Server.Hands.Systems;
+using Content.Shared.Examine;
 using Content.Shared.Popups;
 
 
