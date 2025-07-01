@@ -6941,3 +6941,10 @@ Entries:
   id: 653
   time: '2025-07-01T04:57:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/951
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: High Danger is now high danger.
+  id: 654
+  time: '2025-07-01T05:45:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/952
