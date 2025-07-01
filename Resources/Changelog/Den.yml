@@ -6915,3 +6915,20 @@ Entries:
   id: 651
   time: '2025-07-01T01:43:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/942
+- author: This_Is_Gray
+  changes:
+    - type: Tweak
+      message: >-
+        (ANVIL) Tweaked the positioning of some of Anvil's lights. A few areas
+        should look a little brighter.
+    - type: Add
+      message: (ANVIL) Added a fishing spot to Anvil. Bring a space suit!
+    - type: Fix
+      message: >-
+        (NTES HAMMERHEAD) Fixed the power issues present on Anvil's evacuation
+        shuttle.
+    - type: Fix
+      message: Anvil no longer causes the server to spit errors everwhere.
+  id: 652
+  time: '2025-07-01T01:45:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/947
