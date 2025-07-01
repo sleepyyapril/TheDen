@@ -45,6 +45,7 @@
 // SPDX-FileCopyrightText: 2024 beck-thompson
 // SPDX-FileCopyrightText: 2024 fox
 // SPDX-FileCopyrightText: 2024 ike709
+// SPDX-FileCopyrightText: 2024 themias
 // SPDX-FileCopyrightText: 2025 Falcon
 // SPDX-FileCopyrightText: 2025 RedFoxIV
 // SPDX-FileCopyrightText: 2025 Timfa
