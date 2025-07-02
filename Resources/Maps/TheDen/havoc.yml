@@ -4978,8 +4978,6 @@ entities:
       pos: 11.5,-13.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 18003
   - uid: 18000
@@ -5048,8 +5046,6 @@ entities:
       pos: 36.5,35.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 18006
   - uid: 18086
@@ -5059,8 +5055,6 @@ entities:
       pos: 33.5,35.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 18006
   - uid: 18087
@@ -5070,8 +5064,6 @@ entities:
       pos: 39.5,35.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 18006
 - proto: AltarBananium
@@ -47856,8 +47848,6 @@ entities:
       pos: 6.5,4.5
       parent: 2
     - type: DisposalUnit
-      recentlyEjected:
-      - invalid
   - uid: 438
     components:
     - type: MetaData
@@ -47896,8 +47886,6 @@ entities:
       pos: 27.5,-10.5
       parent: 2
     - type: DisposalUnit
-      recentlyEjected:
-      - invalid
   - uid: 5684
     components:
     - type: Transform
@@ -47939,8 +47927,6 @@ entities:
       pos: -28.5,54.5
       parent: 2
     - type: DisposalUnit
-      recentlyEjected:
-      - invalid
   - uid: 5692
     components:
     - type: Transform
@@ -75601,8 +75587,6 @@ entities:
       pos: 30.5,-12.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 8033
     - type: AtmosPipeColor
@@ -76991,8 +76975,6 @@ entities:
     - type: AtmosPipeColor
       color: '#FF0000FF'
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 8033
   - uid: 8050
@@ -77334,8 +77316,6 @@ entities:
       pos: -25.5,19.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 18027
     - type: AtmosPipeColor
@@ -77791,8 +77771,6 @@ entities:
       pos: 35.5,15.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 16522
     - type: AtmosPipeColor
@@ -82591,9 +82569,6 @@ entities:
           showEnts: False
           occludes: True
           ents:
-          - invalid
-          - invalid
-          - invalid
           - 16480
           - 16479
           - 16662
@@ -99137,9 +99112,6 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraMedical
     - type: UserInterface
-      actors:
-        enum.SurveillanceCameraSetupUiKey.Camera:
-        - invalid
     - type: ActiveUserInterface
   - uid: 19181
     components:
@@ -101833,7 +101805,6 @@ entities:
     - type: ItemToggle
       activated: True
     - type: ItemToggleActiveSound
-      playingStream: invalid
     - type: PointLight
       enabled: True
     - type: MeleeWeapon
@@ -119700,8 +119671,6 @@ entities:
       angularDamping: 0
       linearDamping: 0
       canCollide: False
-    missingComponents:
-    - ItemTogglePointLight
 - proto: WeldingFuelTank
   entities:
   - uid: 16394
