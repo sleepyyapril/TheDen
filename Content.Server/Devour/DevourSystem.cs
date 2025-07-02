@@ -1,20 +1,6 @@
-// SPDX-FileCopyrightText: 2023 DrSmugleaf
-// SPDX-FileCopyrightText: 2023 PilgrimViis
-// SPDX-FileCopyrightText: 2023 TemporalOroboros
-// SPDX-FileCopyrightText: 2024 cynical
-// SPDX-FileCopyrightText: 2024 zelezniciar1
-// SPDX-FileCopyrightText: 2025 GoobBot
-// SPDX-FileCopyrightText: 2025 Jakumba
-// SPDX-FileCopyrightText: 2025 Rouden
-// SPDX-FileCopyrightText: 2025 Roudenn
-// SPDX-FileCopyrightText: 2025 coderabbitai[bot]
-// SPDX-FileCopyrightText: 2025 sleepyyapril
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
-
-using Content.Server.Body.Components;
-using Content.Server.Body.Systems;
 using Content.Shared._DEN.Unrotting;
+using Content.Server.Body.Systems;
+using Content.Shared.Body.Events;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Damage;
 using Content.Shared.Devour;

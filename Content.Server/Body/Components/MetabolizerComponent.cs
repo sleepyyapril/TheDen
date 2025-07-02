@@ -18,6 +18,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using Content.Server._DEN.Traits;
+using Content.Shared.Body.Components;
 using Content.Server.Body.Systems;
 using Content.Server.Traits.Assorted;
 using Content.Shared.Body.Prototypes;
