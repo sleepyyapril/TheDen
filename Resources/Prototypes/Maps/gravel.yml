@@ -59,6 +59,7 @@
             Janitor: [ 2, 2 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 2, 2 ]
+            Boxer: [ 2, 2 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
             SeniorEngineer: [ 1, 1 ]
