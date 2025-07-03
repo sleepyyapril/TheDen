@@ -326,6 +326,21 @@
     - CableHVStackLingering10
     - Wirecutter
     - trayScanner
+  # Begin DeltaV Additions - wires module can assemble electronics
+  - type: DroppableBorgModule
+    moduleId: Cables
+    items:
+    - id: APCElectronics
+      whitelist:
+        components:
+        - Electronics
+        - MachineBoard
+    - id: DoorElectronics
+      whitelist:
+        components:
+        - Electronics
+        - MachineBoard
+  # End DeltaV Additions
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: wire-module }
 
@@ -583,6 +598,8 @@
     - MopItem
     - Bucket
     - TrashBag
+    - SprayBottleSpaceCleaner #Den
+    - Dropper # Den - to fill spray bottle
     - Plunger
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: cleaning-module }
@@ -599,10 +616,20 @@
   - type: ItemBorgModule
     items:
     - AdvMopItem
+    - MegaSprayBottleSpaceCleaner # Den
     - HoloprojectorBorg
-    - SprayBottleSpaceCleaner
+    - WeaponLauncherHydraBorg # DeltaV - Let borgs have cleannades!
     - Dropper
-    - TrashBag
+    - TrashBagOfHolding # Den
+    # Begin DeltaV Additions
+    - type: DroppableBorgModule
+      moduleId: AdvancedCleaning
+      items:
+        - id: Beaker
+          whitelist:
+            tags:
+              - GlassBeaker
+    # End DeltaV Additions
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-cleaning-module }
 
