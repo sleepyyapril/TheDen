@@ -22,7 +22,7 @@
   mapName: 'Barrier Hospital'
   mapPath: /Maps/TheDen/barrier.yml
   minPlayers: 0
-  maxPlayers: 50
+  maxPlayers: 35
   stations:
     Barrier:
       stationProto: StandardNanotrasenStation
