@@ -7014,3 +7014,18 @@ Entries:
   id: 658
   time: '2025-07-03T13:46:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/962
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added a trait that lets you have a bionic arm without the forced arm
+        resprite. This should be roleplayed as you do have a bionic arm, but
+        it's more organic or hidden.
+    - type: Add
+      message: >-
+        Added a trait that lets you have a bionic leg without the forced leg
+        resprite. This should be roleplayed as you do have a bionic leg, but
+        it's more organic or hidden.
+  id: 659
+  time: '2025-07-03T16:14:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/966
