@@ -45,6 +45,8 @@
     - type: trait
       id: BionicArm
     - type: trait
+      id: BionicArmNoVisuals
+    - type: trait
       id: PlateletFactories
     - type: trait
       id: DermalArmor
