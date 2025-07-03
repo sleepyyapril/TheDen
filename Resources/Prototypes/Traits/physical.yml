@@ -1000,6 +1000,30 @@
       slotId: "right leg"
 
 - type: trait
+  id: BionicLegNoVisuals
+  category: TraitsPhysicalAugmentations
+  points: -8
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Prisoner # Bionics should be "Confiscated" from long term prisoners.
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - WheelchairBound
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Arachne
+  functions:
+    - !type:TraitPushDescription
+      descriptionExtensions:
+        - description: examine-bionic-leg-message
+          fontSize: 12
+          requireDetailRange: true
+
+- type: trait
   id: FlareShieldingModule
   category: TraitsPhysicalAugmentations
   points: -4

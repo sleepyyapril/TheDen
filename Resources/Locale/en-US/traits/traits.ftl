@@ -677,6 +677,11 @@ trait-description-BionicLeg =
     One or more of your limbs have been replaced with an expensive, state of the art bionic. It could be either one made of highly realistic synthflesh,
     or a more obvious metal limb. This limb provides enhanced speed to it's user, allowing you to run away from situations faster or get to a place faster.
 
+trait-name-BionicLegNoVisuals = Bionic Legs (No Leg Resprite)
+trait-description-BionicLeg =
+    One or more of your limbs have been replaced with an expensive, state of the art bionic. It could be either one made of highly realistic synthflesh,
+    or a more obvious metal limb. This limb provides enhanced speed to it's user, allowing you to run away from situations faster or get to a place faster.
+
 trait-name-FlareShieldingModule = I.P.C Eye Module: Flare Shielding
 trait-description-FlareShieldingModule =
    Your eyes have been fitted with a photochromic lens that automatically darkens in response to intense stimuli.
