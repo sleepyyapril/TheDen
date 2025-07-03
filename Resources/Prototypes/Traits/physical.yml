@@ -587,6 +587,10 @@
   category: TraitsPhysicalAugmentations
   points: -6
   requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - BionicArmNoVisuals
     - !type:CharacterJobRequirement
       inverted: true
       jobs:
@@ -614,6 +618,10 @@
   category: TraitsPhysicalAugmentations
   points: -6
   requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - BionicArm
     - !type:CharacterJobRequirement
       inverted: true
       jobs:
@@ -978,6 +986,7 @@
       inverted: true
       traits:
         - WheelchairBound
+        - BionicLegNoVisuals
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
@@ -1012,6 +1021,7 @@
       inverted: true
       traits:
         - WheelchairBound
+        - BionicLeg
     - !type:CharacterSpeciesRequirement
       inverted: true
       species:
