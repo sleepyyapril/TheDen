@@ -7003,3 +7003,14 @@ Entries:
   id: 657
   time: '2025-07-03T13:46:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/965
+- author: This_Is_Gray
+  changes:
+    - type: Tweak
+      message: (ANVIL) Anvil's Artifact Lab is no longer a massive OSHA Violation.
+    - type: Fix
+      message: >-
+        (ANVIL) You can now access the salvage shuttle on Anvil, or spawn as the
+        administrative assistant.
+  id: 658
+  time: '2025-07-03T13:46:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/962
