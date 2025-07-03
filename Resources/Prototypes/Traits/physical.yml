@@ -610,6 +610,23 @@
           requireDetailRange: true
 
 - type: trait
+  id: BionicArmNoVisuals
+  category: TraitsPhysicalAugmentations
+  points: -6
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Prisoner # Bionics should be "Confiscated" from long term prisoners.
+        - Gladiator
+  functions:
+    - !type:TraitPushDescription
+      descriptionExtensions:
+        - description: examine-bionic-arm-message
+          fontSize: 12
+          requireDetailRange: true
+
+- type: trait
   id: PlateletFactories
   category: TraitsPhysicalAugmentations
   points: -10

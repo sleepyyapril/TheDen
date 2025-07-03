@@ -555,6 +555,11 @@ trait-description-BionicArm =
     One or more of your limbs have been replaced with an expensive, state of the art bionic. It could be either one made of highly realistic synthflesh,
     or a more obvious metal limb. This limb provides enhanced strength to its user, allowing one to pry open barriers with their bare hands.
 
+trait-name-BionicArmNoVisuals = Bionic Arm (No Arm Resprite)
+trait-description-BionicArmNoVisuals =
+    One or more of your limbs have been replaced with an expensive, state of the art bionic. It could be either one made of highly realistic synthflesh,
+    or a more obvious metal limb. This limb provides enhanced strength to its user, allowing one to pry open barriers with their bare hands.
+
 trait-name-PlateletFactories = Platelet Factories
 trait-description-PlateletFactories =
     Your body has been augmented with a series of biotailored organs that enhance the owner's long term survivability. These organs will attempt
