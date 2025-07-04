@@ -30,7 +30,7 @@
   mapName: 'Gravel'
   mapPath: /Maps/TheDen/gravel.yml
   minPlayers: 0
-  maxPlayers: 45
+  maxPlayers: 35
   stations:
     Gravel:
       stationProto: StandardNanotrasenStation
