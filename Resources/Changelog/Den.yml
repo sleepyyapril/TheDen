@@ -7045,3 +7045,12 @@ Entries:
   id: 661
   time: '2025-07-04T05:59:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/902
+- author: Fox
+  changes:
+    - type: Tweak
+      message: >-
+        Various maps have had their population limits adjusted, see PR for
+        details
+  id: 662
+  time: '2025-07-04T06:00:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/968
