@@ -1,14 +1,3 @@
-// SPDX-FileCopyrightText: 2023 Nemanja <98561806+EmoGarbage404@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 Nim <128169402+Nimfar11@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 Slava0135 <40753025+Slava0135@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2023 metalgearsloth <comedian_vs_clown@hotmail.com>
-// SPDX-FileCopyrightText: 2024 VMSolidus <evilexecutive@gmail.com>
-// SPDX-FileCopyrightText: 2024 deltanedas <39013340+deltanedas@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
-
 using Content.Server.StationEvents.Components;
 using Content.Server.Antag;
 using Content.Server.GameTicking.Rules.Components;
@@ -100,9 +89,9 @@ public sealed class VentCrittersRule : StationEventSystem<VentCrittersRuleCompon
 
         var locations = EntityQueryEnumerator<VentCritterSpawnLocationComponent, TransformComponent>();
         _locations.Clear();
-        while (locations.MoveNext(out var uid, out _, out var transform))
+        while (locations.MoveNext(out var uid, out var spawnLocation, out var transform))
         {
-            if (CompOrNull<StationMemberComponent>(transform.GridUid)?.Station == station)
+            if (CompOrNull<StationMemberComponent>(transform.GridUid)?.Station == station && spawnLocation.CanSpawn)
             {
                 _locations.Add(transform.Coordinates);
             }

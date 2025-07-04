@@ -13,5 +13,6 @@ namespace Content.Server.StationEvents.Components;
 [RegisterComponent, Access(typeof(VentClogRule))]
 public sealed partial class VentCritterSpawnLocationComponent : Component
 {
-
+    [DataField]
+    public bool CanSpawn { get; set; } = true;
 }

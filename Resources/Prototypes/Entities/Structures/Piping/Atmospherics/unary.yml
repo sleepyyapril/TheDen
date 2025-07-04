@@ -71,7 +71,8 @@
 
 - type: entity
   parent: [GasUnaryBase, AirSensorBase]
-  id: GasVentPump
+  id: GasVentPumpBase
+  abstract: true
   name: air vent
   description: Has a valve and a pump attached to it.
   placement:
@@ -122,6 +123,21 @@
     - type: Weldable
     - type: AtmosMonitoringConsoleDevice
       navMapBlip: GasVentOpening
+
+- type: entity
+  parent: GasVentPumpBase
+  id: GasVentPump
+  components:
+  - type: VentCritterSpawnLocation
+    canSpawn: true
+
+- type: entity
+  parent: GasVentPumpBase
+  id: GasVentPumpNoSpawns
+  suffix: No Spawns
+  components:
+  - type: VentCritterSpawnLocation
+    canSpawn: false
 
 - type: entity
   parent: GasUnaryBase
