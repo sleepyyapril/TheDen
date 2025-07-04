@@ -7086,3 +7086,10 @@ Entries:
   id: 665
   time: '2025-07-04T07:35:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/970
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: Disposal units can be flushed via signal
+  id: 666
+  time: '2025-07-04T14:07:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/979
