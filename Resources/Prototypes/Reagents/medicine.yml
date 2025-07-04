@@ -351,31 +351,6 @@
       - !type:HealthChange
         damage:
           types:
-            Asphyxiation: -1
-            Bloodloss: -0.5
-      - !type:HealthChange
-        conditions:
-          - !type:ReagentThreshold
-            min: 20
-        damage:
-          types:
-            Asphyxiation: 3
-            Cold: 1
-
-- type: reagent
-  id: DexalinPlus
-  name: reagent-name-dexalin-plus
-  group: Medicine
-  desc: reagent-desc-dexalin-plus
-  physicalDesc: reagent-physical-desc-cloudy
-  flavor: medicine
-  color: "#4da0bd"
-  metabolisms:
-    Medicine:
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
             Asphyxiation: -3.5
             Bloodloss: -3
       - !type:AdjustReagent
@@ -393,6 +368,38 @@
           types:
             Asphyxiation: 5
             Cold: 3
+
+# - type: reagent
+#   id: DexalinPlus
+#   name: reagent-name-dexalin-plus
+#   group: Medicine
+#   desc: reagent-desc-dexalin-plus
+#   physicalDesc: reagent-physical-desc-cloudy
+#   flavor: medicine
+#   color: "#4da0bd"
+#   metabolisms:
+#     Medicine:
+#       effects:
+#       - !type:HealthChange
+#         damage:
+#           types:
+#             Asphyxiation: -3.5
+#             Bloodloss: -3
+#       - !type:AdjustReagent
+#         conditions:
+#         - !type:ReagentThreshold
+#           reagent: HeartbreakerToxin
+#           min: 1
+#         reagent: HeartbreakerToxin
+#         amount: -3
+#       - !type:HealthChange
+#         conditions:
+#           - !type:ReagentThreshold
+#             min: 25
+#         damage:
+#           types:
+#             Asphyxiation: 5
+#             Cold: 3
 
 # this ones a doozy
 - type: reagent
