@@ -420,7 +420,7 @@
         reagents:
         - ReagentId: Saline
           Quantity: 20
-        - ReagentId: Dexalin
+        - ReagentId: DexalinPlus
           Quantity: 20
   - type: Tag
     tags: []
