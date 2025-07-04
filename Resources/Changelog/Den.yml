@@ -7038,3 +7038,10 @@ Entries:
   id: 660
   time: '2025-07-04T05:19:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/959
+- author: Gawdayumeet
+  changes:
+    - type: Add
+      message: Added havoc as a non-standard map
+  id: 661
+  time: '2025-07-04T05:59:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/902
