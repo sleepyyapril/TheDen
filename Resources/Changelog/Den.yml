@@ -7079,3 +7079,10 @@ Entries:
   id: 664
   time: '2025-07-04T07:34:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/971
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: All species have the same minimum and maximum height and width.
+  id: 665
+  time: '2025-07-04T07:35:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/970
