@@ -7185,3 +7185,20 @@ Entries:
   id: 675
   time: '2025-07-05T04:44:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/987
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: >-
+        Antag Mark roles (those for antags) have been tweaked so that they are
+        mutually exclusive.
+    - type: Tweak
+      message: >-
+        Command, Dignitaries and Security are now never under the purview of
+        being protected by the syndicate due to increased loyalty to NT
+    - type: Tweak
+      message: >-
+        By default all players are eligible to be target of "Teach a lesson"
+        objectives
+  id: 676
+  time: '2025-07-05T06:38:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/991
