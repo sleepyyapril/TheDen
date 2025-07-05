@@ -7171,3 +7171,10 @@ Entries:
   id: 673
   time: '2025-07-05T01:38:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/985
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Salbutamol now has a proper recipe.
+  id: 674
+  time: '2025-07-05T04:43:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/988
