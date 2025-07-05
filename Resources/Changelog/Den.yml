@@ -7228,3 +7228,10 @@ Entries:
   id: 678
   time: '2025-07-05T07:17:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/992
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed bionic arm and leg not functioning properly.
+  id: 679
+  time: '2025-07-05T14:08:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/994
