@@ -7178,3 +7178,10 @@ Entries:
   id: 674
   time: '2025-07-05T04:43:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/988
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Readd the welding fuel to the chem dispenser and chemvend
+  id: 675
+  time: '2025-07-05T04:44:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/987
