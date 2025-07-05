@@ -7138,3 +7138,10 @@ Entries:
   id: 670
   time: '2025-07-05T01:28:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/976
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Skewers now Work Properly and you're gonna have to take my word for it.
+  id: 671
+  time: '2025-07-05T01:29:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/980
