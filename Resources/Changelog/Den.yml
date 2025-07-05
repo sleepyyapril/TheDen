@@ -7235,3 +7235,10 @@ Entries:
   id: 679
   time: '2025-07-05T14:08:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/994
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed the TEGs power generation
+  id: 680
+  time: '2025-07-05T14:23:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/996
