@@ -8,6 +8,7 @@ using Content.Server.Administration.Logs;
 using Content.Server.Body.Components;
 using Content.Server.Body.Systems;
 using Content.Shared.Body.Components;
+using Content.Shared.Body.Part;
 using Content.Shared.Body.Prototypes;
 using Content.Shared.Body.Systems;
 using Content.Shared.Database;
@@ -90,7 +91,7 @@ public sealed partial class TraitAddComponentToBodyPart : TraitFunction
     /// Whether this trait should replace all metabolizers instead of simply adding them.
     /// </summary>
     [DataField]
-    public HashSet<string> Slots = new();
+    public HashSet<BodyPartType> Parts = new();
 
     public override void OnPlayerSpawn(EntityUid uid,
         IComponentFactory factory,
@@ -101,8 +102,10 @@ public sealed partial class TraitAddComponentToBodyPart : TraitFunction
 
         foreach (var bodyPart in body.GetBodyChildren(uid))
         {
-            if (Slots.Contains(bodyPart.Component.SlotId))
-                entityManager.AddComponents(uid, Components, false);
+            if (!Parts.Contains(bodyPart.Component.PartType))
+                continue;
+
+            entityManager.AddComponents(bodyPart.Id, Components);
         }
     }
 }
