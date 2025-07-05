@@ -631,6 +631,16 @@
         - description: examine-bionic-arm-message
           fontSize: 12
           requireDetailRange: true
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Arm
+      partSymmetry: Left
+      protoId: JawsOfLifeLeftArm
+      slotId: "left arm"
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Arm
+      partSymmetry: Right
+      protoId: JawsOfLifeRightArm
+      slotId: "right arm"
 
 - type: trait
   id: PlateletFactories
