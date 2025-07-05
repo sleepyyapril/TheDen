@@ -7221,3 +7221,10 @@ Entries:
   id: 677
   time: '2025-07-05T07:17:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/993
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed Barrier being unplayable.
+  id: 678
+  time: '2025-07-05T07:17:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/992
