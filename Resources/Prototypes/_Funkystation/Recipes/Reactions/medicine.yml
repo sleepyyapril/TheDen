@@ -62,6 +62,20 @@
     Granibitulari: 3
 
 - type: reaction
+  id: Salbutamol
+  reactants:
+    Dexalin:
+      amount: 1
+    Inaprovaline:
+      amount: 1
+    Phenol:
+      amount: 1
+    Lithium:
+      amount: 1
+  products:
+    Salbutamol: 4
+
+- type: reaction
   id: Convermol
   reactants:
     Dexalin:
