@@ -7162,3 +7162,12 @@ Entries:
   id: 672
   time: '2025-07-05T01:30:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/953
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Crew can opt in to being the Kill or Teach target of Traitors, or even
+        outright remove themself from being one.
+  id: 673
+  time: '2025-07-05T01:38:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/985
