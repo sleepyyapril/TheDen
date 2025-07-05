@@ -7145,3 +7145,20 @@ Entries:
   id: 671
   time: '2025-07-05T01:29:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/980
+- author: KyuPolaris
+  changes:
+    - type: Fix
+      message: Fixed the Awoosue (awoo appearing in emote wheels/menus for non-awooers)
+    - type: Fix
+      message: >-
+        Awoo and Howl can now be triggered with simply just the emote "howl" or
+        "awoo" for precedent with other emotes
+    - type: Add
+      message: Added some arachnid emotes to Arachne, embrace the spider
+    - type: Add
+      message: Added bark and howl to Kitsune
+    - type: Tweak
+      message: Nerfed Gekker (-7 db)
+  id: 672
+  time: '2025-07-05T01:30:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/953
