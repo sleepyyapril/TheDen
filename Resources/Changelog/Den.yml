@@ -7131,3 +7131,10 @@ Entries:
   id: 669
   time: '2025-07-05T01:22:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/984
+- author: Deathninja5551
+  changes:
+    - type: Fix
+      message: Gave Vox their poison recovery back.
+  id: 670
+  time: '2025-07-05T01:28:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/976
