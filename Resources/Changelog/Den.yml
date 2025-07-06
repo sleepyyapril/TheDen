@@ -7297,3 +7297,16 @@ Entries:
   id: 687
   time: '2025-07-06T23:04:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1003
+- author: GreggTheFather
+  changes:
+    - type: Tweak
+      message: (ARENA) Updated all Dorms, Bedrooms and Psych to not have Critter Spawns
+    - type: Tweak
+      message: (EDGE) Updated all Dorms, Bedrooms and Psych to not have Critter Spawns
+    - type: Tweak
+      message: >-
+        (ASTERISK) Updated all Dorms, Bedrooms and Psych to not have Critter
+        Spawns
+  id: 688
+  time: '2025-07-06T23:05:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1011
