@@ -7249,3 +7249,10 @@ Entries:
   id: 681
   time: '2025-07-05T19:31:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/999
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: 'Fixed a bunch of things wrong with baikal. '
+  id: 682
+  time: '2025-07-06T04:16:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1008
