@@ -7267,3 +7267,10 @@ Entries:
   id: 683
   time: '2025-07-06T04:17:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1002
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed TEG, for real.
+  id: 684
+  time: '2025-07-06T04:24:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1005
