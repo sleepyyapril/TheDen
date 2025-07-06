@@ -7274,3 +7274,12 @@ Entries:
   id: 684
   time: '2025-07-06T04:24:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1005
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: >-
+        Added the Sharp Jaws trait! Now you can bite your friends! Your enemies!
+        Your... Lovers...? :flushed:
+  id: 685
+  time: '2025-07-06T05:38:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1010
