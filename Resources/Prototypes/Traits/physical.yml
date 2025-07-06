@@ -631,6 +631,15 @@
         - description: examine-bionic-arm-message
           fontSize: 12
           requireDetailRange: true
+    - !type:TraitAddComponentToBodyPart
+      parts:
+      - Arm
+      components:
+      - type: Prying
+        speedModifier: 1.5
+        pryPowered: true
+      - type: UseDelay # For insta prying
+        delay: 1
 
 - type: trait
   id: PlateletFactories
@@ -1025,6 +1034,19 @@
       species:
         - Arachne
   functions:
+    - !type:TraitAddComponentToBodyPart
+      parts:
+      - Leg
+      components:
+      - type: MovementBodyPart
+        walkSpeed: 3.125
+        sprintSpeed: 5.625
+      - type: StepTriggerImmune
+        whitelist:
+          types:
+          - Shard
+          - Mousetrap
+          - SlipEntity
     - !type:TraitPushDescription
       descriptionExtensions:
         - description: examine-bionic-leg-message
