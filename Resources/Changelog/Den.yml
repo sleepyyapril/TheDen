@@ -7256,3 +7256,14 @@ Entries:
   id: 682
   time: '2025-07-06T04:16:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1008
+- author: Swiss_Fox
+  changes:
+    - type: Add
+      message: (GRAVEL) Adds the corpsman, plus a teeny-tiny office for them
+    - type: Tweak
+      message: (GRAVEL) Various fixes and adjustments, see PR for details
+    - type: Tweak
+      message: (BARRIER) Various fixes and adjustments, see PR for details
+  id: 683
+  time: '2025-07-06T04:17:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1002
