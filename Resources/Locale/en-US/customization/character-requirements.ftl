@@ -178,3 +178,17 @@ character-cvar-requirement =
     [true]{" "}not
     *[other]{""}
 } have [color={$color}]{$cvar}[/color] set to [color={$color}]{$value}[/color].
+
+character-players-requirement = The server must{$inverted ->
+    [true]{" "}not
+    *[other]{""}
+} have {$min ->
+    [-2147483648]{$max ->
+        [2147483648]{""}
+        *[other] less than [color={$color}]{$max}[/color] players
+    }
+    *[other]{$max ->
+        [2147483648] more than [color={$color}]{$min}[/color] players
+        *[other] between [color={$color}]{$min}[/color] and [color={$color}]{$max}[/color] players
+    }
+}
