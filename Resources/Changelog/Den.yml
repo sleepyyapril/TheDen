@@ -7290,3 +7290,10 @@ Entries:
   id: 686
   time: '2025-07-06T19:51:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1009
+- author: Jakumba
+  changes:
+    - type: Remove
+      message: Vent critters from Pathfinder, ATS & Lavaland
+  id: 687
+  time: '2025-07-06T23:04:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1003
