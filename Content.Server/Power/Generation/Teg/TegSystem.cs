@@ -182,7 +182,7 @@ public sealed class TegSystem : EntitySystem
         component.LastGeneration = electricalEnergy;
 
         // Turn energy (at atmos tick rate) into wattage.
-        var power = electricalEnergy / args.dt;
+        var power = electricalEnergy / _atmosphere.AtmosTickRate;
 
         // Add ramp factor. This magics slight power into existence, but allows us to ramp up.
         // Also apply an exponential moving average to smooth out fluttering, as it was causing
