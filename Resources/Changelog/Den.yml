@@ -7283,3 +7283,10 @@ Entries:
   id: 685
   time: '2025-07-06T05:38:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1010
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Vent Critters now have a 30 second long audio warning before they spawn
+  id: 686
+  time: '2025-07-06T19:51:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1009
