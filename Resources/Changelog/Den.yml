@@ -7324,3 +7324,12 @@ Entries:
   id: 690
   time: '2025-07-07T12:18:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1016
+- author: Deathninja5551
+  changes:
+    - type: Add
+      message: >-
+        Added a Tank Harness for Vox. Now they can utilize the suit storage slot
+        for their air tanks!
+  id: 691
+  time: '2025-07-07T12:20:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1013
