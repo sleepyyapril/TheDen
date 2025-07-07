@@ -7310,3 +7310,10 @@ Entries:
   id: 688
   time: '2025-07-06T23:05:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1011
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added the paramedic satchel, backpack and duffel from yours truly
+  id: 689
+  time: '2025-07-07T12:14:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1012
