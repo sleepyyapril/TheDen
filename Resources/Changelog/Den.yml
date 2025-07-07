@@ -7317,3 +7317,10 @@ Entries:
   id: 689
   time: '2025-07-07T12:14:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1012
+- author: Deathninja5551
+  changes:
+    - type: Fix
+      message: Plasma no longer kills Plasmaman
+  id: 690
+  time: '2025-07-07T12:18:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1016
