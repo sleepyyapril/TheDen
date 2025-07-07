@@ -7333,3 +7333,10 @@ Entries:
   id: 691
   time: '2025-07-07T12:20:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1013
+- author: portfiend
+  changes:
+    - type: Fix
+      message: 'Fixed localization for the "Mothroach Spawn" event. '
+  id: 692
+  time: '2025-07-07T12:20:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1014
