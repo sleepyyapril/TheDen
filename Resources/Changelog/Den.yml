@@ -7340,3 +7340,10 @@ Entries:
   id: 692
   time: '2025-07-07T12:20:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1014
+- author: trashalice
+  changes:
+    - type: Add
+      message: a 1/10 chance of skeletons doing a funny when screaming
+  id: 693
+  time: '2025-07-07T12:23:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/997
