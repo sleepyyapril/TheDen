@@ -7394,3 +7394,10 @@ Entries:
   id: 698
   time: '2025-07-08T04:59:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1020
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Added 2 document printer flatpacks to the lawdrobe.
+  id: 699
+  time: '2025-07-08T04:59:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1004
