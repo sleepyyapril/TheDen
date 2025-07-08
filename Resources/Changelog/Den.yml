@@ -7369,3 +7369,10 @@ Entries:
   id: 695
   time: '2025-07-08T04:15:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1019
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added TrashyCinder's Lurking in the Dark to the lobby screen rotation!
+  id: 696
+  time: '2025-07-08T04:15:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1001
