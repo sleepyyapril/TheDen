@@ -7347,3 +7347,14 @@ Entries:
   id: 693
   time: '2025-07-07T12:23:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/997
+- author: Monotheonist
+  changes:
+    - type: Fix
+      message: (SHOUKOU) Vent critters no longer spawn in private rooms.
+    - type: Tweak
+      message: >-
+        (SHOUKOU) Lots of places have new printers and the library has a new
+        book press!!
+  id: 694
+  time: '2025-07-08T02:38:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1017
