@@ -7385,3 +7385,12 @@ Entries:
   id: 697
   time: '2025-07-08T04:20:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/998
+- author: Ci1rus
+  changes:
+    - type: Tweak
+      message: Adjusted the Vulpine Markings
+    - type: Tweak
+      message: Whitelisted Heterochromia for Vulpakins
+  id: 698
+  time: '2025-07-08T04:59:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1020
