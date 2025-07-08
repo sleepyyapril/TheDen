@@ -7358,3 +7358,14 @@ Entries:
   id: 694
   time: '2025-07-08T02:38:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1017
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked Survival to be higher danger, and Irregular Extended has been
+        changed to low danger.
+    - type: Tweak
+      message: There is a 0.5% higher chance of Hellshift and Nukeops on High Danger.
+  id: 695
+  time: '2025-07-08T04:15:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1019
