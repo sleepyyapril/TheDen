@@ -306,7 +306,7 @@
   - type: RampingStationEventScheduler
     startingChaosRatio: 0.01
     chaosModifier: 1.5
-    shiftLengthModifier: 0.25
+    shiftLengthModifier: 0.2
 
 - type: entity
   id: HellshiftStationEventScheduler
