@@ -59,8 +59,8 @@ meta:
   engineVersion: 260.2.0
   forkId: ""
   forkVersion: ""
-  time: 07/05/2025 20:02:19
-  entityCount: 14009
+  time: 07/07/2025 23:44:45
+  entityCount: 14029
 maps:
 - 1
 grids:
@@ -27468,6 +27468,26 @@ entities:
     - type: Transform
       pos: 36.5,-24.5
       parent: 2
+  - uid: 14026
+    components:
+    - type: Transform
+      pos: -12.5,40.5
+      parent: 2
+  - uid: 14027
+    components:
+    - type: Transform
+      pos: -11.5,40.5
+      parent: 2
+  - uid: 14028
+    components:
+    - type: Transform
+      pos: -10.5,40.5
+      parent: 2
+  - uid: 14029
+    components:
+    - type: Transform
+      pos: -9.5,40.5
+      parent: 2
 - proto: CarpetChapel
   entities:
   - uid: 225
@@ -31326,18 +31346,6 @@ entities:
     - type: Transform
       pos: 33.5,40.5
       parent: 2
-  - uid: 12865
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -10.5,40.5
-      parent: 2
-  - uid: 12866
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -12.5,40.5
-      parent: 2
   - uid: 12867
     components:
     - type: Transform
@@ -31793,6 +31801,18 @@ entities:
     components:
     - type: Transform
       pos: -25.460089,13.588035
+      parent: 2
+  - uid: 14013
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -11.0545635,39.94144
+      parent: 2
+  - uid: 14014
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -10.009054,39.94144
       parent: 2
 - proto: ChairWood
   entities:
@@ -39362,11 +39382,6 @@ entities:
       parent: 2
 - proto: filingCabinetRandom
   entities:
-  - uid: 861
-    components:
-    - type: Transform
-      pos: 10.5,-18.5
-      parent: 2
   - uid: 1214
     components:
     - type: Transform
@@ -66298,6 +66313,12 @@ entities:
     - type: Transform
       pos: 25.5,48.5
       parent: 2
+  - uid: 14015
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -11.5,40.5
+      parent: 2
 - proto: PaperCargoBountyManifest
   entities:
   - uid: 8308
@@ -66352,6 +66373,23 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 35.595078,0.5068679
+      parent: 2
+- proto: Pen
+  entities:
+  - uid: 14023
+    components:
+    - type: Transform
+      pos: -9.898833,40.694164
+      parent: 2
+  - uid: 14024
+    components:
+    - type: Transform
+      pos: -10.011862,40.61881
+      parent: 2
+  - uid: 14025
+    components:
+    - type: Transform
+      pos: -10.124889,40.543457
       parent: 2
 - proto: PetRockCarrier
   entities:
@@ -66787,11 +66825,6 @@ entities:
     components:
     - type: Transform
       pos: 35.5,1.5
-      parent: 2
-  - uid: 7312
-    components:
-    - type: Transform
-      pos: 48.5,7.5
       parent: 2
   - uid: 7313
     components:
@@ -68837,6 +68870,43 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 36.5,20.5
+      parent: 2
+- proto: PrinterDoc
+  entities:
+  - uid: 5322
+    components:
+    - type: Transform
+      pos: 10.5,-18.5
+      parent: 2
+  - uid: 7312
+    components:
+    - type: Transform
+      pos: 48.5,7.5
+      parent: 2
+  - uid: 12864
+    components:
+    - type: Transform
+      pos: 8.5,30.5
+      parent: 2
+  - uid: 12866
+    components:
+    - type: Transform
+      pos: 39.5,52.5
+      parent: 2
+  - uid: 14010
+    components:
+    - type: Transform
+      pos: 49.5,-17.5
+      parent: 2
+  - uid: 14011
+    components:
+    - type: Transform
+      pos: 65.5,3.5
+      parent: 2
+  - uid: 14012
+    components:
+    - type: Transform
+      pos: -12.5,40.5
       parent: 2
 - proto: PrizeCounter
   entities:
@@ -72056,6 +72126,43 @@ entities:
     components:
     - type: Transform
       pos: 18.722181,-7.528721
+      parent: 2
+- proto: SheetPrinter1
+  entities:
+  - uid: 14016
+    components:
+    - type: Transform
+      pos: -10.941536,40.657288
+      parent: 2
+  - uid: 14017
+    components:
+    - type: Transform
+      pos: -10.819089,40.553677
+      parent: 2
+  - uid: 14018
+    components:
+    - type: Transform
+      pos: -10.724899,40.61019
+      parent: 2
+  - uid: 14019
+    components:
+    - type: Transform
+      pos: -10.602451,40.581936
+      parent: 2
+  - uid: 14020
+    components:
+    - type: Transform
+      pos: -10.941536,40.563095
+      parent: 2
+  - uid: 14021
+    components:
+    - type: Transform
+      pos: -9.491009,40.591354
+      parent: 2
+  - uid: 14022
+    components:
+    - type: Transform
+      pos: -9.434495,40.53484
       parent: 2
 - proto: SheetSteel
   entities:
@@ -76133,6 +76240,11 @@ entities:
     - type: Transform
       pos: -8.5,29.5
       parent: 2
+  - uid: 861
+    components:
+    - type: Transform
+      pos: -11.5,40.5
+      parent: 2
   - uid: 1420
     components:
     - type: Transform
@@ -76191,7 +76303,7 @@ entities:
   - uid: 2498
     components:
     - type: Transform
-      pos: 8.5,30.5
+      pos: -9.5,40.5
       parent: 2
   - uid: 2761
     components:
@@ -76240,6 +76352,11 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 19.5,45.5
+      parent: 2
+  - uid: 12865
+    components:
+    - type: Transform
+      pos: -10.5,40.5
       parent: 2
   - uid: 13936
     components:
@@ -76363,11 +76480,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 53.5,35.5
-      parent: 2
-  - uid: 12864
-    components:
-    - type: Transform
-      pos: -11.5,40.5
       parent: 2
   - uid: 12868
     components:
@@ -76522,11 +76634,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 67.5,6.5
-      parent: 2
-  - uid: 5322
-    components:
-    - type: Transform
-      pos: 39.5,52.5
       parent: 2
   - uid: 5323
     components:
