@@ -7376,3 +7376,12 @@ Entries:
   id: 696
   time: '2025-07-08T04:15:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1001
+- author: Deathninja5551
+  changes:
+    - type: Add
+      message: >-
+        Vox have new organs: stomach, heart, and liver. This now lets them
+        freely eat trash and drink welding fuel.
+  id: 697
+  time: '2025-07-08T04:20:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/998
