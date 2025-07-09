@@ -4,6 +4,7 @@
 
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using Content.Server._DEN.Damage;
 using Content.Shared.Administration;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Prototypes;
@@ -13,14 +14,14 @@ using Robust.Shared.Prototypes;
 namespace Content.Server._DEN.Administration.Commands;
 
 [AnyCommand]
-sealed class SelfDamageCommand : IConsoleCommand
+sealed class SelfDamageGradualCommand : IConsoleCommand
 {
     [Dependency] private readonly IEntityManager _entManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
-    public string Command => "selfdamage";
-    public string Description => Loc.GetString("self-damage-command-description");
-    public string Help => Loc.GetString("self-damage-command-help", ("command", Command));
+    public string Command => "selfdamagegradual";
+    public string Description => Loc.GetString("self-damage-gradual-command-description");
+    public string Help => Loc.GetString("self-damage-gradual-command-help", ("command", Command));
 
     private string[] _ignoreTypesGroups = new[]
     {
@@ -34,7 +35,7 @@ sealed class SelfDamageCommand : IConsoleCommand
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {
-        if (args.Length < 1 || args.Length > 3)
+        if (args.Length < 2)
         {
             shell.WriteLine(Loc.GetString("damage-command-error-args"));
             return;
@@ -43,7 +44,9 @@ sealed class SelfDamageCommand : IConsoleCommand
         EntityUid? target;
 
         if (shell.Player?.AttachedEntity is { Valid: true } playerEntity)
+        {
             target = playerEntity;
+        }
         else
         {
             shell.WriteLine(Loc.GetString("self-damage-command-error-player"));
@@ -53,14 +56,10 @@ sealed class SelfDamageCommand : IConsoleCommand
         if (!TryParseDamageArgs(shell, args, out var damageFunc))
             return;
 
-        bool ignoreResistances;
-        if (args.Length == 3)
+        if (args.Length == 3 && !bool.TryParse(args[2], out var ignoreResistances))
         {
-            if (!bool.TryParse(args[2], out ignoreResistances))
-            {
-                shell.WriteLine(Loc.GetString("damage-command-error-bool", ("arg", args[2])));
-                return;
-            }
+            shell.WriteLine(Loc.GetString("damage-command-error-bool", ("arg", args[2])));
+            return;
         }
         else
             ignoreResistances = false;
@@ -71,11 +70,12 @@ sealed class SelfDamageCommand : IConsoleCommand
     public CompletionResult GetCompletion(IConsoleShell shell, string[] args)
     {
         if (args.Length == 1)
-        {
-            return CompletionResult.FromHint(Loc.GetString("damage-command-arg-quantity"));
-        }
+            return CompletionResult.FromHint(Loc.GetString("damage-command-arg-time"));
 
         if (args.Length == 2)
+            return CompletionResult.FromHint(Loc.GetString("damage-command-arg-quantity"));
+
+        if (args.Length == 3)
         {
             var types = _prototypeManager.EnumeratePrototypes<DamageTypePrototype>()
                 .Where(d => !_ignoreTypesGroups.Contains(d.ID))
@@ -89,7 +89,7 @@ sealed class SelfDamageCommand : IConsoleCommand
                 Loc.GetString("damage-command-arg-type"));
         }
 
-        if (args.Length == 3)
+        if (args.Length == 4)
         {
             // if type.Name is good enough for cvars, <bool> doesn't need localizing.
             return CompletionResult.FromHint("<bool>");
@@ -106,7 +106,14 @@ sealed class SelfDamageCommand : IConsoleCommand
         [NotNullWhen(true)] out Damage? func
     )
     {
-        if (!float.TryParse(args[0], out var amount))
+        if (!int.TryParse(args[0], out var seconds))
+        {
+            shell.WriteLine(Loc.GetString("self-damage-gradual-command-error-seconds"));
+            func = null;
+            return false;
+        }
+
+        if (!float.TryParse(args[1], out var amount))
         {
             shell.WriteLine(Loc.GetString("damage-command-error-quantity", ("arg", args[1])));
             func = null;
@@ -133,8 +140,8 @@ sealed class SelfDamageCommand : IConsoleCommand
         {
             func = (entity, ignoreResistances) =>
             {
-                var damage = new DamageSpecifier(damageGroup, amount);
-                _entManager.System<DamageableSystem>().TryChangeDamage(entity, damage, ignoreResistances);
+                var damage = new DamageSpecifier(damageGroup, amount / seconds);
+                _entManager.System<GradualDamageSystem>().TryAddDamage(entity, seconds, damage, ignoreResistances);
             };
 
             return true;
@@ -144,8 +151,8 @@ sealed class SelfDamageCommand : IConsoleCommand
         {
             func = (entity, ignoreResistances) =>
             {
-                var damage = new DamageSpecifier(damageType, amount);
-                _entManager.System<DamageableSystem>().TryChangeDamage(entity, damage, ignoreResistances);
+                var damage = new DamageSpecifier(damageType, amount / seconds);
+                _entManager.System<GradualDamageSystem>().TryAddDamage(entity, seconds, damage, ignoreResistances);
             };
 
             return true;

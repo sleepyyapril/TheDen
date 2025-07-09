@@ -11,10 +11,15 @@ damage-command-help = Usage: {$command} <type/group> <amount> [ignoreResistances
 self-damage-command-description = Add or remove damage to yourself, for RP purposes. 
 self-damage-command-help = Usage: {$command} <amount> <type/group> [ignoreResistances]
 
+self-damage-command-gradual-description = Add or remove damage to yourself, for RP purposes. This command will work over the provided period of time.
+self-damage-command-gradual-help = Usage: {$command} <length (seconds)> <amount> <type/group> [ignoreResistances]
+self-damage-gradual-command-error-seconds = {$arg} is not a valid duration in seconds.
+
 self-damage-command-error-player = No entity attached to session.
 
 damage-command-arg-type = <damage type or group>
 damage-command-arg-quantity = [quantity]
+damage-command-arg-time = [seconds]
 damage-command-arg-target = [target euid]
 
 damage-command-error-type = {$arg} is not a valid damage group or type.
