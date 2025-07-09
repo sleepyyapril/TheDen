@@ -7418,3 +7418,13 @@ Entries:
   id: 700
   time: '2025-07-09T16:23:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1028
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Survival had a few changes recently and is now considered higher danger
+        than Irregular Extended, so the two have been swapped in the random
+        preset selection.
+  id: 701
+  time: '2025-07-09T18:10:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1031
