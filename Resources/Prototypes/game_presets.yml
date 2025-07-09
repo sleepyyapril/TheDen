@@ -34,6 +34,7 @@
     - survival
   name: survival-title
   showInVote: true # secret # DeltaV - Me when the survival. Used for periapsis.
+  highDanger: true
   description: survival-description
   rules:
     - RampingStationEventScheduler
@@ -70,7 +71,6 @@
   id: SurvivalIrregularExtended
   alias: [irregular-extended]
   showInVote: true
-  highDanger: true
   name: irregular-extended-title
   description: irregular-extended-description
   rules:
