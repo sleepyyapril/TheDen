@@ -7401,3 +7401,20 @@ Entries:
   id: 699
   time: '2025-07-08T04:59:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1004
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: (ARENA) Added Document Printer to Library, Holopad to Arena
+    - type: Add
+      message: (ASTERISK) Added Document Printer to Public Tool Room
+    - type: Tweak
+      message: >-
+        (EDGE) Various tweaks to Security, Dorms are re-worked. See PR for
+        details/previews.
+    - type: Remove
+      message: (ARENA) Removed Holopads from Bedrooms
+    - type: Remove
+      message: Removed Silvia and Secure Reporter Windoors from Migrations
+  id: 700
+  time: '2025-07-09T16:23:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1028
