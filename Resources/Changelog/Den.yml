@@ -7447,3 +7447,10 @@ Entries:
   id: 703
   time: '2025-07-10T16:31:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1025
+- author: AlinaNova21
+  changes:
+    - type: Add
+      message: Added Dragon Plushies to loadouts
+  id: 704
+  time: '2025-07-10T16:33:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1027
