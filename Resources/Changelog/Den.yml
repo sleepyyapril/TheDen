@@ -7428,3 +7428,13 @@ Entries:
   id: 701
   time: '2025-07-09T18:10:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1031
+- author: SolsticeOfTheWinter
+  changes:
+    - type: Fix
+      message: >-
+        The Nanotrasen Representatives handheld fax now drops paper on the
+        ground when printing inside of a container, instead of sticking it to
+        the bag.
+  id: 702
+  time: '2025-07-10T16:31:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1034
