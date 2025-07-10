@@ -7438,3 +7438,12 @@ Entries:
   id: 702
   time: '2025-07-10T16:31:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1034
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Printable door logs via the LogProbe App.
+    - type: Tweak
+      message: Folders in the detective drobe.
+  id: 703
+  time: '2025-07-10T16:31:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1025
