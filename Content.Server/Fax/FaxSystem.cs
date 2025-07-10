@@ -7,6 +7,7 @@
 // SPDX-FileCopyrightText: 2023 Pieter-Jan Briers
 // SPDX-FileCopyrightText: 2023 Visne
 // SPDX-FileCopyrightText: 2023 eoineoineoin
+// SPDX-FileCopyrightText: 2024 CaasGit
 // SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
 // SPDX-FileCopyrightText: 2024 Ed
 // SPDX-FileCopyrightText: 2024 Guilherme Ornel
