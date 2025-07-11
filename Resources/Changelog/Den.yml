@@ -7468,3 +7468,18 @@ Entries:
   id: 706
   time: '2025-07-11T03:17:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1037
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        New announcers now have a chance of rolling at the beginning of a round
+        in place of Michael.
+    - type: Add
+      message: >-
+        Admins have a new command, /setannouncer, which allows them to change
+        the announcer at any time as they please. Check the PR for usage
+        instructions, or just run that command without parameters (it will tell
+        you how to use it).
+  id: 707
+  time: '2025-07-11T03:17:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1035
