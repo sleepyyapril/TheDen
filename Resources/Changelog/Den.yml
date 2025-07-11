@@ -7483,3 +7483,12 @@ Entries:
   id: 707
   time: '2025-07-11T03:17:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1035
+- author: SimpleGopnik
+  changes:
+    - type: Add
+      message: Cyborgs are now able to wear neck items, as well as be given awards
+    - type: Fix
+      message: Cyborgs now have their hats centered
+  id: 708
+  time: '2025-07-08T04:59:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1007
