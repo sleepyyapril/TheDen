@@ -7454,3 +7454,10 @@ Entries:
   id: 704
   time: '2025-07-10T16:33:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1027
+- author: trashalice
+  changes:
+    - type: Tweak
+      message: lowered bone badness by 50%
+  id: 705
+  time: '2025-07-11T00:40:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1039
