@@ -7492,3 +7492,14 @@ Entries:
   id: 708
   time: '2025-07-08T04:59:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1007
+- author: Deathninja5551
+  changes:
+    - type: Add
+      message: >-
+        Added Ammonia/Anaerobic Blood chemical interactions. They can now be
+        centrifuged and boiled.
+    - type: Fix
+      message: Vox parts now correctly contain Anaerobic Blood.
+  id: 709
+  time: '2025-07-11T23:54:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1038
