@@ -7517,3 +7517,10 @@ Entries:
   id: 711
   time: '2025-07-12T00:02:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/990
+- author: SubspaceEmber
+  changes:
+    - type: Tweak
+      message: Ported musician and boxer service access.
+  id: 712
+  time: '2025-07-12T00:28:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1029
