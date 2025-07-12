@@ -7510,3 +7510,10 @@ Entries:
   id: 710
   time: '2025-07-12T00:00:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1021
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added the Rosy Mothroach Variant from frontier
+  id: 711
+  time: '2025-07-12T00:02:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/990
