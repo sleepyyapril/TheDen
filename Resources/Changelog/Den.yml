@@ -7535,3 +7535,12 @@ Entries:
   id: 713
   time: '2025-07-12T07:16:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1023
+- author: SubspaceEmber
+  changes:
+    - type: Tweak
+      message: >-
+        Changed name and description for janitorial winter boots and added
+        noslip 
+  id: 714
+  time: '2025-07-12T07:17:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1030
