@@ -7503,3 +7503,10 @@ Entries:
   id: 709
   time: '2025-07-11T23:54:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1038
+- author: KyuPolaris
+  changes:
+    - type: Add
+      message: Added disposable syringe into the med/emt belt whitelist
+  id: 710
+  time: '2025-07-12T00:00:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1021
