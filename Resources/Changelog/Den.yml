@@ -7558,3 +7558,10 @@ Entries:
   id: 716
   time: '2025-07-12T09:30:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1032
+- author: Deathninja5551
+  changes:
+    - type: Add
+      message: Ported the Experiment plushie from Casualties Unknown
+  id: 717
+  time: '2025-07-12T16:58:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1049
