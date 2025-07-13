@@ -7709,3 +7709,10 @@ Entries:
   id: 731
   time: '2025-07-13T20:38:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/795
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: The ninja no longer gets the emag objective
+  id: 732
+  time: '2025-07-13T21:30:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1062
