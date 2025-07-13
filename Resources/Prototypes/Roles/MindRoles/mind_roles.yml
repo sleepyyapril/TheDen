@@ -134,8 +134,6 @@
     roleType: TeamAntagonist
     exclusiveAntag: true
   - type: DragonRole
-  - type: RoleBriefing
-    briefing: dragon-role-briefing
 
 # Ninja
 - type: entity
@@ -149,8 +147,6 @@
     roleType: SoloAntagonist
     exclusiveAntag: true
   - type: NinjaRole
-  - type: RoleBriefing
-    briefing: ninja-role-greeting
 
 # Nukies
 - type: entity
