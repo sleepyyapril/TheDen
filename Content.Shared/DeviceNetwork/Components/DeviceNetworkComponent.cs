@@ -11,8 +11,6 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-using Content.Server.DeviceNetwork.Systems;
-using Content.Shared.DeviceNetwork;
 using Content.Shared.DeviceNetwork.Systems;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 

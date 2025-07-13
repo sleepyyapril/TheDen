@@ -47,16 +47,6 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using Content.Server.Administration.Logs;
-using Content.Server.Atmos.EntitySystems;
-using Content.Server.Disposal.Tube;
-using Content.Server.Disposal.Tube.Components;
-using Content.Server.Disposal.Unit.Components;
-using Content.Server.Popups;
-using Content.Server.Power.Components;
-using Content.Server.Power.EntitySystems;
 using System.Linq;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Administration.Logs;
@@ -64,9 +54,7 @@ using Content.Shared.Body.Components;
 using Content.Shared.Climbing.Systems;
 using Content.Shared.Containers;
 using Content.Shared.Database;
-using Content.Shared.Destructible;
-using Content.Shared.DeviceLinking; // Goobstation
-using Content.Shared.Disposal;
+// Goobstation
 using Content.Shared.Disposal.Components;
 using Content.Shared.Disposal.Unit.Events;
 using Content.Shared.DoAfter;
@@ -89,9 +77,7 @@ using Robust.Shared.Containers;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
-using Robust.Shared.Player;
-using Robust.Shared.Random;
-using Robust.Shared.Prototypes; // Goobstation
+// Goobstation
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;

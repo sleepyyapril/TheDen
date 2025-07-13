@@ -6,8 +6,6 @@
 // SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
-
-using Content.Server.DeviceNetwork.Components;
 using Content.Server.NodeContainer;
 using Content.Server.NodeContainer.EntitySystems;
 using JetBrains.Annotations;

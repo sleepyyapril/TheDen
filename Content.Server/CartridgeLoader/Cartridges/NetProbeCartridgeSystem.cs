@@ -7,7 +7,6 @@
 // SPDX-License-Identifier: MIT
 
 using Content.Server.DeviceNetwork;
-using Content.Server.DeviceNetwork.Components;
 using Content.Shared.CartridgeLoader;
 using Content.Shared.CartridgeLoader.Cartridges;
 using Content.Shared.DeviceNetwork;
