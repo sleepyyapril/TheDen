@@ -16,7 +16,8 @@ using Content.Shared.DeviceNetwork.Events;
 using Content.Shared.Emag.Systems;
 using Content.Server.Explosion.Components;
 using Robust.Shared.Utility;
-using Content.Server._Imp.Drone; //Goobstation drone
+using Content.Server._Imp.Drone;
+using Content.Shared.Emag.Components; //Goobstation drone
 using Robust.Shared.Player; //Goobstation drone
 namespace Content.Server.Silicons.Borgs;
 
