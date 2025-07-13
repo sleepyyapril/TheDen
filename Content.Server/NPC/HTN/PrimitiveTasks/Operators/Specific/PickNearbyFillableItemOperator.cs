@@ -5,10 +5,10 @@
 
 using System.Threading;
 using System.Threading.Tasks;
-using Content.Server.Disposal.Unit.Components;
 using Content.Server.NPC.Pathfinding;
 using Content.Shared.Body.Part;
 using Content.Shared.DeviceLinking;
+using Content.Shared.Disposal.Components;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
 using Content.Shared.Materials;

@@ -6,11 +6,11 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-using Content.Server.Disposal.Unit.Components;
-using Content.Server.Disposal.Unit.EntitySystems;
+using Content.Server.Disposal.Unit;
 using Content.Shared.DeviceLinking.Events;
 using Content.Server.Power.EntitySystems;
 using Content.Shared.DeviceLinking;
+using Content.Shared.Disposal.Components;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server._Goobstation.Disposals;

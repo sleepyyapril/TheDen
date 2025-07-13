@@ -3,7 +3,6 @@
 //
 // SPDX-License-Identifier: MIT
 
-using Content.Server.Disposal.Tube.Systems;
 using Content.Shared.DeviceLinking;
 using Robust.Shared.Prototypes;
 

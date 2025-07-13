@@ -22,8 +22,6 @@
 // SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
-
-using Content.Server.Disposal.Unit.Components;
 using Content.Server.UserInterface;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
