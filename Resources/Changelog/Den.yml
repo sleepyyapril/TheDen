@@ -7738,3 +7738,14 @@ Entries:
   id: 734
   time: '2025-07-13T22:59:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1063
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Medibots and Mimebots can be stripped again (allowing you to put hats on
+        them).
+    - type: Fix
+      message: Fillbots can be renamed again.
+  id: 735
+  time: '2025-07-13T23:11:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1065
