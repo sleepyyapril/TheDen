@@ -34,7 +34,7 @@ public sealed class ResearchStealerSystem : SharedResearchStealerSystem
             return;
 
         var ev = new ResearchStolenEvent(uid, target, new());
-        var count = _random.Next(comp.MinToSteal, comp.MaxToSteal + 1);
+        var count = _random.Next(comp.MinToSteal, comp.MaxToSteal - 1); // TheDen - Make the objective a little more tough!
         for (var i = 0; i < count; i++)
         {
             if (database.UnlockedTechnologies.Count == 0)

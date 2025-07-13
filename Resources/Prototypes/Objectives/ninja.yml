@@ -11,6 +11,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: true
   parent: BaseObjective
   id: BaseNinjaObjective
@@ -18,7 +19,7 @@
   - type: Objective
     # difficulty isn't used all since objectives are picked
     difficulty: 1.5
-    issuer: spiderclan
+    issuer: Spider Clan
   - type: RoleRequirement
     roles:
       mindRoles:
@@ -51,8 +52,8 @@
       sprite: Structures/Machines/server.rsi
       state: server
   - type: NumberObjective
-    min: 9
-    max: 13
+    min: 4 # TheDen - lowered to 4-7 techs. Won't screw over Epi as bad.
+    max: 7
     title: objective-condition-steal-research-title
   - type: StealResearchCondition
 

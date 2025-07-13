@@ -5,6 +5,7 @@
 # Kill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: true
   parent: [ BaseNinjaObjective, BaseTeachLessonObjective ]
   id: BaseNinjaTeachLessonObjective
@@ -16,21 +17,24 @@
       sprite: Objects/Weapons/Throwable/throwing_star.rsi
       state: icon
   - type: TargetObjective
-    title: objective-condition-teach-person-title
+    title: objective-condition-ninja-teach-person-title
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseNinjaTeachLessonObjective
   id: NinjaTeachLessonRandomHeadObjective
   components:
   - type: PickRandomHead
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseNinjaTeachLessonObjective
   id: NinjaTeachLessonRandomPersonObjective
   components:
   - type: PickRandomPerson
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: [ BaseNinjaObjective, BaseKillObjective ]
   id: NinjaKillRandomHeadObjective
   description: The Spider Clan is in need of more saboteur cyborgs. This head's brain will be perfect.
@@ -48,6 +52,7 @@
 # Steal
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   abstract: true
   parent: [ BaseNinjaObjective, BaseStealObjective ]
   id: BaseNinjaStealObjective
@@ -56,6 +61,7 @@
     verifyMapExistence: false
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseNinjaStealObjective
   id: NinjaIanDossierStealObjective
   components:
@@ -63,6 +69,7 @@
     stealGroup: BookIanDossier
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseNinjaStealObjective
   id: NinjaLuckyBillStealObjective
   components:
@@ -70,16 +77,9 @@
     stealGroup: SpaceCashLuckyBill
 
 - type: entity
+  categories: [ HideSpawnMenu ]
   parent: BaseNinjaStealObjective
   id: NinjaCaptainsCloakStealObjective
   components:
   - type: StealCondition
     stealGroup: CaptainsCloak
-
-- type: entity
-  parent: BaseNinjaStealObjective
-  id: NinjaNotaryStampStealObjective
-  components:
-  - type: StealCondition
-    stealGroup: RubberStampNotary
-    owner: job-name-clerk

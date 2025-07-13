@@ -149,6 +149,8 @@
     roleType: SoloAntagonist
     exclusiveAntag: true
   - type: NinjaRole
+  - type: RoleBriefing
+    briefing: ninja-role-greeting
 
 # Nukies
 - type: entity
