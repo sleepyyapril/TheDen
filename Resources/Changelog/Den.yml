@@ -7666,3 +7666,14 @@ Entries:
   id: 728
   time: '2025-07-13T21:09:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1024
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        EVERY SINGLE SPECIES HAS THE SAME LAYER ORDER (unless they NEED it to be
+        different - these are Vox, Harpy, Arachne). JESUS FUCKING CHRIST
+    - type: Tweak
+      message: Socks now have their own layer underneath jumpsuits.
+  id: 729
+  time: '2025-07-13T20:25:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1050
