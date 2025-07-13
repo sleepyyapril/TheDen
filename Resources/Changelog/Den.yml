@@ -7729,3 +7729,12 @@ Entries:
   id: 733
   time: '2025-07-13T22:58:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1064
+- author: muburu
+  changes:
+    - type: Add
+      message: Space Dragons now have randomly generated names.
+    - type: Tweak
+      message: Dragons can now pry open doors, including firelocks.
+  id: 734
+  time: '2025-07-13T22:59:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1063
