@@ -7688,3 +7688,24 @@ Entries:
   id: 730
   time: '2025-07-13T20:35:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1059
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Player-controlled Medibots, Plantbots, and Weldbots can now use their
+        respective abilities. Medibots get an innate injector (fine-tuned for
+        each patient), Weldbots get an innate welder, and Plantbots have UI
+        actions for watering and weeding plants.
+    - type: Add
+      message: >-
+        Player-controlled bots are now capable of examining their surroundings
+        and other people. You know. For consent.
+    - type: Add
+      message: >-
+        Bots now have emotes (your usual pings, buzzes, and whirrs that all
+        silicons have) and pAI vocal sounds. 
+    - type: Remove
+      message: Plantbots can no longer see diagnostic health bars for other robots.
+  id: 731
+  time: '2025-07-13T20:38:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/795
