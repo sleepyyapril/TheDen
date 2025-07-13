@@ -42,6 +42,7 @@
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 Tabitha
 # SPDX-FileCopyrightText: 2025 VMSolidus
+# SPDX-FileCopyrightText: 2025 Vanessa Louwagie
 # SPDX-FileCopyrightText: 2025 Your Name
 # SPDX-FileCopyrightText: 2025 empty0set
 # SPDX-FileCopyrightText: 2025 juniwoofs
@@ -207,12 +208,19 @@
   - type: AntagLoadProfileRule
   - type: AntagObjectives
     objectives:
-    - StealResearchObjective
+    #- StealResearchObjective # DeltaV: Moved to random objectives
     - DoorjackObjective
     - SpiderChargeObjective
-    - TerrorObjective
-    - MassArrestObjective
+    #- TerrorObjective # DeltaV: Moved to random objectives
+    #- MassArrestObjective # DeltaV: Moved to random objectives
     - NinjaSurviveObjective
+  - type: AntagRandomObjectives # DeltaV: Random objectives for hacking and killing
+    sets:
+    - groups: NinjaHackingObjectiveGroups
+      maxPicks: 2 # only pick 2 of 3 of them to reduce metagaming
+    - groups: NinjaBonusObjectiveGroups
+      maxPicks: 2 # 2 kill or steal objectives max
+    maxDifficulty: 100 # ignore difficulty, use maxPicks instead
   - type: AntagSelection
     agentName: ninja-round-end-agent-name
     definitions:
@@ -238,6 +246,21 @@
         - NamesNinjaTitle
         - NamesNinja
         nameFormat: name-format-ninja
+      - type: FootstepVolumeModifier # TheDen - Add Light Step - Ninjas should be trained to be silent, no?
+        sprintVolumeModifier: -15
+        walkVolumeModifier: -15
+      - type: Thieving # TheDen - Add Thieving - Ninjas should be good at pickpocketing!
+        ignoreStripHidden: true
+        stealth: Subtle
+        stripTimeReduction: 0
+        stripTimeMultiplier: 0.667
+      - type: ClimbDelayModifier #TheDen - Add Parkour Training
+        climbDelayMultiplier: 0.5
+      - type: SlippableModifier
+        paralyzeTimeMultiplier: 0.7
+      - type: SpeedModifiedByContactModifier
+        walkModifierEffectiveness: 0.5
+        sprintModifierEffectiveness: 0.5
       mindRoles:
       - MindRoleNinja
 
