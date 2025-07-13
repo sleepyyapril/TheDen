@@ -7677,3 +7677,14 @@ Entries:
   id: 729
   time: '2025-07-13T20:25:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1050
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: >-
+        Added some variety to the warden's antique weapons on the loadout
+        screen.
+    - type: Tweak
+      message: Removed loadout cost for the Warden's antique greatsword.
+  id: 730
+  time: '2025-07-13T20:35:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1059
