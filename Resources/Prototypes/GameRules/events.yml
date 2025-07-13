@@ -244,6 +244,21 @@
         - NamesNinjaTitle
         - NamesNinja
         nameFormat: name-format-ninja
+      - type: FootstepVolumeModifier # TheDen - Add Light Step - Ninjas should be trained to be silent, no?
+        sprintVolumeModifier: -15
+        walkVolumeModifier: -15
+      - type: Thieving # TheDen - Add Thieving - Ninjas should be good at pickpocketing!
+        ignoreStripHidden: true
+        stealth: Subtle
+        stripTimeReduction: 0
+        stripTimeMultiplier: 0.667
+      - type: ClimbDelayModifier #TheDen - Add Parkour Training
+        climbDelayMultiplier: 0.5
+      - type: SlippableModifier
+        paralyzeTimeMultiplier: 0.7
+      - type: SpeedModifiedByContactModifier
+        walkModifierEffectiveness: 0.5
+        sprintModifierEffectiveness: 0.5
       mindRoles:
       - MindRoleNinja
 
