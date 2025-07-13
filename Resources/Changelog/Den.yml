@@ -7635,3 +7635,10 @@ Entries:
   id: 725
   time: '2025-07-13T20:27:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/960
+- author: juniwoofs
+  changes:
+    - type: Tweak
+      message: Tweaked the spawn rate and times of various events. (see pr for details)
+  id: 726
+  time: '2025-07-13T20:39:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1045
