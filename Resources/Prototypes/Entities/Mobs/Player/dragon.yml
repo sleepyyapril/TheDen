@@ -201,16 +201,6 @@
         Heat: -0.34
       groups:
         Brute: -0.34
-
-- type: damageModifierSet
-  id: Dragon
-  coefficients:
-    Blunt: 0.7
-    Slash: 0.7
-    Piercing: 1.1
-    Heat: 0.35
-  flatReductions:
-    Heat: 9
   - type: RandomMetadata
     nameSegments:
     - NamesDragon
@@ -222,6 +212,16 @@
     speedModifier: 2.5 # fast because dragon strong
     useSound:
       path: /Audio/Items/crowbar.ogg
+
+- type: damageModifierSet
+  id: Dragon
+  coefficients:
+    Blunt: 0.7
+    Slash: 0.7
+    Piercing: 1.1
+    Heat: 0.35
+  flatReductions:
+    Heat: 9
 
 - type: entity
   parent: BaseMobDragon
