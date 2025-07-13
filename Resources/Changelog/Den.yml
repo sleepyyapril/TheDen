@@ -7649,3 +7649,20 @@ Entries:
   id: 727
   time: '2025-07-13T20:54:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1057
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: Space Ninjas now have a new intro song.
+    - type: Add
+      message: >-
+        Space Ninjas now have some traits - Light Step, Parkour Training, and
+        Thieving.
+    - type: Tweak
+      message: Reduced the amount of technology that Space Ninjas need to steal.
+    - type: Tweak
+      message: >-
+        Space Ninja objectives are now more random and they can be asked to
+        steal things or kill people!
+  id: 728
+  time: '2025-07-13T21:09:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1024
