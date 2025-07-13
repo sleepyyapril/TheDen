@@ -7642,3 +7642,10 @@ Entries:
   id: 726
   time: '2025-07-13T20:39:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1045
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Slimes received updated sprites! They also have faces now!
+  id: 727
+  time: '2025-07-13T20:54:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1057
