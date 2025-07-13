@@ -7621,3 +7621,10 @@ Entries:
   id: 723
   time: '2025-07-13T20:24:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1051
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: Ported the improved SMES UI from wizden.
+  id: 724
+  time: '2025-07-13T20:24:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1058
