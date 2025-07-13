@@ -7716,3 +7716,16 @@ Entries:
   id: 732
   time: '2025-07-13T21:30:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1062
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: >-
+        Ghosts will now follow the AI when it activates a holopad or answers a
+        holo-call
+    - type: Fix
+      message: >-
+        Ghosts are no longer sent to the void if the player they are following
+        is polymorphed.
+  id: 733
+  time: '2025-07-13T22:58:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1064
