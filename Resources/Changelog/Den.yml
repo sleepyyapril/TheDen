@@ -7588,3 +7588,10 @@ Entries:
   id: 720
   time: '2025-07-13T02:21:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1052
+- author: Jakumba
+  changes:
+    - type: Remove
+      message: CQC Manual from Boxer & Martial Artist loadout
+  id: 721
+  time: '2025-07-13T02:24:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1054
