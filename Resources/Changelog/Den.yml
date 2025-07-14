@@ -7803,3 +7803,12 @@ Entries:
   id: 739
   time: '2025-07-14T12:43:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1067
+- author: ShepardToTheStars
+  changes:
+    - type: Fix
+      message: >-
+        Fixed door collision detection! Doors will no longer close on you if
+        you're standing in them.
+  id: 740
+  time: '2025-07-14T14:17:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1075
