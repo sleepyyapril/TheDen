@@ -79,15 +79,20 @@ public abstract class StationEventSystem<T> : GameRuleSystem<T> where T : ICompo
 
         AdminLogManager.Add(LogType.EventStarted, LogImpact.High, $"Event started: {ToPrettyString(uid)}");
 
+        // we don't want to send to players who aren't in game (i.e. in the lobby)
+        var allPlayersInGame = Filter.Empty().AddWhere(GameTicker.UserHasJoinedGame);
+
         if (stationEvent.StartAnnouncement)
         {
             _announcer.SendAnnouncement(
                 _announcer.GetAnnouncementId(args.RuleId),
-                Filter.Broadcast(),
+                allPlayersInGame,
                 _announcer.GetEventLocaleString(_announcer.GetAnnouncementId(args.RuleId)),
-                colorOverride: Color.Gold
+                colorOverride: stationEvent.StartAnnouncementColor
             );
         }
+
+        Audio.PlayGlobal(stationEvent.StartAudio, allPlayersInGame, true);
 
         if (stationEvent.Duration != null)
         {
@@ -109,14 +114,19 @@ public abstract class StationEventSystem<T> : GameRuleSystem<T> where T : ICompo
 
         AdminLogManager.Add(LogType.EventStopped, $"Event ended: {ToPrettyString(uid)}");
 
+        // we don't want to send to players who aren't in game (i.e. in the lobby)
+        var allPlayersInGame = Filter.Empty().AddWhere(GameTicker.UserHasJoinedGame);
+
         if (stationEvent.EndAnnouncement)
         {
             _announcer.SendAnnouncement(
                 _announcer.GetAnnouncementId(args.RuleId, true),
                 Filter.Broadcast(),
                 _announcer.GetEventLocaleString(_announcer.GetAnnouncementId(args.RuleId, true)),
-                colorOverride: Color.Gold);
+                colorOverride: stationEvent.EndAnnouncementColor);
         }
+
+        Audio.PlayGlobal(stationEvent.EndAudio, allPlayersInGame, true);
     }
 
     /// <summary>

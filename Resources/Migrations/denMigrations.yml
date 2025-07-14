@@ -131,3 +131,29 @@ LootSpawnerMedicalMinor: null
 LootSpawnerMedicalClassy: null
 PillCanisterMultiver: null
 SyringeCognizine: null
+
+# Goob gamerules... shutter...
+
+BlastDoorCentralCommand: BlastDoor
+BSOManual: null
+AmbuzolMedipen: null
+CandyBowlFilledLollypopsMystery: null
+LockableButtonCentcomm: LockableButtonCommand
+FoodSnackLollypopWrappedCentComm: null
+CburnSpear: null
+WeaponShotgunBulldogLegallyDistinct: 
+CrateEngineeringFoamGrenade: null
+MetalFoamGrenade: null
+PosterLegitGoobNTRAdvert: null
+SignDirectionalAtmos: null
+BlueShieldShieldEvil: BlueShieldShield
+SarinGasGrenade: null # the fuck...
+FoodSnackLollypopWrappedMystery: null
+ExecutiveIDCard: null
+ClothingHeadsetDeathsquad: null
+ClothingEyesGlassesDeathsquad: null
+FloraTree: null
+ClothingBeltDeathsquadWebbingFilled: null
+GunSafeBaseSecure: null
+BoxFolderNuclearCodes: null
+AmbuzolPlusMedipen: null

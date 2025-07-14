@@ -5,7 +5,7 @@
   id: SpawnDeathsquad
   components:
   - type: StationEvent
-    startAnnouncement: station-event-deathsquad-enroute
+    startAnnouncement: true
     startAudio:
       path: /Audio/Announcements/attention.ogg
     weight: 10
@@ -13,7 +13,7 @@
     duration: null
     maxOccurrences: 1
   - type: LoadMapRule
-    preloadedGrid: ConsulShuttle
+    preloadedGrid: ShuttleStriker
 
 # CBURN
 
@@ -22,7 +22,7 @@
   id: SpawnCBURN
   components:
   - type: StationEvent
-    startAnnouncement: station-event-cburn-enroute
+    startAnnouncement: true
     startAudio:
       path: /Audio/Announcements/attention.ogg
     weight: 10
@@ -30,7 +30,7 @@
     duration: null
     maxOccurrences: 1
   - type: LoadMapRule
-    preloadedGrid: RetortShuttleCBURN
+    preloadedGrid: ShuttleStriker
 
 # ERT
 
@@ -39,7 +39,7 @@
   id: SpawnERTSecurity
   components:
   - type: StationEvent
-    startAnnouncement: station-event-emergencyresponseteam-enroute
+    startAnnouncement: true
     startAudio:
       path: /Audio/Announcements/attention.ogg
     weight: 10
@@ -47,28 +47,28 @@
     duration: null
     maxOccurrences: 1
   - type: LoadMapRule
-    preloadedGrid: RetortShuttleAssault
+    preloadedGrid: ShuttleStriker
 
 - type: entity
   parent: SpawnERTSecurity
   id: SpawnERTMedical
   components:
   - type: LoadMapRule
-    preloadedGrid: RetortShuttleMedical
+    preloadedGrid: ShuttleStriker
 
 - type: entity
   parent: SpawnERTSecurity
   id: SpawnERTEngineering
   components:
   - type: LoadMapRule
-    preloadedGrid: RetortShuttleEngineering
+    preloadedGrid: ShuttleStriker
 
 - type: entity
   parent: SpawnERTSecurity
   id: SpawnERTJanitorial
   components:
   - type: LoadMapRule
-    preloadedGrid: RetortShuttleJanitorial
+    preloadedGrid: ShuttleStriker
 
 
 
