@@ -7812,3 +7812,12 @@ Entries:
   id: 740
   time: '2025-07-14T14:17:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1075
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Kinetic weapons can now fit on belt, back and suit slots.
+    - type: Fix
+      message: Kinetic weapons & PKAs now have the salvage contraband text.
+  id: 741
+  time: '2025-07-14T14:19:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1073
