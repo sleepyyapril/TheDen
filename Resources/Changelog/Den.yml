@@ -7749,3 +7749,16 @@ Entries:
   id: 735
   time: '2025-07-13T23:11:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1065
+- author: Adrian16199
+  changes:
+    - type: Add
+      message: >-
+        Added (security officer, warden, corpsman, HoS) armored longcoat to
+        loadouts
+    - type: Fix
+      message: >-
+        (Security officer, warden, corpsman, HoS) armored longcoat now can store
+        guns/oxygen tanks
+  id: 736
+  time: '2025-07-14T03:46:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1042
