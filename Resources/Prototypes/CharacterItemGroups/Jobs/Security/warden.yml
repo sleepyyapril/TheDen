@@ -1,8 +1,10 @@
 # SPDX-FileCopyrightText: 2024 VMSolidus
+# SPDX-FileCopyrightText: 2025 Adrian16199
 # SPDX-FileCopyrightText: 2025 Blitz
 # SPDX-FileCopyrightText: 2025 Lonofera
 # SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 Rosycup
+# SPDX-FileCopyrightText: 2025 Vanessa
 # SPDX-FileCopyrightText: 2025 Vanessa Louwagie
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
@@ -85,6 +87,8 @@
       id: LoadoutClothingOuterWinterCoatWarden
     - type: loadout
       id: LoadoutClothingOuterCoatWarden
+    - type: loadout
+      id: LoadoutClothingOuterLongCoatWarden
 
 #- type: characterItemGroup
 #  id: LoadoutWardenShoes
