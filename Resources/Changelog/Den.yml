@@ -7783,3 +7783,14 @@ Entries:
   id: 737
   time: '2025-07-14T04:10:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1053
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: Added a small vial of plasma to chemistry lockers!
+    - type: Tweak
+      message: Added hand labelers to ChemDrobe.
+    - type: Tweak
+      message: Vials can now be put in medical belts.
+  id: 738
+  time: '2025-07-14T12:42:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1071
