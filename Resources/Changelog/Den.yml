@@ -7901,3 +7901,17 @@ Entries:
   id: 750
   time: '2025-07-15T13:00:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1080
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Tape recorders and cassettes can now be crafted in autolathes and
+        service techfabs for recording crew speech. Tape recorders respect
+        languages, but the print-out is translated.
+    - type: Add
+      message: Reporters and detectives start with a tape recorder and cassettes.
+    - type: Add
+      message: Added tape recorders to loadout.
+  id: 751
+  time: '2025-07-15T13:01:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1081
