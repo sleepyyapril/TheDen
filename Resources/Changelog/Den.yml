@@ -7854,3 +7854,12 @@ Entries:
   id: 745
   time: '2025-07-15T02:46:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1070
+- author: WhiteHusky
+  changes:
+    - type: Fix
+      message: >-
+        Electrolyzer machine board now appears as the correct name in lathes
+        instead of just "machine board."
+  id: 746
+  time: '2025-07-15T08:44:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1078
