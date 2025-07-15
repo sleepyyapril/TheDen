@@ -23,7 +23,9 @@ using Content.Shared.StatusIcon;
 using Content.Shared.StatusIcon.Components;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
+using Robust.Client.Player;
 using Robust.Shared.Enums;
+using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using static Robust.Shared.Maths.Color;
 
@@ -41,6 +43,7 @@ public sealed class EntityHealthBarOverlay : Overlay
     private readonly MobStateSystem _mobStateSystem;
     private readonly MobThresholdSystem _mobThresholdSystem;
     private readonly StatusIconSystem _statusIconSystem;
+    private readonly IPlayerManager _player;
     private readonly ProgressColorSystem _progressColor;
 
 
@@ -56,6 +59,7 @@ public sealed class EntityHealthBarOverlay : Overlay
         _mobStateSystem = _entManager.System<MobStateSystem>();
         _mobThresholdSystem = _entManager.System<MobThresholdSystem>();
         _statusIconSystem = _entManager.System<StatusIconSystem>();
+        _player = IoCManager.Resolve<IPlayerManager>();
         _progressColor = _entManager.System<ProgressColorSystem>();
     }
 
@@ -77,7 +81,11 @@ public sealed class EntityHealthBarOverlay : Overlay
             out var damageableComponent,
             out var spriteComponent))
         {
-            if (statusIcon != null && !_statusIconSystem.IsVisible((uid, _entManager.GetComponent<MetaDataComponent>(uid)), statusIcon))
+            if (statusIcon != null
+                && !_statusIconSystem.IsVisible((uid, _entManager.GetComponent<MetaDataComponent>(uid)), statusIcon))
+                continue;
+
+            if (uid == _player.LocalEntity)
                 continue;
 
             // We want the stealth user to still be able to see his health bar himself
