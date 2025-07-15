@@ -32,7 +32,7 @@
   exclusive: true
   customColorTint: true
   items:
-    - SalvageSpecialistMessenger
+    - ClothingBackpackMessengerSalvage
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutSalvageSpecialistBackpacks
