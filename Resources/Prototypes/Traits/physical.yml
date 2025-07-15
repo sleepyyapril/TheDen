@@ -754,6 +754,10 @@
       inverted: true
       species:
         - IPC
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - HealingFactor
   functions: # TODO: Code Platelet factories as an actual obtainable implant, and replace this with TraitAddImplant
     - !type:TraitReplaceComponent
       components:
