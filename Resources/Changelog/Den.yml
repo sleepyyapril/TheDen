@@ -7894,3 +7894,10 @@ Entries:
   id: 749
   time: '2025-07-15T12:28:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1083
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added new messenger bags, go check the nearest vendor.
+  id: 750
+  time: '2025-07-15T13:00:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1080
