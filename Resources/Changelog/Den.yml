@@ -7915,3 +7915,10 @@ Entries:
   id: 751
   time: '2025-07-15T13:01:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1081
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Certain traits no longer take up a slot.
+  id: 752
+  time: '2025-07-15T23:47:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1088
