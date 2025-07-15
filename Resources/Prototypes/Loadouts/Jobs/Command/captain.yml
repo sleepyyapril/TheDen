@@ -56,6 +56,20 @@
         - Captain
 
 - type: loadout
+  id: LoadoutClothingBackpackMessengerCaptain
+  category: JobsCommandCaptain
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackMessengerCaptain
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - Captain
+
+- type: loadout
   id: LoadoutBackpackCaptainFilled
   category: JobsCommandCaptain
   cost: 0
@@ -96,6 +110,7 @@
     - !type:CharacterJobRequirement
       jobs:
         - Captain
+
 
 # Belt
 - type: loadout

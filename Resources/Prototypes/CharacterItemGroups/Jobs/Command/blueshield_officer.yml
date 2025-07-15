@@ -21,6 +21,8 @@
       id: LoadoutClothingDuffelBlueshield
     - type: loadout
       id: LoadoutClothingModsuitBlueshield
+    - type: loadout
+      id: LoadoutClothingBackpackMessengerBlueshield
 
 #- type: characterItemGroup
 #  id: LoadoutJOBBelt

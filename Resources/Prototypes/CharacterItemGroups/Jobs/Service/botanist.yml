@@ -16,6 +16,9 @@
       id: LoadoutServiceBotanistDuffelHydroponics
     - type: loadout
       id: LoadoutServiceBotanistSatchelHydroponics
+    - type: loadout
+      id: LoadoutServiceBotanistMessengerHydroponics
+
 #- type: characterItemGroup
 #  id: LoadoutBotanistBelt
 #  maxItems: 1

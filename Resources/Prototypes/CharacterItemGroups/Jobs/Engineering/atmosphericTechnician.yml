@@ -17,6 +17,8 @@
       id: LoadingEngineeringAtmosBackpackSatchel
     - type: loadout
       id: LoadingEngineeringAtmosBackpackDuffel
+    - type: loadout
+      id: LoadingEngineeringAtmosBackpackMessenger
 
 - type: characterItemGroup
   id: LoadoutAtmosphericTechnicianBelt

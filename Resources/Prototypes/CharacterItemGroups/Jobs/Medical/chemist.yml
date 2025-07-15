@@ -16,6 +16,8 @@
       id: LoadoutBackpackSatchelChemistry
     - type: loadout
       id: LoadoutBackpackDuffelChemistry
+    - type: loadout
+      id: LoadoutBackpackMessengerChemistry
 
 - type: characterItemGroup
   id: LoadoutChemistBelt
