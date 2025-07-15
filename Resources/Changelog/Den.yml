@@ -7863,3 +7863,12 @@ Entries:
   id: 746
   time: '2025-07-15T08:44:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1078
+- author: Quanteey
+  changes:
+    - type: Fix
+      message: >-
+        Mindshield implants no longer state that they "ensure loyalty" in the
+        description.
+  id: 747
+  time: '2025-07-15T11:51:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1082
