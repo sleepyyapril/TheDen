@@ -7847,3 +7847,10 @@ Entries:
   id: 744
   time: '2025-07-15T02:45:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1076
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Healing Factor! 6pt biological trait that provides limited regen.
+  id: 745
+  time: '2025-07-15T02:46:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1070
