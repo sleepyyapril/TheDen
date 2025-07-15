@@ -7837,3 +7837,13 @@ Entries:
   id: 743
   time: '2025-07-15T02:39:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1072
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Added a syringe dispenser. It holds 30 disposable syringes sealed in
+        sterile packaging. Can be found in the medical techfab and Nanomed Plus
+        vending machine.
+  id: 744
+  time: '2025-07-15T02:45:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1076
