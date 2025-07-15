@@ -7,6 +7,8 @@
 using System.Linq;
 using Content.Server.Instruments;
 using Content.Server.Xenoarchaeology.XenoArtifacts.Triggers.Components;
+using Content.Shared.Instruments;
+
 
 namespace Content.Server.Xenoarchaeology.XenoArtifacts.Triggers.Systems;
 
