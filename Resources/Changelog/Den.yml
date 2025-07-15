@@ -7828,3 +7828,12 @@ Entries:
   id: 742
   time: '2025-07-15T02:38:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1074
+- author: Jakumba
+  changes:
+    - type: Remove
+      message: Most traits will not apply to cyborg/AI
+    - type: Fix
+      message: Borgs can pull things again
+  id: 743
+  time: '2025-07-15T02:39:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1072
