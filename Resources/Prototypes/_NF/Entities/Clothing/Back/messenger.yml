@@ -33,7 +33,7 @@
 # DEPARTMENTAL
 # Command
 - type: entity
-  parent: [ BaseCommandContraband , ClothingBackpackMessengerBase ]
+  parent: ClothingBackpackMessengerBase
   id: ClothingBackpackMessengerCaptain
   name: captain's messenger bag
   description: A robust bag made exclusively for Nanotrasen officers.
@@ -69,7 +69,7 @@
         color: "#f6d56a"
 
 - type: entity
-  parent: [ BaseCentcommContraband , ClothingBackpackMessengerBase ]
+  parent: ClothingBackpackMessengerBase
   id: ClothingBackpackMessengerCentcomm
   name: centcomm messenger bag
   description: A robust bag made for Nanotrasen high-ranking officials.
@@ -105,7 +105,7 @@
         color: "#eca615"
 
 - type: entity
-  parent: [ BaseCentcommContraband , ClothingBackpackMessengerBase ]
+  parent: ClothingBackpackMessengerBase
   id: ClothingBackpackMessengerBlueshield
   name: blueshield officer messenger bag
   description: A robust bag made of protective materials. Smells like emergy gun.
@@ -391,7 +391,7 @@
 
 # Security
 - type: entity
-  parent: [ BaseSecurityContraband , ClothingBackpackMessengerBase ]
+  parent: ClothingBackpackMessengerBase
   id: ClothingBackpackMessengerSecurity
   name: security messenger bag
   description: A robust bag for storing extra arrest equipment.
@@ -468,7 +468,7 @@
 
 # ANTAGONISTS
 - type: entity
-  parent: [ BaseSyndicateContraband , ClothingBackpackMessengerBase ]
+  parent: ClothingBackpackMessengerBase
   id: ClothingBackpackMessengerSyndicate
   name: syndicate messenger bag
   description: A robust bag for storing extra cartridges and explosives.
