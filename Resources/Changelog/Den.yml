@@ -7951,3 +7951,10 @@ Entries:
   id: 755
   time: '2025-07-16T14:56:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1092
+- author: Zilanthros
+  changes:
+    - type: Tweak
+      message: (HIVE) Update air vents to have no spawns in bedrooms
+  id: 756
+  time: '2025-07-16T16:30:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1041
