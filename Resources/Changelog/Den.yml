@@ -7922,3 +7922,16 @@ Entries:
   id: 752
   time: '2025-07-15T23:47:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1088
+- author: MajorMoth
+  changes:
+    - type: Fix
+      message: >-
+        No more "are you 18" popup on debug and tools builds. Contributors and
+        mappers rejoice!
+    - type: Fix
+      message: >-
+        The amount of traits, trait points and loadout points on release and
+        debug/tool builds is the same now. 
+  id: 753
+  time: '2025-07-16T07:00:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1089
