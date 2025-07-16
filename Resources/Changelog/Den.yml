@@ -7944,3 +7944,10 @@ Entries:
   id: 754
   time: '2025-07-16T11:14:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1091
+- author: Jakumba
+  changes:
+    - type: Add
+      message: More companies as employer backgrounds
+  id: 755
+  time: '2025-07-16T14:56:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1092
