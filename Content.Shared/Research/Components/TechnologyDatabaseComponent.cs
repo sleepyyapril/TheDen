@@ -69,10 +69,14 @@ public sealed partial class TechnologyDatabaseComponent : Component
 [ByRefEvent]
 public readonly record struct TechnologyDatabaseModifiedEvent // Goobstation - Lathe message on recipes update
 {
+    public readonly ProtoId<TechnologyPrototype> Technology;
     public readonly List<ProtoId<LatheRecipePrototype>> UnlockedRecipes;
 
-    public TechnologyDatabaseModifiedEvent(List<ProtoId<LatheRecipePrototype>>? unlockedRecipes = null)
+    public TechnologyDatabaseModifiedEvent(
+        ProtoId<TechnologyPrototype> technology,
+        List<ProtoId<LatheRecipePrototype>>? unlockedRecipes = null)
     {
+        Technology = technology;
         UnlockedRecipes = unlockedRecipes ?? new();
     }
 };
