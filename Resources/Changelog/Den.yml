@@ -7958,3 +7958,10 @@ Entries:
   id: 756
   time: '2025-07-16T16:30:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1041
+- author: pofitlo-Git
+  changes:
+    - type: Add
+      message: Added a syndicate business card to the uplink.
+  id: 757
+  time: '2025-07-17T01:30:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1099
