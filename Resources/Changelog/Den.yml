@@ -8021,3 +8021,12 @@ Entries:
   id: 765
   time: '2025-07-17T21:20:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1094
+- author: SleepyScarecrow
+  changes:
+    - type: Add
+      message: 'The Singulo drink now has a recipe, using Vodka, Wine, and Anti-Noblium '
+    - type: Fix
+      message: Fixed guidebook entries
+  id: 766
+  time: '2025-07-17T21:21:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1093
