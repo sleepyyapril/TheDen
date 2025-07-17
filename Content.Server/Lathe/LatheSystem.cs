@@ -22,6 +22,7 @@
 // SPDX-FileCopyrightText: 2024 Ilya246
 // SPDX-FileCopyrightText: 2024 Nemanja
 // SPDX-FileCopyrightText: 2024 metalgearsloth
+// SPDX-FileCopyrightText: 2025 Blitz
 // SPDX-FileCopyrightText: 2025 EctoplasmIsGood
 // SPDX-FileCopyrightText: 2025 Leon Friedrich
 // SPDX-FileCopyrightText: 2025 Tayrtahn

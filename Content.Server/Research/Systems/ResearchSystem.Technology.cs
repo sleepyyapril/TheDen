@@ -2,6 +2,7 @@
 // SPDX-FileCopyrightText: 2022 metalgearsloth
 // SPDX-FileCopyrightText: 2023 Nemanja
 // SPDX-FileCopyrightText: 2024 Tayrtahn
+// SPDX-FileCopyrightText: 2025 Blitz
 // SPDX-FileCopyrightText: 2025 BlitzTheSquishy
 // SPDX-FileCopyrightText: 2025 EctoplasmIsGood
 // SPDX-FileCopyrightText: 2025 VMSolidus

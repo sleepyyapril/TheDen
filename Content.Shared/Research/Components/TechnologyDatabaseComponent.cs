@@ -1,6 +1,7 @@
 // SPDX-FileCopyrightText: 2023 Debug
 // SPDX-FileCopyrightText: 2023 DrSmugleaf
 // SPDX-FileCopyrightText: 2023 Nemanja
+// SPDX-FileCopyrightText: 2025 Blitz
 // SPDX-FileCopyrightText: 2025 BlitzTheSquishy
 // SPDX-FileCopyrightText: 2025 EctoplasmIsGood
 // SPDX-FileCopyrightText: 2025 VMSolidus
