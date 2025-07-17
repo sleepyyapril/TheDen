@@ -7972,3 +7972,10 @@ Entries:
   id: 758
   time: '2025-07-17T01:40:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1095
+- author: Camdot
+  changes:
+    - type: Fix
+      message: 'Emotes pitch do pitching '
+  id: 759
+  time: '2025-07-17T04:33:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1098
