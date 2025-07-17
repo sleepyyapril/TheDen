@@ -7986,3 +7986,10 @@ Entries:
   id: 760
   time: '2025-07-17T07:24:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1100
+- author: Jakumba
+  changes:
+    - type: Remove
+      message: Species restriction from Nationality
+  id: 761
+  time: '2025-07-17T14:53:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1105
