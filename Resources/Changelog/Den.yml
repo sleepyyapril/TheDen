@@ -8000,3 +8000,10 @@ Entries:
   id: 762
   time: '2025-07-17T20:05:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1108
+- author: Wheels
+  changes:
+    - type: Fix
+      message: Consent menu descriptions should no longer overflow
+  id: 763
+  time: '2025-07-17T20:07:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1109
