@@ -10,17 +10,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 ## Static
 - type: latheRecipePack
-  id: SecurityBoardsStaticGoob
-  recipes:
-  - ContrabandDetectorCircuitboard
-
-## Dynamic
-- type: latheRecipePack
-  id: MedicalBoardsStaticGoob
-  recipes:
-  - OperatingTableCircuitboard
-
-- type: latheRecipePack
   id: MedicalBoardsGoob
   recipes:
   - AutodocCircuitboard
