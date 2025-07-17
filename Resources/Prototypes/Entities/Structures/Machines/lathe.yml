@@ -432,10 +432,10 @@
     idleState: icon
     runningState: building
     staticPacks:
-    - AutolatheAwfulDen
+    - AutolatheStaticAwfulDen
   - type: EmagLatheRecipes
     emagStaticPacks:
-    - AutolatheEmagAwful
+    - AutolatheEmagStaticAwfulDen
 
 - type: entity
   id: AutolatheHyperConvection
@@ -860,7 +860,7 @@
     runningState: icon
     staticPacks:
     - ServiceTechFabStaticAwfulDen
-    dynamicRecipes:
+    dynamicPacks:
     - ServiceTechFabDynamicAwfulDen
   - type: MaterialStorage
     whitelist:

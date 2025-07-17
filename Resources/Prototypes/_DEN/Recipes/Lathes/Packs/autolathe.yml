@@ -112,7 +112,7 @@
   - CassetteTape # Den
 
 - type: latheRecipePack
-  id: AutolatheEmagAwfulDen
+  id: AutolatheEmagStaticAwfulDen
   recipes:
   - BoxLethalshot
   - BoxShotgunFlare
