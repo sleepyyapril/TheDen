@@ -307,7 +307,8 @@ public abstract class SharedResearchSystem : EntitySystem
         component.UnlockedRecipes.Add(recipe);
         Dirty(uid, component);
 
-        var ev = new TechnologyDatabaseModifiedEvent(new List<string> { recipe });
+        var recipes = new List<ProtoId<LatheRecipePrototype>> { recipe };
+        var ev = new TechnologyDatabaseModifiedEvent(null, recipes);
         RaiseLocalEvent(uid, ref ev);
     }
 }

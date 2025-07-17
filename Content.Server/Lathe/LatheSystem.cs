@@ -406,30 +406,57 @@ namespace Content.Server.Lathe
             if (!TryGetAvailableRecipes(ent.Owner, out var potentialRecipes))
                 return;
 
-            var recipes = 0;
-            var technology = _proto.Index(args.Technology);
-            var technologyName = Loc.GetString(technology.Name);
+            var recipeNames = new List<string>();
+            var technologyName = GetTechnologyName(args);
 
-            foreach (var recipeId in args.UnlockedRecipes)
+            foreach (var recipeId in args.UnlockedRecipes.Where(recipeId => potentialRecipes.Contains(new(recipeId))))
             {
-                if (!potentialRecipes.Contains(new(recipeId)))
+                if (!_proto.TryIndex(recipeId, out var recipe))
                     continue;
 
-                if (!_proto.TryIndex(recipeId, out _))
-                    continue;
-
-                recipes++;
+                var itemName = GetRecipeName(recipe);
+                recipeNames.Add(itemName);
             }
 
-            if (recipes == 0)
+            if (recipeNames.Count == 0)
                 return;
 
-            var message = Loc.GetString("lathe-technology-recipes-update-message",
-                ("technology", technologyName),
-                ("count", recipes));
+            var message = GetUpdateMessage(recipeNames, technologyName);
 
             foreach (var channel in ent.Comp.Channels)
                 _radio.SendRadioMessage(ent.Owner, message, channel, ent.Owner, escapeMarkup: false);
+        }
+
+        private string? GetTechnologyName(TechnologyDatabaseModifiedEvent args)
+        {
+            if (args.Technology == null)
+                return null;
+
+            var technology = _proto.Index<TechnologyPrototype>(args.Technology);
+            var technologyName = Loc.GetString(technology.Name);
+            return technologyName;
+        }
+
+        private string GetUpdateMessage(List<string> recipes, string? technologyName)
+        {
+            if (technologyName != null)
+            {
+                return Loc.GetString("lathe-technology-recipes-update-message",
+                    ("technology", technologyName),
+                    ("count", recipes.Count));
+            }
+
+            // This will never happen. I think.
+            // Best to be safe.
+            if (recipes.Count != 1)
+            {
+                return Loc.GetString("lathe-technology-recipes-update-message-multiple",
+                    ("count", recipes.Count));
+            }
+
+            return Loc.GetString(
+                "lathe-technology-recipes-update-message-single",
+                ("item", recipes.First()));
         }
 
         private void OnResearchRegistrationChanged(EntityUid uid, LatheComponent component, ref ResearchRegistrationChangedEvent args)
