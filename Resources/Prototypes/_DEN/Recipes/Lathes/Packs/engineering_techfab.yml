@@ -1,0 +1,58 @@
+- type: latheRecipePack
+  id: EngineeringTechFabDynamicAwfulDen
+  recipes:
+  # Machines and computers
+  - TurboItemRechargerCircuitboard
+  - SheetifierMachineCircuitboard
+  - PortableGeneratorPacmanMachineCircuitboard
+  - PortableGeneratorSuperPacmanMachineCircuitboard
+  - RoboticArmCircuitboard
+  - ConstructorCircuitboard
+  - StorageBinCircuitboard
+  - InteractorCircuitboard
+  - LatheUpgradeKitHyper
+  - LatheUpgradeKitCryo
+  - UpgradeKitAutomation
+  - PortableGeneratorJrPacmanMachineCircuitboard
+  # - AutolatheHyperConvectionMachineCircuitboard
+  - SolarControlComputerCircuitboard
+  - SolarTrackerElectronics # Actual solar panels are not manufacturable
+  - EmitterCircuitboard
+  # Atmos machines
+  - ThermomachineFreezerMachineCircuitBoard
+  - HellfireFreezerMachineCircuitBoard
+  - PortableScrubberMachineCircuitBoard
+  # Tools
+  - PowerCellHigh
+  - PowerCellMicroreactor
+  - SignallerAdvanced
+  - HolofanProjector
+  - HoloprojectorField
+  - WelderExperimental
+  - PowerDrill # Can make two of the three advanced tools - jaws of life are too OP to give them away
+  - WeaponParticleDecelerator
+  - ClothingMaskWeldingGas
+  - ClothingShoesBootsMagSci
+  - ClothingNeckMantleMag
+  - HandHeldAtmosMonitor
+  - HandHeldPowerMonitor
+
+  # Routers and monitors
+  - PowerComputerCircuitboard
+  - AlertsComputerCircuitboard
+  - SurveillanceCameraRouterCircuitboard
+  - SurveillanceCameraMonitorCircuitboard
+  - SurveillanceWirelessCameraMonitorCircuitboard
+  - SurveillanceCameraWirelessRouterCircuitboard
+  - TelecomServerCircuitboard
+  # Shuttle building
+  - ShuttleConsoleCircuitboard
+  - RadarConsoleCircuitboard
+  - ThrusterMachineCircuitboard
+  - GyroscopeMachineCircuitboard
+  - MiniGravityGeneratorCircuitboard
+  - ShuttleGunKineticCircuitboard
+  # MechanicalCompression
+  - RCDAmmo
+  - RCD
+  - RPD
