@@ -8014,3 +8014,10 @@ Entries:
   id: 764
   time: '2025-07-17T20:44:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1110
+- author: PJB3005
+  changes:
+    - type: Fix
+      message: Unpowered doors can be pried closed again.
+  id: 765
+  time: '2025-07-17T21:20:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1094
