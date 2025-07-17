@@ -189,14 +189,10 @@ namespace Content.Server.Lathe
 
         public List<ProtoId<LatheRecipePrototype>> GetAvailableRecipes(EntityUid uid, LatheComponent component, bool getUnavailable = false)
         {
-            _availableRecipes.Clear();
-            AddRecipesFromPacks(_availableRecipes, component.StaticPacks);
-            var ev = new LatheGetRecipesEvent(uid, getUnavailable)
-            {
-                Recipes = _availableRecipes
-            };
+            var ev = new LatheGetRecipesEvent((uid, component), getUnavailable);
+            AddRecipesFromPacks(ev.Recipes, component.StaticPacks);
             RaiseLocalEvent(uid, ev);
-            return ev.Recipes;
+            return ev.Recipes.ToList();
         }
 
         public bool TryAddToQueue(EntityUid uid, LatheRecipePrototype recipe, LatheComponent? component = null)
@@ -317,7 +313,7 @@ namespace Content.Server.Lathe
                 var pack = _proto.Index(id);
                 foreach (var recipe in pack.Recipes)
                 {
-                    if (args.getUnavailable || database.UnlockedRecipes.Contains(recipe))
+                    if (args.GetUnavailable || database.UnlockedRecipes.Contains(recipe))
                         args.Recipes.Add(recipe);
                 }
             }
@@ -336,7 +332,7 @@ namespace Content.Server.Lathe
             if (uid != args.Lathe)
                 return;
 
-            if (!args.getUnavailable && !HasComp<EmaggedComponent>(uid))
+            if (!args.GetUnavailable && !HasComp<EmaggedComponent>(uid))
                 return;
 
             AddRecipesFromPacks(args.Recipes, component.EmagStaticPacks);

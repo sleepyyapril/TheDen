@@ -89,15 +89,16 @@ namespace Content.Shared.Lathe
     public sealed class LatheGetRecipesEvent : EntityEventArgs
     {
         public readonly EntityUid Lathe;
+        public readonly LatheComponent Comp;
 
-        public bool getUnavailable;
+        public bool GetUnavailable;
 
-        public List<ProtoId<LatheRecipePrototype>> Recipes = new();
+        public HashSet<ProtoId<LatheRecipePrototype>> Recipes = new();
 
-        public LatheGetRecipesEvent(EntityUid lathe, bool forced)
+        public LatheGetRecipesEvent(Entity<LatheComponent> lathe, bool forced)
         {
-            Lathe = lathe;
-            getUnavailable = forced;
+            (Lathe, Comp) = lathe;
+            GetUnavailable = forced;
         }
     }
 
