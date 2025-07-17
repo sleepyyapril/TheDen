@@ -57274,8 +57274,6 @@ entities:
       pos: -0.5,25.5
       parent: 19793
     - type: DisposalUnit
-      recentlyEjected:
-      - invalid
       automaticEngage: False
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -88630,8 +88628,6 @@ entities:
       pos: 30.5,15.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 18084
     - type: AtmosPipeColor
@@ -88785,8 +88781,6 @@ entities:
       pos: 24.5,65.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 18018
     - type: AtmosPipeColor
@@ -88798,8 +88792,6 @@ entities:
       pos: 24.5,69.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 18018
     - type: AtmosPipeColor
@@ -88811,8 +88803,6 @@ entities:
       pos: 24.5,73.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 18018
     - type: AtmosPipeColor
