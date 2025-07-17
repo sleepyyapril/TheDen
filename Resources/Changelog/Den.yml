@@ -8007,3 +8007,10 @@ Entries:
   id: 763
   time: '2025-07-17T20:07:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1109
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Now using WizDen's battery code
+  id: 764
+  time: '2025-07-17T20:44:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1110
