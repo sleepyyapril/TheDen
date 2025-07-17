@@ -3,4 +3,4 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-lathe-technology-recipes-update-message = [bold]{$technology}[/bold] has been researched, which includes [bold]{$count}[/bold] new recipes.
+lathe-technology-recipes-update-message = [bold]{$technology}[/bold] has been researched, which includes [bold]{$count}[/bold] new recipes for this lathe.

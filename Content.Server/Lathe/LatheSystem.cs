@@ -406,7 +406,7 @@ namespace Content.Server.Lathe
             if (!TryGetAvailableRecipes(ent.Owner, out var potentialRecipes))
                 return;
 
-            var recipeNames = new List<string>();
+            var recipes = 0;
             var technology = _proto.Index(args.Technology);
             var technologyName = Loc.GetString(technology.Name);
 
@@ -415,57 +415,21 @@ namespace Content.Server.Lathe
                 if (!potentialRecipes.Contains(new(recipeId)))
                     continue;
 
-                if (!_proto.TryIndex(recipeId, out var recipe))
+                if (!_proto.TryIndex(recipeId, out _))
                     continue;
 
-                var itemName = GetRecipeName(recipe);
-                recipeNames.Add(itemName);
+                recipes++;
             }
 
-            if (recipeNames.Count == 0)
+            if (recipes == 0)
                 return;
 
             var message = Loc.GetString("lathe-technology-recipes-update-message",
                 ("technology", technologyName),
-                ("count", recipeNames.Count));
+                ("count", recipes));
 
             foreach (var channel in ent.Comp.Channels)
                 _radio.SendRadioMessage(ent.Owner, message, channel, ent.Owner, escapeMarkup: false);
-        }
-
-        private void OnTechnologyDatabaseModified(Entity<LatheAnnouncingComponent> ent, ref TechnologyDatabaseModifiedEvent args)
-        {
-            if (args.NewlyUnlockedRecipes is null)
-                return;
-
-            if (!TryGetAvailableRecipes(ent.Owner, out var potentialRecipes))
-                return;
-
-            var recipeNames = new List<string>();
-            foreach (var recipeId in args.NewlyUnlockedRecipes)
-            {
-                if (!potentialRecipes.Contains(new(recipeId)))
-                    continue;
-
-                if (!_proto.TryIndex(recipeId, out LatheRecipePrototype? recipe))
-                    continue;
-
-                var itemName = GetRecipeName(recipe!);
-                recipeNames.Add(Loc.GetString("lathe-unlock-recipe-radio-broadcast-item", ("item", itemName)));
-            }
-
-            if (recipeNames.Count == 0)
-                return;
-
-            var message = Loc.GetString(
-                "lathe-unlock-recipe-radio-broadcast",
-                ("items", ContentLocalizationManager.FormatList(recipeNames))
-            );
-
-            foreach (var channel in ent.Comp.Channels)
-            {
-                _radio.SendRadioMessage(ent.Owner, message, channel, ent.Owner, escapeMarkup: false);
-            }
         }
 
         private void OnResearchRegistrationChanged(EntityUid uid, LatheComponent component, ref ResearchRegistrationChangedEvent args)
