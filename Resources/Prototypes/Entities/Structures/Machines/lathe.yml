@@ -1253,6 +1253,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
     board: SecurityTechFabCircuitboard
+  - type: LatheAnnouncing
+    channels: [Security]
   - type: Lathe
     idleState: icon
     runningState: icon
@@ -1646,6 +1648,8 @@
       map: ["enum.MaterialStorageVisualLayers.Inserting"]
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: LatheAnnouncing
+    channels: [Medical]
   - type: Lathe
     idleState: icon
     runningState: icon
@@ -1755,6 +1759,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
     board: EngineeringTechFabCircuitboard
+  - type: LatheAnnouncing
+    channels: [Engineering]
   - type: Lathe
     idleState: icon
     runningState: icon
@@ -1844,6 +1850,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
     board: CargoTechFabCircuitboard
+  - type: LatheAnnouncing
+    channels: [Supply]
   - type: Lathe
     idleState: icon
     runningState: icon
@@ -1899,6 +1907,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
     board: ServiceTechFabCircuitboard
+  - type: LatheAnnouncing
+    channels: [Service]
   - type: Lathe
     idleState: icon
     runningState: icon
