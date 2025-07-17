@@ -7979,3 +7979,10 @@ Entries:
   id: 759
   time: '2025-07-17T04:33:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1098
+- author: Hederadaii
+  changes:
+    - type: Add
+      message: Added lilacs. Pretty! (Not yet grow-able).
+  id: 760
+  time: '2025-07-17T07:24:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1100
