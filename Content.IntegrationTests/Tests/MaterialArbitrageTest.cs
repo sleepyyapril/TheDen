@@ -1,14 +1,4 @@
-// SPDX-FileCopyrightText: 2023 TemporalOroboros
-// SPDX-FileCopyrightText: 2023 Visne
-// SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
-// SPDX-FileCopyrightText: 2024 Nemanja
-// SPDX-FileCopyrightText: 2024 Tayrtahn
-// SPDX-FileCopyrightText: 2025 Leon Friedrich
-// SPDX-FileCopyrightText: 2025 metalgearsloth
-// SPDX-FileCopyrightText: 2025 sleepyyapril
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
-
+#nullable enable
 using System.Collections.Generic;
 using Content.Server.Cargo.Systems;
 using Content.Server.Construction.Completions;
@@ -41,7 +31,7 @@ public sealed class MaterialArbitrageTest
     // These recipes are currently broken and need fixing. You should not be adding to these sets.
     private readonly HashSet<string> _destructionArbitrageIgnore =
     [
-        "BaseChemistryEmptyVial", "DrinkShotGlass", "Beaker", "SodiumLightTube", "DrinkGlassCoupeShaped",
+        "BaseChemistryEmptyVial", "DrinkShotGlass", "SodiumLightTube", "DrinkGlassCoupeShaped",
         "LedLightBulb", "ExteriorLightTube", "LightTube", "DrinkGlass", "DimLightBulb", "LightBulb", "LedLightTube",
         "SheetRGlass1", "ChemistryEmptyBottle01", "WarmLightBulb",
     ];
@@ -73,11 +63,11 @@ public sealed class MaterialArbitrageTest
 
         Assert.That(mapSystem.IsInitialized(testMap.MapId));
 
-        var constructionName = compFact.GetComponentName(typeof(ConstructionComponent));
-        var compositionName = compFact.GetComponentName(typeof(PhysicalCompositionComponent));
-        var materialName = compFact.GetComponentName(typeof(MaterialComponent));
-        var destructibleName = compFact.GetComponentName(typeof(DestructibleComponent));
-        var refinableName = compFact.GetComponentName(typeof(ToolRefinableComponent));
+        var constructionName = compFact.GetComponentName<ConstructionComponent>();
+        var compositionName = compFact.GetComponentName<PhysicalCompositionComponent>();
+        var materialName = compFact.GetComponentName<MaterialComponent>();
+        var destructibleName = compFact.GetComponentName<DestructibleComponent>();
+        var refinableName = compFact.GetComponentName<ToolRefinableComponent>();
 
         // get the inverted lathe recipe dictionary
         var latheRecipes = latheSys.InverseRecipes;
@@ -458,7 +448,7 @@ public sealed class MaterialArbitrageTest
             }
         });
 
-        await server.WaitPost(() => mapManager.DeleteMap(testMap.MapId));
+        await server.WaitPost(() => mapSystem.DeleteMap(testMap.MapId));
         await pair.CleanReturnAsync();
 
         async Task<double> GetSpawnedPrice(Dictionary<string, int> ents)
