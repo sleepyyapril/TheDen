@@ -27,7 +27,7 @@
         type: HFRConsoleBoundUserInterface
   - type: ApcPowerReceiver
     powerLoad: 350
-    powerDisabled: false
+    powerDisabled: true
   - type: ActivatableUIRequiresPower
   - type: ExtensionCableReceiver
   - type: Construction
