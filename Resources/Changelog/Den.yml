@@ -8041,3 +8041,10 @@ Entries:
   id: 767
   time: '2025-07-18T02:48:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1112
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: healing factor now actually, heals.
+  id: 768
+  time: '2025-07-18T02:49:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1104
