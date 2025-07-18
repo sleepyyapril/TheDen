@@ -8048,3 +8048,23 @@ Entries:
   id: 768
   time: '2025-07-18T02:49:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1104
+- author: MajorMoth
+  changes:
+    - type: Fix
+      message: 'Fixed the bug where things got inserted into slimes upon use by slimes. '
+    - type: Fix
+      message: >-
+        Things expanding inside pockets (past pocket capacity) now get forced
+        out.
+    - type: Fix
+      message: >-
+        Removed the electrolyzer and bluespace gas sender from staticRecipes. No
+        more roundstart exotech. Gotta have epi research it first, like
+        intended.
+    - type: Fix
+      message: >-
+        Fixed reinforced plasma windows getting treated as walls internally.
+        This will allow shutters to close on them again.
+  id: 769
+  time: '2025-07-18T02:49:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1103
