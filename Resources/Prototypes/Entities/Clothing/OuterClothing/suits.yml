@@ -130,7 +130,7 @@
   - type: Tag
     tags:
       - WhitelistChameleon
-    # HidesHarpyWings #Floof change, caused vulp tails to be hidden in hardsuits(with singer trait only)
+      # HidesHarpyWings #Floof change, caused vulp tails to be hidden in hardsuits(with singer trait only)
 
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
