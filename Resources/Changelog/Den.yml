@@ -8133,3 +8133,10 @@ Entries:
   id: 774
   time: '2025-07-18T20:24:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1128
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Experimental Welders damaging your eyes with flash protection!
+  id: 775
+  time: '2025-07-18T20:26:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1126
