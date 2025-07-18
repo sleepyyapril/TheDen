@@ -8075,3 +8075,34 @@ Entries:
   id: 770
   time: '2025-07-18T02:50:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1085
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Adds missing messenger bags to loadouts
+    - type: Add
+      message: >-
+        Boxer, Martial Artist, Zookeeper, Gladiator and Prison Guard are added
+        as loadout categories.
+    - type: Add
+      message: Adds a lot of starting role items into loadouts.
+    - type: Add
+      message: >-
+        Gives all loadouts (that Adrian didn't touch) long coats if one was
+        available. 
+    - type: Tweak
+      message: >-
+        Enables some items from specialist roles to be opened to the entire
+        department.
+    - type: Tweak
+      message: >-
+        Nukes the cost of all arm warmers/thongs/thigh highs/collars except the
+        valid ones (which remain at 1 cost)
+    - type: Tweak
+      message: >-
+        Changes a lot of loadout items, please recheck your loadouts for any
+        errors.
+    - type: Remove
+      message: Blitz's sanity.
+  id: 771
+  time: '2025-07-18T04:28:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/955
