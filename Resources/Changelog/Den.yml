@@ -8030,3 +8030,14 @@ Entries:
   id: 766
   time: '2025-07-17T21:21:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1093
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Maximum number of traitors per event from 2 to 6, requiring 60 people to
+        hit 6.
+    - type: Remove
+      message: Removed die a glorious death objective.
+  id: 767
+  time: '2025-07-18T02:48:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1112
