@@ -8154,3 +8154,14 @@ Entries:
   id: 777
   time: '2025-07-18T20:27:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1122
+- author: Wheels
+  changes:
+    - type: Fix
+      message: >-
+        Vulps with the singer trait enabled will now have their tail show
+        correctly when wearing hardsuits.
+    - type: Add
+      message: Harpy wings will now show when wearing hardsuits.
+  id: 778
+  time: '2025-07-18T20:55:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1130
