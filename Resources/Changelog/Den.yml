@@ -8165,3 +8165,21 @@ Entries:
   id: 778
   time: '2025-07-18T20:55:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1130
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        The loadout UI has been completely overhauled. Please report any fun new
+        bugs, because I cannot possibly test for every edge case here.
+    - type: Fix
+      message: >-
+        The character preview in the character editor screen has a clamped width
+        now. This will not affect most characters, but it will affect characters
+        with large sprites (e.g. Arachne).
+    - type: Tweak
+      message: The "Lewd" loadout category is now a subcategory of Items.
+    - type: Tweak
+      message: The character editor will now always hide the chat when opened.
+  id: 779
+  time: '2025-07-18T21:02:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1113
