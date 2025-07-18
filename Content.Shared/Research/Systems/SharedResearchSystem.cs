@@ -301,17 +301,13 @@ public abstract class SharedResearchSystem : EntitySystem
         if (!Resolve(uid, ref component))
             return;
 
-        if (string.IsNullOrWhiteSpace(recipe))
-            return;
-
         if (component.UnlockedRecipes.Contains(recipe))
             return;
 
         component.UnlockedRecipes.Add(recipe);
         Dirty(uid, component);
 
-        var recipes = new List<ProtoId<LatheRecipePrototype>> { recipe };
-        var ev = new TechnologyDatabaseModifiedEvent(null, recipes);
+        var ev = new TechnologyDatabaseModifiedEvent(new List<string> { recipe });
         RaiseLocalEvent(uid, ref ev);
     }
 }
