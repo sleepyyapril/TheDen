@@ -393,50 +393,70 @@ namespace Content.Server.Lathe
         private void OnDatabaseModified(EntityUid uid, LatheComponent component, ref TechnologyDatabaseModifiedEvent args)
         {
             UpdateUserInterfaceState(uid, component);
-
-            // Goobstation - Lathe message on recipes update - Start
-            if (args.UnlockedRecipes == null || args.UnlockedRecipes.Count == 0)
-                return;
-
-            var recipesCount = args.UnlockedRecipes.Count(recipe => component.DynamicRecipes.Contains(recipe));
-            if (recipesCount > 0)
-                _chatSystem.TrySendInGameICMessage(uid, Loc.GetString("lathe-technology-recipes-update-message", ("count", recipesCount)), InGameICChatType.Speak, hideChat: true);
-            // Goobstation - Lathe message on recipes update - End
         }
 
         private void OnTechnologyDatabaseModified(Entity<LatheAnnouncingComponent> ent, ref TechnologyDatabaseModifiedEvent args)
         {
-            if (args.NewlyUnlockedRecipes is null)
-                return;
-
             if (!TryGetAvailableRecipes(ent.Owner, out var potentialRecipes))
                 return;
 
             var recipeNames = new List<string>();
-            foreach (var recipeId in args.NewlyUnlockedRecipes)
+            var technologyName = GetTechnologyName(args);
+
+            foreach (var recipeId in args.UnlockedRecipes)
             {
+                if (string.IsNullOrEmpty(recipeId))
+                    continue;
+
                 if (!potentialRecipes.Contains(new(recipeId)))
                     continue;
 
-                if (!_proto.TryIndex(recipeId, out LatheRecipePrototype? recipe))
+                if (!_proto.TryIndex(recipeId, out var recipe))
                     continue;
 
-                var itemName = GetRecipeName(recipe!);
-                recipeNames.Add(Loc.GetString("lathe-unlock-recipe-radio-broadcast-item", ("item", itemName)));
+                var itemName = GetRecipeName(recipe);
+                recipeNames.Add(itemName);
             }
 
             if (recipeNames.Count == 0)
                 return;
 
-            var message = Loc.GetString(
-                "lathe-unlock-recipe-radio-broadcast",
-                ("items", ContentLocalizationManager.FormatList(recipeNames))
-            );
+            var message = GetUpdateMessage(recipeNames, technologyName);
 
             foreach (var channel in ent.Comp.Channels)
-            {
                 _radio.SendRadioMessage(ent.Owner, message, channel, ent.Owner, escapeMarkup: false);
+        }
+
+        private string? GetTechnologyName(TechnologyDatabaseModifiedEvent args)
+        {
+            if (args.Technology == null)
+                return null;
+
+            var technology = _proto.Index<TechnologyPrototype>(args.Technology);
+            var technologyName = Loc.GetString(technology.Name);
+            return technologyName;
+        }
+
+        private string GetUpdateMessage(List<string> recipes, string? technologyName)
+        {
+            if (technologyName != null)
+            {
+                return Loc.GetString("lathe-technology-recipes-update-message",
+                    ("technology", technologyName),
+                    ("count", recipes.Count));
             }
+
+            // This will never happen. I think.
+            // Best to be safe.
+            if (recipes.Count != 1)
+            {
+                return Loc.GetString("lathe-technology-recipes-update-message-multiple",
+                    ("count", recipes.Count));
+            }
+
+            return Loc.GetString(
+                "lathe-technology-recipes-update-message-single",
+                ("item", recipes.First()));
         }
 
         private void OnResearchRegistrationChanged(EntityUid uid, LatheComponent component, ref ResearchRegistrationChangedEvent args)
