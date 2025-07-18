@@ -8147,3 +8147,10 @@ Entries:
   id: 776
   time: '2025-07-18T20:26:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1125
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Feroxi and Mothpersons are now able to have custom names
+  id: 777
+  time: '2025-07-18T20:27:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1122
