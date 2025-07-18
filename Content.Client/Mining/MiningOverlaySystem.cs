@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 Nemanja
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Mining.Components;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
