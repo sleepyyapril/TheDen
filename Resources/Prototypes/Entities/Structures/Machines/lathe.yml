@@ -637,10 +637,10 @@
     idleState: icon
     runningState: building
     staticPacks:
-    - FriendlyCubesStatic
+    - BiofabricatorStaticAwfulDen
   - type: EmagLatheRecipes
     emagStaticPacks:
-    - HostileCubesStatic
+    - BiofabricatorEmagStaticAwfulDen
 
 - type: entity
   id: SecurityTechFab
@@ -948,8 +948,7 @@
     idleState: icon
     runningState: building
     staticPacks:
-    - BioGenIngredientsStatic
-    - BioGenMaterialsStatic
+    - BiogeneratorStaticAwfulDen
 
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
@@ -1032,7 +1031,7 @@
     idleState: base_machine
     runningState: base_machine_processing
     staticPacks:
-    - SheetifierStatic
+    - SheetifierStaticAwfulDen
 
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]

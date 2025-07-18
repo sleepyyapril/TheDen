@@ -1,0 +1,17 @@
+- type: latheRecipePack
+  id: BiofabricatorStaticAwfulDen
+  recipes:
+  - MonkeyCube
+  - KoboldCube
+  - CowCube
+  - GoatCube
+  - MothroachCube
+  - MouseCube
+  - CockroachCube
+
+- type: latheRecipePack
+  id: BiofabricatorEmagStaticAwfulDen
+  recipes:
+  - AbominationCube
+  - SpaceCarpCube
+  - SpaceTickCube
