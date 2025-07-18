@@ -8201,3 +8201,14 @@ Entries:
   id: 781
   time: '2025-07-18T21:22:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1124
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: >-
+        Added missing station beacons (BSO, NTRep Magistrate, Clown, Mime,
+        Paramedic, Musician)
+    - type: Fix
+      message: Fixed all station beacons added by Delta-V
+  id: 782
+  time: '2025-07-18T21:22:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1118
