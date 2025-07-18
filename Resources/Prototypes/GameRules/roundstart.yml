@@ -24,6 +24,7 @@
 # SPDX-FileCopyrightText: 2025 BlitzTheSquishy
 # SPDX-FileCopyrightText: 2025 EctoplasmIsGood
 # SPDX-FileCopyrightText: 2025 VMSolidus
+# SPDX-FileCopyrightText: 2025 sheepie
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
@@ -196,7 +197,7 @@
   - type: AntagSelection
     definitions:
     - prefRoles: [ Traitor ]
-      max: 2 # Floof - Balance around Security Pop
+      max: 6 # Floof - Balance around Security Pop
       playerRatio: 10
       blacklist:
         components:
