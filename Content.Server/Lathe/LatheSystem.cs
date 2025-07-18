@@ -409,8 +409,14 @@ namespace Content.Server.Lathe
             var recipeNames = new List<string>();
             var technologyName = GetTechnologyName(args);
 
-            foreach (var recipeId in args.UnlockedRecipes.Where(recipeId => potentialRecipes.Contains(new(recipeId))))
+            foreach (var recipeId in args.UnlockedRecipes)
             {
+                if (string.IsNullOrWhiteSpace(recipeId))
+                    continue;
+
+                if (potentialRecipes.Contains(new(recipeId)))
+                    continue;
+
                 if (!_proto.TryIndex(recipeId, out var recipe))
                     continue;
 
