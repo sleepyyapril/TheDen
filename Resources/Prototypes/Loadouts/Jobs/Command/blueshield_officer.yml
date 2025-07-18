@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Alice
 # SPDX-FileCopyrightText: 2025 Blitz
+# SPDX-FileCopyrightText: 2025 BlitzTheSquishy
 # SPDX-FileCopyrightText: 2025 BramvanZijp
 # SPDX-FileCopyrightText: 2025 EctoplasmIsGood
 # SPDX-FileCopyrightText: 2025 Jakumba
@@ -163,7 +164,6 @@
   id: LoadoutMagazineShotgunLeverRifle
   category: JobsCommandBlueshieldOfficer
   cost: 2
-  exclusive: true
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
@@ -180,7 +180,6 @@
   id: LoadoutMagazineRifleBRDIR25
   category: JobsCommandBlueshieldOfficer
   cost: 2
-  exclusive: true
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
@@ -197,7 +196,6 @@
   id: LoadoutMagazineRifleBSOAk
   category: JobsCommandBlueshieldOfficer
   cost: 2
-  exclusive: true
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
@@ -324,7 +322,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerHats
+      group: LoadoutBlueshieldOfficerHead
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer
@@ -338,7 +336,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerHats
+      group: LoadoutBlueshieldOfficerHead
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer
@@ -352,7 +350,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerHats
+      group: LoadoutBlueshieldOfficerHead
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer
@@ -373,7 +371,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerVests
+      group: LoadoutBlueshieldOfficerOuter
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer
@@ -387,7 +385,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerVests
+      group: LoadoutBlueshieldOfficerOuter
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer
@@ -401,7 +399,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerVests
+      group: LoadoutBlueshieldOfficerOuter
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer
@@ -415,7 +413,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerVests
+      group: LoadoutBlueshieldOfficerOuter
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer
@@ -429,7 +427,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerVests
+      group: LoadoutBlueshieldOfficerOuter
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer
@@ -443,7 +441,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerVests
+      group: LoadoutBlueshieldOfficerOuter
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer
@@ -457,7 +455,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerVests
+      group: LoadoutBlueshieldOfficerOuter
     - !type:CharacterJobRequirement
       jobs:
         - BlueshieldOfficer

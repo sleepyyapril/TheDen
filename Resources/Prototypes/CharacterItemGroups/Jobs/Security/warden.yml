@@ -70,6 +70,8 @@
   items:
     - type: loadout
       id: LoadoutClothingHeadHatBeretWarden
+    - type: loadout
+      id: LoadoutWardenHeadWardenCap
 
 #- type: characterItemGroup
 #  id: LoadoutWardenId
@@ -85,7 +87,7 @@
 #  id: LoadoutWardenMask
 #  maxItems: 1
 #  items:
-#
+
 - type: characterItemGroup
   id: LoadoutWardenOuter
   maxItems: 1
@@ -96,6 +98,8 @@
       id: LoadoutClothingOuterCoatWarden
     - type: loadout
       id: LoadoutClothingOuterLongCoatWarden
+    - type: loadout
+      id: LoadoutWardenOuterCoatWinterCoatArmoured
 
 #- type: characterItemGroup
 #  id: LoadoutWardenShoes
