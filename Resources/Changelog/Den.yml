@@ -8068,3 +8068,10 @@ Entries:
   id: 769
   time: '2025-07-18T02:49:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1103
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Many balance changes, please see github for a full patch note list.
+  id: 770
+  time: '2025-07-18T02:50:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1085
