@@ -8126,3 +8126,10 @@ Entries:
   id: 773
   time: '2025-07-18T16:45:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1123
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Diamonds not being ejectable from your lathes!
+  id: 774
+  time: '2025-07-18T20:24:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1128
