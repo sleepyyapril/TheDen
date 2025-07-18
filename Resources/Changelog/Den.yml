@@ -8190,3 +8190,14 @@ Entries:
   id: 780
   time: '2025-07-18T21:18:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1129
+- author: Wheels
+  changes:
+    - type: Add
+      message: New icons for Baa and Moo emotes
+    - type: Fix
+      message: Ovinia sounds trait will now allow holders to Baa as intended
+    - type: Fix
+      message: Baa emote name will name display properly when hovered over
+  id: 781
+  time: '2025-07-18T21:22:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1124
