@@ -8140,3 +8140,10 @@ Entries:
   id: 775
   time: '2025-07-18T20:26:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1126
+- author: Wheels
+  changes:
+    - type: Add
+      message: Mops, rags, and towels can now be squeezed out into drains.
+  id: 776
+  time: '2025-07-18T20:26:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1125
