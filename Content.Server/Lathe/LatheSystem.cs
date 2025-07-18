@@ -403,6 +403,9 @@ namespace Content.Server.Lathe
             ref TechnologyDatabaseModifiedEvent args
         )
         {
+            if (args.UnlockedRecipes == null || args.UnlockedRecipes.Count == 0)
+                return;
+
             if (!TryGetAvailableRecipes(ent.Owner, out var potentialRecipes))
                 return;
 
