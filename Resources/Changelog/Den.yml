@@ -8212,3 +8212,12 @@ Entries:
   id: 782
   time: '2025-07-18T21:22:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1118
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added Manta Station and its' evac shuttle the NTES Remora
+    - type: Remove
+      message: Removed 13 cans of monster energy pipeline punch from juni's veins
+  id: 783
+  time: '2025-07-18T21:25:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1120
