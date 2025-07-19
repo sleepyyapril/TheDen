@@ -8106,3 +8106,132 @@ Entries:
   id: 771
   time: '2025-07-18T04:28:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/955
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Bishop Cybernetics employer description
+  id: 772
+  time: '2025-07-18T08:27:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1116
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Fixed selfdamage command improperly using "Brute" damage when only two
+        arguments are provided.
+    - type: Tweak
+      message: >-
+        Selfdamage command has improved console response messages - now you'll
+        be given details if the command succeeded!
+  id: 773
+  time: '2025-07-18T16:45:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1123
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Diamonds not being ejectable from your lathes!
+  id: 774
+  time: '2025-07-18T20:24:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1128
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Experimental Welders damaging your eyes with flash protection!
+  id: 775
+  time: '2025-07-18T20:26:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1126
+- author: Wheels
+  changes:
+    - type: Add
+      message: Mops, rags, and towels can now be squeezed out into drains.
+  id: 776
+  time: '2025-07-18T20:26:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1125
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Feroxi and Mothpersons are now able to have custom names
+  id: 777
+  time: '2025-07-18T20:27:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1122
+- author: Wheels
+  changes:
+    - type: Fix
+      message: >-
+        Vulps with the singer trait enabled will now have their tail show
+        correctly when wearing hardsuits.
+    - type: Add
+      message: Harpy wings will now show when wearing hardsuits.
+  id: 778
+  time: '2025-07-18T20:55:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1130
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        The loadout UI has been completely overhauled. Please report any fun new
+        bugs, because I cannot possibly test for every edge case here.
+    - type: Fix
+      message: >-
+        The character preview in the character editor screen has a clamped width
+        now. This will not affect most characters, but it will affect characters
+        with large sprites (e.g. Arachne).
+    - type: Tweak
+      message: The "Lewd" loadout category is now a subcategory of Items.
+    - type: Tweak
+      message: The character editor will now always hide the chat when opened.
+  id: 779
+  time: '2025-07-18T21:02:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1113
+- author: MajorMoth
+  changes:
+    - type: Fix
+      message: The Oracle will now stop spawning NSFW reagents.
+  id: 780
+  time: '2025-07-18T21:18:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1129
+- author: Wheels
+  changes:
+    - type: Add
+      message: New icons for Baa and Moo emotes
+    - type: Fix
+      message: Ovinia sounds trait will now allow holders to Baa as intended
+    - type: Fix
+      message: Baa emote name will name display properly when hovered over
+  id: 781
+  time: '2025-07-18T21:22:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1124
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: >-
+        Added missing station beacons (BSO, NTRep Magistrate, Clown, Mime,
+        Paramedic, Musician)
+    - type: Fix
+      message: Fixed all station beacons added by Delta-V
+  id: 782
+  time: '2025-07-18T21:22:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1118
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added Manta Station and its' evac shuttle the NTES Remora
+    - type: Remove
+      message: Removed 13 cans of monster energy pipeline punch from juni's veins
+  id: 783
+  time: '2025-07-18T21:25:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1120
+- author: Monotheonist
+  changes:
+    - type: Add
+      message: >-
+        Added some songs by Oliver Buckland into the lobby song rotation,
+        ENAheads rejoice.
+  id: 784
+  time: '2025-07-19T04:20:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1135
+- author: WhiteHusky
+  changes: []
+  id: 785
+  time: '2025-07-19T04:54:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1106
