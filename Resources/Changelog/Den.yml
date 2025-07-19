@@ -8284,3 +8284,10 @@ Entries:
   id: 789
   time: '2025-07-19T15:41:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1145
+- author: Wheels
+  changes:
+    - type: Add
+      message: Added the Golden Plunger loadout option for esteemed janitors.
+  id: 790
+  time: '2025-07-19T15:41:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1142
