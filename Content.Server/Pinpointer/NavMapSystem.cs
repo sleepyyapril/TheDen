@@ -6,10 +6,12 @@
 // SPDX-FileCopyrightText: 2024 Leon Friedrich
 // SPDX-FileCopyrightText: 2024 Nemanja
 // SPDX-FileCopyrightText: 2024 VMSolidus
+// SPDX-FileCopyrightText: 2025 Blitz
 // SPDX-FileCopyrightText: 2025 BlitzTheSquishy
 // SPDX-FileCopyrightText: 2025 Falcon
 // SPDX-FileCopyrightText: 2025 Tayrtahn
 // SPDX-FileCopyrightText: 2025 sleepyyapril
+// SPDX-FileCopyrightText: 2025 themias
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
