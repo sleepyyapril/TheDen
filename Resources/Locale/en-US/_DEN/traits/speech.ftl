@@ -65,61 +65,61 @@ trait-description-ResomiSounds =
     (gekker, bark, yip, yap, whine, howl, awoo, growl, squeak)
 
 trait-name-VulpkaninSoundsReplace = Replace Emotes (Vulpkanin)
-trait-description-VulpkaninSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Vulpkanins have.
+trait-description-VulpkaninSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Vulpkanins have instead.
     (wag, bark, awoo, snarl, whine, yip, yap, howl, gekker, growl)
 
 trait-name-FelinidSoundsReplace = Replace Emotes (Felinid)
-trait-description-FelinidSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Felinids have.
+trait-description-FelinidSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Felinids have instead.
     (purr, meow, mew, hiss)
 
 trait-name-HarpySoundsReplace = Replace Emotes (Harpy)
-trait-description-HarpySounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Harpies have.
+trait-description-HarpySoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Harpies have instead.
     (purr (gambling reasons), honk, pew, bang, caw, hoot, chirp)
 
 trait-name-OniSoundsReplace = Replace Emotes (Oni)
-trait-description-OniSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Onis have. 
+trait-description-OniSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Onis have instead. 
     (moo)
 
 trait-name-ReptilianSoundsReplace = Replace Emotes (Reptilian)
 trait-description-ReptilianSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Reptilians have. 
+    Replace any existing emote sounds, giving your character access to the emotes that Reptilians have instead. 
     (hiss, trill, thump, wag, yip)
 
 trait-name-ShadowkinSoundsReplace = Replace Emotes (Shadowkin)
-trait-description-ShadowkinSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Shadowkins have. 
+trait-description-ShadowkinSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Shadowkins have instead. 
     (mar, wurble)
 
 trait-name-SiliconSoundsReplace = Replace Emotes (Silicon)
-trait-description-SiliconSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that IPCs have. 
+trait-description-SiliconSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that IPCs have instead. 
     (beep, buzz, buzzes twice, boop, ping, chime, whirr)
 
 trait-name-OviniaSoundsReplace = Replace Emotes (Ovinia)
-trait-description-OviniaSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Ovinia have. 
+trait-description-OviniaSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Ovinia have instead. 
     (baa)
 
 trait-name-FeroxiSoundsReplace = Replace Emotes (Feroxi)
-trait-description-FeroxiSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Feroxis have. 
+trait-description-FeroxiSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Feroxis have instead. 
     (gnash)
 
 trait-name-RodentiaSoundsReplace = Replace Emotes (Rodentia)
-trait-description-RodentiaSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Rodentia have. 
+trait-description-RodentiaSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Rodentia have instead. 
     (squeak)
 
 trait-name-ResomiSoundsReplace = Replace Emotes (Resomi)
-trait-description-ResomiSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Resomis have. 
+trait-description-ResomiSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Resomis have instead. 
     (honk, coo)
 
 trait-name-KitsuneSoundsReplace = Replace Emotes (Kitsune)
-trait-description-ResomiSounds =
-    Adds on to your existing emotes, giving your character access to the emotes that Kitsunes have. 
+trait-description-ResomiSoundsReplace =
+    Replace any existing emote sounds, giving your character access to the emotes that Kitsunes have instead. 
     (gekker, bark, yip, yap, whine, howl, awoo, growl, squeak)
