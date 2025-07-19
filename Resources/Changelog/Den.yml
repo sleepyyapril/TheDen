@@ -8244,3 +8244,12 @@ Entries:
   id: 786
   time: '2025-07-19T06:22:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1133
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Switched chatty lathes to only say the technology and the number of
+        recipes unlocked in the lathe.
+  id: 787
+  time: '2025-07-19T06:36:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1107
