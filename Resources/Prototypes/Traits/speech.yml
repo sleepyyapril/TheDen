@@ -160,3 +160,22 @@
     - !type:TraitSetAdditionalEmoteSound
       emoteSound: Feroxi
       useSex: true
+
+- type: trait
+  id: HarpySounds
+  category: TraitsSpeechSounds
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsRaceSounds
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Harpy
+  functions:
+    - !type:TraitAddTag
+      tags:
+      - HarpyEmotes
+    - !type:TraitSetAdditionalEmoteSound
+      emoteSound: SoundsHarpyExclusive
+      useSex: false
