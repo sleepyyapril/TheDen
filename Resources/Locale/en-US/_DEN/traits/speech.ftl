@@ -2,49 +2,124 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-character-item-group-TraitsRaceSounds = Species Sounds
+character-item-group-TraitsRaceSounds = Species Emotes
 
-trait-name-VulpkaninSounds = Vulpkanin Sounds
+trait-name-VulpkaninSounds = Extra Emotes (Vulpkanin)
 trait-description-VulpkaninSounds =
-    Allows you to use the sounds Vulpkanins have.
+    Adds on to your existing emotes, giving your character access to the emotes that Vulpkanins have.
     (wag, bark, awoo, snarl, whine, yip, yap, howl, gekker, growl)
 
-trait-name-FelinidSounds = Felinid Sounds
+trait-name-FelinidSounds = Extra Emotes (Felinid)
 trait-description-FelinidSounds =
-    Allows you to use the sounds Felinids have.
+    Adds on to your existing emotes, giving your character access to the emotes that Felinids have.
     (purr, meow, mew, hiss)
 
-trait-name-HarpySounds = Harpy Sounds
+trait-name-HarpySounds = Extra Emotes (Harpy)
 trait-description-HarpySounds =
-    Allows you to use the sounds Harpies have.
+    Adds on to your existing emotes, giving your character access to the emotes that Harpies have.
     (purr (gambling reasons), honk, pew, bang, caw, hoot, chirp)
 
-trait-name-OniSounds = Oni Sounds
+trait-name-OniSounds = Extra Emotes (Oni)
 trait-description-OniSounds =
-    Allows you to use the sounds Onis have. 
+    Adds on to your existing emotes, giving your character access to the emotes that Onis have. 
     (moo)
 
-trait-name-ReptilianSounds = Reptilian Sounds
+trait-name-ReptilianSounds = Extra Emotes (Reptilian)
 trait-description-ReptilianSounds =
-    Allows you to use the sounds Reptilians have. 
+    Adds on to your existing emotes, giving your character access to the emotes that Reptilians have. 
     (hiss, trill, thump, wag, yip)
 
-trait-name-ShadowkinSounds = Shadowkin Sounds
+trait-name-ShadowkinSounds = Extra Emotes (Shadowkin)
 trait-description-ShadowkinSounds =
-    Allows you to use the sounds Shadowkins have. 
+    Adds on to your existing emotes, giving your character access to the emotes that Shadowkins have. 
     (mar, wurble)
 
-trait-name-SiliconSounds = Silicon Sounds
+trait-name-SiliconSounds = Extra Emotes (Silicon)
 trait-description-SiliconSounds =
-    Allows you to use the sounds IPCs have. 
+    Adds on to your existing emotes, giving your character access to the emotes that IPCs have. 
     (beep, buzz, buzzes twice, boop, ping, chime, whirr)
 
-trait-name-OviniaSounds = Ovinia Sounds
+trait-name-OviniaSounds = Extra Emotes (Ovinia)
 trait-description-OviniaSounds =
-    Allows you to use the sounds Ovinia have. 
+    Adds on to your existing emotes, giving your character access to the emotes that Ovinia have. 
     (baa)
 
-trait-name-FeroxiSounds = Feroxi Sounds
+trait-name-FeroxiSounds = Extra Emotes (Feroxi)
 trait-description-FeroxiSounds =
-    Allows you to use the sounds Feroxis have. 
+    Adds on to your existing emotes, giving your character access to the emotes that Feroxis have. 
     (gnash)
+
+trait-name-RodentiaSounds = Extra Emotes (Rodentia)
+trait-description-RodentiaSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Rodentia have. 
+    (squeak)
+
+trait-name-ResomiSounds = Extra Emotes (Resomi)
+trait-description-ResomiSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Resomis have. 
+    (honk, coo)
+
+trait-name-KitsuneSounds = Extra Emotes (Kitsune)
+trait-description-ResomiSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Kitsunes have. 
+    (gekker, bark, yip, yap, whine, howl, awoo, growl, squeak)
+
+trait-name-VulpkaninSoundsReplace = Replace Emotes (Vulpkanin)
+trait-description-VulpkaninSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Vulpkanins have.
+    (wag, bark, awoo, snarl, whine, yip, yap, howl, gekker, growl)
+
+trait-name-FelinidSoundsReplace = Replace Emotes (Felinid)
+trait-description-FelinidSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Felinids have.
+    (purr, meow, mew, hiss)
+
+trait-name-HarpySoundsReplace = Replace Emotes (Harpy)
+trait-description-HarpySounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Harpies have.
+    (purr (gambling reasons), honk, pew, bang, caw, hoot, chirp)
+
+trait-name-OniSoundsReplace = Replace Emotes (Oni)
+trait-description-OniSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Onis have. 
+    (moo)
+
+trait-name-ReptilianSoundsReplace = Replace Emotes (Reptilian)
+trait-description-ReptilianSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Reptilians have. 
+    (hiss, trill, thump, wag, yip)
+
+trait-name-ShadowkinSoundsReplace = Replace Emotes (Shadowkin)
+trait-description-ShadowkinSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Shadowkins have. 
+    (mar, wurble)
+
+trait-name-SiliconSoundsReplace = Replace Emotes (Silicon)
+trait-description-SiliconSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that IPCs have. 
+    (beep, buzz, buzzes twice, boop, ping, chime, whirr)
+
+trait-name-OviniaSoundsReplace = Replace Emotes (Ovinia)
+trait-description-OviniaSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Ovinia have. 
+    (baa)
+
+trait-name-FeroxiSoundsReplace = Replace Emotes (Feroxi)
+trait-description-FeroxiSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Feroxis have. 
+    (gnash)
+
+trait-name-RodentiaSoundsReplace = Replace Emotes (Rodentia)
+trait-description-RodentiaSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Rodentia have. 
+    (squeak)
+
+trait-name-ResomiSoundsReplace = Replace Emotes (Resomi)
+trait-description-ResomiSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Resomis have. 
+    (honk, coo)
+
+trait-name-KitsuneSoundsReplace = Replace Emotes (Kitsune)
+trait-description-ResomiSounds =
+    Adds on to your existing emotes, giving your character access to the emotes that Kitsunes have. 
+    (gekker, bark, yip, yap, whine, howl, awoo, growl, squeak)

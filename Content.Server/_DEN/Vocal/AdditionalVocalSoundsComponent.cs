@@ -18,4 +18,7 @@ public sealed partial class AdditionalVocalSoundsComponent : Component
 {
     [DataField]
     public ProtoId<EmoteSoundsPrototype> AdditionalSounds { get; set; }
+
+    [DataField]
+    public bool ReplaceExistingEmotes { get; set; }
 }
