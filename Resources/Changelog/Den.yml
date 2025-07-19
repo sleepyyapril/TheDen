@@ -8264,3 +8264,23 @@ Entries:
   id: 788
   time: '2025-07-19T15:40:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1143
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added a better description as to what each emote sound trait gives you.
+    - type: Add
+      message: Added Resomi, Rodentia, Harpy, and Kitsune sound emotes as options.
+    - type: Add
+      message: >-
+        All of the emote sounds traits have been given a "Replace Emotes"
+        variant, which replaces any existing sounds from your species' emote
+        sounds with the specific trait's instead. You are to use this trait with
+        exceptionally good RP reason. If your species has a meow and the trait's
+        species doesn't, the meow will stay as well.
+    - type: Fix
+      message: >-
+        Fixed existing species sound traits, such as the Feroxi sounds trait not
+        letting people gnash.
+  id: 789
+  time: '2025-07-19T15:41:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1145
