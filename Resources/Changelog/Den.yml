@@ -8334,3 +8334,10 @@ Entries:
   id: 795
   time: '2025-07-19T17:13:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1152
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Blood deficiency will no longer pool your blood to the floor.
+  id: 796
+  time: '2025-07-19T16:52:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1150
