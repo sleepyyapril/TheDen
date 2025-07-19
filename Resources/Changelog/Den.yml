@@ -7958,3 +7958,386 @@ Entries:
   id: 756
   time: '2025-07-16T16:30:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1041
+- author: pofitlo-Git
+  changes:
+    - type: Add
+      message: Added a syndicate business card to the uplink.
+  id: 757
+  time: '2025-07-17T01:30:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1099
+- author: ShepardToTheStars
+  changes:
+    - type: Remove
+      message: The BSO monitor no longer beeps when someone dies.
+  id: 758
+  time: '2025-07-17T01:40:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1095
+- author: Camdot
+  changes:
+    - type: Fix
+      message: 'Emotes pitch do pitching '
+  id: 759
+  time: '2025-07-17T04:33:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1098
+- author: Hederadaii
+  changes:
+    - type: Add
+      message: Added lilacs. Pretty! (Not yet grow-able).
+  id: 760
+  time: '2025-07-17T07:24:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1100
+- author: Jakumba
+  changes:
+    - type: Remove
+      message: Species restriction from Nationality
+  id: 761
+  time: '2025-07-17T14:53:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1105
+- author: metalgearsloth
+  changes:
+    - type: Tweak
+      message: You no longer face items for a single frame when clicking while moving.
+  id: 762
+  time: '2025-07-17T20:05:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1108
+- author: Wheels
+  changes:
+    - type: Fix
+      message: Consent menu descriptions should no longer overflow
+  id: 763
+  time: '2025-07-17T20:07:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1109
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Now using WizDen's battery code
+  id: 764
+  time: '2025-07-17T20:44:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1110
+- author: PJB3005
+  changes:
+    - type: Fix
+      message: Unpowered doors can be pried closed again.
+  id: 765
+  time: '2025-07-17T21:20:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1094
+- author: SleepyScarecrow
+  changes:
+    - type: Add
+      message: 'The Singulo drink now has a recipe, using Vodka, Wine, and Anti-Noblium '
+    - type: Fix
+      message: Fixed guidebook entries
+  id: 766
+  time: '2025-07-17T21:21:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1093
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Maximum number of traitors per event from 2 to 6, requiring 60 people to
+        hit 6.
+    - type: Remove
+      message: Removed die a glorious death objective.
+  id: 767
+  time: '2025-07-18T02:48:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1112
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: healing factor now actually, heals.
+  id: 768
+  time: '2025-07-18T02:49:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1104
+- author: MajorMoth
+  changes:
+    - type: Fix
+      message: 'Fixed the bug where things got inserted into slimes upon use by slimes. '
+    - type: Fix
+      message: >-
+        Things expanding inside pockets (past pocket capacity) now get forced
+        out.
+    - type: Fix
+      message: >-
+        Removed the electrolyzer and bluespace gas sender from staticRecipes. No
+        more roundstart exotech. Gotta have epi research it first, like
+        intended.
+    - type: Fix
+      message: >-
+        Fixed reinforced plasma windows getting treated as walls internally.
+        This will allow shutters to close on them again.
+  id: 769
+  time: '2025-07-18T02:49:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1103
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Many balance changes, please see github for a full patch note list.
+  id: 770
+  time: '2025-07-18T02:50:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1085
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Adds missing messenger bags to loadouts
+    - type: Add
+      message: >-
+        Boxer, Martial Artist, Zookeeper, Gladiator and Prison Guard are added
+        as loadout categories.
+    - type: Add
+      message: Adds a lot of starting role items into loadouts.
+    - type: Add
+      message: >-
+        Gives all loadouts (that Adrian didn't touch) long coats if one was
+        available. 
+    - type: Tweak
+      message: >-
+        Enables some items from specialist roles to be opened to the entire
+        department.
+    - type: Tweak
+      message: >-
+        Nukes the cost of all arm warmers/thongs/thigh highs/collars except the
+        valid ones (which remain at 1 cost)
+    - type: Tweak
+      message: >-
+        Changes a lot of loadout items, please recheck your loadouts for any
+        errors.
+    - type: Remove
+      message: Blitz's sanity.
+  id: 771
+  time: '2025-07-18T04:28:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/955
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Bishop Cybernetics employer description
+  id: 772
+  time: '2025-07-18T08:27:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1116
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Fixed selfdamage command improperly using "Brute" damage when only two
+        arguments are provided.
+    - type: Tweak
+      message: >-
+        Selfdamage command has improved console response messages - now you'll
+        be given details if the command succeeded!
+  id: 773
+  time: '2025-07-18T16:45:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1123
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Diamonds not being ejectable from your lathes!
+  id: 774
+  time: '2025-07-18T20:24:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1128
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Experimental Welders damaging your eyes with flash protection!
+  id: 775
+  time: '2025-07-18T20:26:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1126
+- author: Wheels
+  changes:
+    - type: Add
+      message: Mops, rags, and towels can now be squeezed out into drains.
+  id: 776
+  time: '2025-07-18T20:26:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1125
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Feroxi and Mothpersons are now able to have custom names
+  id: 777
+  time: '2025-07-18T20:27:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1122
+- author: Wheels
+  changes:
+    - type: Fix
+      message: >-
+        Vulps with the singer trait enabled will now have their tail show
+        correctly when wearing hardsuits.
+    - type: Add
+      message: Harpy wings will now show when wearing hardsuits.
+  id: 778
+  time: '2025-07-18T20:55:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1130
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        The loadout UI has been completely overhauled. Please report any fun new
+        bugs, because I cannot possibly test for every edge case here.
+    - type: Fix
+      message: >-
+        The character preview in the character editor screen has a clamped width
+        now. This will not affect most characters, but it will affect characters
+        with large sprites (e.g. Arachne).
+    - type: Tweak
+      message: The "Lewd" loadout category is now a subcategory of Items.
+    - type: Tweak
+      message: The character editor will now always hide the chat when opened.
+  id: 779
+  time: '2025-07-18T21:02:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1113
+- author: MajorMoth
+  changes:
+    - type: Fix
+      message: The Oracle will now stop spawning NSFW reagents.
+  id: 780
+  time: '2025-07-18T21:18:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1129
+- author: Wheels
+  changes:
+    - type: Add
+      message: New icons for Baa and Moo emotes
+    - type: Fix
+      message: Ovinia sounds trait will now allow holders to Baa as intended
+    - type: Fix
+      message: Baa emote name will name display properly when hovered over
+  id: 781
+  time: '2025-07-18T21:22:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1124
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: >-
+        Added missing station beacons (BSO, NTRep Magistrate, Clown, Mime,
+        Paramedic, Musician)
+    - type: Fix
+      message: Fixed all station beacons added by Delta-V
+  id: 782
+  time: '2025-07-18T21:22:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1118
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added Manta Station and its' evac shuttle the NTES Remora
+    - type: Remove
+      message: Removed 13 cans of monster energy pipeline punch from juni's veins
+  id: 783
+  time: '2025-07-18T21:25:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1120
+- author: Monotheonist
+  changes:
+    - type: Add
+      message: >-
+        Added some songs by Oliver Buckland into the lobby song rotation,
+        ENAheads rejoice.
+  id: 784
+  time: '2025-07-19T04:20:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1135
+- author: WhiteHusky
+  changes: []
+  id: 785
+  time: '2025-07-19T04:54:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1106
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Ported the mineral scanner. It allows you to see ores through walls when
+        powered and in your hand/pocket.
+  id: 786
+  time: '2025-07-19T06:22:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1133
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Switched chatty lathes to only say the technology and the number of
+        recipes unlocked in the lathe.
+  id: 787
+  time: '2025-07-19T06:36:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1107
+- author: Wheels
+  changes:
+    - type: Add
+      message: >-
+        Attempting to cut your own or someone else's hair will now notify the
+        target with a popup
+    - type: Tweak
+      message: Hair cannot be cut while wearing a hat/helmet
+  id: 788
+  time: '2025-07-19T15:40:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1143
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added a better description as to what each emote sound trait gives you.
+    - type: Add
+      message: Added Resomi, Rodentia, Harpy, and Kitsune sound emotes as options.
+    - type: Add
+      message: >-
+        All of the emote sounds traits have been given a "Replace Emotes"
+        variant, which replaces any existing sounds from your species' emote
+        sounds with the specific trait's instead. You are to use this trait with
+        exceptionally good RP reason. If your species has a meow and the trait's
+        species doesn't, the meow will stay as well.
+    - type: Fix
+      message: >-
+        Fixed existing species sound traits, such as the Feroxi sounds trait not
+        letting people gnash.
+  id: 789
+  time: '2025-07-19T15:41:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1145
+- author: Wheels
+  changes:
+    - type: Add
+      message: Added the Golden Plunger loadout option for esteemed janitors.
+  id: 790
+  time: '2025-07-19T15:41:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1142
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Introduced the Even Heal System from Wizden, with Omnizine now evenly
+        healing damages!
+  id: 791
+  time: '2025-07-19T15:41:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1144
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Coo has been added as a possible emote for Harpies.
+    - type: Tweak
+      message: Harpies can now chirp, as all things should be.
+  id: 792
+  time: '2025-07-19T16:50:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1148
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: >-
+        SmartFridges are now implemented. You can store large amounts of
+        chemicals and plants within them for people to take.
+  id: 793
+  time: '2025-07-19T16:51:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1146
+- author: ShepardToTheStars
+  changes:
+    - type: Tweak
+      message: >-
+        Xenos across the system are Tankier, hit harder, and prey faster. Watch
+        those vents.
+  id: 794
+  time: '2025-07-19T16:53:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1147
+- author: ShepardToTheStars
+  changes:
+    - type: Tweak
+      message: All medkits are now the same size as combat medkits in your inventory!
+  id: 795
+  time: '2025-07-19T17:13:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1152
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Blood deficiency will no longer pool your blood to the floor.
+  id: 796
+  time: '2025-07-19T16:52:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1150
