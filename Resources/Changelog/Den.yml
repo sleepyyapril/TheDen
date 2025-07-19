@@ -8253,3 +8253,14 @@ Entries:
   id: 787
   time: '2025-07-19T06:36:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1107
+- author: Wheels
+  changes:
+    - type: Add
+      message: >-
+        Attempting to cut your own or someone else's hair will now notify the
+        target with a popup
+    - type: Tweak
+      message: Hair cannot be cut while wearing a hat/helmet
+  id: 788
+  time: '2025-07-19T15:40:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1143
