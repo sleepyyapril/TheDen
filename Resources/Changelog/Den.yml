@@ -8291,3 +8291,12 @@ Entries:
   id: 790
   time: '2025-07-19T15:41:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1142
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Introduced the Even Heal System from Wizden, with Omnizine now evenly
+        healing damages!
+  id: 791
+  time: '2025-07-19T15:41:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1144
