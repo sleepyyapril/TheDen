@@ -8309,3 +8309,12 @@ Entries:
   id: 792
   time: '2025-07-19T16:50:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1148
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: >-
+        SmartFridges are now implemented. You can store large amounts of
+        chemicals and plants within them for people to take.
+  id: 793
+  time: '2025-07-19T16:51:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1146
