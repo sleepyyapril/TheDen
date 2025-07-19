@@ -21,6 +21,22 @@
   - Holoprojector
   - TapeRecorder
   - CassetteTape
+  # Translators
+  - CanilunztTranslator
+  - BubblishTranslator
+  - NekomimeticTranslator
+  - DraconicTranslator
+  - SolCommonTranslator
+  - RootSpeakTranslator
+  - BasicGalaticCommonTranslatorImplanter
+  - MofficTranslator
+  - ArachnicTranslator
+  # Tiles
+  - FauxTileAstroGrass
+  - FauxTileMowedAstroGrass
+  - FauxTileJungleAstroGrass
+  - FauxTileAstroIce
+  - FauxTileAstroSnow
 
 - type: latheRecipePack
   id: ServiceTechFabDynamicAwfulDen
@@ -43,19 +59,3 @@
   - MassMediaCircuitboard
   - JukeboxCircuitBoard
   - FatExtractorMachineCircuitboard
-  # Translators
-  - CanilunztTranslator
-  - BubblishTranslator
-  - NekomimeticTranslator
-  - DraconicTranslator
-  - SolCommonTranslator
-  - RootSpeakTranslator
-  - BasicGalaticCommonTranslatorImplanter
-  - MofficTranslator
-  - ArachnicTranslator
-  # Tiles
-  - FauxTileAstroGrass
-  - FauxTileMowedAstroGrass
-  - FauxTileJungleAstroGrass
-  - FauxTileAstroIce
-  - FauxTileAstroSnow
