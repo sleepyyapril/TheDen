@@ -8300,3 +8300,12 @@ Entries:
   id: 791
   time: '2025-07-19T15:41:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1144
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Coo has been added as a possible emote for Harpies.
+    - type: Tweak
+      message: Harpies can now chirp, as all things should be.
+  id: 792
+  time: '2025-07-19T16:50:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1148
