@@ -8318,3 +8318,12 @@ Entries:
   id: 793
   time: '2025-07-19T16:51:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1146
+- author: ShepardToTheStars
+  changes:
+    - type: Tweak
+      message: >-
+        Xenos across the system are Tankier, hit harder, and prey faster. Watch
+        those vents.
+  id: 794
+  time: '2025-07-19T16:53:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1147
