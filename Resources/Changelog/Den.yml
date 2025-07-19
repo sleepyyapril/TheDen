@@ -8341,3 +8341,14 @@ Entries:
   id: 796
   time: '2025-07-19T16:52:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1150
+- author: Gawdayumeet
+  changes:
+    - type: Fix
+      message: >-
+        Havoc Station is now slightly more up-to-code, with most of the dorms
+        now safe to sleep in. But not all of them.
+    - type: Add
+      message: A third dungeon has been added to Havoc Station.
+  id: 797
+  time: '2025-07-19T20:53:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1102
