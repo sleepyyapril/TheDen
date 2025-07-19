@@ -8327,3 +8327,10 @@ Entries:
   id: 794
   time: '2025-07-19T16:53:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1147
+- author: ShepardToTheStars
+  changes:
+    - type: Tweak
+      message: All medkits are now the same size as combat medkits in your inventory!
+  id: 795
+  time: '2025-07-19T17:13:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1152
