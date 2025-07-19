@@ -8221,3 +8221,12 @@ Entries:
   id: 783
   time: '2025-07-18T21:25:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1120
+- author: Monotheonist
+  changes:
+    - type: Add
+      message: >-
+        Added some songs by Oliver Buckland into the lobby song rotation,
+        ENAheads rejoice.
+  id: 784
+  time: '2025-07-19T04:20:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1135
