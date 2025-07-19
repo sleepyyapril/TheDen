@@ -1,4 +1,6 @@
 // SPDX-FileCopyrightText: 2025 ArtisticRoomba
+// SPDX-FileCopyrightText: 2025 Carlen White
+// SPDX-FileCopyrightText: 2025 Perry Fraser
 // SPDX-FileCopyrightText: 2025 chromiumboy
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
@@ -37,7 +39,10 @@ public abstract partial class SharedAtmosPipeLayersSystem : EntitySystem
 
         SubscribeLocalEvent<AtmosPipeLayersComponent, ExaminedEvent>(OnExamined);
         SubscribeLocalEvent<AtmosPipeLayersComponent, GetVerbsEvent<Verb>>(OnGetVerb);
+        /* FIXME: Vents and thermomachines depend on being screwdriven and this interferes with that.
+            For the time being this will be disabled. Using the Verbs will work per usual.
         SubscribeLocalEvent<AtmosPipeLayersComponent, InteractUsingEvent>(OnInteractUsing);
+        */
         SubscribeLocalEvent<AtmosPipeLayersComponent, UseInHandEvent>(OnUseInHandEvent);
         SubscribeLocalEvent<AtmosPipeLayersComponent, TrySetNextPipeLayerCompletedEvent>(OnSetNextPipeLayerCompleted);
         SubscribeLocalEvent<AtmosPipeLayersComponent, TrySettingPipeLayerCompletedEvent>(OnSettingPipeLayerCompleted);
@@ -124,14 +129,16 @@ public abstract partial class SharedAtmosPipeLayersSystem : EntitySystem
         if (ent.Comp.NumberOfPipeLayers <= 1 || ent.Comp.PipeLayersLocked)
             return;
 
+        if (!TryComp<ToolComponent>(args.Used, out var tool) || !_tool.HasQuality(args.Used, ent.Comp.Tool, tool))
+            return;
+
         if (TryComp<SubFloorHideComponent>(ent, out var subFloorHide) && subFloorHide.IsUnderCover)
         {
-            _popup.PopupPredicted(Loc.GetString("atmos-pipe-layers-component-cannot-adjust-pipes"), ent, args.User);
+            _popup.PopupClient(Loc.GetString("atmos-pipe-layers-component-cannot-adjust-pipes"), ent, args.User);
             return;
         }
 
-        if (TryComp<ToolComponent>(args.Used, out var tool) && _tool.HasQuality(args.Used, ent.Comp.Tool, tool))
-            _tool.UseTool(args.Used, args.User, ent, ent.Comp.Delay, tool.Qualities, new TrySetNextPipeLayerCompletedEvent());
+        _tool.UseTool(args.Used, args.User, ent, ent.Comp.Delay, tool.Qualities, new TrySetNextPipeLayerCompletedEvent());
     }
 
     private void OnUseInHandEvent(Entity<AtmosPipeLayersComponent> ent, ref UseInHandEvent args)
@@ -146,7 +153,7 @@ public abstract partial class SharedAtmosPipeLayersSystem : EntitySystem
                 var toolName = Loc.GetString(toolProto.ToolName).ToLower();
                 var message = Loc.GetString("atmos-pipe-layers-component-tool-missing", ("toolName", toolName));
 
-                _popup.PopupPredicted(message, ent, args.User);
+                _popup.PopupClient(message, ent, args.User);
             }
 
             return;
@@ -222,7 +229,7 @@ public abstract partial class SharedAtmosPipeLayersSystem : EntitySystem
             var layerName = GetPipeLayerName(ent.Comp.CurrentPipeLayer);
             var message = Loc.GetString("atmos-pipe-layers-component-change-layer", ("layerName", layerName));
 
-            _popup.PopupPredicted(message, ent, user);
+            _popup.PopupClient(message, ent, user);
         }
     }
 

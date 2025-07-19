@@ -1,4 +1,6 @@
 // SPDX-FileCopyrightText: 2025 ArtisticRoomba
+// SPDX-FileCopyrightText: 2025 Carlen White
+// SPDX-FileCopyrightText: 2025 Perry Fraser
 // SPDX-FileCopyrightText: 2025 chromiumboy
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
@@ -43,7 +45,7 @@ public sealed partial class AtmosPipeLayersSystem : SharedAtmosPipeLayersSystem
         if (ent.Comp.PipeLayersLocked)
             return;
 
-        base.SetPipeLayer(ent, layer);
+        base.SetPipeLayer(ent, layer, user, used);
 
         if (!TryComp<NodeContainerComponent>(ent, out var nodeContainer))
             return;
