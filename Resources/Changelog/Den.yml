@@ -8388,3 +8388,10 @@ Entries:
   id: 800
   time: '2025-07-20T05:41:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1163
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: Added punpun (manta)
+  id: 801
+  time: '2025-07-20T06:19:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1162
