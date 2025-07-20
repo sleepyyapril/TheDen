@@ -367,9 +367,10 @@
   metabolisms:
     Medicine:
       effects:
-      - !type:EvenHealthChange
+      - !type:HealthChange
         damage:
-          Airloss: -5 # 3.5/3 -> Evenly 5. Buff if it's only one, Nerf if both damages are present.
+          groups:
+            Airloss: -3 # 3.5/3 -> Evenly 5. Buff if it's only one, Nerf if both damages are present.
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
