@@ -590,6 +590,7 @@
         - MagazineMagnum
         - CombatKnife
         - Truncheon
+        - HolofanProjector
       components:
         - Stunbaton
         - FlashOnTrigger
