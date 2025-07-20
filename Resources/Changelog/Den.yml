@@ -8420,3 +8420,10 @@ Entries:
   id: 804
   time: '2025-07-20T06:36:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1157
+- author: Stegomancer
+  changes:
+    - type: Add
+      message: Oni now have access to the Bovine snout marking
+  id: 805
+  time: '2025-07-20T06:36:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1154
