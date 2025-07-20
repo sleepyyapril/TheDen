@@ -8404,3 +8404,10 @@ Entries:
   id: 802
   time: '2025-07-20T06:21:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1149
+- author: Deathninja5551
+  changes:
+    - type: Fix
+      message: Fixed some emote sounds being Stereo instead of Mono.
+  id: 803
+  time: '2025-07-20T06:22:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1155
