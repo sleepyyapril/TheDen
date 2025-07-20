@@ -8395,3 +8395,12 @@ Entries:
   id: 801
   time: '2025-07-20T06:19:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1162
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: >-
+        Buffed the Space Dragon and his fishy friends with new abilities and
+        self heals
+  id: 802
+  time: '2025-07-20T06:21:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1149
