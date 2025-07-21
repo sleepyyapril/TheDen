@@ -322,6 +322,8 @@ namespace Content.Server.Database
 
         Task<DateTimeOffset?> GetLastReadRules(NetUserId player);
         Task SetLastReadRules(NetUserId player, DateTimeOffset time);
+
+        Task<bool> HasAcceptedPrompt(NetUserId player);
         Task SetAcceptedPrompt(NetUserId player, bool accepted);
 
         #endregion
@@ -859,7 +861,7 @@ namespace Content.Server.Database
             return RunDbCommand(() => _db.SetLastReadRules(player, time));
         }
 
-        public Task<DateTimeOffset?> HasAcceptedPrompt(NetUserId player)
+        public Task<bool> HasAcceptedPrompt(NetUserId player)
         {
             DbReadOpsMetric.Inc();
             return RunDbCommand(() => _db.HasAcceptedPrompt(player));

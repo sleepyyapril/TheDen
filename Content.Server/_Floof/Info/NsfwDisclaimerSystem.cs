@@ -19,27 +19,28 @@ public sealed class NsfwDisclaimerSystem : EntitySystem
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly IServerDbManager _db = default!;
 
-    private static DateTime LastValidReadTime => DateTime.UtcNow - TimeSpan.FromDays(60);
-
     public override void Initialize()
     {
-        SubscribeNetworkEvent<PopupDisclaimerResponseMessage>(OnPopupDisclaimerResponse);
+        _netManager.RegisterNetMessage<PopupDisclaimerResponseMessage>(OnPopupDisclaimerResponse);
 
         _netManager.Connected += OnConnected;
     }
 
-    private void OnPopupDisclaimerResponse(PopupDisclaimerResponseMessage msg, EntitySessionEventArgs args)
+    // Why was this handled on the client?
+    private void OnPopupDisclaimerResponse(PopupDisclaimerResponseMessage msg)
     {
         if (!msg.Response)
-            args.SenderSession.Channel.Disconnect("User rejected the disclaimer");
+            msg.MsgChannel.Disconnect("User rejected the disclaimer");
 
-        _db.SetAcceptedPrompt(args.SenderSession.UserId, msg.Response);
+        _db.SetAcceptedPrompt(msg.MsgChannel.UserId, msg.Response);
     }
 
     private async void OnConnected(object? sender, NetChannelArgs e)
     {
         // Ignore localhost unless the specified debug cvar is set
-        if (IPAddress.IsLoopback(e.Channel.RemoteEndPoint.Address) && _cfg.GetCVar(CCVars.RulesExemptLocal))
+        if (//IPAddress.IsLoopback(e.Channel.RemoteEndPoint.Address)
+            //&& _cfg.GetCVar(CCVars.RulesExemptLocal)
+            await _db.HasAcceptedPrompt(e.Channel.UserId))
             return;
 
         var message = new ShowNsfwPopupDisclaimerMessage();

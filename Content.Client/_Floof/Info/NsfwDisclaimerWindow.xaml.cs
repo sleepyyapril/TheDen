@@ -15,6 +15,7 @@ namespace Content.Client._Floof.Info;
 [GenerateTypedNameReferences]
 public sealed partial class NsfwDisclaimerWindow : FancyWindow
 {
+    [Dependency] private readonly INetManager _netManager = default!;
     private bool? _accepted;
 
     public NsfwDisclaimerWindow()
@@ -43,9 +44,12 @@ public sealed partial class NsfwDisclaimerWindow : FancyWindow
 
     public void SendResponse()
     {
-        var ev = new PopupDisclaimerResponseMessage();
-        ev.Response = _accepted ?? false;
+        var msg = new PopupDisclaimerResponseMessage
+        {
+            Response = _accepted ?? false
+        };
 
+        _netManager.ClientSendMessage(msg);
         Close();
     }
 }
