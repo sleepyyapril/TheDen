@@ -594,6 +594,7 @@ namespace Content.Server.Database
         public List<AdminLogPlayer> AdminLogs { get; set; } = null!;
 
         public DateTime? LastReadRules { get; set; }
+        public bool? AcceptedPrompt { get; set; } // DEN: accepted rules prompt
 
         public List<AdminNote> AdminNotesReceived { get; set; } = null!;
         public List<AdminNote> AdminNotesCreated { get; set; } = null!;

@@ -13,3 +13,12 @@ namespace Content.Shared.FloofStation.Info;
 /// </summary>
 [Serializable, NetSerializable]
 public sealed class ShowNsfwPopupDisclaimerMessage : EntityEventArgs;
+
+/// <summary>
+///     Client responded to the popup disclaimer.
+/// </summary>
+[Serializable, NetSerializable]
+public sealed class PopupDisclaimerResponseMessage : EntityEventArgs
+{
+    public bool Response { get; set; }
+}

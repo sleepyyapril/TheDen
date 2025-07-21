@@ -322,6 +322,7 @@ namespace Content.Server.Database
 
         Task<DateTimeOffset?> GetLastReadRules(NetUserId player);
         Task SetLastReadRules(NetUserId player, DateTimeOffset time);
+        Task SetAcceptedPrompt(NetUserId player, bool accepted);
 
         #endregion
 
@@ -856,6 +857,12 @@ namespace Content.Server.Database
         {
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.SetLastReadRules(player, time));
+        }
+
+        public Task SetAcceptedPrompt(NetUserId player, bool accepted)
+        {
+            DbWriteOpsMetric.Inc();
+            return RunDbCommand(() => _db.SetAcceptedPrompt(player, accepted));
         }
 
         public Task<int> AddAdminNote(int? roundId, Guid player, TimeSpan playtimeAtNote, string message, NoteSeverity severity, bool secret, Guid createdBy, DateTimeOffset createdAt, DateTimeOffset? expiryTime)
