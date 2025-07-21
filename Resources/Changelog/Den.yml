@@ -8459,3 +8459,10 @@ Entries:
   id: 808
   time: '2025-07-20T12:50:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1165
+- author: SirWarock
+  changes:
+    - type: Add
+      message: 'You can now see Reflect chances on your equipment! Horray! '
+  id: 809
+  time: '2025-07-21T01:39:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1166
