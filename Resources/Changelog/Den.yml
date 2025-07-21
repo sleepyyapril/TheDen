@@ -8512,3 +8512,14 @@ Entries:
   id: 815
   time: '2025-07-21T12:40:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1179
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Consent Examine can no longer be used on anything by admins.
+    - type: Fix
+      message: >-
+        Consent Examine no longer activates on click, instead only using the
+        verb.
+  id: 816
+  time: '2025-07-21T12:51:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1180
