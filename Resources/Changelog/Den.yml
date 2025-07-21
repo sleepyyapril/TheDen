@@ -8489,3 +8489,12 @@ Entries:
   id: 812
   time: '2025-07-21T08:36:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1167
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: The disclaimer popup will now only ever pop up once.
+    - type: Fix
+      message: The disclaimer popup will now kick you if you press escape.
+  id: 813
+  time: '2025-07-21T11:58:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1177
