@@ -859,6 +859,12 @@ namespace Content.Server.Database
             return RunDbCommand(() => _db.SetLastReadRules(player, time));
         }
 
+        public Task<DateTimeOffset?> HasAcceptedPrompt(NetUserId player)
+        {
+            DbReadOpsMetric.Inc();
+            return RunDbCommand(() => _db.HasAcceptedPrompt(player));
+        }
+
         public Task SetAcceptedPrompt(NetUserId player, bool accepted)
         {
             DbWriteOpsMetric.Inc();

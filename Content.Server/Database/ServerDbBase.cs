@@ -1141,6 +1141,18 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
             await db.DbContext.SaveChangesAsync();
         }
 
+        public async Task<bool> HasAcceptedPrompt(NetUserId player)
+        {
+            await using var db = await GetDb();
+
+            var dbPlayer = await db.DbContext.Player.Where(dbPlayer => dbPlayer.UserId == player).SingleOrDefaultAsync();
+
+            if (dbPlayer == null)
+                return false;
+
+            return dbPlayer.AcceptedPrompt ?? false;
+        }
+
         public async Task SetAcceptedPrompt(NetUserId player, bool accepted)
         {
             await using var db = await GetDb();
