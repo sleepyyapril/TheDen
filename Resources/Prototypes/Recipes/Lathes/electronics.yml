@@ -811,7 +811,7 @@
   completetime: 4
   materials:
      Steel: 50
-     Glass: 350
+     Glass: 450
 
 - type: latheRecipe
   id: PortableGeneratorSuperPacmanMachineCircuitboard
@@ -820,7 +820,7 @@
   completetime: 4
   materials:
      Steel: 50
-     Glass: 350
+     Glass: 450
 
 - type: latheRecipe
   id: PortableGeneratorJrPacmanMachineCircuitboard
@@ -829,7 +829,7 @@
   completetime: 4
   materials:
     Steel: 50
-    Glass: 350
+    Glass: 450
 
 - type: latheRecipe
   id: WallmountGeneratorElectronics
