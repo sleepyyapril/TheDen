@@ -8480,3 +8480,12 @@ Entries:
   id: 811
   time: '2025-07-21T04:59:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1170
+- author: Jakumba
+  changes:
+    - type: Add
+      message: >-
+        Slots to medical, salvage and security belts for medical tools, jaunters
+        and guns respectively
+  id: 812
+  time: '2025-07-21T08:36:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1167
