@@ -14,6 +14,7 @@
 # SPDX-FileCopyrightText: 2025 Tad "Taddy" Johnson
 # SPDX-FileCopyrightText: 2025 VMSolidus
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2025 neuPanda
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -1207,6 +1208,20 @@
         - Security
   items:
     - ClothingShoesBootsJack
+
+- type: loadout
+  id: LoadoutShoesSecheelsBlackstockings
+  category: JobsSecurityAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityShoes
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingShoesHeelsStockingsBlackSec
 
 - type: loadout
   id: LoadoutClothingShoesBootsCombat
