@@ -40,9 +40,9 @@
   requirements:
   - !type:CharacterOverallTimeRequirement
     min: 54000 # Floofstation - 15 hours
-  - !type:CharacterDepartmentTimeRequirement # DeltaV - Medical dept time requirement
-    department: Medical
-    min: 14400 # Floofstation - 4 hours
+  - !type:CharacterPlaytimeRequirement # DeltaV - Medical dept time requirement
+    tracker: JobChemist
+    min: 54000 # The Den - 15 hours of chemist.
   guides: [ NuclearOperatives ]
 
 - type: antag
@@ -56,10 +56,10 @@
     min: 54000 # Floofstation - 15 hours
   - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
     department: Security
-    min: 14400 # Floofstation - 4 hours
+    min: 54000 # The Den - 15 hours
   - !type:CharacterDepartmentTimeRequirement # DeltaV - Command dept time requirement
     department: Command
-    min: 14400 # Floofstation - 4 hours
+    min: 54000 # The Den - 15 hours
   - !type:CharacterWhitelistRequirement
   guides: [ NuclearOperatives ]
 
