@@ -24,4 +24,4 @@ jobs:
           pip install psutil
 
       - name: Run script
-        run: python debug.py
+        run: python Tools/debug(delete_later).py
