@@ -23,10 +23,7 @@ public sealed class SpawnPointSystem : EntitySystem
     private void OnPlayerSpawning(PlayerSpawningEvent args)
     {
         if (args.SpawnResult != null)
-        {
-            Log.Info("Exists spawnpoint");
             return;
-        }
 
         // TODO: Cache all this if it ends up important.
         var points = EntityQueryEnumerator<SpawnPointComponent, TransformComponent>();
@@ -88,7 +85,6 @@ public sealed class SpawnPointSystem : EntitySystem
 
             if (points2.MoveNext(out _, out var xform))
             {
-                Log.Info("HELP");
                 possiblePositions.Add(xform.Coordinates);
             }
             else
