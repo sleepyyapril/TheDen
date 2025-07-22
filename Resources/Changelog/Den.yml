@@ -8574,3 +8574,12 @@ Entries:
   id: 823
   time: '2025-07-22T15:21:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1196
+- author: Wheels
+  changes:
+    - type: Tweak
+      message: >-
+        SM and animal steal objectives will now check if they exist on the map
+        before rolling.
+  id: 824
+  time: '2025-07-22T15:32:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1189
