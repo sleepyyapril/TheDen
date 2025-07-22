@@ -8610,3 +8610,12 @@ Entries:
   id: 827
   time: '2025-07-22T21:08:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1200
+- author: wheelwrightt
+  changes:
+    - type: Add
+      message: >-
+        Basketballs, Beach balls, and Footballs are now catchable when thrown to
+        the player (aim a bit behind the sprite).
+  id: 828
+  time: '2025-07-22T22:19:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1195
