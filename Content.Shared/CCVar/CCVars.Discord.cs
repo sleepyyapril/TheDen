@@ -81,7 +81,7 @@ public sealed partial class CCVars
     ///     If left empty, disables the webhook.
     /// </summary>
     public static readonly CVarDef<string> DiscordNewsWebhook =
-        CVarDef.Create("discord.news_webhook", string.Empty, CVar.SERVERONLY);
+        CVarDef.Create("discord.news_webhook", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
     /// <summary>
     ///     HEX color of station news discord webhook's embed.
