@@ -8560,3 +8560,10 @@ Entries:
   id: 821
   time: '2025-07-22T07:11:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1191
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Added a Discord webhook that will receive station news
+  id: 822
+  time: '2025-07-22T08:34:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1194
