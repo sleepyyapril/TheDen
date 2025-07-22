@@ -72,6 +72,7 @@ public sealed class SpawnPointSystem : EntitySystem
                 possiblePositions.Add(xform.Coordinates);
             }
 
+            // shitcode.
             if (jobPrototype?.AlwaysUseSpawner == true
                 && spawnPoint.Job?.ID == args.Job)
             {
