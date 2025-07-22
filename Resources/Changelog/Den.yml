@@ -8537,3 +8537,12 @@ Entries:
   id: 818
   time: '2025-07-22T06:13:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1184
+- author: MajorMoth
+  changes:
+    - type: Fix
+      message: >-
+        Firelocks will now function properly, preventing spacing/fires from
+        spreading. 
+  id: 819
+  time: '2025-07-22T06:14:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1186
