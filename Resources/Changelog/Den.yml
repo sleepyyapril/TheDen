@@ -8594,3 +8594,12 @@ Entries:
   id: 825
   time: '2025-07-22T16:52:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1198
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the injury penalties for Xenos! They won't slow down after a bit
+        of punches anymore!
+  id: 826
+  time: '2025-07-22T17:22:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1193
