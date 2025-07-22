@@ -8603,3 +8603,10 @@ Entries:
   id: 826
   time: '2025-07-22T17:22:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1193
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: 'Chemist hours are now required for nukie medic. '
+  id: 827
+  time: '2025-07-22T21:08:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1200
