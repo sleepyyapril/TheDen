@@ -8546,3 +8546,10 @@ Entries:
   id: 819
   time: '2025-07-22T06:14:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1186
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: Ported better buy button placement for the uplink from wizden.
+  id: 820
+  time: '2025-07-22T06:15:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1185
