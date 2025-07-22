@@ -8530,3 +8530,10 @@ Entries:
   id: 817
   time: '2025-07-21T21:09:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1187
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: Ported roleban panel improvements from wizden.
+  id: 818
+  time: '2025-07-22T06:13:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1184
