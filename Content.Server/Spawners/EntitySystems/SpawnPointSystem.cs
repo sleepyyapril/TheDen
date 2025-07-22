@@ -1,3 +1,19 @@
+// SPDX-FileCopyrightText: 2022 Moony
+// SPDX-FileCopyrightText: 2022 Pieter-Jan Briers
+// SPDX-FileCopyrightText: 2023 Bakke
+// SPDX-FileCopyrightText: 2023 DrSmugleaf
+// SPDX-FileCopyrightText: 2023 Flipp Syder
+// SPDX-FileCopyrightText: 2023 ShadowCommander
+// SPDX-FileCopyrightText: 2023 Tom Leys
+// SPDX-FileCopyrightText: 2023 Visne
+// SPDX-FileCopyrightText: 2024 Errant
+// SPDX-FileCopyrightText: 2024 Krunklehorn
+// SPDX-FileCopyrightText: 2024 Leon Friedrich
+// SPDX-FileCopyrightText: 2024 metalgearsloth
+// SPDX-FileCopyrightText: 2024 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Server.GameTicking;
 using Content.Server.Spawners.Components;
 using Content.Server.Station.Systems;
@@ -23,10 +39,7 @@ public sealed class SpawnPointSystem : EntitySystem
     private void OnPlayerSpawning(PlayerSpawningEvent args)
     {
         if (args.SpawnResult != null)
-        {
-            Log.Info("Exists spawnpoint");
             return;
-        }
 
         // TODO: Cache all this if it ends up important.
         var points = EntityQueryEnumerator<SpawnPointComponent, TransformComponent>();
@@ -88,7 +101,6 @@ public sealed class SpawnPointSystem : EntitySystem
 
             if (points2.MoveNext(out _, out var xform))
             {
-                Log.Info("HELP");
                 possiblePositions.Add(xform.Coordinates);
             }
             else
