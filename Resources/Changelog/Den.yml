@@ -8626,3 +8626,12 @@ Entries:
   id: 829
   time: '2025-07-23T01:07:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1202
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Changed Ichor and Prometheum to heal evenly! Dragons and Chaplains
+        rejoice!
+  id: 830
+  time: '2025-07-23T12:03:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1192
