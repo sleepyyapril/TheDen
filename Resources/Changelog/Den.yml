@@ -8619,3 +8619,10 @@ Entries:
   id: 828
   time: '2025-07-22T22:19:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1195
+- author: neuPanda
+  changes:
+    - type: Add
+      message: Added new security boots
+  id: 829
+  time: '2025-07-23T01:07:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1202
