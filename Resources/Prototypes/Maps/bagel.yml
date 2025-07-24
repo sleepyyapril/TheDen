@@ -22,7 +22,7 @@
   mapName: 'Bagel Station'
   mapPath: /Maps/TheDen/bagel.yml
   minPlayers: 30
-  maxPlayers: 80
+  maxPlayers: 100 # The Den: we hit 80 and had no maps lmao
   stations:
     Bagel:
       stationProto: StandardNanotrasenStation

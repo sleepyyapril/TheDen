@@ -13,7 +13,7 @@
   mapName: 'Manta'
   mapPath: /Maps/TheDen/manta.yml
   minPlayers: 35
-  maxPlayers: 80
+  maxPlayers: 100 # The Den: we hit 80 and had no maps lmao
   stations:
     Manta:
       stationProto: StandardNanotrasenStation

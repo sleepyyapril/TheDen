@@ -23,7 +23,7 @@
   mapName: 'Edge'
   mapPath: /Maps/TheDen/edge.yml
   minPlayers: 5
-  maxPlayers: 80
+  maxPlayers: 100 # The Den: we hit 80 and had no maps lmao
   stations:
     Edge:
       stationProto: StandardNanotrasenStation

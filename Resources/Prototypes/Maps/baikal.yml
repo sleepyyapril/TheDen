@@ -14,7 +14,7 @@
   mapName: 'Baikal'
   mapPath: /Maps/TheDen/baikal.yml
   minPlayers: 25
-  maxPlayers: 80
+  maxPlayers: 100 # The Den: we hit 80 and had no maps lmao
   stations:
     Baikal:
       stationProto: StandardNanotrasenStation
