@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "ai_firewall, ai_hal_9000, ai_matrix, ai_triumvirate, ai_fuzzy pulled from TGstation at https://github.com/tgstation/tgstation/raw/refs/heads/master/icons/mob/silicon/ai.dmi with some modification by Monotheonist, ai_lamp and ai_lamp_dead pulled from Shiptest at https://github.com/shiptest-ss13/Shiptest/blob/master/icons/mob/ai.dmi.",
+    "copyright": "ai_firewall, ai_glitchman, ai_glitchman_dead, ai_hal_9000, ai_matrix, ai_triumvirate, ai_fuzzy pulled from TGstation at https://github.com/tgstation/tgstation/raw/refs/heads/master/icons/mob/silicon/ai.dmi with some modification by Monotheonist, ai_lamp and ai_lamp_dead pulled from Shiptest at https://github.com/shiptest-ss13/Shiptest/blob/master/icons/mob/ai.dmi.",
     "size": {
         "x": 32,
         "y": 32
@@ -39,6 +39,42 @@
             ]
         ]
         },
+         {
+      "name": "ai-glitchman",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "ai-glitchman_dead",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
         {
             "name": "ai_hal_9000"
         },
