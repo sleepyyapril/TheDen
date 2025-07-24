@@ -1,14 +1,14 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "ai-firewall, ai-matrix, ai-triumvirate, ai-fuzzy pulled from TGstation at https://github.com/tgstation/tgstation/raw/refs/heads/master/icons/mob/silicon/ai.dmi with some modification by Monotheonist.",
+    "copyright": "ai_firewall, ai_hal_9000, ai_matrix, ai_triumvirate, ai_fuzzy pulled from TGstation at https://github.com/tgstation/tgstation/raw/refs/heads/master/icons/mob/silicon/ai.dmi with some modification by Monotheonist, ai_lamp and ai_lamp_dead pulled from Shiptest at https://github.com/shiptest-ss13/Shiptest/blob/master/icons/mob/ai.dmi.",
     "size": {
         "x": 32,
         "y": 32
     },
     "states": [
         {
-            "name": "ai-firewall",
+            "name": "ai_firewall",
             "delays": [
                 [
                     0.2,
@@ -27,7 +27,7 @@
             ]
         },
         {
-        "name": "ai-fuzzy",
+        "name": "ai_fuzzy",
         "delays": [
             [
             0.1,
@@ -40,7 +40,46 @@
         ]
         },
         {
-            "name": "ai-matrix",
+            "name": "ai_hal_9000"
+        },
+    {
+      "name": "ai_lamp",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "ai_lamp_dead",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+        {
+            "name": "ai_matrix",
             "delays": [
             [
                 0.1,
@@ -77,6 +116,84 @@
                 0.1
             ]
           ]
-        }
+        },
+                {
+            "name": "ai_triumvirate",
+            "delays": [
+                [
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1,
+                0.1
+                    ]
+                ]
+            }
     ]
 }
