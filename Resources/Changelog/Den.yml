@@ -8667,3 +8667,12 @@ Entries:
   id: 834
   time: '2025-07-24T05:54:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1201
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Space Lungs not working! Better get those Surgery Documents
+        written!
+  id: 835
+  time: '2025-07-24T13:59:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1212
