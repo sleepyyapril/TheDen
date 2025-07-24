@@ -8676,3 +8676,10 @@ Entries:
   id: 835
   time: '2025-07-24T13:59:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1212
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: Electric grills and hotplates can now be anchored on tables.
+  id: 836
+  time: '2025-07-24T14:02:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1214
