@@ -8683,3 +8683,12 @@ Entries:
   id: 836
   time: '2025-07-24T14:02:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1214
+- author: trashalice
+  changes:
+    - type: Add
+      message: Jury handcannon to captain loadouts
+    - type: Remove
+      message: Your head after trying to rob captain.
+  id: 837
+  time: '2025-07-25T00:00:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1211
