@@ -6,6 +6,7 @@
 - type: latheRecipe
   id: WalkingCane
   result: WalkingCane
+  category: Assistance Devices
   completetime: 2
   materials:
     Steel: 100

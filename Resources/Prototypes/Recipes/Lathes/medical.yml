@@ -289,6 +289,7 @@
 - type: latheRecipe
   id: WhiteCane
   result: WhiteCane
+  category: Assistance Devices
   completetime: 2
   materials:
     Steel: 100
@@ -316,6 +317,7 @@
 - type: latheRecipe
   id: tampon
   result: tampon
+  category: Hygiene Products
   completetime: 1
   materials:
     Cloth: 10 #It doesn't really stop that much bleeding, so... fuck it
@@ -323,6 +325,7 @@
 - type: latheRecipe
   id: pad
   result: pad
+  category: Hygiene Products
   completetime: 1
   materials:
     Cloth: 100 #Less health than a gauze, but not by much.
@@ -330,6 +333,7 @@
 - type: latheRecipe
   id: liner
   result: liner
+  category: Hygiene Products
   completetime: 1
   materials:
     Cloth: 65 #Middle-of-the-road between Tampon and Pad.
@@ -337,6 +341,7 @@
 - type: latheRecipe
   id: CondomWrapped
   result: CondomWrapped
+  category: Hygiene Products
   completetime: 1
   materials:
     Plastic: 10 #we don't really have latex, and plastic is incredibly rare. As it's just an RP item right now, that bitch is tiny.

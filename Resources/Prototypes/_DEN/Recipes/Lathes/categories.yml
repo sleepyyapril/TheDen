@@ -6,3 +6,11 @@
 - type: latheCategory
   id: Towels
   name: lathe-category-towel
+
+- type: latheCategory
+  id: Assistance Devices
+  name: lathe-category-assistance-devices
+
+- type: latheCategory
+  id: Hygiene Products
+  name: lathe-category-hygiene-products

@@ -8,6 +8,7 @@
 - type: latheRecipe
   id: HypoMini
   result: HypoMini
+  category: Tools
   completetime: 40
   materials:
     PlasmaGlass: 500

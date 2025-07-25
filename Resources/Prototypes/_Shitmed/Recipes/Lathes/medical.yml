@@ -28,6 +28,7 @@
 - type: latheRecipe
   id: EnergyScalpel
   result: EnergyScalpel
+  category: Tools
   completetime: 2
   materials:
     Steel: 600
@@ -37,6 +38,7 @@
 - type: latheRecipe
   id: AdvancedRetractor
   result: AdvancedRetractor
+  category: Tools
   completetime: 2
   materials:
     Steel: 600
@@ -46,6 +48,7 @@
 - type: latheRecipe
   id: EnergyCautery
   result: EnergyCautery
+  category: Tools
   completetime: 2
   materials:
     Steel: 600
@@ -55,6 +58,7 @@
 - type: latheRecipe
   id: OmnimedTool
   result: OmnimedTool
+  category: Tools
   completetime: 2
   materials:
     Steel: 1200
