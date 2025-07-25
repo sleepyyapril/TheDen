@@ -173,7 +173,7 @@
   previewKey: Hologram
   layerData:
     Hologram:
-      sprite: Mobs/Silicon/holograms.rsi
+      sprite: _DEN/Mobs/Silicon/holograms.rsi
       state: ai_borb
 
 - type: stationAiCustomization
@@ -191,5 +191,5 @@
   previewKey: Hologram
   layerData:
     Hologram:
-      sprite: Mobs/Silicon/holograms.rsi
+      sprite: _DEN/Mobs/Silicon/holograms.rsi
       state: ai_frostphoenix
