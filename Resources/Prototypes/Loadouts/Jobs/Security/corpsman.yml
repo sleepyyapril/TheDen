@@ -262,20 +262,6 @@
 
 # Mask
 - type: loadout
-  id: LoadoutClothingMaskGasSecurity
-  category: JobsSecurityCorpsman
-  cost: 0
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutCorpsmanMask
-    - !type:CharacterJobRequirement
-      jobs:
-        - Brigmedic
-  items:
-    - ClothingMaskGasSecurity
-
-- type: loadout
   id: LoadoutClothingMaskSterileCorpsman
   category: JobsSecurityCorpsman
   cost: 0
