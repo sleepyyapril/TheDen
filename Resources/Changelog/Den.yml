@@ -8710,3 +8710,10 @@ Entries:
   id: 839
   time: '2025-07-25T12:37:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1224
+- author: Deathninja5551
+  changes:
+    - type: Fix
+      message: Made Unathi's tail thump emote mono. Ears rejoice!
+  id: 840
+  time: '2025-07-25T12:49:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1221
