@@ -8,7 +8,7 @@
     },
     "states": [
             {
-      "name": "ai-anima",
+      "name": "ai_anima",
       "delays": [
                 [
                 0.1,
@@ -21,7 +21,7 @@
             ]
         },
         {
-        "name": "ai-borb",
+        "name": "ai_borb",
         "delays": [
                 [
                 0.15,
@@ -50,7 +50,7 @@
             ]
         },
         {
-        "name": "ai-darkmatter",
+        "name": "ai_darkmatter",
         "delays": [
             [
             0.1,
@@ -170,7 +170,7 @@
       ]
     },
         {
-        "name": "ai-liz",
+        "name": "ai_liz",
         "delays": [
             [
             0.1,
@@ -317,7 +317,7 @@
                 ]
             },
             {
-        "name": "ai-vox",
+        "name": "ai_vox",
         "delays": [
             [
             0.1,
