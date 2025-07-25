@@ -8699,3 +8699,14 @@ Entries:
   id: 838
   time: '2025-07-25T00:02:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1213
+- author: wheelwrightt
+  changes:
+    - type: Add
+      message: 'Slime people now have an emote to bubble and pop '
+    - type: Add
+      message: Knuckle cracking for all species
+    - type: Fix
+      message: Trill emote name now displays properly
+  id: 839
+  time: '2025-07-25T12:37:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1224
