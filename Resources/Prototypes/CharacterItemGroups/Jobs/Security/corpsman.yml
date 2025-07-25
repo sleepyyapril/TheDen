@@ -93,8 +93,6 @@
   maxItems: 1
   items:
     - type: loadout
-      id: LoadoutClothingMaskGasSecurity
-    - type: loadout
       id: LoadoutClothingMaskSterileCorpsman
     - type: loadout
       id: LoadoutClothingMaskBreathMedical
