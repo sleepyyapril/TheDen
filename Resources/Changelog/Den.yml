@@ -8692,3 +8692,10 @@ Entries:
   id: 837
   time: '2025-07-25T00:00:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1211
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Max player count for several maps increased beyond max player cap.
+  id: 838
+  time: '2025-07-25T00:02:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1213
