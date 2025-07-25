@@ -8763,3 +8763,10 @@ Entries:
   id: 844
   time: '2025-07-25T17:53:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1225
+- author: Deathninja5551
+  changes:
+    - type: Tweak
+      message: Made Security's gas mask less Corpsman exclusive.
+  id: 845
+  time: '2025-07-25T21:23:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1223
