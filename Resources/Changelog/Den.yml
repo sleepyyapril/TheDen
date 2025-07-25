@@ -8724,3 +8724,12 @@ Entries:
   id: 841
   time: '2025-07-25T13:43:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1222
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        New cable sprites. They are offset, allowing for greater visibility of
+        subfloor entities.
+  id: 842
+  time: '2025-07-25T13:47:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1207
