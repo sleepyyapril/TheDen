@@ -1084,6 +1084,20 @@
 
 # Mask
 - type: loadout
+  id: LoadoutClothingMaskGasSecurity
+  category: JobsSecurityAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityMask
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingMaskGasSecurity
+
+- type: loadout
   id: LoadoutSecurityMaskGasSwat
   category: JobsSecurityAUncategorized
   cost: 0
