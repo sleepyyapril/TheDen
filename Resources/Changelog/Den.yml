@@ -8567,3 +8567,135 @@ Entries:
   id: 822
   time: '2025-07-22T08:34:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1194
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: 'Prisoners will use the prisoner spawnpoints. '
+  id: 823
+  time: '2025-07-22T15:21:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1196
+- author: Wheels
+  changes:
+    - type: Tweak
+      message: >-
+        SM and animal steal objectives will now check if they exist on the map
+        before rolling.
+  id: 824
+  time: '2025-07-22T15:32:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1189
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Lathes no longer spam with recipes they didn't receive anything from.
+    - type: Fix
+      message: >-
+        Lathes will no longer announce stations on a separate grid from the
+        research server.
+  id: 825
+  time: '2025-07-22T16:52:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1198
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the injury penalties for Xenos! They won't slow down after a bit
+        of punches anymore!
+  id: 826
+  time: '2025-07-22T17:22:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1193
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: 'Chemist hours are now required for nukie medic. '
+  id: 827
+  time: '2025-07-22T21:08:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1200
+- author: wheelwrightt
+  changes:
+    - type: Add
+      message: >-
+        Basketballs, Beach balls, and Footballs are now catchable when thrown to
+        the player (aim a bit behind the sprite).
+  id: 828
+  time: '2025-07-22T22:19:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1195
+- author: neuPanda
+  changes:
+    - type: Add
+      message: Added new security boots
+  id: 829
+  time: '2025-07-23T01:07:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1202
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Changed Ichor and Prometheum to heal evenly! Dragons and Chaplains
+        rejoice!
+  id: 830
+  time: '2025-07-23T12:03:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1192
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Lotophago oil seemingly randomly making you stutter or slurr your
+        words forever! Yes, it bothered me enough to fix it myself.
+  id: 831
+  time: '2025-07-23T12:07:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1203
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: various fixes (manta)
+  id: 832
+  time: '2025-07-23T19:45:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1208
+- author: Jakumba
+  changes:
+    - type: Add
+      message: CRIT AT THE PIT
+  id: 833
+  time: '2025-07-23T22:54:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1210
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: >-
+        The cap combat gas mask, sec combat gas mask and swat mask will now stop
+        you from inhaling smoke.
+  id: 834
+  time: '2025-07-24T05:54:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1201
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Space Lungs not working! Better get those Surgery Documents
+        written!
+  id: 835
+  time: '2025-07-24T13:59:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1212
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: Electric grills and hotplates can now be anchored on tables.
+  id: 836
+  time: '2025-07-24T14:02:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1214
+- author: trashalice
+  changes:
+    - type: Add
+      message: Jury handcannon to captain loadouts
+    - type: Remove
+      message: Your head after trying to rob captain.
+  id: 837
+  time: '2025-07-25T00:00:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1211
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Max player count for several maps increased beyond max player cap.
+  id: 838
+  time: '2025-07-25T00:02:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1213
