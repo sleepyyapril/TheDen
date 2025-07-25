@@ -12,6 +12,7 @@
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 Skubman
 # SPDX-FileCopyrightText: 2025 Tad "Taddy" Johnson
+# SPDX-FileCopyrightText: 2025 Tanix
 # SPDX-FileCopyrightText: 2025 VMSolidus
 # SPDX-FileCopyrightText: 2025 juniwoofs
 # SPDX-FileCopyrightText: 2025 neuPanda
@@ -1084,6 +1085,20 @@
 # Neck
 
 # Mask
+- type: loadout
+  id: LoadoutClothingMaskGasSecurity
+  category: JobsSecurityAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityMask
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - ClothingMaskGasSecurity
+
 - type: loadout
   id: LoadoutSecurityMaskGasSwat
   category: JobsSecurityAUncategorized
