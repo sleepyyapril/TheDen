@@ -47,7 +47,7 @@
       state: ai_firewall
     Dead:
       sprite: Mobs/Silicon/station_ai.rsi
-      state: ai_dead
+      state: ai_red_dead
 
 - type: stationAiCustomization
   parent: StationAiIconBase
@@ -58,8 +58,8 @@
       sprite: _DEN/Mobs/Silicon/station_ai.rsi
       state: ai_fuzzy
     Dead:
-      sprite: Mobs/Silicon/station_ai.rsi
-      state: ai_empty # Note for future me: I would really like to just make this a shattered screen given the static indicates some sort of off state
+      sprite: _DEN/Mobs/Silicon/station_ai.rsi
+      state: ai_broken_dead
 
 - type: stationAiCustomization
   parent: StationAiIconBase
@@ -82,8 +82,8 @@
       sprite: _DEN/Mobs/Silicon/station_ai.rsi
       state: ai_hal_9000
     Dead:
-      sprite: Mobs/Silicon/station_ai.rsi
-      state: ai_clown_dead # Don't ask, I just feel like this one works better at this juncture right now. I want it to be red, but rainbow is my only option
+      sprite: _DEN/Mobs/Silicon/station_ai.rsi
+      state: ai_red_dead
 
 - type: stationAiCustomization
   parent: StationAiIconBase
@@ -118,8 +118,8 @@
       sprite: _DEN/Mobs/Silicon/station_ai.rsi
       state: ai_matrix
     Dead:
-      sprite: Mobs/Silicon/station_ai.rsi
-      state: ai_dead #Same as red dot, I want this to be green
+      sprite: _DEN/Mobs/Silicon/station_ai.rsi
+      state: ai_green_dead
 
 - type: stationAiCustomization
   parent: StationAiIconBase
