@@ -27,6 +27,8 @@
 # SPDX-FileCopyrightText: 2024 sleepyyapril <flyingkarii@gmail.com>
 # SPDX-FileCopyrightText: 2025 Forzii <github@pawsitive.mozmail.com>
 # SPDX-FileCopyrightText: 2025 portfiend <109661617+portfiend@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 88tv <131759102+88tv@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 YoungThug <ramialanbagy@gmail.com>
 # SPDX-FileCopyrightText: 2025 skyr0cket01 <skyr0cketz00m519@gmail.com>
 # SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
 #
@@ -129,6 +131,8 @@
       Male: UnisexDiona
       Female: UnisexDiona
       Unsexed: UnisexDiona
+  - type: TypingIndicator
+    proto: diona
   - type: BodyEmotes
     soundsId: DionaBodyEmotes
   - type: IgnoreKudzu

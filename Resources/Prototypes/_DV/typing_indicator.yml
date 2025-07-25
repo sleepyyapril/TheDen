@@ -1,5 +1,7 @@
 # SPDX-FileCopyrightText: 2025 Blitz <73762869+BlitzTheSquishy@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 M3739 <47579354+M3739@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 88tv <131759102+88tv@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 8tv <eightev@gmail.com>
 # SPDX-FileCopyrightText: 2025 Rosycup <178287475+Rosycup@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Tabitha <64847293+KyuPolaris@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
@@ -10,12 +12,14 @@
   id: felinid
   spritePath: /Textures/_DV/Effects/speech.rsi
   typingState: felinid0
+  idleState: felinid0 #TODO add idle state sprite
   offset: 0, 0.2 # 0625
 
 - type: typingIndicator
   id: rodentia
   spritePath: /Textures/_DV/Effects/speech.rsi
   typingState: rodentia0
+  idleState: rodentia0 #TODO add idle state sprite
   offset: 0, 0.2 # 0625
 
 - type: typingIndicator
@@ -34,3 +38,10 @@
   spritePath: /Textures/_DV/Effects/speech.rsi # Floof - M3739 - #937
   typingState: kitsune0
   offset: 0, 0.25
+
+- type: typingIndicator
+  id: thaven
+  spritePath: /Textures/_DV/Effects/speech.rsi
+  typingState: thaven0
+  idleState: thaven0 #TODO add idle state sprite
+  offset: -0.2, 0.1 # 0625
