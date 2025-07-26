@@ -1,4 +1,8 @@
-﻿using System;
+// SPDX-FileCopyrightText: 2025 Cam
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using System;
 using System.Linq;
 using System.Numerics;
 using Content.Client.UserInterface.Controls;

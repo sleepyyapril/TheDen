@@ -1,4 +1,8 @@
-﻿using System.Runtime.CompilerServices;
+// SPDX-FileCopyrightText: 2025 Cam
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using System.Runtime.CompilerServices;
 
 
 public sealed class MathUtils
