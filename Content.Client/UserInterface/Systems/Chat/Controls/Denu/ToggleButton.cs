@@ -1,6 +1,5 @@
-// SPDX-FileCopyrightText: 2025 Cam
-// SPDX-FileCopyrightText: 2025 Cami
-// SPDX-FileCopyrightText: 2025 sleepyyapril
+// SPDX-FileCopyrightText: 2025 Cami <147159915+Camdot@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -8,10 +7,10 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Timing;
 
 
-namespace Content.Client.UserInterface.Systems.Chat.Controls.Denu.Components;
+namespace Content.Client.UserInterface.Systems.Chat.Controls.Denu;
 
 
-public class ToggleCheckbox : CheckBox
+public class ToggleButton : Button
 {
     public long UpdatePeriod { get; set; } = 1000;
     public Action OnToggledOn { get; set; } = () => { };
@@ -20,8 +19,9 @@ public class ToggleCheckbox : CheckBox
 
     long _lastUpdate = 0;
 
-    public ToggleCheckbox()
+    public ToggleButton()
     {
+        ToggleMode = true;
         OnToggled += e => OnToggleChanged(e.Pressed);
     }
 
