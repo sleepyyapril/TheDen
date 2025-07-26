@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2024 VMSolidus
+# SPDX-FileCopyrightText: 2025 M3739
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 # All Command
 #- type: characterItemGroup
 #  id: LoadoutCommandBackpacks
@@ -52,10 +58,12 @@
 #  maxItems: 1
 #  items:
 
-#- type: characterItemGroup
-#  id: LoadoutCommandNeck
-#  maxItems: 1
-#  items:
+- type: characterItemGroup
+  id: LoadoutCommandNeck
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutCommandNeckNeckerchief # Floof - M3739 - #988
 
 #- type: characterItemGroup
 #  id: LoadoutCommandMask

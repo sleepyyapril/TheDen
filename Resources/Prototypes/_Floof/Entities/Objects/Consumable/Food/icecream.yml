@@ -1,3 +1,10 @@
+# SPDX-FileCopyrightText: 2024 Fansana
+# SPDX-FileCopyrightText: 2025 Rosycup
+# SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 - type: entity
   parent: FoodBase
   id: IceCreamBowlBase
@@ -85,6 +92,10 @@
           Quantity: 5
         - ReagentId: Blood
           Quantity: 20
+  - type: Tag
+    tags:
+    - IceCream
+    - VampireFood
 
 - type: entity
   name: caramel ice cream

@@ -1,3 +1,12 @@
+# SPDX-FileCopyrightText: 2025 Blitz <73762869+BlitzTheSquishy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Rosycup <178287475+Rosycup@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Tabitha <64847293+KyuPolaris@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 foxcurl <kitshoffeitt@gmail.com>
+# SPDX-FileCopyrightText: 2025 portfiend <109661617+portfiend@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 trait-name-Heavyweight = Heavyweight
 trait-description-Heavyweight =
     You are naturally heavier than other representatives of your species. Your body density is increased by 1/3 of normal.
@@ -42,3 +51,17 @@ trait-description-Detritivore = Your hardy digestive system is well-equipped for
     Gastrotoxin and mold have no ill effects on you, and will restore your hunger.
     You can also digest uncooked animal proteins (raw meat) if you do not already have the ability
     to do so, and even rotting animal corpses will be safe for consumption.
+
+trait-name-VoxPidgin = Vox-Pidgin
+trait-description-VoxPidgin =
+    The common tongue of the various Vox ships making up the Shoal. It sounds like chaotic shrieking to everyone else.
+    The sounds in this language can only be produced by a Vox's unique Syrinx.
+    Note: [color=red]This trait only allows you to understand Vox-Pidgin. You will not be able to speak it.[/color]
+
+trait-name-SharpTeeth = Sharp Teeth
+trait-description-SharpTeeth =
+    You were born with or have had your teeth modified to be sharper.
+    These could come from gene modifications, a genetic legacy,
+    or even custom made implants designed to turn teeth into tiny knives.
+    Your unarmed melee attacks deal Piercing damage instead of the standard damage type for your species.
+    This has no effect on damage dealt with any form of armed melee.

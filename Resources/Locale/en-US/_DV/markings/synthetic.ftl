@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Falcon <falcon@zigtag.dev>
+# SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 # Antennae
 marking-SynthAntennaBasic = Synth Antenna Basic
 marking-SynthAntennaBasic-synth_antenna_basic = Primary
@@ -59,6 +64,7 @@ marking-SyntheticLizardSnoutBarlessTertUnder-synth_lizard_snout_barless_tert_und
 marking-SyntheticLizardSnoutBarlessUnder = Synth Lizard Snout Barless Under
 marking-SyntheticLizardSnoutBarlessUnder-synth_lizard_snout_barless_under_1 = Primary
 marking-SyntheticLizardSnoutBarlessUnder-synth_lizard_snout_barless_under_2 = Secondary
+marking-SyntheticLizardSnoutBarlessUnder-synth_lizard_snout_barless_under_3 = Screen
 
 marking-SyntheticLizardSnoutLong = Synth Lizard Snout Long
 marking-SyntheticLizardSnoutLong-synth_lizard_snout_long = Primary
@@ -89,6 +95,9 @@ marking-SyntheticLizardSnoutUnder-synth_lizard_snout_under_2 = Chin
 marking-SyntheticLizardSnoutBasic = Synth Lizard Snout Basic
 marking-SyntheticLizardSnoutBasic-synth_lizard_snout_basic = Primary
 
+marking-IPCHeadMuzzle = Tajaran Muzzle
+marking-IPCHeadMuzzle-muzzle = Muzzle
+
 # Heads
 marking-SyntheticLizardHeadM = Synth Lizard Head Masculine
 marking-SyntheticLizardHeadM-synth_lizard_head_m = Primary
@@ -100,8 +109,8 @@ marking-SyntheticVulpkaninHead = Vulpkanin Head from Ward-Takahashi
 marking-SyntheticVulpkaninHead-vulp_head = Primary
 
 # Eyes
-marking-ProtogenEyes = Protogen Screen
-marking-ProtogenEyes-protogen_eyes = Primary
+marking-ProtogenMouth = Protogen Mouth
+marking-ProtogenMouth-protogen_mouth = Primary
 
 marking-SyntheticIPCEyes = Anthropomorphic Eyes
 marking-SyntheticIPCEyes-eyes = Primary

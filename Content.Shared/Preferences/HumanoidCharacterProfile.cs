@@ -1,3 +1,41 @@
+// SPDX-FileCopyrightText: 2020 20kdc
+// SPDX-FileCopyrightText: 2020 DamianX
+// SPDX-FileCopyrightText: 2020 Víctor Aguilera Puerto
+// SPDX-FileCopyrightText: 2021 Acruid
+// SPDX-FileCopyrightText: 2021 Metal Gear Sloth
+// SPDX-FileCopyrightText: 2021 Remie Richards
+// SPDX-FileCopyrightText: 2021 ShadowCommander
+// SPDX-FileCopyrightText: 2021 Swept
+// SPDX-FileCopyrightText: 2021 ike709
+// SPDX-FileCopyrightText: 2022 AJCM-git
+// SPDX-FileCopyrightText: 2022 Moony
+// SPDX-FileCopyrightText: 2022 Rane
+// SPDX-FileCopyrightText: 2022 T-Stalker
+// SPDX-FileCopyrightText: 2022 Veritius
+// SPDX-FileCopyrightText: 2022 Visne
+// SPDX-FileCopyrightText: 2022 mirrorcult
+// SPDX-FileCopyrightText: 2022 wrexbe
+// SPDX-FileCopyrightText: 2023 DrSmugleaf
+// SPDX-FileCopyrightText: 2023 Echo
+// SPDX-FileCopyrightText: 2023 Flipp Syder
+// SPDX-FileCopyrightText: 2023 Morb
+// SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
+// SPDX-FileCopyrightText: 2024 Debug
+// SPDX-FileCopyrightText: 2024 FoxxoTrystan
+// SPDX-FileCopyrightText: 2024 Krunklehorn
+// SPDX-FileCopyrightText: 2024 Leon Friedrich
+// SPDX-FileCopyrightText: 2024 Mr. 27
+// SPDX-FileCopyrightText: 2024 Pieter-Jan Briers
+// SPDX-FileCopyrightText: 2024 metalgearsloth
+// SPDX-FileCopyrightText: 2025 Lyndomen
+// SPDX-FileCopyrightText: 2025 Spatison
+// SPDX-FileCopyrightText: 2025 Timfa
+// SPDX-FileCopyrightText: 2025 VMSolidus
+// SPDX-FileCopyrightText: 2025 portfiend
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 using System.Linq;
 using System.Text.RegularExpressions;
 using Content.Shared.CCVar;
@@ -319,6 +357,22 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         };
     }
 
+    public static HumanoidCharacterProfile RandomBody(HumanoidCharacterProfile profile)
+    {
+        return new HumanoidCharacterProfile()
+        {
+            Name = profile.Name,
+            Sex = profile.Sex,
+            Age = profile.Age,
+            Gender = profile.Gender,
+            Species = profile.Species,
+            Appearance = HumanoidCharacterAppearance.Random(profile.Species, profile.Sex),
+            Nationality = profile.Nationality,
+            Employer = profile.Employer,
+            Lifepath = profile.Lifepath,
+        };
+    }
+
     public HumanoidCharacterProfile WithName(string name) => new(this) { Name = name };
     public HumanoidCharacterProfile WithFlavorText(string flavorText) => new(this) { FlavorText = flavorText };
     public HumanoidCharacterProfile WithAge(int age) => new(this) { Age = age };
@@ -402,11 +456,23 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         string? customColor = null,
         bool? customHeirloom = null)
     {
-        var list = new HashSet<LoadoutPreference>(_loadoutPreferences);
+        var newPref = new LoadoutPreference(loadoutId,
+            customName,
+            customDescription,
+            customColor,
+            customHeirloom)
+        { Selected = pref };
 
-        list.RemoveWhere(l => l.LoadoutName == loadoutId);
-        if (pref)
-            list.Add(new(loadoutId, customName, customDescription, customColor, customHeirloom) { Selected = pref });
+        return WithLoadoutPreference(newPref);
+    }
+
+    public HumanoidCharacterProfile WithLoadoutPreference(LoadoutPreference preference)
+    {
+        var list = new HashSet<LoadoutPreference>(_loadoutPreferences);
+        list.RemoveWhere(l => l.LoadoutName == preference.LoadoutName);
+
+        if (preference.Selected)
+            list.Add(preference);
 
         return new HumanoidCharacterProfile(this) { _loadoutPreferences = list };
     }

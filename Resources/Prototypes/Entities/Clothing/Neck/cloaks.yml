@@ -1,3 +1,33 @@
+# SPDX-FileCopyrightText: 2020 AJCM
+# SPDX-FileCopyrightText: 2020 AJCM-git
+# SPDX-FileCopyrightText: 2020 FrostMando
+# SPDX-FileCopyrightText: 2020 Paul Ritter
+# SPDX-FileCopyrightText: 2020 Pieter-Jan Briers
+# SPDX-FileCopyrightText: 2020 Swept
+# SPDX-FileCopyrightText: 2020 py01
+# SPDX-FileCopyrightText: 2021 DmitriyRubetskoy
+# SPDX-FileCopyrightText: 2021 DrSmugleaf
+# SPDX-FileCopyrightText: 2021 xRiriq
+# SPDX-FileCopyrightText: 2022 Emisse
+# SPDX-FileCopyrightText: 2022 Kara
+# SPDX-FileCopyrightText: 2022 Pancake
+# SPDX-FileCopyrightText: 2022 Ranger6012
+# SPDX-FileCopyrightText: 2023 Ed
+# SPDX-FileCopyrightText: 2023 Fluffiest Floofers
+# SPDX-FileCopyrightText: 2023 Puro
+# SPDX-FileCopyrightText: 2023 Tony
+# SPDX-FileCopyrightText: 2023 brainfood1183
+# SPDX-FileCopyrightText: 2023 metalgearsloth
+# SPDX-FileCopyrightText: 2023 nmajask
+# SPDX-FileCopyrightText: 2024 2013HORSEMEATSCANDAL
+# SPDX-FileCopyrightText: 2024 Aexxie
+# SPDX-FileCopyrightText: 2024 TherapyGoth
+# SPDX-FileCopyrightText: 2024 deltanedas
+# SPDX-FileCopyrightText: 2025 Eris
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCentcom
@@ -18,7 +48,7 @@
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/cap.rsi
   - type: StealTarget
-    stealGroup: HeadCloak
+    stealGroup: CaptainsCloak # DeltaV: replaces HeadCloak for ninja
 
 - type: entity
   parent: ClothingNeckBase
@@ -113,7 +143,7 @@
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/capcloakformal.rsi
   - type: StealTarget
-    stealGroup: HeadCloak
+    stealGroup: CaptainsCloak # DeltaV: replaces HeadCloak for ninja
 
 - type: entity
   parent: ClothingNeckBase

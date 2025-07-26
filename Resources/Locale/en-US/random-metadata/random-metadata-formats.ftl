@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Blitz <73762869+BlitzTheSquishy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 random-metadata-name-format-default = {$part0}
 random-metadata-description-format-default = {$part0}
 
@@ -8,6 +13,7 @@ name-format-regal-rat = {$part0} {$part1}
 name-format-revenant = The {$part0} of {$part1} {$part2}
 name-format-ninja = {$part0} {$part1}
 name-format-wizard = {$part0} {$part1}
+name-format-dragon = {$part0} {$part1}
 
 # "<title> <name>"
 name-format-nukie-generic = {$part0} {$part1}

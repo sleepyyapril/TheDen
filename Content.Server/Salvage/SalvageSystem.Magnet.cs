@@ -1,6 +1,18 @@
+// SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
+// SPDX-FileCopyrightText: 2024 Emisse
+// SPDX-FileCopyrightText: 2024 metalgearsloth
+// SPDX-FileCopyrightText: 2025 Blitz
+// SPDX-FileCopyrightText: 2025 BlitzTheSquishy
+// SPDX-FileCopyrightText: 2025 Falcon
+// SPDX-FileCopyrightText: 2025 Leon Friedrich
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 using System.Linq;
 using System.Numerics;
 using System.Threading.Tasks;
+using Content.Server.Salvage.Components;
 using Content.Server.Salvage.Magnet;
 using Content.Shared.Humanoid;
 using Content.Shared.Mobs.Components;
@@ -36,6 +48,24 @@ public sealed partial class SalvageSystem
     private void OnMagnetClaim(EntityUid uid, SalvageMagnetComponent component, ref MagnetClaimOfferEvent args)
     {
         var station = _station.GetOwningStation(uid);
+
+        if (TryComp<SalvageLastStationComponent>(uid, out var prevStation))
+        {
+            if (station != null)
+                prevStation.StationID = (EntityUid) station;
+            else if (station == null)
+                station = prevStation.StationID;
+        }
+
+        if (prevStation != null && prevStation.StationID == null && station == null)
+        {
+            var stationQuery = EntityQueryEnumerator<SalvageMagnetDataComponent>();
+            while (stationQuery.MoveNext(out var foundStation, out var salvageMagnetData))
+            {
+                station = foundStation;
+                prevStation.StationID = (EntityUid) station;
+            }
+        }
 
         if (!TryComp(station, out SalvageMagnetDataComponent? dataComp) ||
             dataComp.EndTime != null)
@@ -193,10 +223,27 @@ public sealed partial class SalvageSystem
 
         while (query.MoveNext(out var magnetUid, out var magnet, out var xform))
         {
-            var stationUid = _station.GetOwningStation(magnetUid, xform);
+            var station = _station.GetOwningStation(magnetUid, xform);
 
-            if (stationUid != data.Owner)
-                continue;
+            if (TryComp<SalvageLastStationComponent>(magnetUid, out var prevStation))
+            {
+                if (station != null)
+                    prevStation.StationID = (EntityUid) station;
+                else if (station == null)
+                    station = prevStation.StationID;
+            }
+
+            if (prevStation != null && prevStation.StationID == null && station == null)
+            {
+                var stationQuery = EntityQueryEnumerator<SalvageMagnetDataComponent>();
+                while (stationQuery.MoveNext(out var foundStation, out var salvageMagnetData))
+                {
+                    station = foundStation;
+                    prevStation.StationID = (EntityUid) station;
+                }
+            }
+            //if (station != data.Owner)
+            //    continue;
 
             return (magnetUid, magnet);
         }
@@ -207,6 +254,24 @@ public sealed partial class SalvageSystem
     private void UpdateMagnetUI(Entity<SalvageMagnetComponent> entity, TransformComponent xform)
     {
         var station = _station.GetOwningStation(entity, xform);
+
+        if (TryComp<SalvageLastStationComponent>(entity.Owner, out var prevStation))
+        {
+            if (station != null)
+                prevStation.StationID = (EntityUid) station;
+            else if (station == null)
+                station = prevStation.StationID;
+        }
+
+        if (prevStation != null && prevStation.StationID == null && station == null)
+        {
+            var stationQuery = EntityQueryEnumerator<SalvageMagnetDataComponent>();
+            while (stationQuery.MoveNext(out var foundStation, out var salvageMagnetData))
+            {
+                station = foundStation;
+                prevStation.StationID = (EntityUid) station;
+            }
+        }
 
         if (!TryComp(station, out SalvageMagnetDataComponent? dataComp))
             return;
@@ -230,8 +295,26 @@ public sealed partial class SalvageSystem
         {
             var station = _station.GetOwningStation(magnetUid, xform);
 
-            if (station != data.Owner)
-                continue;
+            if (TryComp<SalvageLastStationComponent>(magnetUid, out var prevStation))
+            {
+                if (station != null)
+                    prevStation.StationID = (EntityUid) station;
+                else if (station == null)
+                    station = prevStation.StationID;
+            }
+
+            if (prevStation != null && prevStation.StationID == null && station == null)
+            {
+                var stationQuery = EntityQueryEnumerator<SalvageMagnetDataComponent>();
+                while (stationQuery.MoveNext(out var foundStation, out var salvageMagnetData))
+                {
+                    station = foundStation;
+                    prevStation.StationID = (EntityUid) station;
+                }
+            }
+
+            //if (station != data.Owner)
+            //    continue;
 
             _ui.SetUiState(magnetUid, SalvageMagnetUiKey.Key,
                 new SalvageMagnetBoundUserInterfaceState(data.Comp.Offered)

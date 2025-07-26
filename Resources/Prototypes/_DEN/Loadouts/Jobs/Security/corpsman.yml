@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Blitz <73762869+BlitzTheSquishy@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 - type: loadout
   id: LoadoutUniformJumpsuitCorpsman
   category: JobsSecurityCorpsman
@@ -5,7 +10,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutCorpsmanUniform
+      group: LoadoutCorpsmanUniforms
     - !type:CharacterJobRequirement
       jobs:
         - Brigmedic
@@ -19,9 +24,23 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutCorpsmanUniform
+      group: LoadoutCorpsmanUniforms
     - !type:CharacterJobRequirement
       jobs:
         - Brigmedic
   items:
     - ClothingUniformJumpskirtBrigmedic
+
+- type: loadout
+  id: LoadoutCorpsmanBackpackMessenger
+  category: JobsSecurityCorpsman
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCorpsmanBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - Brigmedic
+  items:
+    - ClothingBackpackMessengerBrigmedic

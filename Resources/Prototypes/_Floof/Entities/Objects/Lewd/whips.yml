@@ -1,8 +1,18 @@
+# SPDX-FileCopyrightText: 2024 Pierson Arnold
+# SPDX-FileCopyrightText: 2025 Rosycup
+# SPDX-FileCopyrightText: 2025 neuPanda
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 - type: entity
   parent: BaseItem
   id: BaseWhip
   abstract: true
   components:
+  - type: Tag
+    tags:
+    - Sidearm
   - type: MeleeWeapon
     wideAnimationRotation: -135
     damage:

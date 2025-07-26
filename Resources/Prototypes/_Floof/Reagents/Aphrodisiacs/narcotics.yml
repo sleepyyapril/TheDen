@@ -1,3 +1,14 @@
+# SPDX-FileCopyrightText: 2024 FoxxoTrystan
+# SPDX-FileCopyrightText: 2024 ShatteredSwords
+# SPDX-FileCopyrightText: 2025 MajorMoth
+# SPDX-FileCopyrightText: 2025 Rosycup
+# SPDX-FileCopyrightText: 2025 SleepyScarecrow
+# SPDX-FileCopyrightText: 2025 Vanessa
+# SPDX-FileCopyrightText: 2025 Vanessa Louwagie
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 - type: reagent
   id: Libidozenithizine
   name: reagent-name-libidozenithizine
@@ -8,7 +19,7 @@
   color: "#c90084"
   metabolisms:
     Narcotic:
-      metabolismRate : 0.1
+      metabolismRate : 0.01
       effects:
       - !type:PopupMessage
         type: Local
@@ -49,3 +60,4 @@
         conditions:
           - !type:ReagentThreshold
             max: 0.1
+  noRandom: true # The Den

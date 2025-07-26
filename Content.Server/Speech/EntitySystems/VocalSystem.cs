@@ -1,3 +1,17 @@
+// SPDX-FileCopyrightText: 2023 Alex Evgrashin
+// SPDX-FileCopyrightText: 2023 DrSmugleaf
+// SPDX-FileCopyrightText: 2023 Pieter-Jan Briers
+// SPDX-FileCopyrightText: 2023 Visne
+// SPDX-FileCopyrightText: 2023 metalgearsloth
+// SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
+// SPDX-FileCopyrightText: 2024 Mnemotechnican
+// SPDX-FileCopyrightText: 2025 Cam
+// SPDX-FileCopyrightText: 2025 Tabitha
+// SPDX-FileCopyrightText: 2025 VMSolidus
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 using Content.Server._DEN.Vocal;
 using Content.Server.Actions;
 using Content.Server.Chat.Systems;
@@ -88,7 +102,7 @@ public sealed class VocalSystem : EntitySystem
         if (sounds == null)
             args.Handled = _chat.TryPlayEmoteSound(uid, component.EmoteSounds, args.Emote.ID);
         else
-            args.Handled = _chat.TryPlayEmoteSound(uid, sounds, args.Emote.ID);
+            args.Handled = _chat.TryPlayEmoteSound(uid, sounds, args.Emote.ID, component.EmoteSounds?.GeneralParams);
     }
 
     private void OnScreamAction(EntityUid uid, VocalComponent component, ScreamActionEvent args)

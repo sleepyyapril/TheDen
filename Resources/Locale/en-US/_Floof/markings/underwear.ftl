@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Aikakakah <145503852+Aikakakah@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 marking-UndershirtStandard = Undershirt (Standard)
 marking-UndershirtStandard-t_undershirt = Undershirt
 
@@ -80,7 +85,7 @@ marking-UnderwearClassicpantiesassblastusa = Panties, USA
 marking-UnderwearClassicpantiesassblastusa-panties_assblastusa = Panties, USA
 
 marking-UnderwearClassicpantiesbeekini = Panties, Bee-kini
-marking-UnderwearClassicpantiesbeekini-panties_bee = Panties, Kee-kini
+marking-UnderwearClassicpantiesbeekini-panties_bee-kini = Panties, Bee-kini
 
 marking-UnderwearClassicpantiescommie = Panties, Combloc
 marking-UnderwearClassicpantiescommie-panties_commie = Panties, Combloc
@@ -152,7 +157,7 @@ marking-UndershirtBraassblastusa = Bra, USA
 marking-UndershirtBraassblastusa-bra_assblastusa = Bra, USA
 
 marking-UndershirtBrabeekini = Bra, Bee-kini
-marking-UndershirtBrabeekini-bra_bee = Bra, Bee-kini
+marking-UndershirtBrabeekini-bra_bee-kini = Bra, Bee-kini
 
 marking-UndershirtBracommie = Bra, Combloc
 marking-UndershirtBracommie-bra_commie = Bra, Combloc

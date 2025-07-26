@@ -1,3 +1,19 @@
+// SPDX-FileCopyrightText: 2021 DrSmugleaf
+// SPDX-FileCopyrightText: 2022 Flipp Syder
+// SPDX-FileCopyrightText: 2022 ZeroDayDaemon
+// SPDX-FileCopyrightText: 2022 keronshb
+// SPDX-FileCopyrightText: 2022 metalgearsloth
+// SPDX-FileCopyrightText: 2023 csqrb
+// SPDX-FileCopyrightText: 2025 BlitzTheSquishy
+// SPDX-FileCopyrightText: 2025 KekaniCreates
+// SPDX-FileCopyrightText: 2025 Sapphire
+// SPDX-FileCopyrightText: 2025 Skubman
+// SPDX-FileCopyrightText: 2025 VMSolidus
+// SPDX-FileCopyrightText: 2025 juniwoofs
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 using Content.Shared.Humanoid.Markings;
 using Robust.Shared.Serialization;
 
@@ -13,6 +29,7 @@ namespace Content.Shared.Humanoid
         Face,
         Tail,
         Wings,
+        NeckFluff, // for fluff on necks
         Hair,
         FacialHair,
         Chest,
@@ -24,7 +41,6 @@ namespace Content.Shared.Humanoid
         HeadTop,  // top parts (i.e., ears)
         Genitals, // Things to do with the genitals.
         Nipples, // Things for specifically nipples.
-        NeckFluff, // for fluff on necks
         TailBehind, // FLOOF - add tails that dont have to go through a brutal cookiecutter to work
         TailOversuit, // FLOOF - add tails that dont have to go through a brutal cookiecutter to work
         Eyes,

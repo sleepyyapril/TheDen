@@ -1,3 +1,12 @@
+# SPDX-FileCopyrightText: 2024 Fansana
+# SPDX-FileCopyrightText: 2024 ShatteredSwords
+# SPDX-FileCopyrightText: 2024 fenndragon
+# SPDX-FileCopyrightText: 2025 Alina Shumann
+# SPDX-FileCopyrightText: 2025 Rosycup
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 - type: entity
   parent: BasePlushie
   id: PlushieFRouny
@@ -133,8 +142,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieDragon
-  name:
-  description:
+  name: dragon plushie
+  description: An adorable stuffed toy that resembles a dragon.
   components:
   - type: Sprite
     sprite: _Floof/Objects/Fun/floof_plush.rsi

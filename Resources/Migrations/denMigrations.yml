@@ -1,3 +1,13 @@
+# SPDX-FileCopyrightText: 2025 Falcon
+# SPDX-FileCopyrightText: 2025 Gregg
+# SPDX-FileCopyrightText: 2025 Mono
+# SPDX-FileCopyrightText: 2025 Rosycup
+# SPDX-FileCopyrightText: 2025 SleepyScarecrow
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2025 therealDLondon
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 PlushieTrystan: PlushieDignifiedVulp
 PlushieDino: null
 PlushieChillHuman: null
@@ -38,7 +48,6 @@ ShuttleManipulator: null
 SignDirectionaAI: null
 SignVox: null
 SpaceDisposalUnit: DisposalUnit
-SpawnMobCMOPetSilvia: null
 SpawnMobJusticePet: null
 SpawnPointCargoAssistant: null
 ToiletGoldenDirtyWater: null
@@ -86,7 +95,6 @@ SpawnPointSurgeon: null # If Surgeon ever becomes a thing, un-null / remove
 SuperweaponSafeSpawner: null # Beam Devastator
 TreasureCoinGold: null # These are the opposite of scrap, so if we bring scrap back, question treasure too
 TreasureHardDiskDrive: null
-WindoorSecureReporterLocked: null # ???
 
 # April 5th 2025 This only happened after the EE merge and im going to FUCKING LOSE MY MIND -Fox
 SpawnMobArcticFoxSeb: null
@@ -119,3 +127,7 @@ portableChemicalMixer: null
 FloraGreyStalagmite: null
 FelinidCube: null # what
 OwOLab: null
+LootSpawnerMedicalMinor: null
+LootSpawnerMedicalClassy: null
+PillCanisterMultiver: null
+SyringeCognizine: null

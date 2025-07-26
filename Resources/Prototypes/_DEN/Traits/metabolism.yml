@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 Jakumba
+# SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 - type: trait
   id: Detritivore
   category: TraitsPhysicalBiological
@@ -6,6 +12,7 @@
   - !type:CharacterJobRequirement
     inverted: true
     jobs:
+      - StationAi
       - Borg
       - MedicalBorg
   - !type:CharacterSpeciesRequirement

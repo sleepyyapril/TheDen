@@ -1,3 +1,34 @@
+# SPDX-FileCopyrightText: 2021 Vera Aguilera Puerto
+# SPDX-FileCopyrightText: 2022 Paul Ritter
+# SPDX-FileCopyrightText: 2022 TekuNut
+# SPDX-FileCopyrightText: 2022 moonheart08
+# SPDX-FileCopyrightText: 2023 Colin-Tel
+# SPDX-FileCopyrightText: 2023 Ed
+# SPDX-FileCopyrightText: 2023 Moony
+# SPDX-FileCopyrightText: 2023 Nemanja
+# SPDX-FileCopyrightText: 2023 Skye
+# SPDX-FileCopyrightText: 2023 coolmankid12345
+# SPDX-FileCopyrightText: 2023 metalgearsloth
+# SPDX-FileCopyrightText: 2024 Adrian16199
+# SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
+# SPDX-FileCopyrightText: 2024 Errant
+# SPDX-FileCopyrightText: 2024 Fansana
+# SPDX-FileCopyrightText: 2024 Kara
+# SPDX-FileCopyrightText: 2024 Memeji
+# SPDX-FileCopyrightText: 2024 Mnemotechnican
+# SPDX-FileCopyrightText: 2024 Mr. 27
+# SPDX-FileCopyrightText: 2024 Rainfey
+# SPDX-FileCopyrightText: 2024 Tayrtahn
+# SPDX-FileCopyrightText: 2024 deltanedas
+# SPDX-FileCopyrightText: 2025 Blitz
+# SPDX-FileCopyrightText: 2025 BlitzTheSquishy
+# SPDX-FileCopyrightText: 2025 EctoplasmIsGood
+# SPDX-FileCopyrightText: 2025 VMSolidus
+# SPDX-FileCopyrightText: 2025 sheepie
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 - type: entity
   id: BaseGameRule
   abstract: true
@@ -79,14 +110,13 @@
   - type: AntagLoadProfileRule
 
 - type: entity
-  categories: [ HideSpawnMenu ]
   parent: BaseNukeopsRule
   id: Nukeops
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 15
   - type: LoadMapRule
-    gameMap: NukieOutpost
+    mapPath: /Maps/Nonstations/nukieplanet.yml
   - type: AntagSelection
     selectionTime: PrePlayerSpawn
     definitions:
@@ -166,7 +196,7 @@
   - type: AntagSelection
     definitions:
     - prefRoles: [ Traitor ]
-      max: 2 # Floof - Balance around Security Pop
+      max: 6 # Floof - Balance around Security Pop
       playerRatio: 10
       blacklist:
         components:
@@ -274,8 +304,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: RampingStationEventScheduler
-    startingChaosRatio: 0.02
-    shiftLengthModifier: 0.3
+    startingChaosRatio: 0.01
+    chaosModifier: 1.5
+    shiftLengthModifier: 0.25
 
 - type: entity
   id: HellshiftStationEventScheduler
@@ -332,6 +363,6 @@
 #    - id: BloodbathPuddleMessVariationPass
 #      prob: 0.01
 #      orGroup: puddleMess
-    - id: SmugglerStashVariationPass
-      prob: 0.90
+#    - id: SmugglerStashVariationPass
+#      prob: 0.90
 

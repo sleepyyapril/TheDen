@@ -1,3 +1,11 @@
+// SPDX-FileCopyrightText: 2024 Errant
+// SPDX-FileCopyrightText: 2025 Falcon
+// SPDX-FileCopyrightText: 2025 Skubman
+// SPDX-FileCopyrightText: 2025 portfiend
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
 using Robust.Server.GameObjects;
 using Content.Server.Clothing.Systems; // Einstein Engines
 using Content.Server.GameTicking;
@@ -54,8 +62,11 @@ public sealed class GhostBarSystem : EntitySystem
     private ResPath MapPath = new("Maps/_Goobstation/Nonstations/ghostbar.yml");
     private void OnRoundStart(RoundStartingEvent ev)
     {
-        if (_mapLoader.TryLoadMap(MapPath, out var mapId, out _))
-            _mapSystem.SetPaused((mapId.Value.Owner, null), false);
+        if (!_mapLoader.TryLoadMap(MapPath, out var mapId, out _))
+            return;
+
+        _mapSystem.SetPaused((mapId.Value.Owner, null), false);
+        _mapSystem.InitializeMap(mapId.Value.Comp.MapId);
     }
 
     public void SpawnPlayer(GhostBarSpawnEvent msg, EntitySessionEventArgs args)
