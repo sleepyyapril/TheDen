@@ -8790,3 +8790,10 @@ Entries:
   id: 847
   time: '2025-07-26T14:47:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1229
+- author: Camdot
+  changes:
+    - type: Tweak
+      message: 'Updated denu, now movable, and with a help section. '
+  id: 848
+  time: '2025-07-26T17:16:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1234
