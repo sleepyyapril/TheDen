@@ -8804,3 +8804,10 @@ Entries:
   id: 849
   time: '2025-07-26T18:04:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1219
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Modsuit battery drain should now be better.
+  id: 850
+  time: '2025-07-26T19:05:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1232
