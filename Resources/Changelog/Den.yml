@@ -8811,3 +8811,10 @@ Entries:
   id: 850
   time: '2025-07-26T19:05:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1232
+- author: IAmNotGray
+  changes:
+    - type: Add
+      message: (ANVIL) Atmospherics now has a fire axe. Apologies for the wait on that!
+  id: 851
+  time: '2025-07-26T22:38:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1227
