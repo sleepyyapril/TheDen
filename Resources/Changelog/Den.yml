@@ -8861,3 +8861,10 @@ Entries:
   id: 856
   time: '2025-07-27T22:12:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1245
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added the regalia of the late Googoo Funnyball
+  id: 857
+  time: '2025-07-27T22:13:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1244
