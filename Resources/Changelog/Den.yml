@@ -8847,3 +8847,10 @@ Entries:
   id: 854
   time: '2025-07-27T20:42:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1253
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Changed belt slot interact to left click to insert.
+  id: 855
+  time: '2025-07-27T22:11:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1250
