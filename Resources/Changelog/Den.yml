@@ -8818,3 +8818,12 @@ Entries:
   id: 851
   time: '2025-07-26T22:38:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1227
+- author: Deathninja5551
+  changes:
+    - type: Add
+      message: >-
+        Added Printing the Tank Harness From the Autolathe, Medical Fab, and the
+        Uniform Printer.
+  id: 852
+  time: '2025-07-27T17:36:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1240
