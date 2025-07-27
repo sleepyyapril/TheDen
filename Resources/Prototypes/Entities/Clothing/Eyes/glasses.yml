@@ -492,7 +492,6 @@
   - type: FlashImmunity
   - type: NightVision
     isEquipment: true
-  - type: Unremoveable
 
 - type: entity #Fake goggles, the latest in anti-valid hunting technology
   parent: ClothingEyesBase
