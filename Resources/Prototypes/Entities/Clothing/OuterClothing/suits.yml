@@ -233,11 +233,11 @@
     drawRate: 1.8 # 200 seconds on the default cell
   - type: ToggleCellDraw
   # throwing star ability (Broken)
-  # - type: ItemCreator
-  #  action: ActionCreateThrowingStar
-  #  charge: 14.4
-  #  spawnedPrototype: ThrowingStarNinja
-  #  noPowerPopup: ninja-no-power
+  - type: ItemCreator
+    action: ActionCreateThrowingStar
+    charge: 14.4
+    spawnedPrototype: ThrowingStarNinja
+    noPowerPopup: ninja-no-power
   # core ninja suit stuff
   - type: NinjaSuit
   - type: UseDelay
@@ -249,6 +249,8 @@
   - type: ContainerContainer
     containers:
       cell_slot: !type:ContainerSlot
+  - type: Item # The Den - Make it smaller so it can fit in a bag for more ninja strats
+    size: Normal
   - type: ItemSlots
     slots:
       cell_slot:
