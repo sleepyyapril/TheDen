@@ -8,6 +8,13 @@
   },
     "states": [
         {
+            "name": "ally"
+        },
+        {
+            "name": "ally-equipped-NECK",
+            "directions": 4
+        },
+        {
             "name": "aro"
         },
         {

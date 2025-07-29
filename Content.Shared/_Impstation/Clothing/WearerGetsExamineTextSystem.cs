@@ -2,7 +2,6 @@ using Content.Shared.Clothing.Components;
 using Content.Shared.Examine;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Inventory.Events;
-using Content.Shared.Contraband;
 using Content.Shared._Impstation.Examine;
 using System.Text;
 
@@ -92,12 +91,14 @@ public sealed class WearerGetsExamineTextSystem : EntitySystem
 
         if (entity.Comp.WarnExamine)
         {
-            if (!currentlyWorn && TryComp(entity, out ContrabandComponent? contra)) // if the item's contra and we're not wearing it yet
-            {
-                var contraLocId = "obvious-on-item-contra-" + contra.Severity; // apply additional text if the item is contraband to note that displaying it might be really bad
-                if (Loc.HasString(contraLocId)) // saves us the trouble of making a switch block for this
-                    outString.Append(" " + Loc.GetString(contraLocId));
-            }
+            // DEN: Uncomment if we add Contraband
+            // if (!currentlyWorn && TryComp(entity, out ContrabandComponent? contra)) // if the item's contra and we're not wearing it yet
+            // {
+            //     var contraLocId = "obvious-on-item-contra-" + contra.Severity; // apply additional text if the item is contraband to note that displaying it might be really bad
+            //     if (Loc.HasString(contraLocId)) // saves us the trouble of making a switch block for this
+            //         outString.Append(" " + Loc.GetString(contraLocId));
+            // }
+
             var affecting = currentlyWorn ? entity.Comp.Wearer.GetValueOrDefault() : args.Examiner;
             var testOut = ConstructExamineText(entity, false, affecting);
 

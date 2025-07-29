@@ -215,6 +215,8 @@
     - type: loadout
       id: LoadoutNeckAroacePin
     - type: loadout
+      id: LoadoutNeckGenderfluidPin
+    - type: loadout
       id: LoadoutNeckGenderqueerPin
     - type: loadout
       id: LoadoutNeckOmnisexualPin

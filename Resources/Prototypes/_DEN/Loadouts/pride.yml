@@ -116,6 +116,17 @@
     group: LoadoutNeck
 
 - type: loadout
+  id: LoadoutNeckGenderfluidPin
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+  - ClothingNeckGenderfluidPin
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutNeck
+
+- type: loadout
   id: LoadoutNeckGenderqueerPin
   category: Neck
   cost: 1

@@ -326,6 +326,8 @@
           id: ClothingNeckAroacePin
         - !type:EntSelector
           id: ClothingNeckPluralPin
+        - !type:EntSelector
+          id: ClothingNeckAllyPin
     # Rare Group
     - !type:GroupSelector
       weight: 2
