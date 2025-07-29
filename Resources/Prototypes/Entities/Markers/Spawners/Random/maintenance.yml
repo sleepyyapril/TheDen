@@ -234,6 +234,10 @@
           id: ClothingNeckCloakEnby
         - !type:EntSelector
           id: ClothingNeckCloakPan
+        - !type:EntSelector
+          id: ClothingNeckCloakAroace
+        - !type:EntSelector
+          id: ClothingNeckCloakBear
       - !type:EntSelector
         id: ToySkeleton
       - !type:EntSelector
@@ -312,6 +316,16 @@
           id: ClothingNeckAutismPin
         - !type:EntSelector
           id: ClothingNeckGoldAutismPin
+        - !type:EntSelector
+          id: ClothingNeckOmnisexualPin
+        - !type:EntSelector
+          id: ClothingNeckGenderqueerPin
+        - !type:EntSelector
+          id: ClothingNeckGenderfluidPin
+        - !type:EntSelector
+          id: ClothingNeckAroacePin
+        - !type:EntSelector
+          id: ClothingNeckPluralPin
     # Rare Group
     - !type:GroupSelector
       weight: 2
