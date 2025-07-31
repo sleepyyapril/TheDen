@@ -8918,3 +8918,10 @@ Entries:
   id: 863
   time: '2025-07-31T01:41:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1272
+- author: Deathninja5551
+  changes:
+    - type: Add
+      message: Added a Vox-Pidgin translator. Victory screech!
+  id: 864
+  time: '2025-07-31T01:48:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1241
