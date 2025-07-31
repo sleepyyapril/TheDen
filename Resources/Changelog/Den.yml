@@ -8997,3 +8997,22 @@ Entries:
   id: 872
   time: '2025-07-31T21:40:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1277
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Ally, aroace, genderfluid, genderqueer, omnisexual, and plural pins, as
+        well as aroace scarf/cloak have been ported from Wizard's Den. Bear
+        pride cloak has been ported from Impstation.
+    - type: Tweak
+      message: >-
+        Certain items (namely inconspicuous pride items and badges) will now
+        show up on characters' examine texts, courtesy of jtfg-dev  at
+        Impstation.
+    - type: Tweak
+      message: >-
+        The price of the restock box for the Pride-o-Mat has been raised from
+        1200 to 1500 to prevent arbitrage (sell price > buy price).
+  id: 873
+  time: '2025-07-31T22:12:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1262
