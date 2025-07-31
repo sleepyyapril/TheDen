@@ -8943,3 +8943,10 @@ Entries:
   id: 866
   time: '2025-07-31T02:34:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1269
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Health Examination being shown wrong in weird ways!
+  id: 867
+  time: '2025-07-31T02:47:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1265
