@@ -8950,3 +8950,12 @@ Entries:
   id: 867
   time: '2025-07-31T02:47:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1265
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: >-
+        Added the Hands Free Pulling perk (10 points) for all those times you've
+        needed a third arm. :junodo:
+  id: 868
+  time: '2025-07-31T02:53:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1259
