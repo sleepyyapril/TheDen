@@ -8902,3 +8902,10 @@ Entries:
   id: 861
   time: '2025-07-31T01:07:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1260
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: added IPC parts to the Exosuit Fabricator
+  id: 862
+  time: '2025-07-31T01:07:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1273
