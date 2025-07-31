@@ -8934,3 +8934,12 @@ Entries:
   id: 865
   time: '2025-07-31T01:58:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1268
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Moved Atmospherics recipes and constructions to a dedicated Atmospherics
+        Category!
+  id: 866
+  time: '2025-07-31T02:34:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1269
