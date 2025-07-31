@@ -8968,3 +8968,12 @@ Entries:
   id: 869
   time: '2025-07-31T14:49:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1267
+- author: Alkheemist
+  changes:
+    - type: Add
+      message: >-
+        Clothing items that force accents upon the player can now be on/off
+        toggled with the verb menu.
+  id: 870
+  time: '2025-07-31T15:57:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1238
