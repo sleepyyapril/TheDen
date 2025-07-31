@@ -9016,3 +9016,10 @@ Entries:
   id: 873
   time: '2025-07-31T22:12:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1262
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: voice replacements should no longer break the server
+  id: 874
+  time: '2025-07-31T23:23:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1276
