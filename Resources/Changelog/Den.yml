@@ -8959,3 +8959,12 @@ Entries:
   id: 868
   time: '2025-07-31T02:53:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1259
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Re-added the Jaws of Life to the Engineering Tech-Fab! If you need them
+        to get through a door, you're a bad engineer!
+  id: 869
+  time: '2025-07-31T14:49:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1267
