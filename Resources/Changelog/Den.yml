@@ -9037,3 +9037,10 @@ Entries:
   id: 876
   time: '2025-08-01T03:32:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1275
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: Ported Lemon Lime Bitters from Delta-V! Australians Rejoice!
+  id: 877
+  time: '2025-08-01T03:45:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1261
