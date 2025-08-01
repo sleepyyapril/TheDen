@@ -9030,3 +9030,10 @@ Entries:
   id: 875
   time: '2025-08-01T00:45:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1278
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: IPC now have a 70% chance to be notified of an ion storm
+  id: 876
+  time: '2025-08-01T03:32:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1275
