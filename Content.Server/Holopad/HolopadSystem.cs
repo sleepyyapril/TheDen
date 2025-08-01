@@ -338,8 +338,6 @@ public sealed class HolopadSystem : SharedHolopadSystem
         }
     }
 
-    }
-
     private void OnPlayerSpriteStateMessage(PlayerSpriteStateMessage ev, EntitySessionEventArgs args)
     {
         var uid = args.SenderSession.AttachedEntity;
@@ -613,11 +611,10 @@ public sealed class HolopadSystem : SharedHolopadSystem
             if (user == null)
                 _appearanceSystem.SetData(linkedHolopad.Comp.Hologram.Value.Owner, TypingIndicatorVisuals.State, false);
 
-                // Send message with no sprite data to the client
-                // This will set the holgram sprite to a generic icon
-                var ev = new PlayerSpriteStateMessage(GetNetEntity(linkedHolopad.Comp.Hologram.Value));
-                RaiseNetworkEvent(ev);
-            }
+            // Send message with no sprite data to the client
+            // This will set the holgram sprite to a generic icon
+            var ev = new PlayerSpriteStateMessage(GetNetEntity(linkedHolopad.Comp.Hologram.Value));
+            RaiseNetworkEvent(ev);
         }
 
         if (!HasComp<HolopadUserComponent>(user))
