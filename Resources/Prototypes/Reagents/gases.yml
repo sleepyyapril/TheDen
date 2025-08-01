@@ -76,13 +76,13 @@
         - !type:OrganType
           type: Plasmaman
           shouldHave: false
-        - !type:OrganType # TheDen - Thaven don't do chemical conversion in their lungs
+        - !type:OrganType # TheDen - Thaven don't do chemical reactions in their lungs
           type: Thaven
           shouldHave: false
         ratios:
           CarbonDioxide: 1.0
           Oxygen: -1.0
-      - !type:ModifyLungGas # TheDen - Thaven exhale oxygen they inhale or else they depressurize the room
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
         conditions:
         - !type:OrganType
           type: Thaven
@@ -148,9 +148,6 @@
         damage:
           types:
             Poison: 3
-        - !type:OrganType # Imp - Thaven can breathe it safely (WIP)
-          type: Thaven
-          shouldHave: false
       - !type:HealthChange
         conditions:
         - !type:OrganType
@@ -168,6 +165,10 @@
     Gas:
       effects:
       - !type:HealthChange
+        conditions:
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         scaleByQuantity: true
         ignoreResistances: true
         damage:
@@ -201,6 +202,9 @@
           - !type:OrganType
             type: Plasmaman
             shouldHave: false
+          - !type:OrganType # TheDen - Thaven can breathe it safely
+            type: Thaven
+            shouldHave: false
           - !type:ReagentThreshold
             min: 1.5
         clear: True
@@ -210,6 +214,10 @@
         conditions:
         - !type:OrganType
           type: Plasmaman
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       - !type:ModifyLungGas
         conditions:
         - !type:OrganType
@@ -217,10 +225,13 @@
         ratios:
           Nitrogen: 1.0 # Interesting exhale for plasmamen
           Plasma: -1.0
-      - !type:Oxygenate # Imp - Thaven can breathe anything
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
         conditions:
         - !type:OrganType
           type: Thaven
+        ratios:
+          Plasma: 1.0
+          Plasma: -1.0
     Medicine:
       effects:
       - !type:HealthChange
@@ -276,6 +287,10 @@
     Gas:
       effects:
       - !type:HealthChange
+        conditions:
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         scaleByQuantity: true
         ignoreResistances: true
         damage:
@@ -290,10 +305,20 @@
       - !type:AdjustAlert
         alertType: Toxins
         conditions:
+          - !type:OrganType # TheDen - Thaven can breathe it safely
+            type: Thaven
+            shouldHave: false
           - !type:ReagentThreshold
             min: 1.5
         clear: True
         time: 5
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment # TODO (THAVEN): SEE IF TRIT INTERNALS START FIRES OH MAN
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Tritium: 1.0
+          Tritium: -1.0
 
 - type: reagent
   id: CarbonDioxide
@@ -321,6 +346,9 @@
         - !type:OrganType
           type: Vox
           shouldHave: false
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         # Don't want people to get toxin damage from the gas they just
         # exhaled, right?
         - !type:ReagentThreshold
@@ -336,10 +364,20 @@
         - !type:OrganType
           type: Plant
           shouldHave: false
+        - !type:OrganType # TheDen - Thaven can breathe anything
+          type: Thaven
+          shouldHave: false
         factor: -4
       # We need a metabolism effect on reagent removal
       #- !type:AdjustAlert
       #  alertType: CarbonDioxide
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          CarbonDioxide: 1.0
+          CarbonDioxide: -1.0
 
 - type: reagent
   id: Nitrogen
@@ -386,12 +424,12 @@
         ratios:
           NitrousOxide: 1.0
           Nitrogen: -1.0
-      - !type:ModifyLungGas # Imp - Thaven exhale nitrogen they inhale or else they depressurize the room
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
         conditions:
         - !type:OrganType
           type: Thaven
         ratios:
-          NitrousOxide: 1.0
+          Nitrogen: 1.0
           Nitrogen: -1.0
 
 - type: reagent
@@ -419,6 +457,9 @@
         - !type:OrganType
           type: Slime
           shouldHave: false
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         emote: Laugh
         showInChat: true
         probability: 0.1
@@ -429,6 +470,9 @@
           min: 0.5
         - !type:OrganType
           type: Slime
+          shouldHave: false
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
           shouldHave: false
         - !type:BloodReagentThreshold #  Assmos - /tg/ gases
           reagent: NitrosylPlasmide
@@ -445,6 +489,9 @@
         - !type:OrganType
           type: Slime
           shouldHave: false
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         - !type:BloodReagentThreshold #  Assmos - /tg/ gases
           reagent: NitrosylPlasmide
           max: 0.1
@@ -457,6 +504,9 @@
           min: 1
         - !type:OrganType
           type: Slime
+          shouldHave: false
+        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): PROBABLY NEED TO GUIDEBOOK THAT LAUGHING GAS DOESN'T WORK ON THEM FOR SURGERY, USE CHLORAL HYDRATE INSTEAD
+          type: Thaven
           shouldHave: false
         - !type:BloodReagentThreshold #  Assmos - /tg/ gases
           reagent: NitrosylPlasmide
@@ -473,10 +523,20 @@
         - !type:OrganType
           type: Slime
           shouldHave: false
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         ignoreResistances: true
         damage:
           types:
             Poison: 0.25
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          NitrousOxide: 1.0
+          NitrousOxide: -1.0
 
 - type: reagent
   id: Frezon
@@ -499,6 +559,9 @@
         - !type:ReagentThreshold
           reagent: Frezon
           min: 0.5
+        - !type:OrganType # TheDen - Thaven can breathe it safely, but it still gets them high
+          type: Thaven
+          shouldHave: false
         scaleByQuantity: true
         ignoreResistances: true
         damage:
@@ -537,6 +600,13 @@
         - !type:ReagentThreshold
           reagent: Frezon
           min: 1
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Frezon: 1.0
+          Frezon: -1.0
 
  # Assmos - /tg/ gases
 - type: reagent
@@ -561,6 +631,9 @@
         - !type:OrganType
           type: Slime
           shouldHave: false
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         emote: Cough
         showInChat: true
         probability: 0.1
@@ -571,6 +644,9 @@
           min: 0.5
         - !type:OrganType
           type: Slime
+          shouldHave: false
+        - !type:OrganType # TheDen - Thaven can breathe it safely, but it still gets them high
+          type: Thaven
           shouldHave: false
         scaleByQuantity: true
         ignoreResistances: true
@@ -599,6 +675,9 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
+        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES LAUGH?
+          type: Thaven
+          shouldHave: false
         emote: Laugh
         showInChat: true
         probability: 0.1
@@ -610,6 +689,9 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
+        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES SCREAM?
+          type: Thaven
+          shouldHave: false
         emote: Scream
         showInChat: true
         probability: 0.01
@@ -621,6 +703,9 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
+        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES SEE SLEEPY?
+          type: Thaven
+          shouldHave: false
         - !type:BloodReagentThreshold
           reagent: NitrosylPlasmide
           max: 0.1
@@ -636,6 +721,9 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
+        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES SLOW DOWN SLEEPY?
+          type: Thaven
+          shouldHave: false
         - !type:BloodReagentThreshold
           reagent: NitrosylPlasmide
           max: 0.1
@@ -649,6 +737,9 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
+        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES GET SLEEPY?
+          type: Thaven
+          shouldHave: false
         - !type:BloodReagentThreshold
           reagent: NitrosylPlasmide
           max: 0.1
@@ -656,6 +747,13 @@
         component: ForcedSleeping
         time: 10
         type: Add
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          BZ: 1.0
+          BZ: -1.0
 
 - type: reagent
   id: Healium
@@ -676,6 +774,9 @@
         - !type:ReagentThreshold
           reagent: Healium
           max: 24
+        - !type:OrganType # TheDen - Thaven are immune to gases even when that's a bad thing
+          type: Thaven
+          shouldHave: false
         scaleByQuantity: true
         ignoreResistances: true
         damage:
@@ -688,6 +789,9 @@
         - !type:ReagentThreshold
           reagent: Healium
           min: 24
+        - !type:OrganType # TheDen - Thaven are immune to gases even when that's a bad thing
+          type: Thaven
+          shouldHave: false
         ignoreResistances: true
         damage:
           groups:
@@ -702,6 +806,9 @@
         - !type:BloodReagentThreshold
           reagent: NitrosylPlasmide
           max: 0.1
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         type: Local
         visualType: Medium
         messages: [ "effect-sleepy" ]
@@ -714,6 +821,9 @@
         - !type:BloodReagentThreshold
           reagent: NitrosylPlasmide
           max: 0.01
+        - !type:OrganType # TheDen - Thaven can breathe it safely, but it still gets them high
+          type: Thaven
+          shouldHave: false
         key: ForcedSleep
         component: ForcedSleeping
         time: 1
@@ -724,6 +834,13 @@
         - !type:ReagentThreshold
           reagent: Healium
           min: 4
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Healium: 1.0
+          Healium: -1.0
 
 - type: reagent
   id: Nitrium
@@ -745,6 +862,9 @@
           reagent: Nitrium
           min: 1
           max: 8
+        - !type:OrganType # TheDen - Thaven are immune to gases even when that's a bad thing
+          type: Thaven
+          shouldHave: false
         walkSpeedModifier: 1.25
         sprintSpeedModifier: 1.25
       - !type:NitriumMovespeedModifier
@@ -753,6 +873,9 @@
           reagent: Nitrium
           min: 8
           max: 12
+        - !type:OrganType # TheDen - Thaven are immune to gases even when that's a bad thing
+          type: Thaven
+          shouldHave: false
         walkSpeedModifier: 1.4
         sprintSpeedModifier: 1.4
       - !type:NitriumMovespeedModifier
@@ -760,6 +883,9 @@
         - !type:ReagentThreshold
           reagent: Nitrium
           min: 12
+        - !type:OrganType # TheDen - Thaven are immune to gases even when that's a bad thing
+          type: Thaven
+          shouldHave: false
         walkSpeedModifier: 1.6
         sprintSpeedModifier: 1.6
       - !type:AddReagentToBlood
@@ -767,6 +893,9 @@
         - !type:ReagentThreshold
           reagent: Nitrium
           min: 6
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         reagent: NitrosylPlasmide
         amount: 2.5
       - !type:GenericStatusEffect
@@ -774,6 +903,9 @@
         - !type:ReagentThreshold
           reagent: Nitrium
           min: 8
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         key: Stutter
         component: StutteringAccent
         time: 8
@@ -782,10 +914,20 @@
         - !type:ReagentThreshold
           reagent: Nitrium
           min: 10
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         ignoreResistances: true
         damage:
           types:
             Asphyxiation: 15
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Nitrium: 1.0
+          Nitrium: -1.0
       
 - type: reagent
   id: Pluoxium
@@ -817,19 +959,20 @@
         conditions:
         - !type:OrganType
           type: Plant
-      - !type:Oxygenate # Imp - Thaven can breathe anything, but their lungs aren't doing chemical reactions, so this is just air to them
+      - !type:Oxygenate # TheDen - Thaven are immune to gases even when that's a bad thing
+        factor: 1
         conditions:
         - !type:OrganType
           type: Thaven
       # Convert Pluoxium into CO2.
       - !type:ModifyLungGas
-        - !type:OrganType # TheDen - Thaven don't do chemical conversion in their lungs
+        - !type:OrganType # TheDen - Thaven don't do chemical reactions in their lungs
           type: Thaven
           shouldHave: false
         ratios:
           CarbonDioxide: 1.0
           Pluoxium: -1.0
-      - !type:ModifyLungGas # Imp - Thaven exhale pluoxium they inhale or else they depressurize the room, and it isn't helping them anyway
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
         conditions:
         - !type:OrganType
           type: Thaven
@@ -851,6 +994,13 @@
         conditions:
         - !type:OrganType
           type: Thaven
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Hyper-Noblium: 1.0
+          Hyper-Noblium: -1.0
 
 - type: reagent
   id: Proto-Nitrate
@@ -866,6 +1016,13 @@
         conditions:
         - !type:OrganType
           type: Thaven
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Proto-Nitrate: 1.0
+          Proto-Nitrate: -1.0
 
 - type: reagent
   id: Zauker
@@ -887,6 +1044,9 @@
           reagent: Zauker
           min: 0.25
           max: 12
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         scaleByQuantity: true
         ignoreResistances: true
         damage:
@@ -900,6 +1060,9 @@
         - !type:ReagentThreshold
           reagent: Zauker
           min: 12
+        - !type:OrganType # TheDen - Thaven can breathe it safely
+          type: Thaven
+          shouldHave: false
         ignoreResistances: true
         damage:
           types:
@@ -907,6 +1070,13 @@
             Heat: 10
             Poison: 10
             Bloodloss: 5
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Zauker: 1.0
+          Zauker: -1.0
 
 - type: reagent
   id: Halon
@@ -922,6 +1092,13 @@
         conditions:
         - !type:OrganType
           type: Thaven
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Halon: 1.0
+          Halon: -1.0
 
 - type: reagent
   id: Helium
@@ -937,6 +1114,13 @@
         conditions:
         - !type:OrganType
           type: Thaven
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Helium: 1.0
+          Helium: -1.0
 
 - type: reagent
   id: Anti-Noblium
@@ -952,3 +1136,10 @@
         conditions:
         - !type:OrganType
           type: Thaven
+      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Anti-Noblium: 1.0
+          Anti-Noblium: -1.0
