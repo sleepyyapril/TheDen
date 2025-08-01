@@ -327,6 +327,8 @@
   abstract: true
   components:
   - type: Flashable
+  - type: TypingIndicator
+    proto: default
   - type: Absorbable # Goobstation - changelings
   - type: Barotrauma
     damage:
