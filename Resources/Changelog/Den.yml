@@ -9044,3 +9044,12 @@ Entries:
   id: 877
   time: '2025-08-01T03:45:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1261
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Muzzles and damp rags can no longer have their "muffled speech" toggled
+        off via alt verb, nor can you toggle the stuttering of the cluwne mask.
+  id: 878
+  time: '2025-08-01T04:35:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1279
