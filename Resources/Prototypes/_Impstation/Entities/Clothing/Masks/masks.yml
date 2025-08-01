@@ -36,10 +36,6 @@
     tags:
     - PetWearable
     - WhitelistChameleon
-  - type: PhysicalComposition
-    materialComposition:
-      Steel: 50
-      Plastic: 100
   - type: HideLayerClothing
     slots:
     - Snout
