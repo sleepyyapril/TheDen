@@ -63,6 +63,10 @@
         conditions:
         - !type:OrganType
           type: Feroxi
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       # Convert Oxygen into CO2.
       - !type:ModifyLungGas
         conditions:
@@ -72,8 +76,18 @@
         - !type:OrganType
           type: Plasmaman
           shouldHave: false
+        - !type:OrganType # TheDen - Thaven don't do chemical conversion in their lungs
+          type: Thaven
+          shouldHave: false
         ratios:
           CarbonDioxide: 1.0
+          Oxygen: -1.0
+      - !type:ModifyLungGas # TheDen - Thaven exhale oxygen they inhale or else they depressurize the room
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Oxygen: 1.0
           Oxygen: -1.0
       - !type:HealthChange
         conditions:
@@ -134,6 +148,9 @@
         damage:
           types:
             Poison: 3
+        - !type:OrganType # Imp - Thaven can breathe it safely (WIP)
+          type: Thaven
+          shouldHave: false
       - !type:HealthChange
         conditions:
         - !type:OrganType
@@ -200,6 +217,10 @@
         ratios:
           Nitrogen: 1.0 # Interesting exhale for plasmamen
           Plasma: -1.0
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
     Medicine:
       effects:
       - !type:HealthChange
@@ -261,6 +282,10 @@
           types:
             Radiation:
               1
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       # We need a metabolism effect on reagent removal
       - !type:AdjustAlert
         alertType: Toxins
@@ -284,6 +309,10 @@
         conditions:
         - !type:OrganType
           type: Plant
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       - !type:HealthChange
         conditions:
         - !type:OrganType
@@ -338,6 +367,10 @@
         conditions:
         - !type:OrganType
           type: Slime
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       # Converts Nitrogen into CO2
       - !type:ModifyLungGas
         conditions:
@@ -350,6 +383,13 @@
         conditions:
         - !type:OrganType
           type: Slime
+        ratios:
+          NitrousOxide: 1.0
+          Nitrogen: -1.0
+      - !type:ModifyLungGas # Imp - Thaven exhale nitrogen they inhale or else they depressurize the room
+        conditions:
+        - !type:OrganType
+          type: Thaven
         ratios:
           NitrousOxide: 1.0
           Nitrogen: -1.0
@@ -366,6 +406,10 @@
   metabolisms:
     Gas:
       effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       - !type:Emote
         conditions:
         - !type:ReagentThreshold
@@ -446,6 +490,10 @@
   metabolisms:
     Gas:
       effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -501,6 +549,10 @@
   metabolisms:
     Gas:
       effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       - !type:Emote
         conditions:
         - !type:ReagentThreshold
@@ -615,6 +667,10 @@
   metabolisms:
     Gas:
       effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -679,6 +735,10 @@
   metabolisms:
     Gas:
       effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       - !type:NitriumMovespeedModifier
         conditions:
         - !type:ReagentThreshold
@@ -757,10 +817,24 @@
         conditions:
         - !type:OrganType
           type: Plant
+      - !type:Oxygenate # Imp - Thaven can breathe anything, but their lungs aren't doing chemical reactions, so this is just air to them
+        conditions:
+        - !type:OrganType
+          type: Thaven
       # Convert Pluoxium into CO2.
       - !type:ModifyLungGas
+        - !type:OrganType # TheDen - Thaven don't do chemical conversion in their lungs
+          type: Thaven
+          shouldHave: false
         ratios:
           CarbonDioxide: 1.0
+          Pluoxium: -1.0
+      - !type:ModifyLungGas # Imp - Thaven exhale pluoxium they inhale or else they depressurize the room, and it isn't helping them anyway
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        ratios:
+          Pluoxium: 1.0
           Pluoxium: -1.0
 
 - type: reagent
@@ -770,6 +844,13 @@
   physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#33cccc"
+  metabolisms:
+    Gas:
+      effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
 
 - type: reagent
   id: Proto-Nitrate
@@ -778,6 +859,13 @@
   physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#009933"
+  metabolisms:
+    Gas:
+      effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
 
 - type: reagent
   id: Zauker
@@ -789,6 +877,10 @@
   metabolisms:
     Gas:
       effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
       - !type:HealthChange
         conditions:
         - !type:ReagentThreshold
@@ -823,6 +915,13 @@
   physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#e3574d"
+  metabolisms:
+    Gas:
+      effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
 
 - type: reagent
   id: Helium
@@ -831,6 +930,13 @@
   physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#005959"
+  metabolisms:
+    Gas:
+      effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven
 
 - type: reagent
   id: Anti-Noblium
@@ -839,3 +945,10 @@
   physicalDesc: reagent-physical-desc-gaseous
   flavor: bitter
   color: "#525151"
+  metabolisms:
+    Gas:
+      effects:
+      - !type:Oxygenate # Imp - Thaven can breathe anything
+        conditions:
+        - !type:OrganType
+          type: Thaven

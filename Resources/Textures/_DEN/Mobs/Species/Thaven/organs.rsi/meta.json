@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Sprited by Nimfar11 (Github) for Space Station 14, all modified by Sha-Seng (github)",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+        {
+            "name": "appendix"
+        },
+        {
+            "name": "appendix-inflamed",
+            "directions": 4
+        },
+        {
+            "name": "ears",
+            "directions": 4
+        },
+        {
+            "name": "muscle",
+            "directions": 4
+        },
+        {
+            "name": "nerve",
+            "directions": 4
+        },
+        {
+            "name": "tongue"
+        },
+        {
+            "name": "vessel"
+        }
+  ]
+}

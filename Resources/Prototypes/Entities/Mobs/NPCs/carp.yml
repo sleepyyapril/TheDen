@@ -143,6 +143,8 @@
       activateSound: null
       deactivateSound: null
     - type: Fauna # Lavaland Change
+    - type: Bloodstream # Imp - Gives carp drug blood.
+      bloodReagent: ShimmeringBlood
 
 - type: entity
   parent: BaseMobCarp

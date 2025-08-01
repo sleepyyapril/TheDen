@@ -147,6 +147,7 @@
   - type: Bloodstream
     maxBleedAmount: 0
     bloodMaxVolume: 650
+    bloodReagent: ShimmeringBlood # Imp - Gives dragon drug blood.
   - type: GhostRole
     allowMovement: true
     allowSpeech: true
