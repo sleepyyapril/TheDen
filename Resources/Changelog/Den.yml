@@ -9073,3 +9073,10 @@ Entries:
   id: 880
   time: '2025-08-02T09:18:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1281
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Tweaked the Ghost Description of the Replicator to be more clear!!
+  id: 881
+  time: '2025-08-02T13:39:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1270
