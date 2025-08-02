@@ -10,8 +10,8 @@
   - type: Icon
     sprite: _Impstation/Mobs/Species/Thaven/parts.rsi # Unlike dwarves elves are NOT made of slime
     state: full
-  # - type: ThavenMoods # TheDen - Applied by the opt-in trait # TODO (THAVEN): WE GOTTA MAKE THAT OPT-IN TRAIT
-  # - type: IonStormTarget # TheDen - Applied by the opt-in trait # TODO (THAVEN): IMPSTATION PR 2850 MADE THEM VULNERABLE TO ION STORMS, DON'T KNOW IF WE WANNA DO THAT OR GLIMMER OR BOTH
+  #- type: ThavenMoods # TheDen - Applied by the opt-in trait # TODO (THAVEN): WE GOTTA MAKE THIS OPT-IN TRAIT
+  #- type: IonStormTarget # TheDen - Applied by the opt-in trait # TODO (THAVEN): IMPSTATION PR 2850 MADE THEM VULNERABLE TO ION STORMS, DO WE WANNA DO THAT OR GLIMMER OR BOTH
   - type: Carriable # TheDen - Carrying system from Nyanotrasen
   - type: Sprite
     noRot: true
