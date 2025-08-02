@@ -145,10 +145,9 @@
     - type: Fauna # Lavaland Change
     - type: Bloodstream # Imp - Gives carp drug blood.
       bloodReagent: ShimmeringBlood
-    - type: LanguageKnowledge # TheDen - They speak and understand the thaven language
-      speaks:
-      - Aural
+    - type: LanguageKnowledge # TheDen - They understand the thaven language
       understands:
+      - TauCetiBasic
       - Aural
 
 - type: entity

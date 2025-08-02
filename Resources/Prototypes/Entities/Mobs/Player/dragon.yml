@@ -339,8 +339,10 @@
     proto: thaven
   - type: LanguageKnowledge # TheDen - They speak and understand the thaven language
     speaks:
+    - TauCetiBasic
     - Aural
     understands:
+    - TauCetiBasic
     - Aural
 
 - type: entity
