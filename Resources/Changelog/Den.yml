@@ -9060,3 +9060,16 @@ Entries:
   id: 879
   time: '2025-08-01T04:38:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1280
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added a bunch of captain drip!
+    - type: Add
+      message: Added new command survival boxes!
+    - type: Add
+      message: >-
+        Added Prestige backpack, satchel, and duffel for command! something to
+        work towards!
+  id: 880
+  time: '2025-08-02T09:18:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1281
