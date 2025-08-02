@@ -146,6 +146,8 @@
     - type: Bloodstream # Imp - Gives carp drug blood.
       bloodReagent: ShimmeringBlood
     - type: LanguageKnowledge # TheDen - They understand the thaven language
+      speaks:
+      - Aural
       understands:
       - TauCetiBasic
       - Aural
