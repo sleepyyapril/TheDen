@@ -9080,3 +9080,10 @@ Entries:
   id: 881
   time: '2025-08-02T13:39:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1270
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Dragons can now understand and speak Tau-Ceti Basic again
+  id: 882
+  time: '2025-08-02T13:47:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1290
