@@ -9094,3 +9094,12 @@ Entries:
   id: 883
   time: '2025-08-02T16:09:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1288
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added tarot cards. Find them in your loadouts, the PietyVend, or a
+        hacked Good Clean Fun!
+  id: 884
+  time: '2025-08-02T19:25:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1255
