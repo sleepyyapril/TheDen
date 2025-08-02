@@ -9087,3 +9087,10 @@ Entries:
   id: 882
   time: '2025-08-02T13:47:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1290
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Medical Glasses being able to be chosen by every role for loadout.
+  id: 883
+  time: '2025-08-02T16:09:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1288
