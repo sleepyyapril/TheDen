@@ -9103,3 +9103,56 @@ Entries:
   id: 884
   time: '2025-08-02T19:25:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1255
+- author: portfiend
+  changes:
+    - type: Add
+      message: LOCK IN. LOCK THE FUCK IN.
+    - type: Add
+      message: >-
+        Stomachs can be cut with a knife to produce sausage casings, used to
+        make sausage (of course). A roll of sausage casings is also now included
+        in the ChefVend.
+    - type: Add
+      message: >-
+        You can now cook carp and slice them into cutlets. Many carp-related
+        recipes have been slightly adjusted to use the new cooked carp or
+        cutlets.
+    - type: Add
+      message: >-
+        Tofu slices can be used in burger sequences. Chanterelle mushrooms and
+        cooked carp (+ cutlets) can be used in burgers and tacos.
+    - type: Add
+      message: >-
+        You can now make xenoburgers, tofuburgers, and fillet-o-carps through
+        sequential burger assembly.
+    - type: Add
+      message: >-
+        A guidebook entry on sequence cooking can be found under the Chef
+        section. 
+    - type: Add
+      message: >-
+        You can now examine food sequences (sequential burgers, tacos, skewers)
+        to see their list of ingredients.
+    - type: Tweak
+      message: Pigs will now butcher into 3 meat and 3 raw bacon.
+    - type: Tweak
+      message: Butter sticks and slices are now extractable into butter reagent.
+    - type: Tweak
+      message: >-
+        Many recipes that used sticks of butter have been changed to use slices
+        instead.
+    - type: Tweak
+      message: >-
+        Moths can now eat pea soup, coleslaw, caesar salad, kimchi salad, rice
+        pudding, oatmeal, french onion soup, and uszka borscht.
+    - type: Tweak
+      message: Buns have slightly increased reagent limits for condiments.
+    - type: Fix
+      message: >-
+        You can no longer insert humanoid characters or brains into deep fryers.
+        You can still crisp up a nice tasty rat, however.
+    - type: Fix
+      message: Mouse and ruminant stomachs are now edible.
+  id: 885
+  time: '2025-08-02T19:39:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1289
