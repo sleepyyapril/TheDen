@@ -533,6 +533,11 @@
         conditions:
         - !type:OrganType
           type: Thaven
+      - !type:SatiateThirst # Imp - Thaven breathing water vapor get thirsty slower
+        conditions:
+        - !type:OrganType
+          type: Thaven
+        factor: 0.1
       # DeltaV Converts H2O into CO2 for Feroxi
       - !type:ModifyLungGas
         conditions:
@@ -553,7 +558,7 @@
         - !type:OrganType
           type: Thaven
         ratios:
-          WaterVapor: 1.0
+          WaterVapor: 0.8 # 0.2 of the water vapor is what's hydrating them
           WaterVapor: -1.0
 
 - type: reagent
