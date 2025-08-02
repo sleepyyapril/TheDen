@@ -13,10 +13,10 @@
     torso:
       part: TorsoThaven
       connections:
-      - right_arm
-      - left_arm
-      - right_leg
-      - left_leg
+      - right arm
+      - left arm
+      - right leg
+      - left leg
       - head # Shitmed
       organs:
         heart: OrganThavenHeart

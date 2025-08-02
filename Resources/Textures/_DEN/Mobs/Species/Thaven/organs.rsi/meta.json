@@ -11,20 +11,16 @@
             "name": "appendix"
         },
         {
-            "name": "appendix-inflamed",
-            "directions": 4
+            "name": "appendix-inflamed"
         },
         {
-            "name": "ears",
-            "directions": 4
+            "name": "ears"
         },
         {
-            "name": "muscle",
-            "directions": 4
+            "name": "muscle"
         },
         {
-            "name": "nerve",
-            "directions": 4
+            "name": "nerve"
         },
         {
             "name": "tongue"

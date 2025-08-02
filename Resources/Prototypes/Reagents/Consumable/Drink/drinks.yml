@@ -553,13 +553,6 @@
         ratios: # DeltaV no duplicating O2 >:3
           CarbonDioxide: 0.5
           WaterVapor: -1.0
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          WaterVapor: 0.8 # 0.2 of the water vapor is what's hydrating them
-          WaterVapor: -1.0
 
 - type: reagent
   id: Ice

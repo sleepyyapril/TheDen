@@ -306,13 +306,6 @@
         conditions:
         - !type:OrganType
           type: Thaven
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Ammonia: 1.0
-          Ammonia: -1.0
 
 
 - type: reagent

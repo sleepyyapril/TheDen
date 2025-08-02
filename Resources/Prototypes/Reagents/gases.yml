@@ -82,13 +82,6 @@
         ratios:
           CarbonDioxide: 1.0
           Oxygen: -1.0
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Oxygen: 1.0
-          Oxygen: -1.0
       - !type:HealthChange
         conditions:
         - !type:OrganType
@@ -225,13 +218,6 @@
         ratios:
           Nitrogen: 1.0 # Interesting exhale for plasmamen
           Plasma: -1.0
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Plasma: 1.0
-          Plasma: -1.0
     Medicine:
       effects:
       - !type:HealthChange
@@ -312,13 +298,6 @@
             min: 1.5
         clear: True
         time: 5
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment # TODO (THAVEN): SEE IF TRIT INTERNALS START FIRES OH MAN
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Tritium: 1.0
-          Tritium: -1.0
 
 - type: reagent
   id: CarbonDioxide
@@ -371,13 +350,6 @@
       # We need a metabolism effect on reagent removal
       #- !type:AdjustAlert
       #  alertType: CarbonDioxide
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          CarbonDioxide: 1.0
-          CarbonDioxide: -1.0
 
 - type: reagent
   id: Nitrogen
@@ -423,13 +395,6 @@
           type: Slime
         ratios:
           NitrousOxide: 1.0
-          Nitrogen: -1.0
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Nitrogen: 1.0
           Nitrogen: -1.0
 
 - type: reagent
@@ -530,13 +495,6 @@
         damage:
           types:
             Poison: 0.25
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          NitrousOxide: 1.0
-          NitrousOxide: -1.0
 
 - type: reagent
   id: Frezon
@@ -600,13 +558,6 @@
         - !type:ReagentThreshold
           reagent: Frezon
           min: 1
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Frezon: 1.0
-          Frezon: -1.0
 
  # Assmos - /tg/ gases
 - type: reagent
@@ -747,13 +698,6 @@
         component: ForcedSleeping
         time: 10
         type: Add
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          BZ: 1.0
-          BZ: -1.0
 
 - type: reagent
   id: Healium
@@ -834,13 +778,6 @@
         - !type:ReagentThreshold
           reagent: Healium
           min: 4
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Healium: 1.0
-          Healium: -1.0
 
 - type: reagent
   id: Nitrium
@@ -921,14 +858,7 @@
         damage:
           types:
             Asphyxiation: 15
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Nitrium: 1.0
-          Nitrium: -1.0
-      
+
 - type: reagent
   id: Pluoxium
   name: reagent-name-pluoxium
@@ -966,18 +896,12 @@
           type: Thaven
       # Convert Pluoxium into CO2.
       - !type:ModifyLungGas
+        conditions:
         - !type:OrganType # TheDen - Thaven don't do chemical reactions in their lungs
           type: Thaven
           shouldHave: false
         ratios:
           CarbonDioxide: 1.0
-          Pluoxium: -1.0
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Pluoxium: 1.0
           Pluoxium: -1.0
 
 - type: reagent
@@ -994,13 +918,6 @@
         conditions:
         - !type:OrganType
           type: Thaven
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Hyper-Noblium: 1.0
-          Hyper-Noblium: -1.0
 
 - type: reagent
   id: Proto-Nitrate
@@ -1016,13 +933,6 @@
         conditions:
         - !type:OrganType
           type: Thaven
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Proto-Nitrate: 1.0
-          Proto-Nitrate: -1.0
 
 - type: reagent
   id: Zauker
@@ -1070,13 +980,6 @@
             Heat: 10
             Poison: 10
             Bloodloss: 5
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Zauker: 1.0
-          Zauker: -1.0
 
 - type: reagent
   id: Halon
@@ -1092,13 +995,6 @@
         conditions:
         - !type:OrganType
           type: Thaven
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Halon: 1.0
-          Halon: -1.0
 
 - type: reagent
   id: Helium
@@ -1114,13 +1010,6 @@
         conditions:
         - !type:OrganType
           type: Thaven
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Helium: 1.0
-          Helium: -1.0
 
 - type: reagent
   id: Anti-Noblium
@@ -1136,10 +1025,3 @@
         conditions:
         - !type:OrganType
           type: Thaven
-      - !type:ModifyLungGas # TheDen - Thaven exhale whatever they inhaled into the environment
-        conditions:
-        - !type:OrganType
-          type: Thaven
-        ratios:
-          Anti-Noblium: 1.0
-          Anti-Noblium: -1.0

@@ -84,25 +84,47 @@
     templateId: thaven
     displacements:
       jumpsuit:
-        sizeMaps:
-          32:
-            sprite: _DEN/Mobs/Species/Thaven/displacement.rsi # TheDen
-            state: jumpsuit
+        layer:
+          sprite: _DEN/Mobs/Species/Thaven/displacement.rsi # TheDen
+          state: jumpsuit
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
       head:
-        sizeMaps:
-          32:
-            sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi
-            state: head
+        layer:
+          sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi
+          state: head
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
       outerClothing:
-        sizeMaps:
-          32:
-            sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi
-            state: outerclothing_hardsuit
+        layer:
+          sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi
+          state: outerclothing_hardsuit
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
       gloves:
-        sizeMaps:
-          32:
-            sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi
-            state: hands
+        layer:
+          sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi
+          state: hands
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - ThavenEmotes
 
 
 - type: entity
@@ -111,28 +133,44 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    scale: 1, 1
+    scale: 1, 1.05
   - type: Inventory
     speciesId: thaven
     templateId: thaven
     displacements:
       jumpsuit:
-        sizeMaps:
-          32:
-            sprite: _DEN/Mobs/Species/Thaven/displacement.rsi # TheDen
-            state: jumpsuit
+        layer:
+          sprite: _DEN/Mobs/Species/Thaven/displacement.rsi # TheDen
+          state: jumpsuit
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
       head:
-        sizeMaps:
-          32:
-            sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi
-            state: head
+        layer:
+          sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi # TheDen
+          state: head
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
       outerClothing:
-        sizeMaps:
-          32:
-            sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi
-            state: outerclothing_hardsuit
+        layer:
+          sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi # TheDen
+          state: outerclothing_hardsuit
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV
       gloves:
-        sizeMaps:
-          32:
-            sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi
-            state: hands
+        layer:
+          sprite: _Impstation/Mobs/Species/Thaven/displacement.rsi # TheDen
+          state: hands
+          copyToShaderParameters:
+            # Value required, provide a dummy. Gets overridden when applied.
+            layerKey: dummy
+            parameterTexture: displacementMap
+            parameterUV: displacementUV

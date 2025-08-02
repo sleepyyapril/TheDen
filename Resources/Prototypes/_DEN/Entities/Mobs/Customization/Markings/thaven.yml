@@ -73,7 +73,7 @@
     default:
       type:
         !type:TattooColoring
-      fallbackColor: "#666666"
+          fallbackColor: "#666666"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/chest.rsi
     state: tat1_f
@@ -136,7 +136,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/underwear.rsi
     state: briefs_f
@@ -151,7 +151,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/underwear.rsi
     state: boxers_f
@@ -166,7 +166,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/underwear.rsi
     state: lowriders_f
@@ -178,11 +178,11 @@
   bodyPart: Undershirt
   markingCategory: Undershirt
   speciesRestriction: [ Thaven ]
-  sexRestriction: [ Female ]
   coloring:
     default:
-      type: null
-      fallbackColor: '#FFFFFF'
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/undershirt.rsi
     state: binder_f
@@ -195,8 +195,9 @@
   sexRestriction: [ Female ]
   coloring:
     default:
-      type: null
-      fallbackColor: '#FFFFFF'
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/undershirt.rsi
     state: tanktop_f
@@ -211,7 +212,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/undershirt.rsi
     state: classic_f
@@ -226,7 +227,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/undershirt.rsi
     state: sports_f
@@ -241,7 +242,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/undershirt.rsi
     state: strapless_f
@@ -256,7 +257,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/undershirt.rsi
     state: undershirt_f
@@ -271,7 +272,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/undershirt.rsi
     state: grosssleeveless_f
@@ -286,7 +287,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/undershirt.rsi
     state: nanotrasen_f
@@ -301,7 +302,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/undershirt.rsi
     state: rolledundershirt_f
@@ -498,7 +499,7 @@
     default:
       type:
         !type:EyeColoring
-        negative: false
+          negative: false
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/tail.rsi
     state: angler3

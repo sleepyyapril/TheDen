@@ -47,6 +47,15 @@
     Hair:
       points: 1
       required: false
+    Snout:
+      points: 1
+      required: false
+    Tail:
+      points: 1
+      required: false
+    Head:
+      points: 4
+      required: false
     HeadTop:
       points: 4
       required: false
@@ -54,29 +63,44 @@
       points: 1
       required: true
       defaultMarkings: [ ThavenEars1 ]
-    Head:
-      points: 4
-      required: false
-    Undershirt:
-      points: 1
-      required: false
-    Underwear:
-      points: 1
-      required: false
     Chest:
-      points: 4
-      required: false
-    Arms:
-      points: 4
-      required: false
-    Tail:
-      points: 1
-      required: false
-    Overlay:
       points: 6
       required: false
-    Snout:
+    Genitals:
       points: 1
+      required: false
+    Nipples:
+      points: 2
+      required: false
+    Undershirt:
+      points: 2
+      required: false
+    Underwear:
+      points: 2
+      required: false
+    RightLeg:
+      points: 4
+      required: false
+    RightFoot:
+      points: 6
+      required: false
+    LeftLeg:
+      points: 6
+      required: false
+    LeftFoot:
+      points: 6
+      required: false
+    RightArm:
+      points: 6
+      required: false
+    RightHand:
+      points: 6
+      required: false
+    LeftArm:
+      points: 6
+      required: false
+    LeftHand:
+      points: 6
       required: false
 
 - type: humanoidBaseSprite

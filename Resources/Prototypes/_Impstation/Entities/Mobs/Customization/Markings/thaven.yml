@@ -70,7 +70,7 @@
     default:
       type:
         !type:TattooColoring
-      fallbackColor: "#666666"
+          color: "#666666"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/chest.rsi
     state: tat1
@@ -84,7 +84,7 @@
     default:
       type:
         !type:EyeColoring
-        negative: false
+          negative: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/chest.rsi
     state: spinechill
@@ -184,7 +184,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#000000"
+          color: "#000000"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/head.rsi
     state: shadowthaven
@@ -211,7 +211,7 @@
     default:
       type:
         !type:EyeColoring
-        negative: false
+          negative: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/eyes.rsi
     state: sharkminnow
@@ -225,7 +225,7 @@
     default:
       type:
         !type:EyeColoring
-        negative: false
+          negative: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/eyes.rsi
     state: sharkminnow
@@ -240,7 +240,7 @@
     default:
       type:
         !type:EyeColoring
-        negative: false
+          negative: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/eyes.rsi
     state: glowleft
@@ -255,7 +255,7 @@
     default:
       type:
         !type:EyeColoring
-        negative: false
+          negative: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/eyes.rsi
     state: glowright
@@ -266,7 +266,7 @@
 - type: marking
   id: ThavenRArmScales
   bodyPart: RArm
-  markingCategory: Arms
+  markingCategory: RightArm
   speciesRestriction: [ Thaven ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/rarm.rsi
@@ -275,13 +275,13 @@
 - type: marking
   id: ThavenRArmTattoo1
   bodyPart: RArm
-  markingCategory: Arms
+  markingCategory: RightArm
   speciesRestriction: [ Thaven ]
   coloring:
     default:
       type:
         !type:TattooColoring
-      fallbackColor: "#666666"
+          color: "#666666"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/rarm.rsi
     state: tat1
@@ -289,7 +289,7 @@
 - type: marking
   id: ThavenTigerRArm
   bodyPart: RArm
-  markingCategory: Arms
+  markingCategory: RightArm
   speciesRestriction: [ Thaven ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/rarm.rsi
@@ -300,7 +300,7 @@
 - type: marking
   id: ThavenLArmScales
   bodyPart: LArm
-  markingCategory: Arms
+  markingCategory: LeftArm
   speciesRestriction: [ Thaven ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/larm.rsi
@@ -309,13 +309,13 @@
 - type: marking
   id: ThavenLArmTattoo1
   bodyPart: LArm
-  markingCategory: Arms
+  markingCategory: LeftArm
   speciesRestriction: [ Thaven ]
   coloring:
     default:
       type:
         !type:TattooColoring
-      fallbackColor: "#666666"
+          color: "#666666"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/larm.rsi
     state: tat1
@@ -323,7 +323,7 @@
 - type: marking
   id: ThavenTigerLArm
   bodyPart: LArm
-  markingCategory: Arms
+  markingCategory: LeftArm
   speciesRestriction: [ Thaven ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/larm.rsi
@@ -334,7 +334,7 @@
 - type: marking
   id: ThavenRLegScales
   bodyPart: RLeg
-  markingCategory: Legs
+  markingCategory: RightLeg
   speciesRestriction: [ Thaven ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/rleg.rsi
@@ -345,7 +345,7 @@
 - type: marking
   id: ThavenLLegScales
   bodyPart: LLeg
-  markingCategory: Legs
+  markingCategory: LeftLeg
   speciesRestriction: [ Thaven ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/lleg.rsi
@@ -363,7 +363,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmentbottom.rsi
     state: briefs
@@ -378,7 +378,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmentbottom.rsi
     state: boxers
@@ -393,7 +393,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmentbottom.rsi
     state: lowriders
@@ -407,7 +407,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmentbottom.rsi
     state: satin
@@ -421,7 +421,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmentbottom.rsi
     state: tanga
@@ -436,8 +436,9 @@
   sexRestriction: [ Male ] # TheDen - Added sexual dimorphism to thaven
   coloring:
     default:
-      type: null
-      fallbackColor: '#FFFFFF'
+      type:
+        !type:SimpleColoring
+          color: '#FFFFFF'
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmenttop.rsi
     state: binder
@@ -450,8 +451,9 @@
   sexRestriction: [ Male ] # TheDen - Added sexual dimorphism to thaven
   coloring:
     default:
-      type: null
-      fallbackColor: '#FFFFFF'
+      type:
+        !type:SimpleColoring
+          color: '#FFFFFF'
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmenttop.rsi
     state: tanktop
@@ -466,7 +468,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmenttop.rsi
     state: classic
@@ -481,7 +483,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmenttop.rsi
     state: sports
@@ -496,7 +498,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmenttop.rsi
     state: strapless
@@ -511,7 +513,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmenttop.rsi
     state: undershirt
@@ -526,7 +528,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmenttop.rsi
     state: grosssleeveless
@@ -541,7 +543,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmenttop.rsi
     state: nanotrasen
@@ -556,7 +558,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/undergarmenttop.rsi
     state: rolledundershirt
@@ -2614,7 +2616,7 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/headtop.rsi
     state: piercings
@@ -2628,12 +2630,12 @@
     default:
       type:
         !type:SimpleColoring
-        color: "#FFFFFF"
+          color: "#FFFFFF"
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/headtop.rsi
     state: piercings2
 
-# Tail 
+# Tail
 
 - type: marking
   id: ThavenBasicTail
@@ -2688,7 +2690,7 @@
     default:
       type:
         !type:EyeColoring
-        negative: false
+          negative: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/tail.rsi
     state: eel3
