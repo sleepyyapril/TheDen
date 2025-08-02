@@ -335,6 +335,13 @@
       path: /Audio/Items/crowbar.ogg
   - type: Hands
   - type: ComplexInteraction
+  - type: TypingIndicator # TheDen - Use DeltaV's thaven typing indicator, looks like a carp
+    proto: thaven
+  - type: LanguageKnowledge # TheDen - They speak and understand the thaven language
+    speaks:
+    - Aural
+    understands:
+    - Aural
 
 - type: entity
   parent: BaseMobDragon
