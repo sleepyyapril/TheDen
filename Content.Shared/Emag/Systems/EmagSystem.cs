@@ -3,6 +3,7 @@
 // SPDX-FileCopyrightText: 2024 Arendian
 // SPDX-FileCopyrightText: 2024 WarMechanic
 // SPDX-FileCopyrightText: 2025 Shaman
+// SPDX-FileCopyrightText: 2025 portfiend
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
