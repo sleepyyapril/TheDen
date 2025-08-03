@@ -9181,3 +9181,38 @@ Entries:
   id: 888
   time: '2025-08-03T13:06:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1294
+- author: ShepardToTheStars
+  changes:
+    - type: Tweak
+      message: >-
+        Made ninja stunlocking shorter and require more suit energy. The stun
+        now lasts 3 seconds, can be reapplied every 2.8 seconds, and consumes
+        1/6 of a small-capacity powercell.
+    - type: Fix
+      message: Ninja throwing star ability now works! Throwing stars real.
+    - type: Fix
+      message: Fixed ninja shoes not working as magboots.
+    - type: Add
+      message: >-
+        The Space Ninja Suit will now give an error popup if you are trying to
+        install a cell that is not better compared to the current cell.
+    - type: Tweak
+      message: Ninja gear can now be removed again.
+    - type: Tweak
+      message: >-
+        Some LRP ninja names have been replaced. No more 'Awesome McNinja'
+        sadly.
+    - type: Tweak
+      message: >-
+        When comparing which power cell is better when trying to swap them, the
+        Space Ninja's Suit will now also consider if the power cells have
+        self-recharge capability.
+    - type: Fix
+      message: Fixed new ninja intro song. It should correctly play now.
+    - type: Fix
+      message: >-
+        You can no longer fit weapons-grade power cages into the space ninja
+        suit.
+  id: 889
+  time: '2025-08-03T13:07:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1293
