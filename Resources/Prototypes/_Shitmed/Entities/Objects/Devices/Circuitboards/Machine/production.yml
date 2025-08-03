@@ -68,7 +68,7 @@
   components:
   - type: MachineBoard
     prototype: OperatingTableAdvanced
-    requirements:
+    materialRequirements:
       Cable: 3
       Silver: 2
       Steel: 4
