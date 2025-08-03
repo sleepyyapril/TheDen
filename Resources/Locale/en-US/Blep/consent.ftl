@@ -49,3 +49,6 @@ consent-NoDragonDevour-desc = With this on, you will no longer be able to be dev
 
 consent-NSFWDescriptions-name = Show NSFW Descriptions
 consent-NSFWDescriptions-desc = Toggle this on to see dynamic player descriptions that may contain NSFW/ERP content.
+
+consent-AllowMoodEmagging-name = Mood Emagging
+consent-AllowMoodEmagging-desc = Allow other players to use a crypotographic sequencer to add new, random, chaotic moods to your mood list, as a Thaven or another mob with moods. This toggle does not apply to cyborg laws.

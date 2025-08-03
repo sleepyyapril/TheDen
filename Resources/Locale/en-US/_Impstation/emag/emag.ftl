@@ -1,1 +1,2 @@
-emag-thaven-alive = {CAPITALIZE(THE($emag))} doesn't seem to work on {THE($target)}. Maybe try it when {SUBJECT($target)} {CONJUGATE-BE($target)} incapacitated.
+emag-thaven-no-consent = The target's mind rejects the sequencer!
+emag-thaven-alive = Target must be asleep or incapacitated!

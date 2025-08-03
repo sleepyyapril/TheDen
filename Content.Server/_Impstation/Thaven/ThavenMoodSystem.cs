@@ -23,6 +23,8 @@ using Robust.Shared.Random;
 using Content.Shared._Impstation.CCVar;
 using Robust.Shared.Audio.Systems;
 using Content.Server.StationEvents.Events;
+using Content.Shared.Emag.Components;
+using Content.Shared.Popups;
 
 namespace Content.Server._Impstation.Thaven;
 
@@ -63,7 +65,6 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
         SubscribeLocalEvent<ThavenMoodsComponent, ComponentShutdown>(OnThavenMoodShutdown);
         SubscribeLocalEvent<ThavenMoodsComponent, ToggleMoodsScreenEvent>(OnToggleMoodsScreen);
         SubscribeLocalEvent<ThavenMoodsComponent, BoundUIOpenedEvent>(OnBoundUIOpened);
-        SubscribeLocalEvent<ThavenMoodsComponent, IonStormEvent>(OnIonStorm);
         SubscribeLocalEvent<RoundRestartCleanupEvent>((_) => NewSharedMoods());
     }
 
@@ -319,7 +320,7 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
             TryAddMood(ent, mood, true, false);
 
         // Wildcard moods
-        if (_emag.CheckFlag(ent, EmagType.Interaction))
+        if (HasComp<EmaggedComponent>(ent))
             AddWildcardMood(ent, false);
     }
 
@@ -399,7 +400,26 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
         AddWildcardMood(ent);
     }
 
-    public void OnIonStorm(Entity<ThavenMoodsComponent> ent, ref IonStormEvent args)
+    protected override void OnAttemptEmag(Entity<ThavenMoodsComponent> ent, ref OnAttemptEmagEvent args)
+    {
+        base.OnAttemptEmag(ent, ref args);
+        if (args.Handled)
+            return;
+
+        // Always allowed
+        var user = args.UserUid;
+        if (user == ent.Owner)
+            return;
+
+        // Thaven must be consenting!
+        if (!Consent.HasConsent(ent.Owner, EmagConsentToggle))
+        {
+            Popup.PopupClient(Loc.GetString("emag-thaven-no-consent"), user, user, PopupType.MediumCaution);
+            args.Handled = true;
+        }
+    }
+
+    public void OnIonStorm(Entity<ThavenMoodsComponent> ent)
     {
         if (!ent.Comp.IonStormable)
             return;

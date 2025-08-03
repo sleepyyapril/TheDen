@@ -79,6 +79,7 @@ public sealed partial class AdminVerbSystem
     [Dependency] private readonly SharedTransformSystem _xformSystem = default!;
     [Dependency] private readonly MetaDataSystem _metaSystem = default!;
     [Dependency] private readonly GunSystem _gun = default!;
+    [Dependency] private readonly ThavenMoodsSystem _moods = default!;
 
     private void AddTricksVerbs(GetVerbsEvent<Verb> args)
     {
@@ -956,5 +957,7 @@ public sealed partial class AdminVerbSystem
         SnapJoints = -27,
         MakeMinigun = -28,
         SetBulletAmount = -29,
+        AddRandomMood = -30,
+        AddCustomMood = -31,
     }
 }
