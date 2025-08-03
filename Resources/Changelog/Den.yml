@@ -9172,3 +9172,12 @@ Entries:
   id: 887
   time: '2025-08-03T13:04:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1247
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked the void jetpack to be as fast as any other jetpack, but
+        accelerates really quickly! Be nimble!
+  id: 888
+  time: '2025-08-03T13:06:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1294
