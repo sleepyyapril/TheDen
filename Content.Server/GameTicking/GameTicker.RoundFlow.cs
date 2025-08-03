@@ -36,6 +36,7 @@
 // SPDX-FileCopyrightText: 2024 Vasilis
 // SPDX-FileCopyrightText: 2024 Wrexbe (Josh)
 // SPDX-FileCopyrightText: 2024 wrexbe
+// SPDX-FileCopyrightText: 2025 AirFryerBuyOneGetOneFree
 // SPDX-FileCopyrightText: 2025 Falcon
 // SPDX-FileCopyrightText: 2025 Leon Friedrich
 // SPDX-FileCopyrightText: 2025 VMSolidus
