@@ -69,6 +69,8 @@
         Caustic: 0.95
   - type: TemperatureProtection
     coefficient: 1
+  - type: SurgerySpeedModifier
+    speedModifier: 1.25
 
 - type: entity
   parent: ClothingHandsBase
