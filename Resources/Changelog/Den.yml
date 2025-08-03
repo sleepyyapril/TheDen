@@ -9230,3 +9230,16 @@ Entries:
   id: 891
   time: '2025-08-03T13:19:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1274
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        A new "blood smell" trait has been added, allowing you to view what
+        reagent a mob's blood stream is made of.
+    - type: Tweak
+      message: >-
+        Bloodfeeders of all kinds (whether it's traits, species, or some other
+        thing) are now also capable of examining a target's blood.
+  id: 892
+  time: '2025-08-03T14:05:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1295
