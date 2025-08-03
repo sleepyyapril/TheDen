@@ -1,0 +1,18 @@
+- type: trait
+  id: ThavenMoods
+  category: Mental
+  points: 2
+  requirements:
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+    - StationAi
+    - Borg
+    - MedicalBorg
+  - !type:CharacterSpeciesRequirement
+    species:
+      - Thaven
+  functions:
+  - !type:TraitAddComponent
+    components:
+      - type: ThavenMoods
