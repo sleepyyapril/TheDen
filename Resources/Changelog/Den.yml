@@ -9165,3 +9165,10 @@ Entries:
   id: 886
   time: '2025-08-03T11:58:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1296
+- author: ShepardToTheStars
+  changes:
+    - type: Tweak
+      message: Actions with charges will now grey out when they're disabled.
+  id: 887
+  time: '2025-08-03T13:04:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1247
