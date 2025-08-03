@@ -15,6 +15,7 @@ using Content.Server.Roles.Jobs;
 
 namespace Content.Server._Wizden.Chat.Systems;
 
+/// TODO: Refactor this entire thing
 sealed class LastMessageBeforeDeathSystem : EntitySystem
 {
     [Dependency] private readonly IConfigurationManager _configManager = default!;
@@ -138,22 +139,23 @@ sealed class LastMessageBeforeDeathSystem : EntitySystem
         foreach (var player in _playerData)
         {
             var singlePlayerData = player.Value;
-            if (singlePlayerData.PlayerSession != null && singlePlayerData.PlayerSession.Status != SessionStatus.Disconnected)
+            if (singlePlayerData.PlayerSession == null || singlePlayerData.PlayerSession.Status == SessionStatus.Disconnected)
+                continue;
+
+            foreach (var character in singlePlayerData.Characters)
             {
-                foreach (var character in singlePlayerData.Characters)
+                var characterData = character.Value;
+                // I am sure if there is a better way to go about checking if an EntityUID is no longer linked to an active entity...
+                // I don't know how tho...
+
+                if (_mobStateSystem.IsDead(characterData.EntityUid)
+                    || !EntityManager.TryGetComponent<MetaDataComponent>(characterData.EntityUid, out _))
+                    continue;
+
+                if (character.Key.CharacterName != null) // Check if an entity is dead or doesn't exist
                 {
-                    var characterData = character.Value;
-                    // I am sure if there is a better way to go about checking if an EntityUID is no longer linked to an active entity...
-                    // I don't know how tho...
-                    if ((_mobStateSystem.IsDead(characterData.EntityUid) || !EntityManager.TryGetComponent<MetaDataComponent>(characterData.EntityUid, out var metadata)) && character.Key.CharacterName != null) // Check if an entity is dead or doesn't exist
-                    {
-                        var message = FormatMessage(characterData, character.Key.CharacterName);
-                        allMessages.Add(message);
-                    }
-                    else
-                    {
-                        continue;
-                    }
+                    var message = FormatMessage(characterData, character.Key.CharacterName);
+                    allMessages.Add(message);
                 }
             }
         }
