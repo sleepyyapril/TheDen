@@ -13,21 +13,24 @@ using Content.Server.Abilities.Mime;
 using Content.Server.Chat.Systems;
 using Content.Shared.Chat;
 using Content.Server.VoiceMask;
+using Content.Server.Radio.Components; // starcup
 using Content.Server.Speech.Components;
 using Content.Shared.Chat;
 using Content.Shared._DV.AACTablet;
 using Content.Shared.IdentityManagement;
+using Robust.Server.GameObjects; // starcup
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
 namespace Content.Server._DV.AACTablet;
 
-public sealed class AACTabletSystem : EntitySystem
+public sealed partial class AACTabletSystem : EntitySystem // starcup: made partial
 {
     [Dependency] private readonly ChatSystem _chat = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly MimePowersSystem _mimePowers = default!;
+    [Dependency] private readonly UserInterfaceSystem _userInterface = default!; // starcup
 
     private readonly List<string> _localisedPhrases = [];
 
@@ -35,6 +38,13 @@ public sealed class AACTabletSystem : EntitySystem
     {
         base.Initialize();
         SubscribeLocalEvent<AACTabletComponent, AACTabletSendPhraseMessage>(OnSendPhrase);
+
+        // begin starcup
+        Subs.BuiEvents<AACTabletComponent>(AACTabletKey.Key, subs =>
+        {
+            subs.Event<BoundUIOpenedEvent>(OnBoundUIOpened);
+        });
+        // end starcup
     }
 
     private void OnSendPhrase(Entity<AACTabletComponent> ent, ref AACTabletSendPhraseMessage message)
@@ -65,8 +75,14 @@ public sealed class AACTabletSystem : EntitySystem
 
         EnsureComp<VoiceOverrideComponent>(ent).NameOverride = speakerName;
 
+        // begin starcup: Radio support
+        // Set the player's currently available channels before sending the message
+        EnsureComp(ent, out IntrinsicRadioTransmitterComponent transmitter);
+        transmitter.Channels = GetAvailableChannels(message.Actor);
+        // end starcup
+
         _chat.TrySendInGameICMessage(ent,
-            _chat.SanitizeMessageCapital(string.Join(" ", _localisedPhrases)),
+            message.Prefix + _chat.SanitizeMessageCapital(string.Join(" ", _localisedPhrases)), // starcup: prefix
             InGameICChatType.Speak,
             hideChat: false,
             nameOverride: speakerName);

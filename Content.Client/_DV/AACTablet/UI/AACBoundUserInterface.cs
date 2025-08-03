@@ -14,7 +14,7 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Client._DV.AACTablet.UI;
 
-public sealed class AACBoundUserInterface : BoundUserInterface
+public sealed partial class AACBoundUserInterface : BoundUserInterface // starcup: made partial
 {
     [ViewVariables]
     private AACWindow? _window;
@@ -32,9 +32,9 @@ public sealed class AACBoundUserInterface : BoundUserInterface
         _window.PhraseButtonPressed += OnPhraseButtonPressed;
     }
 
-    private void OnPhraseButtonPressed(List<ProtoId<QuickPhrasePrototype>> phraseId)
+    private void OnPhraseButtonPressed(List<ProtoId<QuickPhrasePrototype>> phraseId, string prefix)
     {
-        SendMessage(new AACTabletSendPhraseMessage(phraseId));
+        SendMessage(new AACTabletSendPhraseMessage(phraseId, prefix)); // starcup: prefix parameter
     }
 
     protected override void Dispose(bool disposing)
