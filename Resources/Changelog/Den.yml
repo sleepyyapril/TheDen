@@ -9216,3 +9216,10 @@ Entries:
   id: 889
   time: '2025-08-03T13:07:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1293
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Reduced modsuit battery drain, until it's fixed properly.
+  id: 890
+  time: '2025-08-03T13:08:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1291
