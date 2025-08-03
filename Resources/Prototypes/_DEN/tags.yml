@@ -27,6 +27,9 @@
   id: Explosives
 
 - type: Tag
+  id: Fish
+
+- type: Tag
   id: ResomiEmotes
 
 - type: Tag
@@ -36,6 +39,9 @@
   id: TeddyRibbon
 
 - type: Tag
+  id: Tofu
+
+- type: Tag
   id: ArachneEmotes
 
 - type: Tag
@@ -43,6 +49,9 @@
 
 - type: Tag
   id: VampireFood
+
+- type: Tag
+  id: Xeno
 
 - type: Tag
   id: DisposableSyringePackaged

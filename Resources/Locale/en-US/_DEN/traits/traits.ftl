@@ -74,6 +74,12 @@ trait-description-HandsFreePulling =
     or even custom implantations or modifications.
     You're able to drag things around without using your hands due to your abnormally strong tail or other modifications.
 
+trait-name-BloodExaminer = Blood Smell
+trait-description-BloodExaminer =
+    You can [color=yellow]identify the blood chemical of mobs[/color] when you stand close enough to them.
+    Note that this trait [color=orange]does not detect other chemicals in their blood stream[/color], only what
+    the mob's blood stream is actually made of - such as [color=lightblue]synth blood[/color] or [color=lightblue]insect blood[/color].
+
 trait-name-Aural = Aural
 trait-description-Aural =
     The songlike language of ancient thaven society, known for its fluid rhythm, melodic tones, and dense vocalizations. It's often described by outsiders as speaking in tongues.
