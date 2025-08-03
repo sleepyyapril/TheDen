@@ -31,8 +31,6 @@ public sealed partial class AACWindow : FancyWindow
     private readonly List<QuickPhrasePrototype> _phrases = [];
     private readonly Dictionary<string, List<QuickPhrasePrototype>> _filteredPhrases = new();
     public event Action<List<ProtoId<QuickPhrasePrototype>>, string>? PhraseButtonPressed; // starcup: radio second parameter
-    public event Action? Typing;
-    public event Action? SubmitPressed;
 
     private const float SpaceWidth = 10f;
     private const float ParentWidth = 540f;
@@ -256,7 +254,6 @@ public sealed partial class AACWindow : FancyWindow
             _phraseSingle.Clear();
             _phraseSingle.Add(phraseId);
             PhraseButtonPressed?.Invoke(_phraseSingle, Prefix); // starcup: Prefix parameter
-            SubmitPressed?.Invoke();
         }
     }
 }
