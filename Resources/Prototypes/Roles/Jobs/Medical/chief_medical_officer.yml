@@ -89,8 +89,6 @@
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining
-    - type: SurgerySpeedModifier
-      speedModifier: 2.5
   afterLoadoutSpecial:
   - !type:ModifyEnvirosuitSpecial
     charges: 8

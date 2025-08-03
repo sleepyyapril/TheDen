@@ -57,8 +57,6 @@
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining
-    - type: SurgerySpeedModifier
-      speedModifier: 1.75
 
 - type: startingGear
   id: DoctorGear
