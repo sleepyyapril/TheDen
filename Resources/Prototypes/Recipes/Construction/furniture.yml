@@ -677,23 +677,6 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  id: OperatingTable
-  name: operating table
-  description: Used for advanced medical procedures.
-  graph: bed
-  startNode: start
-  targetNode: operatingtable
-  category: construction-category-furniture
-  icon:
-    sprite: Structures/Furniture/Tables/optable.rsi
-    state: operating_table
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-
 #bedroom
 - type: construction
   id: Bed
