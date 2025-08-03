@@ -1,4 +1,8 @@
-﻿using Content.Shared._DV.Item.ItemToggle.Components;
+// SPDX-FileCopyrightText: 2025 Sir Warock
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Shared._DV.Item.ItemToggle.Components;
 using Content.Shared.Examine;
 using Content.Shared.Item.ItemToggle;
 
