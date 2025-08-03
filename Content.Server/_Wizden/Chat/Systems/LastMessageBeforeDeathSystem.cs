@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 AirFryerBuyOneGetOneFree
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Text;
 using Content.Server.Administration.Systems;
 using Content.Server.Discord;
