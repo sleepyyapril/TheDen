@@ -424,12 +424,21 @@ namespace Content.Server.Administration.Systems
         ///     chat messages and showing a popup to other players.
         ///     Their items are dropped on the ground.
         /// </summary>
-        public void Erase(ICommonSession player)
+        public void Erase(NetUserId uid)
         {
-            var entity = player.AttachedEntity;
             _chat.DeleteMessagesBy(player);
 
-            if (entity != null && !TerminatingOrDeleted(entity.Value))
+            var eraseEvent = new EraseEvent(uid); // Imp Edit: Early upmerge erase event from Parrot PR #1
+
+            if (!_minds.TryGetMind(uid, out var mindId, out var mind) || mind.OwnedEntity == null || TerminatingOrDeleted(mind.OwnedEntity.Value))
+            { // Imp Edit: Early upmerge erase event from Parrot PR #1 
+                RaiseLocalEvent(ref eraseEvent); // Imp Edit: Early upmerge erase event from Parrot PR #1
+                return;
+            } // Imp Edit: Early upmerge erase event from Parrot PR #1
+
+            var entity = mind.OwnedEntity.Value;
+
+            if (TryComp(entity, out TransformComponent? transform))
             {
                 if (TryComp(entity.Value, out TransformComponent? transform))
                 {
@@ -486,7 +495,18 @@ namespace Content.Server.Administration.Systems
             _minds.WipeMind(player);
             QueueDel(entity);
 
-            _gameTicker.SpawnObserver(player);
+            if (_playerManager.TryGetSessionById(uid, out var session))
+                _gameTicker.SpawnObserver(session);
+
+            RaiseLocalEvent(ref eraseEvent); // Imp Edit: Early upmerge erase event from Parrot PR #1
         }
     }
 }
+
+/// <summary>
+/// Imp Edit: Early upmerge erase event from Parrot PR #1
+/// Event fired after a player is erased by an admin
+/// </summary>
+/// <param name="PlayerNetUserId">NetUserId of the player that was the target of the Erase</param>
+[ByRefEvent]
+public record struct EraseEvent(NetUserId PlayerNetUserId);
