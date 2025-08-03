@@ -157,6 +157,7 @@
   - ModsuitShell
   - ModsuitPlatingExternal
   - PowerCageHigh # Goobstation - Powercell to exosuit fab
+  - ClothingHandsGlovesMechanicalSurgical
 
 - type: latheRecipePack
   id: ExosuitFabricatorDynamicEmagAwfulDen

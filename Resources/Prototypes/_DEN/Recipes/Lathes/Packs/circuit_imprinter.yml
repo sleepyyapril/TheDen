@@ -121,7 +121,8 @@
   - MetempsychoticMachineCircuitboard
   - JukeboxCircuitBoard
   - AutodocCircuitboard # Shitmed Change
-#    - OperatingTableCircuitboard # Shitmed Change
+  - OperatingTableCircuitboard # Shitmed Change
+  - OperatingTableAdvancedCircuitboard
   - MaterialSiloCircuitboard
   - GygaxCentralElectronics
   - GygaxPeripheralsElectronics
