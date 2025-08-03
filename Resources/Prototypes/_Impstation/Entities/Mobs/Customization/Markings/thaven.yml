@@ -295,6 +295,17 @@
   - sprite: _Impstation/Mobs/Customization/Thaven/rarm.rsi
     state: tiger
 
+# RHAnd
+
+- type: marking
+  id: ThavenRHandScales
+  bodyPart: RHand
+  markingCategory: RightHand
+  speciesRestriction: [ Thaven ]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/Thaven/rhand.rsi
+    state: scales
+
 # LArm
 
 - type: marking
@@ -328,6 +339,17 @@
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/larm.rsi
     state: tiger
+
+# RHAnd
+
+- type: marking
+  id: ThavenLHandScales
+  bodyPart: LHand
+  markingCategory: LeftHand
+  speciesRestriction: [ Thaven ]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/Thaven/lhand.rsi
+    state: scales
 
 # RLeg
 
