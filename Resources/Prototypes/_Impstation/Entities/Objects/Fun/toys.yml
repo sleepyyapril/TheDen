@@ -215,7 +215,7 @@
   parent: BasePlushie
   id: PlushieThavenWeird
   name: normal thaven plushie
-  description: It looks a bit odds.
+  description: It looks a bit odd.
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Fun/toys.rsi

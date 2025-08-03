@@ -1,6 +1,3 @@
-thaven-mood-secret-moods-name = Keep Your Moods Secret
-thaven-mood-secret-moods-desc = Your Moods are a strictly-kept secret, and should never be revealed to anyone.
-
 thaven-mood-no-modern-medicine-name = No Modern Medicine
 thaven-mood-no-modern-medicine-desc = You do not approve of modern medicine and should abstain from treatment with it wherever possible.
 
