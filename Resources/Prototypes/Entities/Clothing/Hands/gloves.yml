@@ -196,7 +196,7 @@
   - type: FingerprintMask
   # Shitmed: gloves are responsible for surgical speed
   - type: SurgerySpeedModifier
-    speedModifier: 1.125
+    speedModifier: 1.25
   - type: Armor
     modifiers: { }
   # End Shitmed: gloves are responsible for surgical speed
