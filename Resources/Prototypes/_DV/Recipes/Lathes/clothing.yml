@@ -93,7 +93,6 @@
 # Ponchos
 
 - type: latheRecipe
-  parent: BaseCommandCoatRecipe
   id: ClothingNeckCWPArctic
   result: ClothingNeckCWPArctic
   completetime: 4
