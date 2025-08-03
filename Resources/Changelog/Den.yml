@@ -9156,3 +9156,12 @@ Entries:
   id: 885
   time: '2025-08-02T19:39:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1289
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Bodybuilder and Weakling traits now appropriately modify your speed and
+        pushing strength.
+  id: 886
+  time: '2025-08-03T11:58:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1296
