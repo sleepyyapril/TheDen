@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 little-meow-meow
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared._starcup.AACTablet;
 using Content.Shared.Chat;
 using Content.Shared.Radio;
