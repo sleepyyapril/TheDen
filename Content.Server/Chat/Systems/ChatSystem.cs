@@ -339,7 +339,10 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         if (player != null) // Imp Edit: Last Message Before Death System
         {
-            HandleLastMessageBeforeDeath(source, player, message);
+            if (desiredType != InGameICChatType.Speak) // DEN: we do NOT want sex sent!
+                return;
+
+            HandleLastMessageBeforeDeath(source, player, language, message);
         }
 
         // This message may have a radio prefix, and should then be whispered to the resolved radio channel
@@ -970,9 +973,9 @@ public sealed partial class ChatSystem : SharedChatSystem
     /// <summary>
     ///     Imp Edit: First modify message to respect entity accent, then send it to LastMessage system to record last message info for player
     /// </summary>
-    public void HandleLastMessageBeforeDeath(EntityUid source, ICommonSession player, string message)
+    public void HandleLastMessageBeforeDeath(EntityUid source, ICommonSession player, LanguagePrototype language, string message)
     {
-        var newMessage = TransformSpeech(source, message);
+        var newMessage = TransformSpeech(source, message, language);
         _lastMessageBeforeDeathSystem.AddMessage(source, player, newMessage);
     }
 

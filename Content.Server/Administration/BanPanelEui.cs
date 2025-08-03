@@ -147,7 +147,7 @@ public sealed class BanPanelEui : BaseEui
             try
             {
                 if (_entities.TrySystem(out AdminSystem? adminSystem))
-                    adminSystem.Erase(targetPlayer);
+                    adminSystem.Erase(targetPlayer.UserId);
             }
             catch (Exception e)
             {

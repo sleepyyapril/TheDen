@@ -235,7 +235,7 @@ namespace Content.Server.Administration.Systems
                         Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/delete_transparent.svg.192dpi.png")),
                         Act = () =>
                         {
-                            _adminSystem.Erase(targetActor.PlayerSession);
+                            _adminSystem.Erase(targetActor.PlayerSession.UserId);
                         },
                         Impact = LogImpact.Extreme,
                         ConfirmationPopup = true

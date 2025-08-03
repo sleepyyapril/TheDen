@@ -70,7 +70,7 @@ namespace Content.Server.Chat.Managers
 
         bool MessageCharacterLimit(ICommonSession player, string message);
 
-        void DeleteMessagesBy(ICommonSession player);
+        void DeleteMessagesBy(NetUserId player);
 
         [return: NotNullIfNotNull(nameof(author))]
         ChatUser? EnsurePlayer(NetUserId? author);

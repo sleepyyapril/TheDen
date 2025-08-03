@@ -27,12 +27,11 @@ public sealed class LastMessageWebhookManager
         if (_discordWebhook == null)
             return;
 
-        if (webhookId == null || !webhookId.HasValue)
+        if (!webhookId.HasValue)
             return;
 
         var id = webhookId.Value;
-
-        int messageCount = 0;
+        var messageCount = 0;
 
         foreach (var message in messages)
         {
@@ -45,11 +44,9 @@ public sealed class LastMessageWebhookManager
             var payload = new WebhookPayload { Content = message };
             var response = await _discordWebhook.CreateMessage(id, payload);
             if (!response.IsSuccessStatusCode)
-            {
                 return; // Not sure if logging is needed here.
-            }
-            messageCount++;
 
+            messageCount++;
             await Task.Delay(MessageDelayMs); // Small delay between messages to mitigate rate limiting.
         }
     }
