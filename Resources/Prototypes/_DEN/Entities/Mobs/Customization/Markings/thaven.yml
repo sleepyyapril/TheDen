@@ -73,7 +73,7 @@
     default:
       type:
         !type:TattooColoring
-          fallbackColor: "#666666"
+          color: "#666666"
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/chest.rsi
     state: tat1_f
