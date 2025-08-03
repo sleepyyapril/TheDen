@@ -1,4 +1,4 @@
 ﻿- type: guideEntry
   id: Thaven
   name: Thaven
-  text: "/ServerInfo/_Impstation/Guidebook/Mobs/Thaven.xml"
+  text: "/ServerInfo/Guidebook/Mobs/_Impstation/Thaven.xml"

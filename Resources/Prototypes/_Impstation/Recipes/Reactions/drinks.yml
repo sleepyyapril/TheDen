@@ -17,8 +17,10 @@
   reactants:
     ShimmeringBlood:
       amount: 2
-    DeathInTheAfternoon:
-      amount: 2
+    Absinthe:
+      amount: 1
+    Champagne:
+      amount: 1
     Egg:
       amount: 1
   products:
