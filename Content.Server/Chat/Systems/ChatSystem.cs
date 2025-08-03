@@ -103,7 +103,8 @@ using Content.Server.Effects;
 using Content.Server.Hands.Systems;
 using Content.Shared.Examine;
 using Content.Shared.Popups;
-using Content.Server._Wizden.Chat.Systems; // Imp edit for Last Message Before Death Webhook
+using Content.Server._Wizden.Chat.Systems;
+using Content.Server.Consent;
 
 namespace Content.Server.Chat.Systems;
 
@@ -143,6 +144,9 @@ public sealed partial class ChatSystem : SharedChatSystem
     [Dependency] private readonly SharedPopupSystem _popups = default!; // Floof
     [Dependency] private readonly HandsSystem _hands = default!; // Floof
     [Dependency] private readonly LastMessageBeforeDeathSystem _lastMessageBeforeDeathSystem = default!; // Imp Edit LastMessageBeforeDeath Webhook
+    [Dependency] private readonly ConsentSystem _consent = default!;
+
+    private readonly string LastMessageConsent = "LastMessage";
 
     public const int VoiceRange = 10; // how far voice goes in world units
     public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
@@ -975,6 +979,9 @@ public sealed partial class ChatSystem : SharedChatSystem
     /// </summary>
     public void HandleLastMessageBeforeDeath(EntityUid source, ICommonSession player, LanguagePrototype language, string message)
     {
+        if (_consent.HasConsent(source, LastMessageConsent))
+            return;
+
         var newMessage = TransformSpeech(source, message, language);
         _lastMessageBeforeDeathSystem.AddMessage(source, player, newMessage);
     }
