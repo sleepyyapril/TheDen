@@ -106,14 +106,6 @@ public sealed class EmagSystem : EntitySystem
         if (emaggedEvent.Handled && !emaggedEvent.Repeatable)
             EnsureComp<EmaggedComponent>(target);
         return emaggedEvent.Handled;
-
-        // Imp start - if the target is a thaven who is not sleeping, dead, or crit, skip
-        if (TryComp<ThavenMoodsComponent>(target, out _) && !HasComp<SleepingComponent>(target) && !_mobState.IsIncapacitated(target) && target != user)
-        {
-            _popup.PopupClient(Loc.GetString("emag-thaven-alive", ("emag", ent), ("target", target)), user, user);
-            return false;
-        }
-        // Imp end // TODO (THAVEN): THIS ALSO NEEDS TO CHECK FOR A CONSENT SETTING SOMEHOW, MAYBE USING THE HYPNOSIS FLAG OR SOMETHING?  SHOULD IT CHECK FOR CONSENT IF A PLAYER DOES IT TO THEMSELVES WHILE AWAKE?  MAYBE THAT SHOULD HAVE A SUICIDE-LIKE "YOU SURE YOU WANNA??" CHECK?  IT NEEDS SOMETHING FOR PLAYER COMFORT.
     }
 }
 
