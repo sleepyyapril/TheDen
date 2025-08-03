@@ -39,10 +39,10 @@
   id: ArachneEmotes
 
 - type: Tag
+  id: ThavenEmotes
+
+- type: Tag
   id: VampireFood
 
 - type: Tag
   id: DisposableSyringePackaged
-
-- type: Tag
-  id: ThavenEmotes
