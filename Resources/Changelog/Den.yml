@@ -9223,3 +9223,10 @@ Entries:
   id: 890
   time: '2025-08-03T13:08:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1291
+- author: ZigTag
+  changes:
+    - type: Add
+      message: goliath hardsuit from wizden with vox and vulp sprites
+  id: 891
+  time: '2025-08-03T13:19:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1274
