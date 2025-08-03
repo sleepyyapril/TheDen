@@ -1,27 +1,36 @@
 using Content.Shared._Impstation.Thaven.Components;
 using Content.Shared.Bed.Sleep;
+using Content.Shared.Consent;
 using Content.Shared.Emag.Systems;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Popups;
+using Robust.Shared.Prototypes;
 
 namespace Content.Shared._Impstation.Thaven;
 
 public abstract partial class SharedThavenMoodSystem
 {
+    [Dependency] protected readonly SharedConsentSystem Consent = default!;
+    [Dependency] protected readonly SharedPopupSystem Popup = default!;
     [Dependency] private readonly MobStateSystem _mobState = default!;
-    [Dependency] private readonly SharedPopupSystem _popup = default!;
 
-    private void OnAttemptEmag(Entity<ThavenMoodsComponent> ent, ref OnAttemptEmagEvent args)
+    protected readonly ProtoId<ConsentTogglePrototype> EmagConsentToggle = "AllowMoodEmagging";
+
+    protected virtual void OnAttemptEmag(Entity<ThavenMoodsComponent> ent, ref OnAttemptEmagEvent args)
     {
         var user = args.UserUid;
 
-        // Thaven must be Not Awake or you must be emagging yourself
-        if (user != ent.Owner
-            && !HasComp<SleepingComponent>(ent)
-            && _mobState.IsIncapacitated(ent))
+        // Always allowed
+        if (user == ent.Owner)
+            return;
+
+        // Thaven must be Not Awake
+        if (!HasComp<SleepingComponent>(ent) && !_mobState.IsIncapacitated(ent))
         {
-            _popup.PopupClient(Loc.GetString("emag-thaven-alive"), user, user);
+            Popup.PopupClient(Loc.GetString("emag-thaven-alive"), user, user, PopupType.MediumCaution);
             args.Handled = true;
         }
+
+        // NOTE: Consent is handled on the server-side.
     }
 }

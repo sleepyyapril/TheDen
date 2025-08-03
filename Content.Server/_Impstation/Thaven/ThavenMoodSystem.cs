@@ -24,6 +24,7 @@ using Content.Shared._Impstation.CCVar;
 using Robust.Shared.Audio.Systems;
 using Content.Server.StationEvents.Events;
 using Content.Shared.Emag.Components;
+using Content.Shared.Popups;
 
 namespace Content.Server._Impstation.Thaven;
 
@@ -397,6 +398,25 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
             return;
 
         AddWildcardMood(ent);
+    }
+
+    protected override void OnAttemptEmag(Entity<ThavenMoodsComponent> ent, ref OnAttemptEmagEvent args)
+    {
+        base.OnAttemptEmag(ent, ref args);
+        if (args.Handled)
+            return;
+
+        // Always allowed
+        var user = args.UserUid;
+        if (user == ent.Owner)
+            return;
+
+        // Thaven must be consenting!
+        if (!Consent.HasConsent(ent.Owner, EmagConsentToggle))
+        {
+            Popup.PopupClient(Loc.GetString("emag-thaven-no-consent"), user, user, PopupType.MediumCaution);
+            args.Handled = true;
+        }
     }
 
     public void OnIonStorm(Entity<ThavenMoodsComponent> ent)
