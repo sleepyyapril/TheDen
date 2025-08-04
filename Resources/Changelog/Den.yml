@@ -9230,3 +9230,61 @@ Entries:
   id: 891
   time: '2025-08-03T13:19:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1274
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        A new "blood smell" trait has been added, allowing you to view what
+        reagent a mob's blood stream is made of.
+    - type: Tweak
+      message: >-
+        Bloodfeeders of all kinds (whether it's traits, species, or some other
+        thing) are now also capable of examining a target's blood.
+  id: 892
+  time: '2025-08-03T14:05:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1295
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed dragon not being able to chomp anyone.
+  id: 893
+  time: '2025-08-04T03:11:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1306
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added last words webhook that only applies to local chat which you can
+        opt out of via the consent menu.
+  id: 894
+  time: '2025-08-04T08:18:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1307
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Increased chance of Hellshift rolling on high danger
+    - type: Tweak
+      message: Increased chance of SAN Deserter mid round antag event spawning
+    - type: Remove
+      message: Removed NukeOps game mode from high danger, pending rework
+  id: 895
+  time: '2025-08-04T09:54:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1312
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Reduced on how much cold slows you down! You're not a walking popsicle
+        anymore!
+  id: 896
+  time: '2025-08-04T09:58:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1311
+- author: little-meow-meow
+  changes:
+    - type: Add
+      message: >-
+        AAC tablets sync to your radio headset and can send messages directly
+        over it!
+  id: 897
+  time: '2025-08-04T10:02:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1305
