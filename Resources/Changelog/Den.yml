@@ -9288,3 +9288,12 @@ Entries:
   id: 897
   time: '2025-08-04T10:02:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1305
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the color of admin chat to a pale green for easier
+        differentation.
+  id: 898
+  time: '2025-08-04T18:10:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1317
