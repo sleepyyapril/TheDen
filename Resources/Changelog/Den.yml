@@ -9250,3 +9250,12 @@ Entries:
   id: 893
   time: '2025-08-04T03:11:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1306
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added last words webhook that only applies to local chat which you can
+        opt out of via the consent menu.
+  id: 894
+  time: '2025-08-04T08:18:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1307
