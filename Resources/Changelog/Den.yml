@@ -9307,3 +9307,14 @@ Entries:
   id: 899
   time: '2025-08-05T15:04:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1325
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: >-
+        Turrets and NPCs can now hit players who are laying down on the floor.
+        They (by default) have a 50% chance to miss players who are laying down,
+        meaning it still offers some protection, but not perfect protection from
+        turrets.
+  id: 900
+  time: '2025-08-05T16:38:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1314
