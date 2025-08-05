@@ -47,7 +47,7 @@ using Content.Server.JoinQueue;
 using Content.Server.Database;
 using Content.Server.Discord;
 using Content.Server.Discord.DiscordLink;
-using Content.Server.Discord.WebhookMessages;
+using Content.Server.DiscordAuth;
 using Content.Server.EUI;
 using Content.Server.GhostKick;
 using Content.Server.Info;
@@ -113,10 +113,10 @@ namespace Content.Server.IoC
             IoCManager.Register<PlayerRateLimitManager>();
             IoCManager.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             IoCManager.Register<MappingManager>();
-            IoCManager.Register<IWatchlistWebhookManager, WatchlistWebhookManager>();
+//            IoCManager.Register<IWatchlistWebhookManager, WatchlistWebhookManager>();
             IoCManager.Register<ConnectionManager>();
-            IoCManager.Register<MultiServerKickManager>();
-            IoCManager.Register<CVarControlManager>();
+//            IoCManager.Register<MultiServerKickManager>();
+//            IoCManager.Register<CVarControlManager>();
 
             IoCManager.Register<DiscordLink>();
             IoCManager.Register<DiscordChatLink>();
