@@ -9318,3 +9318,10 @@ Entries:
   id: 900
   time: '2025-08-05T16:38:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1314
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Admins no longer count at All to the player count.
+  id: 901
+  time: '2025-08-05T17:04:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1327
