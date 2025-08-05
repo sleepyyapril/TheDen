@@ -9325,3 +9325,12 @@ Entries:
   id: 901
   time: '2025-08-05T17:04:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1327
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: Clowns, Mimes, and Martial Artists now have Service access.
+    - type: Remove
+      message: Security no longer has Service access.
+  id: 902
+  time: '2025-08-05T17:28:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1320
