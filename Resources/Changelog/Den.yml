@@ -9297,3 +9297,13 @@ Entries:
   id: 898
   time: '2025-08-04T18:10:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1317
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        The new Advertise radio channel is here! Tell everyone what you want
+        from them: advertise a store, tell people you're looking for friends in
+        bar, and whatever else counts as advertising an IC thing!
+  id: 899
+  time: '2025-08-05T15:04:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1325
