@@ -24,7 +24,6 @@
     understands:
     - TauCetiBasic
     - Aural
-  - type: NoContractionsAccent
   - type: Damageable
     damageModifierSet: Thaven
   - type: DamageVisuals
