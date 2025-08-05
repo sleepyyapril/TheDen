@@ -27,10 +27,10 @@
 // SPDX-FileCopyrightText: 2024 Nemanja
 // SPDX-FileCopyrightText: 2024 Pierson Arnold
 // SPDX-FileCopyrightText: 2024 Pieter-Jan Briers
-// SPDX-FileCopyrightText: 2024 Simon
 // SPDX-FileCopyrightText: 2024 VMSolidus
 // SPDX-FileCopyrightText: 2024 deltanedas
 // SPDX-FileCopyrightText: 2024 metalgearsloth
+// SPDX-FileCopyrightText: 2025 Simon
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT

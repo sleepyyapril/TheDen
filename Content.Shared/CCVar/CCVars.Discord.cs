@@ -1,4 +1,5 @@
 // SPDX-FileCopyrightText: 2025 AirFryerBuyOneGetOneFree
+// SPDX-FileCopyrightText: 2025 Simon
 // SPDX-FileCopyrightText: 2025 VMSolidus
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 // SPDX-FileCopyrightText: 2025 ssdaniel24

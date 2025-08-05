@@ -25,6 +25,7 @@
 // SPDX-FileCopyrightText: 2024 Pieter-Jan Briers
 // SPDX-FileCopyrightText: 2024 SimpleStation14
 // SPDX-FileCopyrightText: 2025 RedFoxIV
+// SPDX-FileCopyrightText: 2025 Simon
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
