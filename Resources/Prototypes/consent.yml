@@ -26,4 +26,7 @@
   id: NSFWDescriptions
 
 - type: consentToggle
+  id: LastMessage
+
+- type: consentToggle
   id: AllowMoodEmagging
