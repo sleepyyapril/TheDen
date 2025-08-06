@@ -470,7 +470,7 @@
         - !type:OrganType
           type: Slime
           shouldHave: false
-        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): PROBABLY NEED TO GUIDEBOOK THAT LAUGHING GAS DOESN'T WORK ON THEM FOR SURGERY, USE CHLORAL HYDRATE INSTEAD
+        - !type:OrganType # TheDen - Thaven can breathe it safely
           type: Thaven
           shouldHave: false
         - !type:BloodReagentThreshold #  Assmos - /tg/ gases
@@ -626,7 +626,7 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
-        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES LAUGH?
+        - !type:OrganType # TheDen - Thaven can breathe it safely
           type: Thaven
           shouldHave: false
         emote: Laugh
@@ -640,7 +640,7 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
-        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES SCREAM?
+        - !type:OrganType # TheDen - Thaven can breathe it safely
           type: Thaven
           shouldHave: false
         emote: Scream
@@ -654,7 +654,7 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
-        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES SEE SLEEPY?
+        - !type:OrganType # TheDen - Thaven can breathe it safely
           type: Thaven
           shouldHave: false
         - !type:BloodReagentThreshold
@@ -672,7 +672,7 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
-        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES SLOW DOWN SLEEPY?
+        - !type:OrganType # TheDen - Thaven can breathe it safely
           type: Thaven
           shouldHave: false
         - !type:BloodReagentThreshold
@@ -688,7 +688,7 @@
         - !type:OrganType
           type: Slime
           shouldHave: true
-        - !type:OrganType # TheDen - Thaven can breathe it safely # TODO (THAVEN): REDUNDANT?  DOES IT ONLY MAKE SLIMES GET SLEEPY?
+        - !type:OrganType # TheDen - Thaven can breathe it safely
           type: Thaven
           shouldHave: false
         - !type:BloodReagentThreshold

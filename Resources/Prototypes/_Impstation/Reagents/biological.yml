@@ -23,7 +23,7 @@
             type: Vampiric
             shouldHave: false
       - !type:SatiateHunger # TheDen - Vampiric additions start
-        factor: 0.75
+        factor: 0.625
         conditions:
         - !type:OrganType
           type: Vampiric
@@ -32,19 +32,19 @@
         - !type:OrganType
           type: Vampiric
         reagent: Water
-        amount: 0.45
-      - !type:AdjustReagent
-        conditions:
-        - !type:OrganType
-          type: Vampiric
-        reagent: Protein
         amount: 0.375
       - !type:AdjustReagent
         conditions:
         - !type:OrganType
           type: Vampiric
+        reagent: Protein
+        amount: 0.3125
+      - !type:AdjustReagent
+        conditions:
+        - !type:OrganType
+          type: Vampiric
         reagent: Omnizine
-        amount: 0.45 # TheDen - Vampiric additions end
+        amount: 0.375 # TheDen - Vampiric additions end
     Narcotic:
       effects:
       - !type:GenericStatusEffect
