@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "copyright": "hair by honeyed-lemons (github), tat1 by widgetbeck, rest by crocodilecarousel (github)",
+    "copyright": "tat1 by widgetbeck, rest by crocodilecarousel (github)",
     "license": "CC-BY-SA-4.0",
     "size": {
         "x": 32,
@@ -13,10 +13,6 @@
         },
         {
             "name": "gills",
-            "directions": 4
-        },
-        {
-            "name": "hair",
             "directions": 4
         },
         {
@@ -91,10 +87,6 @@
         },
         {
             "name": "tiger2",
-            "directions": 4
-        },
-        {
-            "name": "nonaturals",
             "directions": 4
         }
     ]

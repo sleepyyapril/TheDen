@@ -1,15 +1,6 @@
 # Chest
 
 - type: marking
-  id: BodyhairThaven
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Thaven/chest.rsi
-    state: hair
-
-- type: marking
   id: Gills
   bodyPart: Chest
   markingCategory: Chest
@@ -131,17 +122,6 @@
     state: tiger1
   - sprite: _Impstation/Mobs/Customization/Thaven/chest.rsi
     state: tiger2
-
-- type: marking
-  id: ThavenTopSurgery
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Thaven ]
-  forcedColoring: true
-  followSkinColor: true
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Thaven/chest.rsi
-    state: nonaturals
 
 # Head
 

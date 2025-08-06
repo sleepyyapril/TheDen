@@ -45,7 +45,7 @@
           type: Vampiric
         reagent: Omnizine
         amount: 0.45 # TheDen - Vampiric additions end
-    Narcotic: # TODO (THAVEN): WE ABSOLUTELY MUST ADD A BIG RED POPUP WHEN BEGINNING THE DOAFTER TO DRINK THIS THAT WARNS THE PLAYER THAT IT'S DRUGS.  BOSS SAID SO.  OTHERWISE WE GOTTA MAKE THAVEN BLOOD NOT DRUGS AND THAT WOULD MAKE ME SO SAD.  HELP HELP MAINTAINERS HELP
+    Narcotic:
       effects:
       - !type:GenericStatusEffect
         key: SeeingRainbows

@@ -31,17 +31,17 @@
       Brute:
         sprite: Mobs/Effects/brute_damage.rsi
         color: "#ff624a"
-  - type: MeleeWeapon # TODO (THAVEN): MAKE SURE MELEE TRAITS DON'T TURN THEM INTO STUNLOCK MACHINES, IF THEY DO MAKE THIS A SHOCK PUNCH
-    attackRate: 0.55
+  - type: MeleeWeapon
+    # attackRate: 0.55 # TheDen - Was part of the stun punch stats, doesn't work on EE
     soundHit:
       collection: Punch
     angle: 30
     animation: WeaponArcPunch
     damage:
       types:
-        Blunt: 0
-  - type: StaminaDamageOnHit
-    damage: 18
+        Shock: 5 # TheDen - Alternative to the stunlock punches
+  # - type: StaminaDamageOnHit # TheDen - This turns them into stunlock machines on EE
+    # damage: 18
   - type: Butcherable
     butcheringType: Spike
     spawned:

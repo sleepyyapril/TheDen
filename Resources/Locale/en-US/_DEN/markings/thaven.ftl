@@ -1,7 +1,7 @@
 # Chest
 
-marking-ThavenSlimChest = Chest
-marking-ThavenSlimChest-slimchest = Chest
+marking-ThavenSlimChest = Slim Chest
+marking-ThavenSlimChest-slimchest = Slim Chest
 
 marking-GillsF = Gills
 marking-GillsF-gills_f = Gills
@@ -64,7 +64,7 @@ marking-UndergarmentTopBinderTF-binder_f = Binder
 marking-UndergarmentTopTanktopTF = Tanktop
 marking-UndergarmentTopTanktopTF-tanktop_f = Tanktop
 
-marking-UndershirtBraClassicTF = Bra
+marking-UndershirtBraClassicTF = Bra (Classic)
 marking-UndershirtBraClassicTF-classic_f = Bra
 
 marking-UndershirtBraSportsTF = Bra (Sports)
@@ -141,3 +141,53 @@ marking-ThavenTailAngler-angler2 = Stripe
 
 marking-ThavenTailAnglerOverlay = Angler Tail (Overlay)
 marking-ThavenTailAnglerOverlay-angler3 = Angler Tail (Overlay)
+
+# Nipples
+
+marking-NipplesBaseT = Nipples
+marking-NipplesBaseT-nipples = Nipples
+
+marking-NipplesLargeT = Nipples (Large)
+marking-NipplesLargeT-nippleslarge = Nipples
+
+marking-NipplesMaleT = Nipples (Slim Chest)
+marking-NipplesMaleT-nipplesvulp = Nipples
+
+
+# Nipple Piercings
+
+marking-PiercingCrossT = Nipple Piercing (Cross)
+marking-PiercingCrossT-cross = Piercing
+
+marking-PiercingCrossMaleT = Nipple Piercing (Cross, Slim Chest)
+marking-PiercingCrossMaleT-crossmale = Piercing
+
+marking-PiercingHoriT = Nipple Piercing (Horizontal)
+marking-PiercingHoriT-hori = Piercing
+
+marking-PiercingHoriMaleT = Nipple Piercing (Horizontal, Slim Chest)
+marking-PiercingHoriMaleT-horimale = Piercing
+
+marking-PiercingKnockerT = Nipple Piercing (Knockers)
+marking-PiercingKnockerT-knocker = Piercing
+
+marking-PiercingKnockerMaleT = Nipple Piercing (Knockers, Slim Chest)
+marking-PiercingKnockerMaleT-knockermale = Piercing
+
+marking-PiercingPlusT = Nipple Piercing (Plus)
+marking-PiercingPlusT-plus = Piercing
+
+marking-PiercingPlusMaleT = Nipple Piercing (Plus, Slim Chest)
+marking-PiercingPlusMaleT-plusmale = Piercing
+
+marking-PiercingVertT = Nipple Piercing (Vertical)
+marking-PiercingVertT-vert = Piercing
+
+marking-PiercingVertMaleT = Nipple Piercing (Vertical, Slim Chest)
+marking-PiercingVertMaleT-vertmale = Piercing
+
+marking-PiercingRingsT = Nipple Piercing (Rings)
+marking-PiercingRingsT-ring = Piercing
+
+marking-PiercingRingsMaleT = Nipple Piercing (Rings, Slim Chest)
+marking-PiercingRingsMaleT-ringmale = Piercing

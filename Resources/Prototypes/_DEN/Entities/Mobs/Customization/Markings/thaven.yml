@@ -504,3 +504,213 @@
   - sprite: _DEN/Mobs/Customization/Thaven/tail.rsi
     state: angler3
   shader: unshaded
+
+# Nipples
+
+- type: marking
+  id: NipplesBaseT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  sexRestriction: [ Female ]
+  followSkinColor: true
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/nipples.rsi
+    state: nipples
+
+- type: marking
+  id: NipplesLargeT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  sexRestriction: [ Female ]
+  followSkinColor: true
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/nipples.rsi
+    state: nippleslarge
+
+- type: marking
+  id: NipplesMaleT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  followSkinColor: true
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/nipples.rsi
+    state: nipplesmale
+
+# Nipple Piercings
+
+- type: marking
+  id: PiercingCrossT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  sexRestriction: [ Female ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: cross
+
+- type: marking
+  id: PiercingCrossMaleT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ] # Because of the Slim Chest marking, "female" thaven can have "male" nipple placement
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: crossmale
+
+- type: marking
+  id: PiercingHoriT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  sexRestriction: [ Female ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: hori
+
+- type: marking
+  id: PiercingHoriMaleT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: horimale
+
+- type: marking
+  id: PiercingKnockerT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  sexRestriction: [ Female ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: knocker
+
+- type: marking
+  id: PiercingKnockerMaleT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: knockermale
+
+- type: marking
+  id: PiercingPlusT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  sexRestriction: [ Female ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: plus
+
+- type: marking
+  id: PiercingPlusMaleT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: plusmale
+
+- type: marking
+  id: PiercingVertT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  sexRestriction: [ Female ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: vert
+
+- type: marking
+  id: PiercingVertMaleT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: vertmale
+
+- type: marking
+  id: PiercingRingsT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  sexRestriction: [ Female ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: ring
+
+- type: marking
+  id: PiercingRingsMaleT
+  bodyPart: Chest
+  markingCategory: Nipples
+  speciesRestriction: [ Thaven ]
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+        color: "#FFFFFF"
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
+    state: ringmale

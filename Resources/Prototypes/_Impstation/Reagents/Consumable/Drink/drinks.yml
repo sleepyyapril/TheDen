@@ -20,7 +20,7 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.3
-    Narcotic: # TODO (THAVEN): WE ABSOLUTELY MUST ADD A BIG RED POPUP WHEN BEGINNING THE DOAFTER TO DRINK THIS THAT WARNS THE PLAYER THAT IT'S DRUGS.  BOSS SAID SO.  OTHERWISE WE GOTTA MAKE THAVEN BLOOD NOT DRUGS AND THAT WOULD MAKE ME SO SAD.  HELP HELP MAINTAINERS HELP
+    Narcotic:
       effects:
       - !type:SatiateThirst
         factor: 2

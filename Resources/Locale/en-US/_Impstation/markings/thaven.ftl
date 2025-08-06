@@ -1,8 +1,5 @@
 # Chest
 
-marking-BodyhairThaven = Body Hair
-marking-BodyhairThaven-hair = Body Hair
-
 marking-Gills = Gills
 marking-Gills-gills = Gills
 
@@ -36,9 +33,6 @@ marking-ThavenTattooVines-tattoovines = Vine Tattoo
 marking-ThavenTiger = Tiger Stripes
 marking-ThavenTiger-tiger1 = Tiger Belly
 marking-ThavenTiger-tiger2 = Tiger Stripes
-
-marking-ThavenTopSurgery = Top Surgery
-marking-ThavenTopSurgery-nonaturals = Top Surgery
 
 # Head
 
@@ -140,7 +134,7 @@ marking-UndergarmentTopBinderT-binder = Binder
 marking-UndergarmentTopTanktopT = Tanktop
 marking-UndergarmentTopTanktopT-tanktop = Tanktop
 
-marking-UndershirtBraClassicT = Bra
+marking-UndershirtBraClassicT = Bra (Classic)
 marking-UndershirtBraClassicT-classic = Bra
 
 marking-UndershirtBraSportsT = Bra (Sports)
