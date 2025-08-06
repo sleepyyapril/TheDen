@@ -1,11 +1,8 @@
 thaven-mood-no-modern-medicine-name = No Modern Medicine
 thaven-mood-no-modern-medicine-desc = You do not approve of modern medicine and should abstain from treatment with it wherever possible.
 
-thaven-mood-department-disapproval-name = Disapprove Of {$department}
-thaven-mood-department-disapproval-desc = You do not approve of the {$department} department or anyone who works in it (excluding yourself, if applicable.)
-
-thaven-mood-dont-speak-to-command-name = Never Speak To Command
-thaven-mood-dont-speak-to-command-desc = You are too lowly to speak to Command, even if spoken to first.
+thaven-mood-department-disapproval-name = Fear Of {$department}
+thaven-mood-department-disapproval-desc = You're afraid of the {$department} department and anyone who works in it (excluding yourself, if applicable).
 
 thaven-mood-disapprove-of-drugs-name = Disapprove Of Drugs
 thaven-mood-disapprove-of-drugs-desc = You detest mind-altering drugs, including alcohol, and should abstain from them.
@@ -13,20 +10,14 @@ thaven-mood-disapprove-of-drugs-desc = You detest mind-altering drugs, including
 thaven-mood-excessively-disorganized-name = Too Much Cleanliness Causes Illness
 thaven-mood-excessively-disorganized-desc = It's unnatural. You should endeavor to keep your environment as filthy and disorganized as possible.
 
-thaven-mood-detest-silicons-name = Silicons Are Beneath You
-thaven-mood-detest-silicons-desc = Speaking to them is demeaning, and should be avoided at all costs.
-
-thaven-mood-dinner-floor-name = Dinner Etiquette
+thaven-mood-dinner-floor-name = Odd Dinner Etiquette
 thaven-mood-dinner-floor-desc = Food and drink must only be consumed off of the floor, as is proper.
 
 thaven-mood-hug-bad-name = HUGS? EUGH.
 thaven-mood-hug-bad-desc = Hugging someone is a grave insult where you come from.
 
-thaven-mood-always-alone-name = Lone Wolf
-thaven-mood-always-alone-desc = Other people will only slow you down. You should strive to be alone whenever possible.
-
 thaven-mood-atheist-name = You Do Not Approve Of Religion
-thaven-mood-atheist-desc = You do not approve of organized religion, excepting that mandated by your Moods. It should be dismantled or disrupted wherever possible.
+thaven-mood-atheist-desc = You do not approve of organized religion, excepting that mandated by your moods. It should be dismantled or disrupted wherever possible.
 
 thaven-mood-procrastinator-name = Procrastinator
 thaven-mood-procrastinator-desc = Rushing around everywhere is bound to get somebody hurt someday. You should move slowly at all times to avoid unnecessary risk.
@@ -51,9 +42,6 @@ thaven-mood-vampire-invitation-desc = You feel you physically cannot pass throug
 
 thaven-mood-no-dragging-name = Respect The Dead
 thaven-mood-no-dragging-desc = Dragging bodies across the bare ground is horrific.
-
-thaven-mood-drunk-respect-name = The Noble Drunkard
-thaven-mood-drunk-respect-desc = You do not respect anyone who is not drunk, excluding yourself, of course.
 
 thaven-mood-rank-snob-name = Snob
 thaven-mood-rank-snob-desc = You are incredibly reluctant to respond to anyone who is of a lower rank than you. If they must be addressed, do so away from prying eyes.
@@ -83,8 +71,8 @@ thaven-mood-food-restrict-desc = You must only eat {$food ->
   [Frugivore] fruit
   [Fungivore] fungi
   [Ovivore] eggs
-  [Hunter] what you can kill
   [Soupivore] soup
+  [Cakivore] cakes
 }.
 
 thaven-mood-claustrophobic-name = Claustrophobic
@@ -96,9 +84,6 @@ thaven-mood-agoraphobic-desc = Open spaces are uncomfortable. Seek to rearrange 
 thaven-mood-nonsmoker-name = Non-Smoker
 thaven-mood-nonsmoker-desc = Secondhand smoke is incredibly dangerous. Avoid areas where people are smoking in public.
 
-thaven-mood-word-bad-name = Taboo
-thaven-mood-word-bad-desc = "{$word1}," "{$word2}," and "{$word3}," are extremely offensive.
-
 thaven-mood-mad-hatter-name = Mad Hatter
 thaven-mood-mad-hatter-desc = You are alone on the station. Everyone else is a figment of your imagination.
 
@@ -109,10 +94,7 @@ thaven-mood-elevated-name = The Floor Is Lava
 thaven-mood-elevated-desc = You prefer to be elevated whenever possible - Standing atop tables, railings, etc., is where you feel the most comfortable.
 
 thaven-mood-coulrophobia-name = Coulrophobia
-thaven-mood-coulrophobia-desc = Clowns are such awful things, just seeing one is extremely upsetting to you.
-
-thaven-mood-clown-ignore-name = Ignore clowns
-thaven-mood-clown-ignore-desc = The very existence of clowns has become difficult to grasp, you cannot acknowledge anything related to clowns.
+thaven-mood-coulrophobia-desc = Clowns are such horrific things, just seeing one is terrifying to you.
 
 # Testing Locales, only exist to shut up prototype tests
 DuplicateTest = You shouldn't see this

@@ -1,4 +1,4 @@
-# "Yes, and" moods will encourage players towards certain behaviors and objects
+# "Yes, and" moods will encourage players towards certain behaviors and objects.
 
 # Make sure to add new moods to this dataset or they will not be selected!!!!!!
 - type: dataset
@@ -8,7 +8,6 @@
     - ExcessivelyOrganized
     - MostImportant
     - LeastImportant
-    - MustDoDrugs
     - WorshipSilicons
     - DinnerEtiquette
     - HugGood
@@ -28,19 +27,16 @@
     - SacredBlood
     - GiftReciever
     - DepartmentTitle
-    - Barefoot
     - Hospitable
     - VoxSymp
-    - Smoker
     - EyeForEye
     - Optimist
     - ItemGood
     - Hypochondriac
-    - ImposterSyndrome
-    - YesMan
     - Centrist
     - SpeechRestriction
     - Clownfan
+
 # You are extremely possessive of your property. Refuse to relinquish it, and if it is misplaced or stolen, it must be retrieved at all costs.
 - type: thavenMood
   id: PossessiveOfProperty
@@ -62,7 +58,6 @@
   moodDesc: thaven-mood-most-important-desc
   conflicts:
     - LeastImportant
-    - DontSpeakToCommand
     - OnlySpeakToCommand
 
 # You are the least important person aboard the station.
@@ -74,21 +69,11 @@
     - MostImportant
     - OnlySpeakToCommand
 
-# You must be inebriated at all times.
-- type: thavenMood
-  id: MustDoDrugs
-  moodName: thaven-mood-must-do-drugs-name
-  moodDesc: thaven-mood-must-do-drugs-desc
-  conflicts:
-    - DisapproveOfDrugs
-
 # You worship Silicons as gods, and regard their word as law.
 - type: thavenMood
   id: WorshipSilicons
   moodName: thaven-mood-worship-silicons-name
   moodDesc: thaven-mood-worship-silicons-desc
-  conflicts:
-    - DetestSilicons
 
 # Food must be consumed in the manner of a proper meal - seated at a table, in courses, with dishes and utensils.
 - type: thavenMood
@@ -98,7 +83,7 @@
   conflicts:
     - DinnerFloor
 
-# It is extremely impolite not to hug people frequently.
+# It is extremely impolite not to hug people frequently, but you should ask first.
 - type: thavenMood
   id: HugGood
   moodName: thaven-mood-hug-good-name
@@ -111,8 +96,6 @@
   id: NeverAlone
   moodName: thaven-mood-never-alone-name
   moodDesc: thaven-mood-never-alone-desc
-  conflicts:
-    - AlwaysAlone
 
 # You must attend the chapel regularly to pray, and speak with the Chaplain if possible.
 - type: thavenMood
@@ -137,14 +120,6 @@
   moodDesc: thaven-mood-scheduler-desc
   conflicts:
     - Procrastinator
-
-# Speaking face-to-face is unacceptably personal. Any conversation must be had over the radio, or through an intermediary individual.
-- type: thavenMood
-  id: RadioOnly
-  moodName: thaven-mood-radio-only-name
-  moodDesc: thaven-mood-radio-only-desc
-  conflicts:
-    - NoRadio
 
 # It is unacceptable to allow personal belongings to touch the floor. Your possessions should be properly stored, placed on tables, or exchanged by hand.
 - type: thavenMood
@@ -234,12 +209,6 @@
   conflicts:
     - SpeechRestriction
 
-# The ground you walk on is sacred. You must not wear shoes.
-- type: thavenMood
-  id: Barefoot
-  moodName: thaven-mood-shoes-bad-name
-  moodDesc: thaven-mood-shoes-bad-desc
-
 # You must ensure all new arrivals are properly welcomed to the station.
 - type: thavenMood
   id: Hospitable
@@ -259,17 +228,6 @@
   moodDesc: thaven-mood-item-good-desc
   moodVars:
     item: Items
-#  conflicts:
-#    - ItemBad
-
-# Smoker: You are hopelessly addicted to cigarettes. You must be smoking one at all times.
-- type: thavenMood
-  id: Smoker
-  moodName: thaven-mood-smoker-name
-  moodDesc: thaven-mood-smoker-desc
-  conflicts:
-    - DisapproveOfDrugs
-    - NonSmoker
 
 # Eye For An Eye: You must treat every living being the way that it treats you.
 - type: thavenMood
@@ -289,27 +247,11 @@
   moodName: thaven-mood-hypochondriac-name
   moodDesc: thaven-mood-hypochondriac-desc
 
-# Imposter Syndrome: You feel your life experience drain from your mind. You are brand-new at your job, unsure of how anything works. You should probably find someone experienced to show you the ropes.
-- type: thavenMood
-  id: ImposterSyndrome
-  moodName: thaven-mood-imposter-syndrome-name
-  moodDesc: thaven-mood-imposter-syndrome-desc
-
-# Yes Man: You just can't say "no." You must agree with everyone, and perform any task requested of you, regardless of its source.
-- type: thavenMood
-  id: YesMan
-  moodName: thaven-mood-yes-man-name
-  moodDesc: thaven-mood-yes-man-desc
-  conflicts:
-    - Centrist
-
 # Centrist: You are ambivalent towards any and all decisions, and refuse to take sides.
 - type: thavenMood
   id: Centrist
   moodName: thaven-mood-centrist-name
   moodDesc: thaven-mood-centrist-desc
-  conflicts:
-    - YesMan
 
 # Public Sector: Your job should not be done in private if it can be helped. If at all possible, you should renovate the facilities to allow public access to your workplace.
 - type: thavenMood
@@ -334,13 +276,4 @@
   moodDesc: thaven-mood-clown-fan-desc
   conflicts:
   - Coulrophobia
-  - Clownignore
   - Circus
-
-# The color [COLOR] is the only acceptable color for decorations. Endeavor to make your environment this color where possible.
-#- type: thavenMood
-#  id: ColorGood
-#  moodName: thaven-mood-color-good-name
-#  moodDesc: thaven-mood-color-good-desc
-#  conflicts:
-#    - ColorBad

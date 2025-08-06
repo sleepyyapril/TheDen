@@ -2,7 +2,7 @@ thaven-mood-fashion-is-critical-name = Fashion Is Critical
 thaven-mood-fashion-is-critical-desc = Thaven pay close attention to appearances, and regard one's fashion choices as an indication of their character.
 
 thaven-mood-fashion-reroll-name = Fashion Is Ever-Changing
-thaven-mood-fashion-reroll-desc = Your current hairstyle will go out of fashion every twenty minutes. It is distressing to be unfashionable.
+thaven-mood-fashion-reroll-desc = Your current hairstyle will go out of fashion every forty-five minutes. It is distressing to be unfashionable.
 
 thaven-mood-station-is-alive-name = The Station Is A Living Being
 thaven-mood-station-is-alive-desc = Harming or modifying the station is abhorrent. Anything which aims to harm the station is an infection.
@@ -30,9 +30,6 @@ thaven-mood-violence-permitted-desc = ... With no legal repercussions.
 
 thaven-mood-thaven-only-crew-name = Thaven Vs. The World
 thaven-mood-thaven-only-crew-desc = You believe that Nanotrasen is not accommodating enough of thaven needs. An effort should be made to fight for better rights and protections under Space Law.
-
-thaven-mood-your-department-only-name = Other Departments Are Inefficient
-thaven-mood-your-department-only-desc = You strongly believe that your department is the only one that actually does anything.
 
 thaven-mood-must-congregate-name = It's Lonely Out Here...
 thaven-mood-must-congregate-desc = You must congregate with your fellow thaven. To be without them is harrowing.

@@ -1,16 +1,14 @@
+# Wildcard moods usually only come from things like ion storms or emagging incapacitated thaven.
+
 - type: dataset
   id: ThavenMoodsWildcard
   values:
     - CompulsiveLiar
     - CompulsiveBeliever
     - PlantPacifist
-    - PuddleDrinker
     - SeekSin
     - Nocrastinator
     - Pope
-    - Cannibal
-    - Outlaw
-    - ExtremeDepartmentDisapproval
     - LoneActor
     - Immortal
     - Unknown
@@ -22,12 +20,9 @@
     - Pariah
     - TouysBad
     - FairyRings
-    - StayDead
     - Tourist
-    - CryWolf
     - CaveDweller
     - Daredevil
-    - FolkHero
     - Blogger
     - AnimalSacrifice
     - GoldenThread
@@ -60,15 +55,7 @@
   conflicts:
     - FoodRestrict
 
-# You are compulsively drawn to puddles. You must drink any that you see.
-- type: thavenMood
-  id: PuddleDrinker
-  moodName: thaven-mood-puddle-drinker-name
-  moodDesc: thaven-mood-puddle-drinker-desc
-  conflicts:
-    - AvoidPuddles
-
-# To Sin Is Virtuous.
+# To act against one's other moods is the highest virtue.
 - type: thavenMood
   id: SeekSin
   moodName: thaven-mood-seek-sin-name
@@ -89,30 +76,6 @@
   moodDesc: thaven-mood-pope-desc
   conflicts:
     - LeastImportant
-
-# Cannibalism is morally righteous and venerated.
-- type: thavenMood
-  id: Cannibal
-  moodName: thaven-mood-cannibal-name
-  moodDesc: thaven-mood-cannibal-desc
-  conflicts:
-    - FoodRestrict
-
-# The law does not apply to you
-- type: thavenMood
-  id: Outlaw
-  moodName: thaven-mood-outlaw-name
-  moodDesc: thaven-mood-outlaw-desc
-
-# [DEPARTMENT] is not just a foreign concept - the very idea of it is horrifying.
-- type: thavenMood
-  id: ExtremeDepartmentDisapproval
-  moodName: thaven-mood-extreme-department-disapproval-name
-  moodDesc: thaven-mood-extreme-department-disapproval-desc
-  moodVars:
-    department: Departments
-  conflicts:
-    - DepartmentDisapproval
 
 # You have no allegiances.
 - type: thavenMood
@@ -142,8 +105,6 @@
   id: Fairy
   moodName: thaven-mood-fairy-name
   moodDesc: thaven-mood-fairy-desc
-  conflicts:
-    - Barefoot
 
 # Religious iconography causes you extreme physical pain when visible.
 - type: thavenMood
@@ -194,13 +155,6 @@
   moodName: thaven-mood-fairy-rings-name
   moodDesc: thaven-mood-fairy-rings-desc
 
-
-# If you die, you should stay dead. If you are revived, you must force whoever revived you to kill you again.
-- type: thavenMood
-  id: StayDead
-  moodName: thaven-mood-stay-dead-name
-  moodDesc: thaven-mood-stay-dead-desc
-
 # Tourist: It is customary to follow people into their departments.
 - type: thavenMood
   id: Tourist
@@ -208,12 +162,6 @@
   moodDesc: thaven-mood-tourist-desc
   conflicts:
     - VampireInvitation
-
-# Cry Wolf: The crew is too lax and must be kept on edge for any emergency. Regularly call out fake threats to make sure they're ready for the real deal.
-- type: thavenMood
-  id: CryWolf
-  moodName: thaven-mood-crywolf-name
-  moodDesc: thaven-mood-crywolf-desc
 
 # Cavedweller: You strongly prefer navigating via flashlight in the darkness to harsh overhead lights.
 - type: thavenMood
@@ -226,14 +174,6 @@
   id: Daredevil
   moodName: thaven-mood-daredevil-name
   moodDesc: thaven-mood-daredevil-desc
-
-# Folk Hero: No one knows it yet, but you are the hero this station needs. You must intervene in any major conflict that occurs, and fight the station’s enemies to the best of your ability.
-- type: thavenMood
-  id: FolkHero
-  moodName: thaven-mood-folk-hero-name
-  moodDesc: thaven-mood-folk-hero-desc
-  moodVars:
-    dagdChanceName: DAGDname
 
 # Greencomms Blogger: You must keep the station informed about every minute detail of your life.
 - type: thavenMood
@@ -255,7 +195,7 @@
   moodName: thaven-mood-golden-thread-name
   moodDesc: thaven-mood-golden-thread-desc
 
-# You Are Taken By A Fey Mood!: You must immediately drop everything you are doing, ignore all other Moods, and begin work on an unrelated large-scale project. Once it is finished, you may ignore this Mood.
+# You Are Taken By A Fey Mood!: You must immediately drop everything you are doing, ignore all other moods, and begin work on an unrelated large-scale project. Once it is finished, you may ignore this mood.
 - type: thavenMood
   id: FeyMood
   moodName: thaven-mood-fey-mood-name
@@ -282,11 +222,3 @@
   moodDesc: thaven-mood-new-job-desc
   conflicts:
     - YourDepartmentOnly
-
-# [NUMBER] is sacred to you. You must endeavor to only handle stackable items and chemicals in quantities of [NUMBER].
-#- type: thavenMood
-#  id: NumberGood
-#  moodName: thaven-mood-number-good-name
-#  moodDesc: thaven-mood-number-good-desc
-#  moodVars:
-#    number: ThavenMoodNumber

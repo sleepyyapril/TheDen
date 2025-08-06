@@ -1,7 +1,5 @@
-# Shared moods will be selected at round start and shared amongst all thaven.
-# These are rolled before individual laws, and are considered more important.
-# Note: Only one law needs to say it conflicts with another
-# for the system to prevent them from being rolled together.
+# Shared moods will be selected at round start and shared amongst all thaven. These are rolled before individual laws.
+# Only one law needs to say it conflicts with another for the system to prevent them from being rolled together.
 
 # Make sure to add new moods to this dataset or they will not be selected!!!!!!
 - type: dataset
@@ -9,7 +7,6 @@
   values:
     - FashionIsCritical
     - FashionReroll
-    - HonorDepartment
     - StationIsAlive
     - UniformIsJob
     - UniformSoLastYear
@@ -17,7 +14,6 @@
     - MusicGood
     - FriendshipIsRank
     - OneTrueThaven
-    - YourDepartmentOnly
     - MustCongregate
     - ViolenceDistasteful
     - ViolencePermitted
@@ -26,8 +22,6 @@
     - Delicacy
     - Holiday
     - Circus
-#   - OutOfFashion
-#   - InFashion
 
 # Fashion Is Critical: Thaven pay close attention to appearances, and regard one's fashion choices as an indication of their character.
 - type: thavenMood
@@ -35,7 +29,7 @@
   moodName: thaven-mood-fashion-is-critical-name
   moodDesc: thaven-mood-fashion-is-critical-desc
 
-# Fashion Is Ever-Changing: Your current hairstyle will go out of fashion every twenty minutes. It is extremely distressing to be unfashionable.
+# Fashion Is Ever-Changing: Your current hairstyle will go out of fashion every forty-five minutes. It is distressing to be unfashionable.
 - type: thavenMood
   id: FashionReroll
   moodName: thaven-mood-fashion-reroll-name
@@ -101,14 +95,6 @@
   conflicts:
     - ViolenceDistasteful
 
-# You strongly believe that your department is the only one that actually does anything.
-- type: thavenMood
-  id: YourDepartmentOnly
-  moodName: thaven-mood-your-department-only-name
-  moodDesc: thaven-mood-your-department-only-desc
-  conflicts:
-    - DepartmentDisapproval
-
 # You must congregate with your fellow thaven. To be without them is harrowing.
 - type: thavenMood
   id: MustCongregate
@@ -116,7 +102,6 @@
   moodDesc: thaven-mood-must-congregate-desc
   conflicts:
     - OneTrueThaven
-    - AlwaysAlone
 
 # Violence is distasteful. Conflict should be settled through mediated dispute, and one should only resort to violence if all other options have failed.
 - type: thavenMood
@@ -168,22 +153,3 @@
   conflicts:
   - Clownfan
   - Coulrophobia
-  - Clownignore
-
-# - type: thavenMood
-#   id: OutOfFashion
-#   moodName: thaven-mood-out-of-fashion-name
-#   moodDesc: thaven-mood-out-of-fashion-desc
-#   moodVars:
-#     thing: ThavenMoodNouns
-#   conflicts:
-#     - InFashion
-
-# - type: thavenMood
-#   id: InFashion
-#   moodName: thaven-mood-in-fashion-name
-#   moodDesc: thaven-mood-in-fashion-desc
-#   moodVars:
-#     thing: ThavenMoodNouns
-#   conflicts:
-#     - OutOfFashion

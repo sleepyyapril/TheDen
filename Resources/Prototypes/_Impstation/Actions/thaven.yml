@@ -1,5 +1,5 @@
 - type: entity # TheDen - Reformatted to fit Den's actions
-  id: ActionViewMoods # TODO (THAVEN): THAT ToggleMoodsScreenEvent THING IS BREAKING SOMEHOW
+  id: ActionViewMoods
   name: View Moods
   description: View your current moods.
   categories: [ HideSpawnMenu ]
