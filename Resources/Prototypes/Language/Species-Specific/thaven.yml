@@ -21,8 +21,8 @@
     fontId: EBGaramond
   obfuscation:
     !type:SyllableObfuscation
-    minSyllables: 2
-    maxSyllables: 4
+    minSyllables: 1
+    maxSyllables: 3
     replacement:
     - ɣƣ
     - ȣƹ
