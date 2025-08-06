@@ -48,4 +48,5 @@
   id: thaven
   spritePath: /Textures/_DV/Effects/speech.rsi
   typingState: thaven0
+  idleState: default3 #TODO add idle state sprite
   offset: -0.2, 0.1 # 0625
