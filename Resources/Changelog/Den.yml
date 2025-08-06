@@ -9368,3 +9368,10 @@ Entries:
   id: 906
   time: '2025-08-06T20:57:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1297
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Ported idle speech bubbles
+  id: 907
+  time: '2025-08-06T20:59:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1286
