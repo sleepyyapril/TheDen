@@ -9361,3 +9361,10 @@ Entries:
   id: 905
   time: '2025-08-06T20:55:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1338
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: voice should now be imported correctly
+  id: 906
+  time: '2025-08-06T20:57:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1297
