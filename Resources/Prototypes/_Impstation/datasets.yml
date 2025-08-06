@@ -139,3 +139,21 @@
     - Magistrate
     - Mystagogue
     - Nanotrasen Representative
+
+- type: dataset
+  id: SpeechRestrictions
+  values:
+    - FullNameAndTitle
+    - NamesAreRude
+    - Clarity
+    - SwearingGood
+    - StatementOnly
+    - Imitation
+    - Unclarity
+    - SwearingBad
+    - QuestionOnly
+    - MustAnswer
+    - OnlyWhisper
+    - OnlyYell
+    - Alliterate
+    - ThirdPerson
