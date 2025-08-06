@@ -45,7 +45,7 @@
   id: AlienEyes
   bodyPart: Eyes
   markingCategory: Face
-  speciesRestriction: [ Moth, Chitinid, Shadowkin, Plasmaman, Arachne, Arachnid, Resomi, IPC, Vox ]
+  speciesRestriction: [ Moth, Chitinid, Shadowkin, Plasmaman, Arachne, Arachnid, Resomi, IPC, Vox, Thaven ]
   invertSpeciesRestriction: true
   coloring:
     default:
@@ -59,7 +59,7 @@
   id: AlienEyesBig
   bodyPart: Eyes
   markingCategory: Face
-  speciesRestriction: [ Moth, Chitinid, Shadowkin, Plasmaman, Arachne, Arachnid, Resomi, IPC, Vox ]
+  speciesRestriction: [ Moth, Chitinid, Shadowkin, Plasmaman, Arachne, Arachnid, Resomi, IPC, Vox, Thaven ]
   invertSpeciesRestriction: true
   coloring:
     default:
@@ -73,7 +73,7 @@
   id: AlienEyesThree
   bodyPart: Eyes
   markingCategory: Face
-  speciesRestriction: [ Moth, Chitinid, Shadowkin, Plasmaman, Arachne, Arachnid, Resomi, IPC, Vox ]
+  speciesRestriction: [ Moth, Chitinid, Shadowkin, Plasmaman, Arachne, Arachnid, Resomi, IPC, Vox, Thaven ]
   invertSpeciesRestriction: true
   coloring:
     default:
@@ -87,7 +87,7 @@
   id: AlienEyesWide
   bodyPart: Eyes
   markingCategory: Face
-  speciesRestriction: [ Moth, Chitinid, Shadowkin, Plasmaman, Arachne, Arachnid, Resomi, IPC, Vox ]
+  speciesRestriction: [ Moth, Chitinid, Shadowkin, Plasmaman, Arachne, Arachnid, Resomi, IPC, Vox, Thaven ]
   invertSpeciesRestriction: true
   coloring:
     default:
