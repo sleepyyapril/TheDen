@@ -9375,3 +9375,10 @@ Entries:
   id: 907
   time: '2025-08-06T20:59:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1286
+- author: CrystalClover
+  changes:
+    - type: Fix
+      message: You can now select the Non-binary pin in your loadout.
+  id: 908
+  time: '2025-08-07T04:49:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1343
