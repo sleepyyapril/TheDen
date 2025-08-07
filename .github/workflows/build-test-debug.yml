@@ -77,8 +77,9 @@ jobs:
 
     - name: Run Content.IntegrationTests
       run: |
-        $env:DOTNET_gcServer=1
+        export DOTNET_gcServer=1
         ionice -c2 -n7 nice -n19 taskset -c 0-5 dotnet test --no-build --configuration DebugOpt Content.IntegrationTests/Content.IntegrationTests.csproj -- NUnit.ConsoleOut=0
+
   ci-success:
     name: Build & Test Debug
     needs:
