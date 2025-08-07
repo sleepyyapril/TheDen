@@ -9400,3 +9400,12 @@ Entries:
   id: 910
   time: '2025-08-07T19:57:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1348
+- author: Sha-Seng
+  changes:
+    - type: Fix
+      message: Dragons can emote again!
+    - type: Add
+      message: Carps can now also emote.
+  id: 911
+  time: '2025-08-07T20:02:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1326
