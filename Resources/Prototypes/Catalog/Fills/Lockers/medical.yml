@@ -222,6 +222,8 @@
       - id: ClothingMaskSterile
       - id: ClothingShoesBootsWinterParamedic # DeltaV - Add departmental winter boots
       - id: BoxBodyBag # DeltaV - Give paramedics a body bag
+      - id: EmergencyRollerBedSpawnFolded # TheDen - Delta forgot for some reason
+      - id: EmergencyJawsOfLife # TheDen - Delta forgot for some reason
       - id: MedkitFilled
         prob: 0.3
       - id: LunchboxMedicalFilledRandom # DeltaV - Lunchboxes!
