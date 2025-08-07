@@ -9409,3 +9409,16 @@ Entries:
   id: 911
   time: '2025-08-07T20:02:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1326
+- author: CrystalClover
+  changes:
+    - type: Add
+      message: Clown wigs can now be tucked into their masks!
+    - type: Add
+      message: >-
+        Ancient clown wig and mask have been added to loadouts and the autodrobe
+        for those who are nostalgic.
+    - type: Tweak
+      message: Clown masks have recieved a slight redesign!
+  id: 912
+  time: '2025-08-07T23:44:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1329
