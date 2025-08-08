@@ -9456,3 +9456,13 @@ Entries:
   id: 916
   time: '2025-08-08T04:52:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1349
+- author: TheLuggage05
+  changes:
+    - type: Add
+      message: >-
+        Added caramexinin--a new sweetener that lets you safely consume
+        theobromine if you couldn't before! Ask botany and chemistry for some
+        today.
+  id: 917
+  time: '2025-08-08T07:14:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1335
