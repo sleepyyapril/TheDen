@@ -43,6 +43,7 @@
   name: job-name-paramedic
   description: job-description-paramedic
   playTimeTracker: JobParamedic
+  # antagAdvantage: 4 # DeltaV - Reduced TC: External Access, JoL # TheDen - Commenting this out in case we want it for rebalance
   requirements:
   - !type:CharacterPlaytimeRequirement
     tracker: JobMedicalIntern
@@ -68,16 +69,11 @@
   - ParamedicPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitParamedic
-    back: ClothingBackpackParamedicFilledDV
     shoes: ClothingShoesColorBlue
     id: ParamedicPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalEMTFilled
-    pocket1: HandheldGPSBasic
-    pocket2: HandheldCrewMonitor
   innerClothingSkirt: ClothingUniformJumpskirtParamedic
-  satchel: ClothingBackpackSatchelParamedicFilledDV
-  duffelbag: ClothingBackpackDuffelParamedicFilledDV
 
 - type: startingGear
   id: ParamedicPlasmamanGear
