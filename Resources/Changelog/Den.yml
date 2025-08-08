@@ -9502,3 +9502,17 @@ Entries:
   id: 920
   time: '2025-08-08T10:47:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1345
+- author: IAmNotGray
+  changes:
+    - type: Tweak
+      message: >-
+        (ANVIL) A couple of tweaks and a reworking of the Artifact Lab's chamber
+        input and output system. Please let me know if this *still* doesn't
+        work.
+    - type: Tweak
+      message: >-
+        (TORTUGA) Changed up the bar a little. You can now see past the wall
+        that previously obstructed view. Also, minor fixes!
+  id: 921
+  time: '2025-08-08T18:05:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1333
