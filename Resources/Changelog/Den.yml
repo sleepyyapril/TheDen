@@ -9382,3 +9382,52 @@ Entries:
   id: 908
   time: '2025-08-07T04:49:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1343
+- author: FutureExalt
+  changes:
+    - type: Tweak
+      message: >-
+        changed up the german accent to no be a little more accurate to native
+        germans.
+    - type: Remove
+      message: removed some weird racism present in the italian accent.
+  id: 909
+  time: '2025-08-07T15:08:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1266
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: Fixed Ovinia's idle typing sprite to not be a massive error
+  id: 910
+  time: '2025-08-07T19:57:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1348
+- author: Sha-Seng
+  changes:
+    - type: Fix
+      message: Dragons can emote again!
+    - type: Add
+      message: Carps can now also emote.
+  id: 911
+  time: '2025-08-07T20:02:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1326
+- author: CrystalClover
+  changes:
+    - type: Add
+      message: Clown wigs can now be tucked into their masks!
+    - type: Add
+      message: >-
+        Ancient clown wig and mask have been added to loadouts and the autodrobe
+        for those who are nostalgic.
+    - type: Tweak
+      message: Clown masks have recieved a slight redesign!
+  id: 912
+  time: '2025-08-07T23:44:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1329
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Conveyer belts are now much easier read the direction of!
+    - type: Tweak
+      message: Two-way lever changed to match also
+  id: 913
+  time: '2025-08-08T00:55:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1346
