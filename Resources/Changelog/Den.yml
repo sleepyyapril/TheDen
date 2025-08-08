@@ -9483,3 +9483,10 @@ Entries:
   id: 918
   time: '2025-08-08T09:30:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1303
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: breath mask not on goliath hardsuit
+  id: 919
+  time: '2025-08-08T10:30:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1354
