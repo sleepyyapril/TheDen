@@ -12,7 +12,7 @@
   - type: Machine
     board: OperatingTableAdvancedCircuitboard
   - type: SurgerySpeedModifier
-    speedModifier: 1.25
+    speedModifier: 1.5
   - type: Sprite
     sprite: _DEN/Structures/Furniture/Tables/advanced_surgery_table.rsi
     noRot: true
@@ -41,7 +41,7 @@
         shader: unshaded
     deactivatedComponents:
     - type: SurgerySpeedModifier
-      speedModifier: 1.25
+      speedModifier: 1.5
     - type: Sprite
       sprite: _DEN/Structures/Furniture/Tables/advanced_surgery_table.rsi
       noRot: true
