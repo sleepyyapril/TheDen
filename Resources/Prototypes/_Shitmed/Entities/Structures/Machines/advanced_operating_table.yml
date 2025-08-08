@@ -13,6 +13,13 @@
     board: OperatingTableAdvancedCircuitboard
   - type: SurgerySpeedModifier
     speedModifier: 1.25
+  - type: Sprite
+    sprite: _DEN/Structures/Furniture/Tables/advanced_surgery_table.rsi
+    noRot: true
+    layers:
+    - state: base
+    - state: state_surgery
+      shader: unshaded
   # Begin DeltaV Additions - toggle between stasis and surgery speed
   - type: ItemToggle
     verbToggleOn: advanced-operating-table-verb-activate-stasis
@@ -25,7 +32,21 @@
   - type: ComponentToggler
     components:
     - type: AntiRotOnBuckle
+    - type: Sprite
+      sprite: _DEN/Structures/Furniture/Tables/advanced_surgery_table.rsi
+      noRot: true
+      layers:
+      - state: base
+      - state: state_stasis
+        shader: unshaded
     deactivatedComponents:
     - type: SurgerySpeedModifier
       speedModifier: 1.25
+    - type: Sprite
+      sprite: _DEN/Structures/Furniture/Tables/advanced_surgery_table.rsi
+      noRot: true
+      layers:
+      - state: base
+      - state: state_surgery
+        shader: unshaded
   # End DeltaV Additions
