@@ -71,9 +71,7 @@
   sexRestriction: [ Female ]
   coloring:
     default:
-      type:
-        !type:TattooColoring
-          color: "#666666"
+      type: !type:TattooColoring
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/chest.rsi
     state: tat1_f

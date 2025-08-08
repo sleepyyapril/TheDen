@@ -59,9 +59,7 @@
   sexRestriction: [ Male ] # TheDen - Added sexual dimorphism to thaven
   coloring:
     default:
-      type:
-        !type:TattooColoring
-          color: "#666666"
+      type: !type:TattooColoring
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/chest.rsi
     state: tat1
@@ -259,9 +257,7 @@
   speciesRestriction: [ Thaven ]
   coloring:
     default:
-      type:
-        !type:TattooColoring
-          color: "#666666"
+      type: !type:TattooColoring
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/rarm.rsi
     state: tat1
@@ -304,9 +300,7 @@
   speciesRestriction: [ Thaven ]
   coloring:
     default:
-      type:
-        !type:TattooColoring
-          color: "#666666"
+      type: !type:TattooColoring
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/larm.rsi
     state: tat1
