@@ -9440,3 +9440,12 @@ Entries:
   id: 914
   time: '2025-08-08T01:56:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1319
+- author: RosySaturniidae
+  changes:
+    - type: Add
+      message: >-
+        moths are no longer the sole arbiters of the chitter (dont look at
+        spiders)
+  id: 915
+  time: '2025-08-08T02:20:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1330
