@@ -9422,3 +9422,12 @@ Entries:
   id: 912
   time: '2025-08-07T23:44:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1329
+- author: BlitzTheSquishy
+  changes:
+    - type: Tweak
+      message: Conveyer belts are now much easier read the direction of!
+    - type: Tweak
+      message: Two-way lever changed to match also
+  id: 913
+  time: '2025-08-08T00:55:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1346
