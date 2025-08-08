@@ -9431,3 +9431,12 @@ Entries:
   id: 913
   time: '2025-08-08T00:55:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1346
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Chaplains will now show up under the correct department in the crew
+        monitor.
+  id: 914
+  time: '2025-08-08T01:56:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1319
