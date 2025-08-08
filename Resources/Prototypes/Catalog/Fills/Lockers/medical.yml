@@ -227,6 +227,7 @@
       - id: EmergencyJawsOfLife
       - id: HandheldCrewMonitor
       - id: HandheldGPSBasic
+      - id: Portafib
       # End TheDen
       - id: MedkitFilled
         prob: 0.3
@@ -258,6 +259,7 @@
       - id: EmergencyRollerBedSpawnFolded # DeltaV - move paramedic loadout to locker
       - id: EmergencyJawsOfLife # DeltaV - Add Emergency Jaws of Life
       - id: HandheldCrewMonitor # DeltaV - Give Paramedics useful tools on spawn
+      - id: Portafib # TheDen - Move portafib to lockers
       - id: HandheldGPSBasic
       - id: MedkitFilled
         prob: 0.3
