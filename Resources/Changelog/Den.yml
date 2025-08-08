@@ -9490,3 +9490,15 @@ Entries:
   id: 919
   time: '2025-08-08T10:30:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1354
+- author: ZigTag
+  changes:
+    - type: Add
+      message: Added emergency JoLs.
+    - type: Tweak
+      message: >-
+        Added JoLs, a GPS locator, body bags, a roller bed, crew monitor and a
+        portafib into paramedic lockers. (Moved from backpack fills and job
+        gear)
+  id: 920
+  time: '2025-08-08T10:47:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1345
