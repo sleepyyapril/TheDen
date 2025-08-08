@@ -60,7 +60,6 @@
     sprite: Clothing/Shoes/Boots/magboots.rsi
   - type: ToggleClothing
     action: ActionToggleMagboots
-    mustEquip: false
   - type: ComponentToggler
     components:
     - type: NoSlip
