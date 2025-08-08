@@ -9466,3 +9466,20 @@ Entries:
   id: 917
   time: '2025-08-08T07:14:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1335
+- author: SirWarock
+  changes:
+    - type: Add
+      message: Added Mechanical Surgery Gloves, speeding up your surgical actions!
+    - type: Add
+      message: >-
+        Added Advanced Operating Tables, able to either stop rotting or speed up
+        surgical procedures on an entity!
+    - type: Add
+      message: Added CMO gloves that provide surgery speed boni!
+    - type: Tweak
+      message: >-
+        Removed Surgery Speed Modifiers from Roles and moved them to sterile
+        gloves. 
+  id: 918
+  time: '2025-08-08T09:30:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1303
