@@ -2,9 +2,9 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using Content.Shared._Floof.Consent;
 using Content.Shared._Impstation.Thaven.Components;
 using Content.Shared.Bed.Sleep;
-using Content.Shared.Consent;
 using Content.Shared.Emag.Systems;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Popups;
