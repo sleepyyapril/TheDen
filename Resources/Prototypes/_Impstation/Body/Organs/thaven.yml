@@ -29,9 +29,9 @@
     flavors:
       - thavenflesh
   - type: FoodSequenceElement # TheDen - For burger/taco names (don't eat this oh my god it's so toxic)
-    entries: # TODO (THAVEN): FREEMODEL HELP IDK BURGERS
-      Burger: Brain
-      Taco: Brain
+    entries:
+      Burger: ThavenBrain
+      Taco: ThavenBrain
 
 - type: entity
   id: OrganThavenEyes

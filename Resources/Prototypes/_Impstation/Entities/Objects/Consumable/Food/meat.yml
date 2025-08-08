@@ -28,5 +28,5 @@
       - ReagentId: CarpoToxin
         Quantity: 5
   - type: FoodSequenceElement
-    entries: # TODO (THAVEN): FREEMODEL HELP IDK BURGERS
+    entries:
       Burger: ThavenBurger
