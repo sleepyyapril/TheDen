@@ -45,7 +45,7 @@
   - BluespaceGasSenderMachineBoard # Assmos - Bluespace Gas
   - ThermomachineFreezerMachineCircuitBoard # Assmos - Moved to staticRecipes from dynamicRecipes
   - SalvageExpeditionsComputerCircuitboard
-  -  OperatingTableCircuitboard # Shitmed Change
+  - OperatingTableCircuitboard # Shitmed Change
 
 - type: latheRecipePack
   id: CircuitImprinterDynamicAwfulDen
