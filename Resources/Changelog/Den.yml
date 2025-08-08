@@ -9449,3 +9449,10 @@ Entries:
   id: 915
   time: '2025-08-08T02:20:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1330
+- author: portfiend
+  changes:
+    - type: Fix
+      message: The character editor's "save" button should work properly again.
+  id: 916
+  time: '2025-08-08T04:52:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1349
