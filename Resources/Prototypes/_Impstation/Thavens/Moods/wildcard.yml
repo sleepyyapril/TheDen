@@ -220,5 +220,3 @@
   id: NewJob
   moodName: thaven-mood-new-job-name
   moodDesc: thaven-mood-new-job-desc
-  conflicts:
-    - YourDepartmentOnly

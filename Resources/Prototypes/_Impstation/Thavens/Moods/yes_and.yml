@@ -110,8 +110,6 @@
   id: OnlySpeakToCommand
   moodName: thaven-mood-only-speak-to-command-name
   moodDesc: thaven-mood-only-speak-to-command-desc
-  conflicts:
-    - DontSpeakToCommand
 
 # Time must be strictly managed. Everything must be scheduled, and tardiness is exceptionally rude.
 - type: thavenMood
