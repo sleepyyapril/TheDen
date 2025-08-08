@@ -1,7 +1,7 @@
 - type: species
   id: Thaven
   name: species-name-thaven
-  roundStart: true # TODO (THAVEN): SET THIS FALSE UNTIL THEY'RE READY
+  roundStart: true
   prototype: MobThaven
   sprites: MobThavenSprites
   defaultSkinTone: "#ffffff"
