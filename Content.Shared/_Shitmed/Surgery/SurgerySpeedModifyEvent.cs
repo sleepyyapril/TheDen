@@ -11,5 +11,5 @@ using Content.Shared.Inventory;
 [ByRefEvent]
 public record struct SurgerySpeedModifyEvent(float Multiplier) : IInventoryRelayEvent
 {
-    public SlotFlags TargetSlots { get; } = ~SlotFlags.POCKET;
+    public SlotFlags TargetSlots { get; } = SlotFlags.WITHOUT_POCKET;
 }
