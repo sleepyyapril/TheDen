@@ -790,16 +790,16 @@ public abstract partial class SharedSurgerySystem
         RaiseLocalEvent(user, ref ev);
         if (TryComp<InventoryComponent>(user, out var inv))
             _inventory.RelayEvent((user, inv), ref ev);
-        speed *= ev.Multiplier / toolSpeed;     //TODO: Fix SurgerySpeedModifierEvent catching the speedmodifier of tools. They're already added above.
+        speed = ev.Multiplier;
 
-        if (TryComp<BuckleComponent>(target, out var buckle) && buckle.BuckledTo is {} buckledTo)
+        if (!TryComp<BuckleComponent>(target, out var buckle) || buckle.BuckledTo is not { } buckledTo)
+            return stepComp.Duration / speed;
+
+        var buckledEvent = new SurgerySpeedModifyEvent(speed);
+        RaiseLocalEvent(buckledTo, ref buckledEvent);
+        if (TryComp<SurgerySpeedModifierComponent>(buckledTo, out var buckledModifier))
         {
-            var buckledEvent = new SurgerySpeedModifyEvent(speed);
-            if (TryComp<SurgerySpeedModifierComponent>(buckledTo, out var buckledModifier))
-            {
-                RaiseLocalEvent(buckledTo, ref buckledEvent);
-                speed *= buckledModifier.SpeedModifier; //TODO: Please make this prettier. I have no clue what I'm doing ~SirWarock
-            }
+            speed *= buckledModifier.SpeedModifier; //TODO: Please make this prettier. I have no clue what I'm doing ~SirWarock
         }
 
         return stepComp.Duration / speed;
