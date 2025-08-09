@@ -120,5 +120,5 @@ public sealed class DCCVars
     public static readonly CVarDef<bool> DisableDrugWarping =
         CVarDef.Create("accessibility.disable_Drug_warping", false, CVar.CLIENTONLY | CVar.ARCHIVE);
     public static readonly CVarDef<bool> DisableDrunkWarping =
-        CVarDef.Create("accessibility.disable_singulo_warping", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("accessibility.disable_Drunk_warping", false, CVar.CLIENTONLY | CVar.ARCHIVE);
 }

@@ -111,6 +111,7 @@ namespace Content.Client.Options.UI.Tabs
             ReducedMotionCheckBox.OnToggled += OnCheckBoxToggled;
             DisableSinguloWarpingCheckBox.OnToggled += OnCheckBoxToggled;
             DisableDrugWarpingCheckBox.OnToggled += OnCheckBoxToggled;
+            DisableDrunkWarpingCheckBox.OnToggled += OnCheckBoxToggled;
             ChatWindowOpacitySlider.OnValueChanged += OnChatWindowOpacitySliderChanged;
             ScreenShakeIntensitySlider.OnValueChanged += OnScreenShakeIntensitySliderChanged;
             // ToggleWalk.OnToggled += OnCheckBoxToggled;
@@ -134,6 +135,7 @@ namespace Content.Client.Options.UI.Tabs
             ReducedMotionCheckBox.Pressed = _cfg.GetCVar(CCVars.ReducedMotion);
             DisableSinguloWarpingCheckBox.Pressed = _cfg.GetCVar(ImpCCVars.DisableSinguloWarping);
             DisableDrugWarpingCheckBox.Pressed = _cfg.GetCVar(DCCVars.DisableDrugWarping);//den edit
+            DisableDrunkWarpingCheckBox.Pressed = _cfg.GetCVar(DCCVars.DisableDrunkWarping);//den edit
             ChatWindowOpacitySlider.Value = _cfg.GetCVar(CCVars.ChatWindowOpacity);
             ScreenShakeIntensitySlider.Value = _cfg.GetCVar(CCVars.ScreenShakeIntensity) * 100f;
             // ToggleWalk.Pressed = _cfg.GetCVar(CCVars.ToggleWalk);
@@ -194,6 +196,7 @@ namespace Content.Client.Options.UI.Tabs
             _cfg.SetCVar(CCVars.ReducedMotion, ReducedMotionCheckBox.Pressed);
             _cfg.SetCVar(ImpCCVars.DisableSinguloWarping,DisableSinguloWarpingCheckBox.Pressed);
             _cfg.SetCVar(DCCVars.DisableDrugWarping,DisableDrugWarpingCheckBox.Pressed);//den edit
+            _cfg.SetCVar(DCCVars.DisableDrunkWarping,DisableDrunkWarpingCheckBox.Pressed);//den edit
             _cfg.SetCVar(CCVars.ChatWindowOpacity, ChatWindowOpacitySlider.Value);
             _cfg.SetCVar(CCVars.ScreenShakeIntensity, ScreenShakeIntensitySlider.Value / 100f);
             // _cfg.SetCVar(CCVars.ToggleWalk, ToggleWalk.Pressed);
@@ -230,6 +233,7 @@ namespace Content.Client.Options.UI.Tabs
             var isReducedMotionSame = ReducedMotionCheckBox.Pressed == _cfg.GetCVar(CCVars.ReducedMotion);
             var isDisableSinguloWarpingSame = DisableSinguloWarpingCheckBox.Pressed == _cfg.GetCVar(ImpCCVars.DisableSinguloWarping);
             var isDisableDrugWarpingSame = DisableDrugWarpingCheckBox.Pressed == _cfg.GetCVar(DCCVars.DisableDrugWarping);//den edit
+            var isDisableDrunkWarpingSame = DisableDrunkWarpingCheckBox.Pressed == _cfg.GetCVar(DCCVars.DisableDrunkWarping);//den edit
             var isChatWindowOpacitySame = Math.Abs(ChatWindowOpacitySlider.Value - _cfg.GetCVar(CCVars.ChatWindowOpacity)) < 0.01f;
             var isScreenShakeIntensitySame = Math.Abs(ScreenShakeIntensitySlider.Value / 100f - _cfg.GetCVar(CCVars.ScreenShakeIntensity)) < 0.01f;
             // var isToggleWalkSame = ToggleWalk.Pressed == _cfg.GetCVar(CCVars.ToggleWalk);
@@ -255,6 +259,7 @@ namespace Content.Client.Options.UI.Tabs
                                    isReducedMotionSame &&
                                    isDisableSinguloWarpingSame &&
                                    isDisableDrugWarpingSame && //den edit
+                                   isDisableDrunkWarpingSame && //den edit
                                    isChatWindowOpacitySame &&
                                    isScreenShakeIntensitySame &&
                                    // isToggleWalkSame &&
