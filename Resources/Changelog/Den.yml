@@ -9583,3 +9583,10 @@ Entries:
   id: 928
   time: '2025-08-09T17:15:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1332
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Allowed all outerclothing to have suit storage!!
+  id: 929
+  time: '2025-08-09T22:51:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1331
