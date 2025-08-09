@@ -9590,3 +9590,10 @@ Entries:
   id: 929
   time: '2025-08-09T22:51:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1331
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Added missing space survival pen to command survival boxes
+  id: 930
+  time: '2025-08-09T22:52:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1363
