@@ -6,10 +6,13 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+using Content.Shared._DV.CCVars;
+using Content.Shared.CCVar;
 using Content.Shared.Drugs;
 using Content.Shared.StatusEffect;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
+using Robust.Shared.Configuration;
 using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
@@ -22,6 +25,7 @@ public sealed class RainbowOverlay : Overlay
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly IPlayerManager _playerManager = default!;
     [Dependency] private readonly IEntitySystemManager _sysMan = default!;
+    [Dependency] private readonly IConfigurationManager _config = default!;
 
     public override OverlaySpace Space => OverlaySpace.WorldSpace;
     public override bool RequestScreenTexture => true;
@@ -43,13 +47,13 @@ public sealed class RainbowOverlay : Overlay
         IoCManager.InjectDependencies(this);
 
         _rainbowShader = _prototypeManager.Index<ShaderPrototype>("Rainbow").InstanceUnique();
-        _config.OnValueChanged(CCVars.ReducedMotion, OnReducedMotionChanged, invokeImmediately: true);
+        _config.OnValueChanged(DCCVars.DisableDrugWarping, OnDisableDrugWarpingChanged, invokeImmediately: true);
     }
 
-    private void OnReducedMotionChanged(bool reducedMotion)
+    private void OnDisableDrugWarpingChanged(bool disabled)
     {
-        _timeScale = reducedMotion ? 0.0f : 1.0f;
-        _warpScale = reducedMotion ? 0.0f : 1.0f;
+        _timeScale = disabled ? 0.0f : 1.0f;
+        _warpScale = disabled ? 0.0f : 1.0f;
     }
 
     protected override void FrameUpdate(FrameEventArgs args)

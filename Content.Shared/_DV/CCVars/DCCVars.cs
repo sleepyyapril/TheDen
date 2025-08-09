@@ -116,4 +116,9 @@ public sealed class DCCVars
     /// </summary>
     public static readonly CVarDef<int> MaxObjectiveSummaryLength =
         CVarDef.Create("game.max_objective_summary_length", 256, CVar.SERVER | CVar.REPLICATED);
+
+    public static readonly CVarDef<bool> DisableDrugWarping =
+        CVarDef.Create("accessibility.disable_Drug_warping", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+    public static readonly CVarDef<bool> DisableDrunkWarping =
+        CVarDef.Create("accessibility.disable_singulo_warping", false, CVar.CLIENTONLY | CVar.ARCHIVE);
 }
