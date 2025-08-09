@@ -66,8 +66,11 @@
         shape:
           !type:PhysShapeAabb
             bounds: "-0.5,-0.5,0.5,0.5"
-  #- type: TimedDespawn # DeltaV - no despawning for holofans
-  #  lifetime: 180
+  - type: TimedDespawnDetailed # DEN - better timed despawn
+    examineLocId: timed-despawn-holofan-examine
+    # startSound:
+    # startSoundParams: - DEN TODO: start sound!
+    despawnAfter: 1
   - type: Transform # DeltaV
     noRot: true
   - type: Airtight
