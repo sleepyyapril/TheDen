@@ -9597,3 +9597,10 @@ Entries:
   id: 930
   time: '2025-08-09T22:52:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1363
+- author: Zephyrpak
+  changes:
+    - type: Tweak
+      message: Raised accent limit from 1 to 2
+  id: 931
+  time: '2025-08-09T22:57:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1366
