@@ -9576,3 +9576,10 @@ Entries:
   id: 927
   time: '2025-08-09T17:14:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1351
+- author: sev7ves
+  changes:
+    - type: Add
+      message: Added an option to disable the singulo screenwarp
+  id: 928
+  time: '2025-08-09T17:15:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1332
