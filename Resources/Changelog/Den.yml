@@ -9550,3 +9550,22 @@ Entries:
   id: 925
   time: '2025-08-09T15:48:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1361
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Psionic Hypnosis now has an action use delay of 10, not 45, due to it
+        using consent anyway.
+    - type: Tweak
+      message: >-
+        Psionic Hypnosis now supports multiple subjects and multiple masters
+        with no limit. Abusing this for personal gain is against the rules.
+    - type: Tweak
+      message: Psionic Hypnosis no longer effects glimmer.
+    - type: Fix
+      message: >-
+        The big red text at the end of Psionic Hypnosis for the "master" was
+        fixed to not use your own name.
+  id: 926
+  time: '2025-08-09T17:13:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1362
