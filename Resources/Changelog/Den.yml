@@ -9688,3 +9688,12 @@ Entries:
   id: 939
   time: '2025-08-10T12:00:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1370
+- author: sev7ves
+  changes:
+    - type: Add
+      message: Option to disable drug warping effect.
+    - type: Add
+      message: Option to disable the drunk effect.
+  id: 940
+  time: '2025-08-10T12:50:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1364
