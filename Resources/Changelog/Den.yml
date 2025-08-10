@@ -9646,3 +9646,16 @@ Entries:
   id: 935
   time: '2025-08-10T11:35:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1371
+- author: SirWarock
+  changes:
+    - type: Add
+      message: Ported the holographic rollerbed from Delta-V!
+    - type: Tweak
+      message: All Rollerbeds weigh less to make patient transport quicker!
+    - type: Tweak
+      message: >-
+        All rollerbeds stabilize patients in critical state - Some better than
+        others!
+  id: 936
+  time: '2025-08-10T11:38:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1367
