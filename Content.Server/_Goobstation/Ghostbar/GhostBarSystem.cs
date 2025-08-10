@@ -6,6 +6,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+using System.Linq;
 using Robust.Server.GameObjects;
 using Content.Server.Clothing.Systems; // Einstein Engines
 using Content.Server.GameTicking;
@@ -17,6 +18,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Content.Shared.Ghost;
 using Content.Server._Goobstation.Ghostbar.Components;
+using Content.Server.Administration.Managers;
 using Content.Server.Mind;
 using Content.Shared.Mind.Components;
 using Content.Shared.Roles;
@@ -45,6 +47,7 @@ public sealed class GhostBarSystem : EntitySystem
     [Dependency] private readonly LoadoutSystem _loadout = default!;
     [Dependency] private readonly TraitSystem _trait = default!;
     // Einstein Engines end
+    [Dependency] private readonly IBanManager _ban  = default!;
 
     [ValidatePrototypeId<JobPrototype>] // Einstein Engines - validate job prototypes
     private static readonly List<ProtoId<JobPrototype>> _jobComponents = new()
@@ -114,11 +117,13 @@ public sealed class GhostBarSystem : EntitySystem
         // Einstein Engines start - apply loadouts and traits
         var playTimes = _playTimeTracking.GetTrackerTimes(player);
         var whitelisted = player.ContentData()?.Whitelisted ?? false;
+        var roleBans = _ban.GetRoleBans(player.UserId)?.ToList() ?? [];
 
         _loadout.ApplyCharacterLoadout(
             mobUid,
             randomJob,
             profile,
+            roleBans,
             playTimes,
             whitelisted
         );

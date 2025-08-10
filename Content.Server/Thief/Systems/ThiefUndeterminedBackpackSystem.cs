@@ -6,6 +6,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+using Content.Server.Administration.Managers;
 using Content.Server.Thief.Components;
 using Content.Shared.Customization.Systems;
 using Content.Shared.Humanoid;
@@ -31,6 +32,7 @@ public sealed class ThiefUndeterminedBackpackSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
     [Dependency] private readonly CharacterRequirementsSystem _characterRequirements = default!;
+    [Dependency] private readonly IBanManager _ban = default!;
 
     private const int MaxSelectedSets = 2;
     public override void Initialize()
@@ -90,7 +92,7 @@ public sealed class ThiefUndeterminedBackpackSystem : EntitySystem
                 appearance.LastProfileLoaded != null &&
                 !_characterRequirements.CheckRequirementsValid(
                     set.Requirements, new JobPrototype() /* not gonna bother with jobs */,
-                    appearance.LastProfileLoaded, new(), false, set, EntityManager, _proto, _config, out _))
+                    appearance.LastProfileLoaded, [], new(), false, set, EntityManager, _proto, _config, out _))
                 continue;
 
             var selected = component.SelectedSets.Contains(i);

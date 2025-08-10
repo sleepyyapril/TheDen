@@ -31,6 +31,7 @@ public sealed partial class CharacterLogicAndRequirement : CharacterRequirement
 
     public override bool IsValid(JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,
@@ -42,7 +43,7 @@ public sealed partial class CharacterLogicAndRequirement : CharacterRequirement
         MindComponent? mind = null)
     {
         var succeeded = entityManager.EntitySysManager.GetEntitySystem<CharacterRequirementsSystem>()
-            .CheckRequirementsValid(Requirements, job, profile, playTimes, whitelisted, prototype, entityManager,
+            .CheckRequirementsValid(Requirements, job, profile, roleBans, playTimes, whitelisted, prototype, entityManager,
                 prototypeManager, configManager, out var reasons, depth + 1);
 
         if (reasons.Count == 0)
@@ -74,6 +75,7 @@ public sealed partial class CharacterLogicOrRequirement : CharacterRequirement
 
     public override bool IsValid(JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,
@@ -90,7 +92,7 @@ public sealed partial class CharacterLogicOrRequirement : CharacterRequirement
 
         foreach (var requirement in Requirements)
         {
-            if (characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
+            if (characterRequirements.CheckRequirementValid(requirement, job, profile, roleBans, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager, out var raisin, depth + 1))
             {
                 succeeded = true;
@@ -130,6 +132,7 @@ public sealed partial class CharacterLogicXorRequirement : CharacterRequirement
 
     public override bool IsValid(JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,
@@ -146,7 +149,7 @@ public sealed partial class CharacterLogicXorRequirement : CharacterRequirement
 
         foreach (var requirement in Requirements)
         {
-            if (characterRequirements.CheckRequirementValid(requirement, job, profile, playTimes, whitelisted, prototype,
+            if (characterRequirements.CheckRequirementValid(requirement, job, profile, roleBans, playTimes, whitelisted, prototype,
                 entityManager, prototypeManager, configManager, out var raisin, depth + 1))
             {
                 if (succeeded)

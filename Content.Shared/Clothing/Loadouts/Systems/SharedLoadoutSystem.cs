@@ -65,12 +65,13 @@ public sealed class SharedLoadoutSystem : EntitySystem
         EntityUid uid,
         ProtoId<JobPrototype> job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         out List<(EntityUid, LoadoutPreference)> heirlooms)
     {
         var jobPrototype = _prototype.Index(job);
-        return ApplyCharacterLoadout(uid, jobPrototype, profile, playTimes, whitelisted, out heirlooms);
+        return ApplyCharacterLoadout(uid, jobPrototype, profile, roleBans, playTimes, whitelisted, out heirlooms);
     }
 
     /// <summary>
@@ -79,6 +80,7 @@ public sealed class SharedLoadoutSystem : EntitySystem
     /// <param name="uid">The entity to give the loadout items to</param>
     /// <param name="job">The job to use for loadout whitelist/blacklist (should be the job of the entity)</param>
     /// <param name="profile">The profile to get loadout items from (should be the entity's, or at least have the same species as the entity)</param>
+    /// <param name="roleBans">The list of rolebans the user has.</param>
     /// <param name="playTimes">Playtime for the player for use with playtime requirements</param>
     /// <param name="whitelisted">If the player is whitelisted</param>
     /// <param name="heirlooms">Every entity the player selected as a potential heirloom</param>
@@ -87,6 +89,7 @@ public sealed class SharedLoadoutSystem : EntitySystem
         EntityUid uid,
         JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         out List<(EntityUid, LoadoutPreference)> heirlooms)
@@ -106,7 +109,7 @@ public sealed class SharedLoadoutSystem : EntitySystem
                 continue;
 
             if (!_characterRequirements.CheckRequirementsValid(
-                loadoutProto.Requirements, job, profile, playTimes, whitelisted, loadoutProto,
+                loadoutProto.Requirements, job, profile, roleBans, playTimes, whitelisted, loadoutProto,
                 EntityManager, _prototype, _configuration,
                 out _))
                 continue;

@@ -34,6 +34,7 @@ public sealed partial class CharacterNationalityRequirement : CharacterRequireme
     public override bool IsValid(
         JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,
@@ -68,6 +69,7 @@ public sealed partial class CharacterEmployerRequirement : CharacterRequirement
     public override bool IsValid(
         JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,
@@ -102,6 +104,7 @@ public sealed partial class CharacterLifepathRequirement : CharacterRequirement
     public override bool IsValid(
         JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,

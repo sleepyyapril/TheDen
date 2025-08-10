@@ -4,6 +4,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using System.Linq;
+using Content.Server.Administration.Managers;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Shared._EE.Contractors.Prototypes;
 using Content.Shared.Customization.Systems;
@@ -27,6 +28,7 @@ public sealed class LifepathSystem : EntitySystem
     [Dependency] private readonly PlayTimeTrackingManager _playTimeTracking = default!;
     [Dependency] private readonly IConfigurationManager _configuration = default!;
     [Dependency] private readonly IComponentFactory _componentFactory = default!;
+    [Dependency] private readonly IBanManager _banManager = default!;
 
     public override void Initialize()
     {
@@ -36,15 +38,26 @@ public sealed class LifepathSystem : EntitySystem
     }
 
     // When the player is spawned in, add the Lifepath components selected during character creation
-    private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent args) =>
-        ApplyLifepath(args.Mob, args.JobId, args.Profile,
-            _playTimeTracking.GetTrackerTimes(args.Player), args.Player.ContentData()?.Whitelisted ?? false);
+    private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent args)
+    {
+        var playTime = _playTimeTracking.GetTrackerTimes(args.Player);
+        var whitelisted = args.Player.ContentData()?.Whitelisted ?? false;
+        var roleBans = _banManager.GetRoleBans(args.Player.UserId)?.ToList() ?? [];
+
+        ApplyLifepath(
+            args.Mob,
+            args.JobId,
+            args.Profile,
+            roleBans,
+            playTime,
+            whitelisted);
+    }
 
     /// <summary>
     ///     Adds the Lifepath selected by a player to an entity.
     /// </summary>
     public void ApplyLifepath(EntityUid uid, ProtoId<JobPrototype>? jobId, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted)
+        List<string> roleBans, Dictionary<string, TimeSpan> playTimes, bool whitelisted)
     {
         if (jobId == null || !_prototype.TryIndex(jobId, out _))
             return;
@@ -62,7 +75,7 @@ public sealed class LifepathSystem : EntitySystem
         if (!_characterRequirements.CheckRequirementsValid(
             lifepathPrototype.Requirements,
             jobPrototypeToUse,
-            profile, playTimes, whitelisted, lifepathPrototype,
+            profile, roleBans, playTimes, whitelisted, lifepathPrototype,
             EntityManager, _prototype, _configuration,
             out _))
             return;

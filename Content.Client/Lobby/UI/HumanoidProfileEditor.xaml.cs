@@ -764,15 +764,7 @@ namespace Content.Client.Lobby.UI
             _nationalies.Clear();
 
             _nationalies.AddRange(_prototypeManager.EnumeratePrototypes<NationalityPrototype>()
-                .Where(o => _characterRequirementsSystem.CheckRequirementsValid(o.Requirements,
-                    _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies()),
-                    Profile ?? HumanoidCharacterProfile.DefaultWithSpecies(),
-                    _requirements.GetRawPlayTimeTrackers(),
-                    _requirements.IsWhitelisted(),
-                    o,
-                    _entManager,
-                    _prototypeManager,
-                    _cfgManager, out _)));
+                .Where(o => MeetsRequirements(o, o.Requirements, out _)));
 
             var nationalityIds = _nationalies.Select(o => o.ID).ToList();
 
@@ -798,15 +790,7 @@ namespace Content.Client.Lobby.UI
             _employers.Clear();
 
             _employers.AddRange(_prototypeManager.EnumeratePrototypes<EmployerPrototype>()
-                .Where(o => _characterRequirementsSystem.CheckRequirementsValid(o.Requirements,
-                _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies()),
-                Profile ?? HumanoidCharacterProfile.DefaultWithSpecies(),
-                _requirements.GetRawPlayTimeTrackers(),
-                _requirements.IsWhitelisted(),
-                o,
-                _entManager,
-                _prototypeManager,
-                _cfgManager, out _)));
+                .Where(o => MeetsRequirements(o, o.Requirements, out _)));
 
             var employerIds = _employers.Select(o => o.ID).ToList();
 
@@ -832,15 +816,7 @@ namespace Content.Client.Lobby.UI
             _lifepaths.Clear();
 
             _lifepaths.AddRange(_prototypeManager.EnumeratePrototypes<LifepathPrototype>()
-                .Where(o => _characterRequirementsSystem.CheckRequirementsValid(o.Requirements,
-                _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies()),
-                Profile ?? HumanoidCharacterProfile.DefaultWithSpecies(),
-                _requirements.GetRawPlayTimeTrackers(),
-                _requirements.IsWhitelisted(),
-                o,
-                _entManager,
-                _prototypeManager,
-                _cfgManager, out _)));
+                .Where(o => MeetsRequirements(o, o.Requirements, out _)));
 
             var lifepathIds = _lifepaths.Select(o => o.ID).ToList();
 
@@ -878,6 +854,23 @@ namespace Content.Client.Lobby.UI
             EmployerDescriptionLabel.SetMessage(Loc.GetString(prototype.DescriptionKey));
         }
 
+        // I'm fucking tired, boss.
+        private bool MeetsRequirements(IPrototype prototype,
+            List<CharacterRequirement> requirements,
+            out List<string> reasons) =>
+            !_characterRequirementsSystem.CheckRequirementsValid(
+                requirements,
+                _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies()),
+                Profile ?? HumanoidCharacterProfile.DefaultWithSpecies(),
+                _requirements.GetRawRoleBans(),
+                _requirements.GetRawPlayTimeTrackers(),
+                _requirements.IsWhitelisted(),
+                prototype,
+                _entManager,
+                _prototypeManager,
+                _cfgManager,
+                out reasons);
+
         public void RefreshAntags()
         {
             AntagList.DisposeAllChildren();
@@ -908,17 +901,7 @@ namespace Content.Client.Lobby.UI
                 selector.Setup(items, title, 250, description, guides: antag.Guides);
                 selector.Select(Profile?.AntagPreferences.Contains(antag.ID) == true ? 0 : 1);
 
-                if (!_characterRequirementsSystem.CheckRequirementsValid(
-                    antag.Requirements ?? new(),
-                    _controller.GetPreferredJob(Profile ?? HumanoidCharacterProfile.DefaultWithSpecies()),
-                    Profile ?? HumanoidCharacterProfile.DefaultWithSpecies(),
-                    _requirements.GetRawPlayTimeTrackers(),
-                    _requirements.IsWhitelisted(),
-                    antag,
-                    _entManager,
-                    _prototypeManager,
-                    _cfgManager,
-                    out var reasons))
+                if (!MeetsRequirements(antag, antag.Requirements ?? [], out var reasons))
                 {
                     var reason = _characterRequirementsSystem.GetRequirementsText(reasons);
                     selector.LockRequirements(reason);
@@ -1188,17 +1171,7 @@ namespace Content.Client.Lobby.UI
 
                     if (!_requirements.CheckJobWhitelist(job, out var reason))
                         selector.LockRequirements(reason);
-                    else if (!_characterRequirementsSystem.CheckRequirementsValid(
-                         job.Requirements ?? new(),
-                         job,
-                         Profile ?? HumanoidCharacterProfile.DefaultWithSpecies(),
-                         _requirements.GetRawPlayTimeTrackers(),
-                         _requirements.IsWhitelisted(),
-                         job,
-                         _entManager,
-                         _prototypeManager,
-                         _cfgManager,
-                         out var reasons))
+                    else if (!MeetsRequirements(job, job.Requirements ?? [], out var reasons))
                         selector.LockRequirements(_characterRequirementsSystem.GetRequirementsText(reasons));
                     else
                         selector.UnlockRequirements();
@@ -1322,17 +1295,7 @@ namespace Content.Client.Lobby.UI
 
                     if (!_requirements.CheckJobWhitelist(job, out var reason))
                         selector.LockRequirements(reason);
-                    else if (!_characterRequirementsSystem.CheckRequirementsValid(
-                        job.Requirements ?? new(),
-                        job,
-                        Profile ?? HumanoidCharacterProfile.DefaultWithSpecies(),
-                        _requirements.GetRawPlayTimeTrackers(),
-                        _requirements.IsWhitelisted(),
-                        job,
-                        _entManager,
-                        _prototypeManager,
-                        _cfgManager,
-                        out var reasons))
+                    else if (!MeetsRequirements(job, job.Requirements ?? [], out var reasons))
                         selector.LockRequirements(_characterRequirementsSystem.GetRequirementsText(reasons));
                     else
                         selector.UnlockRequirements();
@@ -1378,17 +1341,7 @@ namespace Content.Client.Lobby.UI
                 var proto = _prototypeManager.Index<JobPrototype>(jobId);
                 if ((JobPriority) selector.Selected == JobPriority.Never
                     || _requirements.CheckJobWhitelist(proto, out _)
-                    || _characterRequirementsSystem.CheckRequirementsValid(
-                        proto.Requirements ?? new(),
-                        proto,
-                        Profile ?? HumanoidCharacterProfile.DefaultWithSpecies(),
-                        _requirements.GetRawPlayTimeTrackers(),
-                        _requirements.IsWhitelisted(),
-                        proto,
-                        _entManager,
-                        _prototypeManager,
-                        _cfgManager,
-                        out _))
+                    || MeetsRequirements(proto, proto.Requirements ?? [], out _))
                     continue;
 
                 selector.Select((int) JobPriority.Never);
@@ -2384,18 +2337,7 @@ namespace Content.Client.Lobby.UI
             _traits.Clear();
             foreach (var trait in _prototypeManager.EnumeratePrototypes<TraitPrototype>())
             {
-                var usable = _characterRequirementsSystem.CheckRequirementsValid(
-                    trait.Requirements,
-                    highJob,
-                    Profile ?? HumanoidCharacterProfile.DefaultWithSpecies(),
-                    _requirements.GetRawPlayTimeTrackers(),
-                    _requirements.IsWhitelisted(),
-                    trait,
-                    _entManager,
-                    _prototypeManager,
-                    _cfgManager,
-                    out _
-                );
+                var usable = MeetsRequirements(trait, trait.Requirements, out _);
                 _traits.Add(trait, usable);
 
                 if (_traitPreferences.FindIndex(lps => lps.Trait.ID == trait.ID) is not (not -1 and var i))

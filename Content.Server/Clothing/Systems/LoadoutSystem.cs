@@ -8,6 +8,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using System.Linq;
+using Content.Server.Administration.Managers;
 using Content.Server.Paint;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Shared.CCVar;
@@ -43,9 +44,9 @@ public sealed class LoadoutSystem : EntitySystem
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IComponentFactory _componentFactory = default!;
     [Dependency] private readonly ILogManager _log = default!;
+    [Dependency] private readonly IBanManager _ban = default!;
 
     private ISawmill _sawmill = default!;
-
 
     public override void Initialize()
     {
@@ -57,19 +58,22 @@ public sealed class LoadoutSystem : EntitySystem
 
     private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent ev)
     {
+        var roleBans = _ban.GetRoleBans(ev.Player.UserId)?.ToList() ?? [];
+
         if (ev.JobId == null || Deleted(ev.Mob) || !Exists(ev.Mob)
             || !HasComp<MetaDataComponent>(ev.Mob) // TODO: FIND THE STUPID RACE CONDITION THAT IS MAKING ME CHECK FOR THIS.
             || !_protoMan.TryIndex<JobPrototype>(ev.JobId, out var job)
             || !_configurationManager.GetCVar(CCVars.GameLoadoutsEnabled))
             return;
 
-        if(!job.SpawnLoadout) //DEN EDIT
+        if (!job.SpawnLoadout) //DEN EDIT
             return;
 
         ApplyCharacterLoadout(
             ev.Mob,
             ev.JobId,
             ev.Profile,
+            roleBans,
             _playTimeTracking.GetTrackerTimes(ev.Player),
             ev.Player.ContentData()?.Whitelisted ?? false,
             jobProto: job);
@@ -83,6 +87,7 @@ public sealed class LoadoutSystem : EntitySystem
         EntityUid uid,
         ProtoId<JobPrototype> job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         bool deleteFailed = false,
@@ -90,7 +95,7 @@ public sealed class LoadoutSystem : EntitySystem
     {
         // Spawn the loadout, get a list of items that failed to equip
         var (failedLoadouts, allLoadouts) =
-            _loadout.ApplyCharacterLoadout(uid, job, profile, playTimes, whitelisted, out var heirlooms);
+            _loadout.ApplyCharacterLoadout(uid, job, profile, roleBans, playTimes, whitelisted, out var heirlooms);
 
         // Try to find back-mounted storage apparatus
         if (_inventory.TryGetSlotEntity(uid, "back", out var item) &&

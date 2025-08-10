@@ -206,7 +206,7 @@ public abstract class SharedStationSpawningSystem : EntitySystem
         {
             if (!PrototypeManager.TryIndex<StartingGearPrototype>(subGear.Id, out var subGearProto) ||
                 !_characterRequirements.CheckRequirementsValid(
-                    subGearProto.Requirements, job, profile, new Dictionary<string, TimeSpan>(), false, job,
+                    subGearProto.Requirements, job, profile, [], new(), false, job,
                     EntityManager, PrototypeManager, _configurationManager,
                     out _))
                 continue;

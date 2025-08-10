@@ -4,6 +4,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+using System.Runtime.Serialization;
 using Content.Shared.Mind;
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
@@ -11,10 +12,10 @@ using JetBrains.Annotations;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
-using Robust.Shared.Utility;
 
 namespace Content.Shared.Customization.Systems;
 
+// TODO: Kill the person who made this. Like... what the fuck?
 // ReSharper disable InvalidXmlDocComment
 [ImplicitDataDefinitionForInheritors, MeansImplicitUse]
 [Serializable, NetSerializable]
@@ -36,6 +37,7 @@ public abstract partial class CharacterRequirement
     public abstract bool IsValid(
         JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,

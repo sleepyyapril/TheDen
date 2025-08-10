@@ -154,4 +154,9 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
     {
         return _roles;
     }
+
+    public List<string> GetRawRoleBans()
+    {
+        return _roleBans;
+    }
 }

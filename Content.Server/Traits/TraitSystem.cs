@@ -15,6 +15,7 @@
 
 using System.Linq;
 using Content.Server.Administration.Logs;
+using Content.Server.Administration.Managers;
 using Content.Server.Administration.Systems;
 using Content.Server.Chat.Managers;
 using Content.Shared.GameTicking;
@@ -52,6 +53,7 @@ public sealed class TraitSystem : EntitySystem
     [Dependency] private readonly IPlayerManager _playerManager = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IChatManager _chatManager = default!;
+    [Dependency] private readonly IBanManager _banManager = default!;
 
     public override void Initialize()
     {
@@ -61,15 +63,25 @@ public sealed class TraitSystem : EntitySystem
     }
 
     // When the player is spawned in, add all trait components selected during character creation
-    private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent args) =>
-        ApplyTraits(args.Mob, args.JobId, args.Profile,
-            _playTimeTracking.GetTrackerTimes(args.Player), args.Player.ContentData()?.Whitelisted ?? false);
+    private void OnPlayerSpawnComplete(PlayerSpawnCompleteEvent args)
+    {
+        var roleBans = _banManager.GetRoleBans(args.Player.UserId)?.ToList() ?? [];
+        var playTime = _playTimeTracking.GetTrackerTimes(args.Player);
+        var whitelisted = args.Player.ContentData()?.Whitelisted ?? false;
+
+        ApplyTraits(args.Mob,
+            args.JobId,
+            args.Profile,
+            roleBans,
+            playTime,
+            whitelisted);
+    }
 
     /// <summary>
     ///     Adds the traits selected by a player to an entity.
     /// </summary>
     public void ApplyTraits(EntityUid uid, ProtoId<JobPrototype>? jobId, HumanoidCharacterProfile profile,
-        Dictionary<string, TimeSpan> playTimes, bool whitelisted, bool punishCheater = true)
+        List<string> roleBans, Dictionary<string, TimeSpan> playTimes, bool whitelisted, bool punishCheater = true)
     {
         var pointsTotal = _configuration.GetCVar(CCVars.GameTraitsDefaultPoints);
         var traitSelections = _configuration.GetCVar(CCVars.GameTraitsMax);
@@ -100,8 +112,14 @@ public sealed class TraitSystem : EntitySystem
             if (!_characterRequirements.CheckRequirementsValid(
                 traitPrototype.Requirements,
                 jobPrototypeToUse,
-                profile, playTimes, whitelisted, traitPrototype,
-                EntityManager, _prototype, _configuration,
+                profile,
+                roleBans,
+                playTimes,
+                whitelisted,
+                traitPrototype,
+                EntityManager,
+                _prototype,
+                _configuration,
                 out _))
                 continue;
 

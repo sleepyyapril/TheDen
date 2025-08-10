@@ -26,6 +26,7 @@ public sealed partial class CharacterAntagonistRequirement : CharacterRequiremen
 
     public override bool IsValid(JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,

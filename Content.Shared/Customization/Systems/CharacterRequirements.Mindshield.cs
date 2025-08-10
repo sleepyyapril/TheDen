@@ -28,6 +28,7 @@ public sealed partial class CharacterMindshieldRequirement : CharacterRequiremen
 {
     public override bool IsValid(JobPrototype job,
         HumanoidCharacterProfile profile,
+        List<string> roleBans,
         Dictionary<string, TimeSpan> playTimes,
         bool whitelisted,
         IPrototype prototype,

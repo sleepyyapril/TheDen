@@ -53,6 +53,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 {
     [Dependency] private readonly IAdminManager _adminManager = default!;
     [Dependency] private readonly IAfkManager _afk = default!;
+    [Dependency] private readonly IBanManager _ban = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly MindSystem _minds = default!;
     [Dependency] private readonly PlayTimeTrackingManager _tracking = default!;
@@ -212,6 +213,25 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         _tracking.QueueSendWhitelist(ev.PlayerSession); // Nyanotrasen - Send whitelist status
     }
 
+    public bool IsAllowed(ICommonSession player, JobPrototype job, Dictionary<string, TimeSpan> playTimes)
+    {
+        var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
+        var roleBans = _ban.GetRoleBans(player.UserId)?.ToList() ?? [];
+
+        return _characterRequirements.CheckRequirementsValid(
+            job.Requirements ?? [],
+            job,
+            (HumanoidCharacterProfile) _prefs.GetPreferences(player.UserId).SelectedCharacter,
+            roleBans,
+            playTimes,
+            isWhitelisted,
+            job,
+            EntityManager,
+            _prototypes,
+            _cfg,
+            out _);
+    }
+
     public bool IsAllowed(ICommonSession player, string role)
     {
         if (!_prototypes.TryIndex<JobPrototype>(role, out var job) ||
@@ -222,22 +242,10 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         if (!_tracking.TryGetTrackerTimes(player, out var playTimes))
         {
             Log.Error($"Unable to check playtimes {Environment.StackTrace}");
-            playTimes = new Dictionary<string, TimeSpan>();
+            playTimes = new();
         }
 
-        var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
-
-        return _characterRequirements.CheckRequirementsValid(
-            job.Requirements,
-            job,
-            (HumanoidCharacterProfile) _prefs.GetPreferences(player.UserId).SelectedCharacter,
-            playTimes,
-            isWhitelisted,
-            job,
-            EntityManager,
-            _prototypes,
-            _cfg,
-            out _);
+        return IsAllowed(player, job, playTimes);
     }
 
     public HashSet<ProtoId<JobPrototype>> GetDisallowedJobs(ICommonSession player)
@@ -249,33 +257,15 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         if (!_tracking.TryGetTrackerTimes(player, out var playTimes))
         {
             Log.Error($"Unable to check playtimes {Environment.StackTrace}");
-            playTimes = new Dictionary<string, TimeSpan>();
+            playTimes = new();
         }
-
-        var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
 
         foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
         {
-            if (job.Requirements != null)
-            {
-                if (_characterRequirements.CheckRequirementsValid(
-                        job.Requirements,
-                        job,
-                        (HumanoidCharacterProfile) _prefs.GetPreferences(player.UserId).SelectedCharacter,
-                        playTimes,
-                        isWhitelisted,
-                        job,
-                        EntityManager,
-                        _prototypes,
-                        _cfg,
-                        out _))
-                    continue;
-
-                goto NoRole;
-            }
+            if (job.Requirements != null || IsAllowed(player, job, playTimes))
+                continue;
 
             roles.Add(job.ID);
-            NoRole:;
         }
 
         return roles;
@@ -291,31 +281,19 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         {
             // Sorry mate but your playtimes haven't loaded.
             Log.Error($"Playtimes weren't ready yet for {player} on roundstart!");
-            playTimes ??= new Dictionary<string, TimeSpan>();
+            playTimes ??= new();
         }
-
-        var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
 
         for (var i = 0; i < jobs.Count; i++)
         {
-            var job = jobs[i];
+            var jobId = jobs[i];
 
-            if (!_prototypes.TryIndex(job, out var jobber) ||
-                jobber.Requirements == null ||
-                jobber.Requirements.Count == 0)
+            if (!_prototypes.TryIndex(jobId, out var job) ||
+                job.Requirements == null ||
+                job.Requirements.Count == 0)
                 continue;
 
-            if (!_characterRequirements.CheckRequirementsValid(
-                jobber.Requirements,
-                jobber,
-                (HumanoidCharacterProfile) _prefs.GetPreferences(userId).SelectedCharacter,
-                _tracking.GetPlayTimes(_playerManager.GetSessionById(userId)),
-                _playerManager.GetSessionById(userId).ContentData()?.Whitelisted ?? false,
-                jobber,
-                EntityManager,
-                _prototypes,
-                _cfg,
-                out _))
+            if (!IsAllowed(player, job, playTimes))
             {
                 jobs.RemoveSwap(i);
                 i--;
