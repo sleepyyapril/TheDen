@@ -131,6 +131,7 @@ public sealed class GhostBarSystem : EntitySystem
             mobUid,
             randomJob,
             profile,
+            roleBans,
             playTimes,
             whitelisted,
             punishCheater: false
