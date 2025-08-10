@@ -9621,3 +9621,12 @@ Entries:
   id: 932
   time: '2025-08-10T09:54:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1372
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed one more of the countless Kitsune bugs/oversights - (Hopefully)
+        All medhuds can now see Kitsune healthbars.
+  id: 933
+  time: '2025-08-10T09:57:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1374
