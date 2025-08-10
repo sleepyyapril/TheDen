@@ -9604,3 +9604,20 @@ Entries:
   id: 931
   time: '2025-08-09T22:57:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1366
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: CentDrobe now has implanters to make your CC characters antag immune.
+    - type: Add
+      message: >-
+        Added new CentComm clothes! Find them in the CentDrobe or emagged
+        uniform printer.
+    - type: Add
+      message: >-
+        CentComm officials now wear a centcomm carapace for body armour, which
+        have identical stats to the command carapace.
+    - type: Tweak
+      message: Updated CentComm item names to be more consistent.
+  id: 932
+  time: '2025-08-10T09:54:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1372
