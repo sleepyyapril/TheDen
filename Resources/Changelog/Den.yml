@@ -9675,3 +9675,16 @@ Entries:
   id: 938
   time: '2025-08-10T11:40:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1356
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the Temperature Protection Trait from simply not working! Glacier
+        Greenshift enjoyers rejoice!
+    - type: Tweak
+      message: >-
+        Cryopods will ignore this trait. Otherwise, you are barred from
+        Cryogenics. 
+  id: 939
+  time: '2025-08-10T12:00:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1370
