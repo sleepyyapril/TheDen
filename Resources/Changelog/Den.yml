@@ -9659,3 +9659,10 @@ Entries:
   id: 936
   time: '2025-08-10T11:38:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1367
+- author: sev7ves
+  changes:
+    - type: Fix
+      message: Passport no longer spawns for AI and borg
+  id: 937
+  time: '2025-08-10T11:38:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1365
