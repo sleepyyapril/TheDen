@@ -9639,3 +9639,10 @@ Entries:
   id: 934
   time: '2025-08-10T10:08:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1369
+- author: CrystalClover
+  changes:
+    - type: Tweak
+      message: The Head Mirror has been added to the loadout options for medical jobs.
+  id: 935
+  time: '2025-08-10T11:35:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1371
