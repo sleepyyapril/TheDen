@@ -61,8 +61,9 @@ using Robust.Shared.Utility;
 using Content.Server.Popups;
 using Content.Shared.Verbs;
 using Robust.Shared.Collections;
-using Content.Shared.Ghost.Roles.Components;
 using Content.Shared.Popups;
+using Robust.Shared.Configuration;
+
 
 namespace Content.Server.Ghost.Roles;
 
