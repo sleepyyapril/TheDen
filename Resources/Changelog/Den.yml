@@ -9666,3 +9666,12 @@ Entries:
   id: 937
   time: '2025-08-10T11:38:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1365
+- author: ZigTag
+  changes:
+    - type: Add
+      message: >-
+        undecided (selector) items from goob (no content only mechanical
+        implementation)
+  id: 938
+  time: '2025-08-10T11:40:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1356
