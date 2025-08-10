@@ -9630,3 +9630,12 @@ Entries:
   id: 933
   time: '2025-08-10T09:57:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1374
+- author: ShepardToTheStars
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Ninja Stars doing embedded damage forever if they despawned
+        without being removed.
+  id: 934
+  time: '2025-08-10T10:08:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1369
