@@ -37,8 +37,8 @@ marking-ThavenTiger-tiger2 = Tiger Stripes
 # Head
 
 marking-ThavenHeadCap = Dappled Crown
-marking-ThavenHeadCap-headcap1 = Crown
-marking-ThavenHeadCap-headcap2 = Dapples
+marking-ThavenHeadCap-cap1 = Crown
+marking-ThavenHeadCap-cap2 = Dapples
 
 marking-ThavenHeadScales = Scales
 marking-ThavenHeadScales-scales = Scales

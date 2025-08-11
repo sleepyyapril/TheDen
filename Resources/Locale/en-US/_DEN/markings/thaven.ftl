@@ -151,7 +151,7 @@ marking-NipplesLargeT = Nipples (Large)
 marking-NipplesLargeT-nippleslarge = Nipples
 
 marking-NipplesMaleT = Nipples (Slim Chest)
-marking-NipplesMaleT-nipplesvulp = Nipples
+marking-NipplesMaleT-nipplesmale = Nipples
 
 
 # Nipple Piercings
