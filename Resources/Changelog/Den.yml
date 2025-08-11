@@ -9715,3 +9715,10 @@ Entries:
   id: 942
   time: '2025-08-11T00:27:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1385
+- author: ShepardToTheStars
+  changes:
+    - type: Fix
+      message: Fixed emotes not working.
+  id: 943
+  time: '2025-08-11T03:40:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1392
