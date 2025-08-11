@@ -9722,3 +9722,10 @@ Entries:
   id: 943
   time: '2025-08-11T03:40:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1392
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: The Denu is now openable after round end.
+  id: 944
+  time: '2025-08-11T07:43:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1393
