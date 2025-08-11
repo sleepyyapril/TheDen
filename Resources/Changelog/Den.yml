@@ -9706,3 +9706,12 @@ Entries:
   id: 941
   time: '2025-08-11T00:25:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1384
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added the option to set a custom hearing range in the Denu! No more
+        hearing 2000 people surrounding you!
+  id: 942
+  time: '2025-08-11T00:27:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1385
