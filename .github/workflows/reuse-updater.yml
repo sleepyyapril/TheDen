@@ -10,10 +10,12 @@ concurrency:
   group: reuse_action
   cancel-in-progress: false
 on:
-  pull_request:
-    types: [closed]
-    branches:
-      - master
+  pull_request_target:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
 
 jobs:
   update_headers:
