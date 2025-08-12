@@ -9827,3 +9827,12 @@ Entries:
   id: 954
   time: '2025-08-12T18:04:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1397
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Added the low capacity magazines to the ammofab for the salvies. Now
+        stop bothering Security!
+  id: 955
+  time: '2025-08-12T18:42:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1375
