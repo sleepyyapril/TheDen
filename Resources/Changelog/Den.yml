@@ -9760,3 +9760,10 @@ Entries:
   id: 947
   time: '2025-08-12T08:12:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1398
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Blastdoors not closing on plastic flaps!
+  id: 948
+  time: '2025-08-12T10:33:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1406
