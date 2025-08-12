@@ -9767,3 +9767,12 @@ Entries:
   id: 948
   time: '2025-08-12T10:33:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1406
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Recent Budget cuts caused a quality drop in the portafibs.. They still
+        work, though!
+  id: 949
+  time: '2025-08-12T12:35:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1403
