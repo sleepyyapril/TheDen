@@ -36,6 +36,7 @@
     - Centrist
     - SpeechRestriction
     - Clownfan
+    - NanoChatAddict
 
 # You are extremely possessive of your property. Refuse to relinquish it, and if it is misplaced or stolen, it must be retrieved at all costs.
 - type: thavenMood
@@ -275,3 +276,11 @@
   conflicts:
   - Coulrophobia
   - Circus
+
+# Your social status is dependent upon the number of friends you have on NanoChat. You should use your PDA as much as possible, and message everyone you know.
+- type: thavenMood
+  id: NanoChatAddict
+  moodName: thaven-mood-nanochat-addict-name
+  moodDesc: thaven-mood-nanochat-addict-desc
+  conflicts:
+    - NoRadio

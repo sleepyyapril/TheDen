@@ -23,7 +23,7 @@ thaven-mood-procrastinator-name = Procrastinator
 thaven-mood-procrastinator-desc = Rushing around everywhere is bound to get somebody hurt someday. You should move slowly at all times to avoid unnecessary risk.
 
 thaven-mood-no-radio-name = Personable
-thaven-mood-no-radio-desc = Using radio communications is exceptionally rude. All conversations should be had in-person, face-to-face. Throw away your headset.
+thaven-mood-no-radio-desc = Using long-distance communications is exceptionally rude. All conversations should be had in-person, face-to-face.
 
 thaven-mood-improper-storage-name = I'm Not A Pack Mule
 thaven-mood-improper-storage-desc = Carrying tools on your person is demeaning. If you must use them, they should be dragged behind you, shamefully.

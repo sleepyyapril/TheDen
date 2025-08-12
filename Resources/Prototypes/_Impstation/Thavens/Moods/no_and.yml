@@ -95,11 +95,13 @@
   conflicts:
     - Scheduler
 
-# Using radio communications is exceptionally rude. All conversations must be had in-person, face-to-face. Throw away your headset.
+# Using long-distance communications is exceptionally rude. All conversations should be had in-person, face-to-face.
 - type: thavenMood
   id: NoRadio
   moodName: thaven-mood-no-radio-name
   moodDesc: thaven-mood-no-radio-desc
+  conflicts:
+    - NanoChatAddict
 
 # Carrying tools on your person is demeaning. If you must use them, they should be dragged behind you, shamefully.
 - type: thavenMood

@@ -109,6 +109,9 @@ thaven-mood-public-sector-desc = Your job should not be done in private if it ca
 thaven-mood-clown-fan-name = Fan Of Clowns
 thaven-mood-clown-fan-desc = Clowns are such whimsical things, just seeing one makes you breakout into fits of laughter!
 
+thaven-mood-nanochat-addict-name = NanoChat Addict
+thaven-mood-nanochat-addict-desc = Your social status is dependent upon the number of friends you have on NanoChat. You should use your PDA as much as possible, and message everyone you know.
+
 thaven-mood-speech-restriction-name = {$speechType ->
   *[FullNameAndTitle] Full Name And Title
   [NamesAreRude] Names Are Rude
