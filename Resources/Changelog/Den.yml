@@ -9783,3 +9783,12 @@ Entries:
   id: 950
   time: '2025-08-12T12:36:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1401
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Seccies beware! The raffle timers for Xenos have been decreased, so next
+        time, don't think they'll give you an easy fight!
+  id: 951
+  time: '2025-08-12T14:02:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1411
