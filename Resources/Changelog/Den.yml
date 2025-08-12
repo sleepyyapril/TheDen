@@ -9801,3 +9801,16 @@ Entries:
   id: 952
   time: '2025-08-12T15:52:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1389
+- author: Jakumba
+  changes:
+    - type: Add
+      message: >-
+        Added a warning text when inspecting a Holofan and Holobarrier with
+        duration before they expire
+    - type: Tweak
+      message: Holobarrier Projectors now work on a charge base system
+    - type: Tweak
+      message: Holofans and Holobarriers now last for five minutes when placed
+  id: 953
+  time: '2025-08-12T15:54:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1394
