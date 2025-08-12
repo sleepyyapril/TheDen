@@ -9814,3 +9814,16 @@ Entries:
   id: 953
   time: '2025-08-12T15:54:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1394
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        The "Appearance" tab of the character editor has been visually
+        overhauled, hopefully to make it more digestible.
+    - type: Tweak
+      message: >-
+        NO, I did not fucking touch Loadouts, Traits, Markings, Records, or the
+        character preview sprite. DOn't ask me
+  id: 954
+  time: '2025-08-12T18:04:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1397
