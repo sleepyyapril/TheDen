@@ -9905,3 +9905,10 @@ Entries:
   id: 962
   time: '2025-08-13T13:38:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1417
+- author: BudaLope
+  changes:
+    - type: Add
+      message: Consent card to consent menu
+  id: 963
+  time: '2025-08-13T13:49:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1416
