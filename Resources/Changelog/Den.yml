@@ -9935,3 +9935,10 @@ Entries:
   id: 966
   time: '2025-08-13T23:16:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1340
+- author: Shaman
+  changes:
+    - type: Add
+      message: Turtleneck Half Blouse to outerwear loadout
+  id: 967
+  time: '2025-08-13T23:25:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1390
