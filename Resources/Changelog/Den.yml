@@ -9928,3 +9928,10 @@ Entries:
   id: 965
   time: '2025-08-13T21:11:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1402
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Cyborgs can now fly in space! Very slowly..
+  id: 966
+  time: '2025-08-13T23:16:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1340
