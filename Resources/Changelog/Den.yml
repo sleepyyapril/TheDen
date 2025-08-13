@@ -9887,3 +9887,16 @@ Entries:
   id: 960
   time: '2025-08-13T10:10:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1414
+- author: Eightballll
+  changes:
+    - type: Add
+      message: >-
+        Added Jaegermister, a completely original and not inspired by anything
+        at all alcohol!
+    - type: Add
+      message: Added some new cocktails to mix using Jaeger!
+    - type: Remove
+      message: Deleted my sanity from the codebase, apparently it wasn't necessary.
+  id: 961
+  time: '2025-08-13T10:12:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1301
