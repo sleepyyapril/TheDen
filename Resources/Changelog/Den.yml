@@ -9877,3 +9877,13 @@ Entries:
   id: 959
   time: '2025-08-13T07:59:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1415
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Ovinia have a handful of new markings, some made by me, others
+        pre-existing. Look for ears, horns, tails, and chest markings, as well
+        as the new hooved hands.
+  id: 960
+  time: '2025-08-13T10:10:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1414
