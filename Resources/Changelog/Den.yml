@@ -9919,3 +9919,12 @@ Entries:
   id: 964
   time: '2025-08-13T15:17:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1422
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        NT decided to upgrade your Defibrillator Cabinets! Now they slowly
+        recharge stored defibrillators!
+  id: 965
+  time: '2025-08-13T21:11:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1402
