@@ -9868,3 +9868,12 @@ Entries:
   id: 958
   time: '2025-08-13T04:34:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1420
+- author: Shaman
+  changes:
+    - type: Add
+      message: Booty Shorts (colorable) as a uniform option in loadout
+    - type: Add
+      message: Sentimental Ring (colorable) as a general item in loadout (not hands!)
+  id: 959
+  time: '2025-08-13T07:59:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1415
