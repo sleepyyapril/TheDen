@@ -10020,3 +10020,10 @@ Entries:
   id: 975
   time: '2025-08-14T19:00:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1432
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: Golden Ring and Sentimental Ring are now Tiny items (one slot)
+  id: 976
+  time: '2025-08-14T19:02:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1428
