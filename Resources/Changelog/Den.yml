@@ -9991,3 +9991,16 @@ Entries:
   id: 972
   time: '2025-08-14T08:10:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1430
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added the ability to use a subtledetailed or medetailed format by
+        putting a ! at the front of your action in emote or subtle.
+    - type: Fix
+      message: >-
+        The space between name and message for subtle and emotes is now properly
+        removed when you put a ' or a , at the front.
+  id: 973
+  time: '2025-08-14T18:57:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1435
