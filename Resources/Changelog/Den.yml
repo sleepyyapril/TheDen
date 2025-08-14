@@ -10027,3 +10027,16 @@ Entries:
   id: 976
   time: '2025-08-14T19:02:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1428
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Ported 18 bomber jackets to departmental loadouts from Imp, including a
+        colorable one for anyone
+    - type: Tweak
+      message: >-
+        The colorable one is now unbutcherable since that deletes its color (the
+        rest can be "tailored" to change the fit)
+  id: 977
+  time: '2025-08-14T19:02:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1421
