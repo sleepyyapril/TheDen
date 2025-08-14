@@ -9956,3 +9956,12 @@ Entries:
   id: 969
   time: '2025-08-14T00:31:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1409
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added the heat pump, a heat transferring device, can now be found in the
+        crafting menu or crafted with the RPD.
+  id: 970
+  time: '2025-08-14T00:31:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1358
