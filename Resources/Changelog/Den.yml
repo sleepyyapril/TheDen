@@ -10013,3 +10013,10 @@ Entries:
   id: 974
   time: '2025-08-14T19:00:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1434
+- author: SubspaceEmber
+  changes:
+    - type: Add
+      message: Ported craftable pride flags from Delta-V
+  id: 975
+  time: '2025-08-14T19:00:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1432
