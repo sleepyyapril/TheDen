@@ -9965,3 +9965,22 @@ Entries:
   id: 970
   time: '2025-08-14T00:31:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1358
+- author: Eightballll
+  changes:
+    - type: Add
+      message: Added a recipe for the ashtray! Finally, you can keep your bar clean.
+    - type: Tweak
+      message: Tweaked the dispenser inventory, no more jugs laying around.
+    - type: Tweak
+      message: >-
+        Increased the priority of the glass in dispensers, should fix pulling
+        jugs out by accident.
+    - type: Add
+      message: Added an in-hand sprite for the shaker!
+    - type: Tweak
+      message: >-
+        Adjusted the boozeomat to dispense XL cartons, no more pouring them into
+        the empty XL.
+  id: 971
+  time: '2025-08-14T00:38:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1424
