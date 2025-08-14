@@ -10004,3 +10004,12 @@ Entries:
   id: 973
   time: '2025-08-14T18:57:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1435
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: >-
+        ADMIN: Added the `spawnplayer` function to spawn other players with
+        their job loadouts, traits, etc.
+  id: 974
+  time: '2025-08-14T19:00:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1434
