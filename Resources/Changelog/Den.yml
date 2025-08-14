@@ -9984,3 +9984,10 @@ Entries:
   id: 971
   time: '2025-08-14T00:38:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1424
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: Added the Tajaran tail markings to the Felinid.
+  id: 972
+  time: '2025-08-14T08:10:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1430
