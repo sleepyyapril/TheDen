@@ -10117,3 +10117,10 @@ Entries:
   id: 982
   time: '2025-08-15T20:13:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1447
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added personal envelopes for letters.
+  id: 983
+  time: '2025-08-15T23:15:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1452
