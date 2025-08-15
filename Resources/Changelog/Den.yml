@@ -10091,3 +10091,10 @@ Entries:
   id: 980
   time: '2025-08-15T20:05:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1450
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Justice Roles not spawning in with a justice headset.!
+  id: 981
+  time: '2025-08-15T20:10:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1451
