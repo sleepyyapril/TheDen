@@ -488,7 +488,7 @@
     clothingPrototype: ClothingHeadHatHoodWinterSci
 
 - type: entity
-  parent: [ClothingOuterWinterSecurity]
+  parent: ClothingOuterWinterSecurity
   id: ClothingOuterWinterSec
   name: security winter coat
   components:
@@ -498,8 +498,6 @@
     sprite: Clothing/OuterClothing/WinterCoats/coatsec.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterSec
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatHoodWinterDefault
     slot: head
   - type: ContainerContainer
     containers:
