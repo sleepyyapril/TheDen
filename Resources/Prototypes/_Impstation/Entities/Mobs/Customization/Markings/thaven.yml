@@ -314,7 +314,7 @@
   - sprite: _Impstation/Mobs/Customization/Thaven/larm.rsi
     state: tiger
 
-# RHAnd
+# LHAnd
 
 - type: marking
   id: ThavenLHandScales
@@ -336,6 +336,8 @@
   - sprite: _Impstation/Mobs/Customization/Thaven/rleg.rsi
     state: scales
 
+# RFoot
+
 # LLeg
 
 - type: marking
@@ -346,6 +348,8 @@
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/lleg.rsi
     state: scales
+
+# LFoot
 
 # UndergarmentBottom
 

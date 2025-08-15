@@ -39,11 +39,44 @@ marking-ThavenTigerF-tiger2_f = Tiger Stripes
 
 # RArm
 
+marking-GradientRArmT = Gradient (Right)
+marking-GradientRArmT-m_gradient_r_arm = Color
+
+# RHand
+
+marking-GradientRHandT = Gradient (Right)
+marking-GradientRHandT-m_gradient_r_hand = Color
+
 # LArm
+
+marking-GradientLArmT = Gradient (Left)
+marking-GradientLArmT-m_gradient_l_arm = Gradient
+
+# LHand
+
+marking-GradientLHandT = Gradient (Left)
+marking-GradientLHandT-m_gradient_l_hand = Gradient
 
 # RLeg
 
+marking-GradientRLegT = Gradient (Right)
+marking-GradientRLegT-m_gradient_r_leg = Gradient
+
+# RFoot
+
+marking-GradientRFootT = Gradient (Right)
+marking-GradientRFootT-m_gradient_r_foot = Gradient
+
 # LLeg
+
+marking-GradientLLegT = Gradient (Left)
+marking-GradientLLegT-m_gradient_l_leg = Gradient
+
+# LFoot
+
+marking-GradientLFootT = Gradient (Left)
+marking-GradientLFootT-m_gradient_l_foot = Gradient
+
 
 # Underwear
 
@@ -84,14 +117,6 @@ marking-UndershirtNanotrasenTF-nanotrasen_f = Undershirt
 
 marking-UndershirtRolledTF = Undershirt (Cropped)
 marking-UndershirtRolledTF-rolledundershirt_f = Undershirt
-
-# LFoot
-
-# RFoot
-
-# LHand
-
-# RHand
 
 # FacialHair
 

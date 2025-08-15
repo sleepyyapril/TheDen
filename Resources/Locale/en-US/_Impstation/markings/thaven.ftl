@@ -104,10 +104,14 @@ marking-ThavenLHandScales-scales = Scales (Left)
 marking-ThavenRLegScales = Scales (Right)
 marking-ThavenRLegScales-scales = Scales (Right)
 
+# RFoot
+
 # LLeg
 
 marking-ThavenLLegScales = Scales (Left)
 marking-ThavenLLegScales-scales = Scales (Left)
+
+# LFoot
 
 # UndergarmentBottom
 
