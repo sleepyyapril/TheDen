@@ -35,7 +35,7 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: Jetinjector
+  name: jet injector
   parent: BaseItem
   description: A sterile injector for convenient administration of drugs to patients.
   id: JetInjector
