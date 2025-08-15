@@ -10098,3 +10098,22 @@ Entries:
   id: 981
   time: '2025-08-15T20:10:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1451
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: >-
+        Mass scanners and shuttle consoles now display coordinates beneath IFF
+        labels
+    - type: Fix
+      message: >-
+        IFF labels that are beyond the viewport extents maintain their heading
+        and don't hug corners
+    - type: Fix
+      message: Handheld radars no longer spin with the player while moving.
+    - type: Tweak
+      message: >-
+        Increased the view range on the handheld mass scanner and decreased the
+        power draw.
+  id: 982
+  time: '2025-08-15T20:13:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1447
