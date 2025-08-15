@@ -10040,3 +10040,34 @@ Entries:
   id: 977
   time: '2025-08-14T19:02:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1421
+- author: portfiend
+  changes:
+    - type: Add
+      message: Waiter and waitress uniforms can now be found in the ChefDrobe.
+    - type: Add
+      message: >-
+        Mustard bottles, damp rags, and towels can now be stored on the chef
+        belt.
+    - type: Add
+      message: Pig in a blanket has a new recipe, and is more nutritious now to boot!
+    - type: Tweak
+      message: Boiled spaghetti now requires olive oil instead of butter to make.
+    - type: Tweak
+      message: The recipe for the chicken nugget box is less stressful.
+    - type: Tweak
+      message: >-
+        The ChefDrobe now holds 2 of the original chef uniform instead of just
+        1.
+    - type: Tweak
+      message: >-
+        Sausage bread now requires actual sausage to make, instead of regular
+        meat.
+    - type: Fix
+      message: >-
+        The condiment station can now be moved onto tables and anchored on top
+        of them.
+    - type: Fix
+      message: Advanced Microwaves now properly take 1/2 the time to cook things.
+  id: 978
+  time: '2025-08-15T20:03:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1443
