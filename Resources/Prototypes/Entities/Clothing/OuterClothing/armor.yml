@@ -568,7 +568,7 @@
 
 # Assmos - Metal Hydrogen
 - type: entity
-  parent: ClothingOuterArmorBase
+  parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorMetalHydrogen
   name: metal hydrogen armor
   description: A superb armor made with the toughest and rarest materials available to man.
@@ -624,7 +624,7 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: GroupExamine
-  - type: ProtectedFromStepTriggers
+  - type: ClothingRequiredStepTriggerImmune
     slots: WITHOUT_POCKET
   - type: ExplosionResistance
     damageCoefficient: 0.90
