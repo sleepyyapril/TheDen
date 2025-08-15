@@ -10082,3 +10082,12 @@ Entries:
   id: 979
   time: '2025-08-15T20:04:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1449
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        The X Card in the Consent menu has been given a clearer description, and
+        you will now be sent a message when the card is raised.
+  id: 980
+  time: '2025-08-15T20:05:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1450
