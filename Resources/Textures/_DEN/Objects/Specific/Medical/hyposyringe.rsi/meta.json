@@ -1,0 +1,40 @@
+{
+	"version": 1,
+	"license": "CC-BY-SA-3.0",
+	"copyright": "Sprites made by Sir_Warock on Discord",
+	"size": {
+		"x": 32,
+		"y": 32
+	},
+	"states": [
+		{
+			"name": "hyposyringe_base"
+		},
+        {
+			"name": "hyposyringe_filled1"
+		},
+		{
+			"name": "hyposyringe_filled2"
+		},
+		{
+			"name": "hyposyringe_filled3"
+		},
+		{
+			"name": "hyposyringe_filled4"
+		},
+		{
+			"name": "hyposyringe_filled5"
+		},
+        {
+            "name": "hyposyringe_filled6"
+        },
+        {
+            "name": "inhand-left",
+            "directions": 4
+        },
+        {
+            "name": "inhand-right",
+            "directions": 4
+        }
+    ]
+}
