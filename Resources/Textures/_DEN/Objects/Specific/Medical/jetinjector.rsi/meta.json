@@ -8,25 +8,25 @@
 	},
 	"states": [
 		{
-			"name": "hyposyringe_base"
+			"name": "jetinjector_base"
 		},
         {
-			"name": "hyposyringe_filled1"
+			"name": "jetinjector_filled1"
 		},
 		{
-			"name": "hyposyringe_filled2"
+			"name": "jetinjector_filled2"
 		},
 		{
-			"name": "hyposyringe_filled3"
+			"name": "jetinjector_filled3"
 		},
 		{
-			"name": "hyposyringe_filled4"
+			"name": "jetinjector_filled4"
 		},
 		{
-			"name": "hyposyringe_filled5"
+			"name": "jetinjector_filled5"
 		},
         {
-            "name": "hyposyringe_filled6"
+            "name": "jetinjector_filled6"
         },
         {
             "name": "inhand-left",

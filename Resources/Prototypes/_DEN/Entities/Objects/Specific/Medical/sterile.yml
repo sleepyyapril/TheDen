@@ -35,29 +35,29 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: hyposyringe
+  name: Jetinjector
   parent: BaseItem
   description: A sterile injector for convenient administration of drugs to patients.
-  id: Hyposyringe
+  id: JetInjector
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Specific/Medical/hyposyringe.rsi
+    sprite: _DEN/Objects/Specific/Medical/jetinjector.rsi
     layers:
-    - state: hyposyringe_base
+    - state: jetinjector_base
       map: [ "enum.SolutionContainerLayers.Base" ]
-    - state: hyposyringe_filled1
+    - state: jetinjector_filled1
       map: [ "enum.SolutionContainerLayers.Fill" ]
       visible: false
   - type: Icon
-    sprite: _DEN/Objects/Specific/Medical/hyposyringe.rsi
-    state: "hyposyringe_base"
+    sprite: _DEN/Objects/Specific/Medical/jetinjector.rsi
+    state: "jetinjector_base"
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 6
-    fillBaseName: hyposyringe_filled
+    fillBaseName: jetinjector_filled
     solutionName: hypospray
   - type: Item
-    sprite: _DEN/Objects/Specific/Medical/hyposyringe.rsi
+    sprite: _DEN/Objects/Specific/Medical/jetinjector.rsi
   - type: SolutionContainerManager
     solutions:
       hypospray:
