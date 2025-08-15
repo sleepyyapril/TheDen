@@ -10071,3 +10071,14 @@ Entries:
   id: 978
   time: '2025-08-15T20:03:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1443
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: '"chatwindow" command has been added to open an additional chat window'
+    - type: Add
+      message: >-
+        "achatwindow" command has been added to open an additional chat window,
+        preconfigured for monitoring admin channels
+  id: 979
+  time: '2025-08-15T20:04:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1449
