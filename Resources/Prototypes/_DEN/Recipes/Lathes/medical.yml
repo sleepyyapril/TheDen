@@ -40,8 +40,8 @@
     Plastic: 100
 
 - type: latheRecipe
-  id: Hyposyringe
-  result: Hyposyringe
+  id: JetInjector
+  result: JetInjector
   category: Tools
   completetime: 10
   materials:

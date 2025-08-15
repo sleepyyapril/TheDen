@@ -157,7 +157,7 @@
   - HandheldCrewMonitor
   - SeedExtractorMachineCircuitboard
   - RollerBedHoloSpawnFolded
-  - Hyposyringe
+  - JetInjector
 
 - type: technology
   id: HONKMech
