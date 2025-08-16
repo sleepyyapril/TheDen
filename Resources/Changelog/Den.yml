@@ -10237,3 +10237,12 @@ Entries:
   id: 995
   time: '2025-08-16T16:12:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1439
+- author: Swiss_Fox
+  changes:
+    - type: Add
+      message: >-
+        Added more rooms to Gravel! Play some games at the arcade, then find the
+        hidden syndie hideout
+  id: 996
+  time: '2025-08-16T20:34:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1271
