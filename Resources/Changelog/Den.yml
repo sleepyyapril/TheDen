@@ -10180,3 +10180,17 @@ Entries:
   id: 989
   time: '2025-08-16T02:04:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1448
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Thief's Syndie Kit now comes with a Radio Jammer, a piece of paper with
+        a Syndicate codeword written on it, and a lighter to dispose of it
+        quickly.
+    - type: Tweak
+      message: >-
+        Thief's Agent ID has been moved from the Syndie Kit to the Chameleon
+        Kit.
+  id: 990
+  time: '2025-08-16T02:29:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1433
