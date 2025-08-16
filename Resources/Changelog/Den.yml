@@ -10223,3 +10223,10 @@ Entries:
   id: 993
   time: '2025-08-16T07:08:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1462
+- author: ruddygreat
+  changes:
+    - type: Add
+      message: Added organisational capabilities to the cargo bounty computer.
+  id: 994
+  time: '2025-08-16T07:11:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1444
