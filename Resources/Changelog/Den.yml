@@ -10124,3 +10124,14 @@ Entries:
   id: 983
   time: '2025-08-15T23:15:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1452
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: 'Per-Character consent, via the renamed Description tab, is here. '
+    - type: Tweak
+      message: >-
+        The Description tab was renamed to the About tab to better reflect its
+        purpose.
+  id: 984
+  time: '2025-08-16T01:03:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1460
