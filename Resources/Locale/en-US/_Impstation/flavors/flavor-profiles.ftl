@@ -1,5 +1,6 @@
-flavour-stardust = like stardust
+flavor-base-stardust = like stardust
 flavor-base-whimsy = whimsical
+flavor-complex-genderfluid = transitional
 
 flavor-complex-thavenflesh = like salt and suffering
 flavor-complex-carpflesh = like alkali and ozone

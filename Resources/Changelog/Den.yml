@@ -10117,3 +10117,95 @@ Entries:
   id: 982
   time: '2025-08-15T20:13:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1447
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added personal envelopes for letters.
+  id: 983
+  time: '2025-08-15T23:15:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1452
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: 'Per-Character consent, via the renamed Description tab, is here. '
+    - type: Tweak
+      message: >-
+        The Description tab was renamed to the About tab to better reflect its
+        purpose.
+  id: 984
+  time: '2025-08-16T01:03:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1460
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added voices to figurines.
+  id: 985
+  time: '2025-08-16T01:47:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1457
+- author: Oberonics
+  changes:
+    - type: Add
+      message: Ported Estradiol, Testosterone, and Genderfluid from Impstation.
+  id: 986
+  time: '2025-08-16T01:47:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1456
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Buffed the Logistics Techfab to accept all materials - No need to ask
+        Epi for a Flatpacker no more!
+  id: 987
+  time: '2025-08-16T01:50:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1446
+- author: Sha-Seng
+  changes:
+    - type: Tweak
+      message: >-
+        Beholder, Malstrem, and Iron Jaw markings are lighter so you can color
+        them easier (YOU WILL NEED TO RECOLOR YOURS)
+    - type: Add
+      message: >-
+        Beholder Lights and Malstrem Lights colorable head markings that glow in
+        the dark to layer over them
+  id: 988
+  time: '2025-08-16T02:02:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1458
+- author: ShepardToTheStars
+  changes:
+    - type: Add
+      message: >-
+        Chemists, bartenders, and chefs now have access to skimmers that can
+        remove 5u of the smallest reagent from a solution.
+  id: 989
+  time: '2025-08-16T02:04:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1448
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Thief's Syndie Kit now comes with a Radio Jammer, a piece of paper with
+        a Syndicate codeword written on it, and a lighter to dispose of it
+        quickly.
+    - type: Tweak
+      message: >-
+        Thief's Agent ID has been moved from the Syndie Kit to the Chameleon
+        Kit.
+  id: 990
+  time: '2025-08-16T02:29:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1433
+- author: Eightballll
+  changes:
+    - type: Add
+      message: The Kalimoxto drink from DV
+    - type: Add
+      message: >-
+        The ability to sling drinks! Bartending goggles now let you safely yeet
+        glasses to your heart's content
+    - type: Tweak
+      message: Tweaked some of the Jaeger cocktails to better fit their intended vibe
+    - type: Fix
+      message: Fixed the Inside Scoop's sprite!
+  id: 991
+  time: '2025-08-16T03:22:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1441
