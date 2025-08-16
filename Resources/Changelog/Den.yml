@@ -10158,3 +10158,16 @@ Entries:
   id: 987
   time: '2025-08-16T01:50:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1446
+- author: Sha-Seng
+  changes:
+    - type: Tweak
+      message: >-
+        Beholder, Malstrem, and Iron Jaw markings are lighter so you can color
+        them easier (YOU WILL NEED TO RECOLOR YOURS)
+    - type: Add
+      message: >-
+        Beholder Lights and Malstrem Lights colorable head markings that glow in
+        the dark to layer over them
+  id: 988
+  time: '2025-08-16T02:02:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1458
