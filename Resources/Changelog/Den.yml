@@ -10149,3 +10149,12 @@ Entries:
   id: 986
   time: '2025-08-16T01:47:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1456
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Buffed the Logistics Techfab to accept all materials - No need to ask
+        Epi for a Flatpacker no more!
+  id: 987
+  time: '2025-08-16T01:50:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1446
