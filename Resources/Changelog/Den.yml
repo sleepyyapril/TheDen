@@ -10135,3 +10135,10 @@ Entries:
   id: 984
   time: '2025-08-16T01:03:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1460
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added voices to figurines.
+  id: 985
+  time: '2025-08-16T01:47:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1457
