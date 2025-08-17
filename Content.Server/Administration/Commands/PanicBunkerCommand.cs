@@ -29,7 +29,7 @@ public sealed class PanicBunkerCommand : LocalizedCommands
         shell.WriteLine(Loc.GetString(toggle.Value ? "panicbunker-command-enabled" : "panicbunker-command-disabled"));
     }
 
-    public static bool? Toggle(CVarDef<bool> cvar, IConsoleShell shell, string[] args, IConfigurationManager config)
+    public bool? Toggle(CVarDef<bool> cvar, IConsoleShell shell, string[] args, IConfigurationManager config)
     {
         if (args.Length > 1)
         {

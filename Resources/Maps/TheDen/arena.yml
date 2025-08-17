@@ -168,9 +168,7 @@ entities:
     - type: Transform
     - type: Map
       mapPaused: True
-    - type: PhysicsMap
     - type: GridTree
-    - type: MovedGrids
     - type: Broadphase
     - type: OccluderTree
     - type: Parallax
@@ -132495,9 +132493,9 @@ entities:
 
         [bold]Blood Analysis Results:[/bold] Normal CBC and low iron levels. Unknown contaminant chemical found in blood - seems to be hijacking WB cells.
 
-        [bold]Organ Scan Results:[/bold] N/A, pending from main medical. 
+        [bold]Organ Scan Results:[/bold] N/A, pending from main medical.
 
-        [bold]Witnesses:[/bold] 
+        [bold]Witnesses:[/bold]
 
         [hr][bold]Summary of the Narrative[/bold]
 
