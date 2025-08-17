@@ -56,8 +56,15 @@ public sealed partial class HyposprayComponent : Component
 
     /// <summary>
     /// Whether or not the hypospray injects it's entire capacity on use.
-    /// Used by Hyposyringes.
+    /// Used by Jet Injectors.
     /// </summary>
     [DataField]
     public bool InjectMaxCapacity = false;
+
+    /// <summary>
+    /// Whether or not the hypospray can inject chitinids.
+    /// Used by Jet Injectors.
+    /// </summary>
+    [DataField]
+    public bool BypassBlockInjection = true;
 }

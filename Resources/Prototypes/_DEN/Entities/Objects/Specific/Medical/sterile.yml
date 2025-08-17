@@ -61,7 +61,7 @@
   - type: SolutionContainerManager
     solutions:
       hypospray:
-        maxVol: 30
+        maxVol: 15
   - type: RefillableSolution
     solution: hypospray
   - type: ExaminableSolution
@@ -70,6 +70,7 @@
     onlyAffectsMobs: false
     injectTime: 2.5
     injectMaxCapacity: true
+    bypassBlockInjection: false
   - type: UseDelay
     delay: 0.5
   - type: StaticPrice

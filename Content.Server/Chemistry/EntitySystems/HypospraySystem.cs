@@ -33,12 +33,16 @@ using Content.Server.Body.Components;
 using Robust.Shared.GameStates;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using Content.Server.Abilities.Chitinid;
 using Content.Shared.Chemistry.Reagent;
 using Robust.Server.Audio;
 using Content.Server.Atmos.EntitySystems;
+using Content.Server.Chat.Managers;
 using Content.Shared.DoAfter;
 using Content.Server.Chemistry.Components;
+using Content.Shared.Chat;
 using Content.Shared.Popups;
+using Robust.Server.Player;
 
 
 namespace Content.Server.Chemistry.EntitySystems;
@@ -50,6 +54,11 @@ public sealed class HypospraySystem : SharedHypospraySystem
     [Dependency] private readonly AudioSystem _audio = default!;
     [Dependency] private readonly InteractionSystem _interaction = default!;
     [Dependency] protected readonly SharedPopupSystem Popup = default!;
+    [Dependency] private readonly IChatManager _chat = default!;
+    [Dependency] private readonly IPlayerManager _playerManager = default!;
+
+    private const ChatChannel BlockInjectionDenyChannel = ChatChannel.Emotes;
+
 
     public override void Initialize()
     {
@@ -107,6 +116,25 @@ public sealed class HypospraySystem : SharedHypospraySystem
         var (_, component) = entity;
 
         var doAfterDelay = TimeSpan.FromSeconds(0);
+
+        if (!entity.Comp.BypassBlockInjection && TryComp<BlockInjectionComponent>(target, out var blockComponent)) // DeltaV
+        {
+            var msg = Loc.GetString($"injector-component-deny-{blockComponent.BlockReason}");
+            Popup.PopupEntity(msg, target, user);
+
+            if (!_playerManager.TryGetSessionByEntity(target, out var session))
+                return false;
+
+            _chat.ChatMessageToOne(
+                BlockInjectionDenyChannel,
+                msg,
+                msg,
+                EntityUid.Invalid,
+                false,
+                session.Channel);
+            return false;
+        }
+
         // Is the target a mob and hypo isn't instant? If yes, use a do-after to give them time to respond.
         if ((HasComp<MobStateComponent>(target) || HasComp<BloodstreamComponent>(target))
             && component.InjectTime != 0f)
