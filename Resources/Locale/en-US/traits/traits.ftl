@@ -414,7 +414,7 @@ trait-description-Small =
 trait-name-SmallThaven = Small (Thaven)
 trait-description-SmallThaven =
     You are much smaller than a typical thaven, and can climb into spaces others would not normally be able to fit into, such as duffel bags.
-    This trait does not in any way modify your character's size. While you may be slightly larger than a standard Tajaran, thaven are naturally flexible.
+    This trait does not in any way modify your character's size. While they may be slightly larger than a standard Tajaran, thaven are naturally flexible.
 
 trait-name-TemperatureTolerance = Temperature Tolerance
 trait-description-TemperatureTolerance =
