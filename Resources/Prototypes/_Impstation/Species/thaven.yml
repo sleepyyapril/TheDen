@@ -12,12 +12,13 @@
   femaleFirstNames: NamesThaven
   naming: First
   customName: true
-  minHeight: 0.85 # Displays as 4'11", but thaven have ~+4" due to body shape, so they'll actually look 5'3" (they should still have access to the Small trait though!!)
+  averageHeight: 188 # Thaven sprites are roughly 4" taller than standard humanoid sprites, this makes their height values display accurately
+  minHeight: 0.85 # 5'3" (160cm)
   # defaultHeight: 0.9 TheDen - Disabled due to EE bug, this is currently broken for any value other than 1
-  maxHeight: 1.225 # Displays as 7'1", but thaven have ~+4" due to body shape, so they'll actually look 7'5"
-  minWidth: 0.65
+  maxHeight: 1.217 # 7'6" (229cm)
+  minWidth: 0.75 # 11" (30cm)
   # defaultWidth: 0.9 TheDen - Disabled due to EE bug, this is currently broken for any value other than 1
-  maxWidth: 1.225
+  maxWidth: 1.225 # 19" (49cm)
 
 - type: speciesBaseSprites
   id: MobThavenSprites
