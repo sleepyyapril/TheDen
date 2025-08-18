@@ -10287,3 +10287,10 @@ Entries:
   id: 1000
   time: '2025-08-18T03:38:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1477
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Repair focused loadout for the ERT engineer.
+  id: 1001
+  time: '2025-08-18T03:44:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1478
