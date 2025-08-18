@@ -1,4 +1,5 @@
 ﻿using Content.Shared.Actions;
+using Content.Shared.Chat;
 using Content.Shared.Chat.Prototypes;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
@@ -9,6 +10,8 @@ public sealed partial class VoidApplauseSpellEvent : EntityTargetActionEvent, IS
 {
     [DataField]
     public string? Speech { get; private set; }
+
+    public InGameICChatType ChatType { get; } = InGameICChatType.Speak;
 
     /// <summary>
     ///     Emote to use.
