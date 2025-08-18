@@ -10294,3 +10294,10 @@ Entries:
   id: 1001
   time: '2025-08-18T03:44:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1478
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: suit sensors should be able to turn on again
+  id: 1002
+  time: '2025-08-18T03:44:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1472
