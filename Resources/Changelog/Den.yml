@@ -10390,3 +10390,37 @@ Entries:
   id: 1010
   time: '2025-08-18T04:22:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1471
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: You can colon three in subtle OOC now.
+  id: 1011
+  time: '2025-08-18T20:21:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1482
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added a new single clap emote! Claps once, claps (possessive pronoun)
+        hands together, or clap are all valid ways to trigger this emote!
+  id: 1012
+  time: '2025-08-18T20:22:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1484
+- author: BarryNorfolk
+  changes:
+    - type: Add
+      message: >-
+        Added a history tab to the bounty computer, showing all past completed
+        and skipped orders (and who skipped them).
+  id: 1013
+  time: '2025-08-18T20:27:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1483
+- author: Eightballll
+  changes:
+    - type: Add
+      message: Added Kobold hologram!
+    - type: Add
+      message: Added Monkey hologram!
+  id: 1014
+  time: '2025-08-18T20:48:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1485
