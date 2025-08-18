@@ -10406,3 +10406,12 @@ Entries:
   id: 1012
   time: '2025-08-18T20:22:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1484
+- author: BarryNorfolk
+  changes:
+    - type: Add
+      message: >-
+        Added a history tab to the bounty computer, showing all past completed
+        and skipped orders (and who skipped them).
+  id: 1013
+  time: '2025-08-18T20:27:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1483
