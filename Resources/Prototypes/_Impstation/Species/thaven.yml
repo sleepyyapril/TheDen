@@ -14,6 +14,7 @@
   customName: true
   minAge: 18
   youngAge: 80
+  middleAge: 120
   oldAge: 160
   maxAge: 240
   averageHeight: 188 # Thaven sprites are roughly 4" taller than standard humanoid sprites, this makes their height values display accurately
