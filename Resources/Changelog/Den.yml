@@ -10364,3 +10364,10 @@ Entries:
   id: 1007
   time: '2025-08-18T03:49:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1373
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: 'borgs no longer destroy glass shards '
+  id: 1008
+  time: '2025-08-18T03:51:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1440
