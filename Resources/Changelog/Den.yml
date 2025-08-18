@@ -10390,3 +10390,10 @@ Entries:
   id: 1010
   time: '2025-08-18T04:22:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1471
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: You can colon three in subtle OOC now.
+  id: 1011
+  time: '2025-08-18T20:21:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1482
