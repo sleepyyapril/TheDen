@@ -10338,3 +10338,10 @@ Entries:
   id: 1004
   time: '2025-08-18T03:47:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1469
+- author: Tirochora
+  changes:
+    - type: Fix
+      message: Hidden bionic limbs do more than just tell people that you have them.
+  id: 1005
+  time: '2025-08-18T03:48:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1464
