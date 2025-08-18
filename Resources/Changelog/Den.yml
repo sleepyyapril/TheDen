@@ -10355,3 +10355,12 @@ Entries:
   id: 1006
   time: '2025-08-18T03:49:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1455
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Changed the storage bounds and sprites for many melee weapons!
+    - type: Tweak
+      message: Changed how the double katana sheaths store their katanas!
+  id: 1007
+  time: '2025-08-18T03:49:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1373
