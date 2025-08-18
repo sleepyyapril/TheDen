@@ -10415,3 +10415,12 @@ Entries:
   id: 1013
   time: '2025-08-18T20:27:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1483
+- author: Eightballll
+  changes:
+    - type: Add
+      message: Added Kobold hologram!
+    - type: Add
+      message: Added Monkey hologram!
+  id: 1014
+  time: '2025-08-18T20:48:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1485
