@@ -10255,3 +10255,138 @@ Entries:
   id: 997
   time: '2025-08-17T11:25:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1308
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Rotating items is now predicted - The UI won't bounce anymore!
+  id: 998
+  time: '2025-08-18T02:38:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1479
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: >-
+        Subtle OOC will no longer make you act professional as if it was a
+        normal IC channel.
+  id: 999
+  time: '2025-08-18T02:46:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1481
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Tending wounds via surgery will now heal according to the damage of the
+        limb instead of the general damage - No longer will your surgery speed
+        decrease after having healed the general damage!
+    - type: Tweak
+      message: >-
+        Nerfed Surgery Effectiveness on dead patients from 0.2 to 0.1. Get your
+        patient back to life as quickly as possible if you want to be efficient!
+    - type: Tweak
+      message: You can no longer treat wounds on limbs that have no injuries.
+  id: 1000
+  time: '2025-08-18T03:38:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1477
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Repair focused loadout for the ERT engineer.
+  id: 1001
+  time: '2025-08-18T03:44:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1478
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: suit sensors should be able to turn on again
+  id: 1002
+  time: '2025-08-18T03:44:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1472
+- author: Jakumba
+  changes:
+    - type: Remove
+      message: Dragon bleeding immunity
+    - type: Tweak
+      message: Reduced the amount of healing dragons get from devour
+    - type: Tweak
+      message: Rifts now take longer to stabilise 5 => 7 minutes
+    - type: Tweak
+      message: Dragon heat resistance 75 => 50%
+    - type: Tweak
+      message: Dragon heat flat damage reduction 5 => 2
+    - type: Tweak
+      message: Dragon brute flat damage reduction 0 => 2
+    - type: Tweak
+      message: Dragon ichor injected upon Devor 15u => 10u
+    - type: Tweak
+      message: Dragon passive healing per tick 0.34 => 0.3
+    - type: Tweak
+      message: Carp spawned on Rise Carp! 3 => 2
+    - type: Tweak
+      message: Increased Rift healing per tick 3 => 4
+    - type: Tweak
+      message: Increased Fireball cooldown 5 => 15 seconds
+  id: 1003
+  time: '2025-08-18T03:44:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1476
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Chemicals with the EvenHealing attribute to not work on patient's
+        limbs without General Damage. Aloxadone will now finally heal the burned
+        Salvager's limbs.
+  id: 1004
+  time: '2025-08-18T03:47:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1469
+- author: Tirochora
+  changes:
+    - type: Fix
+      message: Hidden bionic limbs do more than just tell people that you have them.
+  id: 1005
+  time: '2025-08-18T03:48:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1464
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        Many generic prosthetic/tattoo/gradient markings are now mirrored on
+        east/west sprites as temporary triage for SS14's lack of east/west
+        layering orders (no more meat feet)
+  id: 1006
+  time: '2025-08-18T03:49:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1455
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Changed the storage bounds and sprites for many melee weapons!
+    - type: Tweak
+      message: Changed how the double katana sheaths store their katanas!
+  id: 1007
+  time: '2025-08-18T03:49:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1373
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: 'borgs no longer destroy glass shards '
+  id: 1008
+  time: '2025-08-18T03:51:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1440
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added dildoes to lewd loadout
+    - type: Tweak
+      message: Changed lewd loadout to allow for multiple items.
+  id: 1009
+  time: '2025-08-18T04:16:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1459
+- author: Tomce795
+  changes:
+    - type: Add
+      message: >-
+        Almost every instrument has been updated to a new soundfont
+        (GeneralUser-GS), unifying all operating systems and massively improving
+        the sound of certain instruments.
+  id: 1010
+  time: '2025-08-18T04:22:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1471
