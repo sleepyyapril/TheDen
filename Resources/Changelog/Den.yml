@@ -10301,3 +10301,30 @@ Entries:
   id: 1002
   time: '2025-08-18T03:44:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1472
+- author: Jakumba
+  changes:
+    - type: Remove
+      message: Dragon bleeding immunity
+    - type: Tweak
+      message: Reduced the amount of healing dragons get from devour
+    - type: Tweak
+      message: Rifts now take longer to stabilise 5 => 7 minutes
+    - type: Tweak
+      message: Dragon heat resistance 75 => 50%
+    - type: Tweak
+      message: Dragon heat flat damage reduction 5 => 2
+    - type: Tweak
+      message: Dragon brute flat damage reduction 0 => 2
+    - type: Tweak
+      message: Dragon ichor injected upon Devor 15u => 10u
+    - type: Tweak
+      message: Dragon passive healing per tick 0.34 => 0.3
+    - type: Tweak
+      message: Carp spawned on Rise Carp! 3 => 2
+    - type: Tweak
+      message: Increased Rift healing per tick 3 => 4
+    - type: Tweak
+      message: Increased Fireball cooldown 5 => 15 seconds
+  id: 1003
+  time: '2025-08-18T03:44:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1476
