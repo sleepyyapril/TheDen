@@ -10255,3 +10255,10 @@ Entries:
   id: 997
   time: '2025-08-17T11:25:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1308
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Rotating items is now predicted - The UI won't bounce anymore!
+  id: 998
+  time: '2025-08-18T02:38:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1479
