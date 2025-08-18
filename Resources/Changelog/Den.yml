@@ -10371,3 +10371,12 @@ Entries:
   id: 1008
   time: '2025-08-18T03:51:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1440
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added dildoes to lewd loadout
+    - type: Tweak
+      message: Changed lewd loadout to allow for multiple items.
+  id: 1009
+  time: '2025-08-18T04:16:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1459
