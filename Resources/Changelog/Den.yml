@@ -10380,3 +10380,13 @@ Entries:
   id: 1009
   time: '2025-08-18T04:16:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1459
+- author: Tomce795
+  changes:
+    - type: Add
+      message: >-
+        Almost every instrument has been updated to a new soundfont
+        (GeneralUser-GS), unifying all operating systems and massively improving
+        the sound of certain instruments.
+  id: 1010
+  time: '2025-08-18T04:22:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1471
