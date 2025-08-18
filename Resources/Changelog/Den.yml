@@ -10328,3 +10328,13 @@ Entries:
   id: 1003
   time: '2025-08-18T03:44:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1476
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Chemicals with the EvenHealing attribute to not work on patient's
+        limbs without General Damage. Aloxadone will now finally heal the burned
+        Salvager's limbs.
+  id: 1004
+  time: '2025-08-18T03:47:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1469
