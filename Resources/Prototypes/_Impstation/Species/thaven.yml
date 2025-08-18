@@ -13,12 +13,13 @@
   naming: First
   customName: true
   averageHeight: 188 # Thaven sprites are roughly 4" taller than standard humanoid sprites, this makes their height values display accurately
+  sizeRatio: 1.15 # Thaven height/weight ratios are a bit more constrained than other species so they don't get too misshapen
   minHeight: 0.85 # 5'3" (160cm)
   # defaultHeight: 0.9 TheDen - Disabled due to EE bug, this is currently broken for any value other than 1
   maxHeight: 1.217 # 7'6" (229cm)
   minWidth: 0.75 # 11" (30cm)
   # defaultWidth: 0.9 TheDen - Disabled due to EE bug, this is currently broken for any value other than 1
-  maxWidth: 1.225 # 19" (49cm)
+  maxWidth: 1.3 # 20" (52cm)
 
 - type: speciesBaseSprites
   id: MobThavenSprites

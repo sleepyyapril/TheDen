@@ -408,13 +408,13 @@
         - StationAi
         - Borg
         - MedicalBorg
-    - !type:CharacterSpeciesRequirement
+    - !type:CharacterSpeciesRequirement # Thaven are naturally flexible
       species:
         - Thaven
     - !type:CharacterHeightRequirement
-      max: 160 # Higher than the other Small because thaven are naturally flexible
+      max: 160 # Looser requirement because thaven minHeight is 5'3" (160cm) but it's a fun trait
     - !type:CharacterWidthRequirement
-      max: 36 # Higher than the other Small because thaven are naturally flexible
+      max: 36 # Looser requirement so thaven don't have to be crackhead skinny to take it, they're already narrow
   functions:
     - !type:TraitAddComponent
       components:
