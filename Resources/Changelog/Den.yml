@@ -10345,3 +10345,13 @@ Entries:
   id: 1005
   time: '2025-08-18T03:48:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1464
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        Many generic prosthetic/tattoo/gradient markings are now mirrored on
+        east/west sprites as temporary triage for SS14's lack of east/west
+        layering orders (no more meat feet)
+  id: 1006
+  time: '2025-08-18T03:49:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1455
