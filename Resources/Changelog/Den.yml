@@ -10507,3 +10507,14 @@ Entries:
   id: 1022
   time: '2025-08-19T17:10:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1498
+- author: Hederadaii
+  changes:
+    - type: Add
+      message: Added 51 new wall pride flags!
+    - type: Tweak
+      message: >-
+        Altered the original trans flag to rotate like the new ones, so it
+        doesn't go or wacky when the perspective is changed.
+  id: 1023
+  time: '2025-08-19T17:12:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1490
