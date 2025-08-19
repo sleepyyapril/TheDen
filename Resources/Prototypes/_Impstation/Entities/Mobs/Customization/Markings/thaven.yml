@@ -2508,7 +2508,6 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   speciesRestriction: [ Thaven ]
-  forcedColoring: true
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/headside.rsi
@@ -2519,7 +2518,6 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   speciesRestriction: [ Thaven ]
-  forcedColoring: true
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/headside.rsi
@@ -2530,7 +2528,6 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   speciesRestriction: [ Thaven ]
-  forcedColoring: true
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/headside.rsi
@@ -2541,7 +2538,6 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   speciesRestriction: [ Thaven ]
-  forcedColoring: true
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/headside.rsi
@@ -2563,7 +2559,6 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   speciesRestriction: [ Thaven ]
-  forcedColoring: true
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/headside.rsi
@@ -2574,20 +2569,10 @@
   bodyPart: HeadSide
   markingCategory: HeadSide
   speciesRestriction: [ Thaven ]
-  forcedColoring: true
   followSkinColor: true
   sprites:
   - sprite: _Impstation/Mobs/Customization/Thaven/headside.rsi
     state: fishears
-
-- type: marking
-  id: ThavenNoEars
-  bodyPart: HeadSide
-  markingCategory: HeadSide
-  speciesRestriction: [ Thaven ]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Thaven/headside.rsi
-    state: noears
 
 # HeadTop
 

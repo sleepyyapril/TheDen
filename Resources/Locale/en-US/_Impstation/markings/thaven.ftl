@@ -639,8 +639,8 @@ marking-SusieNoBangsThaven = Mean Girl
 
 # HeadSide
 
-marking-ThavenEars1 = Small Ears
-marking-ThavenEars1-ears1 = Small Ears
+marking-ThavenEars1 = Default Ears
+marking-ThavenEars1-ears1 = Default Ears
 
 marking-ThavenEars2 = Medium Ears
 marking-ThavenEars2-ears2 = Medium Ears
@@ -661,8 +661,8 @@ marking-ThavenEarsTwinFins-twinfin = Twin Fins
 marking-ThavenFishEars = Finned Ears
 marking-ThavenFishEars-fishears = Finned Ears
 
-marking-ThavenNoEars = Recolorable ears
-marking-ThavenNoEars-noears = For use with head coverings
+marking-ThavenEarsWideEars = Wide Ears
+marking-ThavenEarsWideEars-wideears = Wide Ears
 
 # HeadTop
 

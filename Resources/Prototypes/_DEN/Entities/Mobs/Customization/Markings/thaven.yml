@@ -539,6 +539,16 @@
 
 # HeadSide
 
+- type: marking
+  id: ThavenEarsWideEars
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [ Thaven ]
+  followSkinColor: true
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/headside.rsi
+    state: wideears
+
 # HeadTop
 
 # Tail
