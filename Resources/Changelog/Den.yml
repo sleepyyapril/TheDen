@@ -10443,3 +10443,13 @@ Entries:
   id: 1015
   time: '2025-08-19T10:03:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1487
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: >-
+        Temporarily made translators not drain any power until the issues with
+        them are fixed. They still need a battery with even a minimal charge to
+        turn on, though. Happy yapping!
+  id: 1016
+  time: '2025-08-19T10:04:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1494
