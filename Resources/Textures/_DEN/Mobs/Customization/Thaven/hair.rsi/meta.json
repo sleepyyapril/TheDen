@@ -62,6 +62,10 @@
         {
             "name": "vlongfringe_f",
             "directions": 4
+        },
+        {
+            "name": "oxton_flipped",
+            "directions": 4
         }
     ]
 }

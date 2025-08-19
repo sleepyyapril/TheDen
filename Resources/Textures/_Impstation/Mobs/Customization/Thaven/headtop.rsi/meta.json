@@ -1,18 +1,34 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "piercings sprited by Widgetbeck for Impstation, hibiscus by Faeling",
+    "copyright": "piercings sprited by Widgetbeck for Impstation and modified by Sha-Seng (GitHub), hibiscus by Faeling",
     "size": {
         "x": 32,
         "y": 32
     },
     "states": [
         {
-            "name": "piercings",
+            "name": "piercings1L",
             "directions": 4
         },
         {
-            "name": "piercings2",
+            "name": "piercings1R",
+            "directions": 4
+        },
+        {
+            "name": "piercings2L",
+            "directions": 4
+        },
+        {
+            "name": "piercings2R",
+            "directions": 4
+        },
+        {
+            "name": "piercings3L",
+            "directions": 4
+        },
+        {
+            "name": "piercings3R",
             "directions": 4
         },
         {

@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "copyright": "slimchest by Sha-Seng (github), tat1 by widgetbeck, rest by crocodilecarousel (github), all modified for females by Sha-Seng (github)",
+    "copyright": "slimchest and hipscales by Sha-Seng (github), tat1 by widgetbeck, rest by crocodilecarousel (github), all modified for females by Sha-Seng (github)",
     "license": "CC-BY-SA-4.0",
     "size": {
         "x": 32,
@@ -49,6 +49,10 @@
         },
         {
             "name": "tiger2_f",
+            "directions": 4
+        },
+        {
+            "name": "hipscales",
             "directions": 4
         }
     ]

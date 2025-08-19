@@ -108,6 +108,15 @@
   - sprite: _DEN/Mobs/Customization/Thaven/chest.rsi
     state: tiger2_f
 
+- type: marking
+  id: ThavenHipScales
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [ Thaven ]
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/chest.rsi
+    state: hipscales
+
 # Head
 
 # Snout
@@ -537,6 +546,15 @@
   - sprite: _DEN/Mobs/Customization/Thaven/hair.rsi
     state: vlongfringe_f
 
+- type: marking
+  id: ThavenHairOxtonFlipped
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Thaven ]
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/hair.rsi
+    state: oxton_flipped
+
 # HeadSide
 
 - type: marking
@@ -548,6 +566,16 @@
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/headside.rsi
     state: wideears
+
+- type: marking
+  id: ThavenEarsTallEars
+  bodyPart: HeadSide
+  markingCategory: HeadSide
+  speciesRestriction: [ Thaven ]
+  followSkinColor: true
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/headside.rsi
+    state: tallears
 
 # HeadTop
 
@@ -802,3 +830,49 @@
   sprites:
   - sprite: _DEN/Mobs/Customization/Thaven/piercings.rsi
     state: ringmale
+
+# Genitals - Many other humanoids are hanging brain, it's fine
+
+- type: marking
+  id: GenitalsThavenCock
+  bodyPart: Chest
+  markingCategory: Genitals
+  speciesRestriction: [ Thaven ]
+  forcedColoring: true
+  followSkinColor: true
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/genitals.rsi
+    state: cock
+
+- type: marking
+  id: GenitalsThavenBigCock
+  bodyPart: Chest
+  markingCategory: Genitals
+  speciesRestriction: [ Thaven ]
+  forcedColoring: true
+  followSkinColor: true
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/genitals.rsi
+    state: bigcock
+
+- type: marking
+  id: GenitalsThavenPussy
+  bodyPart: Chest
+  markingCategory: Genitals
+  speciesRestriction: [ Thaven ]
+  forcedColoring: true
+  followSkinColor: true
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/genitals.rsi
+    state: pussy
+
+- type: marking
+  id: GenitalsThavenButt
+  bodyPart: Chest
+  markingCategory: Genitals
+  speciesRestriction: [ Thaven ]
+  forcedColoring: true
+  followSkinColor: true
+  sprites:
+  - sprite: _DEN/Mobs/Customization/Thaven/genitals.rsi
+    state: bubblebutt

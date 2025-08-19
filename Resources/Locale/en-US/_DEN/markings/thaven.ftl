@@ -31,6 +31,9 @@ marking-ThavenTigerF = Tiger Stripes
 marking-ThavenTigerF-tiger1_f = Tiger Belly
 marking-ThavenTigerF-tiger2_f = Tiger Stripes
 
+marking-ThavenHipScales = Hip Scales
+marking-ThavenHipScales-hipscales = Scales
+
 # Head
 
 # Snout
@@ -150,7 +153,15 @@ marking-ThavenHairVlongF = Very Long Hair
 
 marking-ThavenHairVlongfringeF = Very Long with Fringe
 
+marking-ThavenHairOxtonFlipped = Oxton (Flipped)
+
 # HeadSide
+
+marking-ThavenEarsWideEars = Outie Ears
+marking-ThavenEarsWideEars-wideears = Outie Ears
+
+marking-ThavenEarsTallEars = Uppie Ears
+marking-ThavenEarsTallEars-tallears = Uppie Ears
 
 # HeadTop
 
@@ -216,3 +227,17 @@ marking-PiercingRingsT-ring = Piercing
 
 marking-PiercingRingsMaleT = Nipple Piercing (Rings, Slim Chest)
 marking-PiercingRingsMaleT-ringmale = Piercing
+
+# Genitals
+
+marking-GenitalsThavenCock = Cock
+marking-GenitalsThavenCock-cock = Cock
+
+marking-GenitalsThavenBigCock = Cock (Big)
+marking-GenitalsThavenBigCock-bigcock = Cock
+
+marking-GenitalsThavenPussy = Pussy
+marking-GenitalsThavenPussy-pussy = Pussy
+
+marking-GenitalsThavenButt = Bubble Butt
+marking-GenitalsThavenButt-bubblebutt = Butt

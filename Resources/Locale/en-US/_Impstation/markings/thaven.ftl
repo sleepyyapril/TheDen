@@ -661,20 +661,29 @@ marking-ThavenEarsTwinFins-twinfin = Twin Fins
 marking-ThavenFishEars = Finned Ears
 marking-ThavenFishEars-fishears = Finned Ears
 
-marking-ThavenEarsWideEars = Wide Ears
-marking-ThavenEarsWideEars-wideears = Wide Ears
-
 # HeadTop
 
 marking-ThavenHibiscus = Hibiscus
 marking-ThavenHibiscus-hibiscus1 = Petals
 marking-ThavenHibiscus-hibiscus2 = Anthers
 
-marking-ThavenPiercings =  Helix Piercing
-marking-ThavenPiercings-piercings = Helix Piercing
+marking-ThavenPiercings1L = Earring, Drop (Left)
+marking-ThavenPiercings1L-piercings1L = Drop Earring
 
-marking-ThavenPiercings2 = Hoop Piercing
-marking-ThavenPiercings2-piercings2 = Hoop Piercing
+marking-ThavenPiercings1R = Earring, Drop (Right)
+marking-ThavenPiercings1R-piercings1R = Drop Earring
+
+marking-ThavenPiercings2L = Earring, Helix (Left)
+marking-ThavenPiercings2L-piercings2L = Helix Earring
+
+marking-ThavenPiercings2R = Earring, Helix (Right)
+marking-ThavenPiercings2R-piercings2R = Helix Earring
+
+marking-ThavenPiercings3L = Earring, Stud (Left)
+marking-ThavenPiercings3L-piercings3L = Stud Earring
+
+marking-ThavenPiercings3R = Earring, Stud (Right)
+marking-ThavenPiercings3R-piercings3R = Stud Earring
 
 # Tail
 
