@@ -10424,3 +10424,22 @@ Entries:
   id: 1014
   time: '2025-08-18T20:48:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1485
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: Characters aged 18-24 are now "young adult"
+    - type: Tweak
+      message: Characters aged 25-39 are now "adult"
+    - type: Tweak
+      message: Characters aged 40-54 are now "middle-aged"
+    - type: Tweak
+      message: Characters aged 55-69 are now "older" and "elderly" beyond that
+    - type: Tweak
+      message: Characters aged 250+ years are "ancient" (currently only IPCs)
+    - type: Tweak
+      message: >-
+        Arachne, plasmamen, shadowkin, and IPCs have their species-specific age
+        ranges on their guidebook pages
+  id: 1015
+  time: '2025-08-19T10:03:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1487
