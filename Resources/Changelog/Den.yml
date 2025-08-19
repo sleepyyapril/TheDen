@@ -10469,3 +10469,18 @@ Entries:
   id: 1018
   time: '2025-08-19T10:06:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1491
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Shadowkins not getting proper psionic powers and being stuck with
+        basic ones.
+    - type: Tweak
+      message: Shadowkins now get a free psionic roundstart like everyone else.
+    - type: Tweak
+      message: >-
+        Increased Shadowkin's potentia modifier to the level of a kitsune. They
+        cannot take the high potentia trait anymore.
+  id: 1019
+  time: '2025-08-19T10:08:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1495
