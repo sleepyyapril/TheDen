@@ -10527,3 +10527,14 @@ Entries:
   id: 1024
   time: '2025-08-19T17:12:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1486
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: >-
+        moved chat highlighting to general settings under the accessibility
+        section
+    - type: Remove
+      message: '''extra'' tab in options'
+  id: 1025
+  time: '2025-08-19T17:13:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1473
