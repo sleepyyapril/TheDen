@@ -10538,3 +10538,18 @@ Entries:
   id: 1025
   time: '2025-08-19T17:13:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1473
+- author: Eightballll
+  changes:
+    - type: Add
+      message: pAIs can now emote like borgs! Beep, boop, chime and more!
+    - type: Add
+      message: >-
+        pAIs now get access to a software catalogue, to pick any programs they
+        may wish to use.
+    - type: Add
+      message: >-
+        Golden PAI was added! It's worth more than you could make in a lifetime.
+        It's found in maint lockers and fishing!
+  id: 1026
+  time: '2025-08-19T17:16:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1488
