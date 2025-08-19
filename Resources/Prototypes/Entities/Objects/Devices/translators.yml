@@ -65,11 +65,11 @@
   parent: [ PowerCellSlotMediumItem, TranslatorPoweredBase ]
   suffix: Powered
 
-# Normal translator with a high power cell and special appearance
+# Normal translator with a special appearance
 - type: entity
   categories: [ HideSpawnMenu ]
   id: TranslatorForeigner
-  parent: [ PowerCellMedium, TranslatorPoweredBase ]
+  parent: [ PowerCellSlotMediumItem, TranslatorPoweredBase ]
   name: foreigner's translator
   description: A special-issue translator that helps foreigner's speak and understand this station's primary language.
 
