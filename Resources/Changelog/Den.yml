@@ -10460,3 +10460,12 @@ Entries:
   id: 1017
   time: '2025-08-19T10:05:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1489
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        Widened the language menu a little so TCB-SL stops running off the side
+        (you can still shrink it if you want though)
+  id: 1018
+  time: '2025-08-19T10:06:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1491
