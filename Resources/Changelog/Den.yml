@@ -10453,3 +10453,10 @@ Entries:
   id: 1016
   time: '2025-08-19T10:04:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1494
+- author: RosySaturniidae
+  changes:
+    - type: Fix
+      message: philterex shouldn't kill you now
+  id: 1017
+  time: '2025-08-19T10:05:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1489
