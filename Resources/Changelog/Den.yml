@@ -10518,3 +10518,12 @@ Entries:
   id: 1023
   time: '2025-08-19T17:12:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1490
+- author: Eightballll
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the Tuxedo Sunset's taste to something more fitting it's
+        inspiration.
+  id: 1024
+  time: '2025-08-19T17:12:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1486
