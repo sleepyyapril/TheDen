@@ -10553,3 +10553,16 @@ Entries:
   id: 1026
   time: '2025-08-19T17:16:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1488
+- author: ShepardToTheStars
+  changes:
+    - type: Fix
+      message: Fixed Hellshifts not happening on High Danger. Lets. Get. Dangerous.
+    - type: Tweak
+      message: 'Whiskey. Echo. Whiskey. Roundstart traitors now happen on High Danger. '
+    - type: Tweak
+      message: >-
+        Increased max number of sleepers up to a maximum of 5, depending on
+        number of people playing.
+  id: 1027
+  time: '2025-08-19T21:53:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1500
