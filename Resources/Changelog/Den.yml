@@ -10566,3 +10566,10 @@ Entries:
   id: 1027
   time: '2025-08-19T21:53:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1500
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Rodentia now have a thump emote. *thumps.
+  id: 1028
+  time: '2025-08-19T22:29:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1504
