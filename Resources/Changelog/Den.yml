@@ -10484,3 +10484,12 @@ Entries:
   id: 1019
   time: '2025-08-19T10:08:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1495
+- author: SirWarock
+  changes:
+    - type: Add
+      message: >-
+        Added Jetinjector - Trust me, you'll want these and never look back at
+        the normal Syringes.
+  id: 1020
+  time: '2025-08-19T12:55:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1445
