@@ -10605,3 +10605,12 @@ Entries:
   id: 1032
   time: '2025-08-20T04:50:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1506
+- author: SirWarock
+  changes:
+    - type: Add
+      message: Added a radio and ID slot to Laika!
+    - type: Add
+      message: Added a radio, ID and pocket slot to Shiva and Silvia!
+  id: 1033
+  time: '2025-08-20T04:53:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1503
