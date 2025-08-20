@@ -10598,3 +10598,10 @@ Entries:
   id: 1031
   time: '2025-08-20T04:50:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1507
+- author: Sha-Seng
+  changes:
+    - type: Add
+      message: Sentimental Collar (colorable) as a general item in loadout (not neck!)
+  id: 1032
+  time: '2025-08-20T04:50:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1506
