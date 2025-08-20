@@ -10582,3 +10582,12 @@ Entries:
   id: 1029
   time: '2025-08-19T23:30:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1502
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: Updated Hallway between Logi/Med + Updated NTR room
+    - type: Fix
+      message: Minor Bugs & Errors
+  id: 1030
+  time: '2025-08-20T02:27:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1475
