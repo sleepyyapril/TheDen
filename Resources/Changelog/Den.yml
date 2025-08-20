@@ -10642,3 +10642,12 @@ Entries:
   id: 1036
   time: '2025-08-20T07:37:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1510
+- author: DeltaV
+  changes:
+    - type: Add
+      message: >-
+        Station AI can now choose from a selection of programs roundstart to
+        expand its abilities
+  id: 1037
+  time: '2025-08-20T21:26:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1497
