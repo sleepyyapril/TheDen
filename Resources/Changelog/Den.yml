@@ -10591,3 +10591,10 @@ Entries:
   id: 1030
   time: '2025-08-20T02:27:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1475
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added 3 new options for vulpkanin chest fluff and 2 for back fluff
+  id: 1031
+  time: '2025-08-20T04:50:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1507
