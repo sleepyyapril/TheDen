@@ -10732,3 +10732,51 @@ Entries:
   id: 1046
   time: '2025-08-21T12:53:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1527
+- author: Sha-Seng
+  changes:
+    - type: Add
+      message: >-
+        New thaven species, ported from Impstation alongside various tweaks from
+        Delta-V. Please check the guidebook entry (and this PR, and their lore
+        thread) for more details!
+    - type: Add
+      message: >-
+        Den-specific thaven additions: thaven have been given sexual dimorphism
+        (alongside a Slim Chest marking), a few other new markings, and new
+        organs. Check out their glowing tails!
+    - type: Tweak
+      message: >-
+        Thaven have a variety of tweaks specific to The Den. A non-comprehensive
+        list: mood emagging requires consent, their psychedelic blood is clearly
+        labeled as such, they deal shock damage instead of stamina damage, moods
+        are moved to an opt-in 0-cost trait, many hairstyles have been given
+        thaven-specific variants.
+    - type: Add
+      message: >-
+        New "Aural" language. Thaven, carps, and dragons can understand it by
+        default, and any species can take its associated trait.
+    - type: Add
+      message: >-
+        Admins have new trick verbs to give cyborgs and non-thaven characters
+        moods, similar to the "Thaven Moods" trait.
+    - type: Add
+      message: >-
+        Two new drinks - Bad (from thaven culture), and Fever Dream (from thaven
+        blood).
+    - type: Add
+      message: >-
+        Two new plushies - thaven plushie (loadouts, prize counter) and normal
+        thaven plushie (prize counter).
+    - type: Tweak
+      message: >-
+        Tails will now layer above hair for all species, for especially long
+        hairstyles or especially vertical tails.
+    - type: Tweak
+      message: >-
+        Carps, sharkminnows, and dragons have been given a new psychedelic blood
+        type to match thaven blood, as well as new organs.
+    - type: Tweak
+      message: The above creatures have a fishier typing indicator, like thaven.
+  id: 1047
+  time: '2025-08-21T13:07:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1284
