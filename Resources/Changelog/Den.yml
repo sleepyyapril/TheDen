@@ -10702,3 +10702,10 @@ Entries:
   id: 1042
   time: '2025-08-21T08:36:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1520
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Rodentia can growl now, grrrrr
+  id: 1043
+  time: '2025-08-21T08:36:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1515
