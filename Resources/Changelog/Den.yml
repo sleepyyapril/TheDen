@@ -10686,3 +10686,12 @@ Entries:
   id: 1040
   time: '2025-08-21T07:39:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1518
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: >-
+        The Bottle'o'Cum to the Lewd list, although only accessible to
+        Bartenders.
+  id: 1041
+  time: '2025-08-21T08:36:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1522
