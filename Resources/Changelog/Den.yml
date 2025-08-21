@@ -10796,3 +10796,12 @@ Entries:
   id: 1049
   time: '2025-08-21T21:41:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1530
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Advanced Operating Tables not properly showing their modes to
+        other clients!
+  id: 1050
+  time: '2025-08-21T22:29:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1526
