@@ -30,6 +30,9 @@
   access:
   - CentralCommand
   - Magistrate
+  - ChiefJustice
+  - Prosecutor
+  - Clerk
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -40,7 +43,7 @@
   - !type:ModifyEnvirosuitSpecial
     charges: 8
   - !type:ModifyEnvirohelmSpecial
-    powerCell: PowerCellHigh
+    powerCell: PowerCellMedium
 
 - type: startingGear
   id: MagistrateGear
