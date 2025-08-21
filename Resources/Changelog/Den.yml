@@ -10695,3 +10695,10 @@ Entries:
   id: 1041
   time: '2025-08-21T08:36:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1522
+- author: TheLuggage05
+  changes:
+    - type: Fix
+      message: Borg medHUD should work now.
+  id: 1042
+  time: '2025-08-21T08:36:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1520
