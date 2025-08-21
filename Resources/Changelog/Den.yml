@@ -10665,3 +10665,24 @@ Entries:
   id: 1039
   time: '2025-08-21T05:42:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1521
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Laika's wideswing attack now deals 70% less damage, so she doesn't
+        accidentally kill the person who she's trying to help in an arrest!
+    - type: Tweak
+      message: >-
+        Laika's attacks now deal 25 stamina per hit. and her click attack now
+        deals an extra 5 piercing! BIG DOG!
+    - type: Tweak
+      message: Laika's fur now protects her from cold weather!
+    - type: Tweak
+      message: 'Laika is a bit quicker now c:'
+    - type: Tweak
+      message: >-
+        Silvia now recovers Omnizine a ~33% quicker than normal. (Yes, her bite
+        doesn't always inject Omnizine, it recharges)
+  id: 1040
+  time: '2025-08-21T07:39:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1518
