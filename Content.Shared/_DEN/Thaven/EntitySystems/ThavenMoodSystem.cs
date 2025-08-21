@@ -28,13 +28,19 @@ public abstract partial class SharedThavenMoodSystem
         if (user == ent.Owner)
             return;
 
+        // Thaven must be consenting!
+        if (!Consent.HasConsent(ent.Owner, EmagConsentToggle))
+        {
+            Popup.PopupClient(Loc.GetString("emag-thaven-no-consent"), user, user, PopupType.MediumCaution);
+            args.Handled = true;
+            return;
+        }
+
         // Thaven must be Not Awake
         if (!HasComp<SleepingComponent>(ent) && !_mobState.IsIncapacitated(ent))
         {
             Popup.PopupClient(Loc.GetString("emag-thaven-alive"), user, user, PopupType.MediumCaution);
             args.Handled = true;
         }
-
-        // NOTE: Consent is handled on the server-side.
     }
 }

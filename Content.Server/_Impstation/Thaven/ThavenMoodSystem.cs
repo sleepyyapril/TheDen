@@ -38,7 +38,6 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
     [Dependency] private readonly UserInterfaceSystem _bui = default!;
     [Dependency] private readonly IChatManager _chatManager = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
-    [Dependency] private readonly EmagSystem _emag = default!;
 
     public IReadOnlyList<ThavenMood> SharedMoods => _sharedMoods.AsReadOnly();
     private readonly List<ThavenMood> _sharedMoods = new();
@@ -399,25 +398,6 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
             return;
 
         AddWildcardMood(ent);
-    }
-
-    protected override void OnAttemptEmag(Entity<ThavenMoodsComponent> ent, ref OnAttemptEmagEvent args)
-    {
-        base.OnAttemptEmag(ent, ref args);
-        if (args.Handled)
-            return;
-
-        // Always allowed
-        var user = args.UserUid;
-        if (user == ent.Owner)
-            return;
-
-        // Thaven must be consenting!
-        if (!Consent.HasConsent(ent.Owner, EmagConsentToggle))
-        {
-            Popup.PopupClient(Loc.GetString("emag-thaven-no-consent"), user, user, PopupType.MediumCaution);
-            args.Handled = true;
-        }
     }
 
     public void OnIonStorm(Entity<ThavenMoodsComponent> ent)
