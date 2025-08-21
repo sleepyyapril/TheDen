@@ -59,7 +59,7 @@
       points: 1
       required: false
     Tail:
-      points: 1
+      points: 2 # DEN - 2 points
       required: false
     Head:
       points: 4

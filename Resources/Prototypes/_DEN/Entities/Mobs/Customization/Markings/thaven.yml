@@ -609,7 +609,7 @@
 - type: marking
   id: ThavenTailAnglerOverlay
   bodyPart: Tail
-  markingCategory: Overlay
+  markingCategory: Tail
   speciesRestriction: [ Thaven ]
   coloring:
     default:

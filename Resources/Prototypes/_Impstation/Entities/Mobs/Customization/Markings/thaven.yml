@@ -2725,7 +2725,7 @@
 - type: marking
   id: ThavenTailEelOverlay
   bodyPart: Tail
-  markingCategory: Overlay
+  markingCategory: Tail
   speciesRestriction: [ Thaven ]
   coloring:
     default:
