@@ -10658,3 +10658,10 @@ Entries:
   id: 1038
   time: '2025-08-21T02:20:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1519
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added the service banner for mappers to use on their maps!
+  id: 1039
+  time: '2025-08-21T05:42:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1521
