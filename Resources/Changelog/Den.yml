@@ -10725,3 +10725,10 @@ Entries:
   id: 1045
   time: '2025-08-21T09:02:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1523
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Admins can now see your Central Command faxes from discord.
+  id: 1046
+  time: '2025-08-21T12:53:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1527
