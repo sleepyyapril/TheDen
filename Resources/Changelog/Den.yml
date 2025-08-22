@@ -10812,3 +10812,12 @@ Entries:
   id: 1051
   time: '2025-08-22T10:43:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1501
+- author: RosySaturniidae
+  changes:
+    - type: Add
+      message: new job icons for dignitary and centcomm roles
+    - type: Add
+      message: magistrates now actually have IDs
+  id: 1052
+  time: '2025-08-22T10:45:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1496
