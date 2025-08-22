@@ -10836,3 +10836,14 @@ Entries:
   id: 1053
   time: '2025-08-22T17:27:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1536
+- author: Shaman
+  changes:
+    - type: Add
+      message: Gloomy hairstyles for thaven
+    - type: Add
+      message: >-
+        A thaven-specific Lightweight Bomber sprite so you can color it on them
+        without it breaking
+  id: 1054
+  time: '2025-08-22T17:47:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1534
