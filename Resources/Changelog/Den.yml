@@ -10821,3 +10821,18 @@ Entries:
   id: 1052
   time: '2025-08-22T10:45:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1496
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: Added a pixel to thaven shoulders to make them more shaped like people
+    - type: Add
+      message: >-
+        Thaven doll joint, prosthetic, and twisting scar markings (re-add
+        yours!)
+    - type: Tweak
+      message: >-
+        ALL thaven markings (including scars) are now grayscale for easy
+        coloring
+  id: 1053
+  time: '2025-08-22T17:27:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1536
