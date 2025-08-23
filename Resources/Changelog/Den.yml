@@ -10897,3 +10897,19 @@ Entries:
   id: 1060
   time: '2025-08-23T06:27:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1355
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        I tortured myself for an entire night so thaven can wear colorable
+        clothes without their shoulders sticking out (if you find anything very
+        wrong please report it in the bug thread)
+    - type: Tweak
+      message: Removed some spare pixels from the folded explorer coat sprite
+    - type: Tweak
+      message: Improved turtleneck half blouse a bit
+    - type: Tweak
+      message: Improved thaven hand displacements a bit
+  id: 1061
+  time: '2025-08-23T07:48:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1546
