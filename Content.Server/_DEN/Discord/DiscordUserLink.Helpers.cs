@@ -73,7 +73,7 @@ public sealed partial class DiscordUserLink
         if (guildUser == null)
             return null;
 
-        for (var i = _staffRoleIds.Length - 1; i >= 0; i--)
+        for (var i = 0; i < _staffRoleIds.Length; i++)
         {
             if (guildUser.RoleIds.Contains(_staffRoleIds[i]))
                 return i + 1;
