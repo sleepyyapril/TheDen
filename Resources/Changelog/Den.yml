@@ -10913,3 +10913,12 @@ Entries:
   id: 1061
   time: '2025-08-23T07:48:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1546
+- author: ZigTag
+  changes:
+    - type: Tweak
+      message: updated to robust toolkit v266.0.0
+    - type: Tweak
+      message: HSV is now default over RGB in all color pickers
+  id: 1062
+  time: '2025-08-23T08:01:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1470
