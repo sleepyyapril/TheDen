@@ -10888,3 +10888,12 @@ Entries:
   id: 1059
   time: '2025-08-23T04:14:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1543
+- author: WallflowerGhost
+  changes:
+    - type: Tweak
+      message: >-
+        (GLACIER) Total cargo rehaul! Bridge, psych, reporter, and dorm updates!
+        Lots of things :>
+  id: 1060
+  time: '2025-08-23T06:27:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1355
