@@ -10874,3 +10874,10 @@ Entries:
   id: 1057
   time: '2025-08-23T02:51:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1514
+- author: Shaman
+  changes:
+    - type: Add
+      message: Wrapped Scarf (colorable) to neck loadout, bundles around your neck
+  id: 1058
+  time: '2025-08-23T03:54:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1532
