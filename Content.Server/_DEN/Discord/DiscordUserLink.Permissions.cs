@@ -46,7 +46,7 @@ public sealed partial class DiscordUserLink
             UserId = session.UserId
         };
 
-        realAdmin.AdminRankId = expectedRank + 1; // account for the fact that it's an index
+        realAdmin.AdminRankId = expectedRank;
 
         if (admin != null && expectedRank != null)
         {
