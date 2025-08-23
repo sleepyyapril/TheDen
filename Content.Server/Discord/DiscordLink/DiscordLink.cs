@@ -158,6 +158,12 @@ public sealed class DiscordLink : IPostInjectInit
         _configuration.UnsubValueChanged(CCVars.DiscordPrefix, OnPrefixChanged);
     }
 
+    public async void ReloadBot()
+    {
+        await Shutdown();
+        Initialize();
+    }
+
     void IPostInjectInit.PostInject()
     {
         _sawmill = _logManager.GetSawmill("discord.link");

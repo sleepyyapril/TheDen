@@ -1,6 +1,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Content.Server.Administration;
+using Content.Server.Discord.DiscordLink;
 using Content.Shared.Administration;
 using Robust.Shared.Console;
 using Robust.Shared.Enums;
@@ -61,5 +62,19 @@ public sealed class VerifyCommand : IConsoleCommand
         var success = discordUserLink.TryGameVerify(shell.Player.UserId, args[0]);
         var successText = success ? string.Empty : " not";
         shell.WriteLine($"Your discord account has{successText} been verified.");
+    }
+}
+
+[AdminCommand(AdminFlags.Host)]
+public sealed class ReloadBot : IConsoleCommand
+{
+    public string Command => "reloadbot";
+    public string Description => "Reloads the discord integration bot.";
+    public string Help => "Usage: reloadbot";
+
+    public void Execute(IConsoleShell shell, string argStr, string[] args)
+    {
+        var discordLink = IoCManager.Resolve<DiscordLink>();
+        discordLink.ReloadBot();
     }
 }
