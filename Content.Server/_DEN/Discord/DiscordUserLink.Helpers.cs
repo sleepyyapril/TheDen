@@ -1,12 +1,7 @@
 using System.Linq;
 using System.Threading.Tasks;
-using Content.Server.Administration;
-using Content.Shared.Administration;
 using NetCord;
-using Robust.Shared.Console;
-using Robust.Shared.Enums;
 using Robust.Shared.Network;
-using Robust.Shared.Player;
 using Robust.Shared.Utility;
 
 
@@ -26,12 +21,12 @@ public sealed partial class DiscordUserLink
 
     private readonly ulong[] _staffRoleIds =
     [
-        1302235169591394305, // Trial Admin
-        1302235145889124383, // Admin
-        1302235089677320245, // Senior Admin
-        1302235039651598386, // Head Admin
+        1392313569390886942, // Owner
         1302235013986910219, // Manager
-        1392313569390886942 // Owner
+        1302235039651598386, // Head Admin
+        1302235089677320245, // Senior Admin
+        1302235145889124383, // Admin
+        1302235169591394305, // Trial Admin
     ];
 
     public bool IsPatron(NetUserId userId)
@@ -81,7 +76,7 @@ public sealed partial class DiscordUserLink
         for (var i = _staffRoleIds.Length - 1; i >= 0; i--)
         {
             if (guildUser.RoleIds.Contains(_staffRoleIds[i]))
-                return i;
+                return i + 1;
         }
 
         return null;

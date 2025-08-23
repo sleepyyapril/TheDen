@@ -6,7 +6,9 @@ using Content.Server.Discord.DiscordLink;
 using Content.Server.GameTicking;
 using NetCord.Gateway;
 using Robust.Server.Player;
+using Robust.Shared.Enums;
 using Robust.Shared.Network;
+using Robust.Shared.Player;
 using Robust.Shared.Utility;
 
 
@@ -40,15 +42,12 @@ public sealed partial class DiscordUserLink : EntitySystem
     {
         base.Initialize();
         _sawmill = _log.GetSawmill("userlink");
-        SubscribeLocalEvent<PlayerJoinedLobbyEvent>(OnPlayerJoined);
 
         _playerManager.PlayerStatusChanged += OnPlayerStatusChanged;
         _discordLink.RegisterCommandCallback(OnVerifyCommandRun, "verify");
         _discordLink.RegisterCommandCallback(OnUnverifyCommandRun, "unverify");
 
         _combinedApplicableCodeSymbols += Letters.ToUpper();
-
-        InitializeGame();
     }
 
     public override void Shutdown()
@@ -56,6 +55,15 @@ public sealed partial class DiscordUserLink : EntitySystem
         base.Shutdown();
 
         _playerManager.PlayerStatusChanged -= OnPlayerStatusChanged;
+    }
+
+    private async void OnPlayerStatusChanged(object? sender, SessionStatusEventArgs ev)
+    {
+        if (ev.NewStatus != SessionStatus.Connected)
+            return;
+
+        await UpdatePermissionsFromDiscord(ev.Session);
+        await SetupPlayerAsync(ev.Session.UserId);
     }
 
     public bool TryGameVerify(NetUserId userId, string code)
