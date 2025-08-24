@@ -10931,3 +10931,12 @@ Entries:
   id: 1063
   time: '2025-08-24T05:31:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1554
+- author: TheLuggage05
+  changes:
+    - type: Fix
+      message: >-
+        Shadowkin eyes glow now! Make sure to grab the not-glowy marking if you
+        don't want yours to.
+  id: 1064
+  time: '2025-08-24T06:06:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1556
