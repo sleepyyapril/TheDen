@@ -10973,3 +10973,12 @@ Entries:
   id: 1067
   time: '2025-08-24T08:42:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1555
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Heirloom items now have examination text for both the owner and other
+        players.
+  id: 1068
+  time: '2025-08-24T18:20:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1557
