@@ -10940,3 +10940,20 @@ Entries:
   id: 1064
   time: '2025-08-24T06:06:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1556
+- author: SubspaceEmber
+  changes:
+    - type: Tweak
+      message: Resprited nearly every door in the game.
+    - type: Tweak
+      message: Updated construction menu and RCD wheel sprites to match new airlocks.
+    - type: Tweak
+      message: Spraypainter has all the new doors.
+    - type: Tweak
+      message: Holofan resprited to match new firelocks.
+    - type: Add
+      message: >-
+        Added new doors, armory, corpsman, kitchen, bar, hydroponics, paramedic,
+        courier, salvage, all department maints, and all department heads.
+  id: 1065
+  time: '2025-08-24T07:22:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1540
