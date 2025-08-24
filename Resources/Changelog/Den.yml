@@ -10964,3 +10964,12 @@ Entries:
   id: 1066
   time: '2025-08-24T07:26:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1550
+- author: maelines
+  changes:
+    - type: Add
+      message: >-
+        Ported "Gloomy" head markings and hair variants (by downcoming artist
+        maelines)
+  id: 1067
+  time: '2025-08-24T08:42:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1555
