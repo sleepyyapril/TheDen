@@ -14,16 +14,6 @@ namespace Content.Server._DEN.Discord;
 
 public sealed partial class DiscordUserLink
 {
-    public void InitializeGame() {}
-
-    private async void OnPlayerStatusChanged(object? sender, SessionStatusEventArgs ev)
-    {
-        if (ev.NewStatus != SessionStatus.Connected)
-            return;
-
-        await SetupPlayerAsync(ev.Session.UserId);
-    }
-
     private async Task SetupPlayerAsync(NetUserId userId)
     {
         var link = await _db.GetDiscordLink(userId);
