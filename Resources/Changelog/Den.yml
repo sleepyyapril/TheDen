@@ -10922,3 +10922,12 @@ Entries:
   id: 1062
   time: '2025-08-23T08:01:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1470
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: New shadowkin sounds - voice blips, laughs and screams
+    - type: Fix
+      message: Moth emotes are now properly gendered
+  id: 1063
+  time: '2025-08-24T05:31:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1554
