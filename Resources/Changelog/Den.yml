@@ -10957,3 +10957,10 @@ Entries:
   id: 1065
   time: '2025-08-24T07:22:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1540
+- author: Oberonics
+  changes:
+    - type: Tweak
+      message: Mute people can now express their fear.
+  id: 1066
+  time: '2025-08-24T07:26:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1550
