@@ -11116,3 +11116,10 @@ Entries:
   id: 1078
   time: '2025-08-25T04:42:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1553
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: Fixed Female Resomi displacements
+  id: 1079
+  time: '2025-08-25T06:54:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1567
