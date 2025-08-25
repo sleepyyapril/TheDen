@@ -11022,3 +11022,10 @@ Entries:
   id: 1072
   time: '2025-08-25T02:47:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1566
+- author: Shaman
+  changes:
+    - type: Add
+      message: CAPTAIN'S* BURDEN lobby art (*kaasi isn't a captain in this sector yet)
+  id: 1073
+  time: '2025-08-25T02:47:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1560
