@@ -11015,3 +11015,10 @@ Entries:
   id: 1071
   time: '2025-08-25T02:38:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1564
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: message queuing when player is occluded
+  id: 1072
+  time: '2025-08-25T02:47:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1566
