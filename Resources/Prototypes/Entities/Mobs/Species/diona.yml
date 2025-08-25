@@ -118,6 +118,15 @@
           - MobMask
         layer:
           - MobLayer
+  - type: Inventory
+    templateId: diona
+    speciesId: diona #imp
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
   - type: Speech
     speechVerb: Plant
     allowedEmotes: ['Chirp']
@@ -138,27 +147,39 @@
     actionPrototype: DionaGibAction
     allowedStates:
     - Dead
-  - type: Inventory
-    templateId: diona
-    femaleDisplacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Human/displacement.rsi
-            state: jumpsuit-female
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - RootSpeak
+    understands:
+    - TauCetiBasic
+    - RootSpeak
+  - type: TraitSpeedModifier
+    sprintModifier: 0.75
+    walkModifier: 0.75
+  - type: SpeedModifierImmunity
+  - type: NoSlip
+  - type: ProtectedFromStepTriggers
+    whitelist:
+      types:
+      - Shard
+  - type: FootPrints
+    leftBarePrint: "footprint-left-bare-diona"
+    rightBarePrint: "footprint-right-bare-diona"
 
 - type: entity
   parent: BaseSpeciesDummy
   id: MobDionaDummy
   categories: [ HideSpawnMenu ]
   components:
-  - type: HumanoidAppearance
-    species: Diona
   - type: Inventory
     templateId: diona
+    speciesId: diona #imp
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
+  - type: HumanoidAppearance
+    species: Diona
