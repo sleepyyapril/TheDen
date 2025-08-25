@@ -11130,3 +11130,10 @@ Entries:
   id: 1080
   time: '2025-08-25T15:50:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1569
+- author: Possumongus
+  changes:
+    - type: Add
+      message: New Atmos firesuit helmets for Feroxi and Vulps
+  id: 1081
+  time: '2025-08-25T15:51:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1517
