@@ -11080,3 +11080,22 @@ Entries:
   id: 1076
   time: '2025-08-25T04:13:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1563
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        Changed thaven tails to use the Floor layering system (THIS WILL WIPE
+        THEIR COLOR DATA SORRY)
+    - type: Remove
+      message: >-
+        Female thaven eel tail (layering removes the need for it) so you'll have
+        to readd it (also sorry)
+    - type: Tweak
+      message: >-
+        Basic, big, and tadpole tails have been raised to properly attach at the
+        butt
+    - type: Tweak
+      message: Swept tail sprite has more shading and contrast now
+  id: 1077
+  time: '2025-08-25T04:28:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1565
