@@ -11099,3 +11099,20 @@ Entries:
   id: 1077
   time: '2025-08-25T04:28:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1565
+- author: Eightballll
+  changes:
+    - type: Add
+      message: Added spaceblades! Let it drip!
+    - type: Remove
+      message: >-
+        Removed contract clause regarding improper use of toys. Use at your own
+        risk.
+    - type: Add
+      message: New SpaceBladeSpawner for the mappers
+    - type: Add
+      message: >-
+        Space Blade mystery box added to loadouts, various random spawns, a
+        cargo crate, and the hacked inventory of a Good Clean Fun
+  id: 1078
+  time: '2025-08-25T04:42:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1553
