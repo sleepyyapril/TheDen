@@ -11137,3 +11137,10 @@ Entries:
   id: 1081
   time: '2025-08-25T15:51:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1517
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: Fixed moths having their own special layering (BAD)
+  id: 1082
+  time: '2025-08-25T23:31:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1571
