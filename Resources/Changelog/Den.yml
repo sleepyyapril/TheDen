@@ -11123,3 +11123,10 @@ Entries:
   id: 1079
   time: '2025-08-25T06:54:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1567
+- author: ShepardToTheStars
+  changes:
+    - type: Tweak
+      message: 'ADMIN: Admin logs now show in ascending order.'
+  id: 1080
+  time: '2025-08-25T15:50:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1569
