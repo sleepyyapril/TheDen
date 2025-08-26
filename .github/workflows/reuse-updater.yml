@@ -10,7 +10,7 @@ concurrency:
   group: reuse_action
   cancel-in-progress: false
 on:
-  pull_request:
+  pull_request_target:
     types: [closed]
     branches:
       - master
