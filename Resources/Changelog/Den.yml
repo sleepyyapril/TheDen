@@ -11144,3 +11144,14 @@ Entries:
   id: 1082
   time: '2025-08-25T23:31:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1571
+- author: Eightballll
+  changes:
+    - type: Fix
+      message: Fixed spaceblades blocking interactions
+    - type: Fix
+      message: Fixed spaceblades dropping on self instead of cursor
+    - type: Fix
+      message: Fixed spaceblade mystery box not being available in loadout
+  id: 1083
+  time: '2025-08-26T01:07:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1570
