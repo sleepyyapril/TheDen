@@ -57,6 +57,6 @@ jobs:
           commit_user_name: ${{ env.CHANGELOG_USER }}
           commit_user_email: ${{ env.CHANGELOG_EMAIL }}
           commit_author: ${{ env.CHANGELOG_USER }} <${{ env.CHANGELOG_EMAIL }}>
+          branch: ${{ vars.CHANGELOG_BRANCH }}
           skip_dirty_check: false
-          skip_fetch: true
 
