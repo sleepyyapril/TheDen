@@ -15,6 +15,11 @@ on:
     branches:
       - master
 
+env:
+  REUSE_MESSAGE: ${{ vars.REUSE_MESSAGE }}
+  CHANGELOG_USER: ${{ vars.CHANGELOG_USER }}
+  CHANGELOG_EMAIL: ${{ vars.CHANGELOG_EMAIL }}
+
 jobs:
   update_headers:
     if: github.event.pull_request.merged == true
@@ -48,10 +53,6 @@ jobs:
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v6
-        env:
-          REUSE_MESSAGE: ${{ vars.REUSE_MESSAGE }}
-          CHANGELOG_USER: ${{ vars.CHANGELOG_USER }}
-          CHANGELOG_EMAIL: ${{ vars.CHANGELOG_EMAIL }}
         with:
           commit_message: ${{ env.REUSE_MESSAGE }}
           commit_user_name: ${{ env.CHANGELOG_USER }}
