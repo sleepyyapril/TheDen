@@ -113,7 +113,7 @@ IGNORED_AUTHORS = {
     "TheDen-Bot",
 }
 
-REPO_PATH = "../../../../.."
+REPO_PATH = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # these start at the repo's path. that is, an empty string here would make literally everything be ignored since the check also includes subdirectories.
 IGNORED_DIRECTORIES: (str,) = (
