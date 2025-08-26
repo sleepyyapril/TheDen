@@ -48,11 +48,15 @@ jobs:
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v6
+        env:
+          REUSE_MESSAGE: ${{ vars.REUSE_MESSAGE }}
+          CHANGELOG_USER: ${{ vars.CHANGELOG_USER }}
+          CHANGELOG_EMAIL: ${{ vars.CHANGELOG_EMAIL }}
         with:
-          commit_message: ${{ vars.REUSE_MESSAGE }}
-          commit_user_name: ${{ vars.CHANGELOG_USER }}
-          commit_user_email: ${{ vars.CHANGELOG_EMAIL }}
-          commit_author: ${{ vars.CHANGELOG_USER }} <${{ vars.CHANGELOG_EMAIL }}>
+          commit_message: ${{ env.REUSE_MESSAGE }}
+          commit_user_name: ${{ env.CHANGELOG_USER }}
+          commit_user_email: ${{ env.CHANGELOG_EMAIL }}
+          commit_author: ${{ env.CHANGELOG_USER }} <${{ env.CHANGELOG_EMAIL }}>
           skip_dirty_check: false
           skip_fetch: true
 
