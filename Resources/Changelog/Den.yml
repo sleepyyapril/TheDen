@@ -11185,3 +11185,10 @@ Entries:
   id: 1087
   time: '2025-08-27T09:18:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1584
+- author: Shaman
+  changes:
+    - type: Add
+      message: Added zappy punch sound effects for thaven melee
+  id: 1088
+  time: '2025-08-27T09:20:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1585
