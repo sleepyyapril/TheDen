@@ -43,5 +43,5 @@ if __name__ == "__main__":
     buffer.seek(0)
     print(buffer.read(), end="")
     main(filepaths, commit_license, max_threads=MAX_WORKERS)
-    print(colout("^"*76, "magenta")) # could be done with shutil but eh who cares
+    print(colout("^"*76, "finished")) # could be done with shutil but eh who cares
     print(colout(f"Finished updating headers based on: {commit}", "magenta"))
