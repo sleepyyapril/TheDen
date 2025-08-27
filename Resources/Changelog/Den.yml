@@ -11203,3 +11203,12 @@ Entries:
   id: 1089
   time: '2025-08-27T09:35:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1589
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Roy's Birthday can now roll for the thaven shared holiday mood (happy
+        birthday!!)
+  id: 1090
+  time: '2025-08-27T09:38:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1588
