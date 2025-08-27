@@ -11155,3 +11155,12 @@ Entries:
   id: 1083
   time: '2025-08-26T01:07:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1570
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the damn Defibrillator Cabinets to finally work properly when
+        trying to be opened or interacted with!
+  id: 1084
+  time: '2025-08-26T15:21:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1582
