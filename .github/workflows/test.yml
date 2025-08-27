@@ -6,31 +6,9 @@ on:
 jobs:
   test-colors:
     runs-on: ubuntu-latest
-    steps:
-      - name: Test
-        run: |
-          python - <<'EOF'
-          ANSI_COLORS = {
-              "black":   "\033[30",
-              "red":     "\033[31",
-              "green":   "\033[32",
-              "yellow":  "\033[33",
-              "blue":    "\033[34",
-              "magenta": "\033[35",
-              "cyan":    "\033[36",
-              "white":   "\033[37",
-              "reset":   "\033[0",
-              "doing":    "\033[36",
-              "command": "\033[34",
-          }
-
-          def colout(text: str, color: str = "white") -> str:
-              esc = "\x1b"
-              return f"{esc}[{ANSI_COLORS[color.lower()]}m{text}{esc}[0m"
-
-          print(colout("This is red text", "red"))
-          print(colout("This is green text", "green"))
-          print(colout("This is yellow text", "yellow"))
-          print(colout("This is cyan text", "cyan"))
-          print(colout("This is bright magenta text", "bright_magenta"))
-          EOF
+    steps: # I AM LOSING MY MIND
+    - name: Test colors
+      run: |
+        echo -e "\033[31mThis is red\033[0m"
+        echo -e "\033[32mThis is green\033[0m"
+        echo -e "\033[33mThis is yellow\033[0m"
