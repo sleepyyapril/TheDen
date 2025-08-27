@@ -11178,3 +11178,10 @@ Entries:
   id: 1086
   time: '2025-08-27T09:17:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1587
+- author: Eightballll
+  changes:
+    - type: Fix
+      message: Spaceblades now collide with each other. Let it drip!
+  id: 1087
+  time: '2025-08-27T09:18:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1584
