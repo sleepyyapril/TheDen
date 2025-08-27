@@ -11171,3 +11171,10 @@ Entries:
   id: 1085
   time: '2025-08-27T06:12:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1586
+- author: Eightballll
+  changes:
+    - type: Add
+      message: Added Th'Drink and Feather Pillow, 2 new alcoholic drinks!
+  id: 1086
+  time: '2025-08-27T09:17:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1587
