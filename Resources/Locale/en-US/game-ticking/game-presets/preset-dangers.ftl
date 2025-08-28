@@ -2,11 +2,11 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-low-danger-title = Low Danger
-low-danger-description = Pick a random gamemode from a weighted list of relatively low danger gamemodes.
+low-danger-title = Lower Risk
+low-danger-description = Pick a random gamemode from a weighted list of gamemodes with a lower chance of danger.
 
-high-danger-title = High Danger
-high-danger-description = Pick a random gamemode from a weighted list of highly dangerous gamemodes.
+high-danger-title = Heightened Risk
+high-danger-description = Pick a random gamemode from a weighted list of gamemodes with a higher chance of danger.
 
 roundstart-antags-title = Roundstart Antags
 roundstart-antags-description = Traitor and thief, but no additional schedule. Admin events encouraged.
