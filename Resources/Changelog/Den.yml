@@ -11237,3 +11237,17 @@ Entries:
   id: 1093
   time: '2025-08-28T06:36:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1594
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Increased the capacity of folders and clipboards to 5x10!
+    - type: Add
+      message: Added Fireproof Folders that will keep your documents safe!
+    - type: Add
+      message: >-
+        Added the Administrative Assistant's Compact Folder - Just as protective
+        as a fireproof one, with a bigger inventory and a holster for your
+        mightiest pen!
+  id: 1094
+  time: '2025-08-28T06:54:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1592
