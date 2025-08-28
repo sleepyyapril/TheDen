@@ -33,7 +33,8 @@ public sealed partial class CharacterRequirementsSystem : SharedCharacterRequire
     public CharacterRequirementContext GetProfileContext(HumanoidCharacterProfile? profile = null,
         bool useCharacter = false)
     {
-        var entity = _player.LocalSession?.AttachedEntity;
+        var player = _player.LocalSession;
+        var entity = player?.AttachedEntity;
         if (profile is null)
         {
             if (useCharacter)
@@ -60,6 +61,7 @@ public sealed partial class CharacterRequirementsSystem : SharedCharacterRequire
             profile: profile,
             playtimes: playtimes,
             whitelisted: whitelisted,
-            entity: entity);
+            entity: entity,
+            player: player);
     }
 }

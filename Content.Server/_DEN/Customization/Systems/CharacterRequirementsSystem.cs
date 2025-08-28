@@ -58,7 +58,8 @@ public sealed partial class CharacterRequirementsSystem : SharedCharacterRequire
         return new CharacterRequirementContext(profile: profile,
             playtimes: playtimes,
             whitelisted: whitelisted,
-            entity: entity);
+            entity: entity,
+            player: player);
     }
 
     /// <summary>
