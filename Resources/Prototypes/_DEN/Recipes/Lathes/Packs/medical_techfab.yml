@@ -1,4 +1,6 @@
 # SPDX-FileCopyrightText: 2025 MajorMoth
+# SPDX-FileCopyrightText: 2025 Sir Warock
+# SPDX-FileCopyrightText: 2025 Tanix
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -59,6 +61,7 @@
   - BaseChemistryEmptyVial
   - WalkingCane # IMP
   - ClothingEyesHudMedical # Nyano
+  - Skimmer # DeltaV
   # DEN start
   - ClothingNeckVetCone
   - CaneAnatomical
@@ -68,6 +71,7 @@
   - DisposableSyringePackaged
   - SyringeDispenserEmpty
   - SyringeDispenserFull
+  - ClothingOuterVestTank
   # DEN end
 
 - type: latheRecipePack
@@ -88,3 +92,7 @@
   - AdvancedRetractor
   - OmnimedTool
   - MedicalCyberneticEyes
+  - ClothingHandsGlovesMechanicalSurgical
+  - OperatingTableAdvancedCircuitboard
+  - RollerBedHoloSpawnFolded # The Den.
+  - JetInjector

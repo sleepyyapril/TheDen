@@ -195,6 +195,7 @@
 # SPDX-FileCopyrightText: 2025 August Sun
 # SPDX-FileCopyrightText: 2025 Aviu00
 # SPDX-FileCopyrightText: 2025 Blitz
+# SPDX-FileCopyrightText: 2025 DESKTOP-0V0K4HQ\Rosy
 # SPDX-FileCopyrightText: 2025 EctoplasmIsGood
 # SPDX-FileCopyrightText: 2025 Falcon
 # SPDX-FileCopyrightText: 2025 Fansana
@@ -210,6 +211,7 @@
 # SPDX-FileCopyrightText: 2025 Sapphire
 # SPDX-FileCopyrightText: 2025 Savante-Sam
 # SPDX-FileCopyrightText: 2025 ScarKy0
+# SPDX-FileCopyrightText: 2025 Sir Warock
 # SPDX-FileCopyrightText: 2025 Skubman
 # SPDX-FileCopyrightText: 2025 Solaris
 # SPDX-FileCopyrightText: 2025 Solstice
@@ -273,6 +275,9 @@
 
 - type: Tag
   id: Ash
+
+- type: Tag # Assmos - Metal Hydrogen
+  id: AtmosFireSuit
 
 - type: Tag
   id: ATVKeys
@@ -663,6 +668,9 @@
   id: Chicken
 
 - type: Tag
+  id: CheapSunglasses
+
+- type: Tag
   id: Cheese
 
 # Allowed to control someone wearing a Chef's hat if inside their hat.
@@ -1033,6 +1041,9 @@
   id: Hardsuit # Prevent melee injectors that can't penetrate hardsuits from injecting the wearer (nettles)
 
 - type: Tag
+  id: HardsuitSpatio
+
+- type: Tag
   id: Haunted
 
 - type: Tag
@@ -1258,6 +1269,9 @@
 
 - type: Tag
   id: Metal
+
+- type: Tag # Assmos - Metal Hydrogen
+  id: MetalHydrogenArmor
 
 - type: Tag
   id: MicroBomb
@@ -1655,6 +1669,9 @@
   id: SuitEVA
 
 - type: Tag
+  id: Sunglasses
+
+- type: Tag
   id: SurgeryTool
 
 - type: Tag
@@ -1852,6 +1869,9 @@
   id: KitsuneEmotes
 
 - type: Tag
+  id: MothEmotes
+
+- type: Tag
   id: Portafib
 
 - type: Tag
@@ -1859,3 +1879,6 @@
 
 - type: Tag
   id: Jaunter
+
+- type: Tag
+  id: Wakizashi

@@ -138,6 +138,7 @@
 # SPDX-FileCopyrightText: 2025 skyr0cket01
 # SPDX-FileCopyrightText: 2025 slarticodefast
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2025 wheelwrightt
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -1980,7 +1981,7 @@
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
-  - type: StepTriggerImmune
+  - type: ProtectedFromStepTriggers
     whitelist:
       types:
       - Landmine
@@ -2671,6 +2672,10 @@
     interfaces:
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
+  - type: NightVision # Den
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
   - type: Fauna # Lavaland Change
 
 - type: entity
@@ -3351,7 +3356,7 @@
       - DoorBumpOpener
   - type: MovementAlwaysTouching
   - type: PressureImmunity
-  - type: StepTriggerImmune
+  - type: ProtectedFromStepTriggers
   - type: Insulated
   - type: InteractionPopup
     successChance: 0.7
@@ -3782,7 +3787,9 @@
   - type: Butcherable
     spawned:
     - id: FoodMeat
-      amount: 6
+      amount: 3
+    - id: FoodMeatBacon # DEN - Pigs give bacon
+      amount: 3
   - type: Grammar
     attributes:
       gender: epicene
