@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 low-danger-title = Lower Risk
 low-danger-description = Pick a random gamemode from a weighted list of gamemodes with a lower chance of danger.
