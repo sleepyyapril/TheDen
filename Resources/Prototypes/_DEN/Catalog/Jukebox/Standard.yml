@@ -1,9 +1,6 @@
-# HEY!! MAKE SURE YOUR FILES AREN'T TOO LOUD (PEAK OF -2.7 dB) AND ARE IN MONO!! THANKS!!
-# IF THEY'RE NOT IN MONO YOU'LL BORK THE POSITIONAL AUDIO SYSTEM AND YOUR SOUNDS WON'T ATTENUATE AT A DISTANCE!
-# SO BE CAREFUL!!
-# ALSO DON'T EVEN THINK ABOUT ASKING FOR A JUKEBOX VOLUME SLIDER
-# FOR SOME REASON THAT SHIT IS ONLY EXPOSED ENGINE SIDE AND YOU MIGHT GO INSANE THINKING ABOUT HOW STUPID THAT IS
-# I LOVE ROBUST TOOLBOX!!
+# SPDX-FileCopyrightText: 2025 Shaman
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
 # TheDen - Songs ported from Imp directly into our filepath here so we can just curate the list ourselves.
 # If we aren't using a song we should probably delete it because then it's taking up a significant amount of filesize for no reason.
