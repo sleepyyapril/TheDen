@@ -5,6 +5,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+using System.Linq;
 using Content.Shared.Audio.Jukebox;
 using Robust.Client.Audio;
 using Robust.Client.UserInterface;
@@ -78,7 +79,8 @@ public sealed class JukeboxBoundUserInterface : BoundUserInterface
 
     public void PopulateMusic()
     {
-        _menu?.Populate(_protoManager.EnumeratePrototypes<JukeboxPrototype>());
+        _menu?.Populate(_protoManager.EnumeratePrototypes<JukeboxPrototype>().OrderBy(x => x.Name).ToList()); // Imp - Order the list alphabeticallY
+        // TODO: THIS DOESN'T WORK ON EE FOR SOME FUCKING REASON??  WE KINDA NEED IT
     }
 
     public void SelectSong(ProtoId<JukeboxPrototype> songid)
