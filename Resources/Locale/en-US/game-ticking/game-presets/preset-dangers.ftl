@@ -7,3 +7,6 @@ low-danger-description = Pick a random gamemode from a weighted list of relative
 
 high-danger-title = High Danger
 high-danger-description = Pick a random gamemode from a weighted list of highly dangerous gamemodes.
+
+roundstart-antags-title = Roundstart Antags
+roundstart-antags-description = Traitor and thief, but no additional schedule. Admin events encouraged.
