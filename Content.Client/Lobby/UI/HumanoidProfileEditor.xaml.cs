@@ -1208,14 +1208,12 @@ namespace Content.Client.Lobby.UI
                     selector.Setup(items, job.LocalizedName, 200, job.LocalizedDescription, icon, job.Guides);
 
                     var hasTitles = _prototypeManager.TryIndex<AlternateJobTitlePrototype>(job.ID, out var alternateJobTitles);
-                    var alternateTitlesButton = new Button()
-                    {
-                        Text = Loc.GetString("humanoid-profile-editor-alternate-job-titles"),
-                        HorizontalExpand = true,
-                        Disabled = !hasTitles || alternateJobTitles == null
-                    };
 
-                    alternateTitlesButton.OnPressed += _ => CreateTitlesWindow(job, alternateJobTitles);
+                    if (hasTitles && alternateJobTitles != null)
+                    {
+                        selector.SetupJobTitleButton(job, alternateJobTitles, false);
+                        selector.OnOpenAlternateJobTitle += (_, _) => CreateTitlesWindow(job, alternateJobTitles);
+                    }
 
                     var requirements = job.Requirements ?? new();
                     var context = _characterRequirementsSystem.GetProfileContext(Profile)
@@ -1267,7 +1265,6 @@ namespace Content.Client.Lobby.UI
 
                     _jobPriorities.Add((job.ID, selector));
                     jobContainer.AddChild(selector);
-                    jobContainer.AddChild(alternateTitlesButton);
                     category.AddChild(jobContainer);
                 }
             }
@@ -1358,6 +1355,14 @@ namespace Content.Client.Lobby.UI
                     icon.Texture = jobIcon.Icon.Frame0();
                     selector.Setup(items, job.LocalizedName, 200, job.LocalizedDescription, icon);
 
+                    var hasTitles = _prototypeManager.TryIndex<AlternateJobTitlePrototype>(job.ID, out var alternateJobTitles);
+
+                    if (hasTitles && alternateJobTitles != null)
+                    {
+                        selector.SetupJobTitleButton(job, alternateJobTitles, false);
+                        selector.OnOpenAlternateJobTitle += (_, _) => CreateTitlesWindow(job, alternateJobTitles);
+                    }
+
                     var requirements = job.Requirements ?? new();
                     var context = _characterRequirementsSystem.GetProfileContext(Profile)
                         .WithSelectedJob(job)
@@ -1429,6 +1434,9 @@ namespace Content.Client.Lobby.UI
             {
                 Title = job.LocalizedName
             };
+
+            _titleSelectionMenu.OnSelectedAlternateTitleChanged += jobTitle => OnAlternateTitleChanged(job, jobTitle);
+            _titleSelectionMenu.OpenCenteredLeft();
         }
 
         /// DeltaV - Make sure that no invalid job priorities get through
@@ -1453,6 +1461,15 @@ namespace Content.Client.Lobby.UI
                 selector.Select((int) JobPriority.Never);
                 Profile = Profile?.WithJobPriority(proto.ID, JobPriority.Never);
             }
+        }
+
+        private void OnAlternateTitleChanged(JobPrototype job, string? newTitle)
+        {
+            if (Profile is null)
+                return;
+
+            Profile?.WithJobTitle(job.ID, newTitle ?? string.Empty );
+            SetDirty();
         }
 
         // Start CD - Character Records
