@@ -11351,3 +11351,12 @@ Entries:
   id: 1106
   time: '2025-09-01T05:36:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1624
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Monkeys can be stripped again
+    - type: Fix
+      message: Scugs have working hands again
+  id: 1107
+  time: '2025-09-01T05:37:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1637
