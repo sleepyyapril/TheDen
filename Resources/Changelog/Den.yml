@@ -11315,3 +11315,10 @@ Entries:
   id: 1102
   time: '2025-09-01T05:33:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1626
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed IPCs sometimes remain standing when dead or out of charge!
+  id: 1103
+  time: '2025-09-01T05:34:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1636
