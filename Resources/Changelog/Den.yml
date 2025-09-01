@@ -11412,3 +11412,12 @@ Entries:
   id: 1113
   time: '2025-09-01T05:41:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1598
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Added Heavy Shackles to general tab, a new colorable neck item (rp prop,
+        big jewelry, whatever you want)
+  id: 1114
+  time: '2025-09-01T05:41:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1617
