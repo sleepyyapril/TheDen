@@ -11272,3 +11272,12 @@ Entries:
   id: 1097
   time: '2025-09-01T02:49:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1621
+- author: Swiss_Fox
+  changes:
+    - type: Tweak
+      message: >-
+        Prescription medhuds no longer require you to have "nearsighted" to take
+        them.
+  id: 1098
+  time: '2025-09-01T05:17:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1606
