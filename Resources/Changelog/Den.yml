@@ -11322,3 +11322,18 @@ Entries:
   id: 1103
   time: '2025-09-01T05:34:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1636
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Added Heavy Tattoos to a lot of species, multicolorable markings for all
+        body parts
+    - type: Tweak
+      message: Improved thaven hand markings
+    - type: Tweak
+      message: >-
+        Enabled Imp tattoos/scars/prosthetics for a lot of species they fit on
+        (report issues!)
+  id: 1104
+  time: '2025-09-01T05:35:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1638
