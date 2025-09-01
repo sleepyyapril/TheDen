@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Shaman
+# SPDX-FileCopyrightText: 2025 pocl v
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 trait-name-StiltedSpeech = Stilted Speech
 trait-description-StiltedSpeech = You Speak Very Properly At All Times.
 
