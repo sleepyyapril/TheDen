@@ -11360,3 +11360,12 @@ Entries:
   id: 1107
   time: '2025-09-01T05:37:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1637
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: >-
+        Fixed buckled patients standing up when recovering from crit. Now
+        they'll stay seated.
+  id: 1108
+  time: '2025-09-01T05:38:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1612
