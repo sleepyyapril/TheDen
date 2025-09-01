@@ -11380,3 +11380,10 @@ Entries:
   id: 1109
   time: '2025-09-01T05:39:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1609
+- author: Shaman
+  changes:
+    - type: Add
+      message: Added high-vis tape to body bags
+  id: 1110
+  time: '2025-09-01T05:39:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1608
