@@ -11432,3 +11432,18 @@ Entries:
   id: 1115
   time: '2025-09-01T05:44:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1610
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Ported white puffer coat, mime puffer coat, and white poncho (outerwear
+        that fits in neck slot) from Imp, all recolorable
+    - type: Tweak
+      message: Bombers, puffers, and ponchos are now in vending machines
+    - type: Tweak
+      message: >-
+        There is now a small reward for snipping the manager wire on the winter
+        wardrobe
+  id: 1116
+  time: '2025-09-01T05:45:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1596
