@@ -11337,3 +11337,10 @@ Entries:
   id: 1104
   time: '2025-09-01T05:35:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1638
+- author: SirWarock
+  changes:
+    - type: Fix
+      message: Fixed Solutions flickering when transferring them!
+  id: 1105
+  time: '2025-09-01T05:35:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1632
