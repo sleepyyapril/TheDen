@@ -146,6 +146,8 @@
         Slash: 0.75
         Piercing: 0.75
         Heat: 0.75
+  - type: StaminaDamageResistance #Den
+    coefficient: 0.75 #Den
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -329,6 +331,8 @@
         Piercing: 0.75
         Heat: 0.75
         Caustic: 0.75 #not the full 90% from ss13 because of the head
+  - type: StaminaDamageResistance #Den
+    coefficient: 0.75 #Den
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -504,6 +508,8 @@
       toggleable-clothing: !type:Container { }
       storagebase: !type:Container
         ents: [ ]
+  - type: StaminaDamageResistance #Den
+    coefficient: 0.75 #Den
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
