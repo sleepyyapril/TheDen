@@ -11281,3 +11281,14 @@ Entries:
   id: 1098
   time: '2025-09-01T05:17:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1606
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Animated the Holographic Rollerbed!
+    - type: Fix
+      message: >-
+        Fixed Rollerbed sprites showing doubled when something is buckled to
+        them!
+  id: 1099
+  time: '2025-09-01T05:26:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1641
