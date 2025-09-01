@@ -11369,3 +11369,14 @@ Entries:
   id: 1108
   time: '2025-09-01T05:38:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1612
+- author: Shaman
+  changes:
+    - type: Add
+      message: Added Proper Capitalization quality-of-life accent
+    - type: Tweak
+      message: >-
+        Monotonous and Sharp Inflection are now free because they're just
+        accents lol lmao
+  id: 1109
+  time: '2025-09-01T05:39:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1609
