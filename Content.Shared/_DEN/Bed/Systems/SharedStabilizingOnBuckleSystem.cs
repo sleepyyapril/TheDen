@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Sir Warock
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 ﻿using Content.Shared.Actions;
 using Content.Shared.Bed.Sleep;
 using Content.Shared.Buckle.Components;

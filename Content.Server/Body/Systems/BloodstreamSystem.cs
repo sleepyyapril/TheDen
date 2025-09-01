@@ -29,6 +29,7 @@
 // SPDX-FileCopyrightText: 2024 Skubman
 // SPDX-FileCopyrightText: 2024 SlamBamActionman
 // SPDX-FileCopyrightText: 2024 VMSolidus
+// SPDX-FileCopyrightText: 2025 Sir Warock
 // SPDX-FileCopyrightText: 2025 ash lea
 // SPDX-FileCopyrightText: 2025 portfiend
 // SPDX-FileCopyrightText: 2025 sleepyyapril
