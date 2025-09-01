@@ -648,7 +648,6 @@
           Quantity: 1
         - ReagentId: Vitamin
           Quantity: 1
-          Quantity: 2
   - type: Item
     inhandVisuals:
       left:
@@ -951,7 +950,6 @@
           Quantity: 1
         - ReagentId: Sugar
           Quantity: 3
-          Quantity: 5
   - type: Item
     inhandVisuals:
       left:
@@ -1005,7 +1003,6 @@
           Quantity: 1
         - ReagentId: Sugar
           Quantity: 3
-          Quantity: 5
   - type: Item
     heldPrefix: clown-slice
 # Tastes like sweetness, cake, clown.

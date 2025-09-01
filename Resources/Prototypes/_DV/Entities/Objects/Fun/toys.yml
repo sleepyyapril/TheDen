@@ -81,6 +81,9 @@
   - type: Food
     useSound:
       collection: FelinidPlushieSounds
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: FelinidPlushie
 
 - type: entity
   parent: BasePlushie
@@ -91,6 +94,9 @@
   - type: Sprite
     sprite: _DV/Objects/Fun/Toys/plushies.rsi
     state: oni
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: OniPlushie
 
 - type: entity
   parent: BasePlushie
@@ -119,6 +125,9 @@
   - type: Food
     useSound:
       collection: HarpyPlushieSounds
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: HarpyPlushie
 
 - type: entity
   parent: BasePlushie
@@ -147,6 +156,9 @@
   - type: Food
     useSound:
       collection: RodentiaPlushieSounds
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: RodentiaPlushie
 
 - type: entity
   parent: BasePlushie
@@ -175,6 +187,9 @@
   - type: Food
     useSound:
       collection: ToySqueak
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: FeroxiPlushie
 
 - type: entity
   parent: BasePlushie
@@ -203,3 +218,6 @@
   - type: Food
     useSound:
       collection: ToySqueak
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: ChitinidPlushie

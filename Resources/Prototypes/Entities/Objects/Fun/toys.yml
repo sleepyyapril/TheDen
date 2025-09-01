@@ -939,6 +939,9 @@
     equippedPrefix: mouse
     slots:
     - HEAD
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: MousePlushie
   # Begin DeltaV additions: make cats attack mouse toys to play with them
   - type: Damageable
     damageContainer: StructuralInorganic # not actually destructible, just lets it be attacked
@@ -989,9 +992,6 @@
   - type: Tag
     tags:
     - ToyRubberDuck
-  - type: FoodSequenceElement
-    entries:
-      CottonBurger: MousePlushie
 
 - type: entity
   parent: BasePlushie
@@ -1138,6 +1138,9 @@
   - type: EmitSoundOnTrigger
     sound:
       path: /Audio/Voice/Human/femalescream_5.ogg
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: ArachnePlushie
 
 - type: entity
   parent: BasePlushie
@@ -1182,6 +1185,9 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: plushie_jester
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: JesterPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1232,6 +1238,9 @@
         density: 10
         mask:
         - ItemMask
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: SlipsPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1242,6 +1251,9 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: gnome
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: GnomePlushie
 
 - type: entity
   parent: BasePlushie
@@ -1252,6 +1264,9 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: loveable
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: LoveablePlushie
 
 - type: entity
   parent: BasePlushie
@@ -1262,6 +1277,9 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: deer
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: DeerPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1272,6 +1290,9 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: ipc
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: IpcPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1282,6 +1303,9 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: grey
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: GreyPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1292,6 +1316,9 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: abductor
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: AbductorPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1302,6 +1329,9 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: abductor_agent
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: AbductorAgentPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1312,6 +1342,9 @@
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
     state: red
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: RedFoxPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1322,6 +1355,9 @@
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
     state: purple
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PurpleFoxPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1332,6 +1368,9 @@
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
     state: pink
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: PinkFoxPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1342,6 +1381,9 @@
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
     state: orange
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: OrangeFoxPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1352,6 +1394,9 @@
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
     state: marble
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: MarbleFoxPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1362,6 +1407,9 @@
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
     state: crimson
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: CrimsonFoxPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1372,6 +1420,9 @@
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
     state: coffee
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: CoffeeFoxPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1382,6 +1433,9 @@
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
     state: blue
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: BlueFoxPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1392,6 +1446,9 @@
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
     state: black
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: BlackFoxPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1414,6 +1471,9 @@
   - type: MeleeWeapon
     soundHit:
       path: /Audio/_DV/Voice/Vulpkanin/dog_bark1.ogg
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: VulpPlushie
 
 - type: entity
   parent: PlushieVulp
@@ -1424,6 +1484,9 @@
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: plushie_trystan
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: VulpDignifiedPlushie
 
 - type: entity
   parent: PlushieVulp
@@ -1434,6 +1497,9 @@
   - type: Sprite
     sprite: Objects/Fun/corgiplushie.rsi
     state: corgi
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: CorgiPlushie
 
 - type: entity
   parent: PlushieVulp
@@ -1443,6 +1509,9 @@
   - type: Sprite
     sprite: Objects/Fun/corgiplushie.rsi
     state: girlycorgi
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: CorgiGirlyPlushie
 
 - type: entity
   parent: PlushieVulp
@@ -1452,6 +1521,9 @@
   - type: Sprite
     sprite: Objects/Fun/corgiplushie.rsi
     state: robotcorgi
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: CorgiRobotPlushie
 
 - type: entity
   parent: BasePlushie
@@ -1480,6 +1552,9 @@
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
     state: black
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: BlackCatPlushie
 
 - type: entity
   parent: BasePlushieCat
@@ -1489,6 +1564,9 @@
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
     state: grey
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: GreyCatPlushie
 
 - type: entity
   parent: BasePlushieCat
@@ -1498,6 +1576,9 @@
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
     state: orange
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: OrangeCatPlushie
 
 - type: entity
   parent: BasePlushieCat
@@ -1507,6 +1588,9 @@
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
     state: siames
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: SiamesCatPlushie
 
 - type: entity
   parent: BasePlushieCat
@@ -1516,6 +1600,9 @@
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
     state: tabby
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: TabbyCatPlushie
 
 - type: entity
   parent: BasePlushieCat
@@ -1525,6 +1612,9 @@
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
     state: tuxedo
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: TuxedoCatPlushie
 
 - type: entity
   parent: BasePlushieCat
@@ -1534,6 +1624,9 @@
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
     state: white
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: WhiteCatPlushie
 
 ## Cheapo Figurines
 
@@ -2395,6 +2488,9 @@
         collection: Wurble
       soundNoDamage:
         collection: Wurble
+    - type: FoodSequenceElement
+      entries:
+        CottonBurger: ShadowkinPlushie
 
 - type: entity
   parent: BasePlushie
@@ -2443,6 +2539,9 @@
     - type: Sprite
       sprite: Objects/Fun/toys.rsi
       state: mortplush
+    - type: FoodSequenceElement
+      entries:
+        CottonBurger: MortyPlushie
 
 - type: entity
   parent: BasePlushie
@@ -2481,6 +2580,9 @@
       path: /Audio/Items/Toys/Plushie/PlushieVega/vegaheyy.ogg
     soundNoDamage:
       path: /Audio/Items/Toys/Plushie/PlushieVega/vegaheyy.ogg
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: VegaPlushie
 
 - type: entity
   parent: BasePlushie
@@ -2519,6 +2621,9 @@
       path: /Audio/Items/Toys/Plushie/PlushieAlice/alice3.ogg
     soundNoDamage:
       path: /Audio/Items/Toys/Plushie/PlushieAlice/alice3.ogg
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: AlicePlushie
 
 - type: entity
   parent: BasePlushie
@@ -2557,6 +2662,9 @@
       path: /Audio/Items/Toys/Plushie/PlushieTabi/tabieep2.ogg
     soundNoDamage:
       path: /Audio/Items/Toys/Plushie/PlushieTabi/tabieep2.ogg
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: TabiPlushie
 
 - type: entity
   parent: BasePlushie
@@ -2595,3 +2703,6 @@
       path: /Audio/Items/Toys/Plushie/PlushieJenn/jennplushthrow.ogg
     soundNoDamage:
       path: /Audio/Items/Toys/Plushie/PlushieJenn/jennplushthrow.ogg
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: JennPlushie

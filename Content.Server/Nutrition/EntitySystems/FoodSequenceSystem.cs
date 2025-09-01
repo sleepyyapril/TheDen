@@ -173,7 +173,7 @@ public sealed class FoodSequenceSystem : SharedFoodSequenceSystem
         var layer = new FoodSequenceVisualLayer(elementIndexed,
             _random.Pick(elementIndexed.Sprites),
             name: Name(element), // DEN - Add examine text for foodsequences
-            new Vector2(flip ? -1 : 1, 1),
+            new Vector2(flip ? -elementIndexed.Scale.X : elementIndexed.Scale.X, elementIndexed.Scale.Y),
             new Vector2(
                 _random.NextFloat(start.Comp.MinLayerOffset.X, start.Comp.MaxLayerOffset.X),
                 _random.NextFloat(start.Comp.MinLayerOffset.Y, start.Comp.MaxLayerOffset.Y))
