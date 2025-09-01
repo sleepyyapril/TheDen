@@ -11344,3 +11344,10 @@ Entries:
   id: 1105
   time: '2025-09-01T05:35:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1632
+- author: ShepardToTheStars
+  changes:
+    - type: Tweak
+      message: 'ADMIN: You can sort entity logs by pressing fancy buttons! '
+  id: 1106
+  time: '2025-09-01T05:36:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1624
