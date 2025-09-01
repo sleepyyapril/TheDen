@@ -11299,3 +11299,12 @@ Entries:
   id: 1100
   time: '2025-09-01T05:31:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1631
+- author: SirWarock
+  changes:
+    - type: Add
+      message: >-
+        Added Examination to rollerbeds! You now see how good they stabilize the
+        patients!
+  id: 1101
+  time: '2025-09-01T05:32:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1630
