@@ -374,10 +374,12 @@ namespace Content.IntegrationTests.Tests
                 "DebugExceptionInitialize",
                 "DebugExceptionStartup",
                 "GridFill",
+                "RoomFill",
                 "Map", // We aren't testing a map entity in this test
                 "MapGrid",
                 "Broadphase",
                 "StationData", // errors when removed mid-round
+                "StationJobs",
                 "Actor", // We aren't testing actor components, those need their player session set.
                 "BlobFloorPlanBuilder", // Implodes if unconfigured.
                 "DebrisFeaturePlacerController", // Above.
