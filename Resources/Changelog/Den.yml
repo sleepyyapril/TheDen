@@ -11447,3 +11447,14 @@ Entries:
   id: 1116
   time: '2025-09-01T05:45:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1596
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Added Colored Eyes so thaven can have non-glowing heterochromia like
+        almost everybody else
+    - type: Tweak
+      message: Touched up thaven glove sprites and increased their head marking budget
+  id: 1117
+  time: '2025-09-01T05:45:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1639
