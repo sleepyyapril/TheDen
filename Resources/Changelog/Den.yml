@@ -11399,3 +11399,16 @@ Entries:
   id: 1112
   time: '2025-09-01T05:40:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1616
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: >-
+        Nerfed Thieving - No instant theft. You'll always need at least half a
+        second to steal something.
+    - type: Fix
+      message: >-
+        Fixed a rounding error in thieving attempts sometimes causing whole
+        seconds to be shaved off.
+  id: 1113
+  time: '2025-09-01T05:41:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1598
