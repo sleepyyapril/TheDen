@@ -81,7 +81,7 @@
   name: cotton bun recipe
   result: FoodCottonBun
   time: 5
-  group: Breads
+  # group: Breads
   solids:
     FoodDoughCottonSlice: 1
 
@@ -2215,7 +2215,7 @@
   name: cotton cake recipe
   result: FoodCakeCotton
   time: 5
-  group: Cake
+  # group: Cake
   reagents:
     Fiber: 10
   solids:

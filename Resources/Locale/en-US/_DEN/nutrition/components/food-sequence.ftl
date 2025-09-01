@@ -30,6 +30,7 @@ food-sequence-cotton-burger-content-plushie-morty = morty
 food-sequence-cotton-burger-content-plushie-oni = oni
 food-sequence-cotton-burger-content-plushie-ovinia = sheepie
 food-sequence-cotton-burger-content-plushie-praetorian = praeto
+food-sequence-cotton-burger-content-plushie-ravager = rava
 food-sequence-cotton-burger-content-plushie-rodentia = rodentia
 food-sequence-cotton-burger-content-plushie-shadowkin = shadow
 food-sequence-cotton-burger-content-plushie-slime-tider = tider
