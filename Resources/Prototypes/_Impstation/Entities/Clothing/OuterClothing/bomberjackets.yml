@@ -1,5 +1,7 @@
-# Departmental bomber jackets, all parented to this basic white one
-- type: entity
+# SPDX-FileCopyrightText: 2025 Shaman
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatBomberWhite
   name: lightweight bomber jacket
