@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Shaman
+#
+# SPDX-License-Identifier: MIT
+
 # BURGERS
 
 food-sequence-burger-content-thaven = concerning
