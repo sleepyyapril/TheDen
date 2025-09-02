@@ -41,7 +41,7 @@
 # SPDX-FileCopyrightText: 2025 eightballll
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 flavor-profile = Tastes {$flavor}.
 flavor-profile-multiple = Tastes {$flavors} and {$lastFlavor}.
