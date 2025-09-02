@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Eightballll
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Charges.Systems;
 using Content.Shared.DoAfter;
 using Content.Shared.Item;

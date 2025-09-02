@@ -12,6 +12,7 @@
 # SPDX-FileCopyrightText: 2023 AJCM-git
 # SPDX-FileCopyrightText: 2023 Kit0vras
 # SPDX-FileCopyrightText: 2023 Nemanja
+# SPDX-FileCopyrightText: 2024 BombasterDS
 # SPDX-FileCopyrightText: 2024 Ed
 # SPDX-FileCopyrightText: 2024 MACMAN2003
 # SPDX-FileCopyrightText: 2024 Nairod
@@ -21,10 +22,11 @@
 # SPDX-FileCopyrightText: 2024 Token
 # SPDX-FileCopyrightText: 2024 brainfood1183
 # SPDX-FileCopyrightText: 2025 CometVoid
+# SPDX-FileCopyrightText: 2025 Eightballll
 # SPDX-FileCopyrightText: 2025 Sir Warock
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 #chairs
 - type: construction
