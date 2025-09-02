@@ -11503,3 +11503,10 @@ Entries:
   id: 1122
   time: '2025-09-02T08:03:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1651
+- author: SirWarock
+  changes:
+    - type: Tweak
+      message: Slime Geras now wear the color of the Slime Person that polymorphed!
+  id: 1123
+  time: '2025-09-02T10:40:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1645
