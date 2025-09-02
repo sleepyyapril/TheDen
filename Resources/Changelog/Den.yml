@@ -11541,3 +11541,24 @@ Entries:
   id: 1126
   time: '2025-09-02T21:03:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1659
+- author: Eightballll
+  changes:
+    - type: Fix
+      message: Added fill sprites to 16 drinks missing them.
+    - type: Add
+      message: Ported 25 drinks from Wizden and DV, including the Mayojito!
+    - type: Add
+      message: >-
+        Added 12 new Community Requested:tm: drinks, such as the Miami Vice, and
+        Touch of Grass!
+    - type: Add
+      message: Added a recipe for Eggnog!
+    - type: Tweak
+      message: >-
+        Some simple recipes now have a stir or shake requirement, to avoid
+        accidental mixings while making new drinks
+    - type: Remove
+      message: Removed my sheer fucking rage whenever someone ordered a Roy Rogers.
+  id: 1127
+  time: '2025-09-02T22:04:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1633
