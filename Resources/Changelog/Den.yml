@@ -11526,3 +11526,18 @@ Entries:
   id: 1125
   time: '2025-09-02T12:59:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1649
+- author: Eightballll
+  changes:
+    - type: Add
+      message: >-
+        Added Parcelwrap! Wrap up a gift for your loved one, or a bomb for that
+        pesky botanist!
+    - type: Add
+      message: Added Parcelwrap to the maildrobe inventory and a cargo order.
+    - type: Add
+      message: Added craftable cardboard armors
+    - type: Add
+      message: Added craftable cardboard structures
+  id: 1126
+  time: '2025-09-02T21:03:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1659
