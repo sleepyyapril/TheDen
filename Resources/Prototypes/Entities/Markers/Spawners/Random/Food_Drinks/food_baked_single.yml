@@ -54,10 +54,13 @@
       - FoodCakeChristmasSlice
       - FoodCakeVanillaSlice
       - FoodCakeBirthdaySlice
+      - FoodCakeCottonSlice
       - FoodBakedMuffin
       - FoodBakedMuffinBerry
       - FoodBakedMuffinCherry
       - FoodBakedMuffinBluecherry
+      - FoodBakedMuffinChocolate
+      - FoodBakedMuffinBanana
       - FoodBakedBunHoney
       - FoodBakedBunHotX
       - FoodBakedBunMeat

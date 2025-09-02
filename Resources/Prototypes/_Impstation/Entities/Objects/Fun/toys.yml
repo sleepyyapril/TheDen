@@ -14,6 +14,9 @@
   - type: FlavorProfile
     flavors:
     - stardust
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: UrsaMinorPlushie
 
 - type: entity
   parent: BasePlushie
@@ -56,6 +59,9 @@
   - type: FlavorProfile
     flavors:
     - whimsy
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: BugPlushie
   - type: Extractable
     grindableSolutionName: bugblood #AUUUUH!!!!!!
   - type: SolutionContainerManager
@@ -133,6 +139,9 @@
       - state: doll_base-inhand-left
       right:
       - state: doll_base-inhand-right
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: DollPlushie
 
 - type: entity
   parent: BasePlushie
@@ -149,6 +158,9 @@
       - state: doll_hair-inhand-left
       right:
       - state: doll_hair-inhand-right
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: HairDollPlushie
 
 - type: entity
   parent: [ BasePlushie, BaseHandheldInstrument ]
@@ -200,6 +212,9 @@
   - type: Sprite
     sprite: _Impstation/Objects/Fun/toys.rsi
     state: plushie_mascotgriffy
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: GriffyPlushie
 
 - type: entity
   parent: BasePlushie
@@ -210,6 +225,12 @@
   - type: Sprite
     sprite: _Impstation/Objects/Fun/toys.rsi
     state: plushie_thaven
+  - type: FlavorProfile
+    flavors:
+    - salty
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: ThavenPlushie
 
 - type: entity
   parent: FoamCutlass
@@ -270,3 +291,9 @@
         reagents:
         - ReagentId: Milk
           Quantity: 15
+  - type: FlavorProfile
+    flavors:
+    - weird
+  - type: FoodSequenceElement
+    entries:
+      CottonBurger: WeirdThavenPlushie

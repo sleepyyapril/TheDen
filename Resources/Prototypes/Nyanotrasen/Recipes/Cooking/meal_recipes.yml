@@ -484,10 +484,9 @@
   reagents:
     Cornoil: 5
   solids:
-    FoodDoughFlat: 1
+    FoodDoughCottonFlat: 1
     FoodMozzarella: 1
     FoodCurdCheese: 1
-    MaterialCotton1: 1
 
 - type: microwaveMealRecipe
   id: RecipeCorncobPizza
