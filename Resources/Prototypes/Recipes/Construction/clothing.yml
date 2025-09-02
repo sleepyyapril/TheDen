@@ -57,6 +57,28 @@
   objectType: Item
 
 - type: construction
+  name: cardboard helmet
+  id: cardHelmet
+  graph: cardHelmet
+  startNode: start
+  targetNode: cardhelmet
+  category: construction-category-clothing
+  description: A valiant cardboard knight's headpiece.
+  icon: { sprite: Clothing/Head/Helmets/card_helmet.rsi, state: icon }
+  objectType: Item
+
+- type: construction
+  name: cardboard armor
+  id: cardArmour
+  graph: cardArmour
+  startNode: start
+  targetNode: cardarmour
+  category: construction-category-clothing
+  description: A valiant cardboard knight's armor.
+  icon: { sprite: Clothing/OuterClothing/Armor/card_armour.rsi, state: icon }
+  objectType: Item
+
+- type: construction
   name: banana clown mask
   id: BananaClownMask
   graph: BananaClownMask

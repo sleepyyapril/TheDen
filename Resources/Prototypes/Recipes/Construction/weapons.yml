@@ -157,6 +157,17 @@
   objectType: Item
 
 - type: construction
+  name: cardboard shield
+  id: CardShield
+  graph: CardShield
+  startNode: start
+  targetNode: cardShield
+  category: construction-category-weapons
+  description: The most it'll block is a harsly worded lecture.
+  icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: cardshield-icon }
+  objectType: Item
+
+- type: construction
   name: makeshift shield
   id: MakeshiftShield
   graph: MakeshiftShield
@@ -175,6 +186,17 @@
   targetNode: ImprovisedArrow
   category: construction-category-weapons
   description: An arrow tipped with pieces of a glass shard, for use with a bow.
+  icon: { sprite: Objects/Weapons/Guns/Bow/bow.rsi, state: wielded-arrow }
+  objectType: Item
+
+- type: construction
+  name: cardboard arrow
+  id: CardArrow
+  graph: CardArrow
+  startNode: start
+  targetNode: CardArrow
+  category: construction-category-weapons
+  description: Cant kill no matter how hard you try.
   icon: { sprite: Objects/Weapons/Guns/Bow/bow.rsi, state: wielded-arrow }
   objectType: Item
 
@@ -210,4 +232,15 @@
   category: construction-category-weapons
   description: A lightweight crowbar with an extreme sharp fire axe head attached. It trades its heft as a weapon by making it easier to carry around when holstered to suits without having to sacrifice your backpack.
   icon: { sprite: Objects/Weapons/Melee/metal_hydrogen_axe.rsi, state: icon }
+  objectType: Item
+
+- type: construction
+  name: cardboard sword
+  id: CardSword
+  graph: CardSword
+  startNode: start
+  targetNode: cardSword
+  category: construction-category-weapons
+  description: The perfect sword for a knight such as thee!
+  icon: { sprite: Objects/Fun/card_sword.rsi, state: icon }
   objectType: Item
