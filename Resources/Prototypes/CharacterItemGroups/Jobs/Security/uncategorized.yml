@@ -246,7 +246,7 @@
     - type: loadout # Imp
       id: LoadoutSecurityOuterCoatBomberBrigmedLoose
     - type: loadout # Imp
-      id: LoadoutClothingOuterArmorBasic
+      id: LoadoutSecurityOuterArmorBasicCompact
 
 - type: characterItemGroup
   id: LoadoutSecurityShoes
