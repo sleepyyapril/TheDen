@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 TheLuggage05
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 accent-french-words-1 = yes
 accent-french-words-replace-1 = oui
 
