@@ -11618,3 +11618,18 @@ Entries:
   id: 1130
   time: '2025-09-03T00:02:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1655
+- author: Eightballll
+  changes:
+    - type: Add
+      message: >-
+        Added in-hand sprites to a variety of mugs, flasks, and bartending
+        related items!
+    - type: Fix
+      message: Fixed ashtrays not being visually empty after dumping them out.
+    - type: Add
+      message: >-
+        Added fill-level sprites to rags, mops, and spears. Now they will
+        visually change when covered in reagents.
+  id: 1131
+  time: '2025-09-03T00:03:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1657
