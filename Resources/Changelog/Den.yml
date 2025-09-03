@@ -11594,3 +11594,14 @@ Entries:
   id: 1128
   time: '2025-09-02T22:09:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1634
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Added a colorable Patrol Cap and a new plain Midriff Undershirt (shows
+        female indents)
+    - type: Tweak
+      message: Obliterated a single pixel on the security belt
+  id: 1129
+  time: '2025-09-02T23:59:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1654
