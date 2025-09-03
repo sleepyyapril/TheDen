@@ -11605,3 +11605,16 @@ Entries:
   id: 1129
   time: '2025-09-02T23:59:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1654
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: 'Carp Rifts: Take 5 minutes to fully form again (7 => 5)'
+    - type: Tweak
+      message: 'Dragon: Bleeding max damage reduced 450 => 150 (500 max hp)'
+    - type: Tweak
+      message: 'Dragon Lungs: Fireball cooldown reduced 15 => 7 seconds'
+    - type: Tweak
+      message: 'Summon Carp Horde: Cooldown reduced 90 => 60 seconds'
+  id: 1130
+  time: '2025-09-03T00:02:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1655
