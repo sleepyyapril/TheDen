@@ -11633,3 +11633,14 @@ Entries:
   id: 1131
   time: '2025-09-03T00:03:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1657
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Added species-specific Command and Fashion Breath Mask sprites to
+        chitinids, feroxi, resomi, shadowkin, tajaran, and vulpkanin
+    - type: Tweak
+      message: Chitinids and shadowkin can now have species-specific sprites
+  id: 1132
+  time: '2025-09-03T00:03:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1658
