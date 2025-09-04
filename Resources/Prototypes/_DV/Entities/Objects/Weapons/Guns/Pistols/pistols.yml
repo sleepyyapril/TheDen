@@ -118,8 +118,8 @@
 
 - type: entity
   name: Pollock
-  parent: WeaponPistolPollock
-  id: [WeaponPistolPollockSecurity, BaseSecurityContraband] # DEN
+  parent: [WeaponPistolPollock, BaseSecurityContraband] # DEN
+  id: WeaponPistolPollockSecurity
   description: A compact and mass-produced combat pistol. Uses .35 auto ammo.
                The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security # TheDen
