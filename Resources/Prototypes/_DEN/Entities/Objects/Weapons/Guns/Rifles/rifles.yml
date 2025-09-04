@@ -5,7 +5,7 @@
 #DEN
 - type: entity
   parent: WeaponRifleGestio
-  id: WeaponRifleGestioEmpty
+  id: [WeaponRifleGestioEmpty, BaseSecurityLogisticsContraband]
   suffix: Empty
   components:
   - type: ItemSlots
@@ -37,7 +37,7 @@
 
 - type: entity
   parent: WeaponRifleNovaliteC1
-  id: WeaponRifleNovaliteC1Empty
+  id: [WeaponRifleNovaliteC1Empty, BaseSecurityLogisticsContraband]
   suffix: Empty
   components:
   - type: ItemSlots
@@ -67,7 +67,7 @@
         requireDetailRange: false
 
 - type: entity
-  parent: WeaponRifleSVT
+  parent: [WeaponRifleSVT, BaseSecurityLogisticsContraband]
   id: WeaponRifleSVTEmpty
   suffix: Empty
   components:

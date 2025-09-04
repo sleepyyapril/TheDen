@@ -61,7 +61,7 @@
 
 - type: entity
   name: greatsword
-  parent: Greatsword
+  parent: [Greatsword, BaseCentcommContraband]
   id: GreatswordBlueshield
   description: A massive blade more akin to a hunk of well forged metal on a stick, enhanced with bluespace technology.
   components:

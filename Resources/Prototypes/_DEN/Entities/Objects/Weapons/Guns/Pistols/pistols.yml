@@ -6,7 +6,7 @@
 - type: entity
   name: mk58
   parent: WeaponPistolMk58Empty
-  id: WeaponPistolMk58Salvage
+  id: [WeaponPistolMk58Salvage, BaseSecurityLogisticsContraband]
   suffix: Salvage
   components:
   - type: ItemSlots
@@ -36,7 +36,7 @@
 - type: entity
   name: Pollock
   parent: WeaponPistolPollock
-  id: WeaponPistolPollockSalvage
+  id: [WeaponPistolPollockSalvage, BaseSecurityLogisticsContraband]
   suffix: Salvage
   components:
   - type: ItemSlots
