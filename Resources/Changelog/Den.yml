@@ -11753,3 +11753,10 @@ Entries:
   id: 1139
   time: '2025-09-04T04:16:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1666
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Gave scugcats an extra hand, now you can hold two spears at once!
+  id: 1140
+  time: '2025-09-04T04:17:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1653
