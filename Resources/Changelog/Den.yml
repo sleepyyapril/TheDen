@@ -11787,3 +11787,12 @@ Entries:
   id: 1143
   time: '2025-09-04T13:39:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1677
+- author: SubspaceEmber
+  changes:
+    - type: Fix
+      message: Fixed corpsman and armory glass airlocks not being see-though.
+    - type: Fix
+      message: Fixed robo door not showing in spraypainter.
+  id: 1144
+  time: '2025-09-04T19:24:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1682
