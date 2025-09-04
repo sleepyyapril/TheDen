@@ -11760,3 +11760,12 @@ Entries:
   id: 1140
   time: '2025-09-04T04:17:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1653
+- author: SubspaceEmber
+  changes:
+    - type: Add
+      message: >-
+        Ported laser tag guns and the laser pistol disguised as laser tag gun
+        from Delta-V.
+  id: 1141
+  time: '2025-09-04T12:58:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1673
