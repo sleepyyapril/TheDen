@@ -351,6 +351,8 @@
         id: WristwatchGold
       - !type:EntSelector
         id: GoldenPersonalAI
+      - !type:EntSelector
+        id: WeaponLaserTagGun # DeltaV - Add small chance of it spawning in maints locker.
 
 - type: entity
   name: Maint Loot Spawner
