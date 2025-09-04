@@ -91,7 +91,7 @@ public sealed partial class FelinidSystem : EntitySystem
             return;
 
         //component.HairballAction = Spawn("ActionHairball");
-        _actionsSystem.AddAction(uid, ref component.HairballAction, component.HairballActionId);
+        // _actionsSystem.AddAction(uid, ref component.HairballAction, component.HairballActionId);
     }
 
     private void OnEquipped(EntityUid uid, FelinidComponent component, DidEquipHandEvent args)
@@ -161,7 +161,7 @@ public sealed partial class FelinidSystem : EntitySystem
         if (component.HairballAction != null)
         {
             _actionsSystem.SetCharges(component.HairballAction, 1); // You get the charge back and that's it. Tough.
-            _actionsSystem.SetEnabled(component.HairballAction, true);
+            _actionsSystem.SetEnabled(component.HairballAction, false);
         }
 
         Del(component.EatActionTarget.Value);
