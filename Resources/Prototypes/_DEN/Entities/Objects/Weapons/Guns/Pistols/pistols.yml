@@ -5,8 +5,8 @@
 #DEN
 - type: entity
   name: mk58
-  parent: WeaponPistolMk58Empty
-  id: [WeaponPistolMk58Salvage, BaseSecurityLogisticsContraband]
+  parent: [WeaponPistolMk58Empty, BaseSecurityLogisticsContraband]
+  id: WeaponPistolMk58Salvage
   suffix: Salvage
   components:
   - type: ItemSlots
@@ -35,8 +35,8 @@
 
 - type: entity
   name: Pollock
-  parent: WeaponPistolPollock
-  id: [WeaponPistolPollockSalvage, BaseSecurityLogisticsContraband]
+  parent: [WeaponPistolPollock, BaseSecurityLogisticsContraband]
+  id: WeaponPistolPollockSalvage
   suffix: Salvage
   components:
   - type: ItemSlots
