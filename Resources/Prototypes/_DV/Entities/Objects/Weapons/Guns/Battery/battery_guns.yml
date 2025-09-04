@@ -86,6 +86,12 @@
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi
   - type: Gun
+    # DEN
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    # DEN
     soundGunshot:
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
     soundEmpty:
