@@ -362,7 +362,8 @@ public abstract partial class SharedStaminaSystem : EntitySystem
                 component.NextUpdate = nextUpdate;
         }
 
-        AdjustSlowdown(uid);
+        if (allowsSlowdown == true)
+            AdjustSlowdown(uid);
 
         UpdateStaminaVisuals((uid, component));
 
@@ -552,7 +553,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
                 closest = thres.Key;
         }
 
-        _stunSystem.TrySlowdown(ent.Owner, TimeSpan.FromSeconds(ent.Comp.StunModifierThresholds[closest]), true, 0.25f, 0.25f);
+        _stunSystem.UpdateStunModifiers(ent, ent.Comp.StunModifierThresholds[closest]);
     }
 }
 
