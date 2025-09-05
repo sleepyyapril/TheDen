@@ -11830,3 +11830,26 @@ Entries:
   id: 1148
   time: '2025-09-05T13:13:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1683
+- author: Eightballll
+  changes:
+    - type: Add
+      message: Added in-hand sprites for various medical items,
+    - type: Add
+      message: Added in-hand sprites for various roboticist items.
+    - type: Add
+      message: >-
+        Added in-hand sprites for various general tools such as the GPS and
+        Station Map.
+    - type: Add
+      message: Added in-hand sprites for most produce items.
+    - type: Add
+      message: Added in-hand sprites for various trinkets
+    - type: Add
+      message: Added in-hand sprites for a variety of grenades and throwables.
+    - type: Add
+      message: You can now put the snake plushie around your neck!
+    - type: Remove
+      message: Removed the staff's free time.
+  id: 1149
+  time: '2025-09-05T13:28:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1687
