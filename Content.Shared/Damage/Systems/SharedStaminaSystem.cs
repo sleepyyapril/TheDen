@@ -63,12 +63,13 @@ using Robust.Shared.Player;
 using Robust.Shared.Serialization;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
+using Content.Shared.FixedPoint;
 
 namespace Content.Shared.Damage.Systems;
 
 public abstract partial class SharedStaminaSystem : EntitySystem
 {
-    [Dependency] protected readonly IGameTiming Timing = default!;
+    [Dependency] protected readonly IGameTiming _timing = default!;
     [Dependency] private readonly INetManager _net = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ISharedAdminLogManager _adminLogger = default!;
@@ -76,7 +77,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
     [Dependency] private readonly MetaDataSystem _metadata = default!;
     [Dependency] private readonly SharedColorFlashEffectSystem _color = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
-    [Dependency] protected readonly SharedStunSystem StunSystem = default!;
+    [Dependency] protected readonly SharedStunSystem _stunSystem = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly StatusEffectsSystem _statusEffect = default!; // goob edit
     [Dependency] private readonly SharedStutteringSystem _stutter = default!; // goob edit
@@ -130,7 +131,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
             RemCompDeferred<ActiveStaminaComponent>(entity);
         }
 
-        SetStaminaAlert(uid);
+        SetStaminaAlert(entity);
     }
 
     private void OnStartup(Entity<StaminaComponent> entity, ref ComponentStartup args)
@@ -144,7 +145,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
         if (!Resolve(uid, ref component))
             return 0f;
 
-        var curTime = Timing.CurTime;
+        var curTime = _timing.CurTime;
         var pauseTime = _metadata.GetPauseTime(uid);
         return MathF.Max(0f, component.StaminaDamage - MathF.Max(0f, (float) (curTime - (component.NextUpdate + pauseTime)).TotalSeconds * component.Decay));
     }
@@ -355,7 +356,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
         // Reset the decay cooldown upon taking damage.
         if (oldDamage < component.StaminaDamage)
         {
-            var nextUpdate = Timing.CurTime + TimeSpan.FromSeconds(component.Cooldown);
+            var nextUpdate = _timing.CurTime + TimeSpan.FromSeconds(component.Cooldown);
 
             if (component.NextUpdate < nextUpdate)
                 component.NextUpdate = nextUpdate;
@@ -497,8 +498,8 @@ public abstract partial class SharedStaminaSystem : EntitySystem
         component.Critical = true;
         component.StaminaDamage = component.CritThreshold;
 
-        if (StunSystem.TryParalyze(uid, component.StunTime, true))
-            StunSystem.TrySeeingStars(uid);
+        if (_stunSystem.TryParalyze(uid, component.StunTime, true))
+            _stunSystem.TrySeeingStars(uid);
         _stunSystem.TryParalyze(uid, component.StunTime, true);
 
         component.NextUpdate = _timing.CurTime + component.StunTime * _modify.GetModifier(uid) + StamCritBufferTime;
@@ -525,13 +526,8 @@ public abstract partial class SharedStaminaSystem : EntitySystem
         Dirty(uid, component);
         _adminLogger.Add(LogType.Stamina, LogImpact.Low, $"{ToPrettyString(uid):user} recovered from stamina crit");
     }
-}
 
-/// <summary>
-///     Raised before stamina damage is dealt to allow other systems to cancel it.
-/// </summary>
-[ByRefEvent]
-public record struct BeforeStaminaDamageEvent(float Value, bool Cancelled = false);
+
     /// <summary>
     /// Adjusts the movement speed of an entity based on its current <see cref="StaminaComponent.StaminaDamage"/> value.
     /// If the entity has a <see cref="SlowOnDamageComponent"/>, its custom damage-to-speed thresholds are used,
@@ -556,12 +552,18 @@ public record struct BeforeStaminaDamageEvent(float Value, bool Cancelled = fals
                 closest = thres.Key;
         }
 
-        StunSystem.UpdateStunModifiers(ent, ent.Comp.StunModifierThresholds[closest]);
+        // _stunSystem.UpdateStunModifiers(ent, ent.Comp.StunModifierThresholds[closest]);
     }
+}
 
-    [Serializable, NetSerializable]
-    public sealed class StaminaAnimationEvent(NetEntity entity) : EntityEventArgs
-    {
-        public NetEntity Entity = entity;
-    }
+/// <summary>
+///     Raised before stamina damage is dealt to allow other systems to cancel it.
+/// </summary>
+[ByRefEvent]
+public record struct BeforeStaminaDamageEvent(float Value, bool Cancelled = false);
+
+[Serializable, NetSerializable]
+public sealed class StaminaAnimationEvent(NetEntity entity) : EntityEventArgs
+{
+    public NetEntity Entity = entity;
 }

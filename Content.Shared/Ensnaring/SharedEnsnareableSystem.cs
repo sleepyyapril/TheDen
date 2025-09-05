@@ -13,6 +13,11 @@ using Content.Shared.Ensnaring.Components;
 using Content.Shared.Movement.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
+using Robust.Shared.Audio.Systems;
+using Robust.Shared.Containers;
+using Content.Shared.Hands.EntitySystems;
+using Content.Shared.Popups;
+using Content.Shared.Damage.Systems;
 
 namespace Content.Shared.Ensnaring;
 
