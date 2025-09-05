@@ -42,11 +42,12 @@
 # SPDX-FileCopyrightText: 2024 veprolet
 # SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 NeLepus
+# SPDX-FileCopyrightText: 2025 SeamLesss
 # SPDX-FileCopyrightText: 2025 Tabitha
 # SPDX-FileCopyrightText: 2025 VMSolidus
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 - type: entity
   parent: BaseItem
