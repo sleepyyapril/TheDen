@@ -11803,3 +11803,14 @@ Entries:
   id: 1145
   time: '2025-09-05T12:51:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1675
+- author: SubspaceEmber
+  changes:
+    - type: Tweak
+      message: Added electric piano and a few pads sounds to the synthesizer.
+    - type: Tweak
+      message: Added square wave and a lead to the minimoog.
+    - type: Tweak
+      message: DAWs give off a bit of light and can be RGBd!
+  id: 1146
+  time: '2025-09-05T13:03:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1679
