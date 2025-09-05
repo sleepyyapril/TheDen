@@ -14,7 +14,7 @@
   - type: HolosignProjector
     signProto: HolosignEng
   - type: Sprite
-    sprite: Nyanotrasen/Objects/Devices/Holoprojectors/eng.rsi
+    sprite: Objects/Devices/Holoprojectors/atmos.rsi #TheDen - Ported in-hands over, this is identical to the atmos holo. Might as well use it.
     state: icon
   - type: ItemSlots
     slots:

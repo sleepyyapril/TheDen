@@ -891,6 +891,8 @@
   components:
   - type: Sprite
     state: plushie_snake
+  - type: Item
+    heldPrefix: plushiesnake
   - type: EmitSoundOnUse
     sound:
       path: /Audio/Items/Toys/rattle.ogg
@@ -910,6 +912,11 @@
   - type: FoodSequenceElement
     entries:
       CottonBurger: SnakePlushie
+  - type: Clothing
+    quickEquip: false
+    equippedPrefix: plushiesnake
+    slots:
+    - NECK
 
 - type: entity
   parent: BasePlushie

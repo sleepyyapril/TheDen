@@ -12,6 +12,7 @@
   components:
   - type: Item
     size: Small
+    heldPrefix: produce
   - type: FlavorProfile
     flavors:
       - bluepumpkin
