@@ -552,7 +552,7 @@ public abstract partial class SharedStaminaSystem : EntitySystem
                 closest = thres.Key;
         }
 
-        // _stunSystem.UpdateStunModifiers(ent, ent.Comp.StunModifierThresholds[closest]);
+        _stunSystem.TrySlowdown(ent.Owner, TimeSpan.FromSeconds(ent.Comp.StunModifierThresholds[closest]), true, 0.25f, 0.25f);
     }
 }
 
