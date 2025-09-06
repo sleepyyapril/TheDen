@@ -11937,3 +11937,16 @@ Entries:
   id: 1157
   time: '2025-09-06T14:56:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1670
+- author: Shaman
+  changes:
+    - type: Add
+      message: Added all Imp arachnid markings (including hair!)
+    - type: Add
+      message: Added like 20 new craftable web things too
+    - type: Tweak
+      message: >-
+        Made arachnid parts white by default, instead of gray, so you can color
+        them better
+  id: 1158
+  time: '2025-09-06T19:59:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1669
