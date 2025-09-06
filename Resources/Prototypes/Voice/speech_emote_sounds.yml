@@ -27,6 +27,8 @@
 # SPDX-FileCopyrightText: 2024 Whisper
 # SPDX-FileCopyrightText: 2024 router
 # SPDX-FileCopyrightText: 2024 themias
+# SPDX-FileCopyrightText: 2025 Eightballll
+# SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 Sapphire
 # SPDX-FileCopyrightText: 2025 Skubman
 # SPDX-FileCopyrightText: 2025 Suyo
@@ -36,7 +38,7 @@
 # SPDX-FileCopyrightText: 2025 skyr0cket01
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 # species
 - type: emoteSounds
