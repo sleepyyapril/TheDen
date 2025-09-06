@@ -11924,3 +11924,16 @@ Entries:
   id: 1156
   time: '2025-09-06T14:36:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1702
+- author: Pinkbat5
+  changes:
+    - type: Add
+      message: Vox can now wear undershirts and underwear!
+    - type: Tweak
+      message: Some undershirts and underwear have received resprites.
+    - type: Fix
+      message: >-
+        Some undergarments no longer clip over the waists of characters with the
+        female bodytype.
+  id: 1157
+  time: '2025-09-06T14:56:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1670
