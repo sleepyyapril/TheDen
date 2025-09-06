@@ -11913,3 +11913,14 @@ Entries:
   id: 1155
   time: '2025-09-06T13:14:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1689
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: You can now select sports balls from loadout toys
+    - type: Add
+      message: >-
+        Added thaven blitzball, I mean skimmer, and there's a discus for it in
+        loadout
+  id: 1156
+  time: '2025-09-06T14:36:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1702
