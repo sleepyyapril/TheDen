@@ -11957,3 +11957,12 @@ Entries:
   id: 1159
   time: '2025-09-06T21:49:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1704
+- author: Eightballll
+  changes:
+    - type: Add
+      message: >-
+        Gasping emote sounds! You can feign shock at your coworker's stupidity
+        now.
+  id: 1160
+  time: '2025-09-06T22:39:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1684
