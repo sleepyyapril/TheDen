@@ -11973,3 +11973,10 @@ Entries:
   id: 1161
   time: '2025-09-06T22:40:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1700
+- author: Shaman
+  changes:
+    - type: Add
+      message: Added MINIMUM FORCE NECESSARY lobby art
+  id: 1162
+  time: '2025-09-06T23:04:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1706
