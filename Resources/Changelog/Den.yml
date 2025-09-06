@@ -11886,3 +11886,14 @@ Entries:
   id: 1152
   time: '2025-09-06T01:17:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1698
+- author: Sha-Seng
+  changes:
+    - type: Tweak
+      message: >-
+        Radio screens turn on when the speaker's on, and a red light comes on
+        the side when the mic's on
+    - type: Add
+      message: You can now alt+click radios to turn the mic on quickly
+  id: 1153
+  time: '2025-09-06T01:19:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1699
