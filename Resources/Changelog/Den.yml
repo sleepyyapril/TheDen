@@ -11966,3 +11966,10 @@ Entries:
   id: 1160
   time: '2025-09-06T22:39:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1684
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: Mimes are no longer forced to be French
+  id: 1161
+  time: '2025-09-06T22:40:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1700
