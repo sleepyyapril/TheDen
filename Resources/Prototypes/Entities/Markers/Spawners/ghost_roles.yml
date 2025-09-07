@@ -11,11 +11,12 @@
 # SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
 # SPDX-FileCopyrightText: 2024 deltanedas
 # SPDX-FileCopyrightText: 2024 lapatison
+# SPDX-FileCopyrightText: 2025 Jakumba
 # SPDX-FileCopyrightText: 2025 VMSolidus
 # SPDX-FileCopyrightText: 2025 Vanessa Louwagie
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 # The mind roles specified here will be overwritten by the actual entities' GhostRoleComponent when they spawn
 # But the mind roles specified here are the ones checked for role bans when taking a ghost role!
 

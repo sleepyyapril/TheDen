@@ -37,12 +37,13 @@
 # SPDX-FileCopyrightText: 2024 sleepyyapril
 # SPDX-FileCopyrightText: 2025 Blu
 # SPDX-FileCopyrightText: 2025 EctoplasmIsGood
+# SPDX-FileCopyrightText: 2025 Jakumba
 # SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 VMSolidus
 # SPDX-FileCopyrightText: 2025 Winter
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 - type: entity
   name: energy sword
