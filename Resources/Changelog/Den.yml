@@ -12029,3 +12029,12 @@ Entries:
   id: 1167
   time: '2025-09-07T00:05:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1667
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Stun animations from WizDen!
+    - type: Tweak
+      message: Stamina damage will gradually slow you under 50% again
+  id: 1168
+  time: '2025-09-07T03:41:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1694
