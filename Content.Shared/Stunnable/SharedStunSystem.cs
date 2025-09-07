@@ -22,11 +22,12 @@
 // SPDX-FileCopyrightText: 2024 VMSolidus
 // SPDX-FileCopyrightText: 2025 Eagle-0
 // SPDX-FileCopyrightText: 2025 Jakumba
+// SPDX-FileCopyrightText: 2025 Princess Cheeseballs
 // SPDX-FileCopyrightText: 2025 RedFoxIV
 // SPDX-FileCopyrightText: 2025 Tirochora
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 using Content.Shared.ActionBlocker;
 using Content.Shared.Administration.Logs;

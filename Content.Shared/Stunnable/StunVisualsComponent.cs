@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Princess Cheeseballs
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 ﻿using Robust.Shared.Utility;
 
 namespace Content.Shared.Stunnable;
