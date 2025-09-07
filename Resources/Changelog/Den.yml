@@ -12022,3 +12022,10 @@ Entries:
   id: 1166
   time: '2025-09-07T00:04:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1703
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Derelict Cyborg midround antagonists
+  id: 1167
+  time: '2025-09-07T00:05:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1667
