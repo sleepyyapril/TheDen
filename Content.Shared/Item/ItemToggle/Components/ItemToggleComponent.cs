@@ -3,6 +3,7 @@
 // SPDX-FileCopyrightText: 2024 Leon Friedrich
 // SPDX-FileCopyrightText: 2024 deltanedas
 // SPDX-FileCopyrightText: 2024 metalgearsloth
+// SPDX-FileCopyrightText: 2025 Jakumba
 // SPDX-FileCopyrightText: 2025 Sir Warock
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
