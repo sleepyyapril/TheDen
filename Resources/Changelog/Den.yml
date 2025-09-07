@@ -12002,3 +12002,12 @@ Entries:
   id: 1164
   time: '2025-09-07T00:00:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1696
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: >-
+        Numerous structures can be reanchored when their floor tiles are
+        destroyed
+  id: 1165
+  time: '2025-09-07T00:03:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1692
