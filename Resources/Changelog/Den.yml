@@ -12011,3 +12011,14 @@ Entries:
   id: 1165
   time: '2025-09-07T00:03:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1692
+- author: crekulon
+  changes:
+    - type: Tweak
+      message: >-
+        Robotic Arm machines no longer cause the lights to flicker by drawing so
+        much power!
+    - type: Fix
+      message: The craft menu Combined Filter recipe now works!
+  id: 1166
+  time: '2025-09-07T00:04:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1703
