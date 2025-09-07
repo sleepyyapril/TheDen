@@ -11989,3 +11989,16 @@ Entries:
   id: 1163
   time: '2025-09-06T23:59:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1697
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: >-
+        The stun baton left click is now a thrust, it does more stamina damage
+        over time, but the wide swing does less.
+    - type: Tweak
+      message: >-
+        The taser is no longer a hard stun, it now slows and drains stamina
+        rapidly.
+  id: 1164
+  time: '2025-09-07T00:00:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1696
