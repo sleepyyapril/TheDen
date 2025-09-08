@@ -12074,3 +12074,14 @@ Entries:
   id: 1170
   time: '2025-09-08T20:56:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1718
+- author: Eightballll
+  changes:
+    - type: Fix
+      message: 'Cats can now meow! '
+    - type: Fix
+      message: Arachne now uses the Arachnid scream and laugh!
+    - type: Fix
+      message: Fixed some species not being able to gasp properly.
+  id: 1171
+  time: '2025-09-08T20:57:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1717
