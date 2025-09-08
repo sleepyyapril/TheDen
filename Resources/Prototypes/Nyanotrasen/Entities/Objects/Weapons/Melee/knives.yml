@@ -10,8 +10,8 @@
 - type: entity
   parent: CombatKnife
   id: AntiPsychicKnife
-  name: anti-psychic knife
-  description: A special knife designed for killing psychics.
+  name: witchhook # The Den - Anti-Psychic Knife sounded a little too plain considering the rest of their gear
+  description: A ritual dagger made from a crescent shard of dark stone, made to kill psionics and other supernatural entities. # The Den
   components:
   - type: MeleeWeapon
     attackRate: .6666
@@ -35,6 +35,12 @@
     storedSprite:
       state: icon
       sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi
+  - type: Clothing # TheDen
+    sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
   - type: Tag
     tags:
     - ForensicBeltEquip

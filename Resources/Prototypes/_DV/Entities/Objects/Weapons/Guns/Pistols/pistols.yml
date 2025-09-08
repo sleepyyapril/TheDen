@@ -159,7 +159,7 @@
   name: psi-breaker
   parent: BaseWeaponPistol
   id: WeaponPistolPsiBreaker
-  description: A small, flashy pistol with a marble style grip. Provides no tactical advantage. Uses .38 special ammo.
+  description: A small, flashy pistol with a marble grip. Provides no tactical advantage. Uses .38 special ammo.
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
@@ -191,6 +191,12 @@
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
+  - type: Clothing # TheDen
+    sprite: _DV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
 
 - type: entity
   name: flintlock
