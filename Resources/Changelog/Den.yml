@@ -12063,3 +12063,14 @@ Entries:
   id: 1169
   time: '2025-09-08T20:56:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1711
+- author: SubspaceEmber
+  changes:
+    - type: Add
+      message: Added estradiol pills to general loadout.
+    - type: Add
+      message: Added estradiol and testosterone disposable syringes to general loadout.
+    - type: Add
+      message: Added syringe to general loadout.
+  id: 1170
+  time: '2025-09-08T20:56:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1718
