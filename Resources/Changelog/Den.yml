@@ -12038,3 +12038,28 @@ Entries:
   id: 1168
   time: '2025-09-07T03:41:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1694
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Added construction bags to engineering loadouts
+    - type: Add
+      message: Added construction bags to station engineer lockers
+    - type: Add
+      message: Added construciton bags to the Engi-Vend
+    - type: Add
+      message: Added security sirens to security loadouts
+    - type: Add
+      message: >-
+        Added a radio slot on security and salvage belts, works just like your
+        weapon holster!
+    - type: Add
+      message: Added A  SecLite to security starting loadout
+    - type: Remove
+      message: Removed security sirens from security belts
+    - type: Tweak
+      message: >-
+        Changed the size of  all "bag" items to be 2x2 so they will now fit
+        inside backpacks.
+  id: 1169
+  time: '2025-09-08T20:56:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1711
