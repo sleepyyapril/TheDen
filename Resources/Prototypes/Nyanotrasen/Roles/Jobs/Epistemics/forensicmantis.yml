@@ -75,7 +75,7 @@
     id: ForensicMantisPDA
     eyes: ClothingEyesGlassesSunglasses
     ears: ClothingHeadsetScience
-    gloves: ClothingHandsGlovesColorWhite
+    gloves: ClothingHandsGlovesMantis # TheDen
     outerClothing: ClothingOuterCoatMantis
     belt: ClothingBeltMantis
     pocket1: BookPsionicsGuidebook

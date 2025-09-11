@@ -16,4 +16,4 @@
       - id: HandLabeler
       - id: PillMindbreakerToxin
       - id: BoxFolderGrey
-      - id: RubberStampMantis
+      # - id: RubberStampMantis # TheDen - It's in their locker now
