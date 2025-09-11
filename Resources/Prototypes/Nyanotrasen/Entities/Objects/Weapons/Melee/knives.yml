@@ -10,8 +10,8 @@
 - type: entity
   parent: CombatKnife
   id: AntiPsychicKnife
-  name: witchhook # The Den - Anti-Psychic Knife sounded a little too plain considering the rest of their gear
-  description: A ritual dagger made from a crescent shard of dark stone, made to kill psionics and other supernatural entities. # The Den
+  name: athame # TheDen - Anti-Psychic Knife sounded a little too plain considering the rest of their gear
+  description: A ritual dagger made from a crescent shard of dark stone, made to kill psionics and other supernatural entities. # TheDen
   components:
   - type: MeleeWeapon
     attackRate: .6666

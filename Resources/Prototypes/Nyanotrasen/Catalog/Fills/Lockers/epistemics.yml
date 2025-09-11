@@ -31,6 +31,6 @@
       - id: ClothingOuterWinterCoatMantis
       # - id: ClothingEyesGlassesSunglasses
       # Insulative headgear
-      - id: ClothingHeadTinfoil
+      - id: ClothingHeadHatFezMantisInsulative # TheDen
       - id: ClothingHeadCage
         amount: 2
