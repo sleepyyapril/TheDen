@@ -173,7 +173,7 @@
     - 2,2,2,2
     - 4,2,4,2
   - type: StorageFill
-    contents: # Full of mantis papers you can use to write down names of psychic or write warnings on to throw at them or whatever they want, with the stamp in the center
+    contents: # Contains 20 mantis papers you can use to write down names of psychics, or warnings, or psychic therapy notes or whatever, with the stamp in the center
       - id: PaperMantis
       - id: PaperMantis
       - id: PaperMantis

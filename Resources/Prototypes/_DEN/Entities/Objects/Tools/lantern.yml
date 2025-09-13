@@ -41,7 +41,7 @@
       enabled: false
       radius: 3
       energy: 3 # 0.5 brighter than a normal lantern because it's an unusual color
-      color: "#ff439b" # Similar color to the mantis stamp - I don't want harsh blue light, it'd look like a workshop lamp
+      color: "#ff439b" # Similar color to the mantis stamp. I don't want harsh blue light, it'd look like a workshop lamp
       netsync: false
     - type: Appearance
     - type: ToggleableVisuals
