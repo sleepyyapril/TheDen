@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity
-  parent: ClothingShoesBaseButcherable
+  parent: ClothingShoesMilitaryBase # TheDen
   id: ClothingShoesBootsMantis
   name: mantis' boots
   description: Soft, comfortable, and good for rough terrain.

@@ -25,6 +25,5 @@
     state: stamp-mantis
   - type: Tag
     tags:
-      # - ForensicBeltEquip # TheDen
-      - MantisBeltEquip # TheDen - New tag for clarity
+      - MantisBeltEquip
       - MantisFolderEquip # TheDen - Only the pen and the stamp have this, but the pen also has its own slot on the item itself

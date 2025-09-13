@@ -21,17 +21,16 @@
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Belt/mantis_belt.rsi
   - type: Storage
-    whitelist:
+    whitelist: # Edited to make it for mantis items only, so you don't just have a storage belt you can fill with pistols and knives
       tags:
-        - Document
-        - Write # TheDen - They have a special pen now, even if it fits in the folder
-        - Flashlight
+        # - Document
+        # - Flashlight
         # - ForensicBeltEquip # TheDen - This only applied to the mantis belt, but they aren't "forensic" anymore
-        - MantisBeltEquip # TheDen - So, new tag for clarity
+        - MantisBeltEquip # TheDen - So, new tag for clarity, though it's functionally identical
         # - HandLabeler # TheDen - They have their own bureaucracy tools now
-        - Sidearm
+        # - Sidearm
         # - Handcuffs # TheDen - They're not security!
-        - Folder
+        # - Folder
       components:
         - AnomalyScanner
         - NodeScanner
