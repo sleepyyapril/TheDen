@@ -13,7 +13,7 @@
     - type: StorageFill
       contents:
       # - id: BoxForensicPad # DeltaV - Mantis is no longer a Detective
-      - id: HandLabeler
+      # - id: HandLabeler # TheDen - They have their own bureaucracy tools now
       - id: PillMindbreakerToxin
-      - id: BoxFolderGrey
-      # - id: RubberStampMantis # TheDen - It's in their locker now
+      # - id: BoxFolderGrey # TheDen - Their folder is in their locker now
+      # - id: RubberStampMantis # TheDen - It's in the folder now

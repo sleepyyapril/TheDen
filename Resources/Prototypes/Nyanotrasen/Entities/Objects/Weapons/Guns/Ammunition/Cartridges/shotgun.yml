@@ -9,6 +9,7 @@
 - type: entity
   id: ShellSoulbreaker
   name: shell (12 gauge soulbreaker)
+  description: "Just one shot will mindbreak your target. Make sure you really mean it." # TheDen - Ammo doesn't usually have descriptions, but it's important here
   parent: BaseShellShotgun
   components:
   - type: Sprite

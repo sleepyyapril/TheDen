@@ -58,3 +58,9 @@
 
 - type: Tag
   id: DisposableSyringePackaged
+
+- type: Tag
+  id: MantisBeltEquip
+
+- type: Tag
+  id: MantisFolderEquip

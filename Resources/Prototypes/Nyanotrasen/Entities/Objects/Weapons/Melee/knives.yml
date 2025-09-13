@@ -11,7 +11,7 @@
   parent: CombatKnife
   id: AntiPsychicKnife
   name: athame # TheDen - Anti-Psychic Knife sounded a little too plain considering the rest of their gear
-  description: A ritual dagger made from a crescent shard of dark stone, made to kill psionics and other supernatural entities. # TheDen
+  description: "A ritual knife carved from a crescent shard of glassy, dark stone, made to kill psychics and other supernatural entities. Do not accidentally cut yourself with it." # TheDen
   components:
   - type: MeleeWeapon
     attackRate: .6666
@@ -43,7 +43,8 @@
     - suitStorage
   - type: Tag
     tags:
-    - ForensicBeltEquip
+    # - ForensicBeltEquip # TheDen
+    - MantisBeltEquip # TheDen - New tag for clarity
     - HighRiskItem
   - type: StealTarget
     stealGroup: AntiPsychicKnife

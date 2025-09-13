@@ -112,6 +112,7 @@
 - type: entity
   id: CartridgeSpecialMindbreaker
   name: cartridge (.38 special mindbreaker)
+  description: "Three shots will mindbreak your target. Make sure you mean it." # TheDen - Ammo doesn't usually have descriptions, but it's important here
   parent: BaseCartridgeSpecial
   components:
   - type: CartridgeAmmo

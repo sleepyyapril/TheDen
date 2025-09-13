@@ -42,7 +42,7 @@
   id: DockShipyard
 
 - type: Tag
-  id: ForensicBeltEquip
+  id: ForensicBeltEquip # TheDen - Replaced by MantisBeltEquip for clarity
 
 - type: Tag
   id: Gavel

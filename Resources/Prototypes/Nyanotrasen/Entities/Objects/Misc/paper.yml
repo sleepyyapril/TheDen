@@ -8,16 +8,23 @@
   name: mantis' seal
   parent: RubberStampBase
   id: RubberStampMantis
-  suffix: DO NOT MAP
-  description: An old-fashioned seal for marking important documents, made of polished bronze.
+  suffix: DO NOT MAP # TheDen - It's in their locker now, rather than their bags, since it's stealable for the stamp objective
+  description: "A heavy seal for marking important documents, made of polished brass." # TheDen
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-mantis
-    stampedColor: "#777777"
+    stampedColor: "#bd325a" # TheDen
     stampState: "paper_stamp-mantis"
+    sound: # TheDen
+      path: /Audio/_DEN/Effects/crystaltap2.ogg
+      params:
+        volume: -2
+        maxDistance: 10 # Longer range to be spooky
   - type: Sprite
     sprite: Nyanotrasen/Objects/Misc/bureaucracy.rsi
     state: stamp-mantis
   - type: Tag
     tags:
-      - ForensicBeltEquip
+      # - ForensicBeltEquip # TheDen
+      - MantisBeltEquip # TheDen - New tag for clarity
+      - MantisFolderEquip # TheDen - Only the pen and the stamp have this, but the pen also has its own slot on the item itself

@@ -14,7 +14,7 @@
   parent: ClothingBeltStorageBase
   id: ClothingBeltMantis
   name: mantis' belt
-  description: Perfect for storing all of your equipment.
+  description: "A structured, layered sash designed to carry your tools." # TheDen
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Belt/mantis_belt.rsi
@@ -24,15 +24,18 @@
     whitelist:
       tags:
         - Document
+        - Write # TheDen - They have a special pen now, even if it fits in the folder
         - Flashlight
-        - ForensicBeltEquip
-        - HandLabeler
+        # - ForensicBeltEquip # TheDen - This only applied to the mantis belt, but they aren't "forensic" anymore
+        - MantisBeltEquip # TheDen - So, new tag for clarity
+        # - HandLabeler # TheDen - They have their own bureaucracy tools now
         - Sidearm
+        # - Handcuffs # TheDen - They're not security!
         - Folder
       components:
         - AnomalyScanner
         - NodeScanner
-        - Flash
+        - Flash # Ideally more for flashing anomalies than psychics since they aren't security
 
 - type: entity
   parent: ClothingBeltBase

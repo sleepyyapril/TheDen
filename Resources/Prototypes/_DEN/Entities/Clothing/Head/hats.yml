@@ -55,3 +55,6 @@
     sprite: _DEN/Clothing/Head/Hats/mantis_fez_insulative.rsi
   - type: GuideHelp
     guides: [ PsionicInsulation ]
+  - type: Tag
+    tags:
+    - MantisBeltEquip

@@ -159,7 +159,7 @@
   name: psi-breaker
   parent: BaseWeaponPistol
   id: WeaponPistolPsiBreaker
-  description: A small, flashy pistol with a marble grip. Provides no tactical advantage. Uses .38 special ammo.
+  description: "A brassy pistol with a marble grip. Provides no tactical advantage. Uses .38 special ammo." # TheDen
   components:
   - type: Sprite
     sprite: _DV/Objects/Weapons/Guns/Pistols/psibreaker.rsi

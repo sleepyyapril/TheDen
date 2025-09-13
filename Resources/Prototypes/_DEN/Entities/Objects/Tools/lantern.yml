@@ -1,0 +1,70 @@
+
+
+- type: entity
+  parent: BaseItem
+  id: LanternMantis
+  name: mantis lantern
+  description: "A strange lantern housing a crystal pyramid. It creates rosy light from ambient noospheric energy."
+  components:
+    - type: HandheldLight
+      addPrefix: true
+      blinkingBehaviourId: blinking
+      radiatingBehaviourId: radiating
+    - type: LightBehaviour
+      behaviours:
+        - !type:FadeBehaviour
+          id: radiating
+          maxDuration: 2.0
+          startValue: 3.0
+          endValue: 2.0
+          isLooped: true
+          reverseWhenFinished: true
+        - !type:PulseBehaviour
+          id: blinking
+          interpolate: Nearest
+          maxDuration: 1.0
+          minValue: 0.1
+          maxValue: 2.0
+          isLooped: true
+    - type: Sprite
+      sprite: _DEN/Objects/Tools/lanternmantis.rsi
+      layers:
+        - state: lantern
+        - state: lantern-on
+          shader: unshaded
+          visible: false
+          map: [ "light" ]
+    - type: Item
+      sprite: _DEN/Objects/Tools/lanternmantis.rsi
+      heldPrefix: off
+    - type: PointLight
+      enabled: false
+      radius: 3
+      energy: 3 # 0.5 brighter than a normal lantern because it's an unusual color
+      color: "#ff439b" # Similar color to the mantis stamp - I don't want harsh blue light, it'd look like a workshop lamp
+      netsync: false
+    - type: Appearance
+    - type: ToggleableVisuals
+      spriteLayer: light
+    - type: ItemTogglePointLight
+    - type: StealTarget
+      stealGroup: LAMP # The moths are coming the moths are coming
+    - type: Clothing
+      sprite: _DEN/Objects/Tools/lanternmantis.rsi
+      equippedPrefix: off
+      quickEquip: false
+      slots:
+        - Belt
+    - type: Tag
+      tags:
+      - Flashlight
+      - MantisBeltEquip
+    - type: Battery # A small cell's worth of battery # TODO: MAKE THIS INFINITE? LIKE CRUSHERS...
+      maxCharge: 300
+      startingCharge: 300
+    - type: PowerCellDraw
+      drawRate: 1.2 # 5 minutes of power
+    - type: ToggleCellDraw
+    - type: BatterySelfRecharger # It's powered by the noosphere
+      autoRecharge: true
+      autoRechargeRate: 5 # 1 minute to recharge

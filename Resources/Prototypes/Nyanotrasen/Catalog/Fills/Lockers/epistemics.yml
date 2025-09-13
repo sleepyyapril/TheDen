@@ -16,8 +16,9 @@
       # - id: ForensicScanner
       # - id: BoxForensicPad
       - id: AntiPsychicKnife
-      - id: FlashlightLantern # DeltaV - To replace their lost flashlight
-      - id: BoxZiptie # DeltaV - Give the mantis some zipties
+      # - id: FlashlightLantern # DeltaV - To replace their lost flashlight
+      - id: LanternMantis # TheDen - But how about a cool lantern instead
+      # - id: BoxZiptie # DeltaV - Give the mantis some zipties # TheDen - No!
       - id: WeaponPistolPsiBreaker # DeltaV - Mantis mindbreaker pistol
       - id: WeaponShotgunSoulshatter # TheDen - Mantis emergency soulbreaker shotgun
       # Spare change of clothes
@@ -30,8 +31,7 @@
       # - id: ClothingOuterCoatMantis
       - id: ClothingOuterWinterCoatMantis
       # - id: ClothingEyesGlassesSunglasses
-      - id: RubberStampMantis # TheDen - Mantes don't usually spawn with their job-specific backpack here
       # Insulative headgear
-      - id: ClothingHeadHatFezMantisInsulative # TheDen
+      - id: ClothingHeadHatFezMantisInsulative # TheDen - Functionally identical to the tinfoil hat
       - id: ClothingHeadCage
         amount: 2

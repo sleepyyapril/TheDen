@@ -61,6 +61,7 @@
       powersToAdd:
         - MetapsionicPower
         - TelepathyPower
+        - PsychognomyPower # TheDen - The psychic monitor should get a little extra information for roleplay
         - AssayPower
 
 - type: startingGear

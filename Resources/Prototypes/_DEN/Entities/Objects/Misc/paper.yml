@@ -120,3 +120,194 @@
         whitelist:
           tags:
           - Write
+
+- type: entity
+  parent: BoxFolderFireproof
+  id: BoxFolderMantis
+  name: mantis ledger
+  description: "A foreboding folder designed to document the station's psychics. Fireproof, immune to scrying, and carrying a special pen."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: folder-mantis
+    - state: folder-base-mantis
+  - type: Item
+    heldPrefix: folder-mantis
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: [ ]
+      pen_slot: !type:ContainerSlot { PenMantis }
+  - type: ItemSlots
+    slots:
+      pen_slot:
+        name: folder-slot-component-slot-name-pen
+        whitelist:
+          tags:
+          - Write
+  - type: ItemMapper
+    mapLayers:
+      folder-overlay-paper-mantis:
+        whitelist:
+          tags:
+          - Document
+      folder-mantis-overlay-pen:
+        whitelist:
+          tags:
+          - Write
+  - type: Storage
+    maxItemSize: Small
+    whitelist:
+      tags:
+        - Document
+        - MantisFolderEquip # Only the pen and the stamp have this, but the pen also has its own slot on the item itself
+    grid: # It's a 5x5 square with an isolated slot in the middle for the stamp
+    - 0,0,4,0
+    - 0,4,4,4
+    - 0,1,1,1
+    - 3,1,4,1
+    - 0,3,1,3
+    - 3,3,4,3
+    - 0,2,0,2
+    - 2,2,2,2
+    - 4,2,4,2
+  - type: StorageFill
+    contents: # Full of mantis papers you can use to write down names of psychic or write warnings on to throw at them or whatever they want, with the stamp in the center
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: RubberStampMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+      - id: PaperMantis
+
+- type: entity
+  parent: PenEmbeddable
+  id: PenMantis # The most mechanically complex pen in the world, all just for style
+  name: mantis stylus
+  description: "A writing tool carved from glassy, dark stone. Do not accidentally poke yourself with it."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Misc/bureaucracy.rsi
+    state: pen_mantis
+  - type: Item
+    heldPrefix: pen_mantis
+  - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife
+    punish: false
+    modifiers:
+      coefficients:
+        Piercing: 1.25
+        Holy: 1.2
+  - type: DamageOtherOnHit
+    damage:
+      types: # Throwing damage (but you'll get it thrown back at you, and you're psychic)
+        Piercing: 6.4 # 8 against psychic enemies
+        Holy: 1.6667 # 2 against supernatural enemies
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+  - type: MeleeWeapon # You can swing it like a weapon since it's a crystal spike, but it's not very good
+    attackRate: .6666 # Aside from damage, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
+    range: 1.5
+    heavyRateModifier: 1.25
+    heavyDamageBaseModifier: 1.2
+    maxTargets: 3
+    angle: 40
+    wideAnimationRotation: -45
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+    damage:
+      types: # Melee damage (intended more for roleplay than serious combat)
+        Piercing: 2 # 2.5 against psychic enemies
+        Holy: 1.25 # 1.5 against supernatural enemies
+  - type: StaminaDamageOnHit
+    damage: 0
+  - type: PhysicalComposition
+    materialComposition:
+      Lead: 1
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_DEN/Effects/crystaltap1.ogg
+      params:
+        volume: -2
+        maxDistance: 10 # Longer range to be spooky
+  - type: UseDelay
+    delay: 2
+  - type: Tag
+    tags:
+      - Write
+      - Pen
+      - MantisFolderEquip # Only the pen and the stamp have this, but the pen also has its own slot on the item itself
+  - type: InteractionVerbs
+    allowedVerbs:
+    - LickObject # If you really want to
+
+- type: entity
+  parent: Paper
+  id: PaperMantis
+  name: ledgerstone # It's a spooky pun - it comes from the mantis ledger, but a ledgerstone is a gravestone
+  description: "A sharp, durable page taken from the mantis ledger. You feel watched."
+  components:
+    - type: FlavorProfile
+      flavors:
+        - mantispaper
+    - type: SolutionContainerManager
+      solutions:
+        food:
+          maxVol: 1
+          reagents:
+          - ReagentId: Razorium # Lorewise it doesn't contain razorium, but you just swallowed something pretty sharp
+            Quantity: 1
+    - type: Flammable
+      fireSpread: false
+      canResistFire: false
+      alwaysCombustible: true
+      canExtinguish: true
+      damage:
+        types:
+          Heat: 0.1 # Time to think about what you did (also the fire is blue and it's pretty)
+    - type: FireVisuals
+      sprite: _DEN/Effects/fire.rsi
+      normalState: psionicfire
+      lightColor: Blue
+    - type: LandAtCursor
+    - type: DamageOtherOnHit
+      damage:
+        types:
+          Piercing: 1 # Not intended to be dangerous
+    - type: EmbeddableProjectile
+      sound: /Audio/Weapons/pierce.ogg # Just a dull thunk since it does almost no damage
+      removalTime: 2
+    - type: Sprite
+      sprite: _DEN/Objects/Misc/bureaucracy.rsi
+      layers:
+      - state: paper_mantis
+      - state: paper_mantis_words
+        map: ["enum.PaperVisualLayers.Writing"]
+        visible: false
+      - state: paper_stamp-generic
+        map: ["enum.PaperVisualLayers.Stamp"]
+        visible: false
+    - type: PaperVisuals
+      headerImagePath: "/Textures/_DEN/Interface/Paper/paper_background_mantis.svg.96dpi"
+      headerMargin: 0.0, 0.0, 0.0, 2.0
+      backgroundImagePath: "/Textures/_DEN/Interface/Paper/paper_heading_mantis.svg.96dpi"
+      backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+      contentMargin: 4.0, 4.0, 4.0, 4.0
+      maxWritableArea: 400.0, 400.0
