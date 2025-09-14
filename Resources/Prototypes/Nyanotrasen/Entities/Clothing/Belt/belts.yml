@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMantis
-  name: mantis' belt
+  name: classic mantis belt # TheDen
   description: "A structured, layered sash designed to carry your tools." # TheDen
   components:
   - type: Sprite
@@ -21,20 +21,47 @@
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Belt/mantis_belt.rsi
   - type: Storage
-    whitelist: # Edited to make it for mantis items only, so you don't just have a storage belt you can fill with pistols and knives
+    whitelist:
       tags:
-        # - Document
-        # - Flashlight
+        - Folder
+        - Document
+        - Write
+        - HandLabeler
+        - Flashlight
+        - Syringe # TheDen
+        - Bottle # TheDen
+        - PillCanister # TheDen
+        - Pill # TheDen
+        # - Sidearm # TheDen - Only tagged mantis sidearms will fit inside
         # - ForensicBeltEquip # TheDen - This only applied to the mantis belt, but they aren't "forensic" anymore
         - MantisBeltEquip # TheDen - So, new tag for clarity, though it's functionally identical
-        # - HandLabeler # TheDen - They have their own bureaucracy tools now
-        # - Sidearm
-        # - Handcuffs # TheDen - They're not security!
-        # - Folder
       components:
         - AnomalyScanner
         - NodeScanner
         - Flash # Ideally more for flashing anomalies than psychics since they aren't security
+  - type: ItemSlots # TheDen - It has a sheath for your knife
+    slots:
+      mantisknifeslot:
+        name: clothing-belt-mantisknifeslot
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/Items/sheath.ogg
+        ejectSound: /Audio/Items/unsheath.ogg
+        whitelist:
+          tags:
+          - MantisKnife
+  - type: ItemMapper
+    mapLayers:
+      mantisknife:
+        whitelist:
+          tags:
+          - MantisKnife
+    sprite: _DEN/Clothing/Belt/belt_overlay.rsi
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+      mantisknifeslot: !type:ContainerSlot {}
 
 - type: entity
   parent: ClothingBeltBase

@@ -1,0 +1,61 @@
+- type: entity
+  parent: HandLabeler
+  id: HandLabelerMantis
+  name: sigillator
+  description: "An ancient and mystical hand labeler made of glassy, dark stone, used by turning the wheels and giving something a good smack. You wouldn't be caught dead with that blue plastic monstrosity."
+  components:
+    - type: Sprite
+      sprite: _DEN/Objects/Tools/hand_labeler.rsi
+      state: hand_labeler
+    - type: Item
+      sprite: _DEN/Objects/Tools/hand_labeler.rsi
+      storedRotation: -90
+    - type: UseDelay
+      delay: 2.0
+    - type: ActivatableUI
+      key: enum.HandLabelerUiKey.Key
+      inHandsOnly: true
+    - type: UserInterface
+      interfaces:
+        enum.HandLabelerUiKey.Key:
+          type: HandLabelerBoundUserInterface
+    - type: HandLabeler
+      whitelist:
+        components:
+          - Item
+        tags:
+          - Structure
+          - Airlock
+          - GlassAirlock
+          - HighSecDoor
+    - type: Tag
+      tags:
+      - HandLabeler
+      - MantisBeltEquip
+    - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material
+      punish: false
+      modifiers:
+        coefficients:
+          Blunt: 1.25
+          Holy: 1.2
+    - type: DamageOtherOnHit # Donk
+      damage:
+        types:
+          Blunt: 3.2 # 4 against psychic enemies
+          Holy: 0.8333 # 2 against supernatural enemies
+    - type: MeleeWeapon # You can swing it like a weapon since it's a heavy, blunt object, but it's not very good
+      attackRate: 1 # Aside from damage and attack rate, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
+      range: 1.5
+      heavyRateModifier: 1.25
+      heavyDamageBaseModifier: 1.2
+      maxTargets: 3
+      angle: 40
+      wideAnimationRotation: 0
+      soundHit:
+        path: /Audio/Weapons/bladeslice.ogg
+      damage:
+        types: # Melee damage (intended more for roleplay than serious combat)
+          Blunt: 3.2 # 4 against psychic enemies
+          Holy: 0.8333 # 2 against supernatural enemies
+    - type: StaminaDamageOnHit
+      damage: 0

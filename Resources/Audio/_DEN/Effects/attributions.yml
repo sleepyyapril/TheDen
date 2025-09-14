@@ -5,6 +5,21 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+- files: ["crystalshimmer1.ogg"]
+  license: "CC-BY-NC-4.0"
+  copyright: "Made by newlocknew via freesound.org"
+  source: "https://freesound.org/people/newlocknew/sounds/762195/"
+
+- files: ["crystalshimmer2.ogg"]
+  license: "CC-BY-NC-4.0"
+  copyright: "Made by newlocknew via freesound.org"
+  source: "https://freesound.org/people/newlocknew/sounds/762195/"
+
+- files: ["crystalshimmer3.ogg"]
+  license: "CC-BY-NC-4.0"
+  copyright: "Made by newlocknew via freesound.org"
+  source: "https://freesound.org/people/newlocknew/sounds/762195/"
+
 - files: ["crystaltap1.ogg"]
   license: "CC-BY-NC-4.0"
   copyright: "Made by newlocknew via freesound.org"

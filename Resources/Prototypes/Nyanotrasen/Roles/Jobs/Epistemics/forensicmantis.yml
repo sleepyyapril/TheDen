@@ -69,18 +69,18 @@
   subGear:
   - ForensicMantisPlasmamanGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitMantis
+    jumpsuit: ClothingUniformJumpsuitMantisDark # TheDen
     back: ClothingBackpackMantisFilled
-    shoes: ClothingShoesBootsMantis
-    head: ClothingHeadHatFezMantis
+    shoes: ClothingShoesBootsMantisDark # TheDen
+    head: ClothingHeadHatFezMantisDark # TheDen
     id: ForensicMantisPDA
     eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetScience
-    gloves: ClothingHandsGlovesMantis # TheDen
-    outerClothing: ClothingOuterCoatMantis
-    belt: ClothingBeltMantis
+    ears: ClothingHeadsetScienceDark # TheDen
+    gloves: ClothingHandsGlovesMantisDark # TheDen
+    outerClothing: ClothingOuterCoatMantisAiry # TheDen
+    belt: ClothingBeltMantisDark # TheDen
     pocket1: BookPsionicsGuidebook
-  innerClothingSkirt: ClothingUniformSkirtMantis
+  innerClothingSkirt: ClothingUniformSkirtMantisAiry # TheDen
   satchel: ClothingBackpackSatchelMantisFilled
   duffelbag: ClothingBackpackDuffelMantisFilled
 

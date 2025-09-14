@@ -1,0 +1,32 @@
+- type: entity
+  parent: ClothingShoesBootsMantis
+  id: ClothingShoesBootsMantisAiry
+  name: airy mantis boots
+  description: # TODO
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_airy.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_airy.rsi
+
+- type: entity
+  parent: ClothingShoesBootsMantis
+  id: ClothingShoesBootsMantisDark
+  name: dark mantis sandal boots
+  description: # TODO
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_dark.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_dark.rsi
+
+- type: entity
+  parent: ClothingShoesBootsMantis
+  id: ClothingShoesBootsMantis
+  name: ornate mantis thigh boots
+  description: # TODO
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_ornate.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_ornate.rsi

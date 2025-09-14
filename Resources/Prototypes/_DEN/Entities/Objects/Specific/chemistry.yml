@@ -1,0 +1,57 @@
+- type: entity
+  parent: BaseSyringe
+  id: SyringeMantis
+  name: brass syringe
+  description: "An antique brass syringe for transferring fluids. Questionably sterile."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
+    layers:
+      - state: syringe1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+      - state: brass-syringe_base0
+        map: ["enum.SolutionContainerLayers.Base"]
+  - type: Icon
+    sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
+    state: "brass-syringe_base0"
+  - type: Item
+    size: Tiny
+    sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
+    heldPrefix: brass
+  - type: SolutionContainerVisuals
+    maxFillLevels: 2
+    fillBaseName: syringe
+    inHandsMaxFillLevels: 3
+    inHandsFillBaseName: -fill-
+  - type: Tag
+    tags:
+    - Syringe
+    - MantisBeltEquip
+
+- type: entity
+  parent: PillCanister
+  id: PillCanisterMantis
+  name: brass pill canister
+  description: "An antique pill bottle with a small glass window."
+  components:
+  - type: Item
+    size: Tiny
+    sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
+    heldPrefix: brass
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
+    state: brass-pill_canister
+  - type: Tag
+    tags:
+      - PillCanister
+      - MantisBeltEquip
+  - type: Storage
+    grid:
+    - 0,0,4,1
+    quickInsert: true
+    areaInsert: true
+    areaInsertRadius: 1
+    storageInsertSound: /Audio/Effects/pill_insert.ogg
+    storageRemoveSound: /Audio/Effects/pill_remove.ogg
+  - type: Dumpable

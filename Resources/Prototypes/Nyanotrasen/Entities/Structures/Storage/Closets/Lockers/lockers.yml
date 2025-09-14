@@ -9,8 +9,8 @@
   id: LockerForensicMantis
   parent: LockerDetective
   suffix: Empty
-  name: mantis' cabinet
-  description: You'll never know what's inside until you collapse the quantum superposition of all possible mysteries.
+  name: mantis cabinet
+  description: "The truth within remains unseen until your mind's touch unravels the veils of possibility." # TheDen
   components:
   # Because it holds a traitor objective, StrongMetallic,
   # but not as much HP as LockerBaseSecure, because it's not a Head's locker.

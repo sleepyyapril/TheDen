@@ -12,6 +12,14 @@
   id: PillMindbreakerToxin
   description: Removes psionics when ingested. Mildly poisonous.
   components:
+  - type: Sprite # TheDen - Mindbreaker colored pill
+    sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
+    state: pillmindbreaker
+  - type: Item
+    size: Tiny
+    sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
+    state: pillmindbreaker
+    heldPrefix: mindbreaker
   - type: SolutionContainerManager
     solutions:
       food:
@@ -28,6 +36,14 @@
   id: PillCryptobiolin
   description: A long-lasting drug which causes mild confusion, but renders you psionically insulated.
   components:
+  - type: Sprite # TheDen - Cryptobiolin colored pill
+    sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
+    state: pillcrypto
+  - type: Item
+    size: Tiny
+    sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
+    state: pillcrypto
+    heldPrefix: crypto
   - type: SolutionContainerManager
     solutions:
       food:

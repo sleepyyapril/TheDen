@@ -209,7 +209,7 @@
     state: pen_mantis
   - type: Item
     heldPrefix: pen_mantis
-  - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife
+  - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material
     punish: false
     modifiers:
       coefficients:
@@ -264,6 +264,8 @@
   name: ledgerstone # It's a spooky pun - it comes from the mantis ledger, but a ledgerstone is a gravestone
   description: "A sharp, durable page taken from the mantis ledger. You feel watched."
   components:
+    - type: Item
+      heldPrefix: paper_mantis
     - type: FlavorProfile
       flavors:
         - mantispaper
@@ -272,7 +274,7 @@
         food:
           maxVol: 1
           reagents:
-          - ReagentId: Razorium # Lorewise it doesn't contain razorium, but you just swallowed something pretty sharp
+          - ReagentId: Razorium # Lorewise it doesn't contain razorium, but you just swallowed something pretty sharp so it hurts your tummy
             Quantity: 1
     - type: Flammable
       fireSpread: false
@@ -284,8 +286,8 @@
           Heat: 0.1 # Time to think about what you did (also the fire is blue and it's pretty)
     - type: FireVisuals
       sprite: _DEN/Effects/fire.rsi
-      normalState: psionicfire
-      lightColor: Blue
+      normalState: mantispagefire
+      lightColor: DeepSkyBlue
     - type: LandAtCursor
     - type: DamageOtherOnHit
       damage:

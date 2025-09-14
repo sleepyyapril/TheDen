@@ -5,15 +5,18 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity
-  name: mantis' seal
+  name: mantis seal
   parent: RubberStampBase
   id: RubberStampMantis
   suffix: DO NOT MAP # TheDen - It's in their locker now, rather than their bags, since it's stealable for the stamp objective
   description: "A heavy seal for marking important documents, made of polished brass." # TheDen
   components:
+  - type: Item
+    sprite: Nyanotrasen/Objects/Misc/bureaucracy.rsi
+    heldPrefix: stamp-mantis
   - type: Stamp
     stampedName: stamp-component-stamped-name-mantis
-    stampedColor: "#bd325a" # TheDen
+    stampedColor: "#b32d70" # TheDen
     stampState: "paper_stamp-mantis"
     sound: # TheDen
       path: /Audio/_DEN/Effects/crystaltap2.ogg
@@ -25,5 +28,6 @@
     state: stamp-mantis
   - type: Tag
     tags:
-      - MantisBeltEquip
+      # - ForensicBeltEquip # TheDen
+      - MantisBeltEquip # TheDen - New tag for clarity
       - MantisFolderEquip # TheDen - Only the pen and the stamp have this, but the pen also has its own slot on the item itself

@@ -63,7 +63,7 @@
       jobs:
         - ForensicMantis
   items:
-    - PillCanisterSpaceDrugs
+    - PillCanisterMindbreakerToxinMantis #TheDen
 
 - type: loadout
   id: LoadoutPsionicMantisPillCanisterCryptobiolin
@@ -77,7 +77,7 @@
       jobs:
         - ForensicMantis
   items:
-    - PillCanisterCryptobiolin
+    - PillCanisterCryptobiolinMantis #TheDen
 
 # Eyes
 - type: loadout

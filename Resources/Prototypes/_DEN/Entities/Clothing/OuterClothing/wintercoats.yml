@@ -11,3 +11,14 @@
     - type: TemperatureProtection
       heatingCoefficient: 1.1
       coolingCoefficient: 0.1
+
+- type: entity
+  parent: ClothingOuterWinterCoatMantis
+  id: ClothingOuterWinterCoatMantisDark
+  name: dark mantis poncho
+  description: # TODO
+  components:
+    - type: Sprite
+      sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_dark.rsi
+    - type: Clothing
+      sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_dark.rsi

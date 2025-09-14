@@ -20,7 +20,7 @@
     - suitStorage
   - type: Item
     size: Small
-    shape: # I don't care if it's a sawn-off, if your emergency gun were smaller than your pistol it would fit in your boot
+    shape: # I don't care if it's a sawn-off, this dangerous thing should not be smaller than your pistol
     - 0,0,1,0
     - 0,1,0,1
     storedRotation: 45
@@ -39,6 +39,7 @@
     staminaCost: 6
   - type: Tag
     tags:
+    - Sidearm
     - MantisBeltEquip
 
 - type: entity

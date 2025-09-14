@@ -15,22 +15,25 @@
       # - id: FlashlightSeclite # Deltav - Detective is in charge of investigating crimes.
       # - id: ForensicScanner
       # - id: BoxForensicPad
-      - id: AntiPsychicKnife
       # - id: FlashlightLantern # DeltaV - To replace their lost flashlight
-      - id: LanternMantis # TheDen - But how about a cool lantern instead
       # - id: BoxZiptie # DeltaV - Give the mantis some zipties # TheDen - No!
-      - id: WeaponPistolPsiBreaker # DeltaV - Mantis mindbreaker pistol
-      - id: WeaponShotgunSoulshatter # TheDen - Mantis emergency soulbreaker shotgun
-      # Spare change of clothes
       # - id: ClothingUniformJumpsuitMantis
       # - id: ClothingUniformSkirtMantis
       # - id: ClothingBeltMantis
       # - id: ClothingShoesBootsMantis
       # - id: ClothingHandsGlovesForensic # Deltav - Detective is in charge of investigating crimes.
-      - id: ClothingHeadHatFezMantis
       # - id: ClothingOuterCoatMantis
-      - id: ClothingOuterWinterCoatMantis
       # - id: ClothingEyesGlassesSunglasses
+      - id: AntiPsychicKnife
+      - id: WeaponPistolPsiBreaker # DeltaV - Mantis mindbreaker pistol
+      - id: WeaponShotgunSoulshatter # TheDen - Mantis emergency soulbreaker shotgun
+      - id: LanternMantis # TheDen
+      - id: SyringeMantis # TheDen
+      - id: ChemistryEmptyBottleMantis # TheDen
+      - id: HandLabelerMantis # TheDen
+      # Spare clothes
+      - id: ClothingHeadHatFezMantisDark
+      - id: ClothingOuterWinterCoatMantisDark
       # Insulative headgear
       - id: ClothingHeadHatFezMantisInsulative # TheDen - Functionally identical to the tinfoil hat
       - id: ClothingHeadCage

@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterCoatMantis
+  id: ClothingOuterCoatMantisAiry
+  name: airy mantis sash
+  description: # TODO
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_airy.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_airy.rsi

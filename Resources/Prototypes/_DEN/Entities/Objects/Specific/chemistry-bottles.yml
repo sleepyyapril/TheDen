@@ -1,0 +1,60 @@
+- type: entity
+  parent: BaseChemistryEmptyBottle
+  id: ChemistryEmptyBottleMantis
+  name: brass bottle
+  description: "An antique bottle in a durable brass shell. Useful for your rituals."
+  components:
+  - type: Tag
+    tags:
+    - Bottle
+    - MantisBeltEquip
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Chemistry/bottle.rsi
+    layers:
+      - state: brass-bottle
+      - state: brass-bottle-1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+  - type: SolutionContainerVisuals
+    maxFillLevels: 6
+    fillBaseName: brass-bottle-
+  - type: Item
+    size: Tiny
+    sprite: _DEN/Objects/Specific/Chemistry/bottle.rsi
+    heldPrefix: brass
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 0
+  - type: DamageOnHighSpeedImpact
+    minimumSpeed: 2
+    damage:
+      types:
+        Blunt: 0
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 1 # Doink
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic # Metal shell
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak # There's still a glass interior
+          params:
+            volume: -4
+      - !type:SpillBehavior { }
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlass:
+            min: 0
+            max: 1
+        transferForensics: true
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]

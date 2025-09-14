@@ -42,6 +42,14 @@
 	{
 	  "name": "off-equipped-BELT",
 	  "directions": 4
+	},
+	{
+	  "name": "on-equipped-SUITSTORAGE",
+	  "directions": 4
+	},
+	{
+	  "name": "off-equipped-SUITSTORAGE",
+	  "directions": 4
 	}
   ]
 }

@@ -97,3 +97,26 @@
     slots:
     - Snout
     hideOnToggle: true
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskMantisDark
+  name: dark mantis veil
+  description: # TODO
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: _DEN/Clothing/Mask/mask_mantis_dark.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Mask/mask_mantis_dark.rsi
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - MantisBeltEquip
+  - type: HideLayerClothing
+    slots:
+    - Snout
+    hideOnToggle: true

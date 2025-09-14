@@ -18,7 +18,11 @@
     - type: loadout
       id: LoadoutPsionicMantisBeltMantis
     - type: loadout # TheDen
+      id: LoadoutPsionicMantisBeltMantisAiry
+    - type: loadout # TheDen
       id: LoadoutPsionicMantisBeltMantisDark
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisBeltMantisOrnate
 
 #- type: characterItemGroup
 #  id: LoadoutPsionicMantisEars
@@ -48,6 +52,8 @@
       id: LoadoutPsionicMantisEyesEpiGlasses
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEyesEpiGlassesVisor
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisEyesEpiGlassesMantis
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisGloves
@@ -56,7 +62,13 @@
     - type: loadout
       id: LoadoutClothingHandsMantisEpiWarmers
     - type: loadout # TheDen
+      id: LoadoutPsionicMantisGloves
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisGlovesAiry
+    - type: loadout # TheDen
       id: LoadoutPsionicMantisGlovesDark
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisGlovesOrnate
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisHead
@@ -65,22 +77,32 @@
     - type: loadout
       id: LoadoutPsionicMantisHeadMantisFez
     - type: loadout # TheDen
+      id: LoadoutPsionicMantisHeadMantisFezAiry
+    - type: loadout # TheDen
       id: LoadoutPsionicMantisHeadMantisFezDark
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisHeadMantisFezOrnate
 
 #- type: characterItemGroup
 #  id: LoadoutPsionicMantisId
 #  maxItems: 1
 #  items:
-#
-#- type: characterItemGroup
-#  id: LoadoutPsionicMantisNeck
-#  maxItems: 1
-#  items:
-#
-#- type: characterItemGroup
-#  id: LoadoutPsionicMantisMask
-#  maxItems: 1
-#  items:
+
+- type: characterItemGroup
+  id: LoadoutPsionicMantisNeck
+  maxItems: 1
+  items:
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisNeckCloakMantisDark
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisNeckMantleMantisOrnate
+
+- type: characterItemGroup
+  id: LoadoutPsionicMantisMask
+  maxItems: 1
+  items:
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisMaskMantisDark
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisOuter
@@ -93,7 +115,7 @@
     - type: loadout # TheDen
       id: LoadoutScienceOuterWinterCoatMantisDark
     - type: loadout # TheDen
-      id: LoadoutScienceOuterJacketMantisDark
+      id: LoadoutScienceOuterJacketMantisAiry
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisShoes
@@ -104,7 +126,11 @@
     - type: loadout
       id: LoadoutClothingUnderSocksMantisEpi
     - type: loadout # TheDen
+      id: LoadoutPsionicMantisShoesMantisBootsAiry
+    - type: loadout # TheDen
       id: LoadoutPsionicMantisShoesMantisBootsDark
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisShoesMantisBootsOrnate
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisUniforms
@@ -117,6 +143,8 @@
     - type: loadout
       id: LoadoutClothingHandsMantisEpiWarmers
     - type: loadout # TheDen
+      id: LoadoutPsionicMantisUniformSkirtAiry
+    - type: loadout # TheDen
       id: LoadoutPsionicMantisUniformSuitDark
     - type: loadout # TheDen
-      id: LoadoutPsionicMantisUniformSkirtDark
+      id: LoadoutPsionicMantisUniformSkirtOrnate

@@ -8,7 +8,7 @@
   },
   "states": [
     {
-        "name": "pen_bso"
+      "name": "pen_bso"
     },
     {
       "name": "pen_ce"
@@ -29,10 +29,12 @@
       "name": "folder-mantis"
     },
     {
-      "name": "folder-mantis-inhand-left"
+      "name": "folder-mantis-inhand-left",
+	  "directions": 4
     },
     {
-      "name": "folder-mantis-inhand-right"
+      "name": "folder-mantis-inhand-right",
+	  "directions": 4
     },
     {
       "name": "folder-mantis-overlay-pen"
@@ -44,16 +46,26 @@
       "name": "paper_mantis"
     },
     {
+      "name": "paper_mantis-inhand-left",
+	  "directions": 4
+    },
+    {
+      "name": "paper_mantis-inhand-right",
+	  "directions": 4
+    },
+    {
       "name": "paper_mantis_words"
     },
     {
       "name": "pen_mantis"
     },
     {
-      "name": "pen_mantis-inhand-left"
+      "name": "pen_mantis-inhand-left",
+	  "directions": 4
     },
     {
-      "name": "pen_mantis-inhand-right"
+      "name": "pen_mantis-inhand-right",
+	  "directions": 4
     }
   ]
 }

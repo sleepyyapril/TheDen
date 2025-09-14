@@ -689,8 +689,8 @@
     contents:
     - id: PillSpaceDrugs
       amount: 5
-  - type: GuideHelp
-    guides: [ Psionics ]
+  - type: GuideHelp # TheDen
+    guides: [ Mindbreaking ]
 
 - type: entity
   suffix: Pax 10u
