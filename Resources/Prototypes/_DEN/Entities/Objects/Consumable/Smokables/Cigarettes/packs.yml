@@ -17,3 +17,23 @@
     contents:
     - id: Joint
       amount: 10
+
+- type: entity
+  id: CigPackMantis
+  parent: CigPackBase
+  name: Mnemolith Cigarettes
+  description: "Cigarettes containing powdered mnemolith, for use by psionic mantes."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/Packs/mantis.rsi
+  - type: Item
+    sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/Packs/mantis.rsi
+  - type: StorageFill
+    contents:
+    - id: CigaretteMantis
+      amount: 10
+  - type: Tag
+    tags:
+    - CigPack
+    - Trash
+    - MantisBeltEquip

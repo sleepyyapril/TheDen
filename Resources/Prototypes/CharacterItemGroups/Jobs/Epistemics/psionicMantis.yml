@@ -31,7 +31,7 @@
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisEquipment
-  maxItems: 3
+  maxItems: 4
   items:
     - type: loadout
       id: LoadoutPsionicMantisEquipmentCandles
@@ -41,6 +41,8 @@
       id: LoadoutPsionicMantisPillCanisterSpaceDrugs
     - type: loadout
       id: LoadoutPsionicMantisPillCanisterCryptobiolin
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisEquipmentCigPackMantis
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisEyes
@@ -102,7 +104,9 @@
   maxItems: 1
   items:
     - type: loadout # TheDen
-      id: LoadoutPsionicMantisMaskMantisDark
+      id: LoadoutPsionicMantisMaskMantisVeil
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisMaskMantisRitual
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisOuter

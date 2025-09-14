@@ -1,0 +1,20 @@
+- type: entity
+  id: CigaretteMantis
+  parent: Cigarette
+  name: mnemolith cigarette
+  description: "The smoke clings to your thoughts, enhancing your awareness of the noosphere."
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      smokable:
+        maxVol: 20
+        reagents:
+          - ReagentId: Nicotine
+            Quantity: 10
+          - ReagentId: Mnemolith
+            Quantity: 10
+  - type: Tag
+    tags:
+      - Cigarette
+      - Trash
+      - MantisBeltEquip

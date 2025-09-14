@@ -48,6 +48,19 @@
 
 # Equipment
 
+- type: loadout
+  id: LoadoutPsionicMantisEquipmentCigPackMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - CigPackMantis
+
 # Eyes
 
 - type: loadout
@@ -215,7 +228,7 @@
 # Mask
 
 - type: loadout
-  id: LoadoutPsionicMantisMaskMantisDark
+  id: LoadoutPsionicMantisMaskMantisVeil
   category: JobsEpistemicsPsionicMantis
   cost: 0
   exclusive: true
@@ -226,7 +239,21 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingMaskMantisDark
+    - ClothingMaskMantisVeil
+
+- type: loadout
+  id: LoadoutPsionicMantisMaskMantisRitual
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisMask
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingMaskMantisRitual
 
 # Outer
 

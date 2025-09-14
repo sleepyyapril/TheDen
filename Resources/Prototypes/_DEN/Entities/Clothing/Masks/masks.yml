@@ -100,16 +100,16 @@
 
 - type: entity
   parent: ClothingMaskPullableBase
-  id: ClothingMaskMantisDark
+  id: ClothingMaskMantisVeil
   name: dark mantis veil
   description: # TODO
   components:
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _DEN/Clothing/Mask/mask_mantis_dark.rsi
+    sprite: _DEN/Clothing/Mask/mask_mantis_veil.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Mask/mask_mantis_dark.rsi
+    sprite: _DEN/Clothing/Mask/mask_mantis_veil.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: Tag
@@ -120,3 +120,14 @@
     slots:
     - Snout
     hideOnToggle: true
+
+- type: entity
+  parent: ClothingMaskMantisVeil
+  id: ClothingMaskMantisRitual
+  name: dark mantis veil
+  description: # TODO
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Mask/mask_mantis_ritual.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Mask/mask_mantis_ritual.rsi

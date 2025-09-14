@@ -272,10 +272,23 @@
     - type: SolutionContainerManager
       solutions:
         food:
-          maxVol: 1
+          maxVol: 15
           reagents:
-          - ReagentId: Razorium # Lorewise it doesn't contain razorium, but you just swallowed something pretty sharp so it hurts your tummy
-            Quantity: 1
+          - ReagentId: Mnemolith # If you eat it, you'll feel like the noosphere is watching you
+            Quantity: 15
+        injector:
+          maxVol: 15
+          reagents:
+          - ReagentId: Mnemolith # You get a brief extrasensory experience when it hits you, too
+            Quantity: 15 # Won't cause any effects if the same page hits five people (calm down)
+    - type: SolutionInjectOnEmbed
+      transferAmount: 3
+      solution: injector
+    - type: Extractable
+      juiceSolution:
+        reagents:
+        - ReagentId: Mnemolith
+          Quantity: 15
     - type: Flammable
       fireSpread: false
       canResistFire: false
@@ -283,7 +296,7 @@
       canExtinguish: true
       damage:
         types:
-          Heat: 0.1 # Time to think about what you did (also the fire is blue and it's pretty)
+          Heat: 0.1 # Time to think about what you did (also the fire is pretty)
     - type: FireVisuals
       sprite: _DEN/Effects/fire.rsi
       normalState: mantispagefire

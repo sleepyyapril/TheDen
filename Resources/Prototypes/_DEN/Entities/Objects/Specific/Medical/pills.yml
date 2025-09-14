@@ -104,6 +104,9 @@
   id: PillCanisterCryptobiolinMantis
   suffix: Cryptobiolin, 5
   components:
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
+    state: brass-pill_canister-crypto # A green stripe so you don't accidentally mindbreak somebody
   - type: Label
     currentLabel: Cryptobiolin 20u
   - type: StorageFill
@@ -118,6 +121,9 @@
   id: PillCanisterMindbreakerToxinMantis
   suffix: Mindbreaker Toxin, 5
   components:
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
+    state: brass-pill_canister-mindbreaker # A blue stripe so you don't accidentally mindbreak somebody
   - type: Label
     currentLabel: Mindbreaker Toxin 20u
   - type: StorageFill

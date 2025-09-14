@@ -47,3 +47,4 @@ flavor-complex-plasmaflood = like fruity plasma burn
 
 ## Paper
 flavor-complex-mantispaper = like a name set in stone
+flavor-complex-mnemolith = like the noosphere itself is staring back
