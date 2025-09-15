@@ -22,7 +22,7 @@
   id: CigPackMantis
   parent: CigPackBase
   name: Mnemolith Cigarettes
-  description: "Cigarettes containing powdered mnemolith, for use by psionic mantes."
+  description: "Cigarettes containing powdered mnemolith, used by psionic mantes to heighten their extrasensory perception. Exercise caution."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/Packs/mantis.rsi

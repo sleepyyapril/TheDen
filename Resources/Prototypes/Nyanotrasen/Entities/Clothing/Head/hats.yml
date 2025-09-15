@@ -170,6 +170,7 @@
   - type: Tag # TheDen - In case you put the foil one on, your other one can go in the belt
     tags:
     - MantisBeltEquip
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingHeadBase

@@ -17,16 +17,24 @@
     attackRate: .6666
     damage:
       types:
-        Slash: 10
-        Holy: 5
+        Slash: 10 # 12.5 against psychic enemies
+        Holy: 5 # 6.25 against supernatural psychic enemies
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Slash: 10 # 12.5 against psychic enemies
+        Holy: 5 # 6.25 against supernatural psychic enemies
   - type: StaminaDamageOnHit
     damage: 0
-  - type: AntiPsionicWeapon
+  - type: AntiPsionicWeapon # TheDen - All mantis items based on this knife: 25% more damage to psychics, with a physical damage type and half as much holy damage
     punish: false
     modifiers:
       coefficients:
         Slash: 1.25
-        Holy: 1.2
+        Holy: 1.25 # TheDen - It was 1.2 but I'm tired of doing extra math, 0.05 more holy damage is fine
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+    removalTime: 2
   - type: Sprite
     sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi
     state: icon

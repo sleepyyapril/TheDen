@@ -49,6 +49,20 @@
 # Equipment
 
 - type: loadout
+  id: LoadoutPsionicMantisPillCanisterMnemolith
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  guideEntry: Psionics
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - PillCanisterMnemolithMantis
+
+- type: loadout
   id: LoadoutPsionicMantisEquipmentCigPackMantis
   category: JobsEpistemicsPsionicMantis
   cost: 0
@@ -60,6 +74,19 @@
         - ForensicMantis
   items:
     - CigPackMantis
+
+- type: loadout
+  id: LoadoutPsionicMantisEquipmentFlippoLighterMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - FlippoLighterMantis
 
 # Eyes
 
@@ -166,7 +193,7 @@
     - ClothingHeadHatFezMantisAiry
 
 - type: loadout
-  id: LoadoutPsionicMantisHeadMantisFezDark
+  id: LoadoutPsionicMantisHeadHoodMantisDark
   category: JobsEpistemicsPsionicMantis
   cost: 0
   exclusive: true
@@ -177,7 +204,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingHeadHatFezMantisDark
+    - ClothingHeadHoodMantisDark
 
 - type: loadout
   id: LoadoutPsionicMantisHeadMantisFezOrnate

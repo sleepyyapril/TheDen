@@ -62,6 +62,9 @@
       storagebase: !type:Container
         ents: []
       mantisknifeslot: !type:ContainerSlot {}
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingBeltBase

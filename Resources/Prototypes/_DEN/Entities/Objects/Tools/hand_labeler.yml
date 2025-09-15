@@ -2,7 +2,7 @@
   parent: HandLabeler
   id: HandLabelerMantis
   name: sigillator
-  description: "An ancient and mystical hand labeler made of glassy, dark stone, used by turning the wheels and giving something a good smack. You wouldn't be caught dead with that blue plastic monstrosity."
+  description: "An ancient and mystical hand labeler wrought from slabs of glassy, dark stone, used by turning the wheels and giving something a good smack. You wouldn't be caught dead with that blue plastic monstrosity."
   components:
     - type: Sprite
       sprite: _DEN/Objects/Tools/hand_labeler.rsi
@@ -32,17 +32,18 @@
       tags:
       - HandLabeler
       - MantisBeltEquip
-    - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material
+    - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does less damage than a crowbar (even to psychics)
       punish: false
       modifiers:
         coefficients:
           Blunt: 1.25
-          Holy: 1.2
+          Holy: 1.25
+    - type: LandAtCursor
     - type: DamageOtherOnHit # Donk
       damage:
-        types:
-          Blunt: 3.2 # 4 against psychic enemies
-          Holy: 0.8333 # 2 against supernatural enemies
+        types: # Thrown damage
+          Blunt: 4.8 # 6 against psychic enemies
+          Holy: 2.4 # 3 against supernatural psychic enemies (9 total)
     - type: MeleeWeapon # You can swing it like a weapon since it's a heavy, blunt object, but it's not very good
       attackRate: 1 # Aside from damage and attack rate, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
       range: 1.5
@@ -50,12 +51,12 @@
       heavyDamageBaseModifier: 1.2
       maxTargets: 3
       angle: 40
-      wideAnimationRotation: 0
+      wideAnimationRotation: 90
       soundHit:
-        path: /Audio/Weapons/bladeslice.ogg
+        path: /Audio/Weapons/block_metal1.ogg
       damage:
-        types: # Melee damage (intended more for roleplay than serious combat)
-          Blunt: 3.2 # 4 against psychic enemies
-          Holy: 0.8333 # 2 against supernatural enemies
+        types: # Melee damage
+          Blunt: 4.8 # 6 against psychic enemies
+          Holy: 2.4 # 3 against supernatural psychic enemies (9 total)
     - type: StaminaDamageOnHit
       damage: 0

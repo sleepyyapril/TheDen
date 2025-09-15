@@ -4,7 +4,7 @@
   parent: BaseItem
   id: LanternMantis
   name: mantis lantern
-  description: "A strange lantern housing a crystal pyramid. It creates rosy light from ambient noospheric energy."
+  description: "A strange lantern housing a crystal pyramid that draws energy from the noosphere. Its glow lingers in your vision, imprinting shapes you can't quite name."
   components:
     - type: HandheldLight
       addPrefix: true
@@ -40,8 +40,8 @@
     - type: PointLight
       enabled: false
       radius: 3
-      energy: 3 # 0.5 brighter than a normal lantern because it's an unusual color
-      color: "#ff4da6"
+      energy: 3 # 0.5 brighter than a normal lantern because it's a darker color
+      color: "#d9418d"
       netsync: false
     - type: Appearance
     - type: ToggleableVisuals
@@ -50,13 +50,15 @@
     - type: ItemToggle
       predictable: false
       soundActivate:
-        path: _DEN/Audio/Effects/crystalshimmer1.ogg
+        path: /Audio/_DEN/Effects/crystalshimmer1.ogg
         params:
           volume: -2
+          variation: 0.05
       soundDeactivate:
-        path: _DEN/Audio/Effects/crystalshimmer2.ogg
+        path: /Audio/_DEN/Effects/crystalshimmer2.ogg
         params:
           volume: -2
+          variation: 0.05
     - type: StealTarget
       stealGroup: LAMP # The moths are coming the moths are coming
     - type: Clothing
@@ -70,4 +72,28 @@
       tags:
       - Flashlight
       - MantisBeltEquip
-  - type: UnpoweredFlashlight
+    - type: UnpoweredFlashlight # Powered by the noosphere
+    - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does less damage than a crowbar (even to psychics)
+      punish: false
+      modifiers:
+        coefficients:
+          Blunt: 1.25
+          Holy: 1.25
+    - type: DamageOtherOnHit
+      damage:
+        types: # Thrown damage
+          Blunt: 4.8 # 6 against psychic enemies
+          Holy: 2.4 # 3 against supernatural psychic enemies (9 total)
+    - type: MeleeWeapon # You can swing it like a weapon since it's a crystal spike, but it's not very good
+      attackRate: 1 # Aside from damage and attack rate, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
+      range: 1.5
+      heavyRateModifier: 1.25
+      heavyDamageBaseModifier: 1.2
+      maxTargets: 3
+      angle: 40
+      soundHit:
+        path: /Audio/Weapons/block_metal1.ogg
+      damage:
+        types: # Melee damage
+          Blunt: 4.8 # 6 against psychic enemies
+          Holy: 2.4 # 3 against supernatural psychic enemies (9 total)

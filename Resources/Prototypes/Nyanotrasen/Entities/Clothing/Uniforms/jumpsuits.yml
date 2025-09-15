@@ -91,6 +91,9 @@
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/mantis_uniform.rsi
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/mantis_uniform.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -102,6 +105,9 @@
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mantis_jumpskirt.rsi
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mantis_jumpskirt.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingUniformBase

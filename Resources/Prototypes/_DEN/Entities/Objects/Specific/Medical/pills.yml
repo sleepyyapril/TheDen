@@ -132,3 +132,44 @@
       amount: 5
   - type: GuideHelp
     guides: [ Mindbreaking ]
+
+- type: entity
+  parent: PillCanisterMantis
+  id: PillCanisterMnemolithMantis
+  suffix: Mnemolith, 10 # Just an RP drug, so there can be ten of them
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
+    state: brass-pill_canister-mnemolith # A gray stripe so you don't accidentally mindbreak somebody
+  - type: Label
+    currentLabel: Mnemolith 10u
+  - type: StorageFill
+    contents:
+    - id: PillMnemolith
+      amount: 10
+  - type: GuideHelp
+    guides: [ Psionics ]
+
+- type: entity
+  name: mnemolith
+  parent: Pill
+  id: PillMnemolith
+  description: "Powdered and pressed mnemolith, used by psionic mantes to heighten their extrasensory perception. Exercise caution."
+  components:
+  - type: Sprite # Mnemolith colored pill
+    sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
+    state: pillmnemolith
+  - type: Item
+    size: Tiny
+    sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
+    state: pillmnemolith
+    heldPrefix: mnemolith
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Mnemolith
+          Quantity: 10
+  - type: GuideHelp
+    guides: [ Psionics ]

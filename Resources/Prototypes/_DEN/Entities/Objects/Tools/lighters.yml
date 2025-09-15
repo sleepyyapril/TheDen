@@ -1,0 +1,70 @@
+- type: entity
+  parent: FlippoLighter
+  id: FlippoLighterMantis
+  name: mantis lighter
+  description: "An ornate lighter sculpted from chips of glassy, dark stone, housing a crystal pyramid that draws energy from the noosphere. The flame gutters strangely, as if aware of what it burns."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Tools/lightermantis.rsi
+    layers:
+    - state: mantis_icon_base
+      map: ["base"]
+    - state: mantis_top
+      map: ["top"]
+      visible: false
+    - state: mantis_open
+      map: ["open"]
+      visible: false
+    - state: mantis_lighter_flame
+      map: ["flame"]
+      visible: false
+      shader: unshaded
+  - type: ItemToggle
+    predictable: false
+    soundActivate:
+      path: /Audio/_DEN/Effects/crystaltap3.ogg
+      params:
+        volume: -2
+        variation: 0.05
+    soundDeactivate:
+      path: /Audio/_DEN/Effects/crystaltap4.ogg
+      params:
+        volume: -2
+        variation: 0.05
+  - type: Item
+    sprite: _DEN/Objects/Tools/lightermantis.rsi
+    heldPrefix: mantis
+  - type: Welder
+    fuelConsumption: 0 # Powered by the noosphere
+    fuelLitCost: 0 # Powered by the noosphere
+    tankSafe: true
+  - type: ToggleableVisuals
+    spriteLayer: mantis_lighter_flame
+    inhandVisuals:
+      left:
+      - state: mantis-inhand-left-flame
+        shader: unshaded
+      right:
+      - state: mantis-inhand-right-flame
+        shader: unshaded
+  - type: PointLight
+    color: "#4dc4ff"
+  - type: LandAtCursor
+  - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does very little damage (even to psychics)
+    punish: false
+    modifiers:
+      coefficients:
+        Blunt: 1.25
+        Holy: 1.25
+        Heat: 1.25
+  - type: ItemToggleMeleeWeapon
+    activatedDamage:
+      types:
+          Heat: 1.6 # 2 against psychic enemies
+          Holy: 0.8 # 1 against supernatural psychic enemies (3 total, if lit)
+  - type: MeleeWeapon
+    wideAnimationRotation: 180
+    damage:
+      types:
+        Blunt: 1.6 # 2 against psychic enemies
+        Holy: 0.8 # 1 against supernatural psychic enemies (3 total, if lit)

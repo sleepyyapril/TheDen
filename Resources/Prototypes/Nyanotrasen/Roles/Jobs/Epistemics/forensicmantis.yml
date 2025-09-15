@@ -61,7 +61,7 @@
       powersToAdd:
         - MetapsionicPower
         - TelepathyPower
-        - PsychognomyPower # TheDen - The psychic monitor should get a little extra information for roleplay
+        - PsychognomyPower # TheDen - The psychic monitor should get a little extra information for roleplay, even if it's useless
         - AssayPower
 
 - type: startingGear
@@ -72,10 +72,10 @@
     jumpsuit: ClothingUniformJumpsuitMantisDark # TheDen
     back: ClothingBackpackMantisFilled
     shoes: ClothingShoesBootsMantisDark # TheDen
-    head: ClothingHeadHatFezMantisDark # TheDen
+    head: ClothingHeadHoodMantisDark # TheDen
     id: ForensicMantisPDA
-    eyes: ClothingEyesGlassesSunglasses
-    ears: ClothingHeadsetScienceDark # TheDen
+    # eyes: ClothingEyesGlassesSunglasses # TheDen
+    ears: ClothingHeadsetMantis # TheDen
     gloves: ClothingHandsGlovesMantisDark # TheDen
     outerClothing: ClothingOuterCoatMantisAiry # TheDen
     belt: ClothingBeltMantisDark # TheDen

@@ -15,3 +15,6 @@
     sprite: Nyanotrasen/Clothing/Shoes/Boots/mantis_boots.rsi
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Shoes/Boots/mantis_boots.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon

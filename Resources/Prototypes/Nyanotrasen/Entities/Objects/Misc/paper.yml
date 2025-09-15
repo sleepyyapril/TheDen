@@ -22,6 +22,7 @@
       path: /Audio/_DEN/Effects/crystaltap2.ogg
       params:
         volume: -2
+        variation: 0.05
         maxDistance: 10 # Longer range to be spooky
   - type: Sprite
     sprite: Nyanotrasen/Objects/Misc/bureaucracy.rsi

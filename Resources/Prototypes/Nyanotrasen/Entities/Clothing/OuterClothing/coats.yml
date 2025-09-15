@@ -29,6 +29,9 @@
   - type: TemperatureProtection
     heatingCoefficient: 0.3
     coolingCoefficient: 0.3
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: [ ClothingOuterStorageToggleableBase, ClothingUniformFoldableBase ]

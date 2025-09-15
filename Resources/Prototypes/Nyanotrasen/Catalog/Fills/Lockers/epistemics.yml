@@ -31,9 +31,8 @@
       - id: SyringeMantis # TheDen
       - id: ChemistryEmptyBottleMantis # TheDen
       - id: HandLabelerMantis # TheDen
-      - id: CigPackMantis # TheDen
       # Spare clothes
-      - id: ClothingHeadHatFezMantisDark
+      - id: ClothingHeadHoodMantisDark
       - id: ClothingOuterWinterCoatMantisDark
       # Insulative headgear
       - id: ClothingHeadHatFezMantisInsulative # TheDen - Functionally identical to the tinfoil hat

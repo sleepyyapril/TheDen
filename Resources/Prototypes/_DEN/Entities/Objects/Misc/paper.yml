@@ -175,53 +175,36 @@
   - type: StorageFill
     contents: # Contains 20 mantis papers you can use to write down names of psychics, or warnings, or psychic therapy notes or whatever, with the stamp in the center
       - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
+        amount: 10
       - id: RubberStampMantis
       - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
-      - id: PaperMantis
+        amount: 10
 
 - type: entity
   parent: PenEmbeddable
   id: PenMantis # The most mechanically complex pen in the world, all just for style
   name: mantis stylus
-  description: "A writing tool carved from glassy, dark stone. Do not accidentally poke yourself with it."
+  description: "A writing tool chiseled from a spike of glassy, dark stone. Do not accidentally poke yourself with it."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Misc/bureaucracy.rsi
     state: pen_mantis
   - type: Item
     heldPrefix: pen_mantis
-  - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material
+  - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does very little damage unless thrown
     punish: false
     modifiers:
       coefficients:
         Piercing: 1.25
-        Holy: 1.2
+        Holy: 1.25
   - type: DamageOtherOnHit
     damage:
-      types: # Throwing damage (but you'll get it thrown back at you, and you're psychic)
+      types: # Thrown damage (but you'll get it thrown back at you, and you're psychic)
         Piercing: 6.4 # 8 against psychic enemies
-        Holy: 1.6667 # 2 against supernatural enemies
+        Holy: 3.2 # 4 against supernatural psychic enemies (12 total)
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
+    removalTime: 2
   - type: MeleeWeapon # You can swing it like a weapon since it's a crystal spike, but it's not very good
     attackRate: .6666 # Aside from damage, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
     range: 1.5
@@ -229,13 +212,13 @@
     heavyDamageBaseModifier: 1.2
     maxTargets: 3
     angle: 40
-    wideAnimationRotation: -45
+    wideAnimationRotation: 45
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
     damage:
       types: # Melee damage (intended more for roleplay than serious combat)
-        Piercing: 2 # 2.5 against psychic enemies
-        Holy: 1.25 # 1.5 against supernatural enemies
+        Piercing: 1.6 # 2 against psychic enemies
+        Holy: 0.8 # 1 against supernatural psychic enemies (4 total)
   - type: StaminaDamageOnHit
     damage: 0
   - type: PhysicalComposition
@@ -246,6 +229,7 @@
       path: /Audio/_DEN/Effects/crystaltap1.ogg
       params:
         volume: -2
+        variation: 0.05
         maxDistance: 10 # Longer range to be spooky
   - type: UseDelay
     delay: 2
@@ -262,7 +246,7 @@
   parent: Paper
   id: PaperMantis
   name: ledgerstone # It's a spooky pun - it comes from the mantis ledger, but a ledgerstone is a gravestone
-  description: "A sharp, durable page taken from the mantis ledger. You feel watched."
+  description: "A sharp, durable page taken from the mantis ledger. Dark stone powder sparkles within its surface. You feel watched."
   components:
     - type: Item
       heldPrefix: paper_mantis
@@ -296,16 +280,23 @@
       canExtinguish: true
       damage:
         types:
-          Heat: 0.1 # Time to think about what you did (also the fire is pretty)
+          Heat: 0.2 # Time to think about what you did (and also the fire is pretty)
     - type: FireVisuals
       sprite: _DEN/Effects/fire.rsi
       normalState: mantispagefire
-      lightColor: DeepSkyBlue
+      lightColor: "#4dc4ff"
+    - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made with the same material, but it does almost no damage (even to psychics)
+      punish: false
+      modifiers:
+        coefficients:
+          Piercing: 1.25
+          Holy: 1.25
     - type: LandAtCursor
     - type: DamageOtherOnHit
       damage:
-        types:
-          Piercing: 1 # Not intended to be dangerous
+        types: # Thrown damage
+          Piercing: 0.8 # 1 against psychic enemies
+          Holy: 0.8 # 1 against supernatural psychic enemies (2 total)
     - type: EmbeddableProjectile
       sound: /Audio/Weapons/pierce.ogg # Just a dull thunk since it does almost no damage
       removalTime: 2

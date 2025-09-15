@@ -21,3 +21,13 @@
     sprite: _DEN/Clothing/Neck/Cloaks/mantis_cloak_dark.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Neck/Cloaks/mantis_cloak_dark.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: Foldable
+    canFoldInsideContainer: true
+    unfoldVerbText: unfold-verb-clothing-cloak
+    foldVerbText: fold-verb-clothing-cloak
+  - type: FoldableClothing
+    foldedEquippedPrefix: folded
+

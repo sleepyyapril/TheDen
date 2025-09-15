@@ -21,3 +21,6 @@
     sprite: _DEN/Clothing/Neck/Mantles/mantis_cloak_airy.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Neck/Mantles/mantis_cloak_airy.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
