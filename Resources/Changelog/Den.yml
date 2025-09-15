@@ -12163,3 +12163,10 @@ Entries:
   id: 1181
   time: '2025-09-12T18:34:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1681
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added Submarine back to the map rotation
+  id: 1182
+  time: '2025-09-15T03:49:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1738
