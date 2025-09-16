@@ -12186,3 +12186,10 @@ Entries:
   id: 1184
   time: '2025-09-16T08:53:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1751
+- author: Hederadaii
+  changes:
+    - type: Add
+      message: Added two new plurality flags.
+  id: 1185
+  time: '2025-09-16T08:54:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1747
