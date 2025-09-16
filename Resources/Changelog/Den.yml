@@ -12226,3 +12226,10 @@ Entries:
   id: 1188
   time: '2025-09-16T08:56:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1741
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: The blinking emote now has slight pitch variance
+  id: 1189
+  time: '2025-09-16T09:00:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1736
