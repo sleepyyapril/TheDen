@@ -12177,3 +12177,12 @@ Entries:
   id: 1183
   time: '2025-09-16T02:51:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1752
+- author: Oxdeception
+  changes:
+    - type: Tweak
+      message: >-
+        The AAC tablet will no longer break your vow of silence for you. You'll
+        still have to do that in order to use it though!
+  id: 1184
+  time: '2025-09-16T08:53:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1751
