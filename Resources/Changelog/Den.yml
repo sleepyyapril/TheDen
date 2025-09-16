@@ -12233,3 +12233,12 @@ Entries:
   id: 1189
   time: '2025-09-16T09:00:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1736
+- author: oberonics
+  changes:
+    - type: Fix
+      message: You can now attack with the Kinetic Claw.
+    - type: Fix
+      message: The Kinetic Machete's block function now works.
+  id: 1190
+  time: '2025-09-16T09:01:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1723
