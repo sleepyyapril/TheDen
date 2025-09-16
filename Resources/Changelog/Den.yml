@@ -12207,3 +12207,22 @@ Entries:
   id: 1187
   time: '2025-09-16T08:56:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1745
+- author: Kelaris
+  changes:
+    - type: Add
+      message: Added gloves and a CentComm disabler to Magistrate loadout options.
+    - type: Add
+      message: >-
+        Added a few stamps, gavel, document printer, whistle, and reinforced
+        document case to Magistrate's locker.
+    - type: Tweak
+      message: >-
+        Tweaked the Magistrate headset to have more radio channels and provide
+        flashbang protection.
+    - type: Tweak
+      message: >-
+        Made the reinforced document case slightly larger, can hold folders, and
+        now protects its contents better.
+  id: 1188
+  time: '2025-09-16T08:56:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1741
