@@ -14,6 +14,7 @@
       contents:
       # - id: BoxForensicPad # DeltaV - Mantis is no longer a Detective
       # - id: HandLabeler # TheDen - They have their own bureaucracy tools now
-      - id: PillMindbreakerToxin
+      # - id: PillMindbreakerToxin # TheDen - Just get it from the loadout, we don't need extra mindbreaker around
       # - id: BoxFolderGrey # TheDen - Their folder is in their locker now
       # - id: RubberStampMantis # TheDen - It's in the folder now
+      # TheDen - Fuck it, fuck my life, I'm making them new backpacks

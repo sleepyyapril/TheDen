@@ -47,4 +47,51 @@
     - 0,0,5,4
     whitelist:
       tags:
-        - CanPilot # ONLY carries player characters, nothing else! 
+        - CanPilot # ONLY carries player characters, nothing else!
+
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackMantis
+  name: mantis backpack
+  description: "A low-profile sling backpack for the psionic mantis, signified by the Greek psi in brass."
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Back/Backpacks/mantis.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelMantis
+  name: mantis duffel bag
+  description: "A low-profile duffel bag with a braided handle for the psionic mantis. It seems the designers couldn't settle on an ornament for this one..."
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Back/Duffels/mantis.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelMantisPurse # Same storage as the satchel but covering up your pretty clothes with a bag is sad
+  name: mantis purse
+  description: "A low-profile handbag for the psionic mantis, marked with brass eyes on both sides. Easily hidden under a cloak."
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Back/Satchels/mantispurse.rsi
+
+- type: entity
+  parent: ClothingBackpackMessengerBase
+  id: ClothingBackpackMessengerMantis
+  name: mantis messenger bag
+  description: "A low-profile messenger bag for the psionic mantis, decorated with brass in the shape of a watchful eye."
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Back/Messenger/mantis.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelMantisPurse
+  name: mantis purse
+  description: "A low-profile satchel for the psionic mantis,"
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Back/Satchels/mantispurse.rsi
+
+

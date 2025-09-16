@@ -6,10 +6,20 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 # Psionic Mantis
-#- type: characterItemGroup
-#  id: LoadoutPsionicMantisBackpacks
-#  maxItems: 1
-#  items:
+- type: characterItemGroup
+  id: LoadoutPsionicMantisBackpacks
+  maxItems: 1
+  items:
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisBackpackMantis
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisBackpackDuffelMantis
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisBackpackSatchelMantisPurse
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisBackpackMessengerMantis
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisBackpackSatchelMantis
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisBelt
@@ -24,10 +34,14 @@
     - type: loadout # TheDen
       id: LoadoutPsionicMantisBeltMantisOrnate
 
-#- type: characterItemGroup
-#  id: LoadoutPsionicMantisEars
-#  maxItems: 1
-#  items:
+- type: characterItemGroup
+  id: LoadoutPsionicMantisEars
+  maxItems: 1
+  items:
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisHeadsetMantis
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisHeadsetAltMantis
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisEquipment

@@ -1,5 +1,75 @@
 # Backpacks
 
+- type: loadout
+  id: LoadoutPsionicMantisBackpackMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingBackpackMantis
+
+- type: loadout
+  id: LoadoutPsionicMantisBackpackDuffelMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingBackpackDuffelMantis
+
+- type: loadout
+  id: LoadoutPsionicMantisBackpackSatchelMantisPurse
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingBackpackSatchelMantisPurse
+
+- type: loadout
+  id: LoadoutPsionicMantisBackpackMessengerMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingBackpackMessengerMantis
+
+- type: loadout
+  id: LoadoutPsionicMantisBackpackSatchelMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingBackpackSatchelMantis
+
 # Belt
 
 - type: loadout
@@ -45,6 +115,34 @@
     - ClothingBeltMantisOrnate
 
 # Ears
+
+- type: loadout
+  id: LoadoutPsionicMantisHeadsetMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEars
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingHeadsetMantis
+
+- type: loadout
+  id: LoadoutPsionicMantisHeadsetAltMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEars
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingHeadsetAltMantis
 
 # Equipment
 

@@ -2,7 +2,7 @@
   parent: ClothingHeadset
   id: ClothingHeadsetMantis
   name: mantis headset
-  description: "A dark headset with a burgundy stripe, marking it as the mantis's. Still only connects to the Epistemics Cult."
+  description: "A dark headset with a burgundy stripe, marking it as the mantis's. It has a direct line to the Epistemics Cult."
   components:
   - type: ContainerFill
     containers:
@@ -13,3 +13,15 @@
     sprite: _DEN/Clothing/Ears/Headsets/mantis.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Ears/Headsets/mantis.rsi
+
+- type: entity
+  parent: ClothingHeadsetMantis
+  id: ClothingHeadsetAltMantis
+  name: mantis earring
+  description: "An ornate earring crowned with a glaring eye. It functions as an epistemics headset despite its unsettling design."
+  components:
+  - type: Sprite
+    state: icon_alt
+  - type: Clothing
+    equippedPrefix: alt
+
