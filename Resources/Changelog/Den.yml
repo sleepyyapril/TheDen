@@ -12242,3 +12242,14 @@ Entries:
   id: 1190
   time: '2025-09-16T09:01:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1723
+- author: Eightballll
+  changes:
+    - type: Add
+      message: Added in-hand sprites to various cartons, cups and sodas!
+    - type: Add
+      message: Added in-hand sprites to some burgers! Burgers > Hot dogs.
+    - type: Tweak
+      message: The Changeling Sting's animation is now more animation-y.
+  id: 1191
+  time: '2025-09-16T09:01:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1721
