@@ -12299,3 +12299,10 @@ Entries:
   id: 1197
   time: '2025-09-17T12:29:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1755
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: Added a kitsune mask. Obtainable through loadouts and the autodrobe.
+  id: 1198
+  time: '2025-09-17T12:30:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1712
