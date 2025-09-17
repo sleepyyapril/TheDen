@@ -73,6 +73,11 @@
     - Diona # Den
     - Harpy # Den
   components:
+    - type: MindShield # Den
+    - type: AntagImmune # Den
+    - type: AutoImplant # Den
+      implants:
+      - BluespaceLifelineImplant
     - type: GhostRole
       name: ghost-role-information-Death-Squad-name
       description: ghost-role-information-Death-Squad-description
@@ -107,6 +112,10 @@
     - Resomi # Den
   components:
     - type: MindShield
+    - type: AntagImmune # Den
+    - type: AutoImplant # Den
+      implants:
+      - BluespaceLifelineImplant
     - type: GhostRole
       name: ghost-role-information-ert-leader-name
       description: ghost-role-information-ert-leader-description
@@ -159,6 +168,10 @@
   parent: ERTLeader
   components:
     - type: MindShield
+    - type: AntagImmune # Den
+    - type: AutoImplant # Den
+      implants:
+      - BluespaceLifelineImplant
     - type: GhostRole
       name: ghost-role-information-ert-chaplain-name
       description: ghost-role-information-ert-chaplain-description
@@ -212,6 +225,10 @@
   parent: ERTLeader
   components:
     - type: MindShield
+    - type: AntagImmune # Den
+    - type: AutoImplant # Den
+      implants:
+      - BluespaceLifelineImplant
     - type: GhostRole
       name: ghost-role-information-ert-janitor-name
       description: ghost-role-information-ert-janitor-description
@@ -264,6 +281,10 @@
   parent: ERTLeader
   components:
     - type: MindShield
+    - type: AntagImmune # Den
+    - type: AutoImplant # Den
+      implants:
+      - BluespaceLifelineImplant
     - type: GhostRole
       name: ghost-role-information-ert-engineer-name
       description: ghost-role-information-ert-engineer-description
@@ -316,6 +337,10 @@
   parent: ERTLeader
   components:
     - type: MindShield
+    - type: AntagImmune # Den
+    - type: AutoImplant # Den
+      implants:
+      - BluespaceLifelineImplant
     - type: GhostRole
       name: ghost-role-information-ert-security-name
       description: ghost-role-information-ert-security-description
@@ -368,6 +393,10 @@
   parent: ERTLeader
   components:
     - type: MindShield
+    - type: AntagImmune # Den
+    - type: AutoImplant # Den
+      implants:
+      - BluespaceLifelineImplant
     - type: GhostRole
       name: ghost-role-information-ert-medical-name
       description: ghost-role-information-ert-medical-description
@@ -435,6 +464,10 @@
     - Kobold # Shitmed Change
   components:
     - type: MindShield
+    - type: AntagImmune # Den
+    - type: AutoImplant # Den
+      implants:
+      - BluespaceLifelineImplant
     - type: Loadout
       prototypes: [CBURNGear]
     - type: GhostRole
@@ -469,6 +502,10 @@
     - Kobold # Shitmed Change
   components:
     - type: MindShield
+    - type: AntagImmune # Den
+    - type: AutoImplant # Den
+      implants:
+      - BluespaceLifelineImplant
     - type: GhostRole
       name: ghost-role-information-centcom-official-name
       description: ghost-role-information-centcom-official-description
