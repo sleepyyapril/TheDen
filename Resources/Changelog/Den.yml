@@ -12292,3 +12292,10 @@ Entries:
   id: 1196
   time: '2025-09-17T07:52:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1739
+- author: Jakumba
+  changes:
+    - type: Remove
+      message: Removed Corgi Meat Steal Objective for Traitors
+  id: 1197
+  time: '2025-09-17T12:29:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1755
