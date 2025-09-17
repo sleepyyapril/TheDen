@@ -12276,3 +12276,10 @@ Entries:
   id: 1194
   time: '2025-09-17T04:43:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1757
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: Fixed the date on the pda to use the current year!
+  id: 1195
+  time: '2025-09-17T07:12:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1759
