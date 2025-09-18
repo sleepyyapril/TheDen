@@ -2,7 +2,7 @@
   parent: BaseSyringe
   id: SyringeMantis
   name: brass syringe
-  description: "An antique brass syringe for transferring fluids. Questionably sterile."
+  description: "A brass syringe with an eidolite barrel. Questionably sterile."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
@@ -24,6 +24,33 @@
     fillBaseName: syringe
     inHandsMaxFillLevels: 3
     inHandsFillBaseName: -fill-
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic # Metal shell
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak # There's still a crystal interior
+          params:
+            volume: -4
+      - !type:SpillBehavior { }
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialEidolite1: # Glowy little crystal pyramid, and the brass is destroyed
+            min: 1
+            max: 1
+        transferForensics: true
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: PhysicalComposition
+    materialComposition:
+      Brass: 100 # 1 sheet
+      EdoliteOre1: 1
   - type: Tag
     tags:
     - Syringe
@@ -33,7 +60,7 @@
   parent: PillCanister
   id: PillCanisterMantis
   name: brass pill canister
-  description: "An antique pill bottle with a small glass window."
+  description: "A brass pill bottle with an eidolite window."
   components:
   - type: Item
     size: Tiny
@@ -42,10 +69,6 @@
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
     state: brass-pill_canister
-  - type: Tag
-    tags:
-      - PillCanister
-      - MantisBeltEquip
   - type: Storage
     grid:
     - 0,0,4,1
@@ -55,3 +78,34 @@
     storageInsertSound: /Audio/Effects/pill_insert.ogg
     storageRemoveSound: /Audio/Effects/pill_remove.ogg
   - type: Dumpable
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic # Metal shell
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak # There's still a crystal interior
+          params:
+            volume: -4
+      - !type:SpillBehavior { }
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialEidolite1: # Glowy little crystal pyramid, and the brass is destroyed
+            min: 1
+            max: 1
+        transferForensics: true
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: PhysicalComposition
+    materialComposition:
+      Brass: 100 # 1 sheet
+      EdoliteOre1: 1
+  - type: Tag
+    tags:
+      - PillCanister
+      - MantisBeltEquip

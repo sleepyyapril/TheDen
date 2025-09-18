@@ -2,7 +2,7 @@
   parent: FlippoLighter
   id: FlippoLighterMantis
   name: mantis lighter
-  description: "An ornate lighter sculpted from chips of glassy, dark stone, housing a crystal pyramid that draws energy from the noosphere. The flame gutters strangely, as if aware of what it burns."
+  description: "A glossy lighter sculpted from chips of mnemolith, housing an eidolite pyramid that draws energy from the noosphere. The flame gutters strangely, as if aware of what it burns."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Tools/lightermantis.rsi

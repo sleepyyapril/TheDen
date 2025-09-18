@@ -1,1 +1,1 @@
-reagent-physical-desc-mnemolith = psychotaxic
+reagent-physical-desc-mnemolith = noetic

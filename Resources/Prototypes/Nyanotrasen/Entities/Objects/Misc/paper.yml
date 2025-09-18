@@ -9,7 +9,7 @@
   parent: RubberStampBase
   id: RubberStampMantis
   suffix: DO NOT MAP # TheDen - It's in their locker now, rather than their bags, since it's stealable for the stamp objective
-  description: "A heavy seal for marking important documents, made of polished brass." # TheDen
+  description: "A heavy seal belonging to the mantis, made of polished brass with an eidolite tip." # TheDen
   components:
   - type: Item
     sprite: Nyanotrasen/Objects/Misc/bureaucracy.rsi

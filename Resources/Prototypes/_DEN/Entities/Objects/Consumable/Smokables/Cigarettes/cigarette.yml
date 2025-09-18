@@ -11,17 +11,14 @@
   - type: SolutionContainerManager
     solutions:
       smokable:
-        maxVol: 20
+        maxVol: 30
         reagents:
           - ReagentId: Nicotine
             Quantity: 10
-          - ReagentId: Mnemolith
-            Quantity: 10
+          - ReagentId: MnemolithReagent
+            Quantity: 10 # Controlled dosing, so 10 units
   - type: Extractable
-    juiceSolution:
-      reagents:
-      - ReagentId: Mnemolith
-        Quantity: 10
+    grindableSolutionName: smokable
   - type: Tag
     tags:
       - Cigarette

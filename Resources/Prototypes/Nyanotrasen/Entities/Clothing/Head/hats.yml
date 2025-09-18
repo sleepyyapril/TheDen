@@ -75,7 +75,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadTinfoil
   name: tinfoil hat
-  description: Protects you from all manner of psionic assaults.
+  description: Pprotects you from all manner of psionic assaults. # TheDen
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/tinfoil.rsi
@@ -110,7 +110,7 @@
   parent: ClothingHeadTinfoil
   id: ClothingHeadCage
   name: insulative headcage
-  description: Psionically insulates whoevers head is inside it. It takes time to resist out of.
+  description: A mu-metal cage that psionically insulates whoever's head is inside it. It takes time to remove. # TheDen
   components:
   - type: Item # TheDen
     sprite: Nyanotrasen/Clothing/Head/Hats/cage.rsi
@@ -135,7 +135,7 @@
   parent: ClothingHeadTinfoil
   id: ClothingHeadHelmetInsulated
   name: insulative skullcap
-  description: Psionically insulates whoevers head is inside it. It has some protection from physical damage.
+  description:  A mu-metal helmet that psionically insulates whoevers head is inside it. It has some protection from physical damage, too. # TheDen
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Helmets/insulative_skullcap.rsi

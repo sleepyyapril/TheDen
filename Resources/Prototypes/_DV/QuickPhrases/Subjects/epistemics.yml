@@ -82,9 +82,9 @@
   text: phrase-psionic
 
 - type: quickPhrase
-  id: LotophagolOilPhrase
+  id: LotophagoiOilPhrase # TheDen - Was "LotophagolOilPhrase" but the Greek word is lotophage (plural lotophagoi), lotus-eaters (not player-facing, just documenting)
   parent: BaseEpistemicsSubjectPhrase
-  text: phrase-lotophagol-oil
+  text: phrase-lotophagoi-oil # TheDen - Was "phrase-lotophagol-oil"
 
 - type: quickPhrase
   id: MindbreakPhase

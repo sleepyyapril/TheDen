@@ -169,7 +169,7 @@
       food:
         maxVol: 10
         reagents:
-        - ReagentId: Mnemolith
-          Quantity: 10
+        - ReagentId: MnemolithReagent
+          Quantity: 10 # Controlled dosing, so 10 units
   - type: GuideHelp
     guides: [ Psionics ]

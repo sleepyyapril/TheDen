@@ -11,7 +11,7 @@
   parent: CombatKnife
   id: AntiPsychicKnife
   name: athame # TheDen - Anti-Psychic Knife sounded a little too plain considering the rest of their gear
-  description: "A ritual knife carved from a crescent shard of glassy, dark stone, made to kill psychics and other supernatural entities. Do not accidentally cut yourself with it." # TheDen
+  description: "A ritual knife carved from a crescent shard of mnemolith, made to kill psychics and other supernatural entities. Do not accidentally cut yourself with it." # TheDen
   components:
   - type: MeleeWeapon
     attackRate: .6666

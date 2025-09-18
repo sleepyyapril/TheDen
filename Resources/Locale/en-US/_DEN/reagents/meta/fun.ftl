@@ -1,2 +1,2 @@
 reagent-name-mnemolith = mnemolith
-reagent-desc-mnemolith = A cryptic mineral suspension that etches itself into thought. Exposure causes unsettling awareness of unseen presences, as if the noosphere itself were staring back.
+reagent-desc-mnemolith = A suspension of mnemolith dust. Exposure causes increased awareness of the noosphere. Potential psychological impact aside, there are no known lasting effects.

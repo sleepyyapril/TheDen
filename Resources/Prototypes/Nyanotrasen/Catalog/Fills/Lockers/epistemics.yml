@@ -31,9 +31,11 @@
       - id: SyringeMantis # TheDen
       - id: ChemistryEmptyBottleMantis # TheDen
       - id: HandLabelerMantis # TheDen
-      # Spare clothes
-      - id: ClothingHeadHoodMantisDark
-      - id: ClothingOuterWinterCoatMantisDark
+      - id: MaterialEidolite1 # TheDen - Glowy jewel for the mystic for fun
+      # Spare clothes in case you change to this job
+      - id: ClothingHeadHoodMantisDark # TheDen
+      - id: ClothingOuterWinterCoatMantisDark # TheDen
+      - id: ClothingBackpackDuffelMantis # TheDen
       # Insulative headgear
       - id: ClothingHeadHatFezMantisInsulative # TheDen - Functionally identical to the tinfoil hat
       - id: ClothingHeadCage

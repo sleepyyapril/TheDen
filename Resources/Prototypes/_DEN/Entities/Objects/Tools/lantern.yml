@@ -1,10 +1,8 @@
-
-
 - type: entity
   parent: BaseItem
   id: LanternMantis
   name: mantis lantern
-  description: "A strange lantern housing a crystal pyramid that draws energy from the noosphere. Its glow lingers in your vision, imprinting shapes you can't quite name."
+  description: "An ornate lantern housing an eidolite pyramid that draws energy from the noosphere. Its glow lingers in your vision, imprinting shapes you can't quite name."
   components:
     - type: HandheldLight
       addPrefix: true
