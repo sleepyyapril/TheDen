@@ -63,4 +63,7 @@
   id: MantisBeltEquip
 
 - type: Tag
+  id: MantisBoxEquip
+
+- type: Tag
   id: MantisFolderEquip

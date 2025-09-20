@@ -72,9 +72,9 @@
       powerRollMultiplier: 3
     - type: InnatePsionicPowers
       powersToAdd:
-        - TelepathyPower
-        - HealingWordPower
-        - SummonRemiliaPower
+        - TelepathyPower # Doesn't take a power slot
+        - HealingWordPower # Takes 1 power slot
+        - SummonRemiliaPower # Doesn't take a power slot
 
 - type: startingGear
   id: ChaplainGear

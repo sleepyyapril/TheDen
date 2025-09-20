@@ -68,3 +68,7 @@
       types:
         Blunt: 1.6 # 2 against psychic enemies
         Holy: 0.8 # 1 against supernatural psychic enemies (3 total, if lit)
+  - type: Tag
+    tags:
+    - MantisBeltEquip
+    - MantisBoxEquip # Fits in the candle box

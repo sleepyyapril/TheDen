@@ -111,9 +111,9 @@
       - type: CommandStaff
       - type: InnatePsionicPowers
         powersToAdd:
-          - DispelPower
-          - MetapsionicPower
-          - TelepathyPower
+          - DispelPower # Takes 1 power slot
+          - MetapsionicPower # Takes 1 power slot
+          - TelepathyPower # Doesn't take a power slot
   afterLoadoutSpecial:
   - !type:ModifyEnvirosuitSpecial
     charges: 8

@@ -106,7 +106,7 @@
   components:
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: brass-pill_canister-crypto # A green stripe so you don't accidentally mindbreak somebody
+    state: mantis-pill_canister-crypto # A green stripe so you don't accidentally mindbreak somebody
   - type: Label
     currentLabel: Cryptobiolin 20u
   - type: StorageFill
@@ -123,7 +123,7 @@
   components:
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: brass-pill_canister-mindbreaker # A blue stripe so you don't accidentally mindbreak somebody
+    state: mantis-pill_canister-mindbreaker # A blue stripe so you don't accidentally mindbreak somebody
   - type: Label
     currentLabel: Mindbreaker Toxin 20u
   - type: StorageFill
@@ -140,7 +140,7 @@
   components:
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: brass-pill_canister-mnemolith # A gray stripe so you don't accidentally mindbreak somebody
+    state: mantis-pill_canister-mnemolith # A gray stripe so you don't accidentally mindbreak somebody
   - type: Label
     currentLabel: Mnemolith 10u
   - type: StorageFill

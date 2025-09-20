@@ -63,8 +63,8 @@
     - type: Psionic
     - type: InnatePsionicPowers
       powersToAdd:
-        - XenoglossyPower
-        - TelepathyPower
+        - XenoglossyPower # Doesn't take a power slot
+        - TelepathyPower # Doesn't take a power slot
 
 
 - type: startingGear

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottleMantis
-  name: brass bottle
-  description: "An eidolite bottle in a durable brass shell. Useful for your rituals."
+  name: electrum bottle
+  description: "An eidolite bottle in a durable electrum shell. Useful for your rituals."
   components:
   - type: Tag
     tags:
@@ -11,17 +11,17 @@
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/bottle.rsi
     layers:
-      - state: brass-bottle
-      - state: brass-bottle-1
+      - state: mantis-bottle
+      - state: mantis-bottle-1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: SolutionContainerVisuals
     maxFillLevels: 6
-    fillBaseName: brass-bottle-
+    fillBaseName: mantis-bottle-
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/bottle.rsi
-    heldPrefix: brass
+    heldPrefix: mantis
   - type: DamageOnLand
     damage:
       types:
@@ -52,7 +52,7 @@
       - !type:SpillBehavior { }
       - !type:SpawnEntitiesBehavior
         spawn:
-          MaterialEidolite1: # Glowy little crystal pyramid, and the brass is destroyed
+          MaterialEidolite1:
             min: 1
             max: 1
         transferForensics: true
@@ -60,5 +60,4 @@
         acts: [ "Destruction" ]
   - type: PhysicalComposition
     materialComposition:
-      Brass: 100 # 1 sheet
-      EdoliteOre1: 1
+      MaterialEidolite1: 1

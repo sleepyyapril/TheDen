@@ -941,13 +941,13 @@
     - state: pants-icon
       color: "#660f3b"
     - state: belt-icon
-      color: "#431b57"
+      color: "#441b59"
     - state: beltbuckle-icon
-      color: "#a68943"
+      color: "#ffd069"
     - state: accent-icon
-      color: "#630091"
+      color: "#642d80"
     - state: buttons-icon
-      color: "#917030"
+      color: "#dca455"
   - type: Item
     inhandVisuals:
       left:
@@ -956,26 +956,26 @@
       - state: pants-inhand-left
         color: "#660f3b"
       - state: belt-inhand-left
-        color: "#431b57"
+        color: "#441b59"
       - state: beltbuckle-inhand-left
-        color: "#a68943"
+        color: "#ffd069"
       - state: accent-inhand-left
-        color: "#630091"
+        color: "#642d80"
       - state: buttons-inhand-left
-        color: "#917030"
+        color: "#dca455"
       right:
       - state: inhand-right
         color: "#2e2933"
       - state: pants-inhand-right
         color: "#660f3b"
       - state: belt-inhand-right
-        color: "#431b57"
+        color: "#441b59"
       - state: beltbuckle-inhand-right
-        color: "#a68943"
+        color: "#ffd069"
       - state: accent-inhand-right
-        color: "#630091"
+        color: "#642d80"
       - state: buttons-inhand-right
-        color: "#917030"
+        color: "#dca455"
   - type: Clothing
     clothingVisuals:
       jumpsuit:
@@ -984,17 +984,17 @@
       - state: pants-equipped-INNERCLOTHING
         color: "#660f3b"
       - state: belt-equipped-INNERCLOTHING
-        color: "#431b57"
+        color: "#441b59"
       - state: beltbuckle-equipped-INNERCLOTHING
-        color: "#a68943"
+        color: "#ffd069"
       - state: accentalt-equipped-INNERCLOTHING
-        color: "#630091"
+        color: "#642d80"
       - state: loweraccent-equipped-INNERCLOTHING
-        color: "#630091"
+        color: "#642d80"
       - state: buttons-equipped-INNERCLOTHING
-        color: "#917030"
+        color: "#dca455"
       - state: soles-equipped-INNERCLOTHING
-        color: "#630091"
+        color: "#642d80"
 
 - type: entity
   parent: ClothingUniformEnvirosuitCustomBase

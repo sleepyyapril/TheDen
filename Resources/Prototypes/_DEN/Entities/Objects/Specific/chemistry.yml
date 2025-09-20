@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSyringe
   id: SyringeMantis
-  name: brass syringe
-  description: "A brass syringe with an eidolite barrel. Questionably sterile."
+  name: electrum syringe
+  description: "An electrum syringe with an eidolite barrel. Naturally antimicrobial."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
@@ -10,15 +10,15 @@
       - state: syringe1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
-      - state: brass-syringe_base0
+      - state: mantis-syringe_base0
         map: ["enum.SolutionContainerLayers.Base"]
   - type: Icon
     sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
-    state: "brass-syringe_base0"
+    state: "mantis-syringe_base0"
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
-    heldPrefix: brass
+    heldPrefix: mantis
   - type: SolutionContainerVisuals
     maxFillLevels: 2
     fillBaseName: syringe
@@ -41,7 +41,7 @@
       - !type:SpillBehavior { }
       - !type:SpawnEntitiesBehavior
         spawn:
-          MaterialEidolite1: # Glowy little crystal pyramid, and the brass is destroyed
+          MaterialEidolite1:
             min: 1
             max: 1
         transferForensics: true
@@ -49,8 +49,7 @@
         acts: [ "Destruction" ]
   - type: PhysicalComposition
     materialComposition:
-      Brass: 100 # 1 sheet
-      EdoliteOre1: 1
+      MaterialEidolite1: 1
   - type: Tag
     tags:
     - Syringe
@@ -59,16 +58,16 @@
 - type: entity
   parent: PillCanister
   id: PillCanisterMantis
-  name: brass pill canister
-  description: "A brass pill bottle with an eidolite window."
+  name: electrum pill canister
+  description: "A electrum pill canister with an eidolite window. Expensive for no reason."
   components:
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    heldPrefix: brass
+    heldPrefix: mantis
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: brass-pill_canister
+    state: mantis-pill_canister
   - type: Storage
     grid:
     - 0,0,4,1
@@ -95,7 +94,7 @@
       - !type:SpillBehavior { }
       - !type:SpawnEntitiesBehavior
         spawn:
-          MaterialEidolite1: # Glowy little crystal pyramid, and the brass is destroyed
+          MaterialEidolite1:
             min: 1
             max: 1
         transferForensics: true
@@ -103,8 +102,7 @@
         acts: [ "Destruction" ]
   - type: PhysicalComposition
     materialComposition:
-      Brass: 100 # 1 sheet
-      EdoliteOre1: 1
+      MaterialEidolite1: 1
   - type: Tag
     tags:
       - PillCanister

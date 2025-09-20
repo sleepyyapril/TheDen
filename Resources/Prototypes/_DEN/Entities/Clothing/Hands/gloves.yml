@@ -95,7 +95,7 @@
   parent: ClothingHandsGlovesMantis
   id: ClothingHandsGlovesMantisOrnate
   name: ornate mantis sleeve
-  description: # TODO
+  description: "(TODO) You can switch the arms if you want, and possibly hide the chains under your mantle." # TODO: MAKE FLIPPABLE
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves_ornate.rsi

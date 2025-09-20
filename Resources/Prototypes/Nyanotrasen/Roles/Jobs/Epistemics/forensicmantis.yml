@@ -59,10 +59,10 @@
     components:
     - type: InnatePsionicPowers
       powersToAdd:
-        - MetapsionicPower
-        - TelepathyPower
-        - PsychognomyPower # TheDen - The psychic monitor should get a little extra information for roleplay, even if it's useless
-        - AssayPower
+        - MetapsionicPower # Takes 1 power slot
+        - TelepathyPower # Doesn't take a power slot
+        - PsychognomyPower # TheDen - Doesn't take a power slot (and the psychic monitor should get a little extra information for roleplay even if it's useless)
+        - AssayPower # Takes 1 power slot
 
 - type: startingGear
   id: ForensicMantisGear
@@ -79,7 +79,7 @@
     gloves: ClothingHandsGlovesMantisDark # TheDen
     outerClothing: ClothingOuterCoatMantisAiry # TheDen
     belt: ClothingBeltMantisDark # TheDen
-    pocket1: BookPsionicsGuidebook
+    # pocket1: BookPsionicsGuidebook # TheDen - Throwing this in their locker
   innerClothingSkirt: ClothingUniformSkirtMantisAiry # TheDen
   satchel: ClothingBackpackSatchelMantisFilled
   duffelbag: ClothingBackpackDuffelMantisFilled

@@ -293,7 +293,7 @@
       canExtinguish: true
       damage:
         types:
-          Heat: 0.25 # Burns four times longer than a normal paper just to be scary
+          Heat: 0.33 # Burns three times longer than a normal paper just to be scary
     - type: FireVisuals
       sprite: _DEN/Effects/fire.rsi
       normalState: mantispagefire # Has its own fire animation, also to be scary

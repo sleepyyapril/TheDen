@@ -10,8 +10,8 @@
 - type: entity
   parent: CombatKnife
   id: AntiPsychicKnife
-  name: athame # TheDen - Anti-Psychic Knife sounded a little too plain considering the rest of their gear
-  description: "A ritual knife carved from a crescent shard of mnemolith, made to kill psychics and other supernatural entities. Do not accidentally cut yourself with it." # TheDen
+  name: athame # TheDen - Anti-Psychic Knife sounded a little too plain considering the rest of their gear, and the description now includes a vague reference to heretics
+  description: "A clawlike knife carved from mnemolith, with swordbreaker teeth along its back. It remains unclear just who exactly is wielding blades against mantes." # TheDen
   components:
   - type: MeleeWeapon
     attackRate: .6666
@@ -43,17 +43,11 @@
     storedSprite:
       state: icon
       sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi
-  - type: Clothing # TheDen
-    sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi
-    quickEquip: false
-    slots:
-    - Belt
-    - suitStorage
   - type: Tag
     tags:
     # - ForensicBeltEquip # TheDen
     - MantisBeltEquip # TheDen - New tag for clarity
     - MantisKnife
-    - HighRiskItem
-  - type: StealTarget
-    stealGroup: AntiPsychicKnife
+    # - HighRiskItem # TheDen - No longer a steal target
+  # - type: StealTarget
+  #   stealGroup: AntiPsychicKnife

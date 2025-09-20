@@ -765,7 +765,7 @@
     - state: accent-icon
       color: "#660f3b"
     - state: midaccent-icon
-      color: "#a68943"
+      color: "#ffd069"
     - state: visor-icon
     - state: icon-flash
       visible: false
@@ -779,7 +779,7 @@
       - state: accent-inhand-left
         color: "#660f3b"
       - state: midaccent-inhand-left
-        color: "#a68943"
+        color: "#ffd069"
       - state: visor-inhand-left
       right:
       - state: inhand-right
@@ -787,7 +787,7 @@
       - state: accent-inhand-right
         color: "#660f3b"
       - state: midaccent-inhand-right
-        color: "#a68943"
+        color: "#ffd069"
       - state: visor-inhand-right
   - type: Clothing
     clothingVisuals:
@@ -797,7 +797,7 @@
       - state: accent-equipped-HELMET
         color: "#660f3b"
       - state: midaccent-equipped-HELMET
-        color: "#a68943"
+        color: "#ffd069"
       - state: visor-equipped-HELMET
 
 - type: entity

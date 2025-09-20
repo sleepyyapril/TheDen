@@ -1,0 +1,39 @@
+- type: entity
+  parent: BaseItem
+  id: MantisTablet
+  name: psionics registry tablet
+  description: "Grants access to the psionic registry without having to return to your office."
+  components:
+  - type: PsionicsRecordsConsole
+  - type: Sprite
+    sprite: _DEN/Objects/Devices/tabletmantis.rsi
+    layers:
+    - state: tablet
+    - state: screen
+      shader: unshaded
+  - type: Item
+    sprite: _DEN/Objects/Devices/tabletmantis.rsi
+    storedRotation: -90
+  - type: Tag
+    tags:
+    - MantisBeltEquip
+  - type: ActivatableUI
+    key: enum.PsionicsRecordsConsoleKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.PsionicsRecordsConsoleKey.Key:
+        type: PsionicsRecordsConsoleBoundUserInterface
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: AccessReader
+    access:
+      - [ Chapel ]
+      - [ Library ]
+      - [ Mantis ]
+      - [ ResearchDirector ]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.5
+    color: "#b32d70"
+  # - type: GuideHelp
+    # guides: # TODO: Add a guide for Psionics Registry

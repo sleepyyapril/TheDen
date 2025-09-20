@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Sprites by lazyriverfolk, edited for mantis by Sha-Seng (GitHub)",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "tablet"
+        },
+        {
+            "name": "screen",
+            "delays": [
+                [
+                0.3,
+                0.3
+                ]
+            ]
+        }
+    ]
+}

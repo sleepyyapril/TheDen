@@ -15,7 +15,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckMantleMantisOrnate
   name: ornate mantis mantle
-  description: # TODO
+  description: "(TODO) You can turn it to cover your other arm, if you want." # TODO: MAKE FLIPPABLE
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Neck/Mantles/mantis_cloak_airy.rsi

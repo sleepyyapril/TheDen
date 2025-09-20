@@ -8,23 +8,23 @@
   },
   "states": [
     {
-      "name": "brass-pill_canister"
+      "name": "mantis-pill_canister"
     },
     {
-      "name": "brass-pill_canister-crypto"
+      "name": "mantis-pill_canister-crypto"
     },
     {
-      "name": "brass-pill_canister-mindbreaker"
+      "name": "mantis-pill_canister-mindbreaker"
     },
     {
-      "name": "brass-pill_canister-mnemolith"
+      "name": "mantis-pill_canister-mnemolith"
     },
     {
-      "name": "brass-inhand-left",
+      "name": "mantis-inhand-left",
       "directions": 4
     },
     {
-      "name": "brass-inhand-right",
+      "name": "mantis-inhand-right",
       "directions": 4
     }
   ]
