@@ -15,7 +15,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
                 HorizontalExpand="True"
                 MinSize="450 450">
 
-    <ui:RadialContainer Name="Main" VerticalExpand="True" HorizontalExpand="True" Radius="64"
+    <ui:RadialContainer Name="Main" VerticalExpand="True" HorizontalExpand="True" InitialRadius="64"
                         ReserveSpaceForHiddenChildren="False" />
 
 </ui:RadialMenu>
