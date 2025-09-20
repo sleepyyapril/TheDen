@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Blitz
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Linq;
 using Content.Server.Atmos.Components;
 using Content.Shared.Atmos;
