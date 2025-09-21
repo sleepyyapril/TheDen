@@ -12359,3 +12359,12 @@ Entries:
   id: 1205
   time: '2025-09-21T21:49:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1776
+- author: AvianMaiden
+  changes:
+    - type: Add
+      message: >-
+        Vox are no longer forced into extra agony and can now select a full
+        nitrogen tank in the loadout.
+  id: 1206
+  time: '2025-09-21T21:51:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1775
