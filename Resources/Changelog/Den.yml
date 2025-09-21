@@ -12352,3 +12352,10 @@ Entries:
   id: 1204
   time: '2025-09-21T11:23:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1768
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: OOC name color will now use your discord role color.
+  id: 1205
+  time: '2025-09-21T21:49:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1776
