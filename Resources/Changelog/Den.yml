@@ -12379,3 +12379,14 @@ Entries:
   id: 1207
   time: '2025-09-21T21:52:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1750
+- author: LilNutters
+  changes:
+    - type: Add
+      message: >-
+        Added papermoon dyed paper reams to the bureaucracy crate and loadouts,
+        lots of cool paper!
+    - type: Add
+      message: Added 3 extra folders to the bureaucracy crate.
+  id: 1208
+  time: '2025-09-21T21:52:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1766
