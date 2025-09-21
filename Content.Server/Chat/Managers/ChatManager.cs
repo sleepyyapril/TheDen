@@ -47,7 +47,7 @@
 // SPDX-FileCopyrightText: 2025 Simon
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
