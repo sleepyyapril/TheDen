@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  parent: ChiefJusticePDA 
+  parent: ChiefJusticePDA
   id: MagistratePDA
   name: magistrate PDA
   description: This is proof that you are THE LAW, regardless of what those security bozos think.
@@ -26,7 +26,7 @@
     borderColor: "#00842e"
 
 - type: entity
-  parent: CentcomPDA 
+  parent: CentcomPDA
   id: NanorepPDA
   name: nanotrasen representative PDA
   description: This PDA contains the fanciest pen on the station, which will write words no one will ever read.
@@ -47,3 +47,46 @@
     state: pda-centcom
   - type: PdaBorderColor
     borderColor: "#00842e"
+
+- type: entity # TheDen - New appearance, new pen
+  parent: BasePDA
+  id: ForensicMantisPDA
+  name: mantis PDA
+  description: The eye on the screen follows you...
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Pda
+    id: ForensicMantisIDCard
+    state: pda-mantis
+    penSlot:
+      startingItem: PenMantis
+      priority: -2
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#3b3640"
+    accentVColor: "#642d80"
+    accentHColor: "#8c1c54"
+  - type: Icon
+    sprite: _DEN/Objects/Devices/pda.rsi
+    state: pda-mantis
+  - type: CartridgeLoader
+    preinstalled:
+     - CrewManifestCartridge
+     - NotekeeperCartridge
+     - NewsReaderCartridge
+     - GlimmerMonitorCartridge
+     - NanoChatCartridge
+     - PsiWatchCartridge
