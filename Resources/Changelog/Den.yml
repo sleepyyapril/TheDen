@@ -12390,3 +12390,10 @@ Entries:
   id: 1208
   time: '2025-09-21T21:52:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1766
+- author: maelines
+  changes:
+    - type: Add
+      message: glowing (anthropromorphic) eyes for humanoids and ipc yay
+  id: 1209
+  time: '2025-09-21T21:53:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1769
