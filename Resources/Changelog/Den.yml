@@ -12368,3 +12368,14 @@ Entries:
   id: 1206
   time: '2025-09-21T21:51:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1775
+- author: SubspaceEmber
+  changes:
+    - type: Tweak
+      message: Made all disks 1x1 items.
+    - type: Tweak
+      message: >-
+        Added new research points disk sprites with different sprites depending
+        on value.
+  id: 1207
+  time: '2025-09-21T21:52:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1750
