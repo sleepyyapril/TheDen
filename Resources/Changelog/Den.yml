@@ -12397,3 +12397,12 @@ Entries:
   id: 1209
   time: '2025-09-21T21:53:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1769
+- author: Kelaris
+  changes:
+    - type: Add
+      message: >-
+        Added a handheld radio, jaunter, and bluespace shelter capsule to the
+        Logistics Officer's locker.
+  id: 1210
+  time: '2025-09-21T21:54:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1724
