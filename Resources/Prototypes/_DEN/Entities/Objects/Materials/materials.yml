@@ -66,7 +66,7 @@
   parent: BaseItem # No longer a material, more like ash now
   id: MnemolithPowder
   name: mnemolith powder
-  description: "The pulverized remains of a dark, glassy stone that forms during severe noospheric storms. It absorbs the intent of psychics, allowing it to be \"taught\" new properties and repurposed for different uses, though in powder form it only serves medicinal purposes. Exercise caution."
+  description: "The pulverized remains of a dark, glassy stone that forms during severe noospheric storms. It absorbs the intent of psychics, allowing it to be \"taught\" new properties and repurposed for different uses, though in powder form it only serves medicinal purposes. Potential psychological impact aside, there are no known lasting effects."
   components:
   - type: Item
     sprite: _DEN/Objects/Materials/materials.rsi

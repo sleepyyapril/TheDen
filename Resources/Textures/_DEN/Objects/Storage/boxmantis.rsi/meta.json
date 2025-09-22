@@ -8,28 +8,28 @@
   },
   "states": [
     {
-      "name": "closed"
+      "name": "1-closed"
     },
     {
-      "name": "open"
+      "name": "1-open"
     },
     {
-      "name": "ammo-pistol-closed"
+      "name": "2-closed"
     },
     {
-      "name": "ammo-revolver-closed"
+      "name": "2-open"
     },
     {
-      "name": "ammo-shotgun-closed"
+      "name": "3-closed"
     },
     {
-      "name": "ammo-smg-closed"
+      "name": "3-open"
     },
     {
-      "name": "candles-closed"
+      "name": "4-closed"
     },
     {
-      "name": "mantis-closed"
+      "name": "4-open"
     },
     {
       "name": "inhand-left",
@@ -38,6 +38,27 @@
     {
       "name": "inhand-right",
       "directions": 4
+    },
+    {
+      "name": "label-candles"
+    },
+    {
+      "name": "label-eye"
+    },
+    {
+      "name": "label-psi"
+    },
+    {
+      "name": "label-pistol"
+    },
+    {
+      "name": "label-revolver"
+    },
+    {
+      "name": "label-shotgun"
+    },
+    {
+      "name": "label-smg"
     }
   ]
 }

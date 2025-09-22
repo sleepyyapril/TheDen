@@ -71,4 +71,4 @@
   - type: Tag
     tags:
     - MantisBeltEquip
-    - MantisBoxEquip # Fits in the candle box
+    - MantisCandleBoxStorable # Only the mantis lighter and candles should have this

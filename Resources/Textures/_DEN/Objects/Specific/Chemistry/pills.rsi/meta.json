@@ -8,21 +8,15 @@
   },
   "states": [
     {
-      "name": "pillcrypto"
-    },
-    {
-      "name": "pillmindbreaker"
-    },
-    {
-      "name": "pillmnemolith"
-    },
-    {
       "name": "crypto-inhand-left",
       "directions": 4
     },
     {
       "name": "crypto-inhand-right",
       "directions": 4
+    },
+    {
+      "name": "cryptopill"
     },
     {
       "name": "mindbreaker-inhand-left",
@@ -33,12 +27,40 @@
       "directions": 4
     },
     {
-      "name": "pillmnemolith-inhand-left",
+      "name": "mindbreakerpill"
+    },
+    {
+      "name": "mnemolith-inhand-left",
       "directions": 4
     },
     {
-      "name": "pillmnemolith-inhand-right",
+      "name": "mnemolith-inhand-right",
       "directions": 4
+    },
+    {
+      "name": "mnemolithpill"
+    },
+    {
+      "name": "soulbreaker-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "soulbreaker-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "soulbreakerpill"
+    },
+    {
+      "name": "spacedrugs-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "spacedrugs-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "spacedrugspill"
     }
   ]
 }

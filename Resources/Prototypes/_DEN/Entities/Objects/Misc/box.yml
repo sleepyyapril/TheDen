@@ -10,6 +10,7 @@
   - type: Armor
     modifiers: {}
 
+# Mantis Cases Start
 - type: entity
   parent: [ BaseStorageItem, BaseBagOpenClose ]
   id: MantisCase
@@ -19,81 +20,175 @@
   - type: Sprite
     sprite: _DEN/Objects/Storage/boxmantis.rsi
     layers:
-    - state: closed
-    - state: open
+    - state: 2-closed # The 2-wide version
+    - state: 2-open
       map: ["openLayer"]
   - type: Appearance
   - type: Item
     sprite: _DEN/Objects/Storage/boxmantis.rsi
     size: Normal
-    shape:
+    shape: # All mantis cases are 2-tall so the mantis-specific ones will physically fit in their belt
     - 0,0,1,1 # 2x2
   - type: Storage
     grid:
     - 0,0,1,1 # 2x2
-    blacklist:
-      components:
-      - Storage # They come in various sizes, so this makes sure you can't put boxes in boxes
 
 - type: entity
   parent: MantisCase
-  id: MantisCaseMantis
-  name: mantis case # In the mantis locker
-  description: "An amaranth case to store your things, if you want. A Greek psi is carved into the top, marking it as yours."
+  id: MantisCaseSmall
+  name: small amaranth case
+  description: "A case made of exotic, extremely durable hardwood."
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Storage/boxmantis.rsi
     layers:
-    - state: mantis-closed
-    - state: open
+    - state: 1-closed # The 1-wide version
+    - state: 1-open
+      map: ["openLayer"]
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,0,1 # 1x2
+  - type: Storage
+    grid:
+    - 0,0,0,1 # 1x2
+
+- type: entity
+  parent: MantisCase
+  id: MantisCaseLarge
+  name: large amaranth case
+  description: "A case made of exotic, extremely durable hardwood."
+  components:
+  - type: Sprite
+    layers:
+    - state: 3-closed # The 3-wide version
+    - state: 3-open
       map: ["openLayer"]
   - type: Item
     sprite: _DEN/Objects/Storage/boxmantis.rsi
     size: Normal
     shape:
-    - 0,0,3,1 # 4x2, all mantis cases should be 2 tall so they can fit in the belt
+    - 0,0,2,1 # 3x2
   - type: Storage
     grid:
-    - 0,0,3,1 # 4x2, just enough room for its contents
-    whitelist:
+    - 0,0,2,1 # 3x2
+
+- type: entity
+  parent: MantisCase
+  id: MantisCaseExtraLarge
+  name: extra large amaranth case
+  description: "A case made of exotic, extremely durable hardwood."
+  components:
+  - type: Sprite
+    layers:
+    - state: 4-closed # The 4-wide version
+    - state: 4-open
+      map: ["openLayer"]
+  - type: Item
+    sprite: _DEN/Objects/Storage/boxmantis.rsi
+    size: Large
+    shape:
+    - 0,0,3,1 # 4x2
+  - type: Storage
+    grid:
+    - 0,0,3,1 # 4x2
+
+- type: entity
+  parent: MantisCaseLarge
+  id: MantisCaseTools
+  name: mantis tools case # In the mantis locker
+  description: "An amaranth case to store your things. A Greek psi is carved into the top, marking it as yours."
+  components:
+  - type: Sprite
+    layers:
+    - state: 3-closed # The 3-wide version
+    - state: label-psi
+    - state: 3-open
+      map: ["openLayer"]
+  - type: Item
+    whitelist: # Exactly the same whitelist as the belt, so you can't cheat and store non-whitelisted things in it on the belt
       tags:
-        - MantisBeltEquip # Anything that fits on the belt fits in the box
+        - Folder
+        - Document
+        - Write
+        - HandLabeler
+        - Flashlight
+        - Syringe
+        - Bottle
+        - PillCanister
+        - Pill
+        - MantisBeltEquip
+      components:
+        - AnomalyScanner
+        - NodeScanner
+        - Flash
   - type: StorageFill
     contents:
     - id: LanternMantis
     - id: BoxFolderMantis
     - id: HandLabelerMantis
+  - type: Tag
+    tags:
+    - MantisBeltEquip
+
+- type: entity
+  parent: MantisCaseSmall
+  id: MantisCaseChemicals
+  name: mantis chemicals case # In the mantis locker
+  description: "An amaranth case to carry your chemicals. Conveniently portable, but the slots inside will only fit certain things. A watchful eye is carved into the top, marking it as yours."
+  components:
+  - type: Sprite
+    layers:
+    - state: 1-closed # The 1-wide version
+    - state: label-eye
+    - state: 1-open
+      map: ["openLayer"]
+  - type: Item
+    whitelist: # Only the tiny chemistry items from the belt's whitelist
+      tags:
+        - Syringe
+        - Bottle
+        - PillCanister
+        - Pill
+        - MantisChemicalBoxStorable # Somewhat redundant, but it has its own tag just in case
+  - type: Item
+    size: Tiny # Like CigPackBase, so it can only store tiny items
+    shape:
+    - 0,0,0,1 # 1x2
+  - type: Storage
+    grid:
+    - 0,0,1,2 # 2x3, bigger on the inside. The idea is to replicate a cigarette pack's function, but smaller and more restrictive
+  - type: StorageFill
+    contents:
     - id: SyringeMantis
     - id: ChemistryEmptyBottleMantis
+    - id: PillCanisterMnemolithMantis # The bottles are labeled and color coded for safety
+    - id: PillCanisterSpaceDrugsMantis
+    - id: PillCanisterCryptobiolinMantis
+    - id: PillCanisterMindbreakerToxinMantis # They don't have mindbreaker bullets anymore, so they get this instead
   - type: Tag
     tags:
     - MantisBeltEquip
 
 - type: entity
   parent: MantisCase
-  id: MantisCaseMantisCandles
-  name: mnemolith candle case
-  description: "An amaranth case of mixed mnemolith candles, lighter included."
+  id: MantisCaseCandles
+  name: mnemolith candle case # Loadout option
+  description: "An amaranth case of mixed mnemolith candles, lighter included. Conveniently portable, but the slots inside will only fit certain things."
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Storage/boxmantis.rsi
     layers:
-    - state: candles-closed
-    - state: open
+    - state: 2-closed
+    - state: label-candles
+    - state: 2-open
       map: ["openLayer"]
-  - type: Item
-    sprite: _DEN/Objects/Storage/boxmantis.rsi
-    size: Normal
-    shape:
-    - 0,0,1,1 # 2x2
   - type: Storage
-    grid:
+    grid: # The box itself is 2x2
     - 0,0,2,2 # 3x3, bigger on the inside, but it can only store what already comes inside it
     whitelist:
       tags:
-        - MantisBoxEquip
+        - MantisCandleBoxStorable # Only the mantis lighter and candles should have this
   - type: StorageFill
-    contents: # A cute radial arrangement of items, it's like a gift box
+    contents: # A cute radial arrangement of items, like a gift box
     - id: CandleMantisSmall
     - id: CandleMantis
     - id: CandleMantisSmall

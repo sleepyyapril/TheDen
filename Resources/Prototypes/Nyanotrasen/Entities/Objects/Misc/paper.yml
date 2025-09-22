@@ -31,4 +31,4 @@
     tags:
       # - ForensicBeltEquip # TheDen
       - MantisBeltEquip # TheDen - New tag for clarity
-      - MantisFolderEquip # TheDen - Only the pen and the stamp have this, but the pen also has its own slot on the item itself
+      - MantisFolderStorable # Only the mantis pen and stamp should have this

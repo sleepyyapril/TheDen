@@ -161,7 +161,7 @@
     whitelist:
       tags:
         - Document
-        - MantisFolderEquip # Only the pen and the stamp have this, but the pen also has its own slot on the item itself
+        - MantisFolderStorable # Only the mantis pen and stamp should have this
     grid: # It's a 5x5 square with an isolated slot in the middle for the stamp
     - 0,0,4,0
     - 0,4,4,4
@@ -237,7 +237,7 @@
     tags:
       - Write
       - Pen
-      - MantisFolderEquip # Only the pen and the stamp have this, but the pen also has its own slot on the item itself
+      - MantisFolderStorable # Only the mantis pen and stamp should have this
   - type: InteractionVerbs
     allowedVerbs:
     - LickObject # If you really want to

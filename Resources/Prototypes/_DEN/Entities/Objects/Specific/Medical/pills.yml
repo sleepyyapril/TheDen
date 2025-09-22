@@ -101,14 +101,33 @@
 
 - type: entity
   parent: PillCanisterMantis
-  id: PillCanisterCryptobiolinMantis
-  suffix: Cryptobiolin, 5
+  id: PillCanisterSpaceDrugsMantis
+  suffix: LSD, 5
+  description: "A potent psychedelic that may awaken psionic abilities in those with potential, coloquially called \"space drugs\"."
   components:
+  - type: Label
+    currentLabel: LSD 15u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: mantis-pill_canister-crypto # A green stripe so you don't accidentally mindbreak somebody
+    state: mantis-pill_canister-spacedrugs # A greenish gray stripe
+  - type: StorageFill
+    contents:
+    - id: PillSpaceDrugs
+      amount: 5
+  - type: GuideHelp
+    guides: [ Psionics ]
+
+- type: entity
+  parent: PillCanisterMantis
+  id: PillCanisterCryptobiolinMantis
+  suffix: cryptobiolin, 5
+  description: "A long-lasting drug which causes mild confusion, but renders you psionically insulated."
+  components:
   - type: Label
-    currentLabel: Cryptobiolin 20u
+    currentLabel: cryptobiolin 20u
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
+    state: mantis-pill_canister-crypto # A blue stripe
   - type: StorageFill
     contents:
     - id: PillCryptobiolin
@@ -119,13 +138,14 @@
 - type: entity
   parent: PillCanisterMantis
   id: PillCanisterMindbreakerToxinMantis
-  suffix: Mindbreaker Toxin, 5
+  suffix: mindbreaker toxin, 5
+  description: "Permanently removes psionics when ingested. Mildly poisonous."
   components:
+  - type: Label
+    currentLabel: mindbreaker toxin 20u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: mantis-pill_canister-mindbreaker # A blue stripe so you don't accidentally mindbreak somebody
-  - type: Label
-    currentLabel: Mindbreaker Toxin 20u
+    state: mantis-pill_canister-mindbreaker # A cool green stripe
   - type: StorageFill
     contents:
     - id: PillMindbreakerToxin
@@ -133,36 +153,85 @@
   - type: GuideHelp
     guides: [ Mindbreaking ]
 
+- type: entity # Not obtainable by players
+  parent: PillCanisterMantis
+  id: PillCanisterSoulbreakerToxinMantis
+  suffix: soulbreaker toxin, 5
+  description: "Permanently removes psionics when ingested. Four times stronger than mindbreaker toxin."
+  components:
+  - type: Label
+    currentLabel: soulbreaker toxin 5u
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
+    state: mantis-pill_canister-soulbreaker # A greenish white stripe
+  - type: StorageFill
+    contents:
+    - id: PillSoulbreakerToxin
+      amount: 5
+  - type: GuideHelp
+    guides: [ Mindbreaking ]
+
+- type: entity
+  name: pill
+  suffix: soulbreaker toxin 5u
+  parent: Pill
+  id: PillSoulbreakerToxin
+  description: "Permanently removes psionics when ingested. Four times stronger than mindbreaker toxin."
+  components:
+  - type: Label
+    currentLabel: soulbreaker toxin 5u
+  - type: Sprite # Soulbreaker Toxin colored pill
+    sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
+    state: soulbreakerpill
+  - type: Item
+    size: Tiny
+    sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
+    state: soulbreakerpill
+    heldPrefix: soulbreaker
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: SoulbreakerToxin
+          Quantity: 5
+  - type: GuideHelp
+    guides: [ Mindbreaking ]
+
 - type: entity
   parent: PillCanisterMantis
   id: PillCanisterMnemolithMantis
-  suffix: Mnemolith, 10 # Just an RP drug, so there can be ten of them
+  suffix: mnemolith, 10 # Just an RP drug, so there can be ten of them
+  description: "Powdered and pressed mnemolith, used by psionic mantes to heighten their extrasensory perception. Potential psychological impact aside, there are no known lasting effects."
   components:
+  - type: Label
+    currentLabel: mnemolith 10u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: mantis-pill_canister-mnemolith # A gray stripe so you don't accidentally mindbreak somebody
-  - type: Label
-    currentLabel: Mnemolith 10u
+    state: mantis-pill_canister-mnemolith # A dark gray stripe
   - type: StorageFill
     contents:
     - id: PillMnemolith
       amount: 10
   - type: GuideHelp
-    guides: [ Psionics ]
+    guides: [ MantisGuide ]
 
 - type: entity
-  name: mnemolith
+  name: pill
+  suffix: mnemolith 10u
   parent: Pill
   id: PillMnemolith
-  description: "Powdered and pressed mnemolith, used by psionic mantes to heighten their extrasensory perception. Exercise caution."
+  description: "Powdered and pressed mnemolith, used by psionic mantes to heighten their extrasensory perception. Potential psychological impact aside, there are no known lasting effects."
   components:
+  - type: Label
+    currentLabel: mnemolith 10u
   - type: Sprite # Mnemolith colored pill
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
-    state: pillmnemolith
+    state: mnemolithpill
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
-    state: pillmnemolith
+    state: mnemolithpill
     heldPrefix: mnemolith
   - type: SolutionContainerManager
     solutions:
@@ -172,4 +241,4 @@
         - ReagentId: MnemolithReagent
           Quantity: 10 # Controlled dosing, so 10 units
   - type: GuideHelp
-    guides: [ Psionics ]
+    guides: [ MantisGuide ]

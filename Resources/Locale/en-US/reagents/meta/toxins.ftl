@@ -102,7 +102,7 @@ reagent-name-lipolicide = lipolicide
 reagent-desc-lipolicide = A powerful toxin that will destroy fat cells, massively reducing body weight in a short time. Deadly to those without nutriment in their body.
 
 reagent-name-soulbreaker-toxin = soulbreaker toxin
-reagent-desc-soulbreaker-toxin = An anti-psionic about 4 times as powerful as mindbreaker toxin.
+reagent-desc-soulbreaker-toxin = An anti-psionic about four times as powerful as mindbreaker toxin.
 
 reagent-name-lotophagoi-oil = lotophagoi oil
 reagent-desc-lotophagoi-oil = A super potent drug that is much better at inducing psionics than normal hallucinogens, but with worse side effects.
@@ -110,5 +110,5 @@ reagent-desc-lotophagoi-oil = A super potent drug that is much better at inducin
 reagent-name-ectoplasm = ectoplasm
 reagent-desc-ectoplasm = The physical component of semi-corporeal spirits.
 
-reagent-name-toxintrash = trash 
+reagent-name-toxintrash = trash
 reagent-desc-toxintrash = An awful-smelling fluid. Deadly to non-vox.

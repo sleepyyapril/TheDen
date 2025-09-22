@@ -16,6 +16,9 @@
   name: classic mantis belt # TheDen
   description: "A structured, layered sash designed to carry your tools." # TheDen
   components:
+  - type: Storage # TheDen
+    grid:
+    - 0,0,9,1
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Belt/mantis_belt.rsi
   - type: Clothing
@@ -32,14 +35,14 @@
         - Bottle # TheDen
         - PillCanister # TheDen
         - Pill # TheDen
-        # - Sidearm # TheDen - Only tagged mantis sidearms will fit inside
-        # - ForensicBeltEquip # TheDen - This only applied to the mantis belt, but they aren't "forensic" anymore
-        - MantisBeltEquip # TheDen - So, new tag for clarity, though it's functionally identical
+        - MantisBeltEquip # TheDen - Only to be used for mantis-specific items
+        # - ForensicBeltEquip # TheDen - The old name of the mantis belt's whitelist tag, now made more clear
+        # - Sidearm # TheDen - Only tagged mantis weapons will fit inside
       components:
         - AnomalyScanner
         - NodeScanner
         - Flash # Ideally more for flashing anomalies than psychics since they aren't security
-  - type: ItemSlots # TheDen - It has a sheath for your knife
+  - type: ItemSlots # TheDen - It has a sheath for their melee weapon
     slots:
       mantisknifeslot:
         name: clothing-belt-mantisknifeslot
