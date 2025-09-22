@@ -45,24 +45,24 @@
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisEquipment
-  maxItems: 6 # TheDen
+  maxItems: 4
   items:
     #- type: loadout # TheDen - They have their own candles now
     #  id: LoadoutPsionicMantisEquipmentCandles
     #- type: loadout
     #  id: LoadoutPsionicMantisEquipmentCandlesSmall
-    - type: loadout
-      id: LoadoutPsionicMantisPillCanisterSpaceDrugs
-    - type: loadout
-      id: LoadoutPsionicMantisPillCanisterCryptobiolin
-    - type: loadout # TheDen
-      id: LoadoutPsionicMantisPillCanisterMnemolith
+    #- type: loadout
+    #  id: LoadoutPsionicMantisPillCanisterSpaceDrugs
+    #- type: loadout
+    #  id: LoadoutPsionicMantisPillCanisterCryptobiolin
+    #- type: loadout # TheDen - All their pills are in their locker now
+    #  id: LoadoutPsionicMantisPillCanisterMnemolith
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentCigPackMantis
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentFlippoLighterMantis
     - type: loadout # TheDen
-      id: LoadoutPsionicMantisEquipmentMantisCaseMantisCandles # How many times can I say mantis
+      id: LoadoutPsionicMantisEquipmentMantisCaseCandles
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisEyes

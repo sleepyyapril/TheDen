@@ -174,7 +174,7 @@
     - CigPackMantis
 
 - type: loadout
-  id: LoadoutPsionicMantisEquipmentMantisCaseMantisCandles
+  id: LoadoutPsionicMantisEquipmentMantisCaseCandles
   category: JobsEpistemicsPsionicMantis
   cost: 0
   requirements:
@@ -184,7 +184,7 @@
       jobs:
         - ForensicMantis
   items:
-    - MantisCaseMantisCandles
+    - MantisCaseCandles
 
 - type: loadout
   id: LoadoutPsionicMantisEquipmentFlippoLighterMantis
