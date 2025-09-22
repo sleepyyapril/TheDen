@@ -49,8 +49,12 @@
     sprite: Clothing/Hands/Gloves/leather.rsi
   - type: Clothing
     sprite: Clothing/Hands/Gloves/leather.rsi
-  - type: GloveHeatResistance
-    heatResistance: 1400
+  # DEN
+  - type: DamageOnInteractProtection
+    damageProtection:
+      flatReductions:
+        Heat: 10
+  # DEN
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-brown
