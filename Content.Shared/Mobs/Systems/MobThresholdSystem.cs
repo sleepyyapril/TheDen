@@ -411,7 +411,7 @@ public sealed class MobThresholdSystem : EntitySystem
             var severity = _alerts.GetMinSeverity(currentAlert);
 
             var ev = new BeforeAlertSeverityCheckEvent(currentAlert, severity);
-            RaiseLocalEvent(ref ev);
+            RaiseLocalEvent(target, ev);
 
             if (ev.CancelUpdate)
             {

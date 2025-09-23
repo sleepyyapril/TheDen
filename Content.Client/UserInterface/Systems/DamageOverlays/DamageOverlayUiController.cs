@@ -106,7 +106,11 @@ public sealed class DamageOverlayUiController : UIController
         {
             case MobState.Alive:
             {
-                if (damageable.DamagePerGroup.TryGetValue("Brute", out var bruteDamage))
+                if (EntityManager.HasComponent<PainNumbnessComponent>(entity))
+                {
+                    _overlay.BruteLevel = 0;
+                }
+                else if (damageable.DamagePerGroup.TryGetValue("Brute", out var bruteDamage))
                 {
                     _overlay.BruteLevel = FixedPoint2.Min(1f, bruteDamage / critThreshold).Float();
                 }
@@ -117,11 +121,6 @@ public sealed class DamageOverlayUiController : UIController
                 }
 
                 if (_overlay.BruteLevel < 0.05f) // Don't show damage overlay if they're near enough to max.
-                {
-                    _overlay.BruteLevel = 0;
-                }
-
-                if (EntityManager.HasComponent<PainNumbnessComponent>(entity))
                 {
                     _overlay.BruteLevel = 0;
                 }

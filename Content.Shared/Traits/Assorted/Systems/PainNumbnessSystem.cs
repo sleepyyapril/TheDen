@@ -37,7 +37,7 @@ public sealed class PainNumbnessSystem : EntitySystem
 
     private void OnChangeForceSay(Entity<PainNumbnessComponent> ent, ref BeforeForceSayEvent args)
     {
-        args.PrefixDataset = ent.Comp.ForceSayNumbDataset;
+        args.Prefix = ent.Comp.ForceSayNumbDataset;
     }
 
     private void OnAlertSeverityCheck(Entity<PainNumbnessComponent> ent, ref BeforeAlertSeverityCheckEvent args)

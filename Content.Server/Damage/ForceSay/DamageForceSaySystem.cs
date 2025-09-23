@@ -70,9 +70,9 @@ public sealed class DamageForceSaySystem : EntitySystem
             return;
 
         var ev = new BeforeForceSayEvent(component.ForceSayStringDataset);
-        RaiseLocalEvent(ref ev);
+        RaiseLocalEvent(uid, ev);
 
-        if (!_prototype.TryIndex(ev.PrefixDataset, out var prefixList))
+        if (!_prototype.TryIndex(ev.Prefix, out var prefixList))
             return;
 
         var suffix = Loc.GetString(_random.Pick(prefixList.Values));

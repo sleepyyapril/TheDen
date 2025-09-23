@@ -774,5 +774,7 @@ trait-description-HealingFactor =
     Whether due to mutation or natural hardiness, you're harder to kill than most. You slowly regenerate from some common forms of damage.
     Your natural healing is no longer capped, and you will slowly recover from brute, burn and bloodloss damage while you are still alive.
 
-trait-name-painnumbness = Pain Numbness
-trait-description-painnumbness = Whether due to a rare mutation, freak medical accident, or some other reason, you're not able to feel pain making it much eaiser to miss possibly life threatening injuries.
+trait-name-PainNumbness = Pain Numbness
+trait-description-PainNumbness =
+    Whether due to a rare mutation, freak medical accident, or some other reason, you're not able to feel pain
+    making it much eaiser to miss possibly life threatening injuries.

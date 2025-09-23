@@ -319,7 +319,7 @@ public sealed partial class SleepingSystem : EntitySystem
 
     private void OnChangeForceSay(Entity<SleepingComponent> ent, ref BeforeForceSayEvent args)
     {
-        args.PrefixDataset = ent.Comp.ForceSaySleepDataset;
+        args.Prefix = ent.Comp.ForceSaySleepDataset;
     }
 }
 
