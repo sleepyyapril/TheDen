@@ -460,3 +460,16 @@
       amount: 2
   products: 
     PlasmaFlood: 6
+
+# Choccy milk.............................
+- type: reaction
+  id: ChocolateMilk
+  requiredMixerCategories:
+  - Stir
+  reactants:
+    Milk:
+      amount: 2
+    CocoaPowder:
+      amount: 1
+  products:
+    MilkChoco: 3
