@@ -14,6 +14,7 @@ using Content.Shared.FixedPoint;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
+using Content.Shared.Traits.Assorted.Components;
 using JetBrains.Annotations;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
@@ -116,6 +117,11 @@ public sealed class DamageOverlayUiController : UIController
                 }
 
                 if (_overlay.BruteLevel < 0.05f) // Don't show damage overlay if they're near enough to max.
+                {
+                    _overlay.BruteLevel = 0;
+                }
+
+                if (EntityManager.HasComponent<PainNumbnessComponent>(entity))
                 {
                     _overlay.BruteLevel = 0;
                 }

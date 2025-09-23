@@ -7,6 +7,7 @@
 
 using Content.Shared.Actions;
 using Content.Shared.Damage;
+using Content.Shared.Damage.Events;
 using Content.Shared.Damage.ForceSay;
 using Content.Shared.Examine;
 using Content.Shared.Eye.Blinding.Systems;
@@ -23,6 +24,7 @@ using Content.Shared.Sound.Components;
 using Content.Shared.Speech;
 using Content.Shared.StatusEffect;
 using Content.Shared.Stunnable;
+using Content.Shared.Traits.Assorted.Systems;
 using Content.Shared.Verbs;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
@@ -64,6 +66,7 @@ public sealed partial class SleepingSystem : EntitySystem
         SubscribeLocalEvent<SleepingComponent, ExaminedEvent>(OnExamined);
         SubscribeLocalEvent<SleepingComponent, GetVerbsEvent<AlternativeVerb>>(AddWakeVerb);
         SubscribeLocalEvent<SleepingComponent, InteractHandEvent>(OnInteractHand);
+        SubscribeLocalEvent<SleepingComponent, BeforeForceSayEvent>(OnChangeForceSay, after: new []{typeof(PainNumbnessSystem)});
 
         SubscribeLocalEvent<ForcedSleepingComponent, ComponentInit>(OnInit);
     }
@@ -312,6 +315,11 @@ public sealed partial class SleepingSystem : EntitySystem
 
         Wake((ent, ent.Comp));
         return true;
+    }
+
+    private void OnChangeForceSay(Entity<SleepingComponent> ent, ref BeforeForceSayEvent args)
+    {
+        args.PrefixDataset = ent.Comp.ForceSaySleepDataset;
     }
 }
 
