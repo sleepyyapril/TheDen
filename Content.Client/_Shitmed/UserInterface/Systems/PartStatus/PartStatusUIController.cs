@@ -8,6 +8,7 @@ using Content.Client.Gameplay;
 using Content.Client._Shitmed.UserInterface.Systems.PartStatus.Widgets;
 using Content.Shared._Shitmed.Targeting;
 using Content.Client._Shitmed.Targeting;
+using Content.Shared.Traits.Assorted.Components;
 using Robust.Client.GameObjects;
 using Robust.Client.UserInterface.Controllers;
 using Robust.Client.Player;
@@ -21,6 +22,8 @@ public sealed class PartStatusUIController : UIController, IOnStateEntered<Gamep
 {
     [Dependency] private readonly IEntityManager _entManager = default!;
     [Dependency] private readonly IEntityNetworkManager _net = default!;
+    [Dependency] private readonly IPlayerManager _playerManager = default!;
+
     private SpriteSystem _spriteSystem = default!;
     private TargetingComponent? _targetingComponent;
     private PartStatusControl? PartStatusControl => UIManager.GetActiveUIWidgetOrNull<PartStatusControl>();
@@ -74,6 +77,9 @@ public sealed class PartStatusUIController : UIController, IOnStateEntered<Gamep
 
     public void UpdatePartStatusControl(TargetingComponent component)
     {
+        if (_playerManager.LocalEntity is not { } player|| _entManager.HasComponent<PainNumbnessComponent>(player))
+            return;
+
         if (PartStatusControl != null && _targetingComponent != null)
             PartStatusControl.SetTextures(_targetingComponent.BodyStatus);
     }
