@@ -76,7 +76,7 @@
     Snout:
       points: 1
       required: true
-      defaultMarkings: [ VoxBeak ]
+      # defaultMarkings: [ VoxBeak ]
     RightArm:
       points: 1
       required: true
