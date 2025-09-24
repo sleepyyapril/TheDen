@@ -75,7 +75,6 @@
   - type: Speech
     speechVerb: Vox
     speechSounds: Vox
-    allowedEmotes: ['Hiss', 'Chitter', 'Coo'] #imp
   - type: TypingIndicator
     proto: vox
   - type: Vocal

@@ -76,9 +76,9 @@
     Snout:
       points: 1
       required: true
-      # defaultMarkings: [ VoxBeak ]
+      defaultMarkings: [ VoxBeakColor ] # Den
     RightArm:
-      points: 1
+      points: 2 # Den
       required: true
       defaultMarkings: [ VoxRArmScales ]
     RightHand:
@@ -86,7 +86,7 @@
       required: true
       defaultMarkings: [ VoxRHandScales ]
     LeftArm:
-      points: 1
+      points: 2 # Den
       required: true
       defaultMarkings: [ VoxLArmScales ]
     LeftHand:
@@ -94,11 +94,11 @@
       required: true
       defaultMarkings: [ VoxLHandScales ]
     RightLeg:
-      points: 1
+      points: 2 # Den
       required: true
       defaultMarkings: [ VoxRLegScales ]
     LeftLeg:
-      points: 1
+      points: 2 # Den
       required: true
       defaultMarkings: [ VoxLLegScales ]
     RightFoot:
