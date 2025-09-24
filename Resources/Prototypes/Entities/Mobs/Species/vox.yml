@@ -69,6 +69,8 @@
     requiredLegs: 2
   - type:  HumanoidAppearance
     species: Vox
+    hideLayersOnEquip:
+    - HeadSide #imp
     #- type: VoxAccent # Not yet coded
   - type: Speech
     speechVerb: Vox
@@ -163,7 +165,6 @@
           32:
             sprite: Mobs/Species/Vox/displacement.rsi
             state: shoes
-
 
 - type: entity
   parent: [BaseVoxAppearance, BaseSpeciesDummy]

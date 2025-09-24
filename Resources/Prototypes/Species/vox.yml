@@ -10,6 +10,12 @@
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
+## hey this is carousel
+## in service of vox being somewhat in line with impstation species design standards
+## i have rearranged the furniture in here quite severely
+## mouse here!! im also doing edits, textureswise mostly, to make voxtails actually tails
+## Who let the tails be part of the fucking TORSO
+
 - type: species
   id: Vox
   name: species-name-vox
@@ -39,6 +45,7 @@
     Underwear: MobHumanoidAnyMarking
     Undershirt: MobHumanoidAnyMarking
     Chest: MobVoxTorso
+    HeadSide: MobHumanoidAnyMarking
     Eyes: MobVoxEyes
     LArm: MobVoxLArm
     RArm: MobVoxRArm
@@ -61,14 +68,17 @@
       points: 1
       required: false
     Head:
-      points: 1
-      required: true
+      points: 2
+      required: false #imp
+    HeadSide: #imp
+      points: 2
+      required: false
     Snout:
       points: 1
       required: true
-      defaultMarkings: [ VoxBeak ]
+      defaultMarkings: [ VoxBeakColor ] # Den
     RightArm:
-      points: 1
+      points: 2 # Den
       required: true
       defaultMarkings: [ VoxRArmScales ]
     RightHand:
@@ -76,7 +86,7 @@
       required: true
       defaultMarkings: [ VoxRHandScales ]
     LeftArm:
-      points: 1
+      points: 2 # Den
       required: true
       defaultMarkings: [ VoxLArmScales ]
     LeftHand:
@@ -84,11 +94,11 @@
       required: true
       defaultMarkings: [ VoxLHandScales ]
     RightLeg:
-      points: 1
+      points: 2 # Den
       required: true
       defaultMarkings: [ VoxRLegScales ]
     LeftLeg:
-      points: 1
+      points: 2 # Den
       required: true
       defaultMarkings: [ VoxLLegScales ]
     RightFoot:
@@ -113,8 +123,8 @@
       required: false
     Tail:
       points: 1
-      required: true
-      defaultMarkings: [ VoxTail ]
+      required: false #imp
+      #defaultMarkings: [ VoxTail ]
 
 - type: humanoidBaseSprite
   id: MobVoxEyes
@@ -143,7 +153,7 @@
 - type: humanoidBaseSprite
   id: MobVoxTorso
   baseSprite:
-    sprite: Mobs/Species/Vox/parts.rsi
+    sprite: _Impstation/Mobs/Species/Vox/parts.rsi #imp
     state: torso
 
 - type: humanoidBaseSprite
