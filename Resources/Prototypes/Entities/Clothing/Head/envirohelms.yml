@@ -756,7 +756,7 @@
   parent: ClothingHeadEnvirohelmCustomBase
   id: ClothingHeadEnvirohelmMantis
   name: mantis envirosuit helmet
-  description: An envirosuit helmet for the psionic mantis.
+  description: An envirosuit helmet for the mantis.
   components:
   - type: Sprite # TheDen - Colors updated to match the new mantis uniforms
     layers:

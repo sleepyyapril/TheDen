@@ -1,19 +1,18 @@
 - type: entity
-  parent: [BaseItem, BaseMantisContraband] # Spawns in the mantis's pocket, contraband so they can't really give it away
-  id: MantisTablet
-  name: psionics registry tablet
+  parent: [BaseHandheldComputer, BaseMantisContraband] # Spawns in the mantis's pocket, contraband so they can't really give it away
+  id: BaseHandheldPsionicsRegistry
+  name: handheld psionics registry
   description: "Grants access to the psionic registry without having to return to your office."
   components:
   - type: PsionicsRecordsConsole
   - type: Sprite
-    sprite: _DEN/Objects/Devices/tabletmantis.rsi
+    sprite: _DEN/Objects/Devices/handheldpsionicsregistry.rsi
     layers:
     - state: tablet
     - state: screen
       shader: unshaded
   - type: Item
-    sprite: _DEN/Objects/Devices/tabletmantis.rsi
-    storedRotation: -90
+    sprite: _DEN/Objects/Devices/handheldpsionicsregistry.rsi
   - type: Tag
     tags:
     - MantisBeltEquip
@@ -23,8 +22,6 @@
     interfaces:
       enum.PsionicsRecordsConsoleKey.Key:
         type: PsionicsRecordsConsoleBoundUserInterface
-  - type: Damageable
-    damageContainer: Inorganic
   - type: AccessReader
     access:
       - [ Chapel ]
@@ -37,3 +34,27 @@
     color: "#b32d70"
   # - type: GuideHelp
     # guides: # TODO: Add a guide for Psionics Registry
+
+- type: entity
+  id: HandheldCriminalRecords
+  suffix: Powered
+  parent:
+  - BaseHandheldCriminalRecords
+  - BaseHandheldComputer
+
+- type: entity
+  id: HandheldCriminalRecordsEmpty
+  suffix: Empty
+  parent:
+  - BaseHandheldCriminalRecords
+  - BaseHandheldComputer
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+
+- type: entity
+  id: HandheldCriminalRecordsUnpowered
+  suffix: Unpowered
+  parent: BaseHandheldCriminalRecords

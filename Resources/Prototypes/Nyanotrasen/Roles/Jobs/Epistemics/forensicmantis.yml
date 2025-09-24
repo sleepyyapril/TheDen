@@ -78,6 +78,7 @@
     outerClothing: ClothingOuterCoatMantisAiry # TheDen
     belt: ClothingBeltMantisDark # TheDen
     # pocket1: BookPsionicsGuidebook # TheDen - Throwing this in their locker
+    pocket1: BaseHandheldPsionicsRegistry # TheDen
   innerClothingSkirt: ClothingUniformSkirtMantisAiry # TheDen
   satchel: ClothingBackpackSatchelMantisFilled
   duffelbag: ClothingBackpackDuffelMantisFilled
