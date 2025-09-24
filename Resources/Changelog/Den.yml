@@ -12461,3 +12461,12 @@ Entries:
   id: 1217
   time: '2025-09-24T22:26:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1792
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        A bunch of stuff now (hopefully) has correct contraband status, which is
+        viewable when examining. 
+  id: 1218
+  time: '2025-09-24T22:26:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1785
