@@ -12470,3 +12470,12 @@ Entries:
   id: 1218
   time: '2025-09-24T22:26:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1785
+- author: SubspaceEmber
+  changes:
+    - type: Add
+      message: Ported a few markings for vox from Impstation.
+    - type: Fix
+      message: Ported a few fixes for markings for vox from Impstation.
+  id: 1219
+  time: '2025-09-24T22:53:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1790
