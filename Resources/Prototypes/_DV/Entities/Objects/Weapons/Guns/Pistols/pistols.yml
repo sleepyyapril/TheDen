@@ -195,6 +195,7 @@
     sprite: _DV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
     quickEquip: false
     slots:
+    - Belt
     - suitStorage
 
 - type: entity

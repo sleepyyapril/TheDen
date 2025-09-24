@@ -10,9 +10,9 @@
   parent: LockerDetective
   suffix: Empty
   name: mantis cabinet
-  description: "The truth within remains unseen until your mind's touch unravels the veils of possibility." # TheDen
+  description: "The truth within remains unseen until your mind's touch unravels the veils of possibility." # TheDen # TODO: MAKE THIS BETTER
   components:
-  # Because it contains some dangerous items, StrongMetallic,
+  # Because it holds a traitor objective, StrongMetallic,
   # but not as much HP as LockerBaseSecure, because it's not a Head's locker.
   - type: Damageable
     damageContainer: Inorganic

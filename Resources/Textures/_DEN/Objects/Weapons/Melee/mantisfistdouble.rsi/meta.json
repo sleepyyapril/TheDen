@@ -11,7 +11,14 @@
       "name": "icon"
     },
     {
+      "name": "icon-flipped"
+    },
+    {
       "name": "equipped-HAND",
+      "directions": 4
+    },
+    {
+      "name": "flipped-equipped-HAND",
       "directions": 4
     },
     {
