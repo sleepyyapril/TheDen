@@ -35,6 +35,8 @@
   name: napsack
   description: A large, padded sack with breathable mesh sides. Sold as a sleeping bag for felinids, so why does it have a carrying handle?
   components:
+  - type: Item
+    size: Ginormous # This doesn't need to go inside anything else, ever
   - type: Sprite
     sprite: _DEN/Clothing/Back/napsack.rsi
   - type: Clothing
@@ -43,6 +45,7 @@
     - back
     - suitStorage
   - type: Storage
+    maxItemSize: Huge
     grid:
     - 0,0,5,4
     whitelist:
@@ -97,21 +100,16 @@
     sprite: _DEN/Clothing/Back/Messenger/mantis.rsi
 
 - type: entity
-  parent: ClothingBackpackNapsack
-  id: ClothingBackpackCoffinMantis
+  parent: ClothingBackpackNapsack # ONLY carries player characters, nothing else!
+  id: ClothingBackpackSarcophagusMantis
   name: the sarcophagus
   description: A large, padded sack with breathable mesh sides. Sold as a sleeping bag for felinids, so why does it have a carrying handle?
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Back/mantiscoffin.rsi
+    sprite: _DEN/Clothing/Back/mantis-sarcophagus.rsi
   - type: Clothing
-    quickEquip: false
     slots:
     - suitStorage # Not really a backpack
   - type: Storage
-    maxItemSize: Huge
     grid:
-    - 0,0,20,10 # 1 bigger than the bluespace duffel so players won't fit in that
-    whitelist:
-      tags:
-        - CanPilot # ONLY carries player characters, nothing else!
+    - 0,0,20,10 # 1x1 bigger than ClothingBackpackDuffelHolding, matching the size of the StorableSpecies pseudoitem
