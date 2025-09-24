@@ -100,10 +100,10 @@
     sprite: _DEN/Clothing/Back/Messenger/mantis.rsi
 
 - type: entity
-  parent: ClothingBackpackNapsack # ONLY carries player characters, nothing else!
+  parent: [ClothingBackpackNapsack, BaseMantisContraband] # ONLY carries player characters, nothing else!
   id: ClothingBackpackSarcophagusMantis
   name: the sarcophagus
-  description: A large, padded sack with breathable mesh sides. Sold as a sleeping bag for felinids, so why does it have a carrying handle?
+  description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/mantis-sarcophagus.rsi
