@@ -7,7 +7,7 @@
 
 - type: entity
   name: soul-shatter
-  parent: BaseWeaponShotgun
+  parent: [BaseWeaponShotgun, BaseMantisContraband]
   id: WeaponShotgunSoulshatter
   description: "A gloomy sawn-off double barrel with an amaranth grip. Provides no tactical advantage. Uses 12 gauge shells."
   components:

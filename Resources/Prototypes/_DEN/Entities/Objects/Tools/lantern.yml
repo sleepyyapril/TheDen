@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseItem
+  parent: [BaseItem, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
   id: LanternMantis
   name: mantis lantern
   description: "An ornate lantern housing an eidolite pyramid that draws energy from the noosphere. Its glow lingers in your vision, imprinting shapes you can't quite name."

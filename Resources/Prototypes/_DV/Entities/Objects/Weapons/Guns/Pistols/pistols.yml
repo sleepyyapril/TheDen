@@ -157,7 +157,7 @@
 
 - type: entity
   name: psi-breaker
-  parent: BaseWeaponPistol
+  parent: [BaseWeaponPistol, BaseMantisContraband]
   id: WeaponPistolPsiBreaker
   description: "A gloomy pistol with an amaranth grip. Provides no tactical advantage. Uses .38 special ammo." # TheDen
   components:

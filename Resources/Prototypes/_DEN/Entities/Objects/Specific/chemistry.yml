@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseSyringe
+  parent: [BaseSyringe, BaseMantisContraband]
   id: SyringeMantis
   name: electrum syringe
   description: "An electrum syringe with an eidolite barrel. Naturally antimicrobial."

@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity
-  parent: CombatKnife
+  parent: [CombatKnife, BaseMantisContraband] # TheDen
   id: AntiPsychicKnife
   name: athame # TheDen - Anti-Psychic Knife sounded a little too plain considering the rest of their gear, and the description now includes a vague reference to heretics
   description: "A clawlike knife carved from mnemolith, with swordbreaker teeth along its back. It remains unclear just who exactly is wielding blades against mantes." # TheDen

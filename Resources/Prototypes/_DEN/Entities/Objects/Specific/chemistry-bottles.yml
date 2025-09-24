@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseChemistryEmptyBottle
+  parent: [BaseChemistryEmptyBottle, BaseMantisContraband]
   id: ChemistryEmptyBottleMantis
   name: electrum bottle
   description: "An eidolite bottle in a durable electrum shell. Useful for your rituals."

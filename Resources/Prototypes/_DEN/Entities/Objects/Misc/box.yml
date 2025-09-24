@@ -93,7 +93,7 @@
     - 0,0,3,1 # 4x2
 
 - type: entity
-  parent: MantisCaseLarge
+  parent: [MantisCaseLarge, BaseMantisContraband] # Contraband since all of its contents are
   id: MantisCaseTools
   name: mantis tools case # In the mantis locker
   description: "An amaranth case to store your things. A Greek psi is carved into the top, marking it as yours."
@@ -131,7 +131,7 @@
     - MantisBeltEquip
 
 - type: entity
-  parent: MantisCaseSmall
+  parent: [MantisCaseSmall, BaseMantisContraband] # Contraband since all of its contents are
   id: MantisCaseChemicals
   name: mantis chemicals case # In the mantis locker
   description: "An amaranth case to carry your chemicals. Conveniently portable, but the slots inside will only fit certain things. A watchful eye is carved into the top, marking it as yours."
