@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 SubspaceEmber
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 marking-VoxLArmScales-l_arm = Left Arm Scales
 marking-VoxLFootScales-l_foot = Left Foot Scales
 marking-VoxLHandScales-l_hand = Left Hand Scales
