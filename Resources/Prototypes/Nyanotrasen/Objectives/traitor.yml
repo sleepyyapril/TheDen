@@ -9,16 +9,16 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-- type: entity
-  categories: [ HideSpawnMenu ]
-  parent: BaseTraitorStealObjective
-  id: MantisKnifeStealObjective
-  components:
-  - type: NotJobRequirement
-    job: ForensicMantis
-  - type: StealCondition
-    stealGroup: AntiPsychicKnife
-    owner: job-name-mantis
+#- type: entity
+# categories: [ HideSpawnMenu ]
+# parent: BaseTraitorStealObjective
+# id: MantisKnifeStealObjective
+# components:
+# - type: NotJobRequirement
+#   job: ForensicMantis
+# - type: StealCondition
+#   stealGroup: AntiPsychicKnife
+#   owner: job-name-mantis
 
 #- type: entity
 #  id: BecomeGolemObjective

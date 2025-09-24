@@ -143,7 +143,7 @@
 - type: entity
   parent: ClothingUniformJumpsuitMantis
   id: ClothingUniformJumpsuitMantisDark
-  name: dark mantis uniform
+  name: dark mantis robe
   description: # TODO
   components:
   - type: Sprite

@@ -1,0 +1,99 @@
+- type: entity
+  parent: [BaseHandheldComputer, BaseMantisContraband] # Spawns in the mantis's pocket, contraband so they can't really give it away
+  id: HandheldPsionicsRegistry
+  name: handheld psionics registry
+  description: "Grants access to the psionic registry without having to return to your office."
+  components:
+  - type: Item
+    sprite: _DEN/Objects/Specific/Mantis/handheldpsionicsregistry.rsi
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Mantis/handheldpsionicsregistry.rsi
+    layers:
+    - state: icon
+    - state: screen
+      shader: unshaded
+  - type: PointLight
+    radius: 1.5
+    energy: 1.5
+    color: "#b32d70"
+  - type: Tag
+    tags:
+    - MantisBeltEquip
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 5
+  - type: ActivatableUI
+    key: enum.PsionicsRecordsConsoleKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.PsionicsRecordsConsoleKey.Key:
+        type: PsionicsRecordsConsoleBoundUserInterface
+  - type: PsionicsRecordsConsole
+  - type: AccessReader # Same as the psionics registry computer
+    access:
+      - [ Chapel ]
+      - [ Library ]
+      - [ Mantis ]
+      - [ ResearchDirector ]
+  # - type: GuideHelp
+    # guides: # TODO: Add a guide for Psionics Registry
+
+- type: entity
+  parent: HandheldPsionicsRegistry
+  id: HandheldPsionicsRegistryEmpty
+  suffix: Empty
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+
+- type: entity
+  parent: [BaseHandheldComputer, BaseMantisContraband] # Not parented to the handheld crew monitor because it should never fulfill a steal objective
+  id: HandheldCrewMonitorMantis
+  name: handheld crew monitor # If this is ever updated to only track registered psychics, rename it the "handheld psychic monitor" or something
+  description: "Finally you can find those pesky psychics." # Like above, if functionality changes, add "At least the ones you've registered... With their suit sensors active..."
+  components:
+  - type: Item
+    sprite: _DEN/Objects/Specific/Mantis/handheldcrewmonitormantis.rsi
+  - type: Sprite
+    sprite: _DEN/Objects/Specific/Mantis/handheldcrewmonitormantis.rsi
+    layers:
+    - state: icon
+    - state: screen
+      shader: unshaded
+  - type: PointLight
+    radius: 1.5
+    energy: 1.5
+    color: "#b32d70"
+  - type: Tag
+    tags:
+    - MantisBeltEquip
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 5
+  - type: ActivatableUI
+    key: enum.CrewMonitoringUIKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.CrewMonitoringUIKey.Key:
+        type: CrewMonitoringBoundUserInterface
+  - type: CrewMonitoringConsole
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: CrewMonitor
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: StationLimitedNetwork
+
+- type: entity
+  parent: HandheldCrewMonitorMantis
+  id: HandheldCrewMonitorMantisEmpty
+  suffix: Empty
+  components:
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default

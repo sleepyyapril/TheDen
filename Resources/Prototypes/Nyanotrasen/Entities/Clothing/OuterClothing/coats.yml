@@ -10,7 +10,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity
-  parent: ClothingOuterStorageBase
+  parent: [ClothingOuterStorageBase, BaseMantisContraband] # Contraband because it's lightly armored
   id: ClothingOuterCoatMantis
   name: classic mantis jacket
   description: Modeled after an ancient infantry uniform, this jacket may guard you against the unknown in your journey for the truth.
