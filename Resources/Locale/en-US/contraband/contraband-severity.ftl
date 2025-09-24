@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 MajorMoth
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 ﻿contraband-examine-text-Improvised = [color=yellow]T2: This item has been manufactured [color=red]clandestinely,[/color] thus it may be considered dangerous and/or contraband.[/color]
 contraband-examine-text-Minor = [color=yellow]T0: This item is considered minor contraband, and may be taken away when misused.[/color]
 contraband-examine-text-Restricted = [color=yellow]T1: This item is departmentally restricted.[/color]
