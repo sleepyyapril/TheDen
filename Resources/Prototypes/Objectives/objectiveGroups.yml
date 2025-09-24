@@ -50,7 +50,7 @@
     NukeDiskStealObjective: 1
     MagbootsStealObjective: 1
     CorgiMeatStealObjective: 1
-    MantisKnifeStealObjective: 1 # Nyanotrasen - ForensicMantis steal objective, see Resources/Prototypes/Nyanotrasen/Objectives/traitor.yml
+    # MantisKnifeStealObjective: 1 # Nyanotrasen - ForensicMantis steal objective, see Resources/Prototypes/Nyanotrasen/Objectives/traitor.yml
     ClipboardStealObjective: 1
     #RdClipboardStealObjective: 1 # DeltaV - Mysta steal Objective see Resources/Prototypes/_DV/Objectives/traitor.yml
     CaptainGunStealObjective: 0.5

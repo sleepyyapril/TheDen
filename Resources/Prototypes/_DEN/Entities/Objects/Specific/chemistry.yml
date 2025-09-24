@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseSyringe, BaseMantisContraband]
+  parent: [BaseSyringe, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
   id: SyringeMantis
   name: electrum syringe
   description: "An electrum syringe with an eidolite barrel. Naturally antimicrobial."

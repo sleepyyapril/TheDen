@@ -45,7 +45,7 @@
 
 - type: entity
   parent: ClothingHeadTinfoil
-  id: ClothingHeadHatFezMantisInsulative
+  id: [ClothingHeadHatFezMantisInsulative, BaseMantisContraband] # Mantis privelege
   name: insulative mantis fez
   description: Someone wrapped your old mantis fez in mu-metal foil... At least it'll protect you from psionic attacks.
   components:

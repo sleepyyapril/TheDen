@@ -107,7 +107,7 @@
     sprite: Nyanotrasen/Clothing/Head/Hats/bellhop.rsi
 
 - type: entity
-  parent: ClothingHeadTinfoil
+  parent: ClothingHeadTinfoil # Specifically not contraband despite being armored so the mystagogue can be silly
   id: ClothingHeadCage
   name: insulative headcage
   description: A durable mu-metal cage that psionically insulates whoever's head is inside it. It takes time to remove. # TheDen
@@ -159,7 +159,7 @@
         Radiation: 0.95
   - type: GuideHelp
     guides: [ PsionicInsulation ]
-  - type: Tag # TheDen - If you can even find one
+  - type: Tag
     tags:
     - MantisBeltEquip
 

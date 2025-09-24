@@ -49,7 +49,7 @@
       tags:
         - CanPilot # ONLY carries player characters, nothing else!
 
-- type: entity # The mantis backpacks are a bit smaller to show off their clothes
+- type: entity # The mantis backpacks are a bit smaller, visually, to show off their clothes
   parent: ClothingBackpack
   id: ClothingBackpackMantis
   name: mantis backpack

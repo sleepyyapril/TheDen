@@ -100,7 +100,7 @@
           Quantity: 10
 
 - type: entity
-  parent: [PillCanisterMantis, BaseMantisContraband]
+  parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
   id: PillCanisterSpaceDrugsMantis
   suffix: LSD, 5
   description: "A potent psychedelic that may awaken psionic abilities in those with potential, coloquially called \"space drugs\"."
@@ -118,7 +118,7 @@
     guides: [ Psionics ]
 
 - type: entity
-  parent: [PillCanisterMantis, BaseMantisContraband]
+  parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
   id: PillCanisterCryptobiolinMantis
   suffix: cryptobiolin, 5
   description: "A long-lasting drug which causes mild confusion, but renders you psionically insulated."
@@ -136,7 +136,7 @@
     guides: [ PsionicInsulation ]
 
 - type: entity
-  parent: [PillCanisterMantis, BaseMantisContraband]
+  parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
   id: PillCanisterMindbreakerToxinMantis
   suffix: mindbreaker toxin, 5
   description: "Permanently removes psionics when ingested. Mildly poisonous."
@@ -154,7 +154,7 @@
     guides: [ Mindbreaking ]
 
 - type: entity # Not obtainable by players, unless we want to prevent them from making heartbreaker out of their roundstart mindbreaker in MantisCaseChemicals
-  parent: [PillCanisterMantis, BaseMantisContraband]
+  parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue (if it replaces mindbreaker)
   id: PillCanisterSoulbreakerToxinMantis
   suffix: soulbreaker toxin, 5
   description: "Permanently removes psionics when ingested. Four times stronger than mindbreaker toxin."
@@ -199,7 +199,7 @@
     guides: [ Mindbreaking ]
 
 - type: entity
-  parent: [PillCanisterMantis, BaseMantisContraband]
+  parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
   id: PillCanisterMnemolithMantis
   suffix: mnemolith, 10 # Just an RP drug, so there can be ten of them
   description: "Powdered and pressed mnemolith, used by psionic mantes to heighten their extrasensory perception. Potential psychological impact aside, there are no known lasting effects."

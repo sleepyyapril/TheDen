@@ -30,7 +30,7 @@
       - id: MantisCaseTools # Contains their lantern, folder, and hand labeler
       - id: MantisCaseChemicals # Contains their syringe, chemistry bottle, and pill canisters
       - id: MaterialEidolite1 # Glowy jewel for the mystic for fun
-      - id: BookPsionicsGuidebook #
+      - id: BookPsionicsGuidebook # TheDen
       # Spare clothes in case you change to this job
       - id: ClothingHeadHoodMantisDark # TheDen
       - id: ClothingOuterWinterCoatMantisDark # TheDen

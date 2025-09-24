@@ -101,7 +101,7 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskMantisVeil
-  name: dark mantis veil
+  name: mantis veil
   description: # TODO
   components:
   - type: Item
@@ -124,7 +124,7 @@
 - type: entity
   parent: ClothingMaskMantisVeil
   id: ClothingMaskMantisRitual
-  name: dark mantis veil
+  name: mantis ritual mask
   description: # TODO
   components:
   - type: Sprite

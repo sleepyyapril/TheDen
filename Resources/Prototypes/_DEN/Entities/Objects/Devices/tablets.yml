@@ -1,5 +1,5 @@
 - type: entity
-  parent: BaseItem
+  parent: [BaseItem, BaseMantisContraband] # Spawns in the mantis's pocket, contraband so they can't really give it away
   id: MantisTablet
   name: psionics registry tablet
   description: "Grants access to the psionic registry without having to return to your office."
