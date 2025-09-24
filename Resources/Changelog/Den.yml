@@ -12452,3 +12452,12 @@ Entries:
   id: 1216
   time: '2025-09-23T10:38:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1786
+- author: LilNutters
+  changes:
+    - type: Tweak
+      message: >-
+        Tape recorders, cassette tapes and papermoon reams can now fit inside
+        the paperwork belt.
+  id: 1217
+  time: '2025-09-24T22:26:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1792
