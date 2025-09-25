@@ -100,16 +100,32 @@
     sprite: _DEN/Clothing/Back/Messenger/mantis.rsi
 
 - type: entity
-  parent: [ClothingBackpackNapsack, BaseMantisContraband] # ONLY carries player characters, nothing else!
+  parent: [ClothingBackpackNapsack, BaseMantisContraband]
   id: ClothingBackpackSarcophagusMantis
-  name: the sarcophagus
-  description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study."
+  name: sarcophagus
+  description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/mantis-sarcophagus.rsi
+  - type: Item
+    sprite: _DEN/Clothing/Back/mantis-sarcophagus-inhands-64x.rsi
   - type: Clothing
     slots:
     - suitStorage # Not really a backpack
   - type: Storage
     grid:
     - 0,0,20,10 # 1x1 bigger than ClothingBackpackDuffelHolding, matching the size of the StorableSpecies pseudoitem
+    whitelist:
+      tags:
+        - CanPilot # ONLY player characters have this
+        - MantisRestraints # Slow handcuffs only really meant for roleplay. Notably, a player won't fit if you leave the chains inside of it
+
+- type: entity
+  parent: ClothingBackpackSarcophagusMantis
+  id: ClothingBackpackSarcophagusMantisFilled
+  suffix: Filled
+  name: sarcophagus
+  components:
+  - type: StorageFill
+    contents:
+    - id: MantisChain # If these are ever used to selfsec I swear to god I'll drop the breakout doafter to a millisecond

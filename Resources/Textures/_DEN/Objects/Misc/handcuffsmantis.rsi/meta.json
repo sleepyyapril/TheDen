@@ -11,11 +11,15 @@
       "name": "icon"
     },
     {
-      "name": "equipped-BACKPACK",
+      "name": "equipped-BELT",
       "directions": 4
     },
-    {
-      "name": "equipped-BACKPACK-thaven",
+	  {
+      "name": "body-overlay-2",
+      "directions": 4
+    },
+	  {
+      "name": "body-overlay-4",
       "directions": 4
     },
     {

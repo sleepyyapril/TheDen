@@ -1,0 +1,44 @@
+﻿- type: entity
+  parent: [BaseItem, BaseMantisContraband]
+  name: graven chains
+  description: "Heavy restraints joined by mu-metal chains, leaving the head exposed so as not to interfere with the mantis's probing. What did you do to deserve this?"
+  id: MantisChain
+  components:
+  - type: Item
+    size: Normal # They're way too big to be Small, sorry
+  - type: Handcuff
+    breakoutTime: 5 # Five seconds seems fine so people can roleplay trying to get free, but if these are ever used to selfsec I swear to god I'll drop it to a millisecond
+    cuffTime: 7 # It's for roleplay, and you're unlikely to have time to use this before a stun wears off
+    uncuffTime: 7
+    stunBonus: 0
+    cuffedRSI: _DEN/Objects/Misc/handcuffsmantis.rsi
+    bodyIconState: body-overlay
+    breakOnRemove: false
+    startCuffSound:
+      path: /Audio/_DEN/Items/Handcuffs/chain_start.ogg
+    endCuffSound:
+      path: /Audio/_DEN/Items/Handcuffs/chain_end.ogg
+    startUncuffSound:
+      path: /Audio/_DEN/Items/Handcuffs/chain_start.ogg
+    endUncuffSound:
+      path: /Audio/_DEN/Items/Handcuffs/chain_breakout.ogg
+    startBreakoutSound:
+      path: /Audio/Items/Handcuffs/chain_takeoff.ogg
+  - type: Sprite
+    sprite: _DEN/Objects/Misc/handcuffsmantis.rsi
+    state: icon
+  - type: Tag
+    tags:
+    - MantisRestraints
+    - MantisBeltEquip
+  - type: MeleeWeapon
+    wideAnimationRotation: 90
+    resetOnHandSelected: false
+    animation: WeaponArcDisarm
+    damage:
+      types:
+        Blunt: 0
+  - type: GuideHelp
+    guides: [ MantisGuide ] # Remind them this is really just for roleplay...
+  - type: UseDelay
+    delay: 7
