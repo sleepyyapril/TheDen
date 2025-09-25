@@ -1,6 +1,7 @@
 - type: entity
   parent: BaseObjective
   id: SkiaReapObjective
+  categories: [ HideSpawnMenu ]
   name: Reap the damned soul.
   description: Ensure this soul is released from its body at least once.
   components:
@@ -20,6 +21,7 @@
     title: objective-condition-reap-soul-title
   - type: PickRandomPerson
     onlyChoosableJobs: true
+#    objectiveType: TraitorKill #TheDen - for consent
   - type: RerollAfterCompletion
     rerollObjectivePrototype: SkiaReapObjective
     rerollObjectiveMessage: objective-condition-reap-soul-reroll-message

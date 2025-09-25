@@ -23,23 +23,6 @@
 
 - type: entity
   parent: ClothingOuterBaseToggleable
-  id: ClothingOuterInterdyneChemistrySuit
-  name: interdyne chemistry suit
-  description: A spotless suit and durable, designed to protect you from chemical spills.
-  components:
-  - type: Sprite
-    sprite: _DV/Clothing/OuterClothing/Misc/interdynechemsuit.rsi
-  - type: Clothing
-    sprite: _DV/Clothing/OuterClothing/Misc/interdynechemsuit.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Caustic: 0.40
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatInterdyneChemistryHood
-
-- type: entity
-  parent: ClothingOuterBaseToggleable
   id: ClothingOuterHoodieSkia
   name: skia hoodie
   description: The robes worn by a shade.
