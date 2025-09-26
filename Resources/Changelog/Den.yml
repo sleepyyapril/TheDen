@@ -12511,3 +12511,12 @@ Entries:
   id: 1223
   time: '2025-09-26T20:23:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1780
+- author: AvianMaiden
+  changes:
+    - type: Add
+      message: >-
+        Replacement lines for a few vendors pertaining to Security, removing too
+        on-the-nose references to real life while keeping tone.
+  id: 1224
+  time: '2025-09-26T20:49:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1804
