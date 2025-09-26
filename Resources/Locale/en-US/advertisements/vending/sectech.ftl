@@ -1,9 +1,10 @@
-# SPDX-FileCopyrightText: 2021 Moses <StrawberryMoses@gmail.com>
-# SPDX-FileCopyrightText: 2024 EdenTheLiznerd <138748328+EdenTheLiznerd@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 LovelyLophi <111106265+LovelyLophi@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 Tayrtahn <tayrtahn@gmail.com>
-# SPDX-FileCopyrightText: 2024 Ubaser <134914314+UbaserB@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2021 Moses
+# SPDX-FileCopyrightText: 2024 EdenTheLiznerd
+# SPDX-FileCopyrightText: 2024 LovelyLophi
+# SPDX-FileCopyrightText: 2024 Tayrtahn
+# SPDX-FileCopyrightText: 2024 Ubaser
+# SPDX-FileCopyrightText: 2025 AvianMaiden
+# SPDX-FileCopyrightText: 2025 sleepyyapril
 #
 # SPDX-License-Identifier: MIT
 
