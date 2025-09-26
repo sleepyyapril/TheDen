@@ -323,7 +323,7 @@
     - CheapSunglasses
 
 - type: entity
-  parent: ClothingEyesGlassesCheapSunglasses
+  parent: ClothingEyesGlassesSunglasses
   id: ClothingEyesGlassesSunglassesAviator
   name: shielded aviators
   description: A pair of designer sunglasses.
@@ -367,7 +367,7 @@
     - CheapSunglasses
 
 - type: entity
-  parent: ClothingEyesGlassesCheapSunglasses
+  parent: ClothingEyesGlassesSunglasses
   id: ClothingEyesGlassesSunglassesBig
   name: big shielded sunglasses
   description: A pair of black sunglasses with big lenses.
@@ -411,7 +411,7 @@
     - CheapSunglasses
 
 - type: entity
-  parent: ClothingEyesGlassesCheapSunglasses
+  parent: ClothingEyesGlassesSunglasses
   id: ClothingEyesGlassesSunglassesVisor
   name: shielded visor sunglasses
   description: A pair of visor sunglasses.
