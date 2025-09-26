@@ -12527,3 +12527,14 @@ Entries:
   id: 1225
   time: '2025-09-26T22:55:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1806
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Added DamageOnInteract system from WizDen
+    - type: Tweak
+      message: Changed how lights and anomalies harm players when they are clicked on
+    - type: Tweak
+      message: Most gloves will now let you remove lightbulbs
+  id: 1226
+  time: '2025-09-26T23:04:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1782
