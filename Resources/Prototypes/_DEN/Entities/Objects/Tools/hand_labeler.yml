@@ -31,7 +31,7 @@
     - type: Tag
       tags:
       - HandLabeler
-      - MantisBeltEquip
+      - MantisBeltStorable
     - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does less damage than a crowbar (even to psychics)
       punish: false
       modifiers:

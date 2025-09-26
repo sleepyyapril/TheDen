@@ -116,7 +116,7 @@
         - Bottle
         - PillCanister
         - Pill
-        - MantisBeltEquip
+        - MantisBeltStorable
       components:
         - AnomalyScanner
         - NodeScanner
@@ -128,7 +128,7 @@
     - id: HandLabelerMantis
   - type: Tag
     tags:
-    - MantisBeltEquip
+    - MantisBeltStorable
 
 - type: entity
   parent: [MantisCaseSmall, BaseMantisContraband] # Contraband since all of its contents are
@@ -167,7 +167,7 @@
     - id: PillCanisterMindbreakerToxinMantis # They don't have mindbreaker bullets anymore, so they get this instead
   - type: Tag
     tags:
-    - MantisBeltEquip
+    - MantisBeltStorable
 
 - type: entity
   parent: MantisCase
@@ -200,4 +200,4 @@
     - id: CandleMantisSmall
   - type: Tag
     tags:
-    - MantisBeltEquip
+    - MantisBeltStorable

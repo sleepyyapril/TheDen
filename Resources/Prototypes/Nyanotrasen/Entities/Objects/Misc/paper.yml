@@ -30,5 +30,5 @@
   - type: Tag
     tags:
       # - ForensicBeltEquip # TheDen
-      - MantisBeltEquip # TheDen - New tag for clarity
+      - MantisBeltStorable # TheDen - New tag for clarity
       - MantisFolderStorable # Only the mantis pen and stamp should have this

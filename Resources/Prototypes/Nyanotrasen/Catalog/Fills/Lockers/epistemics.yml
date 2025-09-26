@@ -30,7 +30,7 @@
       - id: MaterialEidolite1 # TheDen - Glowy jewel for the mystic for fun
       - id: MantisCaseTools # TheDen - Contains their lantern, folder, and hand labeler
       - id: MantisCaseChemicals # TheDen - Contains their syringe, chemistry bottle, and pill canisters
-      - id: ClothingBackpackSarcophagusMantisFilled # TheDen
+      - id: ClothingBackpackCoffinMantisFilled # TheDen - Contains their collar, shackles, and a spare headcage
       - id: BookPsionicsGuidebook # TheDen - This thing sucks right now but it's gotta go somewhere
       # Spare clothes in case you change to this job
       - id: ClothingHeadHoodMantisDark # TheDen
@@ -38,5 +38,4 @@
       - id: ClothingBackpackDuffelMantis # TheDen
       # Insulative headgear
       - id: ClothingHeadHatFezMantisInsulative # TheDen - Functionally identical to the tinfoil hat
-      - id: ClothingHeadCage
-        amount: 2
+      - id: ClothingHeadCage # TheDen - The second one is in the sarcophagus

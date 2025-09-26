@@ -35,7 +35,7 @@
         - Bottle # TheDen
         - PillCanister # TheDen
         - Pill # TheDen
-        - MantisBeltEquip # TheDen - Only to be used for mantis-specific items
+        - MantisBeltStorable # TheDen - Only to be used for mantis-specific items
         # - ForensicBeltEquip # TheDen - The old name of the mantis belt's whitelist tag, now made more clear
         # - Sidearm # TheDen - Only tagged mantis weapons will fit inside
       components:
@@ -52,13 +52,13 @@
         ejectSound: /Audio/Items/unsheath.ogg
         whitelist:
           tags:
-          - MantisKnife
+          - MantisMeleeKnife
   - type: ItemMapper
     mapLayers:
       mantisknife:
         whitelist:
           tags:
-          - MantisKnife
+          - MantisMeleeKnife
     sprite: _DEN/Clothing/Belt/belt_overlay.rsi
   - type: ContainerContainer
     containers:

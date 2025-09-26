@@ -40,7 +40,7 @@
   - type: Tag
     tags:
     - Sidearm
-    - MantisBeltEquip
+    - MantisBeltStorable
 
 - type: entity
   name: antique energy shotgun

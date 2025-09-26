@@ -44,7 +44,7 @@
           acts: [ "Destruction" ]
     - type: Tag
       tags:
-      - MantisBeltEquip
+      - MantisBeltStorable
       - MantisCandleBoxStorable # Only the mantis lighter and candles should have this
 
 - type: entity

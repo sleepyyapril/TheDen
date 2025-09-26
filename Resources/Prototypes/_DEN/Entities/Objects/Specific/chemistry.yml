@@ -53,7 +53,7 @@
   - type: Tag
     tags:
     - Syringe
-    - MantisBeltEquip
+    - MantisBeltStorable
     - MantisChemicalBoxStorable
 
 - type: entity
@@ -107,5 +107,5 @@
   - type: Tag
     tags:
       - PillCanister
-      - MantisBeltEquip
+      - MantisBeltStorable
       - MantisChemicalBoxStorable

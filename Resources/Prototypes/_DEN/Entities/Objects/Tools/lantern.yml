@@ -69,7 +69,7 @@
     - type: Tag
       tags:
       - Flashlight
-      - MantisBeltEquip
+      - MantisBeltStorable
     - type: UnpoweredFlashlight # Powered by the noosphere
     - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does less damage than a crowbar (even to psychics)
       punish: false

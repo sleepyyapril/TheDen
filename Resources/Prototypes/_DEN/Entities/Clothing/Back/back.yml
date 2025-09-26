@@ -101,7 +101,7 @@
 
 - type: entity
   parent: [ClothingBackpackNapsack, BaseMantisContraband]
-  id: ClothingBackpackSarcophagusMantis
+  id: ClothingBackpackCoffinMantis
   name: sarcophagus
   description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation."
   components:
@@ -114,18 +114,22 @@
     - suitStorage # Not really a backpack
   - type: Storage
     grid:
-    - 0,0,20,10 # 1x1 bigger than ClothingBackpackDuffelHolding, matching the size of the StorableSpecies pseudoitem
+    - 9,0,9,1 # A small storage space for its StorageFill contents below
+    - 10,0,11,1
+    - 0,2,20,7 # 1 wider than ClothingBackpackDuffelHolding, capable of fitting the StorableSpecies pseudoitem
     whitelist:
       tags:
         - CanPilot # ONLY player characters have this
-        - MantisRestraints # Slow handcuffs only really meant for roleplay. Notably, a player won't fit if you leave the chains inside of it
+        - MantisCoffinStorable
 
 - type: entity
-  parent: ClothingBackpackSarcophagusMantis
-  id: ClothingBackpackSarcophagusMantisFilled
+  parent: ClothingBackpackCoffinMantis
+  id: ClothingBackpackCoffinMantisFilled
   suffix: Filled
   name: sarcophagus
   components:
   - type: StorageFill
     contents:
-    - id: MantisChain # If these are ever used to selfsec I swear to god I'll drop the breakout doafter to a millisecond
+    - id: ClothingHeadCageMantis # This version has a chain on the front to match the other sarcophagus items
+    - id: ClothingNeckShacklesMantis # Just a cosmetic neck item to complete the set
+    - id: HandcuffsMantis # If these are ever used to selfsec I swear to god I'll drop the breakout doafter to a millisecond

@@ -7,7 +7,7 @@
   - type: Tag
     tags:
     - Bottle
-    - MantisBeltEquip
+    - MantisBeltStorable
     - MantisChemicalBoxStorable
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/bottle.rsi

@@ -59,11 +59,9 @@
 - type: Tag
   id: DisposableSyringePackaged
 
+# Mantis tags start, alphabetized
 - type: Tag
-  id: MantisBeltEquip
-
-- type: Tag
-  id: MantisFolderStorable
+  id: MantisBeltStorable
 
 - type: Tag
   id: MantisCandleBoxStorable
@@ -72,4 +70,10 @@
   id: MantisChemicalBoxStorable
 
 - type: Tag
-  id: MantisRestraints
+  id: MantisFolderStorable
+
+- type: Tag
+  id: MantisMeleeKnife
+
+- type: Tag
+  id: MantisCoffinStorable

@@ -71,3 +71,18 @@
     sprite: _DEN/Clothing/Neck/Misc/heavyshackles.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Neck/Misc/heavyshackles.rsi
+
+- type: entity
+  parent: [ClothingNeckCollarBase, BaseMantisContraband]
+  id: ClothingNeckShacklesMantis
+  name: graven bindings
+  description: "A massive mu-metal collar with matching shackles. They are only symbolic; the graven chains are the true sentence."
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Neck/Misc/shacklesmantis.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Neck/Misc/shacklesmantis.rsi
+  - type: Tag
+    tags:
+    - MantisCoffinStorable # Fits in the sarcophagus
+    - MantisBeltStorable

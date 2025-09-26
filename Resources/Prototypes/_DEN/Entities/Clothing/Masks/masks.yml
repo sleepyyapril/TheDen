@@ -115,7 +115,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - MantisBeltEquip
+    - MantisBeltStorable
   - type: HideLayerClothing
     slots:
     - Snout

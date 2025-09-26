@@ -1,11 +1,11 @@
 ﻿- type: entity
   parent: [BaseItem, BaseMantisContraband]
   name: graven chains
-  description: "Heavy restraints joined by mu-metal chains, leaving the head exposed so as not to interfere with the mantis's probing. What did you do to deserve this?"
-  id: MantisChain
+  description: "Heavy mu-metal chains to bind unruly psychics, inscribed for both record and suppression."
+  id: HandcuffsMantis
   components:
   - type: Item
-    size: Normal # They're way too big to be Small, sorry
+    size: Small
   - type: Handcuff
     breakoutTime: 5 # Five seconds seems fine so people can roleplay trying to get free, but if these are ever used to selfsec I swear to god I'll drop it to a millisecond
     cuffTime: 7 # It's for roleplay, and you're unlikely to have time to use this before a stun wears off
@@ -29,8 +29,8 @@
     state: icon
   - type: Tag
     tags:
-    - MantisRestraints
-    - MantisBeltEquip
+    - MantisCoffinStorable # Fits in the sarcophagus
+    - MantisBeltStorable
   - type: MeleeWeapon
     wideAnimationRotation: 90
     resetOnHandSelected: false

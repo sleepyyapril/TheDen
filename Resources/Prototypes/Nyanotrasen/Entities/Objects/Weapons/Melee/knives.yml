@@ -46,8 +46,8 @@
   - type: Tag
     tags:
     # - ForensicBeltEquip # TheDen
-    - MantisBeltEquip # TheDen - New tag for clarity
-    - MantisKnife
+    - MantisBeltStorable # TheDen - New tag for clarity
+    - MantisMeleeKnife
     # - HighRiskItem # TheDen - No longer a steal target
   # - type: StealTarget
   #   stealGroup: AntiPsychicKnife

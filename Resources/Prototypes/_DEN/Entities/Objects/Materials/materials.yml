@@ -20,7 +20,7 @@
   - type: Tag
     tags:
     # - RawMaterial # No need to put it in a lathe
-    - MantisBeltEquip # Why not, their gear is made of it
+    - MantisBeltStorable # Why not, their gear is made of it
   - type: Stack
     stackType: Mnemolith
     baseLayer: base
@@ -92,7 +92,7 @@
     grindableSolutionName: food
   - type: Tag
     tags:
-    - MantisBeltEquip # Why not, their gear is made of it
+    - MantisBeltStorable # Why not, their gear is made of it
 
 - type: entity
   parent: MaterialBase
@@ -116,7 +116,7 @@
   - type: Tag
     tags:
     # - RawMaterial # No need to put it in a lathe
-    - MantisBeltEquip # Why not, their gear is made of it
+    - MantisBeltStorable # Why not, their gear is made of it
   - type: Stack
     stackType: Eidolite
     baseLayer: base

@@ -39,7 +39,7 @@
   - type: Tag
     tags:
     - ForceableFollow
-    - MantisBeltEquip # TheDen
+    - MantisBeltStorable # TheDen
   - type: AnomalyCore
     timeToDecay: 600
     startPrice: 10000
