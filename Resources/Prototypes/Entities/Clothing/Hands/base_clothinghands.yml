@@ -51,6 +51,10 @@
         - ItemMask
         restitution: 0.3
         friction: 0.2
+  - type: DamageOnInteractProtection
+    damageProtection:
+      flatReductions:
+        Heat: 5 # the average lightbulb only does around four damage!
 
 - type: entity
   abstract: true

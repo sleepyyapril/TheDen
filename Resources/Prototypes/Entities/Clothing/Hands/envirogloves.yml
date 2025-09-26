@@ -338,8 +338,12 @@
       gloves:
       - state: equipped-HAND
         color: "#3164ff"
-  - type: GloveHeatResistance
-    heatResistance: 1400
+  # DEN
+  - type: DamageOnInteractProtection
+    damageProtection:
+      flatReductions:
+        Heat: 10
+  # DEN
   - type: Fiber
     fiberMaterial: fibers-leather
     fiberColor: fibers-blue
