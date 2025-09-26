@@ -6,6 +6,7 @@
 
 - type: entity
   save: false
+  parent: StorableSpecies # TheDen
   id: BaseMobKitsune
   name: Urist McKitsune
   abstract: true
