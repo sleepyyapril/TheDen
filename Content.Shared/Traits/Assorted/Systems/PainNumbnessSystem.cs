@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 bigsantino1
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Damage.Events;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Events;
