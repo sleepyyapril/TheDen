@@ -12561,3 +12561,10 @@ Entries:
   id: 1229
   time: '2025-09-27T00:52:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1802
+- author: Oberonics
+  changes:
+    - type: Add
+      message: Ported the Pain Numbness trait from wizden.
+  id: 1230
+  time: '2025-09-27T03:20:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1789
