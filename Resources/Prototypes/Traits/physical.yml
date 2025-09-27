@@ -393,7 +393,8 @@
     - !type:CharacterWidthRequirement
       max: 36
   functions:
-    - !type:TraitAddComponent
+    #- !type:TraitAddComponent # TheDen - All player characters have the PseudoItem component now, so we need to use TraitReplaceComponent instead
+    - !type:TraitReplaceComponent
       components:
         - type: PseudoItem
           storedOffset: 0,17
@@ -421,7 +422,8 @@
     - !type:CharacterWidthRequirement
       max: 36
   functions:
-    - !type:TraitAddComponent
+    #- !type:TraitAddComponent # TheDen - All player characters have the PseudoItem component now, so we need to use TraitReplaceComponent instead
+    - !type:TraitReplaceComponent
       components:
         - type: PseudoItem
           storedOffset: 0,17
