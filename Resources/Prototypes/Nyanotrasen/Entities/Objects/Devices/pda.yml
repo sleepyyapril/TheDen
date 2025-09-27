@@ -123,7 +123,7 @@
   parent: BasePDA
   id: ForensicMantisPDA
   name: mantis PDA
-  description: The eye on the screen follows you...
+  description: "The eye on the screen follows you..."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Devices/pda.rsi

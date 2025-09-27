@@ -146,19 +146,19 @@
 
 # Equipment
 
-- type: loadout
-  id: LoadoutPsionicMantisPillCanisterMnemolith
-  category: JobsEpistemicsPsionicMantis
-  cost: 0
-  guideEntry: Psionics
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutPsionicMantisEquipment
-    - !type:CharacterJobRequirement
-      jobs:
-        - ForensicMantis
-  items:
-    - PillCanisterMnemolithMantis
+#- type: loadout # Currently found in MantisCaseChemicals in their locker
+#  id: LoadoutPsionicMantisPillCanisterMnemolith
+#  category: JobsEpistemicsPsionicMantis
+#  cost: 0
+#  guideEntry: Psionics
+#  requirements:
+#    - !type:CharacterItemGroupRequirement
+#      group: LoadoutPsionicMantisEquipment
+#    - !type:CharacterJobRequirement
+#      jobs:
+#        - ForensicMantis
+#  items:
+#    - PillCanisterMnemolithMantis
 
 - type: loadout
   id: LoadoutPsionicMantisEquipmentCigPackMantis
@@ -198,6 +198,19 @@
         - ForensicMantis
   items:
     - FlippoLighterMantis
+
+- type: loadout
+  id: LoadoutPsionicMantisEquipmentCoffinMantisFilled
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingBackpackCoffinMantisFilled
 
 # Eyes
 

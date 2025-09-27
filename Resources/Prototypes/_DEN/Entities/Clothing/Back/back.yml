@@ -100,8 +100,9 @@
     sprite: _DEN/Clothing/Back/Messenger/mantis.rsi
 
 - type: entity
-  parent: [ClothingBackpackNapsack, BaseMantisContraband]
+  parent: [ClothingBackpackNapsack, BaseMantisContraband] # A roleplay toy that can carry people
   id: ClothingBackpackCoffinMantis
+  suffix: DO NOT MAP # Use the Decoration version
   name: sarcophagus
   description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation."
   components:
@@ -125,7 +126,7 @@
 - type: entity
   parent: ClothingBackpackCoffinMantis
   id: ClothingBackpackCoffinMantisFilled
-  suffix: Filled
+  suffix: Filled, DO NOT MAP
   name: sarcophagus
   components:
   - type: StorageFill
@@ -133,3 +134,13 @@
     - id: ClothingHeadCageMantis # This version has a chain on the front to match the other sarcophagus items
     - id: ClothingNeckShacklesMantis # Just a cosmetic neck item to complete the set
     - id: HandcuffsMantis # If these are ever used to selfsec I swear to god I'll drop the breakout doafter to a millisecond
+
+- type: entity
+  parent: ClothingBackpackCoffinMantis
+  id: ClothingBackpackCoffinMantisDecoration # A version of the sarcophagus without room for the extra items, if you want to map it for looks
+  suffix: Filled
+  name: sarcophagus
+  components:
+  - type: Storage
+    grid:
+      - 0,0,20,5 # 1 wider than ClothingBackpackDuffelHolding, capable of fitting the StorableSpecies pseudoitem

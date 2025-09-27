@@ -47,15 +47,15 @@
   id: LoadoutPsionicMantisEquipment
   maxItems: 4
   items:
-    #- type: loadout # TheDen - They have their own candles now
+    #- type: loadout # TheDen - They have their own candles now, see below
     #  id: LoadoutPsionicMantisEquipmentCandles
     #- type: loadout
     #  id: LoadoutPsionicMantisEquipmentCandlesSmall
-    #- type: loadout
+    #- type: loadout # TheDen - All pills moved to MantisCaseChemicals in their locker
     #  id: LoadoutPsionicMantisPillCanisterSpaceDrugs
     #- type: loadout
     #  id: LoadoutPsionicMantisPillCanisterCryptobiolin
-    #- type: loadout # TheDen - All their pills are in their locker now
+    #- type: loadout
     #  id: LoadoutPsionicMantisPillCanisterMnemolith
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentCigPackMantis
@@ -63,6 +63,8 @@
       id: LoadoutPsionicMantisEquipmentFlippoLighterMantis
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentMantisCaseCandles
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisEquipmentCoffinMantisFilled
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisEyes
