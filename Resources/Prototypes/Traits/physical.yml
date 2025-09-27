@@ -253,6 +253,7 @@
       inverted: true
       traits:
         - LowPainTolerance
+        - PainNumbness
   functions:
     - !type:TraitReplaceComponent
       components:
@@ -275,6 +276,7 @@
       inverted: true
       traits:
         - Masochism
+        - PainNumbness
   functions:
     - !type:TraitReplaceComponent
       components:

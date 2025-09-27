@@ -437,3 +437,24 @@
               Piercing: 4
             groups:
               Burn: 3
+
+- type: trait
+  id: PainNumbness
+  category: TraitsPhysicalDisabilities
+  points: 4
+  requirements:
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+    - StationAi
+    - Borg
+    - MedicalBorg
+  - !type:CharacterTraitRequirement
+    inverted: true
+    traits:
+    - LowPainTolerance
+    - Masochism
+  functions:
+  - !type:TraitAddComponent
+    components:
+    - type: PainNumbness
