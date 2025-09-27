@@ -55,10 +55,6 @@
         - StationAi
         - Borg
         - MedicalBorg
-    - !type:CharacterTraitRequirement
-      inverted: true
-      traits:
-      - PainNumbness
   functions:
     - !type:TraitAddComponent
       components:

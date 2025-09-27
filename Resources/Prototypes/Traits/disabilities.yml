@@ -452,7 +452,8 @@
   - !type:CharacterTraitRequirement
     inverted: true
     traits:
-    - SelfAware
+    - LowPainTolerance
+    - Masochism
   functions:
   - !type:TraitAddComponent
     components:
