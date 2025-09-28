@@ -12573,3 +12573,12 @@ Entries:
   id: 1231
   time: '2025-09-27T21:13:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1794
+- author: Shaman
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the Small trait not working after the StorableSpecies PR (hehe
+        oops)
+  id: 1232
+  time: '2025-09-28T02:40:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1812
