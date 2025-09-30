@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # Some non-addictive moodlets for certain drug chemicals. These indicate to the player that some kind of
 # medication has been in their blood stream lately, so they're quite low impact. The actual reason these
 # exist is to encourage players to space out their medication doses instead of popping pills back to back.

@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 mood-effect-name-AntidepressantBenefitNonAddictive = mild antidepressant properties
 mood-effect-AntidepressantBenefitNonAddictive = I have more energy and motivation to do things.
 
