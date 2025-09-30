@@ -5,9 +5,9 @@
   description: # TODO
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_airy.rsi
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_sandals_airy.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_airy.rsi
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_sandals_airy.rsi
 
 - type: entity
   parent: ClothingShoesBootsMantis
@@ -16,9 +16,9 @@
   description: # TODO
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_dark.rsi
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_sandals_dark.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_dark.rsi
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_sandals_dark.rsi
 
 - type: entity
   parent: ClothingShoesBootsMantis
@@ -27,6 +27,6 @@
   description: # TODO
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_ornate.rsi
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_sandals_ornate.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Shoes/Boots/mantis_boots_ornate.rsi
+    sprite: _DEN/Clothing/Shoes/Boots/mantis_sandals_ornate.rsi

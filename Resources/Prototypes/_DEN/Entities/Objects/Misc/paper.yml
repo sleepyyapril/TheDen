@@ -253,7 +253,7 @@
       quickEquip: false
       slots: [mask] # You can wear it over your face like a Japanese talisman and the eye on it will pulse every few seconds, but this isn't noted anywhere
       clothingVisuals:
-        suitstorage:
+        mask:
         - state: equipped-MASK
         - state: glow
           shader: unshaded
