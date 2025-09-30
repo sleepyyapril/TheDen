@@ -12654,3 +12654,10 @@ Entries:
   id: 1238
   time: '2025-09-30T07:13:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1808
+- author: SubspaceEmber
+  changes:
+    - type: Fix
+      message: 'pAIs now inherit the name of the plushie they''re put inside. '
+  id: 1239
+  time: '2025-09-30T21:39:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1823
