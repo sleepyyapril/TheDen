@@ -12612,3 +12612,18 @@ Entries:
   id: 1236
   time: '2025-09-28T22:12:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1818
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Butlertron gives increased rewards across the board, with more variance
+        - expect double rewards on average compared to before. Higher-tier
+        recipes reward noticeably more spesos than lower tiers. Check the PR for
+        the exact numbers.
+    - type: Fix
+      message: >-
+        Butlertron will no longer ask for dried rainbow cannabis leaves. Say no
+        to drugs.
+  id: 1237
+  time: '2025-09-30T06:44:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1783
