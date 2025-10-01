@@ -102,10 +102,27 @@
 - type: entity
   parent: [ClothingBackpackNapsack, BaseMantisContraband] # A roleplay toy that can carry people
   id: ClothingBackpackCoffinMantis
-  suffix: DO NOT MAP # Use the Decoration version
+  suffix: DO NOT MAP # Use the Basic version instead
   name: sarcophagus
   description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation."
   components:
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Effects/metal_slam2.ogg
+  - type: MeleeWeapon # You can smash people with it, but the attack rate is so low it's not a good weapon, more just dramatic
+    wideAnimationRotation: 180
+    attackRate: 0.4
+    damage:
+      types:
+        Blunt: 5
+    soundHit:
+      collection: CrateSlam
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 15
+        Structural: 15
   - type: Sprite
     sprite: _DEN/Clothing/Back/mantis-sarcophagus.rsi
   - type: Item
@@ -121,12 +138,12 @@
     whitelist:
       tags:
         - CanPilot # ONLY player characters have this
-        - MantisCoffinStorable
+        - MantisCoffinStorable # The items below in the Filled version, it'd be unwise to specify whole categories of items
 
 - type: entity
   parent: ClothingBackpackCoffinMantis
   id: ClothingBackpackCoffinMantisFilled
-  suffix: Filled, DO NOT MAP
+  suffix: Filled, DO NOT MAP # Use the Basic version instead
   name: sarcophagus
   components:
   - type: StorageFill
@@ -137,8 +154,8 @@
 
 - type: entity
   parent: ClothingBackpackCoffinMantis
-  id: ClothingBackpackCoffinMantisDecoration # A version of the sarcophagus without room for the extra items, if you want to map it for looks
-  suffix: Filled
+  id: ClothingBackpackCoffinMantisBasic # A version of the sarcophagus without room for the extra items, if you want to map it
+  suffix: Basic
   name: sarcophagus
   components:
   - type: Storage

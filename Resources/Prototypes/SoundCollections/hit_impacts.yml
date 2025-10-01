@@ -32,3 +32,8 @@
   id: GlassSmash
   files:
   - /Audio/Effects/glass_smash.ogg
+
+- type: soundCollection # TheDen
+  id: CrateSlam
+  files:
+  - /Audio/Effects/metal_slam2.ogg
