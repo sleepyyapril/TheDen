@@ -18,11 +18,9 @@ using Robust.Shared.Utility;
 
 namespace Content.Shared.Humanoid.Markings
 {
-    [Prototype]
     // AuroraSong: Make markings inheriting (IInheritingPrototype)
-    public sealed partial class MarkingPrototype : IPrototype, IInheritingPrototype
     [Prototype("marking")]
-    public sealed partial class MarkingPrototype : IPrototype
+    public sealed partial class MarkingPrototype : IPrototype, IInheritingPrototype
     {
         [IdDataField]
         public string ID { get; private set; } = "uwu";
