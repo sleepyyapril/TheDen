@@ -121,7 +121,7 @@
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 15
+        Blunt: 10 # 15 total when wielded, a toolbox does 12 at over twice this attack speed
         Structural: 15
   - type: Sprite
     sprite: _DEN/Clothing/Back/mantis-sarcophagus.rsi
