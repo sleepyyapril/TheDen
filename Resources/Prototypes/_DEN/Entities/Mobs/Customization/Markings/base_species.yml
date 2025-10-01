@@ -322,6 +322,12 @@
 
 - type: marking
   abstract: true
+  id: BaseSpeciesArachne
+  speciesRestriction: [Arachne]
+  preferredSpecies: [Arachne]
+
+- type: marking
+  abstract: true
   id: BaseSpeciesIPC
   speciesRestriction: [IPC]
   preferredSpecies: [IPC]

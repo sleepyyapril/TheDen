@@ -113,14 +113,14 @@
     state: tattoo_eye_l
 
 - type: marking
-  parent: [BaseEyes, BaseSpeciesMoth] # AuroraSong: Marking inheritance
+  parent: [BaseEyes, BaseSpeciesArachne] # AuroraSong: Marking inheritance
   id: TattooEyeArachneRight
   sprites:
   - sprite: Mobs/Customization/tattoos.rsi
     state: tattoo_eye_arachne_r
 
 - type: marking
-  parent: [BaseEyes, BaseSpeciesMoth] # AuroraSong: Marking inheritance
+  parent: [BaseEyes, BaseSpeciesArachne] # AuroraSong: Marking inheritance
   id: TattooEyeArachneLeft
   sprites:
   - sprite: Mobs/Customization/tattoos.rsi
