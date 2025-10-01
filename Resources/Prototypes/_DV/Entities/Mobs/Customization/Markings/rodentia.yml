@@ -473,6 +473,8 @@
   parent: # Aurora Song: Inherit species restrictions.
   - BaseSpeciesRodentiaBody
   id: RodentiaLegLeftCountershade
+  markingCategory: LeftLeg
+  bodyPart: LLeg
   sprites:
     - sprite: _DV/Mobs/Species/Rodentia/parts.rsi
       state: l_leg
