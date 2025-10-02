@@ -2,6 +2,7 @@
 // SPDX-FileCopyrightText: 2023 metalgearsloth
 // SPDX-FileCopyrightText: 2024 Pieter-Jan Briers
 // SPDX-FileCopyrightText: 2025 Jakumba
+// SPDX-FileCopyrightText: 2025 portfiend
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
 // SPDX-License-Identifier: MIT
