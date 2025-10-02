@@ -12668,3 +12668,15 @@ Entries:
   id: 1240
   time: '2025-10-01T06:47:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1817
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        I fixed that dumb ass stupid fucking ass moron idiot buttcheeks dumb
+        shit stupid ass bug where trash bags will constantly attract things even
+        when the magnet is disabled. Your welcome
+    - type: Tweak
+      message: Trash bags have their magnet turned off by default.
+  id: 1241
+  time: '2025-10-02T02:29:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1826
