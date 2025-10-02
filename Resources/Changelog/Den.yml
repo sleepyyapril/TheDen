@@ -12680,3 +12680,16 @@ Entries:
   id: 1241
   time: '2025-10-02T02:29:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1826
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Central Command Officials are no longer targetable by traitor objectives
+        by default, because you're not gonna find them anyway.
+    - type: Tweak
+      message: >-
+        Admins can now edit the "marked for objectives" component easier, to
+        make any entity untargetable or marked for removal.
+  id: 1242
+  time: '2025-10-02T17:23:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1825
