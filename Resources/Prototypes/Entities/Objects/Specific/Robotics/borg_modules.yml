@@ -601,11 +601,11 @@
   - type: ItemBorgModule
     items:
     - AdvMopItem
-    - MegaSprayBottleSpaceCleaner # Den
+    - TrashBagBluespace # Den
     - HoloprojectorBorg
     - WeaponLauncherHydraBorg # DeltaV - Let borgs have cleannades!
+    - MegaSprayBottleSpaceCleaner # Den
     - Dropper
-    - TrashBagOfHolding # Den
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-cleaning-module }
 

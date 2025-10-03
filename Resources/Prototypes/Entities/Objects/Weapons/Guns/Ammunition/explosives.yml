@@ -163,6 +163,11 @@
   - type: SpentAmmoVisuals
     state: frag
     suffix: false
+  # Begin Den additions
+  - type: Tag
+    tags:
+      - Trash
+  # End additions
 
 - type: entity
   id: GrenadeEMP
