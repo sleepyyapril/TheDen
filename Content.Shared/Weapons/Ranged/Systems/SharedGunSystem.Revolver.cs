@@ -34,7 +34,7 @@ public partial class SharedGunSystem
     {
         SubscribeLocalEvent<RevolverAmmoProviderComponent, ComponentGetState>(OnRevolverGetState);
         SubscribeLocalEvent<RevolverAmmoProviderComponent, ComponentHandleState>(OnRevolverHandleState);
-        SubscribeLocalEvent<RevolverAmmoProviderComponent, MapInitEvent>(OnRevolverInit);
+        SubscribeLocalEvent<RevolverAmmoProviderComponent, ComponentInit>(OnRevolverInit);
         SubscribeLocalEvent<RevolverAmmoProviderComponent, TakeAmmoEvent>(OnRevolverTakeAmmo);
         SubscribeLocalEvent<RevolverAmmoProviderComponent, GetVerbsEvent<AlternativeVerb>>(OnRevolverVerbs);
         SubscribeLocalEvent<RevolverAmmoProviderComponent, InteractUsingEvent>(OnRevolverInteractUsing);
@@ -440,7 +440,7 @@ public partial class SharedGunSystem
         component.CurrentIndex = (component.CurrentIndex + count) % component.Capacity;
     }
 
-    private void OnRevolverInit(EntityUid uid, RevolverAmmoProviderComponent component, MapInitEvent args)
+    private void OnRevolverInit(EntityUid uid, RevolverAmmoProviderComponent component, ComponentInit args)
     {
         component.AmmoContainer = Containers.EnsureContainer<Container>(uid, RevolverContainer);
         component.AmmoSlots.EnsureCapacity(component.Capacity);
