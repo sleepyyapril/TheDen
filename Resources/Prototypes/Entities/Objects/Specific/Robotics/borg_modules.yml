@@ -326,21 +326,6 @@
     - CableHVStackLingering10
     - Wirecutter
     - trayScanner
-  # Begin DeltaV Additions - wires module can assemble electronics
-  - type: DroppableBorgModule
-    moduleId: Cables
-    items:
-    - id: APCElectronics
-      whitelist:
-        components:
-        - Electronics
-        - MachineBoard
-    - id: DoorElectronics
-      whitelist:
-        components:
-        - Electronics
-        - MachineBoard
-  # End DeltaV Additions
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: wire-module }
 
@@ -621,15 +606,6 @@
     - WeaponLauncherHydraBorg # DeltaV - Let borgs have cleannades!
     - Dropper
     - TrashBagOfHolding # Den
-    # Begin DeltaV Additions
-    - type: DroppableBorgModule
-      moduleId: AdvancedCleaning
-      items:
-        - id: Beaker
-          whitelist:
-            tags:
-              - GlassBeaker
-    # End DeltaV Additions
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-cleaning-module }
 
