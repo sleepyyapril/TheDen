@@ -5,7 +5,7 @@
   minPlayers: 0
   maxPlayers: 50
   stations:
-    Shoukou:
+    Dingo:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
