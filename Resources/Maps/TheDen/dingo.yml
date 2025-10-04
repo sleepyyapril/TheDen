@@ -5573,6 +5573,8 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Dingo
+    - type: Parallax
+      parallax: TortugaStation
 - proto: AirAlarm
   entities:
   - uid: 1009
