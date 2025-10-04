@@ -5575,6 +5575,8 @@ entities:
       id: Dingo
     - type: Parallax
       parallax: TortugaStation
+    - type: Broadphase
+    - type: OccluderTree
 - proto: AirAlarm
   entities:
   - uid: 1009
