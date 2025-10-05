@@ -12734,3 +12734,12 @@ Entries:
   id: 1247
   time: '2025-10-05T17:35:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1836
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        The progress pride and colorable cloaks now have correct sprites for
+        moths and vox.
+  id: 1248
+  time: '2025-10-05T22:17:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1838
