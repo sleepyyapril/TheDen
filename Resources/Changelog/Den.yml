@@ -12727,3 +12727,10 @@ Entries:
   id: 1246
   time: '2025-10-05T17:34:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1829
+- author: ASaltySeabass
+  changes:
+    - type: Tweak
+      message: Made Shadowkin markings recolorable.
+  id: 1247
+  time: '2025-10-05T17:35:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1836
