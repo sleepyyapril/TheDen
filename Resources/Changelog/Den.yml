@@ -12743,3 +12743,18 @@ Entries:
   id: 1248
   time: '2025-10-05T22:17:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1838
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Doors and ID cards can now have "event staff" accesses, and new preset
+        doors/ID cards have been added to the debug spawn menu. These are
+        intended to be used by mappers and event runners to restrict access to
+        event-relevant personnel; you will not find them on station.
+    - type: Tweak
+      message: >-
+        Admins now have true all-access, including some accesses that the
+        station Captain does not get.
+  id: 1249
+  time: '2025-10-06T19:17:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1828
