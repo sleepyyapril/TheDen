@@ -12758,3 +12758,18 @@ Entries:
   id: 1249
   time: '2025-10-06T19:17:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1828
+- author: TheOneTrueWolfio
+  changes:
+    - type: Add
+      message: 'Moproaches '
+    - type: Add
+      message: 'Moproach Cubes '
+    - type: Add
+      message: Moproach Kits
+    - type: Tweak
+      message: 'Added Moproach kits to filled custodial closet '
+    - type: Tweak
+      message: Added Moproach kit crates to cargo request console
+  id: 1250
+  time: '2025-10-06T19:19:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1779
