@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Linq;
 using Content.Server.Administration.Managers;
 using Content.Server.Administration.Systems;
