@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 job-title-event-worker = Event Worker
 job-title-event-command = Event Command
 job-title-event-medical = Event Medical
