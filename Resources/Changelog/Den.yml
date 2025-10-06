@@ -12773,3 +12773,12 @@ Entries:
   id: 1250
   time: '2025-10-06T19:19:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1779
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Admins now have the ability to send bwoinks from discord that are not
+        replies.
+  id: 1251
+  time: '2025-10-06T20:17:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1840
