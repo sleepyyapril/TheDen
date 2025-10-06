@@ -32,6 +32,7 @@
 # SPDX-FileCopyrightText: 2025 Jakumba
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 Sapphire
+# SPDX-FileCopyrightText: 2025 TheOneTrueWolfio
 # SPDX-FileCopyrightText: 2025 Timfa
 # SPDX-FileCopyrightText: 2025 Vanessa
 # SPDX-FileCopyrightText: 2025 Vanessa Louwagie
