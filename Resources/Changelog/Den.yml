@@ -12815,3 +12815,12 @@ Entries:
   id: 1254
   time: '2025-10-07T03:55:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1830
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        You can now configure the maximum width of the examine tooltip in the
+        options menu.
+  id: 1255
+  time: '2025-10-07T04:22:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1845
