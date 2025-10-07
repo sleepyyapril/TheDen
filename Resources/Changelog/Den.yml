@@ -12782,3 +12782,20 @@ Entries:
   id: 1251
   time: '2025-10-06T20:17:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1840
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Players can now add a self-examination description to their characters
+        via the character editor, in the same place you'd find character
+        descriptions and character consent. This information is only visible to
+        the player who controls your character - which can include mindswapping
+        and paradox anomalies.
+    - type: Tweak
+      message: >-
+        The "Description" tab in the character editor has been visually touched
+        up a little. You can now resize the input fields for character
+        descriptions in the UI!
+  id: 1252
+  time: '2025-10-07T03:38:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1841
