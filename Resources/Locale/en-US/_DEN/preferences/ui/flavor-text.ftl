@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 detail-self-examine-verb-text = Detail (Self)
 
 flavor-text-sfw-title-label = Character Detail
