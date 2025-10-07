@@ -12799,3 +12799,12 @@ Entries:
   id: 1252
   time: '2025-10-07T03:38:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1841
+- author: BlitzTheSquishy
+  changes:
+    - type: Add
+      message: >-
+        Added more air tanks into the lathes to print, from full size to double
+        extended and more.
+  id: 1253
+  time: '2025-10-07T03:52:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1359
