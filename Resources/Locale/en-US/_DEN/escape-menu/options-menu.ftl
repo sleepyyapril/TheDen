@@ -1,7 +1,8 @@
-# SPDX-FileCopyrightText: 2025 Falcon <falcon@zigtag.dev>
-# SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Falcon
+# SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 ui-options-tab-extra = Extra
 ui-options-general-forknotice = Note: These settings are fork-specific and might not apply on other servers.
