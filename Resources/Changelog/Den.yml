@@ -12824,3 +12824,36 @@ Entries:
   id: 1255
   time: '2025-10-07T04:22:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1845
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: Adjusted a few psionic trait descriptions to be more clear
+    - type: Fix
+      message: >-
+        Corrected the job whitelists/blacklists for psionic traits (if the job
+        already has that power)
+    - type: Tweak
+      message: >-
+        Metapsionic Pulse and Assay no longer make it harder to learn new powers
+        since we don't hunt psychics here (they're just RP powers)
+    - type: Tweak
+      message: >-
+        Hypnosis no longer makes it harder to learn new powers since it's also
+        just an RP power
+    - type: Tweak
+      message: >-
+        Mantes now have innate Psychognomy to fit their theme of monitoring
+        psychics
+    - type: Tweak
+      message: >-
+        Mystagogue and Mantis will now be able to gain new psionic powers
+        (though Dispel does make it harder for mysta)
+    - type: Tweak
+      message: >-
+        All jobs with innate psionic powers can now gain ONE glimmerless psionic
+        ability to balance out the effects of the above tweak (all psychics have
+        one glimmerless slot, and after that all psychics will generate glimmer,
+        so it's consistent)
+  id: 1256
+  time: '2025-10-08T01:03:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1774
