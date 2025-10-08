@@ -147,6 +147,17 @@
   description: # TODO
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_uniform_dark.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_dark.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_uniform_dark.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_dark.rsi
+
+- type: entity
+  parent: ClothingUniformJumpsuitMantis
+  id: ClothingUniformJumpsuitMantisDark
+  name: mantis loincloth
+  description: # TODO (also make togglable to remove bra)
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_loincloth.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_loincloth.rsi

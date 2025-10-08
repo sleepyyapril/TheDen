@@ -9,7 +9,7 @@
   description: A sterile satchel used by emergency responders.
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Back/para-satchel.rsi
+    sprite: _DEN/Clothing/Back/Satchels/para-satchel.rsi
 
 - type: entity
   parent: ClothingBackpackDuffel
@@ -18,7 +18,7 @@
   description: A large duffel bag for holding extra lifesaving equipment.
   components:
     - type: Sprite
-      sprite: _DEN/Clothing/Back/para-duffel.rsi
+      sprite: _DEN/Clothing/Back/Duffels/para-duffel.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -27,7 +27,7 @@
   description: It's a backpack especially designed for use in any rescue.
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Back/para-backpack.rsi
+    sprite: _DEN/Clothing/Back/Backpacks/para-backpack.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -38,7 +38,7 @@
   - type: Item
     size: Ginormous # This doesn't need to go inside anything else, ever
   - type: Sprite
-    sprite: _DEN/Clothing/Back/napsack.rsi
+    sprite: _DEN/Clothing/Back/Misc/napsack.rsi
   - type: Clothing
     quickEquip: false
     slots:
@@ -51,6 +51,11 @@
     whitelist:
       tags:
         - CanPilot # ONLY carries player characters, nothing else!
+  - type: InteractionVerbs
+    allowedVerbs:
+    - HugObject
+    - KissObject
+    - LickObject
 
 - type: entity # The mantis backpacks are a bit smaller, visually, to show off their clothes
   parent: ClothingBackpack
@@ -65,7 +70,7 @@
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelMantis
   name: mantis duffel bag
-  description: "A relatively low-profile duffel bag with a braided handle for the mantis. It seems the designers couldn't settle on an ornament for this one..."
+  description: "A relatively low-profile duffel bag with a braided handle for the mantis."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/Duffels/mantis.rsi
@@ -74,18 +79,16 @@
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelMantis
   name: mantis satchel
-  description: "A low-profile satchel for the mantis that hooks onto the back of your belt, with an electrum psi on the flap. Perhaps the only bag that won't get caught on the sleeves of your robes."
-  components:
-  - type: Sprite
+  description: "A low-profile satchel for the mantis that hooks onto the back of your belt, bearing a Greek psi on the flap. Perhaps the only bag that won't get caught on the sleeves of your robes."
+  components: # Intentionally only visible when facing north, since multiple mantis gloves have big detached sleeves
+  - type: Sprite # Backpacks layer over gloves when facing east or west, so this is the only option that will never do that
     sprite: _DEN/Clothing/Back/Satchels/mantis.rsi
-    # Intentionally only visible when facing north, since multiple mantis gloves have big detached sleeves
-    # Backpacks layer over gloves when facing east or west, so this is the only option that will never do that
 
 - type: entity
   parent: ClothingBackpackSatchel # Same storage as the satchel like the other purse
   id: ClothingBackpackSatchelMantisPurse
   name: mantis handbag
-  description: "A low-profile handbag for the mantis, marked with electrum eyes on both sides. Easily hidden under a cloak."
+  description: "A low-profile handbag for the mantis with a polished clasp. Easily hidden under a cloak."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/Satchels/mantispurse.rsi
@@ -109,24 +112,34 @@
   - type: EmitSoundOnLand
     sound:
       path: /Audio/Effects/metal_slam2.ogg
+  - type: DamageOtherOnHit
+    staminaCost: 10
   - type: MeleeWeapon # You can smash people with it, but the attack rate is so low it's not a good weapon, more just dramatic
-    wideAnimationRotation: 180
-    attackRate: 0.4
+    wideAnimationRotation: -90
+    attackRate: 0.4 # Most stats are comparable to a baseball bat, but this is the balancing factor and it sucks
+    range: 1.6
     damage:
       types:
         Blunt: 5
+        Structural: 5
     soundHit:
-      collection: CrateSlam
+      collection: CrateSlam # metal_slam2.ogg
+    bluntStaminaDamageFactor: 2.5
+    heavyRateModifier: 2
+    heavyDamageBaseModifier: 1.5
+    heavyStaminaCost: 2.5
+    maxTargets: 3
+    angle: 90
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 10 # 15 total when wielded, a toolbox does 12 at over twice this attack speed
-        Structural: 15
+        Blunt: 10 # 6 DPS when wielded, compared to a toolbox's 15 DPS
+        Structural: 10
   - type: Sprite
-    sprite: _DEN/Clothing/Back/mantis-sarcophagus.rsi
+    sprite: _DEN/Clothing/Back/Misc/mantis-sarcophagus.rsi
   - type: Item
-    sprite: _DEN/Clothing/Back/mantis-sarcophagus-inhands-64x.rsi
+    sprite: _DEN/Clothing/Back/Misc/mantis-sarcophagus-inhands-64x.rsi
   - type: Clothing
     slots:
     - suitStorage # Not really a backpack
@@ -154,7 +167,7 @@
 
 - type: entity
   parent: ClothingBackpackCoffinMantis
-  id: ClothingBackpackCoffinMantisBasic # A version of the sarcophagus without room for the extra items, if you want to map it
+  id: ClothingBackpackCoffinMantisBasic # A version of the sarcophagus without the space for the extra items, if you want to map it
   suffix: Basic
   name: sarcophagus
   components:

@@ -212,7 +212,7 @@
     heavyDamageBaseModifier: 1.2
     maxTargets: 3
     angle: 40
-    wideAnimationRotation: 45
+    wideAnimationRotation: 135
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
     damage:

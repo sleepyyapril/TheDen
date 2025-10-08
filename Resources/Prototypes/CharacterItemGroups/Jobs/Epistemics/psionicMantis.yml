@@ -78,6 +78,8 @@
       id: LoadoutPsionicMantisEyesEpiGlassesVisor
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEyesEpiGlassesMantis
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisEyesEpiGlassesMantisVeil
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisGloves

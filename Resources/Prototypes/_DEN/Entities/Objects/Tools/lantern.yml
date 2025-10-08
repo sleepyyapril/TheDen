@@ -82,7 +82,7 @@
         types: # Thrown damage
           Blunt: 4.8 # 6 against psychic enemies
           Holy: 2.4 # 3 against supernatural psychic enemies (9 total)
-    - type: MeleeWeapon # You can swing it like a weapon since it's a crystal spike, but it's not very good
+    - type: MeleeWeapon # You can swing it like a weapon since it's sturdy, but it's not very good
       attackRate: 1 # Aside from damage and attack rate, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
       range: 1.5
       heavyRateModifier: 1.25
@@ -95,3 +95,4 @@
         types: # Melee damage
           Blunt: 4.8 # 6 against psychic enemies
           Holy: 2.4 # 3 against supernatural psychic enemies (9 total)
+      wideAnimationRotation: 90

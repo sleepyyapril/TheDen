@@ -63,7 +63,7 @@
           Heat: 1.6 # 2 against psychic enemies
           Holy: 0.8 # 1 against supernatural psychic enemies (3 total, if lit)
   - type: MeleeWeapon
-    wideAnimationRotation: 180
+    wideAnimationRotation: -90
     damage:
       types:
         Blunt: 1.6 # 2 against psychic enemies

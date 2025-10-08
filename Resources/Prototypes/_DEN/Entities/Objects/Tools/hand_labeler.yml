@@ -51,7 +51,7 @@
       heavyDamageBaseModifier: 1.2
       maxTargets: 3
       angle: 40
-      wideAnimationRotation: 90
+      wideAnimationRotation: 180
       soundHit:
         path: /Audio/Weapons/block_metal1.ogg
       damage:

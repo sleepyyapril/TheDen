@@ -16,9 +16,9 @@
   description: # TODO
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mantis_jumpskirt_airy.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpskirt/mantis_airy.rsi
   - type: Clothing
-    sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mantis_jumpskirt_airy.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpskirt/mantis_airy.rsi
 
 - type: entity
   parent: ClothingUniformSkirtMantis
@@ -27,6 +27,6 @@
   description: # TODO
   components:
   - type: Sprite
-    sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mantis_jumpskirt_ornate.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpskirt/mantis_ornate.rsi
   - type: Clothing
-    sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mantis_jumpskirt_ornate.rsi
+    sprite: _DEN/Clothing/Uniforms/Jumpskirt/mantis_ornate.rsi
