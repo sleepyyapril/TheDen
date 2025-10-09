@@ -11,9 +11,6 @@
       "name": "icon"
     },
     {
-      "name": "icon-flipped"
-    },
-    {
       "name": "equipped-BACKPACK",
       "directions": 4
     },

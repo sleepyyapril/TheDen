@@ -11,11 +11,11 @@
       "name": "icon"
     },
     {
-      "name": "equipped-BACKPACK",
+      "name": "equipped-SUITSTORAGE",
       "directions": 4
     },
     {
-      "name": "equipped-BACKPACK-thaven",
+      "name": "equipped-SUITSTORAGE-thaven",
       "directions": 4
     },
     {

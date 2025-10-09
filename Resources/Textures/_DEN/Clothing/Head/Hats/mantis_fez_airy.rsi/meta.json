@@ -28,6 +28,70 @@
         {
             "name": "flipped-equipped-HELMET",
             "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-chitinid",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-chitinid",
+            "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-feroxi",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-feroxi",
+            "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-reptilian",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-reptilian",
+            "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-resomi",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-resomi",
+            "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-shadowkin",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-shadowkin",
+            "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-tajaran",
+            "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-vox",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-vox",
+            "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-vulpkanin",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-vulpkanin",
+            "directions": 4
         }
     ]
 }

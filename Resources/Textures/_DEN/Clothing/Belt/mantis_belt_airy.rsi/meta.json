@@ -11,6 +11,9 @@
             "name": "icon"
         },
         {
+            "name": "icon-folded"
+        },
+        {
             "name": "inhand-left",
             "directions": 4
         },
