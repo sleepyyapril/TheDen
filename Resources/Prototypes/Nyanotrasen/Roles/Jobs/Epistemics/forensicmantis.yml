@@ -69,7 +69,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitMantisDark # TheDen
     back: ClothingBackpackMantisFilled
-    shoes: ClothingShoesBootsMantisDark # TheDen
+    shoes: ClothingShoesSandalsMantisDark # TheDen
     head: ClothingHeadHoodMantisDark # TheDen
     id: ForensicMantisPDA
     # eyes: ClothingEyesGlassesSunglasses # TheDen
@@ -79,7 +79,7 @@
     belt: ClothingBeltMantisDark # TheDen
     # pocket1: BookPsionicsGuidebook # TheDen - Throwing this in their locker
     pocket1: BaseHandheldPsionicsRegistry # TheDen
-  innerClothingSkirt: ClothingUniformSkirtMantisAiry # TheDen
+  innerClothingSkirt: ClothingUniformJumpsuitMantisDark # TheDen - Not a jumpskirt, don't care, all options are robelike anyway
   satchel: ClothingBackpackSatchelMantisFilled
   duffelbag: ClothingBackpackDuffelMantisFilled
 

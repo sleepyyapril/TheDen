@@ -479,7 +479,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingShoesBootsMantisAiry
+    - ClothingShoesSandalsMantisAiry
 
 - type: loadout
   id: LoadoutPsionicMantisShoesDark
@@ -493,7 +493,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingShoesBootsMantisDark
+    - ClothingShoesSandalsMantisDark
 
 - type: loadout
   id: LoadoutPsionicMantisShoesOrnate
@@ -507,7 +507,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingShoesBootsMantisOrnate
+    - ClothingShoesSandalsMantisOrnate
 
 # Uniforms
 

@@ -71,17 +71,19 @@
       - Flashlight
       - MantisBeltStorable
     - type: UnpoweredFlashlight # Powered by the noosphere
-    - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does less damage than a crowbar (even to psychics)
+    - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
       punish: false
       modifiers:
         coefficients:
           Blunt: 1.25
+          Pierce: 1.25
+          Slash: 1.25
           Holy: 1.25
     - type: DamageOtherOnHit
       damage:
         types: # Thrown damage
-          Blunt: 4.8 # 6 against psychic enemies
-          Holy: 2.4 # 3 against supernatural psychic enemies (9 total)
+          Blunt: 4.8 # 6 damage against psychics
+          Holy: 2.4 # 9 total damage against supernaturals
     - type: MeleeWeapon # You can swing it like a weapon since it's sturdy, but it's not very good
       attackRate: 1 # Aside from damage and attack rate, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
       range: 1.5
@@ -93,6 +95,6 @@
         path: /Audio/Weapons/block_metal1.ogg
       damage:
         types: # Melee damage
-          Blunt: 4.8 # 6 against psychic enemies
-          Holy: 2.4 # 3 against supernatural psychic enemies (9 total)
-      wideAnimationRotation: 90
+          Blunt: 4.8 # 4.8 DPS, or 6 DPS against psychics
+          Holy: 2.4 # 9 total DPS against supernaturals
+      wideAnimationRotation: 0

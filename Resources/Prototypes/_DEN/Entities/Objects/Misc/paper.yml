@@ -191,22 +191,25 @@
     state: pen_mantis
   - type: Item
     heldPrefix: pen_mantis
-  - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does very little damage unless thrown
+  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
     punish: false
     modifiers:
       coefficients:
-        Piercing: 1.25
+        Blunt: 1.25
+        Pierce: 1.25
+        Slash: 1.25
         Holy: 1.25
+  - type: LandAtCursor
   - type: DamageOtherOnHit
     damage:
       types: # Thrown damage (but you'll get it thrown back at you, and you're psychic)
-        Piercing: 6.4 # 8 against psychic enemies
-        Holy: 3.2 # 4 against supernatural psychic enemies (12 total)
+        Piercing: 6.4 # 8 damage against psychics
+        Holy: 3.2 # 12 total damage against supernaturals
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
-    removalTime: 0.5
+    removalTime: 0
   - type: MeleeWeapon # You can swing it like a weapon since it's a crystal spike, but it's not very good
-    attackRate: .6666 # Aside from damage, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
+    attackRate: .6666
     range: 1.5
     heavyRateModifier: 1.25
     heavyDamageBaseModifier: 1.2
@@ -217,8 +220,8 @@
       path: /Audio/Weapons/bladeslice.ogg
     damage:
       types: # Melee damage (intended more for roleplay than serious combat)
-        Piercing: 1.6 # 2 against psychic enemies
-        Holy: 0.8 # 1 against supernatural psychic enemies (4 total)
+        Piercing: 1.6 # 2.4 DPS, or 3 DPS against psychics
+        Holy: 0.8 # 4.5 total DPS against supernaturals
   - type: StaminaDamageOnHit
     damage: 0
   - type: PhysicalComposition
@@ -309,18 +312,20 @@
       sprite: _DEN/Effects/fire.rsi
       normalState: mantispagefire # Has its own fire animation, also to be scary
       lightColor: "#4dc4ff"
-    - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made with the same material, but it does almost no damage (even to psychics)
+    - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
       punish: false
       modifiers:
         coefficients:
-          Piercing: 1.25
+          Blunt: 1.25
+          Pierce: 1.25
+          Slash: 1.25
           Holy: 1.25
     - type: LandAtCursor
     - type: DamageOtherOnHit
       damage:
         types: # Thrown damage (paper cut)
-          Piercing: 0.8 # 1 against psychic enemies
-          Holy: 0.8 # 1 against supernatural psychic enemies (2 total)
+          Slash: 0.8 # 1 damage against psychics
+          Holy: 0.8 # 2 total damage against supernaturals
     - type: EmbeddableProjectile
       sound: /Audio/Weapons/pierce.ogg # Just a dull thunk since it does almost no damage
       removalTime: 2

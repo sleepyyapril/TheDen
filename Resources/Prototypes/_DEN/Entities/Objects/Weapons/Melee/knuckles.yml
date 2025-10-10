@@ -1,0 +1,37 @@
+- type: entity
+  parent: [ClothingHandsInedibleBase, BaseMantisContraband]
+  id: MantisFist
+  name: manifold
+  description: "A huge mnemolith gauntlet "
+  components:
+  - type: Sprite
+    sprite: _Impstation/Objects/Misc/nullrod_glove.rsi
+    state: icon
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,1
+  - type: Clothing
+    sprite: _Impstation/Objects/Misc/nullrod_glove.rsi
+  - type: StaminaDamageOnHit
+    damage: 5 # Down from 24
+  - type: MeleeWeapon
+    attackRate: 0.68
+    damage:
+      types:
+        Blunt: 10 # Down from 14
+        Holy: 20
+    soundHit:
+      path: /Audio/_Impstation/Weapons/nullglove.ogg
+      params:
+        variation: 0.35
+    mustBeEquippedToUse: true
+  - type: MeleeThrowOnHit
+    distance: 20
+    speed: 7
+  - type: Reflect
+    reflectProb: .2
+    spread: 135
+  - type: Fiber
+    fiberColor: fibers-bluish
+    fiberMaterial: fibers-stony

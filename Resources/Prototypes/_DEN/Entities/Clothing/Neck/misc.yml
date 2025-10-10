@@ -97,11 +97,13 @@
     sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
-  - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does almost no damage (even to psychics)
+  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
     punish: true
     modifiers:
       coefficients:
         Blunt: 1.25
+        Pierce: 1.25
+        Slash: 1.25
         Holy: 1.25
   - type: MeleeWeapon
     attackRate: 1
@@ -113,10 +115,13 @@
     wideAnimationRotation: 0
     soundHit:
       path: /Audio/_DEN/Effects/crystaltap3.ogg
+      params:
+        volume: -2
+        variation: 0.05
     damage:
       types: # Melee damage (per the description, it's for testing psychics, not fighting)
-        Blunt: 0.8 # 1 against psychic enemies
-        Holy: 0.8 # 1 against supernatural psychic enemies (2 total)
+        Blunt: 0.8 # 1 DPS against psychics
+        Holy: 0.8 # 2 total DPS against supernaturals
   - type: StaminaDamageOnHit
     damage: 0
   - type: Tag

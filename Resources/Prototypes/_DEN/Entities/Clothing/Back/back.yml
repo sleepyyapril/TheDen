@@ -116,12 +116,12 @@
     staminaCost: 10
   - type: MeleeWeapon # You can smash people with it, but the attack rate is so low it's not a good weapon, more just dramatic
     wideAnimationRotation: -90
-    attackRate: 0.4 # Most stats are comparable to a baseball bat, but this is the balancing factor and it sucks
+    attackRate: 1.6
     range: 1.6
     damage:
       types:
-        Blunt: 5
-        Structural: 5
+        Blunt: 4
+        Structural: 4
     soundHit:
       collection: CrateSlam # metal_slam2.ogg
     bluntStaminaDamageFactor: 2.5
@@ -130,12 +130,15 @@
     heavyStaminaCost: 2.5
     maxTargets: 3
     angle: 90
+  - type: MeleeThrowOnHit
+    distance: 1
+    speed: 1
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
       types:
-        Blunt: 10 # 6 DPS when wielded, compared to a toolbox's 15 DPS
-        Structural: 10
+        Blunt: 8 # 7.5 DPS, same as a crowbar
+        Structural: 8
   - type: Sprite
     sprite: _DEN/Clothing/Back/Misc/mantis-sarcophagus.rsi
   - type: Item

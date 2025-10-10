@@ -11,27 +11,29 @@
   parent: [CombatKnife, BaseMantisContraband] # TheDen
   id: AntiPsychicKnife
   name: athame # TheDen - Anti-Psychic Knife sounded a little too plain considering the rest of their gear, and the description now includes a vague reference to heretics
-  description: "A clawlike knife carved from mnemolith, with swordbreaker teeth along its back. It remains unclear just who exactly is wielding blades against mantes." # TheDen
+  description: "A clawlike knife carved from mnemolith, deadly when wielded against psionic and otherworldly threats. It has swordbreaker teeth along its back, though it remains unclear just who exactly is wielding blades against mantes." # TheDen
   components:
   - type: MeleeWeapon
     attackRate: .6666
     damage:
-      types:
-        Slash: 10 # 12.5 against psychic enemies
-        Holy: 5 # 6.25 against supernatural psychic enemies
+      types: # Same DPS as CombatKnife against nonpsychics
+        Slash: 10 # 15 DPS, or 19 DPS against psychics
+        Holy: 5 # 34 total DPS against supernaturals
   - type: DamageOtherOnHit
     damage:
       types:
-        Slash: 10 # 12.5 against psychic enemies
-        Holy: 5 # 6.25 against supernatural psychic enemies
+        Slash: 10 # 12.5 damage against psychics
+        Holy: 5 # 18.75 damage against supernaturals
   - type: StaminaDamageOnHit
     damage: 0
-  - type: AntiPsionicWeapon # TheDen - All mantis items based on this knife: 25% more damage to psychics, with a physical damage type and half as much holy damage
+  - type: AntiPsionicWeapon # TheDen - Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
     punish: false
     modifiers:
       coefficients:
+        Blunt: 1.25
+        Pierce: 1.25
         Slash: 1.25
-        Holy: 1.25 # TheDen - It was 1.2 but I'm tired of doing extra math, 0.05 more holy damage is fine
+        Holy: 1.25 # TheDen - It was 1.2 but I'm tired of doing extra math, 5% more holy damage is fine
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     removalTime: 2

@@ -50,24 +50,26 @@
   - type: PointLight
     color: "#4dc4ff"
   - type: LandAtCursor
-  - type: AntiPsionicWeapon # Same modifiers as the AntiPsychicKnife since it's made of the same material, but it does very little damage (even to psychics)
+  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
     punish: false
     modifiers:
       coefficients:
         Blunt: 1.25
+        Pierce: 1.25
+        Slash: 1.25
         Holy: 1.25
-        Heat: 1.25
+        Heat: 1.25 # Psionic fire
   - type: ItemToggleMeleeWeapon
     activatedDamage:
       types:
-          Heat: 1.6 # 2 against psychic enemies
-          Holy: 0.8 # 1 against supernatural psychic enemies (3 total, if lit)
+          Heat: 1.6 # 1.6 DPS, or 2 DPS against psychics
+          Holy: 0.8 # 3 total DPS against supernaturals
   - type: MeleeWeapon
     wideAnimationRotation: -90
     damage:
       types:
-        Blunt: 1.6 # 2 against psychic enemies
-        Holy: 0.8 # 1 against supernatural psychic enemies (3 total, if lit)
+        Blunt: 1.6 # 1.6 DPS, or 2 DPS against psychics
+        Holy: 0.8 # 3 total DPS against supernaturals
   - type: Tag
     tags:
     - MantisBeltStorable
