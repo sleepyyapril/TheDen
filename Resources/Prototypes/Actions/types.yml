@@ -46,7 +46,7 @@
   abstract: true
   id: BaseAction
   components:
-  - type: Action
+  - type: Actions
   
 - type: entity
   id: BaseSuicideAction

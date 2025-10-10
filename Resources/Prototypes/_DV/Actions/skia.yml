@@ -3,7 +3,7 @@
   name: Shatter Lights
   description: Emit a blood-curdling scream that shatters all lights in the area.
   components:
-  - type: Action
+  - type: Actions
     icon: { sprite: _DV/Actions/shatterlights.rsi, state: shatter-lights }
     useDelay: 30
   - type: InstantAction
@@ -14,7 +14,7 @@
   name: Technokinetic Pulse
   description: Unleash a burst of Technokinetic energy, disabling and destroying nearby electronics.
   components:
-  - type: Action
+  - type: Actions
     icon: { sprite: _DV/Actions/technokineticpulse.rsi, state: technokinetic-pulse }
     useDelay: 60
   - type: InstantAction

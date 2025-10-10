@@ -420,9 +420,10 @@
   id: ActionPsychokineticScream
   name: Psychokinetic Scream
   description: Emit a blood-curdling scream that shatters all lights in the area.
+  categories: [HideSpawnMenu]
   components:
-  - type: Action
-    icon: { sprite: _DV/Actions/shatterlights.rsi, state: shatter-lights }
+  - type: Actions
+    icon: _DV/Actions/shatterlights.rsi/shatter-lights.png
     useDelay: 60
   - type: InstantAction
     event: !type:ShatterLightsActionEvent
