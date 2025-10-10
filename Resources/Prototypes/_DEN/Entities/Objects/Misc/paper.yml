@@ -204,7 +204,7 @@
         Holy: 3.2 # 4 against supernatural psychic enemies (12 total)
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
-    removalTime: 2
+    removalTime: 0.5
   - type: MeleeWeapon # You can swing it like a weapon since it's a crystal spike, but it's not very good
     attackRate: .6666 # Aside from damage, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
     range: 1.5
@@ -226,7 +226,7 @@
       MaterialMnemolith1: 1
   - type: EmitSoundOnUse
     sound:
-      path: /Audio/_DEN/Effects/crystaltap1.ogg
+      path: /Audio/_DEN/Effects/crystalbell1.ogg
       params:
         volume: -2
         variation: 0.05

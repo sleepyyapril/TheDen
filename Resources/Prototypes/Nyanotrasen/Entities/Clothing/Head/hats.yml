@@ -135,7 +135,7 @@
     tags:
     # - ForensicBeltEquip # TheDen
     - MantisBeltStorable # TheDen - New tag for clarity
-    - MantisCoffinStorable # Fits in the sarcophagus even if it has its own version
+    - MantisRestraintsBoxStorable
   - type: GuideHelp
     guides: [ PsionicInsulation ]
 

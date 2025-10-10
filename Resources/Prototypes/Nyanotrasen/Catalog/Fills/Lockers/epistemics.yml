@@ -28,9 +28,9 @@
       # - id: WeaponShotgunSoulshatter # TheDen - Mantis emergency soulbreaker shotgun (similar weapon in loadout now instead)
       # - id: AntiPsychicKnife # TheDen - In loadout now
       - id: MaterialEidolite1 # TheDen - Glowy jewel for the mystic for fun
+      - id: ClothingNeckMantisPendulum # TheDen - Bonk people with this to tell if they're psychic
       - id: MantisCaseTools # TheDen - Contains their lantern, folder, and hand labeler
       - id: MantisCaseChemicals # TheDen - Contains their syringe, chemistry bottle, and pill canisters
-      - id: ClothingBackpackCoffinMantisFilled # TheDen - Contains their collar, shackles, and a spare headcage
       - id: BookPsionicsGuidebook # TheDen - This thing sucks right now but it's gotta go somewhere
       # Spare clothes in case you change to this job
       - id: ClothingHeadHoodMantisDark # TheDen
@@ -38,4 +38,4 @@
       - id: ClothingBackpackDuffelMantis # TheDen
       # Insulative headgear
       - id: ClothingHeadHatFezMantisInsulative # TheDen - Functionally identical to the tinfoil hat
-      - id: ClothingHeadCage # TheDen - The second one is in the sarcophagus
+      - id: ClothingHeadCage # TheDen - The second one is in the restraints case in loadout

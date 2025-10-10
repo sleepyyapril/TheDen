@@ -22,12 +22,12 @@
   - type: ItemToggle
     predictable: false
     soundActivate:
-      path: /Audio/_DEN/Effects/crystaltap3.ogg
+      path: /Audio/_DEN/Effects/crystaltap1.ogg
       params:
         volume: -2
         variation: 0.05
     soundDeactivate:
-      path: /Audio/_DEN/Effects/crystaltap4.ogg
+      path: /Audio/_DEN/Effects/crystaltap2.ogg
       params:
         volume: -2
         variation: 0.05

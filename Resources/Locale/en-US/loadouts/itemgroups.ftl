@@ -395,7 +395,8 @@ character-item-group-LoadoutPsionicMantisUniforms = Mantis Uniforms
 character-item-group-LoadoutPsionicMantisMelee = Mantis Melee Weapon
 character-item-group-LoadoutPsionicMantisRanged = Mantis Ranged Weapon
 character-item-group-LoadoutPsionicMantisAmmo = Mantis Ammo
-# TheDen - Added mantis melee, ranged, and ammo
+character-item-group-LoadoutPsionicMantisRestraints = Mantis Restraints
+# TheDen - Added mantis melee, ranged, ammo, and restraints
 
 # Logistics
 character-item-group-LoadoutLogisticsBackpacks = Logistics Backpacks

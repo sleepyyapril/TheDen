@@ -9,6 +9,7 @@
   name: soul-shatter
   parent: [BaseWeaponShotgun, BaseMantisContraband]
   id: WeaponShotgunSoulshatter
+  suffix: DO NOT MAP # Mantes shouldn't get free lethals
   description: "A gloomy sawn-off double barrel with an amaranth grip. Provides no tactical advantage. Uses 12 gauge shells."
   components:
   - type: Sprite
@@ -20,10 +21,6 @@
     - suitStorage
   - type: Item
     size: Small
-    shape: # I don't care if it's a sawn-off, this thing should not be smaller than your pistol
-    - 0,0,1,0
-    - 0,1,0,1
-    storedRotation: 45
   - type: Gun
     fireRate: 4
     fireOnDropChance: 0.5

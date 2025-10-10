@@ -199,18 +199,33 @@
   items:
     - FlippoLighterMantis
 
+# Restraints - So they can't get duplicates
+
 - type: loadout
-  id: LoadoutPsionicMantisEquipmentCoffinMantisFilled
+  id: LoadoutPsionicMantisRestraintsCoffinMantisFilled # This contains the restraints case
   category: JobsEpistemicsPsionicMantis
   cost: 0
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutPsionicMantisEquipment
+      group: LoadoutPsionicMantisRestraints
     - !type:CharacterJobRequirement
       jobs:
         - ForensicMantis
   items:
     - ClothingBackpackCoffinMantisFilled
+
+- type: loadout
+  id: LoadoutPsionicMantisRestraintsMantisCaseRestraints # This is for people who don't want the sarcophagus too
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisRestraints
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - MantisCaseRestraints
 
 # Eyes
 
@@ -221,7 +236,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutPsionicMantisEquipment
+      group: LoadoutPsionicMantisEyes
     - !type:CharacterJobRequirement
       jobs:
         - ForensicMantis
@@ -235,7 +250,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutPsionicMantisEquipment
+      group: LoadoutPsionicMantisEyes
     - !type:CharacterJobRequirement
       jobs:
         - ForensicMantis
@@ -249,7 +264,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutPsionicMantisEquipment
+      group: LoadoutPsionicMantisEyes
     - !type:CharacterJobRequirement
       jobs:
         - ForensicMantis

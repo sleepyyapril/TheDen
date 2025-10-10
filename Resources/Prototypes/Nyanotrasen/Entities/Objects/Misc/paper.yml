@@ -19,7 +19,7 @@
     stampedColor: "#b32d70" # TheDen
     stampState: "paper_stamp-mantis"
     sound: # TheDen
-      path: /Audio/_DEN/Effects/crystaltap2.ogg
+      path: /Audio/_DEN/Effects/crystalbell2.ogg
       params:
         volume: -2
         variation: 0.05

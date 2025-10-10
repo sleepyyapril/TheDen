@@ -159,6 +159,7 @@
   name: psi-breaker
   parent: [BaseWeaponPistol, BaseMantisContraband]
   id: WeaponPistolPsiBreaker
+  suffix: DO NOT MAP # Mantes shouldn't get free lethals
   description: "A gloomy pistol with an amaranth grip. Provides no tactical advantage. Uses .38 special ammo." # TheDen
   components:
   - type: Sprite

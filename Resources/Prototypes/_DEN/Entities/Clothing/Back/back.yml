@@ -107,7 +107,7 @@
   id: ClothingBackpackCoffinMantis
   suffix: DO NOT MAP # Use the Basic version instead
   name: sarcophagus
-  description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation."
+  description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation. Includes a case of restraints for the stubborn ones."
   components:
   - type: EmitSoundOnLand
     sound:
@@ -151,25 +151,25 @@
     whitelist:
       tags:
         - CanPilot # ONLY player characters have this
-        - MantisCoffinStorable # The items below in the Filled version, it'd be unwise to specify whole categories of items
+        - MantisRestraintsBoxStorable # Only mantis restraints fit, besides player characters
 
 - type: entity
   parent: ClothingBackpackCoffinMantis
   id: ClothingBackpackCoffinMantisFilled
   suffix: Filled, DO NOT MAP # Use the Basic version instead
   name: sarcophagus
+  description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation."
   components:
   - type: StorageFill
     contents:
-    - id: ClothingHeadCageMantis # This version has a chain on the front to match the other sarcophagus items
-    - id: ClothingNeckShacklesMantis # Just a cosmetic neck item to complete the set
-    - id: HandcuffsMantis # If these are ever used to selfsec I swear to god I'll drop the breakout doafter to a millisecond
+    - id: MantisCaseRestraints
 
 - type: entity
   parent: ClothingBackpackCoffinMantis
   id: ClothingBackpackCoffinMantisBasic # A version of the sarcophagus without the space for the extra items, if you want to map it
   suffix: Basic
   name: sarcophagus
+  description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation."
   components:
   - type: Storage
     grid:

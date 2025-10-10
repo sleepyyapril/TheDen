@@ -63,8 +63,15 @@
       id: LoadoutPsionicMantisEquipmentFlippoLighterMantis
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentMantisCaseCandles
-    - type: loadout # TheDen
-      id: LoadoutPsionicMantisEquipmentCoffinMantisFilled
+
+- type: characterItemGroup
+  id: LoadoutPsionicMantisRestraints
+  maxItems: 1
+  items:
+    - type: loadout # TheDen - This contains the restraints case
+      id: LoadoutPsionicMantisRestraintsCoffinMantisFilled
+    - type: loadout # TheDen - This is for people who don't want the sarcophagus too
+      id: LoadoutPsionicMantisRestraintsMantisCaseRestraints
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisEyes

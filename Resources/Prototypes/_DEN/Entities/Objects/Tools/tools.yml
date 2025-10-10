@@ -1,0 +1,25 @@
+
+
+- type: entity
+  parent: Wrench
+  id: WrenchMantis
+  name: electrum wrench
+  description: "An unusual wrench made of electrum and amaranth, given to mantes to secure the restraints of unruly psionic subjects. Unfortunately, it seems the graven anchors have gone missing... It won't be of much use without those." # If get the anchorable chain leashes working, delete the last sentence
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Tools/wrenchmantis.rsi
+    state: icon
+  - type: Item
+    sprite: _DEN/Objects/Tools/wrenchmantis.rsi
+    storedSprite:
+      sprite: _DEN/Objects/Tools/wrenchmantis.rsi
+      state: icon
+    storedRotation: 45
+  - type: PhysicalComposition
+    materialComposition:
+      ScrapElectrum: 1
+  - type: Tag
+    tags:
+    - Wrench
+    - MantisBeltStorable
+    - MantisRestraintsBoxStorable

@@ -21,6 +21,8 @@
     - id: ScrapFirelock3
     - id: ScrapIntercom
     - id: ScrapMedkit
+    - id: ScrapElectrum # TheDen
+      weight: 0.1
     - !type:GroupSelector
       children:
       - id: ScrapPAI
@@ -138,7 +140,7 @@
       weight: 0.5
     - id: ResearchDisk20000
       weight: 0.5
-    - id: MaterialEidolite1 # TheDen - Pretty rock
+    - id: MaterialEidolite1 # TheDen - Pretty rock to sell
       amount: !type:RangeNumberSelector
         range: 1, 2
     - !type:NestedSelector
@@ -176,7 +178,7 @@
     - id: TreasureCoinDiamond
       amount: !type:RangeNumberSelector
         range: 2, 5
-    - id: MaterialEidolite1 # TheDen - Pretty rock
+    - id: MaterialEidolite1 # TheDen - Pretty rock to sell
       amount: !type:RangeNumberSelector
         range: 2, 5
     - !type:NestedSelector

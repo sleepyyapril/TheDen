@@ -10,7 +10,7 @@
   - type: Armor
     modifiers: {}
 
-# Mantis Cases Start
+# Mantis cases start
 - type: entity
   parent: [ BaseStorageItem, BaseBagOpenClose ]
   id: MantisCase
@@ -93,7 +93,7 @@
     - 0,0,3,1 # 4x2
 
 - type: entity
-  parent: [MantisCaseLarge, BaseMantisContraband] # Contraband since all of its contents are
+  parent: [MantisCaseLarge, BaseMantisContraband] # Contraband since its contents are
   id: MantisCaseTools
   name: mantis tools case # In the mantis locker
   description: "An amaranth case to store your things. A Greek psi is carved into the top, marking it as yours."
@@ -131,10 +131,10 @@
     - MantisBeltStorable
 
 - type: entity
-  parent: [MantisCaseSmall, BaseMantisContraband] # Contraband since all of its contents are
+  parent: [MantisCaseSmall, BaseMantisContraband] # Contraband since its contents are
   id: MantisCaseChemicals
   name: mantis chemicals case # In the mantis locker
-  description: "An amaranth case to carry your chemicals. Conveniently portable, but the slots inside will only fit certain things. A watchful eye is carved into the top, marking it as yours."
+  description: "An amaranth case to carry your chemicals. Conveniently portable, but the slots inside will only fit its original contents. A watchful eye is carved into the top, marking it as yours."
   components:
   - type: Sprite
     layers:
@@ -173,7 +173,7 @@
   parent: MantisCase
   id: MantisCaseCandles
   name: mnemolith candle case # Loadout option
-  description: "An amaranth case of mixed mnemolith candles, lighter included. Conveniently portable, but the slots inside will only fit certain things."
+  description: "An amaranth case of mixed mnemolith candles, lighter included. Conveniently portable, but the slots inside will only fit its original contents."
   components:
   - type: Sprite
     layers:
@@ -201,3 +201,34 @@
   - type: Tag
     tags:
     - MantisBeltStorable
+
+- type: entity
+  parent: [MantisCase, BaseMantisContraband] # Contraband since its contents are
+  id: MantisCaseRestraints
+  suffix: DO NOT MAP # Mantes need to get this from loadout - see tags below
+  name: mantis restraints case # Loadout option
+  description: "An amaranth case filled with shackles and chains, complete with an antique wrench. Conveniently portable, but the slots inside will only fit its original contents. Unfortunately, it seems the graven anchors have gone missing..." # If get the anchorable chain leashes working, delete the last sentence
+  components:
+  - type: Sprite
+    layers:
+    - state: 3-closed
+    - state: label-restraints
+    - state: 3-open
+      map: ["openLayer"]
+  - type: Storage
+    grid: # The box itself is 3x2, because only three of these items have real mechanics (the rest are just roleplay toys)
+    - 0,0,5,1 # 6x2, bigger on the inside, but it can only store what already comes inside it (extra space left for the future anchorable chain leashes)
+    whitelist:
+      tags:
+        - MantisRestraintsBoxStorable # Only the items below should have this
+  - type: StorageFill
+    contents:
+    - id: ClothingHeadCageMantis # This version has a chain on the front to match the other restraints case items (the locker version does not)
+    - id: HandcuffsMantis # If these are ever used to selfsec I swear to god I'll drop the breakout doafter to a millisecond
+    - id: ClothingNeckMantisShackles # Just a cosmetic neck item to complete the set
+    - id: WrenchMantis # A pretty but otherwise normal wrench for anchoring chains
+  - type: Tag
+    tags:
+    - MantisBeltStorable
+    - MantisRestraintsBoxStorable # Technically you could put this box inside itself, but only one should exist in a game at a time since it's a loadout item
+# Mantis cases end

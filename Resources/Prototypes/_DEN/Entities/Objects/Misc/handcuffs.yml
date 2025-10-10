@@ -3,7 +3,7 @@
   id: HandcuffsMantis
   suffix: DO NOT MAP # We don't want to give mantes the idea that selfsec is a part of their job's function...
   name: graven chains
-  description: "Heavy mu-metal chains to bind unruly psychics, inscribed for both record and suppression. Never to be used for security matters."
+  description: "Heavy mu-metal chains to bind unruly psionic subjects, inscribed for both record and suppression. Never to be used for security matters."
   components:
   - type: Item
     size: Small
@@ -30,7 +30,7 @@
     state: icon
   - type: Tag
     tags:
-    - MantisCoffinStorable # Fits in the sarcophagus, and only found there
+    - MantisRestraintsBoxStorable
     - MantisBeltStorable
   - type: MeleeWeapon
     wideAnimationRotation: 90
