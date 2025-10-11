@@ -12866,3 +12866,12 @@ Entries:
   id: 1257
   time: '2025-10-11T11:48:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1854
+- author: LilNutters
+  changes:
+    - type: Tweak
+      message: >-
+        Blast doors now receive power in order to allow door remotes to
+        open/close them!
+  id: 1258
+  time: '2025-10-11T11:51:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1848
