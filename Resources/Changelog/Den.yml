@@ -12885,3 +12885,14 @@ Entries:
   id: 1259
   time: '2025-10-11T11:52:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1847
+- author: SubspaceEmber
+  changes:
+    - type: Add
+      message: Ported the hydra cleanade launcher from DeltaV for janitors and cyborgs!
+    - type: Tweak
+      message: >-
+        The advanced cleaning cyborg module now has a bluespace trash bag,
+        filled space cleaner mega spray bottle, and the Hydra cleanade launcher.
+  id: 1260
+  time: '2025-10-11T12:20:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1831
