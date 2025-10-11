@@ -148,6 +148,28 @@
     suffix: false
 
 - type: entity
+  parent: BaseGrenade
+  id: GrenadeCleanade
+  name: cleanade grenade round
+  components:
+  - type: CartridgeAmmo
+    proto: BulletGrenadeCleanade
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
+    layers:
+    - state: cleanade
+      map: [ "enum.AmmoVisualLayers.Base" ]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+    state: frag
+    suffix: false
+  # Begin Den additions
+  - type: Tag
+    tags:
+      - Trash
+  # End additions
+
+- type: entity
   id: GrenadeEMP
   name: "40mmEMP grenade"
   parent: BaseGrenade
@@ -198,6 +220,9 @@
   - type: SpentAmmoVisuals
     state: frag
     suffix: false
+  - type: Tag # DeltaV - Changing Whitelist Tag
+    tags:
+    - CleaningGrenade
 
 - type: entity
   id: GrenadeSlug

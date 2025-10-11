@@ -583,6 +583,8 @@
     - MopItem
     - Bucket
     - TrashBag
+    - SprayBottleSpaceCleaner #Den
+    - Dropper # Den - to fill spray bottle
     - Plunger
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: cleaning-module }
@@ -599,10 +601,11 @@
   - type: ItemBorgModule
     items:
     - AdvMopItem
+    - TrashBagBluespace # Den
     - HoloprojectorBorg
-    - SprayBottleSpaceCleaner
+    - WeaponLauncherHydraBorg # DeltaV - Let borgs have cleannades!
+    - MegaSprayBottleSpaceCleaner # Den
     - Dropper
-    - TrashBag
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: adv-cleaning-module }
 

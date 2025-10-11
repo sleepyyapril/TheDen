@@ -1,0 +1,17 @@
+- type: entity
+  name: mega space cleaner
+  description: BLAM!-brand non-foaming space cleaner! Now in commercial size.
+  id: MegaSprayBottleSpaceCleaner
+  parent: MegaSprayBottle
+  suffix: ""
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        spray:
+          maxVol: 250
+          reagents:
+            - ReagentId: SpaceCleaner
+              Quantity: 250
+    - type: Tag
+      tags:
+        - Spray
