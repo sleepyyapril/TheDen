@@ -12910,3 +12910,20 @@ Entries:
   id: 1262
   time: '2025-10-12T21:07:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1852
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Some species markings may be sorted to the bottom of their respective
+        categories - namely, rodentia markings on non-rodentia, and cyberlimbs
+        on non-IPCs. All will make sense in due time.
+    - type: Tweak
+      message: A lot of rodentia markings had "Rodentia" added to the name.
+    - type: Remove
+      message: >-
+        NOTE: Some markings may have lost a species or two that were previously
+        allowed to take the marking. If your character's markings are broken,
+        please let Port know. It's probably not intentional.
+  id: 1263
+  time: '2025-10-12T21:09:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1824
