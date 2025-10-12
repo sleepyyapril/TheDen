@@ -100,34 +100,34 @@
 
 - type: entity
   parent: ClothingMaskPullableBase
-  id: ClothingMaskMantisRitual
-  name: mantis ritual mask
-  description: "A faceless electrum mask used in certain esoteric rituals."
+  id: ClothingMaskMantisVeil
+  name: mantis veil
+  description: "A sheer veil ornamented with electrum hoops. Pairs well with your blindfold."
   components:
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _DEN/Clothing/Mask/mantis_mask_ritual.rsi
+    sprite: _DEN/Clothing/Mask/mantis_mask_veil.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Mask/mantis_mask_ritual.rsi
-  - type: BreathMask
+    sprite: _DEN/Clothing/Mask/mantis_mask_veil.rsi
+  - type: BreathMask # It's like Dune and they have a breathing tube leading to their mouth, don't worry about it
   - type: IngestionBlocker
   - type: Tag
     tags:
     - WhitelistChameleon
     - MantisBeltStorable
-  - type: HideLayerClothing
-    slots:
-    - Snout
     hideOnToggle: true
 
 - type: entity
-  parent: ClothingMaskMantisRitual
-  id: ClothingMaskMantisVeil
-  name: mantis veil
-  description: "A sheer veil ornamented with electrum hoops."
+  parent: ClothingMaskMantisVeil
+  id: ClothingMaskMantisRitual
+  name: mantis ritual mask
+  description: "A faceless electrum mask used in certain esoteric rituals."
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Mask/mantis_mask_veil.rsi
+    sprite: _DEN/Clothing/Mask/mantis_mask_ritual.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Mask/mantis_mask_veil.rsi
+    sprite: _DEN/Clothing/Mask/mantis_mask_ritual.rsi
+  - type: HideLayerClothing
+    slots:
+    - Snout

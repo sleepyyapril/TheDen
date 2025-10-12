@@ -13,12 +13,18 @@
       coolingCoefficient: 0.1
 
 - type: entity
-  parent: ClothingOuterWinterCoatMantis
+  parent: [ClothingOuterWinterCoatMantis, BaseFoldable]
   id: ClothingOuterWinterCoatMantisDark
-  name: dark mantis poncho
-  description: # TODO
+  name: dark mantis coat
+  description: "A grand coat with a high collar. It's lightly armored, and you can roll the sleeves up into the shoulders to show off your gloves."
   components:
     - type: Sprite
       sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_dark.rsi
     - type: Clothing
       sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_dark.rsi
+    - type: Foldable
+      canFoldInsideContainer: true
+      foldVerbText: fold-rollsleeves-verb
+      unfoldVerbText: fold-unrollsleeves-verb
+    - type: FoldableClothing
+      foldedEquippedPrefix: folded

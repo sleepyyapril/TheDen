@@ -17,7 +17,7 @@
 - type: entity
   parent: ClothingHeadsetMantis
   id: ClothingHeadsetAltMantis
-  name: mantis earring
+  name: chained mantis headset
   description: "An unusual, ornate headset with a chained nosering that functions as a microphone. It has a direct line to the Epistemics Cult."
   components:
   - type: Sprite

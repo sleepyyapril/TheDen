@@ -173,6 +173,9 @@
             "name": "cburn"
         },
         {
+            "name": "mantis"
+        },
+        {
             "name": "gold-inhand-left",
             "directions": 4
         },

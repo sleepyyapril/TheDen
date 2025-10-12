@@ -53,7 +53,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesMantis
   name: classic mantis gloves
-  description: Made of tough cloth, and fingerless for dexterity.
+  description: "Made of tough cloth, and fingerless for dexterity."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves.rsi
@@ -69,7 +69,7 @@
   parent: ClothingHandsGlovesMantis
   id: ClothingHandsGlovesMantisAiry
   name: airy mantis sleeves
-  description: # TODO
+  description: "Wide-cuffed sleeves over finger-loop gloves."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves_airy.rsi
@@ -82,7 +82,7 @@
   parent: ClothingHandsGlovesMantis
   id: ClothingHandsGlovesMantisDark
   name: dark mantis gloves
-  description: # TODO
+  description: "Long, fingerless gloves made of durable fabric."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves_dark.rsi
@@ -92,10 +92,10 @@
     fiberColor: fibers-black
 
 - type: entity
-  parent: ClothingHandsGlovesMantis
+  parent: [ClothingHandsGlovesMantis, BaseFoldable]
   id: ClothingHandsGlovesMantisOrnate
   name: ornate mantis sleeve
-  description: "(TODO) You can switch the arms if you want, and possibly hide the chains under your mantle." # TODO: MAKE FLIPPABLE
+  description: "A flowing sleeve large enough to conceal your hand, with electrum chains to decorate your other arm. Can be worn on either side, possibly to hide the chains under your mantle, if you so choose."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves_ornate.rsi
@@ -103,3 +103,9 @@
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves_ornate.rsi
   - type: Fiber
     fiberColor: fibers-black
+  - type: Foldable
+    canFoldInsideContainer: true
+    foldVerbText: fold-flip-verb
+    unfoldVerbText: fold-flip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: flipped

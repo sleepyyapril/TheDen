@@ -14,7 +14,7 @@
   parent: [ClothingBeltStorageBase, BaseMantisContraband]
   id: ClothingBeltMantis
   name: classic mantis belt # TheDen
-  description: "A structured, layered sash designed to carry your tools." # TheDen
+  description: "A structured, layered sash designed to carry mantis equipment." # TheDen
   components:
   - type: Storage # TheDen
     grid:

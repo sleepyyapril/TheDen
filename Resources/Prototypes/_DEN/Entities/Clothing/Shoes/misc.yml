@@ -24,7 +24,7 @@
   parent: ClothingShoesBootsMantis
   id: ClothingShoesSandalsMantisAiry
   name: airy mantis sandals
-  description: # TODO
+  description: "Sandal boots made of gloomy fabric."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Shoes/Sandals/mantis_sandals_airy.rsi
@@ -35,7 +35,7 @@
   parent: ClothingShoesBootsMantis
   id: ClothingShoesSandalsMantisDark
   name: dark mantis sandals
-  description: # TODO
+  description: "Strapped sandals, for the modest mystic."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Shoes/Sandals/mantis_sandals_dark.rsi
@@ -46,7 +46,7 @@
   parent: ClothingShoesBootsMantis
   id: ClothingShoesSandalsMantis
   name: ornate mantis sandals
-  description: # TODO
+  description: "Sandal boots made of magenta fabric."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Shoes/Sandals/mantis_sandals_ornate.rsi

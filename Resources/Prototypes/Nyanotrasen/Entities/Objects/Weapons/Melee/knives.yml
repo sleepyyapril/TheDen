@@ -11,7 +11,7 @@
   parent: [CombatKnife, BaseMantisContraband] # TheDen
   id: AntiPsychicKnife
   name: athame # TheDen - Anti-Psychic Knife sounded a little too plain, and the description now includes a vague reference to heretics
-  description: "A clawlike knife carved from mnemolith, the standard weapon and enduring symbol of the mantis. It has swordbreaker teeth along its back, though it remains unclear just who exactly is wielding blades against mantes. Deadly when wielded against psionic and otherworldly threats." # TheDen
+  description: "A clawlike knife carved from mnemolith, the standard weapon and enduring symbol of the mantis. It has swordbreaker teeth along its back, though it remains unclear just who exactly is drawing blades against mantes. Deadly when wielded against psionic and otherworldly threats." # TheDen
   components:
   - type: MeleeWeapon
     attackRate: .6666

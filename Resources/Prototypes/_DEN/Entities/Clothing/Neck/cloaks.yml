@@ -12,10 +12,10 @@
     sprite: _DEN/Clothing/Neck/Cloaks/colorable.rsi
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: [ClothingNeckBase, BaseFoldable]
   id: ClothingNeckCloakMantisDark
   name: dark mantis cloak
-  description: # TODO
+  description: "A billowing cloak that you can bundle around yourself, if you feel your traditional uniforms are too revealing. The brooch is a Greek psi."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Neck/Cloaks/mantis_cloak_dark.rsi
@@ -26,8 +26,8 @@
     - WhitelistChameleon
   - type: Foldable
     canFoldInsideContainer: true
-    unfoldVerbText: unfold-verb-clothing-cloak
     foldVerbText: fold-verb-clothing-cloak
+    unfoldVerbText: unfold-verb-clothing-cloak
   - type: FoldableClothing
     foldedEquippedPrefix: folded
 

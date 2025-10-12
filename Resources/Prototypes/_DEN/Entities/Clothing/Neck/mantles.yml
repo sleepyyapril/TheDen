@@ -12,10 +12,10 @@
     sprite: _DEN/Clothing/Neck/Mantles/colorable.rsi
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: [ClothingNeckBase, BaseFoldable]
   id: ClothingNeckMantleMantisOrnate
   name: ornate mantis mantle
-  description: "(TODO) You can turn it to cover your other arm, if you want." # TODO: MAKE FLIPPABLE
+  description: "A long, finely-woven mantle generously decorated with tassles. It can easily be worn on either shoulder."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Neck/Mantles/mantis_cloak_airy.rsi
@@ -24,3 +24,9 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+  - type: Foldable
+    canFoldInsideContainer: true
+    foldVerbText: fold-flip-verb
+    unfoldVerbText: fold-flip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: flipped
