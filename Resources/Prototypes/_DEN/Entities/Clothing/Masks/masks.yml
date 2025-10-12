@@ -100,16 +100,16 @@
 
 - type: entity
   parent: ClothingMaskPullableBase
-  id: ClothingMaskMantisVeil
-  name: mantis veil
-  description: # TODO
+  id: ClothingMaskMantisRitual
+  name: mantis ritual mask
+  description: "A faceless electrum mask used in certain esoteric rituals."
   components:
   - type: Item
     size: Small
   - type: Sprite
-    sprite: _DEN/Clothing/Mask/mask_mantis_veil.rsi
+    sprite: _DEN/Clothing/Mask/mantis_mask_ritual.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Mask/mask_mantis_veil.rsi
+    sprite: _DEN/Clothing/Mask/mantis_mask_ritual.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: Tag
@@ -122,12 +122,12 @@
     hideOnToggle: true
 
 - type: entity
-  parent: ClothingMaskMantisVeil
-  id: ClothingMaskMantisRitual
-  name: mantis ritual mask
-  description: # TODO
+  parent: ClothingMaskMantisRitual
+  id: ClothingMaskMantisVeil
+  name: mantis veil
+  description: "A sheer veil ornamented with electrum hoops."
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Mask/mask_mantis_ritual.rsi
+    sprite: _DEN/Clothing/Mask/mantis_mask_veil.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Mask/mask_mantis_ritual.rsi
+    sprite: _DEN/Clothing/Mask/mantis_mask_veil.rsi

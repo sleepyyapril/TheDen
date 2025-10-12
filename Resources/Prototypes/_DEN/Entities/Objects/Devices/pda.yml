@@ -48,11 +48,11 @@
   - type: PdaBorderColor
     borderColor: "#00842e"
 
-- type: entity # TheDen - New appearance, new pen
+- type: entity # TheDen - New appearance, new description, new pen
   parent: BasePDA
   id: ForensicMantisPDA
   name: mantis PDA
-  description: The eye on the screen follows you...
+  description: "This PDA marks its bearer as a member of the Order of Mantes. Its name recalls both the Greek word for \"prophet\" and the patient, decisive strike of the insect. The magenta psi on the side denotes the Order, and the eye on its display seems to track whoever dares to look back."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Devices/pda.rsi

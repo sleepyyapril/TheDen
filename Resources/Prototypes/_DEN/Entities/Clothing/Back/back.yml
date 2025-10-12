@@ -58,22 +58,34 @@
     - LickObject
 
 - type: entity # The mantis backpacks are a bit smaller, visually, to show off their clothes
-  parent: ClothingBackpack
+  parent: [ClothingBackpack, BaseFoldable]
   id: ClothingBackpackMantis
   name: mantis backpack
   description: "A low-profile backpack for the mantis, signified by the Greek psi in electrum."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/Backpacks/mantis.rsi
+  - type: Foldable
+    canFoldInsideContainer: true
+    foldVerbText: fold-flip-verb
+    unfoldVerbText: fold-flip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: flipped
 
 - type: entity
-  parent: ClothingBackpackDuffel
+  parent: [ClothingBackpackDuffel, BaseFoldable]
   id: ClothingBackpackDuffelMantis
   name: mantis duffel bag
   description: "A relatively low-profile duffel bag with a braided handle for the mantis."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/Duffels/mantis.rsi
+  - type: Foldable
+    canFoldInsideContainer: true
+    foldVerbText: fold-flip-verb
+    unfoldVerbText: fold-flip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: flipped
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -85,7 +97,7 @@
     sprite: _DEN/Clothing/Back/Satchels/mantis.rsi
 
 - type: entity
-  parent: ClothingBackpackSatchel # Same storage as the satchel like the other purse
+  parent: ClothingBackpackSatchelPurse
   id: ClothingBackpackSatchelMantisPurse
   name: mantis handbag
   description: "A low-profile handbag for the mantis with a polished clasp. Easily hidden under a cloak."
@@ -94,45 +106,58 @@
     sprite: _DEN/Clothing/Back/Satchels/mantispurse.rsi
 
 - type: entity
-  parent: ClothingBackpackMessengerBase
+  parent: [ClothingBackpackMessengerBase, BaseFoldable]
   id: ClothingBackpackMessengerMantis
   name: mantis messenger bag
   description: "A low-profile messenger bag for the mantis, within an electrum shell shaped like a watchful eye."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/Messenger/mantis.rsi
+  - type: Foldable
+    canFoldInsideContainer: true
+    foldVerbText: fold-flip-verb
+    unfoldVerbText: fold-flip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: flipped
 
 - type: entity
-  parent: [ClothingBackpackNapsack, BaseMantisContraband] # A roleplay toy that can carry people
+  parent: [ClothingBackpackNapsack, BaseFoldable, BaseMantisContraband] # A roleplay toy that can carry people
   id: ClothingBackpackCoffinMantis
   suffix: DO NOT MAP # Use the Basic version instead
   name: sarcophagus
   description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation. Includes a case of restraints for the stubborn ones."
   components:
+  - type: Foldable
+    canFoldInsideContainer: true
+    foldVerbText: fold-flip-verb
+    unfoldVerbText: fold-flip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: flipped
   - type: EmitSoundOnLand
     sound:
-      path: /Audio/Effects/metal_slam2.ogg
+      path: /Audio/Effects/metal_slam2.ogg # Please imagine a mantis dragging this thing down a hallway pursuing someone like pyramid head
+  - type: LandAtCursor
   - type: DamageOtherOnHit
     staminaCost: 10
+  - type: StaminaDamageOnCollide
+    damage: 10
   - type: MeleeWeapon # You can smash people with it, but the attack rate is so low it's not a good weapon, more just dramatic
     wideAnimationRotation: -90
     attackRate: 1.6
     range: 1.6
     damage:
       types:
-        Blunt: 4
+        Blunt: 4 # 2.5 DPS
         Structural: 4
     soundHit:
-      collection: CrateSlam # metal_slam2.ogg
-    bluntStaminaDamageFactor: 2.5
-    heavyRateModifier: 2
-    heavyDamageBaseModifier: 1.5
-    heavyStaminaCost: 2.5
+      path: /Audio/Effects/metal_slam2.ogg
+    bluntStaminaDamageFactor: 1
+    disableClick: true # You can't just bonk someone with it directly, it's so big you have to swing the whole thing clumsily
     maxTargets: 3
     angle: 90
-  - type: MeleeThrowOnHit
-    distance: 1
+  - type: MeleeThrowOnHit # So heavy it knocks targets back a little
     speed: 1
+    lifetime: 0.05
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:

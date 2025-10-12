@@ -18,7 +18,15 @@
         "directions": 4
         },
         {
+        "name": "flipped-equipped-SUITSTORAGE",
+        "directions": 4
+        },
+        {
         "name": "equipped-SUITSTORAGE-thaven",
+        "directions": 4
+        },
+        {
+        "name": "flipped-equipped-SUITSTORAGE-thaven",
         "directions": 4
         }
     ]

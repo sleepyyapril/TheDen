@@ -1,37 +1,81 @@
 - type: entity
-  parent: [ClothingHandsInedibleBase, BaseMantisContraband]
-  id: MantisFist
+  parent: [ClothingHandsInedibleBase, BaseFoldable, BaseMantisContraband]
+  id: AntiPsychicFist
   name: manifold
-  description: "A huge mnemolith gauntlet "
+  description: "A heavy mnemolith gauntlet designed for control rather than sheer lethality, capable of hurling foes back and, at times, deflecting incoming fire. Said to take its name from its capacity for folding men. Deadly when wielded against psionic and otherworldly threats."
   components:
+  - type: Foldable
+    canFoldInsideContainer: true
+    foldVerbText: fold-flip-verb
+    unfoldVerbText: fold-flip-verb
+  - type: FoldableClothing
+    foldedEquippedPrefix: flipped
   - type: Sprite
-    sprite: _Impstation/Objects/Misc/nullrod_glove.rsi
+    sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
     state: icon
   - type: Item
-    size: Small
-    shape:
-    - 0,0,1,1
+    size: Normal
   - type: Clothing
-    sprite: _Impstation/Objects/Misc/nullrod_glove.rsi
-  - type: StaminaDamageOnHit
-    damage: 5 # Down from 24
+    sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
+  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
+    punish: false
+    modifiers:
+      coefficients:
+        Blunt: 1.25
+        Pierce: 1.25
+        Slash: 1.25
+        Holy: 1.25
   - type: MeleeWeapon
-    attackRate: 0.68
+    attackRate: 0.6666
+    range: 1.6
+    heavyStaminaCost: 2
+    heavyDamageBaseModifier: 1.05
     damage:
-      types:
-        Blunt: 10 # Down from 14
-        Holy: 20
+      types: # Same DPS as CombatKnife against psychics (25% less than AntiPsychicKnife and AntiPsychicCane due to its utility)
+        Blunt: 8 # 12 DPS, or 15 DPS against psychics
+        Holy: 4 # 22.5 total DPS against supernaturals
     soundHit:
       path: /Audio/_Impstation/Weapons/nullglove.ogg
       params:
-        variation: 0.35
+        variation: 0.15
+    animation: WeaponArcFist
     mustBeEquippedToUse: true
   - type: MeleeThrowOnHit
-    distance: 20
-    speed: 7
+    speed: 5
+    lifetime: 0.05
   - type: Reflect
     reflectProb: .2
     spread: 135
   - type: Fiber
     fiberColor: fibers-bluish
     fiberMaterial: fibers-stony
+  - type: InteractionVerbs
+    allowedVerbs:
+    - KissObject
+    - LickObject
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - MantisBeltStorable
+    - MantisMeleeFist
+
+- type: entity
+  parent: [AntiPsychicFist, BaseRivalCompanyContraband] # Traitor version, has 25% more damage and 4x the knockback
+  id: AntiPsychicFistDouble
+  name: twinned manifold
+  description: "Heavy mnemolith gauntlets forged through forbidden rituals, capable of hurling foes back and, at times, deflecting incoming fire. Said to take their name from their capacity for folding men. Deadly when wielded against psionic and otherworldly threats."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Melee/mantisfistdouble.rsi
+    state: icon
+  - type: Clothing
+    sprite: _DEN/Objects/Weapons/Melee/mantisfistdouble.rsi
+  - type: MeleeWeapon
+    damage:
+      types: # Same DPS as CombatKnife against nonpsychics (same as AntiPsychicKnife and AntiPsychicCane)
+        Slash: 10 # 15 DPS, or 18.75 DPS against psychics
+        Holy: 5 # 28.13 total DPS against supernaturals
+  - type: MeleeThrowOnHit
+    speed: 20
+    lifetime: 5
+  - type: FingerprintMask # Both hands are covered, so they hide fingerprints

@@ -10,15 +10,15 @@
 - type: entity
   parent: [CombatKnife, BaseMantisContraband] # TheDen
   id: AntiPsychicKnife
-  name: athame # TheDen - Anti-Psychic Knife sounded a little too plain considering the rest of their gear, and the description now includes a vague reference to heretics
-  description: "A clawlike knife carved from mnemolith, deadly when wielded against psionic and otherworldly threats. It has swordbreaker teeth along its back, though it remains unclear just who exactly is wielding blades against mantes." # TheDen
+  name: athame # TheDen - Anti-Psychic Knife sounded a little too plain, and the description now includes a vague reference to heretics
+  description: "A clawlike knife carved from mnemolith, the standard weapon and enduring symbol of the mantis. It has swordbreaker teeth along its back, though it remains unclear just who exactly is wielding blades against mantes. Deadly when wielded against psionic and otherworldly threats." # TheDen
   components:
   - type: MeleeWeapon
     attackRate: .6666
     damage:
       types: # Same DPS as CombatKnife against nonpsychics
-        Slash: 10 # 15 DPS, or 19 DPS against psychics
-        Holy: 5 # 34 total DPS against supernaturals
+        Slash: 10 # 15 DPS, or 18.75 DPS against psychics
+        Holy: 5 # 28.13 total DPS against supernaturals
   - type: DamageOtherOnHit
     damage:
       types:
@@ -50,6 +50,7 @@
     # - ForensicBeltEquip # TheDen
     - MantisBeltStorable # TheDen - New tag for clarity
     - MantisMeleeKnife
+    - Knife # Theden
     # - HighRiskItem # TheDen - No longer a steal target
   # - type: StealTarget
   #   stealGroup: AntiPsychicKnife

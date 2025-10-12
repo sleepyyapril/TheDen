@@ -104,7 +104,7 @@
   parent: [ClothingEyesGlassesEpistemics, BaseMantisContraband]
   id: ClothingEyesGlassesEpistemicsMantis
   name: mantis psionics pince-nez
-  description: "A mnemolith and eidolite pince-nez that provides flash immunity and a psionics HUD. Comes with prescription lenses, if requested."
+  description: "A pince-nez that provides flash immunity and a psionics HUD. Comes with prescription eidolite lenses, if requested."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Eyes/Glasses/epiglasses_mantis.rsi
@@ -116,7 +116,7 @@
   parent: [ClothingEyesGlassesEpistemicsMantis, BaseMantisContraband]
   id: ClothingEyesGlassesEpistemicsMantisVeil
   name: mantis psionics blindfold
-  description: "A sheer blindfold that provides flash immunity and psionics vision."
+  description: "A sheer blindfold decorated with an electrum eye that provides flash immunity and psionics vision."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Eyes/Glasses/epiglasses_mantis_alt.rsi

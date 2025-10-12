@@ -73,7 +73,16 @@
   id: MantisFolderStorable
 
 - type: Tag
+  id: MantisMeleeCane
+
+- type: Tag
+  id: MantisMeleeFist
+
+- type: Tag
   id: MantisMeleeKnife
+
+- type: Tag
+  id: MantisMeleeSword
 
 - type: Tag
   id: MantisRestraintsBoxStorable
