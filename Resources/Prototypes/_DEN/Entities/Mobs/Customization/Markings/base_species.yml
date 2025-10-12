@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # Markings are inheriting. That means they can have parents now. Yay!
 # This file is mostly for species restriction lists.
 # Keep in mind that there is no partial inheritance of species restrictions, so you have to redeclare the entire

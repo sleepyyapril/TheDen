@@ -6,7 +6,9 @@
 // SPDX-FileCopyrightText: 2023 Visne
 // SPDX-FileCopyrightText: 2023 csqrb
 // SPDX-FileCopyrightText: 2024 SimpleStation14
+// SPDX-FileCopyrightText: 2025 Mora
 // SPDX-FileCopyrightText: 2025 Rosycup
+// SPDX-FileCopyrightText: 2025 assignedgod
 // SPDX-FileCopyrightText: 2025 portfiend
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
