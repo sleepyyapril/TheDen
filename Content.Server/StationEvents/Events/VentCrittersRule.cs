@@ -4,6 +4,7 @@
 // SPDX-FileCopyrightText: 2023 metalgearsloth
 // SPDX-FileCopyrightText: 2024 VMSolidus
 // SPDX-FileCopyrightText: 2024 deltanedas
+// SPDX-FileCopyrightText: 2025 Eightballll
 // SPDX-FileCopyrightText: 2025 Jakumba
 // SPDX-FileCopyrightText: 2025 empty0set
 // SPDX-FileCopyrightText: 2025 portfiend

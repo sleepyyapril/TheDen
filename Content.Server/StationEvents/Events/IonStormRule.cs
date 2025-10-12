@@ -4,6 +4,7 @@
 // SPDX-FileCopyrightText: 2024 Mephisto72
 // SPDX-FileCopyrightText: 2024 VMSolidus
 // SPDX-FileCopyrightText: 2024 deltanedas
+// SPDX-FileCopyrightText: 2025 Eightballll
 // SPDX-FileCopyrightText: 2025 Falcon
 // SPDX-FileCopyrightText: 2025 Shaman
 // SPDX-FileCopyrightText: 2025 foxcurl
