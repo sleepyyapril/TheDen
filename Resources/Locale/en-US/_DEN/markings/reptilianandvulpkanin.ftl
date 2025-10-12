@@ -1,8 +1,10 @@
-# SPDX-FileCopyrightText: 2025 LaconiumDragona <riascazadofelra@gmail.com>
-# SPDX-FileCopyrightText: 2025 portfiend <109661617+portfiend@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 LaconiumDragona
+# SPDX-FileCopyrightText: 2025 mart
+# SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2025 sheepie
+# SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 marking-ReptilianSharpCobraHood = Sharp Cobra Hood
 marking-ReptilianSharpCobraHood-sharp_cobra_hood = Base
