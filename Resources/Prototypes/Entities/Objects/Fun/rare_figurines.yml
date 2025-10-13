@@ -71,7 +71,7 @@
   components:
   - type: Sprite
     state: passenger_greytide
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesPassenger
 
 - type: entity
@@ -82,7 +82,7 @@
   components:
   - type: Sprite
     state: clown
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesClown
 
 - type: entity
@@ -93,7 +93,7 @@
   components:
   - type: Sprite
     state: mime
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesMime
 
 - type: entity
@@ -104,7 +104,7 @@
   components:
   - type: Sprite
     state: hamlet
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: FigurinesHamlet
 
 - type: entity
@@ -115,7 +115,7 @@
   components:
   - type: Sprite
     state: salvage
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesSalvage
 
 - type: entity
@@ -126,7 +126,7 @@
   components:
   - type: Sprite
     state: slime
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: FigurinesSlime
 
 - type: entity
@@ -137,7 +137,7 @@
   components:
     - type: Sprite
       state: janitor
-    - type: SpeakOnTrigger
+    - type: SpeakOnUse
       pack: RareFigurinesJanitor
 
 - type: entity
@@ -148,7 +148,7 @@
   components:
   - type: Sprite
     state: ce
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesCE
 
 - type: entity
@@ -159,7 +159,7 @@
   components:
   - type: Sprite
     state: engineer
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesEngineer
 
 - type: entity
@@ -170,7 +170,7 @@
   components:
   - type: Sprite
     state: cmo
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesCMO
 
 - type: entity
@@ -181,7 +181,7 @@
   components:
   - type: Sprite
     state: warden
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesWarden
 
 - type: entity
@@ -192,7 +192,7 @@
   components:
   - type: Sprite
     state: hos
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesHOS
 
 - type: entity
@@ -203,7 +203,7 @@
   components:
   - type: Sprite
     state: captain
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesCaptain
 
 - type: entity
@@ -214,5 +214,5 @@
   components:
   - type: Sprite
     state: security
-  - type: SpeakOnTrigger
+  - type: SpeakOnUse
     pack: RareFigurinesSecurity
