@@ -225,7 +225,7 @@
     inHandsFillBaseName: -fill-
   - type: Tag
     tags:
-    - DrinkCup # Do these tags
+    #- DrinkCup # Do these tags
     - DrinkGlass # even do anything?
   - type: TransformableContainer
 
