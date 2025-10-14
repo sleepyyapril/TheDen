@@ -12857,3 +12857,73 @@ Entries:
   id: 1256
   time: '2025-10-08T01:03:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1774
+- author: Pinkbat5
+  changes:
+    - type: Fix
+      message: >-
+        Voxbox air alarms no longer re-render the game when you interact with
+        them.
+  id: 1257
+  time: '2025-10-11T11:48:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1854
+- author: LilNutters
+  changes:
+    - type: Tweak
+      message: >-
+        Blast doors now receive power in order to allow door remotes to
+        open/close them!
+  id: 1258
+  time: '2025-10-11T11:51:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1848
+- author: LilNutters
+  changes:
+    - type: Tweak
+      message: >-
+        Plasma and uranium directional windows as well as their reinforced
+        versions now block radiation. Be careful with placement as unconnected
+        corners will still leak radiation.
+  id: 1259
+  time: '2025-10-11T11:52:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1847
+- author: SubspaceEmber
+  changes:
+    - type: Add
+      message: Ported the hydra cleanade launcher from DeltaV for janitors and cyborgs!
+    - type: Tweak
+      message: >-
+        The advanced cleaning cyborg module now has a bluespace trash bag,
+        filled space cleaner mega spray bottle, and the Hydra cleanade launcher.
+  id: 1260
+  time: '2025-10-11T12:20:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1831
+- author: Hederadaii
+  changes:
+    - type: Add
+      message: Added poker chips. 99% of gamblers stop right before they win big!!
+  id: 1261
+  time: '2025-10-11T21:10:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1856
+- author: Eightballll
+  changes:
+    - type: Add
+      message: Added visual effects for the Ion Storm and Solar Flare events!
+  id: 1262
+  time: '2025-10-12T21:07:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1852
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Some species markings may be sorted to the bottom of their respective
+        categories - namely, rodentia markings on non-rodentia, and cyberlimbs
+        on non-IPCs. All will make sense in due time.
+    - type: Tweak
+      message: A lot of rodentia markings had "Rodentia" added to the name.
+    - type: Remove
+      message: >-
+        NOTE: Some markings may have lost a species or two that were previously
+        allowed to take the marking. If your character's markings are broken,
+        please let Port know. It's probably not intentional.
+  id: 1263
+  time: '2025-10-12T21:09:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1824
