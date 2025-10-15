@@ -12977,3 +12977,12 @@ Entries:
   id: 1269
   time: '2025-10-15T09:08:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1603
+- author: SubspaceEmber
+  changes:
+    - type: Fix
+      message: Fixed hydra not able to be reloaded.
+    - type: Fix
+      message: Fixed hydra being contraband.
+  id: 1270
+  time: '2025-10-15T09:09:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1860
