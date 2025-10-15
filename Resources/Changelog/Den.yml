@@ -12986,3 +12986,12 @@ Entries:
   id: 1270
   time: '2025-10-15T09:09:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1860
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Passports now use your characters' custom species label, if one is
+        defined.
+  id: 1271
+  time: '2025-10-15T12:20:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1869
