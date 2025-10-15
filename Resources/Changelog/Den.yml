@@ -12952,3 +12952,14 @@ Entries:
   id: 1266
   time: '2025-10-15T03:58:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1859
+- author: Eightballll
+  changes:
+    - type: Add
+      message: Added new rare figurines, with alternative colors!
+    - type: Add
+      message: >-
+        Added a new figurine case, which can only hold figurines! Build your
+        collection up now!
+  id: 1267
+  time: '2025-10-15T07:58:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1862
