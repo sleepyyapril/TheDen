@@ -12970,3 +12970,10 @@ Entries:
   id: 1268
   time: '2025-10-15T08:01:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1868
+- author: SirWarock
+  changes:
+    - type: Add
+      message: Added Voidlites for Paramedics in dark situations!
+  id: 1269
+  time: '2025-10-15T09:08:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1603
