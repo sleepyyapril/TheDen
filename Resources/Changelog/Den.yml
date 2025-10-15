@@ -12995,3 +12995,16 @@ Entries:
   id: 1271
   time: '2025-10-15T12:20:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1869
+- author: Pinkbat5
+  changes:
+    - type: Add
+      message: Vox can now coo, hiss, chitter, hoot and caw.
+    - type: Add
+      message: You can now select Vox emotes under vocals during character creation.
+    - type: Tweak
+      message: Vox now have their own crying, gasp and deathgasp sounds.
+    - type: Fix
+      message: Fixed the diona "chirp" emote appearing in every species emote wheel.
+  id: 1272
+  time: '2025-10-15T13:12:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1867
