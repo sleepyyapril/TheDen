@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 SillyAmy
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 rare-figurines-passenger-1 = I am the Tider. And this, is my multitool.
 rare-figurines-passenger-2 = That airlock? Yeah, that was me.
 rare-figurines-passenger-3 = Contraband? You silly officer. This vest I'm wearing is proof that I am superior to all of you, for I am John Tider, and I will strike you down!
