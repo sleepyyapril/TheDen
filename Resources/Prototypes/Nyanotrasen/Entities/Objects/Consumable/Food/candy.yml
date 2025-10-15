@@ -39,6 +39,9 @@
     quickEquip: false   # would block eating otherwise
   - type: Appearance
   - type: RandomizedCandy
+  - type: Tag # DEN - Add snack tag
+    tags:
+    - FoodSnack
 
 - type: entity
   parent: FoodBase
@@ -67,3 +70,6 @@
     - state: gumball-shine
   - type: Appearance
   - type: RandomizedCandy
+  - type: Tag # DEN - Add snack tag
+    tags:
+    - FoodSnack
