@@ -13008,3 +13008,13 @@ Entries:
   id: 1272
   time: '2025-10-15T13:12:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1867
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Candy buckets can be printed at the autolathe, in eight fantastic
+        flavors. Despite their name, they can hold basically any vending machine
+        snack.
+  id: 1273
+  time: '2025-10-15T13:27:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1866
