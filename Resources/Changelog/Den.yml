@@ -12963,3 +12963,10 @@ Entries:
   id: 1267
   time: '2025-10-15T07:58:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1862
+- author: AvianMaiden
+  changes:
+    - type: Add
+      message: Sidearm holster sounds for belts and rigs with holsters!
+  id: 1268
+  time: '2025-10-15T08:01:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1868
