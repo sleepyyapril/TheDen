@@ -450,15 +450,35 @@
     Sigh:
       collection: MaleSigh
     Crying:
-      collection: MaleCry
+      collection: VoxCry #Imp
+      params:
+        volume: -7
     Whistle:
       collection: Whistles
     Weh:
       collection: Weh
     Gasp:
-      collection: MaleGasp
+      collection: VoxGasp #Imp
+      params:
+        volume: 10
     DefaultDeathgasp:
       collection: DeathGasp
+    Chitter:
+      collection: VoxChitter #Imp
+      params:
+        volume: -5
+    Coo:
+      collection: VoxCoo #Imp
+      params:
+        volume: -7
+    Hiss:
+      collection: VoxHiss #Imp
+      params:
+        volume: -5
+    HarpyCaw:
+      collection: HarpyCaws
+    HarpyHoot:
+      collection: HarpyHoots
 
 - type: emoteSounds
   id: UnisexDiona

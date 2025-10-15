@@ -81,15 +81,23 @@
   icon: Interface/Emotes/caw.png
   whitelist:
     tags:
+    - VoxEmotes
     - HarpyEmotes
     - ResomiEmotes
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ coos ]
+  chatMessages: [ "chat-emote-msg-coo" ] # imp vox emote edit
   chatTriggers:
-    - coos
-    - coo
+   - coo
+   - coo.
+   - coo!
+   - coos
+   - coos.
+   - coos!
+   - cooed
+   - cooed.
+   - cooed!
 
 - type: emote
   id: AvaliHonk

@@ -20,6 +20,8 @@
   chatMessages: [ rings ]
   chatTriggers:
     - rings
+    - rings.
+    - rings!
 
 - type: emote
   id: HarpyPew
@@ -35,7 +37,11 @@
   chatMessages: [ pews ]
   chatTriggers:
     - pews
+    - pews.
+    - pews!
     - pewpews
+    - pewpews.
+    - pewpews!
 
 - type: emote
   id: HarpyBang
@@ -51,6 +57,8 @@
   chatMessages: [ bangs ]
   chatTriggers:
     - bangs
+    - bangs.
+    - bangs!
 
 - type: emote
   id: HarpyRev
@@ -66,6 +74,8 @@
   chatMessages: [ revs ]
   chatTriggers:
     - revs
+    - revs.
+    - revs!
 
 - type: emote
   id: HarpyCaw
@@ -75,12 +85,15 @@
   whitelist:
     tags:
     - HarpyEmotes
+    - VoxEmotes # den edit
   blacklist:
     components:
     - BorgChassis
   chatMessages: [ caws ]
   chatTriggers:
     - caws
+    - caws.
+    - caws!
 
 - type: emote
   id: HarpyHoot
@@ -90,13 +103,18 @@
   whitelist:
     tags:
     - HarpyEmotes
+    - VoxEmotes # den edit
   blacklist:
     components:
     - BorgChassis
   chatMessages: [ hoots ]
   chatTriggers:
     - hoots
+    - hoots.
+    - hoots!
     - hoot
+    - hoot.
+    - hoot!
 
 #Vulpkanin
 - type: emote
@@ -115,6 +133,8 @@
   chatMessages: [ barks ]
   chatTriggers:
     - barks
+    - barks.
+    - barks!
 
 - type: emote
   id: Snarl
@@ -197,6 +217,8 @@
   chatTriggers:
     - gnash
     - gnashes
+    - gnashes.
+    - gnashes!
     - gnashing
     - gnashed
     - gnash teeth

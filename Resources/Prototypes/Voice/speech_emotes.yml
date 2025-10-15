@@ -137,6 +137,7 @@
     - HarpyEmotes
     - ArachneEmotes
     - MothEmotes
+    - VoxEmotes
   blacklist:
     components:
     - BorgChassis
@@ -351,7 +352,8 @@
   name: chat-emote-name-chirp
   category: Vocal
   icon: Interface/Emotes/chirp.png
-  whitelist:
+  available: false
+  whitelist: #todo: make DionaEmotes tag & selectable trait
     requireAll: false
     components:
     - Nymph
@@ -359,8 +361,8 @@
     tags:
     - HarpyEmotes
   blacklist:
-    components:
-    - BorgChassis
+    tags:
+    - SiliconEmotes
   chatMessages: ["chat-emote-msg-chirp"]
   chatTriggers:
     - chirps
