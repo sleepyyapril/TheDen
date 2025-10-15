@@ -258,7 +258,26 @@
       emoteSound: UnisexMoth
       useSex: false
 
-# REPLACE SOUNDS 
+- type: trait
+  id: VoxSounds
+  category: TraitsSpeechSounds
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsRaceSounds
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Vox
+  functions:
+    - !type:TraitAddTag
+      tags:
+      - VoxEmotes
+    - !type:TraitSetAdditionalEmoteSound
+      emoteSound: UnisexVox
+      useSex: false
+
+# REPLACE SOUNDS
 
 - type: trait
   id: VulpkaninSoundsReplace
@@ -523,5 +542,25 @@
       - MothEmotes
     - !type:TraitSetAdditionalEmoteSound
       emoteSound: UnisexMoth
+      useSex: false
+      replace: true
+
+- type: trait
+  id: VoxSoundsReplace
+  category: TraitsSpeechSounds
+  points: -2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsRaceSounds
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Vox
+  functions:
+    - !type:TraitAddTag
+      tags:
+      - VoxEmotes
+    - !type:TraitSetAdditionalEmoteSound
+      emoteSound: UnisexVox
       useSex: false
       replace: true

@@ -77,6 +77,7 @@
   - type: Speech
     speechVerb: Vox
     speechSounds: Vox
+    allowedEmotes: ['Hiss', 'Chitter', 'Coo', 'HarpyHoot', 'HarpyCaw'] #impstation vox emotes + harpy emotes
   - type: TypingIndicator
     proto: vox
   - type: Vocal
@@ -126,6 +127,12 @@
     understands:
     - TauCetiBasic
     - VoxPidgin
+  - type: Tag # DEN edit for vox emotes
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - VoxEmotes
   - type: FootPrints
     leftBarePrint: "footprint-left-bare-lizard"
     rightBarePrint: "footprint-right-bare-lizard"

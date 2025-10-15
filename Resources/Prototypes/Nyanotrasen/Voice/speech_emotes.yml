@@ -22,13 +22,18 @@
     - HarpyEmotes
     - UnathiEmotes
     - ArachneEmotes
+    - VoxEmotes
   blacklist:
     components:
     - BorgChassis
   chatMessages: [ hisses ]
   chatTriggers:
     - hiss
+    - hiss.
+    - hiss!
     - hisses
+    - hisses.
+    - hisses!
     - hissed
     - hissing
 
@@ -66,6 +71,7 @@
   chatMessages: [ mews ]
   chatTriggers:
     - mews
+    - mews.
 
 - type: emote
   id: Growl
@@ -84,6 +90,8 @@
   chatMessages: [ growls ]
   chatTriggers:
     - growls
+    - growls.
+    - growls!
 
 - type: emote
   id: Purr
@@ -100,3 +108,4 @@
   chatMessages: [ purrs ]
   chatTriggers:
     - purrs
+    - purrs.
