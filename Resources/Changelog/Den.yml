@@ -13018,3 +13018,14 @@ Entries:
   id: 1273
   time: '2025-10-15T13:27:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1866
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Roundstart Antags was changed to Even More Antags which is Irregular
+        Extended but with a higher maximum antag count.
+    - type: Remove
+      message: Removed a borg name.
+  id: 1274
+  time: '2025-10-16T06:40:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1871
