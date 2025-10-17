@@ -13029,3 +13029,16 @@ Entries:
   id: 1274
   time: '2025-10-16T06:40:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1871
+- author: IAmNotGray
+  changes:
+    - type: Add
+      message: (ANVIL) New dorms area. Enjoy!
+    - type: Tweak
+      message: (ANVIL) The chemistry lab has been tweaked, among other minor fixes.
+    - type: Tweak
+      message: (TORTUGA) Minor changes to Tortuga.
+    - type: Add
+      message: (TORTUGA) Woah, a vox box on MY Tortuga?! Say it isn't so!
+  id: 1275
+  time: '2025-10-17T05:19:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1820
