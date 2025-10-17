@@ -49,6 +49,9 @@ public sealed class ToggleableClothingBoundUserInterface : BoundUserInterface
 
         foreach (var pair in clothing.ClothingUids)
         {
+            if (!EntMan.TryGetComponent(pair.Key, out MetaDataComponent? metaData) || metaData.EntityPrototype == null)
+                continue;
+
             // Change tooltip text if attached clothing is toggle/untoggled
             var attached = clothingContainer.Contains(pair.Key) ? clothing.AttachTooltip : clothing.UnattachTooltip;
             var tooltipText = Loc.GetString(attached);
@@ -56,7 +59,7 @@ public sealed class ToggleableClothingBoundUserInterface : BoundUserInterface
             var action = new RadialMenuActionOption<NetEntity>(SendToggleableClothingMessage, netEntity)
             {
                 ToolTip = tooltipText,
-                IconSpecifier = RadialMenuIconSpecifier.With(pair.Key)
+                IconSpecifier = RadialMenuIconSpecifier.With(metaData.EntityPrototype)
             };
 
             actions.Add(action);
