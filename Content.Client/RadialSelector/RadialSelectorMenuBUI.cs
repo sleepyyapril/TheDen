@@ -21,6 +21,7 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Client.RadialSelector;
 
+// TODO: This entire class is now unnecessary
 [UsedImplicitly]
 public sealed class RadialSelectorMenuBUI : BoundUserInterface
 {
@@ -97,7 +98,7 @@ public sealed class RadialSelectorMenuBUI : BoundUserInterface
             if (entry.Category != null)
             {
                 var button = CreateButton(entry.Category.Name, _spriteSystem.Frame0(entry.Category.Icon));
-                button.TargetLayer = container;
+                button.TargetLayerControlName = entry.Category.Name;
                 CreateMenu(entry.Category.Entries, entry.Category.Name);
                 container.AddChild(button);
             }
