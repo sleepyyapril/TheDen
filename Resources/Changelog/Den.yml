@@ -13083,3 +13083,12 @@ Entries:
   id: 1279
   time: '2025-10-17T19:13:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1876
+- author: GreggTheFather
+  changes:
+    - type: Tweak
+      message: >-
+        (ARENA, SUBMARINE, MANTA) Minor fixes and tweaks as requested via
+        feedback in each forum
+  id: 1280
+  time: '2025-10-17T22:07:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1851
