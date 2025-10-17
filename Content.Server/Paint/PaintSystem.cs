@@ -21,13 +21,14 @@ using Content.Shared.Inventory;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Nutrition.EntitySystems;
 using Content.Shared.Whitelist;
+using Content.Shared.Examine;
 
 namespace Content.Server.Paint;
 
 /// <summary>
 /// Colors target and consumes reagent on each color success.
 /// </summary>
-public sealed class PaintSystem : SharedPaintSystem
+public sealed partial class PaintSystem : SharedPaintSystem // DEN - Made partial
 {
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
@@ -38,7 +39,6 @@ public sealed class PaintSystem : SharedPaintSystem
     [Dependency] private readonly OpenableSystem _openable = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelist = default!;
 
-
     public override void Initialize()
     {
         base.Initialize();
@@ -46,8 +46,9 @@ public sealed class PaintSystem : SharedPaintSystem
         SubscribeLocalEvent<PaintComponent, AfterInteractEvent>(OnInteract);
         SubscribeLocalEvent<PaintComponent, PaintDoAfterEvent>(OnPaint);
         SubscribeLocalEvent<PaintComponent, GetVerbsEvent<UtilityVerb>>(OnPaintVerb);
-    }
 
+        SubscribeLocalEvent<PaintComponent, ExaminedEvent>(OnExamined); // DEN - Examine text for paint cans
+    }
 
     private void OnInteract(EntityUid uid, PaintComponent component, AfterInteractEvent args)
     {
