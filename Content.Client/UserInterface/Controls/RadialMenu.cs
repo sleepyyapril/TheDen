@@ -15,11 +15,16 @@ public class RadialMenu : BaseWindow
     /// <summary>
     /// Contextual button used to traverse through previous layers of the radial menu
     /// </summary>
-    public TextureButton? ContextualButton { get; set; }
+    public RadialMenuContextualCentralTextureButton ContextualButton { get; }
+
+    /// <summary>
+    /// Button that represents outer area of menu (closes menu on outside clicks).
+    /// </summary>
+    public RadialMenuOuterAreaButton MenuOuterAreaButton { get; }
 
     /// <summary>
     /// Set a style class to be applied to the contextual button when it is set to move the user back through previous layers of the radial menu
-    /// </summary>  
+    /// </summary>
     public string? BackButtonStyleClass
     {
         get
@@ -55,7 +60,7 @@ public class RadialMenu : BaseWindow
         }
     }
 
-    private List<Control> _path = new();
+    private readonly List<Control> _path = new();
     private string? _backButtonStyleClass;
     private string? _closeButtonStyleClass;
 
@@ -63,8 +68,8 @@ public class RadialMenu : BaseWindow
     /// A free floating menu which enables the quick display of one or more radial containers
     /// </summary>
     /// <remarks>
-    /// Only one radial container is visible at a time (each container forming a separate 'layer' within 
-    /// the menu), along with a contextual button at the menu center, which will either return the user  
+    /// Only one radial container is visible at a time (each container forming a separate 'layer' within
+    /// the menu), along with a contextual button at the menu center, which will either return the user
     /// to the previous layer or close the menu if there are no previous layers left to traverse.
     /// To create a functional radial menu, simply parent one or more named radial containers to it,
     /// and populate the radial containers with RadialMenuButtons. Setting the TargetLayer field of these
@@ -81,23 +86,56 @@ public class RadialMenu : BaseWindow
         }
 
         // Auto generate a contextual button for moving back through visited layers
-        ContextualButton = new TextureButton()
+        ContextualButton = new RadialMenuContextualCentralTextureButton
         {
             HorizontalAlignment = HAlignment.Center,
             VerticalAlignment = VAlignment.Center,
             SetSize = new Vector2(64f, 64f),
         };
+        MenuOuterAreaButton = new RadialMenuOuterAreaButton();
 
         ContextualButton.OnButtonUp += _ => ReturnToPreviousLayer();
+        MenuOuterAreaButton.OnButtonUp += _ => Close();
         AddChild(ContextualButton);
+        AddChild(MenuOuterAreaButton);
 
         // Hide any further add children, unless its promoted to the active layer
-        OnChildAdded += child => child.Visible = (GetCurrentActiveLayer() == child);
+        OnChildAdded += child =>
+        {
+            child.Visible = GetCurrentActiveLayer() == child;
+            SetupContextualButtonData(child);
+        };
+    }
+
+    private void SetupContextualButtonData(Control child)
+    {
+        if (child is RadialContainer { Visible: true } container)
+        {
+            var parentCenter = MinSize * 0.5f;
+            ContextualButton.ParentCenter = parentCenter;
+            MenuOuterAreaButton.ParentCenter = parentCenter;
+            ContextualButton.InnerRadius = container.CalculatedRadius * container.InnerRadiusMultiplier;
+            MenuOuterAreaButton.OuterRadius = container.CalculatedRadius * container.OuterRadiusMultiplier;
+        }
+    }
+
+    /// <inheritdoc />
+    protected override Vector2 ArrangeOverride(Vector2 finalSize)
+    {
+        var result = base.ArrangeOverride(finalSize);
+
+        var currentLayer = GetCurrentActiveLayer();
+        if (currentLayer != null)
+        {
+            SetupContextualButtonData(currentLayer);
+        }
+
+        return result;
     }
 
     private Control? GetCurrentActiveLayer()
     {
-        var children = Children.Where(x => x != ContextualButton);
+        var children = Children.Where(x => x != ContextualButton && x != MenuOuterAreaButton);
 
         if (!children.Any())
             return null;
@@ -116,7 +154,7 @@ public class RadialMenu : BaseWindow
 
         foreach (var child in Children)
         {
-            if (child == ContextualButton)
+            if (child == ContextualButton || child == MenuOuterAreaButton)
                 continue;
 
             // Hide layers which are not of interest
@@ -129,6 +167,7 @@ public class RadialMenu : BaseWindow
             else
             {
                 child.Visible = true;
+                SetupContextualButtonData(child);
                 result = true;
             }
         }
@@ -171,7 +210,7 @@ public class RadialMenu : BaseWindow
         // Hide all children except the contextual button
         foreach (var child in Children)
         {
-            if (child != ContextualButton)
+            if (child != ContextualButton && child != MenuOuterAreaButton)
                 child.Visible = false;
         }
 
@@ -185,49 +224,104 @@ public class RadialMenu : BaseWindow
     }
 }
 
+/// <summary>
+/// Base class for radial menu buttons. Excludes all actions except clicks and alt-clicks
+/// from interactions.
+/// </summary>
 [Virtual]
-public class RadialMenuButton : Button
+public abstract class RadialMenuButtonBase : BaseButton
 {
-    /// <summary>
-    /// Upon clicking this button the radial menu will transition to the named layer
-    /// </summary>
-    public string? TargetLayer { get; set; }
-
-    /// <summary>
-    /// A simple button that can move the user to a different layer within a radial menu
-    /// </summary>
-    public RadialMenuButton()
+    /// <inheritdoc />
+    protected RadialMenuButtonBase()
     {
-        OnButtonUp += OnClicked;
+        EnableAllKeybinds = true;
     }
 
-    private void OnClicked(ButtonEventArgs args)
+    /// <inheritdoc />
+    protected override void KeyBindUp(GUIBoundKeyEventArgs args)
     {
-        if (TargetLayer == null || TargetLayer == string.Empty)
-            return;
-
-        var parent = FindParentMultiLayerContainer(this);
-
-        if (parent == null)
-            return;
-
-        parent.TryToMoveToNewLayer(TargetLayer);
-    }
-
-    private RadialMenu? FindParentMultiLayerContainer(Control control)
-    {
-        foreach (var ancestor in control.GetSelfAndLogicalAncestors())
+        if (args.Function == EngineKeyFunctions.UIClick
+            || args.Function == ContentKeyFunctions.AltActivateItemInWorld)
         {
-            if (ancestor is RadialMenu)
-                return ancestor as RadialMenu;
+            base.KeyBindUp(args);
+        }
+    }
+}
+
+/// <summary>
+/// Special button for closing radial menu or going back between radial menu levels.
+/// Is looking like just <see cref="TextureButton "/> but considers whole space around
+/// itself (til radial menu buttons) as itself in case of clicking. But this 'effect'
+/// works only if control have parent, and ActiveContainer property is set.
+/// Also considers all space outside of radial menu buttons as itself for clicking.
+/// </summary>
+public sealed class RadialMenuContextualCentralTextureButton : TextureButton
+{
+    /// <inheritdoc />
+    public RadialMenuContextualCentralTextureButton()
+    {
+        EnableAllKeybinds = true;
+    }
+
+    public float InnerRadius { get; set; }
+
+    public Vector2? ParentCenter { get; set; }
+
+    /// <inheritdoc />
+    protected override bool HasPoint(Vector2 point)
+    {
+        if (ParentCenter == null)
+        {
+            return base.HasPoint(point);
         }
 
-        return null;
+        var distSquared = (point + Position - ParentCenter.Value).LengthSquared();
+
+        var innerRadiusSquared = InnerRadius * InnerRadius;
+
+        // comparing to squared values is faster, then making sqrt
+        return distSquared < innerRadiusSquared;
+    }
+
+    /// <inheritdoc />
+    protected override void KeyBindUp(GUIBoundKeyEventArgs args)
+    {
+        if (args.Function == EngineKeyFunctions.UIClick
+            || args.Function == ContentKeyFunctions.AltActivateItemInWorld)
+        {
+            base.KeyBindUp(args);
+        }
+    }
+}
+
+/// <summary>
+/// Menu button for outer area of radial menu (covers everything 'outside').
+/// </summary>
+public sealed class RadialMenuOuterAreaButton : RadialMenuButtonBase
+{
+    public float OuterRadius { get; set; }
+
+    public Vector2? ParentCenter { get; set; }
+
+    /// <inheritdoc />
+    protected override bool HasPoint(Vector2 point)
+    {
+        if (ParentCenter == null)
+        {
+            return base.HasPoint(point);
+        }
+
+        var distSquared = (point + Position - ParentCenter.Value).LengthSquared();
+
+        var outerRadiusSquared = OuterRadius * OuterRadius;
+
+        // comparing to squared values is faster, then making sqrt
+        return distSquared > outerRadiusSquared;
     }
 }
 
 [Virtual]
-public class RadialMenuTextureButton : TextureButton
+public class RadialMenuButton : RadialMenuButtonBase
 {
     /// <summary>
     /// Upon clicking this button the radial menu will be moved to the layer of this control.
@@ -243,7 +337,7 @@ public class RadialMenuTextureButton : TextureButton
     /// <summary>
     /// A simple texture button that can move the user to a different layer within a radial menu
     /// </summary>
-    public RadialMenuTextureButton()
+    public RadialMenuButton()
     {
         OnButtonUp += OnClicked;
     }
@@ -272,8 +366,8 @@ public class RadialMenuTextureButton : TextureButton
     {
         foreach (var ancestor in control.GetSelfAndLogicalAncestors())
         {
-            if (ancestor is RadialMenu)
-                return ancestor as RadialMenu;
+            if (ancestor is RadialMenu menu)
+                return menu;
         }
 
         return null;
@@ -314,7 +408,7 @@ public interface IRadialMenuItemWithSector
 }
 
 [Virtual]
-public class RadialMenuTextureButtonWithSector : RadialMenuTextureButton, IRadialMenuItemWithSector
+public class RadialMenuButtonWithSector : RadialMenuButton, IRadialMenuItemWithSector
 {
     private Vector2[]? _sectorPointsForDrawing;
 
@@ -423,7 +517,7 @@ public class RadialMenuTextureButtonWithSector : RadialMenuTextureButton, IRadia
     /// <summary>
     /// A simple texture button that can move the user to a different layer within a radial menu
     /// </summary>
-    public RadialMenuTextureButtonWithSector()
+    public RadialMenuButtonWithSector()
     {
     }
 
