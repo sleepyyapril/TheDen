@@ -50,12 +50,9 @@ public sealed class ToggleableClothingBoundUserInterface : BoundUserInterface
         foreach (var pair in clothing.ClothingUids)
         {
             // Change tooltip text if attached clothing is toggle/untoggled
-            var tooltipText = Loc.GetString(clothing.UnattachTooltip);
-
-            if (clothingContainer.Contains(pair.Key))
-                tooltipText = Loc.GetString(clothing.AttachTooltip);
-
-            var netEntity = EntMan.GetNetEntity(Owner);
+            var attached = clothingContainer.Contains(pair.Key) ? clothing.AttachTooltip : clothing.UnattachTooltip;
+            var tooltipText = Loc.GetString(attached);
+            var netEntity = EntMan.GetNetEntity(pair.Key);
             var action = new RadialMenuActionOption<NetEntity>(SendToggleableClothingMessage, netEntity)
             {
                 ToolTip = tooltipText,
