@@ -1,9 +1,11 @@
 # SPDX-FileCopyrightText: 2024 IProduceWidgets
 # SPDX-FileCopyrightText: 2024 Tap
 # SPDX-FileCopyrightText: 2025 hoshizora
+# SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2025 wheelwrightt
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 - type: entity
   id: BaseTowel
