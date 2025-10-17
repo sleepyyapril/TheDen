@@ -13060,3 +13060,12 @@ Entries:
   id: 1277
   time: '2025-10-17T13:18:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1872
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        The AI now has five new lawsets for the crew to make bad life decisions
+        with.
+  id: 1278
+  time: '2025-10-17T19:12:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1875
