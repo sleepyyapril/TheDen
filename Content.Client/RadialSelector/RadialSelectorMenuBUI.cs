@@ -86,7 +86,7 @@ public sealed class RadialSelectorMenuBUI : BoundUserInterface
         var container = new RadialContainer
         {
             Name = !string.IsNullOrEmpty(parentCategory) ? parentCategory : "Main",
-            Radius = 48f + 24f * MathF.Log(entries.Count),
+            InitialRadius = 48f + 24f * MathF.Log(entries.Count),
         };
 
         _menu.AddChild(container);
@@ -153,9 +153,9 @@ public sealed class RadialSelectorMenuBUI : BoundUserInterface
         return result;
     }
 
-    private RadialMenuTextureButton CreateButton(string name, Texture icon)
+    private RadialMenuButton CreateButton(string name, Texture icon)
     {
-        var button = new RadialMenuTextureButton
+        var button = new RadialMenuButton
         {
             ToolTip = Loc.GetString(name),
             StyleClasses = { "RadialMenuButton" },
@@ -175,9 +175,9 @@ public sealed class RadialSelectorMenuBUI : BoundUserInterface
         return button;
     }
 
-    private RadialMenuTextureButton CreateButton(string name, List<Texture> icons)
+    private RadialMenuButton CreateButton(string name, List<Texture> icons)
     {
-        var button = new RadialMenuTextureButton
+        var button = new RadialMenuButton
         {
             ToolTip = Loc.GetString(name),
             StyleClasses = { "RadialMenuButton" },

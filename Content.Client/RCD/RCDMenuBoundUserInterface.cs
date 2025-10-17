@@ -4,6 +4,7 @@ using Content.Shared.RCD;
 using Content.Shared.RCD.Components;
 using JetBrains.Annotations;
 using Robust.Client.UserInterface;
+using Robust.Shared.Collections;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
