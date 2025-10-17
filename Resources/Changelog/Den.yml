@@ -13069,3 +13069,17 @@ Entries:
   id: 1278
   time: '2025-10-17T19:12:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1875
+- author: DinnerCalzone
+  changes:
+    - type: Tweak
+      message: >-
+        The Intern announcer line about burgers has been edited to remove the
+        retching sound.
+    - type: Tweak
+      message: >-
+        Someone got into the intern's room and showed him how to use the gain
+        knob on his microphone so he won't be so loud. They didn't let him out
+        of the room though, which is pretty fucked up.
+  id: 1279
+  time: '2025-10-17T19:13:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1876
