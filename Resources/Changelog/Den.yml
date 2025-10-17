@@ -13042,3 +13042,10 @@ Entries:
   id: 1275
   time: '2025-10-17T05:19:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1820
+- author: portfiend
+  changes:
+    - type: Add
+      message: Towels can now be worn on the neck slot.
+  id: 1276
+  time: '2025-10-17T08:38:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1873
