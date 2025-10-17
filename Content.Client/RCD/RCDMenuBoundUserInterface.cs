@@ -17,13 +17,17 @@ public sealed class RCDMenuBoundUserInterface : BoundUserInterface
     private const string TopLevelActionCategory = "Main";
 
     private static readonly Dictionary<string, (string Tooltip, SpriteSpecifier Sprite)> PrototypesGroupingInfo
-        = new Dictionary<string, (string Tooltip, SpriteSpecifier Sprite)>
+        = new()
         {
             ["WallsAndFlooring"] = ("rcd-component-walls-and-flooring", new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/Radial/RCD/walls_and_flooring.png"))),
             ["WindowsAndGrilles"] = ("rcd-component-windows-and-grilles", new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/Radial/RCD/windows_and_grilles.png"))),
             ["Airlocks"] = ("rcd-component-airlocks", new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/Radial/RCD/airlocks.png"))),
             ["Electrical"] = ("rcd-component-electrical", new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/Radial/RCD/multicoil.png"))),
             ["Lighting"] = ("rcd-component-lighting", new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/Radial/RCD/lighting.png"))),
+            ["Piping"] = ("rcd-component-piping", new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/Radial/RPD/tjunction.png"))),
+            ["AtmosphericUtility"] = ("rcd-component-atmosphericutility", new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/Radial/RPD/radiator.png"))),
+            ["PumpsValves"] = ("rcd-component-pumps", new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/Radial/RPD/pump_pressure.png"))),
+            ["Vents"] = ("rcd-component-vents", new SpriteSpecifier.Texture(new ResPath("/Textures/Interface/Radial/RPD/vent_passive.png")))
         };
 
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
@@ -43,9 +47,10 @@ public sealed class RCDMenuBoundUserInterface : BoundUserInterface
         if (!EntMan.TryGetComponent<RCDComponent>(Owner, out var rcd))
             return;
 
+        var models = ConvertToButtons(rcd.AvailablePrototypes);
+
         _menu = this.CreateWindow<SimpleRadialMenu>();
         _menu.Track(Owner);
-        var models = ConvertToButtons(rcd.AvailablePrototypes);
         _menu.SetButtons(models);
 
         _menu.OpenOverMouseScreenPosition();
