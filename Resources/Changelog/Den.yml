@@ -13049,3 +13049,14 @@ Entries:
   id: 1276
   time: '2025-10-17T08:38:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1873
+- author: portfiend
+  changes:
+    - type: Add
+      message: Spray paint cans can be examined to view the paint color.
+    - type: Add
+      message: >-
+        Admins now have access to "magic spray paint", a spray paint can that
+        can be recolored freely via UI.
+  id: 1277
+  time: '2025-10-17T13:18:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1872
