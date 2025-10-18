@@ -9,12 +9,14 @@
 // SPDX-FileCopyrightText: 2023 eoineoineoin
 // SPDX-FileCopyrightText: 2024 FluffMe
 // SPDX-FileCopyrightText: 2024 Pieter-Jan Briers
+// SPDX-FileCopyrightText: 2024 Plykiya
 // SPDX-FileCopyrightText: 2024 Rinary
 // SPDX-FileCopyrightText: 2024 Southbridge
 // SPDX-FileCopyrightText: 2024 metalgearsloth
+// SPDX-FileCopyrightText: 2025 FoxxoTrystan
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
-// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using System.Numerics;
 using Content.Client.UserInterface.RichText;

@@ -11,6 +11,7 @@
 // SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
 // SPDX-FileCopyrightText: 2024 Ed
 // SPDX-FileCopyrightText: 2024 Guilherme Ornel
+// SPDX-FileCopyrightText: 2024 Plykiya
 // SPDX-FileCopyrightText: 2024 SimpleStation14
 // SPDX-FileCopyrightText: 2024 Tayrtahn
 // SPDX-FileCopyrightText: 2024 metalgearsloth
@@ -26,7 +27,6 @@
 // SPDX-FileCopyrightText: 2024 voidnull000
 // SPDX-FileCopyrightText: 2025 Aiden
 // SPDX-FileCopyrightText: 2025 Aviu00
-// SPDX-FileCopyrightText: 2025 GoobBot
 // SPDX-FileCopyrightText: 2025 ScarKy0
 // SPDX-FileCopyrightText: 2025 Solstice
 // SPDX-FileCopyrightText: 2025 SolsticeOfTheWinter

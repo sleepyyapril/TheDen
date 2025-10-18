@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 Plykiya
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Paper;
 
 namespace Content.Shared.Paper;
