@@ -6,4 +6,5 @@
 
 # Hardlight Bow
 ammo-selector-examine-mode = Current mode: {$mode}
-mode-select-verb-text = Select firing mode
+ammo-selector-mode-selected = Selected {$mode}
+ammo-selector-verb-text = Select firing mode

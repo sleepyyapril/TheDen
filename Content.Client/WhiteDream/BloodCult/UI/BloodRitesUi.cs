@@ -80,7 +80,7 @@ public sealed class BloodRitesUi : BoundUserInterface
         var container = new RadialContainer
         {
             Name = "Blood Rites",
-            Radius = 64f + 32f * MathF.Log(crafts.Count),
+            InitialRadius = 64f + 32f * MathF.Log(crafts.Count),
         };
 
         _menu.AddChild(container);
@@ -101,9 +101,9 @@ public sealed class BloodRitesUi : BoundUserInterface
         }
     }
 
-    private RadialMenuTextureButton CreateButton(string name, Texture icon)
+    private RadialMenuButton CreateButton(string name, Texture icon)
     {
-        var button = new RadialMenuTextureButton
+        var button = new RadialMenuButton
         {
             ToolTip = Loc.GetString(name),
             StyleClasses = { "RadialMenuButton" },

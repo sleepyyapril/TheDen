@@ -66,7 +66,7 @@ public sealed class RuneDrawerBUI : BoundUserInterface
 
         var container = new RadialContainer
         {
-            Radius = 48f + 24f * MathF.Log(runes.Count)
+            InitialRadius = 48f + 24f * MathF.Log(runes.Count)
         };
 
         _menu.AddChild(container);
@@ -78,7 +78,7 @@ public sealed class RuneDrawerBUI : BoundUserInterface
                 continue;
 
             var itemSize = new Vector2(64f, 64f);
-            var button = new RadialMenuTextureButton
+            var button = new RadialMenuButton
             {
                 ToolTip = Loc.GetString(runeProto.Name),
                 StyleClasses = { "RadialMenuButton" },
