@@ -13132,3 +13132,12 @@ Entries:
   id: 1284
   time: '2025-10-18T05:22:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1878
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: >-
+        Tape recorders can now be controlled using four signal ports
+        corresponding to their buttons.
+  id: 1285
+  time: '2025-10-18T05:29:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1877
