@@ -13217,3 +13217,10 @@ Entries:
   id: 1291
   time: '2025-10-18T15:54:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1885
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Stopped"miniboss" mobs from vent critters spawning 1 per vent
+  id: 1292
+  time: '2025-10-18T15:54:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1886
