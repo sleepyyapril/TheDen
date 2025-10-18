@@ -1,4 +1,8 @@
-﻿using System.Diagnostics.CodeAnalysis;
+// SPDX-FileCopyrightText: 2025 Rinary
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
 using Content.Client.Resources;
 using Content.Shared.StatusIcon;

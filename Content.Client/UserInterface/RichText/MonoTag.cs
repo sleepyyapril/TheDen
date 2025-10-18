@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2024 Southbridge
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Linq;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface.RichText;
