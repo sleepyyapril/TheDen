@@ -13141,3 +13141,10 @@ Entries:
   id: 1285
   time: '2025-10-18T05:29:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1877
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Changed spawning logic for Vent Critter events!
+  id: 1286
+  time: '2025-10-18T05:32:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1879
