@@ -14,11 +14,13 @@
 // SPDX-FileCopyrightText: 2024 Plykiya
 // SPDX-FileCopyrightText: 2024 metalgearsloth
 // SPDX-FileCopyrightText: 2025 BlitzTheSquishy
+// SPDX-FileCopyrightText: 2025 ScarKy0
 // SPDX-FileCopyrightText: 2025 Tayrtahn
+// SPDX-FileCopyrightText: 2025 Whatstone
 // SPDX-FileCopyrightText: 2025 deltanedas
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 using System.Linq;
 using System.Text;
