@@ -1,7 +1,6 @@
 using System.Threading.Tasks;
 using Content.Server.Discord.DiscordLink;
 using Content.Server.GameTicking;
-using Content.Server.Paper;
 using Content.Shared._DEN.Fax;
 using Content.Shared.CCVar;
 using Robust.Shared.Configuration;

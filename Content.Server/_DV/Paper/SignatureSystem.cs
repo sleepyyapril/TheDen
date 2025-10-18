@@ -5,7 +5,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using Content.Server.Access.Systems;
-using Content.Server.Paper;
 using Content.Server.Popups;
 using Content.Shared.Paper;
 using Content.Shared.Popups;
@@ -74,7 +73,7 @@ public sealed class SignatureSystem : EntitySystem
             StampedColor = Color.DarkSlateGray, //TODO Make this configurable depending on the pen.
         };
 
-        if (!comp.StampedBy.Contains(stampInfo) && _paper.TryStamp(paper, stampInfo, SignatureStampState, comp))
+        if (!comp.StampedBy.Contains(stampInfo) && _paper.TryStamp((paper, comp), stampInfo, SignatureStampState))
         {
             // Show popups and play a paper writing sound
             var signedOtherMessage = Loc.GetString("paper-signed-other", ("user", signer), ("target", paper.Owner));
@@ -84,8 +83,6 @@ public sealed class SignatureSystem : EntitySystem
             _popup.PopupEntity(signedSelfMessage, signer, signer);
 
             _audio.PlayPvs(comp.Sound, signer);
-
-            _paper.UpdateUserInterface(paper, comp);
 
             return true;
         }
