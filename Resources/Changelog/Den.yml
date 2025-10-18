@@ -13210,3 +13210,10 @@ Entries:
   id: 1290
   time: '2025-10-18T09:43:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1883
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Fixed salvage locker fills to be consistent
+  id: 1291
+  time: '2025-10-18T15:54:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1885
