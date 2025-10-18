@@ -13160,3 +13160,10 @@ Entries:
   id: 1287
   time: '2025-10-18T07:44:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1882
+- author: ciaran
+  changes:
+    - type: Add
+      message: Added scroll to bottom for chat.
+  id: 1288
+  time: '2025-10-18T08:00:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1880
