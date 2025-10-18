@@ -1,3 +1,9 @@
+// SPDX-FileCopyrightText: 2024 metalgearsloth
+// SPDX-FileCopyrightText: 2025 Fildrance
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Client.UserInterface.Controls;
 using Content.Shared.Silicons.StationAi;
 using Robust.Client.UserInterface;
