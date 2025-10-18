@@ -13106,3 +13106,16 @@ Entries:
   id: 1282
   time: '2025-10-18T03:31:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1300
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        The RCD, RPD, card hand selection, modsuit clothing picker, hardlight
+        bow ammo selector, and emotes radial menus have a new look!
+    - type: Fix
+      message: >-
+        The RPD will no longer show RCD popups when selecting things or with
+        charge updates. 
+  id: 1283
+  time: '2025-10-18T04:57:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1874
