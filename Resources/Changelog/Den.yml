@@ -13148,3 +13148,15 @@ Entries:
   id: 1286
   time: '2025-10-18T05:32:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1879
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Ported NT, syndicate, and Central Command logo tags. slogo for the
+        Syndicate logo, cclogo for the Central Command logo, and logo for the
+        Nanotrasen logo.
+    - type: Add
+      message: Ported monospace tag [mono] from WizDen.
+  id: 1287
+  time: '2025-10-18T07:44:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1882
