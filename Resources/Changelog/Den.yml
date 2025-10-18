@@ -13119,3 +13119,16 @@ Entries:
   id: 1283
   time: '2025-10-18T04:57:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1874
+- author: whatston3
+  changes:
+    - type: Add
+      message: >-
+        Lathes now batch items into jobs, which can be moved around in priority
+        or deleted.
+    - type: Tweak
+      message: >-
+        Lathe UIs are now way smoother when printing mass amounts of
+        fast-printing items.
+  id: 1284
+  time: '2025-10-18T05:22:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1878
