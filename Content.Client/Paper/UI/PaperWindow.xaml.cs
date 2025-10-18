@@ -343,8 +343,7 @@ namespace Content.Client.Paper.UI
         private void RunOnSaved()
         {
             // Prevent further saving while text processing still in
-            // TODO: PaperSystem shared
-            // SaveButton.Disabled = true;
+            SaveButton.Disabled = true;
             OnSaved?.Invoke(Rope.Collapse(Input.TextRope));
         }
 
