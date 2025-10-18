@@ -13167,3 +13167,24 @@ Entries:
   id: 1288
   time: '2025-10-18T08:00:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1880
+- author: WizDen Contributors
+  changes:
+    - type: Tweak
+      message: The Robotics Console now shows the borg physical integrity
+    - type: Tweak
+      message: >-
+        Changed the colors for the battery display in the robotics console so it
+        easier to read the percentage
+    - type: Fix
+      message: >-
+        The Robotics Console now correctly displays the brain installed
+        information if the borg has a empty MMI
+    - type: Fix
+      message: >-
+        The appearance of trash bags will now update correctly depending on how
+        many items it contains!
+    - type: Fix
+      message: The wallmount substation gets the substation UI now.
+  id: 1289
+  time: '2025-10-18T08:07:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1881
