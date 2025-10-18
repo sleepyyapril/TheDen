@@ -13099,3 +13099,10 @@ Entries:
   id: 1281
   time: '2025-10-18T01:47:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1834
+- author: leonardo-dabepis
+  changes:
+    - type: Add
+      message: Added more Content™️  for Muslim and Jewish characters
+  id: 1282
+  time: '2025-10-18T03:31:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1300
