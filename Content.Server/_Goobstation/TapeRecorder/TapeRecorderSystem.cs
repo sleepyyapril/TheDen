@@ -16,8 +16,7 @@ using Content.Shared._Goobstation.TapeRecorder;
 using Robust.Shared.Prototypes;
 using System.Text;
 using Content.Server.Language;
-using Content.Server.Paper;
-using Content.Shared.Language;
+using Content.Shared.Paper;
 
 
 namespace Content.Server._Goobstation.TapeRecorder;
@@ -149,7 +148,7 @@ public sealed class TapeRecorderSystem : SharedTapeRecorderSystem
         text.AppendLine();
         text.Append(Loc.GetString("tape-recorder-print-end-text"));
 
-        _paper.SetContent(paper, text.ToString());
+        _paper.SetContent((paper, paperComp), text.ToString());
 
         comp.CooldownEndTime = Timing.CurTime + comp.PrintCooldown;
     }

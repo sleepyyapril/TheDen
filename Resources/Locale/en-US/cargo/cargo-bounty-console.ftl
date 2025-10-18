@@ -36,6 +36,7 @@ bounty-console-status-tooltip = {$status ->
     [1] This bounty is waiting to be fulfilled
     *[other] This bounty has not yet been sent out for fulfilment
     }
+bounty-console-manifest-reward = Reward: ${$reward}
 bounty-console-id-label = ID#{$id}
 
 bounty-console-flavor-left = Bounties sourced from local unscrupulous dealers.

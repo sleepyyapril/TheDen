@@ -23,7 +23,8 @@ using JetBrains.Annotations;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Utility;
-using static Content.Shared.Paper.SharedPaperComponent;
+using Content.Shared.Paper;
+using static Content.Shared.Paper.PaperComponent;
 
 namespace Content.Client.Paper.UI;
 
@@ -43,7 +44,12 @@ public sealed class PaperBoundUserInterface : BoundUserInterface
 
         _window = this.CreateWindow<PaperWindow>();
         _window.OnSaved += InputOnTextEntered;
+        _window.OnSignatureRequested += OnSignatureRequested; // Starlight-edit
 
+        if (EntMan.TryGetComponent<PaperComponent>(Owner, out var paper))
+        {
+            _window.MaxInputLength = paper.ContentSize;
+        }
         if (EntMan.TryGetComponent<PaperVisualsComponent>(Owner, out var visuals))
         {
             _window.InitVisuals(Owner, visuals);
@@ -66,4 +72,6 @@ public sealed class PaperBoundUserInterface : BoundUserInterface
             _window.Input.CursorPosition = new TextEdit.CursorPos(0, TextEdit.LineBreakBias.Top);
         }
     }
+
+    private void OnSignatureRequested(int signatureIndex) => SendMessage(new PaperSignatureRequestMessage(signatureIndex)); // Starlight-edit
 }

@@ -22,9 +22,28 @@ using Robust.Shared.Serialization;
 
 namespace Content.Shared.Paper;
 
-[NetworkedComponent]
-public abstract partial class SharedPaperComponent : Component
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+public sealed partial class PaperComponent : Component
 {
+    public PaperAction Mode;
+    [DataField("content"), AutoNetworkedField]
+    public string Content { get; set; } = "";
+
+    [DataField("contentSize")]
+    public int ContentSize { get; set; } = 6000;
+
+    [DataField("stampedBy"), AutoNetworkedField]
+    public List<StampDisplayInfo> StampedBy { get; set; } = new();
+
+    /// <summary>
+    ///     Stamp to be displayed on the paper, state from bureaucracy.rsi
+    /// </summary>
+    [DataField("stampState"), AutoNetworkedField]
+    public string? StampState { get; set; }
+
+    [DataField, AutoNetworkedField]
+    public bool EditingDisabled;
+
     /// <summary>
     /// Sound played after writing to the paper.
     /// </summary>
@@ -57,6 +76,18 @@ public abstract partial class SharedPaperComponent : Component
         }
     }
 
+    // Starlight-start
+    [Serializable, NetSerializable]
+    public sealed class PaperSignatureRequestMessage : BoundUserInterfaceMessage
+    {
+        public readonly int SignatureIndex;
+
+        public PaperSignatureRequestMessage(int signatureIndex)
+        {
+            SignatureIndex = signatureIndex;
+        }
+    }
+    // Starlight-end
     [Serializable, NetSerializable]
     public enum PaperUiKey
     {
