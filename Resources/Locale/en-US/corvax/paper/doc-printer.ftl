@@ -567,6 +567,8 @@ doc-text-printer-product-manufacturing-order =
 
     {"["}color=#1E538F][bold]Requested item:[/bold][/color] [italic][form][/italic]
     {"["}color=#1E538F][bold]Requested Delivery Location:[/bold][/color] [italic][form][/italic]
+    {"["}color=#1E538F][bold]Reason:[/bold][/color] [italic][form][/italic]
+
     {"["}check][color=#1E538F][bold] I understand that I may be required to come collect the item if Cargo cannot deliver.[/bold][/color]
     {"["}check][color=#1E538F][bold] I understand that my request may be denied for any reason, including if the paperwork is not correct.[/bold][/color]
 
