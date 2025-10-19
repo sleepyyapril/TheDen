@@ -19,7 +19,7 @@
             "directions": 4
         },
         {
-            "name": "flipped-inhand-left",
+            "name": "spinning-inhand-left",
             "directions": 4,
             "delays": [
                 [
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "name": "flipped-inhand-right",
+            "name": "spinning-inhand-right",
             "directions": 4,
             "delays": [
                 [
