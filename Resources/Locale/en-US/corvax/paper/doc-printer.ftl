@@ -5,955 +5,839 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 doc-text-printer-report-station =
-   ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-   ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Situation Report[/head]
-   ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-   ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Sector[/bold]
-   ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                                SITUATION REPORT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]SITUATION REPORT[/bold][/color]
+    ════════════════════════════════════
+    [bold][color=#1E538F]Document author and position:[/color][/bold] [italic][signature][/italic]
 
-    Objective:
-    Objective completion status:
-    Threat level code:
-    Reason for establishing the code:
-    Active threats:
-    Crew casualties:
-    Current situation:
+    [bold][color=#1E538F]Has the situation been handled?[/color][/bold] [check]
 
-    =============================================
+    [bold][color=#1E538F]Objective:[/color][/bold] [italic][form][/italic]
+
+    [bold][color=#1E538F]Objective completion status:[/color][/bold] [check]
+
+    [bold][color=#1E538F]Threat level code:[/color][/bold]
+    [check] Green
+    [check] Blue
+    [check] Red
+    [check] Yellow
+    [check] White
+    [check] Violet
+
+    [bold][color=#1E538F]Active threats:[/color][/bold] [italic][form][/italic]
+
+    [bold][color=#1E538F]Crew casualties:[/color][/bold]
+    [check] One
+    [check] Several
+    [check] Plenty
+    [check] Massive
+    [check] Catastrophic
+
+    [bold][color=#1E538F]Current situation:[/color][/bold] [italic][form][/italic]
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-report-department =
-   ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-   ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Departmental Performance Report[/head]
-   ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-   ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Sector[/bold]
-   ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                                DEPARTMENT PERFORMANCE REPORT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]DEPARTMENT PERFORMANCE REPORT[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Document Author and Position:[/bold][/color] [italic][signature][/italic]
 
-    Number of employees in the department:
-    Number of interns:
-    Inactive employees in the department:
-    Full name, position, reason
-    Goal readiness level:
-    Overall condition of the department:
+    [color=#1E538F][bold]Number of employees in the department:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Inactive employees in the department:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Full name, position, reasons:[/bold][/color]
+    [color=#1E538F][bold]1.[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]2.[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]3.[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]4.[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    [color=#1E538F][bold]Goal readiness level:[/bold][/color]
+    [check] [color=#1E538F][bold]Terrible. Goals will take upwards of half an hour [italic]or more.[/italic][/bold][/color]
+    [check] [color=#1E538F][bold]Suboptimal. Goals will take upwards of 20 minutes.[/color][/bold]
+    [check] [color=#1E538F][bold]Mediocre. Goals will take upwards of 15 minutes.[/color][/bold]
+    [check] [color=#1E538F][bold]Good. Goals will take upwards of 10 minutes.[/color][/bold]
+    [check] [color=#1E538F][bold]Fantastic. Goals will be finished almost immediately, or ASAP.[/color][/bold]
+
+    [color=#1E538F][bold]Overall condition of the department:[/color][/bold] [italic][form][/italic]
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-report-employee-performance =
-   ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-   ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Employee Performance Report[/head]
-   ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-   ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Sector[/bold]
-   ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        EMPLOYEE PERFORMANCE REPORT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]EMPLOYEE PERFORMANCE REPORT[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/color][/bold] [italic][signature][/italic]
 
-    I, (full name), in the position of (full job title), have completed the required amount of work in the course of performing my duties. I request the approval of my work results by the Head of the department (department name).
-    Performed work:
+    [color=#1E538F][bold]Job completed:[/color][/bold] [check]
 
-    =============================================
+    [color=#1E538F][bold]If unable to be completed, reason:[/color][/bold] [italic][form][/italic]
+
+    [color=#1E538F][bold]Worker notes:[/color][/bold] [italic][form][/italic]
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-report-on-the-chapters-meeting =
-   ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-   ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Head Meeting Report[/head]
-   ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-   ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-   ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                                HEADS OF DEPARTMENTS MEETING REPORT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+   ⠀[logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]HEADS OF DEPARTMENTS MEETING REPORT[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/color][/bold] [italic][signature][/italic]
 
-    Reason for calling the Heads of Departments Meeting:
-    Formulation of the question posed to the Heads:
-    Number of votes for:
-    Voters for:
+    [color=#1E538F][bold]Reason for calling the Heads of Departments Meeting:[/color][/bold] [italic][form][/italic]
+    [color=#1E538F][bold]Formulation of the question posed to the Heads:[/color][/bold] [italic][form][/italic]
+    [color=#1E538F][bold]Number of votes for:[/color][/bold] [italic][form][/italic]
 
-    Number of votes against:
-    Voters against:
+    [color=#1E538F][bold]Voters for:[/color][/bold]
+    [color=#1E538F][bold]1.[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]2.[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]3.[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]4.[/color][/bold] [italic][signature][/italic]
 
-    Number of abstentions:
-    Abstentions:
+    [color=#1E538F][bold]Number of votes against:[/color][/bold] [italic][form][/italic]
+    [color=#1E538F][bold]Voters against:[/color][/bold]
+    [color=#1E538F][bold]1.[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]2.[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]3.[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]4.[/color][/bold] [italic][signature][/italic]
 
-    Decision of the Heads of Departments Meeting:
-    =============================================
+    [color=#1E538F][bold]Number of abstentions:[/color][/bold] [italic][form][/italic]
+    [color=#1E538F][bold]Abstentions:[/color][/bold]
+    [color=#1E538F][bold]1.[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]2.[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]3.[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]4.[/color][/bold] [italic][signature][/italic]
+
+    [color=#1E538F][bold]Decision of the Heads of Departments Meeting:[/color][/bold] [italic][form][/italic]
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-condition-report =
-   ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-   ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Technical Condition Report[/head]
-   ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-   ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-   ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        TECHNICAL CONDITION REPORT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+   ⠀[logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]TECHNICAL CONDITION REPORT[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/color][/bold] [italic][signature][/italic]
 
-    A check of (name of the system or object) was carried out, the results of the check were analyzed, and the causes of the unstable operation of the object were examined.
-    Cause of the object's malfunction:
+    [color=#1E538F][bold]A check of[/color][/bold] [italic][form][/italic] [color=#1E538F][bold]was carried out, the results of the check were analyzed, and the causes of the unstable operation of the object were examined.[/color][/bold]
 
-    Identified damages to the object:
+    [color=#1E538F][bold]Cause of the object's malfunction:[/bold][/color] [italic][form][/italic]
 
-    Repairs carried out on the object:
+    [color=#1E538F][bold]Identified damages to the object:[/bold][/color] [check]
 
-    =============================================
+    [color=#1E538F][bold]Repairs carried out on the object:[/bold][/color] [check]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-report-study-object =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Anomalous Research Report[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                     ANOMALOUS RESEARCH REPORT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]ANOMALOUS RESEARCH REPORT[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/color][/bold] [italic][signature][/italic]
 
-    For the expertise, (who or which department handed over the object) provided a device with unknown properties. During the expertise, the object was studied, its properties and species were determined.
-    External description of the object:
+    [color=#1E538F][bold]For the experts,[/color][/bold] [italic][form][/italic] [bold][color=#1E538F]provided a device with unknown properties. During the examination, the object was studied, and its properties and species were determined.
 
-    Identified properties of the object:
+    External description of the object:[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    [color=#1E538F][bold]Identified properties of the object:[/color][/bold] [italic][form][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-application-appointment-interim =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Temporary Promotion Request[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    REQUEST FOR ACTING OFFICER
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]REQUEST TO BE ACTING OFFICER[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic], [color=#1E538F][bold]request the approval to assume the role of Acting Officer of[/color][/bold] [italic][form].[/italic]
 
-    I, (full name), in the position of (full job title), request the approval of my appointment as Acting Head of (full department name)/Captain.
-    Upon assuming the position, I undertake to follow the Standard Operating Procedures and, until the arrival of the Head of (full department name)/Captain from Central Command, ensure order and management of the department, as well as the safekeeping of valuable items and equipment entrusted to me.
+    [color=#1E538F][bold]Upon assuming the position, I undertake to follow the Standard Operating Procedures and, until the arrival of the proper personnel from Central Command, ensure order and management of the department, as well as the safekeeping of valuable items and equipment entrusted to me.[/bold][/color]
 
-    Upon the arrival of the Head of the department/Captain from Central Command, I undertake to return elevated access, valuable items, and equipment.
-    =============================================
+    [color=#1E538F][bold]Upon the arrival of the Head of the department/Captain from Central Command, I undertake to return elevated access, valuable items, and equipment.[/bold][/color]
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-application-employment =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Job Application[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        JOB APPLICATION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
-    Desired Position and Department:
-    Relative Work Experience:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]JOB APPLICATION[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Applicant's Name and Position:[/bold][/color] [italic][signature][/italic]
+    [color=#1E538F][bold]Desired Position and Department:[/bold][/color] [italic][form][/italic]
 
-    I, (full name), in the current position of (full job title), request to be appointed as an employee of (department name) in the position of (full job title).
-    I undertake to follow the department's Standard Operating Procedures. I undertake to return the department's work equipment and gear upon transfer.
-    =============================================
+    [color=#1E538F][bold]Experience in position:[/bold][/color]
+    [check] [bold][color=#1E538F]Inexperienced[/bold][/color]
+    [check] [bold][color=#1E538F]New[/bold][/color]
+    [check] [bold][color=#1E538F]Mediocre[/bold][/color]
+    [check] [bold][color=#1E538F]Experienced[/bold][/color]
+    [check] [bold][color=#1E538F]Expert[/bold][/color]
+
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic] [color=#1E538F][bold]request to be appointed as an employee of[/bold][/color]
+    [italic][form][/italic] [color=#1E538F][bold]in the position of[/bold][/color] [italic][form][/italic].
+
+    [color=#1E538F][bold]Additional notes/reasoning:[/color][/bold] [italic][form][/italic]
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-letter-resignation =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Letter of Resignation[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        NOTICE OF RESIGNATION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]NOTICE OF RESIGNATION[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the current position of (full job title), want to resign from the department (department name) for the reason (reason).
-    I undertake to pay the fine stipulated by the terms of the termination of the fixed-term/permanent contract, at the Central Command station.
-    =============================================
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature],[/italic] [color=#1E538F][bold]want to resign from my position for the reason:[/color][/bold] [italic][form].[/italic]
+
+    [color=#1E538F][bold]Have you promoted another employee to your position?:[/color][/bold] [check]
+    [color=#1E538F][bold]Is the department's duties handled, or currently being handled?:[/color][/bold] [check]
+    [color=#1E538F][bold]Are there any current issues or notes your replacement should know?:[/color][/bold] [italic][form][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-application-access =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Access Request Form[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    ACCESS REQUEST FORM
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    ⠀[logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]ACCESS REQUEST FORM[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), request the following accesses:
+    [bold][color=#1E538F]I,[/bold][/color] [italic][signature],[/italic] [bold][color=#1E538F]request the following access(es):[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]for the purposes of:[/color][/bold] [italic][form][/italic]
 
-    Reason for obtaining elevated access:
-
-    =============================================
-                                ⠀          [italic]Place for seals[/italic]
+    ════════════════════════════════════
+                                 [italic]Place for seals[/italic]
 doc-text-printer-application-equipment =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Equipment Acquisition Request[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    REQUEST FOR EQUIPMENT ACQUISITION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]REQUEST FOR EQUIPMENT ACQUISITION[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
 
-    I, (full name), in the position of (full job title), request the issuance of the following department equipment (department name)/personal equipment:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature] [color=#1E538F][bold]request the issuance of the following equipment for the department/personal use:[/bold][/color] [italic][form][/italic]
 
-    Reason for obtaining equipment:
+    [color=#1E538F][bold]Reason for obtaining equipment:[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    [color=#1E538F][bold]If needed, I have the authorization to possess this item:[/bold][/color] [check]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-evacuation-shuttle-request =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Evacuation Shuttle Request[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    REQUEST FOR EVACUATION SHUTTLE
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]REQUEST FOR EVACUATION SHUTTLE[/bold][/color]
+    ════════════════════════════════════
 
-    Dear Central Command! I, (full name), in the position of (full job title), request the initiation of evacuation protocols and the dispatch of an evacuation shuttle, having decided to end the shift.
-    Reason for ending the shift:
+    [bold][color=#1E538F]Dear CC: I,[/bold][/color] [italic][signature][/italic], [bold][color=#1E538F]request the initiation of evacuation protocols and the dispatch of an evacuation shuttle, having decided to end the shift.[/bold][/color]
 
-    =============================================
+    [bold][color=#1E538F]Reason for ending the shift:[/bold][/color] [italic][form][/italic]
+
+    [bold][color=#1E538F]Current Alert Level:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]Hostiles currently on ship:[/color][/bold] [check]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-shuttle-registration-request =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Shuttle Registration Request[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        REQUEST FOR SHUTTLE REGISTRATION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]REQUEST FOR SHUTTLE REGISTRATION[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic], [color=#1E538F][bold]request the registration of the shuttle in the NanoTrasen system for identification.[/bold][/color]
 
-    I, (full name), in the position of (full job title), request the registration of the shuttle in the NanoTrasen system for identification.
-    Shuttle dimensions:
+    [color=#1E538F][bold]Shuttle dimensions:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Shuttle class:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Responsible for construction:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Requested name:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Is the Shuttle armed?:[/bold][/color] [check]
+    [color=#1E538F][bold]If so, are the weapons authorized?:[/bold][/color] [check]
+    [color=#1E538F][bold]If so, by who?:[/bold][/color] [italic][form][/italic]
 
-    Shuttle class:
-
-    Responsible for construction:
-
-    Requested name:
-
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-request-for-non-listed-employment =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Unusual Employment Request[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-            REQUEST FOR UNUSUAL EMPLOYMENT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]REQUEST FOR UNUSUAL EMPLOYMENT[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's name and Position:[/bold][/color] [italic][signature][/italic]
 
-    I, (full name), in the position of (full job title), request the consideration for the employment of (full name) in the current shift for a non-standard position.
-    Full job title:
+    [color=#1E538F][bold]I,[/color] [italic][signature][/italic], [color=#1E538F][bold]request the consideration for the employment of[/bold][/color] [italic][form][/italic] [color=#1E538F][bold]in the current shift for a non-standard position.[/bold][/color]
 
-    Responsible head or staff for the employee:
+    [color=#1E538F][bold]Full job title:[bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Responsible head or staff for the employee:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Duties to be performed in the position:[/bold][/color] [italic][form][/italic]
 
-    Duties to be performed in the position:
+    [color=#1E538F][bold]Accesses granted to the employee:[/bold][/color] [italic][form][/italic]
 
-    Accesses granted to the employee:
+    [color=#1E538F][bold]Reason for employment:[/bold][/color] [italic][form][/italic]
 
-    Reason for employment:
-
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-request-for-promotion =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Promotion Request[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                REQUEST FOR PROMOTION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]REQUEST FOR PROMOTION[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), request to be promoted to (requested job title).
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic] [bold][color=#1E538F]request to be promoted to[/bold][/color] [italic][form].[/italic]
+    [color=#1E538F][bold]Reason for promotion:[/color][/bold] [italic][form][/italic]
 
-    =============================================
+    [color=#1E538F][bold]I have worked this position before:[/bold][/color] [check]
+    [color=#1E538F][bold]I am confident in my skills in this position:[/bold][/color] [check]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-request-documents =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Documental Request Form[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-            DOCUMENTAL REQUEST FORM
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]DOCUMENTAL REQUEST FORM[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), request the provision of a copy/original of the documents:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature],[/italic] [color=#1E538F][bold]request the provision of a copy/original of the documents:[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-request-euthanasia =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Execution Order Form[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    ORDER FOR EXECUTION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
-    Victim's name:
-    Victim's role:
-    Reason for Execution:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]ORDER FOR EXECUTION[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
+    [color=#1E538F][bold]Victim's Name and Position:[/bold][/color] [italic][form][/italic]
 
-    I, (full name), in the capacity of (full job title), order the assistance of the medical department in execution of a (victim's name). I am familiar with the consequences of this decision and the medical staff has determined that this decision is rational and humane.
-    =============================================
+    [color=#1E538F][bold]Reason for Execution:[/bold][/color] [italic][form][/italic]
+
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature],[/italic] [color=#1E538F][bold]order the assistance of the medical department in execution of[/bold][/color] [italic][form].[/italic]
+    [check] [color=#1E538F][bold]I am familiar with the consequences of this decision.[/bold][/color]
+    [check] [color=#1E538F][bold]This decision is lawful in every way, shape, and form.[/bold][/color]
+    [check] [color=#1E538F][bold]The medical staff has determined that this decision is rational and humane.[/bold][/color]
+    [check] [color=#1E538F][bold]The victim is not to be resuscitated or revived in any way.[/bold][/color]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-request-construction-work =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Construction Request Form[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-        CONSTRUCTION REQUEST FORM
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
-    Location of Requested Construction:
-    Desired Result:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]CONSTRUCTION REQUEST FORM[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
+    [color=#1E538F][bold]Location of Requested Construction:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Desired Result:[/color][/bold] [italic][form][/italic]
 
-    I, (full name), in the position of (full job title), request the construction work in (department or object name) for the reason (reason for the request).
-    List of construction works:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic] [color=#1E538F][bold]request construction work in[/color][/bold] [italic][form][/italic] [color=#1E538F][bold]for the reason of[/bold][/color] [italic][form][/italic].
 
-    =============================================
+    [color=#1E538F][bold]List of construction works:[/bold][/color] [italic][form][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-request-modernization =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Equipment Upgrade Request[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                EQUIPMENT UPGRADE REQUEST
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]EQUIPMENT UPGRADE REQUEST[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), request the upgrade of the equipment in (department) for the reason (reason for the request).
-    List of modernizations:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature],[/italic] [color=#1E538F][bold]request the upgrade of the equipment in[/bold][/color] [italic][form][/italic] [color=#1E538F][bold]for the following reason:[/bold][/color] [italic][form].[/italic]
 
-    =============================================
+    [bold][color=#1E538F]List of modernizations:[bold][/color] [italic][form][/italic]
+
+    [check] [bold][color=#1E538F]I have the authorization to request these upgrades.[/color][/bold]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-complaint-offense =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Snitch Report[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        SNITCH REPORT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]SNITCH REPORT[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), believe that (full name), in the position of (full job title), violated the Corporate Law because (reason).
-    What happened from my point of view:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic] [color=#1E538F][bold]believe that[/bold][/color] [italic][form][/italic] [color=#1E538F][bold]violated the Corporate Law.[/bold][/color]
+    [color=#1E538F][bold]Law broken:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]What happened from my point of view:[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    [check] [color=#1E538F][bold]Do not reveal my name to the accused.[/bold][/color]
+    [check] [color=#1E538F][bold]I am willing to report in court as a witness if necessary.[/bold][/color]
+    [check] [color=#1E538F][bold]I fear for my life or the future of the company in regards to the accused.[/bold][/color]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-permission-equipment =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Restricted Equipment Permit[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-        EQUIPMENT PERMIT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]EQUIPMENT PERMIT[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), authorize (full name), in the position of (full job title), to use the following work equipment of the department:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic], [color=#1E538F][bold]authorize[/bold][/color] [italic][form],[/italic] [color=#1E538F][bold]to use the following equipment:[/bold][/color] [italic][form][/italic]
+    [check] [color=#1E538F][bold]I take full responsibility if the authorized individuals misuse the authorized equipment.[/bold][/color]
 
-    =============================================
+    [bold]Contraband Level:[/bold]
+    [check] [bold][color=#1E538F]T1[/color] [color=#949494](Items that would require departmental access to get to)[/color][/bold]
+    [check] [bold][color=#1E538F]T2[/color] [color=#949494](Items usually found within the Armory, Vault or within possession of the Heads of Departments)[/color][/bold]
+    [check] [bold][color=#1E538F]T3[/color] [color=#949494](Items that should only ever be in the possession of Central Command, or the Captain)[/color][/bold]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-search-permission =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Search Warrant[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        Search Warrant
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
-    Department/Name of Employee:
-    Reason:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Search Warrant[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Department/Name of Employee:[/bold][/color] [italic][form][/italic]
 
-    I, (full name), in the position of (full job title), authorize the search of (full name)/(full name of the department), in the position of (full job title).
-    Reason for the search:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature],[/italic] [color=#1E538F][bold]authorize the search of[/bold][/color] [check] [color=#1E538F][bold]a person[/bold][/color] [check] [color=#1E538F][bold]a department for:[/bold][/color]
+    [check] [color=#1E538F][bold]something specific:[/bold][/color] [italic][form][/italic]
+    [check] [color=#1E538F][bold]anything illegal[/bold][/color]
+    [color=#1E538F][bold]Because:[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    [check] [color=#1E538F][bold]I verify and attest that this search is lawful.[/bold][/color]
+    [color=#1E538F][bold]Signature:[/bold][/color] [italic][signature][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-permission-to-carry-weapons =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Weapons Permit[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    WEAPON CARRY PERMIT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]WEAPON CARRY PERMIT[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), authorize (full name), in the position of (full job title), to carry a weapon as long as it is used for its intended purpose. In case of violation, the permission is revoked and the weapon is confiscated by the Security Service.
-    Weapon and type of ammunition:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic], [color=#1E538F][bold]authorize[/bold][/color] [italic][form][/italic] [bold][color=#1E538F]to carry a weapon:[/color][/bold]
+    [check] [bold][color=#1E538F]for self defense[/color][/bold]
+    [check] [bold][color=#1E538F]for defense of the station.[/color][/bold]
+    [bold][color=#1E538F]Weapon and type of ammunition:[/color][/bold] [italic][form][/italic]
 
-    Method of obtaining the weapon and ammunition:
+    [bold][color=#1E538F]Method of obtaining the weapon and/or ammunition:[/bold][/color]
+    [check] [color=#1E538F][bold]Vault[/bold][/color]
+    [check] [color=#1E538F][bold]Cargo[/bold][/color]
+    [check] [color=#1E538F][bold]Epistemics[/bold][/color]
+    [check] [color=#1E538F][bold]Mail[/bold][/color]
+    [check] [color=#1E538F][bold]Self-Production[/bold][/color]
+    [check] [italic][form][/italic]
 
-    Reason for issuing the permission:
+    [check] [bold][color=#1E538F]I,[/bold][/color] [italic][signature][/italic], [bold][color=#1E538F]understand that should this individual misuse this weapon, I may face legal repercussion.[/bold][/color]
 
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-prescription-drug-authorization =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Medication Prescription[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                PERMIT FOR PRESCRIPTION MEDICATION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]PERMIT FOR PRESCRIPTION MEDICATION[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), authorize the storage and use of the prescription medication or narcotic "(full name of the substance)" for the patient (full name), in the position of (full job title).
-    Diagnosed condition:
+    [bold][color=#1E538F]I,[/bold][/color] [italic][signature][/italic] [bold][color=#1E538F]authorize the storage and use of the prescription medication or narcotic "[/color][/bold][italic][form][/italic][bold][color=#1E538F]" for the patient[/bold][/color] [italic][form].[/italic]
 
-    Reason for prescribing the medication:
+    [color=#1E538F][bold]Diagnosed condition:[/color] [italic][form][/italic]
 
-    =============================================
+    ════════════════════════════════════[/italic]
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-permission-dispose-body =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Order of Body Disposal[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    ORDER FOR BODY DISPOSAL
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]ORDER FOR BODY DISPOSAL[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
+    [color=#1E538F][bold]Name and Position of Corpse:[/bold][/color] [italic][form][/italic]
+    [check] [color=#1E538F][bold]Soul is Present[/bold][/color]
+    [check] [color=#1E538F][bold]Disposal is totally and clearly lawful[/bold][/color]
 
-    I, (full name), in the position of (full job title), authorize the disposal of the body of (full name), in the position of (full job title).
-    Method of disposal:
-
-    =============================================
+    [color=#1E538F][bold]Method of Disposal:[/bold][/color]
+    [check] [color=#1E538F][bold]Jettisoned into Space[/bold][/color]
+    [check] [color=#1E538F][bold]Mulched into Biomass[/bold][/color]
+    [check] [color=#1E538F][bold]Incinerated[/bold][/color]
+    [check] [color=#1E538F][bold]Fed to Animals, Creatures, Monsters, or to Crew[/bold][/color]
+    [check] [italic][form][/italic]
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-construction-permit =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Building Permit[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        BUILDING PERMIT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]BUILDING PERMIT[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), authorize (full name), in the position of (full job title), to carry out the reconfiguration of part of the station (indication of the reconfiguration location) for the reason (reason for reconfiguration).
-    Agreed scope of reconfiguration:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic][bold][color=#1E538F], authorize[/bold][/color] [italic][form][/italic] [color=#1E538F][bold]to carry out the reconfiguration of part of[/bold][/color] [italic][form].[/italic]
 
-    =============================================
+    [bold][color=#1E538F]Purpose of Construction:[/bold][/color]
+    [check] [color=#1E538F][bold]Slightly Re-Purpose[/bold][/color]
+    [check] [color=#1E538F][bold]Refurbish[/bold][/color]
+    [check] [color=#1E538F][bold]Redesign[/bold][/color]
+    [check] [color=#1E538F][bold]Completely Re-purpose[/bold][/color]
+    [check] [italic][form][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-order-dismissal =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Notice of Demotion[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                            NOTICE OF DEMOTION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]NOTICE OF DEMOTION[/bold][/color]
+    ════════════════════════════════════
+    [bold][color=#1E538F]Author's Name and Title:[/bold][/color] [italic][signature][/italic]
+    [bold][color=#1E538F]Demoted's Name and Title:[/bold][/color] [italic][form][/italic]
 
-    I, (full name), in the position of (full job title), order the demotion of the employee (full name) from the department (department name) in the position of (demoted employee's full job title) for the reason:
+    [check] [color=#1E538F][bold]Is the Demoted cooperative with their demotion?[/bold][/color]
+    [check] [color=#1E538F][bold]Is the Demoted being demoted due to a crime?[/bold][/color]
+    [color=#1E538F][bold]If so, what crime?[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    [color=#1E538F][bold]Demoted's new job title:[/bold][/color] [italic][form][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-order-deprivation-access =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Access Removal Notice[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        ACCESS REMOVAL NOTICE
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]ACCESS REMOVAL NOTICE[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Title:[/bold][/color] [italic][signature][/italic]
+    [color=#1E538F][bold]Removal's Name and Title:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Access being removed:[/bold][/color] [italic][form][/italic]
 
-    I, (full name), in the position of (full job title), order to revoke the following access from the employee (full name) in the position of (full job title):
+    [check] [color=#1E538F][bold]Is the access being removed as a punishment?[/bold][/color]
+    [check] [color=#1E538F][bold]Was there any crime committed?[/bold][/color]
+    [bold][color=#1E538F]If so, what crime?[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-order-encouragement =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Certification of Achievement[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                            CERTIFICATION OF ACHIEVEMENT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]CERTIFICATION OF ACHIEVEMENT[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title) award (full name), in the position of (awardee's full job title), with a medal/certificate/memento/prize in the amount of (prize amount) for the following merits:
+    [color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic] [color=#1E538F][bold]award[/bold][/color] [italic][form][/italic] [color=#1E538F][bold]with a:[/bold][/color]
+    [check] [color=#1E538F][bold]medal[/bold][/color]
+    [check] [color=#1E538F][bold]certificate[/bold][/color]
+    [check] [color=#1E538F][bold]memento[/bold][/color]
+    [check] [color=#1E538F][bold]prize[/bold][/color]
+    [bold][color=#1E538F]for the following:[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-order-parole-prisoner =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Prisoner Parole Form[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    PRISONER PAROLE FORM
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]PRISONER PAROLE FORM[/color][/bold]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), authorize the release of the prisoner (full name) from Extended Permanent Confinement. After the issuance of the parole, the prisoner will be assigned a profession with mandatory work until the end of the shift.
-    Assigned profession:
-    =============================================
+    [bold][color=#1E538F]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
+    [bold][color=#1E538F]Name of Prisoner:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]Initial Reason for Permanent Confinement:[/bold][/color] [italic][form][/italic]
+
+    [bold][color=#1E538F]Behaviorial Notes:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]Prisoner's Desired Position:[/bold][/color] [italic][form][/italic]
+
+    [bold][color=#1E538F]Parole has been granted:[/bold][/color] [check]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-order-recognizing-sentience-creature =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Document template[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-            ORDER OF RECOGNITION OF SENTIENCE OF A CREATURE
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]ORDER OF RECOGNITION OF SENTIENCE OF A CREATURE[/color][/bold]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/color][/bold] [italic][signature][/italic]
+    [color=#1E538F][bold]Creature Species:[/color][/bold] [italic][form][/italic]
+    [color=#1E538F][bold]Creature's Desired Name:[/color][/bold] [italic][form][/italic]
+    [check] [color=#1E538F][bold]Is this creature hostile?[/color][/bold]
+    [check] [color=#1E538F][bold]Is this creature dangerous?[/color][/bold]
+    [check] [color=#1E538F][bold]Is this creature a biohazard?[/color][/bold]
 
-    During the testing of the creature, signs of higher brain activity and intelligence of this creature were identified, its ability to think, learn, understand morality, and the presence of common sense in actions. Thus, I, (full name), in the position of (full job title), recognize this creature as sentient.
-    Appearance of the creature:
+    [color=#1E538F][bold]Manner of gaining sentience:[/color][/bold]
+    [check] [color=#1E538F][bold]Medical[/color][/bold]
+    [check] [color=#1E538F][bold]Noosphere/Epistemics[/color][/bold]
+    [check] [form]
 
-    Assigned full name of the creature:
-
-    Creature accepted/not accepted as a passenger of the station until the end of the shift.
-    =============================================
+    [check] [color=#1E538F][bold]Is this creature recognized as a passenger of the station?[/color][/bold]
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-order-medical-intervention =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Order for Medical Intervention[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-    ORDER FOR MEDICAL INTERVENTION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]ORDER FOR MEDICAL INTERVENTION[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
+    [color=#1E538F][bold]Patient's Condition:[/bold][/color] [italic][form][/italic]
 
-    I, (full name), in the position of (full job title), order the medical intervention for the purpose of (description of the purpose of the medical intervention), in relation to (full name) in the position of (full job title).
-    Basis for the operation:
 
-    =============================================
+    [check] [color=#1E538F][bold]Is the patient uncooperative?[/bold][/color]
+    [check] [color=#1E538F][bold]Is the intervention lawful?[/bold][/color]
+
+
+    [color=#1E538F][bold]Planned Operation:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Medical Operator:[/bold][/color] [italic][form][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-product-manufacturing-order =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Item Request Form[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    ITEM REQUEST FORM
-    =============================================
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]CARGO REQUEST FORM[/color][/bold]
+    ════════════════════════════════════
 
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
-    Requested item:
-    Reason (Please be detailed.):
+    [color=#1E538F][bold]Requester's Name and Position:[/color][/bold] [italic][signature][/italic]
 
-    =============================================
+    [color=#1E538F][bold]Requested item:[/color][/bold] [italic][form][/italic]
+    [color=#1E538F][bold]Requested Delivery Location:[/color][/bold] [italic][form][/italic]
+    [check][color=#1E538F][bold] I understand that I may be required to come collect the item if Cargo cannot deliver.[/bold][/color]
+    [check][color=#1E538F][bold] I understand that my request may be denied for any reason, including if the paperwork is not correct.[/bold][/color]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-certificate-advanced-training =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Advanced Training Form[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-    CERTIFICATE OF PROFESSIONAL DEVELOPMENT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]CERTIFICATE OF PROFESSIONAL DEVELOPMENT[/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of head of the department (full name of the department), certify that the employee (full name), in the position of (employee's position), has successfully completed the educational course "(course name)" and has been certified.
-    =============================================
+    [bold][color=#1E538F]I,[/color][/bold] [italic][signature][/italic][bold][color=#1E538F], certify that the employee[/color][/bold] [italic][form][/italic][color=#1E538F][bold], in the position of[/color] [/bold][italic][form][/italic][color=#1E538F][bold], has successfully completed the educational course "[/color][/bold][italic][form][/italic][bold][color=#1E538F]" and has been certified.[/color][/bold]
+
+    ════════════════════════════════════[/bold][/italic][/color]
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-certificate-offense =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Criminal Confession Form[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                CRIMINAL CONFESSION FORM
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]CRIMINAL CONFESSION FORM[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), testify to the crimes/I personally confess to committing the crimes provided for in the articles:
-    (list of articles)
-    Regarding this incident, I can explain the following.
-    Place of the crime:
-    Motives for committing the crime:
-    Against whom the crime was committed:
-    Nature and extent of the harm caused by the crime:
-    Accomplices in the crime:
-    Full timeline of events:
+    [bold][color=#1E538F]I,[/bold][/color] [signature][bold][color=#1E538F]:[/bold][/color]
+    [check] [bold][color=#1E538F]testify to the crimes[/bold][/color]
+    [check] [bold][color=#1E538F]personally confess to committing the following crimes:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]To explain:[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    [bold][color=#1E538F]Place of the crime:[/bold][/color] [italic][form][/italic]
+
+    [bold][color=#1E538F]Motives for committing the crime:[/bold][/color] [italic][form][/italic]
+
+    [check] [bold][color=#1E538F]Is this a victimless crime?[/bold][/color]
+    [bold][color=#1E538F]If not, list victims:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]Nature and extent of the harm caused by the crime:[/bold][/color] [italic][form][/italic]
+
+    [bold][color=#1E538F]Accomplices in the crime:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]Full timeline of events:[/bold][/color] [italic][form][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-death-certificate =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Death Certificate[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                            DEATH CERTIFICATE
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]DEATH CERTIFICATE[/color][/bold]
+    ════════════════════════════════════
+    [bold][color=#1E538F]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
 
-    Full name of the deceased:
-    Position of the deceased:
-    Species:
-    Gender:
-    Cause of death:
-    Possibility of Revival:
+    [bold][color=#1E538F]Full Name and Position of the Deceased:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]Species:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]Gender:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]Cause of death:[/bold][/color] [italic][form][/italic]
 
-    =============================================
+    [check] [bold][color=#1E538F]Is the body intact?[/bold][/color]
+    [check] [bold][color=#1E538F]Is the soul present?[/bold][/color]
+    [check] [bold][color=#1E538F]If possible, attempt revive?[/bold][/color]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-marriage-certificate =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Marriage Certificate[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                MARRIAGE CERTIFICATE
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]MARRIAGE CERTIFICATE[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), officiate the marriage between:
-    (Full name), in the position of (full job title)
-    ⠀...
-    (Full name), in the position of (full job title)
-    After the marriage, the following full names were assigned to the newlyweds:
+    [bold][color=#1E538F]I,[/bold][/color] [italic][signature],[/italic] [bold][color=#1E538F]officiate the marriage between:[/color][/bold] [italic][form][/italic] [bold][color=#1E538F]and[/color][/bold] [italic][form].[/italic]
+    [bold][color=#1E538F]After the marriage, the following full names were assigned to the newlyweds:[/color][/bold]
+    [italic][form][/italic]
 
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-divorce-certificate =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Divorce Certificate[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                DIVORCE CERTIFICATE
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]DIVORCE CERTIFICATE[/color][/bold]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), dissolve the marriage between:
-    (Full name), in the position of (full job title)
-    ⠀...
-    (Full name), in the position of (full job title)
-    After the dissolution of marriage, the following full names were assigned to the former spouses:
+    [bold][color=#1E538F]I,[/bold][/color] [italic][signature],[/italic] [bold][color=#1E538F]dissolve the marriage between:[/color][/bold] [italic][form][/italic] [bold][color=#1E538F]and[/color][/bold] [italic][form].[/italic]
+    [bold][color=#1E538F]After the marriage, the following full names were restored to the newly divorced:[/color][/bold]
+    [italic][form][/italic]
 
-    The division of property was carried out as follows:
+    [bold][color=#1E538F]The division of property was carried out as follows:[/color][/bold] [italic][form][/italic]
 
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-closing-indictment =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Arrest Warrant[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                        ARREST WARRANT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]ARREST WARRANT[/bold][/color]
+    ════════════════════════════════════
+    [bold][color=#1E538F]Author's Name and Position:[/bold][/color] [signature]
+    [bold][color=#1E538F]Subject's Name and Position:[/bold][/color] [form]
+    [bold][color=#1E538F]Subject's Alleged Crime:[/bold][/color] [form]
 
-    I, (full name), in the position of (full job title), authorize the arrest of (full name), in the position of (full job title) on suspicion of committing the following offenses:
+    [bold][color=#1E538F]Current Alert Level:[/bold][/color]
+    [check] [bold][color=#1E538F]Green[/bold][/color]
+    [check] [bold][color=#1E538F]Blue[/bold][/color]
+    [check] [bold][color=#1E538F]Red[/bold][/color]
+    [check] [bold][color=#1E538F]Yellow[/bold][/color]
+    [check] [bold][color=#1E538F]White[/bold][/color]
+    [check] [bold][color=#1E538F]Violet[/bold][/color]
 
-    During the preliminary investigation, evidence was found indicating the commission of the offense by this person.
-    Direct evidence:
+    [check] [bold][color=#1E538F]Is the suspect the reason for the alert level?[/bold][/color]
+    [check] [bold][color=#1E538F]Is the suspect working alone?[/bold][/color]
+    [bold][color=#1E538F]If not, are they a part of[/bold][/color] [check] [bold][color=#1E538F]the Syndicate, or[/bold][/color] [check] [bold][color=#1E538F]an individual group?[/bold][/color]
 
-    Indirect evidence:
+    [check] [bold][color=#1E538F]Is the suspect armed and dangerous?[/color][/bold]
+    [check] [bold][color=#1E538F]Is the suspect Psionic?[/color][/bold]
+    [check] [bold][color=#1E538F]Does the suspect know they're wanted?[/color][/bold]
+    [check] [bold][color=#1E538F]Do you have overwhelming evidence of their crimes?[/color][/bold]
 
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-sentence =
-        ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-        ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Court Verdict[/head]
-        ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-        ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-        ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-        =============================================
-                                  COURT VERDICT
-        =============================================
-        Time from the start of the shift and date:
-        Document author:
-        Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]COURT VERDICT[/bold][/color]
+    ════════════════════════════════════
 
-        I, (full name), in the position of (full job title), render a verdict according to the authority vested in me regarding (full name), in the position of (full job title).
-        This person has violated the following articles of Corporate Law:
-        (list of articles)
-        Taking into account all mitigating and aggravating circumstances, the legal punishment for this person is as follows:
-        (summary term, life imprisonment, or death sentence)
-        Administrative punishment:
-        (demotion, dismissal)
-        The period of detention begins from: (start time of detention)
-        =============================================
-                                    ⠀          [italic]Place for seals[/italic]
+    [bold][color=#1E538F]I,[/bold][/color] [italic][signature][/italic] [bold][color=#1E538F]render a verdict according to the authority vested in me regarding[/bold][/color] [italic][form].[/italic]
+
+    [check][bold][color=#1E538F]This person has violated the following articles of Corporate Law:[/bold][/color]
+    [italic][form][/italic]
+
+    [bold][color=#1E538F]Taking into account all mitigating and aggravating circumstances, the legal punishment for this person is as follows:[/bold][/color]
+    [check] [color=#1E538F][bold]Summary Term:[/bold][/color] [italic][form][/italic]
+    [check] [color=#1E538F][bold]Permanent Confinement[/bold][/color]
+    [check] [color=#1E538F][bold]Death Penalty[/bold][/color]
+    [check] [italic][form][/italic]
+
+    [bold][color=#1E538F]Administrative punishment:[/bold][/color]
+    [check] [color=#1E538F][bold]Demotion[/bold][/color]
+    [check] [color=#1E538F][bold]Dismissal[/bold][/color]
+    [check] [color=#1E538F][bold]Unpunished[/bold][/color]
+    [check] [italic][form][/italic]
+    [bold][color=#1E538F]The period of detention begins from:[/bold][/color] [italic][form][/italic]
+    ════════════════════════════════════
+                                    ⠀    [italic]Place for seals[/italic]
 doc-text-printer-judgment =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Judicial Agreement[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    JUDICIAL AGREEMENT
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]Judicial Agreement[/bold][/color]
+    ════════════════════════════════════
 
-    I, (full name), in the position of (full job title), make a decision on the legal proceedings against (full name), in the position of (full job title).
-    Alleged violations:
+    [bold][color=#1E538F]I,[/bold][/color] [italic][signature][/italic] [bold][color=#1E538F]render a verdict according to the authority vested in me regarding[/bold][/color] [italic][form].[/italic]
 
-    Decision of the Security Service verdict:
+    [check][bold][color=#1E538F]This person has violated the following articles of Corporate Law:[/bold][/color]
+    [italic][form][/italic]
 
-    Time spent in detention prior to legal proceedings:
+    [bold][color=#1E538F]Taking into account all mitigating and aggravating circumstances, the legal punishment for this person is as follows:[/bold][/color]
+    [check] [color=#1E538F][bold]Summary Term:[/bold][/color] [italic][form][/italic]
+    [check] [color=#1E538F][bold]Permanent Confinement[/bold][/color]
+    [check] [color=#1E538F][bold]Death Penalty[/bold][/color]
+    [check] [italic][form][/italic]
 
-    This person violated the following articles of Corporate Law:
-    (list of articles)
-    Taking into account all mitigating and aggravating circumstances, the legal punishment for this person is presented as follows:
-    (summary term, life imprisonment, or death sentence)
-    Administrative punishment:
-    (demotion, dismissal)
-    The period of detention begins from:
-    (start time of detention)
-    My decision is justified by (the fact that):
-
-    =============================================
-                                ⠀          [italic]Place for seals[/italic]
+    [bold][color=#1E538F]Administrative punishment:[/bold][/color]
+    [check] [color=#1E538F][bold]Demotion[/bold][/color]
+    [check] [color=#1E538F][bold]Dismissal[/bold][/color]
+    [check] [color=#1E538F][bold]Unpunished[/bold][/color]
+    [check] [italic][form][/italic]
+    [bold][color=#1E538F]The period of detention begins from:[/bold][/color] [italic][form][/italic]
+    ════════════════════════════════════
+                                    ⠀    [italic]Place for seals[/italic]
 doc-text-printer-statement-health =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Employee Health Evaluation[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-                    EMPLOYEE HEALTH EVALUATION
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [color=#1E538F][bold]EMPLOYEE HEALTH EVALUATION[/bold][/color]
+    ════════════════════════════════════
+    [color=#1E538F][bold]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
+    [color=#1E538F][bold]Patient's Name and Position:[/bold][/color] [italic][form][/italic]
 
-    The patient (full name), in the position of (full job title), was referred for a medical examination due to (reason for examination). A complete examination of the patient was carried out, and the necessary studies and tests were conducted.
-    Composition of the medical commission:
-    (Doctor's full name, full job title or specialization)
-    Patient's condition upon admission:
+    [color=#1E538F][bold]Reason for Examination:[/bold][/color] [italic][form][/italic]
+    [check] [color=#1E538F][bold]Was the Examination Successful?[/bold][/color]
+    [check] [color=#1E538F][bold]Was the Examination consensual and willing?[/bold][/color]
+    [color=#1E538F][bold]Examiner:[/bold][/color] [italic][form][/italic]
 
-    Diagnosis:
+    [color=#1E538F][bold]Patient's condition upon admission:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Diagnosis:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Patient's psychological condition:[/bold][/color] [italic][form][/italic]
+    [color=#1E538F][bold]Treatment provided during hospitalization:[/bold][/color] [italic][form][/italic]
 
-    Patient's psychological condition:
-
-    Treatment provided during hospitalization:
-
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-decision-to-start-trial =
-    ⠀[color=#1b487e]███░███░░░░██░░░░[/color]
-    ⠀[color=#1b487e]░██░████░░░██░░░░[/color]      [head=3]Court Order[/head]
-    ⠀[color=#1b487e]░░█░██░██░░██░█░░[/color]               [head=3]NanoTrasen[/head]
-    ⠀[color=#1b487e]░░░░██░░██░██░██░[/color]           [bold]Den Station[/bold]
-    ⠀[color=#1b487e]░░░░██░░░████░███[/color]
-    =============================================
-            NOTICE OF A START OF A LEGAL PROCEEDING
-    =============================================
-    Time from the start of the shift and date:
-    Document author:
-    Author's position:
+    [logo]
+    ════════════════════════════════════
+    [bold][color=#1E538F]NOTICE OF A START OF A LEGAL PROCEEDING[/bold][/color]
+    ════════════════════════════════════
+    [bold][color=#1E538F]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
+    [check] [bold][color=#1E538F]I am the Judge, or someone of similar position.[/bold][/color]
 
-    I, (full name), in the position of (full job title), report the beginning of a legal proceeding for the case of (full name).
-    Alleged violations:
+    [check] [bold][color=#1E538F]Legal proceedings have started in regards to the case of[/bold][/color] [italic][form][/italic][bold][color=#1E538F], who is accused of[/bold][/color] [italic][form].[/italic]
+    [check] [bold][color=#1E538F]Is the accused detained?[/bold][/color]
+    [check] [bold][color=#1E538F]Is the accused cooperative?[/bold][/color]
 
-    =============================================
+    [bold][color=#1E538F]Who is representing the accused?:[/bold][/color] [italic][form][/italic]
+    [bold][color=#1E538F]Who is representing the prosecution?:[/bold][/color] [italic][form][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-error-loading-form-header =
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    ⠀[color=#B50F1D] █░░░██░░░░░░░█[/color]    [head=3]Syndicate Template[/head]
-    ⠀[color=#B50F1D] █░░░░████░░░░█[/color]             [head=3]Syndicate[/head]
-    ⠀[color=#B50F1D] █░░░░░░░██░░░█[/color]       [bold]TARGET: DEN STATION[/bold]
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    =============================================
-                        DOCUMENT TITLE
-    =============================================
-    Time from the start of the shift and date:
-    Agent callsign:
+    [slogo]
+    ════════════════════════════════════
+    [color=#9E1010][bold][form][/bold][/color]
+    ════════════════════════════════════
+    [color=#9E1010][bold]Agent Callsign:[/bold][/color] [italic][signature][/italic]
 
-    Full content of the document with all necessary information and description
-    =============================================
+    [color=#9E1010][bold][form]:[/bold][/color]
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-notice-of-liquidation =
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    ⠀[color=#B50F1D] █░░░██░░░░░░░█[/color]    [head=3]Notice of Liquidation[/head]
-    ⠀[color=#B50F1D] █░░░░████░░░░█[/color]             [head=3]Syndicate[/head]
-    ⠀[color=#B50F1D] █░░░░░░░██░░░█[/color]       [bold]TARGET: DEN STATION[/bold]
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    =============================================
-                        NOTICE OF LIQUIDATION
-    =============================================
-    Time from the start of the shift and date:
-    Agent callsign:
+    [slogo]
+    ════════════════════════════════════
+    [color=#9E1010][bold]NOTICE OF LIQUIDATION[/color][/bold]
+    ════════════════════════════════════
+    [color=#9E1010][bold]Agent Callsign:[/color] [italic][signature]
 
-    Dear (full name), in the position of (full job title)! The Syndicate have decided on your immediate liquidation during this shift. Please prepare your will in advance and send it to the Medical Department of the station. The destruction of your body will be carried out by the Syndicate forces.
-    Reason for liquidation:
+    [color=#9E1010][bold]Dear[/color][/bold] [italic][form][color=#9E1010]![/italic][/color] [color=#9E1010][bold]The Syndicate have decided on your immediate liquidation during this shift. Please prepare your will in advance and send it to the Medical Department of the station. The destruction of your body will be carried out by the Syndicate forces.[/color]
 
-    =============================================
+    [color=#9E1010][bold]Reason for liquidation:[/color][/bold] [italic][form][/italic]
+
+    ════════════════════════════════════[/bold][/color][/italic]
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-business-deal =
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    ⠀[color=#B50F1D] █░░░██░░░░░░░█[/color]    [head=3]Request of Co-operation[/head]
-    ⠀[color=#B50F1D] █░░░░████░░░░█[/color]             [head=3]Syndicate[/head]
-    ⠀[color=#B50F1D] █░░░░░░░██░░░█[/color]       [bold]TARGET: DEN STATION[/bold]
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    =============================================
-                      REQUEST OF CO-OPERATION
-    =============================================
-    Time from the start of the shift and date:
-    Agent callsign:
+    [slogo]
+    ════════════════════════════════════
+    [bold][color=#9E1010]REQUEST OF CO-OPERATION[/color][/bold]
+    ════════════════════════════════════
+    [color=#9E1010][bold]Agent Callsign:[/color][/bold] [signature]
+    [color=#9E1010][bold]Agent Rank:[/color][/bold]
+    [check] [color=#9E1010][bold]Agent[/color][/bold]
+    [check] [color=#9E1010][bold]Nuclear Operative[/color][/bold]
+    [check] [color=#9E1010][bold]Nuclear Operative Agent[/color][/bold]
+    [check] [color=#9E1010][bold]Elite Nuclear Operative[/color][/bold]
+    [check] [color=#9E1010][bold]Commander[/color][/bold]
+    [check] [color=#9E1010][bold]Syndicate High Command[/color][/bold]
 
-    The Syndicate kindly proposes to conclude a deal between the station and the agent (agent callsign). On the part of the station, it is necessary:
+    [bold][color=#9E1010]The Syndicate kindly proposes to conclude a deal between the station and the agent[/color][/bold] [italic][signature].[/italic]
+    [bold][color=#9E1010]On the part of the station, it is necessary:[/color][/bold] [italic][form][/italic]
+    [bold][color=#9E1010]In return, the Syndicate will:[/color][/bold] [italic][form][/italic]
 
-    Reason for fulfilling the terms of the deal:
-
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-note-beginning-military-actions =
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    ⠀[color=#B50F1D] █░░░██░░░░░░░█[/color]    [head=3]Declaration of War[/head]
-    ⠀[color=#B50F1D] █░░░░████░░░░█[/color]             [head=3]Syndicate[/head]
-    ⠀[color=#B50F1D] █░░░░░░░██░░░█[/color]       [bold]TARGET: DEN STATION[/bold]
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    =============================================
-                    DECLARATION OF WAR
-    =============================================
-    Time from the start of the shift and date:
-    Agent callsign:
+    [slogo]
+    ════════════════════════════════════
+    [bold][color=#9E1010]DECLARATION OF WAR[/color][/bold]
+    ════════════════════════════════════
+    [bold][color=#9E1010]Agent Callsign:[/color][/bold] [italic][signature][/italic]
+    [bold][color=#9E1010]Number of Agents:[/color][/bold] [italic][form][/italic]
 
-    The Syndicate officially declares the start of military actions against you, as well as the beginning of an operation for your extermination.
+    [bold][color=#9E1010]The Syndicate officially declares the start of military actions against you, as well as the beginning of an operation for your extermination.[/color][/bold]
 
-    =============================================
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
 doc-text-printer-report-accomplishment-goals =
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    ⠀[color=#B50F1D] █░░░██░░░░░░░█[/color]    [head=3]Performance Report[/head]
-    ⠀[color=#B50F1D] █░░░░████░░░░█[/color]             [head=3]Syndicate[/head]
-    ⠀[color=#B50F1D] █░░░░░░░██░░░█[/color]       [bold]TARGET: DEN STATION[/bold]
-    ⠀[color=#B50F1D] ███░██████░███[/color]
-    =============================================
-                        PERFORMANCE REPORT
-    =============================================
-    Time from the start of the shift and date:
-    Agent callsign:
+    [slogo]
+    ════════════════════════════════════
+    [bold][color=#9E1010]PERFORMANCE REPORT[/color][/bold]
+    ════════════════════════════════════
+    [bold][color=#9E1010]Agent callsign:[/color][/bold] [italic][signature][/italic]
+    [bold][color=#9E1010]Agent goals:[/color][/bold]
+    [bullet] [italic][form][/italic]
+    [bullet] [italic][form][/italic]
+    [bullet] [italic][form][/italic]
 
-    I, (agent callsign), have successfully completed the objectives assigned to me by the Syndicate leadership. Please accept the performance report.
-    Report:
+    [bold][color=#9E1010]How Agent completed the goals:[/color][/bold]
+    [bullet] [italic][form][/italic]
+    [bullet] [italic][form][/italic]
+    [bullet] [italic][form][/italic]
 
-    =============================================
+    [bold][color=#9E1010]Accomplices Confirmed:[/color][/bold] [italic][form][/italic]
+    [bold][color=#9E1010]Code words:[/color][/bold] [italic][form][/italic]
+
+    ════════════════════════════════════
                                 ⠀          [italic]Place for seals[/italic]
