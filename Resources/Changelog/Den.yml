@@ -13247,3 +13247,10 @@ Entries:
   id: 1294
   time: '2025-10-19T00:38:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1889
+- author: WizDen Contributors
+  changes:
+    - type: Add
+      message: Added craftable gun safes!
+  id: 1295
+  time: '2025-10-19T01:48:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1888
