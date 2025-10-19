@@ -133,7 +133,6 @@
   itemDrop: FloorTileItemSnow # Delta V
   deconstructTools: [ Digging ] # Frontier
   isSubfloor: true
-  itemDrop: FloorTileItemSnow # Delta V
   canShovel: true # Delta V
   footstepSounds:
     collection: FootstepSnow
