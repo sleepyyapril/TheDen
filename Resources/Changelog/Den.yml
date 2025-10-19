@@ -13254,3 +13254,12 @@ Entries:
   id: 1295
   time: '2025-10-19T01:48:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1888
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Service Workers now have Bar, Hydroponics, and Kitchen access by default
+        - not just on skeleton crew access.
+  id: 1296
+  time: '2025-10-19T01:48:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1895
