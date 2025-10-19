@@ -142,10 +142,8 @@ public sealed partial class PsionicAbilitiesSystem : EntitySystem
     public void InitializePsionicPower(EntityUid uid, PsionicPowerPrototype proto, PsionicComponent psionic, bool playFeedback = true)
     {
         if (!_prototypeManager.HasIndex<PsionicPowerPrototype>(proto.ID)
-            || psionic.ActivePowers.Contains(proto))
+            || !psionic.ActivePowers.Add(proto))
             return;
-
-        psionic.ActivePowers.Add(proto);
 
         foreach (var function in proto.InitializeFunctions)
             function.OnAddPsionic(uid,

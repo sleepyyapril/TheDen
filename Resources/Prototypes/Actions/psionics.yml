@@ -54,7 +54,7 @@
   components:
     - type: EntityTargetAction
       icon: Interface/VerbIcons/mind_swap.png
-      useDelay: 120
+      useDelay: 0
       checkCanAccess: false
       range: 8
       itemIconStyle: BigAction

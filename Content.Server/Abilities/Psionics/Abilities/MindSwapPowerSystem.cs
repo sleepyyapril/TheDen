@@ -40,12 +40,16 @@ namespace Content.Server.Abilities.Psionics
         [Dependency] private readonly MetaDataSystem _metaDataSystem = default!;
         [Dependency] private readonly DoAfterSystem _doAfterSystem = default!;
         [Dependency] private readonly ConsentSystem _consentSystem = default!;
+        [Dependency] private readonly ILogManager _logManager = default!;
 
+        private ISawmill _sawmill = default!;
         private ProtoId<ConsentTogglePrototype> _mindSwapConsent = "MindSwap";
 
         public override void Initialize()
         {
             base.Initialize();
+            _sawmill = _logManager.GetSawmill("mindswap");
+
             SubscribeLocalEvent<MindSwapPowerComponent, MindSwapPowerActionEvent>(OnPowerUsed);
             SubscribeLocalEvent<PsionicComponent, MindSwapPowerDoAfterEvent>(OnDoAfter);
             SubscribeLocalEvent<MindSwappedComponent, MindSwapPowerReturnActionEvent>(OnPowerReturned);
@@ -65,7 +69,8 @@ namespace Content.Server.Abilities.Psionics
             if (!_consentSystem.HasConsent(args.Target, _mindSwapConsent))
             {
                 _popupSystem.PopupEntity(
-                    Loc.GetString("consent-MindSwap-no-consent",
+                    Loc.GetString(
+                        "consent-MindSwap-no-consent",
                         ("target", args.Target)),
                     args.Performer);
                 return;
@@ -87,8 +92,9 @@ namespace Content.Server.Abilities.Psionics
 
         private void OnDoAfter(EntityUid uid, PsionicComponent component, MindSwapPowerDoAfterEvent args)
         {
-            if (component is null)
+            if (component.DoAfter is null)
                 return;
+
             component.DoAfter = null;
 
             if (args.Target is null
