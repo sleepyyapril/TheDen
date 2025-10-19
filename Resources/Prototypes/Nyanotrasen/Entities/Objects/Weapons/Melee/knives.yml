@@ -45,6 +45,8 @@
     storedSprite:
       state: icon
       sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi
+  - type: DisarmMalus
+    malus: 0.4
   - type: Tag
     tags:
     # - ForensicBeltEquip # TheDen
