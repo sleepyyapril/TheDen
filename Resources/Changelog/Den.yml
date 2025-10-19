@@ -13240,3 +13240,10 @@ Entries:
   id: 1293
   time: '2025-10-18T19:42:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1887
+- author: Spanky
+  changes:
+    - type: Add
+      message: Added custom emote icons for flip, jump, and spin.
+  id: 1294
+  time: '2025-10-19T00:38:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1889
