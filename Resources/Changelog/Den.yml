@@ -13284,3 +13284,12 @@ Entries:
   id: 1299
   time: '2025-10-20T02:44:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1902
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: >-
+        Updated the documents in the Document Printer to be uniform, and conform
+        to the Bureaucracy Update.
+  id: 1300
+  time: '2025-10-20T03:24:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1897
