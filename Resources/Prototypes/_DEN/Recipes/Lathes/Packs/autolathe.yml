@@ -6,6 +6,7 @@
 # SPDX-FileCopyrightText: 2025 Sir Warock
 # SPDX-FileCopyrightText: 2025 Tanix
 # SPDX-FileCopyrightText: 2025 pocl v
+# SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -14,6 +15,7 @@
 # There are existing packs for some of these recipes, and some which have items that don't exist. I'm sorry.
 
 - type: latheRecipePack
+  parent: [AutolatheStaticCandyBucketDen]
   id: AutolatheStaticAwfulDen
   recipes:
   - Wirecutter
@@ -206,3 +208,17 @@
   - MagazineBoxShotgunUraniumHighCaliber # Goobstation
   - MagazineBoxShotgunBeanbagHighCaliber # Goobstation
   - MagazineBoxShotgunPracticeHighCaliber # Goobstation
+
+- type: latheRecipePack
+  id: AutolatheStaticCandyBucketDen
+  recipes:
+  - CandyBucket
+  - CandyBucketPailCat
+  - CandyBucketPailClown
+  - CandyBucketPailGhost
+  - CandyBucketPailPumpkin
+  - CandyBucketPailSkeleton
+  - CandyBucketPailPlain
+  - CandyBucketPailPlainRandom
+  - CandyBucketPailSmiley
+  - CandyBucketPailSmileyRandom
