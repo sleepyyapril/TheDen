@@ -13307,3 +13307,12 @@ Entries:
   id: 1302
   time: '2025-10-20T19:36:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1861
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        RCDs printed at the engineering fabricator now have all of their
+        options.
+  id: 1303
+  time: '2025-10-20T21:24:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1904
