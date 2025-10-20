@@ -13293,3 +13293,12 @@ Entries:
   id: 1300
   time: '2025-10-20T03:24:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1897
+- author: Eightballll
+  changes:
+    - type: Add
+      message: >-
+        Added a Golden Shaker for experienced bartenders! Find it in the loadout
+        :3
+  id: 1301
+  time: '2025-10-20T10:28:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1896
