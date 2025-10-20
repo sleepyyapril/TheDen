@@ -12,7 +12,8 @@ cd-record-viewer-no-record-selected = Please select record.
 
 cd-character-records-viewer-record-age = Age:
 cd-character-records-viewer-record-job = Job:
-cd-character-records-viewer-record-gender = Gender:
+#Den edit from gender to pronouns
+cd-character-records-viewer-record-gender = Pronouns:
 cd-character-records-viewer-record-species = Species:
 
 cd-character-records-viewer-record-sec-fingerprint = Fingerprint:
@@ -29,3 +30,7 @@ cd-character-records-entry-view-title = Title:
 cd-character-records-entry-view-involved = Author(s):
 
 cd-character-records-viewer-setwanted-placeholder = Reason
+
+#Imp edit ported to Den
+cd-imp-records-viewer-flavor-left = Nanotrasen employee database. Keep records confidential!
+cd-imp-records-viewer-flavor-right = v3.4
