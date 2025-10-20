@@ -13316,3 +13316,12 @@ Entries:
   id: 1303
   time: '2025-10-20T21:24:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1904
+- author: AvianMaiden
+  changes:
+    - type: Tweak
+      message: >-
+        A few changes to the records interface, such as job icons appearing
+        beside job titles, and using pronouns over gender/sex!
+  id: 1304
+  time: '2025-10-20T21:54:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1901
