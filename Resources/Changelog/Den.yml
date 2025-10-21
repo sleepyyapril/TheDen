@@ -13438,3 +13438,10 @@ Entries:
   id: 1313
   time: '2025-10-21T18:26:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1917
+- author: portfiend
+  changes:
+    - type: Add
+      message: A colorable beret can now be found in loadouts.
+  id: 1314
+  time: '2025-10-21T18:27:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1915
