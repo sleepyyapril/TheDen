@@ -18,6 +18,9 @@ using Robust.Shared.Random;
 // Shitmed Change
 using Content.Shared.Body.Systems;
 using Content.Shared._Shitmed.Targeting;
+using Content.Shared.IdentityManagement;
+using Content.Shared.Popups;
+
 
 namespace Content.Shared.Medical.Healing;
 
@@ -57,7 +60,7 @@ public sealed class HealingSystem : EntitySystem
 
         if (healing.DamageContainers is not null &&
             target.Comp.DamageContainerID is not null &&
-            !healing.DamageContainers.Contains(target.Comp.DamageContainerID.Value))
+            !healing.DamageContainers.Contains(target.Comp.DamageContainerID))
         {
             return;
         }
@@ -117,7 +120,7 @@ public sealed class HealingSystem : EntitySystem
         _audio.PlayPredicted(healing.HealingEndSound, target.Owner, args.User);
 
         // Logic to determine the whether or not to repeat the healing action
-        args.Repeat = HasDamage((args.Used.Value, healing), target) && !dontRepeat || IsPartDamaged(args.User, entity); // Shitmed Change
+        args.Repeat = HasDamage((args.Used.Value, healing), target) && !dontRepeat || IsPartDamaged(args.User, target); // Shitmed Change
         if (!args.Repeat && !dontRepeat)
             _popupSystem.PopupClient(Loc.GetString("medical-item-finished-using", ("item", args.Used)), target.Owner, args.User);
         args.Handled = true;
@@ -139,7 +142,11 @@ public sealed class HealingSystem : EntitySystem
         {
             // Is ent missing blood that we can restore?
             if (healing.Comp.ModifyBloodLevel > 0
-                && _solutionContainerSystem.ResolveSolution(target.Owner, bloodstream.BloodSolutionName, ref bloodstream.BloodSolution, out var bloodSolution)
+                && _solutionContainerSystem.ResolveSolution(
+                    target.Owner,
+                    bloodstream.BloodSolutionName,
+                    ref bloodstream.BloodSolution,
+                    out var bloodSolution)
                 && bloodSolution.Volume < bloodSolution.MaxVolume)
             {
                 return true;
@@ -148,6 +155,7 @@ public sealed class HealingSystem : EntitySystem
             // Is ent bleeding and can we stop it?
             if (healing.Comp.BloodlossModifier < 0 && bloodstream.BleedAmount > 0)
                 return true;
+        }
 
         return false;
     }
