@@ -13359,3 +13359,12 @@ Entries:
   id: 1307
   time: '2025-10-21T00:48:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1892
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Arachne now have a new blood type - intoxicating blood, which has much
+        stronger alcoholic properties.
+  id: 1308
+  time: '2025-10-21T00:48:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1899
