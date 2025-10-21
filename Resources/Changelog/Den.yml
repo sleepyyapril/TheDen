@@ -13325,3 +13325,10 @@ Entries:
   id: 1304
   time: '2025-10-20T21:54:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1901
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Craftable button frames!
+  id: 1305
+  time: '2025-10-21T00:46:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1905
