@@ -5,6 +5,9 @@
 
 flavor-complex-tirggel = crunchy
 
+## Biological
+flavor-complex-intoxicating = intoxicating
+
 ## Basic drinks
 flavor-complex-jaegermister = like black licorice
 
