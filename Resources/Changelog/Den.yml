@@ -13416,3 +13416,16 @@ Entries:
   id: 1311
   time: '2025-10-21T17:11:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1912
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Six new button-up undershirt markings, in "closed", "open", and
+        "partially-open". One variant for each torso shape.
+    - type: Add
+      message: >-
+        Four new sock underwear markings in four lengths - "ankle", "quarter",
+        "knee", and "thigh". Now you can layer socks underneath your shoes!
+  id: 1312
+  time: '2025-10-21T17:12:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1906
