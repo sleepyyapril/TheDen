@@ -63,15 +63,9 @@ namespace Content.Shared.Damage.Systems
             {
                 if (component.Damage.Empty)
                     component.Damage = melee.Damage * component.MeleeDamageMultiplier;
-                if (component.SoundHit == null)
-                    component.SoundHit = melee.SoundHit;
-                if (component.SoundNoDamage == null)
-                {
-                    if (melee.SoundNoDamage != null)
-                        component.SoundNoDamage = melee.SoundNoDamage;
-                    else
-                        component.SoundNoDamage = new SoundCollectionSpecifier("WeakHit");
-                }
+
+                component.SoundHit ??= melee.SoundHit;
+                component.SoundNoDamage = melee.SoundNoDamage;
             }
 
             RaiseLocalEvent(uid, new DamageOtherOnHitStartupEvent((uid, component)));
