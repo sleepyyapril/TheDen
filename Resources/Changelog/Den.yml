@@ -13429,3 +13429,12 @@ Entries:
   id: 1312
   time: '2025-10-21T17:12:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1906
+- author: 3PonPon3
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the white cyberjacket to be colorable! You can finally apply a
+        custom paintjob to your sleek cropped jacket!
+  id: 1313
+  time: '2025-10-21T18:26:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1917
