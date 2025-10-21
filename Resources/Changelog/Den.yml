@@ -13406,3 +13406,13 @@ Entries:
   id: 1310
   time: '2025-10-21T13:48:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1909
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        The "No Species Language" traits will remove your character's innate
+        species language - for example, a human that cannot speak Sol Common.
+        The "light" version will allow you to understand, but not speak it.
+  id: 1311
+  time: '2025-10-21T17:11:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1912
