@@ -11,7 +11,7 @@ using Content.Shared.Chemistry.Reagent;
 using Robust.Shared.Prototypes;
 using Content.Shared.EntityEffects;
 
-namespace Content.Server.EntityEffects.Effects;
+namespace Content.Shared.EntityEffects.Effects;
 
 public sealed partial class ActivateArtifact : EntityEffect
 {

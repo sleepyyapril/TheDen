@@ -8,7 +8,7 @@ using JetBrains.Annotations;
 using Robust.Shared.Prototypes;
 using Content.Shared.Changeling;
 
-namespace Content.Server.EntityEffects.Effects;
+namespace Content.Shared.EntityEffects.Effects;
 
 /// <summary>
 /// Do I need to elaborate on what this does?
