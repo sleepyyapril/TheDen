@@ -13368,3 +13368,32 @@ Entries:
   id: 1308
   time: '2025-10-21T00:48:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1899
+- author: ASaltySeabass
+  changes:
+    - type: Tweak
+      message: >-
+        Made it so that Shadowkin no longer need to breathe, but suffer
+        bloodloss damage while in critical condition instead of Asphyxiating
+    - type: Tweak
+      message: >-
+        Increased how quickly Shadowkin passively regenerate bloodloss damage to
+        compensate for the fact that they accumulate it in crit
+    - type: Tweak
+      message: Shadowkin are now immune to Asphyxiation damage
+    - type: Tweak
+      message: >-
+        Changed chems that deal Asphyxiation damage so that they no longer
+        asphyxiate Shadowkin
+    - type: Tweak
+      message: >-
+        Edited the Shadowkin guidebook page to be less vague and reflect the new
+        changes
+    - type: Tweak
+      message: Edited some Shadowkin organ descriptions and names
+    - type: Tweak
+      message: Made it so that the Shadowkin Core is unremovable via surgery
+    - type: Fix
+      message: Made it so that Shadowkin now properly digest uncooked animal proteins
+  id: 1309
+  time: '2025-10-21T01:48:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1839
