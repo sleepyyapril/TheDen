@@ -13332,3 +13332,23 @@ Entries:
   id: 1305
   time: '2025-10-21T00:46:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1905
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Many individual costume parts in the AutoDrobe and theatrical
+        performances crate have been replaced with "costume bundles", a storage
+        item for costume parts specifically.
+    - type: Tweak
+      message: >-
+        The AutoDrobe's inventory has been majorly consolidated and rearranged.
+        The items inside are sorted by clown, mime, and musician items first,
+        then costume bundles, then everything else.
+    - type: Add
+      message: >-
+        You can now take a costume bundle in your loadouts - find it under
+        Items! You know, in case an occasion that necessitates bringing your own
+        costume arises.
+  id: 1306
+  time: '2025-10-21T00:47:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1903
