@@ -13397,3 +13397,12 @@ Entries:
   id: 1309
   time: '2025-10-21T01:48:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1839
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        You can now use any towel to remove paint from an item (including your
+        recolored loadout items.)
+  id: 1310
+  time: '2025-10-21T13:48:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1909
