@@ -209,12 +209,12 @@ namespace Content.Shared.Damage.Systems
         public DamageSpecifier GetDamage(EntityUid uid, DamageOtherOnHitComponent? component = null, EntityUid? target = null, EntityUid? user = null)
         {
             if (!Resolve(uid, ref component, false))
-                return new DamageSpecifier();
+                return new();
 
-            var ev = new GetThrowingDamageEvent(uid, component.Damage, new(), target, user);
+            var ev = new GetThrowingDamageEvent(uid, component.Damage * _damageable.UniversalThrownDamageModifier, new(), target, user);
             RaiseLocalEvent(uid, ref ev);
 
-            if (component.ContestArgs is not null && user is EntityUid userUid)
+            if (user is { } userUid)
                 ev.Damage *= _contests.ContestConstructor(userUid, component.ContestArgs);
 
             return DamageSpecifier.ApplyModifierSets(ev.Damage, ev.Modifiers);
