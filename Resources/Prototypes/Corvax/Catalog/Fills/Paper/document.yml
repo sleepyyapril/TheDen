@@ -124,7 +124,7 @@
       content: doc-text-printer-application-access
 
 - type: entity
-  parent: PrintedDocument
+  parent: PaperCargoBountyManifest
   id: PrintedDocumentApplicationEquipment
   name: Statement for equipment
   components:
@@ -356,7 +356,7 @@
       content: doc-text-printer-order-medical-intervention
 
 - type: entity
-  parent: PrintedDocument
+  parent: PaperCargoBountyManifest
   id: PrintedDocumentProductManufacturingOrder
   name: Order for the production of a product
   components:
@@ -514,3 +514,27 @@
   components:
     - type: Paper
       content: doc-text-printer-report-accomplishment-goals
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentPassengerApplication
+  name: Temporary Passenger Application
+  components:
+  - type: Paper
+    content: doc-text-printer-passenger-application
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentSurgeryForm
+  name: Surgery Form
+  components:
+  - type: Paper
+    content: doc-text-printer-surgery-form
+
+- type: entity
+  parent: PrintedDocument
+  id: PrintedDocumentLetter
+  name: Letter Template
+  components:
+  - type: Paper
+    content: doc-text-printer-letter
