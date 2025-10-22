@@ -13461,3 +13461,12 @@ Entries:
   id: 1316
   time: '2025-10-22T00:39:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1913
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: >-
+        Added icons and descriptions to the Document Printer to look a little
+        more professional.
+  id: 1317
+  time: '2025-10-22T05:45:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1920
