@@ -1,4 +1,9 @@
-﻿changecvar-simple-debug_test_cvar = Does nothing.
+# SPDX-FileCopyrightText: 2025 Simon
+# SPDX-FileCopyrightText: 2025 SlamBamActionman
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+changecvar-simple-debug_test_cvar = Does nothing.
 changecvar-full-debug_test_cvar = Just a simple testing cvar. Does nothing.
 
 changecvar-simple-playtest_all_damage_modifier = Multiplier for all damage dealt.
