@@ -13406,3 +13406,58 @@ Entries:
   id: 1310
   time: '2025-10-21T13:48:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1909
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        The "No Species Language" traits will remove your character's innate
+        species language - for example, a human that cannot speak Sol Common.
+        The "light" version will allow you to understand, but not speak it.
+  id: 1311
+  time: '2025-10-21T17:11:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1912
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Six new button-up undershirt markings, in "closed", "open", and
+        "partially-open". One variant for each torso shape.
+    - type: Add
+      message: >-
+        Four new sock underwear markings in four lengths - "ankle", "quarter",
+        "knee", and "thigh". Now you can layer socks underneath your shoes!
+  id: 1312
+  time: '2025-10-21T17:12:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1906
+- author: 3PonPon3
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the white cyberjacket to be colorable! You can finally apply a
+        custom paintjob to your sleek cropped jacket!
+  id: 1313
+  time: '2025-10-21T18:26:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1917
+- author: portfiend
+  changes:
+    - type: Add
+      message: A colorable beret can now be found in loadouts.
+  id: 1314
+  time: '2025-10-21T18:27:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1915
+- author: Swiss_Fox
+  changes:
+    - type: Remove
+      message: De-Rotates Barrier Hospital from the map pool, pending rework
+  id: 1315
+  time: '2025-10-21T18:27:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1916
+- author: Simyon and SlamBamActionman
+  changes:
+    - type: Add
+      message: >-
+        Admins can now change the values of damage and healing items globally
+        through a command. This is specifically for testing purposes.
+  id: 1316
+  time: '2025-10-22T00:39:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1913
