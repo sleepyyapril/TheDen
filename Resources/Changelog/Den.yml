@@ -13452,3 +13452,12 @@ Entries:
   id: 1315
   time: '2025-10-21T18:27:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1916
+- author: Simyon and SlamBamActionman
+  changes:
+    - type: Add
+      message: >-
+        Admins can now change the values of damage and healing items globally
+        through a command. This is specifically for testing purposes.
+  id: 1316
+  time: '2025-10-22T00:39:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1913
