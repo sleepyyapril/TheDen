@@ -714,7 +714,7 @@
   id: PrintedDocumentSurgeryFormRecipe
   result: PrintedDocumentSurgeryForm
   icon:
-    sprite: _Shitmed/Objects/Specific/Medical/Surgery/scalpel.rsi/
+    sprite: _Shitmed/Objects/Specific/Medical/Surgery/scalpel.rsi
     state: scalpel
   category: Requests
   completetime: 2
