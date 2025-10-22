@@ -201,17 +201,14 @@ doc-text-printer-application-access =
     ================================
                                  {"["}italic]Place for seals[/italic]
 doc-text-printer-application-equipment =
-    {"[logo]"}
     ================================
-    {"["}color=#1E538F][bold]REQUEST FOR EQUIPMENT ACQUISITION[/bold][/color]
-    ================================
-    {"["}color=#1E538F][bold]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
+    {"["}color=#5C4322][bold]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
 
-    {"["}color=#1E538F][bold]I,[/bold][/color] [italic][signature][/italic] [color=#1E538F][bold]request the issuance of the following equipment for the department/personal use:[/bold][/color] [italic][form][/italic]
+    {"["}color=#5C4322][bold]I,[/bold][/color] [italic][signature][/italic] [color=#5C4322][bold]request the issuance of the following equipment for the department/personal use:[/bold][/color] [italic][form][/italic]
 
-    {"["}color=#1E538F][bold]Reason for obtaining equipment:[/bold][/color] [italic][form][/italic]
+    {"["}color=#5C4322][bold]Reason for obtaining equipment:[/bold][/color] [italic][form][/italic]
 
-    {"["}color=#1E538F][bold]If needed, I have the authorization to possess this item:[/bold][/color] [check]
+    {"["}color=#5C4322][bold]If needed, I have the authorization to possess this item:[/bold][/color] [check]
 
     ================================
                                       {"["}italic]Place for seals[/italic]
@@ -558,19 +555,15 @@ doc-text-printer-order-medical-intervention =
     ================================
                                       {"["}italic]Place for seals[/italic]
 doc-text-printer-product-manufacturing-order =
-    {"[logo]"}
     ================================
-    {"["}color=#1E538F][bold]CARGO REQUEST FORM[/bold][/color]
-    ================================
+    {"["}color=#5C4322][bold]Requester's Name and Position:[/bold][/color] [italic][signature][/italic]
 
-    {"["}color=#1E538F][bold]Requester's Name and Position:[/bold][/color] [italic][signature][/italic]
+    {"["}color=#5C4322][bold]Requested item:[/bold][/color] [italic][form][/italic]
+    {"["}color=#5C4322][bold]Requested Delivery Location:[/bold][/color] [italic][form][/italic]
+    {"["}color=#5C4322][bold]Reason:[/bold][/color] [italic][form][/italic]
 
-    {"["}color=#1E538F][bold]Requested item:[/bold][/color] [italic][form][/italic]
-    {"["}color=#1E538F][bold]Requested Delivery Location:[/bold][/color] [italic][form][/italic]
-    {"["}color=#1E538F][bold]Reason:[/bold][/color] [italic][form][/italic]
-
-    {"["}check][color=#1E538F][bold] I understand that I may be required to come collect the item if Cargo cannot deliver.[/bold][/color]
-    {"["}check][color=#1E538F][bold] I understand that my request may be denied for any reason, including if the paperwork is not correct.[/bold][/color]
+    {"["}check][color=#5C4322][bold] I understand that I may be required to come collect the item if Cargo cannot deliver.[/bold][/color]
+    {"["}check][color=#5C4322][bold] I understand that my request may be denied for any reason, including if the paperwork is not correct.[/bold][/color]
 
     ================================
                                       {"["}italic]Place for seals[/italic]
@@ -843,3 +836,55 @@ doc-text-printer-report-accomplishment-goals =
 
     ================================
                                       {"["}italic]Place for seals[/italic]
+doc-text-printer-passenger-application =
+    {"["}logo]
+    ================================
+    {"["}color=#1E538F][bold]TEMPORARY PASSENGER APPLICATION[/bold][/color]
+    ================================
+
+    {"["}bold][color=#1E538F]I,[/color][/bold] [italic][signature][/italic] [bold][color=#1E538F]desire access to stay on the station until the standard evacuation call to CentComm, where I will go under the proper registration to become a citizen.[/color][/bold]
+
+    {"["}check] [bold][color=#1E538F]I am not a criminal, wanted, or seeking refuge from a different organization.[/color][/bold]
+    {"["}check] [bold][color=#1E538F]I am not affiliated with any nefarious gangs, organizations, or high-stake criminals.[/color][/bold]
+    {"["}check] [bold][color=#1E538F]I am well-aware of current Nanotransen laws, and have been following them and will continue to follow them for as long as I stay.[/color][/bold]
+
+    ================================
+    {"["}italic]Place for seals[/italic]
+doc-text-printer-surgery-form =
+    {"["}logo]
+    ================================
+    {"["}color=#1E538F][bold]SURGERY AUTHORIZATION FORM[/bold][/color]
+    ================================
+    {"["}color=#1E538F][bold]Author's Name and Position:[/bold][/color] [italic][signature][/italic]
+    {"["}color=#1E538F][bold]Patient's Name and Position:[/bold][/color] [italic][form][/italic]
+
+    {"["}color=#1E538F][bold]Intended Operation:[/bold][/color] [italic][form][/italic]
+    {"["}color=#1E538F][bold]Neccessary Parts for Operation:[/bold][/color] [italic][form][/italic]
+    {"["}color=#1E538F][bold]Purpose of Operation:[/bold][/color]
+    {"["}check] [color=#1E538F][bold]Health Improvement[/bold][/color]
+    {"["}check] [color=#1E538F][bold]Aesthetics or Euphoria[/bold][/color]
+    {"["}check] [color=#1E538F][bold]Augmentation or Improvement[/bold][/color]
+    {"["}check] [italic][form][/italic]
+
+    {"["}check] [color=#1E538F][bold]Is this Operation consensual?[/bold][/color]
+    {"["}check] [color=#1E538F][bold]If not, do we have the necessary authorization to force this surgery on the patient?[/bold][/color]
+    {"["}color=#1E538F][bold]If so, who authorized the operation?:[/bold][/color] [italic][form][/italic]
+    ================================
+    {"["}italic]Place for seals[/italic]
+doc-text-printer-letter =
+    {"["}logo]
+    {"["}bold][color=#1E538F]Author's Name and Title:[/color][/bold] [italic][signature][/italic]
+    {"["}bold][color=#1E538F]Home Department:[/color][/bold] [italic][form][/italic]
+    {"["}bold][color=#1E538F]Intended Recipient's Name and Title:[/color][/bold] [italic][form][/italic]
+    ===============================
+
+    {"["}bold][color=#1E538F]Dear[/color][/bold] [italic][form][/italic]
+
+    {"["}check] [bold][color=#1E538F]Kindest Regards,[/color][/bold]
+    {"["}check] [bold][color=#1E538F]I miss you,[/color][/bold]
+    {"["}check] [bold][color=#1E538F]As soon as possible,[/color][/bold]
+    {"["}check] [bold][color=#1E538F]After all of that, fuck you,[/color][/bold]
+
+    {"["}italic][signature][/italic]
+    ================================
+    {"["}italic]Place for seals[/italic]
