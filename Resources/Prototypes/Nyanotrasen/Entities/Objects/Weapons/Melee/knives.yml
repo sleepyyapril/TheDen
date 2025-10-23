@@ -26,12 +26,14 @@
         volume: -5
         variation: 0.05
   - type: ToggleableVisuals # TheDen
+    spriteLayer: null
     inhandVisuals:
       left:
       - state: spinning-inhand-left
       right:
       - state: spinning-inhand-right
   - type: UseDelay # TheDen
+    delay: 1
   - type: MeleeWeapon
     attackRate: .6666
     damage:
