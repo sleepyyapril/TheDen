@@ -37,15 +37,9 @@
       modifiers:
         coefficients:
           Blunt: 1.25
-          Pierce: 1.25
-          Slash: 1.25
           Holy: 1.25
     - type: LandAtCursor
-    - type: DamageOtherOnHit # Donk
-      damage:
-        types: # Thrown damage
-          Blunt: 4.8 # 6 damage against psychics
-          Holy: 2.4 # 9 total damage against supernaturals
+    - type: DamageOtherOnHit
     - type: MeleeWeapon # You can swing it like a weapon since it's a heavy, blunt object, but it's not very good
       attackRate: 1
       range: 1.5

@@ -41,18 +41,12 @@
         Slash: 10 # 15 DPS, or 18.75 DPS against psychics
         Holy: 5 # 28.13 total DPS against supernaturals
   - type: DamageOtherOnHit
-    damage:
-      types:
-        Slash: 10 # 12.5 damage against psychics
-        Holy: 5 # 18.75 damage against supernaturals
   - type: StaminaDamageOnHit
     damage: 0
   - type: AntiPsionicWeapon # TheDen - Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
     punish: false
     modifiers:
       coefficients:
-        Blunt: 1.25
-        Pierce: 1.25
         Slash: 1.25
         Holy: 1.25 # TheDen - It was 1.2 but I'm tired of doing extra math, 5% more holy damage is fine
   - type: EmbeddableProjectile
@@ -63,6 +57,7 @@
     state: icon
   - type: Item
     sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi
+    storedRotation: -45
     storedSprite:
       state: icon
       sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi

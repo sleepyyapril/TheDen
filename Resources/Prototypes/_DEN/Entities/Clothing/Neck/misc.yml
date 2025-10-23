@@ -102,8 +102,6 @@
     modifiers:
       coefficients:
         Blunt: 1.25
-        Pierce: 1.25
-        Slash: 1.25
         Holy: 1.25
   - type: MeleeWeapon
     attackRate: 1

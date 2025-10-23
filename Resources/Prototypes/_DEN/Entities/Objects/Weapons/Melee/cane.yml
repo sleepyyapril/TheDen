@@ -134,3 +134,101 @@
     containers:
       item:
       - CaneBlade
+
+- type: entity
+  parent: CaneBase
+  id: AntiPsychicCane
+  name: gnomon
+  description: "An amaranth cane crowned with an eidolite crystal. If flipped in the hand, the needle-sharp mnemolith tip serves as a thrusting weapon. A refined accessory, practical for mantes with limited mobility. Deadly when wielded against psionic and otherworldly threats."
+  components:
+  - type: ItemToggle
+    predictable: false
+    soundActivate:
+      path: /Audio/_DEN/Weapons/Melee/rapiermiss.ogg
+      params:
+        volume: -5
+        pitch: 1.1
+        variation: 0.05
+    soundDeactivate:
+      path: /Audio/_DEN/Weapons/Melee/rapiermiss.ogg
+      params:
+        volume: -5
+        pitch: 0.9
+        variation: 0.05
+  - type: ToggleableVisuals
+    spriteLayer: null
+    inhandVisuals:
+      left:
+      - state: raised-inhand-left
+      right:
+      - state: raised-inhand-right
+  - type: UseDelay
+    delay: 1
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
+    layers:
+    - state: icon
+      map: ["icon"]
+    - state: icon-raised
+      map: ["raised"]
+      visible: false
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleableVisuals.Enabled:
+        icon:
+          True: { visible: false }
+          False: { visible: true }
+        raised:
+          True: { visible: true }
+          False: { visible: false }
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,1,1
+    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
+    storedRotation: -45
+  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
+    punish: false
+    modifiers:
+      coefficients: # Notably, does not function as an antipsionic weapon if you don't flip it and use the mnemolith tip - you're just bonking someone
+        Pierce: 1.25
+        Holy: 1.25
+  - type: ItemToggleMeleeWeapon
+    activatedSoundOnHit:
+      path: /Audio/Weapons/Melee/rapierhit.ogg
+      params:
+        variation: 0.05
+    activatedSoundOnHitNoDamage:
+      path: /Audio/_DEN/Weapons/Melee/rapiermiss.ogg
+      params:
+        variation: 0.05
+    deactivatedSoundOnHit:
+      collection: WeakHit
+      params:
+        variation: 0.05
+    deactivatedSoundOnHitNoDamage:
+      path: /Audio/Weapons/punchmiss.ogg
+      params:
+        variation: 0.05
+    activatedDamage:
+        types: # Same DPS as CombatKnife against nonpsychics
+          Pierce: 10 # 15 DPS, or 18.75 DPS against psychics
+          Holy: 5 # 28.13 total DPS against supernaturals
+  - type: MeleeWeapon
+    attackRate: .6666
+    wideAnimationRotation: 135
+    damage:
+      types:
+        Blunt: 3 # 4.5 DPS because it's a sturdy but lightweight thrusting weapon, it's not that dangerous if you just bonk them with the blunt end
+  - type: DamageOtherOnHit
+  - type: ItemToggleDamageOtherOnHit
+  - type: LandAtCursor
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+    removalTime: 2
+  - type: EmbedPassiveDamage
+  - type: ThrowingAngle
+    angle: -135
+  - type: StaminaDamageOnHit
+    damage: 0
