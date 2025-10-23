@@ -13495,3 +13495,16 @@ Entries:
   id: 1320
   time: '2025-10-23T09:52:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1925
+- author: KekaniCreates
+  changes:
+    - type: Tweak
+      message: Moved most of the Document Printer files to _DEN.
+    - type: Add
+      message: >-
+        Added paper colors to all of the papers in the Document Printer to be
+        more unique.
+    - type: Fix
+      message: Added icons to the Syndicate papers in the Document Printer. Oops!
+  id: 1321
+  time: '2025-10-23T16:52:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1924
