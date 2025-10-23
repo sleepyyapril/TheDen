@@ -13524,3 +13524,10 @@ Entries:
   id: 1323
   time: '2025-10-23T17:04:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1927
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Added CE belt to the their hardsuit locker.
+  id: 1324
+  time: '2025-10-23T17:04:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1926
