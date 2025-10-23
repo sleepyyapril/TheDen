@@ -17,15 +17,6 @@
     SheetPrinter: 100
 
 - type: latheRecipe
-  id: PrintedDocumentReportOnEliminationOfViolationsRecipe
-  result: PrintedDocumentReportOnEliminationOfViolations
-  category: Reports
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
   id: PrintedDocumentReportDepartmentRecipe
   result: PrintedDocumentReportDepartment
   icon:
@@ -62,15 +53,6 @@
     SheetPrinter: 100
 
 - type: latheRecipe
-  id: PrintedDocumentInternalAffairsAgentsReportRecipe
-  result: PrintedDocumentInternalAffairsAgentsReport
-  category: Reports
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
   id: PrintedDocumentConditionReportRecipe
   result: PrintedDocumentConditionReport
   icon:
@@ -89,15 +71,6 @@
   icon:
     sprite: Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
     state: ano31
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
-  id: PrintedDocumentExperimentReportRecipe
-  result: PrintedDocumentExperimentReport
-  category: Reports
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -173,15 +146,6 @@
     SheetPrinter: 100
 
 - type: latheRecipe
-  id: PrintedDocumentAppealRecipe
-  result: PrintedDocumentAppeal
-  category: InquiriesAndAppeals
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
   id: PrintedDocumentEvacuationShuttleRequestRecipe
   result: PrintedDocumentEvacuationShuttleRequest
   icon:
@@ -200,33 +164,6 @@
   icon:
     sprite: Structures/Shuttles/thruster.rsi
     state: base
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
-  id: PrintedDocumentRequestCallMembersCentralCommitteeDSORecipe
-  result: PrintedDocumentRequestCallMembersCentralCommitteeDSO
-  category: InquiriesAndAppeals
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
-  id: PrintedDocumentRequestRequestToEstablishThreatLevelRecipe
-  result: PrintedDocumentRequestRequestToEstablishThreatLevel
-  category: InquiriesAndAppeals
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
-  id: PrintedDocumentRequestChangeSalaryRecipe
-  result: PrintedDocumentRequestChangeSalary
-  category: InquiriesAndAppeals
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -305,15 +242,6 @@
     SheetPrinter: 100
 
 - type: latheRecipe
-  id: PrintedDocumentComplaintViolationLaborRulesRecipe
-  result: PrintedDocumentComplaintViolationLaborRules
-  category: Complaints
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
   id: PrintedDocumentComplaintOffenseRecipe
   result: PrintedDocumentComplaintOffense
   icon:
@@ -331,15 +259,6 @@
   icon:
     sprite: Clothing/Hands/Gloves/Color/yellow.rsi
     state: icon
-  category: Permissions
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
-  id: PrintedDocumentPermissionToTravelInCaseOfThreatRecipe
-  result: PrintedDocumentPermissionToTravelInCaseOfThreat
   category: Permissions
   completetime: 2
   applyMaterialDiscount: false
@@ -401,15 +320,6 @@
   icon:
     sprite: Objects/Weapons/Melee/sledgehammer.rsi
     state: icon
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
-  id: PrintedDocumentPermissionToExtendMarriageRecipe
-  result: PrintedDocumentPermissionToExtendMarriage
-  category: Permissions
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -495,33 +405,6 @@
   icon:
     sprite: Structures/Storage/Crates/generic.rsi
     state: icon
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
-  id: PrintedDocumentOrderPurchaseResourcesEquipmentRecipe
-  result: PrintedDocumentOrderPurchaseResourcesEquipment
-  category: Orders
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
-  id: PrintedDocumentOrderingSpecialEquipmentRecipe
-  result: PrintedDocumentOrderingSpecialEquipment
-  category: Orders
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
-  id: PrintedDocumentOrderPurchaseWeaponsRecipe
-  result: PrintedDocumentOrderPurchaseWeapons
-  category: Orders
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -621,15 +504,6 @@
     SheetPrinter: 100
 
 - type: latheRecipe
-  id: PrintedDocumentJudgmentRecipe
-  result: PrintedDocumentJudgment
-  category: Evidence
-  completetime: 2
-  applyMaterialDiscount: false
-  materials:
-    SheetPrinter: 100
-
-- type: latheRecipe
   id: PrintedDocumentStatementHealtheRecipe
   result: PrintedDocumentStatementHealth
   icon:
@@ -665,6 +539,9 @@
 - type: latheRecipe
   id: PrintedDocumentNoticeOfLiquidationRecipe
   result: PrintedDocumentNoticeOfLiquidation
+  icon:
+    sprite: Mobs/Species/Terminator/parts.rsi
+    state: skull_icon
   category: ErrorDocument
   completetime: 2
   applyMaterialDiscount: false
@@ -674,6 +551,9 @@
 - type: latheRecipe
   id: PrintedDocumentBusinessDealRecipe
   result: PrintedDocumentBusinessDeal
+  icon:
+    sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
+    state: icon
   category: ErrorDocument
   completetime: 2
   applyMaterialDiscount: false
@@ -684,6 +564,9 @@
   id: PrintedDocumentNoteBeginningMilitaryActionsRecipe
   result: PrintedDocumentNoteBeginningMilitaryActions
   category: ErrorDocument
+  icon:
+    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    state: icon
   completetime: 2
   applyMaterialDiscount: false
   materials:
@@ -692,6 +575,9 @@
 - type: latheRecipe
   id: PrintedDocumentReportAccomplishmentGoalsRecipe
   result: PrintedDocumentReportAccomplishmentGoals
+  icon:
+    sprite: Objects/Misc/stamps.rsi
+    state: stamp-deny
   category: ErrorDocument
   completetime: 2
   applyMaterialDiscount: false
