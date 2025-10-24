@@ -13576,3 +13576,18 @@ Entries:
   id: 1329
   time: '2025-10-24T11:23:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1930
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Added Xenoglossy to Ifrit
+    - type: Add
+      message: Added Flare to Ifrit
+    - type: Tweak
+      message: Ifrit now has passive HP regen
+    - type: Tweak
+      message: Increased Ifrits HP from 120 => 200
+    - type: Tweak
+      message: Ifrit will re-register as a ghost role if the player abandons it.
+  id: 1330
+  time: '2025-10-24T11:24:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1929
