@@ -13591,3 +13591,12 @@ Entries:
   id: 1330
   time: '2025-10-24T11:24:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1929
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Administrative Assistants get an alternative job title of "Unpaid
+        Intern".
+  id: 1331
+  time: '2025-10-24T19:30:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1940
