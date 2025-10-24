@@ -15,9 +15,11 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
            MouseFilter="Stop"/>
 
     <!--21 was the height of OptionsContainer at the time that this button was added. So I am limiting the texture to 21x21-->
+
     <Control SetSize="21 21">
         <TextureButton Name="Help" StyleClasses="HelpButton"/>
     </Control>
     <BoxContainer Name="OptionsContainer"
                   SetWidth="400"/>
+    <Button Name="JobActionsButton" Text="{Loc 'loadout-job-actions-window-button'}" Margin="0 10 0 0" />
 </BoxContainer>

@@ -118,6 +118,9 @@ using Content.Client._CD.Records.UI;
 using Content.Shared._CD.Records;
 using Content.Shared.Customization.Systems._DEN;
 using Content.Client._DEN.Customization.Systems;
+using Content.Client._DEN.Lobby.UI.Controls;
+
+
 // End CD - Character Records
 
 // DEN TODO: THIS NEEDS SEVERE OVERHAUL
@@ -183,6 +186,8 @@ namespace Content.Client.Lobby.UI
         private bool _customizePronouns;
         private bool _customizeStationAiName;
         private bool _customizeBorgName;
+
+        private LoadoutJobActionsWindow? _currentActionsWindow;
 
         public event Action<HumanoidCharacterProfile, int>? OnProfileChanged;
 
@@ -1097,6 +1102,18 @@ namespace Content.Client.Lobby.UI
             }
         }
 
+        private void OnJobActionsButtonPressed(JobPrototype job)
+        {
+            if (_currentActionsWindow != null)
+            {
+                _currentActionsWindow.Orphan();
+                _currentActionsWindow = null;
+            }
+
+            _currentActionsWindow = new(job){};
+            _currentActionsWindow.OpenCenteredLeft();
+        }
+
         /// Refreshes all job selectors
         public void RefreshJobs()
         {
@@ -1173,6 +1190,7 @@ namespace Content.Client.Lobby.UI
                     var jobContainer = new BoxContainer { Orientation = LayoutOrientation.Horizontal, };
                     var selector = new RequirementsSelector { Margin = new(3f, 3f, 3f, 0f) };
                     selector.OnOpenGuidebook += OnOpenGuidebook;
+                    selector.OnClickJobActions += () => OnJobActionsButtonPressed(job);
 
                     var icon = new TextureRect
                     {
@@ -1313,6 +1331,7 @@ namespace Content.Client.Lobby.UI
                     };
 
                     var selector = new RequirementsSelector { Margin = new Thickness(3f, 3f, 3f, 0f), };
+                    selector.OnClickJobActions += () => OnJobActionsButtonPressed(job);
 
                     var icon = new TextureRect
                     {
