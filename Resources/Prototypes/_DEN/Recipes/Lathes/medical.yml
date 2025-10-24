@@ -1,9 +1,12 @@
 # SPDX-FileCopyrightText: 2025 Blitz
+# SPDX-FileCopyrightText: 2025 Falcon
+# SPDX-FileCopyrightText: 2025 Sir Warock
+# SPDX-FileCopyrightText: 2025 phantasai
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 # SPDX-FileCopyrightText: 2025 wheelwrightt
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 - type: latheRecipe
   id: ClothingNeckVetCone
