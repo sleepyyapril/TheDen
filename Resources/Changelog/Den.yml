@@ -13556,3 +13556,10 @@ Entries:
   id: 1327
   time: '2025-10-24T05:56:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1935
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Plenty of new job titles to choose from were added!
+  id: 1328
+  time: '2025-10-24T11:16:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1936
