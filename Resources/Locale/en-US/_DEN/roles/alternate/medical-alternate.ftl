@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: MIT
+
 # Medical Intern
 job-name-alternate-resident = Resident
 job-name-alternate-clinician = Clinician

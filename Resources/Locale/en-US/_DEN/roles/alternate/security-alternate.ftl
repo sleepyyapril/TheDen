@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: MIT
+
 # Security Officer
 job-name-alternate-patrolman = Patrolman
 job-name-alternate-patrolperson = Patrolperson

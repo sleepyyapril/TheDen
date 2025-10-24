@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: MIT
+
 # Cargo Technician
 job-name-alternate-deck-worker = Deck Worker
 job-name-alternate-inventory-associate = Inventory Associate

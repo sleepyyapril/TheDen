@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: MIT
+
 # Passenger
 job-name-alternate-assistant = Assistant
 job-name-alternate-tourist = Tourist

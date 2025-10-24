@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: MIT
+
 # Station Engineer
 job-name-alternate-electrician = Electrician
 job-name-alternate-mechanic = Mechanic
