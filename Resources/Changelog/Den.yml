@@ -13600,3 +13600,12 @@ Entries:
   id: 1331
   time: '2025-10-24T19:30:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1940
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Candy cigarettes actually burn through their contents now - like other
+        cigarettes, they will eventually run out.
+  id: 1332
+  time: '2025-10-24T19:32:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1937
