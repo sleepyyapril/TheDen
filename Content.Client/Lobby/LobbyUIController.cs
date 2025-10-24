@@ -5,6 +5,7 @@
 // SPDX-FileCopyrightText: 2024 VMSolidus
 // SPDX-FileCopyrightText: 2024 deltanedas
 // SPDX-FileCopyrightText: 2024 metalgearsloth
+// SPDX-FileCopyrightText: 2025 Dirius77
 // SPDX-FileCopyrightText: 2025 Skubman
 // SPDX-FileCopyrightText: 2025 dootythefrooty
 // SPDX-FileCopyrightText: 2025 portfiend

@@ -34,6 +34,7 @@
 // SPDX-FileCopyrightText: 2024 Tayrtahn
 // SPDX-FileCopyrightText: 2024 Wrexbe (Josh)
 // SPDX-FileCopyrightText: 2024 wrexbe
+// SPDX-FileCopyrightText: 2025 Dirius77
 // SPDX-FileCopyrightText: 2025 VMSolidus
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //

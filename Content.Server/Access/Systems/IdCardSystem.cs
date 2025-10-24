@@ -21,6 +21,7 @@
 // SPDX-FileCopyrightText: 2024 Pieter-Jan Briers
 // SPDX-FileCopyrightText: 2024 Verm
 // SPDX-FileCopyrightText: 2024 themias
+// SPDX-FileCopyrightText: 2025 Dirius77
 // SPDX-FileCopyrightText: 2025 Solaris
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //

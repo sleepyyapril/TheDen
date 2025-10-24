@@ -11,6 +11,7 @@
 // SPDX-FileCopyrightText: 2024 chavonadelal
 // SPDX-FileCopyrightText: 2024 deltanedas
 // SPDX-FileCopyrightText: 2024 themias
+// SPDX-FileCopyrightText: 2025 Dirius77
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
