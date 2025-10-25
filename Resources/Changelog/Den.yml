@@ -13644,3 +13644,12 @@ Entries:
   id: 1334
   time: '2025-10-25T03:12:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1549
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Unathi now have four new markings: floppy ears, cheek tufts, furred
+        tail, and short (recolorable) horns. 
+  id: 1335
+  time: '2025-10-25T04:23:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1939
