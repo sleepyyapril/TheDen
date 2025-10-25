@@ -13653,3 +13653,10 @@ Entries:
   id: 1335
   time: '2025-10-25T04:23:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1939
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Candy Cigarette Last Forever Again
+  id: 1336
+  time: '2025-10-25T06:57:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1945
