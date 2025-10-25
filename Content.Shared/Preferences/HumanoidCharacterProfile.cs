@@ -466,7 +466,10 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     public HumanoidCharacterProfile WithJobTitle(string jobId, string jobTitle)
     {
         var dictionary = new Dictionary<string, string>(_jobTitles);
-        dictionary[jobId] = jobTitle;
+
+        if ((string.IsNullOrWhiteSpace(jobTitle) || jobTitle == jobId)
+            && _jobTitles.ContainsKey(jobId))
+            dictionary.Remove(jobId);
 
         return new(this) { _jobTitles = dictionary };
     }
