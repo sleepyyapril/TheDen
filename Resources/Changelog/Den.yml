@@ -13618,3 +13618,29 @@ Entries:
   id: 1333
   time: '2025-10-25T00:39:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1942
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Captain and Head of Security are now whitelisted.
+    - type: Tweak
+      message: >-
+        Warden is 20 hours of Security, any role and like 3 hours of detective
+        to make sure you have it played at least once + 50 hours of overall
+        playtime (you can become HoS as Warden, it's really only fair)
+    - type: Tweak
+      message: >-
+        Corpsman now requires 7 hours of general medical time, 15 hours of
+        general security time, 20 hours of overall time.
+    - type: Tweak
+      message: >-
+        Detective now requires 7 hours of security general time, 20 hours of
+        overall time.
+    - type: Tweak
+      message: >-
+        Security officer now requires15 hours of overall playtime, 6 hours as
+        cadet.
+    - type: Tweak
+      message: Cadet requires 15 hours of overall playtime.
+  id: 1334
+  time: '2025-10-25T03:12:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1549
