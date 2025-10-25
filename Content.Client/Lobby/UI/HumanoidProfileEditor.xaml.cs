@@ -1530,7 +1530,9 @@ namespace Content.Client.Lobby.UI
             if (Profile is null)
                 return;
 
-            Profile = Profile?.WithJobTitle(job.ID, newTitle?.Item1 ?? string.Empty);
+            var title = newTitle?.Item1 ?? string.Empty;
+            _sawmill.Info(title);
+            Profile = Profile?.WithJobTitle(job.ID, title);
             SetDirty();
         }
 
