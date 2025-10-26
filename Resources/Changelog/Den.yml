@@ -13703,3 +13703,10 @@ Entries:
   id: 1340
   time: '2025-10-26T06:01:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1952
+- author: crekulon
+  changes:
+    - type: Tweak
+      message: Arachnids can now select from all hairstyles!
+  id: 1341
+  time: '2025-10-26T06:06:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1948
