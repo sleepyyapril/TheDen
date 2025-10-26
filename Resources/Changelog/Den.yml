@@ -13710,3 +13710,12 @@ Entries:
   id: 1341
   time: '2025-10-26T06:06:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1948
+- author: Dirius77
+  changes:
+    - type: Add
+      message: >-
+        Added the ability to cryo without broadcasting an announcement to the
+        entire station.
+  id: 1342
+  time: '2025-10-26T06:11:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1953
