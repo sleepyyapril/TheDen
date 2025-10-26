@@ -13696,3 +13696,10 @@ Entries:
   id: 1339
   time: '2025-10-26T06:00:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1949
+- author: crekulon
+  changes:
+    - type: Fix
+      message: Fixed MIDI drums sounding really bad for some people!
+  id: 1340
+  time: '2025-10-26T06:01:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1952
