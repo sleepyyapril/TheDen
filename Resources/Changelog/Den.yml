@@ -13678,3 +13678,12 @@ Entries:
   id: 1337
   time: '2025-10-26T04:36:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1955
+- author: mart33no
+  changes:
+    - type: Add
+      message: Long snake tail for IPCs
+    - type: Add
+      message: Lizard Tiger markings for IPCs
+  id: 1338
+  time: '2025-10-26T04:45:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1946
