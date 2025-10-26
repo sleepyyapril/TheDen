@@ -13687,3 +13687,12 @@ Entries:
   id: 1338
   time: '2025-10-26T04:45:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1946
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        The "Remove Species Language" trait should work closer to how it's
+        intended.
+  id: 1339
+  time: '2025-10-26T06:00:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1949
