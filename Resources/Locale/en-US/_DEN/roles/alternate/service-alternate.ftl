@@ -11,6 +11,11 @@ job-name-alternate-fisher = Fisher
 job-name-alternate-fish-enthusiast = Fish Enthusiast
 job-name-alternate-angler = Angler
 
+# Service Worker
+job-name-alternate-assistant-chef = Assistant Chef
+job-name-alternate-assistant-bartender = Assistant Bartender
+job-name-alternate-assistant-botanist = Assistant Botanist
+
 # Bartender
 job-name-alternate-mixologist = Mixologist
 job-name-alternate-barista = Barista
@@ -28,6 +33,10 @@ job-name-alternate-baker = Baker
 job-name-alternate-butcher = Butcher
 job-name-alternate-cuisinic-technician = Cuisinic Technician
 job-name-alternate-culinarian = Culinarian
+job-name-alternate-chef-de-cuisine = Chef de Cuisine
+job-name-alternate-patissier = Pâtissier
+job-name-alternate-cook = Cook
+job-name-alternate-mess-officer = Mess Officer
 
 # Clown
 job-name-alternate-jester = Jester
@@ -52,6 +61,8 @@ job-name-alternate-drummer = Drummer
 # Janitor
 job-name-alternate-hygiene-technician = Hygiene Technician
 job-name-alternate-custodian = Custodian
+job-name-alternate-maid = Maid
+job-name-alternate-butler = Butler
 
 # Reporter
 job-name-alternate-journalist = Journalist
@@ -61,6 +72,12 @@ job-name-alternate-radio-host = Radio Host
 # Gladiator
 job-name-alternate-combatant = Combatant
 job-name-alternate-performance-fighter = Performance Fighter
+
+#Boxer
+job-name-alternate-physical-trainer = Physical Trainer
+
+#Martial Artist
+job-name-alternate-black-belt = Black Belt
 
 # Head of Personnel
 job-name-alternate-bureaucratic-ambassador = Bureaucratic Ambassador
