@@ -13719,3 +13719,14 @@ Entries:
   id: 1342
   time: '2025-10-26T06:11:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1953
+- author: phantasai
+  changes:
+    - type: Tweak
+      message: Changed the strap on EVERY single duffle bag sprite in the game.
+    - type: Tweak
+      message: Resprited the Medical Belt.
+    - type: Tweak
+      message: Slightly altered the Jet Injector sprite.
+  id: 1343
+  time: '2025-10-27T12:47:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1947
