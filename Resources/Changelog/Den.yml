@@ -13737,3 +13737,10 @@ Entries:
   id: 1344
   time: '2025-10-27T13:01:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1958
+- author: ASaltySeabass
+  changes:
+    - type: Add
+      message: Added a lot of new job titles. (Thank you Job Title Ideas thread!)
+  id: 1345
+  time: '2025-10-27T13:02:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1957
