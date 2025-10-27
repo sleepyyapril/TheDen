@@ -13744,3 +13744,10 @@ Entries:
   id: 1345
   time: '2025-10-27T13:02:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1957
+- author: ASaltySeabass
+  changes:
+    - type: Fix
+      message: Pentetic acid no longer makes you scream for no reason.
+  id: 1346
+  time: '2025-10-27T22:09:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1962
