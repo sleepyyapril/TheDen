@@ -13730,3 +13730,10 @@ Entries:
   id: 1343
   time: '2025-10-27T12:47:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1947
+- author: Dirius77
+  changes:
+    - type: Add
+      message: Added the ability to turn off Cryosleep announcements (locally only).
+  id: 1344
+  time: '2025-10-27T13:01:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1958
