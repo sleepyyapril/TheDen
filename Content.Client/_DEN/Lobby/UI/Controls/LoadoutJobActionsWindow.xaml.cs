@@ -1,4 +1,8 @@
-﻿using Content.Client.Lobby.UI;
+// SPDX-FileCopyrightText: 2025 DoctorJado
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Client.Lobby.UI;
 using Content.Client.UserInterface.Controls;
 using Content.Shared.Clothing.Loadouts.Prototypes;
 using Content.Shared.Clothing.Loadouts.Systems;

@@ -1,3 +1,4 @@
+// SPDX-FileCopyrightText: 2025 DoctorJado
 // SPDX-FileCopyrightText: 2025 portfiend
 //
 // SPDX-License-Identifier: MPL-2.0

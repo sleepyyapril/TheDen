@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 DoctorJado
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 loadouts-category-panel-root-category = Categories
 loadouts-category-panel-return-button = ... {$parent}
 

@@ -28,6 +28,7 @@
 // SPDX-FileCopyrightText: 2024 Pieter-Jan Briers
 // SPDX-FileCopyrightText: 2024 metalgearsloth
 // SPDX-FileCopyrightText: 2025 Dirius77
+// SPDX-FileCopyrightText: 2025 DoctorJado
 // SPDX-FileCopyrightText: 2025 Falcon
 // SPDX-FileCopyrightText: 2025 Lyndomen
 // SPDX-FileCopyrightText: 2025 Spatison

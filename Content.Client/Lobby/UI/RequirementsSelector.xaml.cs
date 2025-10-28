@@ -1,9 +1,10 @@
 // SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
 // SPDX-FileCopyrightText: 2024 Leon Friedrich
 // SPDX-FileCopyrightText: 2025 Dirius77
+// SPDX-FileCopyrightText: 2025 DoctorJado
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
-// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using System.Numerics;
 using Content.Client.Stylesheets;

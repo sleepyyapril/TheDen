@@ -7,6 +7,7 @@
 // SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
 // SPDX-FileCopyrightText: 2024 Plykiya
 // SPDX-FileCopyrightText: 2024 SimpleStation14
+// SPDX-FileCopyrightText: 2025 DoctorJado
 // SPDX-FileCopyrightText: 2025 Skubman
 // SPDX-FileCopyrightText: 2025 VMSolidus
 // SPDX-FileCopyrightText: 2025 portfiend

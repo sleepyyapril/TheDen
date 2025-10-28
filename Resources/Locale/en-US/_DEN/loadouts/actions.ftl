@@ -1,4 +1,8 @@
-﻿loadout-job-actions-window-button = Job Actions
+# SPDX-FileCopyrightText: 2025 DoctorJado
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+loadout-job-actions-window-button = Job Actions
 loadout-job-actions-window-title = Job Actions
 loadout-job-actions-window-disclaimer-start = Selected job:
 loadout-job-actions-window-loadout-disclaimer-start = Selected loadout:

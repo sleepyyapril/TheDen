@@ -24,6 +24,7 @@
 // SPDX-FileCopyrightText: 2024 VMSolidus
 // SPDX-FileCopyrightText: 2024 sleepyyapril
 // SPDX-FileCopyrightText: 2025 Dirius77
+// SPDX-FileCopyrightText: 2025 DoctorJado
 // SPDX-FileCopyrightText: 2025 Falcon
 // SPDX-FileCopyrightText: 2025 Lyndomen
 // SPDX-FileCopyrightText: 2025 Timfa

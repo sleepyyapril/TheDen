@@ -1,4 +1,10 @@
-﻿<ui:FancyWindow xmlns="https://spacestation14.io"
+<!--
+SPDX-FileCopyrightText: 2025 DoctorJado
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<ui:FancyWindow xmlns="https://spacestation14.io"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:ui="clr-namespace:Content.Client.UserInterface.Controls"
     SetSize="400 600"
