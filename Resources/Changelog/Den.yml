@@ -13751,3 +13751,15 @@ Entries:
   id: 1346
   time: '2025-10-27T22:09:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1962
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Bulk candy crates can be purchased from Logistics, containing bulk candy
+        bags, a possibility for a very large gummy worm or chocolate bar (which
+        can be cut into pieces), and some candy bowls. In addition to lollipops
+        and gumballs, this bulk candy crate also contains brand new gummy bears
+        and wrapped hard candies!
+  id: 1347
+  time: '2025-10-28T06:15:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1964
