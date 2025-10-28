@@ -13778,3 +13778,12 @@ Entries:
   id: 1348
   time: '2025-10-28T14:22:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1934
+- author: Cutinup99
+  changes:
+    - type: Add
+      message: >-
+        Added Cotton Bool! Make sure to grab cloth as a bartender for your
+        moffic clients!
+  id: 1349
+  time: '2025-10-28T14:24:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1961
