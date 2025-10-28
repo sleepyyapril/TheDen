@@ -13787,3 +13787,10 @@ Entries:
   id: 1349
   time: '2025-10-28T14:24:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1961
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: Increased the tail marking limit for slimes to (1 > 6)
+  id: 1350
+  time: '2025-10-28T14:26:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1960
