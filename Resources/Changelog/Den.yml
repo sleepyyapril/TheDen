@@ -13794,3 +13794,10 @@ Entries:
   id: 1350
   time: '2025-10-28T14:26:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1960
+- author: ASaltySeabass
+  changes:
+    - type: Fix
+      message: Fixed the Rhodes Piano and Kweh MIDI instruments.
+  id: 1351
+  time: '2025-10-28T14:26:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1959
