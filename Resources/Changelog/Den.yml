@@ -13838,3 +13838,12 @@ Entries:
   id: 1354
   time: '2025-10-29T05:50:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1968
+- author: crekulon
+  changes:
+    - type: Add
+      message: >-
+        IPCs can now take two new singing traits, Singing (Synth) and Music
+        Machine!
+  id: 1355
+  time: '2025-10-29T05:51:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1951
