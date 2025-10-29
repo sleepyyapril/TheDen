@@ -13847,3 +13847,13 @@ Entries:
   id: 1355
   time: '2025-10-29T05:51:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1951
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        You can now select the "Voice Training" trait under the Speech -> Voice
+        trait category to switch the gender of your voice at will chat can we
+        get 100 transgender flag reactions
+  id: 1356
+  time: '2025-10-29T14:10:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1967
