@@ -13857,3 +13857,10 @@ Entries:
   id: 1356
   time: '2025-10-29T14:10:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1967
+- author: mart33no
+  changes:
+    - type: Fix
+      message: Lizard, large snake tail sprite fix
+  id: 1357
+  time: '2025-10-29T14:27:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1971
