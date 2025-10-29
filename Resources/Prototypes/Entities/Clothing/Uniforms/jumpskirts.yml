@@ -143,7 +143,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/chef.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtChemistry
   name: chemistry jumpskirt
   description: There's some odd stains on this jumpskirt. Hm.
@@ -154,7 +154,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/chemistry.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtVirology
   name: virology jumpskirt
   description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
@@ -165,7 +165,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/virology.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtGenetics
   name: genetics jumpskirt
   description: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
@@ -176,7 +176,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/genetics.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtCMO
   name: chief medical officer's jumpskirt
   description: It's a jumpskirt worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
@@ -187,7 +187,7 @@
     sprite: Clothing/Uniforms/Jumpskirt/cmo.rsi
 
 - type: entity
-  parent: ClothingUniformSkirtBase
+  parent: [ ClothingUniformSkirtBase, ClothingUniformFoldableBase ]
   id: ClothingUniformJumpskirtCMOTurtle
   name: chief medical officer's turtleneck jumpskirt
   description: It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
