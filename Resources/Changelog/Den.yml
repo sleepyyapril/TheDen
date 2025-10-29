@@ -13823,3 +13823,18 @@ Entries:
   id: 1353
   time: '2025-10-29T05:49:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1965
+- author: phantasai
+  changes:
+    - type: Tweak
+      message: Resprited the CMO's jumpskirts
+    - type: Tweak
+      message: Resprited the CMO's mantle & cloak
+    - type: Tweak
+      message: Resprited the CMO's hardsuit
+    - type: Tweak
+      message: Resprited the CMO's webbing
+    - type: Tweak
+      message: Resprited the CMO's longcoat
+  id: 1354
+  time: '2025-10-29T05:50:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1968
