@@ -179,6 +179,19 @@
     whitelist:
       components:
       - AACTablet
+  # DEN
+  - type: Bloodstream
+    bloodReagent: Oil
+    maxBleedAmount: 1
+    bloodlossDamage:
+      types:
+        Bloodloss:
+          1
+    bloodlossHealDamage:
+      types:
+        Bloodloss:
+          -1
+    # DEN
 
 - type: entity
   id: MobReplicatorQueen
