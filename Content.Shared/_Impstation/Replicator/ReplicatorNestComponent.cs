@@ -8,6 +8,7 @@
 
 using Content.Shared.Maps;
 using Content.Shared.Whitelist;
+using Content.Shared.Damage;
 using Robust.Shared.Audio;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
@@ -153,6 +154,18 @@ public sealed partial class ReplicatorNestComponent : Component
     [DataField, AutoNetworkedField]
     public bool NeedsUpdate;
     public EntityUid PointsStorage;
+
+    /// <summary>
+    /// Range at which healing is applied to replicators, in tiles.
+    /// </summary>
+    [DataField]
+    public float NestHealingRange = 2f;
+
+    /// <summary>
+    /// Amount of healing the replicator receives when standing near a nest per second.
+    /// </summary>
+    [DataField]
+    public DamageSpecifier NestHealing;
 }
 
 [Serializable, NetSerializable]

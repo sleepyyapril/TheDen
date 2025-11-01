@@ -30,8 +30,10 @@ using Robust.Shared.Prototypes;
 using Content.Shared.Stacks;
 using Robust.Shared.Map.Components;
 using Content.Shared.Maps;
+using Content.Shared.Damage; // DEN
 using Robust.Shared.Map;
 using Robust.Shared.Random;
+using System.Linq;
 
 namespace Content.Shared._Impstation.Replicator;
 
@@ -59,6 +61,8 @@ public abstract class SharedReplicatorNestSystem : EntitySystem
     [Dependency] private readonly TileSystem _tile = default!;
     [Dependency] private readonly SharedAmbientSoundSystem _ambientSound = default!;
     [Dependency] private readonly TurfSystem _turf = default!;
+    [Dependency] private readonly EntityLookupSystem _lookup = default!; // DEN
+    [Dependency] private readonly DamageableSystem _damage = default!; // DEN
 
     public override void Initialize()
     {
@@ -73,13 +77,25 @@ public abstract class SharedReplicatorNestSystem : EntitySystem
     {
         base.Update(frameTime);
 
-        if (!_net.IsClient)
-            return;
 
-        // this is jank but i need to do it to communicate this information over to the client
-        var query = EntityQueryEnumerator<ReplicatorNestComponent>();
-        while (query.MoveNext(out var uid, out var comp))
+        var query = EntityQueryEnumerator<ReplicatorNestComponent, TransformComponent>();
+        while (query.MoveNext(out var uid, out var comp, out var xform))
         {
+            var replicatorsAtNest = _lookup.GetEntitiesInRange<ReplicatorComponent>(xform.Coordinates, comp.NestHealingRange);
+
+            if (replicatorsAtNest.Any())
+            {
+                foreach (var replicator in replicatorsAtNest)
+                {
+                    _damage.TryChangeDamage(replicator.Owner, comp.NestHealing * frameTime, true, false);
+                }
+            }
+
+
+            // this is jank but i need to do it to communicate this information over to the client
+            if (!_net.IsClient)
+                return;
+
             if (comp.NeedsUpdate)
             {
                 Embiggen((uid, comp));

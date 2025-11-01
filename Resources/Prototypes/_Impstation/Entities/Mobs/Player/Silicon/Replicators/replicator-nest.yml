@@ -35,6 +35,13 @@
       - OnUseTimerTrigger
       - StealTarget
       - Mech
+    # DEN
+    nestHealingRange: 2
+    nestHealing:
+      groups:
+        Brute: -10
+        Burn: -10
+    # DEN
   - type: ThermalVisionImmune
   - type: StepTrigger
     requiredTriggeredSpeed: 0
