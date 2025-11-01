@@ -13951,3 +13951,18 @@ Entries:
   id: 1361
   time: '2025-11-01T23:19:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1969
+- author: ASaltySeabass
+  changes:
+    - type: Tweak
+      message: Tweaked the stats of all branded lighters slightly
+    - type: Fix
+      message: Branded lighters now properly consume fuel
+    - type: Fix
+      message: Branded lighters now properly deal damage
+    - type: Tweak
+      message: Space Ninjas now start with the Spider Clan Flippo
+    - type: Tweak
+      message: Added cautery functionality to all flippos (Regular lighter parity)
+  id: 1362
+  time: '2025-11-01T23:20:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1963
