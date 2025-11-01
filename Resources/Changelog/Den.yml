@@ -13934,3 +13934,20 @@ Entries:
   id: 1360
   time: '2025-11-01T16:22:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1855
+- author: ASaltySeabass
+  changes:
+    - type: Tweak
+      message: Jackboots are now functionally identical to combat boots
+    - type: Tweak
+      message: >-
+        The jackboots found in the security loadout options now start with a
+        combat knife in them
+    - type: Tweak
+      message: All security duty weapons now come initially loaded with lethal rounds
+    - type: Tweak
+      message: >-
+        Disablers no longer need to be researched to be made at the Security
+        Techfab
+  id: 1361
+  time: '2025-11-01T23:19:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1969
