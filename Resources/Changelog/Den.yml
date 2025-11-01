@@ -13871,3 +13871,12 @@ Entries:
   id: 1358
   time: '2025-10-30T19:04:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1972
+- author: KekaniCreates
+  changes:
+    - type: Fix
+      message: >-
+        Fixed a wrong Case for the paperwork which was causing Engineering to
+        not show up correctly. Fuck you, Linux.
+  id: 1359
+  time: '2025-11-01T01:48:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1975
