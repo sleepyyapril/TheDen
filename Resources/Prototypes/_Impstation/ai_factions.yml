@@ -14,7 +14,6 @@
     - Zombie
     - Revolutionary
     - Changeling
-    - Heretic
 
 - type: npcFaction
   id: Penguin
@@ -39,9 +38,6 @@
   - Xeno
   - Zombie
   - Revolutionary
-  - Wizard
-  - Xenoborg
   - Changeling
-  - Heretic
   - Dino
   - Penguin

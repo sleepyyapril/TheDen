@@ -77,15 +77,15 @@
 #     - WhichPhrase
 
 # Species
-- type: quickPhrase
-  id: ReplicatorOrganicPhrase
-  parent: [ BaseSubjectPhrase, BaseReplicatorPhrase ]
-  text: repli-phrase-species-organic
+# - type: quickPhrase
+#   id: ReplicatorOrganicPhrase
+#   parent: [ BaseSubjectPhrase, BaseReplicatorPhrase ]
+#   text: repli-phrase-species-organic
 
-- type: quickPhrase
-  id: ReplicatorSiliconPhrase
-  parent: [ BaseSubjectPhrase, BaseReplicatorPhrase ]
-  text: repli-phrase-species-silicon
+# - type: quickPhrase
+#   id: ReplicatorSiliconPhrase
+#   parent: [ BaseSubjectPhrase, BaseReplicatorPhrase ]
+#   text: repli-phrase-species-silicon
 
 # Laws
 - type: quickPhrase
@@ -104,7 +104,7 @@
   text: law-replicator-3
 
 # Pronouns
-- type: quickPhrase
-  id: WeArePhrase
-  parent: [ BaseSubjectPhrase, BaseReplicatorPhrase ]
-  text: phrase-we-are
+# - type: quickPhrase
+#   id: WeArePhrase
+#   parent: [ BaseSubjectPhrase, BaseReplicatorPhrase ]
+#   text: phrase-we-are
