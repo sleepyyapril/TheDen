@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 ASaltySeabass
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   id: MedkitCombatFilledBSO #Combat medical kit without the ephedrine syringe and with bloodpacks and a poison autoinjector instead.
   suffix: Blueshield, Filled
