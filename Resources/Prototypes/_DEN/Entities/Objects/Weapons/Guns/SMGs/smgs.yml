@@ -7,7 +7,7 @@
 
 - type: entity
   name: BRDI R-25
-  parent: [WeaponSubMachineGunBRDIR25, BaseCentcommContraband]
+  parent: [WeaponSubMachineGunBRDIR25, BaseBlueshieldOfficerContraband]
   id: WeaponSubMachineGunBRDIR25BSO
   description: An iconic weapon used by members of the Biesel Republic Foreign Legion. Repainted for Blueshield Officers.
   suffix: BSO # TheDen
@@ -25,3 +25,15 @@
   components:
     - type: StealTarget
       stealGroup: HoSAntiqueWeapon
+
+- type: entity
+  name: WT550
+  parent: [WeaponSubMachineGunWt550, BaseBlueshieldOfficerContraband]
+  id: WeaponSubMachineGunWt550BSO
+  description: An excellent SMG, produced by NanoTrasen's Small Arms Division. This one has been manufactured in the BSO's colors. Uses .35 auto ammo.
+  suffix: BSO
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/SMGs/wt550_BSO.rsi
+  - type: Clothing
+    sprite: _DEN/Objects/Weapons/Guns/SMGs/wt550_BSO.rsi

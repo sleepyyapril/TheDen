@@ -21,7 +21,13 @@
   id: ArachneEmotes
 
 - type: Tag
+  id: BRDIP_15 #BSO Webbing sprite
+
+- type: Tag
   id: Candy
+
+- type: Tag
+  id: Compactdefib #So that it works with CMO, Corpsman, and BSO webbings.
 
 - type: Tag
   id: CostumeItem
@@ -39,7 +45,13 @@
   id: Fish
 
 - type: Tag
+  id: MagazineBRDIP15
+
+- type: Tag
   id: OviniaEmotes
+
+- type: Tag
+  id: PulsePDW #BSO Webbing Sprite
 
 - type: Tag
   id: ResomiEmotes
