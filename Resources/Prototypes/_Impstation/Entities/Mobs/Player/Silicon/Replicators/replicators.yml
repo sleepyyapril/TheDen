@@ -189,7 +189,6 @@
   components:
   - type: Replicator
     queen: true
-  - type: VentCrawler # unique to queens at the moment, for stealth purposes
   - type: Sprite
     granularLayersRendering: true
     drawDepth: SmallMobs
@@ -226,6 +225,13 @@
         - SmallMobMask
         layer:
         - SmallMobLayer
+  # DEN
+  - type: ThermalVision
+    lightRadius: 7
+    color: "#d70aa0"
+  - type: NightVision # Den
+    color: "#d70aa0"
+  # DEN
 
 # Tier 1: These guys are mooks. They're vulnerable, bad at dragging, and don't do much damage, but they have a disabler ranged attack.
 - type: entity

@@ -244,8 +244,6 @@ public sealed class ReplicatorNestSystem : SharedReplicatorNestSystem
             if (upgraded is not { } upgradedNotNull)
                 return;
 
-            _movementMod.TryUpdateMovementSpeedModDuration(upgradedNotNull, "HoleDestroyedSlowdownStatusEffect", TimeSpan.FromSeconds(3), 0.8f);
-
             if (!_inventory.TryGetSlotEntity(upgradedNotNull, "pocket1", out var pocket1) || !TryComp<PinpointerComponent>(pocket1, out var pinpointer))
                 continue;
 

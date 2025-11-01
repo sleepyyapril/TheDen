@@ -31,11 +31,10 @@
   name: Downgrade (Replicator)
   description: Shed nanites. Reconfigure.
   components:
-  - type: Action
+  - type: InstantAction
     itemIconStyle: NoItem
     icon: _Impstation/Interface/Actions/replicator_level1.png
     useDelay: 20
-  - type: InstantAction
     event: !type:ReplicatorUpgradeActionEvent
       nextStage: MobReplicator
 
