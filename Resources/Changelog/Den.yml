@@ -13982,3 +13982,15 @@ Entries:
   id: 1364
   time: '2025-11-02T18:50:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1983
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        You can now pick a handheld mirror or a hair comb in loadouts. These are
+        literally just reskins of the barber scissors; they offer no benefit
+        over the scissors, but it might fit your character/roleplay better.
+    - type: Add
+      message: The wall mirror can now be constructed and deconstructed.
+  id: 1365
+  time: '2025-11-02T23:38:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1984
