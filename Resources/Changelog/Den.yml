@@ -13966,3 +13966,12 @@ Entries:
   id: 1362
   time: '2025-11-01T23:20:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1963
+- author: Impstation
+  changes:
+    - type: Add
+      message: Ported updated to the Replicators from Imp!
+    - type: Add
+      message: The Replicator Nest now heals Replicators within a 2 tile radius of it.
+  id: 1363
+  time: '2025-11-02T01:02:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1977
