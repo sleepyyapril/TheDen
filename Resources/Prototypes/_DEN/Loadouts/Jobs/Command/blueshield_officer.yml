@@ -88,7 +88,7 @@
         - BlueshieldOfficer
   items:
     - ClothingMaskGasBSOCombat
-  
+
 - type: loadout
   id: LoadoutBlueshieldTacticalGasMask
   category: JobsCommandBlueshieldOfficer
@@ -145,7 +145,7 @@
   guideEntry: SecurityWeapons
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutBlueshieldOfficerSecondary
+      group: LoadoutBlueshieldOfficerPrimary
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 18000 # 5 hours
