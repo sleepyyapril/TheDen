@@ -13975,3 +13975,10 @@ Entries:
   id: 1363
   time: '2025-11-02T01:02:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1977
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Fixed the Pulse PDW being miscategorised as a secondary weapon
+  id: 1364
+  time: '2025-11-02T18:50:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1983
