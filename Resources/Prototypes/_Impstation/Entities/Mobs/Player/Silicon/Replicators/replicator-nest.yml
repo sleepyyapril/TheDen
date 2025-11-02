@@ -25,6 +25,23 @@
       tags:
       - Cartridge
       - CartridgeMagnum
+      - Ectoplasm # causes problems for the revenant if they're consumed
+    preservationBlacklist: # delete stuff that passes this, even if it also passes the preservationWhitelist
+      components:
+      - SiliconLawBound
+    preservationWhitelist: # preserve stuff that passes this
+      components:
+      - HumanoidAppearance
+      - OnUseTimerTrigger
+      - StealTarget
+      - Mech
+    # DEN
+    nestHealingRange: 2
+    nestHealing:
+      groups:
+        Brute: -10
+        Burn: -10
+    # DEN
   - type: ThermalVisionImmune
   - type: StepTrigger
     requiredTriggeredSpeed: 0
@@ -66,7 +83,7 @@
       state: nest3unshaded
       shader: unshaded
       visible: false
-    - map: ["enum.ReplicatorNestVisuals.Level1Unshaded"] # this one last, so it always renders on top 
+    - map: ["enum.ReplicatorNestVisuals.Level1Unshaded"] # this one last, so it always renders on top
       state: nest1unshaded
       shader: unshaded
   - type: InteractionOutline

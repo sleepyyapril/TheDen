@@ -26,6 +26,19 @@
     popup: replicator-levelup-confirm
 
 - type: entity
+  id: ActionReplicatorUpgrade1
+  parent: BaseReplicatorLevelupAction
+  name: Downgrade (Replicator)
+  description: Shed nanites. Reconfigure.
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon: _Impstation/Interface/Actions/replicator_level1.png
+    useDelay: 20
+    event: !type:ReplicatorUpgradeActionEvent
+      nextStage: MobReplicator
+
+- type: entity
   id: ActionReplicatorUpgrade2
   parent: BaseReplicatorLevelupAction
   name: Upgrade (Deconstructor)
