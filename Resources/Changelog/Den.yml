@@ -14007,3 +14007,10 @@ Entries:
   id: 1366
   time: '2025-11-03T01:05:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1973
+- author: DoctorJado
+  changes:
+    - type: Add
+      message: Added new sounds for the AME.
+  id: 1367
+  time: '2025-11-03T04:22:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1985
