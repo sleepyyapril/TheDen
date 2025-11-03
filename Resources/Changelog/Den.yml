@@ -13994,3 +13994,16 @@ Entries:
   id: 1365
   time: '2025-11-02T23:38:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1984
+- author: Eightballll
+  changes:
+    - type: Tweak
+      message: The Songbird no longer gives the pomelustine effect
+    - type: Tweak
+      message: >-
+        Eggnog no longer gives the pomelustine effect, and is now slightly
+        alcoholic
+    - type: Tweak
+      message: Syndicate eggnog is now 3 times as alcoholic as it was previously
+  id: 1366
+  time: '2025-11-03T01:05:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1973
