@@ -88,7 +88,7 @@ public sealed class DCCVars
     /// How long to wait before checking for a captain after roundstart
     /// </summary>
     public static readonly CVarDef<TimeSpan> SpareIdAlertDelay =
-        CVarDef.Create("game.spare_id.alert_delay", TimeSpan.FromMinutes(15), CVar.SERVERONLY | CVar.ARCHIVE);
+        CVarDef.Create("game.spare_id.alert_delay", TimeSpan.FromMinutes(5), CVar.SERVERONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// Determines if the automatic spare ID process should automatically unlock the cabinet
