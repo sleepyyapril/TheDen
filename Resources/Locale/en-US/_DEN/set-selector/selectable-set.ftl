@@ -1,4 +1,9 @@
-﻿selectable-set-rcd-name = RCD
+# SPDX-FileCopyrightText: 2025 Falcon
+# SPDX-FileCopyrightText: 2025 Jakumba
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+selectable-set-rcd-name = RCD
 selectable-set-rcd-desc = Literally just a RCD
 
 selectable-set-rpd-name = RPD

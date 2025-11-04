@@ -1,4 +1,9 @@
-﻿# Selectable Set Example
+# SPDX-FileCopyrightText: 2025 Falcon
+# SPDX-FileCopyrightText: 2025 Jakumba
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Selectable Set Example
 - type: selectableSet
   id: RCDSelectorExample
   name: selectable-set-rcd-name
