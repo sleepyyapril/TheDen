@@ -14038,3 +14038,10 @@ Entries:
   id: 1370
   time: '2025-11-04T06:51:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1986
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Reduced the number of critters on "weak" vent critter events
+  id: 1371
+  time: '2025-11-04T16:18:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1992
