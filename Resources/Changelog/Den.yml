@@ -14061,3 +14061,10 @@ Entries:
   id: 1373
   time: '2025-11-04T17:15:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1990
+- author: Eightballll
+  changes:
+    - type: Tweak
+      message: Adjusted the Dark Oasis recipe to use 1u Cocoa instead of 3u.
+  id: 1374
+  time: '2025-11-04T17:15:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1989
