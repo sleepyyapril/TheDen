@@ -1,4 +1,8 @@
-﻿- type: constructionGraph # I HATE CONSTRUCTION GRAPHS !!!!!!!!!
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: constructionGraph # I HATE CONSTRUCTION GRAPHS !!!!!!!!!
   id: Wallpaper
   start: start
   graph:
