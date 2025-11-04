@@ -14052,3 +14052,12 @@ Entries:
   id: 1372
   time: '2025-11-04T17:14:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1991
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Added an ERT Janitor loadout kit
+    - type: Fix
+      message: Fixed the ERT Engineer repair toolkit loadout not being selectable
+  id: 1373
+  time: '2025-11-04T17:15:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1990
