@@ -14068,3 +14068,14 @@ Entries:
   id: 1374
   time: '2025-11-04T17:15:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1989
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: Added a few new phrases to the AAC tablet.
+    - type: Tweak
+      message: >-
+        The AAC tablet window now remembers where it was instead of always
+        opening in the center of your screen.
+  id: 1375
+  time: '2025-11-04T17:16:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1978
