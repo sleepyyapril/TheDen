@@ -14079,3 +14079,10 @@ Entries:
   id: 1375
   time: '2025-11-04T17:16:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1978
+- author: 'DeltaV '
+  changes:
+    - type: Fix
+      message: Fixed the spare ID locker not automatically unlocking.
+  id: 1376
+  time: '2025-11-04T18:34:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1993
