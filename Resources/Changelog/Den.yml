@@ -14045,3 +14045,10 @@ Entries:
   id: 1371
   time: '2025-11-04T16:18:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1992
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Removed admin access being applied to ID cards when microwaved.
+  id: 1372
+  time: '2025-11-04T17:14:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1991
