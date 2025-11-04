@@ -8,11 +8,81 @@
   },
   "states": [
     {
-      "name": "mining"
+      "name": "somber-carpet-inhand-left",
+      "directions": 4
     },
     {
-      "name": "mining-inhand-right",
+      "name": "somber-carpet-inhand-right",
       "directions": 4
+    },
+    {
+      "name": "somber-carpet"
+    },
+    {
+      "name": "somber-amaranth"
+    },
+    {
+      "name": "somber-amaranth-eye"
+    },
+    {
+      "name": "somber-eidolite-crystal"
+    },
+    {
+      "name": "somber-mnemolith-rough"
+    },
+    {
+      "name": "somber-mnemolith-smooth"
+    },
+    {
+      "name": "somber-tile"
+    },
+    {
+      "name": "somber-tile-banded-magenta"
+    },
+    {
+      "name": "somber-tile-banded-purple"
+    },
+    {
+      "name": "somber-tile-checkered-magenta"
+    },
+    {
+      "name": "somber-tile-checkered-purple"
+    },
+    {
+      "name": "somber-tile-diagonal"
+    },
+    {
+      "name": "somber-tile-diagonal-mini"
+    },
+    {
+      "name": "somber-tile-herringbone"
+    },
+    {
+      "name": "somber-tile-mini"
+    },
+    {
+      "name": "somber-tile-mono"
+    },
+    {
+      "name": "somber-tile-mono-eye"
+    },
+    {
+      "name": "somber-tile-offset"
+    },
+    {
+      "name": "somber-tile-pavement"
+    },
+    {
+      "name": "somber-tile-pavement-vertical"
+    },
+    {
+      "name": "somber-wood"
+    },
+    {
+      "name": "somber-wood-large"
+    },
+    {
+      "name": "somber-wood-pattern"
     }
   ]
 }
