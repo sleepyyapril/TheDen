@@ -14129,3 +14129,10 @@ Entries:
   id: 1380
   time: '2025-11-05T22:49:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1995
+- author: GreggTheFather
+  changes:
+    - type: Tweak
+      message: (ARENA) Comms Consoles and minor Logi tweaks
+  id: 1381
+  time: '2025-11-05T22:49:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1999
