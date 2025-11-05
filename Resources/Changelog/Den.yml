@@ -14086,3 +14086,18 @@ Entries:
   id: 1376
   time: '2025-11-04T18:34:57.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1993
+- author: KekaniCreates
+  changes:
+    - type: Add
+      message: >-
+        Added a Package of Office Paper for use **exclusively** to fill the
+        Document Printer.
+    - type: Add
+      message: >-
+        Added recipes for the Package of Office Paper and sheets of paper using
+        the **MATERIAL** paper in the Lathe.
+    - type: Tweak
+      message: Tweaked the paperwork stuff in Loadouts to be more uniform.
+  id: 1377
+  time: '2025-11-05T15:20:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1994
