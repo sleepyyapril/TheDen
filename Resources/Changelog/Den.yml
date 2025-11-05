@@ -14111,3 +14111,12 @@ Entries:
   id: 1378
   time: '2025-11-05T21:57:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1997
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        You can now take 1000 spesos in your loadouts!... on the Eternity
+        server. Coming Soon.
+  id: 1379
+  time: '2025-11-05T21:58:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1998
