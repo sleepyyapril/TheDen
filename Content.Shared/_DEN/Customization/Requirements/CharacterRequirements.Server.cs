@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 portfiend
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared._DEN.ServerContent;
 using Content.Shared.Customization.Systems;
 using Content.Shared.Customization.Systems._DEN;
