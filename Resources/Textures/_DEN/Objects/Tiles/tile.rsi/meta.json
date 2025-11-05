@@ -8,24 +8,13 @@
   },
   "states": [
     {
-      "name": "somber-carpet-inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "somber-carpet-inhand-right",
-      "directions": 4
-    },
-    {
-      "name": "somber-carpet"
-    },
-    {
       "name": "somber-amaranth"
     },
     {
       "name": "somber-amaranth-eye"
     },
     {
-      "name": "somber-eidolite-crystal"
+      "name": "somber-plasma"
     },
     {
       "name": "somber-mnemolith-rough"
