@@ -14101,3 +14101,13 @@ Entries:
   id: 1377
   time: '2025-11-05T15:20:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1994
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Mappers (and admins) can now spawn all-access variants of the Boxing
+        Drobe, ChefVend, Happy Honk Dispenser, Plasteel Chef, NutriMax, YouTool,
+        and the bar sign.
+  id: 1378
+  time: '2025-11-05T21:57:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1997
