@@ -97,7 +97,7 @@
   - type: Butcherable
     spawned:
     - id: Ectoplasm
-      amount: 1
+      amount: 5 # DEN
   - type: Prying
     pryPowered: true
     force: true
@@ -108,6 +108,12 @@
     drawOverlay: false
   - type: Targeting
   # DEN
+  - type: UniversalLanguageSpeaker
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    understands:
+    - TauCetiBasic
   - type: Puller
     needsHands: false
   - type: NoSlip
@@ -122,8 +128,6 @@
       - TelepathyPower
       - TelekineticPulsePower
       - NoosphericZapPower
-  - type: LanguageSpeaker
-  - type: UniversalLanguageSpeaker
   - type: RandomMetadata
     nameSegments:
     - NamesRevenantType
