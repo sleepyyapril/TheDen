@@ -12,11 +12,9 @@
     icon:
       sprite: Mobs/Ghosts/ghost_human.rsi
       state: icon
-  - type: RoleRequirement
-    roles:
-    - SkiaRole
   - type: KillPersonCondition
     requireDead: true
+
   - type: TargetObjective
     title: objective-condition-reap-soul-title
   - type: PickRandomPerson

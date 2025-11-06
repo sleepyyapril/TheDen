@@ -62,7 +62,7 @@
     name: ghost-role-information-paradox-anomaly-name
     description: ghost-role-information-paradox-anomaly-description
     rules: ghost-role-information-paradox-anomaly-rules
-    mindRoles: 
+    mindRoles:
     - MindRoleGhostRoleFreeAgent
   - type: ParadoxAnomalySpawner
   - type: Sprite
@@ -73,7 +73,7 @@
 - type: entity
   categories: [ HideSpawnMenu, Spawner ]
   parent: BaseAntagSpawner
-  id: SpawnPointSkia
+  id: SpawnPointGhostSkia
   name: skia spawn point
   components:
   - type: GhostRole
@@ -82,3 +82,13 @@
     rules: ghost-role-information-skia-rules
     mindRoles:
     - MindRoleSkia
+    raffle:
+      settings: short
+  - type: GhostRoleMobSpawner
+    prototype: MobSkia
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+      - state: green
+      - sprite: _DV/Mobs/Animals/skia.rsi
+        state: skia

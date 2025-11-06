@@ -4,7 +4,7 @@
   name: Skia Role
   components:
   - type: MindRole
-    roleType: TeamAntagonist
+    roleType: SoloAntagonist
     antagPrototype: Skia
     exclusiveAntag: true
   - type: SkiaRole
