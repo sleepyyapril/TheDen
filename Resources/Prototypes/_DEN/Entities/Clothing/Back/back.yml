@@ -195,7 +195,7 @@
 - type: entity
   parent: ClothingBackpackCoffinMantis
   id: ClothingBackpackCoffinMantisBasic # A version of the sarcophagus without the space for the extra items, if you want to map it
-  suffix: Basic
+  suffix: Mappable
   name: sarcophagus
   description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul chained psychics away for study, therapy, or interrogation."
   components:
