@@ -1,9 +1,20 @@
 # SPDX-FileCopyrightText: 2025 Eightballll
 # SPDX-FileCopyrightText: 2025 Tabitha
+# SPDX-FileCopyrightText: 2025 portfiend
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 flavor-complex-tirggel = crunchy
+
+## Candy
+flavor-complex-artificial-blue-raspbery = blue raspberry-flavored
+flavor-complex-artificial-grape = artificially grape-flavored
+flavor-complex-artificial-lime = artificially lime-flavored
+flavor-complex-artificial-bungo = artificially bungo-flavored
+flavor-complex-artificial-watermelon = artificially watermelon-flavored
+
+## Biological
+flavor-complex-intoxicating = intoxicating
 
 ## Basic drinks
 flavor-complex-jaegermister = like black licorice

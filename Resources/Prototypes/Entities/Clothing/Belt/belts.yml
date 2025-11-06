@@ -115,6 +115,7 @@
         - GPS
         - WeldingMask
         - RPD
+        - UtilityKnife
       components:
         - SprayPainter
         - NetworkConfigurator
@@ -199,6 +200,7 @@
         - Multitool
         - AppraisalTool
         - RPD
+        - UtilityKnife
       components:
         - SprayPainter
         - NetworkConfigurator
@@ -282,7 +284,11 @@
         whitelist:
           tags:
           - Sidearm
+        ejectSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_unholster.ogg
         insertOnInteract: true
+        insertSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_holster.ogg
   - type: ItemMapper # DeltaV - adjust for DeltaV sprites.
     mapLayers:
       baton:
@@ -592,7 +598,7 @@
   - type: Appearance
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: [ BaseSecurityContraband, ClothingBeltStorageBase ]
   id: ClothingBeltSecurity
   name: security belt
   description: Can hold security gear like handcuffs and flashes.
@@ -635,7 +641,11 @@
         whitelist:
           tags:
           - Sidearm
+        ejectSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_unholster.ogg
         insertOnInteract: true
+        insertSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_holster.ogg
       # DEN
       radio:
         name: clothing-belt-radio
@@ -755,7 +765,11 @@
         whitelist:
           tags:
           - Sidearm
+        ejectSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_unholster.ogg
         insertOnInteract: true
+        insertSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_holster.ogg
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
@@ -763,7 +777,7 @@
       holster: !type:ContainerSlot {}
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: [ ClothingBeltStorageBase, BaseRivalCompanyContraband ]
   id: ClothingBeltSyndieHolster
   name: syndicate shoulder holster
   description: A deep shoulder holster capable of holding many types of ballistics.
@@ -790,7 +804,11 @@
         whitelist:
           tags:
           - Sidearm
+        ejectSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_unholster.ogg
         insertOnInteract: true
+        insertSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_holster.ogg
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
@@ -913,7 +931,11 @@
         whitelist:
           tags:
           - Sidearm
+        ejectSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_unholster.ogg
         insertOnInteract: true
+        insertSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_holster.ogg
       jaunter:
         name: clothing-belt-jaunter
         priority: -2
@@ -992,7 +1014,11 @@
         whitelist:
           tags:
           - Sidearm
+        ejectSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_unholster.ogg
         insertOnInteract: true
+        insertSound: #Den edit
+          path: /Audio/_DEN/Weapons/pistol_holster.ogg
   - type: ItemMapper # DeltaV - adjust for DeltaV sprites.
     mapLayers:
       medkit:

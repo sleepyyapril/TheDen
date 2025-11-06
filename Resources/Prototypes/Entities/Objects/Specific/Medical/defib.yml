@@ -9,15 +9,18 @@
 # SPDX-FileCopyrightText: 2024 Skubman
 # SPDX-FileCopyrightText: 2024 deltanedas
 # SPDX-FileCopyrightText: 2024 themias
+# SPDX-FileCopyrightText: 2025 ASaltySeabass
 # SPDX-FileCopyrightText: 2025 Falcon
+# SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 Winter
+# SPDX-FileCopyrightText: 2025 phantasai
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity
   id: BaseDefibrillator
-  parent: BaseItem
+  parent: [ BaseMedicalContraband, BaseItem ]
   name: defibrillator
   description: CLEAR! Zzzzat!
   abstract: true
@@ -97,10 +100,10 @@
   suffix: One-Handed, Unpowered
 
 - type: entity
-  id: DefibrillatorCompact # This should be a research item at some point
+  id: DefibrillatorCompact
   parent: [ BaseDefibrillator, PowerCellSlotMediumItem ]
   name: compact defibrillator
-  description: Now in fun size!
+  description: ZZZAP! Now available in fun sizes!
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/defibsmall.rsi
@@ -125,10 +128,13 @@
     doAfterDuration: 6
   - type: DoAfter
   - type: UseDelay
+  - type: Tag #Den change for BSO/Corpsman/CMO rig compatability
+    tags:
+    - Compactdefib
 
 - type: entity
   id: DefibrillatorSyndicate
-  parent: DefibrillatorCompact
+  parent: [ BaseRivalCompanyContraband, DefibrillatorCompact ]
   name: interdyne defibrillator
   description: Doubles as a self-defense weapon against war-crime inclined tiders.
   components:

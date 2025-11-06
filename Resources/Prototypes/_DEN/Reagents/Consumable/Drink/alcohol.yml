@@ -1,4 +1,5 @@
 # SPDX-FileCopyrightText: 2025 Eightballll
+# SPDX-FileCopyrightText: 2025 TheOneTrueWolfio
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -385,6 +386,7 @@
           reagent: Pomelustine
           amount: 0.5
   fizziness: 0.25
+  noRandom: true #TheDen
 
 - type: reagent
   id: CafeCocktail
@@ -668,12 +670,8 @@
         - !type:ReagentThreshold
           reagent: Songbird
           min: 2
-      - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.25
   fizziness: 0.25
-  noRandom: true
-
+  
 - type: reagent
   id: TohokuBlaze
   name: reagent-name-tohokublaze
@@ -726,9 +724,6 @@
       effects:
       - !type:SatiateThirst
         factor: 2
-      - !type:AdjustReagent
-        reagent: Ethanol
-        amount: 0.125
       - !type:SatiateHunger
         conditions:
         - !type:OrganType
