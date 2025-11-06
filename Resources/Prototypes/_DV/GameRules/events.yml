@@ -96,10 +96,10 @@
     minimumPlayers: 20
     duration: null # Den
   - type: GlimmerEvent
-    minimumGlimmer: 600
+    minimumGlimmer: 250
     maximumGlimmer: 1000
-#  - type: PrecognitionResult
-#    message: psionic-power-precognition-skia-result-message
+  # - type: PrecognitionResult
+  #   message: psionic-power-precognition-skia-result-message
   - type: RandomSpawnRule
     prototype: SpawnPointGhostSkia
     stationExclusive: true

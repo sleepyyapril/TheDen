@@ -67,6 +67,12 @@
   - type: Insulated
   - type: LightReactive
     manual: true
+    # DEN
+    darkComponents:
+    - type: Stealth
+      minVisibility: 0.1
+      lastVisibility: 0.1
+    # DEN
   - type: LightLevelHealth
     darkThreshold: 0.3
     lightThreshold: 0.7

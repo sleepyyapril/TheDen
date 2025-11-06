@@ -1,4 +1,5 @@
 using Robust.Shared.GameStates;
+using Robust.Shared.Prototypes;
 
 namespace Content.Shared._DV.Light;
 
@@ -41,4 +42,11 @@ public sealed partial class LightReactiveComponent : Component
     /// </summary>
     [DataField]
     public float CurrentLightLevel = 0f;
+
+    /// DEN
+    /// <summary>
+    /// Components added when in the darkness.
+    /// </summary>
+    [DataField]
+    public ComponentRegistry DarkComponents = new();
 }
