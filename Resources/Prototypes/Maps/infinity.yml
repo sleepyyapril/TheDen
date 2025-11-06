@@ -22,7 +22,7 @@
   id: Infinity
   mapName: Infinity
   mapPath: /Maps/TheDen/infinity.yml
-  minPlayers: 15
+  minPlayers: 0
   maxPlayers: 70
   stations:
     Infinity:
@@ -34,7 +34,7 @@
         mapNameTemplate: '{0} Infinity {1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
-          prefixCreator: 'NY'
+          prefixCreator: 'NTTD'
       - type: StationJobs
         overflowJobs:
         - Passenger
