@@ -67,12 +67,6 @@
   - type: Insulated
   - type: LightReactive
     manual: true
-    # DEN
-    darkComponents:
-    - type: Stealth
-      minVisibility: 0.1
-      lastVisibility: 0.1
-    # DEN
   - type: LightLevelHealth
     darkThreshold: 0.3
     lightThreshold: 0.7
@@ -146,4 +140,11 @@
   - type: GlimmerSource
     glimmerPerSecond: 2
     glimmerExponentOffset: -5
+  - type: Stealth
+    minVisibility: -1
+    lastVisibility: 0.1
+# - type: BreakStealthOnAttack
+  - type: StealthOnMove
+    passiveVisibilityRate: -0.65
+    movementVisibilityRate: 0.575
   # DEN

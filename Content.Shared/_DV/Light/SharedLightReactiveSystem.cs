@@ -38,12 +38,6 @@ public abstract class SharedLightReactiveSystem : EntitySystem
                 continue; // Don't apply damage / healing if the mob is dead
             // Get the light level at the entity's position
             comp.CurrentLightLevel = GetLightLevelForPoint(uid);
-
-            // DEN - Add components in darkness
-            if (comp.CurrentLightLevel == 0)
-                EntityManager.AddComponents(uid, comp.DarkComponents);
-            else
-                EntityManager.RemoveComponents(uid, comp.DarkComponents);
         }
     }
 

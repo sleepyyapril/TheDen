@@ -42,11 +42,4 @@ public sealed partial class LightReactiveComponent : Component
     /// </summary>
     [DataField]
     public float CurrentLightLevel = 0f;
-
-    /// DEN
-    /// <summary>
-    /// Components added when in the darkness.
-    /// </summary>
-    [DataField]
-    public ComponentRegistry DarkComponents = new();
 }
