@@ -33,9 +33,6 @@
     sprite: _DV/Clothing/OuterClothing/Misc/skia_hoodie.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodSkiaHood
-  - type: Construction
-    graph: SkiaHoodie
-    node: skiaHoodie
   - type: Tag
     tags:
     - Hoodie
