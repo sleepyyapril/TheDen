@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ SimpleSpaceMobBase, MobCombat ]
+  parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
   id: MobSkia
   name: skia
   description: A shadow given form, lashing out at anything that comes too close.
@@ -120,7 +120,6 @@
     powersToAdd:
       - XenoglossyPower
       - TelepathyPower
-      - ShadeskipPower
       - TelekineticPulsePower
       - NoosphericZapPower
   - type: LanguageSpeaker
@@ -137,4 +136,8 @@
     sound: /Audio/_DV/Effects/creepyshriek.ogg
   - type: BreakLightsOnSpawn
     radius: 10
+  - type: Spectral
+  - type: GlimmerSource
+    glimmerPerSecond: 2
+    glimmerExponentOffset: -5
   # DEN
