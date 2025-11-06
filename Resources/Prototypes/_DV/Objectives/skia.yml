@@ -17,7 +17,7 @@
   - type: TargetObjective
     title: objective-condition-reap-soul-title
   - type: PickRandomPerson
-    onlyChoosableJobs: true
+    # onlyChoosableJobs: true
     objectiveType: TraitorKill #TheDen - for consent
   - type: RerollAfterCompletion
     rerollObjectivePrototype: SkiaReapObjective
