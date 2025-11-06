@@ -107,3 +107,34 @@
   - type: NightVision
     drawOverlay: false
   - type: Targeting
+  # DEN
+  - type: Puller
+    needsHands: false
+  - type: NoSlip
+  - type: Psionic
+    removable: false
+    roller: false
+    psychognomicDescriptors:
+      - p-descriptor-vampiric
+  - type: InnatePsionicPowers
+    powersToAdd:
+      - XenoglossyPower
+      - TelepathyPower
+      - ShadeskipPower
+      - TelekineticPulsePower
+      - NoosphericZapPower
+  - type: LanguageSpeaker
+  - type: UniversalLanguageSpeaker
+  - type: RandomMetadata
+    nameSegments:
+    - NamesRevenantType
+    - NamesRevenantAdjective
+    - NamesRevenantTheme
+  - type: NameIdentifier
+    group: GenericNumber
+  - type: GhostTakeoverAvailable
+  - type: EmitSoundOnSpawn
+    sound: /Audio/_DV/Effects/creepyshriek.ogg
+  - type: BreakLightsOnSpawn
+    radius: 10
+  # DEN
