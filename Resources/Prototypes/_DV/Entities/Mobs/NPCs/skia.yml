@@ -26,7 +26,7 @@
       120: Dead
   - type: Damageable
     damageContainer: ManifestedSpirit # Den - Let the Mantis get involved with these guys
-    damageModifierSet: Spirit # Den - keep extreme weakness to heat and bible
+    damageModifierSet: ManifestedSpirit # Den - keep extreme weakness to heat and bible
   - type: Armor
     modifiers:
       coefficients:
