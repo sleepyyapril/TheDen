@@ -1,0 +1,28 @@
+- type: entity
+  parent: BaseMaterialDoorNavMap
+  id: AmaranthDoor
+  name: amaranth door
+  description: "A door made of exotic, extremely durable hardwood. Also called purpleheart, or incorrectly, rosewood."
+  components:
+  - type: Door
+    openSound:
+      path: /Audio/Effects/door_open.ogg
+    closeSound:
+      path: /Audio/Effects/door_close.ogg
+  - type: Sprite
+    sprite: _DEN/Structures/Doors/MineralDoors/amaranth_door.rsi
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
+
+- type: entity
+  parent: BaseMaterialDoorNavMap
+  id: MnemolithDoor
+  name: mnemolith door
+  description: "A door made of mnemolith, a dark, glassy stone that forms during severe noospheric storms."
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Doors/MineralDoors/mnemolith_door.rsi
+    layers:
+    - state: closed
+      map: ["enum.DoorVisualLayers.Base"]
