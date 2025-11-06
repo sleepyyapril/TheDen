@@ -25,8 +25,8 @@
       0: Alive
       120: Dead
   - type: Damageable
-    damageModifierSet: ManifestedSpirit
-    damageContainer: BiologicalMetaphysical
+    damageContainer: ManifestedSpirit # Den - Let the Mantis get involved with these guys
+    damageModifierSet: Spirit # Den - keep extreme weakness to heat and bible
   - type: Armor
     modifiers:
       coefficients:
