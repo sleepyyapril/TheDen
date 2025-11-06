@@ -95,6 +95,9 @@
     reoccurrenceDelay: 30 # Den
     minimumPlayers: 20
     duration: null # Den
+  - type: GlimmerEvent
+    minimumGlimmer: 600
+    maximumGlimmer: 1000
 #  - type: PrecognitionResult
 #    message: psionic-power-precognition-skia-result-message
   - type: RandomSpawnRule
