@@ -14145,3 +14145,10 @@ Entries:
   id: 1382
   time: '2025-11-06T09:25:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2001
+- author: ASaltySeabass
+  changes:
+    - type: Tweak
+      message: Changed the stats of the Pulse PDW
+  id: 1383
+  time: '2025-11-07T20:07:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2007
