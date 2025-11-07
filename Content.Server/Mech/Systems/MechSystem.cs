@@ -262,17 +262,6 @@ public sealed partial class MechSystem : SharedMechSystem
             return;
         }
 
-        // Frontier - Make AI Attack mechs based on user.
-        if (TryComp<MobStateComponent>(args.User, out var _))
-            EnsureComp<MobStateComponent>(uid);
-        if (TryComp<NpcFactionMemberComponent>(args.User, out var faction))
-        {
-            var factionMech = EnsureComp<NpcFactionMemberComponent>(uid);
-            if (faction.Factions != null)
-                factionMech.Factions = faction.Factions;
-        }
-        // End Frontier
-
         TryInsert(uid, args.Args.User, component);
         _actionBlocker.UpdateCanMove(uid);
         args.Handled = true;
