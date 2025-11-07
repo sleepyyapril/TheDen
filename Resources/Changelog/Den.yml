@@ -14159,3 +14159,12 @@ Entries:
   id: 1384
   time: '2025-11-07T20:13:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1803
+- author: DoctorJado
+  changes:
+    - type: Add
+      message: Soy sauce bottle inhand sprite.
+    - type: Fix
+      message: Fixed Sinta'Unathi language prefix not appearing in chat.
+  id: 1385
+  time: '2025-11-07T20:14:43.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2006
