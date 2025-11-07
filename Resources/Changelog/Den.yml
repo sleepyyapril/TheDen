@@ -14152,3 +14152,10 @@ Entries:
   id: 1383
   time: '2025-11-07T20:07:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2007
+- author: crekulon
+  changes:
+    - type: Fix
+      message: You can now print reverse engineered bluespace parts!
+  id: 1384
+  time: '2025-11-07T20:13:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1803
