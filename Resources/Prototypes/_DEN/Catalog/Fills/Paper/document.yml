@@ -319,6 +319,14 @@
   - type: Paper
     content: doc-text-printer-certificate
 
+- type: entity
+  parent: PaperDyedEpi
+  id: PrintedDocumentMechReport
+  name: Mech Declaration Report
+  components:
+  - type: Paper
+    content: doc-text-mech-report
+
 # Engineering Papers
 - type: entity
   parent: Paper
@@ -348,6 +356,14 @@
   components:
   - type: Paper
     content: doc-text-printer-condition-report
+
+- type: entity
+  parent: PaperDyedEngi
+  id: PrintedDocumentRepairBill
+  name: Repair Bill
+  components:
+  - type: Paper
+    content: doc-text-printer-repair-bill
 
 - type: entity
   parent: PaperDyedEngi
@@ -452,6 +468,22 @@
   components:
   - type: Paper
     content: doc-text-medical-receipt
+
+- type: entity
+  parent: PaperDyedMed
+  id: PrintedDocumentChemicalRequestForm
+  name: Chemical Request Form
+  components:
+  - type: Paper
+    content: doc-text-chemical-request-form
+
+- type: entity
+  parent: PaperDyedMed
+  id: PrintedDocumentCloningReceipt
+  name: Cloning Receipt
+  components:
+  - type: Paper
+    content: doc-text-cloning-receipt
 
 # Cargo Papers
 - type: entity
@@ -666,3 +698,68 @@
   components:
   - type: Paper
     content: doc-text-printer-letter
+
+# Service Papers
+- type: entity
+  parent: Paper
+  id: PaperDyedService
+  suffix: service
+  components:
+  - type: PaperLabelType
+    paperType: Service
+  - type: PaperVisuals
+    backgroundModulate: "#B3DBAD"
+    headerImagePath: "/Textures/_DEN/Interface/Paper/service.png"
+    headerMargin: 0.0, 12.0, 0.0, 0.0
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper
+      color: "#B3DBAD"
+    - state: paper_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      color: "#B3DBAD"
+      visible: false
+    - state: paper_stamp-generic
+      map: ["enum.PaperVisualLayers.Stamp"]
+      visible: false
+
+- type: entity
+  parent: PaperDyedService
+  id: PrintedDocumentJanitorialComplaintForm
+  name: Janitorial Complaint Form
+  components:
+  - type: Paper
+    content: doc-text-printer-janitorial-complaint-form
+
+- type: entity
+  parent: PaperDyedService
+  id: PrintedDocumentJanitorialReport
+  name: Janitorial Report
+  components:
+  - type: Paper
+    content: doc-text-printer-janitorial-report
+
+- type: entity
+  parent: PaperDyedService
+  id: PrintedDocumentPrankConsentForm
+  name: Clown Prank Consent Form
+  components:
+  - type: Paper
+    content: doc-text-printer-prank-consent-form
+
+- type: entity
+  parent: PaperDyedService
+  id: PrintedDocumentBotanyRequestForm
+  name: Botany Request Form
+  components:
+  - type: Paper
+    content: doc-text-printer-botany-request-form
+
+- type: entity
+  parent: PaperDyedService
+  id: PrintedDocumentFoodAndBeveragesMenu
+  name: Food and Beverages Menu
+  components:
+  - type: Paper
+    content: doc-text-printer-food-and-beverages-menu
