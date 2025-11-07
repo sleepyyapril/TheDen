@@ -41,7 +41,7 @@
       components:
         - AnomalyScanner
         - NodeScanner
-        - Flash # Ideally more for flashing anomalies than psychics since they aren't security
+        - Flash # Ideally more for flashing anomalies than psions since they aren't security
   - type: ItemSlots # TheDen - It has a sheath for their melee weapon
     slots:
       mantisknifeslot:

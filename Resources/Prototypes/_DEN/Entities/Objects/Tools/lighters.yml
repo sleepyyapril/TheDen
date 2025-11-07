@@ -60,13 +60,13 @@
   - type: ItemToggleMeleeWeapon
     activatedDamage:
       types:
-          Heat: 1.6 # 1.6 DPS, or 2 DPS against psychics
+          Heat: 1.6 # 1.6 DPS, or 2 DPS against psions
           Holy: 0.8 # 3 total DPS against supernaturals
   - type: MeleeWeapon
     wideAnimationRotation: -90
     damage:
       types:
-        Blunt: 1.6 # 1.6 DPS, or 2 DPS against psychics
+        Blunt: 1.6 # 1.6 DPS, or 2 DPS against psions
         Holy: 0.8 # 3 total DPS against supernaturals
   - type: Tag
     tags:

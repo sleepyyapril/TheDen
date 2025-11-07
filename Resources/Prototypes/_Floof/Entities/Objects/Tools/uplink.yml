@@ -8,7 +8,7 @@
   name: Cryptobiolin injector
   id: CryptobiolinInjector
   parent: ChemicalMedipen
-  description: Made by SESWC. This item is prefilled with 20u of Cryptobiolin to help you get rid of those pesky psionic weirdo's.
+  description: This item is prefilled with 20u of cryptobiolin, which will temporarily disable psionic abilities.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi

@@ -3,18 +3,16 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-# "funny" placeholders of extremely minor/non-crimes for wanted reason dialog
+# TheDen - Updated placeholders of psionic events that might be noted in the registry
 - type: dataset
   id: PsionicsRecordsRecordsPlaceholders
   values:
-  - Mindswapped with a rat two billion times
-  - Ascended into the telepathic realm with mind control
-  - Mind controlled a clown to punch himself
-  - Mind controlled a mime to speak
-  - Mind controlled the captain to say bad words on the intercom
-  - Pissed off the entity within the oracle
-  - Became a psionic
-  - Usurped the throne
-  - Mindswapped the mantis with a shoe
-  - Drew vulgar stick figures in the chaplain's bible
-  - Revivified a cockroach
+  - Accidentally mindswapped with a mouse
+  - Performed astral projection to haunt a crewmember
+  - Seemingly mind-controlled a clown to punch themself
+  - Communicated with the entity within the Oracle
+  - Bent a spoon with their mind
+  - Caused dice to always land in their favor
+  - Seemed to know everyone's hands in a card game
+  - Served as a conduit for noospheric voices
+  - Revivified a pet cockroach

@@ -29,8 +29,8 @@
     heavyStaminaCost: 2
     heavyDamageBaseModifier: 1.05
     damage:
-      types: # Same DPS as CombatKnife against psychics (25% less than AntiPsychicKnife and AntiPsychicCane due to its utility)
-        Blunt: 8 # 12 DPS, or 15 DPS against psychics
+      types: # Same DPS as CombatKnife against psions (25% less than AntiPsychicKnife and AntiPsychicCane due to its utility)
+        Blunt: 8 # 12 DPS, or 15 DPS against psions
         Holy: 4 # 22.5 total DPS against supernaturals
     soundHit:
       path: /Audio/_Impstation/Weapons/nullglove.ogg
@@ -70,8 +70,8 @@
     sprite: _DEN/Objects/Weapons/Melee/mantisfistdouble.rsi
   - type: MeleeWeapon
     damage:
-      types: # Same DPS as CombatKnife against nonpsychics (same as AntiPsychicKnife and AntiPsychicCane)
-        Slash: 10 # 15 DPS, or 18.75 DPS against psychics
+      types: # Same DPS as CombatKnife against nonpsions (same as AntiPsychicKnife and AntiPsychicCane)
+        Slash: 10 # 15 DPS, or 18.75 DPS against psions
         Holy: 5 # 28.13 total DPS against supernaturals
   - type: MeleeThrowOnHit
     speed: 20

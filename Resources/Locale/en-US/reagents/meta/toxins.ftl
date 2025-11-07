@@ -57,7 +57,7 @@ reagent-name-lexorin = lexorin
 reagent-desc-lexorin = A fast-acting chemical used to asphyxiate people rapidly.
 
 reagent-name-mindbreaker-toxin = mindbreaker toxin
-reagent-desc-mindbreaker-toxin = A potent, brain damaging poison that can remove psionics.
+reagent-desc-mindbreaker-toxin = A potent, brain-damaging poison that can remove psionic abilities.
 
 reagent-name-histamine = histamine
 reagent-desc-histamine = A chemical caused by allergenics reacting with antibodies. Lethal at large quantities.
@@ -105,7 +105,7 @@ reagent-name-soulbreaker-toxin = soulbreaker toxin
 reagent-desc-soulbreaker-toxin = An anti-psionic about four times as powerful as mindbreaker toxin.
 
 reagent-name-lotophagoi-oil = lotophagoi oil
-reagent-desc-lotophagoi-oil = A super potent drug that is much better at inducing psionics than normal hallucinogens, but with worse side effects.
+reagent-desc-lotophagoi-oil = An extremely potent drug that is much better at inducing psionics than normal hallucinogens, but with worse side effects.
 
 reagent-name-ectoplasm = ectoplasm
 reagent-desc-ectoplasm = The physical component of semi-corporeal spirits.

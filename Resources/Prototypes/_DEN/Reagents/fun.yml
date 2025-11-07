@@ -1,5 +1,5 @@
 - type: reagent
-  id: MnemolithReagent # The stone that anti-psychic weapons are made of, as powder in a suspension
+  id: MnemolithReagent # The stone that anti-psion weapons are made of, as powder in a suspension
   name: reagent-name-mnemolith # Be careful if you give it a mechanical purpose, though, since the mantis items (cigarettes, pills, folder pages, etc.) contain a lot of it
   group: Medicine
   slippery: false

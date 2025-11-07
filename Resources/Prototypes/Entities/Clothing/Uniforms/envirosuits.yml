@@ -932,7 +932,7 @@
   parent: ClothingUniformEnvirosuitCustomBase
   id: ClothingUniformEnvirosuitMantis
   name: mantis envirosuit
-  description: Monitor the psychics from the safety of this envirosuit.
+  description: Monitor the psions from the safety of this envirosuit.
   components:
   - type: Sprite # TheDen - Colors updated to match the new mantis uniforms
     layers:

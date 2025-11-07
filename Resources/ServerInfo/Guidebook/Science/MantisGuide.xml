@@ -5,16 +5,18 @@ SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.
 SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 -->
 
+<!-- TODO: REWRITE THIS WHOLE GOD DAMN THING. -->
+
 <Document>
 ## Mantis
 
-"Ah felt tha change in tha air, in tha noosphere. One ae ya be hidin' something frae me." ─Alice Maranna, former Psionic Mantis
+"Ah felt tha change in tha air, in tha noosphere. One ae ya be hidin' something frae me." ─Alice Maranna, Former Mantis
 
 <GuideEntityEmbed Entity="AntiPsychicKnife"/>
 
 
-The Psionic Mantis is the Psionic Detective of the Epistemic Cult, they serve the station as the primary method of dealing with processing and in some cases, destroying psionic entities, mentally, or by physical means.
-This role is equipped to study and interact with the various psychic phenomena in our galaxy, you will be tasked with finding Psionic crew members with the assay and metapsionic pulse abilities, piercing the veil and seeing what lays under the soul, this ability will grant you esoteric information as to the psionic powers and perhaps other traits that the person may have. Study these results, and form an understanding of what each whisper means, log these powers in the psionic registry to allow for easy identification of psionics, and those who may abuse them. Remember, [color=#ff0000] mindbreaking is a last resort [/color], insulating headcages, temporary disabling of psionic abilities via Cryptobiolin are recommended for holding of psionics who have used their abilities irresponsibly or criminally.
+The Mantis is the Psionic Detective of the Epistemic Cult, they serve the station as the primary method of dealing with processing and in some cases, destroying psionic entities, mentally, or by physical means.
+This role is equipped to study and interact with the various psionic phenomena in our galaxy, you will be tasked with finding Psionic crew members with the assay and metapsionic pulse abilities, piercing the veil and seeing what lays under the soul, this ability will grant you esoteric information as to the psionic powers and perhaps other traits that the person may have. Study these results, and form an understanding of what each whisper means, log these powers in the psion registry to allow for easy identification of psionics, and those who may abuse them. Remember, [color=#ff0000] mindbreaking is a last resort [/color], insulating headcages, temporary disabling of psionic abilities via Cryptobiolin are recommended for holding of psionics who have used their abilities irresponsibly or criminally.
 
 ## Loadout and Abilities
 
@@ -23,7 +25,7 @@ This role is equipped to study and interact with the various psychic phenomena i
 
 In your loadout is a small selection of items to aid you in your task:
 -Your jacket, a lightly armoured jacket with some pockets for item storage.
--The Anti Psionic Knife: a specially attuned knife for specifically killing psionics and noospheric threats, be warned, you will be stunned and harmed if you attempt to use it on a non psychic entity.
+-The Anti Psionic Knife: a specially attuned knife for specifically killing psionics and noospheric threats, be warned, you will be stunned and harmed if you attempt to use it on a nonpsionic entity.
 -Psi-Breaker .38 Special handgun: a flashy, compact handgun that comes pre-loaded with mindbreaker bullets, use these wisely as you can only get more from security alongside their respective technology. THESE WILL CAUSE PERMANENT MINDBREAKING, DO NOT USE UNLESS ABSOLUTELY NECESSARY.
 -Mindbreaker toxin: A substance devised by the Epistemic Cult to combat those maddened by the power of psionics, and in general, those who would use them for nefarious purposes. This substance damages receptors in the ingested person's brain that allow for psionic manipulation, in some cases, this will leave the person in a comatose state alongside removal of psionic abilities (check server maintainers to see if scary mindbreaking is enabled or not)
 Optional loadout options:
@@ -39,7 +41,7 @@ Furthermore, you will start trained in three abilities:
 
 Other things you can do while not chasing psionics and documenting them:
 -Securing lotophagoi oil in a chem master in either your or the Mystagogue’s office. The substance is incredibly effective at unlocking psionic potential and as such, is highly valuable for those seeking to misuse it.
--Assist in research, you aren’t just the psychic police, you’re a researcher too.
+-Assist in research, you aren’t just the psionic police, you’re a researcher too.
 -Discuss with the chaplain about how the oracle works.
 -Argue with people that epistemology is a real science field and not pseudoscience. Cry as no one outside epistemics believes you.
 -Lead, though not officially, due to your abilities and items afforded to you, you are often seen as the “warden of epistemics”, you are not officially the second in command of epistemics, but you are often the first choice to be a standing mystagogue if there is not one present, the original was removed of their position via: being irrecoverable, demotion or some other method. For this reason you should be willing to cooperate with other departments in a manner your boss would, primarily security.

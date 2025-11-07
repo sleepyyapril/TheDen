@@ -212,8 +212,8 @@
       params:
         variation: 0.05
     activatedDamage:
-        types: # Same DPS as CombatKnife against nonpsychics
-          Pierce: 10 # 15 DPS, or 18.75 DPS against psychics
+        types: # Same DPS as CombatKnife against nonpsions
+          Pierce: 10 # 15 DPS, or 18.75 DPS against psions
           Holy: 5 # 28.13 total DPS against supernaturals
   - type: MeleeWeapon
     attackRate: .6666

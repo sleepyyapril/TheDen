@@ -125,7 +125,7 @@
   parent: [BoxFolderFireproof, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
   id: BoxFolderMantis
   name: mantis ledger
-  description: "A foreboding folder designed to document the station's psychics. Fireproof, immune to scrying, and carrying a special pen."
+  description: "A foreboding folder designed to document the station's psions. Fireproof, immune to scrying, and carrying a special pen."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Misc/bureaucracy.rsi
@@ -173,7 +173,7 @@
     - 2,2,2,2
     - 4,2,4,2
   - type: StorageFill
-    contents: # Contains 20 mantis papers you can use to write down names of psychics, or warnings, or psychic therapy notes or whatever, with the stamp in the center
+    contents: # Contains 20 mantis papers you can use to write down names of psions, or warnings, or psionic therapy notes or whatever, with the stamp in the center
       - id: PaperMantis
         amount: 10
       - id: RubberStampMantis
@@ -200,8 +200,8 @@
   - type: LandAtCursor
   - type: DamageOtherOnHit
     damage:
-      types: # Thrown damage (but you'll get it thrown back at you, and you're psychic)
-        Piercing: 6.4 # 8 damage against psychics
+      types: # Thrown damage (but you'll get it thrown back at you, and you're psionic)
+        Piercing: 6.4 # 8 damage against psions
         Holy: 3.2 # 12 total damage against supernaturals
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
@@ -218,7 +218,7 @@
       path: /Audio/Weapons/bladeslice.ogg
     damage:
       types: # Melee damage (intended more for roleplay than serious combat)
-        Piercing: 1.6 # 2.4 DPS, or 3 DPS against psychics
+        Piercing: 1.6 # 2.4 DPS, or 3 DPS against psions
         Holy: 0.8 # 4.5 total DPS against supernaturals
   - type: StaminaDamageOnHit
     damage: 0
@@ -320,7 +320,7 @@
     - type: DamageOtherOnHit
       damage:
         types: # Thrown damage (paper cut)
-          Slash: 0.8 # 1 damage against psychics
+          Slash: 0.8 # 1 damage against psions
           Holy: 0.8 # 2 total damage against supernaturals
     - type: EmbeddableProjectile
       sound: /Audio/Weapons/pierce.ogg # Just a dull thunk since it does almost no damage

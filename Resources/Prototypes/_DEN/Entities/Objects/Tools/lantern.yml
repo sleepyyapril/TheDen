@@ -89,6 +89,6 @@
         path: /Audio/Weapons/block_metal1.ogg
       damage:
         types: # Melee damage
-          Blunt: 4.8 # 4.8 DPS, or 6 DPS against psychics
+          Blunt: 4.8 # 4.8 DPS, or 6 DPS against psions
           Holy: 2.4 # 9 total DPS against supernaturals
       wideAnimationRotation: 0

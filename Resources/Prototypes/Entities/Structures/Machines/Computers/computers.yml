@@ -571,8 +571,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerPsionicsRecords
-  name: psionics registry computer
-  description: This can be used to check psionics registry records. Only epistemics can modify them.
+  name: psion registry computer # TheDen - Standardizing "psion" to mean people, and "psionic" to be an adjective
+  description: This can be used to check psion registry records. Only Epistemics can modify them. # TheDen
   components:
   - type: PsionicsRecordsConsole
   - type: UserInterface
@@ -606,7 +606,7 @@
       - [ Mantis ]
       - [ ResearchDirector ]
   # - type: GuideHelp
-    # guides: # TODO: Add a guide for Psionics Registry
+    # guides: # TODO: Add a guide for Psion Registry
 
 - type: entity
   parent: BaseComputerAiAccess

@@ -202,7 +202,7 @@
   parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
   id: PillCanisterMnemolithMantis
   suffix: mnemolith, 10 # Just an RP drug, so there can be ten of them
-  description: "Powdered and pressed mnemolith, used by psionic mantes to heighten their extrasensory perception. Potential psychological impact aside, there are no known lasting effects."
+  description: "Powdered and pressed mnemolith, used by mantes to heighten their extrasensory perception. Potential psychological impact aside, there are no known lasting effects."
   components:
   - type: Label
     currentLabel: mnemolith 10u
@@ -221,7 +221,7 @@
   suffix: mnemolith 10u
   parent: Pill
   id: PillMnemolith
-  description: "Powdered and pressed mnemolith, used by psionic mantes to heighten their extrasensory perception. Potential psychological impact aside, there are no known lasting effects."
+  description: "Powdered and pressed mnemolith, used by mantes to heighten their extrasensory perception. Potential psychological impact aside, there are no known lasting effects."
   components:
   - type: Label
     currentLabel: mnemolith 10u
