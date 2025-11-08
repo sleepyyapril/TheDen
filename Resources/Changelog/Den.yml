@@ -14240,3 +14240,10 @@ Entries:
   id: 1393
   time: '2025-11-07T20:14:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2005
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Fixed the infamous dual tail bug.
+  id: 1394
+  time: '2025-11-08T23:28:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2015
