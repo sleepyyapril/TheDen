@@ -211,15 +211,6 @@ public sealed class MechGrabberSystem : EntitySystem
         if (!_mech.TryChangeEnergy(equipmentComponent.EquipmentOwner.Value, component.GrabEnergyDelta))
             return;
 
-        // Frontier: Remove people from chairs and containers
-        if (TryComp<StrapComponent>(args.Args.Target, out var strapComp) && strapComp.BuckledEntities != null)
-        {
-            foreach (var buckleUid in strapComp.BuckledEntities)
-            {
-                _buckle.Unbuckle(buckleUid, args.Args.User);
-            }
-        }
-
         // Remove contained humanoids
         // TODO: revise condition for "generic player entities"
         if (TryComp<ContainerManagerComponent>(args.Args.Target, out var containerManager))
