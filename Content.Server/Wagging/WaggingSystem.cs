@@ -1,3 +1,11 @@
+// SPDX-FileCopyrightText: 2024 ArchPigeon
+// SPDX-FileCopyrightText: 2024 FoxxoTrystan
+// SPDX-FileCopyrightText: 2024 Krunklehorn
+// SPDX-FileCopyrightText: 2024 Morb
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Server.Actions;
 using Content.Server.Humanoid;
 using Content.Shared.Humanoid;
