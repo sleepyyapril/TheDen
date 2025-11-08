@@ -1041,7 +1041,7 @@ entities:
         17:
         - - Pressed
           - Toggle
-- proto: MechEmuCargoSpawner
+- proto: SpawnMechEMU
   entities:
   - uid: 211
     components:

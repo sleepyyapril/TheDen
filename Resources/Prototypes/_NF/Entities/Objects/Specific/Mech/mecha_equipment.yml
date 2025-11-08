@@ -15,7 +15,6 @@
     grabEnergyDelta: -20
     whitelist:
       components:
-      - TradeCrate
       - NFCrate
   - type: UIFragment
     ui: !type:MechGrabberUi
