@@ -14175,3 +14175,12 @@ Entries:
   id: 1386
   time: '2025-11-08T01:54:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2009
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Added a server browser to the lobby. You can now switch to your favorite
+        server from the lobby screen!
+  id: 1387
+  time: '2025-11-08T02:40:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2004
