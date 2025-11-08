@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Whatstone
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Rounding;
 using Content.Shared.Storage;
 using Content.Shared.Storage.Components;

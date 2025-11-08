@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Whatstone
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - files: ["mechstep.ogg"]
   license: "CC-BY-SA-3.0"
   copyright: 'tgstation'
