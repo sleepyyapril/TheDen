@@ -37,3 +37,7 @@ job-name-alternate-senior-life-support-technician = Senior Life Support Technici
 job-name-alternate-senior-hull-specialist = Senior Hull Specialist
 job-name-alternate-senior-gas-refinement-specialist = Senior Gas Refinement Specialist
 job-name-alternate-senior-plasma-specialist = Senior Plasma Specialist
+
+# Chief Engineer
+job-name-alternate-chief-architect = Chief Architect
+job-name-alternate-senior-director-of-engineering = Senior Director of Engineering

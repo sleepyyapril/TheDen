@@ -48,3 +48,10 @@
   - job-name-alternate-junior-engineer
   - job-name-alternate-junior-technician
   - job-name-alternate-engineering-apprentice
+
+- type: alternateJobTitle
+  id: DefaultChiefEngineer
+  jobId: ChiefEngineer
+  titles:
+  - job-name-alternate-chief-architect
+  - job-name-alternate-senior-director-of-engineering
