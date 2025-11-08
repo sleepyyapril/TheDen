@@ -14197,3 +14197,10 @@ Entries:
   id: 1388
   time: '2025-11-08T03:06:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2010
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Hats can now be butchered for cloth
+  id: 1389
+  time: '2025-11-08T03:09:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2003
