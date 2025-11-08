@@ -14209,3 +14209,12 @@ Entries:
   id: 1390
   time: '2025-11-08T05:17:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1996
+- author: Stegomancer
+  changes:
+    - type: Add
+      message: >-
+        Added Bull horns, Cow ears and Bovine snout to Ovinia and Cow tail to
+        Oni
+  id: 1391
+  time: '2025-11-08T05:37:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2008
