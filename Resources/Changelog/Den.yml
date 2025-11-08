@@ -14184,3 +14184,16 @@ Entries:
   id: 1387
   time: '2025-11-08T02:40:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2004
+- author: Jakumba
+  changes:
+    - type: Add
+      message: >-
+        Added the EMU Powerloader, coming soon to a logistics department near
+        you!
+    - type: Add
+      message: Added the Crate Rack, a modular storage system for cargo crates!
+    - type: Tweak
+      message: Updated the Cargo Shuttle.
+  id: 1388
+  time: '2025-11-08T03:06:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2010
