@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/9bebd81ae0b0a7f952b59886a765c681205de31f, edited by Sha-Seng (GitHub)",
+  "license": "CC-BY-SA-4.0",
+  "copyright": "By Sha-Seng (GitHub)",
   "size": {
     "x": 32,
     "y": 32

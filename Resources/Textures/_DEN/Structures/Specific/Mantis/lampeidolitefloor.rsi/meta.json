@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "license": "CC-BY-NC-SA-3.0",
+  "license": "CC-BY-SA-4.0",
   "copyright": "By Sha-Seng (GitHub)",
   "size": {
     "x": 32,
@@ -8,8 +8,10 @@
   },
   "states": [
     {
-      "name": "heretictrophy",
-      "directions": 4
+      "name": "base"
+    },
+    {
+      "name": "glow"
     }
   ]
 }

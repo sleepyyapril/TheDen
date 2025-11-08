@@ -1,0 +1,30 @@
+- type: entity
+  parent: OfficeChairBase
+  id: SomberFloorCushion
+  name: floor cushion
+  description: "A firm pillow to sit on, useful for meditation."
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Furniture/chairs.rsi
+    state: floorcushion
+
+# TODO: DELETE THE BELOW
+#Starts unanchored, cannot be rotated while anchored
+- type: entity
+  name: chair
+  id: UnanchoredChairBase
+  parent: SeatBase
+  abstract: true
+  components:
+  - type: Anchorable
+  - type: Rotatable
+
+#Starts unanchored, can be rotated while anchored
+- type: entity
+  name: chair
+  id: OfficeChairBase
+  parent: UnanchoredChairBase
+  abstract: true
+  components:
+  - type: Rotatable
+    rotateWhileAnchored: true

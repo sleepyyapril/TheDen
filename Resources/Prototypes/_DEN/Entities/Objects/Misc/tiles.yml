@@ -259,6 +259,17 @@
       - FloorSomberMnemolithRough
   - type: Stack
     stackType: FloorTileSomberMnemolithRough
+  - type: DamageOtherOnHit # Well, it is made of mnemolith...
+    damage:
+      types:
+        Blunt: 9.5 # 11.88 damage against psions
+        Holy: 4.75 # 17.81 total damage against supernaturals
+  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
+    punish: false
+    modifiers:
+      coefficients:
+        Blunt: 1.25
+        Holy: 1.25
 
 - type: entity
   parent: FloorTileItemSomberSteel
@@ -273,6 +284,17 @@
       - FloorSomberMnemolithSmooth
   - type: Stack
     stackType: FloorTileSomberMnemolithSmooth
+  - type: DamageOtherOnHit # Well, it is made of mnemolith...
+    damage:
+      types:
+        Blunt: 9.5 # 11.88 damage against psions
+        Holy: 4.75 # 17.81 total damage against supernaturals
+  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
+    punish: false
+    modifiers:
+      coefficients:
+        Blunt: 1.25
+        Holy: 1.25
 
 - type: entity
   parent: FloorTileItemSomberSteel

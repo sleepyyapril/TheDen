@@ -1,9 +1,0 @@
-- type: entity
-  parent: BaseSignDirectional
-  id: WallDectorHereticTrophy
-  name: grim trophy
-  description: "Fragments of a shattered, otherworldly blade, mounted as a trophy. The engraving reads, \"Thus end all who seek the place beyond.\""
-  components:
-  - type: Sprite
-    sprite: _DEN/Structures/Wallmounts/walldecor.rsi
-    state: heretictrophy

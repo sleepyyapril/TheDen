@@ -1,0 +1,29 @@
+- type: entity
+  parent: BaseSignDirectional
+  id: WallDectorSomberEye
+  name: electrum eye
+  description: "An electrum eye, symbolizing the mind, decorated with magenta tassles."
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Wallmounts/walldecor.rsi
+    state: eye
+
+- type: entity
+  parent: BaseSignDirectional
+  id: WallDectorSomberHereticTrophy
+  name: mantis's trophy
+  description: "Fragments of a shattered, otherworldly blade, mounted as a trophy. The plaque reads, \"Thus end all who seek the places beyond.\""
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Wallmounts/walldecor.rsi
+    state: heretictrophy
+
+- type: entity
+  parent: BaseSignDirectional
+  id: WallDectorSomberPsi
+  name: electrum psi
+  description: "A Greek psi, symbolizing the noosphere and the mantis that watches over it, made of electrum."
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Wallmounts/walldecor.rsi
+    state: psi

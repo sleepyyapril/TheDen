@@ -3,6 +3,12 @@
   id: FloorSomberAmaranth
   name: tiles-somber-amaranth
   sprite: /Textures/_DEN/Tiles/somber-amaranth.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -15,6 +21,12 @@
   id: FloorSomberAmaranthEye
   name: tiles-somber-amaranth-eye
   sprite: /Textures/_DEN/Tiles/somber-amaranth-eye.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -27,6 +39,12 @@
   id: FloorSomberMnemolithRough
   name: tiles-somber-mnemolith-rough
   sprite: /Textures/_DEN/Tiles/somber-mnemolith-rough.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -39,6 +57,12 @@
   id: FloorSomberMnemolithSmooth
   name: tiles-somber-mnemolith-smooth
   sprite: /Textures/_DEN/Tiles/somber-mnemolith-smooth.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -87,6 +111,12 @@
   id: FloorSomberSteel
   name: tiles-somber-steel-floor
   sprite: /Textures/_DEN/Tiles/somber-tile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -99,6 +129,12 @@
   id: FloorSomberSteelBandedMagenta
   name: tiles-somber-steel-floor-banded-magenta
   sprite: /Textures/_DEN/Tiles/somber-tile-banded-magenta.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -111,6 +147,12 @@
   id: FloorSomberSteelBandedPurple
   name: tiles-somber-steel-floor-banded-purple
   sprite: /Textures/_DEN/Tiles/somber-tile-banded-purple.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -123,6 +165,12 @@
   id: FloorSomberSteelCheckerMagenta
   name: tiles-somber-steel-floor-checker-magenta
   sprite: /Textures/_DEN/Tiles/somber-tile-checkered-magenta.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -135,6 +183,12 @@
   id: FloorSomberSteelCheckerPurple
   name: tiles-somber-steel-floor-checker-purple
   sprite: /Textures/_DEN/Tiles/somber-tile-checkered-purple.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -147,6 +201,12 @@
   id: FloorSomberSteelDiagonal
   name: tiles-somber-steel-floor-diagonal
   sprite: /Textures/_DEN/Tiles/somber-tile-diagonal.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -159,6 +219,12 @@
   id: FloorSomberSteelDiagonalMini
   name: tiles-somber-steel-floor-diagonal-mini
   sprite: /Textures/_DEN/Tiles/somber-tile-diagonal-mini.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -171,6 +237,12 @@
   id: FloorSomberSteelHerringbone
   name: tiles-somber-steel-floor-herringbone
   sprite: /Textures/_DEN/Tiles/somber-tile-herringbone.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -183,6 +255,12 @@
   id: FloorSomberSteelMini
   name: tiles-somber-steel-floor-mini
   sprite: /Textures/_DEN/Tiles/somber-tile-mini.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -195,6 +273,12 @@
   id: FloorSomberSteelMono
   name: tiles-somber-steel-floor-mono
   sprite: /Textures/_DEN/Tiles/somber-tile-mono.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -207,6 +291,12 @@
   id: FloorSomberSteelMonoEye
   name: tiles-somber-steel-floor-mono-eye
   sprite: /Textures/_DEN/Tiles/somber-tile-mono-eye.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -219,6 +309,12 @@
   id: FloorSomberSteelOffset
   name: tiles-somber-steel-floor-offset
   sprite: /Textures/_DEN/Tiles/somber-tile-offset.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -231,6 +327,12 @@
   id: FloorSomberSteelPavement
   name: tiles-somber-steel-floor-pavement
   sprite: /Textures/_DEN/Tiles/somber-tile-pavement.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -243,6 +345,12 @@
   id: FloorSomberSteelPavementVertical
   name: tiles-somber-steel-floor-pavement-vertical
   sprite: /Textures/_DEN/Tiles/somber-tile-pavement_vertical.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -255,6 +363,12 @@
   id: FloorSomberWood
   name: tiles-somber-wood
   sprite: /Textures/_DEN/Tiles/somber-wood.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -292,6 +406,12 @@
   id: FloorSomberWoodLarge
   name: tiles-somber-wood-large
   sprite: /Textures/_DEN/Tiles/somber-wood-large.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -306,6 +426,12 @@
   id: FloorSomberWoodTile
   name: tiles-somber-wood2
   sprite: /Textures/_DEN/Tiles/somber-wood-tile.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
