@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: MIT
+
 using Robust.Shared.Prototypes;
 
 

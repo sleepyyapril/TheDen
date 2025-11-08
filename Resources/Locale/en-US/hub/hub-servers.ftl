@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: MIT
+
 hub-panel-title = [head=2]Other Servers[/head]
 
 hub-panel-column-category-server-name = Server Name

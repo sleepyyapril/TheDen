@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Shared._DEN.CCVars;
 using Content.Shared._DEN.Hub;
 using Robust.Shared.Configuration;

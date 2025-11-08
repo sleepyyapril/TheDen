@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: MIT
+
 - type: hubServer
   id: salvation
   connectionString: "https://denstation.net/salvation"

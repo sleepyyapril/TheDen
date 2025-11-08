@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: MIT
+
 using System.Net;
 using System.Net.Http;
 using System.Text.Json.Nodes;
