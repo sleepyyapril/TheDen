@@ -1,3 +1,7 @@
+-- SPDX-FileCopyrightText: 2025 sleepyyapril
+--
+-- SPDX-License-Identifier: MIT
+
 local sprite = app.editor.sprite
 local cel = app.cel
 

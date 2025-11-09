@@ -1,3 +1,8 @@
+-- SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
+-- SPDX-FileCopyrightText: 2025 sleepyyapril
+--
+-- SPDX-License-Identifier: MIT
+
 -- Displacement Map Visualizer
 --
 -- This script will create a little preview window that will test a displacement map.
