@@ -14247,3 +14247,10 @@ Entries:
   id: 1394
   time: '2025-11-08T23:28:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2015
+- author: TheShuEd and southbridge-fur
+  changes:
+    - type: Add
+      message: Added WizDen's Aseprite Tools
+  id: 1395
+  time: '2025-11-09T00:52:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2018
