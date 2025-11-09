@@ -150,6 +150,8 @@
     - type: loadout # TheDen
       id: LoadoutScienceOuterWinterCoatMantisDark
     - type: loadout # TheDen
+      id: LoadoutScienceOuterWinterCoatMantisMu
+    - type: loadout # TheDen
       id: LoadoutScienceOuterJacketMantisAiry
 
 - type: characterItemGroup

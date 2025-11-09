@@ -1,12 +1,12 @@
 - type: entity
   parent: OfficeChairBase
-  id: SomberFloorCushion
+  id: SomberChairCushion
   name: floor cushion
   description: "A firm pillow to sit on, useful for meditation."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/chairs.rsi
-    state: somberfloorcushion1
+    state: somberfloorcushion
   - type: Damageable
     damageModifierSet: Wood
     damageContainer: Inorganic
@@ -20,7 +20,7 @@
           acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 50
+        damage: 30
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
@@ -32,13 +32,59 @@
 
 - type: entity
   parent: OfficeChairBase
-  id: SomberLeatherChair # Version without the psi on the back in case they're used outside mantis offices
+  id: SomberChairLeather # Version without the psi on the back in case they're used outside mantis offices
   name: somber leather chair
   description: "A plush leather office chair with electrum accents."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/chairs.rsi
     state: somberleather
+  - type: Damageable
+    damageModifierSet: Wood
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 70
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank1:
+            min: 3
+            max: 3
+          ScrapElectrum:
+            min: 1
+            max: 3
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: SomberChairLeather
+  id: SomberChairLeatherMantis
+  name: somber leather chair
+  suffix: Mantis
+  description: "A plush leather office chair with electrum accents, bearing a Greek psi on the back."
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Furniture/chairs.rsi
+    state: somberleathermantis
+
+- type: entity
+  parent: UnanchoredChairBase
+  id: SomberChairWood
+  name: somber wood chair
+  description: "An expensive chair made of gloomy, patterned wood with electrum accents."
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Furniture/chairs.rsi
+    state: somberwood
   - type: Damageable
     damageModifierSet: Wood
     damageContainer: Inorganic
@@ -64,25 +110,3 @@
             max: 3
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-
-- type: entity
-  parent: SomberLeatherChair
-  id: SomberLeatherChairMantis
-  name: somber leather chair
-  suffix: Mantis
-  description: "A plush leather office chair with electrum accents, bearing a Greek psi on the back."
-  components:
-  - type: Sprite
-    sprite: _DEN/Structures/Furniture/chairs.rsi
-    state: somberleather-mantis
-
-# TODO: DELETE THE BELOW
-#Starts unanchored, cannot be rotated while anchored
-- type: entity
-  name: chair
-  id: UnanchoredChairBase
-  parent: SeatBase
-  abstract: true
-  components:
-  - type: Anchorable
-  - type: Rotatable

@@ -465,6 +465,20 @@
   items:
     - ClothingOuterWinterCoatMantisDark
 
+- type: loadout
+  id: LoadoutScienceOuterWinterCoatMantisMu
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisOuter
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingOuterWinterCoatMantisMu
+
 # Shoes
 
 - type: loadout

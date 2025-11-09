@@ -16,12 +16,20 @@
       "directions": 4
     },
     {
-      "name": "somberleather-mantis",
-      "directions": 4
-    },
-    {
       "name": "somberleather-overlay",
       "directions": 4
     },
+    {
+      "name": "somberleathermantis",
+      "directions": 4
+    },
+    {
+      "name": "somberleathermantis-overlay",
+      "directions": 4
+    },
+    {
+      "name": "somberwood",
+      "directions": 4
+    }
   ]
 }
