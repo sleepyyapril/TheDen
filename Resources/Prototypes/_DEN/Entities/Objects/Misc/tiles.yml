@@ -284,7 +284,7 @@
       - FloorSomberMnemolithSmooth
   - type: Stack
     stackType: FloorTileSomberMnemolithSmooth
-  - type: DamageOtherOnHit # Well, it is made of mnemolith...
+  - type: DamageOtherOnHit
     damage:
       types:
         Blunt: 9.5 # 11.88 damage against psions
@@ -372,4 +372,130 @@
       - FloorSomberAmaranthEye
   - type: Stack
     stackType: FloorTileSomberAmaranthEye
+
+- type: entity
+  parent: FloorTileItemSomberSteel
+  id: FloorTileItemSomberSteelBandedDark
+  name: somber steel tile (banded, dark)
+  components:
+  - type: Sprite
+    state: somber-tile-banded-dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberSteelBandedDark
+  - type: Stack
+    stackType: FloorTileSomberSteelBandedDark
+
+- type: entity
+  parent: FloorTileItemSomberSteel
+  id: FloorTileItemSomberSteelCheckerDark
+  name: somber steel tile (checkered, dark)
+  components:
+  - type: Sprite
+    state: somber-tile-checkered-dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberSteelCheckerDark
+  - type: Stack
+    stackType: FloorTileSomberSteelCheckerDark
+
+- type: entity
+  parent: FloorTileItemSomberSteel
+  id: FloorTileItemSomberSteelDiagonalDark
+  name: somber steel tile (diagonal, dark)
+  components:
+  - type: Sprite
+    state: somber-tile-diagonal-dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberSteelDiagonalDark
+  - type: Stack
+    stackType: FloorTileSomberSteelDiagonalDark
+
+- type: entity
+  parent: FloorTileItemSomberSteel
+  id: FloorTileItemSomberSteelDiagonalMiniDark
+  name: somber steel tile (diagonal, mini, dark)
+  components:
+  - type: Sprite
+    state: somber-tile-diagonal-mini-dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberSteelDiagonalMiniDark
+  - type: Stack
+    stackType: FloorTileSomberSteelDiagonalMiniDark
+
+- type: entity
+  parent: FloorTileItemSomberSteel
+  id: FloorTileItemSomberSteelMonoDark
+  name: somber steel tile (mono, dark)
+  components:
+  - type: Sprite
+    state: somber-tile-mono-dark
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberSteelMonoDark
+  - type: Stack
+    stackType: FloorTileSomberSteelMonoDark
+
+- type: entity
+  parent: FloorTileItemSomberSteel
+  id: FloorTileItemSomberSteelDiagonalMagenta
+  name: somber steel tile (diagonal, magenta)
+  components:
+  - type: Sprite
+    state: somber-tile-diagonal-magenta
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberSteelDiagonalMagenta
+  - type: Stack
+    stackType: FloorTileSomberSteelDiagonalMagenta
+
+- type: entity
+  parent: FloorTileItemSomberSteel
+  id: FloorTileItemSomberSteelDiagonalMiniMagenta
+  name: somber steel tile (diagonal, mini, magenta)
+  components:
+  - type: Sprite
+    state: somber-tile-diagonal-mini-magenta
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberSteelDiagonalMiniMagenta
+  - type: Stack
+    stackType: FloorTileSomberSteelDiagonalMiniMagenta
+
+- type: entity
+  parent: FloorTileItemSomberSteel
+  id: FloorTileItemSomberSteelDiagonalPurple
+  name: somber steel tile (diagonal, purple)
+  components:
+  - type: Sprite
+    state: somber-tile-diagonal-purple
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberSteelDiagonalPurple
+  - type: Stack
+    stackType: FloorTileSomberSteelDiagonalPurple
+
+- type: entity
+  parent: FloorTileItemSomberSteel
+  id: FloorTileItemSomberSteelDiagonalMiniPurple
+  name: somber steel tile (diagonal, mini, purple)
+  components:
+  - type: Sprite
+    state: somber-tile-diagonal-mini-purple
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberSteelDiagonalMiniPurple
+  - type: Stack
+    stackType: FloorTileSomberSteelDiagonalMiniPurple
 # Somber tileset end

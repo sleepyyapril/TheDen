@@ -6,7 +6,75 @@
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/chairs.rsi
-    state: floorcushion
+    state: somberfloorcushion1
+  - type: Damageable
+    damageModifierSet: Wood
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialCloth:
+            min: 3
+            max: 5
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: OfficeChairBase
+  id: SomberLeatherChair # Version without the psi on the back in case they're used outside mantis offices
+  name: somber leather chair
+  description: "A plush leather office chair with electrum accents."
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Furniture/chairs.rsi
+    state: somberleather
+  - type: Damageable
+    damageModifierSet: Wood
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank1:
+            min: 3
+            max: 3
+          ScrapElectrum:
+            min: 1
+            max: 3
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: SomberLeatherChair
+  id: SomberLeatherChairMantis
+  name: somber leather chair
+  suffix: Mantis
+  description: "A plush leather office chair with electrum accents, bearing a Greek psi on the back."
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Furniture/chairs.rsi
+    state: somberleather-mantis
 
 # TODO: DELETE THE BELOW
 #Starts unanchored, cannot be rotated while anchored
@@ -18,13 +86,3 @@
   components:
   - type: Anchorable
   - type: Rotatable
-
-#Starts unanchored, can be rotated while anchored
-- type: entity
-  name: chair
-  id: OfficeChairBase
-  parent: UnanchoredChairBase
-  abstract: true
-  components:
-  - type: Rotatable
-    rotateWhileAnchored: true

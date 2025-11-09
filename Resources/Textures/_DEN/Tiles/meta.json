@@ -81,6 +81,33 @@
     },
     {
       "name": "somber-wood-pattern"
+    },
+    {
+      "name": "somber-tile-banded-dark"
+    },
+    {
+      "name": "somber-tile-checkered-dark"
+    },
+    {
+      "name": "somber-tile-diagonal-dark"
+    },
+    {
+      "name": "somber-tile-diagonal-mini-dark"
+    },
+    {
+      "name": "somber-tile-mono-dark"
+    },
+    {
+      "name": "somber-tile-diagonal-magenta"
+    },
+    {
+      "name": "somber-tile-diagonal-mini-magenta"
+    },
+    {
+      "name": "somber-tile-diagonal-purple"
+    },
+    {
+      "name": "somber-tile-diagonal-mini-purple"
     }
   ]
 }

@@ -8,10 +8,6 @@
   },
   "states": [
     {
-      "name": "floorcushion",
-      "directions": 4
-    },
-    {
       "name": "somberdresser"
     },
     {

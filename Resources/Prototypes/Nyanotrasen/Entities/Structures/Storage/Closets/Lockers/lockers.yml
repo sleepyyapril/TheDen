@@ -17,8 +17,14 @@
     damageModifierSet: StrongMetallic
   - type: AccessReader
     access: [["Mantis"]]
-  - type: Destructible
+  - type: Destructible # TheDen
     thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
         damage: 50
@@ -27,14 +33,14 @@
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
         sound:
-          collection: MetalBreak
+          collection: MetalGlassBreak
       - !type:SpawnEntitiesBehavior
         spawn:
-          ScrapElectrum: # TheDen
+          ScrapElectrum:
             min: 1
-            max: 2
+            max: 3
           MaterialWoodPlank1:
-            min: 1
-            max: 2
+            min: 3
+            max: 3
   - type: Sprite # TheDen
     sprite: _DEN/Structures/Storage/Specific/closetmantis.rsi
