@@ -14254,3 +14254,14 @@ Entries:
   id: 1395
   time: '2025-11-09T00:52:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2018
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: Attorneys are now mindshielded.
+    - type: Tweak
+      message: >-
+        Clerks are now mindshielded. (Clerks were already antag immune. Just
+        mindshielded for consistency.)
+  id: 1396
+  time: '2025-11-09T15:07:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2019
