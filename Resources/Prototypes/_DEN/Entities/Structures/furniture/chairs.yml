@@ -1,7 +1,7 @@
 - type: entity
   parent: OfficeChairBase
   id: SomberChairCushion
-  name: floor cushion
+  name: somber floor cushion
   description: "A firm pillow to sit on, useful for meditation."
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 
 - type: entity
   parent: OfficeChairBase
-  id: SomberChairLeather # Version without the psi on the back in case they're used outside mantis offices
+  id: SomberChairLeather
   name: somber leather chair
   description: "A plush leather office chair with electrum accents."
   components:
@@ -66,15 +66,44 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  parent: SomberChairLeather
+  parent: RollingOfficeChairBase # The mantis version doubles as a psionic wheelchair
   id: SomberChairLeatherMantis
-  name: somber leather chair
-  suffix: Mantis
-  description: "A plush leather office chair with electrum accents, bearing a Greek psi on the back."
+  name: mantis chair
+  description: "A plush leather office chair with electrum accents, marked with a Greek psi on the back. It floats slightly above the ground, and can be directed with psionic influence."
   components:
+  - type: MovementSpeedModifier
+    acceleration: 10
+    friction: 10
+    baseSprintSpeed: 3.5
+    baseWalkSpeed: 2.5
   - type: Sprite
     sprite: _DEN/Structures/Furniture/chairs.rsi
-    state: somberleathermantis
+    state: somberleather
+  - type: Damageable
+    damageModifierSet: Metallic
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank1:
+            min: 3
+            max: 3
+          ScrapElectrum:
+            min: 3
+            max: 3
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
 
 - type: entity
   parent: UnanchoredChairBase
