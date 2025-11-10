@@ -153,7 +153,7 @@ public sealed partial class GunComponent : Component
     /// <summary>
     /// Where the gun is being requested to shoot.
     /// </summary>
-    [ViewVariables]
+    [ViewVariables, AutoNetworkedField]
     public EntityCoordinates? ShootCoordinates = null;
 
     /// <summary>

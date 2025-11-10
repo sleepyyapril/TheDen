@@ -36,6 +36,7 @@ using Content.Client.Items;
 using Content.Client.Weapons.Ranged.Components;
 using Content.Shared._RMC14.Weapons.Ranged.Prediction;
 using Content.Shared.CombatMode;
+using Content.Shared.Hands.Components;
 using Content.Shared.Mech.Components; // Goobstation
 using Content.Shared.Weapons.Ranged;
 using Content.Shared.Weapons.Ranged.Components;
@@ -131,7 +132,30 @@ public sealed partial class GunSystem : SharedGunSystem
     {
         var gunUid = GetEntity(args.Uid);
 
-        CreateEffect(gunUid, args, gunUid, _player.LocalEntity);
+        // Find the gun's holder by checking its parent entity
+        // If the gun is being held, its parent will be a hand container, and the hand container's parent will be the holder
+        EntityUid? holder = null;
+        var gunXform = Transform(gunUid);
+        if (gunXform.ParentUid != EntityUid.Invalid)
+        {
+            var parent = gunXform.ParentUid;
+            // Check if the parent has HandsComponent (it's the holder)
+            if (HasComp<HandsComponent>(parent))
+            {
+                holder = parent;
+            }
+            else
+            {
+                // The parent might be a hand container, check its parent
+                var parentXform = Transform(parent);
+                if (parentXform.ParentUid != EntityUid.Invalid && HasComp<HandsComponent>(parentXform.ParentUid))
+                {
+                    holder = parentXform.ParentUid;
+                }
+            }
+        }
+
+        CreateEffect(gunUid, args, holder);
     }
 
     private void OnHitscan(HitscanEvent ev)
@@ -252,7 +276,7 @@ public sealed partial class GunSystem : SharedGunSystem
         PopupSystem.PopupEntity(message, uid.Value, user.Value);
     }
 
-    protected override void CreateEffect(EntityUid gunUid, MuzzleFlashEvent message, EntityUid? tracked = null, EntityUid? player = null)
+    protected override void CreateEffect(EntityUid gunUid, MuzzleFlashEvent message, EntityUid? tracked = null)
     {
         if (!Timing.IsFirstTimePredicted)
             return;

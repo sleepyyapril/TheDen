@@ -180,6 +180,7 @@ public abstract partial class SharedProjectileSystem : EntitySystem
         {
             if (modifiedDamage.AnyPositive() && !deleted)
             {
+                _adminLogger.Add(LogType.BulletHit, LogImpact.High, $"lmao?");
                 _color.RaiseEffect(Color.Red, new List<EntityUid> { target }, filter);
             }
 
@@ -195,13 +196,6 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             _guns.PlayImpactSound(target, modifiedDamage, component.SoundHit, component.ForceSound, filter, projectile);
             _sharedCameraRecoil.KickCamera(target, direction);
         }
-
-        // Goobstation start
-        if (component.Penetrate)
-            component.IgnoredEntities.Add(target);
-        else
-            component.DamagedEntity = true;
-        // Goobstation end
 
         component.DamagedEntity = true;
         Dirty(uid, component);
