@@ -14272,3 +14272,12 @@ Entries:
   id: 1397
   time: '2025-11-10T09:33:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2022
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: >-
+        Slightly altered the cargo shuttle interior to provide more room for
+        activities
+  id: 1398
+  time: '2025-11-10T09:46:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2020
