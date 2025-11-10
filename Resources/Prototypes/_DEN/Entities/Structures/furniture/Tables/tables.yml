@@ -4,6 +4,11 @@
   name: somber table
   description: "TODO..."
   components:
+  - type: Sprite
+    sprite: _DEN/Structures/Furniture/Tables/somberwoodtable.rsi
+  - type: Icon
+    sprite: _DEN/Structures/Furniture/Tables/somberwoodtable.rsi
+    state: full
   - type: Damageable
     damageModifierSet: Wood
     damageContainer: Inorganic
@@ -17,7 +22,7 @@
           acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 40
+        damage: 60
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -45,6 +50,11 @@
   name: somber counter
   description: "TODO..."
   components:
+  - type: Sprite
+    sprite: _DEN/Structures/Furniture/Tables/somberwoodcounter.rsi
+  - type: Icon
+    sprite: _DEN/Structures/Furniture/Tables/somberwoodcounter.rsi
+    state: full
   - type: Fixtures
     fixtures:
       fix1:

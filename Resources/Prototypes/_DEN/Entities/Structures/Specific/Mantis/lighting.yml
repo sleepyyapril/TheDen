@@ -29,8 +29,8 @@
   - type: InteractionOutline
   - type: PointLight
     enabled: true
-    radius: 4
-    energy: 1.0
+    radius: 3
+    energy: 3
     softness: 1.1
     color: "#d9418d"
   - type: Appearance
@@ -104,7 +104,7 @@
         - LowImpassable
   - type: PointLight
     enabled: true
-    radius: 6
-    energy: 1.0
+    radius: 4
+    energy: 3
     softness: 1.1
     color: "#d9418d"
