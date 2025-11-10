@@ -23,6 +23,7 @@ namespace Content.Client.Throwing;
 public sealed class ThrownItemVisualizerSystem : EntitySystem
 {
     [Dependency] private readonly AnimationPlayerSystem _anim = default!;
+    [Dependency] private readonly SpriteSystem _sprite = default!;
 
     private const string AnimationKey = "thrown-item";
 

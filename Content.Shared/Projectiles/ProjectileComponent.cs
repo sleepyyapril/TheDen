@@ -103,12 +103,6 @@ public sealed partial class ProjectileComponent : Component
     [DataField, AutoNetworkedField]
     public bool DamagedEntity;
 
-    /// <summary>
-    ///     If true, the projectile has hit enough targets and should no longer interact with further collisions pending deletion.
-    /// </summary>
-    [DataField]
-    public bool DamagedEntity;
-
     // Goobstation start
     [DataField]
     public bool Penetrate;

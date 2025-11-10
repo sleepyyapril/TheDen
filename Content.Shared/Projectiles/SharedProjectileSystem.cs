@@ -42,6 +42,8 @@ using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
 using Content.Shared.Popups;
 using Content.Shared._Shitmed.Targeting;
+using Content.Shared.Examine;
+using Content.Shared.IdentityManagement;
 using Content.Shared.Item.ItemToggle;
 using Content.Shared.UserInterface;
 using Content.Shared.Throwing;
@@ -56,6 +58,8 @@ using Robust.Shared.Player;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
 using Content.Shared.Standing;
+using Robust.Shared.Network;
+
 
 namespace Content.Shared.Projectiles;
 
@@ -76,6 +80,7 @@ public abstract partial class SharedProjectileSystem : EntitySystem
     [Dependency] private readonly DamageableSystem _damageableSystem = default!;
     [Dependency] private readonly SharedGunSystem _guns = default!;
     [Dependency] private readonly SharedCameraRecoilSystem _sharedCameraRecoil = default!;
+    [Dependency] private readonly INetManager _net = default!;
 
     public override void Initialize()
     {
@@ -88,6 +93,25 @@ public abstract partial class SharedProjectileSystem : EntitySystem
         SubscribeLocalEvent<EmbeddableProjectileComponent, ActivateInWorldEvent>(OnEmbedActivate, before: new[] { typeof(ActivatableUISystem), typeof(ItemToggleSystem), });
         SubscribeLocalEvent<EmbeddableProjectileComponent, RemoveEmbeddedProjectileEvent>(OnEmbedRemove);
         SubscribeLocalEvent<EmbeddableProjectileComponent, ExaminedEvent>(OnExamined);
+    }
+
+    public override void Update(float frameTime)
+    {
+        base.Update(frameTime);
+
+        var query = EntityQueryEnumerator<EmbeddableProjectileComponent>();
+        var curTime = _timing.CurTime;
+
+        while (query.MoveNext(out var uid, out var comp))
+        {
+            if (comp.AutoRemoveTime == null || comp.AutoRemoveTime > curTime)
+                continue;
+
+            if (comp.Target is { } targetUid)
+                _popup.PopupClient(Loc.GetString("throwing-embed-falloff", ("item", uid)), targetUid, targetUid);
+
+            RemoveEmbed(uid, comp);
+        }
     }
 
     private void OnStartCollide(EntityUid uid, ProjectileComponent component, ref StartCollideEvent args)
@@ -172,6 +196,13 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             _sharedCameraRecoil.KickCamera(target, direction);
         }
 
+        // Goobstation start
+        if (component.Penetrate)
+            component.IgnoredEntities.Add(target);
+        else
+            component.DamagedEntity = true;
+        // Goobstation end
+
         component.DamagedEntity = true;
         Dirty(uid, component);
 
@@ -196,25 +227,6 @@ public abstract partial class SharedProjectileSystem : EntitySystem
                 RaiseNetworkEvent(impactEffectEv, filter);
             else
                 RaiseLocalEvent(impactEffectEv);
-        }
-    }
-
-    private void OnEmbedActivate(Entity<EmbeddableProjectileComponent> embeddable, ref ActivateInWorldEvent args)
-    {
-        base.Update(frameTime);
-
-        var query = EntityQueryEnumerator<EmbeddableProjectileComponent>();
-        var curTime = _timing.CurTime;
-
-        while (query.MoveNext(out var uid, out var comp))
-        {
-            if (comp.AutoRemoveTime == null || comp.AutoRemoveTime > curTime)
-                continue;
-
-            if (comp.Target is { } targetUid)
-                _popup.PopupClient(Loc.GetString("throwing-embed-falloff", ("item", uid)), targetUid, targetUid);
-
-            RemoveEmbed(uid, comp);
         }
     }
 
