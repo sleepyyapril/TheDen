@@ -14290,3 +14290,12 @@ Entries:
   id: 1399
   time: '2025-11-10T10:27:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2016
+- author: DoctorJado
+  changes:
+    - type: Tweak
+      message: Made Oni's base body greyscale to remove the weird red tint.
+    - type: Tweak
+      message: Allowed a bunch of different markings to be used on Oni.
+  id: 1400
+  time: '2025-11-10T19:16:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2014
