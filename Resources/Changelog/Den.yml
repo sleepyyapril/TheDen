@@ -14281,3 +14281,12 @@ Entries:
   id: 1398
   time: '2025-11-10T09:46:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2020
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        Bed shadows are now black instead of gray so they won't lighten dark
+        floors beneath them!
+  id: 1399
+  time: '2025-11-10T10:27:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2016
