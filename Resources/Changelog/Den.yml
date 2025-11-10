@@ -14265,3 +14265,10 @@ Entries:
   id: 1396
   time: '2025-11-09T15:07:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2019
+- author: GreggTheFather
+  changes:
+    - type: Remove
+      message: Removed ServiceTechFab migration
+  id: 1397
+  time: '2025-11-10T09:33:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2022
