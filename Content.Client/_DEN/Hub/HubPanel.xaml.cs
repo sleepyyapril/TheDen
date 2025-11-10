@@ -116,6 +116,12 @@ public sealed partial class HubPanel : PanelContainer
             startPos = HttpsString.Length - 1;
 
         var newAddress = formerAddress.Substring(startPos);
+
+        if (!newAddress.Contains("://"))
+        {
+            newAddress = "udp://" + newAddress;
+        }
+        
         return newAddress;
     }
 
