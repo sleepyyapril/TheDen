@@ -34,10 +34,10 @@
     ClothingUniformSkirtMantisAiry: 1
     ClothingUniformJumpsuitMantisDark: 1
     ClothingUniformSkirtMantisOrnate: 1
-    ClothingUniformJumpsuitMantisLoincloth: 1 # It stays.
     ClothingHandsMantisGlovesAiry: 1
     ClothingHandsMantisGlovesDark: 1
     ClothingHandsMantisGlovesOrnate: 1
     ClothingShoesSandalsMantisAiry: 1
     ClothingShoesSandalsMantisDark: 1
     ClothingShoesSandalsMantisOrnate: 1
+    ClothingUniformJumpsuitMantisLoincloth: 1 # It stays.
