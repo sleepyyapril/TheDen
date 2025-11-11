@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 marking-BodyOverlayHumanHeadMale = Body Sprite - Human Head (M)
 marking-BodyOverlayHumanHeadFemale = Body Sprite - Human Head (F)
 marking-BodyOverlayHumanChestMale = Body Sprite - Human Chest (M)
