@@ -119,14 +119,14 @@
 
 - type: stack
   id: FloorTileSomberMnemolithRough
-  name: mnemolith stone tile (rough)
+  name: somber mnemolith tile (rough)
   spawn: FloorTileItemSomberMnemolithRough
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileSomberMnemolithSmooth
-  name: mnemolith stone tile (smooth)
+  name: somber mnemolith tile (smooth)
   spawn: FloorTileItemSomberMnemolithSmooth
   maxCount: 30
   itemSize: 5
@@ -154,14 +154,14 @@
 
 - type: stack
   id: FloorTileSomberAmaranth
-  name: amaranth wood floor
+  name: somber amaranth floor
   spawn: FloorTileItemSomberAmaranth
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileSomberAmaranthEye
-  name: amaranth wood floor (eye)
+  name: somber amaranth floor (eye)
   spawn: FloorTileItemSomberAmaranthEye
   maxCount: 30
   itemSize: 5

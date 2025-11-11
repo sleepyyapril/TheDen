@@ -10,21 +10,24 @@
   parent: LockerDetective
   suffix: Empty
   name: mantis cabinet
-  description: "Concealed knowledge stirs, revealed only to those who can pierce the veil." # TheDen
+  description: "Concealed knowledge stirs within, revealed only to those who can pierce the veil." # TheDen
   components:
+  - type: Sprite # TheDen
+    sprite: _DEN/Structures/Storage/Specific/closetmantis.rsi
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: StrongMetallic
   - type: AccessReader
     access: [["Mantis"]]
-  - type: Destructible # TheDen
+  - type: Destructible # TheDen - Edited many values below
     thresholds:
     - trigger:
         !type:DamageTrigger
         damage: 200
       behaviors:
-        - !type:DoActsBehavior
-          acts: [ "Destruction" ]
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:EmptyAllContainersBehaviour
     - trigger:
         !type:DamageTrigger
         damage: 50
@@ -42,5 +45,4 @@
           MaterialWoodPlank1:
             min: 3
             max: 3
-  - type: Sprite # TheDen
-    sprite: _DEN/Structures/Storage/Specific/closetmantis.rsi
+      - !type:EmptyAllContainersBehaviour

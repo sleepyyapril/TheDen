@@ -2,7 +2,7 @@
   parent: BaseStructure
   id: LightSomberEidoliteWellLamp
   name: eidolite well lamp
-  description: "An eidolite pyramid that draws energy from the noosphere, recessed into the ground."
+  description: "An eidolite pyramid that draws energy from the noosphere to produce light, recessed into the ground."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Specific/Mantis/lampeidolitewell.rsi
@@ -19,14 +19,15 @@
     fixtures:
       fix1:
         shape:
-          !type:PhysShapeAabb
-          bounds: "-0.2,-0.2,0.2,0.2"
+          !type:PhysShapeCircle
+          radius: 0.140625
         hard: false
         density: 100
         mask:
         - MachineMask
   - type: Anchorable
   - type: InteractionOutline
+  - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
     enabled: true
     radius: 3
@@ -75,7 +76,6 @@
           MaterialMnemolith1:
             min: 1
             max: 3
-      - !type:EmptyAllContainersBehaviour
       - !type:PlaySoundBehavior
         sound:
           collection: MetalGlassBreak
@@ -84,7 +84,7 @@
   parent: LightSomberEidoliteWellLamp
   id: LightSomberEidoliteFloorLamp
   name: eidolite floor lamp
-  description: "An eidolite pyramid that draws energy from the noosphere, mounted on a mnemolith column."
+  description: "An eidolite pyramid that draws energy from the noosphere to produce light, mounted on a mnemolith column."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Specific/Mantis/lampeidolitefloor.rsi
@@ -94,7 +94,7 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "0.17,0.25,-0.17,-0.30"
+          bounds: "-0.375,-0.4375,0.375,0.625"
         hard: true
         density: 200
         mask:
@@ -102,9 +102,7 @@
         layer:
         - MidImpassable
         - LowImpassable
+  - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
     enabled: true
     radius: 4
-    energy: 3
-    softness: 1.1
-    color: "#d9418d"

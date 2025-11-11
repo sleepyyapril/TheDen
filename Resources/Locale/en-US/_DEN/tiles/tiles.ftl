@@ -1,7 +1,7 @@
-tiles-somber-amaranth = somber amaranth wood floor
-tiles-somber-amaranth-eye = somber amaranth wood floor (eye)
-tiles-somber-mnemolith-rough = somber mnemolith stone tile (rough)
-tiles-somber-mnemolith-smooth = somber mnemolith stone tile (smooth)
+tiles-somber-amaranth = somber amaranth floor
+tiles-somber-amaranth-eye = somber amaranth floor (eye)
+tiles-somber-mnemolith-rough = somber mnemolith tile (rough)
+tiles-somber-mnemolith-smooth = somber mnemolith tile (smooth)
 tiles-somber-glass-floor = somber glass tile
 tiles-somber-glass-floor-plasma = somber glass tile (plasma)
 tiles-somber-glass-floor-uranium = somber glass tile (uranium)

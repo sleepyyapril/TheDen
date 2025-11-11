@@ -249,7 +249,7 @@
 - type: entity
   parent: FloorTileItemSomberSteel
   id: FloorTileItemSomberMnemolithRough
-  name: mnemolith stone tile (rough)
+  name: somber mnemolith tile (rough)
   components:
   - type: Sprite
     state: somber-mnemolith-rough
@@ -274,7 +274,7 @@
 - type: entity
   parent: FloorTileItemSomberSteel
   id: FloorTileItemSomberMnemolithSmooth
-  name: mnemolith stone tile (smooth)
+  name: somber mnemolith tile (smooth)
   components:
   - type: Sprite
     state: somber-mnemolith-smooth
@@ -348,7 +348,7 @@
 - type: entity
   parent: FloorTileItemSomberWood
   id: FloorTileItemSomberAmaranth
-  name: amaranth wood floor
+  name: somber amaranth floor
   components:
   - type: Sprite
     state: somber-amaranth
@@ -362,7 +362,7 @@
 - type: entity
   parent: FloorTileItemSomberWood
   id: FloorTileItemSomberAmaranthEye
-  name: amaranth wood floor (eye)
+  name: somber amaranth floor (eye)
   components:
   - type: Sprite
     state: somber-amaranth-eye

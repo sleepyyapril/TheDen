@@ -1,8 +1,8 @@
 - type: entity
   parent: Fireplace
   id: SomberFireplace
-  name: fireplace
-  description: A place that has fire. Cozy!
+  name: somber electrum fireplace
+  description: "An avant-garde fireplace shaped like an eye, its smokeless psionic flame rippling like liquid."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Decoration/somberfireplace.rsi
@@ -30,20 +30,108 @@
     range: 5
     sound:
       path: /Audio/Ambience/Objects/fireplace.ogg
-      path: /Audio/Effects/silence.ogg
   - type: PointLight
-    radius: 3
+    radius: 4
     energy: 3
+    softness: 1.1
     color: "#4dc4ff"
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
   - type: Destructible
     thresholds:
-      - trigger:
-          !type:DamageTrigger
-          damage: 200
-        behaviors:
-          - !type:DoActsBehavior
-            acts: [ "Destruction" ]
-  - type: AlwaysHot
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ScrapElectrum:
+            min: 3
+            max: 5
+    - type: AlwaysHot
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeCircle
+            radius: 0.34375
+          hard: true
+          density: 200
+          mask:
+          - MachineMask
+          layer:
+          - MidImpassable
+          - LowImpassable
+          - BulletImpassable
+
+- type: entity
+  parent: BaseSignDirectional # So it's technically wall decor, but whatever
+  id: SomberHangingBrazier
+  name: somber hanging brazier
+  description: "An electrum hanging brazier, its smokeless psionic flame rippling like liquid."
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/Decoration/somberhangingbrazier.rsi
+    layers:
+      - state: fireplace
+      - state: fireplacefestive
+        map: ["christmas"]
+        visible: false
+      - state: fireplace_fire4
+        shader: unshaded
+      - state: fireplace_glow
+        shader: unshaded
+  - type: Appearance
+  - type: HolidayVisuals
+    holidays:
+      festive:
+      - FestiveSeason
+  - type: GenericVisualizer
+    visuals:
+      enum.HolidayVisuals.Holiday:
+        christmas:
+          festive: { visible: true }
+  - type: PointLight
+    radius: 3
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: PointLight
+    radius: 3
+    energy: 3
+    softness: 1.1
+    color: "#4dc4ff"
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ScrapElectrum:
+            min: 1
+            max: 3

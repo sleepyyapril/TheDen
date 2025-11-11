@@ -35,10 +35,12 @@
     - type: Item
       sprite: _DEN/Objects/Tools/lanternmantis.rsi
       heldPrefix: off
+    - type: EtherealLight # Dims around ethereal entities
     - type: PointLight
       enabled: false
       radius: 3
       energy: 3 # 0.5 brighter than a normal lantern because it's a darker color
+      softness: 1.1 # But the edges are softer
       color: "#d9418d"
       netsync: false
     - type: Appearance

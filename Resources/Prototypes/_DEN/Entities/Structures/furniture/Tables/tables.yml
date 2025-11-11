@@ -2,7 +2,7 @@
   parent: TableBase
   id: SomberTable
   name: somber table
-  description: "TODO..."
+  description: "An expensive table made of gloomy, patterned wood with electrum accents."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/Tables/somberwoodtable.rsi
@@ -18,11 +18,11 @@
         !type:DamageTrigger
         damage: 200
       behaviors:
-        - !type:DoActsBehavior
-          acts: [ "Destruction" ]
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 60
+        damage: 75
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -48,21 +48,10 @@
   parent: SomberTable
   id: SomberCounter
   name: somber counter
-  description: "TODO..."
+  description: "An expensive counter made of gloomy, patterned wood with electrum accents."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/Tables/somberwoodcounter.rsi
   - type: Icon
     sprite: _DEN/Structures/Furniture/Tables/somberwoodcounter.rsi
     state: full
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.45,-0.45,0.45,0.45"
-        density: 55
-        mask:
-        - TableMask
-        layer:
-        - TableLayer

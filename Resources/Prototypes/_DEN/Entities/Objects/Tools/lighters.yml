@@ -48,6 +48,7 @@
       - state: mantis-inhand-right-flame
         shader: unshaded
   - type: PointLight
+    radius: 1.5 # Slightly brighter than other flippos
     color: "#4dc4ff"
   - type: LandAtCursor
   - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)

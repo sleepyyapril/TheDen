@@ -1,8 +1,8 @@
 - type: entity
   parent: ShelfBase
   id: ShelfSomberWood
-  name: somber wooden shelf
-  description: 
+  name: somber wood wall cabinet
+  description: "An expensive cabinet made of gloomy, patterned wood with electrum accents."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Storage/Shelfs/somberwood.rsi
@@ -15,8 +15,9 @@
         !type:DamageTrigger
         damage: 200
       behaviors:
-        - !type:DoActsBehavior
-          acts: [ "Destruction" ]
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:EmptyAllContainersBehaviour
     - trigger:
         !type:DamageTrigger
         damage: 75
@@ -34,6 +35,7 @@
             max: 3
       - !type:DoActsBehavior
         acts: ["Destruction"]
+      - !type:EmptyAllContainersBehaviour
   - type: Tag
     tags:
     - Structure

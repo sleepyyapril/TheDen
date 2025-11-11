@@ -1,7 +1,7 @@
 - type: entity
   parent: Stairs
   id: StairSomberAmaranth
-  name: amaranth wood stairs
+  name: somber amaranth stairs
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
@@ -11,7 +11,7 @@
 - type: entity
   parent: Stairs
   id: StairSomberMnemolith
-  name: mnemolith stone stairs
+  name: somber mnemolith stairs
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: Stairs
   id: StairStageSomberAmaranth
-  name: amaranth stage stairs
+  name: somber amaranth stage stairs
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
@@ -51,7 +51,7 @@
 - type: entity
   parent: Stairs
   id: StairStageSomberMnemolith
-  name: mnemolith stage stairs
+  name: somber mnemolith stage stairs
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
@@ -71,7 +71,7 @@
 - type: entity
   parent: Stairs
   id: StairStageSomberWood
-  name: somber steel wood stairs
+  name: somber wood stage stairs
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi

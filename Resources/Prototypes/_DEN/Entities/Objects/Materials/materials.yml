@@ -125,6 +125,7 @@
     - eidolite_2
     - eidolite_3
   - type: Material
+  - type: EtherealLight # Dims around ethereal entities
   - type: PointLight # As bright as a crystal
     radius: 2
     energy: 2.5
