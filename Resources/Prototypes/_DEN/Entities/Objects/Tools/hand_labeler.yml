@@ -1,5 +1,5 @@
 - type: entity
-  parent: [HandLabeler, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
+  parent: [HandLabeler, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: HandLabelerMantis
   name: sigillator
   description: "An ancient and mystical hand labeler wrought from slabs of mnemolith, used by turning the wheels and giving something a good smack. You wouldn't be caught dead with that blue plastic monstrosity."

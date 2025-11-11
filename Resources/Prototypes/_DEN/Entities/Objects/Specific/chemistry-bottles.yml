@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseChemistryEmptyBottle, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
+  parent: [BaseChemistryEmptyBottle, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: ChemistryEmptyBottleMantis
   name: electrum bottle
   description: "An eidolite bottle in a durable electrum shell. Useful for your rituals."

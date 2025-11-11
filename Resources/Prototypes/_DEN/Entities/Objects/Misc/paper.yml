@@ -122,7 +122,7 @@
           - Write
 
 - type: entity
-  parent: [BoxFolderFireproof, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
+  parent: [BoxFolderFireproof, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: BoxFolderMantis
   name: mantis ledger
   description: "A foreboding folder designed to document the station's psions. Fireproof, immune to scrying, and carrying a special pen."
@@ -181,7 +181,7 @@
         amount: 10
 
 - type: entity
-  parent: [PenEmbeddable, BaseMantisContraband] # Contraband so the locker doesn't get raided by the mystagogue
+  parent: [PenEmbeddable, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: PenMantis # The most mechanically complex pen in the world, all just for style
   name: mantis stylus
   description: "A writing tool chiseled from a spike of mnemolith. Do not accidentally poke yourself with it."

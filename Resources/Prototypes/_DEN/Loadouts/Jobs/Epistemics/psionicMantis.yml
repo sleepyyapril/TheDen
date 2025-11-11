@@ -566,3 +566,17 @@
         - ForensicMantis
   items:
     - ClothingUniformSkirtMantisOrnate
+
+- type: loadout
+  id: LoadoutPsionicMantisUniformSuitLoincloth
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisUniforms
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingUniformJumpsuitMantisLoincloth

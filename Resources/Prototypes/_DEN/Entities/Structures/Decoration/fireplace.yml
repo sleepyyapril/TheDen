@@ -86,7 +86,7 @@
     sprite: _DEN/Structures/Decoration/somberhangingbrazier.rsi
     layers:
       - state: fireplace
-      - state: fireplacefestive
+      - state: fireplacefestive # It still gets a ribbon when it's Christmas
         map: ["christmas"]
         visible: false
       - state: fireplace_fire4
@@ -119,8 +119,8 @@
         !type:DamageTrigger
         damage: 200
       behaviors:
-        - !type:DoActsBehavior
-          acts: [ "Destruction" ]
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
         damage: 50

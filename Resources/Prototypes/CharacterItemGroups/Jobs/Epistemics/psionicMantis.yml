@@ -185,3 +185,5 @@
       id: LoadoutPsionicMantisUniformSuitDark
     - type: loadout # TheDen
       id: LoadoutPsionicMantisUniformSkirtOrnate
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisUniformSuitLoincloth
