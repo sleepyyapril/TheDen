@@ -14299,3 +14299,14 @@ Entries:
   id: 1400
   time: '2025-11-10T19:16:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2014
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Oni (and the rest of the "human base sprite" species like Canid and
+        Felinid, but it's only actually relevant for Oni) now have Overlay
+        markings that re-adds the human base sprites to your Oni character -
+        that is to say, slightly-red shading.
+  id: 1401
+  time: '2025-11-11T01:39:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2026
