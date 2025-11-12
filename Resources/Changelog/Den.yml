@@ -14326,3 +14326,17 @@ Entries:
   id: 1403
   time: '2025-11-12T10:34:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2028
+- author: DoctorJado
+  changes:
+    - type: Fix
+      message: Mediborgs with the surgery module can now perform surgery.
+    - type: Fix
+      message: Mediborgs with the defib module can actually use it.
+    - type: Tweak
+      message: >-
+        Made the entity the player is pulling a valid input for surgery. (So
+        that Borgs can install organs! As an unintended side effect, if you're a
+        lizard or have hands free movement, you can wield three tools at once!)
+  id: 1404
+  time: '2025-11-12T19:34:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2032
