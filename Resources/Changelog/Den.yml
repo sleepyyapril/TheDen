@@ -14356,3 +14356,12 @@ Entries:
   id: 1406
   time: '2025-11-13T09:16:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2023
+- author: DoctorJado
+  changes:
+    - type: Tweak
+      message: Made APPROVED and DENIED stamps printable at the lathe.
+    - type: Tweak
+      message: Made the Syndicate stamp printable at the lathe if it was EMAG'd.
+  id: 1407
+  time: '2025-11-13T09:17:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2024
