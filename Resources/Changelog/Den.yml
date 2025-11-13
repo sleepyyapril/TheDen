@@ -14381,3 +14381,10 @@ Entries:
   id: 1408
   time: '2025-11-13T15:05:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2035
+- author: XavierSomething
+  changes:
+    - type: Add
+      message: Added moth hair! Be sure to fix your moth characters!
+  id: 1409
+  time: '2025-11-13T21:54:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2036
