@@ -159,7 +159,7 @@
 
 - type: entity
   parent: [ClothingUniformJumpsuitMantis, BaseFoldable]
-  id: ClothingUniformJumpsuitMantisLoincloth
+  id: ClothingUniformJumpsuitMantisLoincloth # This is ThatKidConnor's fault, but if you try to take it from me I'll kill us all.
   name: mantis loincloth
   description: "As if mantis uniforms weren't revealing enough. Still, there's something to be said for fighting otherworldly threats in only three strips of cloth. You can fold the top away if you really, truly feel the need."
   components:

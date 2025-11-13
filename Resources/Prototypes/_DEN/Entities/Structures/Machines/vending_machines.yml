@@ -32,7 +32,7 @@
 
 - type: entity
   parent: VendingMachineWallmount
-  id: VendingMachineWallMantis
+  id: VendingMachineWallSomberMantis
   name: mantis reliquary conduit
   description: "An occult-machine interface through which mantes summon equipment from the Reliquary by thought alone."
   components:
@@ -43,39 +43,34 @@
     normalState: normal-unshaded
     denyState: deny-unshaded
     ejectState: eject-unshaded
-    soundVend: /Audio/_DEN/Effects/crystalshimmer1.ogg
-    soundDeny: /Audio/_DEN/Effects/crystalshimmer3.ogg
+    soundVend: /Audio/_DEN/Effects/crystalshimmer4.ogg
+    soundDeny: /Audio/_DEN/Effects/crystalshimmer5.ogg
+    ejectDelay: 1.5 # Synced with animation and sound effect duration
+    denyDelay: 1.5
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/VendingMachines/wallmed.rsi
+    sprite: _DEN/Structures/Machines/VendingMachines/mantis.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
-    - texture: Structures/Machines/VendingMachines/maintenance_panel.png
+    - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
     access: [["Mantis"]]
   - type: GuideHelp
     guides: [ MantisGuide ]
-  - type: Transform
-    noRot: false
-  - type: Rotatable
-    rotateWhileAnchored: false
-    rotateWhilePulling: true
   - type: PointLight
     radius: 2
     energy: 1.5
     softness: 1.1
     castShadows: true
-    color: "#4dc4ff" # Candle glow
-    mask: /Textures/Effects/LightMasks/cone.png
-    autoRot: true
+    color: "#4dc4ff" # Mnemolith candles, psionic fire
   - type: AmbientSound
-    volume: -9
-    range: 3
+    volume: 0
+    range: 0
     enabled: false
     sound:
       path: /Audio/Effects/silence.ogg # It has some wires inside, but it doesn't hum
@@ -85,7 +80,7 @@
   - type: TypingIndicator
     proto: mantis
   - type: Speech
-    speechVerb: Electricity # Weirder than a robot (crackles, buzzes, screeches)
+    speechVerb: Electricity # Weirder than a robot (crackles, buzzes, screeches) if it's not speaking Psychomantic
     speechSounds: Tenor # Like the Oracle otherwise
   - type: Actions
   - type: Psionic
@@ -93,7 +88,7 @@
     roller: false
     assayFeedback:
       - reliquary-feedback # I SEE YOU, INTERLOPER. YOUR THOUGHTS TRESPASS UPON SACRED MATRICES.
-    psychognomicDescriptors:
+    psychognomicDescriptors: # Not "old" or "demiurgic" like the Oracle or Sophia, it has a smaller, younger soul
       - p-descriptor-mysterious
       - p-descriptor-emanative
   - type: InnatePsionicPowers
