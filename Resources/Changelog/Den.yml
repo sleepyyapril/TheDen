@@ -14388,3 +14388,10 @@ Entries:
   id: 1409
   time: '2025-11-13T21:54:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2036
+- author: Swiss_Fox
+  changes:
+    - type: Tweak
+      message: '[GRAVEL] Various adjustments, see PR for details'
+  id: 1410
+  time: '2025-11-13T23:12:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2037
