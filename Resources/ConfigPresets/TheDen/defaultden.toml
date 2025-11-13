@@ -31,7 +31,6 @@ desc = "The Den is an 18+, furry-welcoming, medium roleplay server focusing on g
 soft_max_players = 80
 auto_eat_drinks = true
 auto_eat_food = true
-press_to_sprint = false
 loadouts_points = 30
 traits_default_points = 20
 traits_max = 25
