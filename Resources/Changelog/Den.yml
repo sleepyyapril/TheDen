@@ -14340,3 +14340,12 @@ Entries:
   id: 1404
   time: '2025-11-12T19:34:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2032
+- author: Domino
+  changes:
+    - type: Fix
+      message: >-
+        Purple galoshes under the Janitor loadout are now considered shoes
+        instead of outerwear.
+  id: 1405
+  time: '2025-11-13T01:21:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2034
