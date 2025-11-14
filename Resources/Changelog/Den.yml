@@ -14432,3 +14432,12 @@ Entries:
   id: 1415
   time: '2025-11-14T14:28:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2042
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        The Heightened Risk gamemode now requires a minimum of 40 players, as
+        per admin vote.
+  id: 1416
+  time: '2025-11-14T22:53:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2041
