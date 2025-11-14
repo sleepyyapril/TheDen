@@ -14402,3 +14402,12 @@ Entries:
   id: 1411
   time: '2025-11-14T04:50:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2025
+- author: Eightballll
+  changes:
+    - type: Tweak
+      message: >-
+        Added a minimum 10 hour time requirement to antagonists. No more first
+        shift traitors 
+  id: 1412
+  time: '2025-11-14T10:34:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2027
