@@ -14411,3 +14411,10 @@ Entries:
   id: 1412
   time: '2025-11-14T10:34:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2027
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Reduced cost of CQC by 20 (100 => 80) TC
+  id: 1413
+  time: '2025-11-14T14:16:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2038
