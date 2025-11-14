@@ -11,7 +11,7 @@
   suffix: mindbreaker toxin 20u
   parent: Pill
   id: PillMindbreakerToxin
-  description: "Permanently removes psionics when ingested. Mildly poisonous." # TheDen
+  description: "Permanently removes psionics when ingested. Not to be taken lightly." # TheDen
   components:
   - type: Label # TheDen
     currentLabel: mindbreaker toxin 20u

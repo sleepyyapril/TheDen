@@ -23,10 +23,10 @@
 			"name": "mantis-syringe_base4"
 		},
 		{
-			"name": "syringe1"
+			"name": "mantis-syringe1"
 		},
 		{
-			"name": "syringe2"
+			"name": "mantis-syringe2"
 		},
 		{
 		  "name": "mantis-inhand-left",
@@ -37,27 +37,27 @@
 		  "directions": 4
 		},
 		{
-			"name": "inhand-left-fill-1",
+			"name": "mantis-inhand-left-fill-1",
 			"directions": 4
 		},
 		{
-			"name": "inhand-right-fill-1",
+			"name": "mantis-inhand-right-fill-1",
 			"directions": 4
 		},
 		{
-			"name": "inhand-left-fill-2",
+			"name": "mantis-inhand-left-fill-2",
 			"directions": 4
 		},
 		{
-			"name": "inhand-right-fill-2",
+			"name": "mantis-inhand-right-fill-2",
 			"directions": 4
 		},
 		{
-			"name": "inhand-left-fill-3",
+			"name": "mantis-inhand-left-fill-3",
 			"directions": 4
 		},
 		{
-			"name": "inhand-right-fill-3",
+			"name": "mantis-inhand-right-fill-3",
 			"directions": 4
 		}
 	]

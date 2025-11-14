@@ -3,12 +3,12 @@
   id: HandcuffsMantis
   suffix: DO NOT MAP # We don't want to give mantes the idea that selfsec is a part of their job's function...
   name: graven chains
-  description: "Heavy mu-metal chains to bind unruly psionic subjects, inscribed for both record and suppression. Never to be used for security matters."
+  description: "Heavy mu-metal chains to bind unruly psionic subjects, inscribed for both record and suppression. Never to be used for security matters. In fact, the locking bar seems to be damaged... Perhaps they won't notice."
   components:
   - type: Item
     size: Small
   - type: Handcuff
-    breakoutTime: 5 # Five seconds seems fine so people can roleplay trying to get free, but if these are ever used to selfsec I swear to god I'll drop it to a millisecond
+    breakoutTime: 1 # Is this low enough? If someone genuinely tries to escape, they should be able to
     cuffTime: 7 # It's for roleplay, and you're unlikely to have time to use this before a stun wears off
     uncuffTime: 7
     stunBonus: 0

@@ -109,7 +109,9 @@
     currentLabel: LSD 15u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: mantis-pill_canister-spacedrugs # A greenish gray stripe
+    layers:
+      - state: mantis-pill_canister
+      - state: mantis-pill_canister-spacedrugs # A greenish gray stripe
   - type: StorageFill
     contents:
     - id: PillSpaceDrugs
@@ -127,7 +129,9 @@
     currentLabel: cryptobiolin 20u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: mantis-pill_canister-crypto # A blue stripe
+    layers:
+      - state: mantis-pill_canister
+      - state: mantis-pill_canister-crypto # A blue stripe
   - type: StorageFill
     contents:
     - id: PillCryptobiolin
@@ -139,13 +143,15 @@
   parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: PillCanisterMindbreakerToxinMantis
   suffix: mindbreaker toxin, 5
-  description: "Permanently removes psionics when ingested. Mildly poisonous."
+  description: "Permanently removes psionics when ingested. Not to be taken lightly."
   components:
   - type: Label
     currentLabel: mindbreaker toxin 20u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: mantis-pill_canister-mindbreaker # A cool green stripe
+    layers:
+      - state: mantis-pill_canister
+      - state: mantis-pill_canister-mindbreaker # A cool red stripe - not the color of mindbreaker, the label is a warning
   - type: StorageFill
     contents:
     - id: PillMindbreakerToxin
@@ -157,13 +163,15 @@
   parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it (if it replaces mindbreaker)
   id: PillCanisterSoulbreakerToxinMantis
   suffix: soulbreaker toxin, 5
-  description: "Permanently removes psionics when ingested. Four times stronger than mindbreaker toxin."
+  description: "Permanently removes psionics when ingested. Not to be taken lightly. Four times stronger than mindbreaker toxin."
   components:
   - type: Label
     currentLabel: soulbreaker toxin 5u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: mantis-pill_canister-soulbreaker # A greenish white stripe
+    layers:
+      - state: mantis-pill_canister
+      - state: mantis-pill_canister-soulbreaker # A cool pink stripe - not the color of soulbreaker, the label is a warning
   - type: StorageFill
     contents:
     - id: PillSoulbreakerToxin
@@ -176,7 +184,7 @@
   suffix: soulbreaker toxin 5u
   parent: Pill
   id: PillSoulbreakerToxin
-  description: "Permanently removes psionics when ingested. Four times stronger than mindbreaker toxin."
+  description: "Permanently removes psionics when ingested. Not to be taken lightly. Four times stronger than mindbreaker toxin."
   components:
   - type: Label
     currentLabel: soulbreaker toxin 5u
@@ -208,7 +216,9 @@
     currentLabel: mnemolith 10u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
-    state: mantis-pill_canister-mnemolith # A dark gray stripe
+    layers:
+      - state: mantis-pill_canister
+      - state: mantis-pill_canister-mnemolith # A dark gray stripe
   - type: StorageFill
     contents:
     - id: PillMnemolith

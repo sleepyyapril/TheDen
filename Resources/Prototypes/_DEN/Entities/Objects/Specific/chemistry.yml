@@ -7,21 +7,21 @@
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
     layers:
-      - state: syringe1
+      - state: mantis-syringe1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
       - state: mantis-syringe_base0
         map: ["enum.SolutionContainerLayers.Base"]
   - type: Icon
     sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
-    state: "mantis-syringe_base0"
+    state: mantis-syringe_base0
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/syringe.rsi
     heldPrefix: mantis
   - type: SolutionContainerVisuals
     maxFillLevels: 2
-    fillBaseName: syringe
+    fillBaseName: mantis-syringe
     inHandsMaxFillLevels: 3
     inHandsFillBaseName: -fill-
   - type: Damageable
