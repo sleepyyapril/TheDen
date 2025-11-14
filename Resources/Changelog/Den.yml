@@ -14425,3 +14425,10 @@ Entries:
   id: 1414
   time: '2025-11-14T14:27:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2039
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: Moths can now eat candy!
+  id: 1415
+  time: '2025-11-14T14:28:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2042
