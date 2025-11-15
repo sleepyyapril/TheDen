@@ -41,3 +41,5 @@
     ClothingShoesSandalsMantisDark: 1
     ClothingShoesSandalsMantisOrnate: 1
     ClothingUniformJumpsuitMantisLoincloth: 1 # It stays.
+  contrabandInventory:
+    BaseAntiPsionicWeapon: 1 # A stupid useless little knife, but it's cute, if you want to snip the wire
