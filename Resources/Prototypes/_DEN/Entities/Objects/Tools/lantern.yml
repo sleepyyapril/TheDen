@@ -1,5 +1,5 @@
 - type: entity
-  parent: [BaseItem, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
+  parent: [BaseItem, BaseAntiPsionicWeapon, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: LanternMantis
   name: mantis lantern
   description: "An ornate lantern housing an eidolite pyramid that draws energy from the noosphere. Its glow lingers in your vision, imprinting shapes you can't quite name, and its handle hangs easily on your back."
@@ -73,15 +73,9 @@
       - Flashlight
       - MantisBeltStorable
     - type: UnpoweredFlashlight # Powered by the noosphere
-    - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
-      punish: false
-      modifiers:
-        coefficients:
-          Blunt: 1.25
-          Holy: 1.25
     - type: DamageOtherOnHit
     - type: MeleeWeapon # You can swing it like a weapon since it's sturdy, but it's not very good
-      attackRate: 1 # Aside from damage and attack rate, it has all the same melee stats (speed, range, etc.) as the AntiPsychicKnife
+      attackRate: 1
       range: 1.5
       heavyRateModifier: 1.25
       heavyDamageBaseModifier: 1.2

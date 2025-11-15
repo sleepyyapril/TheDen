@@ -247,7 +247,7 @@
     stackType: FloorTileSomberGlassUranium
 
 - type: entity
-  parent: FloorTileItemSomberSteel
+  parent: [FloorTileItemSomberSteel, BaseAntiPsionicWeapon]
   id: FloorTileItemSomberMnemolithRough
   name: somber mnemolith tile (rough)
   components:
@@ -264,15 +264,9 @@
       types:
         Blunt: 9.5 # 11.88 damage against psions
         Holy: 4.75 # 17.81 total damage against supernaturals
-  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
-    punish: false
-    modifiers:
-      coefficients:
-        Blunt: 1.25
-        Holy: 1.25
 
 - type: entity
-  parent: FloorTileItemSomberSteel
+  parent: [FloorTileItemSomberSteel, BaseAntiPsionicWeapon]
   id: FloorTileItemSomberMnemolithSmooth
   name: somber mnemolith tile (smooth)
   components:
@@ -289,12 +283,6 @@
       types:
         Blunt: 9.5 # 11.88 damage against psions
         Holy: 4.75 # 17.81 total damage against supernaturals
-  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
-    punish: false
-    modifiers:
-      coefficients:
-        Blunt: 1.25
-        Holy: 1.25
 
 - type: entity
   parent: FloorTileItemSomberSteel

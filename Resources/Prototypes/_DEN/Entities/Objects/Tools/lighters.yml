@@ -1,5 +1,5 @@
 - type: entity
-  parent: [FlippoLighter, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
+  parent: [FlippoLighter, BaseAntiPsionicWeapon, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: FlippoLighterMantis
   name: mantis lighter
   description: "A glossy lighter sculpted from chips of mnemolith, housing an eidolite pyramid that draws energy from the noosphere. The flame gutters strangely, as if aware of what it burns."
@@ -51,13 +51,6 @@
     radius: 1.5 # Slightly brighter than other flippos
     color: "#4dc4ff"
   - type: LandAtCursor
-  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
-    punish: false
-    modifiers:
-      coefficients:
-        Blunt: 1.25
-        Holy: 1.25
-        Heat: 1.25 # Psionic fire
   - type: ItemToggleMeleeWeapon
     activatedDamage:
       types:

@@ -1,6 +1,6 @@
 - type: entity
-  parent: [ClothingHandsInedibleBase, BaseFoldable, BaseMantisContraband]
-  id: AntiPsychicFist
+  parent: [ClothingHandsInedibleBase, BaseFoldable, BaseAntiPsionicWeapon, BaseMantisContraband]
+  id: MantisFist
   name: manifold
   description: "A heavy mnemolith gauntlet designed for control rather than sheer lethality, capable of hurling foes back and, at times, deflecting incoming fire. Said to take its name from its capacity for folding men, and its clever design allows it to be worn on either hand. Deadly when wielded against psionic and otherworldly threats."
   components:
@@ -17,19 +17,13 @@
     size: Normal
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
-  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
-    punish: false
-    modifiers:
-      coefficients:
-        Blunt: 1.25
-        Holy: 1.25
   - type: MeleeWeapon
     attackRate: 0.6666
     range: 1.6
     heavyStaminaCost: 2
     heavyDamageBaseModifier: 1.05
     damage:
-      types: # Same DPS as CombatKnife against psions (25% less than AntiPsychicKnife and AntiPsychicCane due to its utility)
+      types: # Same DPS as CombatKnife against psions (25% less than MantisKnife and MantisCane due to its utility)
         Blunt: 8 # 12 DPS, or 15 DPS against psions
         Holy: 4 # 22.5 total DPS against supernaturals
     soundHit:
@@ -58,8 +52,8 @@
     - MantisMeleeFist
 
 - type: entity
-  parent: [AntiPsychicFist, BaseRivalCompanyContraband] # Traitor version, has 25% more damage and 4x the knockback
-  id: AntiPsychicFistDouble
+  parent: [MantisFist, BaseRivalCompanyContraband] # Traitor version, has 25% more damage and 4x the knockback
+  id: MantisFistDouble
   name: twinned manifold
   description: "Heavy mnemolith gauntlets forged through forbidden rituals, capable of hurling foes back and, at times, deflecting incoming fire. Said to take their name from their capacity for folding men. Deadly when wielded against psionic and otherworldly threats."
   components:
@@ -70,7 +64,7 @@
     sprite: _DEN/Objects/Weapons/Melee/mantisfistdouble.rsi
   - type: MeleeWeapon
     damage:
-      types: # Same DPS as CombatKnife against nonpsions (same as AntiPsychicKnife and AntiPsychicCane)
+      types: # Same DPS as CombatKnife against non-psions (same as MantisKnife and MantisCane)
         Slash: 10 # 15 DPS, or 18.75 DPS against psions
         Holy: 5 # 28.13 total DPS against supernaturals
   - type: MeleeThrowOnHit

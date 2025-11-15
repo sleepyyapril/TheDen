@@ -88,7 +88,7 @@
     - MantisBeltStorable
 
 - type: entity
-  parent: [ClothingNeckBase, BaseMantisContraband]
+  parent: [ClothingNeckBase, BaseAntiPsionicWeapon, BaseMantisContraband]
   id: ClothingNeckMantisPendulum
   name: mantis pendulum
   description: "A mnemolith eye hanging from a sturdy electrum chain, used to test psionic ability. Its strike rebounds on the wielder if its target lacks the gift. Mostly harmless, but mind your aim."
@@ -97,12 +97,8 @@
     sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
-  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
+  - type: AntiPsionicWeapon # It'll hurt you if you hit anything non-psionic (a mouse, a table, a wall, etc.)
     punish: true
-    modifiers:
-      coefficients:
-        Blunt: 1.25
-        Holy: 1.25
   - type: MeleeWeapon
     attackRate: 1
     range: 1.5

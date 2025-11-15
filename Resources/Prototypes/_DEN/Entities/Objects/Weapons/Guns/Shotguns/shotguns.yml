@@ -26,7 +26,7 @@
     fireOnDropChance: 0.5
   - type: BallisticAmmoProvider
     capacity: 2
-    proto: ShellSoulbreaker # Fine to start loaded since it's no longer mapped (mantis guns repurposed)
+    proto: ShellSoulbreaker # Fine to start loaded since it's no longer mapped (mantis guns were repurposed, and this can be for admemes)
   - type: MeleeWeapon
     attackRate: 1.2
     damage:

@@ -1,0 +1,32 @@
+# I'm sick of adding this component to every mantis weapon so I'm making a base item for it
+# But it's cute, so I'm adding it to the contraband inventory of the reliquary conduit
+- type: entity
+  parent: BaseItem
+  id: BaseAntiPsionicWeapon # See MantisKnife if you need an example of its implementation, but I've left notes for future contributors
+  name: ravel
+  description: "What? Is this a mnemolith tailor's knife? Where did you find this? It can't even cut fabric... Is it deadly when wielded against psionic and otherworldly threats?" # Do actually add "Deadly when wielded against psionic or otherworldly threats." to the end of antipsionic weapon descriptions so people know
+  components:
+  - type: AntiPsionicWeapon
+    punish: false # Normally false, unless you're making a special weapon that you want to stun its user when they miss and hit a mouse, or a table, or a wall
+    modifiers: # I've included common damage types here, but if a weapon doesn't do a certain type of damage, this obviously won't multiply it
+      coefficients: # If you want a stupid radioactive sword or something, you'll have to add that yourself
+        Blunt: 1.25
+        Slash: 1.25
+        Piercing: 1.25 # A standard antipsionic weapon is 25% stronger against psionic enemies across the board
+        Heat: 1.25 # This includes supernatural enemies, which are (or should be) "psionic" for the purposes of being weak to these weapons
+        Cold: 1.25
+        Shock: 1.25
+        Holy: 1.25
+  - type: Sprite # It's a base item, but also a tiny knife that can't even cut fabric like it was apparently made to do
+    sprite: _DEN/Objects/Weapons/Melee/mantistailorsknife.rsi # Because if I give it that component, blunt weapons will inherit it too
+    state: icon # Antipsionic weapons are always made of MaterialMnemolith and use that palette in the fashion you see here
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Melee/mantistailorsknife.rsi
+  - type: MeleeWeapon # This will get overridden
+    attackRate: 1 # Most (not all) antipsionic weapons have a 0.6666 attack rate and DPS equal to a combat knife against non-psions
+    damage:
+      types:
+        Slash: 1
+        Holy: 0.5 # A standard antipsionic weapon does holy damage that's half of its total physical damage
+  - type: ThrowingAngle # Override this so that the "point" of the weapon icon is facing downward
+    angle: 180 # This weapon icon points straight up, so we flip it 180 degrees

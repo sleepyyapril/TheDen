@@ -181,7 +181,7 @@
         amount: 10
 
 - type: entity
-  parent: [PenEmbeddable, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
+  parent: [PenEmbeddable, BaseAntiPsionicWeapon, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: PenMantis # The most mechanically complex pen in the world, all just for style
   name: mantis stylus
   description: "A writing tool chiseled from a spike of mnemolith. Do not accidentally poke yourself with it."
@@ -191,12 +191,6 @@
     state: pen_mantis
   - type: Item
     heldPrefix: pen_mantis
-  - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
-    punish: false
-    modifiers:
-      coefficients:
-        Pierce: 1.25
-        Holy: 1.25
   - type: LandAtCursor
   - type: DamageOtherOnHit
     damage:
@@ -244,7 +238,7 @@
     - LickObject # If you really want to
 
 - type: entity
-  parent: Paper
+  parent: [Paper, BaseAntiPsionicWeapon]
   id: PaperMantis
   name: ledgerstone # It's a spooky pun - it comes from the mantis ledger and is made with stone powder, but a ledgerstone is a gravestone
   description: "A sharp, durable page taken from the mantis ledger. Mnemolith powder sparkles within its surface. You feel watched."
@@ -312,12 +306,6 @@
       sprite: _DEN/Effects/fire.rsi
       normalState: mantispagefire # Has its own fire animation, also to be scary
       lightColor: "#4dc4ff"
-    - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
-      punish: false
-      modifiers:
-        coefficients:
-          Slash: 1.25
-          Holy: 1.25
     - type: LandAtCursor
     - type: DamageOtherOnHit
       damage:

@@ -1,5 +1,5 @@
 - type: entity
-  parent: [HandLabeler, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
+  parent: [HandLabeler, BaseAntiPsionicWeapon, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: HandLabelerMantis
   name: sigillator
   description: "An ancient and mystical hand labeler wrought from slabs of mnemolith, used by turning the wheels and giving something a good smack. You wouldn't be caught dead with that blue plastic monstrosity."
@@ -32,12 +32,6 @@
       tags:
       - HandLabeler
       - MantisBeltStorable
-    - type: AntiPsionicWeapon # Standard antipsionic weapon (25% stronger against psionic enemies, and does holy damage that's half of its physical damage)
-      punish: false
-      modifiers:
-        coefficients:
-          Blunt: 1.25
-          Holy: 1.25
     - type: LandAtCursor
     - type: DamageOtherOnHit
     - type: MeleeWeapon # You can swing it like a weapon since it's a heavy, blunt object, but it's not very good
