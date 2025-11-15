@@ -11,11 +11,19 @@
   parent: ClothingOuterHardsuitRd
   id: ClothingOuterHardsuitMystagogue
   name: mystagogue's hardsuit
-  description: Lightweight hardsuit that has a helmet with a galaxy-first psionic passthrough system.
-  suffix: Mystagogue # TheDen
+  description: A heavy-duty hardsuit specialized for research that includes a built-in psionic nullification and detection system in the helmet. Modified bluespace embedded into the plating allows it to be folded into a smaller space then one would expect.
   components:
+  - type: Sprite
+    sprite: _DV/Clothing/OuterClothing/Hardsuits/rd.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/OuterClothing/Hardsuits/rd.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMystagogue
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterHardsuitMystagogue]
+  id: ClothingOuterHardsuitMystagogueLabcoat
+  name: mystagogue's hardsuit
 
 - type: entity
   parent: ClothingOuterHardsuitSyndie
