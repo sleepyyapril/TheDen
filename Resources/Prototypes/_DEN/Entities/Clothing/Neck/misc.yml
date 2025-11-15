@@ -76,7 +76,7 @@
   parent: [ClothingNeckCollarBase, BaseMantisContraband]
   id: ClothingNeckMantisShackles
   name: graven bindings
-  description: "A massive mu-metal collar with matching shackles. They are only symbolic; the graven chains are the true sentence."
+  description: "A set of massive mu-metal bindings with hanging chains. Merely symbolic unless paired with the graven shackles."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Neck/Misc/mantisshackles.rsi

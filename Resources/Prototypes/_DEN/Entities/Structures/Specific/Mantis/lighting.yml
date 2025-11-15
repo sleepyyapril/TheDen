@@ -5,7 +5,7 @@
   description: "An eidolite pyramid that draws energy from the noosphere to produce light, recessed into the ground."
   components:
   - type: Sprite
-    sprite: _DEN/Structures/Specific/Mantis/lampeidolitewell.rsi
+    sprite: _DEN/Structures/Lighting/LightPosts/lampeidolitewell.rsi
     snapCardinals: true
     drawdepth: Objects
     noRot: true
@@ -20,7 +20,8 @@
       fix1:
         shape:
           !type:PhysShapeCircle
-          radius: 0.140625
+          radius: 0.125
+          position: -0.0156,0.0156 # Half a pixel left and up from center
         hard: false
         density: 100
         mask:
@@ -58,7 +59,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 300
       behaviors:
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
@@ -87,14 +88,14 @@
   description: "An eidolite pyramid that draws energy from the noosphere to produce light, mounted on a mnemolith column."
   components:
   - type: Sprite
-    sprite: _DEN/Structures/Specific/Mantis/lampeidolitefloor.rsi
+    sprite: _DEN/Structures/Lighting/LightPosts/lampeidolitefloor.rsi
     drawdepth: Objects
   - type: Fixtures
     fixtures:
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.375,-0.4375,0.375,0.625"
+          bounds: "-0.125,-0.28125,0.09375,0.0625"
         hard: true
         density: 200
         mask:
@@ -106,3 +107,4 @@
   - type: PointLight
     enabled: true
     radius: 4
+    energy: 3

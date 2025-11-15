@@ -13,14 +13,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 300
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-      - !type:EmptyAllContainersBehaviour
     - trigger:
         !type:DamageTrigger
-        damage: 75
+        damage: 100
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -52,14 +51,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 300
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-      - !type:EmptyAllContainersBehaviour
     - trigger:
         !type:DamageTrigger
-        damage: 75
+        damage: 100
       behaviors:
       - !type:PlaySoundBehavior
         sound:

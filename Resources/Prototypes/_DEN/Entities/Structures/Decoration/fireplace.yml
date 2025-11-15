@@ -35,6 +35,7 @@
     energy: 3
     softness: 1.1
     color: "#4dc4ff"
+  - type: AlwaysHot
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
@@ -42,7 +43,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 300
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
@@ -60,21 +61,20 @@
           ScrapElectrum:
             min: 3
             max: 5
-    - type: AlwaysHot
-    - type: Fixtures
-      fixtures:
-        fix1:
-          shape:
-            !type:PhysShapeCircle
-            radius: 0.34375
-          hard: true
-          density: 200
-          mask:
-          - MachineMask
-          layer:
-          - MidImpassable
-          - LowImpassable
-          - BulletImpassable
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.25,0.25,0.25"
+        hard: true
+        density: 200
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
+        - BulletImpassable
 
 - type: entity
   parent: BaseSignDirectional # So it's technically wall decor, but whatever
@@ -105,19 +105,18 @@
           festive: { visible: true }
   - type: PointLight
     radius: 3
-  - type: Damageable
-    damageContainer: Inorganic
-    damageModifierSet: Metallic
-  - type: PointLight
-    radius: 3
     energy: 3
     softness: 1.1
     color: "#4dc4ff"
+  - type: AlwaysHot
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
   - type: Destructible
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 200
+        damage: 300
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]

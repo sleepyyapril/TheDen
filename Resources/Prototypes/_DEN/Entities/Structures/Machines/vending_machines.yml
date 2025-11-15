@@ -64,9 +64,8 @@
     guides: [ MantisGuide ]
   - type: PointLight
     radius: 2
-    energy: 1.5
+    energy: 1.3
     softness: 1.1
-    castShadows: true
     color: "#4dc4ff" # Mnemolith candles, psionic fire
   - type: AmbientSound
     volume: 0
@@ -108,3 +107,52 @@
     - TauCetiBasic
     understands:
     - TauCetiBasic
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.1875,-0.28125,0.15625,0.25"
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+        density: 500
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible
+    thresholds:
+    - trigger: # If it gets nuked, it just disappears
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger: # If you destroy it, it drops scrap materials
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalGlassBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ScrapElectrum:
+            min: 3
+            max: 5
+          MaterialMnemolith1:
+            min: 3
+            max: 5
+    - trigger: # If you break it, it shoots out items
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalGlassBreak
+      - !type:DoActsBehavior
+        acts: ["Breakage"]
+      - !type:EjectVendorItems

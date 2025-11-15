@@ -207,7 +207,7 @@
   id: MantisCaseRestraints
   suffix: DO NOT MAP # Mantes need to get this from loadout - see tags below
   name: mantis restraints case # Loadout option
-  description: "An amaranth case filled with shackles and chains, complete with an antique wrench. Conveniently portable, but the slots inside will only fit its original contents. Unfortunately, it seems the graven anchors have gone missing..." # If get the anchorable chain leashes working, delete the last sentence
+  description: "An amaranth case filled with shackles and chains, complete with an antique wrench. Conveniently portable, but the slots inside will only fit its original contents."
   components:
   - type: Sprite
     layers:
@@ -224,9 +224,11 @@
   - type: StorageFill
     contents:
     - id: ClothingHeadCageMantis # This version has a chain on the front to match the other restraints case items (the locker version does not)
-    - id: HandcuffsMantis # If these are ever used to selfsec I swear to god I'll drop the breakout doafter to a millisecond
+    - id: HandcuffsMantis # If these are ever used to selfsec I swear to god, the breakout time is already one second
     - id: ClothingNeckMantisShackles # Just a cosmetic neck item to complete the set
     - id: WrenchMantis # A pretty but otherwise normal wrench for anchoring chains
+    - id: LeashMantis # Matching chain leashes with sprites made to look like anchor points rather than handles
+      amount: 4
   - type: Tag
     tags:
     - MantisBeltStorable

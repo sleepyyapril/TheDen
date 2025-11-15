@@ -262,6 +262,8 @@
       proto: mantis
     - type: Item
       heldPrefix: paper_mantis
+    - type: PaperLabelType
+      paperType: MantisPaper
     - type: FlavorProfile
       flavors:
         - mantispaper
