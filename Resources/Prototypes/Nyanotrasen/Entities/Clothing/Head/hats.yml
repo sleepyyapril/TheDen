@@ -135,7 +135,7 @@
     tags:
     # - ForensicBeltEquip # TheDen
     - MantisBeltStorable # TheDen - New tag for clarity
-    - MantisRestraintsBoxStorable
+    - MantisBoxRestraintsStorable
   - type: LeashAnchor # TheDen - It just makes sense
     offset: 0, 0.22
   - type: GuideHelp

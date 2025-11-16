@@ -15,7 +15,7 @@
   components:
   - type: AntiPsionicWeapon
     punish: false
-    # Normally false, unless you're making a special weapon that you want to stun its user when they hit anything non-psionic (a mouse, a wall, etc.)
+    # Normally false, unless you're making a special weapon that you want to stun its user when they hit anything non-psionic (see MantisGreatsword)
     # I've included common damage types below, but if a weapon doesn't do a certain type of damage, this obviously won't multiply it
     # Brute damage from the mnemolith itself, burn damage from psionic forms of energy (like psionic fire), holy to represent metaphysical power
     # A standard anti-psionic weapon is 25% stronger against psionic enemies across the board, so it's predictable and players don't have to guess

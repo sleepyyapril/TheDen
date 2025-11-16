@@ -161,7 +161,7 @@
     whitelist:
       tags:
         - Document
-        - MantisFolderStorable # Only the mantis pen and stamp should have this
+        - MantisBoxFolderStorable # Only the mantis pen, stamp, and papers should have this
     grid: # It's a 5x5 square with an isolated slot in the middle for the stamp
     - 0,0,4,0
     - 0,4,4,4
@@ -232,7 +232,7 @@
       - Write
       - Pen
       - MantisBeltStorable
-      - MantisFolderStorable # Only the mantis pen and stamp should have this
+      - MantisBoxFolderStorable # Only the mantis pen, stamp, and papers should have this
 
 - type: entity
   parent: [Paper, BaseAntiPsionicWeapon]
@@ -326,4 +326,4 @@
         - Trash
         - Paper
         - MantisBeltStorable
-        - MantisFolderStorable # Only the mantis pen and stamp should have this
+        - MantisBoxFolderStorable # Only the mantis pen, stamp, and papers should have this

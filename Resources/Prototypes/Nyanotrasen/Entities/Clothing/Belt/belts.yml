@@ -42,8 +42,8 @@
         - AnomalyScanner
         - NodeScanner
         - Flash
-  - type: Appearance # TheDen - It has a sheath for MantisKnife or MantisCane (MantisFist is worn like a glove, and MantisSword is intentionally excluded)
-  - type: ContainerContainer # TheDen - The rest of this item is all our code
+  - type: Appearance # TheDen - It has a sheath for MantisKnife or MantisCane (MantisFist is worn like a glove, and MantisGreatsword is intentionally excluded)
+  - type: ContainerContainer # TheDen - The rest of this item is our code
     containers:
       storagebase: !type:Container
         ents: []

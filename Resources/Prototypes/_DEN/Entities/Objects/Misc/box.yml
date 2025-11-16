@@ -149,7 +149,7 @@
         - Bottle
         - PillCanister
         - Pill
-        - MantisChemicalBoxStorable # Somewhat redundant, but it has its own tag just in case
+        - MantisBoxChemicalsStorable # Somewhat redundant, but it has its own tag just in case
   - type: Item
     size: Tiny # Like CigPackBase, so it can only store tiny items
     shape:
@@ -186,7 +186,7 @@
     - 0,0,2,2 # 3x3, bigger on the inside, but it can only store what already comes inside it
     whitelist:
       tags:
-        - MantisCandleBoxStorable # Only the mantis lighter and candles should have this
+        - MantisBoxCandlesStorable # Only the mantis lighter and candles should have this
   - type: StorageFill
     contents: # A cute radial arrangement of items, like a gift box
     - id: CandleMantisSmall
@@ -220,7 +220,7 @@
     - 0,0,5,1 # 6x2, bigger on the inside, but it can only store what already comes inside it (extra space left for the future anchorable chain leashes)
     whitelist:
       tags:
-        - MantisRestraintsBoxStorable # Only the items below should have this
+        - MantisBoxRestraintsStorable # Only the items below should have this
   - type: StorageFill
     contents:
     - id: ClothingHeadCageMantis # This version has a chain on the front to match the other restraints case items (the locker version does not)
@@ -232,5 +232,5 @@
   - type: Tag
     tags:
     - MantisBeltStorable
-    - MantisRestraintsBoxStorable # Technically you could put this box inside itself, but only one should exist in a game at a time since it's a loadout item
+    - MantisBoxRestraintsStorable # Technically you could put this box inside itself, but only one should exist in a game at a time since it's a loadout item
 # Mantis cases end

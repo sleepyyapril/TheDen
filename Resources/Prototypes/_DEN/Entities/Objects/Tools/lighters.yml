@@ -69,4 +69,4 @@
   - type: Tag
     tags:
     - MantisBeltStorable
-    - MantisCandleBoxStorable # Only the mantis lighter and candles should have this
+    - MantisBoxCandlesStorable # Only the mantis lighter and candles should have this

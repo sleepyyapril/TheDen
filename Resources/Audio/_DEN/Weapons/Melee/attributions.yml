@@ -8,21 +8,36 @@
   source: "https://github.com/Citadel-Station-13/Citadel-Station-13/commit/35a1723e98a60f375df590ca572cc90f1bb80bd5"
 
 - files: ["fausthit.ogg"]
-  license: "CC-BY-NC-4.0"
+  license: "Attribution 4.0"
   copyright: "Made by SoundFlakes via freesound.org"
   source: "https://freesound.org/people/SoundFlakes/sounds/492529/"
 
 - files: ["faustmiss.ogg"]
-  license: "CC-BY-NC-4.0"
+  license: "Attribution 4.0"
   copyright: "Made by SoundFlakes via freesound.org"
   source: "https://freesound.org/people/SoundFlakes/sounds/492530/"
 
+- files: ["faustsheath.ogg"]
+  license: "Attribution 4.0"
+  copyright: "Made by SoundFlakes via freesound.org"
+  source: "https://freesound.org/people/SoundFlakes/sounds/492551/"
+
+- files: ["faustunsheath.ogg"]
+  license: "Attribution 4.0"
+  copyright: "Made by SoundFlakes via freesound.org"
+  source: "https://freesound.org/people/SoundFlakes/sounds/492534/"
+
 - files: ["faustunwield.ogg"]
-  license: "CC-BY-NC-4.0"
+  license: "Attribution 4.0"
   copyright: "Made by SoundFlakes via freesound.org"
   source: "https://freesound.org/people/SoundFlakes/sounds/492538/"
 
 - files: ["faustwield.ogg"]
-  license: "CC-BY-NC-4.0"
+  license: "Attribution 4.0"
   copyright: "Made by SoundFlakes via freesound.org"
   source: "https://freesound.org/people/SoundFlakes/sounds/492552/"
+
+- files: ["bigswoosh.ogg"]
+  license: "Attribution 3.0"
+  copyright: "Made by kwahmah_02 via freesound.org"
+  source: "https://freesound.org/people/kwahmah_02/sounds/269283/"

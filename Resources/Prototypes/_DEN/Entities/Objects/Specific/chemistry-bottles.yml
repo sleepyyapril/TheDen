@@ -8,7 +8,7 @@
     tags:
     - Bottle
     - MantisBeltStorable
-    - MantisChemicalBoxStorable
+    - MantisBoxChemicalsStorable
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/bottle.rsi
     layers:

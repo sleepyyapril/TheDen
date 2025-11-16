@@ -31,4 +31,4 @@
     tags:
       # - ForensicBeltEquip # TheDen
       - MantisBeltStorable # TheDen - New tag for clarity
-      - MantisFolderStorable # Only the mantis pen and stamp should have this
+      - MantisBoxFolderStorable # Only the mantis pen, stamp, and papers should have this

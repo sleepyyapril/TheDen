@@ -580,3 +580,125 @@
         - ForensicMantis
   items:
     - ClothingUniformJumpsuitMantisLoincloth
+
+# Ranged
+
+- type: loadout
+  id: LoadoutPsionicMantisRangedPistol
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisRanged
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - WeaponPistolMantis
+    - MantisCaseAmmoPistol
+
+- type: loadout
+  id: LoadoutPsionicMantisRangedRevolver
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisRanged
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - WeaponRevolverMantis
+    - MantisCaseAmmoRevolver
+
+- type: loadout
+  id: LoadoutPsionicMantisRangedSubMachineGun
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisRanged
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - WeaponSubMachineGunMantis
+    - MantisCaseAmmoSubMachineGun
+
+- type: loadout
+  id: LoadoutPsionicMantisRangedShotgun
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisRanged
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - WeaponShotgunMantis
+    - MantisCaseAmmoShotgun
+
+# Melee
+
+- type: loadout
+  id: LoadoutPsionicMantisMeleeKnife
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisMelee
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - MantisKnife # Athame
+
+- type: loadout
+  id: LoadoutPsionicMantisMeleeFist
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisMelee
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - MantisFist # Manifold
+
+- type: loadout
+  id: LoadoutPsionicMantisMeleeCane
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisMelee
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - MantisCane # Gnomon
+
+- type: loadout
+  id: LoadoutPsionicMantisMeleeGreatsword
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisRanged # Choosing the risk/reward greatsword prevents you from taking a gun, you have to commit
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisMelee
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - MantisGreatswordSheathFilled # Faust

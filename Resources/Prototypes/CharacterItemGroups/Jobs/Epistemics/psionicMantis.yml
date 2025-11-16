@@ -187,3 +187,32 @@
       id: LoadoutPsionicMantisUniformSkirtOrnate
     - type: loadout # TheDen
       id: LoadoutPsionicMantisUniformSuitLoincloth
+
+# TheDen - Everything below is our code
+- type: characterItemGroup
+  id: LoadoutPsionicMantisRanged
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutPsionicMantisRangedPistol
+    - type: loadout
+      id: LoadoutPsionicMantisRangedRevolver
+    - type: loadout
+      id: LoadoutPsionicMantisRangedSubMachineGun
+    - type: loadout
+      id: LoadoutPsionicMantisRangedShotgun
+    - type: loadout
+      id: LoadoutPsionicMantisGreatsword # Faust - Choosing the risk/reward sword prevents you from taking a gun, you have to commit
+
+- type: characterItemGroup
+  id: LoadoutPsionicMantisMelee
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutPsionicMantisMeleeKnife # Athame
+    - type: loadout
+      id: LoadoutPsionicMantisMeleeFist # Manifold
+    - type: loadout
+      id: LoadoutPsionicMantisMeleeCane # Gnomon
+    - type: loadout
+      id: LoadoutPsionicMantisGreatsword # Faust

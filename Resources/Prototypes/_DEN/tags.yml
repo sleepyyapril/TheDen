@@ -64,23 +64,26 @@
   id: MantisBeltStorable
 
 - type: Tag
-  id: MantisCandleBoxStorable
+  id: MantisBoxCandlesStorable
+
+- type: Tag
+  id: MantisBoxChemicalsStorable
+
+- type: Tag
+  id: MantisBoxFolderStorable
+
+- type: Tag
+  id: MantisBoxRestraintsStorable
 
 - type: Tag
   id: MantisCane
 
 - type: Tag
-  id: MantisChemicalBoxStorable
+  id: MantisFist
 
 - type: Tag
-  id: MantisFolderStorable
+  id: MantisGreatsword
 
 - type: Tag
   id: MantisKnife
-
-- type: Tag
-  id: MantisRestraintsBoxStorable
-
-- type: Tag
-  id: MantisSword
 # Mantis tags end

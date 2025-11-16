@@ -30,7 +30,7 @@
     state: icon
   - type: Tag
     tags:
-    - MantisRestraintsBoxStorable
+    - MantisBoxRestraintsStorable
     - MantisBeltStorable
   - type: MeleeWeapon
     wideAnimationRotation: 90

@@ -58,7 +58,7 @@
     tags:
     - Syringe
     - MantisBeltStorable
-    - MantisChemicalBoxStorable
+    - MantisBoxChemicalsStorable
 
 - type: entity
   parent: PillCanister
@@ -116,4 +116,4 @@
     tags:
       - PillCanister
       - MantisBeltStorable
-      - MantisChemicalBoxStorable
+      - MantisBoxChemicalsStorable

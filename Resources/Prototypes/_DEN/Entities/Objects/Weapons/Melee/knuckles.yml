@@ -46,6 +46,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+    - MantisFist
     - MantisBeltStorable
 
 - type: entity
