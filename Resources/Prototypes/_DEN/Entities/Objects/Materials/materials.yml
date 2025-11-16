@@ -39,7 +39,7 @@
       mnemolith:
         reagents:
         - ReagentId: MnemolithReagent
-          Quantity: 15 # Uncontrolled dosing, so 15 units, and you'll overdose briefly
+          Quantity: 15 # Uncontrolled dosing, so 15u, and you'll overdose briefly
   - type: Destructible
     thresholds:
     - trigger:
@@ -82,7 +82,7 @@
         maxVol: 15
         reagents:
         - ReagentId: MnemolithReagent
-          Quantity: 15 # Uncontrolled dosing, so 15 units, and you'll overdose briefly
+          Quantity: 15 # Uncontrolled dosing, so 15u, and you'll overdose briefly
   - type: SolutionSpiker
     sourceSolution: food
     ignoreEmpty: true

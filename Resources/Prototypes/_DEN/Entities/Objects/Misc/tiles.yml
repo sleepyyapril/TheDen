@@ -18,7 +18,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Blunt: 9.5 # Heavier tiles hurt more
+        Blunt: 9.5 # Heavier tiles hurt more, based on FloorTileItemSteel
     staminaCost: 6
     soundHit: /Audio/Weapons/block_metal1.ogg
 
@@ -261,7 +261,7 @@
     stackType: FloorTileSomberMnemolithRough
   - type: DamageOtherOnHit # Well, it is made of mnemolith...
     damage:
-      types:
+      types: # Damage against non-psions is based on FloorTileItemSteel
         Blunt: 9.5 # 11.88 damage against psions
         Holy: 4.75 # 17.81 total damage against supernaturals
 
@@ -280,7 +280,7 @@
     stackType: FloorTileSomberMnemolithSmooth
   - type: DamageOtherOnHit
     damage:
-      types:
+      types: # Damage against non-psions is based on FloorTileItemSteel
         Blunt: 9.5 # 11.88 damage against psions
         Holy: 4.75 # 17.81 total damage against supernaturals
 
@@ -300,7 +300,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Blunt: 5.5 # Lighter tiles hurt less
+        Blunt: 5.5 # Lighter tiles hurt less, based on FloorTileItemBase
     staminaCost: 5
     soundHit:
       collection: MetalThud

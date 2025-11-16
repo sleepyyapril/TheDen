@@ -179,6 +179,10 @@
       - id: RubberStampMantis
       - id: PaperMantis
         amount: 10
+  - type: Tag
+    tags:
+    - Folder
+    - MantisBeltStorable
 
 - type: entity
   parent: [PenEmbeddable, BaseAntiPsionicWeapon, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
@@ -191,31 +195,26 @@
     state: pen_mantis
   - type: Item
     heldPrefix: pen_mantis
-  - type: LandAtCursor
   - type: DamageOtherOnHit
     damage:
       types: # Thrown damage (but you'll get it thrown back at you, and you're psionic)
-        Piercing: 6.4 # 8 damage against psions
+        Piercing: 6.4 # 8 damage against psions (same as PenCap)
         Holy: 3.2 # 12 total damage against supernaturals
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
-    removalTime: 0
-  - type: MeleeWeapon # You can swing it like a weapon since it's a crystal spike, but it's not very good
+    removalTime: 0 # No doafter to pull it out so people can throw it back fast, because you probably deserve it
+  - type: MeleeWeapon # You can swing it like a weapon
     attackRate: .6666
-    range: 1.5
-    heavyRateModifier: 1.25
-    heavyDamageBaseModifier: 1.2
-    maxTargets: 3
     angle: 40
-    wideAnimationRotation: 135
+    wideAnimationRotation: -45
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
     damage:
-      types: # Melee damage (intended more for roleplay than serious combat)
-        Piercing: 1.6 # 2.4 DPS, or 3 DPS against psions
-        Holy: 0.8 # 4.5 total DPS against supernaturals
-  - type: StaminaDamageOnHit
-    damage: 0
+      types: # Melee damage
+        Piercing: 3.2 # 4.8 DPS, or 6 DPS against psions (same as Shiv)
+        Holy: 1.6 # 9 total DPS against supernaturals
+  - type: ThrowingAngle
+    angle: -45
   - type: PhysicalComposition
     materialComposition:
       MaterialMnemolith1: 1
@@ -225,17 +224,15 @@
       params:
         volume: -2
         variation: 0.05
-        maxDistance: 10 # Longer range to be spooky
+        maxDistance: 10 # Longer range than a standard pen click to be spooky
   - type: UseDelay
-    delay: 2
+    delay: 2 # Its sound effect is 2s long, no overlapping allowed
   - type: Tag
     tags:
       - Write
       - Pen
+      - MantisBeltStorable
       - MantisFolderStorable # Only the mantis pen and stamp should have this
-  - type: InteractionVerbs
-    allowedVerbs:
-    - LickObject # If you really want to
 
 - type: entity
   parent: [Paper, BaseAntiPsionicWeapon]
@@ -246,35 +243,35 @@
     - type: Clothing
       sprite: _DEN/Clothing/Mask/mantispapermask.rsi
       quickEquip: false
-      slots: [mask] # You can wear it over your face like a Japanese talisman and the eye on it will pulse every few seconds, but this isn't noted anywhere
+      slots: [mask] # You can wear it over your face like a paper talisman and the eye on it will pulse every few seconds, but this isn't noted anywhere
       clothingVisuals:
         mask:
         - state: equipped-MASK
         - state: glow
           shader: unshaded
-    - type: TypingIndicatorClothing
+    - type: TypingIndicatorClothing # It gives you a new typing indicator if you wear it
       proto: mantis
     - type: Item
       heldPrefix: paper_mantis
-    - type: PaperLabelType
+    - type: PaperLabelType # So it can label containers with a unique sprite
       paperType: MantisPaper
     - type: FlavorProfile
       flavors:
         - mantispaper
     - type: SolutionContainerManager
       solutions:
-        food: # The mnemolith powder in the paper itself
+        food: # The mnemolith powder in the paper itself (if it's eaten)
           maxVol: 15
           reagents:
           - ReagentId: MnemolithReagent
-            Quantity: 15 # Uncontrolled dosing, so 15 units, and you'll overdose briefly
-        injector: # The mnemolith powder on the edges
-          maxVol: 15
-          reagents:
-          - ReagentId: MnemolithReagent
-            Quantity: 12
+            Quantity: 15 # Uncontrolled dosing, so 15u, and you'll overdose briefly
+        injector: # The mnemolith powder in the edges (if it's thrown into you)
+          maxVol: 300
+          reagents: # Notably, grinding it only produces the "food" reagent volume above, so this is just for thrown hits and not otherwise accessible
+          - ReagentId: MnemolithReagent # And it lacks the RefillableSolution component, so you can't empty it and then fill it with poison or something
+            Quantity: 300
     - type: SolutionInjectOnEmbed # You get a brief extrasensory experience when it gives you a paper cut
-      transferAmount: 3 # The powder on all the edges is all soaked up after four hits
+      transferAmount: 3
       solution: injector
     - type: Extractable
       grindableSolutionName: food
@@ -295,23 +292,14 @@
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
     - type: Flammable
-      fireSpread: false
-      canResistFire: false
-      alwaysCombustible: true
-      canExtinguish: true
+      fireSpread: false # Psionic fire doesn't work like that
       damage:
         types:
-          Heat: 0.33 # Burns three times longer than a normal paper just to be scary
+          Heat: 0.33 # Burns three times longer than a normal paper just to be spooky
     - type: FireVisuals
       sprite: _DEN/Effects/fire.rsi
-      normalState: mantispagefire # Has its own fire animation, also to be scary
-      lightColor: "#4dc4ff"
-    - type: LandAtCursor
-    - type: DamageOtherOnHit
-      damage:
-        types: # Thrown damage (paper cut)
-          Slash: 0.8 # 1 damage against psions
-          Holy: 0.8 # 2 total damage against supernaturals
+      normalState: mantispagefire # Has its own fire animation that shows the paper's eye
+      lightColor: "#4dc4ff" # Psionic fire color
     - type: EmbeddableProjectile
       sound: /Audio/Weapons/pierce.ogg # Just a dull thunk since it does almost no damage
       removalTime: 2
@@ -332,3 +320,10 @@
       backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
       contentMargin: 4.0, 4.0, 4.0, 4.0
       maxWritableArea: 400.0, 400.0
+    - type: Tag
+      tags:
+        - Document
+        - Trash
+        - Paper
+        - MantisBeltStorable
+        - MantisFolderStorable # Only the mantis pen and stamp should have this

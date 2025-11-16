@@ -14,7 +14,7 @@
       "name": "fireplacefestive"
     },
     {
-      "name": "fireplace_fire4"
+      "name": "fireplace_fire4",
       "delays": [
         [
           0.1,
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "name": "fireplace_glow"
+      "name": "fireplace_glow",
       "delays": [
         [
           0.1,

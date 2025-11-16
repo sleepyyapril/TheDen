@@ -31,7 +31,7 @@
     sound:
       path: /Audio/Ambience/Objects/fireplace.ogg
   - type: PointLight
-    radius: 4
+    radius: 4.1
     energy: 3
     softness: 1.1
     color: "#4dc4ff"
@@ -104,7 +104,7 @@
         christmas:
           festive: { visible: true }
   - type: PointLight
-    radius: 3
+    radius: 3.1
     energy: 3
     softness: 1.1
     color: "#4dc4ff"

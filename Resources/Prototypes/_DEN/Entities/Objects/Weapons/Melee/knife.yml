@@ -7,11 +7,11 @@
   - type: Tag
     tags:
     - Knife
-  - type: MeleeWeapon # You'd be better off punching them
+  - type: MeleeWeapon
     attackRate: 1
     damage:
       types:
-        Slash: 1
+        Slash: 4
   - type: DisarmMalus
     malus: 0.225
   - type: ThrowingAngle
@@ -21,6 +21,31 @@
     state: icon
   - type: Item
     sprite: _DEN/Objects/Weapons/Melee/tailorsknife.rsi
+
+- type: entity
+  parent: [TailorsKnife, BaseAntiPsionicWeapon, BaseMantisContraband]
+  id: MantisTailorsKnife # Obtained by hacking the reliquary conduit
+  name: ravel
+  description: "A mnemolith tailor's knife summoned from the Reliquary without authorization—presumably stolen from whoever designed your uniforms, you rat. Possibly deadly when wielded against psionic and otherworldly threats."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Melee/mantistailorsknife.rsi
+    state: icon
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Melee/mantistailorsknife.rsi
+  - type: MeleeWeapon
+    attackRate: .6666
+    wideAnimationRotation: -180
+    damage:
+      types:
+        Slash: 4 # 6 DPS (same as Shiv), or 7.5 DPS against psions
+        Holy: 1.6 # 11.25 total DPS against supernaturals
+  - type: ThrowingAngle
+    angle: 90
+  - type: Tag
+    tags:
+    - MantisBeltStorable
+    - Knife
 
 - type: entity
   parent: [CombatKnife, BaseAntiPsionicWeapon, BaseMantisContraband]
@@ -55,9 +80,6 @@
       types: # Same DPS as CombatKnife against non-psions (same as MantisFist and MantisCane)
         Slash: 10 # 15 DPS, or 18.75 DPS against psions
         Holy: 5 # 28.13 total DPS against supernaturals
-  - type: DamageOtherOnHit
-  - type: StaminaDamageOnHit
-    damage: 0
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     removalTime: 2

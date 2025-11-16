@@ -48,20 +48,23 @@
       - state: mantis-inhand-right-flame
         shader: unshaded
   - type: PointLight
-    radius: 1.5 # Slightly brighter than other flippos
+    radius: 1.3
+    softness: 1.1
     color: "#4dc4ff"
-  - type: LandAtCursor
   - type: ItemToggleMeleeWeapon
     activatedDamage:
       types:
-          Heat: 1.6 # 1.6 DPS, or 2 DPS against psions
-          Holy: 0.8 # 3 total DPS against supernaturals
+        Heat: 2 # 3 DPS, or 3.75 DPS against psions
+        Holy: 1 # 5 total DPS against supernaturals
   - type: MeleeWeapon
-    wideAnimationRotation: -90
+    attackRate: .6666
+    wideAnimationRotation: -180
     damage:
       types:
-        Blunt: 1.6 # 1.6 DPS, or 2 DPS against psions
-        Holy: 0.8 # 3 total DPS against supernaturals
+        Blunt: 2 # 3 DPS, or 3.75 DPS against psions
+        Holy: 1 # 5 total DPS against supernaturals
+  - type: ThrowingAngle
+    angle: 90
   - type: Tag
     tags:
     - MantisBeltStorable

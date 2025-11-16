@@ -91,7 +91,7 @@
   parent: [ClothingNeckBase, BaseAntiPsionicWeapon, BaseMantisContraband]
   id: ClothingNeckMantisPendulum
   name: mantis pendulum
-  description: "A mnemolith eye hanging from a sturdy electrum chain, used to test psionic ability. Its strike rebounds on the wielder if its target lacks the gift. Mostly harmless, but mind your aim."
+  description: "A mnemolith eye hanging from a sturdy electrum chain, used to test psionic ability. Its strike rebounds on the wielder if its target lacks the gift. Mostly harmless, but mind your aim. It fits nicely around your neck, too."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
@@ -100,12 +100,9 @@
   - type: AntiPsionicWeapon # It'll hurt you if you hit anything non-psionic (a mouse, a table, a wall, etc.)
     punish: true
   - type: MeleeWeapon
-    attackRate: 1
-    range: 1.5
-    heavyRateModifier: 1
-    heavyDamageBaseModifier: 1
+    attackRate: .6666
     maxTargets: 1
-    angle: 30
+    angle: 20
     wideAnimationRotation: 0
     soundHit:
       path: /Audio/_DEN/Effects/crystaltap3.ogg
@@ -113,11 +110,12 @@
         volume: -2
         variation: 0.05
     damage:
-      types: # Melee damage (per the description, it's for testing psions, not fighting)
-        Blunt: 0.8 # 1 DPS against psions
-        Holy: 0.8 # 2 total DPS against supernaturals
-  - type: StaminaDamageOnHit
-    damage: 0
+      types: # Melee damage (per the description, it's for testing psionic ability, not fighting)
+        Blunt: 1 # 1.5 DPS, or 1.88 DPS against psions
+        Holy: 0.5 # 2.81 total DPS against supernaturals
+  - type: ThrowingAngle
+    angle: -90
+    angularVelocity: false
   - type: Tag
     tags:
     - MantisBeltStorable

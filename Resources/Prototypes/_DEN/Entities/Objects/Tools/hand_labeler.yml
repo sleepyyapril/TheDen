@@ -5,48 +5,21 @@
   description: "An ancient and mystical hand labeler wrought from slabs of mnemolith, used by turning the wheels and giving something a good smack. You wouldn't be caught dead with that blue plastic monstrosity."
   components:
     - type: Sprite
-      sprite: _DEN/Objects/Tools/hand_labeler.rsi
-      state: hand_labeler
+      sprite: _DEN/Objects/Tools/handlabelermantis.rsi
     - type: Item
-      sprite: _DEN/Objects/Tools/hand_labeler.rsi
-      storedRotation: -90
-    - type: UseDelay
-      delay: 2.0
-    - type: ActivatableUI
-      key: enum.HandLabelerUiKey.Key
-      inHandsOnly: true
-    - type: UserInterface
-      interfaces:
-        enum.HandLabelerUiKey.Key:
-          type: HandLabelerBoundUserInterface
-    - type: HandLabeler
-      whitelist:
-        components:
-          - Item
-        tags:
-          - Structure
-          - Airlock
-          - GlassAirlock
-          - HighSecDoor
+      sprite: _DEN/Objects/Tools/handlabelermantis.rsi
+    - type: MeleeWeapon # You can swing it like a weapon
+      attackRate: 0.6666
+      wideAnimationRotation: -90
+      soundHit:
+        path: /Audio/Weapons/block_metal1.ogg
+      damage:
+        types:
+          Blunt: 5 # 7.5 DPS (same as Crowbar), or 9.38 DPS against psions
+          Holy: 2.5 # 14.1 total DPS against supernaturals
+    - type: ThrowingAngle
+      angle: 0
     - type: Tag
       tags:
       - HandLabeler
       - MantisBeltStorable
-    - type: LandAtCursor
-    - type: DamageOtherOnHit
-    - type: MeleeWeapon # You can swing it like a weapon since it's a heavy, blunt object, but it's not very good
-      attackRate: 1
-      range: 1.5
-      heavyRateModifier: 1.25
-      heavyDamageBaseModifier: 1.2
-      maxTargets: 3
-      angle: 40
-      wideAnimationRotation: 180
-      soundHit:
-        path: /Audio/Weapons/block_metal1.ogg
-      damage:
-        types: # Melee damage
-          Blunt: 4.8 # 4.8 DPS, or 6 DPS against psions
-          Holy: 2.4 # 9 total DPS against supernaturals
-    - type: StaminaDamageOnHit
-      damage: 0

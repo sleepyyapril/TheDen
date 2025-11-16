@@ -249,6 +249,6 @@
         maxVol: 10
         reagents:
         - ReagentId: MnemolithReagent
-          Quantity: 10 # Controlled dosing, so 10 units
+          Quantity: 10 # Controlled dosing, so 10u
   - type: GuideHelp
     guides: [ MantisGuide ]

@@ -16,7 +16,7 @@
           - ReagentId: Nicotine
             Quantity: 10
           - ReagentId: MnemolithReagent
-            Quantity: 10 # Controlled dosing, so 10 units
+            Quantity: 10 # Controlled dosing, so 10u
   - type: Extractable
     grindableSolutionName: smokable
   - type: Tag

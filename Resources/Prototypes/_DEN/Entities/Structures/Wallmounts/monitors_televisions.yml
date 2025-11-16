@@ -2,7 +2,7 @@
   parent: ComputerTelevision
   id: ComputerSomberTelevision
   name: somber television
-  description: "A striped amaranth television. Why is the screen so small? It looks like an antique."
+  description: "A striped amaranth television. It looks like an expensive antique, but the screen is so small and square that it's hard to appreciate. For some reason, it has a channel zero that only displays grainy images of rotating fruit."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Machines/computers.rsi
@@ -13,7 +13,7 @@
       state: sombertelevision-on
   - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
-    radius: 2
+    radius: 2.1
     energy: 1.3
     softness: 1.1
     color: "#4dc4ff"

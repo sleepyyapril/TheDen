@@ -190,7 +190,7 @@
     storedRotation: -45
   - type: AntiPsionicWeapon
     modifiers:
-      coefficients: # Notably, does not function as an antipsionic weapon if you don't flip it and use the mnemolith tip - you're just bonking someone
+      coefficients: # Notably, does not function as an anti-psionic weapon if you don't flip it and use the mnemolith tip - you're just bonking someone
         Pierce: 1.25
         Holy: 1.25
   - type: ItemToggleMeleeWeapon
