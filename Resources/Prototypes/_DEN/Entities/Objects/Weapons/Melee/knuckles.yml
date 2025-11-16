@@ -18,20 +18,22 @@
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
   - type: MeleeWeapon
-    attackRate: 0.6666
-    range: 1.6
-    heavyStaminaCost: 2
-    heavyDamageBaseModifier: 1.05
+    attackRate: .6666
+    range: 1.5
+    angle: 60
     damage:
-      types: # Same DPS as CombatKnife against psions (25% less than MantisKnife and MantisCane due to its utility)
-        Blunt: 8 # 12 DPS, or 15 DPS against psions
+      types:
+        Blunt: 8 # 12 DPS, or 15 DPS against psions (same as CombatKnife)
         Holy: 4 # 22.5 total DPS against supernaturals
+        Structural: 5
     soundHit:
       path: /Audio/_Impstation/Weapons/nullglove.ogg
       params:
         variation: 0.15
     animation: WeaponArcFist
     mustBeEquippedToUse: true
+  - type: StaminaDamageOnHit
+    damage: 5
   - type: MeleeThrowOnHit
     speed: 5
     lifetime: 0.05
@@ -45,10 +47,9 @@
     tags:
     - WhitelistChameleon
     - MantisBeltStorable
-    - MantisMeleeFist
 
 - type: entity
-  parent: [MantisFist, BaseRivalCompanyContraband] # Traitor version, has 25% more damage and 4x the knockback
+  parent: [MantisFist, BaseRivalCompanyContraband] # Traitor version, has 25% more damage and 4x the knockback, loosely comparable to BaseBallBatHomeRun
   id: MantisFistDouble
   name: twinned manifold
   description: "Heavy mnemolith gauntlets forged through forbidden rituals, capable of hurling foes back and, at times, deflecting incoming fire. Said to take their name from their capacity for folding men. Deadly when wielded against psionic and otherworldly threats."
@@ -59,9 +60,11 @@
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Melee/mantisfistdouble.rsi
   - type: MeleeWeapon
+    angle: 90
+    bluntStaminaDamageFactor: 2.0
     damage:
-      types: # Same DPS as CombatKnife against non-psions (same as MantisKnife and MantisCane)
-        Slash: 10 # 15 DPS, or 18.75 DPS against psions
+      types:
+        Blunt: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
         Holy: 5 # 28.13 total DPS against supernaturals
   - type: MeleeThrowOnHit
     speed: 20

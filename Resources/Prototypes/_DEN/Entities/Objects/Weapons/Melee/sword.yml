@@ -75,3 +75,43 @@
     slots:
     - Back
     - suitStorage
+
+- type: entity
+  parent: [Greatsword, BaseAntiPsionicWeapon, BaseMantisContraband]
+  id: MantisSword
+  name: faust
+  description: "A mnemolith knife shaped like a claw, its back lined with swordbreaker teeth — though it remains unclear who, exactly, is drawing blades against mantes. The finger ring improves grip and allows for idle spinning tricks, though they serve no tactical purpose. Deadly when wielded against psionic and otherworldly threats."
+  components:
+  - type: AntiPsionicWeapon
+    punish: true # It'll hurt you if you hit anything non-psionic (a mouse, a table, a wall, etc.)
+  - type: MeleeWeapon
+    attackRate: .6666
+    range: 1.5
+    angle: 40
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Slash: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
+        Holy: 5 # 28.13 total DPS against supernaturals
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+    removalTime: 2
+  - type: EmbedPassiveDamage
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+    state: icon
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+    storedRotation: -45
+    storedSprite:
+      state: icon
+      sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi # Same sprite, just rotated, because it's hard to reproduce the curve vertically
+  - type: ThrowingAngle
+    angle: 45
+  - type: DisarmMalus
+    malus: 0.4
+  - type: Tag
+    tags:
+    - Knife
+    - MantisKnife
+    - MantisBeltStorable

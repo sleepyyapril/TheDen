@@ -29,7 +29,7 @@
         Shock: 1.25
         Holy: 1.25
   # Slash was selected because mnemolith is a crystalline stone, and non-weapon items like tiles and paper are likely to cut things
-  # The values here will get overridden if it's a real weapon, of course
+  # The values here will get overridden if it's a real weapon, of course, but if it's ever a problem just comment this out
   # Most real anti-psionic weapons have a 0.6666 attack rate and DPS equal to a combat knife against non-psions
   # To calculate DPS (which I like to compare to existing items and note in the comments) just divide the Damage by the AttackRate
   # A standard anti-psionic weapon does holy damage that's equal to half of its total physical damage

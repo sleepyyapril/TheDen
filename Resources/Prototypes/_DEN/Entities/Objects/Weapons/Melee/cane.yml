@@ -136,7 +136,7 @@
       - CaneBlade
 
 - type: entity
-  parent: [CaneBase, BaseMantisContraband]
+  parent: [CaneBase, BaseAntiPsionicWeapon, BaseMantisContraband]
   id: MantisCane
   name: gnomon
   description: "An amaranth cane crowned with an eidolite crystal. If flipped in the hand, the needle-sharp mnemolith tip serves as a thrusting weapon. A refined accessory, practical for mantes with limited mobility. Deadly when wielded against psionic and otherworldly threats."
@@ -185,12 +185,12 @@
   - type: Item
     size: Normal
     shape:
-    - 0,0,1,1
+    - 0,0,1,1 # To override the default cane size
     sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
     storedRotation: -45
-  - type: AntiPsionicWeapon
+  - type: AntiPsionicWeapon # To override the +25% blunt damage against psions, because the bonking part isn't made of mnemolith
     modifiers:
-      coefficients: # Notably, does not function as an anti-psionic weapon if you don't flip it and use the mnemolith tip - you're just bonking someone
+      coefficients:
         Pierce: 1.25
         Holy: 1.25
   - type: ItemToggleMeleeWeapon
@@ -211,23 +211,25 @@
       params:
         variation: 0.05
     activatedDamage:
-        types: # Same DPS as CombatKnife against non-psions (same as MantisKnife and MantisFist)
-          Pierce: 10 # 15 DPS, or 18.75 DPS against psions
+        types:
+          Pierce: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
           Holy: 5 # 28.13 total DPS against supernaturals
   - type: MeleeWeapon
     attackRate: .6666
-    wideAnimationRotation: 135
+    wideAnimationRotation: -135
     damage:
       types:
-        Blunt: 3 # 4.5 DPS because it's a sturdy but lightweight thrusting weapon, it's not that dangerous if you just bonk them with the blunt end
-  - type: DamageOtherOnHit
+        Blunt: 5 # 7.5 DPS (same as Crowbar)
   - type: ItemToggleDamageOtherOnHit
-  - type: LandAtCursor
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     removalTime: 2
   - type: EmbedPassiveDamage
   - type: ThrowingAngle
-    angle: -135
+    angle: 45
   - type: StaminaDamageOnHit
     damage: 0
+  - type: Tag
+    tags:
+    - MantisCane
+    - MantisBeltStorable

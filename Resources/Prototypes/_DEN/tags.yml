@@ -67,19 +67,16 @@
   id: MantisCandleBoxStorable
 
 - type: Tag
+  id: MantisCane
+
+- type: Tag
   id: MantisChemicalBoxStorable
 
 - type: Tag
   id: MantisFolderStorable
 
 - type: Tag
-  id: MantisMeleeCane
-
-- type: Tag
-  id: MantisMeleeFist
-
-- type: Tag
-  id: MantisMeleeKnife
+  id: MantisKnife
 
 - type: Tag
   id: MantisMeleeSword

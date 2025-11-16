@@ -76,13 +76,17 @@
     delay: 1
   - type: MeleeWeapon
     attackRate: .6666
+    range: 1.5
+    angle: 40
+    wideAnimationRotation: -135
     damage:
-      types: # Same DPS as CombatKnife against non-psions (same as MantisFist and MantisCane)
-        Slash: 10 # 15 DPS, or 18.75 DPS against psions
+      types:
+        Slash: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
         Holy: 5 # 28.13 total DPS against supernaturals
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     removalTime: 2
+  - type: EmbedPassiveDamage
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
     state: icon
@@ -92,10 +96,12 @@
     storedSprite:
       state: icon
       sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi # Same sprite, just rotated, because it's hard to reproduce the curve vertically
+  - type: ThrowingAngle
+    angle: 45
   - type: DisarmMalus
     malus: 0.4
   - type: Tag
     tags:
-    - MantisBeltStorable
-    - MantisMeleeKnife
     - Knife
+    - MantisKnife
+    - MantisBeltStorable

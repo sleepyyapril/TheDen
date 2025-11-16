@@ -41,30 +41,45 @@
       components:
         - AnomalyScanner
         - NodeScanner
-        - Flash # Ideally more for flashing anomalies than psions since they aren't security
-  - type: ItemSlots # TheDen - It has a sheath for their melee weapon
+        - Flash
+  - type: Appearance # TheDen - It has a sheath for MantisKnife or MantisCane (MantisFist is worn like a glove, and MantisSword is intentionally excluded)
+  - type: ContainerContainer # TheDen - The rest of this item is all our code
+    containers:
+      storagebase: !type:Container
+        ents: []
+      mantisknife: !type:ContainerSlot {}
+      mantiscane: !type:ContainerSlot {}
+  - type: ItemSlots
     slots:
-      mantisknifeslot:
-        name: clothing-belt-mantisknifeslot
+      mantisknife:
+        name: clothing-belt-mantisknife
         insertVerbText: sheath-insert-verb
         ejectVerbText: sheath-eject-verb
         insertSound: /Audio/Items/sheath.ogg
         ejectSound: /Audio/Items/unsheath.ogg
         whitelist:
           tags:
-          - MantisMeleeKnife
+          - MantisKnife
+      mantiscane:
+        name: clothing-belt-mantiscane
+        insertVerbText: sheath-insert-verb
+        ejectVerbText: sheath-eject-verb
+        insertSound: /Audio/Items/sheath.ogg
+        ejectSound: /Audio/Items/unsheath.ogg
+        whitelist:
+          tags:
+          - MantisCane
   - type: ItemMapper
     mapLayers:
       mantisknife:
         whitelist:
           tags:
-          - MantisMeleeKnife
+          - MantisKnife
+      mantiscane:
+        whitelist:
+          tags:
+          - MantisCane
     sprite: _DEN/Clothing/Belt/belt_overlay.rsi
-  - type: ContainerContainer
-    containers:
-      storagebase: !type:Container
-        ents: []
-      mantisknifeslot: !type:ContainerSlot {}
   - type: Tag
     tags:
     - WhitelistChameleon
