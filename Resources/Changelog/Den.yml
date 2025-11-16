@@ -14482,3 +14482,14 @@ Entries:
   id: 1419
   time: '2025-11-16T21:09:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2049
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the intro message to be more descriptive, of what The Den is
+        about
+    - type: Tweak
+      message: Removed Solarian specisim references
+  id: 1420
+  time: '2025-11-16T23:03:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2040
