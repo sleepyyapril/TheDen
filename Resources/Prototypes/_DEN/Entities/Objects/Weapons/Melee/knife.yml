@@ -9,6 +9,7 @@
     - Knife
   - type: MeleeWeapon
     attackRate: 1
+    wideAnimationRotation: 180
     damage:
       types:
         Slash: 4
@@ -40,8 +41,8 @@
       types:
         Slash: 4 # 6 DPS (same as Shiv), or 7.5 DPS against psions
         Holy: 1.6 # 11.25 total DPS against supernaturals
-  - type: ThrowingAngle
-    angle: 90
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/pierce.ogg # Just a dull thunk since it does almost no damage
   - type: Tag
     tags:
     - MantisBeltStorable
@@ -95,9 +96,9 @@
     storedRotation: -45
     storedSprite:
       state: icon
-      sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi # Same sprite, just rotated, because it's hard to reproduce the curve vertically
+      sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi # Same sprite, just rotated, because it looks wrong otherwise
   - type: ThrowingAngle
-    angle: 45
+    angle: -135
   - type: DisarmMalus
     malus: 0.4
   - type: Tag

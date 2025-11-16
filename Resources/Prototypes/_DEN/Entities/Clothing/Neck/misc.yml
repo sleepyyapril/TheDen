@@ -97,13 +97,12 @@
     sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
-  - type: AntiPsionicWeapon # It'll hurt you if you hit anything non-psionic (a mouse, a table, a wall, etc.)
+  - type: AntiPsionicWeapon # It'll hurt you if you hit anything non-psionic (a mouse, a wall, etc.)
     punish: true
   - type: MeleeWeapon
     attackRate: .6666
     maxTargets: 1
     angle: 20
-    wideAnimationRotation: 0
     soundHit:
       path: /Audio/_DEN/Effects/crystaltap3.ogg
       params:
@@ -114,7 +113,6 @@
         Blunt: 1 # 1.5 DPS, or 1.88 DPS against psions
         Holy: 0.5 # 2.81 total DPS against supernaturals
   - type: ThrowingAngle
-    angle: -90
     angularVelocity: false
   - type: Tag
     tags:

@@ -141,6 +141,39 @@
   name: gnomon
   description: "An amaranth cane crowned with an eidolite crystal. If flipped in the hand, the needle-sharp mnemolith tip serves as a thrusting weapon. A refined accessory, practical for mantes with limited mobility. Deadly when wielded against psionic and otherworldly threats."
   components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
+    layers:
+    - state: icon
+      map: ["icon"]
+    - state: icon-raised
+      map: ["raised"]
+      visible: false
+  - type: Item
+    size: Normal
+    shape:
+    - 0,0,1,1 # To override the default cane size
+    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
+    storedRotation: -45
+  - type: Appearance
+  - type: ToggleableVisuals
+    spriteLayer: null
+    inhandVisuals:
+      left:
+      - state: raised-inhand-left
+      right:
+      - state: raised-inhand-right
+  - type: UseDelay
+    delay: 1
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleableVisuals.Enabled:
+        icon:
+          True: { visible: false }
+          False: { visible: true }
+        raised:
+          True: { visible: true }
+          False: { visible: false }
   - type: ItemToggle
     predictable: false
     soundActivate:
@@ -155,44 +188,6 @@
         volume: -5
         pitch: 0.9
         variation: 0.05
-  - type: ToggleableVisuals
-    spriteLayer: null
-    inhandVisuals:
-      left:
-      - state: raised-inhand-left
-      right:
-      - state: raised-inhand-right
-  - type: UseDelay
-    delay: 1
-  - type: Sprite
-    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
-    layers:
-    - state: icon
-      map: ["icon"]
-    - state: icon-raised
-      map: ["raised"]
-      visible: false
-  - type: Appearance
-  - type: GenericVisualizer
-    visuals:
-      enum.ToggleableVisuals.Enabled:
-        icon:
-          True: { visible: false }
-          False: { visible: true }
-        raised:
-          True: { visible: true }
-          False: { visible: false }
-  - type: Item
-    size: Normal
-    shape:
-    - 0,0,1,1 # To override the default cane size
-    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
-    storedRotation: -45
-  - type: AntiPsionicWeapon # To override the +25% blunt damage against psions, because the bonking part isn't made of mnemolith
-    modifiers:
-      coefficients:
-        Pierce: 1.25
-        Holy: 1.25
   - type: ItemToggleMeleeWeapon
     activatedSoundOnHit:
       path: /Audio/Weapons/Melee/rapierhit.ogg
@@ -211,22 +206,28 @@
       params:
         variation: 0.05
     activatedDamage:
-        types:
+        types: # If you flip it, you stab them with the point
           Pierce: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
           Holy: 5 # 28.13 total DPS against supernaturals
   - type: MeleeWeapon
     attackRate: .6666
     wideAnimationRotation: -135
     damage:
-      types:
+      types: # If you don't flip it, you just bonk them
         Blunt: 5 # 7.5 DPS (same as Crowbar)
+  - type: AntiPsionicWeapon # To override the +25% blunt damage against psions, because the bonking part isn't made of mnemolith
+    modifiers:
+      coefficients:
+        Pierce: 1.25
+        Holy: 1.25
   - type: ItemToggleDamageOtherOnHit
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     removalTime: 2
   - type: EmbedPassiveDamage
   - type: ThrowingAngle
-    angle: 45
+    angle: -135
+    angularVelocity: false
   - type: StaminaDamageOnHit
     damage: 0
   - type: Tag

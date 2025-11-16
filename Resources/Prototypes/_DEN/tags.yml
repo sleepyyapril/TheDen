@@ -79,8 +79,8 @@
   id: MantisKnife
 
 - type: Tag
-  id: MantisMeleeSword
+  id: MantisRestraintsBoxStorable
 
 - type: Tag
-  id: MantisRestraintsBoxStorable
+  id: MantisSword
 # Mantis tags end

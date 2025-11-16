@@ -60,8 +60,6 @@
         types:
           Blunt: 5 # 7.5 DPS (same as Crowbar), or 9.38 DPS against psions
           Holy: 2.5 # 14.1 total DPS against supernaturals
-    - type: ThrowingAngle
-      angle: -90
     - type: Tag
       tags:
       - Flashlight

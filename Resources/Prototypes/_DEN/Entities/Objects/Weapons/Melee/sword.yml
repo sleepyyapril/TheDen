@@ -15,7 +15,7 @@
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
-    attackRate: 1.50
+    attackRate: 1.5
     range: 1.85
     damage:
       types:
@@ -77,41 +77,62 @@
     - suitStorage
 
 - type: entity
-  parent: [Greatsword, BaseAntiPsionicWeapon, BaseMantisContraband]
-  id: MantisSword
+  parent: [BaseSword, BaseAntiPsionicWeapon, BaseMantisContraband]
+  id: MantisSword # The risk/reward option, highly likely to knock you on your ass and get you killed, extremely difficult to use effectively (the cost of being cool)
   name: faust
-  description: "A mnemolith knife shaped like a claw, its back lined with swordbreaker teeth — though it remains unclear who, exactly, is drawing blades against mantes. The finger ring improves grip and allows for idle spinning tricks, though they serve no tactical purpose. Deadly when wielded against psionic and otherworldly threats."
-  components:
+  description: "A mnemolith greatsword carried in a sheath braced with mu-metal bands that cross over its ornamental eyes as warning. The bindings contain the blade's unstable resonance: Faust rebounds violently from any impact that does not strike a psion, whipping back into its bearer even if it merely grazes a wall. It must be properly wielded—without focus, the blade resists. Unmatched against psionic and otherworldly threats, perilous against anything else."
+  components: # Yes the description is long, but players must understand how it works from description alone, and I want it to remain in-universe
   - type: AntiPsionicWeapon
-    punish: true # It'll hurt you if you hit anything non-psionic (a mouse, a table, a wall, etc.)
+    punish: true # It'll hurt you if you hit anything non-psionic (a mouse, a wall, etc.)
+    punishChances: 1 # Every time
+    punishSelfDamage: 35.156 # And it hits you this hard because you're psionic (like taking a hit from the warden's greatsword up there)
+    punishStunDuration: 5 # And it stuns you like a noospheric storm
+  - type: MeleeRequiresWield
+    fumbleOnAttempt: true # It'll also stun you if you try to swing it one-handed
+  - type: Wieldable
+    wieldSound:
+      path: /Audio/_DEN/Weapons/Melee/faustwield.ogg
+    unwieldSound:
+      path: /Audio/_DEN/Weapons/Melee/faustunwield.ogg
   - type: MeleeWeapon
-    attackRate: .6666
-    range: 1.5
-    angle: 40
-    wideAnimationRotation: -135
+    attackRate: 1.5
+    range: 1.85
+    angle: 90
+    heavyRateModifier: 1.33
+    heavyRangeModifier: 1.85 # Same range as normal attacks
+    heavyDamageBaseModifier: 1.33 # Heavy attacks are one-third slower, so they hit one-third harder, to be fair
+    heavyStaminaCost: 30 # Also you can't spam them or you'll fall over
+    maxTargets: 10 # When you see a stat that looks good, just remember that if you hit anything non-psionic, you lose
     damage:
       types:
-        Slash: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
-        Holy: 5 # 28.13 total DPS against supernaturals
+        Slash: 28.125 # 18.75 DPS (same as CaptainSabre), or 23.44 DPS against psions (but if you miss, it hits you that hard)
+        Holy: 14.0625 # 35.16 total DPS against supernaturals (no way are you landing every left click on a simplemob)
+        Structural: 45 # I cannot describe to you how funny it is to swing, hit a table, smash it, and collapse into the floor because tables aren't psionic
+    soundHit:
+      path: /Audio/_DEN/Weapons/Melee/fausthit.ogg
+    soundSwing:
+      path: /Audio/_DEN/Weapons/Melee/faustmiss.ogg
+    soundNoDamage:
+      path: /Audio/_DEN/Weapons/Melee/fausthit.ogg
+  - type: DamageOtherOnHit
+    staminaCost: 100 # Throwing it will put you on the floor, unless your species or traits let you do it, but then you'll still be extremely slow and unarmed
   - type: EmbeddableProjectile
-    sound: /Audio/Weapons/star_hit.ogg
+    sound: /Audio/_DEN/Weapons/Melee/fausthit.ogg
     removalTime: 2
   - type: EmbedPassiveDamage
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+    sprite: _DEN/Objects/Weapons/Melee/mantissword.rsi
     state: icon
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+    sprite: _DEN/Objects/Weapons/Melee/mantissword.rsi
     storedRotation: -45
     storedSprite:
       state: icon
-      sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi # Same sprite, just rotated, because it's hard to reproduce the curve vertically
+      sprite: _DEN/Objects/Weapons/Melee/mantissword.rsi # Same sprite, just rotated, because it looks wrong otherwise
   - type: ThrowingAngle
-    angle: 45
-  - type: DisarmMalus
-    malus: 0.4
+    angle: -135
+    angularVelocity: false # No spinning, blade-first
   - type: Tag
     tags:
-    - Knife
-    - MantisKnife
+    - MantisSword
     - MantisBeltStorable

@@ -8,13 +8,14 @@
   # Anti-psionic weapons are always made of MaterialMnemolith and use that palette in the fashion you see there
   id: BaseAntiPsionicWeapon
   name: anti-psionic weapon
-  # I treat the mantis's anti-psionic weapons like occult relics, so I tend to give them unique names
+  # I treat the mantis's anti-psionic weapons like occult relics, so I tend to give them unique names (athame, manifold, gnomon, faust, etc.)
   description: "A formless concept within the noosphere."
   # Add "Deadly when wielded against psionic or otherworldly threats." to the end of anti-psionic weapon descriptions for total clarity
+  abstract: true
   components:
   - type: AntiPsionicWeapon
     punish: false
-    # Normally false, unless you're making a special weapon that you want to stun its user when they hit anything non-psionic (a mouse, a table, a wall, etc.)
+    # Normally false, unless you're making a special weapon that you want to stun its user when they hit anything non-psionic (a mouse, a wall, etc.)
     # I've included common damage types below, but if a weapon doesn't do a certain type of damage, this obviously won't multiply it
     # Brute damage from the mnemolith itself, burn damage from psionic forms of energy (like psionic fire), holy to represent metaphysical power
     # A standard anti-psionic weapon is 25% stronger against psionic enemies across the board, so it's predictable and players don't have to guess
@@ -29,11 +30,11 @@
         Shock: 1.25
         Holy: 1.25
   # Slash was selected because mnemolith is a crystalline stone, and non-weapon items like tiles and paper are likely to cut things
-  # The values here will get overridden if it's a real weapon, of course, but if it's ever a problem just comment this out
-  # Most real anti-psionic weapons have a 0.6666 attack rate and DPS equal to a combat knife against non-psions
+  # The values here will get overridden if it's a real weapon, of course, but if it's ever a problem just comment this component out
+  # Most real anti-psionic weapons have a 0.6666 attack rate and DPS equal to CombatKnife against non-psions
   # To calculate DPS (which I like to compare to existing items and note in the comments) just divide the Damage by the AttackRate
   # A standard anti-psionic weapon does holy damage that's equal to half of its total physical damage
-  # For WideAnimationRotation, enter the degrees that make the weapon sprite point downward on its canvas, then make it negative for some goddamn reason
+  # For WideAnimationRotation, enter the degrees that make the sprite point downward on its canvas (counterclockwise is positive)
   - type: MeleeWeapon
     # attackRate: .6666
     # wideAnimationRotation: 0
@@ -42,7 +43,7 @@
         Slash: 1
         Holy: 0.5
   # DamageOtherOnHit makes it strike things when thrown, inheriting MeleeWeapon damage if you don't specify within this component
-  # For ThrowingAngle, enter the degrees that make the weapon point to the right on its canvas, but don't make it negative like WideAnimationRotation
+  # ThrowingAngle follows the same rules as WideAnimationRotation (point the sprite downward)
   # Set AngularVelocity to false if you don't want it to spin in flight
   # LandAtCursor just makes these items go slightly past where you throw them, instead of landing just short
   - type: DamageOtherOnHit
