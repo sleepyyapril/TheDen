@@ -64,6 +64,9 @@
   id: MantisBeltStorable
 
 - type: Tag
+  id: MantisBoxAmmoStorable
+
+- type: Tag
   id: MantisBoxCandlesStorable
 
 - type: Tag
@@ -86,4 +89,4 @@
 
 - type: Tag
   id: MantisKnife
-# Mantis tags end
+# Mantis tags end, wow
