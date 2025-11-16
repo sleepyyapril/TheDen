@@ -1,129 +1,81 @@
 - type: entity
-  id: BaseWeaponBattery
-  parent: BaseItem
+  parent: BaseWeaponPowerCell
+  id: BaseMantisGun
   abstract: true
-  components:
+  components: # The cells/magazines/cores referenced here are mostly abstract because they vary per gun for balancing
   - type: Sprite
   - type: Item
-    size: Huge
+    size: Small # Replace with "Normal" on shotgun/SMG
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+    sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi # Replace "pistol"
     quickEquip: false
     slots:
-    - Back
+    - Belt # Replace with "Back" on shotgun/SMG
     - suitStorage
-  - type: AmmoCounter
   - type: Gun
     fireRate: 2
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
-    fireOnDropChance: 0.15
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
-  - type: Battery
-    maxCharge: 1000
-    startingCharge: 1000
-  - type: MagazineVisuals
-    magState: mag
-    steps: 5
-    zeroVisible: false
-  - type: Appearance
-  - type: StaticPrice
-    price: 500
-  - type: MeleeWeapon
-    attackRate: 1.3333
-    damage:
-      types:
-        Blunt: 8.5
-    bluntStaminaDamageFactor: 1.25
-    swapKeys: true
-    disableHeavy: true
-    animation: WeaponArcThrust
-    wideAnimationRotation: 180
-    soundHit:
-      collection: MetalThud
-  - type: IncreaseDamageOnWield
-    damage:
-      types:
-        Blunt: 2.5
-  - type: DamageOtherOnHit
-    staminaCost: 7
-  # Shitmed Change
-  - type: Cautery
-    speed: 0.9
-  - type: SurgeryTool
-    endSound:
-      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
-  - type: InteractionVerbs
-    allowedVerbs:
-    - HugObject
-    - KissObject
-    - LickObject
-
-- type: entity
-  id: BaseWeaponPowerCell
-  parent: BaseItem
-  abstract: true
-  components:
-  - type: Sprite
-  - type: Item
-    size: Huge
-  - type: AmmoCounter
-  - type: Gun
-    fireRate: 2
-    selectedMode: SemiAuto
-    availableModes:
-    - SemiAuto
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
-  - type: MagazineAmmoProvider
+    soundGunshot: # Lorewise, they use altered anomaly cores to manifest noospheric concepts as ammunition
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # But codewise, they're battery guns that shoot bullets, at least cosmetically
+    soundEmpty:
+      path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: PowerCellSmall
-        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        startingItem: MantisGunCoreCapgun
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
         whitelist:
           tags:
-            - PowerCell
-            - PowerCellSmall
+          - MantisGunCoreCapgun
+          - MantisGunCoreHoly # Replace "Gun"
+          - MantisGunCoreCryptobiolin # Replace "Gun"
+          - MantisGunCoreMnemolith # Replace "Gun"
   - type: Appearance
-  - type: StaticPrice
-    price: 500
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
+  - type: ItemMapper
+    mapLayers:
+      mantisguncorecapgun:
+        whitelist:
+          tags:
+          - MantisGunCoreCapgun
+      mantisguncoreholy:
+        whitelist:
+          tags:
+          - MantisGunCoreHoly # Replace "Gun"
+      mantisguncorecrypto:
+        whitelist:
+          tags:
+          - MantisGunCoreCryptobiolin # Replace "Gun"
+      mantisguncoremnemolith:
+        whitelist:
+          tags:
+          - MantisGunCoreMnemolith # Replace "Gun"
+    sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi # Replace "pistol"
   - type: MeleeWeapon
-    attackRate: 1.3333
-    damage:
-      types:
-        Blunt: 9.0
-    bluntStaminaDamageFactor: 1.25
-    swapKeys: true
-    disableHeavy: true
-    animation: WeaponArcThrust
-    wideAnimationRotation: 180
-    soundHit:
-      collection: MetalThud
-  - type: IncreaseDamageOnWield
-    damage:
-      types:
-        Blunt: 2.5
-  - type: DamageOtherOnHit
-    staminaCost: 7
+    swingLeft: true # Swings from left to right
+    wideAnimationRotation: 150 # So the butt leads the swing
+  - type: ThrowingAngle
+    angle: -90
+    angularVelocity: true
   # Shitmed Change
-  - type: Cautery
-    speed: 0.9
-  - type: SurgeryTool
+  - type: Drill # Really it's not any surgery tool, but I don't want to unparent it to avoid this
+    speed: 1.5  # Fast, because you're shooting them, and if I could make it hurt I would
+  - type: SurgeryTool # Shitmed won't be in the rebase anyway, it's fine for now
     endSound:
-      path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # God
   - type: InteractionVerbs
     allowedVerbs:
-    - HugObject
     - KissObject
     - LickObject
+    - HugObject
+  - type: GuideHelp
+    guides: [ MantisGuide ]
 
 - type: entity
   id: BaseWeaponBatterySmall

@@ -64,7 +64,7 @@
   id: MantisBeltStorable
 
 - type: Tag
-  id: MantisBoxAmmoStorable
+  id: MantisBoxAmmoStorable # TODO
 
 - type: Tag
   id: MantisBoxCandlesStorable

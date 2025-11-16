@@ -83,6 +83,8 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+  - type: GuideHelp
+    guides: [ MantisGuide ]
 
 - type: entity
   parent: ClothingBeltBase

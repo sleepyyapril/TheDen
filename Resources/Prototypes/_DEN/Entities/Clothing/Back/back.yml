@@ -195,6 +195,8 @@
       tags:
         - CanPilot # ONLY player characters have this
         - MantisBoxRestraintsStorable # Only mantis restraints fit, besides player characters
+  - type: GuideHelp
+    guides: [ MantisGuide ]
 
 - type: entity
   parent: ClothingBackpackCoffinMantis

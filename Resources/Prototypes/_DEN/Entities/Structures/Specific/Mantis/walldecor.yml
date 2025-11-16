@@ -60,3 +60,5 @@
     energy: 1.3 # Ideally so dark you almost never see it
     softness: 1.1
     color: "#ffd069" # Same color the cosmos heretic sickle glows, but these are just broken fragments
+  - type: GuideHelp
+    guides: [ MantisGuide ]

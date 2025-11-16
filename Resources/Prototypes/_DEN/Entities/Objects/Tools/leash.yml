@@ -22,3 +22,9 @@
   - type: Anchorable
     delay: 1 # You have a wrench specifically made for this
     snap: false # I don't think this even works
+  - type: Tag
+    tags:
+    - MantisBoxRestraintsStorable
+    - MantisBeltStorable
+  - type: GuideHelp
+    guides: [ MantisGuide ]

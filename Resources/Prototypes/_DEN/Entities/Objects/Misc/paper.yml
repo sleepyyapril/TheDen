@@ -183,6 +183,8 @@
     tags:
     - Folder
     - MantisBeltStorable
+  - type: GuideHelp
+    guides: [ MantisGuide ]
 
 - type: entity
   parent: [PenEmbeddable, BaseAntiPsionicWeapon, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it

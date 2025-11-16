@@ -602,11 +602,11 @@
   - type: AccessReader
     access:
       - [ Chapel ]
-      - [ Library ]
+#      - [ Library ]
       - [ Mantis ]
       - [ ResearchDirector ]
-  # - type: GuideHelp
-    # guides: # TODO: Add a guide for Psion Registry
+  - type: GuideHelp
+    guides: [ MantisGuide ]
 
 - type: entity
   parent: BaseComputerAiAccess

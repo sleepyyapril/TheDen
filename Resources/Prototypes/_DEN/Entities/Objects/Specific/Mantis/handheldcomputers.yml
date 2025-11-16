@@ -33,11 +33,11 @@
   - type: AccessReader # Same as the psion registry computer
     access:
       - [ Chapel ]
-      - [ Library ]
+#      - [ Library ]
       - [ Mantis ]
       - [ ResearchDirector ]
-  # - type: GuideHelp
-    # guides: # TODO: Add a guide for Psion Registry
+  - type: GuideHelp
+    guides: [ MantisGuide ]
 
 - type: entity
   parent: HandheldPsionicsRegistry
@@ -87,6 +87,8 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: StationLimitedNetwork
+  - type: GuideHelp
+    guides: [ MantisGuide ]
 
 - type: entity
   parent: HandheldCrewMonitorMantis

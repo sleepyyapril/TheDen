@@ -51,9 +51,12 @@
     # angle: 0
     angularVelocity: true
   - type: LandAtCursor
-  # Who doesn't want to lick their knife, kiss a piece of paper, or hug a lantern?
+  # Who doesn't want to kiss a piece of paper, lick their knife, or hug a lantern?
   - type: InteractionVerbs
     allowedVerbs:
-    - LickObject
     - KissObject
+    - LickObject
     - HugObject
+  # Probably a good idea to have this here too
+  - type: GuideHelp
+    guides: [ MantisGuide ]

@@ -23,3 +23,5 @@
     - Wrench
     - MantisBeltStorable
     - MantisBoxRestraintsStorable
+  - type: GuideHelp
+    guides: [ MantisGuide ]

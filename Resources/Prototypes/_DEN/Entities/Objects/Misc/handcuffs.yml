@@ -39,7 +39,7 @@
     damage:
       types:
         Blunt: 0
-  - type: GuideHelp
-    guides: [ MantisGuide ] # Remind them this is really just for roleplay...
   - type: UseDelay
     delay: 1
+  - type: GuideHelp
+    guides: [ MantisGuide ] # Remind them this is really just for roleplay...

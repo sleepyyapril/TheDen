@@ -86,6 +86,8 @@
     tags:
     - MantisBoxRestraintsStorable
     - MantisBeltStorable
+  - type: GuideHelp
+    guides: [ MantisGuide ]
 
 - type: entity
   parent: [ClothingNeckBase, BaseAntiPsionicWeapon, BaseMantisContraband]
@@ -120,3 +122,5 @@
   - type: Tag
     tags:
     - MantisBeltStorable
+  - type: GuideHelp
+    guides: [ MantisGuide ]

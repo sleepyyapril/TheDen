@@ -30,7 +30,7 @@
       path: /Audio/_Impstation/Weapons/nullglove.ogg
       params:
         variation: 0.15
-    animation: WeaponArcFist
+    animation: WeaponArcSmash
     mustBeEquippedToUse: true
   - type: StaminaDamageOnHit
     damage: 5
