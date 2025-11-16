@@ -14452,3 +14452,10 @@ Entries:
   id: 1417
   time: '2025-11-16T00:47:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2045
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: Secret and Traitor require 40 population to be available for vote.
+  id: 1418
+  time: '2025-11-16T20:30:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2048
