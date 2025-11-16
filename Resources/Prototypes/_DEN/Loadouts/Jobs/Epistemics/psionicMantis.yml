@@ -595,8 +595,8 @@
       jobs:
         - ForensicMantis
   items:
-    - WeaponPistolMantis
-    - MantisCaseAmmoPistol
+    - MantisPistol
+    - MantisPistolCoreCrypto
 
 - type: loadout
   id: LoadoutPsionicMantisRangedRevolver
@@ -610,8 +610,8 @@
       jobs:
         - ForensicMantis
   items:
-    - WeaponRevolverMantis
-    - MantisCaseAmmoRevolver
+    - MantisRevolver
+    - MantisRevolverCoreCrypto
 
 - type: loadout
   id: LoadoutPsionicMantisRangedSubMachineGun
@@ -625,8 +625,8 @@
       jobs:
         - ForensicMantis
   items:
-    - WeaponSubMachineGunMantis
-    - MantisCaseAmmoSubMachineGun
+    - MantisSubMachineGun
+    - MantisSubMachineGunCoreCrypto
 
 - type: loadout
   id: LoadoutPsionicMantisRangedShotgun
@@ -640,8 +640,8 @@
       jobs:
         - ForensicMantis
   items:
-    - WeaponShotgunMantis
-    - MantisCaseAmmoShotgun
+    - MantisShotgun
+    - MantisShotgunCoreCrypto
 
 # Melee
 
