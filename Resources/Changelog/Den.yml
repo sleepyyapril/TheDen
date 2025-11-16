@@ -14459,3 +14459,26 @@ Entries:
   id: 1418
   time: '2025-11-16T20:30:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2048
+- author: Zilanthros
+  changes:
+    - type: Add
+      message: Wireless camera router [entertainment] in vault for the Infinity Map
+    - type: Add
+      message: >-
+        Several televisions across the station for passenger to view news casts
+        for Infinity Map
+    - type: Tweak
+      message: >-
+        Updated cameras in Reporter's Office to use the entertainment server for
+        Infinity Map
+    - type: Tweak
+      message: >-
+        Modified and refitted disposals to be automated and more efficient for
+        Infinity Map
+    - type: Tweak
+      message: >-
+        Modified and refitted disposals to be automated and more efficient for
+        Eternity Map
+  id: 1419
+  time: '2025-11-16T21:09:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2049
