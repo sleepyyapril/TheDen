@@ -64,9 +64,6 @@
   id: MantisBeltStorable
 
 - type: Tag
-  id: MantisBoxAmmoStorable # TODO
-
-- type: Tag
   id: MantisBoxCandlesStorable
 
 - type: Tag
@@ -88,5 +85,11 @@
   id: MantisGreatsword
 
 - type: Tag
+  id: MantisGunCore
+
+- type: Tag
+  id: MantisGunCoreCapgun # Yay
+
+- type: Tag
   id: MantisKnife
-# Mantis tags end, wow
+# Mantis tags end, god almighty

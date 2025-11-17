@@ -61,4 +61,4 @@
     softness: 1.1
     color: "#ffd069" # Same color the cosmos heretic sickle glows, but these are just broken fragments
   - type: GuideHelp
-    guides: [ MantisGuide ]
+    guides: [ MantisGuide ] # If someone wonders why they have a broken space warlock sword on their wall lol

@@ -43,6 +43,9 @@
         !type:DamageTrigger
         damage: 100
       behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalGlassBreak
       - !type:DoActsBehavior
         acts: ["Destruction"]
       - !type:SpawnEntitiesBehavior

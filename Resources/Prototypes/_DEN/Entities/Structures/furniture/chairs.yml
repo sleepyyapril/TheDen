@@ -22,6 +22,9 @@
         !type:DamageTrigger
         damage: 50
       behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Items/Handling/cloth_drop.ogg
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialCloth:
@@ -57,6 +60,9 @@
         !type:DamageTrigger
         damage: 75
       behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroyHeavy
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -97,6 +103,9 @@
         !type:DamageTrigger
         damage: 75
       behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroyHeavy
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:
@@ -132,6 +141,9 @@
         !type:DamageTrigger
         damage: 75
       behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank1:

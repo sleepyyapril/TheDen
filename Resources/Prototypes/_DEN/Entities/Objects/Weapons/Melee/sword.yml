@@ -171,7 +171,7 @@
   id: MantisGreatswordSheath # A suitstorage sheath for Faust, in this file because it's basically part of the sword
   name: foreboding scabbard
   suffix: Faust
-  description: "A heavy scabbard reinforced with mu-metal bands that cross over its ornamental eyes, likely as a warning. This psionically-insulating metal is only used to contain weapons that would otherwise recoil violently against their housing when drawn. Its stillness feels wrong, as if the scabbard itself is holding its breath."
+  description: "A heavy scabbard reinforced with mu-metal bands that cross over its ornamental eyes, likely as a warning. This psionically insulating metal is only used to contain weapons that would otherwise recoil violently against their housing when drawn. Its stillness feels wrong, as if the scabbard itself is holding its breath."
   components:
   - type: Foldable
     canFoldInsideContainer: true

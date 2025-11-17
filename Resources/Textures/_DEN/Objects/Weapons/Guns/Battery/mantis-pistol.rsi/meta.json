@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "by DVDPlayerOfDiscordFame (Github) for The Den, commissioned and edited a tiny bit by Sha-Seng (GitHub)",
+    "copyright": "by DVDPlayerOfDiscordFame (Github) for The Den, commissioned and converted to weird battery guns by Sha-Seng (GitHub)",
     "size": {
         "x": 32,
         "y": 32
@@ -18,6 +18,9 @@
         },
         {
             "name": "mag-0"
+        },
+        {
+            "name": "mag-1"
         },
         {
             "name": "inhand-left",
