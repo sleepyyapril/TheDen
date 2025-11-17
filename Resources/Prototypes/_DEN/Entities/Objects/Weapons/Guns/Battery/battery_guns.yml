@@ -17,13 +17,18 @@
     - suitStorage
   - type: Gun
     fireRate: 2
-    selectedMode: SemiAuto
-    availableModes:
+    selectedMode:
     - SemiAuto
+#    - Burst
+#    - FullAuto
     soundGunshot: # Lorewise, they use altered anomaly cores to manifest noospheric concepts as ammunition
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # But codewise, they're battery guns that shoot bullets, at least cosmetically
     soundEmpty:
       path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -59,52 +64,27 @@
     sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi # Replace "pistol"
   - type: MeleeWeapon
     swingLeft: true # Swings from left to right
-    wideAnimationRotation: 150 # So the butt leads the swing
+    wideAnimationRotation: 60 # The butt leads the swing
   - type: ThrowingAngle
     angle: -90
     angularVelocity: true
+  - type: InteractionVerbs
+    allowedVerbs:
+    - KissObject
+    - LickObject
+    - HugObject
+  - type: Tag
+    tags:
+    - Sidearm
+    - MantisBeltStorable
+  - type: GuideHelp
+    guides: [ MantisGuide ]
   # Shitmed Change
   - type: Drill # Really it's not any surgery tool, but I don't want to unparent it to avoid this
     speed: 1.5  # Fast, because you're shooting them, and if I could make it hurt I would
   - type: SurgeryTool # Shitmed won't be in the rebase anyway, it's fine for now
     endSound:
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # God
-  - type: InteractionVerbs
-    allowedVerbs:
-    - KissObject
-    - LickObject
-    - HugObject
-  - type: GuideHelp
-    guides: [ MantisGuide ]
-
-- type: entity
-  id: BaseWeaponBatterySmall
-  parent: BaseWeaponBattery
-  abstract: true
-  components:
-  - type: Item
-    size: Small
-    shape:
-    - 0,0,1,0
-    - 0,1,0,1
-  - type: Tag
-    tags:
-    - Sidearm
-  - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
-    quickEquip: false
-    slots:
-    - Belt
-    - suitStorage
-  - type: MeleeWeapon
-    attackRate: 1.2
-    damage:
-      types:
-        Blunt: 7.5
-    bluntStaminaDamageFactor: 1.0
-    wideAnimationRotation: 135
-  - type: DamageOtherOnHit
-    staminaCost: 5
 
 - type: entity
   id: BaseWeaponPowerCellSmall
@@ -147,10 +127,6 @@
       shader: unshaded
   - type: Item
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
-  - type: MagazineVisuals
-    magState: mag
-    steps: 5
-    zeroVisible: true
 
 - type: entity
   name: retro laser blaster
@@ -169,10 +145,6 @@
   - type: HitscanBatteryAmmoProvider
     proto: RedMediumLaser
     fireCost: 62.5
-  - type: MagazineVisuals
-    magState: mag
-    steps: 5
-    zeroVisible: true
   - type: Appearance
 
 - type: entity

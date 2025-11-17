@@ -198,6 +198,10 @@
     slots:
     - Belt
     - suitStorage
+  - type: Tag # TheDen
+    tags:
+    - Sidearm
+    - MantisBeltStorable
 
 - type: entity
   name: flintlock

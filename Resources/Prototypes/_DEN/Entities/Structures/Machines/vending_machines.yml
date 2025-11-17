@@ -73,9 +73,10 @@
     enabled: false
     sound:
       path: /Audio/Effects/silence.ogg # It has some wires inside, but it doesn't hum
-  - type: SentienceTarget
-    flavorKind: station-event-random-sentience-flavor-mechanical
-    weight: 1 # It's plugged into the noosphere, come on
+  # SentienceTarget seemed like a fun idea until I realized it would be in the mantis's bedroom...  Damn.  But look how cool I made it...
+#  - type: SentienceTarget
+#    flavorKind: station-event-random-sentience-flavor-mechanical
+#    weight: 1 # It's plugged into the noosphere, come on
   - type: TypingIndicator
     proto: mantis
   - type: Speech
