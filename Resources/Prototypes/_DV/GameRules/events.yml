@@ -106,3 +106,5 @@
   - type: AntagObjectives
     objectives:
     - SkiaReapObjective
+    - SkiaSurviveObjective
+  - type: SkiaRule

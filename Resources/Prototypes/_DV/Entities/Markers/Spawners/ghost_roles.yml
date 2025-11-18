@@ -80,6 +80,7 @@
     name: ghost-role-information-skia-name
     description: ghost-role-information-skia-description
     rules: ghost-role-information-skia-rules
+    reregister: true
     mindRoles:
     - MindRoleSkia
     raffle:
