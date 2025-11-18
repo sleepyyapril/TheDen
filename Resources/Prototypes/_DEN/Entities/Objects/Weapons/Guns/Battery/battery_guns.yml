@@ -1,10 +1,10 @@
 - type: entity
   parent: BaseWeaponPowerCell
   id: BaseMantisGun
-  name: mantis gun
+  name: base mantis gun
   description: "A formless concept within the noosphere."
   abstract: true
-  components: # The cells/magazines/cores referenced here are abstract except for the capgun one because they vary per gun for easy balancing
+  components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi
     layers:
@@ -23,18 +23,18 @@
     slots:
     - Belt
     - suitStorage
+  - type: Gun
+    fireRate: 5
+    fireOnDropChance: 0.5
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
   - type: MagazineVisuals
     magState: mag
     steps: 2
     zeroVisible: true
-  - type: Gun
-    fireRate: 2
-    selectedMode:
-    - SemiAuto
-#    - Burst
-#    - FullAuto
     soundGunshot: # Lorewise, they use altered anomaly cores to manifest noospheric concepts as ammunition
-      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # But codewise, they're battery guns that shoot bullets, at least cosmetically
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # But codewise, they're battery guns that shoot weird bullets
     soundEmpty:
       path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
   - type: ItemSlots
@@ -70,9 +70,12 @@
           tags:
           - MantisGunCoreMnemolith # Replace "Gun"
     sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi # Replace "pistol"
+  - type: Execution
   - type: MeleeWeapon
     swingLeft: true # Swings from left to right
     wideAnimationRotation: 60 # The butt leads the swing
+    soundHit:
+      collection: MetalThud
   - type: ThrowingAngle
     angle: -90
     angularVelocity: true

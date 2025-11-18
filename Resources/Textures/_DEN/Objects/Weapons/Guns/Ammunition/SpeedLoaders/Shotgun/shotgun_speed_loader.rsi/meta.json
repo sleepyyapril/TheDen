@@ -11,34 +11,49 @@
             "name": "base"
         },
         {
-            "name": "base-1"
+            "name": "mag-1"
         },
         {
-            "name": "base-2"
+            "name": "mag-2"
         },
         {
-            "name": "base-3"
+            "name": "mag-3"
         },
         {
-            "name": "base-4"
+            "name": "mag-4"
         },
         {
-            "name": "base-5"
+            "name": "mag-5"
         },
         {
-            "name": "crypto-1"
+            "name": "crypto-mag-1"
         },
         {
-            "name": "crypto-2"
+            "name": "crypto-mag-2"
         },
         {
-            "name": "crypto-3"
+            "name": "crypto-mag-3"
         },
         {
-            "name": "crypto-4"
+            "name": "crypto-mag-4"
         },
         {
-            "name": "crypto-5"
+            "name": "crypto-mag-5"
+        },
+        {
+            "name": "holy-mag-1"
+        },
+        {
+            "name": "holy-mag-2"
+        },
+        {
+            "name": "holy-mag-3"
+        },
+        {
+            "name": "holy-mag-4"
+        },
+        {
+            "name": "holy-mag-5"
         },
         {
             "name": "inhand-left",
