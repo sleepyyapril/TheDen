@@ -14502,3 +14502,10 @@ Entries:
   id: 1421
   time: '2025-11-18T14:08:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2054
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Asteroids will spawn in space on round start again. Yay!
+  id: 1422
+  time: '2025-11-18T17:30:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2055
