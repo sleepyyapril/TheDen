@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Angelo Fallaria
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: MIT
+
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatTechnicolorBlack
