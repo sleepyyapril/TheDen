@@ -1,79 +1,43 @@
 - type: entity
-  parent: BaseWeaponPowerCell
-  id: BaseMantisGun
-  name: base mantis gun
-  description: "A formless concept within the noosphere."
-  abstract: true
+  parent: [BaseWeaponPowerCell, BaseMantisContraband]
+  id: BaseMantisGun # Lorewise, they use altered and contained anomaly cores to generate physical ammo
+  abstract: true # But codewise, they're just battery guns that seem like they're shooting ballistics
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    size: Small
-    shape:
-    - 0,0,1,0
-    - 0,1,0,1
+    size: Normal
   - type: Clothing
-    sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi
     quickEquip: false
     slots:
-    - Belt
     - suitStorage
   - type: Gun
-    fireRate: 5
-    fireOnDropChance: 0.5
-    selectedMode: SemiAuto
-    availableModes:
-    - SemiAuto
-  - type: MagazineVisuals
-    magState: mag
-    steps: 2
-    zeroVisible: true
-    soundGunshot: # Lorewise, they use altered anomaly cores to manifest noospheric concepts as ammunition
-      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # But codewise, they're battery guns that shoot weird bullets
+    fireOnDropChance: 0.25
     soundEmpty:
       path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
+  - type: MagazineVisuals
+    magState: mag
+    zeroVisible: true
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MantisGunCoreCapgun
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        startingItem: null
         whitelist:
           tags:
-          - MantisGunCoreCapgun
-          - MantisGunCoreHoly # Replace
-          - MantisGunCoreCryptobiolin # Replace
-          - MantisGunCoreMnemolith # Replace
-  - type: Appearance
-  - type: ItemMapper
-    mapLayers:
-      mantisguncorecapgun:
-        whitelist:
-          tags:
-          - MantisGunCoreCapgun
-      mantisguncoreholy:
-        whitelist:
-          tags:
-          - MantisGunCoreHoly # Replace "Gun"
-      mantisguncorecrypto:
-        whitelist:
-          tags:
-          - MantisGunCoreCryptobiolin # Replace "Gun"
-      mantisguncoremnemolith:
-        whitelist:
-          tags:
-          - MantisGunCoreMnemolith # Replace "Gun"
-    sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi # Replace "pistol"
+          - MantisCaster
   - type: Execution
   - type: MeleeWeapon
-    swingLeft: true # Swings from left to right
-    wideAnimationRotation: 60 # The butt leads the swing
+    attackRate: 1.2
+    damage:
+      types:
+        Blunt: 7.5
+    swingLeft: true
+    wideAnimationRotation: 60
     soundHit:
       collection: MetalThud
   - type: ThrowingAngle
@@ -86,7 +50,6 @@
     - HugObject
   - type: Tag
     tags:
-    - Sidearm # Remove on shotgun/SMG
     - MantisBeltStorable
   - type: GuideHelp
     guides: [ MantisGuide ]
@@ -95,103 +58,172 @@
     speed: 1.5  # Fast, because you're shooting them, and if I could make it hurt I would
   - type: SurgeryTool # Shitmed won't be in the rebase anyway, it's fine for now
     endSound:
-      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # God
-#  - type: BatterySelfRecharger
-#    autoRecharge: true
-#    autoRechargeRate: 40
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg # At least it's a little funny
 
 - type: entity
   parent: BaseMantisGun
   id: MantisPistol
   name: mantis pistol # TODO
-  description: "A formless concept within the noosphere." # TODO
-  abstract: true
-  components: # The cells/magazines/cores referenced here are abstract except for the capgun one because they vary per gun for easy balancing
+  description: "" # TODO
+  components:
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi # Replace "pistol"
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-pistol.rsi
   - type: Item
-    size: Small # Replace with "Normal" on shotgun/SMG
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-pistol.rsi
+    size: Small
     shape:
     - 0,0,1,0
     - 0,1,0,1
   - type: Clothing
-    sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi # Replace "pistol"
-    quickEquip: false
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-pistol.rsi
     slots:
-    - Belt # Replace with "Back" on shotgun/SMG
+    - Belt
     - suitStorage
-  - type: MagazineVisuals
-    magState: mag
-    steps: 2 # Replace, count the real mag numbers
-    zeroVisible: true
   - type: Gun
-    fireRate: 2 # Replace, figure it out
-    selectedMode:
-    - SemiAuto
-#    - Burst
-#    - FullAuto
-    soundGunshot: # Lorewise, they use altered anomaly cores to manifest noospheric concepts as ammunition
-      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # But codewise, they're battery guns that shoot bullets, at least cosmetically
-    soundEmpty:
-      path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
+    fireRate: 5 # TODO ?
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: MagazineVisuals
+    steps: 2
   - type: ItemSlots
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MantisGunCoreCapgun
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg # Replace "pistol"
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg # Replace "pistol"
+        startingItem: MantisCasterPistolHoly
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
         whitelist:
           tags:
-          - MantisGunCoreCapgun
-          - MantisGunCoreHoly # Replace "Gun"
-          - MantisGunCoreCryptobiolin # Replace "Gun"
-          - MantisGunCoreMnemolith # Replace "Gun"
-  - type: Appearance
-  - type: ItemMapper
-    mapLayers:
-      mantisguncorecapgun:
-        whitelist:
-          tags:
-          - MantisGunCoreCapgun
-      mantisguncoreholy:
-        whitelist:
-          tags:
-          - MantisGunCoreHoly # Replace "Gun"
-      mantisguncorecrypto:
-        whitelist:
-          tags:
-          - MantisGunCoreCryptobiolin # Replace "Gun"
-      mantisguncoremnemolith:
-        whitelist:
-          tags:
-          - MantisGunCoreMnemolith # Replace "Gun"
-    sprite: _DEN/Objects/Weapons/Guns/Battery/mantis-pistol.rsi # Replace "pistol"
-  - type: MeleeWeapon
-    swingLeft: true # Swings from left to right
-    wideAnimationRotation: 60 # The butt leads the swing
-  - type: ThrowingAngle
-    angle: -90
-    angularVelocity: true
-  - type: InteractionVerbs
-    allowedVerbs:
-    - KissObject
-    - LickObject
-    - HugObject
+          - MantisCasterPistol
   - type: Tag
     tags:
-    - Sidearm # Remove on shotgun/SMG
+    - Sidearm
     - MantisBeltStorable
-  - type: GuideHelp
-    guides: [ MantisGuide ]
-  # Shitmed Change
-  - type: Drill # Really it's not any surgery tool, but I don't want to unparent it to avoid this
-    speed: 1.5  # Fast, because you're shooting them, and if I could make it hurt I would
-  - type: SurgeryTool # Shitmed won't be in the rebase anyway, it's fine for now
-    endSound:
-      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg # God
+
+- type: entity
+  parent: BaseMantisGun
+  id: MantisRevolver
+  name: mantis revolver # TODO
+  description: "" # TODO
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-revolver.rsi
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-revolver.rsi
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+  - type: Clothing
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-revolver.rsi
+    slots:
+    - Belt
+    - suitStorage
+  - type: Gun
+    fireRate: 5 # TODO
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
+  - type: MagazineVisuals
+    steps: 7
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MantisCasterRevolverHoly
+        insertSound: /Audio/Weapons/Guns/Misc/revolver_spin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        whitelist:
+          tags:
+          - MantisCasterRevolver
+  - type: Tag
+    tags:
+    - Sidearm
+    - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisGun
+  id: MantisShotgun
+  name: mantis shotgun # TODO
+  description: "" # TODO
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-shotgun.rsi
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-shotgun.rsi
+    size: Normal
+  - type: Clothing
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-shotgun.rsi
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 5 # TODO
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+  - type: MagazineVisuals
+    steps: 6
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MantisCasterShotgunHoly
+        insertSound: /Audio/Weapons/Guns/Misc/revolver_spin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
+        whitelist:
+          tags:
+          - MantisCasterShotgun
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 9
+    wideAnimationRotation: 120
+  - type: Tag
+    tags:
+    - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisGun
+  id: MantisSubMachineGun
+  name: mantis submachine gun # TODO
+  description: "" # TODO
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-submachinegun.rsi
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-submachinegun.rsi
+    size: Normal
+  - type: Clothing
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-submachinegun.rsi
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 5 # TODO
+    selectedMode: Burst
+    availableModes:
+    - Burst
+    - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/smg.ogg
+  - type: MagazineVisuals
+    steps: 2
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MantisCasterSubMachineGunHoly
+        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
+        whitelist:
+          tags:
+          - MantisCasterSubMachineGun
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 9
+    wideAnimationRotation: 120
+  - type: Tag
+    tags:
+    - MantisBeltStorable

@@ -140,7 +140,7 @@
           tags:
           - PowerCell
           - PowerCellSmall
-          - MantisGunCore # TheDen - Necessary so mantis gun cores can't like, power flashlights
+          - MantisCaster # TheDen - Necessary so mantis gun magazines can't like, power flashlights
         blacklist:
           tags:
           - NoRecharge  # Assmos - Crystallizer

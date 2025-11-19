@@ -1,0 +1,34 @@
+- type: entity
+  parent: [BaseItem, BaseMantisContraband]
+  id: BaseMantisCaster
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-.rsi
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: base
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: mag-0
+      shader: unshaded
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-pistol-.rsi
+    size: Small
+    storedRotation: 0
+  - type: Battery
+    pricePerJoule: 0 # No credit value
+    maxCharge: 360 # Same charge as PowerCellSmall in case it accidentally plugs into something
+    startingCharge: 360 # Not intended to be a particularly useful power source if so
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 6 # Takes 1 minute to charge itself back to full, may need rebalancing later
+  - type: PowerCell
+  - type: Appearance
+  - type: PowerCellVisuals
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisabler
+    fireCost: 50
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisBeltStorable

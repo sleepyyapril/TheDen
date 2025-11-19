@@ -97,6 +97,8 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
+  - type: Item
+    sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Neck/Misc/mantispendulum.rsi
   - type: AntiPsionicWeapon

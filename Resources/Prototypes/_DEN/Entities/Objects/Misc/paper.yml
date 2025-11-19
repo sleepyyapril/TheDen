@@ -133,6 +133,7 @@
     - state: folder-mantis
     - state: folder-base-mantis
   - type: Item
+    sprite: _DEN/Objects/Misc/bureaucracy.rsi
     heldPrefix: folder-mantis
   - type: ContainerContainer
     containers:
@@ -196,6 +197,7 @@
     sprite: _DEN/Objects/Misc/bureaucracy.rsi
     state: pen_mantis
   - type: Item
+    sprite: _DEN/Objects/Misc/bureaucracy.rsi
     heldPrefix: pen_mantis
   - type: DamageOtherOnHit
     damage:
@@ -254,6 +256,7 @@
     - type: TypingIndicatorClothing # It gives you a new typing indicator if you wear it
       proto: mantis
     - type: Item
+      sprite: _DEN/Objects/Misc/bureaucracy.rsi
       heldPrefix: paper_mantis
     - type: PaperLabelType # So it can label containers with a unique sprite
       paperType: MantisPaper

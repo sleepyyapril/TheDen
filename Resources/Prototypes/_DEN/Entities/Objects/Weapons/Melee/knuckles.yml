@@ -14,6 +14,7 @@
     sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
     state: icon
   - type: Item
+    sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
     size: Normal
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi

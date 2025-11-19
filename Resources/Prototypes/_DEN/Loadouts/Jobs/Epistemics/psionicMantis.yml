@@ -596,7 +596,7 @@
         - ForensicMantis
   items:
     - MantisPistol
-    - MantisPistolCoreCrypto
+    - MantisCasterPistolCrypto
 
 - type: loadout
   id: LoadoutPsionicMantisRangedRevolver
@@ -611,22 +611,7 @@
         - ForensicMantis
   items:
     - MantisRevolver
-    - MantisRevolverCoreCrypto
-
-- type: loadout
-  id: LoadoutPsionicMantisRangedSubMachineGun
-  category: JobsEpistemicsPsionicMantis
-  cost: 0
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutPsionicMantisRanged
-    - !type:CharacterJobRequirement
-      jobs:
-        - ForensicMantis
-  items:
-    - MantisSubMachineGun
-    - MantisSubMachineGunCoreCrypto
+    - MantisCasterRevolverCrypto
 
 - type: loadout
   id: LoadoutPsionicMantisRangedShotgun
@@ -641,7 +626,22 @@
         - ForensicMantis
   items:
     - MantisShotgun
-    - MantisShotgunCoreCrypto
+    - MantisCasterShotgunCrypto
+
+- type: loadout
+  id: LoadoutPsionicMantisRangedSubMachineGun
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisRanged
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - MantisSubMachineGun
+    - MantisCasterSubMachineGunCrypto
 
 # Melee
 

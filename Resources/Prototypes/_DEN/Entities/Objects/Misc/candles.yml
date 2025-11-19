@@ -10,6 +10,7 @@
         - state: candle-big
           color: "#ffffff" # The sprite's multicolor, so this stays white
     - type: Item
+      sprite: _DEN/Objects/Misc/candlesmantis.rsi
       size: Tiny # So they fit nicely in their box
       inhandVisuals:
         left:

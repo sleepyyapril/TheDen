@@ -85,10 +85,7 @@
   id: MantisGreatsword
 
 - type: Tag
-  id: MantisGunCore
-
-- type: Tag
-  id: MantisGunCoreCapgun # Yay
+  id: MantisCaster
 
 - type: Tag
   id: MantisKnife

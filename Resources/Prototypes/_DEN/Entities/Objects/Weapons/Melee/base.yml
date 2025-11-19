@@ -7,11 +7,9 @@
   # See MantisKnife if you need an implementation example, that's the flagship anti-psionic weapon
   # Anti-psionic weapons are always made of MaterialMnemolith and use that palette in the fashion you see there
   id: BaseAntiPsionicWeapon
-  name: anti-psionic weapon
-  # I treat the mantis's anti-psionic weapons like occult relics, so I tend to give them unique names (athame, manifold, gnomon, faust, etc.)
-  description: "A formless concept within the noosphere."
-  # Add "Deadly when wielded against psionic or otherworldly threats." to the end of anti-psionic weapon descriptions for total clarity
   abstract: true
+  # I treat the mantis's anti-psionic weapons like occult relics, so I tend to give them unique names (athame, manifold, gnomon, faust, etc.)
+  # Add "Deadly when wielded against psionic or otherworldly threats." to the end of anti-psionic weapon descriptions for total clarity
   components:
   - type: AntiPsionicWeapon
     punish: false

@@ -43,3 +43,7 @@
     ClothingUniformJumpsuitMantisLoincloth: 1 # It stays.
   contrabandInventory:
     MantisTailorsKnife: 1 # An anti-psionic shiv as an easter egg for hacking the machine
+    MantisCasterPistolCapgun: 1 # A harmless magazine for MantisPistol
+    MantisCasterRevolverCapgun: 1 # A harmless magazine for MantisRevolver
+    MantisCasterShotgunCapgun: 1 # A harmless magazine for MantisShotgun
+    MantisCasterSubMachineGunCapgun: 1 # A harmless magazine for MantisSubMachineGun
