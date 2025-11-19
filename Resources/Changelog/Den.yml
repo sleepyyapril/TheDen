@@ -14509,3 +14509,17 @@ Entries:
   id: 1422
   time: '2025-11-18T17:30:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2055
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        A new "leggings" underwear marking and grayscale variants of the
+        "button-up shirt" undershirts can be found in the Markings tab.
+    - type: Add
+      message: >-
+        Some new clothing has been added to loadouts: technicolor jackets in
+        black, white, and beige, a simple skirt, a sweater vest, and a folded
+        collar.
+  id: 1423
+  time: '2025-11-19T19:41:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2056
