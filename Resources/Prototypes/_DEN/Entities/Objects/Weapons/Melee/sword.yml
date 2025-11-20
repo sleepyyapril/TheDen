@@ -153,7 +153,6 @@
     sprite: _DEN/Objects/Weapons/Melee/mantisgreatsword.rsi
     size: Ginormous # This doesn't go inside anything except its sheath
     sprite: _DEN/Objects/Weapons/Melee/mantisgreatsword-inhands-64x.rsi
-    storedRotation: -45
     storedSprite:
       state: icon
       sprite: _DEN/Objects/Weapons/Melee/mantisgreatsword.rsi # Same sprite, just rotated, because it looks wrong otherwise

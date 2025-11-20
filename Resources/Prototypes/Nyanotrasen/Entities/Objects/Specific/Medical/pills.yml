@@ -35,13 +35,13 @@
 
 - type: entity
   name: pill
-  suffix: cryptobiolin 20u
+  suffix: cryptobiolin 6u # TheDen
   parent: Pill
   id: PillCryptobiolin
-  description: "A long-lasting drug which causes mild confusion, but renders you psionically insulated."
+  description: "A drug which causes mild confusion, but renders you psionically insulated. Each pill lasts about ten minutes." # TheDen
   components:
   - type: Label # TheDen
-    currentLabel: cryptobiolin 20u
+    currentLabel: cryptobiolin 6u # TheDen
   - type: Sprite # TheDen - Cryptobiolin colored pill
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
     state: cryptopill
@@ -53,24 +53,24 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 20
+        maxVol: 6 # TheDen
         reagents:
         - ReagentId: Cryptobiolin
-          Quantity: 20
+          Quantity: 6 # TheDen
   - type: GuideHelp
     guides: [ PsionicInsulation ]
 
 - type: entity
   parent: PillCanister
   id: PillCanisterCryptobiolin
-  suffix: cryptobiolin, 5
+  suffix: cryptobiolin, 10 # TheDen
   components:
   - type: Label
-    currentLabel: cryptobiolin 20u
+    currentLabel: cryptobiolin 6u # TheDen
   - type: StorageFill
     contents:
     - id: PillCryptobiolin
-      amount: 5
+      amount: 10 # TheDen
   - type: GuideHelp
     guides: [ PsionicInsulation ]
 

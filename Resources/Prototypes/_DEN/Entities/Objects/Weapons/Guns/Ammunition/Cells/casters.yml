@@ -1,34 +1,330 @@
+# The cost of making these guns capable of being individually balanced, to the point of fine-tuning, is all this yaml...
+
+# Base items
 - type: entity
   parent: [BaseItem, BaseMantisContraband]
   id: BaseMantisCaster
   abstract: true
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-.rsi
     layers:
-    - map: [ "enum.PowerCellVisualLayers.Base" ]
-      state: base
-    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
-      state: mag-0
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: mag-0
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: Item
-    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-pistol-.rsi
     size: Small
-    storedRotation: 0
-  - type: Battery
-    pricePerJoule: 0 # No credit value
-    maxCharge: 360 # Same charge as PowerCellSmall in case it accidentally plugs into something
+  - type: Battery # All casters have the same maxCharge, and the fireCost varies per gun
+    pricePerJoule: 0 # No credit value regardless of charge
+    maxCharge: 360 # Same charge as PowerCellSmall in case they accidentally plug into something
     startingCharge: 360 # Not intended to be a particularly useful power source if so
-  - type: BatterySelfRecharger
-    autoRecharge: true
-    autoRechargeRate: 6 # Takes 1 minute to charge itself back to full, may need rebalancing later
   - type: PowerCell
   - type: Appearance
   - type: PowerCellVisuals
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 6 # Takes 1 minute to charge itself back to full
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletDisabler
-    fireCost: 50
+    proto: BulletMantisCapgun
+    fireCost: 72 # Can fire 5 times, takes 12 seconds to recharge 1 shot (just as an example)
   - type: Tag
     tags:
       - MantisCaster
+      - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisCaster
+  id: BaseMantisCasterPistol
+  abstract: true
+  components:
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCapgun
+    fireCost: 30 # Can fire 12 times, takes 5 seconds to recharge 1 shot
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisCasterPistol
+      - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisCaster
+  id: BaseMantisCasterRevolver
+  abstract: true
+  components:
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCapgun
+    fireCost: 60 # Can fire 6 times, takes 10 seconds to recharge 1 shot
+  - type: Item
+    storedRotation: 90
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisCasterRevolver
+      - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisCaster
+  id: BaseMantisCasterShotgun
+  abstract: true
+  components:
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCapgun
+    fireCost: 72 # Can fire 5 times, takes 12 seconds to recharge 1 shot
+  - type: Item
+    storedRotation: 90
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisCasterShotgun
+      - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisCaster
+  id: BaseMantisCasterSubMachineGun
+  abstract: true
+  components:
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCapgun
+    fireCost: 10 # Can fire 36 times, takes 1.66 seconds to recharge 1 shot
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisCasterSubMachineGun
+      - MantisBeltStorable
+
+# Cryptobiolin casters
+- type: entity
+  parent: BaseMantisCasterPistol
+  id: MantisCasterPistolCrypto
+  name: pistol caster (silencing)
+  description: "A liquid anomaly core harnessed as a self-replenishing ammo source. Each round carries a measured droplet of cryptobiolin that dampens noospheric connection on contact, suppressing psionics for nearly two minutes per hit. A full magazine carries enough to last twenty minutes. Built to neutralize volatile psions without causing harm."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-cryptobiolin.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCrypto
+
+- type: entity
+  parent: BaseMantisCasterRevolver
+  id: MantisCasterRevolverCrypto
+  name: revolver caster (silencing)
+  description: "A liquid anomaly core harnessed as a self-replenishing ammo source. Each round carries a measured droplet of cryptobiolin that dampens noospheric connection on contact, suppressing psionics for over three minutes per hit. A full cylinder carries enough to last twenty minutes. Built to neutralize volatile psions without causing harm."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-cryptobiolin.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCryptoRevolver
+
+- type: entity
+  parent: BaseMantisCasterShotgun
+  id: MantisCasterShotgunCrypto
+  name: shotgun caster (silencing)
+  description: "A liquid anomaly core harnessed as a self-replenishing ammo source. Each shot carries measured droplets of cryptobiolin that dampen noospheric connection on contact, suppressing psionics for forty seconds per pellet or four minutes per shell. A full cylinder carries enough to last twenty minutes. Built to neutralize volatile psions without causing harm."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-cryptobiolin.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCryptoSpread
+
+- type: entity
+  parent: BaseMantisCasterSubMachineGun
+  id: MantisCasterSubMachineGunCrypto
+  name: submachine gun caster (silencing)
+  description: "A liquid anomaly core harnessed as a self-replenishing ammo source. Each round carries a measured droplet of cryptobiolin that dampens noospheric connection on contact, suppressing psionics for over thirty seconds per hit. A full magazine carries enough to last twenty minutes. Built to neutralize volatile psions without causing harm."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-cryptobiolin.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCryptoSubMachineGun
+
+# Holy casters
+- type: entity
+  parent: BaseMantisCasterPistol
+  id: MantisCasterPistolHoly
+  name: pistol caster (banishing)
+  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The rounds it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople—thanks to the chaplain—but \"metaphysical\" would be a more accurate description."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-holy.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisHoly
+
+- type: entity
+  parent: BaseMantisCasterRevolver
+  id: MantisCasterRevolverHoly
+  name: revolver caster (banishing)
+  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The rounds it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople—thanks to the chaplain—but \"metaphysical\" would be a more accurate description."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-holy.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisHolyRevolver
+
+- type: entity
+  parent: BaseMantisCasterShotgun
+  id: MantisCasterShotgunHoly
+  name: shotgun caster (banishing)
+  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The shells it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople—thanks to the chaplain—but \"metaphysical\" would be a more accurate description."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-holy.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisHolySpread
+
+- type: entity
+  parent: BaseMantisCasterSubMachineGun
+  id: MantisCasterSubMachineGunHoly
+  name: submachine gun caster (banishing)
+  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The rounds it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople—thanks to the chaplain—but \"metaphysical\" would be a more accurate description."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-holy.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisHolySubMachineGun
+
+# Lethal casters (traitor items)
+- type: entity
+  parent: [BaseMantisCasterPistol, BaseRivalCompanyContraband]
+  id: MantisCasterPistolLethal
+  name: pistol caster (piercing)
+  description: "A rock anomaly core harnessed as a self-replenishing ammo source. It forms diamond shards into lethal projectiles, each one perfectly faceted and catastrophically illegal. The magazine carries a cold, mineral weight that leaves no doubt about its intended purpose."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-lethal.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisLethal
+
+- type: entity
+  parent: [BaseMantisCasterRevolver, BaseRivalCompanyContraband]
+  id: MantisCasterRevolverLethal
+  name: revolver caster (piercing)
+  description: "A rock anomaly core harnessed as a self-replenishing ammo source. It forms diamond shards into lethal projectiles, each one perfectly faceted and catastrophically illegal. The cylinder carries a cold, mineral weight that leaves no doubt about its intended purpose."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-lethal.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisLethalRevolver
+
+- type: entity
+  parent: [BaseMantisCasterShotgun, BaseRivalCompanyContraband]
+  id: MantisCasterShotgunLethal
+  name: shotgun caster (piercing)
+  description: "A rock anomaly core harnessed as a self-replenishing ammo source. It forms diamond shards into lethal projectiles, each one perfectly faceted and catastrophically illegal. The cylinder carries a cold, mineral weight that leaves no doubt about its intended purpose."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-lethal.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisLethalSpread
+
+- type: entity
+  parent: [BaseMantisCasterSubMachineGun, BaseRivalCompanyContraband]
+  id: MantisCasterSubMachineGunLethal
+  name: submachine gun caster (piercing)
+  description: "A rock anomaly core harnessed as a self-replenishing ammo source. It forms diamond shards into lethal projectiles, each one perfectly faceted and catastrophically illegal. The magazine carries a cold, mineral weight that leaves no doubt about its intended purpose."
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-lethal.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisLethalSubMachineGun
+
+# Capgun casters
+- type: entity
+  parent: [BaseItem, BaseMantisContraband]
+  id: BaseMantisCasterCapgun # Variant base without glowing bullets (though the core still glows) and a 5x longer recharge rate
+  description: "An exotic anomaly core harnessed as a self-replenishing ammo source. It generates harmless percussion caps suitable for drills and training. Despite the playful construction, the device still radiates the faint, uncanny energy of all anomaly tech."
+  abstract: true # There's probably a more efficient way to do this but listen I'm so tired
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: base-core
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+      shader: unshaded
+    - state: mag-0
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+  - type: Item
+    size: Small
+  - type: Battery
+    pricePerJoule: 0
+    maxCharge: 360
+    startingCharge: 360
+  - type: PowerCell
+  - type: Appearance
+  - type: PowerCellVisuals
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 1.2 # Takes 5 minutes to charge itself back to full (so people aren't too annoying with the capguns)
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCapgun
+    fireCost: 72 # Can fire 5 times, takes 60 seconds to recharge 1 shot (just as an example)
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisCasterCapgun
+  id: MantisCasterPistolCapgun
+  name: pistol caster (training)
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-capgun.rsi
+  - type: ProjectileBatteryAmmoProvider
+    fireCost: 30 # Can fire 12 times, takes 25 seconds to recharge 1 shot
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisCasterPistol
+      - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisCasterCapgun
+  id: MantisCasterRevolverCapgun
+  name: revolver caster (training)
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-capgun.rsi
+  - type: ProjectileBatteryAmmoProvider
+    fireCost: 60 # Can fire 6 times, takes 50 seconds to recharge 1 shot
+  - type: Item
+    storedRotation: 90
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisCasterRevolver
+      - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisCasterCapgun
+  id: MantisCasterShotgunCapgun
+  name: shotgun caster (training)
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-capgun.rsi
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletMantisCapgunSpread
+    fireCost: 72 # Can fire 5 times, takes 60 seconds to recharge 1 shot
+  - type: Item
+    storedRotation: 90
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisCasterShotgun
+      - MantisBeltStorable
+
+- type: entity
+  parent: BaseMantisCasterCapgun
+  id: MantisCasterSubMachineGunCapgun
+  name: submachine gun caster (training)
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-capgun.rsi
+  - type: ProjectileBatteryAmmoProvider
+    fireCost: 10 # Can fire 36 times, takes 8.33 seconds to recharge 1 shot
+  - type: Tag
+    tags:
+      - MantisCaster
+      - MantisCasterSubMachineGun
       - MantisBeltStorable

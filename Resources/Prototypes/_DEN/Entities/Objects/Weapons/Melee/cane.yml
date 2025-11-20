@@ -154,7 +154,6 @@
     size: Normal
     shape:
     - 0,0,1,1 # To override the default cane size
-    storedRotation: -45
   - type: Appearance
   - type: ToggleableVisuals
     spriteLayer: null

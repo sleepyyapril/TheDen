@@ -93,7 +93,7 @@
     state: icon
   - type: Item
     sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
-    storedRotation: -45
+    storedRotation: 45
     storedSprite:
       state: icon
       sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi # Same sprite, just rotated, because it looks wrong otherwise

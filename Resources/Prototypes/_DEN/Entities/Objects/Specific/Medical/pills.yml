@@ -122,11 +122,11 @@
 - type: entity
   parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: PillCanisterCryptobiolinMantis
-  suffix: cryptobiolin, 5
-  description: "A long-lasting drug which causes mild confusion, but renders you psionically insulated."
+  suffix: cryptobiolin, 10
+  description: "A drug which causes mild confusion, but renders you psionically insulated. Each pill lasts about ten minutes."
   components:
   - type: Label
-    currentLabel: cryptobiolin 20u
+    currentLabel: cryptobiolin 6u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
     layers:
@@ -135,7 +135,7 @@
   - type: StorageFill
     contents:
     - id: PillCryptobiolin
-      amount: 5
+      amount: 10
   - type: GuideHelp
     guides: [ PsionicInsulation ]
 

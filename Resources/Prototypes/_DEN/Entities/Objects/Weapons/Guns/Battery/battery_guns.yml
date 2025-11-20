@@ -19,6 +19,9 @@
     fireOnDropChance: 0.25
     soundEmpty:
       path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
+      params:
+        volume: -5
+        variation: 0.05
   - type: MagazineVisuals
     magState: mag
     zeroVisible: true
