@@ -35,6 +35,7 @@
         - Bottle # TheDen
         - PillCanister # TheDen
         - Pill # TheDen
+        - MantisCaster # TheDen
         - MantisBeltStorable # TheDen - Only to be used for mantis-specific items
         # - ForensicBeltEquip # TheDen - The old name of the mantis belt's whitelist tag, now made more clear
         # - Sidearm # TheDen - Only tagged mantis weapons will fit inside

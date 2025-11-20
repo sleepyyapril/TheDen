@@ -79,12 +79,6 @@
   id: MantisCane
 
 - type: Tag
-  id: MantisFist
-
-- type: Tag
-  id: MantisGreatsword
-
-- type: Tag
   id: MantisCaster
 
 - type: Tag
@@ -98,6 +92,12 @@
 
 - type: Tag
   id: MantisCasterSubMachineGun
+
+- type: Tag
+  id: MantisFist
+
+- type: Tag
+  id: MantisGreatsword
 
 - type: Tag
   id: MantisKnife
