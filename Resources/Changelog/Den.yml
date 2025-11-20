@@ -14523,3 +14523,10 @@ Entries:
   id: 1423
   time: '2025-11-19T19:41:44.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2056
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Removed the cobra gland from being obtainable.
+  id: 1424
+  time: '2025-11-20T17:08:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2060
