@@ -16,7 +16,7 @@
   parent: [ClothingOuterWinterCoatMantis, BaseFoldable]
   id: ClothingOuterWinterCoatMantisDark
   name: dark mantis coat
-  description: "A grand coat with a high collar. It's lightly armored, and you can roll the sleeves up into the shoulders to show off your gloves."
+  description: "A grand, warm coat with a high collar. You can roll the sleeves up into the shoulders to show off your gloves."
   components:
     - type: Sprite
       sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_dark.rsi
@@ -33,7 +33,7 @@
   parent: ClothingOuterWinterCoatMantis
   id: ClothingOuterWinterCoatMantisMu
   name: mantis mu-metal tabard
-  description: "A lightly armored tabard with an eye motif on its split collar. Mu-metal discs adorn the fabric, said to help the mantis regulate their powers, at least in theory."
+  description: "A warm tabard with an eye motif on its split collar. Mu-metal discs adorn the fabric, said to help the mantis regulate their powers, at least in theory."
   components:
     - type: Sprite
       sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_mu.rsi

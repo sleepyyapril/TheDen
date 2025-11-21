@@ -44,7 +44,7 @@
   name: patrol cap
 
 - type: entity
-  parent: [ClothingHeadHatFezMantis, ClothingHeadTinfoil, BaseFoldable, BaseMantisContraband] # Mantis privelege
+  parent: [ClothingHeadHatFezMantis, ClothingHeadTinfoil, BaseFoldable]
   id: ClothingHeadHatFezMantisInsulative
   name: insulative mantis fez
   description: "Someone wrapped your old mantis fez in mu-metal foil... Oh well. At least it'll protect you from psionic attacks. The slouch can be folded to either side."

@@ -23,13 +23,14 @@
     ClothingHeadHatFezMantisAiry: 1
     ClothingHeadHoodMantisDark: 1
     ClothingHeadHatFezMantisOrnate: 1
-    ClothingHeadHatFezMantisInsulative: 1 # A spare foil fez
+    ClothingHeadHatFezMantisInsulative: 1 # A spare foil fez if a coworker really wants one
     ClothingMaskMantisVeil: 1
     ClothingMaskMantisRitual: 3 # Sometimes rituals involve multiple people
     ClothingNeckCloakMantisDark: 1
     ClothingNeckMantleMantisOrnate: 1
     ClothingOuterCoatMantisAiry: 1
     ClothingOuterWinterCoatMantisDark: 1
+    ClothingOuterCoatMantisOrnate: 1
     ClothingOuterWinterCoatMantisMu: 1
     ClothingUniformSkirtMantisAiry: 1
     ClothingUniformJumpsuitMantisDark: 1

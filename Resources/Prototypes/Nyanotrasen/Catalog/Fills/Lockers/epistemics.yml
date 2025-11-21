@@ -29,6 +29,7 @@
       # - id: AntiPsychicKnife # TheDen - In loadout now
       - id: MaterialEidolite1 # TheDen - Glowy jewel for the mystic for fun
       - id: ClothingNeckMantisPendulum # TheDen - Bonk people with this to tell if they're psionic
+      - id: ClothingOuterCoatMantisOrnate # TheDen - In case you transfer to this job
       - id: MantisCaseTools # TheDen - Contains their lantern, folder, and hand labeler
       - id: MantisCaseChemicals # TheDen - Contains their syringe, chemistry bottle, and pill canisters
       - id: BookPsionicsGuidebook # TheDen - This thing sucks right now but it's gotta go somewhere
