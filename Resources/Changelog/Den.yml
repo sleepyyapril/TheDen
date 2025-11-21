@@ -14530,3 +14530,12 @@ Entries:
   id: 1424
   time: '2025-11-20T17:08:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2060
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: Added Meridian, so it may be mapped via the Mapping Server to finish
+    - type: Tweak
+      message: Tweaked Manta and Baikal, small fixes.
+  id: 1425
+  time: '2025-11-21T01:42:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2062
