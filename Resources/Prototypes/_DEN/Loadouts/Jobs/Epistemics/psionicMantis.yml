@@ -477,7 +477,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingOuterCoatMantisAiry
+    - ClothingOuterCoatMantisOrnate
 
 - type: loadout
   id: LoadoutScienceOuterWinterCoatMantisDark
