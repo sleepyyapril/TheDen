@@ -30,7 +30,7 @@
     sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/Packs/mantis.rsi
   - type: StorageFill
     contents:
-    - id: CigaretteMantis
+    - id: CigaretteMnemolith
       amount: 10
   - type: Tag
     tags:

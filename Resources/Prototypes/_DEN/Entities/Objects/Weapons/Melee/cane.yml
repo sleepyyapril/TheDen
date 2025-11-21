@@ -207,7 +207,7 @@
     activatedDamage:
         types: # If you flip it, you stab them with the point
           Pierce: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
-          Holy: 5 # 28.13 total DPS against supernaturals
+          Holy: 5 # 28.13 total DPS against psionic supernaturals
   - type: MeleeWeapon
     attackRate: .6666
     wideAnimationRotation: -135

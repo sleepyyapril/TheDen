@@ -1,5 +1,5 @@
 - type: entity
-  id: CigaretteMantis
+  id: CigaretteMnemolith
   parent: Cigarette
   name: mnemolith cigarette
   description: "The smoke clings to your thoughts, enhancing your awareness of the noosphere."

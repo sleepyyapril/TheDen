@@ -633,7 +633,7 @@
   suffix: Mnemolith
   components:
   - type: Bloodstream
-    bloodReagent: Mnemolith
+    bloodReagent: MnemolithReagent
   - type: PointLight
     color: "#313b4a"
   - type: Sprite

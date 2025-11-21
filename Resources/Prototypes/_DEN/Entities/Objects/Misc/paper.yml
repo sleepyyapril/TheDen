@@ -216,7 +216,7 @@
     damage:
       types: # Melee damage
         Piercing: 3.2 # 4.8 DPS, or 6 DPS against psions (same as Shiv)
-        Holy: 1.6 # 9 total DPS against supernaturals
+        Holy: 1.6 # 9 total DPS against psionic supernaturals
   - type: ThrowingAngle
     angle: -45
   - type: PhysicalComposition

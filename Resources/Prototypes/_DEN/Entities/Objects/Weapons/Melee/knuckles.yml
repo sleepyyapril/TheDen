@@ -22,10 +22,13 @@
     attackRate: .6666
     range: 1.5
     angle: 60
+    heavyRateModifier: 1 # Same speed
+    heavyRangeModifier: 1 # Same range
+    heavyDamageBaseModifier: 1 # Same damage
     damage:
       types:
         Blunt: 8 # 12 DPS, or 15 DPS against psions (same as CombatKnife)
-        Holy: 4 # 22.5 total DPS against supernaturals
+        Holy: 4 # 22.5 total DPS against psionic supernaturals
         Structural: 5
     soundHit:
       path: /Audio/_Impstation/Weapons/nullglove.ogg
@@ -51,7 +54,7 @@
     - MantisBeltStorable
 
 - type: entity
-  parent: [MantisFist, BaseRivalCompanyContraband] # Traitor version, has 25% more damage and 4x the knockback, loosely comparable to BaseBallBatHomeRun
+  parent: [MantisFist, BaseRivalCompanyContraband] # Traitor version, loosely comparable to BaseBallBatHomeRun, but with a bit less damage and 66% the knockback
   id: MantisFistDouble
   name: twinned manifold
   description: "Heavy mnemolith gauntlets forged through forbidden rituals, capable of hurling foes back and, at times, deflecting incoming fire. Said to take their name from their capacity for folding men. Deadly when wielded against psionic and otherworldly threats."
@@ -66,8 +69,8 @@
     bluntStaminaDamageFactor: 2.0
     damage:
       types:
-        Blunt: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
-        Holy: 5 # 28.13 total DPS against supernaturals
+        Blunt: 14 # 21 DPS (same as CombatKnife), or 26.25 DPS against psions
+        Holy: 7 # 39.40 total DPS against psionic supernaturals
   - type: MeleeThrowOnHit
     speed: 20
     lifetime: 5

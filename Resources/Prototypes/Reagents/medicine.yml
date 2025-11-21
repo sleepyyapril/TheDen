@@ -87,12 +87,13 @@
   metabolisms:
     Medicine:
       metabolismRate: 0.5
-      effects:
+      effects: # TheDen - Updated so that 1u crypto is 20 seconds of insulation/suppression, before every tick just reset the timer to 5 minutes
       - !type:GenericStatusEffect
         key: PsionicallyInsulated
         component: PsionicInsulation
         type: Add
-        time: 300
+        refresh: false
+        time: 10
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -100,7 +101,8 @@
         key: PsionicsDisabled
         component: PsionicsDisabled
         type: Add
-        time: 300
+        refresh: false
+        time: 10
 
 - type: reagent
   id: Dylovene

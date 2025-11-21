@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseWeaponPowerCell, BaseMantisContraband]
   id: BaseMantisGun # Lorewise, they use altered and contained anomaly cores to generate physical ammo
-  abstract: true # But codewise, they're just battery guns that seem like they're shooting ballistics
+  abstract: true # But codewise, they're just battery guns that look and sound like they're shooting ballistics
   components:
   - type: Sprite
     layers:
@@ -10,13 +10,13 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Item
-    size: Normal
+    size: Normal # Defaults to a 2x2 square
   - type: Clothing
     quickEquip: false
     slots:
     - suitStorage
   - type: Gun
-    fireOnDropChance: 0.25
+    fireOnDropChance: 0.2
     soundEmpty:
       path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
       params:
@@ -59,15 +59,15 @@
   # Shitmed Change
   - type: Drill # Really it's not any surgery tool, but I don't want to unparent it to avoid this
     speed: 1.5  # Fast, because you're shooting them, and if I could make it hurt I would
-  - type: SurgeryTool # Shitmed won't be in the rebase anyway, it's fine for now
+  - type: SurgeryTool # Shitmed won't be in the rebase anyway, it's probably fine for now
     endSound:
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg # At least it's a little funny
 
 - type: entity
   parent: BaseMantisGun
   id: MantisPistol
-  name: mantis pistol # TODO
-  description: "" # TODO
+  name: kalliste
+  description: "A sleek mantis sidearm favored for its balance and effortless precision. It uses specialized magazines called \"casters,\" each containing an anomaly core that continually forms its own bullets. Issued with both banishing and silencing casters for confronting supernatural threats and rogue psions. Holds twelve shots."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-pistol.rsi
@@ -83,7 +83,7 @@
     - Belt
     - suitStorage
   - type: Gun
-    fireRate: 5 # TODO ?
+    fireRate: 5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
   - type: MagazineVisuals
@@ -106,8 +106,8 @@
 - type: entity
   parent: BaseMantisGun
   id: MantisRevolver
-  name: mantis revolver # TODO
-  description: "" # TODO
+  name: charon
+  description: "A gilded mantis revolver engineered for measured control and heavy, deliberate impact. It uses specialized cylinders called \"casters,\" each containing an anomaly core that continually forms its own bullets. Issued with both banishing and silencing casters for confronting supernatural threats and rogue psions. Holds six shots."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-revolver.rsi
@@ -123,7 +123,7 @@
     - Belt
     - suitStorage
   - type: Gun
-    fireRate: 5 # TODO
+    fireRate: 2.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
   - type: MagazineVisuals
@@ -146,21 +146,23 @@
 - type: entity
   parent: BaseMantisGun
   id: MantisShotgun
-  name: mantis shotgun # TODO
-  description: "" # TODO
+  name: empusa
+  description: "A vicious sawn-off mantis shotgun designed to dominate close-range encounters. It uses specialized cylinders called \"casters,\" each containing an anomaly core that continually forms its own pellets. Issued with both banishing and silencing casters for confronting supernatural threats and rogue psions. Holds five shots."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-shotgun.rsi
   - type: Item
     sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-shotgun.rsi
     size: Normal
+    shape:
+    - 0,0,2,1 # 3x2 rectangle
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-shotgun.rsi
     slots:
     - Back
     - suitStorage
   - type: Gun
-    fireRate: 5 # TODO
+    fireRate: 2
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
   - type: MagazineVisuals
@@ -188,21 +190,28 @@
 - type: entity
   parent: BaseMantisGun
   id: MantisSubMachineGun
-  name: mantis submachine gun # TODO
-  description: "" # TODO
+  name: strix
+  description: "A compact, fast-cycling mantis submachine gun built for relentless fire in tight spaces. It uses specialized magazines called \"casters,\" each containing an anomaly core that continually forms its own bullets. Issued with both banishing and silencing casters for confronting supernatural threats and rogue psions. Holds thirty-six shots."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-submachinegun.rsi
   - type: Item
     sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-submachinegun.rsi
     size: Normal
+    shape:
+    - 0,0,2,1 # 3x2 rectangle
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-submachinegun.rsi
     slots:
     - Back
     - suitStorage
   - type: Gun
-    fireRate: 5 # TODO
+    fireRate: 8
+    burstFireRate: 8
+    minAngle: 2 # Same spread values as a wielded SMG, because it's one-handed
+    maxAngle: 13
+    angleIncrease: 3 # Standard SMG increase and decay
+    angleDecay: 16
     selectedMode: Burst
     availableModes:
     - Burst

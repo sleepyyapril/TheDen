@@ -92,7 +92,7 @@
     - CopperBlood
     - Slime
     - ShimmeringBlood # Imp
-    - Mnemolith # TheDen
+    - MnemolithReagent # TheDen
   - quantity: 25
     weight: 1
     reagents:

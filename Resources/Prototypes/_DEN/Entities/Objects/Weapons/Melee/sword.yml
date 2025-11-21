@@ -108,13 +108,13 @@
     disableHeavy: true # TODO: TEST THIS, EXPERIMENTAL
     # heavyOnLightMiss: true # TODO: TEST THIS, EXPERIMENTAL
     heavyRateModifier: 1 # Same speed
-    heavyRangeModifier: 1.85 # Same range
+    heavyRangeModifier: 1 # Same range
     heavyDamageBaseModifier: 1 # Same damage
     # heavyStaminaCost: 30 # Also you can't spam them or you'll fall over
     damage:
       types:
         Slash: 28.125 # 18.75 DPS (same as CaptainSabre), or 23.44 DPS against psions (but if you miss, it hits you hard)
-        Holy: 14.0625 # 35.16 total DPS against supernaturals (no way are you landing every left click on a simplemob)
+        Holy: 14.0625 # 35.16 total DPS against psionic supernaturals (no way are you landing every left click on a simplemob)
         Structural: 45 # And the table dies with you
     soundHit:
       path: /Audio/_DEN/Weapons/Melee/fausthit.ogg

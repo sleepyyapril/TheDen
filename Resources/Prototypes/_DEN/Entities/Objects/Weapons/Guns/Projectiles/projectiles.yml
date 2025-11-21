@@ -150,6 +150,7 @@
     spread: 15
 
 # Pistol bullets, the rest are parented to these with damage/transfer amounts adjusted
+# Initial piercing/holy damage values chosen by Juniwoofs
 - type: entity
   parent: BaseBullet
   id: BulletMantisCrypto
@@ -183,9 +184,9 @@
       ammo:
         reagents:
         - ReagentId: Cryptobiolin
-          Quantity: 1
+          Quantity: 5
   - type: SolutionTransfer
-    maxTransferAmount: 1 # 1u of crypto disables psionics for 1m40s, and a full magazine of any mantis gun will disable psionics for 20m
+    maxTransferAmount: 5 # 5u of crypto disables psionics for 1m40s, and a full magazine of any mantis gun will disable psionics for 20m
 
 - type: entity
   parent: BaseBullet
@@ -209,7 +210,7 @@
     impactEffect: BulletImpactEffectMantisHoly
     damage:
       types:
-        Holy: 14 #TODO
+        Holy: 10
     soundHit:
       path: /Audio/_DEN/Weapons/Guns/Hits/burnshot.ogg
       params:
@@ -237,7 +238,7 @@
     impactEffect: BulletImpactEffectMantisLethal
     damage:
       types:
-        Piercing: 14 #TODO
+        Piercing: 15
     soundHit:
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
       params:
@@ -254,9 +255,9 @@
       ammo:
         reagents:
         - ReagentId: Cryptobiolin
-          Quantity: 2
+          Quantity: 10
   - type: SolutionTransfer
-    maxTransferAmount: 2 # 2u of crypto disables psionics for 3m20s, and a full magazine of any mantis gun will disable psionics for 20m
+    maxTransferAmount: 10 # 10u of crypto disables psionics for 3m20s, and a full magazine of any mantis gun will disable psionics for 20m
 
 - type: entity
   parent: BulletMantisHoly
@@ -266,7 +267,7 @@
   - type: Projectile
     damage:
       types:
-        Holy: 0 #TODO
+        Holy: 30
 
 - type: entity
   parent: BulletMantisLethal
@@ -276,7 +277,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 0 #TODO
+        Piercing: 36
 
 # Shotgun bullets
 - type: entity
@@ -289,9 +290,9 @@
       ammo:
         reagents:
         - ReagentId: Cryptobiolin
-          Quantity: 0.4
+          Quantity: 2
   - type: SolutionTransfer
-    maxTransferAmount: 0.4 # 0.4u of crypto disables psionics for 40s, and a full magazine of any mantis gun will disable psionics for 20m
+    maxTransferAmount: 2 # 2u of crypto disables psionics for 40s, and a full magazine of any mantis gun will disable psionics for 20m
 
 - type: entity
   parent: BulletMantisCryptoShotgun
@@ -300,7 +301,7 @@
   components:
   - type: ProjectileSpread
     proto: BulletMantisCryptoShotgun
-    count: 6 # 2.4u of crypto disables psionics for 4m, and a full magazine of any mantis gun will disable psionics for 20m
+    count: 6 # 12u of crypto disables psionics for 4m, and a full magazine of any mantis gun will disable psionics for 20m
     spread: 15
 
 - type: entity
@@ -311,7 +312,7 @@
   - type: Projectile
     damage:
       types:
-        Holy: 0 #TODO
+        Holy: 8
 
 - type: entity
   parent: BulletMantisHolyShotgun
@@ -331,7 +332,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 0 #TODO
+        Piercing: 9
 
 - type: entity
   parent: BulletMantisLethalShotgun
@@ -354,9 +355,9 @@
       ammo:
         reagents:
         - ReagentId: Cryptobiolin
-          Quantity: 0.333
+          Quantity: 1.666
   - type: SolutionTransfer
-    maxTransferAmount: 0.333 # 0.333u of crypto disables psionics for 33.3s, and a full magazine of any mantis gun will disable psionics for 20m
+    maxTransferAmount: 1.666 # 1.666u of crypto disables psionics for 33.3s, and a full magazine of any mantis gun will disable psionics for 20m
 
 - type: entity
   parent: BulletMantisHoly
@@ -366,7 +367,7 @@
   - type: Projectile
     damage:
       types:
-        Holy: 0 #TODO
+        Holy: 8
 
 - type: entity
   parent: BulletMantisLethal
@@ -376,5 +377,5 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 0 #TODO
+        Piercing: 12
 # Mantis projectiles end

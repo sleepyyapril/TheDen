@@ -22,3 +22,6 @@
     materialComposition: # Considering the color, it should be more like 75% gold and 25% silver, but I don't want to give salvagers less than a bar of each
       Gold: 100 # 1 sheet
       Silver: 100 # 1 sheet
+  - type: Tag
+    tags:
+    - MantisBeltStorable # Why not, their gear is made of it

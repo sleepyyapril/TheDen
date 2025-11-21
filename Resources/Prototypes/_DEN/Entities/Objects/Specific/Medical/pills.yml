@@ -123,10 +123,10 @@
   parent: [PillCanisterMantis, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
   id: PillCanisterCryptobiolinMantis
   suffix: cryptobiolin, 10
-  description: "A drug which causes mild confusion, but renders you psionically insulated. Each pill lasts about ten minutes."
+  description: "A drug which causes mild confusion, but renders you psionically insulated. Each pill lasts about five minutes."
   components:
   - type: Label
-    currentLabel: cryptobiolin 6u
+    currentLabel: cryptobiolin 15u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Chemistry/pills_canister.rsi
     layers:

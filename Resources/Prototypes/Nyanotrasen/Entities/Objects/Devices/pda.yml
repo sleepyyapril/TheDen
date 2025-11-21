@@ -123,7 +123,7 @@
   parent: BasePDA
   id: ForensicMantisPDA
   name: mantis PDA
-  description:  "This PDA marks its bearer as a member of the Order of Mantes. Its name recalls both the Greek word for \"prophet\" and the patient, decisive strike of the insect. The magenta psi on the side denotes the Order, and the eye on its display seems to track whoever dares to look back."
+  description: "This PDA marks its bearer as a member of the Outer Chamber—a mantis, the Greek word for \"seer.\" The eye on its display seems to track whoever dares to look back."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Devices/pda.rsi

@@ -57,12 +57,12 @@
     damage:
       types:
         Blunt: 2 # 3 DPS, or 3.75 DPS against psions
-        Holy: 1 # 5 total DPS against supernaturals
+        Holy: 1 # 5 total DPS against psionic supernaturals
   - type: ItemToggleMeleeWeapon
     activatedDamage:
       types:
         Heat: 2 # 3 DPS, or 3.75 DPS against psions
-        Holy: 1 # 5 total DPS against supernaturals
+        Holy: 1 # 5 total DPS against psionic supernaturals
   - type: ItemToggleDamageOtherOnHit
   - type: ThrowingAngle
     angle: 180

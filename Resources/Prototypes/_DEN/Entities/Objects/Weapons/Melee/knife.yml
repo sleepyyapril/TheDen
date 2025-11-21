@@ -40,7 +40,7 @@
     damage:
       types:
         Slash: 4 # 6 DPS (same as Shiv), or 7.5 DPS against psions
-        Holy: 1.6 # 11.25 total DPS against supernaturals
+        Holy: 1.6 # 11.25 total DPS against psionic supernaturals
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/pierce.ogg # Just a dull thunk since it does almost no damage
   - type: Tag
@@ -83,7 +83,7 @@
     damage:
       types:
         Slash: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
-        Holy: 5 # 28.13 total DPS against supernaturals
+        Holy: 5 # 28.13 total DPS against psionic supernaturals
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
     removalTime: 2

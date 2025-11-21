@@ -118,7 +118,7 @@
     damage:
       types: # Melee damage (per the description, it's for testing psionic ability, not fighting)
         Blunt: 1 # 1.5 DPS, or 1.88 DPS against psions
-        Holy: 0.5 # 2.81 total DPS against supernaturals
+        Holy: 0.5 # 2.81 total DPS against psionic supernaturals
   - type: ThrowingAngle
     angularVelocity: false
   - type: Tag
