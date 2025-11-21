@@ -163,7 +163,7 @@
     - BeltSlotNotBelt
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: [ BaseGrandTheftContraband, ClothingBeltStorageBase ]
   id: ClothingBeltMilitaryWebbingCMO
   name: chief medical officer's chest rig
   description: A medical chest rig with deep pockets, for use by paramedics and health professionals.
@@ -189,6 +189,7 @@
           tags:
           - Medkit
           - Portafib
+          - Compactdefib #Den change
           - Rollerbed
         insertOnInteract: true
   - type: ItemMapper # DeltaV - add stowed medkit sprite

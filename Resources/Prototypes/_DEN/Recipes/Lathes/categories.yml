@@ -1,4 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Blitz
+# SPDX-FileCopyrightText: 2025 DoctorJado
+# SPDX-FileCopyrightText: 2025 Falcon
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 # SPDX-FileCopyrightText: 2025 wheelwrightt
 #
@@ -15,3 +17,11 @@
 - type: latheCategory
   id: HygieneProducts
   name: lathe-category-hygiene-products
+
+- type: latheCategory
+  id: AirTanks
+  name: lathe-category-air-tanks
+
+- type: latheCategory
+  id: Bureaucracy
+  name: lathe-category-bureaucracy

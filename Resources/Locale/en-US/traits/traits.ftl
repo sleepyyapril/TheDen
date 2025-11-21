@@ -42,11 +42,12 @@
 # SPDX-FileCopyrightText: 2025 TheLuggage05
 # SPDX-FileCopyrightText: 2025 Timfa
 # SPDX-FileCopyrightText: 2025 VMSolidus
+# SPDX-FileCopyrightText: 2025 bigsantino1
 # SPDX-FileCopyrightText: 2025 foxcurl
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 trait-name-Blindness = Blindness
 trait-description-Blindness = You are legally blind, and can't see clearly past a few meters in front of you.
@@ -369,7 +370,7 @@ trait-description-Singer = You are naturally capable of singing simple melodies 
 
 trait-name-LatentPsychic = Latent Psion
 trait-description-LatentPsychic =
-    Your mind and soul are open to the noosphere, allowing for use of telepathy.
+    Your mind and soul are open to the noosphere, allowing you to hear telepathy.
     Thus, you are eligible for potentially receiving psionic powers.
     It is possible that you may be hunted by otherworldly forces, so consider keeping your powers a secret.
 
@@ -381,10 +382,8 @@ trait-description-PsionicInsulation =
 
 trait-name-NaturalTelepath = Natural Telepath
 trait-description-NaturalTelepath =
-    As a naturally occuring telepath, you are capable of fluent telepathic communication, regardless of
-    whether or not you possess any notable psionic powers. This offers all of the same benefits and
-    drawbacks of Latent Psion, except that you are guaranteed to start with full telepathy. You may
-    still gain powers as normal.
+    As a telepath, you are capable of fluent telepathic communication. While all psions can hear telepathy, you will be able to speak with it.
+    This power does not reduce your ability to gain new powers.
 
 trait-name-TrapAvoider = Trap Avoider
 trait-description-TrapAvoider =
@@ -542,7 +541,8 @@ trait-description-HighAmplification =
 
 trait-name-PowerOverwhelming = Power Overwhelming
 trait-description-PowerOverwhelming =
-    WITNESS MY HATE MORTALS, COWER BEFORE MY PSIONIC MIGHT! REALITY IS AS I DEEM IT.
+    "WITNESS MY HATE, MORTALS—COWER BEFORE MY PSIONIC MIGHT! REALITY IS AS I DEEM IT."
+    Your psionic abilities are twice as strong as those of other psions, and you cannot be psionically suppressed. You will not be stopped.
 
 trait-name-LowDampening = kδ Defect
 trait-description-LowDampening =
@@ -616,9 +616,10 @@ trait-description-DispelPower =
 
 trait-name-MetapsionicPower = Metapsion
 trait-description-MetapsionicPower =
-    You are able to intuitively sense the activation of psionic abilities, as well as send out a 'scanning' pulse
+    You are able to intuitively sense the activation of psionic abilities, as well as send out a "scanning" pulse
     to detect whether or not psions are nearby. This ability has a wide area of effect, and cannot precisely
     scan individual entities. Still, it is better than being blind.
+    This power does not reduce your ability to gain new powers.
 
 trait-name-HealingWordPower = Healing Word
 trait-description-HealingWordPower =
@@ -627,21 +628,23 @@ trait-description-HealingWordPower =
 
 trait-name-XenoglossyPower = Xenoglossy
 trait-description-XenoglossyPower =
-    An advanced form of telepathy, Xenoglossy is the ability to speak using emotional and metaphysical concepts,
-    rather than words, to impart meaning directly into the minds of a listener. When speaking using Xenoglossy, a psion can be
+    An advanced form of telepathy, xenoglossy is the ability to speak using emotional and metaphysical concepts,
+    rather than words, to impart meaning directly into the minds of a listener. When speaking using xenoglossy, a psion can be
     universally understood by any entity, who will hear the words as if spoken in one's own native tongue. Additionally,
     Xenoglossy grants the ability to divine the underlying emotional meaning from the minds of other speakers,
     allowing its user to understand any spoken language as if it was the user's own native tongue.
+    This power does not reduce your ability to gain new powers.
 
 trait-name-MindSwapPower = Mind Swap
 trait-description-MindSwapPower =
-    Grants you the power to swap bodies with another as they take your own. Swapping bodies with a being already occupying a body that is not their own can result in unintended consequences.
+    Grants you the power to swap bodies with another as they take your own, though its effects can be ended by either party. Swapping bodies with a being already occupying a body that is not their own can result in unintended consequences.
 
 trait-name-PsychognomyPower = Psychognomist
 trait-description-PsychognomyPower =
     A special talent derived from telepathy, psychognomy is the ability to read the underlying imprint of telepathic messages.
     A psychognomist can glean additional information from their telepathy, seeing vague outlines of what the source of a message
     might be. This information is not precise, and is largely only useful for narrowing down who the source of a message might be.
+    This power does not reduce your ability to gain new powers.
 
 trait-name-Redshirt = Redshirt
 trait-description-Redshirt =
@@ -773,3 +776,8 @@ trait-name-HealingFactor = Healing Factor
 trait-description-HealingFactor =
     Whether due to mutation or natural hardiness, you're harder to kill than most. You slowly regenerate from some common forms of damage.
     Your natural healing is no longer capped, and you will slowly recover from brute, burn and bloodloss damage while you are still alive.
+
+trait-name-PainNumbness = Pain Numbness
+trait-description-PainNumbness =
+    Whether due to a rare mutation, freak medical accident, or some other reason, you're not able to feel pain
+    making it much eaiser to miss possibly life threatening injuries.

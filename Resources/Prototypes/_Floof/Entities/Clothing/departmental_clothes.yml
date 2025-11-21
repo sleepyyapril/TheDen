@@ -10,7 +10,7 @@
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 #Command Outfits
 #
@@ -354,7 +354,7 @@
   parent: [ClothingShoesBaseSocks, ClothingShoesMilitaryBase] #TheDen
   id: ClothingUnderSocksMantisEpi
   name: classic mantis thigh-high socks # TheDen - Redid the mantis uniforms without removing the old items
-  description: A pair of thigh-high socks, styled for a mantis.
+  description: A pair of thigh-high socks, styled for a mantis
   components:
   - type: Sprite
     sprite: _Floof/Clothing/Departmental/Epistemics/mantisepisocks.rsi

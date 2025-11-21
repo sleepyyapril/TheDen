@@ -1,12 +1,14 @@
 # SPDX-FileCopyrightText: 2025 Blitz
+# SPDX-FileCopyrightText: 2025 Eightballll
 # SPDX-FileCopyrightText: 2025 Jakumba
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 VMSolidus
+# SPDX-FileCopyrightText: 2025 Winter
 # SPDX-FileCopyrightText: 2025 juniwoofs
 # SPDX-FileCopyrightText: 2025 sheepie
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 - type: entity
   parent: BaseUnknownShuttleRule
@@ -56,6 +58,8 @@
   id: MobHumanSANDeserter
   name: SAN Deserter
   components:
+    - type: RandomHumanoidAppearance # Den - ghost roles fix
+      randomizeName: false # Den - ghost roles fix
     - type: Loadout
       prototypes: [SANDeserterGearFull]
     - type: NpcFactionMember
@@ -73,6 +77,9 @@
   antagonist: true
   setPreference: false
   objective: roles-antag-sol-alliance-navy-deserter-objective
+  requirements: 
+    - !type:CharacterOverallTimeRequirement
+      min: 36000 #Den - 10 hours
 
 - type: entity
   parent: BaseMindRoleAntag

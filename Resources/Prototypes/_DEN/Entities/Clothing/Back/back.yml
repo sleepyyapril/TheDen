@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2025 Shaman
 # SPDX-FileCopyrightText: 2025 Tabitha
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -45,7 +46,6 @@
     - back
     - suitStorage
   - type: Storage
-    maxItemSize: Huge
     grid:
     - 0,0,5,4
     whitelist:

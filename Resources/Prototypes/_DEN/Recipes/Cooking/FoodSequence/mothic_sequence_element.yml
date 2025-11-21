@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2025 leo
 # SPDX-FileCopyrightText: 2025 portfiend
 #
 # SPDX-License-Identifier: MIT
@@ -181,7 +182,7 @@
   name: food-sequence-cotton-burger-content-plushie-dino
   sprites:
   - sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: dino
+    state: tricera
 
 - type: foodSequenceElement
   id: DragonPlushie
@@ -354,7 +355,7 @@
     state: orange
 
 - type: foodSequenceElement
-  id: SiamesCatPlushie
+  id: SiameseCatPlushie
   scale: 0.8, 0.8
   name: food-sequence-cotton-burger-content-plushie-cat
   sprites:

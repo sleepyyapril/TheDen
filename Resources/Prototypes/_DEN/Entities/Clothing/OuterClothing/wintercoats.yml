@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Shaman
+# SPDX-FileCopyrightText: 2025 sheepie
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterCoatTurtleneckHalfBlouse
@@ -39,3 +44,16 @@
       sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_mu.rsi
     - type: Clothing
       sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_mu.rsi
+
+- type: entity
+  parent: ClothingOuterWinterCoatToggleable
+  id: ClothingOuterWinterAdminAssistant
+  name: administrative assistant winter coat
+  components:
+    - type: Sprite
+      sprite: _DEN/Clothing/OuterClothing/WinterCoats/coataa.rsi
+    - type: Clothing
+      sprite: _DEN/Clothing/OuterClothing/WinterCoats/coataa.rsi
+    - type: ToggleableClothing
+      clothingPrototype: ClothingHeadHatHoodWinterAdminAssistant
+
