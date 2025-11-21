@@ -16,7 +16,7 @@
   - type: AccessReader
     access: [["Mantis"]]
   - type: Sprite # TheDen - Edited everything below this point wow
-    sprite: _DEN/Structures/Storage/Specific/closetmantis.rsi
+    sprite: _DEN/Structures/Specific/Mantis/closetmantis.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]

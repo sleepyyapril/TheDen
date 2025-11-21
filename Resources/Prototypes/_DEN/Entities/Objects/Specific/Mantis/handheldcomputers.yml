@@ -56,9 +56,9 @@
   description: "Ostensibly used to monitor the health and safety of registered psions aboard the station, although a system update seems to have incorrectly increased its access to see all crew. Oh well." # Like above, if functionality changes, update this description
   components:
   - type: Item
-    sprite: _DEN/Objects/Specific/Mantis/handheldcrewmonitormantis.rsi
+    sprite: _DEN/Objects/Specific/Medical/handheldcrewmonitormantis.rsi
   - type: Sprite
-    sprite: _DEN/Objects/Specific/Mantis/handheldcrewmonitormantis.rsi
+    sprite: _DEN/Objects/Specific/Medical/handheldcrewmonitormantis.rsi
     layers:
     - state: icon
     - state: screen

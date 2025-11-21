@@ -106,9 +106,9 @@
   description: "A durable mu-metal cage with a heavy chain, designed to insulate the mind of whoever wears it. Removal takes time and attention."
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Head/Hats/cage.rsi
+    sprite: _DEN/Clothing/Head/Hats/cagemantis.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Head/Hats/cage.rsi
+    sprite: _DEN/Clothing/Head/Hats/cagemantis.rsi
 
 - type: entity
   parent: ClothingHeadBase

@@ -256,7 +256,7 @@
     - type: TypingIndicatorClothing # It gives you a new typing indicator if you wear it
       proto: mantis
     - type: Item
-      sprite: _DEN/Objects/Misc/bureaucracy.rsi
+      sprite: Objects/Misc/bureaucracy.rsi
       heldPrefix: paper_mantis
     - type: PaperLabelType # So it can label containers with a unique sprite
       paperType: MantisPaper
@@ -309,7 +309,7 @@
       sound: /Audio/Weapons/pierce.ogg # Just a dull thunk since it does almost no damage
       removalTime: 2
     - type: Sprite
-      sprite: _DEN/Objects/Misc/bureaucracy.rsi
+      sprite: Objects/Misc/bureaucracy.rsi
       layers:
       - state: paper_mantis
       - state: paper_mantis_words

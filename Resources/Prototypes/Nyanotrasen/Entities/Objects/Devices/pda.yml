@@ -119,24 +119,32 @@
     sprite: _DV/Objects/Devices/pda.rsi
     state: pda-martialartist
 
-- type: entity # TheDen - New appearance, new description, new pen
+- type: entity # TheDen - Changed pretty much everything
   parent: BasePDA
   id: ForensicMantisPDA
   name: mantis PDA
-  description: "This PDA marks its bearer as a member of the Outer Chamber—a mantis, the Greek word for \"seer.\" The eye on its display seems to track whoever dares to look back."
+  description: "This PDA marks its bearer as a member of the Outer Chamber—a mantis, the Greek word for \"seer.\" The eye on its display seems to track whoever dares to look back. Carried in a pocket, because you couldn't bear to hang this hunk of plastic on your belt."
   components:
+  - type: Item
+    sprite: _DEN/Objects/Devices/pda.rsi
+    heldPrefix: mantis
+  - type: Clothing
+    sprite: _DEN/Objects/Devices/pda.rsi
+    equippedPrefix: mantis
   - type: Sprite
     sprite: _DEN/Objects/Devices/pda.rsi
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
+    - state: "mantis-light_overlay"
       map: [ "enum.PdaVisualLayers.Flashlight" ]
       shader: "unshaded"
       visible: false
-    - state: "id_overlay"
+    - state: "mantis-id_overlay"
       map: [ "enum.PdaVisualLayers.IdLight" ]
       shader: "unshaded"
       visible: false
+  - type: PointLight
+    color: "#d9418d"
   - type: Pda
     id: ForensicMantisIDCard
     state: pda-mantis

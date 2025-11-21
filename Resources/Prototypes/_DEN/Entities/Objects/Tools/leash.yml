@@ -7,10 +7,10 @@
   - type: Sprite
     size: Tiny
     sprite: _DEN/Objects/Specific/Mantis/leashmantis.rsi
-    state: base
+    state: icon
   - type: Leash
     leashSprite:
-      sprite: _DEN/Objects/Specific/Mantis/leashmantis.rsi
+      sprite: _DEN/Objects/Specific/Mantis/leashmantis-chain.rsi
       state: chain
     pullInterval: 0.75
     length: 3

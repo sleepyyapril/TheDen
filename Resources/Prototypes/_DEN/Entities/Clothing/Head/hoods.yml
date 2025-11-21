@@ -9,9 +9,9 @@
   description: "A gloomy hood that sits low on the head, ornamented with magenta tassles. It matches your cloak nicely, though it can be worn on its own."
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/Head/Hoods/mantis_fez_dark.rsi
+    sprite: _DEN/Clothing/Head/Hoods/mantis_hood_dark.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/Head/Hoods/mantis_fez_dark.rsi
+    sprite: _DEN/Clothing/Head/Hoods/mantis_hood_dark.rsi
   - type: HideLayerClothing
     slots:
     - Hair

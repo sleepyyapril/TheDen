@@ -16,14 +16,13 @@
   name: classic mantis belt # TheDen
   description: "A structured, layered sash designed to carry mantis equipment." # TheDen
   components:
-  - type: Storage # TheDen
-    grid:
-    - 0,0,9,1
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Belt/mantis_belt.rsi
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Belt/mantis_belt.rsi
-  - type: Storage
+  - type: Storage # TheDen
+    grid:
+    - 0,0,9,1
     whitelist:
       tags:
         - Folder

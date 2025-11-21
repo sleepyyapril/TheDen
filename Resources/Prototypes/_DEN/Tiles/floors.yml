@@ -344,7 +344,7 @@
 - type: tile
   id: FloorSomberSteelPavementVertical
   name: tiles-somber-steel-floor-pavement-vertical
-  sprite: /Textures/_DEN/Tiles/somber-tile-pavement_vertical.png
+  sprite: /Textures/_DEN/Tiles/somber-tile-pavement-vertical.png
   variants: 4
   placementVariants:
   - 1.0
@@ -425,7 +425,7 @@
 - type: tile
   id: FloorSomberWoodTile
   name: tiles-somber-wood2
-  sprite: /Textures/_DEN/Tiles/somber-wood-tile.png
+  sprite: /Textures/_DEN/Tiles/somber-wood-pattern.png
   variants: 4
   placementVariants:
   - 1.0

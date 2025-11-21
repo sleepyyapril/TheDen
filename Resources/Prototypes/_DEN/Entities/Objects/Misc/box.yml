@@ -143,6 +143,9 @@
     - state: 1-open
       map: ["openLayer"]
   - type: Item
+    size: Tiny # Like CigPackBase, so it can only store tiny items
+    shape:
+    - 0,0,0,1 # 1x2
     whitelist: # Only the tiny chemistry items from the belt's whitelist
       tags:
         - Syringe
@@ -150,10 +153,6 @@
         - PillCanister
         - Pill
         - MantisBoxChemicalsStorable # Somewhat redundant, but it has its own tag just in case
-  - type: Item
-    size: Tiny # Like CigPackBase, so it can only store tiny items
-    shape:
-    - 0,0,0,1 # 1x2
   - type: Storage
     grid:
     - 0,0,1,2 # 2x3, bigger on the inside. The idea is to replicate a cigarette pack's function, but smaller and more restrictive

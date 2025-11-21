@@ -5,7 +5,7 @@
   description: "A Greek psi, symbolizing the noosphere and the mantis who watches over it."
   components:
   - type: Sprite
-    sprite: _DEN/Structures/Wallmounts/walldecor.rsi
+    sprite: _DEN/Structures/Specific/Mantis/walldecor.rsi
     state: psi
   - type: Damageable
     damageContainer: Inorganic
@@ -40,7 +40,6 @@
   description: "An electrum eye, symbolizing the mind, decorated with magenta tassles."
   components:
   - type: Sprite
-    sprite: _DEN/Structures/Wallmounts/walldecor.rsi
     state: eye
 
 - type: entity
@@ -50,7 +49,6 @@
   description: "Fragments of a shattered, otherworldly blade, mounted as a trophy. The plaque reads, \"Thus end all who seek the place beyond.\""
   components:
   - type: Sprite
-    sprite: _DEN/Structures/Wallmounts/walldecor.rsi
     layers:
       - state: heretictrophy
       - state: heretictrophy-glow

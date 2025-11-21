@@ -168,7 +168,7 @@
   name: somber steel tile (offset)
   components:
   - type: Sprite
-    state: somber-tile-offse
+    state: somber-tile-offset
   - type: FloorTile
     outputs:
       - Plating
@@ -196,7 +196,7 @@
   name: somber steel tile (pavement, vertical)
   components:
   - type: Sprite
-    state: somber-tile-pavement_vertical
+    state: somber-tile-pavement-vertical
   - type: FloorTile
     outputs:
       - Plating
@@ -325,7 +325,7 @@
   name: somber wood floor (patterned)
   components:
   - type: Sprite
-    state: somber-wood-tile
+    state: somber-wood-pattern
   - type: FloorTile
     outputs:
       - Plating

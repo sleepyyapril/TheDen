@@ -254,6 +254,20 @@
     },
     {
       "name": "paper_stamp-signature"
+    },
+    {
+      "name": "paper_mantis"
+    },
+    {
+      "name": "paper_mantis-inhand-left",
+	  "directions": 4
+    },
+    {
+      "name": "paper_mantis-inhand-right",
+	  "directions": 4
+    },
+    {
+      "name": "paper_mantis_words"
     }
   ]
 }

@@ -10,9 +10,9 @@
   description: A commercialized alternative to homebrewed herbalism for recreational use. This one comes with pre-rolled joints.
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Consumable/Smokables/Cigarettes/Packs/stinkyjoints.rsi
+    sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/Packs/stinkyjoints.rsi
   - type: Item
-    sprite: _DEN/Objects/Consumable/Smokables/Cigarettes/Packs/stinkyjoints.rsi
+    sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/Packs/stinkyjoints.rsi
   - type: StorageFill
     contents:
     - id: Joint
