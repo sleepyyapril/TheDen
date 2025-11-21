@@ -67,7 +67,7 @@
   - ForensicMantisPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMantisDark # TheDen
-    back: ClothingBackpackMantisFilled
+    back: ClothingBackpackMantis # TheDen - Nothing to fill it with anymore
     shoes: ClothingShoesSandalsMantisDark # TheDen
     head: ClothingHeadHoodMantisDark # TheDen
     id: ForensicMantisPDA
@@ -79,8 +79,8 @@
     # pocket1: BookPsionicsGuidebook # TheDen - Throwing this in their locker because it sucks
     pocket1: BaseHandheldPsionicsRegistry # TheDen
   innerClothingSkirt: ClothingUniformJumpsuitMantisDark # TheDen - Not a jumpskirt, don't care, all options are robelike anyway
-  satchel: ClothingBackpackSatchelMantisFilled
-  duffelbag: ClothingBackpackDuffelMantisFilled
+  satchel: ClothingBackpackSatchelMantis # TheDen - Nothing to fill it with anymore
+  duffelbag: ClothingBackpackDuffelMantis # TheDen - Nothing to fill it with anymore
 
 - type: startingGear
   id: ForensicMantisPlasmamanGear

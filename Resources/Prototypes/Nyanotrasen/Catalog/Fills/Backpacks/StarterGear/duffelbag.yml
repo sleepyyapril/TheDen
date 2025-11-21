@@ -5,10 +5,10 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-- type: entity
-  categories: [ HideSpawnMenu ]
-  parent: ClothingBackpackDuffelMantis # TheDen - Added custom sprites
-  id: ClothingBackpackDuffelMantisFilled
+#- type: entity
+#  categories: [ HideSpawnMenu ]
+#  parent: ClothingBackpackDuffelMantis # TheDen - Added custom sprites
+#  id: ClothingBackpackDuffelMantisFilled
 #  components:
 #    - type: StorageFill
 #      contents:

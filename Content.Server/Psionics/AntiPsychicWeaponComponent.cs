@@ -54,9 +54,10 @@ namespace Content.Server.Psionics
 
         /// <summary>
         ///     How much Shock damage to take when Punish(ed) by the gods for using this weapon
+        ///     TheDen - Made this a float, dunno why it wasn't
         /// </summary>
         [DataField]
-        public int PunishSelfDamage = 20;
+        public float PunishSelfDamage = 20f;
 
         /// <summary>
         ///     How long (in seconds) should the user be stunned when punished by the gods
