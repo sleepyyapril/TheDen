@@ -14539,3 +14539,12 @@ Entries:
   id: 1425
   time: '2025-11-21T01:42:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2062
+- author: Zilanthros
+  changes:
+    - type: Add
+      message: Perpetuity Map File
+    - type: Add
+      message: Perpetuity Map Prototype File
+  id: 1426
+  time: '2025-11-21T23:26:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2064
