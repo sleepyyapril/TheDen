@@ -86,6 +86,8 @@
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEyesEpiGlassesMantis
     - type: loadout # TheDen
+      id: LoadoutPsionicMantisEyesEpiGlassesMantisTinted
+    - type: loadout # TheDen
       id: LoadoutPsionicMantisEyesEpiGlassesMantisVeil
 
 - type: characterItemGroup
@@ -148,11 +150,13 @@
     - type: loadout
       id: LoadoutScienceOuterJacketMantis
     - type: loadout # TheDen
+      id: LoadoutScienceOuterJacketMantisAiry
+    - type: loadout # TheDen
       id: LoadoutScienceOuterWinterCoatMantisDark
     - type: loadout # TheDen
-      id: LoadoutScienceOuterWinterCoatMantisMu
+      id: LoadoutScienceOuterJacketMantisOrnate
     - type: loadout # TheDen
-      id: LoadoutScienceOuterJacketMantisAiry
+      id: LoadoutScienceOuterWinterCoatMantisMu
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisShoes

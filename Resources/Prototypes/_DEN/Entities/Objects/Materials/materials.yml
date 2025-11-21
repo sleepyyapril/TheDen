@@ -29,9 +29,6 @@
     - mnemolith_2
     - mnemolith_3
   - type: Material
-  - type: PhysicalComposition
-    materialComposition:
-      Mnemolith: 100
   - type: Extractable
     grindableSolutionName: mnemolith
   - type: SolutionContainerManager
@@ -131,9 +128,6 @@
     energy: 2.5
     castShadows: false
     color: "#d9418d"
-  - type: PhysicalComposition
-    materialComposition:
-      Eidolite: 100
   - type: StaticPrice
     price: 0
   - type: StackPrice # Gamer loot for salvagers

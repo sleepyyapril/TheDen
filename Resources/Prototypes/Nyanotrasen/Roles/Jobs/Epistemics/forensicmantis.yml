@@ -75,7 +75,7 @@
     # eyes: ClothingEyesGlassesSunglasses # TheDen
     ears: ClothingHeadsetMantis # TheDen
     gloves: ClothingHandsGlovesMantisDark # TheDen
-    outerClothing: ClothingOuterCoatMantisAiry # TheDen
+    outerClothing: ClothingOuterCoatMantisOrnate # TheDen
     belt: ClothingBeltMantisDark # TheDen
     # pocket1: BookPsionicsGuidebook # TheDen - Throwing this in their locker
     pocket1: BaseHandheldPsionicsRegistry # TheDen

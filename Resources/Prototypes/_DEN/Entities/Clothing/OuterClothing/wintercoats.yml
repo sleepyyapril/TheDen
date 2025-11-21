@@ -30,7 +30,7 @@
       foldedEquippedPrefix: folded
 
 - type: entity
-  parent: [ClothingOuterWinterCoatMantis]
+  parent: ClothingOuterWinterCoatMantis
   id: ClothingOuterWinterCoatMantisMu
   name: mantis mu-metal tabard
   description: "A lightly armored tabard with an eye motif on its split collar. Mu-metal discs adorn the fabric, said to help the mantis regulate their powers, at least in theory."

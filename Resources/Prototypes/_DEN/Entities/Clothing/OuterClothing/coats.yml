@@ -14,3 +14,14 @@
     unfoldVerbText: fold-flip-verb
   - type: FoldableClothing
     foldedEquippedPrefix: flipped
+
+- type: entity
+  parent: ClothingOuterCoatMantis
+  id: ClothingOuterCoatMantisOrnate
+  name: ornate mantis plackart # It's outerwear by design, not a belt - in fact it looks really good under the belts
+  description: "A thick wrap fitted with a Greek psi, designed to protect your stomach. It's lightly armored, and it layers nicely with your uniform."
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_ornate.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_ornate.rsi

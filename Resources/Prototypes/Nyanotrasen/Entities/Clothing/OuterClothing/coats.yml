@@ -26,6 +26,9 @@
         Slash: 0.8
         Piercing: 0.8
         Heat: 0.8
+        Cold: 0.8 # TheDen
+  - type: StaminaDamageResistance # TheDen - Standard for all armor now
+    coefficient: 0.8
   - type: TemperatureProtection
     heatingCoefficient: 0.3
     coolingCoefficient: 0.3
