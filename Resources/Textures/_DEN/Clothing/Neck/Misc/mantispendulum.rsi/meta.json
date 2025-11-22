@@ -11,10 +11,12 @@
             "name": "icon"
         },
         {
-            "name": "equipped-NECK"
+            "name": "equipped-NECK",
+            "directions": 4
         },
         {
-            "name": "equipped-NECK-thaven"
+            "name": "equipped-NECK-thaven",
+            "directions": 4
         },
         {
             "name": "inhand-left",

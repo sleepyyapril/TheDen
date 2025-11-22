@@ -44,12 +44,12 @@
     soundActivate:
       path: /Audio/_DEN/Effects/crystalshimmer1.ogg
       params:
-        volume: -2
+        volume: -6
         variation: 0.05
     soundDeactivate:
       path: /Audio/_DEN/Effects/crystalshimmer2.ogg
       params:
-        volume: -2
+        volume: -6
         variation: 0.05
   - type: UnpoweredFlashlight # Powered by the noosphere
   - type: Damageable

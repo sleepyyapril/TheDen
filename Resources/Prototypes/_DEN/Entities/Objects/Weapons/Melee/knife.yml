@@ -25,9 +25,9 @@
 
 - type: entity
   parent: [TailorsKnife, BaseAntiPsionicWeapon, BaseMantisContraband]
-  id: MantisTailorsKnife # Obtained by hacking the reliquary conduit
+  id: MantisTailorsKnife
   name: ravel
-  description: "A mnemolith tailor's knife summoned from the Reliquary without authorization—presumably stolen from whoever designed your uniforms, you rat. Possibly deadly when wielded against psionic and otherworldly threats."
+  description: "A mnemolith tailor's knife, presumably stolen from whoever designed your uniforms. You rat."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Melee/mantistailorsknife.rsi
@@ -50,9 +50,9 @@
 
 - type: entity
   parent: [CombatKnife, BaseAntiPsionicWeapon, BaseMantisContraband]
-  id: MantisKnife
+  id: MantisMeleeKnife
   name: athame
-  description: "A mnemolith knife shaped like a claw, its back lined with swordbreaker teeth — though it remains unclear who, exactly, is drawing blades against mantes. The finger ring improves grip and allows for idle spinning tricks, though they serve no tactical purpose. Deadly when wielded against psionic and otherworldly threats."
+  description: "A mnemolith knife shaped like a claw, its back lined with swordbreaker teeth—though it remains unclear who, exactly, is drawing blades against mantes. The finger ring improves grip and allows for idle spinning tricks, though they serve no tactical purpose. Deadly when wielded against psionic and otherworldly threats."
   components:
   - type: ItemToggle # You can toggle spinning it around your finger, though it's just cosmetic
     predictable: false
@@ -66,13 +66,6 @@
       params:
         volume: -5
         variation: 0.05
-  - type: ToggleableVisuals
-    spriteLayer: null
-    inhandVisuals:
-      left:
-      - state: spinning-inhand-left
-      right:
-      - state: spinning-inhand-right
   - type: UseDelay
     delay: 1
   - type: MeleeWeapon
@@ -92,11 +85,34 @@
     sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
     state: icon
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
     storedRotation: 45
     storedSprite:
       state: icon
       sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi # Same sprite, just rotated, because it looks wrong otherwise
+    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        map: [ "nospin" ]
+      - state: spinning-inhand-left
+        map: [ "spin" ]
+        visible: false
+      right:
+      - state: inhand-right
+        map: [ "nospin" ]
+      - state: spinning-inhand-right
+        map: [ "spin" ]
+        visible: false
+  - type: Appearance
+  - type: GenericVisualizer #TODO: FREEMODEL PLEASE GOD HELP ME - KNIFE DOESN'T SPIN WHEN YOU PRESS Z AND I WAS THROWING SHIT AT THE WALL HERE
+    visuals:
+      enum.ToggleableVisuals.Enabled:
+        on:
+          True: { visible: true }
+          False: { visible: false }
+        base:
+          True: { visible: false }
+          False: { visible: true }
   - type: ThrowingAngle
     angle: -135
   - type: DisarmMalus

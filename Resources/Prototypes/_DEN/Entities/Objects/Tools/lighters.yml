@@ -24,12 +24,12 @@
     soundActivate:
       path: /Audio/_DEN/Effects/crystaltap1.ogg
       params:
-        volume: -2
+        volume: -6
         variation: 0.05
     soundDeactivate:
       path: /Audio/_DEN/Effects/crystaltap2.ogg
       params:
-        volume: -2
+        volume: -6
         variation: 0.05
   - type: Item
     sprite: _DEN/Objects/Tools/lightermantis.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: MaterialBase
   id: MaterialMnemolith # Not actually useful for anything right now, but you can grind it to get a roleplay chemical
-  name: mnemolith # Hypothetically, it could be used to make psionic tools (like PenMantis and MantisKnife)
+  name: mnemolith # Hypothetically, it could be used to make psionic tools (like PenMantis and MantisMeleeKnife)
   description: "A dark, glassy stone that forms during severe noospheric storms. It absorbs the intent of psions, allowing it to be \"taught\" new properties and repurposed for different uses. Commonly employed in the construction of esoteric tools, but you don't know how." # Edit that last bit out if it gets crafting recipes
   suffix: Full
   components:
@@ -56,8 +56,8 @@
   id: MaterialMnemolith1
   suffix: Single
   components:
-    - type: Stack
-      count: 1
+  - type: Stack
+    count: 1
 
 - type: entity
   parent: BaseItem # No longer a material, more like ash now
@@ -138,5 +138,5 @@
   id: MaterialEidolite1
   suffix: Single
   components:
-    - type: Stack
-      count: 1
+  - type: Stack
+    count: 1

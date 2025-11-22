@@ -200,6 +200,19 @@
     - FlippoLighterMantis
 
 - type: loadout
+  id: LoadoutPsionicMantisEquipmentTailorsKnife
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - MantisTailorsKnife
+
+- type: loadout
   id: LoadoutPsionicMantisEquipmentWheelchair
   category: JobsEpistemicsPsionicMantis
   cost: 0
@@ -228,7 +241,7 @@
     - ClothingBackpackCoffinMantisFilled
 
 - type: loadout
-  id: LoadoutPsionicMantisRestraintsMantisCaseRestraints # This is for people who don't want the sarcophagus too
+  id: LoadoutPsionicMantisRestraintsMantisCaseRestraints # This is for people who don't want the ClothingBackpackCoffinMantis too
   category: JobsEpistemicsPsionicMantis
   cost: 0
   requirements:
@@ -301,7 +314,7 @@
 # Gloves
 
 - type: loadout
-  id: LoadoutPsionicMantisGloves
+  id: LoadoutPsionicMantisGlovesClassic
   category: JobsEpistemicsPsionicMantis
   cost: 0
   exclusive: true
@@ -312,7 +325,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingHandsMantisGloves
+    - ClothingHandsGlovesMantis
 
 - type: loadout
   id: LoadoutPsionicMantisGlovesAiry
@@ -326,7 +339,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingHandsMantisGlovesAiry
+    - ClothingHandsGlovesMantisAiry
 
 - type: loadout
   id: LoadoutPsionicMantisGlovesDark
@@ -340,7 +353,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingHandsMantisGlovesDark
+    - ClothingHandsGlovesMantisDark
 
 - type: loadout
   id: LoadoutPsionicMantisGlovesOrnate
@@ -354,7 +367,7 @@
       jobs:
         - ForensicMantis
   items:
-    - ClothingHandsMantisGlovesOrnate
+    - ClothingHandsGlovesMantisOrnate
 
 # Head
 
@@ -636,7 +649,7 @@
       jobs:
         - ForensicMantis
   items:
-    - MantisPistol
+    - MantisRangedPistol
     - MantisCasterPistolCrypto
 
 - type: loadout
@@ -651,7 +664,7 @@
       jobs:
         - ForensicMantis
   items:
-    - MantisRevolver
+    - MantisRangedRevolver
     - MantisCasterRevolverCrypto
 
 - type: loadout
@@ -666,7 +679,7 @@
       jobs:
         - ForensicMantis
   items:
-    - MantisShotgun
+    - MantisRangedShotgun
     - MantisCasterShotgunCrypto
 
 - type: loadout
@@ -681,7 +694,7 @@
       jobs:
         - ForensicMantis
   items:
-    - MantisSubMachineGun
+    - MantisRangedSubMachineGun
     - MantisCasterSubMachineGunCrypto
 
 # Melee
@@ -698,7 +711,7 @@
       jobs:
         - ForensicMantis
   items:
-    - MantisKnife # Athame
+    - MantisMeleeKnife # Athame
 
 - type: loadout
   id: LoadoutPsionicMantisMeleeFist
@@ -712,7 +725,7 @@
       jobs:
         - ForensicMantis
   items:
-    - MantisFist # Manifold
+    - MantisMeleeFist # Manifold
 
 - type: loadout
   id: LoadoutPsionicMantisMeleeCane
@@ -726,7 +739,7 @@
       jobs:
         - ForensicMantis
   items:
-    - MantisCane # Gnomon
+    - MantisMeleeCane # Gnomon
 
 - type: loadout
   id: LoadoutPsionicMantisMeleeGreatsword
@@ -742,4 +755,4 @@
       jobs:
         - ForensicMantis
   items:
-    - MantisGreatswordSheathFilled # Faust
+    - MantisMeleeGreatswordSheathFilled # Faust

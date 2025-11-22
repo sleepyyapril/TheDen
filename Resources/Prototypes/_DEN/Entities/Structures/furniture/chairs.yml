@@ -78,7 +78,7 @@
   parent: VehicleWheelchair
   id: SomberChairLeatherMantis
   name: mantis chair
-  description: "A plush leather office chair concealing mechanisms that let it compact into an electrum sphere. It hovers just above the ground and can be steered with psionic influence. Useful for mantes with mobility restrictions, or simply as versatile office furniture."
+  description: "A plush leather office chair concealing strange mechanisms that let it compact into an electrum sphere. It hovers just above the ground and can be steered with psionic influence. Useful for mantes with mobility restrictions, or simply as versatile office furniture."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Specific/Mantis/mantischair.rsi

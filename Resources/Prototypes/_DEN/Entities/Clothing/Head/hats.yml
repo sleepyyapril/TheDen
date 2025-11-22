@@ -101,7 +101,7 @@
 
 - type: entity
   parent: [ClothingHeadCage, BaseMantisContraband]
-  id: ClothingHeadCageMantis # This version has a chain on the front to match the other sarcophagus items
+  id: ClothingHeadCageMantis # This version has a chain on the front to match the other ClothingBackpackCoffinMantis items
   name: graven headcage
   description: "A durable mu-metal cage with a heavy chain, designed to insulate the mind of whoever wears it. Removal takes time and attention."
   components:

@@ -23,7 +23,7 @@
   - type: StaminaDamageOnHit
     damage: 0
   - type: AntiPsionicWeapon
-    punish: true # TheDen - Since I remade the knife entirely (see MantisKnife) this one gets punish again since it shouldn't even be findable
+    punish: true # TheDen - Since I remade the knife entirely (see MantisMeleeKnife) this one gets punish again since it shouldn't even be findable
   - type: Sprite
     sprite: Nyanotrasen/Objects/Weapons/Melee/anti_psychic_knife.rsi
     state: icon

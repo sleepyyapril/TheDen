@@ -58,7 +58,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesMantis
   name: classic mantis gloves
-  description: "Made of tough cloth, and fingerless for dexterity."
+  description: "Made of tough cloth, and fingerless for dexterity. All the company would pay for prior to the mantis equipment refresh."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves.rsi

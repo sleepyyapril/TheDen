@@ -9,7 +9,7 @@
   parent: ClothingShoesBase
   id: ClothingShoesBootsMantis
   name: classic mantis boots
-  description: Soft, comfortable, and good for rough terrain.
+  description: "Soft, comfortable, and good for rough terrain. All the company would pay for prior to the mantis equipment refresh." # TheDen
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Shoes/Boots/mantis_boots.rsi

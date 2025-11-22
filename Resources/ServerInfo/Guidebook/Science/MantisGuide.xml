@@ -10,9 +10,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 <Document>
 ## Mantis
 
-"Ah felt tha change in tha air, in tha noosphere. One ae ya be hidin' something frae me." ─Alice Maranna, Former Mantis
-
-<GuideEntityEmbed Entity="MantisKnife"/>
+<GuideEntityEmbed Entity="MantisMeleeKnife"/>
 
 
 The Mantis is the Psionic Detective of the Epistemic Cult, they serve the station as the primary method of dealing with processing and in some cases, destroying psionic entities, mentally, or by physical means.

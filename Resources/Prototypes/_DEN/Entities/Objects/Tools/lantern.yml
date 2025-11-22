@@ -4,7 +4,6 @@
   name: mantis lantern
   description: "An ornate lantern housing an eidolite pyramid that draws energy from the noosphere. Its glow lingers in your vision, imprinting shapes you can't quite name, and its handle hangs easily on your back."
   components:
-    - type: HandheldLight
     - type: Sprite
       sprite: _DEN/Objects/Tools/lanternmantis.rsi
       layers:
@@ -33,15 +32,13 @@
       soundActivate:
         path: /Audio/_DEN/Effects/crystalshimmer1.ogg
         params:
-          volume: -2
+          volume: -6
           variation: 0.05
       soundDeactivate:
         path: /Audio/_DEN/Effects/crystalshimmer2.ogg
         params:
-          volume: -2
+          volume: -6
           variation: 0.05
-    - type: UseDelay
-      delay: 1.75 # Its sound effects are 1.75s long, no overlapping allowed
     - type: StealTarget
       stealGroup: LAMP # The moths are coming the moths are coming
     - type: Clothing
@@ -56,6 +53,9 @@
       attackRate: 0.6666
       soundHit:
         path: /Audio/Weapons/block_metal1.ogg
+        params:
+          volume: -4
+          variation: 0.05
       damage:
         types:
           Blunt: 5 # 7.5 DPS (same as Crowbar), or 9.38 DPS against psions

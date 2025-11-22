@@ -66,7 +66,7 @@
 # Mantis guns start
 - type: entity
   parent: [BaseWeaponPowerCell, BaseMantisContraband]
-  id: BaseMantisGun # Lorewise, they use altered and contained anomaly cores to generate physical ammo
+  id: BaseMantisRanged # Lorewise, they use altered and contained anomaly cores to generate physical ammo
   abstract: true # But codewise, they're just battery guns that look and sound like they're shooting ballistics
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
     slots:
     - suitStorage
   - type: Gun
-    fireOnDropChance: 0.2
+    fireOnDropChance: 0.1
     soundEmpty:
       path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
       params:
@@ -125,8 +125,8 @@
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg # At least it's a little funny
 
 - type: entity
-  parent: BaseMantisGun
-  id: MantisPistol
+  parent: BaseMantisRanged
+  id: MantisRangedPistol
   name: kalliste
   description: "A sleek mantis sidearm favored for its balance and effortless precision. It uses specialized magazines called \"casters,\" each containing an anomaly core that continually forms its own bullets. Issued with both banishing and silencing casters for confronting supernatural threats and rogue psions. Holds twelve shots."
   components:
@@ -147,8 +147,10 @@
     fireRate: 5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+      params:
+        volume: -1
   - type: MagazineVisuals
-    steps: 2
+    steps: 13
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -165,8 +167,8 @@
     - MantisBeltStorable
 
 - type: entity
-  parent: BaseMantisGun
-  id: MantisRevolver
+  parent: BaseMantisRanged
+  id: MantisRangedRevolver
   name: charon
   description: "A gilded mantis revolver engineered for measured control and heavy, deliberate impact. It uses specialized cylinders called \"casters,\" each containing an anomaly core that continually forms its own bullets. Issued with both banishing and silencing casters for confronting supernatural threats and rogue psions. Holds six shots."
   components:
@@ -187,6 +189,8 @@
     fireRate: 2.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
+      params:
+        volume: -1
   - type: MagazineVisuals
     steps: 7
   - type: ItemSlots
@@ -205,8 +209,8 @@
     - MantisBeltStorable
 
 - type: entity
-  parent: BaseMantisGun
-  id: MantisShotgun
+  parent: BaseMantisRanged
+  id: MantisRangedShotgun
   name: empusa
   description: "A vicious sawn-off mantis shotgun designed to dominate close-range encounters. It uses specialized cylinders called \"casters,\" each containing an anomaly core that continually forms its own pellets. Issued with both banishing and silencing casters for confronting supernatural threats and rogue psions. Holds five shots."
   components:
@@ -226,6 +230,8 @@
     fireRate: 2
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/shotgun.ogg
+      params:
+        volume: -1
   - type: MagazineVisuals
     steps: 6
   - type: ItemSlots
@@ -249,8 +255,8 @@
     - MantisBeltStorable
 
 - type: entity
-  parent: BaseMantisGun
-  id: MantisSubMachineGun
+  parent: BaseMantisRanged
+  id: MantisRangedSubMachineGun
   name: strix
   description: "A compact, fast-cycling mantis submachine gun built for relentless fire in tight spaces. It uses specialized magazines called \"casters,\" each containing an anomaly core that continually forms its own bullets. Issued with both banishing and silencing casters for confronting supernatural threats and rogue psions. Holds thirty-six shots."
   components:
@@ -269,18 +275,19 @@
   - type: Gun
     fireRate: 8
     burstFireRate: 8
-    minAngle: 2 # Same spread values as a wielded SMG, because it's one-handed
-    maxAngle: 13
-    angleIncrease: 3 # Standard SMG increase and decay
+    minAngle: 2 # These numbers just felt right when using it, it shouldn't be perfect
+    maxAngle: 12
+    angleIncrease: 6
     angleDecay: 16
-    selectedMode: Burst
+    selectedMode: FullAuto
     availableModes:
-    - Burst
     - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/smg.ogg
+      params:
+        volume: -1
   - type: MagazineVisuals
-    steps: 2
+    steps: 37
   - type: ItemSlots
     slots:
       gun_magazine:

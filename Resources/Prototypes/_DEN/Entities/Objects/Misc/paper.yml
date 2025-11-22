@@ -226,7 +226,7 @@
     sound:
       path: /Audio/_DEN/Effects/crystalbell1.ogg
       params:
-        volume: -2
+        volume: -6
         variation: 0.05
         maxDistance: 10 # Longer range than a standard pen click to be spooky
   - type: UseDelay

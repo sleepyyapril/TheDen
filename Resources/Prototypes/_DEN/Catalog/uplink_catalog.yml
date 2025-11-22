@@ -10,12 +10,12 @@
   - UplinkPointless
 
 - type: listing
-  id: MantisFistDouble
+  id: MantisMeleeFistDouble
   name: uplink-mantis-fist-double-name
   description: uplink-mantis-fist-double-desc
-  productEntity: MantisFistDouble
+  productEntity: MantisMeleeFistDouble
   icon:
-    entity: MantisFistDouble
+    entity: MantisMeleeFistDouble
   discountCategory: usualDiscounts
   discountDownTo:
     Telecrystal: 30

@@ -74,11 +74,11 @@
     # eyes: ClothingEyesGlassesSunglasses # TheDen
     ears: ClothingHeadsetMantis # TheDen
     gloves: ClothingHandsGlovesMantisDark # TheDen
-    outerClothing: ClothingOuterCoatMantisOrnate # TheDen
+    outerClothing: ClothingOuterCoatMantisAiry # TheDen
     belt: ClothingBeltMantisDark # TheDen
     # pocket1: BookPsionicsGuidebook # TheDen - Throwing this in their locker because it sucks
-    pocket1: BaseHandheldPsionicsRegistry # TheDen
-  innerClothingSkirt: ClothingUniformJumpsuitMantisDark # TheDen - Not a jumpskirt, don't care, all options are robelike anyway
+    pocket1: HandheldPsionicsRegistry # TheDen
+  innerClothingSkirt: ClothingUniformSkirtMantisAiry # TheDen
   satchel: ClothingBackpackSatchelMantis # TheDen - Nothing to fill it with anymore
   duffelbag: ClothingBackpackDuffelMantis # TheDen - Nothing to fill it with anymore
 

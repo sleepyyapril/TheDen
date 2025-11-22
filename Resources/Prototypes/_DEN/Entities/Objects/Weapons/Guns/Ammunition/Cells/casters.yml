@@ -11,7 +11,7 @@
     layers:
     - state: base
       map: [ "enum.PowerCellVisualLayers.Base" ]
-    - state: mag-0
+    - state: o1 # Overridden by the max charge levels, noting that this layer disappears when the charge is depleted
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: Item
@@ -55,10 +55,11 @@
   components:
   - type: Sprite
     layers:
-    - state: base-core
+    - state: base
       map: [ "enum.PowerCellVisualLayers.Base" ]
-    - state: mag-0
+    - state: o2
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: shaded
   - type: BatterySelfRecharger
     autoRechargeRate: 1.2 # Takes 5 minutes to charge itself back to full (so people aren't too annoying with the capguns)
 
@@ -67,8 +68,15 @@
   id: BaseMantisCasterPistol
   abstract: true
   components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o7
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: unshaded
   - type: PowerCell
-    powerCellVisualsLevels: 7
+    levels: 7
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 30 # Can fire 12 times, takes 2.5 seconds to recharge 1 shot
@@ -83,8 +91,15 @@
   id: BaseMantisCasterRevolver
   abstract: true
   components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o6
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: unshaded
   - type: PowerCell
-    powerCellVisualsLevels: 6
+    levels: 6
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 60 # Can fire 6 times, takes 5 seconds to recharge 1 shot
@@ -101,8 +116,15 @@
   id: BaseMantisCasterShotgun
   abstract: true
   components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o5
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: unshaded
   - type: PowerCell
-    powerCellVisualsLevels: 5
+    levels: 5
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 72 # Can fire 5 times, takes 6 seconds to recharge 1 shot
@@ -119,8 +141,15 @@
   id: BaseMantisCasterSubMachineGun
   abstract: true
   components:
+  - type: Sprite
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o8
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: unshaded
   - type: PowerCell
-    powerCellVisualsLevels: 8
+    levels: 8
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 10 # Can fire 36 times, takes 8.33 seconds to recharge 1 shot
@@ -222,14 +251,20 @@
 
 # Lethal casters (traitor items)
 - type: entity
-  parent: [BaseMantisCasterNoRecharge, BaseRivalCompanyContraband]
+  parent: [BaseRivalCompanyContraband, BaseMantisCasterNoRecharge]
   id: MantisCasterPistolLethal
   name: pistol caster (piercing)
   components:
-  - type: PowerCell
-    powerCellVisualsLevels: 7
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-lethal.rsi
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o7
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: unshaded
+  - type: PowerCell
+    levels: 7
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisLethal
     fireCost: 90 # Can fire 12 times, takes 4.5 seconds in a cell recharger to recharge 1 shot
@@ -240,14 +275,20 @@
       - MantisBeltStorable
 
 - type: entity
-  parent: [BaseMantisCasterNoRecharge, BaseRivalCompanyContraband]
+  parent: [BaseRivalCompanyContraband, BaseMantisCasterNoRecharge]
   id: MantisCasterRevolverLethal
   name: revolver caster (piercing)
   components:
-  - type: PowerCell
-    powerCellVisualsLevels: 6
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-lethal.rsi
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o6
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: unshaded
+  - type: PowerCell
+    levels: 6
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisLethalRevolver
     fireCost: 180 # Can fire 6 times, takes 9 seconds in a cell recharger to recharge 1 shot
@@ -260,14 +301,20 @@
       - MantisBeltStorable
 
 - type: entity
-  parent: [BaseMantisCasterNoRecharge, BaseRivalCompanyContraband]
+  parent: [BaseRivalCompanyContraband, BaseMantisCasterNoRecharge]
   id: MantisCasterShotgunLethal
   name: shotgun caster (piercing)
   components:
-  - type: PowerCell
-    powerCellVisualsLevels: 5
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-lethal.rsi
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o5
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: unshaded
+  - type: PowerCell
+    levels: 5
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisLethalSpread
     fireCost: 216 # Can fire 5 times, takes 10.8 seconds in a cell recharger to recharge 1 shot
@@ -280,14 +327,20 @@
       - MantisBeltStorable
 
 - type: entity
-  parent: [BaseMantisCasterNoRecharge, BaseRivalCompanyContraband]
+  parent: [BaseRivalCompanyContraband, BaseMantisCasterNoRecharge]
   id: MantisCasterSubMachineGunLethal
   name: submachine gun caster (piercing)
   components:
-  - type: PowerCell
-    powerCellVisualsLevels: 8
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-lethal.rsi
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o8
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: unshaded
+  - type: PowerCell
+    levels: 8
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisLethalSubMachineGun
     fireCost: 30 # Can fire 36 times, takes 1.5 seconds in a cell recharger to recharge 1 shot
@@ -303,10 +356,16 @@
   id: MantisCasterPistolCapgun
   name: pistol caster (training)
   components:
-  - type: PowerCell
-    powerCellVisualsLevels: 7
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-capgun.rsi
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o7
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: shaded
+  - type: PowerCell
+    levels: 7
   - type: ProjectileBatteryAmmoProvider
     fireCost: 30 # Can fire 12 times
   - type: Tag
@@ -320,10 +379,16 @@
   id: MantisCasterRevolverCapgun
   name: revolver caster (training)
   components:
-  - type: PowerCell
-    powerCellVisualsLevels: 6
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-capgun.rsi
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o6
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: shaded
+  - type: PowerCell
+    levels: 6
   - type: ProjectileBatteryAmmoProvider
     fireCost: 60 # Can fire 6 times
   - type: Item
@@ -339,10 +404,16 @@
   id: MantisCasterShotgunCapgun
   name: shotgun caster (training)
   components:
-  - type: PowerCell
-    powerCellVisualsLevels: 5
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-capgun.rsi
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o5
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: shaded
+  - type: PowerCell
+    levels: 5
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgunSpread
     fireCost: 72 # Can fire 5 times
@@ -359,10 +430,16 @@
   id: MantisCasterSubMachineGunCapgun
   name: submachine gun caster (training)
   components:
-  - type: PowerCell
-    powerCellVisualsLevels: 8
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-capgun.rsi
+    layers:
+    - state: base
+      map: [ "enum.PowerCellVisualLayers.Base" ]
+    - state: o8
+      map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      shader: shaded
+  - type: PowerCell
+    levels: 8
   - type: ProjectileBatteryAmmoProvider
     fireCost: 10 # Can fire 36 times
   - type: Tag

@@ -14,7 +14,7 @@
   parent: [ClothingBeltStorageBase, BaseMantisContraband]
   id: ClothingBeltMantis
   name: classic mantis belt # TheDen
-  description: "A structured, layered sash designed to carry mantis equipment." # TheDen
+  description: "A structured, layered sash designed to carry mantis equipment. All the company would pay for prior to the mantis equipment refresh." # TheDen
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Belt/mantis_belt.rsi
@@ -34,7 +34,6 @@
         - Bottle # TheDen
         - PillCanister # TheDen
         - Pill # TheDen
-        - MantisCaster # TheDen
         - MantisBeltStorable # TheDen - Only to be used for mantis-specific items
         # - ForensicBeltEquip # TheDen - The old name of the mantis belt's whitelist tag, now made more clear
         # - Sidearm # TheDen - Only tagged mantis weapons will fit inside
@@ -42,7 +41,7 @@
         - AnomalyScanner
         - NodeScanner
         - Flash
-  - type: Appearance # TheDen - It has a sheath for MantisKnife or MantisCane (MantisFist is worn like a glove, and MantisGreatsword is intentionally excluded)
+  - type: Appearance # TheDen - It has a sheath for MantisMeleeKnife or MantisMeleeCane (MantisMeleeFist is worn like a glove, and MantisMeleeGreatsword is intentionally excluded)
   - type: ContainerContainer # TheDen - The rest of this item is our code
     containers:
       storagebase: !type:Container
@@ -60,6 +59,7 @@
         whitelist:
           tags:
           - MantisKnife
+        priority: 4
       mantiscane:
         name: clothing-belt-mantiscane
         insertVerbText: sheath-insert-verb
@@ -69,6 +69,7 @@
         whitelist:
           tags:
           - MantisCane
+        priority: 3
   - type: ItemMapper
     mapLayers:
       mantisknife:

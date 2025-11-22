@@ -1,2 +1,2 @@
-# For MantisGreatswordSheath
+# For MantisMeleeGreatswordSheath
 clothing-suitstorage-mantisgreatsword = Faust

@@ -144,6 +144,8 @@
       shader: "unshaded"
       visible: false
   - type: PointLight
+    enabled: false
+    energy: 3
     color: "#d9418d"
   - type: Pda
     id: ForensicMantisIDCard
