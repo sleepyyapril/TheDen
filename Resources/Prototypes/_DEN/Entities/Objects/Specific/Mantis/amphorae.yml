@@ -6,6 +6,7 @@
   components:
   - type: Sprite
     sprite: _DEN/Objects/Specific/Mantis/amphorae.rsi
+    state: electrumamphora
   - type: Item
     sprite: _DEN/Objects/Specific/Mantis/amphorae.rsi
   - type: Damageable

@@ -63,6 +63,8 @@
       id: LoadoutPsionicMantisEquipmentFlippoLighterMantis
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentMantisCaseCandles
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisEquipmentWheelchair
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisRestraints

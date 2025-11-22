@@ -75,21 +75,16 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  parent: RollingOfficeChairBase # The mantis version doubles as a psionic wheelchair
+  parent: VehicleWheelchair
   id: SomberChairLeatherMantis
   name: mantis chair
-  description: "A plush leather office chair with electrum accents, marked with a Greek psi on the back. It floats slightly above the ground, and can be directed with psionic influence."
+  description: "A plush leather office chair concealing mechanisms that let it compact into an electrum sphere. It hovers just above the ground and can be steered with psionic influence. Useful for mantes with mobility restrictions, or simply as versatile office furniture."
   components:
-  - type: MovementSpeedModifier
-    acceleration: 10
-    friction: 10
-    baseSprintSpeed: 3.5
-    baseWalkSpeed: 2.5
   - type: Sprite
-    sprite: _DEN/Structures/Furniture/chairs.rsi
-    state: somberleather
+    sprite: _DEN/Structures/Specific/Mantis/mantischair.rsi
+    state: vehicle
   - type: Damageable
-    damageModifierSet: Metallic
+    damageModifierSet: StrongMetallic
     damageContainer: Inorganic
   - type: Destructible
     thresholds:
@@ -116,6 +111,14 @@
             max: 3
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+
+- type: entity
+  parent: SomberChairLeatherMantis
+  id: SomberChairLeatherMantisFolded
+  suffix: Folded
+  components:
+    - type: Foldable
+      folded: true
 
 - type: entity
   parent: UnanchoredChairBase

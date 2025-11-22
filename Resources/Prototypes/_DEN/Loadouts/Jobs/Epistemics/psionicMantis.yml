@@ -199,6 +199,19 @@
   items:
     - FlippoLighterMantis
 
+- type: loadout
+  id: LoadoutPsionicMantisEquipmentWheelchair
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - SomberChairLeatherMantisFolded
+
 # Restraints - So they can't get duplicates
 
 - type: loadout

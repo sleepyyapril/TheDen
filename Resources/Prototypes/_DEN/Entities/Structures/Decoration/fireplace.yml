@@ -80,7 +80,7 @@
   parent: BaseSignDirectional # So it's technically wall decor, but whatever
   id: SomberHangingBrazier
   name: somber hanging brazier
-  description: "An electrum hanging brazier, its smokeless psionic flame rippling like liquid."
+  description: "An electrum brazier, its smokeless psionic flame rippling like liquid."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Decoration/somberhangingbrazier.rsi

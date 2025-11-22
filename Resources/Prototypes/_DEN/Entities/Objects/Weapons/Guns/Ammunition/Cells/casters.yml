@@ -49,17 +49,14 @@
 
 - type: entity
   parent: BaseMantisCaster
-  id: BaseMantisCasterCapgun # Variant base without glowing bullets (though the core still glows) and a 5x longer recharge rate
+  id: BaseMantisCasterCapgun # Variant base without glowing bullets and a 5x longer recharge rate
   description: "An exotic anomaly core harnessed as a self-replenishing ammo source. It generates harmless percussion caps suitable for drills and training. Despite the playful construction, the device still radiates the faint, uncanny energy of all anomaly tech."
   abstract: true
   components:
   - type: Sprite
     layers:
-    - state: base
-      map: [ "enum.PowerCellVisualLayers.Base" ]
     - state: base-core
       map: [ "enum.PowerCellVisualLayers.Base" ]
-      shader: unshaded
     - state: mag-0
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
   - type: BatterySelfRecharger
@@ -70,6 +67,8 @@
   id: BaseMantisCasterPistol
   abstract: true
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 7
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 30 # Can fire 12 times, takes 2.5 seconds to recharge 1 shot
@@ -84,6 +83,8 @@
   id: BaseMantisCasterRevolver
   abstract: true
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 6
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 60 # Can fire 6 times, takes 5 seconds to recharge 1 shot
@@ -100,6 +101,8 @@
   id: BaseMantisCasterShotgun
   abstract: true
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 5
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 72 # Can fire 5 times, takes 6 seconds to recharge 1 shot
@@ -116,6 +119,8 @@
   id: BaseMantisCasterSubMachineGun
   abstract: true
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 8
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 10 # Can fire 36 times, takes 8.33 seconds to recharge 1 shot
@@ -221,6 +226,8 @@
   id: MantisCasterPistolLethal
   name: pistol caster (piercing)
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 7
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-lethal.rsi
   - type: ProjectileBatteryAmmoProvider
@@ -237,6 +244,8 @@
   id: MantisCasterRevolverLethal
   name: revolver caster (piercing)
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 6
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-lethal.rsi
   - type: ProjectileBatteryAmmoProvider
@@ -255,6 +264,8 @@
   id: MantisCasterShotgunLethal
   name: shotgun caster (piercing)
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 5
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-lethal.rsi
   - type: ProjectileBatteryAmmoProvider
@@ -273,6 +284,8 @@
   id: MantisCasterSubMachineGunLethal
   name: submachine gun caster (piercing)
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 8
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-lethal.rsi
   - type: ProjectileBatteryAmmoProvider
@@ -290,6 +303,8 @@
   id: MantisCasterPistolCapgun
   name: pistol caster (training)
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 7
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-capgun.rsi
   - type: ProjectileBatteryAmmoProvider
@@ -305,6 +320,8 @@
   id: MantisCasterRevolverCapgun
   name: revolver caster (training)
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 6
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-capgun.rsi
   - type: ProjectileBatteryAmmoProvider
@@ -322,6 +339,8 @@
   id: MantisCasterShotgunCapgun
   name: shotgun caster (training)
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 5
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-capgun.rsi
   - type: ProjectileBatteryAmmoProvider
@@ -340,6 +359,8 @@
   id: MantisCasterSubMachineGunCapgun
   name: submachine gun caster (training)
   components:
+  - type: PowerCell
+    powerCellVisualsLevels: 8
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-capgun.rsi
   - type: ProjectileBatteryAmmoProvider
