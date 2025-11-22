@@ -1,7 +1,7 @@
 # I'm sick of adding this component to every mantis weapon so I'm making a base item for it
 # I've included notes on anti-psionic weapon design here if you want to make something with it
 - type: entity
-  parent: BaseItem
+  parent: [BaseItem, BaseObjectVerbsCuteness]
   # Parented to BaseItem so its child items will ONLY inherit what you see here
   # This also means that mnemolith floor tiles and papers made with mnemolith dust are extremely weak melee weapons, which I find funny and good
   # See MantisKnife if you need an implementation example, that's the flagship anti-psionic weapon
@@ -49,12 +49,6 @@
     # angle: 0
     angularVelocity: true
   - type: LandAtCursor
-  # Who doesn't want to kiss a piece of paper, lick their knife, or hug a lantern?
-  - type: InteractionVerbs
-    allowedVerbs:
-    - KissObject
-    - LickObject
-    - HugObject
   # Probably a good idea to have this here too
   - type: GuideHelp
     guides: [ MantisGuide ]

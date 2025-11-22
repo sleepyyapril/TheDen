@@ -31,7 +31,7 @@
     sprite: _DEN/Clothing/Back/Backpacks/para-backpack.rsi
 
 - type: entity
-  parent: ClothingBackpack
+  parent: [ClothingBackpack, BaseObjectVerbsCuteness]
   id: ClothingBackpackNapsack
   name: napsack
   description: A large, padded sack with breathable mesh sides. Sold as a sleeping bag for felinids, so why does it have a carrying handle?
@@ -51,11 +51,6 @@
     whitelist:
       tags:
         - CanPilot # ONLY carries player characters, nothing else!
-  - type: InteractionVerbs
-    allowedVerbs:
-    - HugObject
-    - KissObject
-    - LickObject
 
 - type: entity # The mantis backpacks are a bit smaller visually to show off their clothes
   parent: [ClothingBackpack, BaseFoldable]
@@ -121,7 +116,7 @@
     foldedEquippedPrefix: flipped
 
 - type: entity
-  parent: [ClothingBackpackNapsack, BaseFoldable, BaseMantisContraband] # A roleplay toy that can carry people
+  parent: [ClothingBackpackNapsack, BaseFoldable, BaseObjectVerbsCutenessWall, BaseMantisContraband] # A roleplay toy that can carry people
   id: ClothingBackpackCoffinMantis
   suffix: DO NOT MAP # Use the Basic version instead
   name: sarcophagus

@@ -112,11 +112,6 @@
   - type: ThrowingAngle
     angle: -90
     angularVelocity: true
-  - type: InteractionVerbs
-    allowedVerbs:
-    - KissObject
-    - LickObject
-    - HugObject
   - type: Tag
     tags:
     - MantisBeltStorable
