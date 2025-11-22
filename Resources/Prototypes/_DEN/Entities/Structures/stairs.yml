@@ -1,27 +1,8 @@
 - type: entity
   parent: Stairs
-  id: StairSomberAmaranth
-  name: somber amaranth stairs
-  components:
-  - type: Sprite
-    sprite: _DEN/Structures/stairs.rsi
-    state: stairs_somber_amaranth
-    drawdepth: FloorTiles
-
-- type: entity
-  parent: Stairs
-  id: StairSomberMnemolith
-  name: somber mnemolith stairs
-  components:
-  - type: Sprite
-    sprite: _DEN/Structures/stairs.rsi
-    state: stairs_somber_mnemolith
-    drawdepth: FloorTiles
-
-- type: entity
-  parent: Stairs
   id: StairSomberSteel
-  name: somber steel stairs
+  name: steel stairs
+  suffix: Somber
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
@@ -29,9 +10,9 @@
     drawdepth: FloorTiles
 
 - type: entity
-  parent: Stairs
+  parent: StairSomberSteel
   id: StairSomberWood
-  name: somber wood stairs
+  name: wood stairs
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
@@ -39,29 +20,30 @@
     drawdepth: FloorTiles
 
 - type: entity
-  parent: Stairs
-  id: StairStageSomberAmaranth
-  name: somber amaranth stage stairs
+  parent: StairSomberSteel
+  id: StairSomberAmaranth
+  name: amaranth stairs
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
-    state: stairs_stage_somber_amaranth
+    state: stairs_somber_amaranth
     drawdepth: FloorTiles
 
 - type: entity
-  parent: Stairs
-  id: StairStageSomberMnemolith
-  name: somber mnemolith stage stairs
+  parent: StairSomberSteel
+  id: StairSomberMnemolith
+  name: mnemolith stairs
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
-    state: stairs_stage_somber_mnemolith
+    state: stairs_somber_mnemolith
     drawdepth: FloorTiles
 
 - type: entity
-  parent: Stairs
+  parent: StairSomberSteel
   id: StairStageSomberSteel
-  name: somber steel stage stairs
+  name: steel stairs
+  suffix: Somber, Stage
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
@@ -69,11 +51,32 @@
     drawdepth: FloorTiles
 
 - type: entity
-  parent: Stairs
+  parent: StairStageSomberSteel
   id: StairStageSomberWood
-  name: somber wood stage stairs
+  name: wood stairs
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
     state: stairs_stage_somber_wood
+    drawdepth: FloorTiles
+
+
+- type: entity
+  parent: StairStageSomberSteel
+  id: StairStageSomberAmaranth
+  name: amaranth stairs
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/stairs.rsi
+    state: stairs_stage_somber_amaranth
+    drawdepth: FloorTiles
+
+- type: entity
+  parent: StairStageSomberSteel
+  id: StairStageSomberMnemolith
+  name: mnemolith stairs
+  components:
+  - type: Sprite
+    sprite: _DEN/Structures/stairs.rsi
+    state: stairs_stage_somber_mnemolith
     drawdepth: FloorTiles

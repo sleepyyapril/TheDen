@@ -101,12 +101,14 @@
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
-        ents: [ ]
-      pen_slot: !type:ContainerSlot { }
+        ents: []
+      pen_slot: !type:ContainerSlot {}
   - type: ItemSlots
     slots:
       pen_slot:
-        name: folder-slot-component-slot-name-pen
+        name: clipboard-slot-component-slot-name-pen
+        insertVerbText: pen-insert-verb
+        ejectVerbText: pen-eject-verb
         whitelist:
           tags:
           - Write
@@ -138,12 +140,14 @@
   - type: ContainerContainer
     containers:
       storagebase: !type:Container
-        ents: [ ]
-      pen_slot: !type:ContainerSlot { PenMantis }
+        ents: []
+      pen_slot: !type:ContainerSlot {}
   - type: ItemSlots
     slots:
       pen_slot:
-        name: folder-slot-component-slot-name-pen
+        name: clipboard-slot-component-slot-name-pen
+        insertVerbText: pen-insert-verb
+        ejectVerbText: pen-eject-verb
         whitelist:
           tags:
           - Write
@@ -180,6 +184,10 @@
       - id: RubberStampMantis
       - id: PaperMantis
         amount: 10
+  - type: ContainerFill
+    containers:
+      pen_slot:
+      - PenMantis
   - type: Tag
     tags:
     - Folder

@@ -149,7 +149,7 @@
     sprite: _DEN/Objects/Weapons/Melee/mantisgreatsword.rsi
     state: icon
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantisgreatsword-inhands-64x.rsi #TODO: FREEMODEL PLEASE GOD HELP ME - FOR SOME GOD DAMN REASON IT JUST DISAPPEARS WHEN WIELDED
+    sprite: _DEN/Objects/Weapons/Melee/mantisgreatsword-inhands-64x.rsi
     size: Ginormous # This doesn't go inside anything except its sheath
     storedSprite:
       state: icon
@@ -168,7 +168,7 @@
   id: MantisMeleeGreatswordSheath # A suitstorage sheath for Faust, in this file because it's basically part of the sword
   name: foreboding scabbard
   suffix: Faust, Empty
-  description: "A heavy scabbard reinforced with mu-metal bands that cross over its ornamental eyes, likely as a warning. This psionically insulating metal is only used to contain weapons that would otherwise recoil violently against their housing when drawn. Its stillness feels wrong, as if the scabbard itself is holding its breath. "
+  description: "A heavy scabbard reinforced with mu-metal bands that cross over its ornamental eyes, likely as a warning. This psionically insulating metal is only used to contain weapons that would otherwise recoil violently against their housing when drawn. Its stillness feels wrong, as if the scabbard itself is holding its breath. So heavy you can only wear it over outerwear."
   components:
   - type: Foldable
     canFoldInsideContainer: true
@@ -183,6 +183,7 @@
     sprite: _DEN/Objects/Weapons/Melee/mantisgreatswordsheath.rsi
     size: Ginormous
   - type: Clothing
+    quickEquip: true
     equipDelay: 0.5
     unequipDelay: 0.5
     slots:
