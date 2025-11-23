@@ -14603,3 +14603,10 @@ Entries:
   id: 1428
   time: '2025-11-23T15:50:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2043
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added shorts for the black turtleneck
+  id: 1429
+  time: '2025-11-23T17:00:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2066
