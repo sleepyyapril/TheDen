@@ -23,13 +23,13 @@
     - state: 2-closed # The 2-wide version
     - state: 2-open
       map: ["openLayer"]
-  - type: Appearance
   - type: Item
     sprite: _DEN/Objects/Storage/boxmantis.rsi
     size: Normal
     shape: # All mantis cases are 2-tall so the mantis-specific ones will physically fit in their belt
     - 0,0,1,1 # 2x2
   - type: Storage
+    maxItemSize: Normal
     grid:
     - 0,0,1,1 # 2x2
 
@@ -49,6 +49,7 @@
     shape:
     - 0,0,0,1 # 1x2
   - type: Storage
+    maxItemSize: Small
     grid:
     - 0,0,0,1 # 1x2
 
@@ -65,10 +66,11 @@
       map: ["openLayer"]
   - type: Item
     sprite: _DEN/Objects/Storage/boxmantis.rsi
-    size: Normal
+    size: Large
     shape:
     - 0,0,2,1 # 3x2
   - type: Storage
+    maxItemSize: Large
     grid:
     - 0,0,2,1 # 3x2
 
@@ -89,6 +91,7 @@
     shape:
     - 0,0,3,1 # 4x2
   - type: Storage
+    maxItemSize: Large
     grid:
     - 0,0,3,1 # 4x2
 
@@ -104,7 +107,7 @@
     - state: label-psi
     - state: 3-open
       map: ["openLayer"]
-  - type: Item
+  - type: Storage
     whitelist: # Exactly the same whitelist as the belt, so you can't cheat and store non-whitelisted things in it on the belt
       tags:
         - Folder
@@ -142,20 +145,16 @@
     - state: label-eye
     - state: 1-open
       map: ["openLayer"]
-  - type: Item
-    size: Tiny # Like CigPackBase, so it can only store tiny items
-    shape:
-    - 0,0,0,1 # 1x2
+  - type: Storage
+    grid:
+    - 0,0,1,2 # 2x3, bigger on the inside. The idea is to replicate a cigarette pack's function, but with less storage space and more restrictive
     whitelist: # Only the tiny chemistry items from the belt's whitelist
       tags:
         - Syringe
         - Bottle
         - PillCanister
         - Pill
-        - MantisBoxChemicalsStorable # Somewhat redundant, but it has its own tag just in case
-  - type: Storage
-    grid:
-    - 0,0,1,2 # 2x3, bigger on the inside. The idea is to replicate a cigarette pack's function, but smaller and more restrictive
+        - MantisBoxChemicalsStorable # Possibly redundant, but it has its own tag just in case
   - type: StorageFill
     contents:
     - id: SyringeMantis
@@ -202,7 +201,7 @@
     - MantisBeltStorable
 
 - type: entity
-  parent: [MantisCase, BaseMantisContraband] # Contraband since its contents are
+  parent: [MantisCaseLarge, BaseMantisContraband] # Contraband since its contents are
   id: MantisCaseRestraints
   suffix: DO NOT MAP # Mantes need to get this from loadout - see tags below
   name: mantis restraints case # Loadout option
@@ -216,7 +215,7 @@
       map: ["openLayer"]
   - type: Storage
     grid: # The box itself is 3x2, because only three of these items have real mechanics (the rest are just roleplay toys)
-    - 0,0,5,1 # 6x2, bigger on the inside, but it can only store what already comes inside it (extra space left for the future anchorable chain leashes)
+    - 0,0,5,1 # 6x2, bigger on the inside, but it can only store what already comes inside it
     whitelist:
       tags:
         - MantisBoxRestraintsStorable # Only the items below should have this

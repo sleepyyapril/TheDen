@@ -146,7 +146,7 @@
   - type: MeleeWeapon # You can smash people with it, but it's not a good weapon, more just dramatic
     wideAnimationRotation: 180
     attackRate: 1.5 # Like a greatsword without the damage
-    range: 1.85
+    range: 1.6
     angle: 120
     maxTargets: 5
     disableClick: true # You can't just smash someone with it directly, it's so big you have to swing the whole thing clumsily
@@ -186,8 +186,8 @@
     - suitStorage # Not really a backpack
   - type: Storage
     grid:
-    - 9,0,9,1 # A small storage space for its StorageFill contents below
-    - 10,0,11,1
+    - 0,0,0,1 # A small storage space for its StorageFill contents below
+    - 1,0,2,1
     - 0,2,20,7 # 1 wider than ClothingBackpackDuffelHolding, capable of fitting the StorableSpecies pseudoitem
     whitelist:
       tags:
@@ -210,7 +210,7 @@
 - type: entity
   parent: ClothingBackpackCoffinMantis
   id: ClothingBackpackCoffinMantisBasic # A version of the sarcophagus without the space for the extra items, if you want to map it
-  suffix: null
+  suffix: Mappable
   name: sarcophagus
   description: "An ornate coffin, heavy and gilded, its surface adorned with staring eyes and draped cloths. Used to haul psions away for study, therapy, or questioning."
   components:

@@ -112,7 +112,7 @@ namespace Content.Shared.Localizations
             // TheDen - The plural of mantis is mantes
             if (string.Equals(firstWord, "mantis", StringComparison.OrdinalIgnoreCase))
             {
-                var plural = "mantes";
+                var plural = "Mantes";
                 if (split.Length == 1)
                     return new LocValueString(plural);
                 else

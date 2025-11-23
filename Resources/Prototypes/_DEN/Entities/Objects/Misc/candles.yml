@@ -2,6 +2,7 @@
   parent: Candle
   id: CandleMantis
   name: mnemolith candle
+  suffix: Somber, Magic
   description: "A candle made with mnemolith powder. It doesn't want to go out."
   components:
     - type: Sprite

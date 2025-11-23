@@ -186,8 +186,9 @@
         reagents:
         - ReagentId: Cryptobiolin
           Quantity: 5
-  - type: SolutionTransfer
-    maxTransferAmount: 5 # 5u of crypto disables psionics for 1m40s, and a full magazine of any mantis gun will disable psionics for 20m
+  - type: SolutionInjectOnProjectileHit
+    solution: ammo
+    transferAmount: 5 # 5u of crypto disables psionics for 1m40s, and a full magazine of any mantis gun will disable psionics for 20m
 
 - type: entity
   parent: BaseBullet
@@ -257,8 +258,9 @@
         reagents:
         - ReagentId: Cryptobiolin
           Quantity: 10
-  - type: SolutionTransfer
-    maxTransferAmount: 10 # 10u of crypto disables psionics for 3m20s, and a full magazine of any mantis gun will disable psionics for 20m
+  - type: SolutionInjectOnProjectileHit
+    solution: ammo
+    transferAmount: 10 # 10u of crypto disables psionics for 3m20s, and a full magazine of any mantis gun will disable psionics for 20m
 
 - type: entity
   parent: BulletMantisHoly
@@ -292,8 +294,9 @@
         reagents:
         - ReagentId: Cryptobiolin
           Quantity: 2
-  - type: SolutionTransfer
-    maxTransferAmount: 2 # 2u of crypto disables psionics for 40s, and a full magazine of any mantis gun will disable psionics for 20m
+  - type: SolutionInjectOnProjectileHit
+    solution: ammo
+    transferAmount: 2 # 2u of crypto disables psionics for 40s, and a full magazine of any mantis gun will disable psionics for 20m
 
 - type: entity
   parent: BulletMantisCryptoShotgun
@@ -357,8 +360,9 @@
         reagents:
         - ReagentId: Cryptobiolin
           Quantity: 1.666
-  - type: SolutionTransfer
-    maxTransferAmount: 1.666 # 1.666u of crypto disables psionics for 33.3s, and a full magazine of any mantis gun will disable psionics for 20m
+  - type: SolutionInjectOnProjectileHit
+    solution: ammo
+    transferAmount: 1.666 # 1.666u of crypto disables psionics for 33.3s, and a full magazine of any mantis gun will disable psionics for 20m
 
 - type: entity
   parent: BulletMantisHoly

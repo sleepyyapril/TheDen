@@ -7,14 +7,15 @@
   description: "An unusual wrench made of electrum and amaranth, given to mantes to anchor the graven chains of unruly psionic subjects."
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Tools/wrenchmantis.rsi
+    sprite: _DEN/Objects/Specific/Mantis/wrenchmantis.rsi
     state: icon
   - type: Item
-    sprite: _DEN/Objects/Tools/wrenchmantis.rsi
+    sprite: _DEN/Objects/Specific/Mantis/wrenchmantis.rsi
     storedSprite:
-      sprite: _DEN/Objects/Tools/wrenchmantis.rsi
+      sprite: _DEN/Objects/Specific/Mantis/wrenchmantis.rsi
       state: icon
     storedRotation: 45
+    storedOffset: 0,9
   - type: PhysicalComposition
     materialComposition:
       ScrapElectrum: 1

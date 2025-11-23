@@ -1,34 +1,27 @@
 - type: entity
-  parent: [BaseChemistryEmptyBottle, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
+  parent: BaseChemistryEmptyBottle
   id: ChemistryEmptyBottleMantis
   name: electrum bottle
   description: "An eidolite bottle in a durable electrum shell. Useful for your rituals."
   components:
-  - type: Tag
-    tags:
-    - Bottle
-    - MantisBeltStorable
-    - MantisBoxChemicalsStorable
   - type: Sprite
-    sprite: _DEN/Objects/Specific/Chemistry/bottle.rsi
+    sprite: _DEN/Objects/Specific/Mantis/bottlemantis.rsi
     layers:
-      - state: mantis-bottle
-      - state: mantis-bottle-1
+      - state: bottle
+      - state: bottle-1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
+  - type: Item
+    sprite: _DEN/Objects/Specific/Mantis/bottlemantis.rsi
+    state: bottle
   - type: SolutionContainerVisuals
     maxFillLevels: 6
-    fillBaseName: mantis-bottle-
-  - type: Item
-    size: Tiny
-    sprite: _DEN/Objects/Specific/Chemistry/bottle.rsi
-    heldPrefix: mantis
+    fillBaseName: bottle-
   - type: DamageOnLand
     damage:
       types:
         Blunt: 0 # Metal shell
   - type: DamageOnHighSpeedImpact
-    minimumSpeed: 2
     damage:
       types:
         Blunt: 0 # Metal shell
@@ -66,3 +59,8 @@
     materialComposition:
       MaterialEidolite1: 1
       ScrapElectrum: 1
+  - type: Tag
+    tags:
+    - Bottle
+    - MantisBeltStorable
+    - MantisBoxChemicalsStorable

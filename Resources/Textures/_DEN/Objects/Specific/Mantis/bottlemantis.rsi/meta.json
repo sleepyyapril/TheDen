@@ -8,33 +8,33 @@
   },
   "states": [
     {
-      "name": "mantis-bottle"
+      "name": "bottle"
     },
     {
-      "name": "mantis-inhand-left",
+      "name": "inhand-left",
       "directions": 4
     },
     {
-      "name": "mantis-inhand-right",
+      "name": "inhand-right",
       "directions": 4
     },
     {
-      "name": "mantis-bottle-1"
+      "name": "bottle-1"
     },
     {
-      "name": "mantis-bottle-2"
+      "name": "bottle-2"
     },
     {
-      "name": "mantis-bottle-3"
+      "name": "bottle-3"
     },
     {
-      "name": "mantis-bottle-4"
+      "name": "bottle-4"
     },
     {
-      "name": "mantis-bottle-5"
+      "name": "bottle-5"
     },
     {
-      "name": "mantis-bottle-6"
+      "name": "bottle-6"
     }
   ]
 }

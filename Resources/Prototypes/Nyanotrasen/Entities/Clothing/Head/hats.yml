@@ -114,7 +114,7 @@
   components:
   - type: Item # TheDen
     sprite: Nyanotrasen/Clothing/Head/Hats/cage.rsi
-    storedRotation: -90
+    storedRotation: 0
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/cage.rsi
   - type: Clothing
@@ -136,8 +136,6 @@
     # - ForensicBeltEquip # TheDen
     - MantisBeltStorable # TheDen - New tag for clarity
     - MantisBoxRestraintsStorable
-  - type: LeashAnchor # TheDen - It just makes sense
-    offset: 0, 0.22
   - type: GuideHelp
     guides: [ PsionicInsulation ]
 

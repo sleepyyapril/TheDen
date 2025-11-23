@@ -5,7 +5,7 @@
   description: "A glossy lighter sculpted from chips of mnemolith, housing an eidolite pyramid that draws energy from the noosphere. The flame gutters strangely, as if aware of what it burns."
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Tools/lightermantis.rsi
+    sprite: _DEN/Objects/Specific/Mantis/lightermantis.rsi
     layers:
     - state: mantis_icon_base
       map: ["base"]
@@ -32,7 +32,7 @@
         volume: -6
         variation: 0.05
   - type: Item
-    sprite: _DEN/Objects/Tools/lightermantis.rsi
+    sprite: _DEN/Objects/Specific/Mantis/lightermantis.rsi
     heldPrefix: mantis
   - type: Welder
     fuelConsumption: 0 # Powered by the noosphere

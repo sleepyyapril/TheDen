@@ -59,12 +59,12 @@
     soundActivate:
       path: /Audio/Effects/toss.ogg
       params:
-        volume: -5
+        volume: -4
         variation: 0.05
     soundDeactivate:
       path: /Audio/Effects/weak_hit2.ogg
       params:
-        volume: -5
+        volume: -4
         variation: 0.05
   - type: UseDelay
     delay: 1
@@ -81,38 +81,23 @@
     sound: /Audio/Weapons/star_hit.ogg
     removalTime: 2
   - type: EmbedPassiveDamage
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+    storedSprite:
+      sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+      state: icon
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
-    state: icon
-  - type: Item
-    storedRotation: 45
-    storedSprite:
-      state: icon
-      sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi # Same sprite, just rotated, because it looks wrong otherwise
-    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+  - type: Appearance #TODO: APRIL HELP IT DOESN'T HIDE THE BASE SPRITE AND SPIN
+  - type: ToggleableVisuals
+    spriteLayer: null
     inhandVisuals:
       left:
-      - state: inhand-left
-        map: [ "nospin" ]
       - state: spinning-inhand-left
-        map: [ "spin" ]
-        visible: false
+        map: ["left-spinning"]
       right:
-      - state: inhand-right
-        map: [ "nospin" ]
       - state: spinning-inhand-right
-        map: [ "spin" ]
-        visible: false
-  - type: Appearance
-  - type: GenericVisualizer #TODO: FREEMODEL PLEASE GOD HELP ME - KNIFE DOESN'T SPIN WHEN YOU PRESS Z AND I WAS THROWING SHIT AT THE WALL HERE
-    visuals:
-      enum.ToggleableVisuals.Enabled:
-        on:
-          True: { visible: true }
-          False: { visible: false }
-        base:
-          True: { visible: false }
-          False: { visible: true }
+        map: ["right-spinning"]
   - type: ThrowingAngle
     angle: -135
   - type: DisarmMalus

@@ -11,7 +11,7 @@
   suffix: mindbreaker toxin 20u
   parent: Pill
   id: PillMindbreakerToxin
-  description: "Permanently removes psionics when ingested. Not to be taken lightly." # TheDen
+  description: "Not to be taken lightly." # TheDen
   components:
   - type: Label # TheDen
     currentLabel: mindbreaker toxin 20u
@@ -38,7 +38,7 @@
   suffix: cryptobiolin 15u # TheDen
   parent: Pill
   id: PillCryptobiolin
-  description: "A drug which causes mild confusion, but renders you psionically insulated. Each pill lasts about five minutes." # TheDen
+  description: "A temporary anti-psionic." # TheDen
   components:
   - type: Label # TheDen
     currentLabel: cryptobiolin 15u # TheDen

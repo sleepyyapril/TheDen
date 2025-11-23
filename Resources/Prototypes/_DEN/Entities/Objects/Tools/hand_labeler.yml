@@ -5,12 +5,14 @@
   description: "An ancient and mystical hand labeler wrought from slabs of mnemolith, used by turning the wheels and giving something a good smack. You wouldn't be caught dead with that blue plastic monstrosity."
   components:
     - type: Sprite
-      sprite: _DEN/Objects/Tools/handlabelermantis.rsi
+      sprite: _DEN/Objects/Specific/Mantis/handlabelermantis.rsi
     - type: Item
-      sprite: _DEN/Objects/Tools/handlabelermantis.rsi
+      sprite: _DEN/Objects/Specific/Mantis/handlabelermantis.rsi
+      storedSprite:
+      storedRotation: 90
     - type: MeleeWeapon # You can swing it like a weapon
       attackRate: 0.6666
-      wideAnimationRotation: -90
+      wideAnimationRotation: 90
       soundHit:
         path: /Audio/Weapons/block_metal1.ogg
       damage:

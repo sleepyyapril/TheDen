@@ -226,7 +226,7 @@
   - type: Vehicle
     requiredHands: 0
     engineRunning: true
-    renderOver: South, SouthEast, SouthWest
+    renderOver: North, NorthEast, NorthWest # TheDen - These were backwards and I'm surprised nobody noticed
   - type: MovementSpeedModifier
     acceleration: 10
     friction: 10

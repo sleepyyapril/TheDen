@@ -4,6 +4,11 @@
   name: gnomon
   description: "An amaranth cane crowned with an eidolite crystal. If flipped in the hand, the needle-sharp mnemolith tip serves as a thrusting weapon. A refined accessory, practical for mantes with limited mobility. Deadly when wielded against psionic and otherworldly threats."
   components:
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
+    size: Normal
+    shape:
+    - 0,0,1,1 # To override the default cane size
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
     layers:
@@ -12,27 +17,16 @@
     - state: icon-raised
       map: ["icon-raised"]
       visible: false
-  - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
-    size: Normal
-    shape:
-    - 0,0,1,1 # To override the default cane size
-  - type: Appearance
-  - type: ToggleableVisuals #TODO: FREEMODEL PLEASE GOD HELP ME - CANE FLIPS BUT OVERLAPS ITS OLD SPRITE
+  - type: Appearance #TODO: APRIL HELP IT DOESN'T HIDE THE BASE SPRITE AND RAISE
+  - type: ToggleableVisuals
     spriteLayer: icon-raised
     inhandVisuals:
       left:
-      - state: inhand-left
-        map: [ "left" ]
-        visible: false
       - state: raised-inhand-left
-        map: [ "left-raised" ]
+        map: ["left-raised"]
       right:
-      - state: inhand-right
-        map: [ "right" ]
-        visible: false
       - state: raised-inhand-right
-        map: [ "raised-right" ]
+        map: ["right-raised"]
   - type: GenericVisualizer
     visuals:
       enum.ToggleableVisuals.Enabled:
@@ -40,18 +34,6 @@
           True: { visible: false }
           False: { visible: true }
         icon-raised:
-          True: { visible: true }
-          False: { visible: false }
-        left:
-          True: { visible: false }
-          False: { visible: true }
-        left-raised:
-          True: { visible: true }
-          False: { visible: false }
-        right:
-          True: { visible: false }
-          False: { visible: true }
-        right-raised:
           True: { visible: true }
           False: { visible: false }
   - type: ItemToggle
@@ -77,18 +59,22 @@
       path: /Audio/_DEN/Weapons/Melee/rapiermiss.ogg
       params:
         variation: 0.05
+    activatedSoundOnSwing:
+      path: /Audio/_DEN/Weapons/Melee/rapiermiss.ogg
+      params:
+        variation: 0.05
     deactivatedSoundOnHit:
       collection: WeakHit
       params:
         variation: 0.05
     deactivatedSoundOnHitNoDamage:
-      path: /Audio/Weapons/punchmiss.ogg
+      collection: WeakHit
       params:
         variation: 0.05
-    activatedDamage:
-        types: # If you flip it, you stab them with the point
-          Pierce: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
-          Holy: 5 # 28.13 total DPS against psionic supernaturals
+    activatedDamage: #TODO: WHY DOESN'T THIS WORK? IT'S JUST COPYING LIGHTER CODE. IT SHOULD HURT BAD AND ALSO EMBED. THE SOUNDS WORK...
+      types: # If you flip it, you stab them with the point
+        Pierce: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
+        Holy: 5 # 28.13 total DPS against psionic supernaturals
   - type: MeleeWeapon
     attackRate: .6666
     wideAnimationRotation: -135
@@ -101,10 +87,11 @@
         Pierce: 1.25
         Holy: 1.25
   - type: ItemToggleDamageOtherOnHit
-  - type: EmbeddableProjectile
-    sound: /Audio/Weapons/star_hit.ogg
-    removalTime: 2
-  - type: EmbedPassiveDamage
+  - type: ItemToggleEmbeddableProjectile
+    activatedEmbedOnThrow: true
+    activatedSound: /Audio/Weapons/star_hit.ogg
+    activatedRemovalTime: 2
+  - type: ItemToggleEmbedPassiveDamage
   - type: ThrowingAngle
     angle: -135
   - type: StaminaDamageOnHit
