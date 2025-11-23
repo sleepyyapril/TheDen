@@ -14596,3 +14596,10 @@ Entries:
   id: 1427
   time: '2025-11-22T19:43:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2065
+- author: Aikakakah
+  changes:
+    - type: Fix
+      message: Fixed sock marking layering
+  id: 1428
+  time: '2025-11-23T15:50:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2043
