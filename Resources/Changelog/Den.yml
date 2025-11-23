@@ -14610,3 +14610,10 @@ Entries:
   id: 1429
   time: '2025-11-23T17:00:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2066
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: More markings for Oni!
+  id: 1430
+  time: '2025-11-23T23:21:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2069
