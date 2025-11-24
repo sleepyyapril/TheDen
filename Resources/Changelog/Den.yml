@@ -14617,3 +14617,10 @@ Entries:
   id: 1430
   time: '2025-11-23T23:21:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2069
+- author: portfiend
+  changes:
+    - type: Add
+      message: added the lube bottle from the VASH sex box to loadouts DO NOT MISUSE
+  id: 1431
+  time: '2025-11-24T10:49:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2068
