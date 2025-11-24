@@ -14624,3 +14624,12 @@ Entries:
   id: 1431
   time: '2025-11-24T10:49:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2068
+- author: GreggTheFather
+  changes:
+    - type: Add
+      message: Added Perpetuity to the Map Pool
+    - type: Tweak
+      message: Tweaked Eternity Map after feedback
+  id: 1432
+  time: '2025-11-24T22:36:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2070
