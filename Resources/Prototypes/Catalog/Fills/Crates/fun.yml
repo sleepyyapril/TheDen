@@ -108,8 +108,6 @@
       - !type:EntSelector
         id: PlushiePenguin
       - !type:EntSelector
-        id: PlushieGrim
-      - !type:EntSelector
         id: PlushieVega
       - !type:EntSelector
         id: PlushieAlice
