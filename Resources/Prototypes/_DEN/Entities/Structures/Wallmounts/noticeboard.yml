@@ -6,6 +6,12 @@
   components:
   - type: Sprite
     sprite: _DEN/Structures/Specific/Mantis/mantisnoticeboard.rsi
+  - type: StorageFillVisualizer
+    maxFillLevels: 5
+    fillBaseName: notice
+  - type: Storage
+    grid:
+    - 0,0,1,1
   - type: Damageable
     damageModifierSet: Wood
     damageContainer: Inorganic

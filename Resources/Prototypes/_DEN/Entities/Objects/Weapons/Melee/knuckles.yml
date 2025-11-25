@@ -39,7 +39,7 @@
   - type: StaminaDamageOnHit
     damage: 5
   - type: MeleeThrowOnHit
-    speed: 5
+    speed: 10
     lifetime: 0.05
   - type: Reflect
     reflectProb: .2
