@@ -14633,3 +14633,10 @@ Entries:
   id: 1432
   time: '2025-11-24T22:36:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2070
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Grimble plushie is kill
+  id: 1433
+  time: '2025-11-25T01:45:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2073
