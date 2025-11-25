@@ -39,14 +39,6 @@
     - SkimmerDiscus
 
 - type: loadout
-  id: LoadoutPlushieGrim
-  category: GeneralToys
-  cost: 0
-  canBeHeirloom: true
-  items:
-    - PlushieGrim
-
-- type: loadout
   id: LoadoutPlushieVega
   category: GeneralToys
   cost: 0

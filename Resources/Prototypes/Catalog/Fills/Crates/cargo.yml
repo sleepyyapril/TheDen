@@ -346,9 +346,6 @@
     - id: PlushieArachind
       prob: 0.01
       orGroup: Plushies
-    - id: PlushieGrim # TheDen
-      prob: 0.01
-      orGroup: Plushies
     - id: PlushieVega # TheDen
       prob: 0.01
       orGroup: Plushies
