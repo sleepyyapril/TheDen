@@ -14666,3 +14666,16 @@ Entries:
   id: 1435
   time: '2025-11-25T21:46:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2076
+- author: RosySaturniidae
+  changes:
+    - type: Tweak
+      message: paramedic attire and equipment is now colored consistently.
+    - type: Add
+      message: 2 new hats for paramedic. one's a bit louder than the other.
+    - type: Fix
+      message: >-
+        did you know the windbreaker was supposed to zip open like the lab
+        coats? it does that correctly now. its also loadout selectable now.
+  id: 1436
+  time: '2025-11-25T21:48:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2051
