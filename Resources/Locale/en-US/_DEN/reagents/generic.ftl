@@ -41,26 +41,27 @@ reagent-effect-mnemolith-overdose18 = THE WORLD IS SLIDING SIDEWAYS AND TAKING Y
 reagent-effect-mnemolith-overdose19 = A VOICE BEHIND YOUR EYES ORDERS YOU TO LISTEN.
 reagent-effect-mnemolith-overdose20 = IT WILL REMEMBER YOU.
 
-reagent-effect-mnemolith-megadose1 = QUIET.
-reagent-effect-mnemolith-megadose2 = DROP EVERYTHING.
-reagent-effect-mnemolith-megadose3 = LET GO.
-reagent-effect-mnemolith-megadose4 = COME CLOSER.
-reagent-effect-mnemolith-megadose5 = HOLD STILL.
-reagent-effect-mnemolith-megadose6 = LOOK UP.
-reagent-effect-mnemolith-megadose7 = FACE ME.
-reagent-effect-mnemolith-megadose8 = LISTEN.
-reagent-effect-mnemolith-megadose9 = DRIFT.
-reagent-effect-mnemolith-megadose10 = REALIGN.
-reagent-effect-mnemolith-megadose11 = TOO LATE.
-reagent-effect-mnemolith-megadose12 = ALL GONE.
-reagent-effect-mnemolith-megadose13 = BACK AGAIN.
-reagent-effect-mnemolith-megadose14 = TRY TO REMEMBER.
-reagent-effect-mnemolith-megadose15 = YOU ARE.
-reagent-effect-mnemolith-megadose16 = I REMAIN.
-reagent-effect-mnemolith-megadose17 = WITHOUT WALLS.
-reagent-effect-mnemolith-megadose18 = BEYOND FORM.
-reagent-effect-mnemolith-megadose19 = NOW YOU SEE.
-reagent-effect-mnemolith-megadose20 = I REMEMBER YOU.
+reagent-effect-mnemolith-megadose1 = "Quiet."
+reagent-effect-mnemolith-megadose2 = "Drop everything."
+reagent-effect-mnemolith-megadose3 = "Let go."
+reagent-effect-mnemolith-megadose4 = "COME HERE."
+reagent-effect-mnemolith-megadose5 = "Hold still."
+reagent-effect-mnemolith-megadose6 = "Look up."
+reagent-effect-mnemolith-megadose7 = "Face me."
+reagent-effect-mnemolith-megadose8 = "LISTEN."
+reagent-effect-mnemolith-megadose9 = "Drift."
+reagent-effect-mnemolith-megadose10 = "Realign."
+reagent-effect-mnemolith-megadose11 = "Don't be frightened."
+reagent-effect-mnemolith-megadose12 = "We are the same thing."
+reagent-effect-mnemolith-megadose13 = "YOU ARE."
+reagent-effect-mnemolith-megadose14 = "Back again."
+reagent-effect-mnemolith-megadose15 = "Try to remember."
+reagent-effect-mnemolith-megadose16 = "I REMAIN."
+reagent-effect-mnemolith-megadose17 = "Without walls."
+reagent-effect-mnemolith-megadose18 = "Beyond form."
+reagent-effect-mnemolith-megadose19 = "SEE ME."
+reagent-effect-mnemolith-megadose20 = "I remember you."
 
+# Unused or else cigarettes spam it, sadly
 reagent-effect-mnemolith-fade = The weight drifts away...
 # Mnemolith popup messages end

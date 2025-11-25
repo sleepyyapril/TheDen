@@ -38,10 +38,10 @@
         - MantisBeltStorable # TheDen - Only to be used for mantis-specific items
         # - ForensicBeltEquip # TheDen - The old name of the mantis belt's whitelist tag, now made more clear
         # - Sidearm # TheDen - Only tagged mantis weapons will fit inside
-      components:
-        - AnomalyScanner
-        - NodeScanner
-        - Flash
+      # components: # TheDen - Doing it this way makes these items fit only if you click them onto the belt sprite itself...
+        # - AnomalyScanner
+        # - NodeScanner
+        # - Flash
   - type: Appearance # TheDen - It has a sheath for MantisMeleeKnife or MantisMeleeCane (MantisMeleeFist is worn like a glove, and MantisMeleeGreatsword is intentionally excluded)
   - type: ContainerContainer # TheDen - The rest of this item is our code
     containers:

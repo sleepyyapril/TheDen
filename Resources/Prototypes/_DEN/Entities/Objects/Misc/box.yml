@@ -56,7 +56,7 @@
 - type: entity
   parent: MantisCase
   id: MantisCaseLarge
-  name: large amaranth case
+  name: long amaranth case
   description: "A case made of exotic, extremely durable hardwood."
   components:
   - type: Sprite
@@ -66,18 +66,18 @@
       map: ["openLayer"]
   - type: Item
     sprite: _DEN/Objects/Storage/boxmantis.rsi
-    size: Large
+    size: Normal
     shape:
     - 0,0,2,1 # 3x2
   - type: Storage
-    maxItemSize: Large
+    maxItemSize: Normal
     grid:
     - 0,0,2,1 # 3x2
 
 - type: entity
   parent: MantisCase
   id: MantisCaseExtraLarge
-  name: extra large amaranth case
+  name: extra long amaranth case
   description: "A case made of exotic, extremely durable hardwood."
   components:
   - type: Sprite
@@ -147,7 +147,7 @@
       map: ["openLayer"]
   - type: Storage
     grid:
-    - 0,0,1,2 # 2x3, bigger on the inside. The idea is to replicate a cigarette pack's function, but with less storage space and more restrictive
+    - 0,0,1,2 # 2x3, bigger on the inside. The idea is to replicate a cigarette pack's function, but more restrictive and with less space
     whitelist: # Only the tiny chemistry items from the belt's whitelist
       tags:
         - Syringe
