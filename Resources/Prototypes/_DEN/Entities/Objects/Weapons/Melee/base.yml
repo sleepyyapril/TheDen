@@ -23,7 +23,6 @@
         Piercing: 1.25
         Heat: 1.25
         Cold: 1.25
-        Shock: 1.25
         Holy: 1.25
   # The values here will get overridden if it's a real weapon, of course, but if it's ever a problem just comment this component out
   # Most anti-psionic weapons have a 0.6666 attack rate and DPS equal to CombatKnife against non-psions
