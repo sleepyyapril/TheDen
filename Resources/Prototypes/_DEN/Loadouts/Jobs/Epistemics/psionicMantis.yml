@@ -213,6 +213,19 @@
     - MantisTailorsKnife
 
 - type: loadout
+  id: LoadoutPsionicMantisEquipmentDollMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - PlushieDollMantis
+
+- type: loadout
   id: LoadoutPsionicMantisEquipmentWheelchair
   category: JobsEpistemicsPsionicMantis
   cost: 0

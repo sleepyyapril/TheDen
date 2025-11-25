@@ -45,18 +45,18 @@
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisEquipment
-  maxItems: 5
+  # maxItems: 5 # TheDen
   items:
-    #- type: loadout # TheDen - They have their own candles now, see below
-    #  id: LoadoutPsionicMantisEquipmentCandles
-    #- type: loadout
-    #  id: LoadoutPsionicMantisEquipmentCandlesSmall
-    #- type: loadout # TheDen - All pills moved to MantisCaseChemicals in their locker
-    #  id: LoadoutPsionicMantisPillCanisterSpaceDrugs
-    #- type: loadout
-    #  id: LoadoutPsionicMantisPillCanisterCryptobiolin
-    #- type: loadout
-    #  id: LoadoutPsionicMantisPillCanisterMnemolith
+    # - type: loadout # TheDen - They have their own candles now, see below
+    #   id: LoadoutPsionicMantisEquipmentCandles
+    # - type: loadout
+    #   id: LoadoutPsionicMantisEquipmentCandlesSmall
+    # - type: loadout # TheDen - All pills moved to MantisCaseChemicals in their locker
+    #   id: LoadoutPsionicMantisPillCanisterSpaceDrugs
+    # - type: loadout
+    #   id: LoadoutPsionicMantisPillCanisterCryptobiolin
+    # - type: loadout
+    #   id: LoadoutPsionicMantisPillCanisterMnemolith
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentCigPackMantis
     - type: loadout # TheDen
@@ -65,6 +65,8 @@
       id: LoadoutPsionicMantisEquipmentMantisCaseCandles
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentTailorsKnife
+    - type: loadout # TheDen
+      id: LoadoutPsionicMantisEquipmentDollMantis
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentWheelchair
 

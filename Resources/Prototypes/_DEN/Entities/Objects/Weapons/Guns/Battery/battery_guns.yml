@@ -117,12 +117,6 @@
     - MantisBeltStorable
   - type: GuideHelp
     guides: [ MantisGuide ]
-  # Shitmed Change
-  - type: Drill # Really it's not any surgery tool, but I don't want to unparent it to avoid this
-    speed: 1.5  # Fast, because you're shooting them, and if I could make it hurt I would
-  - type: SurgeryTool # Shitmed won't be in the rebase anyway, it's probably fine for now
-    endSound:
-      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg # At least it's a little funny
 
 - type: entity
   parent: BaseMantisRanged

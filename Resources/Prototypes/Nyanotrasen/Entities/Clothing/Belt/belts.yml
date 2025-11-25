@@ -14,7 +14,7 @@
   parent: [ClothingBeltStorageBase, BaseMantisContraband]
   id: ClothingBeltMantis
   name: classic mantis belt # TheDen
-  description: "A structured, layered sash designed to carry mantis equipment. All the company would pay for prior to the mantis equipment refresh, but it does have a sheath for your knife or cane." # TheDen
+  description: "A structured, layered sash designed to carry mantis equipment. All the company would pay for prior to the mantis equipment refresh, but it does have sheaths for certain weapons." # TheDen
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Belt/mantis_belt.rsi

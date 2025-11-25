@@ -48,7 +48,7 @@
       - state: mantis-inhand-right-flame
         shader: unshaded
   - type: PointLight
-    radius: 1.3
+    radius: 2
     softness: 1.1
     color: "#4dc4ff"
   - type: MeleeWeapon

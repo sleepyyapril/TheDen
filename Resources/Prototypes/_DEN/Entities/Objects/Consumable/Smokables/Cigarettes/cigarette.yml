@@ -4,9 +4,13 @@
   name: mnemolith cigarette
   description: "The smoke clings to your thoughts, enhancing your awareness of the noosphere."
   components:
+  - type: Smokable
+    inhaleAmount: 0.1 #
   - type: Sprite
     sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/cigarettemantis.rsi
   - type: Item
+    sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/cigarettemantis.rsi
+  - type: Clothing
     sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/cigarettemantis.rsi
   - type: SolutionContainerManager
     solutions:
@@ -16,7 +20,7 @@
           - ReagentId: Nicotine
             Quantity: 10
           - ReagentId: MnemolithReagent
-            Quantity: 10 # Controlled dosing, so 10u
+            Quantity: 10
   - type: Extractable
     grindableSolutionName: smokable
   - type: Tag

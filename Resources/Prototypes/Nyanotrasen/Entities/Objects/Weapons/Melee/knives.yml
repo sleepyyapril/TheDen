@@ -11,7 +11,7 @@
   parent: [CombatKnife, BaseAntiPsionicWeapon, BaseMantisContraband] # TheDen
   id: AntiPsychicKnife
   name: anti-psionic knife
-  suffix: DEPRECATED, SEE MANTISKNIFE
+  suffix: DEPRECATED, SEE MANTISMELEEKNIFE
   description: "A mnemolith knife made to counter psionic and otherworldly threats, but its archaic design lacks any feedback protection for the wielder. You'd better not miss." # TheDen
   components:
   - type: MeleeWeapon

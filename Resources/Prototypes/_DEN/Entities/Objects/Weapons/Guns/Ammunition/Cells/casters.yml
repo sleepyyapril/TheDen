@@ -29,6 +29,11 @@
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun # Inherited by BaseMantisCasterCapgun
     fireCost: 72 # Can fire 5 times, takes 12 seconds to recharge 1 shot (just as an example)
+  - type: EmitSoundOnUse
+    sound:
+      collection: RadiationPulse # Well, they're anomaly cores
+  - type: UseDelay
+    delay: 2
   - type: Tag
     tags:
       - MantisCaster

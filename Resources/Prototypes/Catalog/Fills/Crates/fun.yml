@@ -181,6 +181,8 @@
         id: PlushieAlienGerm
       - !type:EntSelector
         id: PlushieAlienGermMini
+    - id: PlushieDollMantis # TheDen
+      weight: 0.5
 
 - type: entity
   id: CrateFunPlushie

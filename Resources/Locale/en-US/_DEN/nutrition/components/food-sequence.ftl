@@ -43,3 +43,4 @@ food-sequence-cotton-burger-content-plushie-tabi = tabi
 food-sequence-cotton-burger-content-plushie-teddy-bear = teddy
 food-sequence-cotton-burger-content-plushie-vega = vega
 food-sequence-cotton-burger-content-plushie-vulp = vulp
+food-sequence-cotton-burger-content-plushie-mantisdoll = doll

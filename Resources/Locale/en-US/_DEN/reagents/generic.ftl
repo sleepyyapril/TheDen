@@ -1,3 +1,4 @@
+# Mnemolith popup messages start
 reagent-effect-mnemolith-1 = Your skin prickles, as though unseen eyes are on you.
 reagent-effect-mnemolith-2 = The air hums faintly, or is it only in your head?
 reagent-effect-mnemolith-3 = Your stomach twists with unease.
@@ -17,17 +18,49 @@ reagent-effect-mnemolith-16 = The noosphere itself is staring directly at you.
 reagent-effect-mnemolith-17 = You are certain you are not alone.
 reagent-effect-mnemolith-18 = Every shadow hides intent.
 reagent-effect-mnemolith-19 = The world bends sideways.
-reagent-effect-mnemolith-20 = YOU ARE OBSERVED.
+reagent-effect-mnemolith-20 = It will remember you.
 
-reagent-overdose-mnemolith-overdose1 = YOUR SKULL IS SPLITTING APART.
-reagent-overdose-mnemolith-overdose2 = YOU HEAR YOUR NAME IN EVERY BREATH.
-reagent-overdose-mnemolith-overdose3 = SOMETHING IS CARVING WORDS INTO YOUR VISION.
-reagent-overdose-mnemolith-overdose4 = THE AIR AROUND YOU IS SCREAMING.
-reagent-overdose-mnemolith-overdose5 = SOMETHING ELSE IS THINKING FOR YOU.
-reagent-overdose-mnemolith-overdose6 = THE WALLS ARE BREATHING WITH YOU.
-reagent-overdose-mnemolith-overdose7 = HANDS YOU CANNOT SEE CLUTCH AT YOUR FACE.
-reagent-overdose-mnemolith-overdose8 = STRINGS PULL AT YOUR BONES.
-reagent-overdose-mnemolith-overdose9 = A THOUSAND EYES ARE OPENING ALL AROUND YOU.
-reagent-overdose-mnemolith-overdose10 = IT WILL REMEMBER YOU. IT WILL REMEMBER YOU.
+reagent-effect-mnemolith-overdose1 = YOUR SKULL IS SPLITTING APART.
+reagent-effect-mnemolith-overdose2 = YOU HEAR YOUR NAME IN EVERY BREATH.
+reagent-effect-mnemolith-overdose3 = SOMETHING IS CARVING WORDS INTO YOUR VISION.
+reagent-effect-mnemolith-overdose4 = THE AIR AROUND YOU IS SCREAMING.
+reagent-effect-mnemolith-overdose5 = SOMETHING ELSE IS THINKING FOR YOU.
+reagent-effect-mnemolith-overdose6 = THE WALLS ARE BREATHING WITH YOU.
+reagent-effect-mnemolith-overdose7 = HANDS YOU CANNOT SEE CLUTCH AT YOUR FACE.
+reagent-effect-mnemolith-overdose8 = STRINGS PULL AT YOUR BONES.
+reagent-effect-mnemolith-overdose9 = A THOUSAND EYES ARE OPENING ALL AROUND YOU.
+reagent-effect-mnemolith-overdose10 = TIME STUTTERS AROUND YOU LIKE A BROKEN MACHINE.
+reagent-effect-mnemolith-overdose11 = YOUR TEETH HUM WITH A SIGNAL THAT FEELS ALIEN TO YOU.
+reagent-effect-mnemolith-overdose12 = YOUR THOUGHTS ARE SPILLING OUT WHERE OTHERS CAN SEE.
+reagent-effect-mnemolith-overdose13 = THE GROUND BENEATH YOU IS TRYING TO TURN YOU OVER.
+reagent-effect-mnemolith-overdose14 = SOMETHING IS PRESSING ITS FOREHEAD AGAINST YOUR MIND.
+reagent-effect-mnemolith-overdose15 = YOU ARE OBSERVED.
+reagent-effect-mnemolith-overdose16 = YOUR SHADOW IS STRUGGLING TO ESCAPE YOU.
+reagent-effect-mnemolith-overdose17 = SOMETHING INSIDE YOU IS LAUGHING.
+reagent-effect-mnemolith-overdose18 = THE WORLD IS SLIDING SIDEWAYS AND TAKING YOU WITH IT.
+reagent-effect-mnemolith-overdose19 = A VOICE BEHIND YOUR EYES ORDERS YOU TO LISTEN.
+reagent-effect-mnemolith-overdose20 = IT WILL REMEMBER YOU.
+
+reagent-effect-mnemolith-megadose1 = QUIET.
+reagent-effect-mnemolith-megadose2 = DROP EVERYTHING.
+reagent-effect-mnemolith-megadose3 = LET GO.
+reagent-effect-mnemolith-megadose4 = COME CLOSER.
+reagent-effect-mnemolith-megadose5 = HOLD STILL.
+reagent-effect-mnemolith-megadose6 = LOOK UP.
+reagent-effect-mnemolith-megadose7 = FACE ME.
+reagent-effect-mnemolith-megadose8 = LISTEN.
+reagent-effect-mnemolith-megadose9 = DRIFT.
+reagent-effect-mnemolith-megadose10 = REALIGN.
+reagent-effect-mnemolith-megadose11 = TOO LATE.
+reagent-effect-mnemolith-megadose12 = ALL GONE.
+reagent-effect-mnemolith-megadose13 = BACK AGAIN.
+reagent-effect-mnemolith-megadose14 = TRY TO REMEMBER.
+reagent-effect-mnemolith-megadose15 = YOU ARE.
+reagent-effect-mnemolith-megadose16 = I REMAIN.
+reagent-effect-mnemolith-megadose17 = WITHOUT WALLS.
+reagent-effect-mnemolith-megadose18 = BEYOND FORM.
+reagent-effect-mnemolith-megadose19 = NOW YOU SEE.
+reagent-effect-mnemolith-megadose20 = I REMEMBER YOU.
 
 reagent-effect-mnemolith-fade = The weight drifts away...
+# Mnemolith popup messages end

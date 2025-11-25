@@ -257,6 +257,21 @@
     guides: [ MantisGuide ]
 
 - type: entity
+  suffix: mnemolith
+  parent: PrefilledSyringe
+  id: SyringeMnemolith
+  components:
+    - type: SolutionContainerManager
+      solutions:
+        injector:
+          maxVol: 15
+          reagents:
+            - ReagentId: MnemolithReagent
+              Quantity: 15
+    - type: Label
+      currentLabel: mnemolith
+
+- type: entity
   parent: PillCanister
   id: PillCanisterEstradiol
   suffix: estradiol 5u

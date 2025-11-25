@@ -87,7 +87,6 @@
   - type: Speech
     speechVerb: Electricity # Weirder than a robot (crackles, buzzes, screeches) if it's not speaking Psychomantic
     speechSounds: Tenor # Like the Oracle otherwise
-  - type: Actions
   - type: Psionic
     removable: false
     roller: false
