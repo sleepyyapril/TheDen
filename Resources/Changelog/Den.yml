@@ -14659,3 +14659,10 @@ Entries:
   id: 1434
   time: '2025-11-25T02:27:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2071
+- author: Oberonics
+  changes:
+    - type: Tweak
+      message: Survival Medpens are now 5x faster!
+  id: 1435
+  time: '2025-11-25T21:46:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2076
