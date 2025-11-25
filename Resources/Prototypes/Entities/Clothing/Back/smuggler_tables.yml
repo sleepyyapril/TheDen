@@ -157,7 +157,7 @@
       weight: 8
     - id: CigPackSyndicate
       weight: 0.5
-    - id: CigPackMantis
+    - id: CigPackMnemolith
       weight: 0.5
 #    - id: CigCartonGreen # TheDen - Interesting cigarettes only
 #    - id: CigCartonRed

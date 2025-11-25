@@ -167,7 +167,7 @@
     modifier: 0.01
 
 - type: entity
-  parent: [BasePlushie, BaseAntiPsionicObject, BaseKnife] # It has a tiny ritual knife...
+  parent: [BaseAntiPsionicObject, BasePlushie, BaseKnife] # It has a tiny ritual knife...
   id: PlushieDollMantis
   name: sentimental mantis doll
   description: "A cute little doll with a mantis fez and a toy ritual knife. Wait—why is it sharp!?"
@@ -187,4 +187,4 @@
   - type: ThrowingAngle
     angularVelocity: true
   - type: EmbeddableProjectile
-    embedOnThrow: false
+    embedOnThrow: false # She'll only swipe at the first person you throw her at though (a single point of damage) (vicious)

@@ -58,7 +58,7 @@
     # - type: loadout
     #   id: LoadoutPsionicMantisPillCanisterMnemolith
     - type: loadout # TheDen
-      id: LoadoutPsionicMantisEquipmentCigPackMantis
+      id: LoadoutPsionicMantisEquipmentCigPackMnemolith
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEquipmentFlippoLighterMantis
     - type: loadout # TheDen

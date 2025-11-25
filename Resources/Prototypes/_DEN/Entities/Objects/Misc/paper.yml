@@ -278,6 +278,8 @@
       proto: mantis
     - type: PaperLabelType # So it can label containers with a unique sprite
       paperType: MantisPaper
+    - type: Food
+      transferAmount: 15
     - type: FlavorProfile
       flavors:
         - mantispaper
@@ -287,7 +289,7 @@
           maxVol: 15
           reagents:
           - ReagentId: MnemolithReagent
-            Quantity: 15 # Uncontrolled dosing, so 15u, and you'll overdose briefly
+            Quantity: 15
         injector: # The mnemolith powder in the edges (if it's thrown into you)
           maxVol: 300
           reagents: # Notably, grinding it only produces the "food" reagent volume above, so this is just for thrown hits and not otherwise accessible

@@ -9,7 +9,7 @@
   color: "#313b4a"
   metabolisms:
     Medicine:
-      metabolismRate: 0.25 # 1u lasts 4 seconds, so 15u lasts 60 seconds
+      metabolismRate: 0.1 # 1u lasts 10 seconds, so 15u lasts 2 minutes 30 seconds
       effects:
       - !type:PopupMessage
         type: Local
@@ -36,9 +36,9 @@
           - "reagent-effect-mnemolith-19" # The world bends sideways.
           - "reagent-effect-mnemolith-20" # It will remember you.
         probability: 0.05
-        conditions:
+        conditions: # This phase will last at most 2 minutes 20 seconds
         - !type:ReagentThreshold
-          max: 15
+          max: 14 # So taking 15u will give you 10 seconds of possibly scarier messages
       - !type:PopupMessage
         type: Local
         visualType: MediumCaution
@@ -64,10 +64,10 @@
           - "reagent-effect-mnemolith-overdose19" # A VOICE BEHIND YOUR EYES ORDERS YOU TO LISTEN.
           - "reagent-effect-mnemolith-overdose20" # IT WILL REMEMBER YOU.
         probability: 0.1
-        conditions:
+        conditions: # This phase will last at most 2 minutes 30 seconds
         - !type:ReagentThreshold
-          min: 15
-          max: 30
+          min: 14
+          max: 29 # So taking 30u will give you 10 seconds of possibly scarier messages
       - !type:PopupMessage
         type: Local
         visualType: LargeCaution
@@ -95,13 +95,4 @@
         probability: 0.2
         conditions:
         - !type:ReagentThreshold
-          min: 30
-      - !type:PopupMessage
-        type: Local
-        visualType: Small
-        messages:
-          - "reagent-effect-mnemolith-fade" # The weight drifts away...
-        probability: 1.00 # You will always know when the effects end
-        conditions:
-          - !type:ReagentThreshold
-            max: 0.01
+          min: 29

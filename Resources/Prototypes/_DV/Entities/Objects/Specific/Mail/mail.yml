@@ -513,7 +513,7 @@
     - id: CigPackSpirits # TheDen
       orGroup: Cigs
       prob: 0.19
-    - id: CigPackMantis # TheDen
+    - id: CigPackMnemolith # TheDen
       orGroup: Cigs
       prob: 0.19
     - id: CigPackMixed

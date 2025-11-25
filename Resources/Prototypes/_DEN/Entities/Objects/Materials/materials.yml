@@ -75,14 +75,15 @@
     state: mnemolithpowder
   - type: Food
     solution: food
-    transferAmount: 20
+    transferAmount: 15
+  - type: BadFood
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 20
+        maxVol: 15
         reagents:
         - ReagentId: MnemolithReagent
-          Quantity: 20 # Uncontrolled dosing, so 20u, and you'll overdose briefly
+          Quantity: 15
   - type: SolutionSpiker
     sourceSolution: food
     ignoreEmpty: true
