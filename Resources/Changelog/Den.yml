@@ -14679,3 +14679,16 @@ Entries:
   id: 1436
   time: '2025-11-25T21:48:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2051
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: >-
+        Made the Marked for Do Not Touch (traitor teach-a-lesson immunity) trait
+        cost 0 trait points.
+    - type: Tweak
+      message: >-
+        Made the Marked for Removal trait worth 0 trait points as it currently
+        does nothing.
+  id: 1437
+  time: '2025-11-25T23:32:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2072
