@@ -14778,3 +14778,12 @@ Entries:
   id: 1443
   time: '2025-11-26T20:18:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2078
+- author: Oberonics
+  changes:
+    - type: Tweak
+      message: >-
+        Tweaked the description of the kill objective to make its difference
+        from the teach objective more clear.
+  id: 1444
+  time: '2025-11-26T21:11:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2080
