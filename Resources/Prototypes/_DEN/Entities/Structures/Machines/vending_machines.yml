@@ -39,8 +39,10 @@
   parent: VendingMachineWallmount
   id: VendingMachineWallSomberMantis
   name: mantis reliquary conduit
-  description: "An occult-machine interface through which mantes summon equipment from the Reliquary by thought alone."
+  description: "A wall-mounted, occult-machine interface through which mantes summon equipment from the Reliquary by thought alone."
   components:
+  - type: WallMount
+    arc: -175
   - type: VendingMachine
     pack: MantisReliquaryInventory
     offState: off
@@ -68,8 +70,8 @@
   - type: GuideHelp
     guides: [ MantisGuide ]
   - type: PointLight
-    radius: 2.1
-    energy: 1.3
+    radius: 2
+    energy: 2
     softness: 1.1
     color: "#4dc4ff" # Mnemolith candles, psionic fire
   - type: AmbientSound
@@ -78,10 +80,9 @@
     enabled: false
     sound:
       path: /Audio/Effects/silence.ogg # It has some wires inside, but it doesn't hum
-  # SentienceTarget seemed like a fun idea until I realized it would be in the mantis's bedroom...  Damn.  But look how cool I made it...
-#  - type: SentienceTarget
-#    flavorKind: station-event-random-sentience-flavor-mechanical
-#    weight: 1 # It's plugged into the noosphere, come on
+  - type: SentienceTarget
+    flavorKind: station-event-random-sentience-flavor-mechanical
+    weight: 1 # It's plugged into the noosphere, come on
   - type: TypingIndicator
     proto: mantis
   - type: Speech

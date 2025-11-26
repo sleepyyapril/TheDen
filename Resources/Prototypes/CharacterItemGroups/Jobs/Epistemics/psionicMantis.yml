@@ -45,7 +45,7 @@
 
 - type: characterItemGroup
   id: LoadoutPsionicMantisEquipment
-  # maxItems: 5 # TheDen
+  maxItems: 6
   items:
     # - type: loadout # TheDen - They have their own candles now, see below
     #   id: LoadoutPsionicMantisEquipmentCandles

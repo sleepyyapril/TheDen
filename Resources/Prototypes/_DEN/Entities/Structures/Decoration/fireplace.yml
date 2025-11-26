@@ -5,6 +5,7 @@
   description: "An avant-garde fireplace shaped like an eye, its smokeless psionic flame rippling like liquid."
   components:
   - type: Sprite
+    noRot: true
     sprite: _DEN/Structures/Decoration/somberfireplace.rsi
     layers:
       - state: fireplace
@@ -67,7 +68,7 @@
         shape:
           !type:PhysShapeAabb
           bounds: "-0.25,-0.25,0.25,0.25"
-        hard: true
+        hard: false
         density: 200
         mask:
         - MachineMask
@@ -81,8 +82,11 @@
   id: SomberHangingBrazier
   name: somber hanging brazier
   description: "An electrum brazier, its smokeless psionic flame rippling like liquid."
+  placement:
+    mode: WallmountLight
   components:
   - type: Sprite
+    noRot: true
     sprite: _DEN/Structures/Decoration/somberhangingbrazier.rsi
     layers:
       - state: fireplace

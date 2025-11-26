@@ -7,6 +7,8 @@
   id: SomberChairCushion
   name: somber floor cushion
   description: "A firm pillow to sit on, useful for meditation."
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/chairs.rsi
@@ -83,6 +85,8 @@
   id: SomberChairLeatherMantisWheelchair
   name: mantis chair
   description: "A plush leather office chair concealing strange bluespace mechanisms that let it compact into an electrum orb. It hovers just above the ground and can be steered with psionic influence."
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Sprite
     sprite: _DEN/Structures/Specific/Mantis/mantischair.rsi
@@ -135,6 +139,8 @@
   id: SomberChairWood
   name: somber wood chair
   description: "An expensive chair made of gloomy, patterned wood with electrum accents."
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/chairs.rsi

@@ -464,7 +464,6 @@
   id: LoadoutPsionicMantisMaskMantisVeil
   category: JobsEpistemicsPsionicMantis
   cost: 0
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutPsionicMantisMask
@@ -478,7 +477,6 @@
   id: LoadoutPsionicMantisMaskMantisRitual
   category: JobsEpistemicsPsionicMantis
   cost: 0
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutPsionicMantisMask
@@ -654,7 +652,6 @@
   id: LoadoutPsionicMantisRangedPistol
   category: JobsEpistemicsPsionicMantis
   cost: 0
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutPsionicMantisRanged
@@ -669,7 +666,6 @@
   id: LoadoutPsionicMantisRangedRevolver
   category: JobsEpistemicsPsionicMantis
   cost: 0
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutPsionicMantisRanged
@@ -684,7 +680,6 @@
   id: LoadoutPsionicMantisRangedShotgun
   category: JobsEpistemicsPsionicMantis
   cost: 0
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutPsionicMantisRanged
@@ -699,7 +694,6 @@
   id: LoadoutPsionicMantisRangedSubMachineGun
   category: JobsEpistemicsPsionicMantis
   cost: 0
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutPsionicMantisRanged
@@ -730,7 +724,6 @@
   id: LoadoutPsionicMantisMeleeFist
   category: JobsEpistemicsPsionicMantis
   cost: 0
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutPsionicMantisMelee
@@ -744,7 +737,6 @@
   id: LoadoutPsionicMantisMeleeCane
   category: JobsEpistemicsPsionicMantis
   cost: 0
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutPsionicMantisMelee
@@ -758,7 +750,6 @@
   id: LoadoutPsionicMantisMeleeGreatsword
   category: JobsEpistemicsPsionicMantis
   cost: 0
-  exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutPsionicMantisRanged # Choosing the risk/reward greatsword prevents you from taking a gun, you have to commit

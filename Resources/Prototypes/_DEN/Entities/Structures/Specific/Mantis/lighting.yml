@@ -13,8 +13,6 @@
     - state: base
     - state: glow
       shader: unshaded
-      visible: false
-      map: [ "light" ]
   - type: Fixtures
     fixtures:
       fix1:
@@ -36,8 +34,6 @@
     softness: 1.1
     color: "#d9418d"
   - type: Appearance
-  - type: ToggleableVisuals
-    spriteLayer: light
   - type: ItemTogglePointLight
   - type: ItemToggle
     activated: true
@@ -45,12 +41,12 @@
     soundActivate:
       path: /Audio/_DEN/Effects/crystalshimmer1.ogg
       params:
-        volume: -6
+        volume: -3
         variation: 0.05
     soundDeactivate:
       path: /Audio/_DEN/Effects/crystalshimmer2.ogg
       params:
-        volume: -6
+        volume: -3
         variation: 0.05
   - type: UnpoweredFlashlight # Powered by the noosphere
   - type: Damageable
