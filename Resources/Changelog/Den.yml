@@ -14733,3 +14733,16 @@ Entries:
   id: 1440
   time: '2025-11-26T19:00:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2077
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: >-
+        Updated Thief in-game objectives and intro to more accurately reflect
+        Den's SOP and server rules.
+    - type: Tweak
+      message: >-
+        Updated several free agent ghost role popup descriptions to more
+        accurately reflect Den's server rules.
+  id: 1441
+  time: '2025-11-26T19:02:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2074
