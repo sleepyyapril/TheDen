@@ -14724,3 +14724,12 @@ Entries:
   id: 1439
   time: '2025-11-26T18:56:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2079
+- author: Oberonics
+  changes:
+    - type: Fix
+      message: >-
+        Fixed a Syndicate paperwork mix up that made it so those Marked for
+        Removal weren't targeted by their agents.
+  id: 1440
+  time: '2025-11-26T19:00:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2077
