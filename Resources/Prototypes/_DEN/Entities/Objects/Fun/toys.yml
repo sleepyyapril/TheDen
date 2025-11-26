@@ -187,4 +187,4 @@
   - type: ThrowingAngle
     angularVelocity: true
   - type: EmbeddableProjectile
-    embedOnThrow: false # She'll only swipe at the first person you throw her at though (a single point of damage) (vicious)
+    embedOnThrow: false # She'll swipe through the first person you throw her at though (a single point of damage) (vicious)
