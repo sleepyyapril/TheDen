@@ -14757,3 +14757,24 @@ Entries:
   id: 1442
   time: '2025-11-26T19:03:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2053
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: 'Added Lobby Art: NT Monthly Fashion Magazine by JustAni'
+    - type: Add
+      message: 'Added Lobby Art: Average Epi Shenanigans by Skweekers'
+    - type: Add
+      message: 'Added Lobby Art: That Cool Bar by WallflowerGhost'
+    - type: Add
+      message: 'Added Lobby Art: Plush Puddle by Wolfio'
+    - type: Add
+      message: 'Lobby Art: Added I''m With The Science Team by TKParadox'
+    - type: Add
+      message: 'Lobby Art: Added Ian Secured by TrashyCinder'
+    - type: Remove
+      message: >-
+        Removed all remaining vanilla ss14 lobby arts (so long and thanks for
+        all the carp!)
+  id: 1443
+  time: '2025-11-26T20:18:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2078
