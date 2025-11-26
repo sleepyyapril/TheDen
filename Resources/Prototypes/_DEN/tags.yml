@@ -40,6 +40,9 @@
   id: Explosives
 
 - type: Tag
+  id: Flash
+
+- type: Tag
   id: FeroxiEmotes
 
 - type: Tag
@@ -103,6 +106,9 @@
 
 - type: Tag
   id: RodentiaEmotes
+
+- type: Tag
+  id: ScienceTool
 
 - type: Tag
   id: Syrup

@@ -43,6 +43,9 @@
     difficulty: 2
     recipes:
       - AnomalyScanner
+  - type: Tag # TheDen
+    tags:
+    - ScienceTool
 
 - type: entity
   id: AnomalyLocatorUnpowered
@@ -81,6 +84,9 @@
       params:
         maxDistance: 1
         volume: -8
+  - type: Tag # TheDen
+    tags:
+    - ScienceTool
 
 - type: entity
   id: AnomalyLocator
@@ -178,3 +184,6 @@
         Cold: 100
         Radiation: 100
     slots: NONE
+  - type: Tag # TheDen
+    tags:
+    - ScienceTool

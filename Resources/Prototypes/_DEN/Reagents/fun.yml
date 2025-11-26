@@ -96,3 +96,12 @@
         conditions:
         - !type:ReagentThreshold
           min: 29
+      # - !type:PopupMessage # Sadly unused or else the cigarettes spam you
+        # type: Local
+        # visualType: Small
+        # messages:
+        #   - "reagent-effect-mnemolith-fade" # The weight drifts away...
+        # probability: 1.00
+        # conditions:
+        #   - !type:ReagentThreshold
+        #     max: 0.25

@@ -142,3 +142,6 @@
           enum.FlashVisuals.LightLayer:
             True: {visible: true}
             False: {visible: false}
+    - type: Tag # TheDen
+      tags:
+      - Flash
