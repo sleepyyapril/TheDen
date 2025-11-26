@@ -14746,3 +14746,14 @@ Entries:
   id: 1441
   time: '2025-11-26T19:02:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2074
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Many, many loadouts and traits have had their item groups and
+        requirements fixed, especially job loadout items. This might break some
+        loadouts if you were taking advantage of broken item groups - please
+        double check!
+  id: 1442
+  time: '2025-11-26T19:03:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2053
