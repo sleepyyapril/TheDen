@@ -30,6 +30,7 @@
 # SPDX-FileCopyrightText: 2024 lapatison
 # SPDX-FileCopyrightText: 2025 Blahaj-the-Shonk
 # SPDX-FileCopyrightText: 2025 Jakumba
+# SPDX-FileCopyrightText: 2025 Kellaris
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 Sapphire
 # SPDX-FileCopyrightText: 2025 TheOneTrueWolfio
