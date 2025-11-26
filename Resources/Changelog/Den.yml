@@ -14692,3 +14692,12 @@ Entries:
   id: 1437
   time: '2025-11-25T23:32:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2072
+- author: Domino
+  changes:
+    - type: Tweak
+      message: >-
+        Botanist aprons were moved from the default botanist loadout to an
+        optional botanist outerwear.
+  id: 1438
+  time: '2025-11-26T17:40:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2075
