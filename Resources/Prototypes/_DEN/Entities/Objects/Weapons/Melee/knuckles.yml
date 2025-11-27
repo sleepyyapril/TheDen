@@ -19,7 +19,7 @@
       map: ["foldedLayer"]
       visible: false
   - type: Item
-    sprite:  _DEN/Objects/Weapons/Melee/mantissickle-inhands-64x.rsi
+    sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
     size: Normal
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi

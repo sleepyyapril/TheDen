@@ -128,7 +128,7 @@
     removalTime: 2
   - type: EmbedPassiveDamage
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantissickle.rsi
+    sprite: _DEN/Objects/Weapons/Melee/mantissickle-inhands-64x.rsi
     storedSprite:
       sprite: _DEN/Objects/Weapons/Melee/mantissickle.rsi
       state: icon
