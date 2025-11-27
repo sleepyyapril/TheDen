@@ -1894,6 +1894,10 @@
         {
             "name": "mantis_key_off",
             "directions": 4
+        },
+        {
+            "name": "mantis_keyboard",
+            "directions": 4
         }
     ]
 }

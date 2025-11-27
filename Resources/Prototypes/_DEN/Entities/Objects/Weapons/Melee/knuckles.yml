@@ -70,12 +70,12 @@
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Melee/mantisfistdouble.rsi
   - type: MeleeWeapon
-    angle: 90
+    attackRate: .8888
     bluntStaminaDamageFactor: 2.0
     damage:
       types:
-        Blunt: 14 # 21 DPS, or 26.25 DPS against psions
-        Holy: 7 # 39.40 total DPS against psionic supernaturals
+        Blunt: 18.5 # 20.82 DPS, or 26.03 DPS against psions
+        Holy: 9.25 # 39.04 total DPS against psionic supernaturals
   - type: MeleeThrowOnHit
     speed: 20
     lifetime: 5

@@ -11,6 +11,9 @@
       "name": "icon"
     },
     {
+      "name": "icon-glow"
+    },
+    {
       "name": "inhand-left",
       "directions": 4
     },
@@ -20,6 +23,22 @@
     },
     {
       "name": "equipped-MASK",
+      "directions": 4
+    },
+    {
+      "name": "equipped-glow",
+      "directions": 4
+    },
+    {
+      "name": "equipped-glow-resomi",
+      "directions": 4
+    },
+    {
+      "name": "equipped-glow-vox",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-thaven",
       "directions": 4
     },
     {

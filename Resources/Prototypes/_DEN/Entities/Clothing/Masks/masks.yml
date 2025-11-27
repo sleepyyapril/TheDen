@@ -126,8 +126,17 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Mask/mantis_mask_ritual.rsi
+    layers:
+    - state: icon
+    - state: icon-glow
+      shader: unshaded
   - type: Clothing
     sprite: _DEN/Clothing/Mask/mantis_mask_ritual.rsi
+    clothingVisuals:
+      mask:
+      - state: equipped-MASK
+      - state: equipped-glow
+        shader: unshaded
   - type: HideLayerClothing
     slots:
     - Snout

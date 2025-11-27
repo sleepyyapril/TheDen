@@ -40,7 +40,7 @@
           inverted: true
           traits:
             - ShadowkinBlackeye
-  startingGear: MantisGear
+  startingGear: MantisGearStarter # TheDen
   icon: "JobIconForensicMantis"
   supervisors: job-supervisors-rd
   canBeAntag: true # DeltaV - Mantis is no longer a Detective
@@ -62,7 +62,7 @@
         - AssayPower # Doesn't take a power slot
 
 - type: startingGear
-  id: MantisGear # TheDen
+  id: MantisGearStarter # TheDen
   subGear:
   - MantisPlasmamanGear
   equipment:

@@ -585,7 +585,7 @@
     - map: ["computerLayerBody"]
       state: computer
     - map: ["computerLayerKeyboard"]
-      state: generic_keyboard
+      state: mantis_keyboard # TheDen
     - map: ["computerLayerScreen"]
       state: registry
     - map: ["computerLayerKeys"]
