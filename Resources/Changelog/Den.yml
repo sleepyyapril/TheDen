@@ -14861,3 +14861,18 @@ Entries:
   id: 1447
   time: '2025-11-27T08:07:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2083
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Mappers can now add air scrubbers with water vapor excluded from the
+        filter list as a preset entity.
+    - type: Add
+      message: >-
+        Mappers and admins can now spawn a soda dispenser with an extended
+        inventory, containing blood and many kinds of juices (in addition to the
+        regular soda dispenser inventory.) In addition, beverage jugs of each
+        individual juice may be spawned in.
+  id: 1448
+  time: '2025-11-27T21:09:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2084
