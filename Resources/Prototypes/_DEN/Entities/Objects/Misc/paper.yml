@@ -247,7 +247,7 @@
       - MantisBoxFolderStorable # Only the mantis pen, stamp, and papers should have this
 
 - type: entity
-  parent: [Paper, BaseAntiPsionicObject]
+  parent: [Paper, ClothingMaskPullableBase, BaseAntiPsionicObject]
   id: PaperMantis
   name: ledgerstone # It's a spooky pun - it comes from the mantis ledger and is made with stone powder, but a ledgerstone is a gravestone
   description: "A sharp, durable page taken from the mantis ledger. Mnemolith powder sparkles within its surface. You feel watched."
@@ -265,8 +265,8 @@
     - type: Item
       sprite: Objects/Misc/bureaucracy.rsi
       heldPrefix: paper_mantis
-    - type: Clothing
-      # sprite: _DEN/Clothing/Mask/mantis_mask_paper.rsi # I tried putting these sprites in their own folder but it didn't work... Please forgive me...
+    - type: Clothing # I tried putting these sprites in their own folder but the Clothing component doesn't actually read the sprite line below... Forgive me...
+      sprite: Objects/Misc/bureaucracy.rsi # And if the papers themselves were in their own folder, they either couldn't be stamped, or they'd have to have duplicates
       quickEquip: false
       slots: [ mask ] # You can wear it over your face like a paper talisman and the eye on it will pulse every few seconds, but this isn't noted anywhere
       clothingVisuals:
