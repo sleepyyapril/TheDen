@@ -101,9 +101,48 @@
   - type: ThrowingAngle
     angle: -135
   - type: DisarmMalus
-    malus: 0.4
+    malus: 0.3
   - type: Tag
     tags:
     - Knife
     - MantisKnife
+    - MantisBeltStorable
+
+- type: entity
+  parent: [CombatKnife, BaseAntiPsionicWeapon, BaseMantisContraband]
+  id: MantisMeleeSickle
+  name: boline
+  description: "A heavy mnemolith sickle set with an eidolite eye, crafted as the athame's more savage counterpart. Its sweeping, methodical blows catch and drag anything within reach. Deadly when wielded against psionic and otherworldly threats."
+  components:
+  - type: MeleeWeapon
+    attackRate: 1.3333 # Twice as slow as athame, but twice the damage, so same DPS
+    range: 1.5
+    angle: 60 # Swings a little wider wider than athame, but easier to disarm
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Slash: 20 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
+        Holy: 10 # 28.13 total DPS against psionic supernaturals
+  - type: EmbeddableProjectile
+    sound: /Audio/Weapons/star_hit.ogg
+    removalTime: 2
+  - type: EmbedPassiveDamage
+  - type: Item
+    sprite: _DEN/Objects/Weapons/Melee/mantissickle.rsi
+    storedSprite:
+      sprite: _DEN/Objects/Weapons/Melee/mantissickle.rsi
+      state: icon
+  - type: Sprite
+    sprite: _DEN/Objects/Weapons/Melee/mantissickle.rsi
+  - type: ThrowingAngle
+    angle: -135
+  - type: MeleeThrowOnHit # Just a tiny knockback to look cool, barely moves anything
+    speed: 3
+    lifetime: 0.025
+  - type: DisarmMalus
+    malus: 0
+  - type: Tag
+    tags:
+    - Knife
+    - MantisSickle
     - MantisBeltStorable

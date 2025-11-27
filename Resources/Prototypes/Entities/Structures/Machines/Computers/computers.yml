@@ -589,7 +589,7 @@
     - map: ["computerLayerScreen"]
       state: registry
     - map: ["computerLayerKeys"]
-      state: rd_key
+      state: mantis_key # TheDen
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
       state: generic_panel_open
   - type: PointLight
@@ -601,7 +601,7 @@
   - type: AccessReader
     access:
       - [ Chapel ]
-#      - [ Library ]
+#      - [ Library ] # TheDen - Go read your books smelly
       - [ Mantis ]
       - [ ResearchDirector ]
   - type: GuideHelp

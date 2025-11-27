@@ -147,6 +147,12 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_dark.rsi
+    layers:
+    - state: icon
+      map: ["unfoldedLayer"]
+    - state: icon-folded
+      map: ["foldedLayer"]
+      visible: false
   - type: Clothing
     sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_dark.rsi
   - type: Foldable
@@ -164,6 +170,12 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_loincloth.rsi
+    layers:
+    - state: icon
+      map: ["unfoldedLayer"]
+    - state: icon-folded
+      map: ["foldedLayer"]
+      visible: false
   - type: Clothing
     sprite: _DEN/Clothing/Uniforms/Jumpsuit/mantis_loincloth.rsi
   - type: Foldable

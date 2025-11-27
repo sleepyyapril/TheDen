@@ -58,7 +58,7 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesMantis
-  name: classic mantis gloves
+  name: dated mantis gloves
   description: "Made of tough cloth, and fingerless for dexterity. All the company would pay for prior to the mantis equipment refresh."
   components:
   - type: Sprite
@@ -105,6 +105,12 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves_ornate.rsi
+    layers:
+    - state: icon
+      map: ["unfoldedLayer"]
+    - state: icon-flipped
+      map: ["foldedLayer"]
+      visible: false
   - type: Clothing
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves_ornate.rsi
   - type: Fiber
@@ -115,7 +121,7 @@
     unfoldVerbText: fold-flip-verb
   - type: FoldableClothing
     foldedEquippedPrefix: flipped
-    
+
 - type: entity
   parent: ClothingHandsGlovesNitrile
   id: ClothingHandsGlovesNitrileBlack

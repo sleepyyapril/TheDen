@@ -60,6 +60,12 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/Backpacks/mantis.rsi
+    layers:
+    - state: icon
+      map: ["unfoldedLayer"]
+    - state: icon-flipped
+      map: ["foldedLayer"]
+      visible: false
   - type: Foldable
     canFoldInsideContainer: true
     foldVerbText: fold-flip-verb
@@ -75,6 +81,12 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/Duffels/mantis.rsi
+    layers:
+    - state: icon
+      map: ["unfoldedLayer"]
+    - state: icon-flipped
+      map: ["foldedLayer"]
+      visible: false
   - type: Foldable
     canFoldInsideContainer: true
     foldVerbText: fold-flip-verb
@@ -108,6 +120,12 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Back/Messenger/mantis.rsi
+    layers:
+    - state: icon
+      map: ["unfoldedLayer"]
+    - state: icon-flipped
+      map: ["foldedLayer"]
+      visible: false
   - type: Foldable
     canFoldInsideContainer: true
     foldVerbText: fold-flip-verb

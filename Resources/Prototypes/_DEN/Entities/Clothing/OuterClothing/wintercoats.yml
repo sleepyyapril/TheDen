@@ -25,6 +25,12 @@
   components:
     - type: Sprite
       sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_dark.rsi
+      layers:
+      - state: icon
+        map: ["unfoldedLayer"]
+      - state: icon-rolled
+        map: ["foldedLayer"]
+        visible: false
     - type: Clothing
       sprite: _DEN/Clothing/OuterClothing/WinterCoats/mantis_winter_coat_dark.rsi
     - type: Foldable
@@ -32,7 +38,17 @@
       foldVerbText: fold-rollsleeves-verb
       unfoldVerbText: fold-unrollsleeves-verb
     - type: FoldableClothing
-      foldedEquippedPrefix: folded
+      foldedEquippedPrefix: rolled
+
+- type: entity
+  parent: ClothingOuterWinterCoatMantisDark
+  id: ClothingOuterWinterCoatMantisDarkFolded
+  suffix: Folded
+  components:
+  - type: Foldable
+    folded: true
+  - type: Clothing
+    equippedPrefix: rolled
 
 - type: entity
   parent: ClothingOuterWinterCoatMantis

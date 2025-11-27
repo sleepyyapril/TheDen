@@ -36,7 +36,6 @@
   - type: Appearance
   - type: ItemTogglePointLight
   - type: ItemToggle
-    activated: true
     predictable: false
     soundActivate:
       path: /Audio/_DEN/Effects/crystalshimmer1.ogg
@@ -80,6 +79,14 @@
 
 - type: entity
   parent: LightSomberEidoliteWellLamp
+  id: LightSomberEidoliteWellLampOff
+  suffix: Disabled # Starts without casting light, but still glows
+  components:
+  - type: PointLight
+    enabled: false
+
+- type: entity
+  parent: LightSomberEidoliteWellLamp
   id: LightSomberEidoliteFloorLamp
   name: eidolite floor lamp
   description: "An eidolite pyramid that draws energy from the noosphere to produce light, mounted on a mnemolith column."
@@ -105,3 +112,11 @@
     enabled: true
     radius: 4
     energy: 3
+
+- type: entity
+  parent: LightSomberEidoliteFloorLamp
+  id: LightSomberEidoliteFloorLampOff
+  suffix: Disabled # Starts without casting light, but still glows
+  components:
+  - type: PointLight
+    enabled: false

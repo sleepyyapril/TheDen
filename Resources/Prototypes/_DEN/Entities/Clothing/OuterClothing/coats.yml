@@ -11,6 +11,12 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_airy.rsi
+    layers:
+    - state: icon
+      map: ["unfoldedLayer"]
+    - state: icon-flipped
+      map: ["foldedLayer"]
+      visible: false
   - type: Clothing
     sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_airy.rsi
   - type: Foldable

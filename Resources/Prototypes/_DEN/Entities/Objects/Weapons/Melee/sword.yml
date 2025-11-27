@@ -178,7 +178,6 @@
     foldedEquippedPrefix: flipped
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Melee/mantisgreatswordsheath.rsi
-    state: icon
   - type: Item
     sprite: _DEN/Objects/Weapons/Melee/mantisgreatswordsheath.rsi
     size: Ginormous

@@ -4,6 +4,7 @@
 
 # Slots for weapons on the mantis belts
 clothing-belt-mantisknife = Athame
+clothing-belt-mantissickle = Boline
 clothing-belt-mantiscane = Gnomon
 
 clothing-belt-radio = Radio

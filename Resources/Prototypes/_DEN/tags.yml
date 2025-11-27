@@ -93,6 +93,9 @@
 
 - type: Tag
   id: MantisKnife
+
+- type: Tag
+  id: MantisSickle
 # Mantis tags end, god almighty
 
 - type: Tag

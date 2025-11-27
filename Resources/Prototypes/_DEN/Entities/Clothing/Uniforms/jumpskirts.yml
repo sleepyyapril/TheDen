@@ -33,6 +33,12 @@
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Uniforms/Jumpskirt/mantis_ornate.rsi
+    layers:
+    - state: icon
+      map: ["unfoldedLayer"]
+    - state: icon-flipped
+      map: ["foldedLayer"]
+      visible: false
   - type: Clothing
     sprite: _DEN/Clothing/Uniforms/Jumpskirt/mantis_ornate.rsi
   - type: Foldable

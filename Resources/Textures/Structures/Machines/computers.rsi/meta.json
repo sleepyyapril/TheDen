@@ -1886,6 +1886,14 @@
         {
             "name": "service_keys",
             "directions": 4
+        },
+        {
+            "name": "mantis_key",
+            "directions": 4
+        },
+        {
+            "name": "mantis_key_off",
+            "directions": 4
         }
     ]
 }

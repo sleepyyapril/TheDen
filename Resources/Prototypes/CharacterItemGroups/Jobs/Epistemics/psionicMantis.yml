@@ -223,6 +223,8 @@
     - type: loadout
       id: LoadoutPsionicMantisMeleeKnife # Athame
     - type: loadout
+      id: LoadoutPsionicMantisMeleeSickle # Boline
+    - type: loadout
       id: LoadoutPsionicMantisMeleeFist # Manifold
     - type: loadout
       id: LoadoutPsionicMantisMeleeCane # Gnomon

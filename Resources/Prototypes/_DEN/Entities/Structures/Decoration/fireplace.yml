@@ -68,7 +68,7 @@
         shape:
           !type:PhysShapeAabb
           bounds: "-0.25,-0.25,0.25,0.25"
-        hard: false
+        hard: true
         density: 200
         mask:
         - MachineMask
@@ -86,6 +86,7 @@
     mode: WallmountLight
   components:
   - type: Sprite
+    drawdepth: SmallObjects
     noRot: true
     sprite: _DEN/Structures/Decoration/somberhangingbrazier.rsi
     layers:

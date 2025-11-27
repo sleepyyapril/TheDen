@@ -8,10 +8,13 @@
   },
   "states": [
     {
+      "name": "mantiscane"
+    },
+    {
       "name": "mantisknife"
     },
     {
-      "name": "mantiscane"
+      "name": "mantissickle"
     }
   ]
 }

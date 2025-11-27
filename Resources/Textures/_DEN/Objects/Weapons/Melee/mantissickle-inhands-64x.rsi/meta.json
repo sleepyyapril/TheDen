@@ -3,15 +3,12 @@
     "license": "CC-BY-SA-4.0",
     "copyright": "By Sha-Seng (GitHub)",
     "size": {
-        "x": 32,
-        "y": 32
+        "x": 64,
+        "y": 64
     },
     "states": [
         {
             "name": "icon"
-        },
-        {
-            "name": "icon-folded"
         },
         {
             "name": "inhand-left",
@@ -19,14 +16,6 @@
         },
         {
             "name": "inhand-right",
-            "directions": 4
-        },
-        {
-            "name": "equipped-BELT",
-            "directions": 4
-        },
-        {
-            "name": "folded-equipped-BELT",
             "directions": 4
         }
     ]

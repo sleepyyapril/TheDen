@@ -47,6 +47,8 @@
   id: SomberChairLeather
   name: somber leather chair
   description: "A plush leather office chair with electrum accents."
+  placement:
+    mode: SnapgridCenter
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/chairs.rsi

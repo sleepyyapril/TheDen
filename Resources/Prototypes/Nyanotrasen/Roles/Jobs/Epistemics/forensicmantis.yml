@@ -40,7 +40,7 @@
           inverted: true
           traits:
             - ShadowkinBlackeye
-  startingGear: ForensicMantisGear
+  startingGear: MantisGear
   icon: "JobIconForensicMantis"
   supervisors: job-supervisors-rd
   canBeAntag: true # DeltaV - Mantis is no longer a Detective
@@ -62,9 +62,9 @@
         - AssayPower # Doesn't take a power slot
 
 - type: startingGear
-  id: ForensicMantisGear
+  id: MantisGear # TheDen
   subGear:
-  - ForensicMantisPlasmamanGear
+  - MantisPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMantisDark # TheDen
     back: ClothingBackpackMantis # TheDen - Nothing to fill it with anymore
@@ -74,7 +74,7 @@
     # eyes: ClothingEyesGlassesSunglasses # TheDen
     ears: ClothingHeadsetMantis # TheDen
     gloves: ClothingHandsGlovesMantisDark # TheDen
-    outerClothing: ClothingOuterCoatMantisAiry # TheDen
+    outerClothing: ClothingOuterWinterCoatMantisDarkFolded # TheDen
     belt: ClothingBeltMantisDark # TheDen
     # pocket1: BookPsionicsGuidebook # TheDen - Throwing this in their locker because it sucks
     pocket1: HandheldPsionicsRegistry # TheDen
@@ -83,7 +83,7 @@
   duffelbag: ClothingBackpackDuffelMantis # TheDen - Nothing to fill it with anymore
 
 - type: startingGear
-  id: ForensicMantisPlasmamanGear
+  id: MantisPlasmamanGear
   parent: BasePlasmamanGear
   equipment:
     jumpsuit: ClothingUniformEnvirosuitMantis

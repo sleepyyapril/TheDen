@@ -12,9 +12,14 @@
     foldedEquippedPrefix: flipped
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
-    state: icon
+    layers:
+    - state: icon
+      map: ["unfoldedLayer"]
+    - state: icon-flipped
+      map: ["foldedLayer"]
+      visible: false
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
+    sprite:  _DEN/Objects/Weapons/Melee/mantissickle-inhands-64x.rsi
     size: Normal
   - type: Clothing
     sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
@@ -69,7 +74,7 @@
     bluntStaminaDamageFactor: 2.0
     damage:
       types:
-        Blunt: 14 # 21 DPS (same as CombatKnife), or 26.25 DPS against psions
+        Blunt: 14 # 21 DPS, or 26.25 DPS against psions
         Holy: 7 # 39.40 total DPS against psionic supernaturals
   - type: MeleeThrowOnHit
     speed: 20

@@ -721,6 +721,20 @@
     - MantisMeleeKnife # Athame
 
 - type: loadout
+  id: LoadoutPsionicMantisMeleeSickle
+  category: JobsEpistemicsPsionicMantis
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisMelee
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - MantisMeleeSickle # Boline
+
+- type: loadout
   id: LoadoutPsionicMantisMeleeFist
   category: JobsEpistemicsPsionicMantis
   cost: 0
