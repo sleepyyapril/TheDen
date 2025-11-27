@@ -14796,3 +14796,58 @@ Entries:
   id: 1445
   time: '2025-11-27T01:13:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2081
+- author: Zilanthros
+  changes:
+    - type: Tweak
+      message: charger was upgraded to turbo charger in botany
+    - type: Tweak
+      message: >-
+        fax machines have been renamed and verified [Bridge, Cargo, Library,
+        Medical, Psychology, Security]
+    - type: Tweak
+      message: removed unused reclaimer in disposals
+    - type: Tweak
+      message: rerouted visible wire in botany
+    - type: Tweak
+      message: >-
+        lighting issues in maintenance throughout the station, moved and added
+        lights as needed
+    - type: Add
+      message: placed daw in musician’s room and public bar
+    - type: Add
+      message: placed jukebox in public bar
+    - type: Tweak
+      message: changed frosted glass to tinted glass windows in spa showers
+    - type: Tweak
+      message: modified conveyer in kitchen to have on/off function
+    - type: Tweak
+      message: >-
+        maintenance access is currently locked to botany & kitchen, fixed to be
+        public access
+    - type: Tweak
+      message: lighting in botany, added sink/drain
+    - type: Tweak
+      message: chapel doors are not public access, has been fixed
+    - type: Tweak
+      message: one tile of border color is missing by the roller beds in medical
+    - type: Tweak
+      message: named service dorm room doors for better visibility
+    - type: Add
+      message: maintenance room under engineering was missing a window
+    - type: Add
+      message: southside window to Kitchen, adjusted lighting, apc & air alarm
+    - type: Add
+      message: >-
+        placed rack and materials [30 steel, glass, plastic sheets] to cargo for
+        smooth round start
+    - type: Add
+      message: placed daw to musician’s office and public bar
+    - type: Add
+      message: placed jukebox to Bar
+    - type: Tweak
+      message: updated Infinity based on notes and feedback in mapping forum
+    - type: Tweak
+      message: updated Perpetuity based on notes and feedback in mapping forum
+  id: 1446
+  time: '2025-11-27T02:54:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2082
