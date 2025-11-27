@@ -228,3 +228,17 @@
   spawn: FloorTileItemSomberSteelDiagonalMiniPurple
   maxCount: 30
   itemSize: 5
+
+- type: stack
+  id: FloorTileSomberWoodChess
+  name: somber wood floor (chess)
+  spawn: FloorTileItemSomberWoodChess
+  maxCount: 30
+  itemSize: 5
+
+- type: stack
+  id: FloorTileSomberWoodParquet
+  name: somber wood floor (parquet)
+  spawn: FloorTileItemSomberWoodParquet
+  maxCount: 30
+  itemSize: 5

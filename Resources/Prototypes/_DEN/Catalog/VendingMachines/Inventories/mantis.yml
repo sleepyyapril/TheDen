@@ -43,8 +43,9 @@
     ClothingShoesSandalsMantisDark: 1
     ClothingShoesSandalsMantisOrnate: 1
     ClothingUniformJumpsuitMantisLoincloth: 1 # It stays.
-  contrabandInventory:
-    MantisCasterPistolCapgun: 1 # A harmless capgun magazine for MantisRangedPistol
-    MantisCasterRevolverCapgun: 1 # A harmless capgun magazine for MantisRangedRevolver
-    MantisCasterShotgunCapgun: 1 # A harmless capgun magazine for MantisRangedShotgun
-    MantisCasterSubMachineGunCapgun: 1 # A harmless capgun magazine for MantisRangedSubMachineGun
+  contrabandInventory: # Silly toys below
+    MantisDollPlushie: 1
+    MantisCasterPistolCapgun: 1
+    MantisCasterRevolverCapgun: 1
+    MantisCasterShotgunCapgun: 1
+    MantisCasterSubMachineGunCapgun: 1

@@ -603,4 +603,44 @@
     collection: FootstepTile
   itemDrop: FloorTileItemSomberSteelDiagonalMiniPurple
   heatCapacity: 10000
+
+- type: tile
+  id: FloorSomberWoodChess
+  name: tiles-somber-wood-chess
+  sprite: /Textures/_DEN/Tiles/somber-wood-chess.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: FloorTileItemSomberWoodChess
+  heatCapacity: 10000
+
+- type: tile
+  id: FloorSomberWoodParquet
+  name: tiles-somber-wood-parquet
+  sprite: /Textures/_DEN/Tiles/somber-wood-parquet.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepWood
+  barestepSounds:
+    collection: BarestepWood
+  itemDrop: FloorTileItemSomberWoodParquet
+  heatCapacity: 10000
 # Somber tileset end

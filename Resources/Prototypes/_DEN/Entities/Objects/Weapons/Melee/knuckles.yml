@@ -71,7 +71,7 @@
     sprite: _DEN/Objects/Weapons/Melee/mantisfistdouble.rsi
   - type: MeleeWeapon
     attackRate: .8888
-    bluntStaminaDamageFactor: 2.0
+    bluntStaminaDamageFactor: 1.25
     damage:
       types:
         Blunt: 18.5 # 20.82 DPS, or 26.03 DPS against psions

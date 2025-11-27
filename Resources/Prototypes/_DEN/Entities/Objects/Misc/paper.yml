@@ -266,7 +266,7 @@
       sprite: Objects/Misc/bureaucracy.rsi
       heldPrefix: paper_mantis
     - type: Clothing # I tried putting these sprites in their own folder but the Clothing component doesn't actually read the sprite line below... Forgive me...
-      sprite: Objects/Misc/bureaucracy.rsi # And if the papers themselves were in their own folder, they either couldn't be stamped, or they'd have to have duplicates
+      sprite: Objects/Misc/bureaucracy.rsi # And if the papers were in their own folder, they either couldn't be stamped, or they'd have to replicate most of the folder...
       quickEquip: false
       slots: [ mask ] # You can wear it over your face like a paper talisman and the eye on it will pulse every few seconds, but this isn't noted anywhere
       clothingVisuals:

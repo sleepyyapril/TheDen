@@ -12,10 +12,6 @@
     - state: icon
     - state: screen
       shader: unshaded
-  - type: PointLight
-    radius: 1.5
-    energy: 1.5
-    color: "#b32d70"
   - type: Tag
     tags:
     - MantisBeltStorable
@@ -36,6 +32,14 @@
 #      - [ Library ]
       - [ Mantis ]
       - [ ResearchDirector ]
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellSmall
+        blacklist:
+          tags:
+          - MantisCaster
   - type: GuideHelp
     guides: [ MantisGuide ]
 
@@ -63,10 +67,6 @@
     - state: icon
     - state: screen
       shader: unshaded
-  - type: PointLight
-    radius: 1.5
-    energy: 1.5
-    color: "#b32d70"
   - type: Tag
     tags:
     - MantisBeltStorable
@@ -87,6 +87,15 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: StationLimitedNetwork
+  - type: PsionicsRecordsConsole
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellSmall
+        blacklist:
+          tags:
+          - MantisCaster
   - type: GuideHelp
     guides: [ MantisGuide ]
 

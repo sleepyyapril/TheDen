@@ -145,9 +145,9 @@
       cell_slot:
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
-        blacklist:
+        blacklist: # TheDen
           tags:
-          - MantisCaster # TheDen
+          - MantisCaster
   - type: HandheldLight
     addPrefix: false
     wattage: 0.5

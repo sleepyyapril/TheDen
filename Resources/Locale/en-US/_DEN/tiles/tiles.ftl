@@ -32,3 +32,5 @@ tiles-somber-steel-floor-diagonal-magenta = somber steel tile (diagonal, magenta
 tiles-somber-steel-floor-diagonal-mini-magenta = somber steel tile (diagonal, mini, magenta)
 tiles-somber-steel-floor-diagonal-purple = somber steel tile (diagonal, purple)
 tiles-somber-steel-floor-diagonal-mini-purple = somber steel tile (diagonal, mini, purple)
+tiles-somber-wood-chess = somber wood floor (chess)
+tiles-somber-wood-parquet = somber wood floor (parquet)

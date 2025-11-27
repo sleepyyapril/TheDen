@@ -211,7 +211,7 @@
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-shotgun.rsi
   - type: Item
-    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-shotgun.rsi
+    sprite: _DEN/Objects/Weapons/Guns/Battery/Mantis/mantis-shotgun-inhands-64x.rsi
     size: Normal
     shape:
     - 0,0,2,1 # 3x2 rectangle

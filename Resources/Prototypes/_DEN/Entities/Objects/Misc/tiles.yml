@@ -490,6 +490,34 @@
       - FloorSomberSteelDiagonalMiniPurple
   - type: Stack
     stackType: FloorTileSomberSteelDiagonalMiniPurple
+
+- type: entity
+  parent: FloorTileItemSomberWood
+  id: FloorTileItemSomberWoodChess
+  name: somber wood floor (chess)
+  components:
+  - type: Sprite
+    state: somber-wood-chess
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberWoodChess
+  - type: Stack
+    stackType: FloorTileSomberWoodChess
+
+- type: entity
+  parent: FloorTileItemSomberWood
+  id: FloorTileItemSomberWoodParquet
+  name: somber wood floor (parquet)
+  components:
+  - type: Sprite
+    state: somber-wood-parquet
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorSomberWoodParquet
+  - type: Stack
+    stackType: FloorTileSomberWoodParquet
 # Somber tileset end
 
 - type: entity
