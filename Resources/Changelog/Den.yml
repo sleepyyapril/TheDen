@@ -14851,3 +14851,13 @@ Entries:
   id: 1446
   time: '2025-11-27T02:54:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2082
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Light, dark, black, and red wood floors have been added, in parquet,
+        large, chess, and regular styles. These can be found in your
+        construction menu or the cutter machine.
+  id: 1447
+  time: '2025-11-27T08:07:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2083
