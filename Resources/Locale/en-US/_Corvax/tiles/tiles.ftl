@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 tiles-wood-parquet = parquet wood floor
 tiles-wood-chess = chess wood floor
 tiles-wood-black = black wood floor
