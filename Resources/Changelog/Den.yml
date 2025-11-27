@@ -14787,3 +14787,12 @@ Entries:
   id: 1444
   time: '2025-11-26T21:11:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2080
+- author: Eightballll
+  changes:
+    - type: Remove
+      message: >-
+        Removed competitive sex from the game. (no more sex outfits in the
+        boxingdrobe)
+  id: 1445
+  time: '2025-11-27T01:13:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2081
