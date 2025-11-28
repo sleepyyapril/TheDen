@@ -675,6 +675,7 @@
     - SecurityTechFabStaticAwfulDen
     dynamicPacks:
     - SecurityTechFabDynamicAwfulDen
+    - SecurityTechFabDynamicDenWeaponsNonMech
   - type: MaterialStorage
     whitelist:
       tags:

@@ -303,7 +303,6 @@
   - type: Appearance
 
 - type: entity
-  name: Lecter
   parent: WeaponRifleLecter
   id: WeaponRifleLecterRubber
   suffix: Non-lethal
