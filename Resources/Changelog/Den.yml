@@ -14887,3 +14887,10 @@ Entries:
   id: 1449
   time: '2025-11-28T08:15:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2088
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Increased capacity of bullets for .45 magnum boxes to 30 from 12.
+  id: 1450
+  time: '2025-11-28T10:08:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2087
