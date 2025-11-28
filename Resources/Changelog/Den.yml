@@ -14894,3 +14894,10 @@ Entries:
   id: 1450
   time: '2025-11-28T10:08:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2087
+- author: portfiend
+  changes:
+    - type: Fix
+      message: You can now view this changelog.
+  id: 1451
+  time: '2025-11-28T17:17:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2090
