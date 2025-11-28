@@ -1,10 +1,3 @@
-# SPDX-FileCopyrightText: 2024 flyingkarii
-# SPDX-FileCopyrightText: 2024 sleepyyapril
-# SPDX-FileCopyrightText: 2025 Carlen White
-# SPDX-FileCopyrightText: 2025 portfiend
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 Entries:
 - author: sleepyapril
   changes:
@@ -14908,3 +14901,10 @@ Entries:
   id: 1451
   time: '2025-11-28T17:17:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2090
+- author: portfiend
+  changes:
+    - type: Fix
+      message: You can now connect to the Eternity server from the lobby.
+  id: 1452
+  time: '2025-11-28T19:41:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2092
