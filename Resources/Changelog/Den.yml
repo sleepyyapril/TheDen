@@ -14876,3 +14876,14 @@ Entries:
   id: 1448
   time: '2025-11-27T21:09:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2084
+- author: portfiend
+  changes:
+    - type: Add
+      message: Carpets can now be printed at the cutter machine.
+    - type: Tweak
+      message: >-
+        Carpets now have a category in lathes (both the cutter machine and
+        uniform printer).
+  id: 1449
+  time: '2025-11-28T08:15:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2088
