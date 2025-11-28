@@ -155,9 +155,9 @@
   - type: LandAtCursor
   - type: DamageOtherOnHit
     staminaCost: 80 # You just threw a fucking coffin
-    maxHitQuantity: 5 # Imagine how this looks
-  - type: StaminaDamageOnCollide
-    damage: 15
+    maxHitQuantity: 4 # This is really three hits for some reason
+  - type: EmbeddableProjectile
+    embedOnThrow: false # It'll fly through people
   - type: ThrowingAngle
     angle: -180
     angularVelocity: true # Spins when thrown, it's not graceful

@@ -5,7 +5,7 @@
   description: "The smoke clings to your thoughts, enhancing your awareness of the noosphere."
   components:
   - type: Smokable
-    inhaleAmount: 0.15 # Same lifespan as a normal cig, but you get more mnemolith into you
+    inhaleAmount: 0.05 # The default value, included here for reference if mnemolith is rebalanced
   - type: Sprite
     sprite: _DEN/Objects/Consumable/Smokeables/Cigarettes/cigarettemantis.rsi
   - type: Item

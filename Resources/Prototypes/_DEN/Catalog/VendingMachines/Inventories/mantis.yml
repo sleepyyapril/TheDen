@@ -7,6 +7,7 @@
     CigPackMnemolith: 3
     CandleMantisSmall: 3
     CandleMantis: 3
+    CandleMantisCluster: 2
     MantisCaseSmall: 1 # Cute 1x2 gift box
     MantisCase: 1 # Cute 2x2 gift box
     SomberChairLeatherMantisWheelchairFolded: 1 # A spare in case someone's wheelchair gets destroyed
@@ -44,7 +45,9 @@
     ClothingShoesSandalsMantisOrnate: 1
     ClothingUniformJumpsuitMantisLoincloth: 1 # It stays.
   contrabandInventory: # Silly toys below
-    MantisDollPlushie: 1
+    PlushieDollMantis: 1
+    PersonalAISomber: 1
+    MantisTailorsKnife: 1
     MantisCasterPistolCapgun: 1
     MantisCasterRevolverCapgun: 1
     MantisCasterShotgunCapgun: 1

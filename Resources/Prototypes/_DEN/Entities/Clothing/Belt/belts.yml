@@ -39,6 +39,7 @@
     tags:
       - BeltSlotNotBelt
 
+# Mantis belts start
 - type: entity
   parent: [ClothingBeltMantis, BaseFoldable]
   id: ClothingBeltMantisAiry
@@ -95,6 +96,39 @@
     sprite: _DEN/Clothing/Belt/mantis_belt_ornate.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Belt/mantis_belt_ornate.rsi
+
+- type: entity # These belts contain some mantis loot if salvagers find dead mantes in space
+  parent: ClothingBeltMantisAiry
+  id: ClothingBeltMantisAiryLoot
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: MantisMeleeKnife
+      - id: CigPackMnemolith
+      - id: CigPackMnemolith
+      - id: CigPackMnemolith
+
+- type: entity
+  parent: ClothingBeltMantisDark
+  id: ClothingBeltMantisDarkLoot
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: MantisMeleeSickle
+
+- type: entity
+  parent: ClothingBeltMantisOrnate
+  id: ClothingBeltMantisOrnateLoot
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+      - id: MantisMeleeCane
+
+
+# Mantis belts end
 
 - type: entity
   parent: [ BaseBlueshieldOfficerContraband, ClothingBeltStorageBase ]

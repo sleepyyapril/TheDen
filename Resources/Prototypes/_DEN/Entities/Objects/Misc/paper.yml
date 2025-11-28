@@ -247,7 +247,7 @@
       - MantisBoxFolderStorable # Only the mantis pen, stamp, and papers should have this
 
 - type: entity
-  parent: [Paper, ClothingMaskPullableBase, BaseAntiPsionicObject]
+  parent: [Paper, ClothingMaskBase, BaseAntiPsionicObject]
   id: PaperMantis
   name: ledgerstone # It's a spooky pun - it comes from the mantis ledger and is made with stone powder, but a ledgerstone is a gravestone
   description: "A sharp, durable page taken from the mantis ledger. Mnemolith powder sparkles within its surface. You feel watched."
@@ -274,6 +274,10 @@
         - state: paper_mantis-equipped-MASK
         - state: paper_mantis-equipped-glow
           shader: unshaded
+    - type: HideLayerClothing
+      slots:
+      - Snout
+    - type: BreathMask
     - type: TypingIndicatorClothing # It gives you a new typing indicator if you wear it
       proto: mantis
     - type: PaperLabelType # So it can label containers with a unique sprite

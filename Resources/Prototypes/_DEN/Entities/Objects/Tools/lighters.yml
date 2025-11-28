@@ -38,6 +38,13 @@
     fuelConsumption: 0 # Powered by the noosphere
     fuelLitCost: 0 # Powered by the noosphere
     tankSafe: true
+  - type: SolutionContainerManager
+    solutions:
+      Welder:
+        reagents:
+        - ReagentId: WeldingFuel
+          Quantity: 1
+        maxVol: 1
   - type: ToggleableVisuals
     spriteLayer: mantis_lighter_flame
     inhandVisuals:
@@ -49,7 +56,6 @@
         shader: unshaded
   - type: PointLight
     radius: 2
-    softness: 1.1
     color: "#4dc4ff"
   - type: MeleeWeapon
     attackRate: .6666
@@ -69,4 +75,3 @@
   - type: Tag
     tags:
     - MantisBeltStorable
-    - MantisBoxCandlesStorable # Only the mantis lighter and candles should have this

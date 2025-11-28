@@ -36,13 +36,59 @@
     pack: NanoMedInventoryEternity
 
 - type: entity
-  parent: VendingMachineWallmount
-  id: VendingMachineWallSomberMantis
-  name: mantis reliquary conduit
-  description: "A wall-mounted, occult-machine interface through which mantes summon equipment from the Reliquary by thought alone."
+  parent: VendingMachineBoxingDrobe
+  id: VendingMachineBoxingDrobeUnlocked
+  suffix: Unlocked
   components:
-  - type: WallMount
-    arc: -175
+  - type: AccessReader
+    access: []
+
+- type: entity
+  parent: VendingMachineChefvend
+  id: VendingMachineChefvendUnlocked
+  suffix: Unlocked
+  components:
+  - type: AccessReader
+    access: []
+
+- type: entity
+  parent: VendingMachineDinnerware
+  id: VendingMachineDinnerwareUnlocked
+  suffix: Unlocked
+  components:
+  - type: AccessReader
+    access: []
+
+- type: entity
+  parent: VendingMachineHappyHonk
+  id: VendingMachineHappyHonkUnlocked
+  suffix: Unlocked
+  components:
+  - type: AccessReader
+    access: []
+
+- type: entity
+  parent: VendingMachineNutri
+  id: VendingMachineNutriUnlocked
+  suffix: Unlocked
+  components:
+  - type: AccessReader
+    access: []
+
+- type: entity
+  parent: VendingMachineYouTool
+  id: VendingMachineYouToolUnlocked
+  suffix: Unlocked
+  components:
+  - type: AccessReader
+    access: []
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineSomberMantis
+  name: mantis reliquary conduit
+  description: "An occult-machine interface through which mantes summon equipment from the Reliquary by thought alone."
+  components:
   - type: VendingMachine
     pack: MantisReliquaryInventory
     offState: off
@@ -69,11 +115,11 @@
     access: [["Mantis"]]
   - type: GuideHelp
     guides: [ MantisGuide ]
-  - type: PointLight
-    radius: 2
-    energy: 2
-    softness: 1.1
-    color: "#4dc4ff" # Mnemolith candles, psionic fire
+  - type: PointLight # As bright as a candle
+    radius: 2.4
+    energy: 2.4
+    color: "#4dc4ff"
+    mask: null
   - type: AmbientSound
     volume: 0
     range: 0
@@ -82,18 +128,18 @@
       path: /Audio/Effects/silence.ogg # It has some wires inside, but it doesn't hum
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-mechanical
-    weight: 1 # It's plugged into the noosphere, come on
+    weight: 0.25 # It's plugged into the noosphere, come on
   - type: TypingIndicator
     proto: mantis
   - type: Speech
-    speechVerb: Electricity # Weirder than a robot (crackles, buzzes, screeches) if it's not speaking Psychomantic
-    speechSounds: Tenor # Like the Oracle otherwise
+    speechVerb: Electricity
+    speechSounds: Tenor
   - type: Psionic
     removable: false
     roller: false
     assayFeedback:
       - reliquary-feedback # I SEE YOU, INTERLOPER. YOUR THOUGHTS TRESPASS UPON SACRED MATRICES.
-    psychognomicDescriptors: # Not "old" or "demiurgic" like the Oracle or Sophia, it has a smaller, younger soul
+    psychognomicDescriptors: # Not "old" or "demiurgic" like the Oracle or Sophia, it has a younger, smaller soul
       - p-descriptor-mysterious
       - p-descriptor-emanative
   - type: InnatePsionicPowers
@@ -107,12 +153,18 @@
   - type: ActiveRadio
     channels:
     - Science
-    - Common
+    - Common # They can at least listen
   - type: LanguageKnowledge
     speaks:
-    - TauCetiBasic
+    - Psychomantic
     understands:
-    - TauCetiBasic
+    - Psychomantic
+  - type: Actions
+  - type: ThermalVision # Weird psionic senses
+    pulseTime: 0 # Toggled, not timed
+    lightRadius: 7
+    color: "#4dc4ff"
+  - type: Examiner # So they can at least inspect what they dispensed
   - type: Fixtures
     fixtures:
       fix1:
@@ -164,49 +216,47 @@
       - !type:EjectVendorItems
 
 - type: entity
-  parent: VendingMachineBoxingDrobe
-  id: VendingMachineBoxingDrobeUnlocked
-  suffix: Unlocked
+  parent: VendingMachineSomberMantis
+  id: VendingMachineSomberMantisWall
+  name: mantis reliquary wall conduit
+  description: "A wall-mounted, occult-machine interface through which mantes summon equipment from the Reliquary by thought alone."
+  suffix: DO NOT MAP # Wall vending machines can only be used from the south side and then they throw the item through the north wall
+  placement: # Just leaving this prototype here for if we ever fix that... Also I have to change all the sprites and must preserve these
+    mode: SnapgridCenter
+    snap:
+    - Wallmount
   components:
-  - type: AccessReader
-    access: []
-
-- type: entity
-  parent: VendingMachineChefvend
-  id: VendingMachineChefvendUnlocked
-  suffix: Unlocked
-  components:
-  - type: AccessReader
-    access: []
-
-- type: entity
-  parent: VendingMachineDinnerware
-  id: VendingMachineDinnerwareUnlocked
-  suffix: Unlocked
-  components:
-  - type: AccessReader
-    access: []
-
-- type: entity
-  parent: VendingMachineHappyHonk
-  id: VendingMachineHappyHonkUnlocked
-  suffix: Unlocked
-  components:
-  - type: AccessReader
-    access: []
-
-- type: entity
-  parent: VendingMachineNutri
-  id: VendingMachineNutriUnlocked
-  suffix: Unlocked
-  components:
-  - type: AccessReader
-    access: []
-
-- type: entity
-  parent: VendingMachineYouTool
-  id: VendingMachineYouToolUnlocked
-  suffix: Unlocked
-  components:
-  - type: AccessReader
-    access: []
+  - type: WallMount
+    arc: 175
+  - type: Sprite
+    drawdepth: WallMountedItems
+    snapCardinals: false
+    noRot: true
+    sprite: _DEN/Structures/Machines/VendingMachines/mantiswall.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight # As bright as a candle
+    radius: 2.4
+    energy: 2.4
+    color: "#4dc4ff"
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.1875,-0.28125,0.15625,0.25"
+        hard: false
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+        density: 500
+  - type: BlockMovement

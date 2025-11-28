@@ -52,6 +52,9 @@
     slots:
       cell_slot:
         name: power-cell-slot-component-slot-name-default
+        blacklist:
+          tags:
+          - MantisCaster
 
 - type: entity # Sometimes mapped in mantis offices, but not otherwise part of the mantis's kit
   parent: [BaseHandheldComputer, BaseMantisContraband] # Not parented to the handheld crew monitor because it should never fulfill a steal objective
@@ -108,3 +111,6 @@
     slots:
       cell_slot:
         name: power-cell-slot-component-slot-name-default
+        blacklist:
+          tags:
+          - MantisCaster

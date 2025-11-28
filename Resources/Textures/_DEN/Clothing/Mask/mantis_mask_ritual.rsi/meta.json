@@ -22,6 +22,14 @@
       "directions": 4
     },
     {
+      "name": "inhand-left-glow",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right-glow",
+      "directions": 4
+    },
+    {
       "name": "equipped-MASK",
       "directions": 4
     },

@@ -42,3 +42,57 @@
     gloves: ClothingHandsGlovesMantisOrnate
     outerClothing: ClothingOuterCoatMantisOrnate
     belt: ClothingBeltMantisOrnate
+
+- type: startingGear # TODO: Kill this before publishing for review
+  id: MantisGearBreak
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMantisDark
+    back: ClothingBackpackSatchelMantisDebug
+    shoes: ClothingShoesSandalsMantisDark
+    head: ClothingHeadHatFezMantisAiry
+    eyes: ClothingEyesGlassesEpistemicsMantis
+    id: ForensicMantisPDA
+    ears: ClothingHeadsetMantis
+    gloves: ClothingHandsGlovesMantisOrnate
+    outerClothing: ClothingOuterCoatMantisOrnate
+    belt: ClothingBeltMantisAiryDebug
+    pocket1: HandheldPsionicsRegistry
+    pocket2: HandheldCrewMonitorMantis
+
+- type: entity # TODO: Kill this before publishing for review (doesn't even belong in this file)
+  categories: [ HideSpawnMenu ]
+  parent: ClothingBackpackSatchelMantis
+  id: ClothingBackpackSatchelMantisDebug
+  suffix: Debug, Filled
+  name: break's satchel
+  description: Filled with everything she'd want.
+  components:
+  - type: StorageFill
+    contents:
+      - id: PlushieDollMantis
+      - id: FlippoLighterMantis
+      - id: CigPackMnemolith
+      - id: MantisCaseCandles
+      - id: MantisTailorsKnife
+      - id: SomberChairLeatherMantisWheelchairFolded
+      - id: MantisRangedShotgun
+      - id: MantisCasterShotgunCrypto
+      - id: MantisCaseRestraints
+
+- type: entity # TODO: Kill this before publishing for review (doesn't even belong in this file)
+  parent: ClothingBeltMantisAiry
+  id: ClothingBeltMantisAiryDebug
+  suffix: Debug, Filled
+  name: break's belt
+  description: Filled with everything she'd want.
+  components:
+  - type: Foldable
+    folded: true
+  - type: Clothing
+    equippedPrefix: folded
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckMantisPendulum
+      - id: MantisCaseTools
+      - id: MantisCaseChemicals
+      - id: MantisMeleeSickle

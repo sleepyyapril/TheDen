@@ -14,6 +14,9 @@
       "name": "candle-big"
     },
     {
+      "name": "candle-cluster"
+    },
+    {
       "name": "inhand-left",
       "directions": 4
     },
@@ -34,6 +37,17 @@
     },
     {
       "name": "fire-big",
+      "delays": [
+        [
+          0.2,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "fire-cluster",
       "delays": [
         [
           0.2,

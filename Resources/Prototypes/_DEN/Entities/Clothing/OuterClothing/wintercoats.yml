@@ -44,6 +44,7 @@
   parent: ClothingOuterWinterCoatMantisDark
   id: ClothingOuterWinterCoatMantisDarkFolded
   suffix: Folded
+  categories: [ HideSpawnMenu ]
   components:
   - type: Foldable
     folded: true

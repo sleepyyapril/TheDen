@@ -167,7 +167,7 @@
     modifier: 0.01
 
 - type: entity
-  parent: [BaseAntiPsionicObject, BasePlushie, BaseKnife] # It has a tiny ritual knife...
+  parent: [BaseAntiPsionicWeapon, BasePlushie, BaseKnife] # It has a tiny ritual knife...
   id: PlushieDollMantis
   name: sentimental mantis doll
   description: "A cute little doll with a mantis fez and a toy ritual knife. Wait—why is it sharp!?"
@@ -186,5 +186,7 @@
       CottonBurger: MantisDollPlushie
   - type: ThrowingAngle
     angularVelocity: true
+  - type: DamageOtherOnHit
+    maxHitQuantity: 50 # SLASH DASH. This is so stupid. Each hit is only 1 damage and there will never be this many entities together
   - type: EmbeddableProjectile
-    embedOnThrow: false # She'll swipe through the first person you throw her at though (a single point of damage) (vicious)
+    embedOnThrow: false # She'll swipe through people instead of bounce off of them

@@ -47,12 +47,13 @@
     - type: Tag
       tags:
       - MantisBeltStorable
-      - MantisBoxCandlesStorable # Only the mantis lighter and candles should have this
+      - MantisBoxCandlesStorable
 
 - type: entity
   parent: CandleMantis
   id: CandleMantisSmall
   name: small mnemolith candle
+  description: "A small candle made with mnemolith powder. It doesn't want to go out."
   components:
     - type: Sprite
       layers:
@@ -60,3 +61,16 @@
           color: "#ffffff"
     - type: FireVisuals
       normalState: fire-small
+
+- type: entity
+  parent: CandleMantis
+  id: CandleMantisCluster
+  name: mnemolith candle cluster
+  description: "A cluster of candles made with mnemolith powder. Not a birthday cake."
+  components:
+    - type: Sprite
+      layers:
+        - state: candle-cluster
+          color: "#ffffff"
+    - type: FireVisuals
+      normalState: fire-cluster

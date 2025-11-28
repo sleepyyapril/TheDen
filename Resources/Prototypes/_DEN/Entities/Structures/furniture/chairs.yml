@@ -131,6 +131,9 @@
   suffix: Folded
   description: "An electrum orb concealing strange bluespace mechanisms that let it unfold into a plush leather office chair. Useful for mantes with mobility restrictions, or simply as versatile office furniture."
   components:
+  - type: Sprite
+    sprite: _DEN/Structures/Specific/Mantis/mantischair.rsi
+    state: vehicle_folded
   - type: Item
     size: Small
   - type: Foldable

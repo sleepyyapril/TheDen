@@ -121,6 +121,9 @@
         cell_slot:
           name: power-cell-slot-component-slot-name-default
           startingItem: PowerCellSmall
+          blacklist: # TheDen
+            tags:
+            - MantisCaster
 
 - type: entity
   id: PowerCellSlotMediumItem
@@ -136,6 +139,9 @@
         cell_slot:
           name: power-cell-slot-component-slot-name-default
           startingItem: PowerCellMedium
+          blacklist: # TheDen
+            tags:
+            - MantisCaster
 
 - type: entity
   id: PowerCellSlotHighItem
@@ -151,3 +157,6 @@
         cell_slot:
           name: power-cell-slot-component-slot-name-default
           startingItem: PowerCellHigh
+          blacklist: # TheDen
+            tags:
+            - MantisCaster

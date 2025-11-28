@@ -16,7 +16,6 @@
     enabled: true
     radius: 1.1
     energy: 0.5
-    softness: 1.1
     color: "#ffb869"
 
 - type: entity
@@ -36,7 +35,6 @@
     enabled: true
     radius: 1.1
     energy: 0.5
-    softness: 1.1
     color: "#6279f9"
 
 - type: entity
@@ -56,7 +54,6 @@
     enabled: true
     radius: 1.1
     energy: 0.5
-    softness: 1.1
     color: "#88b0d0"
 
 - type: entity
@@ -76,6 +73,5 @@
     enabled: true
     radius: 1.1
     energy: 0.5
-    softness: 1.1
     color: "#44fbf7"
 # Mantis impacts end
