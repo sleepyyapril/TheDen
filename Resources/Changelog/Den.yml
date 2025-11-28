@@ -14915,3 +14915,12 @@ Entries:
   id: 1453
   time: '2025-11-28T19:52:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2089
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        The "offer item" on-screen alert will now blink when you are being
+        offered an item.
+  id: 1454
+  time: '2025-11-28T19:54:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2091
