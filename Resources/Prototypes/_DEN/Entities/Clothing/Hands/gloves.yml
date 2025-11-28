@@ -67,9 +67,10 @@
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves.rsi
   - type: Fiber
     fiberColor: fibers-white
-  - type: Tag
+  - type: Tag # TheDen
     tags:
     - WhitelistChameleon
+    - MantisBeltStorable
 
 - type: entity
   parent: ClothingHandsGlovesMantis

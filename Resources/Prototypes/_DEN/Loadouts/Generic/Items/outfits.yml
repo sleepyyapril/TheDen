@@ -14,7 +14,7 @@
     ears: ClothingHeadsetMantis
     gloves: ClothingHandsGlovesMantisAiry
     outerClothing: ClothingOuterCoatMantisAiry
-    belt: ClothingBeltMantisAiry
+    belt: ClothingBeltMantisAiryLoot
 
 - type: startingGear
   id: MantisGearDark
@@ -28,7 +28,7 @@
     ears: ClothingHeadsetMantis
     gloves: ClothingHandsGlovesMantisDark
     outerClothing: ClothingOuterWinterCoatMantisDark
-    belt: ClothingBeltMantisDark
+    belt: ClothingBeltMantisDarkLoot
 
 - type: startingGear
   id: MantisGearOrnate
@@ -41,7 +41,7 @@
     ears: ClothingHeadsetMantis
     gloves: ClothingHandsGlovesMantisOrnate
     outerClothing: ClothingOuterCoatMantisOrnate
-    belt: ClothingBeltMantisOrnate
+    belt: ClothingBeltMantisOrnateLoot
 
 - type: startingGear # TODO: Kill this before publishing for review
   id: MantisGearBreak

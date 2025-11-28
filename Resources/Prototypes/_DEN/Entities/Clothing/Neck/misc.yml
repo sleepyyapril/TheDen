@@ -126,6 +126,7 @@
     angularVelocity: false
   - type: Tag
     tags:
+    - WhitelistChameleon
     - MantisBeltStorable
   - type: GuideHelp
     guides: [ MantisGuide ]

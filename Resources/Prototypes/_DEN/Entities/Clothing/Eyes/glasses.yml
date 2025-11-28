@@ -112,6 +112,10 @@
   - type: Clothing
     sprite: _DEN/Clothing/Eyes/Glasses/epiglasses_mantis.rsi
   - type: VisionCorrection
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+    - MantisBeltStorable
 
 - type: entity
   parent: [ClothingEyesGlassesEpistemicsMantis, BaseMantisContraband]

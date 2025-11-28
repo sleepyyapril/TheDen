@@ -23,3 +23,7 @@
           Off: { state: mantis-pai-off-overlay }
           Searching: { state: mantis-pai-searching-overlay }
           On: { state: mantis-pai-on-overlay }
+  - type: Tag
+    tags:
+    - SiliconEmotes
+    - MantisBeltStorable

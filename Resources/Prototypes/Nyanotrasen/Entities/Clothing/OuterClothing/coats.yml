@@ -32,9 +32,10 @@
   - type: TemperatureProtection
     heatingCoefficient: 0.3
     coolingCoefficient: 0.3
-  - type: Tag
+  - type: Tag # TheDen
     tags:
     - WhitelistChameleon
+    - MantisBeltStorable
 
 - type: entity
   parent: [ ClothingOuterStorageToggleableBase, ClothingUniformFoldableBase ]

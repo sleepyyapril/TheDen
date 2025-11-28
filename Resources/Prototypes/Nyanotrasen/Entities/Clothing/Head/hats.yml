@@ -175,10 +175,10 @@
     sprite: Nyanotrasen/Clothing/Head/Hats/mantis_fez.rsi
   - type: Clothing
     sprite: Nyanotrasen/Clothing/Head/Hats/mantis_fez.rsi
-  - type: Tag # TheDen - In case you put the foil one on, your other one can go in the belt
+  - type: Tag # TheDen
     tags:
-    - MantisBeltStorable
     - WhitelistChameleon
+    - MantisBeltStorable
 
 - type: entity
   parent: ClothingHeadBase

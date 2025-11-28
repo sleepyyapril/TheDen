@@ -90,6 +90,8 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: Foldable
+    canFoldInsideContainer: false
   - type: Sprite
     sprite: _DEN/Structures/Specific/Mantis/mantischair.rsi
     state: vehicle
@@ -138,6 +140,9 @@
     size: Small
   - type: Foldable
     folded: true
+  - type: Tag
+    tags:
+    - MantisBeltStorable
 
 - type: entity
   parent: UnanchoredChairBase

@@ -30,6 +30,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+    - MantisBeltStorable
   - type: Foldable
     canFoldInsideContainer: true
     foldVerbText: fold-flip-verb

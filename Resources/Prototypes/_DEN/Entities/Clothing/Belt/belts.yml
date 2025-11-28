@@ -104,10 +104,10 @@
   components:
   - type: StorageFill
     contents:
-      - id: MantisMeleeKnife
-      - id: CigPackMnemolith
-      - id: CigPackMnemolith
-      - id: CigPackMnemolith
+    - id: MantisMeleeKnife
+    - id: CigPackMnemolith
+    - id: FlippoLighterMantis
+    - id: SomberChairLeatherMantisWheelchairFolded
 
 - type: entity
   parent: ClothingBeltMantisDark
@@ -116,7 +116,12 @@
   components:
   - type: StorageFill
     contents:
-      - id: MantisMeleeSickle
+    - id: MantisMeleeSickle
+    - id: ClothingUniformJumpsuitMantisLoincloth
+    - id: ClothingNeckMantisShackles
+    - id: LeashMantis
+    - id: FlippoLighterMantis
+    - id: CandleMantisCluster
 
 - type: entity
   parent: ClothingBeltMantisOrnate
@@ -125,9 +130,12 @@
   components:
   - type: StorageFill
     contents:
-      - id: MantisMeleeCane
-
-
+    - id: MantisMeleeCane
+    - id: PillCanisterMnemolithMantis
+    - id: PillCanisterSpaceDrugsMantis
+    - id: PlushieDollMantis
+    - id: PersonalAISomber
+    - id: MantisTailorsKnife
 # Mantis belts end
 
 - type: entity

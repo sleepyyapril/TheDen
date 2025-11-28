@@ -269,20 +269,6 @@
 # Eyes
 
 - type: loadout
-  id: LoadoutPsionicMantisEyesEpiGlassesVisor
-  category: JobsEpistemicsPsionicMantis
-  cost: 3
-  exclusive: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutPsionicMantisEyes
-    - !type:CharacterJobRequirement
-      jobs:
-        - ForensicMantis
-  items:
-    - ClothingEyesGlassesEpistemicsVisor
-
-- type: loadout
   id: LoadoutPsionicMantisEyesEpiGlassesMantis
   category: JobsEpistemicsPsionicMantis
   cost: 3
@@ -327,7 +313,7 @@
 # Gloves
 
 - type: loadout
-  id: LoadoutPsionicMantisGlovesClassic
+  id: LoadoutPsionicMantisGlovesDated
   category: JobsEpistemicsPsionicMantis
   cost: 0
   exclusive: true

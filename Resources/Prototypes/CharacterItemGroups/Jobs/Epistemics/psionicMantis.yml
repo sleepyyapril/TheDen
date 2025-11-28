@@ -90,8 +90,6 @@
     - type: loadout
       id: LoadoutPsionicMantisEyesEpiGlasses
     - type: loadout # TheDen
-      id: LoadoutPsionicMantisEyesEpiGlassesVisor
-    - type: loadout # TheDen
       id: LoadoutPsionicMantisEyesEpiGlassesMantis
     - type: loadout # TheDen
       id: LoadoutPsionicMantisEyesEpiGlassesMantisTinted
@@ -105,7 +103,7 @@
     - type: loadout
       id: LoadoutClothingHandsMantisEpiWarmers
     - type: loadout # TheDen
-      id: LoadoutPsionicMantisGlovesClassic
+      id: LoadoutPsionicMantisGlovesDated
     - type: loadout # TheDen
       id: LoadoutPsionicMantisGlovesAiry
     - type: loadout # TheDen

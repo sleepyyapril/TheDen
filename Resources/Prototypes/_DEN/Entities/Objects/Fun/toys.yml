@@ -190,3 +190,8 @@
     maxHitQuantity: 50 # SLASH DASH. This is so stupid. Each hit is only 1 damage and there will never be this many entities together
   - type: EmbeddableProjectile
     embedOnThrow: false # She'll swipe through people instead of bounce off of them
+  - type: Tag
+    tags:
+    - Payload
+    - ClothMade
+    - MantisBeltStorable
