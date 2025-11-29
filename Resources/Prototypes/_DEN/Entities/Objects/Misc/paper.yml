@@ -229,7 +229,7 @@
     angle: -45
   - type: PhysicalComposition
     materialComposition:
-      MaterialMnemolith1: 1
+      Mnemolith: 100
   - type: EmitSoundOnUse
     sound:
       path: /Audio/_DEN/Effects/crystalbell1.ogg
@@ -287,6 +287,7 @@
     - type: FlavorProfile
       flavors:
         - mantispaper
+        - mnemolith
     - type: SolutionContainerManager
       solutions:
         food: # The mnemolith powder in the paper itself (if it's eaten)

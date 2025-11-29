@@ -634,6 +634,10 @@
   components:
   - type: Bloodstream
     bloodReagent: MnemolithReagent
+    chemicalMaxVolume: 75
+  - type: MeleeChemicalInjector
+    solution: bloodstream
+    transferAmount: 3
   - type: PointLight
     color: "#313b4a"
   - type: Sprite

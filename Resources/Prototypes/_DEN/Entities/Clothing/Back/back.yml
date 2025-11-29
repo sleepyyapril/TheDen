@@ -66,6 +66,7 @@
     - state: icon-flipped
       map: ["foldedLayer"]
       visible: false
+  - type: Appearance
   - type: Foldable
     canFoldInsideContainer: true
     foldVerbText: fold-flip-verb
@@ -87,6 +88,7 @@
     - state: icon-flipped
       map: ["foldedLayer"]
       visible: false
+  - type: Appearance
   - type: Foldable
     canFoldInsideContainer: true
     foldVerbText: fold-flip-verb
@@ -126,6 +128,7 @@
     - state: icon-flipped
       map: ["foldedLayer"]
       visible: false
+  - type: Appearance
   - type: Foldable
     canFoldInsideContainer: true
     foldVerbText: fold-flip-verb
@@ -150,7 +153,7 @@
     sound:
       path: /Audio/Effects/metal_slam2.ogg # Please imagine a mantis dragging this thing down a hallway pursuing someone like Pyramid Head
       params:
-        volume: -4
+        volume: -6
         variation: 0.05
   - type: LandAtCursor
   - type: DamageOtherOnHit
@@ -163,22 +166,20 @@
     angularVelocity: true # Spins when thrown, it's not graceful
   - type: MeleeWeapon # You can smash people with it, but it's not a good weapon, more just dramatic
     wideAnimationRotation: 180
-    attackRate: 1.5 # Like a greatsword without the damage
+    attackRate: 2
     range: 1.5
     angle: 120
     maxTargets: 5
     disableClick: true # You can't just smash someone with it directly, it's so big you have to swing the whole thing clumsily
-    heavyRateModifier: 1 # Same speed
-    heavyRangeModifier: 1.85 # Same range
-    heavyDamageBaseModifier: 1 # Same damage
+    heavyStaminaCost: 20 # And every time costs you a chunk of stamina
     damage:
       types:
-        Blunt: 11.25 # 7.5 DPS (same as Crowbar)
+        Blunt: 15 # 7.5 DPS (same as Crowbar)
         Structural: 15
     soundHit:
       path: /Audio/Effects/metal_slam2.ogg
       params:
-        volume: -4
+        volume: -6
         variation: 0.05
     soundSwing:
       path: /Audio/_DEN/Weapons/Melee/bigswoosh.ogg
@@ -188,7 +189,7 @@
     soundNoDamage:
       path: /Audio/Effects/metal_slam2.ogg
       params:
-        volume: -4
+        volume: -6
         variation: 0.05
   - type: MeleeThrowOnHit # So heavy it knocks targets back a little
     speed: 5

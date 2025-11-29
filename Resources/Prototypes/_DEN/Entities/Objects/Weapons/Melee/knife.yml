@@ -129,9 +129,9 @@
   - type: UseDelay
     delay: 1
   - type: MeleeWeapon
-    attackRate: 1.3333 # Twice as slow as athame, but twice the damage, so same DPS
-    range: 1.5
-    angle: 60 # Swings a little wider wider than athame, but easier to disarm
+    attackRate: 1.3333 # Twice as slow as the athame, but twice the damage, so same DPS
+    range: 1.5 # Same range as the athame
+    angle: 60 # Swings a little wider wider than the athame, but easier to disarm
     wideAnimationRotation: -135
     damage:
       types:

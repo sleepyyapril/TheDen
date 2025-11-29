@@ -10,8 +10,8 @@
   - type: Handcuff
     breakoutTime: 1 # Is this low enough? These cuffs are just for roleplay
     cuffTime: 5 # Long enough for a player to interrupt the doafter if they don't want to roleplay that
-    stunBonus: -2 # You shouldn't be able to force these onto someone who's stunned
-    uncuffTime: 3
+    stunBonus: -5 # You shouldn't be able to force these onto someone who's stunned
+    uncuffTime: 1
     cuffedRSI: _DEN/Objects/Misc/handcuffsmantis.rsi
     bodyIconState: body-overlay
     breakOnRemove: false
@@ -22,7 +22,7 @@
     startUncuffSound:
       path: /Audio/_DEN/Items/Handcuffs/chain_start.ogg
     endUncuffSound:
-      path: /Audio/_DEN/Items/Handcuffs/chain_breakout.ogg
+      path: /Audio/_DEN/Items/Handcuffs/chain_end.ogg
     startBreakoutSound:
       path: /Audio/_DEN/Items/Handcuffs/chain_takeoff.ogg
   - type: Sprite

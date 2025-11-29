@@ -5,22 +5,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-- files: ["chain_breakout.ogg"]
-  license: "CC0"
-  copyright: "Made by agaudiodesigns via freesound.org"
-  source: "https://freesound.org/people/agaudiodesigns/sounds/500558/"
-
-- files: ["chain_end.ogg"]
-  license: "CC0"
-  copyright: "Made by agaudiodesigns via freesound.org"
-  source: "https://freesound.org/people/agaudiodesigns/sounds/500558/"
-
-- files: ["chain_start.ogg"]
-  license: "CC0"
-  copyright: "Made by agaudiodesigns via freesound.org"
-  source: "https://freesound.org/people/agaudiodesigns/sounds/500558/"
-
-- files: ["chain_takeoff.ogg"]
+- files: ["chain_end.ogg", "chain_start.ogg", "chain_takeoff.ogg"]
   license: "CC0"
   copyright: "Made by agaudiodesigns via freesound.org"
   source: "https://freesound.org/people/agaudiodesigns/sounds/500558/"

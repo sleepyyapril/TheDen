@@ -4,7 +4,7 @@
   parent: Wrench
   id: WrenchMantis
   name: electrum spanner
-  description: "An unusual wrench made of electrum and amaranth, given to mantes to anchor the graven chains of unruly psionic subjects."
+  description: "An unusual wrench made of exotic materials, given to mantes to anchor the graven chains of unruly psionic subjects."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Specific/Mantis/wrenchmantis.rsi
@@ -18,7 +18,7 @@
     storedOffset: 0,9
   - type: PhysicalComposition
     materialComposition:
-      ScrapElectrum: 1
+      Eidolite: 100
   - type: Tag
     tags:
     - Wrench

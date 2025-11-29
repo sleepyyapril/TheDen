@@ -9,6 +9,11 @@
     sprite: _DEN/Structures/Power/somber_cell_recharger.rsi
   - type: Charger
     chargeRate: 20 # This is the default value, I'm just putting it here for battery math
+  - type: PointLight
+    enabled: true
+    radius: 1.4
+    energy: 1.4
+    color: "#d9418d"
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic

@@ -2,7 +2,7 @@
   parent: BaseStructure
   id: LightSomberEidoliteWellLamp
   name: eidolite well lamp
-  description: "An eidolite pyramid that draws energy from the noosphere to produce light, recessed into the ground."
+  description: "An eidolite pyramid that draws energy from the noosphere to produce light, recessed into the ground. You can turn it on by hand."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Lighting/LightPosts/lampeidolitewell.rsi
@@ -29,8 +29,8 @@
   - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
     enabled: true
-    radius: 3.1
-    energy: 3
+    radius: 3
+    energy: 4
     softness: 1.1
     color: "#d9418d"
   - type: Appearance
@@ -89,7 +89,7 @@
   parent: LightSomberEidoliteWellLamp
   id: LightSomberEidoliteFloorLamp
   name: eidolite floor lamp
-  description: "An eidolite pyramid that draws energy from the noosphere to produce light, mounted on a mnemolith column."
+  description: "An eidolite pyramid that draws energy from the noosphere to produce light, mounted on a mnemolith column. You can turn it on by hand."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Lighting/LightPosts/lampeidolitefloor.rsi
@@ -99,7 +99,7 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.125,-0.28125,0.09375,0.0625"
+          bounds: "-0.01,0.1,0.01,0.35"
         hard: true
         density: 200
         mask:
@@ -111,7 +111,7 @@
   - type: PointLight
     enabled: true
     radius: 4
-    energy: 3
+    energy: 6
 
 - type: entity
   parent: LightSomberEidoliteFloorLamp

@@ -140,9 +140,9 @@
       weight: 0.5
     - id: ResearchDisk20000
       weight: 0.5
-    - id: MaterialEidolite1 # TheDen - Pretty rock to sell
+    - id: MaterialEidolite1 # TheDen - Pretty rock, worth 500 each
       amount: !type:RangeNumberSelector
-        range: 1, 2
+        range: 3, 5
     - !type:NestedSelector
       tableId: TreasureCoinPileRare
       rolls: !type:RangeNumberSelector
@@ -178,7 +178,7 @@
     - id: TreasureCoinDiamond
       amount: !type:RangeNumberSelector
         range: 2, 5
-    - id: MaterialEidolite1 # TheDen - Pretty rock to sell
+    - id: MaterialEidolite1 # TheDen - Pretty rock, worth 500 each
       amount: !type:RangeNumberSelector
         range: 2, 5
     - !type:NestedSelector

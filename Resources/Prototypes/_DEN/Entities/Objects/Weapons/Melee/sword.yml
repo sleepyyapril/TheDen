@@ -104,7 +104,7 @@
   - type: MeleeWeapon
     attackRate: 1.5
     range: 1.85
-    angle: 90 # A narrower swing than other greatswords because your character is aware of the consequences
+    angle: 90
     maxTargets: 10 # When you see a stat that looks good, just remember that if you hit anything non-psionic, you lose
     heavyRateModifier: 1 # Same speed
     heavyRangeModifier: 1 # Same range
@@ -194,7 +194,7 @@
     sound:
       path: /Audio/Effects/metal_slam1.ogg
       params:
-        volume: -2
+        volume: -4
         variation: 0.05
   - type: Appearance
   - type: ContainerContainer

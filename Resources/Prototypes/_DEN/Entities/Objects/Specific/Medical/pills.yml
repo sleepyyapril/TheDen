@@ -216,7 +216,7 @@
   description: "Powdered and pressed mnemolith, used by mantes to heighten their extrasensory perception. Potential psychological impact aside, there are no known lasting effects."
   components:
   - type: Label
-    currentLabel: mnemolith 10u
+    currentLabel: mnemolith 15u
   - type: Sprite
     sprite: _DEN/Objects/Specific/Mantis/pillcanistermantis.rsi
     layers:
@@ -231,13 +231,13 @@
 
 - type: entity
   name: pill
-  suffix: mnemolith 10u
+  suffix: mnemolith 15u
   parent: Pill
   id: PillMnemolith
   description: "Powdered and pressed mnemolith."
   components:
   - type: Label
-    currentLabel: mnemolith 10u
+    currentLabel: mnemolith 15u
   - type: Sprite # Mnemolith colored pill
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
     state: mnemolithpill
@@ -249,10 +249,10 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 10
+        maxVol: 15
         reagents:
         - ReagentId: MnemolithReagent
-          Quantity: 10 # Controlled dosing, so 10u
+          Quantity: 15
   - type: GuideHelp
     guides: [ MantisGuide ]
 

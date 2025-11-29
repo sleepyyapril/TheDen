@@ -18,6 +18,7 @@
     - state: icon-flipped
       map: ["foldedLayer"]
       visible: false
+  - type: Appearance
   - type: Item
     sprite: _DEN/Objects/Weapons/Melee/mantisfist.rsi
     size: Normal
@@ -27,9 +28,6 @@
     attackRate: .6666
     range: 1.5
     angle: 60
-    heavyRateModifier: 1 # Same speed
-    heavyRangeModifier: 1 # Same range
-    heavyDamageBaseModifier: 1 # Same damage
     damage:
       types:
         Blunt: 8 # 12 DPS, or 15 DPS against psions (same as CombatKnife)

@@ -5,6 +5,9 @@
   description: "A dark, glassy stone that forms during severe noospheric storms. It absorbs the intent of psions, allowing it to be \"taught\" new properties and repurposed for different uses. Commonly employed in the construction of esoteric tools, but you don't know how." # Edit that last bit out if it gets crafting recipes
   suffix: Full
   components:
+  - type: PhysicalComposition
+    materialComposition:
+      Mnemolith: 100
   - type: Sprite
     sprite: _DEN/Objects/Materials/materials.rsi
     state: mnemolith
@@ -19,7 +22,7 @@
   - type: Appearance
   - type: Tag
     tags:
-    # - RawMaterial # No need to put it in a lathe
+    - RawMaterial
     - MantisBeltStorable # Why not, their gear is made of it
   - type: Stack
     stackType: Mnemolith
@@ -36,18 +39,30 @@
       mnemolith:
         reagents:
         - ReagentId: MnemolithReagent
-          Quantity: 20
-  - type: Destructible
+          Quantity: 15
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Metallic
+  - type: Destructible # No real reason to break it, but if you do it turns into powder
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 5 # 8 hits with a crowbar
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:
-            MnemolithPowder: # No reason to break it, but if you do it turns to powder
+            MnemolithPowder:
               min: 1
               max: 1
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100 # Unless it gets nuked, then it just disappears to prevent lag
+      behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
 
@@ -60,7 +75,7 @@
     count: 1
 
 - type: entity
-  parent: BaseItem # No longer a material, more like ash now
+  parent: BaseItem # No longer really a material, more like ash now
   id: MnemolithPowder
   name: mnemolith powder
   description: "The pulverized remains of a dark, glassy stone that forms during severe noospheric storms. It absorbs the intent of psions, allowing it to be \"taught\" new properties and repurposed for different uses, though in powder form it only serves medicinal purposes. Potential psychological impact aside, there are no known lasting effects."
@@ -102,6 +117,9 @@
   description: "A crystal that draws energy from the noosphere, often found alongside and within the mnemolith deposits that form during severe noospheric storms. Left to itself, it gradually reshapes into a pyramid unless physically or psionically constrained. You have no idea how to use it." # Edit that last bit out if it gets crafting recipes
   suffix: Full
   components:
+  - type: PhysicalComposition
+    materialComposition:
+      Eidolite: 100
   - type: Sprite
     sprite: _DEN/Objects/Materials/materials.rsi
     state: eidolite
@@ -116,7 +134,7 @@
   - type: Appearance
   - type: Tag
     tags:
-    # - RawMaterial # No need to put it in a lathe
+    - RawMaterial
     - MantisBeltStorable # Why not, their gear is made of it
   - type: Stack
     stackType: Eidolite
@@ -132,10 +150,31 @@
     energy: 2.5
     castShadows: false
     color: "#d9418d"
-  - type: StaticPrice
-    price: 0
-  - type: StackPrice # Gamer loot for salvagers
-    price: 500
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: Glass
+  - type: Destructible # No real reason to break it, but if you do it just splits into shards like its description suggests
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 5 # 1 hit with a crowbar
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+            MaterialEidolite1: # No eidolite is lost because it's like a weird metamaterial
+              min: 1
+              max: 1
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100 # Unless it gets nuked, then it just disappears to prevent lag
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
 
 - type: entity
   parent: MaterialEidolite

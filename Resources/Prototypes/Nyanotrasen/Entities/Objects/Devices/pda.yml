@@ -145,7 +145,8 @@
       visible: false
   - type: PointLight
     enabled: false
-    radius: 2
+    radius: 1.75
+    energy: 2
     color: "#d9418d"
   - type: Pda
     id: ForensicMantisIDCard

@@ -25,6 +25,7 @@
     - state: icon-folded
       map: ["foldedLayer"]
       visible: false
+  - type: Appearance
   - type: Clothing
     sprite: _DEN/Clothing/Neck/Cloaks/mantis_cloak_dark.rsi
   - type: Tag

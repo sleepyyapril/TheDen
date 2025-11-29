@@ -32,9 +32,8 @@
     sound:
       path: /Audio/Ambience/Objects/fireplace.ogg
   - type: PointLight
-    radius: 4.1
-    energy: 3
-    softness: 1.1
+    radius: 4
+    energy: 6
     color: "#4dc4ff"
   - type: AlwaysHot
   - type: Damageable
@@ -67,7 +66,7 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.25,-0.25,0.25,0.25"
+          bounds: "-0.05,0.1,0.05,0.35"
         hard: true
         density: 200
         mask:
@@ -109,8 +108,8 @@
         christmas:
           festive: { visible: true }
   - type: PointLight
-    radius: 3.1
-    energy: 3
+    radius: 3
+    energy: 4
     softness: 1.1
     color: "#4dc4ff"
   - type: AlwaysHot

@@ -18,9 +18,8 @@
     - type: EtherealLight # Dims around ethereal entities
     - type: PointLight
       enabled: false
-      radius: 3.1
-      energy: 3 # 0.5 brighter than a normal lantern because it's a darker color
-      softness: 1.1
+      radius: 3
+      energy: 4
       color: "#d9418d"
       netsync: false
     - type: Appearance

@@ -10,9 +10,9 @@
     sprite: _DEN/Structures/Machines/somberholopad.rsi
   - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
-    radius: 1.5
-    energy: 1.6
-    color: "#d9418d"
+    radius: 1.75
+    energy: 2
+    color: "#9382c6" # A mix of the two colors of lights it has
   - type: Speech
     speechVerb: Electricity # Crackles, buzzes, screeches since it's a weirder holopad
     speechSounds: SyndieBorg # Identical to borg, only slightly deeper, same reason as above
@@ -27,9 +27,9 @@
     sprite: _DEN/Structures/Machines/somberholopad.rsi
   - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
-    radius: 1.5
-    energy: 1.6
-    color: "#d9418d"
+    radius: 2
+    energy: 4
+    color: "#9382c6"
   - type: Speech
     speechVerb: Electricity
     speechSounds: SyndieBorg
@@ -44,9 +44,9 @@
     sprite: _DEN/Structures/Machines/somberholopad.rsi
   - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
-    radius: 1.5
-    energy: 1.6
-    color: "#d9418d"
+    radius: 2
+    energy: 4
+    color: "#9382c6"
   - type: Speech
     speechVerb: Electricity
     speechSounds: SyndieBorg
@@ -62,9 +62,9 @@
     sprite: _DEN/Structures/Machines/somberholopad.rsi
   - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
-    radius: 1.5
-    energy: 1.6
-    color: "#d9418d"
+    radius: 2
+    energy: 4
+    color: "#9382c6"
   - type: Speech
     speechVerb: Electricity
     speechSounds: SyndieBorg

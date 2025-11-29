@@ -57,8 +57,7 @@
         acts: [ "Destruction" ]
   - type: PhysicalComposition
     materialComposition:
-      MaterialEidolite1: 1
-      ScrapElectrum: 1
+      Eidolite: 100
   - type: Tag
     tags:
     - Bottle
