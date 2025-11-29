@@ -14952,3 +14952,12 @@ Entries:
   id: 1457
   time: '2025-11-29T01:40:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2086
+- author: Jakumba
+  changes:
+    - type: Add
+      message: New admin smite that stops bodies rotting
+    - type: Tweak
+      message: Some behind the scenes work for Blood Cult
+  id: 1458
+  time: '2025-11-29T01:41:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2063
