@@ -14933,3 +14933,13 @@ Entries:
   id: 1455
   time: '2025-11-29T01:29:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2094
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        The Vulcan, Drozd, and Lecter are now in the sec techfab behind the Tier
+        2 weapons research. The Kammerer is also in the lathe behind a Tier 1
+        weapons research.
+  id: 1456
+  time: '2025-11-29T01:40:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2093
