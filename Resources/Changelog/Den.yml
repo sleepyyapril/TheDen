@@ -14961,3 +14961,12 @@ Entries:
   id: 1458
   time: '2025-11-29T01:41:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2063
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        The WSPR was buffed to be a faster firing auto rifle instead of a burst
+        weapon. It now does 99 DPS.
+  id: 1459
+  time: '2025-11-29T02:18:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2097
