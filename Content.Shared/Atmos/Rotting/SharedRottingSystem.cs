@@ -2,6 +2,7 @@
 // SPDX-FileCopyrightText: 2024 Kara
 // SPDX-FileCopyrightText: 2024 VMSolidus
 // SPDX-FileCopyrightText: 2024 XavierSomething
+// SPDX-FileCopyrightText: 2025 Jakumba
 // SPDX-FileCopyrightText: 2025 portfiend
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //

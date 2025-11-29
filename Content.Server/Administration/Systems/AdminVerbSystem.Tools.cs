@@ -15,6 +15,7 @@
 // SPDX-FileCopyrightText: 2024 Nemanja
 // SPDX-FileCopyrightText: 2024 SimpleStation14
 // SPDX-FileCopyrightText: 2024 c4llv07e
+// SPDX-FileCopyrightText: 2025 Jakumba
 // SPDX-FileCopyrightText: 2025 Shaman
 // SPDX-FileCopyrightText: 2025 portfiend
 // SPDX-FileCopyrightText: 2025 sleepyyapril

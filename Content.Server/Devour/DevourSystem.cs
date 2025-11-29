@@ -3,7 +3,6 @@
 // SPDX-FileCopyrightText: 2023 TemporalOroboros
 // SPDX-FileCopyrightText: 2024 cynical
 // SPDX-FileCopyrightText: 2024 zelezniciar1
-// SPDX-FileCopyrightText: 2025 GoobBot
 // SPDX-FileCopyrightText: 2025 Jakumba
 // SPDX-FileCopyrightText: 2025 Rouden
 // SPDX-FileCopyrightText: 2025 Roudenn
