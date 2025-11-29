@@ -5,8 +5,9 @@
 
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterVestValet
+  id: ClothingOuterVestValetNyano # DEN: ID change for migration to DEN prototype
   name: valet vest
+  suffix: Old # DEN
   description: A goofy red vest almost certainly designed with the sole purpose of being demeaning.
   components:
   - type: Sprite
