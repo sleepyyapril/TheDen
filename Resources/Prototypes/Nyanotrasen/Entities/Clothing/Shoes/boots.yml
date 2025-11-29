@@ -11,6 +11,7 @@
   name: dated mantis boots
   description: "Soft, comfortable, and good for rough terrain. All the company would pay for prior to the mantis equipment refresh." # TheDen
   components:
+  - type: Appearance
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Shoes/Boots/mantis_boots.rsi
   - type: Clothing
