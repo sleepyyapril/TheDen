@@ -18,6 +18,8 @@
     - state: subdepartment
       color: "#A54900"
     - state: warden
+  - type: PresetIdCard
+    job: Prisoner
   - type: Item
     heldPrefix: orange
   - type: Access
