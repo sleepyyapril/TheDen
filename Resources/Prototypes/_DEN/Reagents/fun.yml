@@ -91,7 +91,7 @@
           - "reagent-effect-mnemolith-megadose17" # "Without walls."
           - "reagent-effect-mnemolith-megadose18" # "Beyond form."
           - "reagent-effect-mnemolith-megadose19" # "SEE ME."
-          - "reagent-effect-mnemolith-megadose20" # "I remember you.""
+          - "reagent-effect-mnemolith-megadose20" # "I remember you."
         probability: 0.2
         conditions:
         - !type:ReagentThreshold
