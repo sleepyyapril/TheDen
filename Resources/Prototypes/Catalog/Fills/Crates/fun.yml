@@ -112,8 +112,6 @@
       - !type:EntSelector
         id: PlushieAlice
       - !type:EntSelector
-        id: PlushieTabi
-      - !type:EntSelector
         id: PlushieJenn
       - !type:EntSelector
         id: PlushieSharkBlue
