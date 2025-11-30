@@ -14985,3 +14985,10 @@ Entries:
   id: 1460
   time: '2025-11-29T19:47:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2098
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: You can no longer blood pack reagent slimes for easy infinite chemical.
+  id: 1461
+  time: '2025-11-30T00:43:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2100
