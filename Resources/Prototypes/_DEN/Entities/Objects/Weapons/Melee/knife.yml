@@ -30,10 +30,10 @@
   description: "A mnemolith tailor's knife, presumably stolen from whoever designed these new uniforms. You rat."
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Melee/mantistailorsknife.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantistailorsknife.rsi
     state: icon
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantistailorsknife.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantistailorsknife.rsi
   - type: MeleeWeapon
     attackRate: .6666
     wideAnimationRotation: -180
@@ -82,12 +82,12 @@
     removalTime: 2
   - type: EmbedPassiveDamage
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisknife.rsi
     storedSprite:
-      sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+      sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisknife.rsi
       state: icon
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Melee/mantisknife.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisknife.rsi
   - type: Appearance #TODO: APRIL HELP IT DOESN'T HIDE THE BASE SPRITE WHEN SPINNING
   - type: ToggleableVisuals
     spriteLayer: null
@@ -143,12 +143,12 @@
   - type: EmbedPassiveDamage
   - type: Item
     size: Normal
-    sprite: _DEN/Objects/Weapons/Melee/mantissickle-inhands-64x.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantissickle-inhands-64x.rsi
     storedSprite:
-      sprite: _DEN/Objects/Weapons/Melee/mantissickle.rsi
+      sprite: _DEN/Objects/Weapons/Melee/Mantis/mantissickle.rsi
       state: icon
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Melee/mantissickle.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantissickle.rsi
   - type: Appearance #TODO: APRIL HELP IT DOESN'T HIDE THE BASE SPRITE WHEN SPINNING
   - type: ToggleableVisuals
     spriteLayer: null

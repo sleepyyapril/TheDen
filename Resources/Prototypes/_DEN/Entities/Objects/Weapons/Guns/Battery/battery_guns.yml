@@ -105,8 +105,7 @@
     damage:
       types:
         Blunt: 7.5
-    swingLeft: true
-    wideAnimationRotation: 60
+    wideAnimationRotation: 90
     soundHit:
       collection: MetalThud
   - type: ThrowingAngle
@@ -243,7 +242,6 @@
     damage:
       types:
         Blunt: 9
-    wideAnimationRotation: 120
   - type: Tag
     tags:
     - MantisBeltStorable
@@ -269,10 +267,10 @@
   - type: Gun
     fireRate: 8
     burstFireRate: 8
-    minAngle: 2 # These numbers just felt right when using it, it shouldn't be perfect
-    maxAngle: 12
-    angleIncrease: 6
-    angleDecay: 16
+    minAngle: 6
+    maxAngle: 18
+    angleIncrease: 10
+    angleDecay: 10
     selectedMode: FullAuto
     availableModes:
     - FullAuto
@@ -297,7 +295,6 @@
     damage:
       types:
         Blunt: 9
-    wideAnimationRotation: 120
   - type: Tag
     tags:
     - MantisBeltStorable

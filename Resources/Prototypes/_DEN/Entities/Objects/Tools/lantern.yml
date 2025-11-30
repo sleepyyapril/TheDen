@@ -8,6 +8,8 @@
       sprite: _DEN/Objects/Specific/Mantis/lanternmantis.rsi
       layers:
         - state: lantern
+        - state: crystal
+          shader: unshaded
         - state: lantern-on
           shader: unshaded
           visible: false
@@ -31,12 +33,12 @@
       soundActivate:
         path: /Audio/_DEN/Effects/crystalshimmer1.ogg
         params:
-          volume: -6
+          volume: -2
           variation: 0.05
       soundDeactivate:
         path: /Audio/_DEN/Effects/crystalshimmer2.ogg
         params:
-          volume: -6
+          volume: -2
           variation: 0.05
     - type: StealTarget
       stealGroup: LAMP # The moths are coming the moths are coming
@@ -53,7 +55,7 @@
       soundHit:
         path: /Audio/Weapons/block_metal1.ogg
         params:
-          volume: -4
+          volume: -60 # Why is it so loud...
           variation: 0.05
       damage:
         types:
@@ -63,3 +65,62 @@
       tags:
       - Flashlight
       - MantisBeltStorable
+
+- type: entity
+  parent: BaseItem
+  id: LanternSomber # And I can't parent this to the LanternMantis either...
+  name: somber orb
+  description: "A mu-metal orb that emits a muted purple glow. Its light feels more like a lingering mood than illumination, casting nearby surfaces in dusky, melancholic hues."
+  suffix: Desk Lamp
+  components:
+    - type: Sprite
+      sprite: _DEN/Objects/Tools/somberlamp.rsi
+      layers:
+        - state: lantern
+        - state: crystal
+          shader: unshaded
+        - state: lantern-on
+          shader: unshaded
+          visible: false
+          map: [ "light" ]
+    - type: Item
+      sprite: _DEN/Objects/Tools/somberlamp.rsi
+      inhandVisuals:
+        left:
+          - state: inhand-left
+          - state: inhand-left-glow
+            shader: unshaded
+        right:
+          - state: inhand-right
+          - state: inhand-right-glow
+            shader: unshaded
+    - type: EtherealLight # Dims around ethereal entities
+    - type: PointLight
+      enabled: false
+      radius: 3
+      energy: 4
+      color: "#8d7cbf"
+      netsync: false
+    - type: Appearance
+    - type: ToggleableVisuals
+      spriteLayer: light
+    - type: ItemTogglePointLight
+    - type: ItemToggle
+      predictable: false
+      soundActivate:
+        path: /Audio/_DEN/Effects/crystalshimmer1.ogg
+        params:
+          volume: -2
+          variation: 0.05
+      soundDeactivate:
+        path: /Audio/_DEN/Effects/crystalshimmer2.ogg
+        params:
+          volume: -2
+          variation: 0.05
+    - type: StealTarget
+      stealGroup: LAMP # The moths are coming the moths are coming
+    - type: UnpoweredFlashlight # Powered by the noosphere
+    - type: Tag
+      tags:
+      - Flashlight
+      - MantisBeltStorable # Why not

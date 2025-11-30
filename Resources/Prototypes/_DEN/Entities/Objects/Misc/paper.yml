@@ -305,9 +305,6 @@
       solution: injector
     - type: Extractable
       grindableSolutionName: food
-    - type: PhysicalComposition
-      materialComposition:
-        MnemolithPowder: 1
     - type: Destructible
       thresholds:
       - trigger:

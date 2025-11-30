@@ -7,6 +7,8 @@
   components:
   - type: Sprite
     sprite: _DEN/Structures/Power/somber_cell_recharger.rsi
+    snapCardinals: true
+    noRot: true
   - type: Charger
     chargeRate: 20 # This is the default value, I'm just putting it here for battery math
   - type: PointLight
@@ -21,13 +23,13 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 100
+        damage: 300
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 50
+        damage: 75
       behaviors:
       - !type:EmptyAllContainersBehaviour
       - !type:PlaySoundBehavior
@@ -37,7 +39,7 @@
         acts: ["Destruction"]
       - !type:SpawnEntitiesBehavior
         spawn:
-          MaterialEdiolite1:
+          MaterialEidolite1:
             min: 3
             max: 3
           ScrapElectrum:

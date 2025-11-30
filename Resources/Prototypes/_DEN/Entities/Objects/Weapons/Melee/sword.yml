@@ -146,14 +146,14 @@
         volume: -2
         variation: 0.05
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Melee/mantisgreatsword.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisgreatsword.rsi
     state: icon
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantisgreatsword-inhands-64x.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisgreatsword-inhands-64x.rsi
     size: Ginormous # This doesn't go inside anything except its sheath
     storedSprite:
       state: icon
-      sprite: _DEN/Objects/Weapons/Melee/mantisgreatsword.rsi # Same sprite, just rotated, because it looks wrong otherwise
+      sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisgreatsword.rsi # Same sprite, just rotated, because it looks wrong otherwise
   - type: ThrowingAngle
     angle: -135
   - type: Reflect # A little gift for being brave
@@ -177,10 +177,10 @@
   - type: FoldableClothing
     foldedEquippedPrefix: flipped
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Melee/mantisgreatswordsheath.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisgreatswordsheath.rsi
     state: icon
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantisgreatswordsheath.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisgreatswordsheath.rsi
     size: Ginormous
   - type: Clothing
     quickEquip: true
@@ -228,7 +228,7 @@
         whitelist:
           tags:
           - MantisGreatsword
-    sprite: _DEN/Objects/Weapons/Melee/mantisgreatswordsheath.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisgreatswordsheath.rsi
   - type: GuideHelp
     guides: [ MantisGuide ]
 

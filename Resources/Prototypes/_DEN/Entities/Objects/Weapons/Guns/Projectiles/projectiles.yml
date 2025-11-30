@@ -144,10 +144,10 @@
   - type: ProjectileSpread
     proto: BulletMantisCapgun
     count: 6
-    spread: 15
+    spread: 20
 
 # Pistol bullets, the rest are parented to these with damage/transfer amounts adjusted
-# Initial piercing/holy damage values chosen by Juniwoofs
+# Initial piercing/holy damage values chosen by direction, may need work
 - type: entity
   parent: BaseBullet
   id: BulletMantisCrypto
@@ -299,7 +299,7 @@
   - type: ProjectileSpread
     proto: BulletMantisCryptoShotgun
     count: 6 # 12u of crypto disables psionics for 4m, and a full magazine of any mantis gun will disable psionics for 20m
-    spread: 15
+    spread: 20
 
 - type: entity
   parent: BulletMantisHoly
@@ -319,7 +319,7 @@
   - type: ProjectileSpread
     proto: BulletMantisHolyShotgun
     count: 6
-    spread: 15
+    spread: 20
 
 - type: entity
   parent: BulletMantisLethal
@@ -339,7 +339,7 @@
   - type: ProjectileSpread
     proto: BulletMantisLethalShotgun
     count: 6
-    spread: 15
+    spread: 20
 
 # Submachine gun bullets
 - type: entity

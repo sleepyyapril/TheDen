@@ -121,7 +121,7 @@
     - id: ClothingNeckMantisShackles
     - id: LeashMantis
     - id: FlippoLighterMantis
-    - id: CandleMantisCluster
+    - id: CandleSomberMantisCluster
 
 - type: entity
   parent: ClothingBeltMantisOrnate

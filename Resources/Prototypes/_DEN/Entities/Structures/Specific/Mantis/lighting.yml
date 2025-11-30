@@ -3,11 +3,12 @@
   id: LightSomberEidoliteWellLamp
   name: eidolite well lamp
   description: "An eidolite pyramid that draws energy from the noosphere to produce light, recessed into the ground. You can turn it on by hand."
+  suffix: Off
   components:
   - type: Sprite
     sprite: _DEN/Structures/Lighting/LightPosts/lampeidolitewell.rsi
-    snapCardinals: true
     drawdepth: Objects
+    snapCardinals: true
     noRot: true
     layers:
     - state: base
@@ -28,7 +29,7 @@
   - type: InteractionOutline
   - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
-    enabled: true
+    enabled: false
     radius: 3
     energy: 4
     softness: 1.1
@@ -40,12 +41,12 @@
     soundActivate:
       path: /Audio/_DEN/Effects/crystalshimmer1.ogg
       params:
-        volume: -3
+        volume: -2
         variation: 0.05
     soundDeactivate:
       path: /Audio/_DEN/Effects/crystalshimmer2.ogg
       params:
-        volume: -3
+        volume: -2
         variation: 0.05
   - type: UnpoweredFlashlight # Powered by the noosphere
   - type: Damageable
@@ -79,17 +80,19 @@
 
 - type: entity
   parent: LightSomberEidoliteWellLamp
-  id: LightSomberEidoliteWellLampOff
-  suffix: Disabled # Starts without casting light, but still glows
+  id: LightSomberEidoliteWellLampOn
+  description: "An eidolite pyramid that draws energy from the noosphere to produce light, recessed into the ground. The switch on this one takes a few tries..."
+  suffix: DO NOT MAP # If you do, it'll appear on, but they'll have to interact with it twice before it turns off again. It's more fun to manually light the office anyway
   components:
   - type: PointLight
-    enabled: false
+    enabled: true
 
 - type: entity
   parent: LightSomberEidoliteWellLamp
   id: LightSomberEidoliteFloorLamp
   name: eidolite floor lamp
   description: "An eidolite pyramid that draws energy from the noosphere to produce light, mounted on a mnemolith column. You can turn it on by hand."
+  suffix: Off
   components:
   - type: Sprite
     sprite: _DEN/Structures/Lighting/LightPosts/lampeidolitefloor.rsi
@@ -109,14 +112,15 @@
         - LowImpassable
   - type: EtherealLight # Dims around ethereal entities
   - type: PointLight
-    enabled: true
+    enabled: false
     radius: 4
     energy: 6
 
 - type: entity
   parent: LightSomberEidoliteFloorLamp
-  id: LightSomberEidoliteFloorLampOff
-  suffix: Disabled # Starts without casting light, but still glows
+  id: LightSomberEidoliteFloorLampOn
+  description: "An eidolite pyramid that draws energy from the noosphere to produce light, mounted on a mnemolith column. The switch on this one takes a few tries..."
+  suffix: DO NOT MAP # If you do, it'll appear on, but they'll have to interact with it twice before it turns off again. It's more fun to manually light the office anyway
   components:
   - type: PointLight
-    enabled: false
+    enabled: true

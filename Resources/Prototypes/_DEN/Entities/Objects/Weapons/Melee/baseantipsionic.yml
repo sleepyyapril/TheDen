@@ -39,10 +39,13 @@
   # DamageOtherOnHit makes it strike things when thrown, inheriting MeleeWeapon damage if you don't specify within this component
   # ThrowingAngle follows the same rules as WideAnimationRotation (point the sprite downward)
   # LandAtCursor just makes these items go slightly past where you throw them, instead of landing just short
+  # Set AngularVelocity to true if you want the item to rotate when thrown
   - type: DamageOtherOnHit
   # - type: ThrowingAngle
     # angle: 0
   - type: LandAtCursor
+  - type: ThrowingAngle
+    angularVelocity: false
   # Probably a good idea to have this here too
   # It'd be nice to have a guidebook just for anti-psionic weapons though
   - type: GuideHelp

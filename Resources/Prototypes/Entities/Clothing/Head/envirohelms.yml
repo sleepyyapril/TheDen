@@ -762,7 +762,7 @@
   - type: Sprite # TheDen - Colors updated to match the new mantis uniforms
     layers:
     - state: icon
-      color: "#2e2933"
+      color: "#211d26"
     - state: accent-icon
       color: "#660f3b"
     - state: midaccent-icon
@@ -776,7 +776,7 @@
     inhandVisuals:
       left:
       - state: inhand-left
-        color: "#2e2933"
+        color: "#211d26"
       - state: accent-inhand-left
         color: "#660f3b"
       - state: midaccent-inhand-left
@@ -784,7 +784,7 @@
       - state: visor-inhand-left
       right:
       - state: inhand-right
-        color: "#2e2933"
+        color: "#211d26"
       - state: accent-inhand-right
         color: "#660f3b"
       - state: midaccent-inhand-right
@@ -794,7 +794,7 @@
     clothingVisuals:
       head:
       - state: equipped-HELMET
-        color: "#2e2933"
+        color: "#211d26"
       - state: accent-equipped-HELMET
         color: "#660f3b"
       - state: midaccent-equipped-HELMET

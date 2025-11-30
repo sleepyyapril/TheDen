@@ -36,7 +36,7 @@
 - type: entity
   parent: MantisCase
   id: MantisCaseSmall
-  name: small amaranth case
+  name: amaranth case (small)
   description: "A case made of exotic, extremely durable hardwood."
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
 - type: entity
   parent: MantisCase
   id: MantisCaseLarge
-  name: long amaranth case
+  name: amaranth case (long)
   description: "A case made of exotic, extremely durable hardwood."
   components:
   - type: Sprite
@@ -77,7 +77,7 @@
 - type: entity
   parent: MantisCase
   id: MantisCaseExtraLarge
-  name: extra long amaranth case
+  name: amaranth case (extra long)
   description: "A case made of exotic, extremely durable hardwood."
   components:
   - type: Sprite
@@ -187,15 +187,15 @@
         - MantisBoxCandlesStorable # Only the mantis candles should have this
   - type: StorageFill
     contents: # A cute radial arrangement of items, like a gift box
-    - id: CandleMantisSmall
-    - id: CandleMantis
-    - id: CandleMantisSmall
-    - id: CandleMantis
-    - id: CandleMantisCluster
-    - id: CandleMantis
-    - id: CandleMantisSmall
-    - id: CandleMantis
-    - id: CandleMantisSmall
+    - id: CandleSomberMantisSmall
+    - id: CandleSomberMantis
+    - id: CandleSomberMantisSmall
+    - id: CandleSomberMantis
+    - id: CandleSomberMantisCluster
+    - id: CandleSomberMantis
+    - id: CandleSomberMantisSmall
+    - id: CandleSomberMantis
+    - id: CandleSomberMantisSmall
   - type: Tag
     tags:
     - MantisBeltStorable

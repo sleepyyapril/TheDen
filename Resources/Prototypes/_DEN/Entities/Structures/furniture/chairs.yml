@@ -66,7 +66,7 @@
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 75
+        damage: 50
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -110,7 +110,7 @@
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 75
+        damage: 50
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -132,6 +132,8 @@
   name: bound mantis chair
   suffix: Folded
   description: "An electrum orb concealing strange bluespace mechanisms that let it unfold into a plush leather office chair. Useful for mantes with mobility restrictions, or simply as versatile office furniture."
+  placement:
+    mode: PlaceFree
   components:
   - type: Sprite
     sprite: _DEN/Structures/Specific/Mantis/mantischair.rsi
@@ -168,7 +170,7 @@
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 75
+        damage: 50
       behaviors:
       - !type:PlaySoundBehavior
         sound:

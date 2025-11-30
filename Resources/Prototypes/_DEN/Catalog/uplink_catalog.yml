@@ -20,7 +20,7 @@
   discountDownTo:
     Telecrystal: 30
   cost:
-    Telecrystal: 80
+    Telecrystal: 80 # Same price as BaseBallBatHomeRun even if it has lower DPS because it's wearable
   categories:
   - UplinkJob
   conditions:
@@ -37,9 +37,9 @@
     entity: MantisCasterPistolLethal
   discountCategory: usualDiscounts # Since rarer discounts have limited slots and this is job-specific
   discountDownTo:
-    Telecrystal: 45
+    Telecrystal: 25
   cost: # Price based on its concealed nature (when inside its gun) and its ability to be recharged
-    Telecrystal: 80
+    Telecrystal: 40
   categories:
   - UplinkJob
   conditions:
@@ -56,9 +56,9 @@
     entity: MantisCasterRevolverLethal
   discountCategory: usualDiscounts # Since rarer discounts have limited slots and this is job-specific
   discountDownTo:
-    Telecrystal: 45
+    Telecrystal: 25
   cost: # Price based on its concealed nature (when inside its gun) and its ability to be recharged
-    Telecrystal: 80
+    Telecrystal: 40
   categories:
   - UplinkJob
   conditions:
@@ -75,9 +75,9 @@
     entity: MantisCasterShotgunLethal
   discountCategory: usualDiscounts # Since rarer discounts have limited slots and this is job-specific
   discountDownTo:
-    Telecrystal: 45
+    Telecrystal: 25
   cost: # Price based on its concealed nature (when inside its gun) and its ability to be recharged
-    Telecrystal: 80
+    Telecrystal: 40
   categories:
   - UplinkJob
   conditions:
@@ -94,9 +94,9 @@
     entity: MantisCasterSubMachineGunLethal
   discountCategory: usualDiscounts # Since rarer discounts have limited slots and this is job-specific
   discountDownTo:
-    Telecrystal: 45
+    Telecrystal: 25
   cost: # Price based on its concealed nature (when inside its gun) and its ability to be recharged
-    Telecrystal: 80
+    Telecrystal: 40
   categories:
   - UplinkJob
   conditions:

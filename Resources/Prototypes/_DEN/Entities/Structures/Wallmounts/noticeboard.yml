@@ -25,7 +25,7 @@
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 75
+        damage: 50
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]

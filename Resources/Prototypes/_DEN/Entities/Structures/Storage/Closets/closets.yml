@@ -52,7 +52,7 @@
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 50
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -103,7 +103,7 @@
   parent: BaseWallCloset
   id: SomberWallCloset # If we ever fix shelves, replace this with SomberWallShelf
   name: somber wall cabinet
-  description: "An expensive wall cabinet made of gloomy, patterned wood. Unfortunately, the shelves are a bit unstable, and it's likely to dump your things in the floor..."
+  description: "An expensive wall cabinet made of gloomy, patterned wood. Unfortunately, the shelves are unstable, and it's likely to dump your things in the floor..."
   components:
   - type: Sprite
     sprite: _DEN/Structures/Storage/somberwallcloset.rsi
@@ -142,7 +142,7 @@
         acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
-        damage: 150
+        damage: 50
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -164,7 +164,7 @@
   id: SomberWallClosetLocker # If we ever fix shelves, replace this with SomberWallShelfLocking
   name: somber wall cabinet
   suffix: Locking
-  description: "An expensive, locking wall cabinet made of gloomy, patterned wood. Unfortunately, the shelves are a bit unstable, and it's likely to dump your things in the floor..."
+  description: "An expensive, locking wall cabinet made of gloomy, patterned wood. Unfortunately, the shelves are unstable, and it's likely to dump your things in the floor..."
   components:
   - type: AccessReader
   - type: Lock

@@ -5,12 +5,12 @@
   description: "An amaranth cane crowned with an eidolite crystal. If flipped in the hand, the needle-sharp mnemolith tip serves as a thrusting weapon. A refined accessory, practical for mantes with limited mobility. Deadly when wielded against psionic and otherworldly threats."
   components:
   - type: Item
-    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantiscane.rsi
     size: Normal
     shape:
     - 0,0,1,1 # To override the default cane size
   - type: Sprite
-    sprite: _DEN/Objects/Weapons/Melee/mantiscane.rsi
+    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantiscane.rsi
     layers:
     - state: icon
       map: ["icon"]
@@ -51,6 +51,10 @@
         pitch: 0.9
         variation: 0.05
   - type: ItemToggleMeleeWeapon
+    activatedDamage:
+      types: # If you flip it, you stab them with the point
+        Piercing: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
+        Holy: 5 # 28.13 total DPS against psionic supernaturals
     activatedSoundOnHit:
       path: /Audio/Weapons/Melee/rapierhit.ogg
       params:
@@ -71,10 +75,6 @@
       collection: WeakHit
       params:
         variation: 0.05
-    activatedDamage: #TODO: WHY DOESN'T THIS WORK? IT'S JUST COPYING LIGHTER CODE. IT SHOULD HURT BAD AND ALSO EMBED. THE SOUNDS WORK...
-      types: # If you flip it, you stab them with the point
-        Pierce: 10 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
-        Holy: 5 # 28.13 total DPS against psionic supernaturals
   - type: MeleeWeapon
     attackRate: .6666
     wideAnimationRotation: -135
@@ -84,7 +84,7 @@
   - type: AntiPsionicWeapon # To override the +25% blunt damage against psions, because the bonking part isn't made of mnemolith
     modifiers:
       coefficients:
-        Pierce: 1.25
+        Piercing: 1.25
         Holy: 1.25
   - type: ItemToggleDamageOtherOnHit
   - type: ItemToggleEmbeddableProjectile

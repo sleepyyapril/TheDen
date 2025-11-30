@@ -6,6 +6,8 @@
   components:
   - type: Sprite
     sprite: _DEN/Structures/Machines/somberjukebox.rsi
+    snapCardinals: true
+    noRot: true
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic

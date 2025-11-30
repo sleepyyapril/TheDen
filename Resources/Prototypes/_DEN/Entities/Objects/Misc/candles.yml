@@ -1,8 +1,8 @@
 - type: entity
   parent: Candle
-  id: CandleMantis
+  id: CandleSomberMantis
   name: mnemolith candle
-  suffix: Somber, Magic
+  suffix: Magic
   description: "A candle made with mnemolith powder. It doesn't want to go out."
   components:
     - type: Sprite
@@ -59,9 +59,9 @@
       - MantisBoxCandlesStorable
 
 - type: entity
-  parent: CandleMantis
-  id: CandleMantisSmall
-  name: small mnemolith candle
+  parent: CandleSomberMantis
+  id: CandleSomberMantisSmall
+  name: mnemolith candle (small)
   description: "A small candle made with mnemolith powder. It doesn't want to go out."
   components:
     - type: Sprite
@@ -72,9 +72,9 @@
       normalState: fire-small
 
 - type: entity
-  parent: CandleMantis
-  id: CandleMantisCluster
-  name: mnemolith candle cluster
+  parent: CandleSomberMantis
+  id: CandleSomberMantisCluster
+  name: mnemolith candle (cluster)
   description: "A cluster of candles made with mnemolith powder. Not a birthday cake."
   components:
     - type: Sprite

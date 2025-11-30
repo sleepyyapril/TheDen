@@ -189,7 +189,7 @@
         acts: [ "Destruction" ]
     - trigger: # If you destroy it, it drops scrap materials
         !type:DamageTrigger
-        damage: 200
+        damage: 150
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -206,7 +206,7 @@
             max: 5
     - trigger: # If you break it, it shoots out items
         !type:DamageTrigger
-        damage: 100
+        damage: 75
       behaviors:
       - !type:PlaySoundBehavior
         sound:
