@@ -40,7 +40,7 @@
     tags:
     - DoorBumpOpener
     - WhitelistChameleon
-    - WhitelistChameleonIdCard
+  #  - WhitelistChameleonIdCard
     - Recyclable
   - type: StaticPrice # these are infinitely producible.
     price: 0
