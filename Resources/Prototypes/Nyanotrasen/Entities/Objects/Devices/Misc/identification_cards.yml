@@ -20,6 +20,30 @@
     - state: warden
   - type: PresetIdCard
     job: Prisoner
+  - type: Item
+    heldPrefix: orange
+  - type: Access
+    tags:
+    - GenpopEnter
+  - type: GenpopIdCard
+  - type: IdCard
+    jobTitle: job-name-prisoner
+    jobIcon: JobIconPrisoner
+    canMicrowave: false
+  - type: ExpireIdCard
+    expireMessage: genpop-prisoner-id-expire
+    expiredAccess:
+    - GenpopLeave
+  - type: Speech
+    speechVerb: Robotic
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+  #  - WhitelistChameleonIdCard
+    - Recyclable
+  - type: StaticPrice # these are infinitely producible.
+    price: 0
 
 - type: entity
   parent: IDCardStandard

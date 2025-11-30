@@ -121,4 +121,13 @@
   cost: 1000
   category: cargoproduct-category-name-security
   group: market
-  excludedServers: [eternity] # DEN - Exclude dangerous prototypes from Eternity
+
+- type: cargoProduct
+  id: SecurityGenPopCloset
+  icon:
+    sprite: Structures/Storage/closet.rsi
+    state: genpop
+  product: LockerPrisoner
+  cost: 250
+  category: cargoproduct-category-name-security
+  group: market

@@ -41,6 +41,9 @@
   - Maintenance
   # - Service # DEN - Removed
   - External
+  - Cryogenics
+  - GenpopEnter
+  - GenpopLeave
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]

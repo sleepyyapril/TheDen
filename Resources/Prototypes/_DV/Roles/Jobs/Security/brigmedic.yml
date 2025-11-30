@@ -44,6 +44,9 @@
   - Maintenance
   - External
   - Corpsman
+  - Cryogenics
+  - GenpopEnter
+  - GenpopLeave
   extendedAccess:
   - Chemistry
   special:
