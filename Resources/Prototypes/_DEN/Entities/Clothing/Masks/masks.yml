@@ -121,8 +121,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: ClothingMaskMantisRitual
-  name: mantis ritual mask
-  description: "A faceless electrum mask used in certain esoteric rituals."
+  name: mask of the unburdened
+  description: "A gilded funerary mask reminiscent of ancient rulers, its features smoothed into an expression of serene finality."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Mask/mantis_mask_ritual.rsi

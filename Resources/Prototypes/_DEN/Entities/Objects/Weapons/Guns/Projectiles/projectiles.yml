@@ -47,8 +47,11 @@
   id: MuzzleFlashEffectMantisCapgun
   categories: [ HideSpawnMenu ]
   components:
+  - type: TimedDespawn
+    lifetime: 0.4
   - type: Sprite
     drawdepth: Effects
+    offset: 0.1, 0
     layers:
     - sprite: _DEN/Objects/Weapons/Guns/Projectiles/mantis.rsi
       state: muzzle_capgun
@@ -56,8 +59,8 @@
       shader: unshaded
   - type: PointLight
     enabled: true
-    radius: 1.1
-    energy: 0.5
+    radius: 2
+    energy: 3
     color: "#ffb869"
 
 - type: entity
@@ -65,8 +68,11 @@
   id: MuzzleFlashEffectMantisCrypto
   categories: [ HideSpawnMenu ]
   components:
+  - type: TimedDespawn
+    lifetime: 0.4
   - type: Sprite
     drawdepth: Effects
+    offset: 0.1, 0
     layers:
     - sprite: _DEN/Objects/Weapons/Guns/Projectiles/mantis.rsi
       state: muzzle_crypto
@@ -74,8 +80,8 @@
       shader: unshaded
   - type: PointLight
     enabled: true
-    radius: 1.1
-    energy: 0.5
+    radius: 2
+    energy: 3
     color: "#6279f9"
 
 - type: entity
@@ -83,8 +89,11 @@
   id: MuzzleFlashEffectMantisHoly
   categories: [ HideSpawnMenu ]
   components:
+  - type: TimedDespawn
+    lifetime: 0.4
   - type: Sprite
     drawdepth: Effects
+    offset: 0.1, 0
     layers:
     - sprite: _DEN/Objects/Weapons/Guns/Projectiles/mantis.rsi
       state: muzzle_holy
@@ -92,8 +101,8 @@
       shader: unshaded
   - type: PointLight
     enabled: true
-    radius: 1.1
-    energy: 0.5
+    radius: 2
+    energy: 3
     color: "#88b0d0"
 
 - type: entity
@@ -101,8 +110,11 @@
   id: MuzzleFlashEffectMantisLethal
   categories: [ HideSpawnMenu ]
   components:
+  - type: TimedDespawn
+    lifetime: 0.4
   - type: Sprite
     drawdepth: Effects
+    offset: 0.1, 0
     layers:
     - sprite: _DEN/Objects/Weapons/Guns/Projectiles/mantis.rsi
       state: muzzle_lethal
@@ -110,8 +122,8 @@
       shader: unshaded
   - type: PointLight
     enabled: true
-    radius: 1.1
-    energy: 0.5
+    radius: 2
+    energy: 3
     color: "#44fbf7"
 
 # Capgun bullets
@@ -160,8 +172,8 @@
       shader: unshaded
   - type: PointLight
     enabled: true
-    radius: 1.1
-    energy: 0.5
+    radius: 1.75
+    energy: 1.75
     color: "#6279f9"
   - type: Ammo
     muzzleFlash: MuzzleFlashEffectMantisCrypto
@@ -197,8 +209,8 @@
       shader: unshaded
   - type: PointLight
     enabled: true
-    radius: 1.1
-    energy: 0.5
+    radius: 1.75
+    energy: 1.75
     color: "#88b0d0"
   - type: Ammo
     muzzleFlash: MuzzleFlashEffectMantisHoly
@@ -224,8 +236,8 @@
       shader: unshaded
   - type: PointLight
     enabled: true
-    radius: 1.1
-    energy: 0.5
+    radius: 1.75
+    energy: 1.75
     color: "#44fbf7"
   - type: Ammo
     muzzleFlash: MuzzleFlashEffectMantisLethal

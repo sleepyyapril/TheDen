@@ -1,17 +1,21 @@
 - type: vendingMachineInventory
   id: MantisReliquaryInventory
   startingInventory:
+    # Spare locker items, just the basics in case a second mantis is hired
     ClothingNeckMantisPendulum: 1
     BoxFolderMantis: 1
+    # Extra loadout items, maybe the chaplain wants some candles
     FlippoLighterMantis: 1
     CigPackMnemolith: 3
     CandleSomberMantisSmall: 3
     CandleSomberMantis: 3
     CandleSomberMantisCluster: 2
-    MantisCaseSmall: 1 # Cute 1x2 gift box
-    MantisCase: 1 # Cute 2x2 gift box
-    SomberChairLeatherMantisWheelchairFolded: 1 # A spare in case someone's wheelchair gets destroyed
-    BedsheetSomberMantis: 1 # Maybe you want to wear it
+    # Cute gift boxes, not mechanically special, but otherwise unobtainable
+    MantisCaseSmall: 1
+    MantisCase: 1
+    MantisCaseLarge: 1
+    MantisCaseExtraLarge: 1
+    # Extra loadout clothing, so people can experiment with looks
     ClothingHeadsetMantis: 1
     ClothingHeadsetAltMantis: 1
     ClothingBackpackMantis: 1
@@ -25,9 +29,9 @@
     ClothingHeadHatFezMantisAiry: 1
     ClothingHeadHoodMantisDark: 1
     ClothingHeadHatFezMantisOrnate: 1
-    ClothingHeadHatFezMantisInsulative: 1 # A spare foil fez if a coworker really wants one
+    ClothingHeadHatFezMantisInsulative: 1 # A locker item, but maybe a coworker really wants it
     ClothingMaskMantisVeil: 1
-    ClothingMaskMantisRitual: 3 # Sometimes rituals involve multiple people
+    ClothingMaskMantisRitual: 1
     ClothingNeckCloakMantisDark: 1
     ClothingNeckMantleMantisOrnate: 1
     ClothingOuterCoatMantisAiry: 1
@@ -44,11 +48,13 @@
     ClothingShoesSandalsMantisDark: 1
     ClothingShoesSandalsMantisOrnate: 1
     ClothingUniformJumpsuitMantisLoincloth: 1 # It stays.
-  contrabandInventory: # Silly toys below
+  contrabandInventory:
+    # Hack the conduit to summon some toys from the Reliquary
+    MantisTailorsKnife: 1
     PlushieDollMantis: 1
     PersonalAISomber: 1
-    MantisTailorsKnife: 1
     MantisCasterPistolCapgun: 1
     MantisCasterRevolverCapgun: 1
     MantisCasterShotgunCapgun: 1
     MantisCasterSubMachineGunCapgun: 1
+    LanternSomber: 1
