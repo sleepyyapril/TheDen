@@ -26,19 +26,18 @@ public sealed partial class PuddleSystem
 
     private void UpdateEvaporation(EntityUid uid, Solution solution)
     {
-        if (HasComp<EvaporationComponent>(uid))
-        {
-            return;
-        }
-
         if (solution.GetTotalPrototypeQuantity(EvaporationReagents) > FixedPoint2.Zero)
         {
-            var evaporation = AddComp<EvaporationComponent>(uid);
-            evaporation.NextTick = _timing.CurTime + EvaporationCooldown;
-            return;
+            if (!HasComp<EvaporationComponent>(uid))
+            {
+                var evaporation = AddComp<EvaporationComponent>(uid);
+                evaporation.NextTick = _timing.CurTime + EvaporationCooldown;
+            }
         }
-
-        RemComp<EvaporationComponent>(uid);
+        else
+        {
+            RemComp<EvaporationComponent>(uid);
+        }
     }
 
     private void TickEvaporation()
@@ -58,6 +57,7 @@ public sealed partial class PuddleSystem
 
             var reagentTick = evaporation.EvaporationAmount * EvaporationCooldown.TotalSeconds;
             puddleSolution.SplitSolutionWithOnly(reagentTick, EvaporationReagents);
+            _solutionContainerSystem.UpdateChemicals(puddle.Solution!.Value);
 
             // Despawn if we're done
             if (puddleSolution.Volume == FixedPoint2.Zero)
