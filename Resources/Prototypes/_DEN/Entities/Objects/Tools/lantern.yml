@@ -70,7 +70,7 @@
   parent: BaseItem
   id: LanternSomber # And I can't parent this to the LanternMantis either...
   name: somber orb
-  description: "A mu-metal orb that emits a muted purple glow. Its light feels more like a lingering mood than illumination, casting nearby surfaces in dusky, melancholic hues."
+  description: "A mu-metal orb encircled by unsettling crystals that emit a muted purple glow. Their light feels more like a lingering mood than true illumination, washing nearby surfaces in dusky, melancholic hues."
   suffix: Desk Lamp
   components:
     - type: Sprite
