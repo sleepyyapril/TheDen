@@ -174,7 +174,8 @@ public sealed class LockSystem : EntitySystem
         {
             _sharedPopupSystem.PopupClient(Loc.GetString("lock-comp-do-lock-success",
                 ("entityName", Identity.Name(uid, EntityManager))), uid, user);
-        _audio.PlayPredicted(lockComp.LockSound, uid, user);
+            _audio.PlayPredicted(lockComp.LockSound, uid, user);
+        }
 
         lockComp.Locked = true;
         _appearanceSystem.SetData(uid, LockVisuals.Locked, true);
