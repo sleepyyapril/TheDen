@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Nemanja
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 genpop-prisoner-id-expire = You have served your sentence! You may now exit prison through the turnstiles and collect your belongings.
 genpop-prisoner-id-popup-not-served = Sentence not yet served!
 

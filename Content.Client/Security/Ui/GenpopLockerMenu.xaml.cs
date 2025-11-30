@@ -1,4 +1,8 @@
-﻿using Content.Client.Message;
+// SPDX-FileCopyrightText: 2025 Nemanja
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Client.Message;
 using Content.Client.UserInterface.Controls;
 using Content.Shared.Access.Components;
 using Content.Shared.Security.Components;

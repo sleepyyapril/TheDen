@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Nemanja
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Access.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
