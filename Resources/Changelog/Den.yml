@@ -14992,3 +14992,19 @@ Entries:
   id: 1461
   time: '2025-11-30T00:43:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2100
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: >-
+        The syndicate bag of holding production lines and syndicate bundle bag
+        production lines have stopped creating bluespace pocket dimensions in
+        the wrong bags. In order to prevent any riots due to employee
+        dissatisfaction, the syndicate has started sewing in two additional
+        pockets into their duffel bags.
+    - type: Tweak
+      message: >-
+        Due to pressure from union protests that happened anyway, syndicate
+        backpack capacity has been expanded too. 
+  id: 1462
+  time: '2025-11-30T02:27:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2099
