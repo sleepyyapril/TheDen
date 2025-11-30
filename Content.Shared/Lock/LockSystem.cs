@@ -183,7 +183,6 @@ public sealed class LockSystem : EntitySystem
 
         var ev = new LockToggledEvent(true);
         RaiseLocalEvent(uid, ref ev, true);
-        return true;
     }
 
     /// <summary>
