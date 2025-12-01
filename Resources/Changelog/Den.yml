@@ -15055,3 +15055,10 @@ Entries:
   id: 1467
   time: '2025-12-01T01:57:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2112
+- author: GreggTheFather
+  changes:
+    - type: Remove
+      message: Removed a plushie from two maps.
+  id: 1468
+  time: '2025-12-01T19:48:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2115
