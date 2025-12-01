@@ -15071,3 +15071,10 @@ Entries:
   id: 1469
   time: '2025-12-01T22:45:13.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2116
+- author: Dirius77
+  changes:
+    - type: Fix
+      message: Fixed height sliders sometimes breaking when switching profiles.
+  id: 1470
+  time: '2025-12-01T22:45:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2113
