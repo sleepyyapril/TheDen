@@ -156,6 +156,9 @@
       sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisgreatsword.rsi # Same sprite, just rotated, because it looks wrong otherwise
   - type: ThrowingAngle
     angle: -135
+  - type: MeleeThrowOnHit # Just a tiny knockback to look cool, barely moves anything
+    speed: 3
+    lifetime: 0.05
   - type: Reflect # A little gift for being brave
     reflectProb: .25
     spread: 90
