@@ -33,7 +33,6 @@
     rerollObjectivePrototype: SkiaReapObjective
     rerollObjectiveMessage: objective-condition-reap-soul-reroll-message
 
-
 - type: entity
   categories: [ HideSpawnMenu ]
   parent: [BaseSkiaObjective, BaseSurviveObjective]

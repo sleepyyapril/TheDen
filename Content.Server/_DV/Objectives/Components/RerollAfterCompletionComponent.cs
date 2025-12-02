@@ -14,7 +14,7 @@ public sealed partial class RerollAfterCompletionComponent : Component
     /// <remarks>
     /// Ideally this shouldn't matter, as we delete the component once its rolled
     /// </remarks>
-    public bool Rerolled;
+    public bool Rerolling;
 
     /// <summary>
     /// Tracks a reference of the owner of this objective.

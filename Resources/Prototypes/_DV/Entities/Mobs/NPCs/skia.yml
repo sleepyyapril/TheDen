@@ -122,6 +122,9 @@
     roller: false
     psychognomicDescriptors:
       - p-descriptor-vampiric
+  - type: ActionGrant
+    actions:
+      - ActionSkiaRerollObjectives
   - type: InnatePsionicPowers
     powersToAdd:
       - XenoglossyPower
