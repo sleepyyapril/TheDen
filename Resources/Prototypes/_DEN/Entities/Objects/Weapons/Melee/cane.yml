@@ -17,7 +17,7 @@
     - state: icon-raised
       map: ["icon-raised"]
       visible: false
-  - type: Appearance #TODO: APRIL HELP IT DOESN'T HIDE THE BASE SPRITE WHEN RAISED
+  - type: Appearance
   - type: ToggleableVisuals
     replaceMode: true
     spriteLayer: icon-raised
