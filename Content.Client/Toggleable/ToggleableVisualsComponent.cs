@@ -1,3 +1,4 @@
+// SPDX-FileCopyrightText: 2025 Cam
 // SPDX-FileCopyrightText: 2025 Winter
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
