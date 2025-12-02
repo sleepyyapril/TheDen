@@ -692,6 +692,10 @@
         Blunt: 10
   - type: StealTarget
     stealGroup: BoxFolderQmClipboard
+  - type: DeviceLinkSource
+    range: 200
+    ports:
+      - OrderSender
 
 - type: entity
   parent: Paper

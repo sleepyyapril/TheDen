@@ -15055,3 +15055,26 @@ Entries:
   id: 1467
   time: '2025-12-01T01:57:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2112
+- author: GreggTheFather
+  changes:
+    - type: Remove
+      message: Removed a plushie from two maps.
+  id: 1468
+  time: '2025-12-01T19:48:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2115
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: The digiboard can now be connected to a cargo telepad for orders.
+    - type: Tweak
+      message: Cargo telepads now only take 5 seconds to receive an order.
+  id: 1469
+  time: '2025-12-01T22:45:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2116
+- author: Dirius77
+  changes:
+    - type: Fix
+      message: Fixed height sliders sometimes breaking when switching profiles.
+  id: 1470
+  time: '2025-12-01T22:45:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2113
