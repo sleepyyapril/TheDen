@@ -139,3 +139,34 @@
     sprite: _DEN/Decals/bricktile_somber.rsi
     state: steel_line_w
 
+- type: decal
+  id: BrickTileSomberNe
+  parent: BrickTileSomber
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _DEN/Decals/bricktile_somber.rsi
+    state: steel_tile_ne
+
+- type: decal
+  id: BrickTileSomberSe
+  parent: BrickTileSomber
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _DEN/Decals/bricktile_somber.rsi
+    state: steel_tile_se
+
+- type: decal
+  id: BrickTileSomberNw
+  parent: BrickTileSomber
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _DEN/Decals/bricktile_somber.rsi
+    state: steel_tile_nw
+
+- type: decal
+  id: BrickTileSomberSw
+  parent: BrickTileSomber
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _DEN/Decals/bricktile_somber.rsi
+    state: steel_tile_sw

@@ -1,5 +1,5 @@
 - type: entity
-  parent: [FlippoLighter, BaseAntiPsionicWeapon, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
+  parent: [FlippoLighter, BaseAntiPsionicWeapon]
   id: FlippoLighterMantis
   name: mantis lighter
   description: "A glossy lighter sculpted from chips of mnemolith, housing an eidolite pyramid that draws energy from the noosphere. The flame gutters strangely, as if aware of what it burns."

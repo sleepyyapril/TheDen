@@ -24,7 +24,7 @@
     sprite: _DEN/Objects/Weapons/Melee/tailorsknife.rsi
 
 - type: entity
-  parent: [TailorsKnife, BaseAntiPsionicWeapon, BaseMantisContraband]
+  parent: [TailorsKnife, BaseAntiPsionicWeapon]
   id: MantisTailorsKnife
   name: ravel
   description: "A mnemolith tailor's knife, presumably stolen from whoever designed these new uniforms. You rat."

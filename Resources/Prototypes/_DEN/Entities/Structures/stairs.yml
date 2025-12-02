@@ -126,6 +126,7 @@
   parent: StairSomberWood
   id: StairStageSomberWood
   name: wood stairs
+  suffix: Somber, Stage
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
@@ -137,6 +138,7 @@
   parent: StairSomberAmaranth
   id: StairStageSomberAmaranth
   name: amaranth stairs
+  suffix: Somber, Stage
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi
@@ -147,6 +149,7 @@
   parent: StairSomberMnemolith
   id: StairStageSomberMnemolith
   name: mnemolith stairs
+  suffix: Somber, Stage
   components:
   - type: Sprite
     sprite: _DEN/Structures/stairs.rsi

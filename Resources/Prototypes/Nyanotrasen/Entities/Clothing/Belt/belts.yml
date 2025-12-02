@@ -11,7 +11,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity
-  parent: [ClothingBeltStorageBase, BaseMantisContraband]
+  parent: [ClothingBeltStorageBase, BaseMantisContraband] # If Epistemics needs their own belts, it should be a different item, really
   id: ClothingBeltMantis
   name: dated mantis belt # TheDen
   description: "A structured, layered sash designed to carry mantis equipment. All the company would pay for prior to the mantis equipment refresh, but it does have sheaths for certain weapons." # TheDen

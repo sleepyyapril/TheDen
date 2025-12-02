@@ -42,7 +42,7 @@
 
 - type: stack
   id: FloorTileSomberSteelDiagonalMini
-  name: somber steel tile (diagonal, mini)
+  name: somber steel tile (mini diagonal)
   spawn: FloorTileItemSomberSteelDiagonalMini
   maxCount: 30
   itemSize: 5
@@ -189,7 +189,7 @@
 
 - type: stack
   id: FloorTileSomberSteelDiagonalMiniDark
-  name: somber steel tile (diagonal, mini, dark)
+  name: somber steel tile (mini diagonal, dark)
   spawn: FloorTileItemSomberSteelDiagonalMiniDark
   maxCount: 30
   itemSize: 5
@@ -210,7 +210,7 @@
 
 - type: stack
   id: FloorTileSomberSteelDiagonalMiniMagenta
-  name: somber steel tile (diagonal, mini, magenta)
+  name: somber steel tile (mini diagonal, magenta)
   spawn: FloorTileItemSomberSteelDiagonalMiniMagenta
   maxCount: 30
   itemSize: 5
@@ -224,7 +224,7 @@
 
 - type: stack
   id: FloorTileSomberSteelDiagonalMiniPurple
-  name: somber steel tile (diagonal, mini, purple)
+  name: somber steel tile (mini diagonal, purple)
   spawn: FloorTileItemSomberSteelDiagonalMiniPurple
   maxCount: 30
   itemSize: 5

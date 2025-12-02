@@ -103,7 +103,7 @@
 - type: entity
   parent: FloorTileItemSomberSteel
   id: FloorTileItemSomberSteelDiagonalMini
-  name: somber steel tile (diagonal, mini)
+  name: somber steel tile (mini diagonal)
   components:
   - type: Sprite
     state: somber-tile-diagonal-mini
@@ -414,7 +414,7 @@
 - type: entity
   parent: FloorTileItemSomberSteel
   id: FloorTileItemSomberSteelDiagonalMiniDark
-  name: somber steel tile (diagonal, mini, dark)
+  name: somber steel tile (mini diagonal, dark)
   components:
   - type: Sprite
     state: somber-tile-diagonal-mini-dark
@@ -456,7 +456,7 @@
 - type: entity
   parent: FloorTileItemSomberSteel
   id: FloorTileItemSomberSteelDiagonalMiniMagenta
-  name: somber steel tile (diagonal, mini, magenta)
+  name: somber steel tile (mini diagonal, magenta)
   components:
   - type: Sprite
     state: somber-tile-diagonal-mini-magenta
@@ -484,7 +484,7 @@
 - type: entity
   parent: FloorTileItemSomberSteel
   id: FloorTileItemSomberSteelDiagonalMiniPurple
-  name: somber steel tile (diagonal, mini, purple)
+  name: somber steel tile (mini diagonal, purple)
   components:
   - type: Sprite
     state: somber-tile-diagonal-mini-purple
