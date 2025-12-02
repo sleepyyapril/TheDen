@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Aikakakah
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 marking-NippleTapeTriangleFemale = Nipple Tape Triangle
 marking-NippleTapeTriangleFemale-triangle_f = Tape
 
