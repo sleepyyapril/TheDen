@@ -66,8 +66,8 @@
 #      - MantisBeltStorable
 
 - type: entity
-  parent: BaseItem
-  id: LanternSomber # And I can't parent this to the LanternMantis either...
+  parent: BaseItem # If I parented it to Lantern, it would have a battery slot...
+  id: LanternSomber
   name: somber orb
   description: "A palm-sized electrum sphere studded with shards of eidolite, each humming with faint noospheric charge. Its glow lingers in your vision, imprinting shapes you can't quite name."
   components:
@@ -127,7 +127,7 @@
 
 - type: entity
   parent: [LanternSomber, BaseAntiPsionicWeapon, BaseMantisContraband] # Contraband so the mystagogue doesn't steal it
-  id: LanternMantis # If I parented it to Lantern, it would have a battery slot...
+  id: LanternMantis
   name: mantis lantern
   description: "An ornate lantern housing an eidolite pyramid that draws power from the noosphere. Instead of merely casting light, it seems to declare it—an austere radiance that etches itself into whatever it touches. Stare too long and the gleam resolves into shapes you almost recognize, then promptly forget. For all its theatrics, the handle still hangs comfortably on your back."
   components:
