@@ -6,7 +6,7 @@
   - type: Objective
     # difficulty isn't used at all since objective are fixed
     difficulty: 1.5
-    issuer: noosphere
+    issuer: That  Which Watches From Beyond The Veil
   - type: RoleRequirement
     roles:
       mindRoles:
@@ -22,7 +22,6 @@
   components:
   - type: Objective
     difficulty: 1
-    issuer: objective-issuer-skia
     unique: false
     icon:
       sprite: Mobs/Ghosts/ghost_human.rsi
