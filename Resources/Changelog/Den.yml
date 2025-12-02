@@ -15103,3 +15103,13 @@ Entries:
   id: 1472
   time: '2025-12-02T03:17:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2102
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        You can now construct a microphone stand in the crafting menu, which
+        allows you to use microphones as a standing instrument and keep your
+        hands free.
+  id: 1473
+  time: '2025-12-02T10:22:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2120
