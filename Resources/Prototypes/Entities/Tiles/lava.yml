@@ -95,3 +95,15 @@
   - type: Tag
     tags:
       - HideContextMenu
+
+- type: entity
+  parent: FloorLavaEntity
+  id: FloorLavaEntityDecorative
+  suffix: Harmless
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: TileEntityEffect
+    effects: []
