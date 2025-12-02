@@ -19,6 +19,7 @@
       visible: false
   - type: Appearance #TODO: APRIL HELP IT DOESN'T HIDE THE BASE SPRITE WHEN RAISED
   - type: ToggleableVisuals
+    replaceMode: true
     spriteLayer: icon-raised
     inhandVisuals:
       left:

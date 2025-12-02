@@ -88,8 +88,9 @@
       state: icon
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisknife.rsi
-  - type: Appearance #TODO: APRIL HELP IT DOESN'T HIDE THE BASE SPRITE WHEN SPINNING
+  - type: Appearance
   - type: ToggleableVisuals
+    replaceMode: true
     spriteLayer: null
     inhandVisuals:
       left:
@@ -151,6 +152,7 @@
     sprite: _DEN/Objects/Weapons/Melee/Mantis/mantissickle.rsi
   - type: Appearance #TODO: APRIL HELP IT DOESN'T HIDE THE BASE SPRITE WHEN SPINNING
   - type: ToggleableVisuals
+    replaceMode: true
     spriteLayer: null
     inhandVisuals:
       left:
