@@ -22,7 +22,6 @@
   components:
   - type: Objective
     difficulty: 1
-    issuer: objective-issuer-skia
     unique: false
     icon:
       sprite: Mobs/Ghosts/ghost_human.rsi
