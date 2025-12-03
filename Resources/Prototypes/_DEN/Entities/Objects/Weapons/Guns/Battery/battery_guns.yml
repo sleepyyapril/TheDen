@@ -179,7 +179,7 @@
     - Belt
     - suitStorage
   - type: Gun
-    fireRate: 2.5
+    fireRate: 2
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
       params:
