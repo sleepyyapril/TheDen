@@ -107,7 +107,6 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
-using Content.Client._NF.Emp.Overlays; // Frontier
 using Content.Client._RMC14.Xenonids.Screech; // RMC14
 
 namespace Content.Client.Entry

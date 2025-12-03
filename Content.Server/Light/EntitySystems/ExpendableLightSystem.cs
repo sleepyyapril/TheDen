@@ -28,7 +28,6 @@ using Content.Server.Light.Components;
 using Content.Server.Stack;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Clothing.EntitySystems;
-using Content.Shared.IgnitionSource;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Item;
