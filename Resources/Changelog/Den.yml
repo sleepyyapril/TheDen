@@ -15155,3 +15155,12 @@ Entries:
   id: 1478
   time: '2025-12-03T06:47:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1764
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        Added species sprites for the Mantis Blindfold, fixed all sprites for
+        the Mantis Veil (they now layer properly too!)
+  id: 1479
+  time: '2025-12-03T20:45:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2135
