@@ -57,8 +57,8 @@ public sealed partial class ShatterLightsAbilitySystem : EntitySystem
             _audio.PlayPvs(entity.Comp.AbilitySound, entity);
 
         ShatterLightsAround(entity.Owner, entity.Comp.Radius, entity.Comp.LineOfSight, entity.Comp.PenetratingRadius);
+        // SpawnAttachedTo(entity.Comp.Effect, entity.Owner.ToCoordinates());
 
-        SpawnAttachedTo(entity.Comp.Effect, entity.Owner.ToCoordinates());
         args.Handled = true;
     }
 
