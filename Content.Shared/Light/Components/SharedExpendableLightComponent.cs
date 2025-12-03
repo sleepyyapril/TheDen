@@ -39,10 +39,7 @@ public abstract partial class SharedExpendableLightComponent : Component
 
     [DataField("litSound")]
     public SoundSpecifier? LitSound { get; set; }
-
-    [DataField("loopedSound")]
-    public SoundSpecifier? LoopedSound { get; set; }
-
+    
     [DataField]
     public SoundSpecifier? LoopedSound;
 
