@@ -22,11 +22,11 @@ public sealed partial class ExpendableLightEnergySystem : EntitySystem
         switch (ent.Comp.CurrentState)
         {
             case ExpendableLightState.Lit:
-                float timeElapsed = ent.Comp.GlowDuration.Seconds - ent.Comp.StateExpiryTime;
+                float timeElapsed = ent.Comp.GlowDuration - ent.Comp.StateExpiryTime;
                 lightFactor = MathF.Min(1.0f, 1.0f - timeElapsed / ent.Comp.FadeInDuration);
                 break;
             case ExpendableLightState.Fading:
-                lightFactor = MathF.Min(1.0f, ent.Comp.StateExpiryTime / ent.Comp.FadeOutDuration.Seconds);
+                lightFactor = MathF.Min(1.0f, ent.Comp.StateExpiryTime / ent.Comp.FadeOutDuration);
                 break;
             default: // Other states aren't lit.
                 return;
