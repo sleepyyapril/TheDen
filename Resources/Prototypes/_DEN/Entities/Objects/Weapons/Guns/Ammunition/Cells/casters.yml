@@ -152,7 +152,7 @@
     levels: 8
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisCapgun
-    fireCost: 10 # Can fire 36 times, takes 8.33 seconds to recharge 1 shot
+    fireCost: 15 # Can fire 24 times, takes 1.25 seconds to recharge 1 shot
   - type: Tag
     tags:
       - MantisCaster
@@ -209,7 +209,7 @@
   parent: BaseMantisCasterPistol
   id: MantisCasterPistolHoly
   name: pistol caster (banishing)
-  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The bullets it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople—thanks to the chaplain—but \"metaphysical\" would be a more accurate description."
+  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The bullets it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople--thanks to the chaplain--but \"metaphysical\" would be a more accurate description."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-holy.rsi
@@ -220,7 +220,7 @@
   parent: BaseMantisCasterRevolver
   id: MantisCasterRevolverHoly
   name: revolver caster (banishing)
-  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The bullets it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople—thanks to the chaplain—but \"metaphysical\" would be a more accurate description."
+  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The bullets it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople--thanks to the chaplain--but \"metaphysical\" would be a more accurate description."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-holy.rsi
@@ -231,7 +231,7 @@
   parent: BaseMantisCasterShotgun
   id: MantisCasterShotgunHoly
   name: shotgun caster (banishing)
-  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The pellets it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople—thanks to the chaplain—but \"metaphysical\" would be a more accurate description."
+  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The pellets it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople--thanks to the chaplain--but \"metaphysical\" would be a more accurate description."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-holy.rsi
@@ -242,7 +242,7 @@
   parent: BaseMantisCasterSubMachineGun
   id: MantisCasterSubMachineGunHoly
   name: submachine gun caster (banishing)
-  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The bullets it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople—thanks to the chaplain—but \"metaphysical\" would be a more accurate description."
+  description: "A floral anomaly core harnessed as a self-replenishing ammo source. The bullets it manifests tear through supernatural threats without harming anything mundane. Called \"holy\" by laypeople--thanks to the chaplain--but \"metaphysical\" would be a more accurate description."
   components:
   - type: Sprite
     sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-holy.rsi
@@ -343,7 +343,7 @@
     levels: 8
   - type: ProjectileBatteryAmmoProvider
     proto: BulletMantisLethalSubMachineGun
-    fireCost: 30 # Can fire 36 times, takes 1.5 seconds in a cell recharger to recharge 1 shot
+    fireCost: 42.5 # Can fire 24 times, takes 2.125 seconds in a cell recharger to recharge 1 shot
   - type: Tag
     tags:
       - MantisCaster
@@ -441,7 +441,7 @@
   - type: PowerCell
     levels: 8
   - type: ProjectileBatteryAmmoProvider
-    fireCost: 10 # Can fire 36 times
+    fireCost: 15 # Can fire 24 times
   - type: Tag
     tags:
       - MantisCaster

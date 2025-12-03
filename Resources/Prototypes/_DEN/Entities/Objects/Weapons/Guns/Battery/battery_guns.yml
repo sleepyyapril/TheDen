@@ -179,7 +179,7 @@
     - Belt
     - suitStorage
   - type: Gun
-    fireRate: 2.5
+    fireRate: 2
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
       params:
@@ -249,7 +249,7 @@
 - type: entity
   parent: BaseMantisRanged
   id: MantisRangedSubMachineGun
-  name: OCC-A36 "Strix"
+  name: OCC-A24 "Strix"
   description: "A compact, fast-cycling mantis submachine gun built for relentless fire in tight spaces. It uses specialized magazines called \"casters,\" each containing an anomaly core that continually forms its own bullets. Issued with both banishing and silencing casters for confronting supernatural threats and rogue psions. Designed for the Outer Chamber Crucible by special commission."
   components:
   - type: Sprite

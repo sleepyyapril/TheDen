@@ -170,7 +170,7 @@
   parent: [BaseAntiPsionicWeapon, BasePlushie, BaseKnife] # It has a tiny ritual knife...
   id: PlushieDollMantis
   name: sentimental mantis doll
-  description: "A cute little doll with a mantis fez and a toy ritual knife. Wait—why is it sharp!?"
+  description: "A cute little doll with a mantis fez and a toy ritual knife. Wait--why is it sharp!?"
   components:
   - type: Sprite
     sprite: _DEN/Objects/Fun/toys.rsi

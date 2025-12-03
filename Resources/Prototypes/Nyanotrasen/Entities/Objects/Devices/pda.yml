@@ -123,7 +123,7 @@
   parent: BasePDA
   id: ForensicMantisPDA
   name: mantis PDA
-  description: "This PDA marks its bearer as a member of the Outer Chamber—a mantis, the Greek word for \"seer.\" The eye on its display seems to track whoever dares to look back. Carried in a pocket, because you couldn't bear to hang this hunk of plastic on your belt."
+  description: "This PDA marks its bearer as a member of the Outer Chamber--a mantis, the Greek word for \"seer.\" The eye on its display seems to track whoever dares to look back. Carried in a pocket, because you couldn't bear to hang this hunk of plastic on your belt."
   components:
   - type: Item
     sprite: _DEN/Objects/Devices/pda.rsi

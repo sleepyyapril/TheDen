@@ -52,7 +52,7 @@
   parent: [CombatKnife, BaseAntiPsionicWeapon, BaseMantisContraband]
   id: MantisMeleeKnife
   name: athame
-  description: "A mnemolith knife shaped like a claw, its back lined with swordbreaker teeth—though it remains unclear who, exactly, is drawing blades against mantes. The finger ring improves grip and allows for idle spinning tricks, though they serve no tactical purpose. Deadly when wielded against psionic and otherworldly threats."
+  description: "A mnemolith knife shaped like a claw, its back lined with swordbreaker teeth--though it remains unclear who, exactly, is drawing blades against mantes. The finger ring improves grip and allows for idle spinning tricks, though they serve no tactical purpose. Deadly when wielded against psionic and otherworldly threats."
   components:
   - type: ItemToggle # You can toggle spinning it around your finger, though it's just cosmetic
     predictable: false
