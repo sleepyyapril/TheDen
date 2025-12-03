@@ -15122,3 +15122,10 @@ Entries:
   id: 1474
   time: '2025-12-03T00:17:29.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/1797
+- author: Camdot
+  changes:
+    - type: Fix
+      message: Lobby server selector menu should now work
+  id: 1475
+  time: '2025-12-03T00:52:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2127
