@@ -1,3 +1,4 @@
+// SPDX-FileCopyrightText: 2025 William Lemon
 // SPDX-FileCopyrightText: 2025 eightballll
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
@@ -5,6 +6,7 @@
 using Content.Shared._DV.Abilities;
 using Content.Shared.Abilities.Psionics;
 using Content.Shared.Actions;
+using Content.Shared.Coordinates;
 using Robust.Server.Audio;
 
 namespace Content.Server._DV.Abilities;
@@ -34,6 +36,9 @@ public sealed partial class PsychokineticScreamPowerSystem : EntitySystem
             _audio.PlayPvs(entity.Comp.AbilitySound, entity);
 
         _shatterLights.ShatterLightsAround(entity.Owner, entity.Comp.Radius, entity.Comp.LineOfSight);
+
+        SpawnAttachedTo(entity.Comp.Effect, entity.Owner.ToCoordinates());
+
         args.Handled = true;
     }
 
