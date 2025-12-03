@@ -243,7 +243,6 @@
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
-    state: mnemolithpill
     heldPrefix: mnemolith
   - type: SolutionContainerManager
     solutions:
