@@ -18,6 +18,8 @@
   - type: Sprite # TheDen - Edited everything below this point wow
     sprite: _DEN/Structures/Specific/Mantis/closetmantis.rsi
   - type: Appearance
+  - type: StaticPrice
+    price: 125
   - type: EntityStorageVisuals
     stateBaseClosed: base
     stateDoorOpen: door-open

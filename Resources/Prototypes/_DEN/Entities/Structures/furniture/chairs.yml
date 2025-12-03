@@ -16,6 +16,8 @@
   - type: Damageable
     damageModifierSet: Wood
     damageContainer: Inorganic
+  - type: StaticPrice
+    price: 100
   - type: Destructible
     thresholds:
     - trigger:
@@ -56,6 +58,8 @@
   - type: Damageable
     damageModifierSet: Wood
     damageContainer: Inorganic
+  - type: StaticPrice
+    price: 125
   - type: Destructible
     thresholds:
     - trigger:
@@ -100,6 +104,8 @@
   - type: Damageable
     damageModifierSet: StrongMetallic
     damageContainer: Inorganic
+  - type: StaticPrice
+    price: 125
   - type: Destructible
     thresholds:
     - trigger:
@@ -157,6 +163,8 @@
   - type: Sprite
     sprite: _DEN/Structures/Furniture/chairs.rsi
     state: somberwood
+  - type: StaticPrice
+    price: 125
   - type: Damageable
     damageModifierSet: Wood
     damageContainer: Inorganic

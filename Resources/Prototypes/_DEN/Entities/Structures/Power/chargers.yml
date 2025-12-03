@@ -19,6 +19,8 @@
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Metallic
+  - type: StaticPrice
+    price: 2000
   - type: Destructible
     thresholds:
     - trigger:

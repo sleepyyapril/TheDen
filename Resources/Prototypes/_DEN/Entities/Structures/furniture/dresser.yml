@@ -49,6 +49,8 @@
   - type: Damageable
     damageModifierSet: Wood
     damageContainer: Inorganic
+  - type: StaticPrice
+    price: 125
   - type: Destructible
     thresholds:
     - trigger:

@@ -19,6 +19,8 @@
     stateBaseClosed: base
     stateDoorOpen: door-open
     stateDoorClosed: door-closed
+  - type: StaticPrice
+    price: 125
   - type: EntityStorage
     closeSound:
       path: /Audio/Effects/woodenclosetclose.ogg
