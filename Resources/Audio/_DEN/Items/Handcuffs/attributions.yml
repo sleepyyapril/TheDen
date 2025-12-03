@@ -6,6 +6,6 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - files: ["chain_end.ogg", "chain_start.ogg", "chain_takeoff.ogg"]
-  license: "CC0"
+  license: "CC0-1.0"
   copyright: "Made by agaudiodesigns via freesound.org"
   source: "https://freesound.org/people/agaudiodesigns/sounds/500558/"
