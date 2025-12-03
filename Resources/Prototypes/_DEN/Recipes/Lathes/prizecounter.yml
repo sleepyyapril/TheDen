@@ -92,6 +92,14 @@
   materials:
     PrizeTicket: 50
 
+- type: latheRecipe
+  id: PlushieDollMantis
+  result: PlushieDollMantis
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 60 # Slightly more expensive because it's also a tiny stupid little knife
+
 # squeaky toys are discounted because they're not plushies (no stash, not edible, etc)
 
 - type: latheRecipe

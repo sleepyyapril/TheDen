@@ -11,6 +11,8 @@ namespace Content.Client.Chemistry.EntitySystems;
 
 public sealed class PillSystem : EntitySystem
 {
+    [Dependency] private readonly SpriteSystem _sprite = null!;
+
     public override void Initialize()
     {
         base.Initialize();
@@ -22,9 +24,10 @@ public sealed class PillSystem : EntitySystem
         if (!TryComp(uid, out SpriteComponent? sprite))
             return;
 
-        if (!sprite.TryGetLayer(0, out var layer))
+        if (!_sprite.TryGetLayer((uid, sprite), 0, out var layer, false))
             return;
 
-        layer.SetState($"pill{component.PillType + 1}");
+        var state = component.State ?? $"pill{component.PillType + 1}";
+        _sprite.LayerSetRsiState(layer, state, true);
     }
 }

@@ -40,6 +40,8 @@
       id: LoadoutCatalogerEyesEpiHUD
     - type: loadout
       id: LoadoutCatalogerEyesEpiGlasses
+    - type: loadout # TheDen
+      id: LoadoutCatalogerEyesEpiGlassesVisor
 
 #- type: characterItemGroup
 #  id: LoadoutCatalogerGloves

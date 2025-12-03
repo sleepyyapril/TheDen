@@ -229,3 +229,13 @@
   id: vodkacheers
   flavorType: Complex
   description: flavor-complex-vodkacheers
+
+- type: flavor
+  id: mantispaper
+  flavorType: Complex
+  description: flavor-complex-mantispaper
+
+- type: flavor
+  id: mnemolith
+  flavorType: Complex
+  description: flavor-complex-mnemolith

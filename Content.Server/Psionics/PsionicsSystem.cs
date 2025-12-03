@@ -189,7 +189,13 @@ public sealed class PsionicsSystem : EntitySystem
             || !_random.Prob(component.PunishChances))
             return;
 
-        _electrocutionSystem.TryDoElectrocution(args.User, null, component.PunishSelfDamage, TimeSpan.FromSeconds(component.PunishStunDuration), false);
+        _electrocutionSystem.TryDoElectrocution(
+            args.User,
+            null,
+            component.PunishSelfDamage,
+            TimeSpan.FromSeconds(component.PunishStunDuration),
+            false,
+            ignoreInsulation: true);
     }
 
     private void OnInit(EntityUid uid, PsionicComponent component, ComponentStartup args)

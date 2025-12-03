@@ -70,7 +70,9 @@
     - ResearchAssistantGear
     - ScientistGear
     - ChaplainGear # DeltaV - Move Chaplain into Epistemics
-    - ForensicMantisGear # Nyanotrasen - Forensic Mantis
+    - MantisGearAiry # TheDen
+    - MantisGearDark # TheDen
+    - MantisGearOrnate # TheDen
 
 - type: entity
   parent: SalvageHumanCorpse

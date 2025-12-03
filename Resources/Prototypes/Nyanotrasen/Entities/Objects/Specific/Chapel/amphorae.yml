@@ -18,7 +18,7 @@
     size: Small
     sprite: Nyanotrasen/Objects/Specific/Chapel/amphorae.rsi
   - type: StaticPrice
-    price: 50
+    price: 150
   - type: SolutionContainerManager
     solutions:
       jar:

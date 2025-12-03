@@ -26,3 +26,6 @@
     - type: GuideHelp
       guides:
       - ArtifactReports
+    - type: Tag # TheDen
+      tags:
+      - ScienceTool
