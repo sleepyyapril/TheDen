@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2025 Vanessa
 # SPDX-FileCopyrightText: 2025 deltanedas
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
