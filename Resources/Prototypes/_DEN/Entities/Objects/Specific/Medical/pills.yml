@@ -195,7 +195,7 @@
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
     state: soulbreakerpill
   - type: Pill
-    state: soulbreaker
+    state: soulbreakerpill
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
