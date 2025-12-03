@@ -19,6 +19,8 @@
   - type: PhysicalComposition
     materialComposition:
       Eidolite: 100
+  - type: StaticPrice
+    price:  500
   - type: Tag
     tags:
     - Wrench
