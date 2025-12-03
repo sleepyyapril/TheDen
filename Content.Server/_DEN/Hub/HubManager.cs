@@ -1,3 +1,4 @@
+// SPDX-FileCopyrightText: 2025 Cami
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
 // SPDX-License-Identifier: MIT
