@@ -15145,3 +15145,13 @@ Entries:
   id: 1477
   time: '2025-12-03T06:03:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2128
+- author: Sha-Seng
+  changes:
+    - type: Tweak
+      message: >-
+        Completely redid the entire job and aesthetic of mantis over the course
+        of three months, please god just view the changelog I need to go
+        celebrate oh my god I'm finally done thank god hahaha
+  id: 1478
+  time: '2025-12-03T06:47:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1764
