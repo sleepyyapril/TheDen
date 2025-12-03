@@ -16,7 +16,6 @@
       map: ["base"]
   - type: Item
     sprite: _DEN/Objects/Materials/materials.rsi
-    state: mnemolith
     heldPrefix: mnemolith
     size: Small # Can be smaller than other materials since it's almost useless
   - type: Appearance
@@ -82,7 +81,6 @@
   components:
   - type: Item
     sprite: _DEN/Objects/Materials/materials.rsi
-    state: mnemolithpowder
     heldPrefix: mnemolithpowder
     size: Tiny
   - type: Sprite
@@ -128,7 +126,6 @@
       map: ["base"]
   - type: Item
     sprite: _DEN/Objects/Materials/materials.rsi
-    state: eidolite
     heldPrefix: eidolite
     size: Small # Can be smaller than other materials since it's almost useless
   - type: Appearance

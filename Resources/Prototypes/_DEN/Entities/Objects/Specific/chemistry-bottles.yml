@@ -13,7 +13,6 @@
         visible: false
   - type: Item
     sprite: _DEN/Objects/Specific/Mantis/bottlemantis.rsi
-    state: bottle
   - type: SolutionContainerVisuals
     maxFillLevels: 6
     fillBaseName: bottle-

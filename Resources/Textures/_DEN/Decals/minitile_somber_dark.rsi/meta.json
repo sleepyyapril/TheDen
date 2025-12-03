@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC0-1.0",
-    "copyright": "Made by github user @Morb0. Modified v2 by ko4erga (discord), somber by Sha-Seng (GitHub)",
+    "copyright": "Made by github user @Morb0, somber by Sha-Seng (GitHub)",
     "size": {
         "x": 32,
         "y": 32
@@ -57,18 +57,6 @@
         },
         {
             "name": "steel_inner_sw"
-        },
-        {
-            "name": "steel_tile_ne"
-        },
-        {
-            "name": "steel_tile_nw"
-        },
-        {
-            "name": "steel_tile_se"
-        },
-        {
-            "name": "steel_tile_sw"
         }
     ]
 }

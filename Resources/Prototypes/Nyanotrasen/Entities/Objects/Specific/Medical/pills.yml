@@ -21,7 +21,6 @@
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
-    state: mindbreakerpill
     heldPrefix: mindbreaker
   - type: SolutionContainerManager
     solutions:
@@ -48,7 +47,6 @@
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
-    state: cryptopill
     heldPrefix: crypto
   - type: SolutionContainerManager
     solutions:

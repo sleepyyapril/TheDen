@@ -197,7 +197,6 @@
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
-    state: soulbreakerpill
     heldPrefix: soulbreaker
   - type: SolutionContainerManager
     solutions:

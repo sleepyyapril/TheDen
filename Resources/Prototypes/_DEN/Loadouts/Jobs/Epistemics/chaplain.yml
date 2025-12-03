@@ -53,7 +53,7 @@
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
-      group: LoadoutChaplainEquipment
+      group: LoadoutChaplainEyes
     - !type:CharacterJobRequirement
       jobs:
         - Chaplain
