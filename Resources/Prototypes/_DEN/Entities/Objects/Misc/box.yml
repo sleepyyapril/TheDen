@@ -1,4 +1,10 @@
-﻿# a container that prevents its contents to ignite
+# SPDX-FileCopyrightText: 2025 Shaman
+# SPDX-FileCopyrightText: 2025 Sir Warock
+# SPDX-FileCopyrightText: 2025 Steven Higginbotham
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# a container that prevents its contents to ignite
 - type: entity
   abstract: true
   id: ContentsIgnitionPreventionBase

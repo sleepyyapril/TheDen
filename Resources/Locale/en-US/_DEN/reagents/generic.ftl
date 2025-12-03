@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Shaman
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # Mnemolith popup messages start
 reagent-effect-mnemolith-1 = Your skin prickles, as though unseen eyes are on you.
 reagent-effect-mnemolith-2 = The air hums faintly, or is it only in your head?

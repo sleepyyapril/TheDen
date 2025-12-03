@@ -1,4 +1,9 @@
-﻿- type: entity
+# SPDX-FileCopyrightText: 2025 Shaman
+# SPDX-FileCopyrightText: 2025 Steven Higginbotham
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
   parent: [BaseItem, BaseMantisContraband]
   id: HandcuffsMantis
   suffix: DO NOT MAP # We don't want to give mantes the idea that selfsec is a part of their job's function...

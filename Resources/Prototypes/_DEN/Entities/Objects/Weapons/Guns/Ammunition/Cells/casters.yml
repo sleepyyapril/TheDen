@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Shaman
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # The cost of making these guns capable of being individually balanced, to the point of fine-tuning, is all this yaml...
 # Damage values are in _DEN's projectiles.yml, values given by server direction
 

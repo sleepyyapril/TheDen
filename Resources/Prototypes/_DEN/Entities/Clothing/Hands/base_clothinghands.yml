@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Steven Higginbotham
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity # ClothingHandsBase but inedible for moths
   abstract: true
   parent: Clothing

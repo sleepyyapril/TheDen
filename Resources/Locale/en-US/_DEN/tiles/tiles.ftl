@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Shaman
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 tiles-somber-amaranth = somber amaranth floor
 tiles-somber-amaranth-eye = somber amaranth floor (eye)
 tiles-somber-mnemolith-rough = somber mnemolith tile (rough)
