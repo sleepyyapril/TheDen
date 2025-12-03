@@ -45,10 +45,6 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.25
     baseSprintSpeed: 3.75
-  - type: NoSlip
-  - type: MovedByPressure
-    enabled: false
-  - type: JetpackUser
   - type: CombatMode
   - type: MeleeWeapon
     soundHit:
