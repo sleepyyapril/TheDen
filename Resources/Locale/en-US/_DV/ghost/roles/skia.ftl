@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 William Lemon
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 ghost-role-information-skia-name = Skia
 ghost-role-information-skia-description = The fates have cut the thread of a soul, stalk the shadows to find them and reap what is owed.
 ghost-role-information-skia-rules = You are a [color=red][bold]Solo Antagonist[/bold][/color].
