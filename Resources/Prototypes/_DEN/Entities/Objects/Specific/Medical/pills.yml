@@ -194,6 +194,8 @@
   - type: Sprite # Soulbreaker Toxin colored pill
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
     state: soulbreakerpill
+  - type: Pill
+    state: soulbreaker
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
@@ -244,6 +246,8 @@
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
     heldPrefix: mnemolith
+  - type: Pill
+    state: mnemolithpill
   - type: SolutionContainerManager
     solutions:
       food:

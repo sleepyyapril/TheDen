@@ -118,6 +118,8 @@
       visible: false
       map: ["enum.WeldableLayers.BaseWelded"]
   - type: Appearance
+  - type: StaticPrice
+    price: 125
   - type: EntityStorageVisuals
     stateBaseClosed: base
     stateDoorOpen: door-open

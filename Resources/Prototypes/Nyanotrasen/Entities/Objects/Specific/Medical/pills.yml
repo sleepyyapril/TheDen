@@ -18,6 +18,8 @@
   - type: Sprite # TheDen - Mindbreaker Toxin colored pill
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
     state: mindbreakerpill
+  - type: Pill
+    state: mindbreakerpill
   - type: Item
     size: Tiny
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
@@ -43,6 +45,8 @@
     currentLabel: cryptobiolin 15u # TheDen
   - type: Sprite # TheDen - Cryptobiolin colored pill
     sprite: _DEN/Objects/Specific/Chemistry/pills.rsi
+    state: cryptopill
+  - type: Pill
     state: cryptopill
   - type: Item
     size: Tiny
