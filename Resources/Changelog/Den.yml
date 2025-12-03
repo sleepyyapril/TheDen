@@ -15113,3 +15113,12 @@ Entries:
   id: 1473
   time: '2025-12-02T10:22:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2120
+- author: Eightballll
+  changes:
+    - type: Add
+      message: >-
+        Added the Skia, a new dragon-level threat. Be careful of what lurks in
+        the shadows....
+  id: 1474
+  time: '2025-12-03T00:17:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1797
