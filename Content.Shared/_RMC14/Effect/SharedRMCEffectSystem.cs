@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 William Lemon
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Robust.Shared.Timing;
 
 namespace Content.Shared._RMC14.Effect;

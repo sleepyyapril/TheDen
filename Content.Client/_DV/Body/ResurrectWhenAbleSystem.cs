@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 William Lemon
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared._DV.Body;
 using Content.Shared.Alert;
 using Robust.Client.Player;
