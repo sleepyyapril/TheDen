@@ -1,4 +1,8 @@
-﻿using Content.Shared.MapText;
+// SPDX-FileCopyrightText: 2025 TheLuggage05
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Shared.MapText;
 using Robust.Client.Graphics;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;

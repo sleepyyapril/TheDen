@@ -1,4 +1,8 @@
-﻿using System.Numerics;
+// SPDX-FileCopyrightText: 2025 TheLuggage05
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using System.Numerics;
 using Content.Shared.MapText;
 using Robust.Client.Graphics;
 using Robust.Client.ResourceManagement;

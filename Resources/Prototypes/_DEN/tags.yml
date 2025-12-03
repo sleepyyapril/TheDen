@@ -99,6 +99,9 @@
 # Mantis tags end, god almighty
 
 - type: Tag
+  id: Microphone
+
+- type: Tag
   id: OviniaEmotes
 
 - type: Tag
