@@ -364,10 +364,10 @@
       ammo:
         reagents:
         - ReagentId: Cryptobiolin
-          Quantity: 1.666
+          Quantity: 2.5
   - type: SolutionInjectOnProjectileHit
     solution: ammo
-    transferAmount: 1.666 # 1.666u of crypto disables psionics for 33.3s, and a full magazine of any mantis gun will disable psionics for 20m
+    transferAmount: 2.5 # 2.5u of crypto disables psionics for 50s, and a full magazine of any mantis gun will disable psionics for 20m
 
 - type: entity
   parent: BulletMantisHoly

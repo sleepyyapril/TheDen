@@ -541,7 +541,7 @@ trait-description-HighAmplification =
 
 trait-name-PowerOverwhelming = Power Overwhelming
 trait-description-PowerOverwhelming =
-    "WITNESS MY HATE, MORTALS—COWER BEFORE MY PSIONIC MIGHT! REALITY IS AS I DEEM IT."
+    "WITNESS MY HATE, MORTALS--COWER BEFORE MY PSIONIC MIGHT! REALITY IS AS I DEEM IT."
     Your psionic abilities are twice as strong as those of other psions, and you cannot be psionically suppressed. You will not be stopped.
 
 trait-name-LowDampening = kδ Defect

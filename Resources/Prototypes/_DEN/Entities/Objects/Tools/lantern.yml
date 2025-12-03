@@ -2,7 +2,7 @@
   parent: [BaseItem, BaseAntiPsionicWeapon, BaseMantisContraband] # If I parented it to Lantern, it would have a battery slot...
   id: LanternMantis
   name: mantis lantern
-  description: "An ornate lantern housing an eidolite pyramid that draws power from the noosphere. Instead of merely casting light, it seems to declare it—an austere radiance that etches itself into whatever it touches. Stare too long and the gleam resolves into shapes you almost recognize, then promptly forget. For all its theatrics, the handle still hangs comfortably on your back."
+  description: "An ornate lantern housing an eidolite pyramid that draws power from the noosphere. Instead of merely casting light, it seems to declare it--an austere radiance that etches itself into whatever it touches. Stare too long and the gleam resolves into shapes you almost recognize, then promptly forget. For all its theatrics, the handle still hangs comfortably on your back."
   components:
     - type: Sprite
       sprite: _DEN/Objects/Specific/Mantis/lanternmantis.rsi

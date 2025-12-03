@@ -9,17 +9,17 @@
 
 [color=#a65ccc]Mantes are psionic specialists[/color] formally trained by either the secretive Outer Chamber or, less commonly, through an apprenticeship with an elder mantis. They are assigned by Nanotrasen to serve within Epistemics, [color=#a65ccc]and their ultimate purpose is to protect the natural order of reality.[/color] A mantis works to confront supernatural threats that bleed into the material world from the noosphere; to intervene when psionic powers are misused in ways that endanger the crew or compromise existential stability; and to help station's psions understand, endure, and safely wield their abilities.
 
-Their duties begin where ordinary expertise ends: where noospheric storms twist perception, where psionic forces exceed containment, and where subtle distortions foretell breaches in the fabric of the world. [color=#ffd069]Their role is advisory, custodial, and metaphysical—not judicial.[/color]
+Their duties begin where ordinary expertise ends: where noospheric storms twist perception, where psionic forces exceed containment, and where subtle distortions foretell breaches in the fabric of the world. [color=#ffd069]Their role is advisory, custodial, and metaphysical--not judicial.[/color]
 
 Though mantes work within Epistemics, [color=#ffd069]they should generally only assist with routine research duties when necessary or when tasked by their immediate supervisor, the Mystagogue.[/color] Their priority is always the metaphysical health of the station, not anomalies or artifacts. Idly helping your coworkers is acceptable, but do not allow it to eclipse your true responsibilities.
 
 The Outer Chamber recognizes specializations among experienced mantes:
 
 - [color=#a65ccc]Mantis Exorcists hunt otherworldly entities[/color] that threaten the safety of the station and its crew.
-- [color=#a65ccc]Mantis Occultists monitor for psionic misuse[/color] and investigate signs of noospheric tampering, corruption, or instability.
+- [color=#a65ccc]Mantis Occultists monitor for psionic misconduct[/color] and investigate signs of noospheric tampering, corruption, or instability.
 - [color=#a65ccc]Mantis Spiritualists guide psions through awakening,[/color] helping them integrate their abilities without losing themselves.
 
-These titles are not ranks, but callings. A mantis may embody more than one, but should know which voice speaks first.
+These titles callings, rather than ranks. A mantis may embody more than one, but should know which voice speaks first.
 
 ## Equipment and Usage
 
@@ -57,7 +57,7 @@ Mantis melee implements are carved from [color=#a65ccc]mnemolith[/color], a dark
   <GuideEntityEmbed Entity="MantisMeleeGreatswordSheathFilled" Caption=""/>
 </Box>
 
-[color=#ffd069]Certain mnemolith artifacts are volatile, and may severely injure a wielder who strikes non-psionic targets with them.[/color] Treat unusual resonance as a warning, not a challenge; if a weapon hums, flickers, or strains against your grip, reconsider why you are holding it.
+Certain mnemolith artifacts are volatile, [color=#ffd069]and may severely injure a wielder who strikes non-psionic targets with them.[/color] Treat unusual resonance as a warning, not a challenge; if a weapon hums, flickers, or strains against your grip, [color=#ffd069]reconsider why you are holding it.[/color]
 
 [color=#d9418d]Misusing mnemolith against crew without cause is a criminal act.[/color]
 
@@ -90,7 +90,7 @@ Mantis firearms are unique models that utilize specialized [color=#a65ccc]caster
 
 [color=#a65ccc]Your words solve more problems than any blade ever will.[/color] As a mantis, conversation, mediation, and discernment are your principal instruments. While you are capable of violence, [color=#ffd069]you are not appointed to dispense it against crew.[/color]
 
-[color=#d9418d]Mindbreaking is not your right, privilege, or duty.[/color] The pills provided to you can permanently sever a mind's connection to the noosphere, a fate one may compare to the amputation of a bird's wing. [color=#ffd069]Such an act is only to be performed when explicitly requested by the Captain or a greater authority[/color]—or possibly by the psion themselves. As the one performing the act, [color=#a65ccc]you have the right to refuse if you deem it too cruel a punishment.[/color] Chemists are capable of producing mindbreaker toxin, and you may legally remove yourself from the situation.
+[color=#d9418d]Mindbreaking is not your right, privilege, or duty.[/color] The pills provided to you can permanently sever a mind's connection to the noosphere without extraordinary intervention, a fate one may compare to clipping a wild bird's wings. [color=#ffd069]Such an act is only to be performed when explicitly requested by the Captain or a greater authority[/color]--or possibly by the psion themselves. As the one performing the act, [color=#a65ccc]you have the right to refuse if you deem it too cruel a punishment.[/color] Chemists are capable of producing mindbreaker toxin, and you may legally remove yourself from the situation.
 
 [color=#a65ccc]When in doubt, contact Central Command for confirmation before administering the dose.[/color]
 

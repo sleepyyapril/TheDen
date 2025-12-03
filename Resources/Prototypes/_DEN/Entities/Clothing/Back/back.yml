@@ -175,7 +175,7 @@
     damage:
       types:
         Blunt: 15 # 7.5 DPS (same as Crowbar)
-        Structural: 15
+        Structural: 15 # 7.5 structural DPS (though you'll run out of stamina after two or three swings)
     soundHit:
       path: /Audio/Effects/metal_slam2.ogg
       params:

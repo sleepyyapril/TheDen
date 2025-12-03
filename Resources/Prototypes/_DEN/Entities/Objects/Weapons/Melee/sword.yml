@@ -81,7 +81,7 @@
   parent: [BaseSword, BaseAntiPsionicWeapon, BaseMantisContraband]
   id: MantisMeleeGreatsword # The risk/reward option, highly likely to knock you on your ass and get you killed, extremely difficult to use effectively
   name: faust # Part of the reason it's so punishing, aside from the challenge, is because antags could possibly use it against psions - it needs to be unreliable
-  description: "A mnemolith greatsword whose unstable resonance makes it treacherous to wield. Faust rebounds violently from any impact that does not strike a psion, whipping back into its bearer even if it merely grazes a wall. It must be properly wielded—without absolute focus, the blade resists. Unmatched against psionic and otherworldly threats, perilous against anything else."
+  description: "A mnemolith greatsword whose unstable resonance makes it treacherous to wield. Faust rebounds violently from any impact that does not strike a psion, whipping back into its bearer even if it merely grazes a wall. It must be properly wielded--without absolute focus, the blade resists. Unmatched against psionic and otherworldly threats, perilous against anything else."
   components: # Yes the description is long, but players must understand how it works from description alone, and I want it to remain in-universe
   - type: AntiPsionicWeapon
     punish: true # It'll hurt you if you hit anything non-psionic (a mouse, a wall, etc.)
@@ -112,9 +112,8 @@
     heavyStaminaCost: 30 # Also you can't spam them or you'll fall over
     damage:
       types:
-        Slash: 28.125 # 18.75 DPS (same as CaptainSabre), or 23.44 DPS against psions (but if you miss, it hits you hard)
-        Holy: 14.0625 # 35.16 total DPS against psionic supernaturals (no way are you landing every left click on a simplemob)
-        Structural: 45 # And the table dies with you
+        Slash: 28 # 18.66 DPS (same as CaptainSabre), or 23.33 DPS against psions (but if you miss, it hits you hard)
+        Holy: 20 # 40 total DPS against psionic supernaturals (no way are you landing every left click on a simplemob)
     soundHit:
       path: /Audio/_DEN/Weapons/Melee/fausthit.ogg
       params:
@@ -157,7 +156,7 @@
   - type: ThrowingAngle
     angle: -135
   - type: MeleeThrowOnHit # Just a tiny knockback to look cool, barely moves anything
-    speed: 3
+    speed: 6
     lifetime: 0.05
   - type: Reflect # A little gift for being brave
     reflectProb: .25

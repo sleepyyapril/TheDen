@@ -33,7 +33,7 @@
       types:
         Blunt: 12 # 12 DPS, or 15 DPS against psions (same as CombatKnife)
         Holy: 6 # 22.5 total DPS against psionic supernaturals
-        Structural: 5
+        Structural: 7.5 # 5 structural DPS
     soundHit:
       path: /Audio/_Impstation/Weapons/nullglove.ogg
       params:
@@ -73,6 +73,7 @@
       types:
         Blunt: 15 # 15 DPS (same as CombatKnife), or 18.75 DPS against psions
         Holy: 7.5 # 28.13 total DPS against psionic supernaturals
+        Structural: 11.25 # 7.5 structural DPS (same as BaseBallBat)
   - type: MeleeThrowOnHit # They just go sailing and do hit walls hard enough to hurt (still only 2/3rds as fast as BaseBallBatHomeRun)
     speed: 20
     lifetime: 5
