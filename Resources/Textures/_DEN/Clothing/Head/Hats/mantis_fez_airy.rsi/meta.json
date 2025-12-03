@@ -100,6 +100,22 @@
         {
             "name": "flipped-equipped-HELMET-vulpkanin",
             "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-ovinia",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-ovinia",
+            "directions": 4
+        },
+        {
+            "name": "equipped-HELMET-rodentia",
+            "directions": 4
+        },
+        {
+            "name": "flipped-equipped-HELMET-rodentia",
+            "directions": 4
         }
     ]
 }
