@@ -15209,3 +15209,16 @@ Entries:
   id: 1484
   time: '2025-12-04T09:42:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2137
+- author: juniwoofs
+  changes:
+    - type: Tweak
+      message: Overhauled Security to allow for genpop (Manta)
+    - type: Tweak
+      message: Redesigned the Mantis room to use the new props and tiles (Manta)
+    - type: Add
+      message: Added Wagie Hell (Manta)
+    - type: Remove
+      message: Removed three Doc Peps from Gregg's stash (dont tell him)
+  id: 1485
+  time: '2025-12-04T20:11:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2142
