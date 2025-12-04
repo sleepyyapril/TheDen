@@ -15193,3 +15193,12 @@ Entries:
   id: 1482
   time: '2025-12-04T09:40:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2140
+- author: superjeepboy
+  changes:
+    - type: Fix
+      message: >-
+        Fixed canes giving extra speed while sprinting. People who use canes
+        shouldn't be zipping around faster than others now.
+  id: 1483
+  time: '2025-12-04T09:41:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2138
