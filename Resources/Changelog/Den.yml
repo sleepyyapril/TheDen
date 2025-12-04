@@ -15202,3 +15202,10 @@ Entries:
   id: 1483
   time: '2025-12-04T09:41:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2138
+- author: Shaman
+  changes:
+    - type: Fix
+      message: Mantis Chairs can no longer fly through walls. You're not that psionic.
+  id: 1484
+  time: '2025-12-04T09:42:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2137
