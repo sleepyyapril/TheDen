@@ -210,14 +210,6 @@
     state: dragon
     color: "#ff0000"
 
-- type: foodSequenceElement
-  id: SlimeTiderPlushie
-  scale: 0.8, 0.8
-  name: food-sequence-cotton-burger-content-plushie-slime-tider
-  sprites:
-  - sprite: _Floof/Objects/Fun/floof_plush.rsi
-    state: slime
-
 # Einstein Engines Plushies (i guess?)
 
 - type: foodSequenceElement
