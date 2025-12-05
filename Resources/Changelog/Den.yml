@@ -15078,3 +15078,211 @@ Entries:
   id: 1470
   time: '2025-12-01T22:45:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2113
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: >-
+        Added the Skimpy Lingerie line of undergarments! Nipple tape, panties,
+        bras, garters and more!
+    - type: Tweak
+      message: Adjusted underwear and undershirt marking limit to 6
+  id: 1471
+  time: '2025-12-02T01:06:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2118
+- author: Pinkbat5
+  changes:
+    - type: Add
+      message: >-
+        You can now find rose seeds in the exotic seed crate! They can be juiced
+        to make cocktails, worn in the hair or mouth, or mutated into dangerous
+        black roses. 
+    - type: Add
+      message: >-
+        Traitors can now buy evil blood-red roses in the uplink. Throw them at
+        an unsuspecting victim for a nasty surprise...
+  id: 1472
+  time: '2025-12-02T03:17:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2102
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        You can now construct a microphone stand in the crafting menu, which
+        allows you to use microphones as a standing instrument and keep your
+        hands free.
+  id: 1473
+  time: '2025-12-02T10:22:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2120
+- author: Eightballll
+  changes:
+    - type: Add
+      message: >-
+        Added the Skia, a new dragon-level threat. Be careful of what lurks in
+        the shadows....
+  id: 1474
+  time: '2025-12-03T00:17:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1797
+- author: Camdot
+  changes:
+    - type: Fix
+      message: Lobby server selector menu should now work
+  id: 1475
+  time: '2025-12-03T00:52:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2127
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: Fixed Thaven female displacements (thank god for women)
+  id: 1476
+  time: '2025-12-03T06:03:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2129
+- author: superjeepboy
+  changes:
+    - type: Add
+      message: >-
+        Moths have a proper distinct talking sound, making little squeaks
+        whenever they talk.
+  id: 1477
+  time: '2025-12-03T06:03:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2128
+- author: Sha-Seng
+  changes:
+    - type: Tweak
+      message: >-
+        Completely redid the entire job and aesthetic of mantis over the course
+        of three months, please god just view the changelog I need to go
+        celebrate oh my god I'm finally done thank god hahaha
+  id: 1478
+  time: '2025-12-03T06:47:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/1764
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        Added species sprites for the Mantis Blindfold, fixed all sprites for
+        the Mantis Veil (they now layer properly too!)
+  id: 1479
+  time: '2025-12-03T20:45:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2135
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        An Azalea plushie can be selected in loadouts or found in the places
+        that other plushies can be found, as per June's request.
+  id: 1480
+  time: '2025-12-04T01:47:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2139
+- author: Zilanthros
+  changes:
+    - type: Tweak
+      message: Replaced in-station lava elements with safe, zero damage elements.
+  id: 1481
+  time: '2025-12-04T02:47:32.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2141
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Added a mantis psionics lens (HUD) you can wear over either eye, and
+        opaque "mirrored" mantis glasses
+    - type: Tweak
+      message: The Sarcophagus will stop layering over mantis robes when facing south
+    - type: Tweak
+      message: The Manifold and Twinned Manifold can now pry unpowered, unbolted doors
+  id: 1482
+  time: '2025-12-04T09:40:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2140
+- author: superjeepboy
+  changes:
+    - type: Fix
+      message: >-
+        Fixed canes giving extra speed while sprinting. People who use canes
+        shouldn't be zipping around faster than others now.
+  id: 1483
+  time: '2025-12-04T09:41:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2138
+- author: Shaman
+  changes:
+    - type: Fix
+      message: Mantis Chairs can no longer fly through walls. You're not that psionic.
+  id: 1484
+  time: '2025-12-04T09:42:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2137
+- author: juniwoofs
+  changes:
+    - type: Tweak
+      message: Overhauled Security to allow for genpop (Manta)
+    - type: Tweak
+      message: Redesigned the Mantis room to use the new props and tiles (Manta)
+    - type: Add
+      message: Added Wagie Hell (Manta)
+    - type: Remove
+      message: Removed three Doc Peps from Gregg's stash (dont tell him)
+  id: 1485
+  time: '2025-12-04T20:11:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2142
+- author: Oberonics
+  changes:
+    - type: Tweak
+      message: >-
+        Bluespace and Normality ore now gives mining points and processes 4x
+        faster!
+  id: 1486
+  time: '2025-12-05T00:42:13.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2145
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Added pinpointer to dragons that directs them to the station
+    - type: Remove
+      message: Removed references to dragons needing to place rifts or they die
+    - type: Tweak
+      message: >-
+        Made dragons immune to stuttering, you can talk while bleeding out
+        yipeee!
+  id: 1487
+  time: '2025-12-05T02:04:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2149
+- author: Kellaris
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the ghost role description for scug cats slightly, to be more
+        consistent with other free agent roles.
+  id: 1488
+  time: '2025-12-05T02:17:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2150
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: Scugcats are now crew aligned rather than free agent roles.
+  id: 1489
+  time: '2025-12-05T06:12:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2153
+- author: SubspaceEmber
+  changes:
+    - type: Add
+      message: >-
+        Added a certain wurbling shadowkin plushie, now found wherever plushies
+        are found!
+  id: 1490
+  time: '2025-12-05T06:13:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2151
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Diamond sell price is 10 instead of 20.
+    - type: Tweak
+      message: >-
+        Bounties can be rerolled every 30 seconds. Please don't abuse this; it's
+        so others don't NEED to do your bounties if they don't want to.
+    - type: Tweak
+      message: Halved mining points from Diamond and Bananium
+    - type: Tweak
+      message: >-
+        Spesos from salvage vendor is 2:1, instead of 1:1 mining points to
+        spesos.
+  id: 1491
+  time: '2025-12-05T06:21:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2146
