@@ -17,7 +17,7 @@
     state: tail
 
 - type: marking
-  id: TajaranTailAnim
+  id: TajaranTailRetroAnimated
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran, Felinid]
@@ -37,7 +37,7 @@
     state: tail_rings
 
 - type: marking
-  id: TajaranTailAnimRings
+  id: TajaranTailRetroRingsAnimted
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran, Felinid]
@@ -48,7 +48,7 @@
     state: tail_anim_rings
 
 - type: marking
-  id: TajaranLeoTailNoAnim # Den Addition - Leopard Tail No Animation
+  id: TajaranLeoTail # Den Addition - Leopard Tail No Animation
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran, Felinid]
@@ -59,7 +59,7 @@
     state: leopard_tertiary
 
 - type: marking
-  id: TajaranLeoTailAnim # Den Addition - Leopard Tail Animation
+  id: TajaranLeoTailAnimated # Den Addition - Leopard Tail Animation
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran, Felinid]
