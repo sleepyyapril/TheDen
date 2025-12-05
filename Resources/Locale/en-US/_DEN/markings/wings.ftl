@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 marking-WingsSeraphPositionUpper = Seraph Wings (Upper Body)
 marking-WingsSeraphPositionUpper-seraphtop = Wing
 
