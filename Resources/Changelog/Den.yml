@@ -15253,3 +15253,10 @@ Entries:
   id: 1488
   time: '2025-12-05T02:17:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2150
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: Scugcats are now crew aligned rather than free agent roles.
+  id: 1489
+  time: '2025-12-05T06:12:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2153
