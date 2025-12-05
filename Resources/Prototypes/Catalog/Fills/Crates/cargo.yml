@@ -10,6 +10,7 @@
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 SixplyDev
 # SPDX-FileCopyrightText: 2025 Skubman
+# SPDX-FileCopyrightText: 2025 Winter
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
@@ -363,6 +364,9 @@
       prob: 0.01
       orGroup: Plushies
     - id: PlushieAzalea # TheDen
+      prob: 0.01
+      orGroup: Plushies
+    - id: PlushieWhistler # TheDen
       prob: 0.01
       orGroup: Plushies
     #useful

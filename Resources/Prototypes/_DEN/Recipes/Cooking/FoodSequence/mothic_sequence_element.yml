@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2025 Winter
 # SPDX-FileCopyrightText: 2025 leo
 # SPDX-FileCopyrightText: 2025 portfiend
 #
@@ -91,6 +92,14 @@
   sprites:
   - sprite: _DEN/Objects/Fun/azaleaplushie.rsi
     state: icon
+
+- type: foodSequenceElement
+  id: WhistlerPlushie
+  scale: 0.8, 0.8
+  name: food-sequence-cotton-burger-content-plushie-whistler
+  sprites:
+    - sprite: _DEN/Objects/Fun/whistlerplushie.rsi
+      state: icon
 
 # DeltaV Plushies
 

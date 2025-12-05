@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 Shaman
 # SPDX-FileCopyrightText: 2025 Tabitha
+# SPDX-FileCopyrightText: 2025 Winter
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
@@ -78,6 +79,14 @@
   canBeHeirloom: true
   items:
   - PlushieAzalea
+
+- type: loadout
+  id: PlushieWhistler
+  category: GeneralToys
+  cost: 1
+  canBeHeirloom: true
+  items:
+    - PlushieWhistler
 
 - type: loadout
   id: PlushieFelinid
