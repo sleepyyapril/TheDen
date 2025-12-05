@@ -15286,3 +15286,32 @@ Entries:
   id: 1491
   time: '2025-12-05T06:21:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2146
+- author: Shaman
+  changes:
+    - type: Add
+      message: Added Mantis Arm Chains if you want the jewelry without the sleeves
+    - type: Tweak
+      message: Fixed a typo and clarified antipsionic rebound in the mantis guidebook
+    - type: Tweak
+      message: >-
+        The Mask of the Unburdened will now conceal your identity if you have no
+        ID
+    - type: Tweak
+      message: Added the second headcage back to the mantis locker
+    - type: Tweak
+      message: Changed the mantis locker's coat to be a warm one in case it's Glacier
+    - type: Tweak
+      message: >-
+        Added a pre-flipped mantis HUD to the loadout for convenience if you're
+        missing an eye
+    - type: Tweak
+      message: >-
+        Reduced the cooldown of the mantis knives so you can spin them exactly
+        once if you spam Z
+    - type: Tweak
+      message: >-
+        Made the left glove of the airy mantis sleeves foldable so you can wear
+        it with the mantle  without clipping (people keep doing this)
+  id: 1492
+  time: '2025-12-05T07:12:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2148
