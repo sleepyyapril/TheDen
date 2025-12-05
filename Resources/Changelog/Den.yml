@@ -15331,3 +15331,15 @@ Entries:
   id: 1494
   time: '2025-12-05T08:29:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2144
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Fixed blank pronouns in examine.
+    - type: Tweak
+      message: >-
+        Made leopard, retro, and retro rings tails waggable for Tajarans. This
+        is a separate marking for backwards compatibility as to not ruin
+        character profiles.
+  id: 1495
+  time: '2025-12-05T08:30:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2156
