@@ -15322,3 +15322,12 @@ Entries:
   id: 1493
   time: '2025-12-05T07:12:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2105
+- author: Oberonics
+  changes:
+    - type: Tweak
+      message: Marked for Removal has its trait point back!
+    - type: Tweak
+      message: Slightly changed the title and description of the Marked Traits.
+  id: 1494
+  time: '2025-12-05T08:29:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2144
