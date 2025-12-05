@@ -83,9 +83,6 @@ marking-TajaranEarsWide-wide_inner = Inner ear
 
 marking-TajaranTailRetroAnimated = Classic Tail (Waggable)
 marking-TajaranTailRetroAnimated-tail_anim = Tail
-marking-TajaranTailRingsAnimated = Classic Tail (Waggable, Rings)
-marking-TajaranTailRingsAnimated-tail_anim = Tail
-marking-TajaranTailRingsAnimated-tail_anim_rings = Rings
 marking-TajaranTailRetroRingsAnimated = Classic Tail (Waggable, Rings)
 marking-TajaranTailRetroRingsAnimated-tail_anim = Tail
 marking-TajaranTailRetroRingsAnimated-tail_anim_rings = Rings
