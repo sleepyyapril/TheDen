@@ -15,8 +15,9 @@
 // SPDX-FileCopyrightText: 2024 VMSolidus
 // SPDX-FileCopyrightText: 2024 deltanedas
 // SPDX-FileCopyrightText: 2024 sleepyyapril
+// SPDX-FileCopyrightText: 2025 portfiend
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 #nullable enable
 using System.Linq;
