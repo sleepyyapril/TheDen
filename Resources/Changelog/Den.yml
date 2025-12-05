@@ -15260,3 +15260,12 @@ Entries:
   id: 1489
   time: '2025-12-05T06:12:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2153
+- author: SubspaceEmber
+  changes:
+    - type: Add
+      message: >-
+        Added a certain wurbling shadowkin plushie, now found wherever plushies
+        are found!
+  id: 1490
+  time: '2025-12-05T06:13:19.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2151
