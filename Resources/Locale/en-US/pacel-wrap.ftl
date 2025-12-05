@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2025 Cami
 # SPDX-FileCopyrightText: 2025 Eightballll
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
