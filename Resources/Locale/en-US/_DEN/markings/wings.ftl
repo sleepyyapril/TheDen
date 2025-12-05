@@ -1,7 +1,7 @@
 marking-WingsSeraphPositionUpper = Seraph Wings (Upper Body)
 marking-WingsSeraphPositionUpper-seraphtop = Wing
 
-marking-WingsSeraphPositionMiddle = Seraph Wings (Torso)
+marking-WingsSeraphPositionMiddle = Seraph Wings (Middle)
 marking-WingsSeraphPositionMiddle-seraphmid = Wing
 
 marking-WingsSeraphPositionLower = Seraph Wings (Lower Body)
