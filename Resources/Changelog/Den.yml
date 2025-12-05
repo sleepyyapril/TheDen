@@ -15356,3 +15356,12 @@ Entries:
   id: 1496
   time: '2025-12-05T10:34:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2158
+- author: Deathninja5551
+  changes:
+    - type: Add
+      message: >-
+        Added an Emote Cooldown to prevent sound spam. It is currently at 5
+        seconds.
+  id: 1497
+  time: '2025-12-05T12:00:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2159
