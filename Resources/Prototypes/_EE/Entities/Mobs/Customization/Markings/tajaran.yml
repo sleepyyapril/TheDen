@@ -37,7 +37,7 @@
     state: tail_rings
 
 - type: marking
-  id: TajaranTailRetroRingsAnimted
+  id: TajaranTailRetroRingsAnimated
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Tajaran, Felinid]
