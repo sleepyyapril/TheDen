@@ -15315,3 +15315,10 @@ Entries:
   id: 1492
   time: '2025-12-05T07:12:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2148
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Removed two plushies
+  id: 1493
+  time: '2025-12-05T07:12:40.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2105
