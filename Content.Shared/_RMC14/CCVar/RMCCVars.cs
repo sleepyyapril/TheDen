@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Tanix
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Robust.Shared;
 using Robust.Shared.Configuration;
 

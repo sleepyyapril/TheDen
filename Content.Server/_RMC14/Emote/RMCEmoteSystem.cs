@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Tanix
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Server.Chat.Systems;
 using Content.Server.Speech.EntitySystems;
 using Content.Shared._RMC14.CCVar;
