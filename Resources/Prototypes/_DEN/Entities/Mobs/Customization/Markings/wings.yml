@@ -1,99 +1,84 @@
 # Wing markings
 - type: marking
-  id: SeraphWingsPositionUpper
+  id: WingsSeraphPositionUpper
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Resomi, Shadowkin ]
   invertSpeciesRestriction: true
   layering:
-    seraphtop: TailOversuit
+    seraphtop: Wings
   coloring:
     default:
       type:
-        !type:CategoryColoring
-          category: Hair
-      fallbackTypes:
-        - !type:SimpleColoring
+        !type:SimpleColoring
           color: "#ffffff"
   sprites:
     - sprite: _DEN/Mobs/Customization/Body/seraphwings.rsi
       state: seraphtop
 
 - type: marking
-  id: SeraphWingsPositionMiddle
+  id: WingsSeraphPositionMiddle
   bodyPart: Chest
-  markingCategory: Cest
+  markingCategory: Chest
   speciesRestriction: [ Resomi, Shadowkin ]
   invertSpeciesRestriction: true
   layering:
-    seraphmid: TailOversuit
+    seraphmid: Wings
   coloring:
     default:
       type:
-        !type:CategoryColoring
-          category: Hair
-      fallbackTypes:
-        - !type:SimpleColoring
+        !type:SimpleColoring
           color: "#ffffff"
   sprites:
     - sprite: _DEN/Mobs/Customization/Body/seraphwings.rsi
       state: seraphmid
 
 - type: marking
-  id: SeraphWingsPositionLower
+  id: WingsSeraphPositionLower
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Resomi, Shadowkin ]
   invertSpeciesRestriction: true
   layering:
-    seraphbutt: TailOversuit
+    seraphbutt: Wings
   coloring:
     default:
       type:
-        !type:CategoryColoring
-          category: Hair
-      fallbackTypes:
-        - !type:SimpleColoring
+        !type:SimpleColoring
           color: "#ffffff"
   sprites:
     - sprite: _DEN/Mobs/Customization/Body/seraphwings.rsi
       state: seraphbutt
 
 - type: marking
-  id: SeraphWingsPositionFull
+  id: WingsSeraphFull
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Resomi, Shadowkin ]
   invertSpeciesRestriction: true
   layering:
-    seraphfull: TailOversuit
+    seraphfull: Wings
   coloring:
     default:
       type:
-        !type:CategoryColoring
-          category: Hair
-      fallbackTypes:
-        - !type:SimpleColoring
+        !type:SimpleColoring
           color: "#ffffff"
   sprites:
     - sprite: _DEN/Mobs/Customization/Body/seraphwings.rsi
       state: seraphfull
 
 - type: marking
-  id: ChickenWings
+  id: WingsChicken
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [ Resomi, Shadowkin ]
   invertSpeciesRestriction: true
   layering:
-    seraphfull: TailOversuit
+    chickenwings: Wings
   coloring:
     default:
       type:
-        !type:CategoryColoring
-          category: Hair
-      fallbackTypes:
-        - !type:SimpleColoring
+        !type:SimpleColoring
           color: "#ffffff"
   sprites:
     - sprite: _DEN/Mobs/Customization/Body/chickenwings.rsi
