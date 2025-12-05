@@ -15269,3 +15269,20 @@ Entries:
   id: 1490
   time: '2025-12-05T06:13:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2151
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Diamond sell price is 10 instead of 20.
+    - type: Tweak
+      message: >-
+        Bounties can be rerolled every 30 seconds. Please don't abuse this; it's
+        so others don't NEED to do your bounties if they don't want to.
+    - type: Tweak
+      message: Halved mining points from Diamond and Bananium
+    - type: Tweak
+      message: >-
+        Spesos from salvage vendor is 2:1, instead of 1:1 mining points to
+        spesos.
+  id: 1491
+  time: '2025-12-05T06:21:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2146
