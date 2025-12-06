@@ -15372,3 +15372,28 @@ Entries:
   id: 1498
   time: '2025-12-05T23:11:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2161
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Added guidebook for the Skia
+    - type: Add
+      message: Added "store" for the Skia to acquire new abilities
+    - type: Add
+      message: >-
+        Added new ability for Skia to harvest their targets souls with an
+        interact action
+    - type: Add
+      message: Skia drop an anomaly core when butchered
+    - type: Tweak
+      message: Changed the Skias HP (300 => 240) and damage (35 => 45)
+    - type: Tweak
+      message: Reduced Skia passive glimmer drain
+    - type: Tweak
+      message: Skia lose their invisibility while dead and regenerating from death
+    - type: Tweak
+      message: >-
+        Skia are now immune to a bunch of status effects (slipping,
+        electrocution)
+  id: 1499
+  time: '2025-12-06T10:56:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2160
