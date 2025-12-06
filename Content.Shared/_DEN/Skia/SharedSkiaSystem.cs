@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Jakumba
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Store.Components;
 using Content.Shared.Actions;
 using Content.Shared.DoAfter;
