@@ -416,6 +416,9 @@
           max: 27
         emote: Yawn
         showInChat: true
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.08
   fizziness: 0.5
 
 - type: reagent
