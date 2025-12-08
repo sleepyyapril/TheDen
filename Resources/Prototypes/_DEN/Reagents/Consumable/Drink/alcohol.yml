@@ -674,7 +674,7 @@
           reagent: Songbird
           min: 2
   fizziness: 0.25
-  
+
 - type: reagent
   id: TohokuBlaze
   name: reagent-name-tohokublaze
@@ -930,12 +930,11 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.1
-# commented out until gasp is an emote.
-#      - !type:Emote
-#        emote: Gasp
-#        showInChat: true
-#        force: true
-#        probability: 0.35
+      - !type:Emote
+        emote: Gasp
+        showInChat: true
+        force: true
+        probability: 0.35
   fizziness: 0.5
 
 - type: reagent
@@ -957,12 +956,11 @@
       effects:
         - !type:SatiateThirst
           factor: 2
-  # commented out until gasp is an emote.
-  #      - !type:Emote
-  #        emote: Gasp
-  #        showInChat: true
-  #        force: true
-  #        probability: 0.35
+        - !type:Emote
+          emote: Gasp
+          showInChat: true
+          force: true
+          probability: 0.35
   fizziness: 0.5
 
 - type: reagent
@@ -987,10 +985,9 @@
         - !type:AdjustReagent
           reagent: Ethanol
           amount: 0.1
-  # commented out until gasp is an emote.
-  #      - !type:Emote
-  #        emote: Gasp
-  #        showInChat: true
-  #        force: true
-  #        probability: 0.35
+        - !type:Emote
+          emote: Gasp
+          showInChat: true
+          force: true
+          probability: 0.35
   fizziness: 0.5
