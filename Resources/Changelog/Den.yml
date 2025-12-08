@@ -15457,3 +15457,10 @@ Entries:
   id: 1503
   time: '2025-12-08T09:11:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2167
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Reduced the damage of the ursa massive plushie
+  id: 1504
+  time: '2025-12-08T09:12:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2164
