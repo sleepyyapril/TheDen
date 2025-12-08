@@ -15430,3 +15430,30 @@ Entries:
   id: 1502
   time: '2025-12-08T01:57:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2168
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        The Airy Mantis Sleeves can now be tailored (read: butchered) to make
+        the right sleeve foldable instead of the left (and back again), useful
+        if you wear those with the mantle on the right shoulder (I hate clipping
+        so much!!)
+    - type: Tweak
+      message: >-
+        Metabolizing mnemolith above 44 units now leads to a "fourth layer" of
+        popup messages
+    - type: Add
+      message: >-
+        Popup messages can now appear as psychomantic font/color, which
+        mnemolith uses
+    - type: Tweak
+      message: >-
+        You can now spin Ravel (the mantis tailor's knife) around your finger
+        too
+    - type: Tweak
+      message: >-
+        As a bonus, the basic tailor's knife from loadout can also be spun by
+        pressing Z, and now it can be recolored!
+  id: 1503
+  time: '2025-12-08T09:11:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2167
