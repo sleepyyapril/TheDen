@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 AvianMaiden
 # SPDX-FileCopyrightText: 2025 Lyndomen
+# SPDX-FileCopyrightText: 2025 SheepIzMutton
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
