@@ -15464,3 +15464,26 @@ Entries:
   id: 1504
   time: '2025-12-08T09:12:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2164
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Roses, black roses, and lilies can now be selected as head loadout
+        items. Don't even think about it - they're seedless.
+    - type: Tweak
+      message: >-
+        Generic belts (from loadouts) are now small (2x1) instead of normal size
+        (2x2).
+    - type: Tweak
+      message: >-
+        Technicolor jackets now resist the cold, making them (somewhat) viable
+        as winter coats! Sweater vests also have a bit of insulation, but not as
+        much.
+    - type: Remove
+      message: >-
+        NOTE: This PR has a breaking change - if you had the poppy (head)
+        loadout item equipped before, you will need to re-equip it, as the ID of
+        the loadout has been changed for better sorting in the loadout menu.
+  id: 1505
+  time: '2025-12-08T09:13:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2165
