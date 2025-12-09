@@ -15503,3 +15503,12 @@ Entries:
   id: 1507
   time: '2025-12-09T09:02:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2174
+- author: Oberonics
+  changes:
+    - type: Fix
+      message: >-
+        Epi can Mar (Marish now takes into account epi jobs that get latent
+        psionic inherently).
+  id: 1508
+  time: '2025-12-09T11:49:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2173
