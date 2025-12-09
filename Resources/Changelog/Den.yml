@@ -15494,3 +15494,12 @@ Entries:
   id: 1506
   time: '2025-12-09T05:22:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2175
+- author: Oberonics
+  changes:
+    - type: Fix
+      message: >-
+        Fixed a issue where depending on how your job was rolled your traits
+        wouldn't apply properly.
+  id: 1507
+  time: '2025-12-09T09:02:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2174
