@@ -2,10 +2,11 @@
 // SPDX-FileCopyrightText: 2025 Raikyr0
 // SPDX-FileCopyrightText: 2025 Timfa
 // SPDX-FileCopyrightText: 2025 VMSolidus
+// SPDX-FileCopyrightText: 2025 oberonics
 // SPDX-FileCopyrightText: 2025 portfiend
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 using System.Linq;
 using Content.Shared.Clothing.Loadouts.Prototypes;
