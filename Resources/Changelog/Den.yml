@@ -15487,3 +15487,10 @@ Entries:
   id: 1505
   time: '2025-12-08T09:13:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2165
+- author: portfiend
+  changes:
+    - type: Fix
+      message: Ovinia tails can now be taken by human and oni characters again. Sorry
+  id: 1506
+  time: '2025-12-09T05:22:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2175
