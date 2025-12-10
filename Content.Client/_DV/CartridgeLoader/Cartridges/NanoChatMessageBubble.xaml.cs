@@ -1,12 +1,12 @@
-// SPDX-FileCopyrightText: 2024 Milon <milonpl.git@proton.me>
-// SPDX-FileCopyrightText: 2025 BlitzTheSquishy <73762869+BlitzTheSquishy@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2024 Skubman <ba.fallaria@gmail.com>
-// SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
-// SPDX-FileCopyrightText: 2025 Evaisa <evagiacosa1@gmail.com>
-// SPDX-FileCopyrightText: 2025 EvaisaDev <mail@evaisa.dev>
-// SPDX-FileCopyrightText: 2025 corresp0nd <46357632+corresp0nd@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2024 Milon
+// SPDX-FileCopyrightText: 2024 Skubman
+// SPDX-FileCopyrightText: 2024 Tadeo
+// SPDX-FileCopyrightText: 2025 BlitzTheSquishy
+// SPDX-FileCopyrightText: 2025 Evaisa
+// SPDX-FileCopyrightText: 2025 EvaisaDev
+// SPDX-FileCopyrightText: 2025 corresp0nd
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+// SPDX-FileCopyrightText: 2025 taydeo
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
