@@ -15560,3 +15560,10 @@ Entries:
   id: 1514
   time: '2025-12-12T14:55:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2178
+- author: WallflowerGhost
+  changes:
+    - type: Add
+      message: Three new mapping markers to pretend outside lighting is real
+  id: 1515
+  time: '2025-12-14T14:38:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2183
