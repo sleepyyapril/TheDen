@@ -53,7 +53,6 @@
 # SPDX-FileCopyrightText: 2023 themias
 # SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
 # SPDX-FileCopyrightText: 2024 Firewatch
-# SPDX-FileCopyrightText: 2024 Floofi
 # SPDX-FileCopyrightText: 2024 MjrLandWhale
 # SPDX-FileCopyrightText: 2024 Redfire1331
 # SPDX-FileCopyrightText: 2024 SimpleStation14
@@ -67,7 +66,7 @@
 # SPDX-FileCopyrightText: 2025 eightballll
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
-# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 # TODO: Find remaining cans and move to drinks_cans
 # TODO: Find empty containers (e.g. mug, pitcher) and move to their own yml
