@@ -15583,3 +15583,10 @@ Entries:
   id: 1517
   time: '2025-12-14T22:01:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2195
+- author: WallflowerGhost
+  changes:
+    - type: Add
+      message: Two new hair styles, with mirrored bangs
+  id: 1518
+  time: '2025-12-14T23:19:36.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2196
