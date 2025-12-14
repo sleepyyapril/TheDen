@@ -53,6 +53,7 @@
 # SPDX-FileCopyrightText: 2023 themias
 # SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT
 # SPDX-FileCopyrightText: 2024 Firewatch
+# SPDX-FileCopyrightText: 2024 Floofi
 # SPDX-FileCopyrightText: 2024 MjrLandWhale
 # SPDX-FileCopyrightText: 2024 Redfire1331
 # SPDX-FileCopyrightText: 2024 SimpleStation14
@@ -1452,7 +1453,7 @@
         - ReagentId: JuiceLemon
           Quantity: 30
   - type: Icon
-    sprite: Objects/Consumable/Drinks/lemonjuice.rsi
+    sprite: Objects/Consumable/Drinks/lemonjuiceglass.rsi #wizden edit
     state: icon
 
 - type: entity
