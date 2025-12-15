@@ -15601,3 +15601,12 @@ Entries:
   id: 1519
   time: '2025-12-15T02:04:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2194
+- author: juniwoofs
+  changes:
+    - type: Tweak
+      message: >-
+        Changed the tooltips regarding mindbreaker toxin's effects to fit the
+        psionic direction of The Den
+  id: 1520
+  time: '2025-12-15T04:04:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2197
