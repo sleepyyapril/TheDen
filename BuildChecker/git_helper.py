@@ -1,3 +1,16 @@
+# SPDX-FileCopyrightText: 2017 PJB3005
+# SPDX-FileCopyrightText: 2017 Pieter-Jan Briers
+# SPDX-FileCopyrightText: 2018 Remie Richards
+# SPDX-FileCopyrightText: 2019 Silver
+# SPDX-FileCopyrightText: 2021 Paul Ritter
+# SPDX-FileCopyrightText: 2021 Swept
+# SPDX-FileCopyrightText: 2021 metalgearsloth
+# SPDX-FileCopyrightText: 2022 wrexbe
+# SPDX-FileCopyrightText: 2024 stellar-novas
+# SPDX-FileCopyrightText: 2025 AvianMaiden
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 #!/usr/bin/env python3
 """
 Installs git hooks, updates them, updates submodules, that kind of thing.
