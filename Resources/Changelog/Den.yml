@@ -15625,3 +15625,10 @@ Entries:
   id: 1521
   time: '2025-12-15T05:42:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2193
+- author: Pinkbat5
+  changes:
+    - type: Tweak
+      message: Most drink bottles have new and improved inhand sprites!
+  id: 1522
+  time: '2025-12-15T06:03:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2192
