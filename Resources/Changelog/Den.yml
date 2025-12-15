@@ -15657,3 +15657,12 @@ Entries:
   id: 1525
   time: '2025-12-15T15:11:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2182
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        You can now take a microreactor power cell as a loadout item on the
+        Eternity server.
+  id: 1526
+  time: '2025-12-15T19:18:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2204
