@@ -84,7 +84,7 @@
   - Command
   - Cryogenics
   - Security
-  - Armory
+  #- Armory #Den Dignitaries should NOT have armory access
   #- Brig #Delta V Removed
   - Lawyer
   - Engineering
