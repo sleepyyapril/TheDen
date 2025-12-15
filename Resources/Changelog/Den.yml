@@ -15641,3 +15641,10 @@ Entries:
   id: 1523
   time: '2025-12-15T08:20:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2199
+- author: juniwoofs
+  changes:
+    - type: Remove
+      message: Removed Dignitary armory access. Go befriend your local warden.
+  id: 1524
+  time: '2025-12-15T08:55:21.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2200
