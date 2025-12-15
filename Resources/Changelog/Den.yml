@@ -15632,3 +15632,12 @@ Entries:
   id: 1522
   time: '2025-12-15T06:03:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2192
+- author: WallflowerGhost
+  changes:
+    - type: Tweak
+      message: >-
+        Outside lights YML, changed "castshadow" to "castShadow" because
+        capitalization is my enemy
+  id: 1523
+  time: '2025-12-15T08:20:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2199
