@@ -15610,3 +15610,18 @@ Entries:
   id: 1520
   time: '2025-12-15T04:04:28.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2197
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Trapper hats in eight different colors are now available from both the
+        WinterDrobe and in your loadouts. These hats are insulating!
+    - type: Add
+      message: Fuzzy earmuffs can also be found in the WinterDrobe and loadouts.
+    - type: Tweak
+      message: >-
+        The price of clothing restocks had to be raised from 2200 to 2400 to
+        prevent arbitrage (sell price higher than buy price).
+  id: 1521
+  time: '2025-12-15T05:42:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2193
