@@ -15682,3 +15682,14 @@ Entries:
   id: 1528
   time: '2025-12-17T04:17:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2205
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: >-
+        Cum and natural lubricant now evaporate if spilled on the ground. I
+        almost wrote "body fluids" instead here but if I did that someone would
+        ask me about blood. This is not a blood-related PR. I did not do
+        anything to blood
+  id: 1529
+  time: '2025-12-17T05:06:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2210
