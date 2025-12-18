@@ -15736,3 +15736,12 @@ Entries:
   id: 1533
   time: '2025-12-18T21:33:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2214
+- author: TheLuggage05
+  changes:
+    - type: Add
+      message: >-
+        Added unrevivable and random unrevivable traits, for those who love
+        dying badly!
+  id: 1534
+  time: '2025-12-18T21:35:12.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2211
