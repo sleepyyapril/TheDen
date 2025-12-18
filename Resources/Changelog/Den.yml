@@ -15754,3 +15754,10 @@ Entries:
   id: 1535
   time: '2025-12-18T21:35:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2209
+- author: FuyuMochiru
+  changes:
+    - type: Add
+      message: Mayonnaise packets can now be found at condiment stations.
+  id: 1536
+  time: '2025-12-18T22:19:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2213
