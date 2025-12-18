@@ -147,3 +147,6 @@ CartridgeRocket: null
 
 # November 29th 2025 - Remove plushie two
 PlushieTabi: null
+
+#December 16th 2025 - Unmapping filled captain display cases
+GlassBoxLaserFilled: GlassBoxLaser
