@@ -15723,3 +15723,16 @@ Entries:
   id: 1532
   time: '2025-12-18T21:32:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2215
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        The birth year on your character's passport is now accurate to the
+        current year in Den's lore, with a like, one-year margin of error I
+        guess, because you can't really set your character's birth month/day
+        anyway and it just uses the current year plus 630. At least it doesn't
+        say your character is 200 years older than they actually are anymore
+        though
+  id: 1533
+  time: '2025-12-18T21:33:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2214
