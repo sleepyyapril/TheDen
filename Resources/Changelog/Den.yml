@@ -15711,3 +15711,15 @@ Entries:
   id: 1531
   time: '2025-12-18T00:31:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2187
+- author: portfiend
+  changes:
+    - type: Remove
+      message: >-
+        The "no species language" traits have been removed because they're
+        broken, the issue is incredibly hard to debug, cannot be replicated 95%
+        of the time in my debug environment, and it would (and already has!)
+        take a lot of effort on my part to spend several hours diagnosing,
+        debugging, fixing, and testing the issue. Sorry!
+  id: 1532
+  time: '2025-12-18T21:32:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2215
