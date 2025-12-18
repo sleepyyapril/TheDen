@@ -15745,3 +15745,12 @@ Entries:
   id: 1534
   time: '2025-12-18T21:35:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2211
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: >-
+        Fixed captains getting two antiques with the free ones mapped in their
+        office. (why was this not fixed???)
+  id: 1535
+  time: '2025-12-18T21:35:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2209
