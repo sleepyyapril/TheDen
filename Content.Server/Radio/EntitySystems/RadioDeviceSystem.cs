@@ -31,8 +31,7 @@ using Content.Shared.Radio;
 using Content.Shared.Chat;
 using Content.Shared.Radio.Components;
 using Content.Shared.UserInterface; // Nuclear-14
-using Content.Shared._NC.Radio;
-using Content.Shared.Language.Components; // Nuclear-14
+using Content.Shared._NC.Radio; // Nuclear-14
 using Robust.Server.GameObjects;
 using Robust.Shared.Network;
 using Robust.Shared.Player; // Nuclear-14
@@ -72,7 +71,8 @@ public sealed class RadioDeviceSystem : EntitySystem
         SubscribeLocalEvent<RadioMicrophoneComponent, ActivateInWorldEvent>(OnActivateMicrophone);
         SubscribeLocalEvent<RadioMicrophoneComponent, ListenEvent>(OnListen);
         SubscribeLocalEvent<RadioMicrophoneComponent, ListenAttemptEvent>(OnAttemptListen);
-        SubscribeLocalEvent<RadioMicrophoneComponent, PowerChangedEvent>(OnPowerChanged);SubscribeLocalEvent<RadioMicrophoneComponent, GetVerbsEvent<AlternativeVerb>>(OnGetAltVerbs); // Frontier
+        SubscribeLocalEvent<RadioMicrophoneComponent, PowerChangedEvent>(OnPowerChanged);
+        SubscribeLocalEvent<RadioMicrophoneComponent, GetVerbsEvent<AlternativeVerb>>(OnGetAltVerbs); // Frontier
 
         SubscribeLocalEvent<RadioSpeakerComponent, ComponentInit>(OnSpeakerInit);
         SubscribeLocalEvent<RadioSpeakerComponent, ActivateInWorldEvent>(OnActivateSpeaker);
@@ -325,7 +325,15 @@ public sealed class RadioDeviceSystem : EntitySystem
                 mic.Frequency = channelProto.Frequency; // Frontier
         }
         if (TryComp<RadioSpeakerComponent>(ent, out var speaker))
-            speaker.Channels = new(){ channel };
+        {
+            speaker.Channels.Clear();
+            speaker.Channels.Add(channel);
+            if (TryComp<ActiveRadioComponent>(ent, out var radio)) // DEN - Update ActiveRadioComponent too
+            {
+                radio.Channels.Clear();
+                radio.Channels.UnionWith(speaker.Channels);
+            }
+        }
         Dirty(ent);
     }
 
