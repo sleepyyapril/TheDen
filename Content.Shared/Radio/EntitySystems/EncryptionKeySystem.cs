@@ -95,7 +95,7 @@ public sealed partial class EncryptionKeySystem : EntitySystem
         foreach (var ent in component.KeyContainer.ContainedEntities)
         {
             if (!TryComp<EncryptionKeyComponent>(ent, out var key))
-                return;
+                continue;
 
             var channels = GetChannels(key.Channels); // DEN: no longer need an encryption key for a new radio channel
 
@@ -119,7 +119,7 @@ public sealed partial class EncryptionKeySystem : EntitySystem
         return result;
     }
    // End DEN
-   
+
     private void OnContainerModified(EntityUid uid, EncryptionKeyHolderComponent component, ContainerModifiedMessage args)
     {
         if (args.Container.ID == EncryptionKeyHolderComponent.KeyContainerName)
