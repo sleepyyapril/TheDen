@@ -15761,3 +15761,16 @@ Entries:
   id: 1536
   time: '2025-12-18T22:19:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2213
+- author: Pinkbat5
+  changes:
+    - type: Fix
+      message: Plasma flood no longer makes you spam the chat with gasping.
+    - type: Remove
+      message: >-
+        Actually, maybe the cherry drinks weren't supposed to make you gasp.
+        They no longer have that effect.
+    - type: Tweak
+      message: Weldin' coils and gatorwine are now slightly easier to make.
+  id: 1537
+  time: '2025-12-20T05:36:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2188
