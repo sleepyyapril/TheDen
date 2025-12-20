@@ -15774,3 +15774,10 @@ Entries:
   id: 1537
   time: '2025-12-20T05:36:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2188
+- author: msTheowo
+  changes:
+    - type: Tweak
+      message: Thaven clothing offsets have been slightly changed.
+  id: 1538
+  time: '2025-12-20T07:02:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2212
