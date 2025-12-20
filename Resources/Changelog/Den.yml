@@ -15781,3 +15781,10 @@ Entries:
   id: 1538
   time: '2025-12-20T07:02:02.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2212
+- author: IAmNotGray
+  changes:
+    - type: Tweak
+      message: (ANVIL) The Mantis is no longer old.
+  id: 1539
+  time: '2025-12-20T21:20:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2219
