@@ -41,6 +41,16 @@ using Robust.Shared.Utility;
 namespace Content.Shared.Lock;
 
 /// <summary>
+/// DEN - the states of toggling a lock
+/// </summary>
+public enum LockToggleResult
+{
+    Failure, // can't for whatever reason
+    Success, // can without stipulation
+    FromInside // can, but you're inside what you're locking, so do some extra stuff
+}
+
+/// <summary>
 /// Handles (un)locking and examining of Lock components
 /// </summary>
 [UsedImplicitly]
@@ -139,9 +149,9 @@ public sealed class LockSystem : EntitySystem
         if (!Resolve(uid, ref lockComp))
             return false;
 
-        // DEN EDIT - CanToggleLock has three outcomes, so it's now a string
+        // DEN EDIT - CanToggleLock has three outcomes, so it's now an enum
         var canToggleLock = CanToggleLock(uid, user, quiet: false);
-        if (canToggleLock == "false")
+        if (canToggleLock == LockToggleResult.Failure)
             return false;
 
         if (lockComp.UseAccess && !HasUserAccess(uid, user, quiet: false))
@@ -150,14 +160,14 @@ public sealed class LockSystem : EntitySystem
         // DEN ADDITION - lockTime can now either be the component's lock time, OR the FromInside time.
         // given that lockTime is only used by deployable barrier, it's unlikely this will conflict with anything
         var lockTime = lockComp.LockTime;
-        if (canToggleLock == "FromInside") {
+        if (canToggleLock == LockToggleResult.FromInside) {
             lockTime = lockComp.InsideToggleTime;
         }
         // END DEN ADD
 
         if (!skipDoAfter && lockTime != TimeSpan.Zero)
         {
-            if (canToggleLock == "FromInside") { // DEN ADDITION
+            if (canToggleLock == LockToggleResult.FromInside) { // DEN ADDITION
                 _audio.PlayPredicted(lockComp.InsideToggleSound, uid, user);
                 _sharedPopupSystem.PopupClient(Loc.GetString("inside-lock-toggle-attempt"), uid, user);
             }
@@ -252,9 +262,9 @@ public sealed class LockSystem : EntitySystem
         if (!Resolve(uid, ref lockComp))
             return false;
 
-        // DEN EDIT - CanToggleLock has three outcomes, so it's now a string
+        // DEN EDIT - CanToggleLock has three outcomes, so it's now an enum
         var canToggleLock = CanToggleLock(uid, user, quiet: false);
-        if (canToggleLock == "false")
+        if (canToggleLock == LockToggleResult.Failure)
             return false;
 
         if (lockComp.UseAccess && !HasUserAccess(uid, user, quiet: false))
@@ -263,14 +273,14 @@ public sealed class LockSystem : EntitySystem
         // DEN ADDITION - lockTime can now either be the component's lock time, OR the FromInside time.
         // given that lockTime is only used by deployable barrier, it's unlikely this will conflict with anything
         var lockTime = lockComp.LockTime;
-        if (canToggleLock == "FromInside") {
+        if (canToggleLock == LockToggleResult.FromInside) {
             lockTime = lockComp.InsideToggleTime;
         }
         // END DEN ADD
 
         if (!skipDoAfter && lockTime != TimeSpan.Zero)
         {
-            if (canToggleLock == "FromInside") { // DEN ADDITION
+            if (canToggleLock == LockToggleResult.FromInside) { // DEN ADDITION
                 _audio.PlayPredicted(lockComp.InsideToggleSound, uid, user);
                 _sharedPopupSystem.PopupClient(Loc.GetString("inside-lock-toggle-attempt"), uid, user);
             }
@@ -305,32 +315,32 @@ public sealed class LockSystem : EntitySystem
     /// Raises an event for other components to check whether or not
     /// the entity can be locked in its current state.
     /// 
-    /// DEN EDIT: CHANGED THIS TO RETURN A STRING
+    /// DEN EDIT: CHANGED THIS TO RETURN A LockToggleResult ENUM
     /// in order to allow for triggering the 'FromInside' doAfter via component events
     /// </summary>
-    public string CanToggleLock(EntityUid uid, EntityUid user, bool quiet = true)
+    public LockToggleResult CanToggleLock(EntityUid uid, EntityUid user, bool quiet = true)
     {
         if (!HasComp<HandsComponent>(user))
-            return "false"; // DEN
+            return LockToggleResult.Failure;
 
         if (!_actionBlocker.CanComplexInteract(user))
-            return "false"; // DEN
+            return LockToggleResult.Failure;
 
         var ev = new LockToggleAttemptEvent(user, quiet);
         RaiseLocalEvent(uid, ref ev, true);
         if (ev.Cancelled)
-            return "false"; // DEN
+            return LockToggleResult.Failure;
 
         if (ev.FromInside)
-            return "FromInside"; // DEN
+            return LockToggleResult.FromInside;
 
         var userEv = new UserLockToggleAttemptEvent(uid, quiet);
         RaiseLocalEvent(user, ref userEv, true);
 
         if (userEv.Cancelled)
-            return "false";
+            return LockToggleResult.Failure;
 
-        return "true"; // DEN
+        return LockToggleResult.Success;
     }
 
     private bool HasUserAccess(EntityUid uid, EntityUid user, AccessReaderComponent? reader = null, bool quiet = true)
