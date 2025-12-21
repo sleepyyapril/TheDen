@@ -182,7 +182,7 @@
 - type: soundCollection
   id: HarpyBeeps
   files:
-    - /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+    # - /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg # DEN - this one is so so loud
     - /Audio/Items/beep.ogg
     - /Audio/Items/flashlight_pda.ogg
     - /Audio/Items/locator_beep.ogg
