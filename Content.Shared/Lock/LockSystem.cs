@@ -45,9 +45,20 @@ namespace Content.Shared.Lock;
 /// </summary>
 public enum LockToggleResult
 {
-    Failure, // can't for whatever reason
-    Success, // can without stipulation
-    FromInside // can, but you're inside what you're locking, so do some extra stuff
+    /// <summary>
+    /// can't lock for whatever reason
+    /// </summary>
+    Failure,
+
+    /// <summary>
+    /// can lock
+    /// </summary>
+    Success,
+
+    /// <summary>
+    /// can lock, but you're doing it from inside
+    /// </summary>
+    SuccessFromInside
 }
 
 /// <summary>
@@ -160,14 +171,14 @@ public sealed class LockSystem : EntitySystem
         // DEN ADDITION - lockTime can now either be the component's lock time, OR the FromInside time.
         // given that lockTime is only used by deployable barrier, it's unlikely this will conflict with anything
         var lockTime = lockComp.LockTime;
-        if (canToggleLock == LockToggleResult.FromInside) {
+        if (canToggleLock == LockToggleResult.SuccessFromInside) {
             lockTime = lockComp.InsideToggleTime;
         }
         // END DEN ADD
 
         if (!skipDoAfter && lockTime != TimeSpan.Zero)
         {
-            if (canToggleLock == LockToggleResult.FromInside) { // DEN ADDITION
+            if (canToggleLock == LockToggleResult.SuccessFromInside) { // DEN ADDITION
                 _audio.PlayPredicted(lockComp.InsideToggleSound, uid, user);
                 _sharedPopupSystem.PopupClient(Loc.GetString("inside-lock-toggle-attempt"), uid, user);
             }
@@ -273,14 +284,14 @@ public sealed class LockSystem : EntitySystem
         // DEN ADDITION - lockTime can now either be the component's lock time, OR the FromInside time.
         // given that lockTime is only used by deployable barrier, it's unlikely this will conflict with anything
         var lockTime = lockComp.LockTime;
-        if (canToggleLock == LockToggleResult.FromInside) {
+        if (canToggleLock == LockToggleResult.SuccessFromInside) {
             lockTime = lockComp.InsideToggleTime;
         }
         // END DEN ADD
 
         if (!skipDoAfter && lockTime != TimeSpan.Zero)
         {
-            if (canToggleLock == LockToggleResult.FromInside) { // DEN ADDITION
+            if (canToggleLock == LockToggleResult.SuccessFromInside) { // DEN ADDITION
                 _audio.PlayPredicted(lockComp.InsideToggleSound, uid, user);
                 _sharedPopupSystem.PopupClient(Loc.GetString("inside-lock-toggle-attempt"), uid, user);
             }
@@ -332,7 +343,7 @@ public sealed class LockSystem : EntitySystem
             return LockToggleResult.Failure;
 
         if (ev.FromInside)
-            return LockToggleResult.FromInside;
+            return LockToggleResult.SuccessFromInside;
 
         var userEv = new UserLockToggleAttemptEvent(uid, quiet);
         RaiseLocalEvent(user, ref userEv, true);
