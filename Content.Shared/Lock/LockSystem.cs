@@ -157,7 +157,7 @@ public sealed class LockSystem : EntitySystem
 
         if (!skipDoAfter && lockTime != TimeSpan.Zero)
         {
-            if (canToggleLock == "FromInside") { // IMP ADDITION
+            if (canToggleLock == "FromInside") { // DEN ADDITION
                 _audio.PlayPredicted(lockComp.InsideToggleSound, uid, user);
                 _sharedPopupSystem.PopupClient(Loc.GetString("inside-lock-toggle-attempt"), uid, user);
             }
@@ -260,17 +260,17 @@ public sealed class LockSystem : EntitySystem
         if (lockComp.UseAccess && !HasUserAccess(uid, user, quiet: false))
             return false;
 
-        // IMP ADDITION - lockTime can now either be the component's lock time, OR the FromInside time.
+        // DEN ADDITION - lockTime can now either be the component's lock time, OR the FromInside time.
         // given that lockTime is only used by deployable barrier, it's unlikely this will conflict with anything
         var lockTime = lockComp.LockTime;
         if (canToggleLock == "FromInside") {
             lockTime = lockComp.InsideToggleTime;
         }
-        // END IMP ADD
+        // END DEN ADD
 
         if (!skipDoAfter && lockTime != TimeSpan.Zero)
         {
-            if (canToggleLock == "FromInside") { // IMP ADDITION
+            if (canToggleLock == "FromInside") { // DEN ADDITION
                 _audio.PlayPredicted(lockComp.InsideToggleSound, uid, user);
                 _sharedPopupSystem.PopupClient(Loc.GetString("inside-lock-toggle-attempt"), uid, user);
             }
