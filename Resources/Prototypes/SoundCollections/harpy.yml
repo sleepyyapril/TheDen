@@ -69,10 +69,6 @@
     - /Audio/Machines/windoor_open.ogg
     - /Audio/Effects/spray.ogg
     - /Audio/Effects/spray2.ogg
-    # DEN - new mantis sounds are pretty good hisses
-    - /Audio/_DEN/Effects/crystalshimmer1.ogg
-    - /Audio/_DEN/Effects/crystalshimmer2.ogg
-    - /Audio/_DEN/Effects/crystalshimmer3.ogg
 
 - type: soundCollection
   id: HarpySigh
