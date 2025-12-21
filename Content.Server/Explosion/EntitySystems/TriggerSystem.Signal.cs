@@ -14,13 +14,14 @@ using Content.Server.DeviceLinking.Systems;
 using Content.Server.Explosion.Components;
 using Content.Shared.DeviceLinking.Events;
 
+// DEN - much of this has been touched or renamed to allow for the SignalOnTrigger component from Wizden
 namespace Content.Server.Explosion.EntitySystems
 {
     public sealed partial class TriggerSystem
     {
         [Dependency] private readonly DeviceLinkSystem _signalSystem = default!;
         private void InitializeSignal()
-        {
+        { 
             SubscribeLocalEvent<TriggerOnSignalComponent, ComponentInit>(TriggerOnSignalInit);
             SubscribeLocalEvent<TriggerOnSignalComponent, SignalReceivedEvent>(OnSignalReceived);
 

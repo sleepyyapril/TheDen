@@ -65,8 +65,6 @@
   - RCDAmmo
   - RCD
   - RPD
-  # Doohickeys
-  - VoiceSensor
 
 - type: latheRecipePack
   id: EngineeringTechFabStaticAwfulDen
