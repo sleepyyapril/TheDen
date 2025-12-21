@@ -19,6 +19,7 @@
 
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
+using Content.Shared.ActionBlocker; // DEN for locking
 using Content.Shared.Construction.Components;
 using Content.Shared.DoAfter;
 using Content.Shared.Emag.Systems;
@@ -46,6 +47,7 @@ namespace Content.Shared.Lock;
 public sealed class LockSystem : EntitySystem
 {
     [Dependency] private readonly AccessReaderSystem _accessReader = default!;
+    [Dependency] private readonly ActionBlockerSystem _actionBlocker = default!;
     [Dependency] private readonly ActivatableUISystem _activatableUI = default!;
     [Dependency] private readonly SharedAppearanceSystem _appearanceSystem = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
@@ -137,16 +139,31 @@ public sealed class LockSystem : EntitySystem
         if (!Resolve(uid, ref lockComp))
             return false;
 
-        if (!CanToggleLock(uid, user, quiet: false))
+        // DEN EDIT - CanToggleLock has three outcomes, so it's now a string
+        var canToggleLock = CanToggleLock(uid, user, quiet: false);
+        if (canToggleLock == "false")
             return false;
 
         if (lockComp.UseAccess && !HasUserAccess(uid, user, quiet: false))
             return false;
 
-        if (!skipDoAfter && lockComp.LockTime != TimeSpan.Zero)
+        // DEN ADDITION - lockTime can now either be the component's lock time, OR the FromInside time.
+        // given that lockTime is only used by deployable barrier, it's unlikely this will conflict with anything
+        var lockTime = lockComp.LockTime;
+        if (canToggleLock == "FromInside") {
+            lockTime = lockComp.InsideToggleTime;
+        }
+        // END DEN ADD
+
+        if (!skipDoAfter && lockTime != TimeSpan.Zero)
         {
+            if (canToggleLock == "FromInside") { // IMP ADDITION
+                _audio.PlayPredicted(lockComp.InsideToggleSound, uid, user);
+                _sharedPopupSystem.PopupClient(Loc.GetString("inside-lock-toggle-attempt"), uid, user);
+            }
+
             return _doAfter.TryStartDoAfter(
-                new DoAfterArgs(EntityManager, user, lockComp.LockTime, new LockDoAfter(), uid, uid)
+                new DoAfterArgs(EntityManager, user, lockTime, new LockDoAfter(), uid, uid)
                 {
                     BreakOnDamage = true,
                     BreakOnMove = true,
@@ -235,16 +252,31 @@ public sealed class LockSystem : EntitySystem
         if (!Resolve(uid, ref lockComp))
             return false;
 
-        if (!CanToggleLock(uid, user, quiet: false))
+        // DEN EDIT - CanToggleLock has three outcomes, so it's now a string
+        var canToggleLock = CanToggleLock(uid, user, quiet: false);
+        if (canToggleLock == "false")
             return false;
 
         if (lockComp.UseAccess && !HasUserAccess(uid, user, quiet: false))
             return false;
 
-        if (!skipDoAfter && lockComp.UnlockTime != TimeSpan.Zero)
+        // IMP ADDITION - lockTime can now either be the component's lock time, OR the FromInside time.
+        // given that lockTime is only used by deployable barrier, it's unlikely this will conflict with anything
+        var lockTime = lockComp.LockTime;
+        if (canToggleLock == "FromInside") {
+            lockTime = lockComp.InsideToggleTime;
+        }
+        // END IMP ADD
+
+        if (!skipDoAfter && lockTime != TimeSpan.Zero)
         {
+            if (canToggleLock == "FromInside") { // IMP ADDITION
+                _audio.PlayPredicted(lockComp.InsideToggleSound, uid, user);
+                _sharedPopupSystem.PopupClient(Loc.GetString("inside-lock-toggle-attempt"), uid, user);
+            }
+
             return _doAfter.TryStartDoAfter(
-                new DoAfterArgs(EntityManager, user, lockComp.LockTime, new UnlockDoAfter(), uid, uid)
+                new DoAfterArgs(EntityManager, user, lockTime, new UnlockDoAfter(), uid, uid)
                 {
                     BreakOnDamage = true,
                     BreakOnMove = true,
@@ -272,20 +304,33 @@ public sealed class LockSystem : EntitySystem
     /// <summary>
     /// Raises an event for other components to check whether or not
     /// the entity can be locked in its current state.
+    /// 
+    /// DEN EDIT: CHANGED THIS TO RETURN A STRING
+    /// in order to allow for triggering the 'FromInside' doAfter via component events
     /// </summary>
-    public bool CanToggleLock(EntityUid uid, EntityUid user, bool quiet = true)
+    public string CanToggleLock(EntityUid uid, EntityUid user, bool quiet = true)
     {
         if (!HasComp<HandsComponent>(user))
-            return false;
+            return "false"; // DEN
+
+        if (!_actionBlocker.CanComplexInteract(user))
+            return "false"; // DEN
 
         var ev = new LockToggleAttemptEvent(user, quiet);
         RaiseLocalEvent(uid, ref ev, true);
         if (ev.Cancelled)
-            return false;
+            return "false"; // DEN
+
+        if (ev.FromInside)
+            return "FromInside"; // DEN
 
         var userEv = new UserLockToggleAttemptEvent(uid, quiet);
         RaiseLocalEvent(user, ref userEv, true);
-        return !userEv.Cancelled;
+
+        if (userEv.Cancelled)
+            return "false";
+
+        return "true"; // DEN
     }
 
     private bool HasUserAccess(EntityUid uid, EntityUid user, AccessReaderComponent? reader = null, bool quiet = true)
