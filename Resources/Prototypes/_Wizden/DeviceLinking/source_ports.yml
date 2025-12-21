@@ -2,4 +2,4 @@
   id: Trigger
   name: signal-port-name-trigger
   description: signal-port-description-trigger
-  defaultLinks: [ Toggle, Trigger, Timer ]
+  defaultLinks: [ Toggle, Trigger ]
