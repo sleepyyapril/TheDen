@@ -1,4 +1,8 @@
-﻿jobs-console-title = Station Jobs Management
+# SPDX-FileCopyrightText: 2025 DoctorJado
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+jobs-console-title = Station Jobs Management
 jobs-console-station-info-title = Station Info
 jobs-console-jobs-allocation-title = Job Slot Allocation
 

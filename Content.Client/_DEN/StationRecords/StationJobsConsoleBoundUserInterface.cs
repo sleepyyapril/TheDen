@@ -1,4 +1,8 @@
-﻿using Content.Client.StationRecords;
+// SPDX-FileCopyrightText: 2025 DoctorJado
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Client.StationRecords;
 using Content.Shared._DEN.StationRecords;
 using Content.Shared.Roles;
 using Content.Shared.StationRecords;

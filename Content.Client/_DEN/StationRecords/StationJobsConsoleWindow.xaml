@@ -1,4 +1,10 @@
-﻿<controls:FancyWindow xmlns="https://spacestation14.io"
+<!--
+SPDX-FileCopyrightText: 2025 DoctorJado
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<controls:FancyWindow xmlns="https://spacestation14.io"
                       xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
                       Title="{Loc jobs-console-title}"
                       MinSize="670 400">
