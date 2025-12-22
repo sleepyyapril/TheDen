@@ -15833,3 +15833,12 @@ Entries:
   id: 1544
   time: '2025-12-22T10:49:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2217
+- author: crekulon
+  changes:
+    - type: Add
+      message: >-
+        Added a new voice sensor item craftable at an autolathe, record a key
+        phrase, and speak it to trigger linked devices
+  id: 1545
+  time: '2025-12-22T19:55:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2221
