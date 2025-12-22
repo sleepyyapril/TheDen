@@ -15802,3 +15802,12 @@ Entries:
   id: 1541
   time: '2025-12-22T01:06:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2222
+- author: crekulon
+  changes:
+    - type: Tweak
+      message: >-
+        Harpies have forgotten some of their really loud noises, but learned
+        some new ones for the chitter, hiss, growl, rings, and bangs emotes.
+  id: 1542
+  time: '2025-12-22T01:07:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2223
