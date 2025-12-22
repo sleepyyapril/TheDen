@@ -15795,3 +15795,41 @@ Entries:
   id: 1540
   time: '2025-12-21T20:31:56.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2218
+- author: crekulon
+  changes:
+    - type: Tweak
+      message: you can now (noisily) lock/unlock secure containers from the inside!
+  id: 1541
+  time: '2025-12-22T01:06:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2222
+- author: crekulon
+  changes:
+    - type: Tweak
+      message: >-
+        Harpies have forgotten some of their really loud noises, but learned
+        some new ones for the chitter, hiss, growl, rings, and bangs emotes.
+  id: 1542
+  time: '2025-12-22T01:07:30.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2223
+- author: DoctorJado
+  changes:
+    - type: Add
+      message: >-
+        Added a Job Slot Management Console, for changing the number of job
+        slots mid-round.
+    - type: Tweak
+      message: >-
+        Made it so the number of prisoner slots can be changed via the Job
+        Management Console.
+  id: 1543
+  time: '2025-12-22T10:39:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2185
+- author: Toby222
+  changes:
+    - type: Fix
+      message: Intercoms and handheld radios work as you'd hope again
+    - type: Fix
+      message: Voice masks allow you to pick your speaking style again
+  id: 1544
+  time: '2025-12-22T10:49:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2217
