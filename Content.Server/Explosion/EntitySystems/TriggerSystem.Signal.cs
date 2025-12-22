@@ -14,15 +14,24 @@ using Content.Server.DeviceLinking.Systems;
 using Content.Server.Explosion.Components;
 using Content.Shared.DeviceLinking.Events;
 
+// DEN - much of this has been touched or renamed to allow for the SignalOnTrigger component from Wizden
 namespace Content.Server.Explosion.EntitySystems
 {
     public sealed partial class TriggerSystem
     {
         [Dependency] private readonly DeviceLinkSystem _signalSystem = default!;
         private void InitializeSignal()
+        { 
+            SubscribeLocalEvent<TriggerOnSignalComponent, ComponentInit>(TriggerOnSignalInit);
+            SubscribeLocalEvent<TriggerOnSignalComponent, SignalReceivedEvent>(OnSignalReceived);
+
+            SubscribeLocalEvent<SignalOnTriggerComponent, ComponentInit>(SignalOnTriggerInit);
+            SubscribeLocalEvent<SignalOnTriggerComponent, TriggerEvent>(HandleSignalOnTrigger);
+        }
+        
+        private void TriggerOnSignalInit(EntityUid uid, TriggerOnSignalComponent component, ComponentInit args)
         {
-            SubscribeLocalEvent<TriggerOnSignalComponent,SignalReceivedEvent>(OnSignalReceived);
-            SubscribeLocalEvent<TriggerOnSignalComponent,ComponentInit>(OnInit);
+            _signalSystem.EnsureSinkPorts(uid, component.Port);
         }
 
         private void OnSignalReceived(EntityUid uid, TriggerOnSignalComponent component, ref SignalReceivedEvent args)
@@ -32,9 +41,17 @@ namespace Content.Server.Explosion.EntitySystems
 
             Trigger(uid, args.Trigger);
         }
-        private void OnInit(EntityUid uid, TriggerOnSignalComponent component, ComponentInit args)
+        
+        // DENWIZ - rough import of wizden SignalOnTrigger
+        private void SignalOnTriggerInit(EntityUid uid, SignalOnTriggerComponent component, ComponentInit args)
         {
-            _signalSystem.EnsureSinkPorts(uid, component.Port);
+            _signalSystem.EnsureSourcePorts(uid, component.Port);
+        }
+
+        private void HandleSignalOnTrigger(EntityUid uid, SignalOnTriggerComponent component, TriggerEvent args)
+        {
+            _signalSystem.InvokePort(uid, component.Port);
+            args.Handled = true;
         }
     }
 }
