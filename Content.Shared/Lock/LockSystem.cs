@@ -14,6 +14,7 @@
 // SPDX-FileCopyrightText: 2024 nikthechampiongr
 // SPDX-FileCopyrightText: 2024 sleepyyapril
 // SPDX-FileCopyrightText: 2025 Winter
+// SPDX-FileCopyrightText: 2025 creku
 //
 // SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
