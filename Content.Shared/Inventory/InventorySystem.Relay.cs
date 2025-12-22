@@ -9,7 +9,6 @@
 // SPDX-FileCopyrightText: 2023 MisterMecky
 // SPDX-FileCopyrightText: 2023 Visne
 // SPDX-FileCopyrightText: 2023 deltanedas
-// SPDX-FileCopyrightText: 2023 deltanedas <@deltanedas:kde.org>
 // SPDX-FileCopyrightText: 2023 metalgearsloth
 // SPDX-FileCopyrightText: 2024 Blu
 // SPDX-FileCopyrightText: 2024 DEATHB4DEFEAT

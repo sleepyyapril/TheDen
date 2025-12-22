@@ -7,12 +7,15 @@
 // SPDX-FileCopyrightText: 2024 FoxxoTrystan
 // SPDX-FileCopyrightText: 2024 Kara
 // SPDX-FileCopyrightText: 2024 Nemanja
+// SPDX-FileCopyrightText: 2024 SkaldetSkaeg
 // SPDX-FileCopyrightText: 2024 beck-thompson
 // SPDX-FileCopyrightText: 2024 metalgearsloth
 // SPDX-FileCopyrightText: 2024 sleepyyapril
 // SPDX-FileCopyrightText: 2025 Shaman
+// SPDX-FileCopyrightText: 2025 Tobias Berger
+// SPDX-FileCopyrightText: 2025 dootythefrooty
 //
-// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using System.Linq;
 using Content.Server.Chat.Systems;
