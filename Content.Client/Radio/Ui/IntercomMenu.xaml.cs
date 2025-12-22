@@ -33,6 +33,16 @@ public sealed partial class IntercomMenu : FancyWindow
 
         MicButton.OnPressed += args => OnMicPressed?.Invoke(args.Button.Pressed);
         SpeakerButton.OnPressed += args => OnSpeakerPressed?.Invoke(args.Button.Pressed);
+
+        // DEN - Moved here from Update to avoid repeat subscriptions on button press
+        ChannelOptions.OnItemSelected += args =>
+        {
+            if (!_channels.TryGetValue(args.Id, out var proto))
+                return;
+
+            ChannelOptions.SelectId(args.Id);
+            OnChannelSelected?.Invoke(proto);
+        };
     }
 
     public void Update(Entity<IntercomComponent> entity)
@@ -64,14 +74,5 @@ public sealed partial class IntercomMenu : FancyWindow
             ChannelOptions.AddItem(Loc.GetString("intercom-options-none"), 0);
             ChannelOptions.Select(0);
         }
-
-        ChannelOptions.OnItemSelected += args =>
-        {
-            if (!_channels.TryGetValue(args.Id, out var proto))
-                return;
-
-            ChannelOptions.SelectId(args.Id);
-            OnChannelSelected?.Invoke(proto);
-        };
     }
 }

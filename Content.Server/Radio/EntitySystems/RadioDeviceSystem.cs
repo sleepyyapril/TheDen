@@ -31,8 +31,7 @@ using Content.Shared.Radio;
 using Content.Shared.Chat;
 using Content.Shared.Radio.Components;
 using Content.Shared.UserInterface; // Nuclear-14
-using Content.Shared._NC.Radio;
-using Content.Shared.Language.Components; // Nuclear-14
+using Content.Shared._NC.Radio; // Nuclear-14
 using Robust.Server.GameObjects;
 using Robust.Shared.Network;
 using Robust.Shared.Player; // Nuclear-14
@@ -72,7 +71,8 @@ public sealed class RadioDeviceSystem : EntitySystem
         SubscribeLocalEvent<RadioMicrophoneComponent, ActivateInWorldEvent>(OnActivateMicrophone);
         SubscribeLocalEvent<RadioMicrophoneComponent, ListenEvent>(OnListen);
         SubscribeLocalEvent<RadioMicrophoneComponent, ListenAttemptEvent>(OnAttemptListen);
-        SubscribeLocalEvent<RadioMicrophoneComponent, PowerChangedEvent>(OnPowerChanged);SubscribeLocalEvent<RadioMicrophoneComponent, GetVerbsEvent<AlternativeVerb>>(OnGetAltVerbs); // Frontier
+        SubscribeLocalEvent<RadioMicrophoneComponent, PowerChangedEvent>(OnPowerChanged);
+        SubscribeLocalEvent<RadioMicrophoneComponent, GetVerbsEvent<AlternativeVerb>>(OnGetAltVerbs); // Frontier
 
         SubscribeLocalEvent<RadioSpeakerComponent, ComponentInit>(OnSpeakerInit);
         SubscribeLocalEvent<RadioSpeakerComponent, ActivateInWorldEvent>(OnActivateSpeaker);
@@ -248,22 +248,18 @@ public sealed class RadioDeviceSystem : EntitySystem
 
     private void OnReceiveRadio(EntityUid uid, RadioSpeakerComponent component, ref RadioReceiveEvent args)
     {
-        var parent = Transform(uid).ParentUid;
-
-        if (!TryComp(parent, out ActorComponent? actor))
+        if (uid == args.RadioSource)
             return;
 
-        var hasSpeakerComponent = TryComp<LanguageSpeakerComponent>(args.MessageSource, out var languageSpeakerComponent);
-        var canUnderstand = _language.CanUnderstand(
-            parent,
-            args.Language.ID,
-            hasSpeakerComponent ? (args.MessageSource, languageSpeakerComponent) : null);
+        var nameEv = new TransformSpeakerNameEvent(args.MessageSource, Name(args.MessageSource));
+        RaiseLocalEvent(args.MessageSource, nameEv);
 
-        var msg = new MsgChatMessage
-        {
-            Message = canUnderstand ? args.OriginalChatMsg : args.LanguageObfuscatedChatMsg
-        };
-        _netMan.ServerSendMessage(msg, actor.PlayerSession.Channel);
+        var name = Loc.GetString("speech-name-relay",
+            ("speaker", Name(uid)),
+            ("originalName", nameEv.VoiceName));
+
+        // log to chat so people can identity the speaker/source, but avoid clogging ghost chat if there are many radios
+        _chat.TrySendInGameICMessage(uid, args.OriginalChatMsg.Message, InGameICChatType.Whisper, ChatTransmitRange.GhostRangeLimit, nameOverride: name, checkRadioPrefix: false, languageOverride: args.Language);
     }
 
     private void OnIntercomEncryptionChannelsChanged(Entity<IntercomComponent> ent, ref EncryptionChannelsChangedEvent args)
@@ -326,10 +322,18 @@ public sealed class RadioDeviceSystem : EntitySystem
         {
             mic.BroadcastChannel = channel;
             if(_protoMan.TryIndex<RadioChannelPrototype>(channel, out var channelProto)) // Frontier
-                mic.Frequency = _radio.GetFrequency(ent, channelProto); // Frontier
+                mic.Frequency = channelProto.Frequency; // Frontier
         }
         if (TryComp<RadioSpeakerComponent>(ent, out var speaker))
-            speaker.Channels = new(){ channel };
+        {
+            speaker.Channels.Clear();
+            speaker.Channels.Add(channel);
+            if (TryComp<ActiveRadioComponent>(ent, out var radio)) // DEN - Update ActiveRadioComponent too
+            {
+                radio.Channels.Clear();
+                radio.Channels.UnionWith(speaker.Channels);
+            }
+        }
         Dirty(ent);
     }
 
