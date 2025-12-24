@@ -1556,11 +1556,11 @@
   flavor: eggnog
   color: "#F1E0A1"
   metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/eggnog.rsi
+    sprite: _DEN/Objects/Consumable/Drinks/eggnog.rsi # DEN - resprite
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
+  metamorphicChangeColor: true
   metabolisms:
     Drink:
       effects:
@@ -1608,13 +1608,13 @@
         - ReagentId: Eggnog
           Quantity: 30
   - type: Icon
-    sprite: _Floof/Objects/Consumable/Drinks/eggnog.rsi
+    sprite: _DEN/Objects/Consumable/Drinks/eggnog.rsi # DEN - resprite
     state: icon
 
 - type: entity
   parent: DrinkGlass
   id: DrinkSyndicateEggnogGlass
-  suffix: eggnog
+  suffix: syndicate eggnog # DEN: fix
   components:
   - type: SolutionContainerManager
     solutions:
