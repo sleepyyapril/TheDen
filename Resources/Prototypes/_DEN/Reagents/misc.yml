@@ -33,7 +33,7 @@
         type: Local
         visualType: Medium
         messages:
-        - "reagent-effect-aphrodisiac-mildoverdose"
+        - reagent-effect-cheer-mildoverdose # You feel nauseous.
         probability: 0.06
         conditions:
         - !type:ReagentThreshold
