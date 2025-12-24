@@ -1567,8 +1567,11 @@
       - !type:SatiateThirst
         factor: 1
       - !type:AdjustReagent
-        reagent: HolidayCheer # DEN
-        amount: 0.1
+        reagent: HolidayCheer # DEN: holiday cheer :)
+        amount: 0.05
+      - !type:AdjustReagent # DEN: make it alcoholic
+        reagent: Ethanol
+        amount: 0.08
   noRandom: true # The Den
   # PORT note: I'm keeping it this way even though it's not actuallly aphrodisiac because it feels irresponsible not to
 
@@ -1593,7 +1596,7 @@
         factor: 1
       - !type:AdjustReagent
         reagent: Ethanol
-        amount: 0.04
+        amount: 0.18 # DEN: make it more alcoholic
 
 - type: entity
   parent: DrinkGlass

@@ -200,7 +200,7 @@ reagent-name-hallelujah = Hallelujah
 reagent-desc-hallelujah = Exactly what you need.
 
 reagent-name-eggnog = eggnog
-reagent-desc-eggnog = Creamy, pale yellow, and topped with a sprinkle of cinnamon.
+reagent-desc-eggnog = Creamy, pale yellow, topped with a sprinkle of cinnamon, and mildly alcoholic.
 
 reagent-name-syndicate-eggnog = syndicate eggnog
-reagent-desc-syndicate-eggnog = Creamy, pale yellow, topped with a sprinkle of cinnamon, and mildly alcoholic.
+reagent-desc-syndicate-eggnog = Creamy, pale yellow, topped with a sprinkle of cinnamon, and strongly alcoholic.
