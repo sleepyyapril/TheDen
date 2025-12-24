@@ -39,6 +39,9 @@
     - state: ribbon
     - state: cap
       map: ["enum.OpenableVisuals.Layer"]
+  - type: Icon
+    sprite: _DEN/Objects/Consumable/Drinks/eggnog_bottle.rsi
+    state: icon
   - type: GenericVisualizer
     visuals:
       enum.OpenableVisuals.Opened:
@@ -68,6 +71,9 @@
   components:
   - type: Sprite
     sprite: _DEN/Objects/Consumable/Drinks/syndicate_eggnog_bottle.rsi
+  - type: Icon
+    sprite: _DEN/Objects/Consumable/Drinks/syndicate_eggnog_bottle.rsi
+    state: icon
   - type: SolutionContainerManager
     solutions:
       drink:
