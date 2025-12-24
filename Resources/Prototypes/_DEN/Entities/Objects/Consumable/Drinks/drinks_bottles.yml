@@ -54,8 +54,6 @@
         reagents:
         - ReagentId: Eggnog
           Quantity: 100
-  - type: Label
-    currentLabel: eggnog
   - type: Sealable
   - type: SolutionContainerVisuals
     maxFillLevels: 8
@@ -80,8 +78,6 @@
         reagents:
         - ReagentId: SyndicateEggnog
           Quantity: 100
-  - type: Label
-    currentLabel: syndicate eggnog
 
 ## JUGS
 
