@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Dirius77
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Server._DEN.BluespacePlushiePatch.Components;
 using Content.Server.Nutrition.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;

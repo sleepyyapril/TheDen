@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 Dirius77
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Item;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
