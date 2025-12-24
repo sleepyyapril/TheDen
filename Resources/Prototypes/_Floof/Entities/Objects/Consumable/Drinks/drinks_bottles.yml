@@ -28,6 +28,7 @@
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: DrinkEggnogBottleFull
   name: eggnog bottle
+  suffix: old # DEN: i made a new one
   description: A fancy looking bottle of eggnog, with a festive label and sealed cap.
   components:
   - type: SolutionContainerManager

@@ -23,6 +23,45 @@
   - type: Sealable
 
 - type: entity
+  parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
+  id: DrinkEggnogBottleFullDen
+  name: eggnog bottle
+  description: A fancy-looking bottle of eggnog, with a festive label and sealed cap.
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Consumable/Drinks/eggnog_bottle.rsi
+    layers:
+    - state: icon_empty
+    - state: fill-1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
+    - state: label
+    - state: cap
+      map: ["enum.OpenableVisuals.Layer"]
+  - type: GenericVisualizer
+    visuals:
+      enum.OpenableVisuals.Opened:
+        enum.OpenableVisuals.Layer:
+          True: { visible: false }
+          False: { visible: true }
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: Eggnog
+          Quantity: 100
+  - type: Label
+    currentLabel: eggnog
+  - type: Sealable
+  - type: SolutionContainerVisuals
+    maxFillLevels: 8
+    fillBaseName: fill-
+    inHandsMaxFillLevels: 3
+    inHandsFillBaseName: -fill-
+
+## JUGS
+
+- type: entity
   parent: CustomDrinkJug
   id: DrinkJuiceAppleJug
   suffix: apple juice
