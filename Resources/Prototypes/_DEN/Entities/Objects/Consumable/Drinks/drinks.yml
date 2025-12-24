@@ -594,3 +594,16 @@
     - type: Icon
       sprite: _DEN/Objects/Consumable/Drinks/vodkacheers.rsi
       state: icon
+
+- type: entity
+  parent: DrinkGlass
+  id: DrinkHolidayCheerGlass
+  suffix: holiday cheer
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: HolidayCheer
+          Quantity: 30

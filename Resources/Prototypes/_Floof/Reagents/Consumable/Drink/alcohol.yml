@@ -1551,7 +1551,6 @@
   id: Eggnog
   name: reagent-name-eggnog
   parent: BaseAlcohol
-  group: AphrodisiacDrinks # DEN
   desc: reagent-desc-eggnog
   physicalDesc: reagent-physical-desc-creamy
   flavor: eggnog
@@ -1568,9 +1567,10 @@
       - !type:SatiateThirst
         factor: 1
       - !type:AdjustReagent
-        reagent: Pomelustine
-        amount: 0.05
+        reagent: HolidayCheer # DEN
+        amount: 0.1
   noRandom: true # The Den
+  # PORT note: I'm keeping it this way even though it's not actuallly aphrodisiac because it feels irresponsible not to
 
 - type: reagent
   id: SyndicateEggnog
