@@ -113,7 +113,7 @@
   id: UplinkDrinkSyndicateEggnogBottle
   name: uplink-syndicate-eggnog-name
   description: uplink-syndicate-eggnog-desc
-  productEntity: DrinkSyndicateEggnogBottleFullDen
+  productEntity: DrinkSyndicateEggnogBottleFull
   cost:
     Telecrystal: 5
   categories:

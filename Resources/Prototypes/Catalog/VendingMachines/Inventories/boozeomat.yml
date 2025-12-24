@@ -88,7 +88,7 @@
     DrinkBeerCan: 5
     DrinkWineCan: 5
     DrinkAngobittersBottleFull: 3 # DeltaV - Angostura Bitters Bottle
-    DrinkEggnogBottleFullDen: 2 # DEN - Eggnog bottle, for the holidays
+    DrinkEggnogBottleFull: 2 # DEN - Eggnog bottle, for the holidays
   contrabandInventory:
     EthanolChemistryBottle: 3
     DrinkBottleOfNothingFull: 1

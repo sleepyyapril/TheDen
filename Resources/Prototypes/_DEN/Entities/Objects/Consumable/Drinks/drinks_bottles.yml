@@ -24,7 +24,7 @@
 
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
-  id: DrinkEggnogBottleFullDen
+  id: DrinkEggnogBottleFull
   name: eggnog bottle
   description: A fancy-looking bottle of eggnog, with a festive label and sealed cap.
   components:
@@ -64,8 +64,8 @@
     inHandsFillBaseName: -fill-
 
 - type: entity
-  parent: DrinkEggnogBottleFullDen
-  id: DrinkSyndicateEggnogBottleFullDen
+  parent: DrinkEggnogBottleFull
+  id: DrinkSyndicateEggnogBottleFull
   name: syndicate eggnog bottle
   description: A fancy-looking bottle of syndicate eggnog, with a festive label and sealed cap.
   components:
