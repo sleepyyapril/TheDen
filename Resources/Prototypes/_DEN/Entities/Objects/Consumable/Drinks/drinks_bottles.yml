@@ -60,6 +60,23 @@
     inHandsMaxFillLevels: 3
     inHandsFillBaseName: -fill-
 
+- type: entity
+  parent: DrinkEggnogBottleFullDen
+  id: DrinkSyndicateEggnogBottleFullDen
+  name: syndicate eggnog bottle
+  description: A fancy-looking bottle of syndicate eggnog, with a festive label and sealed cap.
+  components:
+  - type: Sprite
+    sprite: _DEN/Objects/Consumable/Drinks/syndicate_eggnog_bottle.rsi
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        reagents:
+        - ReagentId: SyndicateEggnog
+          Quantity: 100
+  - type: Label
+    currentLabel: syndicate eggnog
+
 ## JUGS
 
 - type: entity

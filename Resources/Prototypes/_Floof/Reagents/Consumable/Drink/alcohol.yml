@@ -1584,11 +1584,11 @@
   flavor: syndicate-eggnog
   color: "#d8c990"
   metamorphicSprite:
-    sprite: _Floof/Objects/Consumable/Drinks/syndicate_eggnog.rsi
+    sprite: _DEN/Objects/Consumable/Drinks/syndicate_eggnog.rsi # DEN - resprite
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
-  metamorphicChangeColor: false
+  metamorphicChangeColor: true
   metabolisms:
     Drink:
       effects:
@@ -1627,5 +1627,5 @@
         - ReagentId: SyndicateEggnog
           Quantity: 30
   - type: Icon
-    sprite: _Floof/Objects/Consumable/Drinks/syndicate_eggnog.rsi
+    sprite: _DEN/Objects/Consumable/Drinks/syndicate_eggnog.rsi # DEN - resprite
     state: icon
