@@ -15852,3 +15852,12 @@ Entries:
   id: 1546
   time: '2025-12-24T23:32:40.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2179
+- author: maninbucket917
+  changes:
+    - type: Add
+      message: >-
+        Added tiny dot and tiny line drawing options for crayons. Artists
+        rejoice!
+  id: 1547
+  time: '2025-12-25T02:39:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2224
