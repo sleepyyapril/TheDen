@@ -20,3 +20,6 @@ uplink-mantis-caster-shotgun-lethal-desc = A rock anomaly core harnessed as an a
 
 uplink-mantis-caster-submachinegun-lethal-name = submachine gun caster (piercing)
 uplink-mantis-caster-submachinegun-lethal-desc = A rock anomaly core harnessed as an ammo source for the mantis's Strix. It forms diamond shards into lethal projectiles, each one perfectly faceted and catastrophically illegal. Unlike other casters, it must be placed in a cell recharger to replenish itself.
+
+uplink-syndicate-eggnog-name = bottle of syndicate eggnog
+uplink-syndicate-eggnog-desc = For those special occasions. This stuff will knock you on your ass.

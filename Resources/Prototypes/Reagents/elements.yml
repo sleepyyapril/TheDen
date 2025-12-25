@@ -57,6 +57,12 @@
       - !type:AdjustReagent
         reagent: Libidozenithizine
         amount: -3
+      # DEN: make it remove holiday cheer also
+      - !type:AdjustReagent
+        reagent: HolidayCheer
+        # it's not actually an aphrodisiac, but i feel like it'd be irresponsible to not add a counter for it
+        # because the entire joke is that it's supposed to sound like one. but holiday themed.
+        amount: -5
 
 - type: reagent
   id: Carbon

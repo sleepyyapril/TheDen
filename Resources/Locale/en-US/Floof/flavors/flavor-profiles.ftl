@@ -81,5 +81,5 @@ flavor-complex-blue-pumpkin = like a mouthful of pool water
 flavor-base-strange = strange
 flavor-complex-walnut = like walnuts
 flavor-complex-despair = despair
-flavor-complex-eggnog = eggnog
+flavor-complex-eggnog = like eggnog
 flavor-complex-syndicate-eggnog = like eggnog, and war profiteering

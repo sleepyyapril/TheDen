@@ -109,3 +109,12 @@
     whitelist:
     - ForensicMantis
 
+- type: listing
+  id: UplinkDrinkSyndicateEggnogBottle
+  name: uplink-syndicate-eggnog-name
+  description: uplink-syndicate-eggnog-desc
+  productEntity: DrinkSyndicateEggnogBottleFull
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkPointless
