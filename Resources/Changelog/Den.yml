@@ -15861,3 +15861,10 @@ Entries:
   id: 1547
   time: '2025-12-25T02:39:49.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2224
+- author: SubspaceEmber
+  changes:
+    - type: Tweak
+      message: Moved station inspector title from HoP to NTR
+  id: 1548
+  time: '2025-12-25T02:40:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2207
