@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # help me
 reagent-effect-cheer-mild1 = You feel warm and cozy.
 reagent-effect-cheer-mild2 = You are filled with memories of hearth and home.
