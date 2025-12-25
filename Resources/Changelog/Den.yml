@@ -15868,3 +15868,30 @@ Entries:
   id: 1548
   time: '2025-12-25T02:40:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2207
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Bottles of eggnog can now be obtained through the Booze-O-Mat and the
+        mail. Bottles of syndicate eggnog can now be obtained through the mail,
+        emagged Booze-O-Mats, or the traitor uplink!
+    - type: Add
+      message: >-
+        Both eggnog and syndicate eggnog have new sprites for their
+        bottles/glasses. 
+    - type: Fix
+      message: >-
+        Various locales for eggnog / syndicate eggnog have been cleaned up and
+        updated, including the flavor description ("tastes like eggnog") and
+        some guidebook grammar.
+    - type: Tweak
+      message: >-
+        Eggnog is now alcoholic (since it's made with rum anyway). Syndicate
+        eggnog is now VERY alcoholic.
+    - type: Tweak
+      message: >-
+        Eggnog no longer adds pomelustine to your system. Instead, it adds, uh.
+        Holiday cheer.
+  id: 1549
+  time: '2025-12-25T14:48:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2227
