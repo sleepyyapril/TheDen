@@ -15920,3 +15920,10 @@ Entries:
   id: 1552
   time: '2025-12-27T17:01:32.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2234
+- author: Dirius77
+  changes:
+    - type: Add
+      message: A cooldown when someone breaks free of your grab.
+  id: 1553
+  time: '2025-12-27T22:44:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2238
