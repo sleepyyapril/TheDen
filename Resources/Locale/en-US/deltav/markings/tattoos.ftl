@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Aikakakah
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 marking-TattooHiveChestFemale-tattoo_hive_chest_female = Back Tattoo (Hive)
 marking-TattooHiveChestFemale = Back Tattoo (Hive)
 

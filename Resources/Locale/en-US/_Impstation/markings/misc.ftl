@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2025 Aikakakah
 # SPDX-FileCopyrightText: 2025 BloodfiendishOperator
 # SPDX-FileCopyrightText: 2025 Jakumba
 # SPDX-FileCopyrightText: 2025 Shaman
