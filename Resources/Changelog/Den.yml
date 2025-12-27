@@ -15927,3 +15927,12 @@ Entries:
   id: 1553
   time: '2025-12-27T22:44:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2238
+- author: Aikakakah
+  changes:
+    - type: Fix
+      message: >-
+        Fixed some chest tattoo and scars to accept the female displacement
+        system. No more random pixels showing through, yay!
+  id: 1554
+  time: '2025-12-27T22:45:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2236
