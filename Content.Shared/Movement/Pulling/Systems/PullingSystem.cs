@@ -11,6 +11,7 @@
 // SPDX-FileCopyrightText: 2024 metalgearsloth
 // SPDX-FileCopyrightText: 2024 sleepyyapril
 // SPDX-FileCopyrightText: 2025 BramvanZijp
+// SPDX-FileCopyrightText: 2025 Dirius77
 // SPDX-FileCopyrightText: 2025 Eagle-0
 // SPDX-FileCopyrightText: 2025 Jakumba
 // SPDX-FileCopyrightText: 2025 Rosycup
