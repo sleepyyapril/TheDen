@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Blitz
 # SPDX-FileCopyrightText: 2025 ElusiveCoin
+# SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 Shaman
 # SPDX-FileCopyrightText: 2025 Tabitha
