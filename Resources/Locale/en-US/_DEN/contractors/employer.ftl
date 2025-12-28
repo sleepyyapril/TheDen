@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Jakumba
+# SPDX-FileCopyrightText: 2025 Tobias Berger
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
 
 employer_name_donkco = Donk Co.
 employer_description_donkco = From a humble lunch wagon in Nova Scotia, the popularity of the Donk Pocket among coal miners paved the way for Donk's expansion. Now serving as Canada's largest business, Donk Co. exists as a sprawling mega corporation whose quick and ready-to-eat Donk Pockets come in a variety of flavours. Boasting the best PR department and one of the largest logistics fleets in the galaxy, it's a wonder why Donk Co. has agreed to Nanotrasen's harsh corporate contract.
