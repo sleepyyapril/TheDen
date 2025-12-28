@@ -15936,3 +15936,14 @@ Entries:
   id: 1554
   time: '2025-12-27T22:45:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2236
+- author: Aikakakah
+  changes:
+    - type: Tweak
+      message: >-
+        Moved eyebags, eye scars, and the gloomy marking to the face category.
+        Check your loadouts!
+    - type: Fix
+      message: Vitiligo is now colorable!
+  id: 1555
+  time: '2025-12-28T07:02:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2237
