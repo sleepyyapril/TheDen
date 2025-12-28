@@ -15963,3 +15963,13 @@ Entries:
   id: 1557
   time: '2025-12-28T07:05:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2229
+- author: superjeepboy
+  changes:
+    - type: Fix
+      message: >-
+        Genpop IDs and permanent prisoner IDs should now be able to enter Genpop
+        at their own will. You shouldn't have to chase them around to drag them
+        in now.
+  id: 1558
+  time: '2025-12-28T07:08:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2225
