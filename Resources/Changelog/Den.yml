@@ -15947,3 +15947,12 @@ Entries:
   id: 1555
   time: '2025-12-28T07:02:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2237
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: >-
+        Added a new "Fire Resistance" trait. You can find it in the physical
+        augmentations tab. You can make your dragon blorbo sit in an oven now. 
+  id: 1556
+  time: '2025-12-28T07:03:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2230
