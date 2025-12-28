@@ -15956,3 +15956,10 @@ Entries:
   id: 1556
   time: '2025-12-28T07:03:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2230
+- author: selvamoonbell
+  changes:
+    - type: Add
+      message: Arachne sound traits
+  id: 1557
+  time: '2025-12-28T07:05:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2229
