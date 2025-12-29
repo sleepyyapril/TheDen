@@ -250,11 +250,18 @@
           currentTemperature: 310.15
           coldDamage:
             types:
-              Cold : 0.1 # unaffected
+              Cold : 1 # more cold damage
           specificHeat: 42
           heatDamage:
             types:
               Heat : 0.1 # much less damage from overheating
+        - type: TemperatureSpeed # more aggressive and earlier temp slowdown, and a higher maximum slowdown
+          thresholds:
+            300: 0.9
+            295: 0.8
+            290: 0.7
+            285: 0.6
+            280: 0.5
         - type: ThermalRegulator
           metabolismHeat: 800
           radiatedHeat: 100
