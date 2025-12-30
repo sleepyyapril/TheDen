@@ -15980,3 +15980,10 @@ Entries:
   id: 1559
   time: '2025-12-29T05:15:03.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2246
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: (EDGE) Atmos, Engineer and Voxbox overhaul, PA is now to the left!
+  id: 1560
+  time: '2025-12-30T09:24:29.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2245
