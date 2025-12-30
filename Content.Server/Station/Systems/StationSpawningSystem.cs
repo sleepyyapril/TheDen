@@ -32,7 +32,6 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using Content.Server.Access.Systems;
-using Content.Server.DetailExaminable;
 using Content.Server.Humanoid;
 using Content.Server.IdentityManagement;
 using Content.Server.Mind.Commands;
@@ -47,6 +46,7 @@ using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.CCVar;
 using Content.Shared.Customization.Systems;
+using Content.Shared.DetailExaminable;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.PDA;
@@ -213,6 +213,8 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
 
         if (!string.IsNullOrWhiteSpace(profile.SelfExamineFlavorText)) // DEN: Self-examine detail
             detail.SelfContent = profile.SelfExamineFlavorText;
+
+        Dirty(uid, detail);
     }
 
     private void DoJobSpecials(ProtoId<JobPrototype>? job, EntityUid entity)
