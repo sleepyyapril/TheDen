@@ -414,6 +414,7 @@ public sealed partial class TraitPushDescription : TraitFunction
         entityManager.EnsureComponent<ExtendDescriptionComponent>(uid, out var descComp);
         foreach (var descExtension in DescriptionExtensions)
             descComp.DescriptionList.Add(descExtension);
+        entityManager.Dirty(uid, descComp);
     }
 }
 

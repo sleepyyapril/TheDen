@@ -240,11 +240,13 @@ public sealed class ParadoxAnomalySystem : EntitySystem
         if (TryComp<DetailExaminableComponent>(uid, out var detail))
         {
             detailCopy.Content = detail.Content;
+            Dirty(uid, detail);
         }
 
         if (TryComp<ExtendDescriptionComponent>(uid, out var descExtension))
         {
             spawnedDescExtension.DescriptionList = descExtension.DescriptionList;
+            Dirty(uid, descExtension);
         }
 
         var examineMessage = Loc.GetString(ParadoxAnomalyExamine, ("entity", spawned));
