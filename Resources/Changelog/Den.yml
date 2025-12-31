@@ -16007,3 +16007,12 @@ Entries:
   id: 1562
   time: '2025-12-31T09:32:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2248
+- author: Tomce795
+  changes:
+    - type: Add
+      message: >-
+        Department Head lockers now have medals! A joyous day for medal
+        enthusiasts!
+  id: 1563
+  time: '2025-12-31T17:54:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2228
