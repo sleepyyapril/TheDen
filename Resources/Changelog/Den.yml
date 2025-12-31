@@ -16000,3 +16000,10 @@ Entries:
   id: 1561
   time: '2025-12-31T09:23:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2177
+- author: msTheowo
+  changes:
+    - type: Tweak
+      message: Emergency N2 lockers aren't taped over fire safety lockers anymore.
+  id: 1562
+  time: '2025-12-31T09:32:01.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2248
