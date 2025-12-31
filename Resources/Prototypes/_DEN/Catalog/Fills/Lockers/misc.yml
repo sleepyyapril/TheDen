@@ -1,0 +1,28 @@
+- type: entityTable
+  id: FillLockerEmergencyUniversalStandard
+  table: !type:AllSelector
+    children:
+    - id: ClothingMaskBreath
+    - id: ClothingOuterSuitEmergency
+    - id: ExtendedEmergencyNitrogenTankFilled
+    - id: ExtendedEmergencyOxygenTankFilled
+    - id: ExtendedEmergencyWaterVaporTankFilled
+    - id: ExtendedEmergencyPlasmaTankFilled
+    - id: ToolboxEmergencyFilled
+    - !type:GroupSelector
+      children:
+      - id: BoxMRE
+      - id: WeaponFlareGun
+      - id: EnvirosuitExtinguisherRefill
+      - id: EmergencyComfortDeploymentUnitWrapped
+      - id: MedkitOxygenFilled
+
+- type: entity
+  id: ClosetEmergencyUniversalFilled
+  parent: ClosetEmergencyUniversal
+  suffix: Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FillLockerEmergencyUniversalStandard
