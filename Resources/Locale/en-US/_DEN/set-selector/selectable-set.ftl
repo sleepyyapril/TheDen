@@ -24,7 +24,7 @@ ert-security-loadout-3-desc = An Enforcer shotgun, extra drums of ammo and sting
 ert-engineer-loadout-2-name = Live Wire
 ert-engineer-loadout-2-desc = A Pulse carbine, tear gas & stinger grenades, with breaching charges
 
-ert-engineer-loadout-3-name = Assault Engineer
+ert-engineer-loadout-3name = Assault Engineer
 ert-engineer-loadout-3-desc = A Lecter assault rifle, magazines and stinger grenades
 
 ert-engineer-loadout-4-name = Sapper
@@ -52,7 +52,7 @@ emergency-internals-option-1-name = Extended Emergency Oxygen Tank
 emergency-internals-option-1-desc = An extended emergency oxygen tank for emergencies.
 
 emergency-internals-option-2-name = Extended Emergency Nitrogen Tank
-emergency-internals-option-2-name = An extended emergency nitrogen tank for emergencies.
+emergency-internals-option-2-desc = An extended emergency nitrogen tank for emergencies.
 
 emergency-internals-option-3-name = Extended Emergency Water Vapor Tank
 emergency-internals-option-3-desc = An extended emergency water vapor tank for emergencies.
