@@ -51,7 +51,7 @@
         prob: 0.3
       - id: FoodTinMRE
         prob: 0.35
-        maAxmount: 2
+        maxAmount: 2
       - id: EmergencyMedipen
         prob: 0.1
       - id: SpaceMedipen
