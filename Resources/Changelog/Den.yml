@@ -16016,3 +16016,12 @@ Entries:
   id: 1563
   time: '2025-12-31T17:54:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2228
+- author: superjeepboy
+  changes:
+    - type: Add
+      message: >-
+        Added the ability to change your blood using traits. Got a character
+        that wants different blood? You can make it happen now!
+  id: 1564
+  time: '2025-12-31T21:59:02.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2231
