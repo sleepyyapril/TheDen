@@ -259,7 +259,7 @@
   name: emergency-internals-option-3-name
   description: emergency-internals-option-3-desc
   sprite:
-    sprite: _DV/Objects/Tanks/emergency_extended_water_vapor.rsi
+    sprite: _DV/Objects/Tanks/emergency_water_vapor.rsi
     state: icon
   content:
     - ExtendedEmergencyWaterVaporTankFilled
