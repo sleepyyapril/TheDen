@@ -24,7 +24,7 @@ ert-security-loadout-3-desc = An Enforcer shotgun, extra drums of ammo and sting
 ert-engineer-loadout-2-name = Live Wire
 ert-engineer-loadout-2-desc = A Pulse carbine, tear gas & stinger grenades, with breaching charges
 
-ert-engineer-loadout-3name = Assault Engineer
+ert-engineer-loadout-3-name = Assault Engineer
 ert-engineer-loadout-3-desc = A Lecter assault rifle, magazines and stinger grenades
 
 ert-engineer-loadout-4-name = Sapper
