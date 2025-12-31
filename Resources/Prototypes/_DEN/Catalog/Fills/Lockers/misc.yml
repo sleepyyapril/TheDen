@@ -16,6 +16,14 @@
       - id: EnvirosuitExtinguisherRefill
       - id: EmergencyComfortDeploymentUnitWrapped
       - id: MedkitOxygenFilled
+    - !type:GroupSelector
+     children:
+      - id: TowelColorRed
+        prob: 0.3
+      - id: TowelColorBlue
+        prob: 0.3
+      - id: TowelColorNT
+        prob: 0.3
 
 - type: entity
   id: ClosetEmergencyUniversalFilled
