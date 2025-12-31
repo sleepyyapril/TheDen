@@ -4,7 +4,9 @@
 // SPDX-FileCopyrightText: 2023 Leon Friedrich
 // SPDX-FileCopyrightText: 2023 Visne
 // SPDX-FileCopyrightText: 2024 gluesniffler
+// SPDX-FileCopyrightText: 2025 Blitz
 // SPDX-FileCopyrightText: 2025 BlitzTheSquishy
+// SPDX-FileCopyrightText: 2025 LaconiumDragona
 // SPDX-FileCopyrightText: 2025 Skubman
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //

@@ -1,4 +1,8 @@
-﻿- type: marking
+# SPDX-FileCopyrightText: 2025 LaconiumDragona
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: marking
   id: TailSnakeDualAnimated
   bodyPart: Tail
   markingCategory: Tail
