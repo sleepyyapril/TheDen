@@ -16046,3 +16046,10 @@ Entries:
   id: 1566
   time: '2026-01-01T13:57:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2260
+- author: juniwoofs
+  changes:
+    - type: Fix
+      message: Fixed both Arrivals and Evac Shuttle timers, making them work!
+  id: 1567
+  time: '2026-01-01T13:58:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2258
