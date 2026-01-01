@@ -16037,3 +16037,12 @@ Entries:
   id: 1565
   time: '2026-01-01T13:47:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2241
+- author: Tomce795
+  changes:
+    - type: Tweak
+      message: >-
+        Changed a few Vox sounds to their WizDen ones. Added a few Vox sounds
+        from WizDen. Birb enjoyers rejoice.
+  id: 1566
+  time: '2026-01-01T13:57:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2260
