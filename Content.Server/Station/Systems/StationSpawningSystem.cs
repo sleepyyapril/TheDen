@@ -25,11 +25,12 @@
 // SPDX-FileCopyrightText: 2024 Timemaster99
 // SPDX-FileCopyrightText: 2024 VMSolidus
 // SPDX-FileCopyrightText: 2025 Dirius77
+// SPDX-FileCopyrightText: 2025 Milon
 // SPDX-FileCopyrightText: 2025 Skubman
 // SPDX-FileCopyrightText: 2025 portfiend
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 using Content.Server.Access.Systems;
 using Content.Server.Humanoid;
