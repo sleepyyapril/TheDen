@@ -9,20 +9,20 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-using Content.Server._Floof.Consent;
 using Content.Shared._Floof.Consent;
+using Content.Shared.DetailExaminable;
 using Content.Shared.Examine;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Verbs;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
-namespace Content.Server.DetailExaminable
+namespace Content.Shared.DetailExaminable
 {
     public sealed class DetailExaminableSystem : EntitySystem
     {
         [Dependency] private readonly ExamineSystemShared _examineSystem = default!;
-        [Dependency] private readonly ConsentSystem _consentSystem = default!;
+        [Dependency] private readonly SharedConsentSystem _consentSystem = default!;
 
         private ProtoId<ConsentTogglePrototype> _nsfwDescriptionsConsent = "NSFWDescriptions";
 
@@ -44,7 +44,7 @@ namespace Content.Server.DetailExaminable
             SubscribeLocalEvent<DetailExaminableComponent, GetVerbsEvent<ExamineVerb>>(OnGetExamineVerbs);
         }
 
-        private void OnGetExamineVerbs(EntityUid uid, DetailExaminableComponent component, GetVerbsEvent<ExamineVerb> args)
+        private void OnGetExamineVerbs(EntityUid uid, DetailExaminableComponent component, ref GetVerbsEvent<ExamineVerb> args)
         {
             if (Identity.Name(args.Target, EntityManager) != MetaData(args.Target).EntityName)
                 return;

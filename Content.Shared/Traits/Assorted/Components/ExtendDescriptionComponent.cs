@@ -5,6 +5,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 using Content.Shared.Customization.Systems;
+using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Traits.Assorted.Components;
@@ -31,12 +32,12 @@ public sealed partial class DescriptionExtension
     public bool RequireDetailRange = true;
 }
 
-[RegisterComponent]
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 public sealed partial class ExtendDescriptionComponent : Component
 {
     /// <summary>
     ///     The list of all descriptions to add to an entity when examined at close range.
     /// </summary>
-    [DataField]
+    [DataField, AutoNetworkedField]
     public List<DescriptionExtension> DescriptionList = new();
 }
