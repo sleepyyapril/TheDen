@@ -433,7 +433,7 @@
     Sneeze:
       collection: MaleSneezes
     Cough:
-      collection: MaleCoughs
+      path: /Audio/Voice/Vox/vox_cough.ogg #Imp
     CatMeow:
       collection: CatMeows
     CatHisses:
@@ -449,7 +449,7 @@
     Honk:
       collection: BikeHorn
     Sigh:
-      collection: MaleSigh
+      path: /Audio/Voice/Vox/vox_sigh.ogg #Imp
     Crying:
       collection: VoxCry #Imp
       params:
