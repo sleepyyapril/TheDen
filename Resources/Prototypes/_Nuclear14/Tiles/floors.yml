@@ -644,6 +644,21 @@
   heatCapacity: 10000
   weather: true
 
+
+- type: tile
+  id: FloorMS13CarpetFancyRedDiamond
+  name: red carpet fancy diamond
+  sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_fancy_red_diamond.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepCarpet
+  # itemDrop: FloorTileItemCarpetRed
+  thermalConductivity: 0.04
+  heatCapacity: 10000
+  weather: true
+
 - type: tile
   id: FloorMS13CarpetBlue
   name: ms13 carpet blue
@@ -662,6 +677,20 @@
   id: FloorMS13CarpetFancyBlue
   name: ms13 carpet fancy blue
   sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_fancy_blue.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepCarpet
+  # itemDrop: FloorTileItemCarpetRed
+  thermalConductivity: 0.04
+  heatCapacity: 10000
+  weather: true
+
+- type: tile
+  id: FloorMS13CarpetFancyBlueDiamond
+  name: blue carpet fancy diamond
+  sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_fancy_blue_diamond.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
@@ -704,6 +733,20 @@
   id: FloorMS13CarpetViolet
   name: ms13 carpet violet
   sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_violet.png
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepCarpet
+  # itemDrop: FloorTileItemCarpetRed
+  thermalConductivity: 0.04
+  heatCapacity: 10000
+  weather: true
+
+- type: tile
+  id: FloorMS13CarpetVioletDiamond
+  name: carpet violet diamond
+  sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_fancy_violet_diamond.png
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
