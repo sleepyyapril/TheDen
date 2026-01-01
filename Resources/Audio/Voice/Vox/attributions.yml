@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Tomce795
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - files:
   - shriek1.ogg
   license: "CC-BY-SA-3.0"
