@@ -16073,3 +16073,10 @@ Entries:
   id: 1569
   time: '2026-01-02T07:40:36.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2261
+- author: GreggTheFather
+  changes:
+    - type: Remove
+      message: Removed Master Key Intercoms from respective Ruins.
+  id: 1570
+  time: '2026-01-02T17:51:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2265
