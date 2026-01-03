@@ -214,7 +214,7 @@
     contents:
         - id: OxygenTankFilled
         - id: NitrogenTankFilled #Den
-        - id: ClothingOuterHardsuitRd
+        - id: ClothingOuterHardsuitMystagogueLabcoat #Den
         - id: ClothingMaskBreath
   - type: AccessReader
     access: [ [ "ResearchDirector" ] ]

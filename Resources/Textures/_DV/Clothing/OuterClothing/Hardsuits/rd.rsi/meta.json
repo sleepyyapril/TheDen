@@ -1,7 +1,7 @@
 {
     "version": 1,
-    "license": "CC0-1.0",
-    "copyright": "Original work by TJohnson. Modifications for vox by github.com/subspaceember",
+    "license": "CC-BY-SA-3.0",
+    "copyright": "original work by RoosterWhiddon and AeraAulin(Github), modifications for vox by https://github.com/SubspaceEmber",
     "size": {
         "x": 32,
         "y": 32
@@ -11,11 +11,26 @@
             "name": "icon"
         },
         {
+            "name": "icon-open"
+        },
+        {
             "name": "equipped-OUTERCLOTHING",
             "directions": 4
         },
         {
+            "name": "open-equipped-OUTERCLOTHING",
+            "directions": 4
+        },
+        {
+            "name": "open-equipped-OUTERCLOTHING-harpy",
+            "directions": 4
+        },
+        {
             "name": "equipped-OUTERCLOTHING-harpy",
+            "directions": 4
+        },
+        {
+            "name": "open-equipped-OUTERCLOTHING-vox",
             "directions": 4
         },
         {

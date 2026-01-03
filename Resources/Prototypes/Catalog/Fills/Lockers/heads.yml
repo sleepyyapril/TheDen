@@ -366,7 +366,7 @@
       - id: ResearchComputerCircuitboard
       - id: ProtolatheMachineCircuitboard
       - id: CircuitImprinterMachineCircuitboard
-      - id: ClothingOuterHardsuitRd
+      - id: ClothingOuterHardsuitMystagogueLabcoat #Den
       - id: OxygenTankFilled #Den
       - id: NitrogenTankFilled #Den
       - id: HandTeleporter
@@ -392,6 +392,16 @@
       - id: Multitool # DEN
       - id: ClothingNeckSciencemedal # DEN
 
+# Hardsuit table, used for suit storage as well
+- type: entityTable
+  id: FillResearchDirectorHardsuit
+  table: !type:AllSelector
+    children:
+    - id: ClothingMaskBreath
+    - id: ClothingOuterHardsuitMystagogueLabcoat
+    - id: OxygenTankFilled
+
+# No hardsuit locker
 - type: entity
   id: LockerResearchDirectorFilled
   suffix: Filled
