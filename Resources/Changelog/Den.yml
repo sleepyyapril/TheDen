@@ -16080,3 +16080,12 @@ Entries:
   id: 1570
   time: '2026-01-02T17:51:04.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2265
+- author: SubspaceEmber
+  changes:
+    - type: Add
+      message: Added mysta hardsuit resprite from Delta-V along with vox version!
+    - type: Add
+      message: Added vox varients for all security hardsuits!
+  id: 1571
+  time: '2026-01-03T06:52:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2256
