@@ -28,6 +28,15 @@
     state: bunnytail
 
 - type: marking
+  id: BunnyTailAnimated
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
+  sprites:
+    - sprite: Mobs/Customization/kemonomimi-tails.rsi
+      state: bunnytail_wag
+
+- type: marking
   id: BunnyTailAlt
   bodyPart: Tail
   markingCategory: Tail

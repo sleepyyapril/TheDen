@@ -6,6 +6,8 @@
 
 marking-BunnyTail = Bunny Tail
 marking-BunnyTail-bunnytail = Tail
+marking-BunnyTailAnimated = Bunny Tail (animated)
+marking-BunnyTailAnimated-bunnytail_wag = Tail
 
 marking-BunnyTailAlt = Bunny Tail, Alternative
 marking-BunnyTailAlt-bunnytailalt = Bunny Tail, Alternative
