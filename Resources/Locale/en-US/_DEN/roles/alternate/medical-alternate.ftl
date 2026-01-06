@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 ASaltySeabass
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 LilNutters
 #
 # SPDX-License-Identifier: MIT
 
