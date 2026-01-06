@@ -16089,3 +16089,12 @@ Entries:
   id: 1571
   time: '2026-01-03T06:52:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2256
+- author: LilNutters
+  changes:
+    - type: Remove
+      message: >-
+        Removed the alternative titles Senior Chemist and Senior Pharmacist from
+        Senior Physician.
+  id: 1572
+  time: '2026-01-06T10:21:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2275
