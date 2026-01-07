@@ -16118,3 +16118,12 @@ Entries:
   id: 1574
   time: '2026-01-07T15:32:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2263
+- author: Oxdeception
+  changes:
+    - type: Fix
+      message: >-
+        Fixed footsteps sometimes getting stuck as empty when a puddle on the
+        same tile is mopped
+  id: 1575
+  time: '2026-01-07T15:32:46.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2264
