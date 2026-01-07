@@ -16098,3 +16098,14 @@ Entries:
   id: 1572
   time: '2026-01-06T10:21:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2275
+- author: Jakumba
+  changes:
+    - type: Add
+      message: >-
+        Added universal emergency locker containing everything you need to
+        survive in a pinch.
+    - type: Remove
+      message: Removed O2/N2 emergency lockers.
+  id: 1573
+  time: '2026-01-07T11:08:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2253
