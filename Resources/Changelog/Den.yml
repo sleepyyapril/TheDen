@@ -16137,3 +16137,12 @@ Entries:
   id: 1576
   time: '2026-01-07T15:34:27.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2267
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        Colorful novelty glasses will no longer prevent you from spawning with a
+        hat
+  id: 1577
+  time: '2026-01-07T16:11:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2268
