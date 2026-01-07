@@ -16127,3 +16127,13 @@ Entries:
   id: 1575
   time: '2026-01-07T15:32:46.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2264
+- author: crekulon
+  changes:
+    - type: Tweak
+      message: >-
+        Voice sensors/triggers are now more sensitive when listening and
+        recording, and should be easier to trigger (both intentionally and
+        accidentally)!
+  id: 1576
+  time: '2026-01-07T15:34:27.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2267
