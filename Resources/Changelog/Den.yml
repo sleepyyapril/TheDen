@@ -16109,3 +16109,12 @@ Entries:
   id: 1573
   time: '2026-01-07T11:08:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2253
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        Touched up puffer coat, made it grayscale for coloring, made it work
+        with skirts, and fixed some empty pixels
+  id: 1574
+  time: '2026-01-07T15:32:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2263
