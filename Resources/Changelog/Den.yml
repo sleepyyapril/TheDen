@@ -16188,3 +16188,10 @@ Entries:
   id: 1581
   time: '2026-01-08T18:07:35.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2257
+- author: Toby222
+  changes:
+    - type: Fix
+      message: Fixed the name of the flag building category
+  id: 1582
+  time: '2026-01-08T18:09:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2278
