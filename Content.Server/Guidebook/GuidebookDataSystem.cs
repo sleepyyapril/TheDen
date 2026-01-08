@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Tobias Berger
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Reflection;
 using Content.Shared.Guidebook;
 using Robust.Shared.Prototypes;

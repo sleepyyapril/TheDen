@@ -1,5 +1,6 @@
-// SPDX-FileCopyrightText: 2024 Menshin <Menshin@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2024 Menshin
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+// SPDX-FileCopyrightText: 2026 Tobias Berger
 //
 // SPDX-License-Identifier: MIT
 
