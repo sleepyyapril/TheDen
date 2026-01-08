@@ -16179,3 +16179,12 @@ Entries:
   id: 1580
   time: '2026-01-08T18:06:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2266
+- author: crekulon
+  changes:
+    - type: Add
+      message: >-
+        Added moonmantles! Moon boots, for your neck. That means harpies, diona,
+        and arachne can wear them. Unlocked by basic life improvement research.
+  id: 1581
+  time: '2026-01-08T18:07:35.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2257
