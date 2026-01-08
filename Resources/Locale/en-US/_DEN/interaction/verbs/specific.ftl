@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 interaction-WashHands-name = Wash hands / item
 interaction-WashHands-description = Wash your hands (or the item you're holding) in the water.
 
