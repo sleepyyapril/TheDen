@@ -16146,3 +16146,12 @@ Entries:
   id: 1577
   time: '2026-01-07T16:11:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2268
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        You can now wash your hands (and items) in sinks, showers, water tiles,
+        and toilets. This is purely cosmetic it's just an interaction verb
+  id: 1578
+  time: '2026-01-08T05:50:44.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2276
