@@ -1,4 +1,8 @@
-﻿- type: entity
+# SPDX-FileCopyrightText: 2026 msTheowo
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
   name: designer pen
   parent: Pen
   id: DesignerPen
