@@ -16195,3 +16195,10 @@ Entries:
   id: 1582
   time: '2026-01-08T18:09:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2278
+- author: Toby222
+  changes:
+    - type: Fix
+      message: Fixed guidebook for generat
+  id: 1583
+  time: '2026-01-08T18:11:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2252
