@@ -16170,3 +16170,12 @@ Entries:
   id: 1579
   time: '2026-01-08T07:52:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2277
+- author: msTheowo
+  changes:
+    - type: Add
+      message: Designer pens can now be selected in the loadout.
+    - type: Tweak
+      message: Pens have been resprited.
+  id: 1580
+  time: '2026-01-08T18:06:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2266
