@@ -16226,3 +16226,12 @@ Entries:
   id: 1585
   time: '2026-01-11T00:47:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2283
+- author: Shaman
+  changes:
+    - type: Fix
+      message: >-
+        Fixed leggings and stockings markings from being applied to the chest
+        layer (thank Aika for pointing it out!)
+  id: 1586
+  time: '2026-01-11T23:43:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2291
