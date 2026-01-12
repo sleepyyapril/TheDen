@@ -16244,3 +16244,10 @@ Entries:
   id: 1587
   time: '2026-01-12T00:04:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2292
+- author: TheLuggage05
+  changes:
+    - type: Fix
+      message: Fixed being able to revive unrevivable patients via CPR.
+  id: 1588
+  time: '2026-01-12T00:04:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2286
