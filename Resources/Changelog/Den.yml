@@ -16251,3 +16251,10 @@ Entries:
   id: 1588
   time: '2026-01-12T00:04:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2286
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: Sprinkled a bunch of admin equipment with asbestos.
+  id: 1589
+  time: '2026-01-12T19:32:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2294
