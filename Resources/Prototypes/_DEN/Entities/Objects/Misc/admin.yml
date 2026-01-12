@@ -7,7 +7,7 @@
 
 - type: entity
   id: BoxFolderAdmin
-  parent: [ BoxBase, ContentsExplosionResistanceBase]
+  parent: [ BoxBase, ContentsExplosionResistanceBase, ContentsIgnitionPreventionBase]
   name: admin folder
   description: A special folder for more than just paper.
   categories: [ AdminTools ]
@@ -42,6 +42,7 @@
         amount: 6
       - id: FoodLollipop
   - type: ExplosionResistance
+    worn: false
     damageCoefficient: 0
 
 - type: entity
