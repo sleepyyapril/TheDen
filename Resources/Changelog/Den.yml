@@ -16235,3 +16235,12 @@ Entries:
   id: 1586
   time: '2026-01-11T23:43:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2291
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added new slime emote icons!
+    - type: Fix
+      message: Geras can now bubble, pop, and squelch!
+  id: 1587
+  time: '2026-01-12T00:04:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2292
