@@ -640,6 +640,10 @@ namespace Content.Shared.Cuffs
             if (!Resolve(cuffsToRemove.Value, ref cuff))
                 return;
 
+            // Den edit, checks if target is being hardgrabbed and if they the cuffs can be broken out of during a hard grab.
+            if (TryComp<PullableComponent>(target, out var pullable) && pullable.GrabStage == GrabStage.Hard && !cuff.UncuffDuringHardGrab)
+                return;
+
             var attempt = new UncuffAttemptEvent(user, target);
             RaiseLocalEvent(user, ref attempt, true);
 
