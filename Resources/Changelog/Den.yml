@@ -16274,3 +16274,12 @@ Entries:
   id: 1591
   time: '2026-01-13T18:16:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2299
+- author: honeyed-lemons
+  changes:
+    - type: Add
+      message: New simple collar to the loadout which can be colored!
+    - type: Tweak
+      message: Resprited 99% of collars!
+  id: 1592
+  time: '2026-01-13T18:17:09.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2288
