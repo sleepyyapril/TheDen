@@ -4,8 +4,9 @@
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 # SPDX-FileCopyrightText: 2025 wheelwrightt
+# SPDX-FileCopyrightText: 2026 Alex C
 #
-# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 # head
 loadout-name-LoadoutHeadHatPatrolCap = patrol cap (colorable)
