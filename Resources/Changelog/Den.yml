@@ -16283,3 +16283,12 @@ Entries:
   id: 1592
   time: '2026-01-13T18:17:09.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2288
+- author: Dirius77
+  changes:
+    - type: Add
+      message: >-
+        Added an accessibility option for flash effects to be black instead of
+        white.
+  id: 1593
+  time: '2026-01-13T18:17:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2280
