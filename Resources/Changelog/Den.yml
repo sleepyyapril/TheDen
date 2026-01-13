@@ -16265,3 +16265,12 @@ Entries:
   id: 1590
   time: '2026-01-13T13:41:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2298
+- author: GreggTheFather
+  changes:
+    - type: Remove
+      message: >-
+        Removed Edge from the Map Vote Pool pending a look into why it's lagging
+        so horribly.
+  id: 1591
+  time: '2026-01-13T18:16:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2299
