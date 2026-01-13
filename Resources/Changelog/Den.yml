@@ -16292,3 +16292,12 @@ Entries:
   id: 1593
   time: '2026-01-13T18:17:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2280
+- author: Tomce795
+  changes:
+    - type: Tweak
+      message: >-
+        Proper handcuffs now prevent you from uncuffing if you are being Hard
+        Grabbed.
+  id: 1594
+  time: '2026-01-13T18:18:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2269
