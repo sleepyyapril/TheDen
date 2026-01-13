@@ -16258,3 +16258,10 @@ Entries:
   id: 1589
   time: '2026-01-12T19:32:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2294
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: Scrambling your DNA now requires a confirmation.
+  id: 1590
+  time: '2026-01-13T13:41:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2298
