@@ -14,9 +14,11 @@
 
 using System.Numerics;
 using Content.Client.Viewport;
+using Content.Shared._DEN.CCVars;
 using Robust.Client.Graphics;
 using Robust.Client.State;
 using Robust.Client.Player;
+using Robust.Shared.Configuration;
 using Robust.Shared.Enums;
 using Robust.Shared.Graphics;
 using Robust.Shared.IoC;
@@ -35,17 +37,21 @@ namespace Content.Client.Flash
         [Dependency] private readonly IStateManager _stateManager = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
+        [Dependency] private readonly IConfigurationManager _cfg = default!; // DEN: Black flash effect
 
         public override OverlaySpace Space => OverlaySpace.WorldSpace;
         private readonly ShaderInstance _shader;
         private double _startTime = -1;
         private double _lastsFor = 1;
+        private Color _fadeColor = Color.White; // DEN: Black Flash
         private Texture? _screenshotTexture;
 
         public FlashOverlay()
         {
             IoCManager.InjectDependencies(this);
             _shader = _prototypeManager.Index<ShaderPrototype>("FlashedEffect").Instance().Duplicate();
+            _cfg.OnValueChanged(DenCCVars.BlackFlashEffect, b => _fadeColor = b ? Color.Black : Color.White); // DEN: Black Flash
+            _fadeColor = _cfg.GetCVar(DenCCVars.BlackFlashEffect) ? Color.Black : Color.White; // DEN: Black Flash
         }
 
         public void ReceiveFlash(double duration)
@@ -78,6 +84,7 @@ namespace Content.Client.Flash
             var worldHandle = args.WorldHandle;
             worldHandle.UseShader(_shader);
             _shader.SetParameter("percentComplete", percentComplete);
+            _shader.SetParameter("fadeColor", _fadeColor); // DEN: Black Flash.
 
             if (_screenshotTexture != null)
             {
