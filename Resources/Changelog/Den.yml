@@ -16316,3 +16316,10 @@ Entries:
   id: 1595
   time: '2026-01-13T18:20:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2282
+- author: little-meow-meow
+  changes:
+    - type: Fix
+      message: Female displacements work with species-specific clothing sprites.
+  id: 1596
+  time: '2026-01-13T19:44:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2296
