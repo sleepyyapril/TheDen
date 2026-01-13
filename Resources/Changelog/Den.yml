@@ -16301,3 +16301,18 @@ Entries:
   id: 1594
   time: '2026-01-13T18:18:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2269
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Diner-inspired uniforms and hats (in teal, pink, and a kind of fast
+        food-inspired red-and-black color scheme) have been added. They can be
+        found in the ChefDrobe, or selected in loadouts by Chefs and Service
+        Workers. These pair nicely with the waist aprons, by the way.
+    - type: Add
+      message: >-
+        While I'm at it: you can also select roller skates in your loadouts,
+        under the "general items" tab!
+  id: 1595
+  time: '2026-01-13T18:20:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2282
