@@ -42,7 +42,7 @@
   id: BaseAction
   components:
   - type: Actions
-  
+
 - type: entity
   id: BaseSuicideAction
   abstract: true
@@ -205,6 +205,8 @@
   description:  Randomly changes your name and appearance.
   categories: [ HideSpawnMenu ]
   components:
+  - type: ConfirmableAction
+    popup: dna-scramble-action-popup
   - type: InstantAction
     charges: 1
     itemIconStyle: BigAction
