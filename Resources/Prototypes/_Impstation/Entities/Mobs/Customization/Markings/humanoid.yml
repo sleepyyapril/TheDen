@@ -1,0 +1,11 @@
+﻿# markings intended for multiple species go here
+
+- type: marking
+  id: HumanHairSpikyPonytailLong
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ Human, Dwarf, SlimePerson ]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/human_hair.rsi
+    state: spikyponytaillong
+
