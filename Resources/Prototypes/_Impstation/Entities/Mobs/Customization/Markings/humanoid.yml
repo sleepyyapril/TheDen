@@ -1562,7 +1562,7 @@
   markingCategory: Hair
   speciesRestriction: [ Human, Dwarf, SlimePerson ]
   sprites:
-  - sprite: _Impstation/Mobs/Customization/Humanoid/hair.rsi
+  - sprite: _Impstation/Mobs/Customization/human_hair.rsi
     state: spikyponytaillong
 
 - type: marking
