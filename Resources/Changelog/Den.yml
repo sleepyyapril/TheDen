@@ -16328,3 +16328,10 @@ Entries:
   id: 1597
   time: '2026-01-15T08:33:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2307
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: You can now LOOC when crit.
+  id: 1598
+  time: '2026-01-16T13:30:53.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2312
