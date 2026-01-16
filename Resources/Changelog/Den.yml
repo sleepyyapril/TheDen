@@ -16349,3 +16349,10 @@ Entries:
   id: 1600
   time: '2026-01-16T15:00:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2303
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: Touched up Braided Tail's west-facing sprite
+  id: 1601
+  time: '2026-01-16T17:56:55.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2306
