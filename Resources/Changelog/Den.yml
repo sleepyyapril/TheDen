@@ -16356,3 +16356,10 @@ Entries:
   id: 1601
   time: '2026-01-16T17:56:55.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2306
+- author: Fox
+  changes:
+    - type: Tweak
+      message: (DINGO) Various changes, see PR for details
+  id: 1602
+  time: '2026-01-16T23:43:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2311
