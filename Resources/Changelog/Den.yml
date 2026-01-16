@@ -16342,3 +16342,10 @@ Entries:
   id: 1599
   time: '2026-01-16T14:29:07.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2305
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: All species should now fit in the mantis's Sarcophagus.
+  id: 1600
+  time: '2026-01-16T15:00:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2303
