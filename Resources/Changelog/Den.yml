@@ -16363,3 +16363,12 @@ Entries:
   id: 1602
   time: '2026-01-16T23:43:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2311
+- author: heirdragonair
+  changes:
+    - type: Add
+      message: A new furry critter has been found living in the station vents
+    - type: Remove
+      message: ScugCats have been eradicated from the D-3N sectors ventilation system
+  id: 1603
+  time: '2026-01-17T10:50:00.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2313
