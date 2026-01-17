@@ -16372,3 +16372,10 @@ Entries:
   id: 1603
   time: '2026-01-17T10:50:00.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2313
+- author: Toby222
+  changes:
+    - type: Add
+      message: Janitors rejoice, lights will be randomly broken at round start again.
+  id: 1604
+  time: '2026-01-17T15:46:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2316
