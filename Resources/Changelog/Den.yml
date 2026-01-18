@@ -16420,3 +16420,21 @@ Entries:
   id: 1609
   time: '2026-01-18T10:17:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2302
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Non-job restricted loadouts will now go into the correct slots. Those
+        glasses that can be either a head item or eyes item? Always go in the
+        eyes. The roses that can fit on your head or mask slots? Always go on
+        the head. Those waist aprons that fit in either outerwear or the belt?
+        Always go on the belt.
+    - type: Tweak
+      message: >-
+        With that said, all generic "item loadouts" - that is, the non-slot
+        loadouts, like towels and whatnot, will always go in your bag now. You
+        will no longer be able to preview these when equipped. Sad, but this is
+        the cost of not being fucked over by "exclusive: true"
+  id: 1610
+  time: '2026-01-18T12:14:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2321
