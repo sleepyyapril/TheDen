@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 Dirius77
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using System.Linq;
 using Content.Shared._DEN.Holosign.Components;
 using Content.Shared._DEN.Holosign.Events;
