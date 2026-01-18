@@ -16413,3 +16413,10 @@ Entries:
   id: 1608
   time: '2026-01-18T10:14:20.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2314
+- author: Dirius77
+  changes:
+    - type: Fix
+      message: Made the psionics requirements for Mysta, Mantis, and Librarian real.
+  id: 1609
+  time: '2026-01-18T10:17:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2302
