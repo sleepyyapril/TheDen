@@ -16395,3 +16395,12 @@ Entries:
   id: 1606
   time: '2026-01-18T09:38:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2308
+- author: crekulon
+  changes:
+    - type: Add
+      message: >-
+        Added a new mental trait, Ethereal Presence! Makes you take a lot of
+        heat damage when Dispel is used on you.
+  id: 1607
+  time: '2026-01-18T09:39:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2310
