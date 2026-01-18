@@ -16386,3 +16386,12 @@ Entries:
   id: 1605
   time: '2026-01-17T16:06:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2315
+- author: Dirius77
+  changes:
+    - type: Add
+      message: >-
+        Added an NSFW holoprojector for all of you who have been wanting to host
+        'public' adult events.
+  id: 1606
+  time: '2026-01-18T09:38:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2308
