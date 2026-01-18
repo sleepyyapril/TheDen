@@ -16404,3 +16404,12 @@ Entries:
   id: 1607
   time: '2026-01-18T09:39:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2310
+- author: Sha-Seng
+  changes:
+    - type: Tweak
+      message: >-
+        The Fishing Cap will no longer delete other loadout "head" items (like
+        colorful glasses) when you spawn.
+  id: 1608
+  time: '2026-01-18T10:14:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2314
