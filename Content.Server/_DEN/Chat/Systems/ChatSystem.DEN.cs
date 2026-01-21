@@ -216,11 +216,9 @@ public sealed partial class ChatSystem
         if (language.SpeechOverride.Color is { } colorOverride)
             color = Color.InterpolateBetween(color, colorOverride, colorOverride.A);
 
-        var languageDisplay = language.IsVisibleLanguage
-            ? Loc.GetString("chat-manager-language-prefix", ("language", language.ChatName))
-            : "";
-
+        var languageDisplay = Loc.GetString("chat-manager-language-prefix", ("language", language.ChatName));
         var replacements = new List<(int StartIndex, int EndIndex, string Replacement)>();
+
         foreach (var key in keysWithinDialogue)
         {
             replacements.Add((key.StartIndex, key.EndIndex, $"[color={color.ToHexNoAlpha()}]{key.Result}[/color]"));
@@ -271,10 +269,7 @@ public sealed partial class ChatSystem
         if (language.SpeechOverride.Color is { } colorOverride)
             color = Color.InterpolateBetween(color, colorOverride, colorOverride.A);
 
-        var languageDisplay = language.IsVisibleLanguage
-            ? Loc.GetString("chat-manager-language-prefix", ("language", language.ChatName))
-            : "";
-
+        var languageDisplay = Loc.GetString("chat-manager-language-prefix", ("language", language.ChatName));
         var replacements = new List<(int StartIndex, int EndIndex, string Replacement)>();
 
         foreach (var key in keysWithinDialogue)
