@@ -16472,3 +16472,15 @@ Entries:
   id: 1613
   time: '2026-01-20T21:47:41.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2328
+- author: MajorMoth
+  changes:
+    - type: Add
+      message: Better grab an umbrella... added new admin ghost clothing slots.
+    - type: Tweak
+      message: >-
+        Admin clothing (belt+satchel) is now chameleon clothing. You will need
+        to take them off and put them on again for the chameleon visuals to
+        apply. 
+  id: 1614
+  time: '2026-01-21T22:45:11.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2324
