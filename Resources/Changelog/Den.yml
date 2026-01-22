@@ -16526,3 +16526,20 @@ Entries:
   id: 1618
   time: '2026-01-22T23:27:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2301
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: >-
+        Senior physicians now also get emergency paramedic access just like how
+        MD's do. 
+    - type: Tweak
+      message: The service worker job now gets emergency janitorial access.
+    - type: Tweak
+      message: >-
+        Senior researchers now get emergency roboticist access just like normal
+        scientists do.
+    - type: Tweak
+      message: Senior security officers now get emergency detective access.
+  id: 1619
+  time: '2026-01-22T23:28:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2318
