@@ -6,6 +6,7 @@ using System.Text;
 using Content.Shared._DEN.StringBounds;
 using Content.Shared.Chat;
 using Content.Shared.Language;
+using Content.Shared.Language.Systems;
 using Robust.Shared.Random;
 
 
@@ -216,11 +217,11 @@ public sealed partial class ChatSystem
         if (language.SpeechOverride.Color is { } colorOverride)
             color = Color.InterpolateBetween(color, colorOverride, colorOverride.A);
 
-        var languageDisplay = language.IsVisibleLanguage
+        var languageDisplay = language.ID !=  SharedLanguageSystem.FallbackLanguagePrototype
             ? Loc.GetString("chat-manager-language-prefix", ("language", language.ChatName))
-            : "";
-
+            : string.Empty;
         var replacements = new List<(int StartIndex, int EndIndex, string Replacement)>();
+
         foreach (var key in keysWithinDialogue)
         {
             replacements.Add((key.StartIndex, key.EndIndex, $"[color={color.ToHexNoAlpha()}]{key.Result}[/color]"));
@@ -271,10 +272,9 @@ public sealed partial class ChatSystem
         if (language.SpeechOverride.Color is { } colorOverride)
             color = Color.InterpolateBetween(color, colorOverride, colorOverride.A);
 
-        var languageDisplay = language.IsVisibleLanguage
+        var languageDisplay = language.ID !=  SharedLanguageSystem.FallbackLanguagePrototype
             ? Loc.GetString("chat-manager-language-prefix", ("language", language.ChatName))
-            : "";
-
+            : string.Empty;
         var replacements = new List<(int StartIndex, int EndIndex, string Replacement)>();
 
         foreach (var key in keysWithinDialogue)
