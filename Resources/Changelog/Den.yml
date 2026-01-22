@@ -16513,3 +16513,16 @@ Entries:
   id: 1617
   time: '2026-01-22T19:38:31.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2335
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: >-
+        The Home Run Bat and Twinned Manifold (mantis equivalent) are now 60 TC
+        instead of 80 to reflect their effectiveness
+    - type: Tweak
+      message: >-
+        Lethal mantis casters (traitor items) have had their TC costs adjusted
+        per gun and now recharge over 60 seconds
+  id: 1618
+  time: '2026-01-22T23:27:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2301
