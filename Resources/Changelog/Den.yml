@@ -16491,3 +16491,16 @@ Entries:
   id: 1615
   time: '2026-01-22T01:18:37.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2331
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        You can now use the detailed messages with just a quote at the start and
+        it will change the format to make it separate from the name.
+    - type: Add
+      message: >-
+        You can now remove the space between name and message during a detailed
+        say by putting an apostrophe or comma after the exclamation mark.
+  id: 1616
+  time: '2026-01-22T03:21:47.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2332
