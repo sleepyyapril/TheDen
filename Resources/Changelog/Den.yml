@@ -16504,3 +16504,12 @@ Entries:
   id: 1616
   time: '2026-01-22T03:21:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2332
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Moths are no longer poisoned by mothic salad (and other moth-edible
+        foods that happen to have allicin/theobromine in them).
+  id: 1617
+  time: '2026-01-22T19:38:31.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2335
