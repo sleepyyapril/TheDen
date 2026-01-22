@@ -207,7 +207,8 @@ public sealed partial class ChatSystem
         string name,
         string message,
         List<StringBoundsResult> keysWithinDialogue,
-        LanguagePrototype? languageOverride = null
+        LanguagePrototype? languageOverride = null,
+        string space = " "
     )
     {
         var color = DefaultSpeakColor;
@@ -234,7 +235,8 @@ public sealed partial class ChatSystem
             ("color", color),
             ("entityName", name),
             ("message", message),
-            ("language", languageDisplay));
+            ("language", languageDisplay),
+            ("space", space));
     }
 
     public string WrapPublicMessageDepending(
@@ -243,13 +245,14 @@ public sealed partial class ChatSystem
         string message,
         List<StringBoundsResult> keysWithinDialogue,
         LanguagePrototype? language = null,
-        bool isDetailed = false
+        bool isDetailed = false,
+        string space = " "
     )
     {
         if (message.IndexOf("\"", StringComparison.Ordinal) == -1 || !isDetailed)
             return WrapPublicMessage(source, name, message, language);
 
-        return WrapPublicMessageDialogueOnly(source, name, message, keysWithinDialogue, language);
+        return WrapPublicMessageDialogueOnly(source, name, message, keysWithinDialogue, language, space);
     }
 
     public string WrapWhisperMessageDialogueOnly(
@@ -258,7 +261,8 @@ public sealed partial class ChatSystem
         string name,
         string message,
         List<StringBoundsResult> keysWithinDialogue,
-        LanguagePrototype? languageOverride = null
+        LanguagePrototype? languageOverride = null,
+        string space = " "
     )
     {
         var color = DefaultSpeakColor;
@@ -289,7 +293,8 @@ public sealed partial class ChatSystem
             ("color", color),
             ("entityName", name),
             ("message", message),
-            ("language", languageDisplay));
+            ("language", languageDisplay),
+            ("space", space));
     }
 
     public string WrapWhisperMessageDepending(
@@ -299,7 +304,8 @@ public sealed partial class ChatSystem
         string message,
         List<StringBoundsResult> keysWithinDialogue,
         LanguagePrototype? language = null,
-        bool isDetailed = false
+        bool isDetailed = false,
+        string space = " "
     )
     {
         var wrapId = "chat-manager-entity-whisper-wrap-message";
@@ -310,7 +316,7 @@ public sealed partial class ChatSystem
         if (message.IndexOf("\"", StringComparison.Ordinal) == -1 || !isDetailed)
             return WrapWhisperMessage(source, wrapId, entityName, message, language);
 
-        return WrapWhisperMessageDialogueOnly(source, isUnknown, entityName, message, keysWithinDialogue, language);
+        return WrapWhisperMessageDialogueOnly(source, isUnknown, entityName, message, keysWithinDialogue, language, space);
     }
 
     /// <summary>
