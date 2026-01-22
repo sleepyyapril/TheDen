@@ -16484,3 +16484,10 @@ Entries:
   id: 1614
   time: '2026-01-21T22:45:11.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2324
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Emotes in local will now display the language unless it's in basic.
+  id: 1615
+  time: '2026-01-22T01:18:37.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2331
