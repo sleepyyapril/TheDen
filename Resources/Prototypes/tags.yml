@@ -1828,6 +1828,9 @@
   id: WizardWand # that evil vvizard vvand
 
 - type: Tag
+  id: WireBrush
+
+- type: Tag
   id: WizardStaff
 
 - type: Tag
