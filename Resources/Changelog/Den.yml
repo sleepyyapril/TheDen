@@ -16543,3 +16543,12 @@ Entries:
   id: 1619
   time: '2026-01-22T23:28:45.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2318
+- author: Jakumba
+  changes:
+    - type: Add
+      message: Added WizDens wirebrush for the janitor!
+    - type: Tweak
+      message: Re-enabled rusted walls on round start.
+  id: 1620
+  time: '2026-01-23T02:31:20.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2334
