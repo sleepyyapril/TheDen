@@ -16573,3 +16573,13 @@ Entries:
   id: 1623
   time: '2026-01-24T02:01:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2309
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        More ways of opting into admin funnies have been added via the consent
+        menu. If you'd like to be a target of various admin things, from cute
+        gifts to spooky haunting, then check the new consent category!
+  id: 1624
+  time: '2026-01-24T05:12:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2339
