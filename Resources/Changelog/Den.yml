@@ -16559,3 +16559,10 @@ Entries:
   id: 1621
   time: '2026-01-23T22:57:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2297
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added birthdays! You can view them from the record consoles.
+  id: 1622
+  time: '2026-01-24T02:00:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2279
