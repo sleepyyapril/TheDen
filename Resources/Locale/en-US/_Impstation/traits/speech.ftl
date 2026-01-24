@@ -19,3 +19,6 @@ trait-description-ProperCapitalizationAccent =
 trait-name-FrenchAccentBasic = French accent (Basic)
 trait-description-FrenchAccentBasic =
     You speak with a French accent, but with a lot less word replacements.
+
+trait-name-ScrambledAccent = Scrambled Speech
+trait-description-ScrambledAccent = There was an accident with a tesla engine, now others have trouble understanding you.
