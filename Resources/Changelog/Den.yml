@@ -16592,3 +16592,16 @@ Entries:
   id: 1625
   time: '2026-01-24T15:26:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2342
+- author: portfiend
+  changes:
+    - type: Add
+      message: Fingerless arm-warmers can be found in the uniform printer and loadouts.
+    - type: Add
+      message: Mittens can be found in the WinterDrobe and loadouts.
+    - type: Add
+      message: Wrist cuffs can be found in loadouts.
+    - type: Add
+      message: And yes, you can now select colorless fingerless gloves in loadouts!
+  id: 1626
+  time: '2026-01-24T16:00:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2336
