@@ -70,3 +70,23 @@
       id: LoadoutClothingHandsCoderValidWarmers
     - type: loadout
       id: LoadoutClothingHandsBeeWarmers
+    - type: loadout
+      id: LoadoutHandsArmWarmersFingerless
+    - type: loadout
+      id: LoadoutHandsArmWarmersFingerlessCoder
+    - type: loadout
+      id: LoadoutHandsArmWarmersFingerlessValid
+    - type: loadout
+      id: LoadoutHandsArmWarmersFingerlessStriped
+    - type: loadout
+      id: LoadoutHandsArmWarmersFingerlessPurple
+    - type: loadout
+      id: LoadoutHandsGlovesMittens
+    - type: loadout
+      id: LoadoutHandsGlovesMittensColor
+    - type: loadout
+      id: LoadoutHandsWristCuffs
+    - type: loadout
+      id: LoadoutHandsWristCuffsSpiked
+    - type: loadout
+      id: LoadoutHandsGlovesFingerlessColorable
