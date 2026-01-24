@@ -16583,3 +16583,12 @@ Entries:
   id: 1624
   time: '2026-01-24T05:12:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2339
+- author: Tomce795
+  changes:
+    - type: Tweak
+      message: >-
+        Reduced the stamina damage of the baseball bat. You will no longer stam
+        crit people by swinging 3 times.
+  id: 1625
+  time: '2026-01-24T15:26:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2342
