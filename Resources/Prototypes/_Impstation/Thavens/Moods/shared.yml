@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 Shaman
+# SPDX-FileCopyrightText: 2026 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 # Shared moods will be selected at round start and shared amongst all thaven. These are rolled before individual laws.
 # Only one law needs to say it conflicts with another for the system to prevent them from being rolled together.
 
