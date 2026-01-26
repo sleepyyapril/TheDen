@@ -16641,3 +16641,12 @@ Entries:
   id: 1630
   time: '2026-01-26T09:23:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2326
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        A new shared mood is available for all thaven to have: Floor Time, a
+        mood focused on rest, relaxation, and possibly thaven cuddles.
+  id: 1631
+  time: '2026-01-26T10:23:18.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2352
