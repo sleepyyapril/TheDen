@@ -1,0 +1,2 @@
+thaven-mood-floor-time-name = Floor Time
+thaven-mood-floor-time-desc = Find a place for you and possibly your other partaking thaven to engage in floor time, together or otherwise. Rest is important for morale.
