@@ -16657,3 +16657,10 @@ Entries:
   id: 1632
   time: '2026-01-26T10:23:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2351
+- author: Dirius77
+  changes:
+    - type: Tweak
+      message: Furry reptilian tail on vulp and human
+  id: 1633
+  time: '2026-01-28T00:19:04.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2349
