@@ -16753,3 +16753,16 @@ Entries:
   id: 1640
   time: '2026-01-30T10:31:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2356
+- author: Cutinup99
+  changes:
+    - type: Add
+      message: >-
+        Hardened Claws trait! an extra slash damage trait to make one available
+        for all brute types
+    - type: Tweak
+      message: >-
+        Striking Calluses no longer require Martial Artist, and have been
+        dropped in cost by 1 point
+  id: 1641
+  time: '2026-01-30T10:33:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2358
