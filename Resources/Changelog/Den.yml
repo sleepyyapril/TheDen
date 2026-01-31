@@ -16777,3 +16777,20 @@ Entries:
   id: 1642
   time: '2026-01-30T20:50:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2361
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        [GLACIER] Glacier's chapel was moved separate from the epistemics
+        window.
+    - type: Tweak
+      message: '[GLACIER] Sophia and the Oracle are now above robotics.'
+    - type: Tweak
+      message: '[GLACIER] The main eastern walkway is now cold again. Wear a coat!'
+    - type: Tweak
+      message: '[GLACIER] Added a couple extra lights.'
+    - type: Tweak
+      message: '[GLACIER] The chaplain''s room has a lot less rock involved.'
+  id: 1643
+  time: '2026-01-31T11:45:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2363
