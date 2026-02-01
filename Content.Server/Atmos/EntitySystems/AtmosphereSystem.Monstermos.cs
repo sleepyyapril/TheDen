@@ -653,9 +653,9 @@ namespace Content.Server.Atmos.EntitySystems
 
                 otherTile.MonstermosInfo[i.ToOppositeDir()] = 0;
                 Merge(otherTile.Air, tile.Air.Remove(amount));
-                InvalidateVisuals(tile.GridIndex, tile.GridIndices, visuals);
-                InvalidateVisuals(otherTile.GridIndex, otherTile.GridIndices, visuals);
-                ConsiderPressureDifference(gridAtmosphere, tile, direction, amount);
+                InvalidateVisuals(ent, tile);
+                InvalidateVisuals(ent, otherTile);
+                ConsiderPressureDifference(ent, tile);
             }
         }
 
