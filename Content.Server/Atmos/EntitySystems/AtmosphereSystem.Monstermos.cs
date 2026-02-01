@@ -559,8 +559,8 @@ namespace Content.Server.Atmos.EntitySystems
                     otherTile.Air.Temperature = Atmospherics.TCMB;
                 }
 
-                InvalidateVisuals(otherTile.GridIndex, otherTile.GridIndices, visuals);
-                HandleDecompressionFloorRip(mapGrid, otherTile, otherTile.MonstermosInfo.CurrentTransferAmount);
+                InvalidateVisuals(ent, otherTile);
+                HandleDecompressionFloorRip((owner, mapGrid), otherTile, otherTile.MonstermosInfo.CurrentTransferAmount);
             }
 
             if (GridImpulse && tileCount > 0)
@@ -616,8 +616,8 @@ namespace Content.Server.Atmos.EntitySystems
 
             UpdateAdjacentTiles(ent, tile);
             UpdateAdjacentTiles(ent, other);
-            InvalidateVisuals(tile.GridIndex, tile.GridIndices, ent);
-            InvalidateVisuals(other.GridIndex, other.GridIndices, ent);
+            InvalidateVisuals(ent, tile);
+            InvalidateVisuals(ent, other);
         }
 
         private void FinalizeEq(
