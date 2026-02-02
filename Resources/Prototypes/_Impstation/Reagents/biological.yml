@@ -12,6 +12,7 @@
   color: "#ff624a" # a slightly warmer color than the ichor extracted from dragon flesh
   recognizable: true
   physicalDesc: reagent-physical-desc-shimmering-blood
+  isNourishing: true
   metabolisms:
     Food:
       effects:
