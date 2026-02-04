@@ -16878,3 +16878,12 @@ Entries:
   id: 1653
   time: '2026-02-04T08:30:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2360
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: >-
+        Weakened Foamed Aluminium Metal (AI foam) to break after taking 10
+        damage rather than 50, and removed its flat damage reduction.
+  id: 1654
+  time: '2026-02-04T09:25:22.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2364
