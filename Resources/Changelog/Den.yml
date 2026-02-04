@@ -16871,3 +16871,10 @@ Entries:
   id: 1652
   time: '2026-02-04T08:29:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2370
+- author: mart33no
+  changes:
+    - type: Tweak
+      message: The long snake tail no longer overlaps with the feet
+  id: 1653
+  time: '2026-02-04T08:30:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2360
