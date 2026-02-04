@@ -16832,3 +16832,12 @@ Entries:
   id: 1647
   time: '2026-02-04T06:30:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2378
+- author: Cutinup99
+  changes:
+    - type: Tweak
+      message: >-
+        Striking Calluses, Sharp Teeth, and Hardened Claws have had description
+        updates to make things clearer
+  id: 1648
+  time: '2026-02-04T06:32:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2374
