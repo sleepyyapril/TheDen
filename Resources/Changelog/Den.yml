@@ -16841,3 +16841,10 @@ Entries:
   id: 1648
   time: '2026-02-04T06:32:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2374
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Mice now have typing indicators!
+  id: 1649
+  time: '2026-02-04T06:33:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2376
