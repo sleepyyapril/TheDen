@@ -16825,3 +16825,10 @@ Entries:
   id: 1646
   time: '2026-02-04T06:29:21.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2377
+- author: Deathninja5551
+  changes:
+    - type: Tweak
+      message: Changed Guidebook Entries for Vox and Plasmaman.
+  id: 1647
+  time: '2026-02-04T06:30:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2378
