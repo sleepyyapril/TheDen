@@ -16855,3 +16855,12 @@ Entries:
   id: 1650
   time: '2026-02-04T07:20:51.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2375
+- author: entings
+  changes:
+    - type: Add
+      message: >-
+        You can now choose to have a synthetic voicebox, for when you want your
+        speech to fall apart under duress.
+  id: 1651
+  time: '2026-02-04T08:29:03.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2371
