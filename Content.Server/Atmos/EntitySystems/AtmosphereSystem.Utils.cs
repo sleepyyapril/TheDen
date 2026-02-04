@@ -114,11 +114,11 @@ public partial class AtmosphereSystem
     /// <summary>
     ///     Pries a tile in a grid.
     /// </summary>
-    /// <param name="mapGrid">The grid in question.</param>
+    /// <param name="ent">The grid in question.</param>
     /// <param name="tile">The indices of the tile.</param>
-    private void PryTile(MapGridComponent mapGrid, Vector2i tile)
+    private void PryTile(Entity<MapGridComponent> ent, Vector2i tile)
     {
-        if (!mapGrid.TryGetTileRef(tile, out var tileRef))
+        if (!_mapSystem.TryGetTileRef(ent, ent.Comp, tile, out var tileRef))
             return;
 
         _tile.PryTile(tileRef);
