@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 entings
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - files:
   - arachnid_cough.ogg
   license: "CC-BY-NC-4.0"
