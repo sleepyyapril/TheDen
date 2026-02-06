@@ -16911,3 +16911,13 @@ Entries:
   id: 1656
   time: '2026-02-05T06:48:12.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2262
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Private Holoprojectors are now available. These should be used for
+        things that are not NSFW and yet might need some form of CW or to
+        otherwise designate a room as not for everyone.
+  id: 1657
+  time: '2026-02-06T08:51:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2381
