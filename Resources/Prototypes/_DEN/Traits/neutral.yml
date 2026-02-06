@@ -64,3 +64,28 @@
   - !type:TraitAddComponent
     components:
     - type: VoiceGenderToggle
+
+- type: trait
+  id: SharpInflection
+  category: TraitsSpeechAccents
+  points: 0
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: TraitsAccents
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: SharpInflection
+
+- type: trait
+  id: OppositeAccent
+  category: TraitsSpeechAccents
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: TraitsAccents
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: ReplacementAccent
+          replacementChance: 0.15
+          accent: opposite

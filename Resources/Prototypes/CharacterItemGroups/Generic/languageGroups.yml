@@ -108,6 +108,8 @@
     - type: trait
       id: GermanAccent
     # End DEN
+    - type: trait
+      id: OppositeAccent # DEN: Funny.
 #    - type: trait
 #      id: Accentless
 #    - type: trait
