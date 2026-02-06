@@ -16921,3 +16921,12 @@ Entries:
   id: 1657
   time: '2026-02-06T08:51:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2381
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        Narcolepsy is now every 15 minutes at minimum and not every 5 minutes at
+        minimum, maximum raised to every 20 minutes.
+  id: 1658
+  time: '2026-02-06T12:20:16.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2382
