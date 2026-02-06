@@ -16930,3 +16930,22 @@ Entries:
   id: 1658
   time: '2026-02-06T12:20:16.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2382
+- author: LilNutters
+  changes:
+    - type: Tweak
+      message: >-
+        Increased the amount of space cleaner in cleanades and cleanade rounds
+        (hydra).
+    - type: Tweak
+      message: Increased the foam radius from cleanade rounds.
+    - type: Tweak
+      message: >-
+        Slightly reduced the maximum distance a cleanade round travels before it
+        detonates.
+    - type: Tweak
+      message: The cleanade round no longer explodes.
+    - type: Tweak
+      message: The cleanade round no longer does damage on impact.
+  id: 1659
+  time: '2026-02-06T15:31:07.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2383
