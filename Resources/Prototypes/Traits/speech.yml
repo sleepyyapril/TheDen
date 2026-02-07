@@ -282,7 +282,7 @@
 - type: trait
   id: VoxSounds
   category: TraitsSpeechSounds
-  points: -2
+  points: -1
   requirements:
     - !type:CharacterItemGroupRequirement
       group: TraitsRaceSounds
