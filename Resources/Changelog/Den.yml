@@ -17015,3 +17015,14 @@ Entries:
   id: 1667
   time: '2026-02-08T10:13:50.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2393
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Replace emotes are fixed again.
+    - type: Fix
+      message: >-
+        Potential issue of having one replace emote but no extra emotes causing
+        you to not have your replace is also fixed.
+  id: 1668
+  time: '2026-02-08T11:38:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2394
