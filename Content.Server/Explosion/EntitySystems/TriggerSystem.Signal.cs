@@ -22,15 +22,21 @@ namespace Content.Server.Explosion.EntitySystems
     {
         [Dependency] private readonly DeviceLinkSystem _signalSystem = default!;
         private void InitializeSignal()
-        { 
+        {
             SubscribeLocalEvent<TriggerOnSignalComponent, ComponentInit>(TriggerOnSignalInit);
             SubscribeLocalEvent<TriggerOnSignalComponent, SignalReceivedEvent>(OnSignalReceived);
 
             SubscribeLocalEvent<SignalOnTriggerComponent, ComponentInit>(SignalOnTriggerInit);
             SubscribeLocalEvent<SignalOnTriggerComponent, TriggerEvent>(HandleSignalOnTrigger);
 
-            SubscribeLocalEvent<TimerStartOnSignalComponent,SignalReceivedEvent>(OnTimerSignalReceived);
-            SubscribeLocalEvent<TimerStartOnSignalComponent,ComponentInit>(OnTimerSignalInit);
+            SubscribeLocalEvent<TimerStartOnSignalComponent, ComponentInit>(OnTimerSignalInit);
+            SubscribeLocalEvent<TimerStartOnSignalComponent, SignalReceivedEvent>(OnTimerSignalReceived);
+        }
+
+        // DENWIZ - rough import of wizden SignalOnTrigger
+        private void TriggerOnSignalInit(EntityUid uid, TriggerOnSignalComponent component, ComponentInit args)
+        {
+            _signalSystem.EnsureSourcePorts(uid, component.Port);
         }
 
         private void OnSignalReceived(EntityUid uid, TriggerOnSignalComponent component, ref SignalReceivedEvent args)
@@ -40,7 +46,7 @@ namespace Content.Server.Explosion.EntitySystems
 
             Trigger(uid, args.Trigger);
         }
-        
+
         // DENWIZ - rough import of wizden SignalOnTrigger
         private void SignalOnTriggerInit(EntityUid uid, SignalOnTriggerComponent component, ComponentInit args)
         {
