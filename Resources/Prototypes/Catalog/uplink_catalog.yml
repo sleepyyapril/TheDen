@@ -1550,9 +1550,9 @@
   productEntity: StorageImplanter
   discountCategory: rareDiscounts
   discountDownTo:
-    Telecrystal: 20
+    Telecrystal: 10
   cost:
-    Telecrystal: 40
+    Telecrystal: 20
   categories:
     - UplinkImplants
   conditions:
