@@ -17006,3 +17006,12 @@ Entries:
   id: 1666
   time: '2026-02-04T08:29:58.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2373
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: The minibomb no longer instantly explodes with a remote signaller.
+    - type: Remove
+      message: The syndicate bomb was removed from the syndicate agent store.
+  id: 1667
+  time: '2026-02-08T10:13:50.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2393
