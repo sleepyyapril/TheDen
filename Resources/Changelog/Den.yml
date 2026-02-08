@@ -16986,3 +16986,12 @@ Entries:
   id: 1664
   time: '2026-02-08T05:22:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2390
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Storage implanter cost has been halved.
+    - type: Tweak
+      message: Storage implanter can no longer store high value items or storage items.
+  id: 1665
+  time: '2026-02-08T06:40:25.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2392
