@@ -1,4 +1,4 @@
-namespace Content.Shared.FloofStation.Traits.Events.Sentient;
+namespace Content.Shared._DEN.Sentient;
 
 
 /// <summary>

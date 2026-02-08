@@ -23,7 +23,7 @@ using Content.Server.Ghost.Roles.Components;
 using Content.Server.Language;
 using Content.Server.Speech.Components;
 using Content.Shared.EntityEffects;
-using Content.Shared.FloofStation.Traits.Events.Sentient;
+using Content.Shared._DEN.Sentient;
 using Content.Shared.Language;
 using Content.Shared.Language.Systems;
 using Content.Shared.Mind.Components;
