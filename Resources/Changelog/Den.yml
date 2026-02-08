@@ -16979,3 +16979,10 @@ Entries:
   id: 1663
   time: '2026-02-08T05:12:34.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2386
+- author: crumchy
+  changes:
+    - type: Add
+      message: Added two ear markings and one horn marking for Unathi.
+  id: 1664
+  time: '2026-02-08T05:22:34.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2390
