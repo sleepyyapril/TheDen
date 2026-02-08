@@ -36,7 +36,7 @@ namespace Content.Server.Explosion.EntitySystems
         // DENWIZ - rough import of wizden SignalOnTrigger
         private void TriggerOnSignalInit(EntityUid uid, TriggerOnSignalComponent component, ComponentInit args)
         {
-            _signalSystem.EnsureSourcePorts(uid, component.Port);
+            _signalSystem.EnsureSinkPorts(uid, component.Port);
         }
 
         private void OnSignalReceived(EntityUid uid, TriggerOnSignalComponent component, ref SignalReceivedEvent args)
