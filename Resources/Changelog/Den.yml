@@ -16995,3 +16995,14 @@ Entries:
   id: 1665
   time: '2026-02-08T06:40:25.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2392
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Intoxicating blood is, actually, very good for you vampires.
+    - type: Tweak
+      message: >-
+        Shimmering blood is slightly better for vampires than normal blood. It
+        is also, as with intoxicating, very nourishing. Who knew?
+  id: 1666
+  time: '2026-02-04T08:29:58.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2373
