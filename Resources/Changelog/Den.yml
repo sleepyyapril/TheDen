@@ -17062,3 +17062,10 @@ Entries:
   id: 1672
   time: '2026-02-10T06:34:54.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2401
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: Added a loop scarf and draping mantle.
+  id: 1673
+  time: '2026-02-10T06:38:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2397
