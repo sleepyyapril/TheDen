@@ -17044,3 +17044,12 @@ Entries:
   id: 1670
   time: '2026-02-09T02:35:53.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2398
+- author: Dirius77
+  changes:
+    - type: Fix
+      message: >-
+        Epi started printing their racing stripes on their magboots and now the
+        Syndicate are only happy with the CE's pair.
+  id: 1671
+  time: '2026-02-10T01:33:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2402
