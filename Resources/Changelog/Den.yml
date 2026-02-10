@@ -17053,3 +17053,12 @@ Entries:
   id: 1671
   time: '2026-02-10T01:33:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2402
+- author: entings
+  changes:
+    - type: Tweak
+      message: >-
+        Those with animal organs will now only feel sick after consuming that
+        when they're actually getting sick.
+  id: 1672
+  time: '2026-02-10T06:34:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2401
