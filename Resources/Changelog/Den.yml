@@ -17076,3 +17076,10 @@ Entries:
   id: 1674
   time: '2026-02-10T06:38:39.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2403
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: Doubled healing of most cryo chems.
+  id: 1675
+  time: '2026-02-10T07:05:57.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2404
