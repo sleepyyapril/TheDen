@@ -17069,3 +17069,10 @@ Entries:
   id: 1673
   time: '2026-02-10T06:38:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2397
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: Reduced Smuggler Satchel TC cost from 30 to 5.
+  id: 1674
+  time: '2026-02-10T06:38:39.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2403
