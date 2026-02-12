@@ -5,8 +5,9 @@
 # SPDX-FileCopyrightText: 2025 maelines
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 little-meow-meow
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 # this file is subject to getting its shit moved to other files at a later date#
 
