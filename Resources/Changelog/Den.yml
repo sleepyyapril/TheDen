@@ -17108,3 +17108,12 @@ Entries:
   id: 1678
   time: '2026-02-12T07:43:33.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2410
+- author: LilNutters
+  changes:
+    - type: Tweak
+      message: The recycler and material reclaimer now recycle more items.
+    - type: Tweak
+      message: The recycler and material reclaimer can no longer be emagged.
+  id: 1679
+  time: '2026-02-12T07:55:14.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2405
