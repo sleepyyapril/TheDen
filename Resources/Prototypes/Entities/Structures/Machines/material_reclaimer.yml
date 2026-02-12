@@ -81,16 +81,24 @@
     whitelist:
       components:
       - PhysicalComposition
+      - MobState
       - SpaceGarbage
+      - MachinePart
+      - Organ
+      - FloorTile
       tags:
       - Trash
       - Recyclable
+      - PowerCell
+      - Book
+      - PillCanister
     blacklist:
       components:
       - Material
       - Pda
       - IdCard
       - Brain
+      - BodyPart
       tags:
       - HighRiskItem
     soundCooldown: 0
@@ -120,3 +128,6 @@
   - type: MaterialReclaimerMagnetPickup # Delta V - Summary: Adds magnet pull from Frontier
     magnetEnabled: True
     range: 0.30 # Delta V - End Magnet Pull
+  - type: Tag
+    tags:
+    - EmagImmune
