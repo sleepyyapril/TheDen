@@ -17101,3 +17101,10 @@ Entries:
   id: 1677
   time: '2026-02-11T12:10:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2409
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: The swept tail is waggable with the unshaded markings now.
+  id: 1678
+  time: '2026-02-12T07:43:33.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2410
