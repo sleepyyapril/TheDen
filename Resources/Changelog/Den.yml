@@ -17117,3 +17117,10 @@ Entries:
   id: 1679
   time: '2026-02-12T07:55:14.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2405
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Subtle will no longer send messages to radio.
+  id: 1680
+  time: '2026-02-13T06:00:56.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2414
