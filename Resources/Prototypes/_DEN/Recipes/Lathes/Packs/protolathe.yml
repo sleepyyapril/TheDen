@@ -4,6 +4,8 @@
 # SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 creku
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 Tanix
+# SPDX-FileCopyrightText: 2026 crekulon
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -78,6 +80,7 @@
   - ClothingShoesBootsSpeed
   - ClothingShoesBootsMagAdv
   - ClothingNeckMantleMag
+  - ClothingNeckMantleMoon # DEN
   - NodeScanner
   - HolofanProjector
   - BluespaceBeaker
@@ -128,6 +131,7 @@
   - BluespaceManipulatorStockPart
   - BluespaceCapacitorStockPart
   - BluespacePlushiePatch
+  - ClothingMaskBreathEatThrough #DEN - Vox Mask
 
 - type: latheRecipePack
   id: ProtolatheDynamicEmagAwfulDen

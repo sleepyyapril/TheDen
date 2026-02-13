@@ -1,7 +1,10 @@
-# SPDX-FileCopyrightText: 2025 BloodfiendishOperator <141253729+Diggy0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Aikakakah
+# SPDX-FileCopyrightText: 2025 BloodfiendishOperator
+# SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 ivorytemple
 #
-# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 marking-HumanTattooArmImheartmomL = "I Love Mom" Tattoo (Left Arm)
 marking-HumanTattooArmImheartmomL-tattoo_arm_imheartmom_l = Tattoo
@@ -9,12 +12,16 @@ marking-HumanTattooArmImheartmomR = "I Love Mom" Tattoo (Right Arm)
 marking-HumanTattooArmImheartmomR-tattoo_arm_imheartmom_r = Tattoo
 marking-HumanTattooChurchdomes = Church Dome Tattoo
 marking-HumanTattooChurchdomes-tattoo_churchdomes = Tattoo
+marking-HumanTattooChurchdomesFemale = Church Dome Tattoo
+marking-HumanTattooChurchdomesFemale-tattoo_churchdomes_female = Tattoo
 marking-HumanTattooElysiumPatriotism = Elysium Tattoo
 marking-HumanTattooElysiumPatriotism-tattoo_elysium_patriotism = Tattoo
 marking-HumanTattooFullskelet = Full Skeleton Tattoo
 marking-HumanTattooFullskelet-tattoo_fullskelet = Tattoo
 marking-HumanTattooKarabel = Karabel Tattoo
 marking-HumanTattooKarabel-tattoo_karabel = Tattoo
+marking-HumanTattooKarabelFemale = Karabel Tattoo
+marking-HumanTattooKarabelFemale-tattoo_karabel_female = Tattoo
 marking-HumanTattooKrenelMercenary = Mercenary's Teeth Tattoo
 marking-HumanTattooKrenelMercenary-tattoo_KrenelMercenary = Tattoo
 marking-HumanTattooLineArmL = Line Tattoo (Left Arm)
@@ -23,8 +30,12 @@ marking-HumanTattooLineArmR = Line Tattoo (Right Arm)
 marking-HumanTattooLineArmR-tattoo_line_arm_r = Tattoo
 marking-HumanTattooRose = Rose Tattoo
 marking-HumanTattooRose-tattoo_Rose = Tattoo
+marking-HumanTattooRoseFemale = Rose Tattoo
+marking-HumanTattooRoseFemale-tattoo_Rose_female = Tattoo
 marking-HumanTattooSerpentTemptation = Serpent of Temptation Tattoo
 marking-HumanTattooSerpentTemptation-tattoo_serpenttemptation = Tattoo
+marking-HumanTattooSerpentTemptationFemale = Serpent of Temptation Tattoo
+marking-HumanTattooSerpentTemptationFemale-tattoo_serpenttemptation_female = Tattoo
 marking-HumanTattooSkull = Skull Tattoo
 marking-HumanTattooSkull-tattoo_skull = Tattoo
 marking-HumanTattooSkeletarmL = Skeleton Arm Tattoo (Left)
@@ -51,3 +62,56 @@ marking-HumanTattooArmlazaL = Laza Tattoo (Left Arm)
 marking-HumanTattooArmlazaL-tattooarm-laza_l = Tattoo
 marking-HumanTattooArmlazaR = Laza Tattoo (Right Arm)
 marking-HumanTattooArmlazaR-tattooarm-laza_r = Tattoo
+
+marking-HumanTattooChurchdomesU = Church Dome Tattoo (Glowing)
+marking-HumanTattooChurchdomesU-tattoo_churchdomes = Tattoo
+marking-HumanTattooChurchdomesFemaleU = Church Dome Tattoo (Glowing)
+marking-HumanTattooChurchdomesFemaleU-tattoo_churchdomes_female = Tattoo
+marking-HumanTattooElysiumPatriotismU = Elysium Tattoo (Glowing)
+marking-HumanTattooElysiumPatriotismU-tattoo_elysium_patriotism = Tattoo
+marking-HumanTattooFullskeletU = Full Skeleton Tattoo (Glowing)
+marking-HumanTattooFullskeletU-tattoo_fullskelet = Tattoo
+marking-HumanTattooKarabelU = Karabel Tattoo (Glowing)
+marking-HumanTattooKarabelU-tattoo_karabel = Tattoo
+marking-HumanTattooKarabelFemaleU = Karabel Tattoo (Glowing)
+marking-HumanTattooKarabelFemaleU-tattoo_karabel_female = Tattoo
+marking-HumanTattooKrenelMercenaryU = Mercenary's Teeth Tattoo (Glowing)
+marking-HumanTattooKrenelMercenaryU-tattoo_KrenelMercenary = Tattoo
+marking-HumanTattooLineArmLU = Line Tattoo (Left Arm, Glowing)
+marking-HumanTattooLineArmLU-tattoo_line_arm_l = Tattoo
+marking-HumanTattooLineArmRU = Line Tattoo (Right Arm, Glowing)
+marking-HumanTattooLineArmRU-tattoo_line_arm_r = Tattoo
+marking-HumanTattooRoseU = Rose Tattoo (Glowing)
+marking-HumanTattooRoseU-tattoo_Rose = Tattoo
+marking-HumanTattooRoseFemaleU = Rose Tattoo (Glowing)
+marking-HumanTattooRoseFemaleU-tattoo_Rose_female = Tattoo
+marking-HumanTattooSerpentTemptationU = Serpent of Temptation Tattoo (Glowing)
+marking-HumanTattooSerpentTemptationU-tattoo_serpenttemptation = Tattoo
+marking-HumanTattooSerpentTemptationFemaleU = Serpent of Temptation Tattoo (Glowing)
+marking-HumanTattooSerpentTemptationFemaleU-tattoo_serpenttemptation_female = Tattoo
+marking-HumanTattooSkullU = Skull Tattoo (Glowing)
+marking-HumanTattooSkullU-tattoo_skull = Tattoo
+marking-HumanTattooSkeletarmLU = Skeleton Arm Tattoo (Left, Glowing)
+marking-HumanTattooSkeletarmLU-tattoo_skelet_arm_l = Tattoo
+marking-HumanTattooSkeletarmRU = Skeleton Arm Tattoo (Right, Glowing)
+marking-HumanTattooSkeletarmRU-tattoo_skelet_arm_r = Tattoo
+marking-HumanTattooSkeletbodyU = Skeleton Body Tattoo (Glowing)
+marking-HumanTattooSkeletbodyU-tattoo_skelet_body = Tattoo
+marking-HumanTattooSkeletfootLU = Skeleton Foot Tattoo (Left, Glowing)
+marking-HumanTattooSkeletfootLU-tattoo_skelet_foot_l = Tattoo
+marking-HumanTattooSkeletfootRU = Skeleton Foot Tattoo (Right, Glowing)
+marking-HumanTattooSkeletfootRU-tattoo_skelet_foot_r = Tattoo
+marking-HumanTattooSkeletlegLU = Skeleton Leg Tattoo (Left, Glowing)
+marking-HumanTattooSkeletlegLU-tattoo_skelet_leg_l = Tattoo
+marking-HumanTattooSkeletlegRU = Skeleton Leg Tattoo (Right, Glowing)
+marking-HumanTattooSkeletlegRU-tattoo_skelet_leg_r = Tattoo
+marking-HumanTattooSkullFaceU = Skull Face Tattoo (Glowing)
+marking-HumanTattooSkullFaceU-tattoo_skull_face = Tattoo
+marking-HumanTattooSymbolElysiumU = Elysium Symbol Tattoo (Glowing)
+marking-HumanTattooSymbolElysiumU-tattoo_symbol_elysium = Tattoo
+marking-HumanTattooNarsiU = Nar'sie Tattoo (Glowing)
+marking-HumanTattooNarsiU-tattoo_narsi = Tattoo
+marking-HumanTattooArmlazaLU = Laza Tattoo (Left Arm, Glowing)
+marking-HumanTattooArmlazaLU-tattooarm-laza_l = Tattoo
+marking-HumanTattooArmlazaRU = Laza Tattoo (Right Arm, Glowing)
+marking-HumanTattooArmlazaRU-tattooarm-laza_r = Tattoo

@@ -31,6 +31,7 @@
 # SPDX-FileCopyrightText: 2025 Skubman
 # SPDX-FileCopyrightText: 2025 Spatison
 # SPDX-FileCopyrightText: 2025 eightballll
+# SPDX-FileCopyrightText: 2026 MajorMoth
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
@@ -42,7 +43,7 @@
   id: BaseAction
   components:
   - type: Actions
-  
+
 - type: entity
   id: BaseSuicideAction
   abstract: true
@@ -90,7 +91,7 @@
 - type: entity
   id: ActionOpenStorageImplant
   name: Open Storage Implant
-  description: Opens the storage implant embedded under your skin
+  description: Opens or closes the storage implant embedded under your skin; note that it cannot store high value or storage based items. # DeltaV
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -205,6 +206,8 @@
   description:  Randomly changes your name and appearance.
   categories: [ HideSpawnMenu ]
   components:
+  - type: ConfirmableAction
+    popup: dna-scramble-action-popup
   - type: InstantAction
     charges: 1
     itemIconStyle: BigAction

@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Blitz
 # SPDX-FileCopyrightText: 2025 ElusiveCoin
+# SPDX-FileCopyrightText: 2025 MajorMoth
 # SPDX-FileCopyrightText: 2025 Rosycup
 # SPDX-FileCopyrightText: 2025 Shaman
 # SPDX-FileCopyrightText: 2025 Tabitha
@@ -9,6 +10,7 @@
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sheepie
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 Jadrek
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
@@ -68,8 +70,16 @@ trait-description-SharpTeeth =
     You were born with or have had your teeth modified to be sharper.
     These could come from gene modifications, a genetic legacy,
     or even custom made implants designed to turn teeth into tiny knives.
-    Your unarmed melee attacks deal Piercing damage instead of the standard damage type for your species.
-    This has no effect on damage dealt with any form of armed melee.
+    Your unarmed melee attacks deal piercing instead of the standard damage type for your species.
+    Additionally, it increases your unarmed damage by 2 piercing at base. This does not confer any benefit to armed melee.
+
+trait-name-HardenedClaws = Hardened Claws
+trait-description-HardenedClaws =
+    Your fingertips have been replaced with sharp claws.
+    These could come from gene modifications, vatgrown implants,
+    or even hard plastic retractable claws incorpoated into a prosthetic limb.
+    Your unarmed melee attacks deal slash instead of the standard damage type for your species.
+    Additionally, it increases your unarmed damage by 2 slash at base. This does not confer any benefit to armed melee.
 
 trait-name-HandsFreePulling = Hands Free Pulling
 trait-description-HandsFreePulling =
@@ -124,6 +134,12 @@ trait-description-MusicMachine =
 trait-name-IPCSinger = Singer (Synth)
 trait-description-IPCSinger =
     Your electronic voice can be repurposed to sing simple melodies. Gives you a built in Synth Lead singing option.
+
+trait-name-DispelVulnerability = Ethereal Presence
+trait-description-DispelVulnerability =
+    Some aspect of your presence is intrinsically and perilously tied to the noosphere.
+    You suffer [color=red]extreme heat damage[/color] from being the subject of a [color=purple]Dispel[/color] cast.
+
 
 trait-name-FireResistance = Fire Resistance
 trait-description-FireResistance =

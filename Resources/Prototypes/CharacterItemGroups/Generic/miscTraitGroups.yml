@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 DESKTOP-0V0K4HQ\Rosy
 # SPDX-FileCopyrightText: 2025 RosySaturniidae
+# SPDX-FileCopyrightText: 2025 Selva
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 #
@@ -7,7 +8,7 @@
 
 - type: characterItemGroup
   id: TraitsRaceSounds
-  maxItems: 1
+  maxItems: 3
   items:
     - type: trait
       id: VulpkaninSounds
@@ -36,7 +37,14 @@
     - type: trait
       id: MothSounds
     - type: trait
+      id: ArachneSounds
+    - type: trait
       id: VoxSounds
+
+- type: characterItemGroup
+  id: TraitsReplaceRaceSounds
+  maxItems: 1
+  items:
     - type: trait
       id: VulpkaninSoundsReplace
     - type: trait
@@ -63,6 +71,8 @@
       id: KitsuneSoundsReplace
     - type: trait
       id: MothSoundsReplace
+    - type: trait
+      id: ArachneSoundsReplace
     - type: trait
       id: VoxSoundsReplace
 

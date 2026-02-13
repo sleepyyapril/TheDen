@@ -1,9 +1,11 @@
+# SPDX-FileCopyrightText: 2025 Aikakakah
 # SPDX-FileCopyrightText: 2025 BloodfiendishOperator
 # SPDX-FileCopyrightText: 2025 Jakumba
 # SPDX-FileCopyrightText: 2025 Shaman
 # SPDX-FileCopyrightText: 2025 maelines
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 little-meow-meow
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
@@ -68,6 +70,8 @@ marking-DwarfTattooShootingStar = Shooting Star Tattoo
 marking-DwarfTattooShootingStar-dwarftattooshootingstar = Shooting Star Tattoo
 marking-DwarfMarkBear = Mark of the Bear
 marking-DwarfMarkBear-dwarfmarkbear = Mark of the Bear
+marking-DwarfMarkBearFemale = Mark of the Bear
+marking-DwarfMarkBearFemale-dwarfmarkbear_female = Mark of the Bear
 marking-DwarfMarkKangarooLHand = Mark of the Kangaroo (Left)
 marking-DwarfMarkKangarooLHand-dwarfmarkkangaroolhand = Mark of the Kangaroo (Left)
 marking-DwarfMarkKangarooRHand = Mark of the Kangaroo (Right)
@@ -79,16 +83,27 @@ marking-DwarfMarkSpider-dwarfmarkspider = Mark of the Spider
 
 # humans
 marking-VitiligoHeadL = Vitiligo (Left Eye)
+marking-VitiligoHeadL-vitiligoheadl = Vitiligo (Left Eye)
 marking-VitiligoHeadR = Vitiligo (Right Eye)
+marking-VitiligoHeadR-vitiligoheadr = Vitiligo (Right Eye)
 marking-VitiligoHeadJaw = Vitiligo (Jawline)
+marking-VitiligoHeadJaw-vitiligoheadjaw = Vitiligo (Jawline)
 marking-VitiligoHandR = Vitiligo (Right Hand)
+marking-VitiligoHandR-vitiligohandr = Vitiligo (Right Hand)
 marking-VitiligoArmR = Vitiligo (Right Arm)
+marking-VitiligoArmR-vitiligoarmr = Vitiligo (Right Arm)
 marking-VitiligoLegR = Vitiligo (Right)
+marking-VitiligoLegR-vitiligolegr = Vitiligo (Right)
 marking-VitiligoHandL = Vitiligo (Left Hand)
+marking-VitiligoHandL-vitiligohandl = Vitiligo (Left Hand)
 marking-VitiligoArmL = Vitiligo (Left Arm)
+marking-VitiligoArmL-vitiligoarml = Vitiligo (Left Arm)
 marking-VitiligoLegL = Vitiligo (Left)
+marking-VitiligoLegL-vitiligolegl = Vitiligo (Left)
 marking-VitiligoChestF = Vitiligo Spread
+marking-VitiligoChestF-vitiligochestf = Vitiligo Spread
 marking-VitiligoChestSpots = Vitiligo Spots
+marking-VitiligoChestSpots-vitiligochestspots = Vitiligo Spots
 marking-Shadow = Gloomy
 
 # moths
@@ -108,6 +123,13 @@ marking-MothBee-bee1 = Outer Stripes
 marking-MothBee-bee2 = Wings
 # Frontier: stripe < Stripe
 marking-MothBee-bee3 = Inner Stripe
+# begin Den add
+marking-MothBeeGlowing = Wings (Bumblebee, Glowing)
+marking-MothBeeGlowing-bee1 = Outer Stripes
+marking-MothBeeGlowing-bee2 = Wings
+marking-MothBeeGlowing-bee3 = Neck Stripe
+marking-MothBeeGlowing-bee3_lower = Tail Stripe
+# end Den add
 marking-MothBeetleTail = Beetle Wings (Junebug)
 marking-MothBeetleTail-beetle1 = Outline
 marking-MothBeetleTail-beetle2 = Wings

@@ -3,6 +3,7 @@
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sheepie
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 ivorytemple
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
@@ -67,3 +68,54 @@ marking-VulpTailFluffyAnimated-fluffywag = Fluffy tail
 marking-VulpTailFluffyTipAnimated = Vulpkanin Fluffy (tip) (animated)
 marking-VulpTailFluffyTipAnimated-fluffyaltwag = Base Color
 marking-VulpTailFluffyTipAnimated-fluffyaltwagtip = Tip Color
+
+# fixed skyrat tails
+marking-TailSnakeDualAnimated-m_waggingtail_snakedual_BEHIND_primary = Lizard, Snake w/ Tip (Primary) (Wagging)
+marking-TailSnakeDualAnimated-m_waggingtail_snakedual_BEHIND_secondary = Lizard, Snake w/ Tip (Secondary) (Wagging)
+marking-TailSnakeDualAnimated-m_waggingtail_snakedual_FRONT_primary = Lizard, Snake w/ Tip (Primary) (Wagging)
+marking-TailSnakeDualAnimated-m_waggingtail_snakedual_FRONT_secondary = Lizard, Snake w/ Tip (Secondary) (Wagging)
+marking-TailSnakeDualAnimated = Lizard, Snake w/ Tip (Wagging)
+TailSnakeDualAnimated = Snaketail (Tip)
+
+marking-TailSnakeStripeAnimated-m_waggingtail_snakestripe_BEHIND_primary = Lizard, Snake w/ Bold Stripes (Primary) (Wagging)
+marking-TailSnakeStripeAnimated-m_waggingtail_snakestripe_BEHIND_secondary = Lizard, Snake w/ Bold Stripes (Secondary) (Wagging)
+marking-TailSnakeStripeAnimated-m_waggingtail_snakestripe_FRONT_primary = Lizard, Snake w/ Bold Stripes (Primary) (Wagging)
+marking-TailSnakeStripeAnimated-m_waggingtail_snakestripe_FRONT_secondary = Lizard, Snake w/ Bold Stripes (Secondary) (Wagging)
+marking-TailSnakeStripeAnimated = Lizard, Snake w/ Bold Stripes (Wagging)
+TailSnakeStripeAnimated = Snaketail (Striped)
+
+marking-TailSnakeStripeUAnimated-m_waggingtail_snakestripe_BEHIND_secondary = Lizard, Snake w/ Bold Stripes (Secondary) (Wagging)
+marking-TailSnakeStripeUAnimated-m_waggingtail_snakestripe_FRONT_secondary = Lizard, Snake w/ Bold Stripes (Secondary) (Wagging)
+marking-TailSnakeStripeUAnimated = Lizard, Snake w/ Bold Stripes (Wagging)
+TailSnakeStripeUAnimated = Snaketail (Striped)
+
+marking-TailSnakeStripeAltAnimated-m_waggingtail_snakestripealt_BEHIND_primary = Lizard, Snake w/ Cute Stripes (Primary) (Wagging)
+marking-TailSnakeStripeAltAnimated-m_waggingtail_snakestripealt_BEHIND_secondary = Lizard, Snake w/ Cute Stripes (Secondary) (Wagging)
+marking-TailSnakeStripeAltAnimated-m_waggingtail_snakestripealt_FRONT_primary = Lizard, Snake w/ Cute Stripes (Primary) (Wagging)
+marking-TailSnakeStripeAltAnimated-m_waggingtail_snakestripealt_FRONT_secondary = Lizard, Snake w/ Cute Stripes (Secondary) (Wagging)
+marking-TailSnakeStripeAltAnimated = Lizard, Snake w/ Cute Stripes (Wagging)
+TailSnakeStripeAltAnimated = Snaketail (StripedAlt)
+
+marking-TailSnakeStripeAltUAnimated-m_waggingtail_snakestripealt_BEHIND_secondary = Lizard, Snake w/ Cute Stripes (Secondary) (Wagging)
+marking-TailSnakeStripeAltUAnimated-m_waggingtail_snakestripealt_FRONT_secondary = Lizard, Snake w/ Cute Stripes (Secondary) (Wagging)
+marking-TailSnakeStripeAltUAnimated = Lizard, Snake w/ Cute Stripes (Wagging)
+TailSnakeStripeAltUAnimated = Snaketail (StripedAlt)
+
+marking-TailSnakeTailAnimated = Lizard, Snake (Wagging)
+marking-TailSnakeTailAnimated-m_waggingtail_snaketail_FRONT = Tail
+marking-TailSnakeTailAnimated-m_waggingtail_snaketail_BACK = Tail
+TailSnakeTailAnimated = Snaketail
+
+marking-TailSnakeUnderAnimated-m_waggingtail_snakeunder_BEHIND_primary = Lizard, Snake w/ Underbelly (Primary) (Wagging)
+marking-TailSnakeUnderAnimated-m_waggingtail_snakeunder_BEHIND_secondary = Lizard, Snake w/ Underbelly (Secondary) (Wagging)
+marking-TailSnakeUnderAnimated-m_waggingtail_snakeunder_FRONT_primary = Lizard, Snake w/ Underbelly (Primary) (Wagging)
+marking-TailSnakeUnderAnimated-m_waggingtail_snakeunder_FRONT_secondary = Lizard, Snake w/ Underbelly (Secondary) (Wagging)
+marking-TailSnakeUnderAnimated = Lizard, Snake w/ Underbelly (Wagging)
+TailSnakeUnderAnimated = Snaketail (Underbelly)
+
+marking-TailSnakeUnderUAnimated-m_waggingtail_snakeunder_BEHIND_primary = Lizard, Snake w/ Underbelly (Primary) (Wagging)
+marking-TailSnakeUnderUnimated-m_waggingtail_snakeunder_BEHIND_secondary = Lizard, Snake w/ Underbelly (Secondary) (Wagging)
+marking-TailSnakeUnderUAnimated-m_waggingtail_snakeunder_FRONT_primary = Lizard, Snake w/ Underbelly (Primary) (Wagging)
+marking-TailSnakeUnderUAnimated-m_waggingtail_snakeunder_FRONT_secondary = Lizard, Snake w/ Underbelly (Secondary) (Wagging)
+marking-TailSnakeUnderUAnimated = Lizard, Snake w/ Underbelly (Wagging)
+TailSnakeUnderUAnimated = Snaketail (Underbelly)
