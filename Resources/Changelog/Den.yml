@@ -17150,3 +17150,20 @@ Entries:
   id: 1682
   time: '2026-02-14T08:01:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2413
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Changed the size of Medkits back to 2x4 from 2x2.
+    - type: Tweak
+      message: >-
+        Changed the layout of Medkits internal inventory from 16 slots, to 8,
+        and 8.
+    - type: Tweak
+      message: Combat Medkit is now blast proof.
+    - type: Tweak
+      message: Handheld Mass scanners are now Small again.
+    - type: Fix
+      message: Pill canisters can now only fit pills inside.
+  id: 1683
+  time: '2026-02-14T08:02:17.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2369
