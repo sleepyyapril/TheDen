@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 cmd-forcepreset-desc = Forces a specific game preset to start for the current lobby.
 cmd-forcepreset-help = Usage: forcepreset <preset>
 cmd-forcepreset-preround-lobby-only = This can only be executed while the game is in the pre-round lobby.
