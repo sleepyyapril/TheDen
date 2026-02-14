@@ -17167,3 +17167,27 @@ Entries:
   id: 1683
   time: '2026-02-14T08:02:17.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2369
+- author: Kelaris
+  changes:
+    - type: Add
+      message: >-
+        Plant Bag of Holding is now craftable at the Protolathe and Service
+        Techfab after researching Basic Life Improvements.
+    - type: Tweak
+      message: >-
+        Industrial Reagent Grinder is now craftable after researching Basic Life
+        Improvements (T2), instead of Advanced Life Improvements (T3). It also
+        holds 20% more chemicals before overflowing.
+    - type: Add
+      message: >-
+        Added Advanced Reagent Grinder as an upgrade to the Industrial Reagent
+        Grinder, available after researching Advanced Life Improvements. It
+        costs bluespace but has slightly increased efficiency, and gigantic
+        chemical storage.
+    - type: Tweak
+      message: >-
+        Ore Bag of Holding bluespace cost reduced from 2 to 1, to match the
+        Plant Bag of Holding.
+  id: 1684
+  time: '2026-02-14T08:02:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2415
