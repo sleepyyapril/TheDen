@@ -163,6 +163,8 @@
   - CrewMonitoringComputerCircuitboard
   - HandheldCrewMonitor
   - SeedExtractorMachineCircuitboard
+  - ReagentGrinderIndustrialMachineCircuitboard
+  - PlantBagOfHolding
   - RollerBedHoloSpawnFolded
   - JetInjector
   - Portafib
@@ -216,7 +218,7 @@
   - ClothingShoesBootsSpeed
   - BluespaceBeaker
   - SyringeBluespace
-  - ReagentGrinderIndustrialMachineCircuitboard
+  - ReagentGrinderAdvancedMachineCircuitboard
   - DefibrillatorCompact
   # TODO: Add things like frontier's Hyposprays.
   softCapContribution: 1.5
