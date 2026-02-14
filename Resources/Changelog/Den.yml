@@ -17133,3 +17133,20 @@ Entries:
   id: 1681
   time: '2026-02-14T07:29:19.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2419
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Removed hands from the Replicator Defender
+    - type: Tweak
+      message: >-
+        Made all replicators clumsy, firing a gun now has a chance to backfire
+        and stun you
+    - type: Tweak
+      message: Buffed the stamina damage and fire rate of the replicator stun projector
+    - type: Tweak
+      message: Buffed the damage of the Repliactor Defenders whip arm
+    - type: Tweak
+      message: Removed overlay colour from replicators NV/Thermal vision
+  id: 1682
+  time: '2026-02-14T08:01:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2413
