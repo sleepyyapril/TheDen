@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 cmd-respawn-desc = Respawns a player, kicking them back to the lobby.
 cmd-respawn-help = respawn [player or UserId]
 
