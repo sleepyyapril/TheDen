@@ -17217,3 +17217,10 @@ Entries:
   id: 1687
   time: '2026-02-15T11:45:38.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2422
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: The fire resistance trait was removed.
+  id: 1688
+  time: '2026-02-15T15:35:41.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2424
