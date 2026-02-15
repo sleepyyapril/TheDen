@@ -17208,3 +17208,12 @@ Entries:
   id: 1686
   time: '2026-02-15T00:15:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2247
+- author: Swissed_Fox
+  changes:
+    - type: Tweak
+      message: >-
+        Alaseta has undergone a little retcon, it should now sound more like a
+        real language!
+  id: 1687
+  time: '2026-02-15T11:45:38.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2422
