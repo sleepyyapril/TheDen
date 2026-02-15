@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 MajorMoth
+#
+# SPDX-License-Identifier: MIT
+
 admin-trick-flatpack-text = Flatpack
 admin-trick-flatpack-description = Turns the entity into a flatpack of itself. Does not preserve entity data, only the prototype ID.
 

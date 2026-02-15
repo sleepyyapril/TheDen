@@ -33,8 +33,9 @@
 // SPDX-FileCopyrightText: 2025 deltanedas
 // SPDX-FileCopyrightText: 2025 sleepyyapril
 // SPDX-FileCopyrightText: 2025 themias
+// SPDX-FileCopyrightText: 2026 MajorMoth
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 using System.Linq;
 using Content.Server.Administration;

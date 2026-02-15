@@ -19,8 +19,9 @@
 // SPDX-FileCopyrightText: 2025 Shaman
 // SPDX-FileCopyrightText: 2025 portfiend
 // SPDX-FileCopyrightText: 2025 sleepyyapril
+// SPDX-FileCopyrightText: 2026 MajorMoth
 //
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+// SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
