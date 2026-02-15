@@ -144,7 +144,16 @@ public abstract class SharedFlatpackSystem : EntitySystem
 
         Appearance.SetData(ent, FlatpackVisuals.Machine, MetaData(board.Value).EntityPrototype?.ID ?? string.Empty);
     }
-
+    // Den start
+    public void ChangeFlatpackEntity(Entity<FlatpackComponent?> ent, EntityPrototype? proto)
+    {
+        if (!Resolve(ent, ref ent.Comp))
+            return;
+        if (proto is null)
+            return;
+        ent.Comp.Entity = proto;
+    }
+    // Den end
     public Dictionary<string, int> GetFlatpackCreationCost(Entity<FlatpackCreatorComponent> entity, Entity<MachineBoardComponent>? machineBoard = null)
     {
         Dictionary<string, int> cost = new();
