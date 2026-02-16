@@ -3,9 +3,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-# HEAD
-#   Head
-
 - type: marking
   id: DionaThornsHead_colorable
   bodyPart: Head
@@ -14,6 +11,15 @@
   sprites:
   - sprite: _Impstation/Mobs/Customization/diona.rsi
     state: thorns_head_colorable
+
+- type: marking
+  id: DionaThornsBody_colorable
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Diona]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: thorns_body_colorable
 
 - type: marking
   id: DionaFlowersHead_colorable
@@ -25,6 +31,30 @@
     state: flowers_head_primary_colorable
   - sprite: _Impstation/Mobs/Customization/diona.rsi
     state: flowers_head_secondary_colorable
+
+- type: marking
+  id: DionaFlowersBody_colorable
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Diona]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: flowers_body_primary_colorable
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: flowers_body_secondary_colorable
+
+- type: marking
+  id: DionaLeafCover_colorable
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Diona]
+  coloring:
+    default:
+      type:
+        !type:SkinColoring
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: leaf_cover_colorable
 
 - type: marking
   id: DionaBloomHead_colorable
@@ -123,6 +153,15 @@
     state: laurel_colorable
 
 - type: marking
+  id: DionaLeafyHeadTop_colorable
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Diona]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: leafy_colorable
+
+- type: marking
   id: DionaLotusHead_colorable
   bodyPart: Head
   markingCategory: Head
@@ -132,6 +171,15 @@
     state: lotus_primary_colorable
   - sprite: _Impstation/Mobs/Customization/diona.rsi
     state: lotus_secondary_colorable
+
+- type: marking
+  id: DionaMeadowHeadTop_colorable
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [Diona]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: meadow_colorable
 
 - type: marking
   id: DionaOakHead_colorable
@@ -185,36 +233,6 @@
     state: rosey_flowers_colorable
 
 - type: marking
-  id: DionaVinelHead_colorable
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [Diona]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Diona/headtop.rsi
-    state: moonbloom
-  shader: unshaded
-
-#   HeadTop
-
-- type: marking
-  id: DionaLeafyHeadTop_colorable
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Diona]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/diona.rsi
-    state: leafy_colorable
-
-- type: marking
-  id: DionaMeadowHeadTop_colorable
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Diona]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/diona.rsi
-    state: meadow_colorable
-
-- type: marking
   id: DionaShrubHeadTop_colorable
   bodyPart: HeadTop
   markingCategory: HeadTop
@@ -222,52 +240,6 @@
   sprites:
   - sprite: _Impstation/Mobs/Customization/diona.rsi
     state: shrub_colorable
-
-- type: marking
-  id: DionaSunflower
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [ Diona ]
-  coloring:
-    default:
-      type:
-        !type:EyeColoring
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Diona/head.rsi
-    state: sunflower_base
-  - sprite: _Impstation/Mobs/Customization/Diona/head.rsi
-    state: sunflower_eyes
-  - sprite: _Impstation/Mobs/Customization/Diona/head.rsi
-    state: sunflower_petals1
-  - sprite: _Impstation/Mobs/Customization/Diona/head.rsi
-    state: sunflower_petals2
-
-- type: marking
-  id: DionaSunflowerEyesUnshaded
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [ Diona ]
-  coloring:
-    default:
-      type:
-        !type:EyeColoring
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/Diona/head.rsi
-    state: sunflower_eyes
-  shader: unshaded
-
-- type: marking
-  id: DionaVineHeadTop_colorable
-  bodyPart: HeadTop
-  markingCategory: HeadTop
-  speciesRestriction: [Diona]
-  sprites:
-  - sprite: _Impstation/Mobs/Customization/diona.rsi
-    state: vine_primary_colorable
-  - sprite: _Impstation/Mobs/Customization/diona.rsi
-    state: vine_secondary_colorable
-
-#   HeadSide
 
 - type: marking
   id: DionaSpinnerHeadSide_colorable
@@ -291,38 +263,87 @@
   - sprite: _Impstation/Mobs/Customization/diona.rsi
     state: sprout_secondary_colorable
 
-# CHEST
-
 - type: marking
-  id: DionaThornsBody_colorable
-  bodyPart: Chest
-  markingCategory: Chest
+  id: DionaVineHeadTop_colorable
+  bodyPart: HeadTop
+  markingCategory: HeadTop
   speciesRestriction: [Diona]
   sprites:
   - sprite: _Impstation/Mobs/Customization/diona.rsi
-    state: thorns_body_colorable
+    state: vine_primary_colorable
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: vine_secondary_colorable
 
 - type: marking
-  id: DionaFlowersBody_colorable
-  bodyPart: Chest
-  markingCategory: Chest
+  id: DionaVinelHead_colorable
+  bodyPart: Head
+  markingCategory: Head
   speciesRestriction: [Diona]
   sprites:
   - sprite: _Impstation/Mobs/Customization/diona.rsi
-    state: flowers_body_primary_colorable
+    state: vinel_primary_colorable
   - sprite: _Impstation/Mobs/Customization/diona.rsi
-    state: flowers_body_secondary_colorable
+    state: vinel_secondary_colorable
 
 - type: marking
-  id: DionaLeafCover_colorable
-  bodyPart: Chest
-  markingCategory: Chest
+  id: DionaVinesHead_colorable
+  bodyPart: Head
+  markingCategory: Head
   speciesRestriction: [Diona]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: vines_primary_colorable
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: vines_secondary_colorable
+
+- type: marking
+  id: DionaWildflowerHead_colorable
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Diona]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: wildflower_primary_colorable
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: wildflower_secondary_colorable
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: wildflower_flowers1_colorable
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: wildflower_flowers2_colorable
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: wildflower_flowers3_colorable
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: wildflower_flowers4_colorable
+
+- type: marking
+  id: DionaSunflower
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Diona ]
   coloring:
     default:
       type:
-        !type:SkinColoring
+        !type:EyeColoring
   sprites:
   - sprite: _Impstation/Mobs/Customization/diona.rsi
-    state: leaf_cover_colorable
+    state: sunflower_base
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: sunflower_eyes
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: sunflower_petals1
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: sunflower_petals2
 
+- type: marking
+  id: DionaSunflowerEyesUnshaded
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Diona ]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: sunflower_eyes
+  shader: unshaded
