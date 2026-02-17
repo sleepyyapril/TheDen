@@ -17231,3 +17231,41 @@ Entries:
   id: 1689
   time: '2026-02-15T16:14:22.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2407
+- author: Sha-Seng
+  changes:
+    - type: Tweak
+      message: >-
+        Moved Fading Starlight and Fizz slime markings to the chest category (no
+        need to reapply!)
+    - type: Tweak
+      message: >-
+        Increased slime chest marking budget to 6 to account for the above
+        change
+    - type: Add
+      message: Added a non-glowing Fading Starlight slime chest marking
+    - type: Add
+      message: Added glowing Fizz, Bubbles, and Fishbowl slime chest markings
+    - type: Add
+      message: Added a pulsing Cyclops slime eye marking
+    - type: Tweak
+      message: Increased max slime height and width slightly
+    - type: Add
+      message: >-
+        Added Gradient chest markings for humanoids (male, female, and glowing
+        variants)
+    - type: Add
+      message: >-
+        Added Big Ahoge headtop marking with two color layers so any hair can
+        have a silly sprig on top
+    - type: Add
+      message: >-
+        Added wagging to the shadowkin Big And Fluffy tail and updated its
+        sprite (shading/animation by Winter!)
+    - type: Tweak
+      message: >-
+        The Big And Fluffy tail's shading has been updated slightly (faithful to
+        the original) as a necessity of animating it (it's a tiny bit shinier,
+        contrast necessary for clarity during movement)
+  id: 1690
+  time: '2026-02-17T08:28:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2421
