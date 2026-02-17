@@ -17278,3 +17278,10 @@ Entries:
   id: 1691
   time: '2026-02-17T12:41:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2431
+- author: Zilanthros
+  changes:
+    - type: Add
+      message: Obsidian Map & Prototype Files
+  id: 1692
+  time: '2026-02-17T19:15:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2429
