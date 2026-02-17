@@ -17,24 +17,7 @@ public sealed partial class CustomExamineComponent : Component
     public override bool SendOnlyToOwner => true;
 
     [DataField, AutoNetworkedField]
-    public CustomExamineData PublicData = new()
-    {
-        Content = null,
-        VisibilityRange = 20,
-        ExpireTime = TimeSpan.Zero,
-        RequiresConsent = false,
-        LastUpdate = TimeSpan.Zero
-    };
-
-    [DataField, AutoNetworkedField]
-    public CustomExamineData SubtleData = new()
-    {
-        Content = null,
-        VisibilityRange = 2,
-        ExpireTime = TimeSpan.Zero,
-        RequiresConsent = false,
-        LastUpdate = TimeSpan.Zero
-    };
+    public List<CustomExamineData> Data = new();
 }
 
 [DataDefinition, Serializable, NetSerializable]
@@ -63,4 +46,7 @@ public partial struct CustomExamineData
     /// </summary>
     [DataField]
     public TimeSpan LastUpdate;
+
+    [DataField]
+    public bool Updated;
 }

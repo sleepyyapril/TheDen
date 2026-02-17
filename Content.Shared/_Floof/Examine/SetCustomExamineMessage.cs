@@ -16,5 +16,5 @@ public sealed class SetCustomExamineMessage : EntityEventArgs
 {
     public NetEntity Target;
 
-    public CustomExamineData PublicData, SubtleData;
+    public List<CustomExamineData> Data = new();
 }

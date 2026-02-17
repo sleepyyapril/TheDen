@@ -30,20 +30,27 @@ public sealed class CustomExamineSystem : SharedCustomExamineSystem
             return;
 
         var comp = EnsureComp<CustomExamineComponent>(target);
+        var newData = new List<CustomExamineData>();
 
-        TrimData(ref msg.PublicData, ref msg.SubtleData);
-        comp.PublicData = msg.PublicData;
-        comp.SubtleData = msg.SubtleData;
+        foreach (var data in msg.Data)
+        {
+            var trimmedData = TrimData(data);
 
-        // DEN start: Logging
-        var targetStr = ToPrettyString(target);
+            if (trimmedData == null)
+                continue;
 
-        _adminLogManager.Add(LogType.Verb, LogImpact.Low,
-            $"{targetStr:user} set custom examine text: {GetExamineDataText(comp.PublicData)}");
-        _adminLogManager.Add(LogType.Verb, LogImpact.Low,
-            $"{targetStr:user} set subtle examine text: {GetExamineDataText(comp.SubtleData)}");
-        // DEN end: Logging
+            newData.Add(trimmedData.Value);
 
+            if (!trimmedData.Value.Updated)
+                continue;
+
+            var targetStr = ToPrettyString(target);
+
+            _adminLogManager.Add(LogType.Verb, LogImpact.Low,
+                $"{targetStr:user} set custom examine text: {GetExamineDataText(data)}");
+        }
+
+        comp.Data = newData;
         Dirty(target, comp);
     }
 
