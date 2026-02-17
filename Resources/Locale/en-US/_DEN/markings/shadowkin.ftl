@@ -1,5 +1,6 @@
 # SPDX-FileCopyrightText: 2025 TheLuggage05
 # SPDX-FileCopyrightText: 2025 crekulon
+# SPDX-FileCopyrightText: 2026 Shaman
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
