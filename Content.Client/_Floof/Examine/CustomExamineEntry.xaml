@@ -1,0 +1,21 @@
+<BoxContainer
+    xmlns="https://spacestation14.io"
+    xmlns:graphics="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+    SetHeight="30"
+    HorizontalExpand="True"
+    HorizontalAlignment="Center">
+
+    <PanelContainer HorizontalExpand="True">
+        <PanelContainer.PanelOverride>
+            <graphics:StyleBoxFlat BackgroundColor="#353540" />
+        </PanelContainer.PanelOverride>
+
+        <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
+            <RichTextLabel Name="TitleLabel" HorizontalExpand="True" Access="Public" />
+            <BoxContainer Orientation="Horizontal">
+                <Button Name="EditButton" Text="{Loc 'custom-examine-edit'}" StyleClasses="OpenRight" Access="Public" />
+                <Button Name="DeleteButton" Text="{Loc 'custom-examine-delete'}" StyleClasses="OpenLeft" Access="Public" />
+            </BoxContainer>
+        </BoxContainer>
+    </PanelContainer>
+</BoxContainer>

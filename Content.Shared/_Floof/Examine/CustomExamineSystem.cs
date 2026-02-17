@@ -8,8 +8,6 @@ using Content.Shared._Floof.Consent;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Administration.Managers;
 using Content.Shared.Examine;
-using Content.Shared.Interaction;
-using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
@@ -21,7 +19,7 @@ namespace Content.Shared._Floof.Examine;
 public abstract class SharedCustomExamineSystem : EntitySystem
 {
     public static ProtoId<ConsentTogglePrototype> NsfwDescConsent = "NSFWDescriptions";
-    public static int PublicMaxLength = 256, SubtleMaxLength = 256;
+    public static int MaxLength = 256;
     /// <summary>Max length of any content field, INCLUDING markup.</summary>
     public static int AbsolutelyMaxLength = 1024;
 
@@ -115,8 +113,8 @@ public abstract class SharedCustomExamineSystem : EntitySystem
         var markupLength = MarkupLength(data.Content);
         if (data.Content.Length > AbsolutelyMaxLength)
             data.Content = data.Content[..AbsolutelyMaxLength];
-        if (data.Content.Length - markupLength > PublicMaxLength)
-            data.Content = data.Content[..(PublicMaxLength - markupLength)];
+        if (data.Content.Length - markupLength > MaxLength)
+            data.Content = data.Content[..(MaxLength - markupLength)];
 
         if (data.Content.Length == 0)
             data.Content = null;

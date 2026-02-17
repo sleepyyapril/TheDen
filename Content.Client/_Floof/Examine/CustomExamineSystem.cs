@@ -3,13 +3,9 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-using System.Numerics;
-using Content.Client.Strip;
 using Content.Shared._Floof.Examine;
-using Content.Shared.Interaction;
 using Content.Shared.Verbs;
 using Robust.Client.Player;
-using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 
 
@@ -27,6 +23,7 @@ public sealed class CustomExamineSystem : SharedCustomExamineSystem
     public override void Initialize()
     {
         base.Initialize();
+
         SubscribeLocalEvent<GetVerbsEvent<Verb>>(OnGetVerbs);
         SubscribeLocalEvent<CustomExamineComponent, AfterAutoHandleStateEvent>(OnStateUpdate);
 
@@ -70,7 +67,7 @@ public sealed class CustomExamineSystem : SharedCustomExamineSystem
         if (_window!.IsOpen)
             _window.Close();
         else
-            _window.OpenCenteredAt(new(0.5f, 0.75f)); // mid-top-center
+            _window.OpenCenteredLeft(); // mid-top-center
     }
 
     private void OnSave(EntityUid target, List<CustomExamineData> data)
@@ -87,16 +84,7 @@ public sealed class CustomExamineSystem : SharedCustomExamineSystem
     {
         _window = new();
 
-        _window.Public.MaxContentLength = PublicMaxLength;
-        _window.Subtle.MaxContentLength = SubtleMaxLength;
-
         _window.OnClose += () => _window = null;
-        _window.OnReset += () =>
-        {
-            if (TryComp<CustomExamineComponent>(target, out var comp2))
-                _window.SetData(comp2.Data, force: true);
-        };
-
         _window.OnSave += data => OnSave(target, data);
     }
 }

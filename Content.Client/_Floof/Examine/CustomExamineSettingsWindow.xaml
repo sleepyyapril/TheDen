@@ -1,46 +1,44 @@
 <controls:CustomExamineSettingsWindow
     xmlns="https://spacestation14.io"
     xmlns:controls="clr-namespace:Content.Client._Floof.Examine"
-    MinSize="450 200"
+    MinSize="800 800"
     Title="{Loc 'custom-exam-title'}">
 
     <BoxContainer Orientation="Vertical" Margin="5" HorizontalExpand="True">
         <!-- Guidelines -->
-        <Collapsible>
-            <CollapsibleHeading Title="{Loc 'custom-exam-guidelines-heading'}"/>
-            <CollapsibleBody>
-                <ScrollContainer SetHeight="140" HScrollEnabled="False">
-                    <!-- I hate how I have to limit the size of this label here, but it doesn't seem I can stop it from expanding otherwise. -->
-                    <RichTextLabel
-                        Text="{Loc 'custom-exam-guidelines'}"
-                        Margin="5"
-                        MaxWidth="500"/>
-                </ScrollContainer>
-            </CollapsibleBody>
-        </Collapsible>
+        <RichTextLabel Text="{Loc 'custom-exam-guidelines-heading'}"/>
+            <ScrollContainer SetHeight="140" HScrollEnabled="False">
+                <!-- I hate how I have to limit the size of this label here, but it doesn't seem I can stop it from expanding otherwise. -->
+                <RichTextLabel
+                    Name="GuidelinesText"
+                    Text="{Loc 'custom-exam-guidelines'}"
+                    Margin="5"
+                    MaxWidth="550" />
+            </ScrollContainer>
 
         <!-- Main body -->
-        <BoxContainer Orientation="Horizontal" VerticalAlignment="Stretch">
-            <controls:CustomExaminePart
-                Name="Public"
-                Title="{Loc 'custom-exam-public-title'}"
-                VerticalExpand="True"
-                HorizontalAlignment="Stretch"
-                Margin="5"
-                Access="Public"/>
-
-            <controls:CustomExaminePart
-                Name="Subtle"
-                Title="{Loc 'custom-exam-subtle-title'}"
-                VerticalExpand="True"
-                HorizontalAlignment="Stretch"
-                Margin="5"
-                Access="Public"/>
+        <BoxContainer Name="ExamineContainer"
+                      Margin="2"
+                      Orientation="Vertical"
+                      HorizontalExpand="True"
+                      SetHeight="175"
+                      HorizontalAlignment="Center"
+                      VerticalAlignment="Stretch">
         </BoxContainer>
+        <Control VerticalExpand="True"/>
+        <BoxContainer VerticalAlignment="Bottom" Orientation="Vertical">
+            <controls:CustomExaminePartEditWindow Name="EditWindow"
+                                                  SetHeight="300"
+                                                  HorizontalExpand="True"
+                                                  HorizontalAlignment="Center"
+                                                  Margin="2"
+                                                  Visible="False"/>
 
-        <BoxContainer Orientation="Horizontal" HorizontalAlignment="Right">
-            <Button Name="ResetButton" Text="{Loc 'custom-exam-reset'}" StyleClasses="OpenRight"/>
-            <Button Name="SaveButton" Text="{Loc 'custom-exam-save'}" StyleClasses="OpenLeft" />
+            <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
+                <BoxContainer Orientation="Horizontal" HorizontalAlignment="Left">
+                    <Button Name="CreateNewButton" Text="{Loc 'custom-examine-create'}" />
+                </BoxContainer>
+            </BoxContainer>
         </BoxContainer>
     </BoxContainer>
 

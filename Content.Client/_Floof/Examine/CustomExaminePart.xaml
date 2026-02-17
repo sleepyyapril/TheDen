@@ -14,7 +14,7 @@
             <TextEdit
                 Name="Content"
                 HorizontalExpand="True"
-                SetHeight="150"
+                SetHeight="125"
                 ToolTip="{Loc 'custom-exam-part-content-tooltip'}"
                 TooltipDelay="0.5"/>
 
@@ -54,7 +54,7 @@
                 Margin="2"
                 HorizontalAlignment="Right"/>
 
-            <Label Name="TextCounter" />
+            <Label Name="TextCounter" Text="0/256" />
         </BoxContainer>
     </PanelContainer>
 

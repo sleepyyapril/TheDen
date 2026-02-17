@@ -1,0 +1,13 @@
+<controls:BoxContainer
+    xmlns:controls="https://spacestation14.io"
+    xmlns="https://spacestation14.io"
+    xmlns:floof="clr-namespace:Content.Client._Floof.Examine">
+    <BoxContainer Orientation="Vertical">
+        <RichTextLabel Name="EditingLabel" HorizontalExpand="True" HorizontalAlignment="Center" Access="Public" />
+        <floof:CustomExaminePart Name="ExamineControl" HorizontalExpand="True" SetHeight="250" Access="Public"/>
+        <BoxContainer Orientation="Horizontal" HorizontalExpand="True">
+            <Button Name="SaveButton" Text="{Loc 'custom-exam-reset'}" StyleClasses="OpenRight" Access="Public" />
+            <Button Name="ResetButton" Text="{Loc 'custom-exam-save'}" StyleClasses="OpenLeft" Access="Public" />
+        </BoxContainer>
+    </BoxContainer>
+</controls:BoxContainer>
