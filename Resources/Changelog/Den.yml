@@ -17328,3 +17328,12 @@ Entries:
   id: 1696
   time: '2026-02-18T18:50:43.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2427
+- author: MajorMoth
+  changes:
+    - type: Tweak
+      message: Access configurators now fit in utility belts.
+    - type: Fix
+      message: All rod stack sizes now fit in the construction bag.
+  id: 1697
+  time: '2026-02-18T18:51:28.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2426
