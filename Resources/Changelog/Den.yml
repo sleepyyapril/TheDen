@@ -17294,3 +17294,10 @@ Entries:
   id: 1693
   time: '2026-02-18T07:22:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2432
+- author: juniwoofs
+  changes:
+    - type: Add
+      message: Added 3 admin plushies to loadout!
+  id: 1694
+  time: '2026-02-18T13:43:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2428
