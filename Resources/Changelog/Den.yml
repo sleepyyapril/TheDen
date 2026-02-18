@@ -17301,3 +17301,21 @@ Entries:
   id: 1694
   time: '2026-02-18T13:43:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2428
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: >-
+        Short-range channels will now show the circle overlay while you're
+        actively typing to make sure you don't accidentally break people's
+        consent.
+    - type: Tweak
+      message: Doors will no longer let whispers pass through.
+    - type: Fix
+      message: >-
+        Denu will no longer format a message on a channel that can't support
+        colors.
+    - type: Remove
+      message: Muffled speech was removed from whisper.
+  id: 1695
+  time: '2026-02-18T17:27:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2438
