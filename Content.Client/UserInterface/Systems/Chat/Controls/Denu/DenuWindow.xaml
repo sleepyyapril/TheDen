@@ -1,4 +1,12 @@
-﻿<controls:DenuWindow
+<!--
+SPDX-FileCopyrightText: 2025 Cam
+SPDX-FileCopyrightText: 2025 Cami
+SPDX-FileCopyrightText: 2025 sleepyyapril
+
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<controls:DenuWindow
     xmlns="https://spacestation14.io"
     xmlns:controls="clr-namespace:Content.Client.UserInterface.Systems.Chat.Controls.Denu"
     xmlns:components="clr-namespace:Content.Client.UserInterface.Systems.Chat.Controls.Denu.Components"

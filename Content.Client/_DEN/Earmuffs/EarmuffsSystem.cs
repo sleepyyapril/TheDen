@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2025 sleepyyapril
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Client.Chat;
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.UserInterface.Systems.Chat.Controls;
