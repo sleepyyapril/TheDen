@@ -100,3 +100,11 @@ marking-DionaVinelHead_colorable = Diona Vines Long (Vines, Colorable)
 marking-DionaVinesHead_colorable = Diona Vines Short (Vines, Colorable)
 marking-DionaWildflowerHead_colorable = Diona Wild Flowers (Flowers, Colorable)
 
+marking-DionaSunflower = Sunflower
+marking-DionaSunflower-sunflower_base = Sunflower Center
+marking-DionaSunflower-sunflower_eyes = Sunflower Eyes
+marking-DionaSunflower-sunflower_petals1 = Sunflower Petals 1
+marking-DionaSunflower-sunflower_petals2 = Sunflower Petals 2
+
+marking-DionaSunflowerEyesUnshaded = Sunflower Eyes (Unshaded)
+marking-DionaSunflowerEyesUnshaded-sunflower_eyes = Sunflower Eyes

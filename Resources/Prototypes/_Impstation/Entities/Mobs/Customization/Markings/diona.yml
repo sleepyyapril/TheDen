@@ -314,3 +314,36 @@
     state: wildflower_flowers3_colorable
   - sprite: _Impstation/Mobs/Customization/diona.rsi
     state: wildflower_flowers4_colorable
+
+- type: marking
+  id: DionaSunflower
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Diona ]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: sunflower_base
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: sunflower_eyes
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: sunflower_petals1
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: sunflower_petals2
+
+- type: marking
+  id: DionaSunflowerEyesUnshaded
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [ Diona ]
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/diona.rsi
+    state: sunflower_eyes
+  shader: unshaded
