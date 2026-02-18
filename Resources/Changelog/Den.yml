@@ -17285,3 +17285,12 @@ Entries:
   id: 1692
   time: '2026-02-17T19:15:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2429
+- author: Sha-Seng
+  changes:
+    - type: Tweak
+      message: >-
+        Changed Big Ahoge to be a Head (Side) marking so it stops removing ears
+        (oops)
+  id: 1693
+  time: '2026-02-18T07:22:06.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2432
