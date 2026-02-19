@@ -17371,3 +17371,10 @@ Entries:
   id: 1701
   time: '2026-02-19T14:32:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2295
+- author: Jakumba
+  changes:
+    - type: Tweak
+      message: Soft Skia rework, check the PR for full details.
+  id: 1702
+  time: '2026-02-19T23:36:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2439
