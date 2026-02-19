@@ -17344,3 +17344,12 @@ Entries:
   id: 1698
   time: '2026-02-19T07:25:47.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2425
+- author: Shaman
+  changes:
+    - type: Add
+      message: >-
+        Added "glorbs" to slime species loadouts, toggleable little orbs that
+        glow, in 22 colors
+  id: 1699
+  time: '2026-02-19T12:39:42.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2440
