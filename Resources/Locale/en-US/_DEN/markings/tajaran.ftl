@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 starlighthowls
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 marking-TajaranServalEars = Serval Ears
 marking-TajaranServalEars-serval_ears = Ear Base
 marking-TajaranServalEars-serval_ears_markings = Ear Markings
