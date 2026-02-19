@@ -17353,3 +17353,12 @@ Entries:
   id: 1699
   time: '2026-02-19T12:39:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2440
+- author: starlighthowls
+  changes:
+    - type: Add
+      message: Added spotted markings for tajaran.
+    - type: Add
+      message: Added a new short tail for tajaran and felinids.
+  id: 1700
+  time: '2026-02-19T14:29:15.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2441
