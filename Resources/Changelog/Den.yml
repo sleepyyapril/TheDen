@@ -17362,3 +17362,12 @@ Entries:
   id: 1700
   time: '2026-02-19T14:29:15.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2441
+- author: Dirius77
+  changes:
+    - type: Add
+      message: >-
+        Insulative Filling that you can stuff in your hat to finally make all
+        those telepathic voices be quiet.
+  id: 1701
+  time: '2026-02-19T14:32:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2295
