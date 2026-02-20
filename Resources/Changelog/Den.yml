@@ -17378,3 +17378,10 @@ Entries:
   id: 1702
   time: '2026-02-19T23:36:42.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2439
+- author: Shaman
+  changes:
+    - type: Tweak
+      message: Glorbs now stick when thrown and can be made heirlooms in loadout
+  id: 1703
+  time: '2026-02-20T02:04:59.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2442
