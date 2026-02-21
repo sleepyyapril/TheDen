@@ -17385,3 +17385,10 @@ Entries:
   id: 1703
   time: '2026-02-20T02:04:59.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2442
+- author: GreggTheFather
+  changes:
+    - type: Remove
+      message: Removed Alamode from the Eternity pool per the Map Author's request
+  id: 1704
+  time: '2026-02-21T07:38:10.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2447
