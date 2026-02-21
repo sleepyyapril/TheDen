@@ -17392,3 +17392,10 @@ Entries:
   id: 1704
   time: '2026-02-21T07:38:10.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2447
+- author: juniwoofs
+  changes:
+    - type: Remove
+      message: Removed two lobby arts at the request of the artist.
+  id: 1705
+  time: '2026-02-21T09:50:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2445
