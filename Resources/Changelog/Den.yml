@@ -17646,3 +17646,12 @@ Entries:
   id: 1732
   time: '2026-02-27T01:52:01.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2478
+- author: Swissed_Fox
+  changes:
+    - type: Add
+      message: (ES RIGHT 2) Remember Angle's evac shuttle? It's back, in Acrux form!
+    - type: Tweak
+      message: (P.ACRUX) Various changes, see PR for details
+  id: 1733
+  time: '2026-02-27T15:27:48.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2479
