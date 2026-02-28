@@ -17672,3 +17672,12 @@ Entries:
   id: 1734
   time: '2026-02-28T00:05:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2482
+- author: Kelaris
+  changes:
+    - type: Remove
+      message: >-
+        Removed Captain's Dogi, HoS' Samurai Armor, Corpsman's Summer Jumpsuit,
+        and the Oni lore entry in the guidebook, by request of the contributor.
+  id: 1735
+  time: '2026-02-28T08:34:08.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2484
