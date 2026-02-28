@@ -17681,3 +17681,12 @@ Entries:
   id: 1735
   time: '2026-02-28T08:34:08.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2484
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: >-
+        Ovinia can now wag their (default) tails! Be sure to take the tail wag
+        trait.
+  id: 1736
+  time: '2026-02-28T17:15:26.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2483
