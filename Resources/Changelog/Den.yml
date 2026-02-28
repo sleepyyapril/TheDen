@@ -17655,3 +17655,20 @@ Entries:
   id: 1733
   time: '2026-02-27T15:27:48.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2479
+- author: portfiend
+  changes:
+    - type: Fix
+      message: >-
+        Spray-painted entities will now properly update their paint visuals when
+        initiated or removed. This means admins can remove the "Painted"
+        component to remove an entity's paint. This also means that painted
+        entities in maps will show their color in the map editor and after map
+        initialization!
+    - type: Add
+      message: >-
+        Admins now have two new trick verbs - "remove paint" and "refresh
+        paint". The latter will update the visual paint color of the entity,
+        allowing admins to use VV to repaint entities.
+  id: 1734
+  time: '2026-02-28T00:05:24.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2482
