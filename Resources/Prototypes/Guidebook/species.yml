@@ -70,8 +70,6 @@
   id: Oni
   name: species-name-oni
   text: "/ServerInfo/Guidebook/Mobs/Oni.xml"
-  children:
-  - OniLore
 
 - type: guideEntry
   id: Reptilian
@@ -137,11 +135,6 @@
   id: HarpyLore
   name: guide-entry-species-lore-harpy
   text: "/ServerInfo/Guidebook/Mobs/Lore/HarpyLore.xml"
-
-- type: guideEntry
-  id: OniLore
-  name: guide-entry-species-lore-oni
-  text: "/ServerInfo/Guidebook/Mobs/Lore/OniLore.xml"
 
 - type: guideEntry
   id: ReptilianLore
