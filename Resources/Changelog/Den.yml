@@ -17690,3 +17690,12 @@ Entries:
   id: 1736
   time: '2026-02-28T17:15:26.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2483
+- author: Zilanthros
+  changes:
+    - type: Tweak
+      message: (Obsidian) added dirt/polish/junk to majority of station
+    - type: Tweak
+      message: (Obsidian) prototype file better fits station
+  id: 1737
+  time: '2026-03-01T02:02:49.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2487
