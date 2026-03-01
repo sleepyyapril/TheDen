@@ -18,7 +18,7 @@
       drink:
         maxVol: 20 #it probably doesn't need to be that big. If you want more, go ask the Chemist or get a Toybox.-KC
         reagents:
-        - ReagentId: SpaceLube
+        - ReagentId: SyntheticLubricant # DEN
           Quantity: 20
   - type: Sprite
     sprite: _DEN/VASH/Objects/bottlelube.rsi
