@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Alex C
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 trait-name-SynthCumProducer = Synthetic Cum Producer (Synthetic Cock)
 trait-description-SynthCumProducer = This trait allows you to fill containers (such as beakers) with synthetic cum, to
     suit your roleplay needs. [italic][color=orange]
