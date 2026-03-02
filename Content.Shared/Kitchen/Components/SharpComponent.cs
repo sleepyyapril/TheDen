@@ -9,7 +9,7 @@
 using Content.Shared.Nutrition.Components;
 using Robust.Shared.GameStates;
 
-namespace Content.Server.Kitchen.Components;
+namespace Content.Shared.Kitchen.Components;
 
 /// <summary>
 ///     Applies to items that are capable of butchering entities, or
