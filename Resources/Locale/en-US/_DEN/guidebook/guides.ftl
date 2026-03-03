@@ -2,6 +2,7 @@
 # SPDX-FileCopyrightText: 2025 deltanedas
 # SPDX-FileCopyrightText: 2025 portfiend
 # SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2026 Jakumba
 # SPDX-FileCopyrightText: 2026 Kellaris
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
