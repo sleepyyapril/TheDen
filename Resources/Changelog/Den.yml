@@ -17717,3 +17717,10 @@ Entries:
   id: 1739
   time: '2026-03-01T22:09:30.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2480
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Fixed Skia guidebook entry
+  id: 1740
+  time: '2026-03-03T02:02:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2492
