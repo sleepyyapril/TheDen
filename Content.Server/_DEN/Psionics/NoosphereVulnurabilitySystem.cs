@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 lunarcomets
+//
+// SPDX-License-Identifier: MIT
+
 using Content.Server.Abilities.Psionics;
 using Content.Server.Chat.Systems;
 using Content.Shared._DEN.Traits;
