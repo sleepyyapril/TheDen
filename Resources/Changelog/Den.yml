@@ -17760,3 +17760,43 @@ Entries:
   id: 1744
   time: '2026-03-04T01:04:24.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2497
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: >-
+        Thief undetermined toolbox renamed to odd toolbox, to be less
+        conspicuous in-character.
+    - type: Tweak
+      message: >-
+        All thief kit selections are now packed into bags or briefcases instead
+        of dumped onto the floor.
+    - type: Remove
+      message: Thieving gloves are no longer default equipment for all thieves.
+    - type: Add
+      message: >-
+        Thief Bearcatcher kit now comes with a diamond drill and smuggler's
+        satchel.
+    - type: Add
+      message: >-
+        Thief Chameleon kit now comes with a fake mindshield implant, and ID
+        computer board for manipulating your manifest entry.
+    - type: Add
+      message: >-
+        Thief Sleeper kit now also comes with handcuffs, and a breath mask to
+        use with the nitrous oxide tank.
+    - type: Tweak
+      message: >-
+        Thief Syndicate kit now gets a random novelty lighter instead of a cheap
+        lighter.
+    - type: Add
+      message: >-
+        Thief Communicator kit now also comes with two freelancer encryption
+        keys, and a single syndicate code word. (This can randomly be the same
+        or different word from the thief syndicate kit)
+    - type: Add
+      message: >-
+        Thief Smuggler kit now comes with a smuggler's satchel and thieving
+        gloves.
+  id: 1745
+  time: '2026-03-04T01:09:23.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2495
