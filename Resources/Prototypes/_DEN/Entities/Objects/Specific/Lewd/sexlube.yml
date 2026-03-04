@@ -4,7 +4,7 @@
 # SPDX-FileCopyrightText: 2025 sleepyyapril
 # SPDX-FileCopyrightText: 2026 Alex C
 #
-# SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: entity # Pretty much a copy of the Water Bottle, shifted all sex-lube like. Copied from Entities/Objects/Consumable/Drinks/drinks_bottles.yml
   parent: [BaseObjectVerbsLewd, DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseInventory]
