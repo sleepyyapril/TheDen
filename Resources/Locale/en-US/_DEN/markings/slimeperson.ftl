@@ -1,3 +1,4 @@
+# SPDX-FileCopyrightText: 2026 Aikakakah
 # SPDX-FileCopyrightText: 2026 Shaman
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
