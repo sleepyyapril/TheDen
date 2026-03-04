@@ -17800,3 +17800,12 @@ Entries:
   id: 1745
   time: '2026-03-04T01:09:23.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2495
+- author: Aikakakah
+  changes:
+    - type: Add
+      message: >-
+        Added organs and bone markings for slimes. Time to host those anatomy
+        classes!
+  id: 1746
+  time: '2026-03-04T01:09:51.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2493
