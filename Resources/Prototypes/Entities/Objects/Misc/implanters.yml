@@ -284,6 +284,13 @@
     - type: Implanter
       implant: MindShieldImplant
 
+- type: entity
+  id: MindShieldImplanterFake
+  name: fake mind-shield implanter
+  parent: BaseImplantOnlyImplanterSyndi
+  components:
+  - type: Implanter
+    implant: MindShieldImplant
 # Centcomm implanters
 
 - type: entity
