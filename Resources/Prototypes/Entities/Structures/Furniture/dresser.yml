@@ -43,7 +43,7 @@
         acts: [ "Destruction" ]
   - type: Storage
     grid:
-    - 0,0,6,3
+    - 0,0,6,4
     maxItemSize: Normal
   - type: ContainerContainer
     containers:
@@ -72,6 +72,8 @@
     price: 15
   - type: StorageFill
     contents:
+      - id: HoloprojectorPrivate
+      - id: HoloprojectorNSFW
       - id: ClothingNeckLGBTPin
         prob: 0.06
         orGroup: dressermainloot
