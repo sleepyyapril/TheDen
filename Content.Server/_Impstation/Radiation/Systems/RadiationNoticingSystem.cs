@@ -1,3 +1,8 @@
+// SPDX-FileCopyrightText: 2025 TheGrimbeeper
+// SPDX-FileCopyrightText: 2025 mqole
+//
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 using Content.Shared.Popups;
 using Content.Shared.Radiation.Events;
 using Robust.Shared.Player;

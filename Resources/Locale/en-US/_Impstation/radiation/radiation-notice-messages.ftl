@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2025 TheGrimbeeper
+# SPDX-FileCopyrightText: 2025 mqole
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 radiation-noticing-message-0 = You feel prickling inside you.
 radiation-noticing-message-1 = Something tastes of metal.
 radiation-noticing-message-2 = You feel nauseous.
