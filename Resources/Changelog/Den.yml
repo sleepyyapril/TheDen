@@ -17877,3 +17877,24 @@ Entries:
   id: 1754
   time: '2026-03-05T17:33:05.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2507
+- author: Kelaris
+  changes:
+    - type: Tweak
+      message: >-
+        Slightly weakened the IK-60. -6% DPS, -17% ammo capacity, minor increase
+        in firing spread.
+    - type: Tweak
+      message: >-
+        Reduced the recharge rate of energy longarms (except basic laser rifle)
+        by 33%.
+    - type: Tweak
+      message: >-
+        Alt-click now removes your weapon or item from portable rechargers,
+        mimicking holster behavior. 
+    - type: Tweak
+      message: Changed the portable recharger's size in inventory to 2x4.
+    - type: Fix
+      message: Fixed some small unintentional tweaks to the EG-4.
+  id: 1755
+  time: '2026-03-05T17:26:54.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2510
