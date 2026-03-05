@@ -21,7 +21,6 @@
 
 using Content.Server.Botany.Components;
 using Content.Server.Chemistry.Containers.EntitySystems;
-using Content.Server.Kitchen.Components;
 using Content.Server.Popups;
 using Content.Shared.Botany;
 using Content.Shared.Examine;
@@ -41,6 +40,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using Content.Shared.Kitchen.Components;
 
 namespace Content.Server.Botany.Systems;
 
