@@ -17859,3 +17859,12 @@ Entries:
   id: 1752
   time: '2026-03-05T06:19:18.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2508
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: >-
+        All maps have had their prisoner slots set to 0. Ask in AHelp for a slot
+        to be opened instead.
+  id: 1753
+  time: '2026-03-05T06:22:05.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2509
