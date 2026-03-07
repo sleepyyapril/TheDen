@@ -3,7 +3,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-using Content.Shared._EinsteinEngines.Supermatter.Components;
+using Content.Shared._EE.Supermatter.Components;
 using Content.Shared.Atmos;
 using Robust.Shared;
 using Robust.Shared.Configuration;
