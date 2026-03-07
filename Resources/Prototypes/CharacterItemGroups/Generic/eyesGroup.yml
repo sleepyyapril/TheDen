@@ -72,4 +72,4 @@
     - type: loadout # DEN
       id: LoadoutClothingEyesGlassesRimless
     - type: loadout # DEN
-      id: ClothingEyesGlassesWhiteHalfMask
+      id: LoadoutEyesGlassesWhiteHalfMask
