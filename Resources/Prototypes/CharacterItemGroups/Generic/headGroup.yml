@@ -272,3 +272,5 @@
       id: LoadoutHeadHatTrapperPink
     - type: loadout
       id: LoadoutHeadHatFuzzyEarmuffs
+    - type: loadout
+      id: LoadoutHeadHatMagician
