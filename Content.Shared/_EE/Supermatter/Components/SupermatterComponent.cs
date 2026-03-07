@@ -1,10 +1,4 @@
-// SPDX-FileCopyrightText: 2025 Solaris <60526456+SolarisBirb@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 VMSolidus <evilexecutive@gmail.com>
-// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
-
-using Content.Shared._EE.Supermatter.Monitor;
+using Content.Shared._Impstation.StrangeMoods;
 using Content.Shared.Atmos;
 using Content.Shared.DeviceLinking;
 using Content.Shared.DoAfter;
@@ -27,6 +21,12 @@ public sealed partial class SupermatterComponent : Component
     /// </summary>
     [DataField]
     public SupermatterStatusType Status = SupermatterStatusType.Inactive;
+
+    /// <summary>
+    /// The supermatter's external gas mixture on the tile
+    /// </summary>
+    [DataField]
+    public GasMixture? GasMixture;
 
     /// <summary>
     /// The supermatter's internal gas storage
@@ -86,6 +86,9 @@ public sealed partial class SupermatterComponent : Component
     [DataField, ViewVariables(VVAccess.ReadOnly)]
     public EntProtoId DelamGamerulePrototype = "SupermatterDelamEventScheduler";
 
+    [DataField]
+    public HashSet<ProtoId<SharedMoodPrototype>> SharedMoodScrambleTargets = ["Thaven"];
+
     #endregion
 
     #region Sounds
@@ -132,6 +135,12 @@ public sealed partial class SupermatterComponent : Component
     [DataField]
     public ProtoId<SpeechSoundsPrototype>? StatusCurrentSound;
 
+    [DataField]
+    public SoundSpecifier GainParacusiaSound = new SoundPathSpecifier("/Audio/Ambience/ambidanger.ogg");
+
+    [DataField]
+    public SoundSpecifier GiveParacusiaSound = new SoundPathSpecifier("/Audio/Ambience/ambireebe3.ogg");
+
     #endregion
 
     #region Processing
@@ -158,7 +167,7 @@ public sealed partial class SupermatterComponent : Component
     /// The percentage of the gas on the supermatter's tile that is absorbed each atmos tick.
     /// </summary>
     [DataField]
-    public float GasEfficiency = 0.05f;
+    public float GasEfficiency = 0.15f;
 
     /// <summary>
     /// Uses <see cref="PowerlossDynamicScaling"/> and <see cref="GasStorage"/> to lessen the effects of our powerloss functions
@@ -293,6 +302,12 @@ public sealed partial class SupermatterComponent : Component
     #region Damage
 
     /// <summary>
+    /// The chance for lights across the station to flicker on a delamination
+    /// </summary>
+    [DataField]
+    public float LightFlickerChance = 0.33f;
+
+    /// <summary>
     /// The amount of damage taken
     /// </summary>
     [DataField]
@@ -365,6 +380,13 @@ public sealed partial class SupermatterComponent : Component
 
     [DataField]
     public bool DelamAnnounced;
+
+    /// <summary>
+    /// The radio channel for supermatter alerts
+    /// </summary>
+    [DataField]
+    public bool SuppressAnnouncements = false;
+
 
     /// <summary>
     /// The radio channel for supermatter alerts
@@ -487,11 +509,7 @@ public static class SupermatterGasData
         { Gas.WaterVapor,    new(2f,   12f,   1f,  1f) },
         { Gas.Ammonia,       new(0f,   1f,    1f , 1f) },
         { Gas.NitrousOxide,  new(0f,   -5f,   -1f, 6f) },
-        { Gas.Frezon,        new(3f,   -10f,  -1f, 1f) },
-        { Gas.BZ,            new(0f,   5f,    1f,  1f) }, // Assmos - /tg/ gases
-        { Gas.Healium,       new(2.4f, 4f,    1f,  1f) }, // Assmos - /tg/ gases
-        { Gas.Pluoxium,      new(0f,   -2.5f, -1f, 1f) }, // Assmos - /tg/ gases
-        { Gas.Nitrium,       new(30f,  10f,   1f,  1f) }, // Assmos - /tg/ gases
+        { Gas.Frezon,        new(3f,   -10f,  -1f, 1f) }
     };
 
     public static float CalculateGasMixModifier(GasMixture mix, Func<SupermatterGasFact, float> getModifier)
