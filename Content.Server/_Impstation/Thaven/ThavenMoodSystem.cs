@@ -319,10 +319,6 @@ public sealed partial class ThavenMoodsSystem : SharedThavenMoodSystem
         // "No, and" moods
         if (TryPick(NoAndDataset, out mood, GetActiveMoods(ent)))
             TryAddMood(ent, mood, true, false);
-
-        // Wildcard moods
-        if (_emag.CheckFlag(ent, EmagType.Interaction))
-            AddWildcardMood(ent, false);
     }
 
     public HashSet<ProtoId<ThavenMoodPrototype>> GetConflicts(IEnumerable<ThavenMood> moods)

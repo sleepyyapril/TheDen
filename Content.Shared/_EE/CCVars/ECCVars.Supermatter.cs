@@ -1,18 +1,15 @@
-// SPDX-FileCopyrightText: 2025 VMSolidus <evilexecutive@gmail.com>
-// SPDX-FileCopyrightText: 2025 sleepyyapril <123355664+sleepyyapril@users.noreply.github.com>
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
-
 using Content.Shared._EE.Supermatter.Components;
 using Content.Shared.Atmos;
+using Robust.Shared;
 using Robust.Shared.Configuration;
 
-namespace Content.Shared._EE.CCVars;
+namespace Content.Shared._EE.CCVar;
 
 [CVarDefs]
-// ReSharper disable once InconsistentNaming
-public sealed partial class ECCVars
+public sealed partial class EECCVars : CVars
 {
+    #region Supermatter
+
     /// <summary>
     ///     With completely default supermatter values, Singuloose delamination will occur if engineers inject at least 900 moles of coolant per tile
     ///     in the crystal chamber. For reference, a gas canister contains 1800 moles of air. This Cvar directly multiplies the amount of moles required to singuloose.
@@ -156,7 +153,7 @@ public sealed partial class ECCVars
     ///     Base amount of radiation that the supermatter emits.
     /// </summary>
     public static readonly CVarDef<float> SupermatterRadsBase =
-        CVarDef.Create("supermatter.rads_base", 3f, CVar.SERVER);
+        CVarDef.Create("supermatter.rads_base", 4f, CVar.SERVER);
 
     /// <summary>
     ///     Directly multiplies the amount of rads put out by the supermatter. Be VERY conservative with this.
@@ -181,4 +178,6 @@ public sealed partial class ECCVars
     /// </summary>
     public static readonly CVarDef<float> SupermatterYellTimer =
         CVarDef.Create("supermatter.yell_timer", 60f, CVar.SERVER);
+
+    #endregion
 }
