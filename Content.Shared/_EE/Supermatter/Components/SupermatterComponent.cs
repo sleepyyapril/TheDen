@@ -505,7 +505,11 @@ public static class SupermatterGasData
         { Gas.WaterVapor,    new(2f,   12f,   1f,  1f) },
         { Gas.Ammonia,       new(0f,   1f,    1f , 1f) },
         { Gas.NitrousOxide,  new(0f,   -5f,   -1f, 6f) },
-        { Gas.Frezon,        new(3f,   -10f,  -1f, 1f) }
+        { Gas.Frezon,        new(3f,   -10f,  -1f, 1f) },
+        { Gas.BZ,            new(0f,   5f,    1f,  1f) }, // Assmos - /tg/ gases
+        { Gas.Healium,       new(2.4f, 4f,    1f,  1f) }, // Assmos - /tg/ gases
+        { Gas.Pluoxium,      new(0f,   -2.5f, -1f, 1f) }, // Assmos - /tg/ gases
+        { Gas.Nitrium,       new(30f,  10f,   1f,  1f) }, // Assmos - /tg/ gases
     };
 
     public static float CalculateGasMixModifier(GasMixture mix, Func<SupermatterGasFact, float> getModifier)
