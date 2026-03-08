@@ -1,3 +1,8 @@
+# SPDX-FileCopyrightText: 2026 mhachimagus
+# SPDX-FileCopyrightText: 2026 portfiend
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entity
   id: CrateFunPrincessSet
   parent: CratePirate
