@@ -21,7 +21,7 @@ public sealed partial class EECCVars : CVars
     ///     Toggles whether or not Singuloose delaminations can occur. If both Singuloose and Tesloose are disabled, it will always delam into a Nuke.
     /// </summary>
     public static readonly CVarDef<bool> SupermatterDoSingulooseDelam =
-        CVarDef.Create("supermatter.do_singuloose", true, CVar.SERVER);
+        CVarDef.Create("supermatter.do_singuloose", false, CVar.SERVER);
 
     /// <summary>
     ///     By default, Supermatter will "Tesloose" if the conditions for Singuloose are not met, and the core's power is at least 4000.
@@ -35,7 +35,7 @@ public sealed partial class EECCVars : CVars
     ///     Toggles whether or not Tesloose delaminations can occur. If both Singuloose and Tesloose are disabled, it will always delam into a Nuke.
     /// </summary>
     public static readonly CVarDef<bool> SupermatterDoTeslooseDelam =
-        CVarDef.Create("supermatter.do_tesloose", true, CVar.SERVER);
+        CVarDef.Create("supermatter.do_tesloose", false, CVar.SERVER);
 
     /// <summary>
     ///     The cutoff on power properly doing damage, pulling shit around, and delaminating into a tesla.
@@ -84,13 +84,13 @@ public sealed partial class EECCVars : CVars
     ///     When true, bypass the normal checks to determine delam type, and instead use the type chosen by supermatter.forced_delam_type
     /// </summary>
     public static readonly CVarDef<bool> SupermatterDoForceDelam =
-        CVarDef.Create("supermatter.do_force_delam", false, CVar.SERVER);
+        CVarDef.Create("supermatter.do_force_delam", true, CVar.SERVER);
 
     /// <summary>
     ///     If supermatter.do_force_delam is true, this determines the delamination type, bypassing the normal checks.
     /// </summary>
     public static readonly CVarDef<DelamType> SupermatterForcedDelamType =
-        CVarDef.Create("supermatter.forced_delam_type", DelamType.Singulo, CVar.SERVER);
+        CVarDef.Create("supermatter.forced_delam_type", DelamType.Explosion, CVar.SERVER);
 
     /// <summary>
     ///     Maximum safe operational temperature in degrees Celsius.

@@ -89,7 +89,7 @@
       GlowDelam: { state: supermatter-glow-delam }
   - type: Explosive
     explosionType: Supermatter
-    totalIntensity: 80000
+    totalIntensity: 100000
     intensitySlope: 5
     maxIntensity: 100
   - type: GravityWell
