@@ -497,19 +497,26 @@ public static class SupermatterGasData
 {
     public static readonly Dictionary<Gas, SupermatterGasFact> GasData = new()
     {
-        { Gas.Oxygen,        new(1.5f, 1f,    1f,  1f) },
-        { Gas.Nitrogen,      new(0f,   -1.5f, -1f, 1f) },
-        { Gas.CarbonDioxide, new(0f,   0.1f,  1f,  1f) },
-        { Gas.Plasma,        new(4f,   15f,   1f,  1f) },
-        { Gas.Tritium,       new(30f,  10f,   1f,  1f) },
-        { Gas.WaterVapor,    new(2f,   12f,   1f,  1f) },
-        { Gas.Ammonia,       new(0f,   1f,    1f , 1f) },
-        { Gas.NitrousOxide,  new(0f,   -5f,   -1f, 6f) },
-        { Gas.Frezon,        new(3f,   -10f,  -1f, 1f) },
-        { Gas.BZ,            new(0f,   5f,    1f,  1f) }, // Assmos - /tg/ gases
-        { Gas.Healium,       new(2.4f, 4f,    1f,  1f) }, // Assmos - /tg/ gases
-        { Gas.Pluoxium,      new(0f,   -2.5f, -1f, 1f) }, // Assmos - /tg/ gases
-        { Gas.Nitrium,       new(30f,  10f,   1f,  1f) }, // Assmos - /tg/ gases
+        { Gas.Oxygen,        new(1.5f, 1f,    1f,   1f) },
+        { Gas.Nitrogen,      new(0f,   -1.5f, -1f,  1f) },
+        { Gas.CarbonDioxide, new(0f,   0.1f,  1f,   1f) },
+        { Gas.Plasma,        new(4f,   15f,   1f,   1f) },
+        { Gas.Tritium,       new(30f,  10f,   1f,   1f) },
+        { Gas.WaterVapor,    new(2f,   12f,   1f,   1f) },
+        { Gas.Ammonia,       new(0f,   1f,    1f ,  1f) },
+        { Gas.NitrousOxide,  new(0f,   -5f,   -1f,  6f) },
+        { Gas.Frezon,        new(3f,   -10f,  -1f,  1f) },
+        { Gas.BZ,            new(0f,   5f,    1f,   1f) }, // Assmos - /tg/ gases
+        { Gas.Healium,       new(2.4f, 4f,    1f,   1f) }, // Assmos - /tg/ gases
+        { Gas.Pluoxium,      new(0f,   -2.5f, -1f,  1f) }, // Assmos - /tg/ gases
+        { Gas.Nitrium,       new(30f,  10f,   1f,   1f) }, // Assmos - /tg/ gases
+        { Gas.Hydrogen,      new(25f,  10f,   1f,   1f) }, // Assmos - /tg/ gases
+        { Gas.HyperNoblium,  new(30f,  -9f,   -1f,  6f) }, // Assmos - /tg/ gases
+        { Gas.ProtoNitrate,  new(15f,  -4f,   1f,   4f) }, // Assmos - /tg/ gases
+        { Gas.Zauker,        new(2f,   4f,    2f,   1f) }, // Assmos - /tg/ gases
+        { Gas.Halon,         new(0.1f, 0.1f,  0.1f, 0.1f) }, // Assmos - /tg/ gases
+        { Gas.Helium,        new(0.1f, 0.1f,  0.1f, 0.1f) }, // Assmos - /tg/ gases
+        { Gas.AntiNoblium,   new(-.5f, 14f,   1f,   1f) }, // Assmos - /tg/ gases
     };
 
     public static float CalculateGasMixModifier(GasMixture mix, Func<SupermatterGasFact, float> getModifier)
