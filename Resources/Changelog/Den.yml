@@ -17968,3 +17968,10 @@ Entries:
   id: 1761
   time: '2026-03-08T20:41:52.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2525
+- author: Jakumba
+  changes:
+    - type: Fix
+      message: Fixed Edge causing lag/re-rendering errors.
+  id: 1762
+  time: '2026-03-08T22:00:45.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2531
