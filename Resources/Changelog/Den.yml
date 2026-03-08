@@ -17959,3 +17959,12 @@ Entries:
   id: 1760
   time: '2026-03-08T17:56:06.0000000+00:00'
   url: https://github.com/TheDenSS14/TheDen/pull/2521
+- author: MajorMoth
+  changes:
+    - type: Fix
+      message: >-
+        The Supermatter Engine's code backend has been refreshed. Stations that
+        use it as their main power source are coming.
+  id: 1761
+  time: '2026-03-08T20:41:52.0000000+00:00'
+  url: https://github.com/TheDenSS14/TheDen/pull/2525
