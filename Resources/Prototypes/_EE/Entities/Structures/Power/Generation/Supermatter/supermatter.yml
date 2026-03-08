@@ -43,7 +43,7 @@
     range: 20
     volume: -5
     sound:
-      path: /Audio/_EinsteinEngines/Supermatter/calm.ogg
+      path: /Audio/_EE/Supermatter/calm.ogg
   - type: Speech
     speechSounds: SupermatterSilent
     speechVerb: Supermatter

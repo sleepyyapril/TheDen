@@ -1,6 +1,7 @@
 - type: entity
   id: SupermatterDelamEventScheduler
   parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
   components:
   - type: BasicStationEventScheduler
     scheduledGameRules: !type:NestedSelector
@@ -16,17 +17,13 @@
     - id: IonStorm
     - id: PowerGridCheck
     - id: SolarFlare
-    # teehee
-    - id: ChangelingAwakening
-    - id: GameRuleUristSwarm
-    - id: GreytideVirus
-    - id: ParadoxCloneSpawn
     # supermatter specials
     - id: SupermatterSpiderSpawn
 
 - type: entity
   id: SupermatterSpiderSpawn
   parent: BaseStationEventShortDelay
+  categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
     earliestStart: 20
