@@ -4,7 +4,6 @@
 //
 // SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
-using Content.Server.Mind;
 using Content.Server.Station.Systems;
 using Content.Shared._DEN.Consent;
 using Content.Shared._Floof.Consent;
@@ -36,8 +35,13 @@ public sealed class ConsentSystem : SharedConsentSystem
     private void OnSpawnComplete(PlayerSpawnCompleteEvent msg, EntitySessionEventArgs args) =>
         RefreshConsents(args.SenderSession);
 
-    private void OnPlayerAttached(PlayerAttachedEvent args) =>
+    private void OnPlayerAttached(PlayerAttachedEvent args)
+    {
+        if (!UserConsents.ContainsKey(args.Player.UserId))
+            return;
+
         RefreshConsents(args.Player);
+    }
 
     // mindless entities should not have old consent preferences
     private void OnPlayerDetached(PlayerDetachedEvent args) =>
