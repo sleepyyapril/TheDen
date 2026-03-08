@@ -39,7 +39,8 @@ public sealed partial class SupermatterGasBarContainer : BoxContainer
         _proto = IoCManager.Resolve<IPrototypeManager>();
         _cache = IoCManager.Resolve<IResourceCache>();
 
-        var gasProto = _proto.Index<GasPrototype>(gas.ToString());
+        var gasId = (int)gas;
+        var gasProto = _proto.Index<GasPrototype>(gasId.ToString());
 
         // List definitions
         var detailLabels = new List<Label>()
